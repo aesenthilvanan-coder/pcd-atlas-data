@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 246,
+  "total_entries": 247,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44671,
-    "queue_remaining": 133926
+    "total_processed": 44672,
+    "queue_remaining": 133925
   },
   "entries": [
     {
@@ -54784,6 +54784,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:44:13.564489+00:00"
+    },
+    {
+      "entry_id": "PCD-KCNJ1-R6Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNJ1-R6Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KCNJ1",
+        "uniprot": "",
+        "clinvar_id": "303577",
+        "disease": "Bartter disease type 2",
+        "mutation_precursor": "R6Q",
+        "mutation_mature": "R6Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8810443135536407,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 500.6203248912738,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -26.206418991088867,
+          -69.97756958007812,
+          -7.391404628753662
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.9175498080108015,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6339730643104821,
+        "cryptic": true,
+        "pocket_residues": {
+          "N2": "N",
+          "A3": "A",
+          "S4": "S",
+          "S5": "S",
+          "R6": "R",
+          "N7": "N"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P48048|KCNJ1 variant R6Q",
+        "fasta_sequence": "MNASSRNVFDTLIRVLTESMFKHLRKWVVTRFFGHSRQRARLVSKDGRCNIEFGNVEAQSRFIFFVDIWTTVLDLKWRYKMTIFITAFLGSWFFFGLLWYAVAYIHKDLPEFHPSANHTPCVENINGLTSAFLFSLETQVTIGYGFRCVTEQCATAIFLLIFQSILGVIINSFMCGAILAKISRPKKRAKTITFSKNAVISKRGGKLCLLIRVANLRKSLLIGSHIYGKLLKTTVTPEGETIILDQININFVVDAGNENLFFISPLTIYHVIDHNSPFFHMAAETLLQQDFELVVFLDGTVESTSATCQVRTSYVPEEVLWGYRFAPIVSKTKEGKYRVDFHNFSKTVEVETPHCAMCLYNEKDVRARMKRGYDNPNFILSEVNETDDTKM",
+        "full_sequence": "MNASSRNVFDTLIRVLTESMFKHLRKWVVTRFFGHSRQRARLVSKDGRCNIEFGNVEAQSRFIFFVDIWTTVLDLKWRYKMTIFITAFLGSWFFFGLLWYAVAYIHKDLPEFHPSANHTPCVENINGLTSAFLFSLETQVTIGYGFRCVTEQCATAIFLLIFQSILGVIINSFMCGAILAKISRPKKRAKTITFSKNAVISKRGGKLCLLIRVANLRKSLLIGSHIYGKLLKTTVTPEGETIILDQININFVVDAGNENLFFISPLTIYHVIDHNSPFFHMAAETLLQQDFELVVFLDGTVESTSATCQVRTSYVPEEVLWGYRFAPIVSKTKEGKYRVDFHNFSKTVEVETPHCAMCLYNEKDVRARMKRGYDNPNFILSEVNETDDTKM",
+        "n_residues": 391,
+        "mutation_pos_1indexed": 6,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "N2-A3-S4-S5-R6-N7",
+        "pocket_lining_positions_precursor": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "pocket_lining_1letter": "NASSRN",
+        "sequence_slice_around_pocket": "MNASSRNVFDTLIRV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ1_R6Q/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "N2",
+          "A3",
+          "S4",
+          "S5",
+          "R6",
+          "N7"
+        ],
+        "values": [
+          [
+            0.0,
+            3.854,
+            5.251,
+            6.197,
+            7.912,
+            9.777
+          ],
+          [
+            3.854,
+            0.0,
+            3.867,
+            5.492,
+            5.399,
+            6.785
+          ],
+          [
+            5.251,
+            3.867,
+            0.0,
+            3.87,
+            5.567,
+            5.421
+          ],
+          [
+            6.197,
+            5.492,
+            3.87,
+            0.0,
+            3.865,
+            5.561
+          ],
+          [
+            7.912,
+            5.399,
+            5.567,
+            3.865,
+            0.0,
+            3.847
+          ],
+          [
+            9.777,
+            6.785,
+            5.421,
+            5.561,
+            3.847,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.5478306820131512,
+        "mw": 302.21,
+        "logp": 2.025,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.8623,
+        "sa_score": 3.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KCNJ1-R6Q Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5478,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ1_R6Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ1_R6Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ1_R6Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ1_R6Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ1_R6Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNJ1-R6Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNJ1-R6Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:44:35.443551+00:00"
     }
   ]
 }
