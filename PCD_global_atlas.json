@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1240,
+  "total_entries": 1241,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45841,
-    "queue_remaining": 132756
+    "total_processed": 45842,
+    "queue_remaining": 132755
   },
   "entries": [
     {
@@ -274198,6 +274198,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:58:44.436120+00:00"
+    },
+    {
+      "entry_id": "PCD-CETP-V106M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CETP-V106M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CETP",
+        "uniprot": "",
+        "clinvar_id": "319976",
+        "disease": "Hyperalphalipoproteinemia 1",
+        "mutation_precursor": "V106M",
+        "mutation_mature": "V106M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8348737874305269,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 642.358299844619,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          22.08442497253418,
+          13.699396133422852,
+          -13.816431045532227
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.8357951294777255,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8755591959712824,
+        "cryptic": true,
+        "pocket_residues": {
+          "L84": "L",
+          "S85": "S",
+          "I86": "I",
+          "A87": "A",
+          "S88": "S",
+          "N105": "N",
+          "V106": "V",
+          "S107": "S"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P11597|CETP variant V106M",
+        "fasta_sequence": "MLAATVLTLALLGNAHACSKGTSHEAGIVCRITKPALLVLNHETAKVIQTAFQRASYPDITGEKAMMLLGQVKYGLHNIQISHLSIASSQVELVEAKSIDVSIQNVSVVFKGTLKYGYTTAWWLGIDQSIDFEIDSAIDLQINTQLTCDSGRVRTDAPDCYLSFHKLLLHLQGEREPGWIKQLFTNFISFTLKLVLKGQICKEINVISNIMADFVQTRAASILSDGDIGVDISLTGDPVITASYLESHHKGHFIYKNVSEDLPLPTFSPTLLGDSRMLYFWFSERVFHSLAKVAFQDGRLMLSLMGDEFKAVLETWGFNTNQEIFQEVVGGFPSQAQVTVHCLKMPKISCQNKGVVVNSSVMVKFLFPRPDQQHSVAYTFEEDIVTTVQASYSKKKLFLSLLDFQITPKTVSNLTESSSESVQSFLQSMITAVGIPEVMSRLEVVFTALMNSKGVSLFDIINPEIITRDGFLLLQMDFGFPEHLLVDFLQSLS",
+        "full_sequence": "MLAATVLTLALLGNAHACSKGTSHEAGIVCRITKPALLVLNHETAKVIQTAFQRASYPDITGEKAMMLLGQVKYGLHNIQISHLSIASSQVELVEAKSIDVSIQNVSVVFKGTLKYGYTTAWWLGIDQSIDFEIDSAIDLQINTQLTCDSGRVRTDAPDCYLSFHKLLLHLQGEREPGWIKQLFTNFISFTLKLVLKGQICKEINVISNIMADFVQTRAASILSDGDIGVDISLTGDPVITASYLESHHKGHFIYKNVSEDLPLPTFSPTLLGDSRMLYFWFSERVFHSLAKVAFQDGRLMLSLMGDEFKAVLETWGFNTNQEIFQEVVGGFPSQAQVTVHCLKMPKISCQNKGVVVNSSVMVKFLFPRPDQQHSVAYTFEEDIVTTVQASYSKKKLFLSLLDFQITPKTVSNLTESSSESVQSFLQSMITAVGIPEVMSRLEVVFTALMNSKGVSLFDIINPEIITRDGFLLLQMDFGFPEHLLVDFLQSLS",
+        "n_residues": 493,
+        "mutation_pos_1indexed": 106,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "L84-S85-I86-A87-S88-N105-V106-S107",
+        "pocket_lining_positions_precursor": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          105,
+          106,
+          107
+        ],
+        "pocket_lining_1letter": "LSIASNVS",
+        "sequence_slice_around_pocket": "AKSIDVSIQNVSVVFKGTLK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CETP_V106M/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "L84",
+          "S85",
+          "I86",
+          "A87",
+          "S88",
+          "N105",
+          "V106",
+          "S107"
+        ],
+        "values": [
+          [
+            0.0,
+            3.826,
+            7.044,
+            10.329,
+            12.94,
+            10.563,
+            7.221,
+            5.688
+          ],
+          [
+            3.826,
+            0.0,
+            3.839,
+            6.719,
+            9.566,
+            8.328,
+            5.78,
+            5.197
+          ],
+          [
+            7.044,
+            3.839,
+            0.0,
+            3.825,
+            5.898,
+            6.128,
+            4.403,
+            6.276
+          ],
+          [
+            10.329,
+            6.719,
+            3.825,
+            0.0,
+            3.845,
+            5.526,
+            6.35,
+            8.081
+          ],
+          [
+            12.94,
+            9.566,
+            5.898,
+            3.845,
+            0.0,
+            7.29,
+            8.285,
+            11.085
+          ],
+          [
+            10.563,
+            8.328,
+            6.128,
+            5.526,
+            7.29,
+            0.0,
+            3.828,
+            5.937
+          ],
+          [
+            7.221,
+            5.78,
+            4.403,
+            6.35,
+            8.285,
+            3.828,
+            0.0,
+            3.817
+          ],
+          [
+            5.688,
+            5.197,
+            6.276,
+            8.081,
+            11.085,
+            5.937,
+            3.817,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6325837109927972,
+        "mw": 414.18,
+        "logp": 2.14,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.4888,
+        "sa_score": 3.05,
+        "n_heavy_atoms": 29,
+        "tpsa": 130.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CETP-V106M Candidate #1",
+        "iupac_name": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6326,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CETP_V106M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CETP_V106M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CETP_V106M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CETP_V106M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CETP_V106M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CETP-V106M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CETP-V106M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:59:10.103536+00:00"
     }
   ]
 }
