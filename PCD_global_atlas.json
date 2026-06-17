@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1325,
+  "total_entries": 1326,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45942,
-    "queue_remaining": 132655
+    "total_processed": 45944,
+    "queue_remaining": 132653
   },
   "entries": [
     {
@@ -293254,6 +293254,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:20:21.054490+00:00"
+    },
+    {
+      "entry_id": "PCD-B9D2-R75Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-B9D2-R75Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "B9D2",
+        "uniprot": "",
+        "clinvar_id": "1970648",
+        "disease": "Joubert syndrome;Meckel-Gruber syndrome",
+        "mutation_precursor": "R75Q",
+        "mutation_mature": "R75Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8349533523841254,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 612.6091897916767,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -14.395697593688965,
+          5.517515659332275,
+          -0.1737285554409027
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.543309027472182,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6919832700463671,
+        "cryptic": true,
+        "pocket_residues": {
+          "G26": "G",
+          "I27": "I",
+          "H28": "H",
+          "T29": "T",
+          "G30": "G",
+          "G72": "G",
+          "W73": "W",
+          "P74": "P",
+          "R75": "R",
+          "L76": "L"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9BPU9|B9D2 variant R75Q",
+        "fasta_sequence": "MAEVHVIGQIIGASGFSESSLFCKWGIHTGAAWKLLSGVREGQTQVDTPQIGDMAYWSHPIDLHFATKGLQGWPRLHFQVWSQDSFGRCQLAGYGFCHVPSSPGTHQLACPTWRPLGSWREQLARAFVGGGPQLLHGDTIYSGADRYRLHTAAGGTVHLEIGLLLRNFDRYGVEC",
+        "full_sequence": "MAEVHVIGQIIGASGFSESSLFCKWGIHTGAAWKLLSGVREGQTQVDTPQIGDMAYWSHPIDLHFATKGLQGWPRLHFQVWSQDSFGRCQLAGYGFCHVPSSPGTHQLACPTWRPLGSWREQLARAFVGGGPQLLHGDTIYSGADRYRLHTAAGGTVHLEIGLLLRNFDRYGVEC",
+        "n_residues": 175,
+        "mutation_pos_1indexed": 75,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "G26-I27-H28-T29-G30-G72-W73-P74-R75-L76",
+        "pocket_lining_positions_precursor": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          72,
+          73,
+          74,
+          75,
+          76
+        ],
+        "pocket_lining_1letter": "GIHTGGWPRL",
+        "sequence_slice_around_pocket": "FATKGLQGWPRLHFQVWSQD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/B9D2_R75Q/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "G26",
+          "I27",
+          "H28",
+          "T29",
+          "G30",
+          "G72",
+          "W73",
+          "P74",
+          "R75",
+          "L76"
+        ],
+        "values": [
+          [
+            0.0,
+            3.803,
+            6.738,
+            10.153,
+            13.752,
+            14.841,
+            13.906,
+            10.285,
+            8.423,
+            5.832
+          ],
+          [
+            3.803,
+            0.0,
+            3.795,
+            6.633,
+            10.397,
+            11.33,
+            10.24,
+            6.62,
+            5.576,
+            4.515
+          ],
+          [
+            6.738,
+            3.795,
+            0.0,
+            3.844,
+            7.143,
+            8.36,
+            8.42,
+            5.817,
+            5.171,
+            6.393
+          ],
+          [
+            10.153,
+            6.633,
+            3.844,
+            0.0,
+            3.836,
+            5.483,
+            5.941,
+            4.656,
+            6.42,
+            8.955
+          ],
+          [
+            13.752,
+            10.397,
+            7.143,
+            3.836,
+            0.0,
+            3.868,
+            6.476,
+            7.378,
+            9.37,
+            12.429
+          ],
+          [
+            14.841,
+            11.33,
+            8.36,
+            5.483,
+            3.868,
+            0.0,
+            3.828,
+            6.403,
+            8.282,
+            11.942
+          ],
+          [
+            13.906,
+            10.24,
+            8.42,
+            5.941,
+            6.476,
+            3.828,
+            0.0,
+            3.865,
+            6.555,
+            10.12
+          ],
+          [
+            10.285,
+            6.62,
+            5.817,
+            4.656,
+            7.378,
+            6.403,
+            3.865,
+            0.0,
+            3.846,
+            6.76
+          ],
+          [
+            8.423,
+            5.576,
+            5.171,
+            6.42,
+            9.37,
+            8.282,
+            6.555,
+            3.846,
+            0.0,
+            3.794
+          ],
+          [
+            5.832,
+            4.515,
+            6.393,
+            8.955,
+            12.429,
+            11.942,
+            10.12,
+            6.76,
+            3.794,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CC(=O)CCC1OCNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.6520510617008188,
+        "mw": 388.13,
+        "logp": 2.093,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.7352,
+        "sa_score": 3.39,
+        "n_heavy_atoms": 27,
+        "tpsa": 97.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "B9D2-R75Q Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CC(=O)CCC1OCNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.6521,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/B9D2_R75Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/B9D2_R75Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/B9D2_R75Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/B9D2_R75Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/B9D2_R75Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-B9D2-R75Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-B9D2-R75Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:20:55.753312+00:00"
     }
   ]
 }
