@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1180,
+  "total_entries": 1181,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45777,
-    "queue_remaining": 132820
+    "total_processed": 45778,
+    "queue_remaining": 132819
   },
   "entries": [
     {
@@ -260266,6 +260266,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:15:08.813522+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC12A1-N166S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC12A1-N166S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC12A1",
+        "uniprot": "",
+        "clinvar_id": "316256",
+        "disease": "Bartter disease type 1",
+        "mutation_precursor": "N166S",
+        "mutation_mature": "N166S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8637107001211621,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 309.8290275417725,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          21.912967681884766,
+          -9.56130313873291,
+          30.652196884155273
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.603836284160479,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7352010045797459,
+        "cryptic": true,
+        "pocket_residues": {
+          "A164": "A",
+          "E165": "E",
+          "N166": "N",
+          "K167": "K",
+          "E168": "E",
+          "D169": "D"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13621|SLC12A1 variant N166S",
+        "fasta_sequence": "MSLNNSSNVFLDSVPSNTNRFQVSVINENHESSAAADDNTDPPHYEETSFGDEAQKRLRISFRPGNQECYDNFLQSGETAKTDASFHAYDSHTNTYYLQTFGHNTMDAVPKIEYYRNTGSISGPKVNRPSLLEIHEQLAKNVAVTPSSADRVANGDGIPGDEQAENKEDDQAGVVKFGWVKGVLVRCMLNIWGVMLFIRLSWIVGEAGIGLGVLIILLSTMVTSITGLSTSAIATNGFVRGGGAYYLISRSLGPEFGGSIGLIFAFANAVAVAMYVVGFAETVVDLLKESDSMMVDPTNDIRIIGSITVVILLGISVAGMEWEAKAQVILLVILLIAIANFFIGTVIPSNNEKKSRGFFNYQASIFAENFGPRFTKGEGFFSVFAIFFPAATGILAGANISGDLEDPQDAIPRGTMLAIFITTVAYLGVAICVGACVVRDATGNMNDTIISGMNCNGSAACGLGYDFSRCRHEPCQYGLMNNFQVMSMVSGFGPLITAGIFSATLSSALASLVSAPKVFQALCKDNIYKALQFFAKGYGKNNEPLRGYILTFLIAMAFILIAELNTIAPIISNFFLASYALINFSCFHASYAKSPGWRPAYGIYNMWVSLFGAVLCCAVMFVINWWAAVITYVIEFFLYVYVTCKKPDVNWGSSTQALSYVSALDNALELTTVEDHVKNFRPQCIVLTGGPMTRPALLDITHAFTKNSGLCICCEVFVGPRKLCVKEMNSGMAKKQAWLIKNKIKAFYAAVAADCFRDGVRSLLQASGLGRMKPNTLVIGYKKNWRKAPLTEIENYVGIIHDAFDFEIGVVIVRISQGFDISQVLQVQEELERLEQERLALEATIKDNECEEESGGIRGLFKKAGKLNITKTTPKKDGSINTSQSMHVGEFNQKLVEASTQFKKKQEKGTIDVWWLFDDGGLTLLIPYILTLRKKWKDCKLRIYVGGKINRIEEEKIVMASLLSKFRIKFADIHIIGDINIRPNKESWKVFEEMIEPYRLHESCKDLTTAEKLKRETPWKITDAELEAVKEKSYRQVRLNELLQEHSRAANLIVLSLPVARKGSISDLLYMAWLEILTKNLPPVLLVRGNHKNVLTFYS",
+        "full_sequence": "MSLNNSSNVFLDSVPSNTNRFQVSVINENHESSAAADDNTDPPHYEETSFGDEAQKRLRISFRPGNQECYDNFLQSGETAKTDASFHAYDSHTNTYYLQTFGHNTMDAVPKIEYYRNTGSISGPKVNRPSLLEIHEQLAKNVAVTPSSADRVANGDGIPGDEQAENKEDDQAGVVKFGWVKGVLVRCMLNIWGVMLFIRLSWIVGEAGIGLGVLIILLSTMVTSITGLSTSAIATNGFVRGGGAYYLISRSLGPEFGGSIGLIFAFANAVAVAMYVVGFAETVVDLLKESDSMMVDPTNDIRIIGSITVVILLGISVAGMEWEAKAQVILLVILLIAIANFFIGTVIPSNNEKKSRGFFNYQASIFAENFGPRFTKGEGFFSVFAIFFPAATGILAGANISGDLEDPQDAIPRGTMLAIFITTVAYLGVAICVGACVVRDATGNMNDTIISGMNCNGSAACGLGYDFSRCRHEPCQYGLMNNFQVMSMVSGFGPLITAGIFSATLSSALASLVSAPKVFQALCKDNIYKALQFFAKGYGKNNEPLRGYILTFLIAMAFILIAELNTIAPIISNFFLASYALINFSCFHASYAKSPGWRPAYGIYNMWVSLFGAVLCCAVMFVINWWAAVITYVIEFFLYVYVTCKKPDVNWGSSTQALSYVSALDNALELTTVEDHVKNFRPQCIVLTGGPMTRPALLDITHAFTKNSGLCICCEVFVGPRKLCVKEMNSGMAKKQAWLIKNKIKAFYAAVAADCFRDGVRSLLQASGLGRMKPNTLVIGYKKNWRKAPLTEIENYVGIIHDAFDFEIGVVIVRISQGFDISQVLQVQEELERLEQERLALEATIKDNECEEESGGIRGLFKKAGKLNITKTTPKKDGSINTSQSMHVGEFNQKLVEASTQFKKKQEKGTIDVWWLFDDGGLTLLIPYILTLRKKWKDCKLRIYVGGKINRIEEEKIVMASLLSKFRIKFADIHIIGDINIRPNKESWKVFEEMIEPYRLHESCKDLTTAEKLKRETPWKITDAELEAVKEKSYRQVRLNELLQEHSRAANLIVLSLPVARKGSISDLLYMAWLEILTKNLPPVLLVRGNHKNVLTFYS",
+        "n_residues": 1099,
+        "mutation_pos_1indexed": 166,
+        "wt_aa": "N",
+        "mut_aa": "S",
+        "pocket_lining_residues": "A164-E165-N166-K167-E168-D169",
+        "pocket_lining_positions_precursor": [
+          164,
+          165,
+          166,
+          167,
+          168,
+          169
+        ],
+        "pocket_lining_1letter": "AENKED",
+        "sequence_slice_around_pocket": "DGIPGDEQAENKEDDQAGVV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC12A1_N166S/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "A164",
+          "E165",
+          "N166",
+          "K167",
+          "E168",
+          "D169"
+        ],
+        "values": [
+          [
+            0.0,
+            3.772,
+            5.936,
+            6.425,
+            9.561,
+            10.459
+          ],
+          [
+            3.772,
+            0.0,
+            3.799,
+            6.15,
+            8.614,
+            10.257
+          ],
+          [
+            5.936,
+            3.799,
+            0.0,
+            3.703,
+            4.998,
+            7.422
+          ],
+          [
+            6.425,
+            6.15,
+            3.703,
+            0.0,
+            3.617,
+            4.251
+          ],
+          [
+            9.561,
+            8.614,
+            4.998,
+            3.617,
+            0.0,
+            3.852
+          ],
+          [
+            10.459,
+            10.257,
+            7.422,
+            4.251,
+            3.852,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CCCCC1",
+        "composite_score": 0.7630107871058881,
+        "mw": 219.17,
+        "logp": 1.963,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8415,
+        "sa_score": 2.19,
+        "n_heavy_atoms": 16,
+        "tpsa": 42.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC12A1-N166S Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.763,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC12A1_N166S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC12A1_N166S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC12A1_N166S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC12A1_N166S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC12A1_N166S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC12A1-N166S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC12A1-N166S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:15:45.904080+00:00"
     }
   ]
 }
