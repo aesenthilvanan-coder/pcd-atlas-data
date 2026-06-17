@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 86,
+  "total_entries": 87,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44487,
-    "queue_remaining": 134110
+    "total_processed": 44488,
+    "queue_remaining": 134109
   },
   "entries": [
     {
@@ -19219,6 +19219,229 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:51:08.082046+00:00"
+    },
+    {
+      "entry_id": "PCD-MTMR2-R621Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MTMR2-R621Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MTMR2",
+        "uniprot": "",
+        "clinvar_id": "306533",
+        "disease": "Charcot-Marie-Tooth disease type 4",
+        "mutation_precursor": "R621Q",
+        "mutation_mature": "R621Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7897375401944645,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 377.15280408409654,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          29.46965217590332,
+          6.654178142547607,
+          38.542869567871094
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.403191597345719,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6153391292110985,
+        "cryptic": true,
+        "pocket_residues": {
+          "I618": "I",
+          "S619": "S",
+          "N620": "N",
+          "R621": "R",
+          "S622": "S",
+          "T623": "T",
+          "S624": "S",
+          "S625": "S",
+          "S626": "S"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13614|MTMR2 variant R621Q",
+        "fasta_sequence": "MEKSSSCESLGSQPAAARPPSVDSLSSASTSHSENSVHTKSASVVSSDSISTSADNFSPDLRVLRESNKLAEMEEPPLLPGENIKDMAKDVTYICPFTGAVRGTLTVTNYRLYFKSMERDPPFVLDASLGVINRVEKIGGASSRGENSYGLETVCKDIRNLRFAHKPEGRTRRSIFENLMKYAFPVSNNLPLFAFEYKEVFPENGWKLYDPLLEYRRQGIPNESWRITKINERYELCDTYPALLVVPANIPDEELKRVASFRSRGRIPVLSWIHPESQATITRCSQPMVGVSGKRSKEDEKYLQAIMDSNAQSHKIFIFDARPSVNAVANKAKGGGYESEDAYQNAELVFLDIHNIHVMRESLRKLKEIVYPNIEETHWLSNLESTHWLEHIKLILAGALRIADKVESGKTSVVVHCSDGWDRTAQLTSLAMLMLDGYYRTIRGFEVLVEKEWLSFGHRFQLRVGHGDKNHADADRSPVFLQFIDCVWQMTRQFPTAFEFNEYFLITILDHLYSCLFGTFLCNSEQQRGKENLPKRTVSLWSYINSQLEDFTNPLYGSYSNHVLYPVASMRHLELWVGYYIRWNPRMKPQEPIHNRYKELLAKRAELQKKVEELQREISNRSTSSSERASSPAQCVTPVQTVV",
+        "full_sequence": "MEKSSSCESLGSQPAAARPPSVDSLSSASTSHSENSVHTKSASVVSSDSISTSADNFSPDLRVLRESNKLAEMEEPPLLPGENIKDMAKDVTYICPFTGAVRGTLTVTNYRLYFKSMERDPPFVLDASLGVINRVEKIGGASSRGENSYGLETVCKDIRNLRFAHKPEGRTRRSIFENLMKYAFPVSNNLPLFAFEYKEVFPENGWKLYDPLLEYRRQGIPNESWRITKINERYELCDTYPALLVVPANIPDEELKRVASFRSRGRIPVLSWIHPESQATITRCSQPMVGVSGKRSKEDEKYLQAIMDSNAQSHKIFIFDARPSVNAVANKAKGGGYESEDAYQNAELVFLDIHNIHVMRESLRKLKEIVYPNIEETHWLSNLESTHWLEHIKLILAGALRIADKVESGKTSVVVHCSDGWDRTAQLTSLAMLMLDGYYRTIRGFEVLVEKEWLSFGHRFQLRVGHGDKNHADADRSPVFLQFIDCVWQMTRQFPTAFEFNEYFLITILDHLYSCLFGTFLCNSEQQRGKENLPKRTVSLWSYINSQLEDFTNPLYGSYSNHVLYPVASMRHLELWVGYYIRWNPRMKPQEPIHNRYKELLAKRAELQKKVEELQREISNRSTSSSERASSPAQCVTPVQTVV",
+        "n_residues": 643,
+        "mutation_pos_1indexed": 621,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "I618-S619-N620-R621-S622-T623-S624-S625-S626",
+        "pocket_lining_positions_precursor": [
+          618,
+          619,
+          620,
+          621,
+          622,
+          623,
+          624,
+          625,
+          626
+        ],
+        "pocket_lining_1letter": "ISNRSTSSS",
+        "sequence_slice_around_pocket": "VEELQREISNRSTSSSERAS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MTMR2_R621Q/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "I618",
+          "S619",
+          "N620",
+          "R621",
+          "S622",
+          "T623",
+          "S624",
+          "S625",
+          "S626"
+        ],
+        "values": [
+          [
+            0.0,
+            3.861,
+            5.589,
+            5.203,
+            6.372,
+            8.951,
+            10.076,
+            10.892,
+            12.849
+          ],
+          [
+            3.861,
+            0.0,
+            3.848,
+            5.467,
+            5.263,
+            6.498,
+            8.83,
+            10.221,
+            11.1
+          ],
+          [
+            5.589,
+            3.848,
+            0.0,
+            3.86,
+            5.589,
+            5.351,
+            6.337,
+            8.921,
+            10.264
+          ],
+          [
+            5.203,
+            5.467,
+            3.86,
+            0.0,
+            3.858,
+            5.533,
+            5.118,
+            6.381,
+            8.911
+          ],
+          [
+            6.372,
+            5.263,
+            5.589,
+            3.858,
+            0.0,
+            3.867,
+            5.508,
+            5.28,
+            6.531
+          ],
+          [
+            8.951,
+            6.498,
+            5.351,
+            5.533,
+            3.867,
+            0.0,
+            3.863,
+            5.493,
+            5.207
+          ],
+          [
+            10.076,
+            8.83,
+            6.337,
+            5.118,
+            5.508,
+            3.863,
+            0.0,
+            3.856,
+            5.523
+          ],
+          [
+            10.892,
+            10.221,
+            8.921,
+            6.381,
+            5.28,
+            5.493,
+            3.856,
+            0.0,
+            3.86
+          ],
+          [
+            12.849,
+            11.1,
+            10.264,
+            8.911,
+            6.531,
+            5.207,
+            5.523,
+            3.86,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCc1ccc(OC)c(N2CCCCC2O)c1",
+        "composite_score": 0.5329304456345949,
+        "mw": 264.18,
+        "logp": 1.766,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 5,
+        "qed": 0.8505,
+        "sa_score": 2.77,
+        "n_heavy_atoms": 19,
+        "tpsa": 44.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MTMR2-R621Q Candidate #1",
+        "iupac_name": "CNCCc1ccc(OC)c(N2CCCCC2O)c1",
+        "pocket_affinity_score": 0.5329,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MTMR2_R621Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MTMR2_R621Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MTMR2_R621Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MTMR2_R621Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MTMR2_R621Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MTMR2-R621Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MTMR2-R621Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:51:32.359457+00:00"
     }
   ]
 }
