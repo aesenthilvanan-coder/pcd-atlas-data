@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 802,
+  "total_entries": 803,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45317,
-    "queue_remaining": 133280
+    "total_processed": 45318,
+    "queue_remaining": 133279
   },
   "entries": [
     {
@@ -176295,6 +176295,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T14:23:50.609774+00:00"
+    },
+    {
+      "entry_id": "PCD-FGF23-P172L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGF23-P172L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FGF23",
+        "uniprot": "",
+        "clinvar_id": "308806",
+        "disease": "Tumoral calcinosis, hyperphosphatemic, familial, 2",
+        "mutation_precursor": "P172L",
+        "mutation_mature": "P172L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9190900455230125,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 535.4689569992637,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -2.71931791305542,
+          -2.1610147953033447,
+          -25.42526626586914
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.169021926955682,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7012505991635247,
+        "cryptic": true,
+        "pocket_residues": {
+          "P172": "P",
+          "I173": "I",
+          "P174": "P",
+          "R175": "R",
+          "R176": "R"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9GZV9|FGF23 variant P172L",
+        "fasta_sequence": "MLGARLRLWVCALCSVCSMSVLRAYPNASPLLGSSWGGLIHLYTATARNSYHLQIHKNGHVDGAPHQTIYSALMIRSEDAGFVVITGVMSRRYLCMDFRGNIFGSHYFDPENCRFQHQTLENGYDVYHSPQYHFLVSLGRAKRAFLPGMNPPPYSQFLSRRNEIPLIHFNTPIPRRHTRSAEDDSERDPLNVLKPRARMTPAPASCSQELPSAEDNSPMASDPLGVVRGGRVNTHAGGTGPEGCRPFAKFI",
+        "full_sequence": "MLGARLRLWVCALCSVCSMSVLRAYPNASPLLGSSWGGLIHLYTATARNSYHLQIHKNGHVDGAPHQTIYSALMIRSEDAGFVVITGVMSRRYLCMDFRGNIFGSHYFDPENCRFQHQTLENGYDVYHSPQYHFLVSLGRAKRAFLPGMNPPPYSQFLSRRNEIPLIHFNTPIPRRHTRSAEDDSERDPLNVLKPRARMTPAPASCSQELPSAEDNSPMASDPLGVVRGGRVNTHAGGTGPEGCRPFAKFI",
+        "n_residues": 251,
+        "mutation_pos_1indexed": 172,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "P172-I173-P174-R175-R176",
+        "pocket_lining_positions_precursor": [
+          172,
+          173,
+          174,
+          175,
+          176
+        ],
+        "pocket_lining_1letter": "PIPRR",
+        "sequence_slice_around_pocket": "NEIPLIHFNTPIPRRHTRSA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FGF23_P172L/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "P172",
+          "I173",
+          "P174",
+          "R175",
+          "R176"
+        ],
+        "values": [
+          [
+            0.0,
+            3.834,
+            5.94,
+            7.879,
+            11.238
+          ],
+          [
+            3.834,
+            0.0,
+            3.851,
+            6.021,
+            9.017
+          ],
+          [
+            5.94,
+            3.851,
+            0.0,
+            3.822,
+            5.865
+          ],
+          [
+            7.879,
+            6.021,
+            3.822,
+            0.0,
+            3.805
+          ],
+          [
+            11.238,
+            9.017,
+            5.865,
+            3.805,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5607731539145759,
+        "mw": 358.24,
+        "logp": 1.913,
+        "hbd": 1,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.802,
+        "sa_score": 3.48,
+        "n_heavy_atoms": 26,
+        "tpsa": 79.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FGF23-P172L Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5608,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FGF23_P172L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FGF23_P172L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FGF23_P172L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FGF23_P172L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FGF23_P172L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGF23-P172L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGF23-P172L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T14:24:12.722499+00:00"
     }
   ]
 }
