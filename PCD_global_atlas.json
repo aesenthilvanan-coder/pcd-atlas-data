@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 681,
+  "total_entries": 682,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45176,
-    "queue_remaining": 133421
+    "total_processed": 45177,
+    "queue_remaining": 133420
   },
   "entries": [
     {
@@ -150795,6 +150795,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:47:53.241126+00:00"
+    },
+    {
+      "entry_id": "PCD-ATL1-P208S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATL1-P208S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ATL1",
+        "uniprot": "",
+        "clinvar_id": "313296",
+        "disease": "Hereditary spastic paraplegia 3A",
+        "mutation_precursor": "P208S",
+        "mutation_mature": "P208S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.810237380646818,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 621.2775989940316,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -13.516063690185547,
+          2.300750732421875,
+          -14.55653190612793
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.262699333847809,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7863539549140999,
+        "cryptic": true,
+        "pocket_residues": {
+          "F205": "F",
+          "L206": "L",
+          "K207": "K",
+          "P208": "P",
+          "F209": "F",
+          "H256": "H",
+          "H258": "H",
+          "S259": "S",
+          "C260": "C",
+          "F261": "F",
+          "T262": "T"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8WXF7|ATL1 variant P208S",
+        "fasta_sequence": "MAKNRRDRNSWGGFSEKTYEWSSEEEEPVKKAGPVQVLIVKDDHSFELDETALNRILLSEAVRDKEVVAVSVAGAFRKGKSFLMDFMLRYMYNQESVDWVGDYNEPLTGFSWRGGSERETTGIQIWSEIFLINKPDGKKVAVLLMDTQGTFDSQSTLRDSATVFALSTMISSIQVYNLSQNVQEDDLQHLQLFTEYGRLAMEETFLKPFQSLIFLVRDWSFPYEFSYGADGGAKFLEKRLKVSGNQHEELQNVRKHIHSCFTNISCFLLPHPGLKVATNPNFDGKLKEIDDEFIKNLKILIPWLLSPESLDIKEINGNKITCRGLVEYFKAYIKIYQGEELPHPKSMLQATAEANNLAAVATAKDTYNKKMEEICGGDKPFLAPNDLQTKHLQLKEESVKLFRGVKKMGGEEFSRRYLQQLESEIDELYIQYIKHNDSKNIFHAARTPATLFVVIFITYVIAGVTGFIGLDIIASLCNMIMGLTLITLCTWAYIRYSGEYRELGAVIDQVAAALWDQGSTNEALYKLYSAAATHRHLYHQAFPTPKSESTEQSEKKKM",
+        "full_sequence": "MAKNRRDRNSWGGFSEKTYEWSSEEEEPVKKAGPVQVLIVKDDHSFELDETALNRILLSEAVRDKEVVAVSVAGAFRKGKSFLMDFMLRYMYNQESVDWVGDYNEPLTGFSWRGGSERETTGIQIWSEIFLINKPDGKKVAVLLMDTQGTFDSQSTLRDSATVFALSTMISSIQVYNLSQNVQEDDLQHLQLFTEYGRLAMEETFLKPFQSLIFLVRDWSFPYEFSYGADGGAKFLEKRLKVSGNQHEELQNVRKHIHSCFTNISCFLLPHPGLKVATNPNFDGKLKEIDDEFIKNLKILIPWLLSPESLDIKEINGNKITCRGLVEYFKAYIKIYQGEELPHPKSMLQATAEANNLAAVATAKDTYNKKMEEICGGDKPFLAPNDLQTKHLQLKEESVKLFRGVKKMGGEEFSRRYLQQLESEIDELYIQYIKHNDSKNIFHAARTPATLFVVIFITYVIAGVTGFIGLDIIASLCNMIMGLTLITLCTWAYIRYSGEYRELGAVIDQVAAALWDQGSTNEALYKLYSAAATHRHLYHQAFPTPKSESTEQSEKKKM",
+        "n_residues": 558,
+        "mutation_pos_1indexed": 208,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "F205-L206-K207-P208-F209-H256-H258-S259-C260-F261-T262",
+        "pocket_lining_positions_precursor": [
+          205,
+          206,
+          207,
+          208,
+          209,
+          256,
+          258,
+          259,
+          260,
+          261,
+          262
+        ],
+        "pocket_lining_1letter": "FLKPFHHSCFT",
+        "sequence_slice_around_pocket": "RLAMEETFLKPFQSLIFLVR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ATL1_P208S/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "F205",
+          "L206",
+          "K207",
+          "P208",
+          "F209",
+          "H256",
+          "H258",
+          "S259",
+          "C260",
+          "F261",
+          "T262"
+        ],
+        "values": [
+          [
+            0.0,
+            3.835,
+            6.808,
+            8.506,
+            11.825,
+            14.298,
+            14.068,
+            10.472,
+            11.048,
+            12.672,
+            12.468
+          ],
+          [
+            3.835,
+            0.0,
+            3.796,
+            6.123,
+            8.707,
+            13.475,
+            12.081,
+            8.978,
+            8.947,
+            9.617,
+            8.935
+          ],
+          [
+            6.808,
+            3.796,
+            0.0,
+            3.862,
+            5.696,
+            10.55,
+            8.896,
+            6.112,
+            5.313,
+            5.944,
+            6.213
+          ],
+          [
+            8.506,
+            6.123,
+            3.862,
+            0.0,
+            3.855,
+            11.378,
+            10.827,
+            8.244,
+            5.63,
+            6.738,
+            8.191
+          ],
+          [
+            11.825,
+            8.707,
+            5.696,
+            3.855,
+            0.0,
+            11.941,
+            10.234,
+            8.995,
+            5.745,
+            4.742,
+            6.333
+          ],
+          [
+            14.298,
+            13.475,
+            10.55,
+            11.378,
+            11.941,
+            0.0,
+            5.488,
+            5.079,
+            6.275,
+            9.06,
+            11.98
+          ],
+          [
+            14.068,
+            12.081,
+            8.896,
+            10.827,
+            10.234,
+            5.488,
+            0.0,
+            3.859,
+            5.61,
+            5.845,
+            7.679
+          ],
+          [
+            10.472,
+            8.978,
+            6.112,
+            8.244,
+            8.995,
+            5.079,
+            3.859,
+            0.0,
+            3.848,
+            5.936,
+            7.797
+          ],
+          [
+            11.048,
+            8.947,
+            5.313,
+            5.63,
+            5.745,
+            6.275,
+            5.61,
+            3.848,
+            0.0,
+            3.851,
+            7.036
+          ],
+          [
+            12.672,
+            9.617,
+            5.944,
+            6.738,
+            4.742,
+            9.06,
+            5.845,
+            5.936,
+            3.851,
+            0.0,
+            3.83
+          ],
+          [
+            12.468,
+            8.935,
+            6.213,
+            8.191,
+            6.333,
+            11.98,
+            7.679,
+            7.797,
+            7.036,
+            3.83,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1C(CNc2ccncc2N2CCCCC2)CCC(=O)C1O",
+        "composite_score": 0.6285302808215073,
+        "mw": 425.24,
+        "logp": 2.205,
+        "hbd": 4,
+        "hba": 8,
+        "rotatable_bonds": 6,
+        "qed": 0.5569,
+        "sa_score": 3.77,
+        "n_heavy_atoms": 31,
+        "tpsa": 115.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ATL1-P208S Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1C(CNc2ccncc2N2CCCCC2)CCC(=O)C1O",
+        "pocket_affinity_score": 0.6285,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ATL1_P208S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ATL1_P208S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ATL1_P208S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ATL1_P208S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ATL1_P208S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATL1-P208S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATL1-P208S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:48:19.453316+00:00"
     }
   ]
 }
