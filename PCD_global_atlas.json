@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 207,
+  "total_entries": 208,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44619,
-    "queue_remaining": 133978
+    "total_processed": 44620,
+    "queue_remaining": 133977
   },
   "entries": [
     {
@@ -46240,6 +46240,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:05:36.015237+00:00"
+    },
+    {
+      "entry_id": "PCD-MYF6-G58R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYF6-G58R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MYF6",
+        "uniprot": "",
+        "clinvar_id": "310506",
+        "disease": "not provided",
+        "mutation_precursor": "G58R",
+        "mutation_mature": "G58R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8812755118707786,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 590.975092446545,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          8.769893646240234,
+          18.17595100402832,
+          -62.27711486816406
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.208866301975973,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6834625222444539,
+        "cryptic": true,
+        "pocket_residues": {
+          "S56": "S",
+          "S57": "S",
+          "G58": "G",
+          "E59": "E"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P23409|MYF6 variant G58R",
+        "fasta_sequence": "MMMDLFETGSYFFYLDGENVTLQPLEVAEGSPLYPGSDGTLSPCQDQMPPEAGSDSSGEEHVLAPPGLQPPHCPGQCLIWACKTCKRKSAPTDRRKAATLRERRRLKKINEAFEALKRRTVANPNQRLPKVEILRSAISYIERLQDLLHRLDQQEKMQELGVDPFSYRPKQENLEGADFLRTCSSQWPSVSDHSRGLVITAKEGGASIDSSASSSLRCLSSIVDSISSEERKLPCVEEVVEK",
+        "full_sequence": "MMMDLFETGSYFFYLDGENVTLQPLEVAEGSPLYPGSDGTLSPCQDQMPPEAGSDSSGEEHVLAPPGLQPPHCPGQCLIWACKTCKRKSAPTDRRKAATLRERRRLKKINEAFEALKRRTVANPNQRLPKVEILRSAISYIERLQDLLHRLDQQEKMQELGVDPFSYRPKQENLEGADFLRTCSSQWPSVSDHSRGLVITAKEGGASIDSSASSSLRCLSSIVDSISSEERKLPCVEEVVEK",
+        "n_residues": 242,
+        "mutation_pos_1indexed": 58,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "S56-S57-G58-E59",
+        "pocket_lining_positions_precursor": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "pocket_lining_1letter": "SSGE",
+        "sequence_slice_around_pocket": "MPPEAGSDSSGEEHVLAPPG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MYF6_G58R/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "S56",
+          "S57",
+          "G58",
+          "E59"
+        ],
+        "values": [
+          [
+            0.0,
+            3.748,
+            6.872,
+            9.713
+          ],
+          [
+            3.748,
+            0.0,
+            3.588,
+            7.067
+          ],
+          [
+            6.872,
+            3.588,
+            0.0,
+            3.712
+          ],
+          [
+            9.713,
+            7.067,
+            3.712,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1CNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.7539983977567819,
+        "mw": 390.17,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.7506,
+        "sa_score": 2.41,
+        "n_heavy_atoms": 27,
+        "tpsa": 97.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MYF6-G58R Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1CNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.754,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MYF6_G58R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MYF6_G58R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MYF6_G58R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MYF6_G58R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MYF6_G58R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYF6-G58R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYF6-G58R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:05:56.179592+00:00"
     }
   ]
 }
