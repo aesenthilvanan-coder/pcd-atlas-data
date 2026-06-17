@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 350,
+  "total_entries": 351,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44798,
-    "queue_remaining": 133799
+    "total_processed": 44799,
+    "queue_remaining": 133798
   },
   "entries": [
     {
@@ -76330,6 +76330,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:17:49.874455+00:00"
+    },
+    {
+      "entry_id": "PCD-PRF1-V145A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRF1-V145A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PRF1",
+        "uniprot": "",
+        "clinvar_id": "300333",
+        "disease": "Familial hemophagocytic lymphohistiocytosis 2",
+        "mutation_precursor": "V145A",
+        "mutation_mature": "V145A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.795153996223082,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 640.5853901707777,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          1.7620747089385986,
+          16.45893669128418,
+          9.942480087280273
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.367343505690462,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8444227189371304,
+        "cryptic": true,
+        "pocket_residues": {
+          "P137": "P",
+          "V145": "V",
+          "T369": "T",
+          "D370": "D",
+          "R371": "R",
+          "A372": "A",
+          "R373": "R",
+          "W374": "W",
+          "S551": "S",
+          "G552": "G",
+          "A553": "A"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P14222|PRF1 variant V145A",
+        "fasta_sequence": "MAARLLLLGILLLLLPLPVPAPCHTAARSECKRSHKFVPGAWLAGEGVDVTSLRRSGSFPVDTQRFLRPDGTCTLCENALQEGTLQRLPLALTNWRAQGSGCQRHVTRAKVSSTEAVARDAARSIRNDWKVGLDVTPKPTSNVHVSVAGSHSQAANFAAQKTHQDQYSFSTDTVECRFYSFHVVHTPPLHPDFKRALGDLPHHFNASTQPAYLRLISNYGTHFIRAVELGGRISALTALRTCELALEGLTDNEVEDCLTVEAQVNIGIHGSISAEAKACEEKKKKHKMTASFHQTYRERHSEVVGGHHTSINDLLFGIQAGPEQYSAWVNSLPGSPGLVDYTLEPLHVLLDSQDPRREALRRALSQYLTDRARWRDCSRPCPPGRQKSPRDPCQCVCHGSAVTTQDCCPRQRGLAQLEVTFIQAWGLWGDWFTATDAYVKLFFGGQELRTSTVWDNNNPIWSVRLDFGDVLLATGGPLRLQVWDQDSGRDDDLLGTCDQAPKSGSHEVRCNLNHGHLKFRYHARCLPHLGGGTCLDYVPQMLLGEPPGNRSGAVW",
+        "full_sequence": "MAARLLLLGILLLLLPLPVPAPCHTAARSECKRSHKFVPGAWLAGEGVDVTSLRRSGSFPVDTQRFLRPDGTCTLCENALQEGTLQRLPLALTNWRAQGSGCQRHVTRAKVSSTEAVARDAARSIRNDWKVGLDVTPKPTSNVHVSVAGSHSQAANFAAQKTHQDQYSFSTDTVECRFYSFHVVHTPPLHPDFKRALGDLPHHFNASTQPAYLRLISNYGTHFIRAVELGGRISALTALRTCELALEGLTDNEVEDCLTVEAQVNIGIHGSISAEAKACEEKKKKHKMTASFHQTYRERHSEVVGGHHTSINDLLFGIQAGPEQYSAWVNSLPGSPGLVDYTLEPLHVLLDSQDPRREALRRALSQYLTDRARWRDCSRPCPPGRQKSPRDPCQCVCHGSAVTTQDCCPRQRGLAQLEVTFIQAWGLWGDWFTATDAYVKLFFGGQELRTSTVWDNNNPIWSVRLDFGDVLLATGGPLRLQVWDQDSGRDDDLLGTCDQAPKSGSHEVRCNLNHGHLKFRYHARCLPHLGGGTCLDYVPQMLLGEPPGNRSGAVW",
+        "n_residues": 555,
+        "mutation_pos_1indexed": 145,
+        "wt_aa": "V",
+        "mut_aa": "A",
+        "pocket_lining_residues": "P137-V145-T369-D370-R371-A372-R373-W374-S551-G552-A553",
+        "pocket_lining_positions_precursor": [
+          137,
+          145,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          551,
+          552,
+          553
+        ],
+        "pocket_lining_1letter": "PVTDRARWSGA",
+        "sequence_slice_around_pocket": "VTPKPTSNVHVSVAGSHSQA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PRF1_V145A/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "P137",
+          "V145",
+          "T369",
+          "D370",
+          "R371",
+          "A372",
+          "R373",
+          "W374",
+          "S551",
+          "G552",
+          "A553"
+        ],
+        "values": [
+          [
+            0.0,
+            6.801,
+            7.835,
+            10.936,
+            11.885,
+            8.932,
+            10.507,
+            9.535,
+            13.684,
+            11.643,
+            12.6
+          ],
+          [
+            6.801,
+            0.0,
+            9.57,
+            11.504,
+            10.398,
+            6.603,
+            5.773,
+            4.202,
+            10.65,
+            8.893,
+            8.933
+          ],
+          [
+            7.835,
+            9.57,
+            0.0,
+            3.862,
+            5.365,
+            5.042,
+            8.646,
+            10.487,
+            9.103,
+            9.141,
+            12.244
+          ],
+          [
+            10.936,
+            11.504,
+            3.862,
+            0.0,
+            3.885,
+            5.648,
+            8.583,
+            10.995,
+            6.78,
+            7.606,
+            11.284
+          ],
+          [
+            11.885,
+            10.398,
+            5.365,
+            3.885,
+            0.0,
+            3.799,
+            6.503,
+            9.823,
+            5.122,
+            7.292,
+            10.852
+          ],
+          [
+            8.932,
+            6.603,
+            5.042,
+            5.648,
+            3.799,
+            0.0,
+            3.82,
+            6.562,
+            5.795,
+            6.137,
+            8.9
+          ],
+          [
+            10.507,
+            5.773,
+            8.646,
+            8.583,
+            6.503,
+            3.82,
+            0.0,
+            3.749,
+            5.17,
+            4.713,
+            6.18
+          ],
+          [
+            9.535,
+            4.202,
+            10.487,
+            10.995,
+            9.823,
+            6.562,
+            3.749,
+            0.0,
+            8.057,
+            5.737,
+            4.918
+          ],
+          [
+            13.684,
+            10.65,
+            9.103,
+            6.78,
+            5.122,
+            5.795,
+            5.17,
+            8.057,
+            0.0,
+            3.828,
+            7.076
+          ],
+          [
+            11.643,
+            8.893,
+            9.141,
+            7.606,
+            7.292,
+            6.137,
+            4.713,
+            5.737,
+            3.828,
+            0.0,
+            3.832
+          ],
+          [
+            12.6,
+            8.933,
+            12.244,
+            11.284,
+            10.852,
+            8.9,
+            6.18,
+            4.918,
+            7.076,
+            3.832,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.8077244790286975,
+        "mw": 414.18,
+        "logp": 2.14,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.4888,
+        "sa_score": 3.05,
+        "n_heavy_atoms": 29,
+        "tpsa": 130.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PRF1-V145A Candidate #1",
+        "iupac_name": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8077,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PRF1_V145A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PRF1_V145A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PRF1_V145A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PRF1_V145A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PRF1_V145A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRF1-V145A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRF1-V145A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:18:14.224039+00:00"
     }
   ]
 }
