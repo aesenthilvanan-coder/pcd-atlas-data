@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 43,
+  "total_entries": 44,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44425,
-    "queue_remaining": 134172
+    "total_processed": 44426,
+    "queue_remaining": 134171
   },
   "entries": [
     {
@@ -10231,6 +10231,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:11:09.796798+00:00"
+    },
+    {
+      "entry_id": "PCD-TMEM138-R161Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMEM138-R161Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TMEM138",
+        "uniprot": "",
+        "clinvar_id": "305067",
+        "disease": "Joubert syndrome 16",
+        "mutation_precursor": "R161Q",
+        "mutation_mature": "R161Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8263027795898156,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 287.9107681035266,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -27.597688674926758,
+          -20.487197875976562,
+          14.757606506347656
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.4816711978528785,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6645354925649545,
+        "cryptic": true,
+        "pocket_residues": {
+          "F157": "F",
+          "M158": "M",
+          "Q159": "Q",
+          "V160": "V",
+          "R161": "R",
+          "R162": "R"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NPI0|TMEM138 variant R161Q",
+        "fasta_sequence": "MLQTSNYSLVLSLQFLLLSYDLFVNSFSELLQKTPVIQLVLFIIQDIAVLFNIIIIFLMFFNTFVFQAGLVNLLFHKFKGTIILTAVYFALSISLHVWVMNLRWKNSNSFIWTDGLQMLFVFQRLAAVLYCYFYKRTAVRLGDPHFYQDSLWLRKEFMQVRR",
+        "full_sequence": "MLQTSNYSLVLSLQFLLLSYDLFVNSFSELLQKTPVIQLVLFIIQDIAVLFNIIIIFLMFFNTFVFQAGLVNLLFHKFKGTIILTAVYFALSISLHVWVMNLRWKNSNSFIWTDGLQMLFVFQRLAAVLYCYFYKRTAVRLGDPHFYQDSLWLRKEFMQVRR",
+        "n_residues": 162,
+        "mutation_pos_1indexed": 161,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "F157-M158-Q159-V160-R161-R162",
+        "pocket_lining_positions_precursor": [
+          157,
+          158,
+          159,
+          160,
+          161,
+          162
+        ],
+        "pocket_lining_1letter": "FMQVRR",
+        "sequence_slice_around_pocket": "LWLRKEFMQVRR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM138_R161Q/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "F157",
+          "M158",
+          "Q159",
+          "V160",
+          "R161",
+          "R162"
+        ],
+        "values": [
+          [
+            0.0,
+            3.838,
+            5.453,
+            5.232,
+            6.324,
+            8.944
+          ],
+          [
+            3.838,
+            0.0,
+            3.851,
+            5.601,
+            5.2,
+            6.549
+          ],
+          [
+            5.453,
+            3.851,
+            0.0,
+            3.867,
+            5.448,
+            5.343
+          ],
+          [
+            5.232,
+            5.601,
+            3.867,
+            0.0,
+            3.867,
+            5.576
+          ],
+          [
+            6.324,
+            5.2,
+            5.448,
+            3.867,
+            0.0,
+            3.86
+          ],
+          [
+            8.944,
+            6.549,
+            5.343,
+            5.576,
+            3.86,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.6756744755636289,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TMEM138-R161Q Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6757,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM138_R161Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM138_R161Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM138_R161Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM138_R161Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM138_R161Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMEM138-R161Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMEM138-R161Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:11:29.203947+00:00"
     }
   ]
 }
