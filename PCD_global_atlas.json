@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 41,
+  "total_entries": 42,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44423,
-    "queue_remaining": 134174
+    "total_processed": 44424,
+    "queue_remaining": 134173
   },
   "entries": [
     {
@@ -9933,6 +9933,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:10:23.215580+00:00"
+    },
+    {
+      "entry_id": "PCD-BAG3-R139W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BAG3-R139W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BAG3",
+        "uniprot": "",
+        "clinvar_id": "298956",
+        "disease": "Dilated cardiomyopathy 1HH",
+        "mutation_precursor": "R139W",
+        "mutation_mature": "R139W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.920489196346382,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 349.4032194551573,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -7.401151180267334,
+          25.02324676513672,
+          -93.47480773925781
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.029085366172314,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.838961491404653,
+        "cryptic": true,
+        "pocket_residues": {
+          "S136": "S",
+          "P137": "P",
+          "L138": "L",
+          "R139": "R"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O95817|BAG3 variant R139W",
+        "fasta_sequence": "MSAATHSPMMQVASGNGDRDPLPPGWEIKIDPQTGWPFFVDHNSRTTTWNDPRVPSEGPKETPSSANGPSREGSRLPPAREGHPVYPQLRPGYIPIPVLHEGAENRQVHPFHVYPQPGMQRFRTEAAAAAPQRSQSPLRGMPETTQPDKQCGQVAAAAAAQPPASHGPERSQSPAASDCSSSSSSASLPSSGRSSLGSHQLPRGYISIPVIHEQNVTRPAAQPSFHQAQKTHYPAQQGEYQTHQPVYHKIQGDDWEPRPLRAASPFRSSVQGASSREGSPARSSTPLHSPSPIRVHTVVDRPQQPMTHRETAPVSQPENKPESKPGPVGPELPPGHIPIQVIRKEVDSKPVSQKPPPPSEKVEVKVPPAPVPCPPPSPGPSAVPSSPKSVATEERAAPSTAPAEATPPKPGEAEAPPKHPGVLKVEAILEKVQGLEQAVDNFEGKKTDKKYLMIEEYLTKELLALDSVDPEGRADVRQARRDGVRKVQTILEKLEQKAIDVPGQVQVYELQPSNLEADQPLQAIMEMGAVAADKGKKNAGNAEDPHTETQQPEATAAATSNPSSMTDTPGNPAAP",
+        "full_sequence": "MSAATHSPMMQVASGNGDRDPLPPGWEIKIDPQTGWPFFVDHNSRTTTWNDPRVPSEGPKETPSSANGPSREGSRLPPAREGHPVYPQLRPGYIPIPVLHEGAENRQVHPFHVYPQPGMQRFRTEAAAAAPQRSQSPLRGMPETTQPDKQCGQVAAAAAAQPPASHGPERSQSPAASDCSSSSSSASLPSSGRSSLGSHQLPRGYISIPVIHEQNVTRPAAQPSFHQAQKTHYPAQQGEYQTHQPVYHKIQGDDWEPRPLRAASPFRSSVQGASSREGSPARSSTPLHSPSPIRVHTVVDRPQQPMTHRETAPVSQPENKPESKPGPVGPELPPGHIPIQVIRKEVDSKPVSQKPPPPSEKVEVKVPPAPVPCPPPSPGPSAVPSSPKSVATEERAAPSTAPAEATPPKPGEAEAPPKHPGVLKVEAILEKVQGLEQAVDNFEGKKTDKKYLMIEEYLTKELLALDSVDPEGRADVRQARRDGVRKVQTILEKLEQKAIDVPGQVQVYELQPSNLEADQPLQAIMEMGAVAADKGKKNAGNAEDPHTETQQPEATAAATSNPSSMTDTPGNPAAP",
+        "n_residues": 575,
+        "mutation_pos_1indexed": 139,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "S136-P137-L138-R139",
+        "pocket_lining_positions_precursor": [
+          136,
+          137,
+          138,
+          139
+        ],
+        "pocket_lining_1letter": "SPLR",
+        "sequence_slice_around_pocket": "AAPQRSQSPLRGMPETTQPD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_R139W/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "S136",
+          "P137",
+          "L138",
+          "R139"
+        ],
+        "values": [
+          [
+            0.0,
+            3.821,
+            7.602,
+            11.106
+          ],
+          [
+            3.821,
+            0.0,
+            3.896,
+            7.425
+          ],
+          [
+            7.602,
+            3.896,
+            0.0,
+            3.893
+          ],
+          [
+            11.106,
+            7.425,
+            3.893,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.5816440747051418,
+        "mw": 247.17,
+        "logp": 1.994,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 5,
+        "qed": 0.8084,
+        "sa_score": 2.32,
+        "n_heavy_atoms": 18,
+        "tpsa": 59.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BAG3-R139W Candidate #1",
+        "iupac_name": "NCCCC(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.5816,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_R139W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_R139W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_R139W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_R139W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_R139W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BAG3-R139W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BAG3-R139W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:10:45.830553+00:00"
     }
   ]
 }
