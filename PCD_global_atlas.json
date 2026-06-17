@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 865,
+  "total_entries": 866,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45389,
-    "queue_remaining": 133208
+    "total_processed": 45390,
+    "queue_remaining": 133207
   },
   "entries": [
     {
@@ -190689,6 +190689,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:24:15.988969+00:00"
+    },
+    {
+      "entry_id": "PCD-GNPTG-G238E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GNPTG-G238E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GNPTG",
+        "uniprot": "",
+        "clinvar_id": "317889",
+        "disease": "GNPTG-mucolipidosis",
+        "mutation_precursor": "G238E",
+        "mutation_mature": "G238E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7286272571937635,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 429.71718531951024,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.211334228515625,
+          -23.189170837402344,
+          2.305814504623413
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.104396044225028,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8100577188456618,
+        "cryptic": true,
+        "pocket_residues": {
+          "L230": "L",
+          "S236": "S",
+          "L237": "L",
+          "G238": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UJJ9|GNPTG variant G238E",
+        "fasta_sequence": "MAAGLARLLLLLGLSAGGPAPAGAAKMKVVEEPNAFGVNNPFLPQASRLQAKRDPSPVSGPVHLFRLSGKCFSLVESTYKYEFCPFHNVTQHEQTFRWNAYSGILGIWHEWEIANNTFTGMWMRDGDACRSRSRQSKVELACGKSNRLAHVSEPSTCVYALTFETPLVCHPHALLVYPTLPEALQRQWDQVEQDLADELITPQGHEKLLRTLFEDAGYLKTPEENEPTQLEGGPDSLGFETLENCRKAHKELSKEIKRLKGLLTQHGIPYTRPTETSNLEHLGHETPRAKSPEQLRGDPGLRGSL",
+        "full_sequence": "MAAGLARLLLLLGLSAGGPAPAGAAKMKVVEEPNAFGVNNPFLPQASRLQAKRDPSPVSGPVHLFRLSGKCFSLVESTYKYEFCPFHNVTQHEQTFRWNAYSGILGIWHEWEIANNTFTGMWMRDGDACRSRSRQSKVELACGKSNRLAHVSEPSTCVYALTFETPLVCHPHALLVYPTLPEALQRQWDQVEQDLADELITPQGHEKLLRTLFEDAGYLKTPEENEPTQLEGGPDSLGFETLENCRKAHKELSKEIKRLKGLLTQHGIPYTRPTETSNLEHLGHETPRAKSPEQLRGDPGLRGSL",
+        "n_residues": 305,
+        "mutation_pos_1indexed": 238,
+        "wt_aa": "G",
+        "mut_aa": "E",
+        "pocket_lining_residues": "L230-S236-L237-G238",
+        "pocket_lining_positions_precursor": [
+          230,
+          236,
+          237,
+          238
+        ],
+        "pocket_lining_1letter": "LSLG",
+        "sequence_slice_around_pocket": "TQLEGGPDSLGFETLENCRK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GNPTG_G238E/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "L230",
+          "S236",
+          "L237",
+          "G238"
+        ],
+        "values": [
+          [
+            0.0,
+            7.323,
+            10.417,
+            10.402
+          ],
+          [
+            7.323,
+            0.0,
+            3.829,
+            5.627
+          ],
+          [
+            10.417,
+            3.829,
+            0.0,
+            3.823
+          ],
+          [
+            10.402,
+            5.627,
+            3.823,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.5206748349029885,
+        "mw": 302.21,
+        "logp": 2.025,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.8623,
+        "sa_score": 3.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GNPTG-G238E Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5207,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GNPTG_G238E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GNPTG_G238E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GNPTG_G238E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GNPTG_G238E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GNPTG_G238E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GNPTG-G238E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GNPTG-G238E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:24:37.155413+00:00"
     }
   ]
 }
