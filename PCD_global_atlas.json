@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 192,
+  "total_entries": 193,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44604,
-    "queue_remaining": 133993
+    "total_processed": 44605,
+    "queue_remaining": 133992
   },
   "entries": [
     {
@@ -43215,6 +43215,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T05:55:00.205019+00:00"
+    },
+    {
+      "entry_id": "PCD-EHMT1-Q135H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EHMT1-Q135H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "EHMT1",
+        "uniprot": "",
+        "clinvar_id": "365995",
+        "disease": "Kleefstra syndrome 1",
+        "mutation_precursor": "Q135H",
+        "mutation_mature": "Q135H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7687384397547367,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 447.8920875975245,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -40.49906539916992,
+          -40.33640670776367,
+          10.891003608703613
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.7007253330564716,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7965553687003266,
+        "cryptic": true,
+        "pocket_residues": {
+          "A134": "A",
+          "Q135": "Q",
+          "P136": "P",
+          "L137": "L"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9H9B1|EHMT1 variant Q135H",
+        "fasta_sequence": "MAAADAEAVPARGEPQQDCCVKTELLGEETPMAADEGSAEKQAGEAHMAADGETNGSCENSDASSHANAAKHTQDSARVNPQDGTNTLTRIAENGVSERDSEAAKQNHVTADDFVQTSVIGSNGYILNKPALQAQPLRTTSTLASSLPGHAAKTLPGGAGKGRTPSAFPQTPAAPPATLGEGSADTEDRKLPAPGADVKVHRARKTMPKSVVGLHAASKDPREVREARDHKEPKEEINKNISDFGRQQLLPPFPSLHQSLPQNQCYMATTKSQTACLPFVLAAAVSRKKKRRMGTYSLVPKKKTKVLKQRTVIEMFKSITHSTVGSKGEKDLGASSLHVNGESLEMDSDEDDSEELEEDDGHGAEQAAAFPTEDSRTSKESMSEADRAQKMDGESEEEQESVDTGEEEEGGDESDLSSESSIKKKFLKRKGKTDSPWIKPARKRRRRSRKKPSGALGSESYKSSAGSAEQTAPGDSTGYMEVSLDSLDLRVKGILSSQAEGLANGPDVLETDGLQEVPLCSCRMETPKSREITTLANNQCMATESVDHELGRCTNSVVKYELMRPSNKAPLLVLCEDHRGRMVKHQCCPGCGYFCTAGNFMECQPESSISHRFHKDCASRVNNASYCPHCGEESSKAKEVTIAKADTTSTVTPVPGQEKGSALEGRADTTTGSAAGPPLSEDDKLQGAASHVPEGFDPTGPAGLGRPTPGLSQGPGKETLESALIALDSEKPKKLRFHPKQLYFSARQGELQKVLLMLVDGIDPNFKMEHQNKRSPLHAAAEAGHVDICHMLVQAGANIDTCSEDQRTPLMEAAENNHLEAVKYLIKAGALVDPKDAEGSTCLHLAAKKGHYEVVQYLLSNGQMDVNCQDDGGWTPMIWATEYKHVDLVKLLLSKGSDINIRDNEENICLHWAAFSGCVDIAEILLAAKCDLHAVNIHGDSPLHIAARENRYDCVVLFLSRDSDVTLKNKEGETPLQCASLNSQVWSALQMSKALQDSAPDRPSPVERIVSRDIARGYERIPIPCVNAVDSEPCPSNYKYVSQNCVTSPMNIDRNITHLQYCVCIDDCSSSNCMCGQLSMRCWYDKDGRLLPEFNMAEPPLIFECNHACSCWRNCRNRVVQNGLRARLQLYRTRDMGWGVRSLQDIPPGTFVCEYVGELISDSEADVREEDSYLFDLDNKDGEVYCIDARFYGNVSRFINHHCEPNLVPVRVFMAHQDLRFPRIAFFSTRLIEAGEQLGFDYGERFWDIKGKLFSCRCGSPKCRHSSAALAQRQASAAQEAQEDGLPDTSSAAAADPL",
+        "full_sequence": "MAAADAEAVPARGEPQQDCCVKTELLGEETPMAADEGSAEKQAGEAHMAADGETNGSCENSDASSHANAAKHTQDSARVNPQDGTNTLTRIAENGVSERDSEAAKQNHVTADDFVQTSVIGSNGYILNKPALQAQPLRTTSTLASSLPGHAAKTLPGGAGKGRTPSAFPQTPAAPPATLGEGSADTEDRKLPAPGADVKVHRARKTMPKSVVGLHAASKDPREVREARDHKEPKEEINKNISDFGRQQLLPPFPSLHQSLPQNQCYMATTKSQTACLPFVLAAAVSRKKKRRMGTYSLVPKKKTKVLKQRTVIEMFKSITHSTVGSKGEKDLGASSLHVNGESLEMDSDEDDSEELEEDDGHGAEQAAAFPTEDSRTSKESMSEADRAQKMDGESEEEQESVDTGEEEEGGDESDLSSESSIKKKFLKRKGKTDSPWIKPARKRRRRSRKKPSGALGSESYKSSAGSAEQTAPGDSTGYMEVSLDSLDLRVKGILSSQAEGLANGPDVLETDGLQEVPLCSCRMETPKSREITTLANNQCMATESVDHELGRCTNSVVKYELMRPSNKAPLLVLCEDHRGRMVKHQCCPGCGYFCTAGNFMECQPESSISHRFHKDCASRVNNASYCPHCGEESSKAKEVTIAKADTTSTVTPVPGQEKGSALEGRADTTTGSAAGPPLSEDDKLQGAASHVPEGFDPTGPAGLGRPTPGLSQGPGKETLESALIALDSEKPKKLRFHPKQLYFSARQGELQKVLLMLVDGIDPNFKMEHQNKRSPLHAAAEAGHVDICHMLVQAGANIDTCSEDQRTPLMEAAENNHLEAVKYLIKAGALVDPKDAEGSTCLHLAAKKGHYEVVQYLLSNGQMDVNCQDDGGWTPMIWATEYKHVDLVKLLLSKGSDINIRDNEENICLHWAAFSGCVDIAEILLAAKCDLHAVNIHGDSPLHIAARENRYDCVVLFLSRDSDVTLKNKEGETPLQCASLNSQVWSALQMSKALQDSAPDRPSPVERIVSRDIARGYERIPIPCVNAVDSEPCPSNYKYVSQNCVTSPMNIDRNITHLQYCVCIDDCSSSNCMCGQLSMRCWYDKDGRLLPEFNMAEPPLIFECNHACSCWRNCRNRVVQNGLRARLQLYRTRDMGWGVRSLQDIPPGTFVCEYVGELISDSEADVREEDSYLFDLDNKDGEVYCIDARFYGNVSRFINHHCEPNLVPVRVFMAHQDLRFPRIAFFSTRLIEAGEQLGFDYGERFWDIKGKLFSCRCGSPKCRHSSAALAQRQASAAQEAQEDGLPDTSSAAAADPL",
+        "n_residues": 1298,
+        "mutation_pos_1indexed": 135,
+        "wt_aa": "Q",
+        "mut_aa": "H",
+        "pocket_lining_residues": "A134-Q135-P136-L137",
+        "pocket_lining_positions_precursor": [
+          134,
+          135,
+          136,
+          137
+        ],
+        "pocket_lining_1letter": "AQPL",
+        "sequence_slice_around_pocket": "YILNKPALQAQPLRTTSTLA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/EHMT1_Q135H/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A134",
+          "Q135",
+          "P136",
+          "L137"
+        ],
+        "values": [
+          [
+            0.0,
+            3.869,
+            6.947,
+            10.717
+          ],
+          [
+            3.869,
+            0.0,
+            3.309,
+            6.923
+          ],
+          [
+            6.947,
+            3.309,
+            0.0,
+            3.832
+          ],
+          [
+            10.717,
+            6.923,
+            3.832,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5329089965606423,
+        "mw": 317.21,
+        "logp": 2.135,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9218,
+        "sa_score": 3.11,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "EHMT1-Q135H Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5329,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/EHMT1_Q135H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/EHMT1_Q135H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/EHMT1_Q135H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/EHMT1_Q135H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/EHMT1_Q135H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EHMT1-Q135H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EHMT1-Q135H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T05:55:42.010838+00:00"
     }
   ]
 }
