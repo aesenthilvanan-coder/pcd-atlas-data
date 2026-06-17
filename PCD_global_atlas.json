@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1281,
+  "total_entries": 1282,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45897,
-    "queue_remaining": 132700
+    "total_processed": 45898,
+    "queue_remaining": 132699
   },
   "entries": [
     {
@@ -283503,6 +283503,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:47:07.418672+00:00"
+    },
+    {
+      "entry_id": "PCD-GALNS-F167V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALNS-F167V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GALNS",
+        "uniprot": "",
+        "clinvar_id": "321204",
+        "disease": "Mucopolysaccharidosis, MPS-IV-A",
+        "mutation_precursor": "F167V",
+        "mutation_mature": "F167V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7587518564704274,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 536.71140694735,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          5.309383869171143,
+          -8.383960723876953,
+          -9.803583145141602
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.0825337346217814,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7397094502502756,
+        "cryptic": true,
+        "pocket_residues": {
+          "C165": "C",
+          "H166": "H",
+          "F167": "F",
+          "G168": "G",
+          "A237": "A",
+          "P238": "P"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P34059|GALNS variant F167V",
+        "fasta_sequence": "MAAVVAATRWWQLLLVLSAAGMGASGAPQPPNILLLLMDDMGWGDLGVYGEPSRETPNLDRMAAEGLLFPNFYSANPLCSPSRAALLTGRLPIRNGFYTTNAHARNAYTPQEIVGGIPDSEQLLPELLKKAGYVSKIVGKWHLGHRPQFHPLKHGFDEWFGSPNCHFGPYDNKARPNIPVYRDWEMVGRYYEEFPINLKTGEANLTQIYLQEALDFIKRQARHHPFFLYWAVDATHAPVYASKPFLGTSQRGRYGDAVREIDDSIGKILELLQDLHVADNTFVFFTSDNGAALISAPEQGGSNGPFLCGKQTTFEGGMREPALAWWPGHVTAGQVSHQLGSIMDLFTTSLALAGLTPPSDRAIDGLNLLPTLLQGRLMDRPIFYYRGDTLMAATLGQHKAHFWTWTNSWENFRQGIDFCPGQNVSGVTTHNLEDHTKLPLIFHLGRDPGERFPLSFASAEYQEALSRITSVVQQHQEALVPAQPQLNVCNWAVMNWAPPGCEKLGKCLTPPESIPKKCLWSH",
+        "full_sequence": "MAAVVAATRWWQLLLVLSAAGMGASGAPQPPNILLLLMDDMGWGDLGVYGEPSRETPNLDRMAAEGLLFPNFYSANPLCSPSRAALLTGRLPIRNGFYTTNAHARNAYTPQEIVGGIPDSEQLLPELLKKAGYVSKIVGKWHLGHRPQFHPLKHGFDEWFGSPNCHFGPYDNKARPNIPVYRDWEMVGRYYEEFPINLKTGEANLTQIYLQEALDFIKRQARHHPFFLYWAVDATHAPVYASKPFLGTSQRGRYGDAVREIDDSIGKILELLQDLHVADNTFVFFTSDNGAALISAPEQGGSNGPFLCGKQTTFEGGMREPALAWWPGHVTAGQVSHQLGSIMDLFTTSLALAGLTPPSDRAIDGLNLLPTLLQGRLMDRPIFYYRGDTLMAATLGQHKAHFWTWTNSWENFRQGIDFCPGQNVSGVTTHNLEDHTKLPLIFHLGRDPGERFPLSFASAEYQEALSRITSVVQQHQEALVPAQPQLNVCNWAVMNWAPPGCEKLGKCLTPPESIPKKCLWSH",
+        "n_residues": 522,
+        "mutation_pos_1indexed": 167,
+        "wt_aa": "F",
+        "mut_aa": "V",
+        "pocket_lining_residues": "C165-H166-F167-G168-A237-P238",
+        "pocket_lining_positions_precursor": [
+          165,
+          166,
+          167,
+          168,
+          237,
+          238
+        ],
+        "pocket_lining_1letter": "CHFGAP",
+        "sequence_slice_around_pocket": "DEWFGSPNCHFGPYDNKARP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GALNS_F167V/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "C165",
+          "H166",
+          "F167",
+          "G168",
+          "A237",
+          "P238"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            5.721,
+            9.153,
+            8.984,
+            9.54
+          ],
+          [
+            3.859,
+            0.0,
+            3.881,
+            6.643,
+            8.265,
+            7.586
+          ],
+          [
+            5.721,
+            3.881,
+            0.0,
+            3.868,
+            7.61,
+            6.611
+          ],
+          [
+            9.153,
+            6.643,
+            3.868,
+            0.0,
+            10.498,
+            8.63
+          ],
+          [
+            8.984,
+            8.265,
+            7.61,
+            10.498,
+            0.0,
+            3.021
+          ],
+          [
+            9.54,
+            7.586,
+            6.611,
+            8.63,
+            3.021,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCc1ccc(OC)c(N2CCCCC2)c1N1CC(=O)CCC1O",
+        "composite_score": 0.5172499771049603,
+        "mw": 361.24,
+        "logp": 1.935,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.8073,
+        "sa_score": 3.35,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GALNS-F167V Candidate #1",
+        "iupac_name": "CNCCc1ccc(OC)c(N2CCCCC2)c1N1CC(=O)CCC1O",
+        "pocket_affinity_score": 0.5172,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GALNS_F167V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GALNS_F167V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GALNS_F167V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GALNS_F167V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GALNS_F167V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALNS-F167V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALNS-F167V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:47:30.763266+00:00"
     }
   ]
 }
