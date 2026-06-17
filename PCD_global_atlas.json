@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1329,
+  "total_entries": 1330,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45947,
-    "queue_remaining": 132650
+    "total_processed": 45948,
+    "queue_remaining": 132649
   },
   "entries": [
     {
@@ -294056,6 +294056,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:22:13.664503+00:00"
+    },
+    {
+      "entry_id": "PCD-RTN2-S329N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RTN2-S329N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RTN2",
+        "uniprot": "",
+        "clinvar_id": "329550",
+        "disease": "Hereditary spastic paraplegia 12",
+        "mutation_precursor": "S329N",
+        "mutation_mature": "S329N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.846133851521251,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 536.820887821869,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -25.002119064331055,
+          -40.7943229675293,
+          12.170989990234375
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.115866567885324,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8372379679102777,
+        "cryptic": true,
+        "pocket_residues": {
+          "R328": "R",
+          "S329": "S",
+          "S330": "S",
+          "G331": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O75298|RTN2 variant S329N",
+        "fasta_sequence": "MGQVLPVFAHCKEAPSTASSTPDSTEGGNDDSDFRELHTAREFSEEDEEETTSQDWGTPRELTFSYIAFDGVVGSGGRRDSTARRPRPQGRSVSEPRDQHPQPSLGDSLESIPSLSQSPEPGRRGDPDTAPPSERPLEDLRLRLDHLGWVARGTGSGEDSSTSSSTPLEDEEPQEPNRLETGEAGEELDLRLRLAQPSSPEVLTPQLSPGSGTPQAGTPSPSRSRDSNSGPEEPLLEEEEKQWGPLEREPVRGQCLDSTDQLEFTVEPRLLGTAMEWLKTSLLLAVYKTVPILELSPPLWTAIGWVQRGPTPPTPVLRVLLKWAKSPRSSGVPSLSLGADMGSKVADLLYWKDTRTSGVVFTGLMVSLLCLLHFSIVSVAAHLALLLLCGTISLRVYRKVLQAVHRGDGANPFQAYLDVDLTLTREQTERLSHQITSRVVSAATQLRHFFLVEDLVDSLKLALLFYILTFVGAIFNGLTLLILGVIGLFTIPLLYRQHQAQIDQYVGLVTNQLSHIKAKIRAKIPGTGALASAAAAVSGSKAKAE",
+        "full_sequence": "MGQVLPVFAHCKEAPSTASSTPDSTEGGNDDSDFRELHTAREFSEEDEEETTSQDWGTPRELTFSYIAFDGVVGSGGRRDSTARRPRPQGRSVSEPRDQHPQPSLGDSLESIPSLSQSPEPGRRGDPDTAPPSERPLEDLRLRLDHLGWVARGTGSGEDSSTSSSTPLEDEEPQEPNRLETGEAGEELDLRLRLAQPSSPEVLTPQLSPGSGTPQAGTPSPSRSRDSNSGPEEPLLEEEEKQWGPLEREPVRGQCLDSTDQLEFTVEPRLLGTAMEWLKTSLLLAVYKTVPILELSPPLWTAIGWVQRGPTPPTPVLRVLLKWAKSPRSSGVPSLSLGADMGSKVADLLYWKDTRTSGVVFTGLMVSLLCLLHFSIVSVAAHLALLLLCGTISLRVYRKVLQAVHRGDGANPFQAYLDVDLTLTREQTERLSHQITSRVVSAATQLRHFFLVEDLVDSLKLALLFYILTFVGAIFNGLTLLILGVIGLFTIPLLYRQHQAQIDQYVGLVTNQLSHIKAKIRAKIPGTGALASAAAAVSGSKAKAE",
+        "n_residues": 545,
+        "mutation_pos_1indexed": 329,
+        "wt_aa": "S",
+        "mut_aa": "N",
+        "pocket_lining_residues": "R328-S329-S330-G331",
+        "pocket_lining_positions_precursor": [
+          328,
+          329,
+          330,
+          331
+        ],
+        "pocket_lining_1letter": "RSSG",
+        "sequence_slice_around_pocket": "VLLKWAKSPRSSGVPSLSLG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RTN2_S329N/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "R328",
+          "S329",
+          "S330",
+          "G331"
+        ],
+        "values": [
+          [
+            0.0,
+            3.512,
+            6.538,
+            9.842
+          ],
+          [
+            3.512,
+            0.0,
+            3.853,
+            6.866
+          ],
+          [
+            6.538,
+            3.853,
+            0.0,
+            3.845
+          ],
+          [
+            9.842,
+            6.866,
+            3.845,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1CNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.5486335594016687,
+        "mw": 390.17,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.7506,
+        "sa_score": 2.41,
+        "n_heavy_atoms": 27,
+        "tpsa": 97.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RTN2-S329N Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1CNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.5486,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RTN2_S329N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RTN2_S329N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RTN2_S329N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RTN2_S329N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RTN2_S329N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RTN2-S329N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RTN2-S329N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:22:39.370621+00:00"
     }
   ]
 }
