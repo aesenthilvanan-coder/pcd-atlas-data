@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 270,
+  "total_entries": 271,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44699,
-    "queue_remaining": 133898
+    "total_processed": 44700,
+    "queue_remaining": 133897
   },
   "entries": [
     {
@@ -59778,6 +59778,189 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:02:01.827779+00:00"
+    },
+    {
+      "entry_id": "PCD-FANCF-P117L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCF-P117L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FANCF",
+        "uniprot": "",
+        "clinvar_id": "304204",
+        "disease": "Fanconi anemia",
+        "mutation_precursor": "P117L",
+        "mutation_mature": "P117L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9415824299712273,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 320.2574402942418,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -35.77675247192383,
+          -9.044757843017578,
+          22.745975494384766
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.769967423525097,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8259427576408598,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q113": "Q",
+          "Q114": "Q",
+          "L115": "L",
+          "F116": "F",
+          "P117": "P",
+          "V121": "V",
+          "E126": "E"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NPI8|FANCF variant P117L",
+        "fasta_sequence": "MESLLQHLDRFSELLAVSSTTYVSTWDPATVRRALQWARYLRHIHRRFGRHGPIRTALERRLHNQWRQEGGFGRGPVPGLANFQALGHCDVLLSLRLLENRALGDAARYHLVQQLFPGPGVRDADEETLQESLARLARRRSAVHMLRFNGYRENPNLQEDSLMKTQAELLLERLQEVGKAEAERPARFLSSLWERLPQNNFLKVIAVALLQPPLSRRPQEELEPGIHKSPGEGSQVLVHWLLGNSEVFAAFCRALPAGLLTLVTSRHPALSPVYLGLLTDWGQRLHYDLQKGIWVGTESQDVPWEELHNRFQSLCQAPPPLKDKVLTALETCKAQDGDFEVPGLSIWTDLLLALRSGAFRKRQVLGLSAGLSSV",
+        "full_sequence": "MESLLQHLDRFSELLAVSSTTYVSTWDPATVRRALQWARYLRHIHRRFGRHGPIRTALERRLHNQWRQEGGFGRGPVPGLANFQALGHCDVLLSLRLLENRALGDAARYHLVQQLFPGPGVRDADEETLQESLARLARRRSAVHMLRFNGYRENPNLQEDSLMKTQAELLLERLQEVGKAEAERPARFLSSLWERLPQNNFLKVIAVALLQPPLSRRPQEELEPGIHKSPGEGSQVLVHWLLGNSEVFAAFCRALPAGLLTLVTSRHPALSPVYLGLLTDWGQRLHYDLQKGIWVGTESQDVPWEELHNRFQSLCQAPPPLKDKVLTALETCKAQDGDFEVPGLSIWTDLLLALRSGAFRKRQVLGLSAGLSSV",
+        "n_residues": 374,
+        "mutation_pos_1indexed": 117,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "Q113-Q114-L115-F116-P117-V121-E126",
+        "pocket_lining_positions_precursor": [
+          113,
+          114,
+          115,
+          116,
+          117,
+          121,
+          126
+        ],
+        "pocket_lining_1letter": "QQLFPVE",
+        "sequence_slice_around_pocket": "ARYHLVQQLFPGPGVRDADE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FANCF_P117L/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "Q113",
+          "Q114",
+          "L115",
+          "F116",
+          "P117",
+          "V121",
+          "E126"
+        ],
+        "values": [
+          [
+            0.0,
+            3.867,
+            5.587,
+            5.152,
+            5.308,
+            10.859,
+            12.585
+          ],
+          [
+            3.867,
+            0.0,
+            3.854,
+            5.6,
+            5.677,
+            10.172,
+            9.702
+          ],
+          [
+            5.587,
+            3.854,
+            0.0,
+            3.839,
+            6.246,
+            11.284,
+            8.696
+          ],
+          [
+            5.152,
+            5.6,
+            3.839,
+            0.0,
+            3.829,
+            9.511,
+            9.571
+          ],
+          [
+            5.308,
+            5.677,
+            6.246,
+            3.829,
+            0.0,
+            6.114,
+            9.353
+          ],
+          [
+            10.859,
+            10.172,
+            11.284,
+            9.511,
+            6.114,
+            0.0,
+            9.193
+          ],
+          [
+            12.585,
+            9.702,
+            8.696,
+            9.571,
+            9.353,
+            9.193,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.9255191138498366,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FANCF-P117L Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9255,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FANCF_P117L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FANCF_P117L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FANCF_P117L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCF_P117L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCF_P117L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCF-P117L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCF-P117L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:02:23.733720+00:00"
     }
   ]
 }
