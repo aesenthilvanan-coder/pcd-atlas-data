@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 992,
+  "total_entries": 993,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45539,
-    "queue_remaining": 133058
+    "total_processed": 45540,
+    "queue_remaining": 133057
   },
   "entries": [
     {
@@ -218215,6 +218215,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T17:04:13.962861+00:00"
+    },
+    {
+      "entry_id": "PCD-COL9A3-G379S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-G379S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COL9A3",
+        "uniprot": "",
+        "clinvar_id": "339284",
+        "disease": "not provided",
+        "mutation_precursor": "G379S",
+        "mutation_mature": "G379S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8116155049703813,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 637.5458518759225,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.20023298263549805,
+          43.28816223144531,
+          -46.80867004394531
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.446188667856726,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6646150842001366,
+        "cryptic": true,
+        "pocket_residues": {
+          "R378": "R",
+          "G379": "G",
+          "E380": "E",
+          "A381": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q14050|COL9A3 variant G379S",
+        "fasta_sequence": "MAGPRACAPLLLLLLLGELLAAAGAQRVGLPGPPGPPGPPGKPGQDGIDGEAGPPGLPGPPGPKGAPGKPGKPGEAGLPGLPGVDGLTGRDGPPGPKGAPGERGSLGPPGPPGLGGKGLPGPPGEAGVSGPPGGIGLRGPPGPSGLPGLPGPPGPPGPPGHPGVLPEGATDLQCPSICPPGPPGPPGMPGFKGPTGYKGEQGEVGKDGEKGDPGPPGPAGLPGSVGLQGPRGLRGLPGPLGPPGDRGPIGFRGPPGIPGAPGKAGDRGERGPEGFRGPKGDLGRPGPKGTPGVAGPSGEPGMPGKDGQNGVPGLDGQKGEAGRNGAPGEKGPNGLPGLPGRAGSKGEKGERGRAGELGEAGPSGEPGVPGDAGMPGERGEAGHRGSAGALGPQGPPGAPGVRGFQGQKGSMGDPGLPGPQGLRGDVGDRGPGGAAGPKGDQGIAGSDGLPGDKGELGPSGLVGPKGESGSRGELGPKGTQGPNGTSGVQGVPGPPGPLGLQGVPGVPGITGKPGVPGKEASEQRIRELCGGMISEQIAQLAAHLRKPLAPGSIGRPGPAGPPGPPGPPGSIGHPGARGPPGYRGPTGELGDPGPRGNQGDRGDKGAAGAGLDGPEGDQGPQGPQGVPGTSKDGQDGAPGEPGPPGDPGLPGAIGAQGTPGICDTSACQGAVLGGVGEKSGSRSS",
+        "full_sequence": "MAGPRACAPLLLLLLLGELLAAAGAQRVGLPGPPGPPGPPGKPGQDGIDGEAGPPGLPGPPGPKGAPGKPGKPGEAGLPGLPGVDGLTGRDGPPGPKGAPGERGSLGPPGPPGLGGKGLPGPPGEAGVSGPPGGIGLRGPPGPSGLPGLPGPPGPPGPPGHPGVLPEGATDLQCPSICPPGPPGPPGMPGFKGPTGYKGEQGEVGKDGEKGDPGPPGPAGLPGSVGLQGPRGLRGLPGPLGPPGDRGPIGFRGPPGIPGAPGKAGDRGERGPEGFRGPKGDLGRPGPKGTPGVAGPSGEPGMPGKDGQNGVPGLDGQKGEAGRNGAPGEKGPNGLPGLPGRAGSKGEKGERGRAGELGEAGPSGEPGVPGDAGMPGERGEAGHRGSAGALGPQGPPGAPGVRGFQGQKGSMGDPGLPGPQGLRGDVGDRGPGGAAGPKGDQGIAGSDGLPGDKGELGPSGLVGPKGESGSRGELGPKGTQGPNGTSGVQGVPGPPGPLGLQGVPGVPGITGKPGVPGKEASEQRIRELCGGMISEQIAQLAAHLRKPLAPGSIGRPGPAGPPGPPGPPGSIGHPGARGPPGYRGPTGELGDPGPRGNQGDRGDKGAAGAGLDGPEGDQGPQGPQGVPGTSKDGQDGAPGEPGPPGDPGLPGAIGAQGTPGICDTSACQGAVLGGVGEKSGSRSS",
+        "n_residues": 684,
+        "mutation_pos_1indexed": 379,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "R378-G379-E380-A381",
+        "pocket_lining_positions_precursor": [
+          378,
+          379,
+          380,
+          381
+        ],
+        "pocket_lining_1letter": "RGEA",
+        "sequence_slice_around_pocket": "PGDAGMPGERGEAGHRGSAG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_G379S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "R378",
+          "G379",
+          "E380",
+          "A381"
+        ],
+        "values": [
+          [
+            0.0,
+            3.85,
+            6.913,
+            10.122
+          ],
+          [
+            3.85,
+            0.0,
+            3.853,
+            6.966
+          ],
+          [
+            6.913,
+            3.853,
+            0.0,
+            3.856
+          ],
+          [
+            10.122,
+            6.966,
+            3.856,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)S(=O)(=O)c1ccncc1N1CCCCC1CNCc1c[nH]c2ccccc12",
+        "composite_score": 0.7009965364230253,
+        "mw": 441.18,
+        "logp": 1.971,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.5124,
+        "sa_score": 3.42,
+        "n_heavy_atoms": 31,
+        "tpsa": 121.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COL9A3-G379S Candidate #1",
+        "iupac_name": "NCC(=O)S(=O)(=O)c1ccncc1N1CCCCC1CNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.701,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_G379S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_G379S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_G379S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_G379S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_G379S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-G379S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-G379S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T17:04:41.667907+00:00"
     }
   ]
 }
