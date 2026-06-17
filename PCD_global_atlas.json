@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 223,
+  "total_entries": 224,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44635,
-    "queue_remaining": 133962
+    "total_processed": 44636,
+    "queue_remaining": 133961
   },
   "entries": [
     {
@@ -49622,6 +49622,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:22:42.582119+00:00"
+    },
+    {
+      "entry_id": "PCD-GLIS3-P282A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GLIS3-P282A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GLIS3",
+        "uniprot": "",
+        "clinvar_id": "366990",
+        "disease": "Monogenic diabetes",
+        "mutation_precursor": "P282A",
+        "mutation_mature": "P282A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9057958760854188,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 605.3578684819089,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -73.22428131103516,
+          -44.656455993652344,
+          10.343461990356445
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.355295089026079,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8853280937687691,
+        "cryptic": true,
+        "pocket_residues": {
+          "E280": "E",
+          "F281": "F",
+          "P282": "P",
+          "G283": "G",
+          "S284": "S",
+          "T285": "T"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NEA6|GLIS3 variant P282A",
+        "fasta_sequence": "MMVQRLGLISPPASQVSTACNQISPSLQRAMNAANLNIPPSDTRSLISRESLASTTLSLTESQSASSMKQEWSQGYRALPSLSNHGSQNGLDLGDLLSLPPGTSMSSNSVSNSLPSYLFGTESSHSPYPSPRHSSTRSHSARSKKRALSLSPLSDGIGIDFNTIIRTSPTSLVAYINGSRASPANLSPQPEVYGHFLGVRGSCIPQPRPVPGSQKGVLVAPGGLALPAYGEDGALEHERMQQLEHGGLQPGLVNHMVVQHGLPGPDSQSAGLFKTERLEEFPGSTVDLPPAPPLPPLPPPPGPPPPYHAHAHLHHPELGPHAQQLALPQATLDDDGEMDGIGGKHCCRWIDCSALYDQQEELVRHIEKVHIDQRKGEDFTCFWAGCPRRYKPFNARYKLLIHMRVHSGEKPNKCTFEGCEKAFSRLENLKIHLRSHTGEKPYLCQHPGCQKAFSNSSDRAKHQRTHLDTKPYACQIPGCTKRYTDPSSLRKHVKAHSSKEQQARKKLRSSTELHPDLLTDCLTVQSLQPATSPRDAAAEGTVGRSPGPGPDLYSAPIFSSNYSSRSGTAAGAVPPPHPVSHPSPGHNVQGSPHNPSSQLPPLTAVDAGAERFAPSAPSPHHISPRRVPAPSSILQRTQPPYTQQPSGSHLKSYQPETNSSFQPNGIHVHGFYGQLQKFCPPHYPDSQRIVPPVSSCSVVPSFEDCLVPTSMGQASFDVFHRAFSTHSGITVYDLPSSSSSLFGESLRSGAEDATFLQISTVDRCPSQLSSVYTEG",
+        "full_sequence": "MMVQRLGLISPPASQVSTACNQISPSLQRAMNAANLNIPPSDTRSLISRESLASTTLSLTESQSASSMKQEWSQGYRALPSLSNHGSQNGLDLGDLLSLPPGTSMSSNSVSNSLPSYLFGTESSHSPYPSPRHSSTRSHSARSKKRALSLSPLSDGIGIDFNTIIRTSPTSLVAYINGSRASPANLSPQPEVYGHFLGVRGSCIPQPRPVPGSQKGVLVAPGGLALPAYGEDGALEHERMQQLEHGGLQPGLVNHMVVQHGLPGPDSQSAGLFKTERLEEFPGSTVDLPPAPPLPPLPPPPGPPPPYHAHAHLHHPELGPHAQQLALPQATLDDDGEMDGIGGKHCCRWIDCSALYDQQEELVRHIEKVHIDQRKGEDFTCFWAGCPRRYKPFNARYKLLIHMRVHSGEKPNKCTFEGCEKAFSRLENLKIHLRSHTGEKPYLCQHPGCQKAFSNSSDRAKHQRTHLDTKPYACQIPGCTKRYTDPSSLRKHVKAHSSKEQQARKKLRSSTELHPDLLTDCLTVQSLQPATSPRDAAAEGTVGRSPGPGPDLYSAPIFSSNYSSRSGTAAGAVPPPHPVSHPSPGHNVQGSPHNPSSQLPPLTAVDAGAERFAPSAPSPHHISPRRVPAPSSILQRTQPPYTQQPSGSHLKSYQPETNSSFQPNGIHVHGFYGQLQKFCPPHYPDSQRIVPPVSSCSVVPSFEDCLVPTSMGQASFDVFHRAFSTHSGITVYDLPSSSSSLFGESLRSGAEDATFLQISTVDRCPSQLSSVYTEG",
+        "n_residues": 775,
+        "mutation_pos_1indexed": 282,
+        "wt_aa": "P",
+        "mut_aa": "A",
+        "pocket_lining_residues": "E280-F281-P282-G283-S284-T285",
+        "pocket_lining_positions_precursor": [
+          280,
+          281,
+          282,
+          283,
+          284,
+          285
+        ],
+        "pocket_lining_1letter": "EFPGST",
+        "sequence_slice_around_pocket": "LFKTERLEEFPGSTVDLPPA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GLIS3_P282A/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "E280",
+          "F281",
+          "P282",
+          "G283",
+          "S284",
+          "T285"
+        ],
+        "values": [
+          [
+            0.0,
+            3.852,
+            6.897,
+            10.459,
+            13.64,
+            16.933
+          ],
+          [
+            3.852,
+            0.0,
+            3.459,
+            6.717,
+            9.88,
+            13.09
+          ],
+          [
+            6.897,
+            3.459,
+            0.0,
+            3.726,
+            7.224,
+            10.429
+          ],
+          [
+            10.459,
+            6.717,
+            3.726,
+            0.0,
+            3.813,
+            6.719
+          ],
+          [
+            13.64,
+            9.88,
+            7.224,
+            3.813,
+            0.0,
+            3.885
+          ],
+          [
+            16.933,
+            13.09,
+            10.429,
+            6.719,
+            3.885,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7535160186784936,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GLIS3-P282A Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7535,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GLIS3_P282A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GLIS3_P282A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GLIS3_P282A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GLIS3_P282A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GLIS3_P282A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GLIS3-P282A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GLIS3-P282A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:23:12.418765+00:00"
     }
   ]
 }
