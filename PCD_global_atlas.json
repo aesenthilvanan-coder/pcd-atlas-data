@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 206,
+  "total_entries": 207,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44618,
-    "queue_remaining": 133979
+    "total_processed": 44619,
+    "queue_remaining": 133978
   },
   "entries": [
     {
@@ -46076,6 +46076,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:05:10.764157+00:00"
+    },
+    {
+      "entry_id": "PCD-DNAI1-T213M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAI1-T213M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DNAI1",
+        "uniprot": "",
+        "clinvar_id": "366687",
+        "disease": "Kartagener syndrome",
+        "mutation_precursor": "T213M",
+        "mutation_mature": "T213M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9115434729550285,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 333.1956368645345,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -30.109676361083984,
+          2.1645779609680176,
+          78.85332489013672
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.550979582627388,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6134924770748263,
+        "cryptic": true,
+        "pocket_residues": {
+          "C211": "C",
+          "Q212": "Q",
+          "T213": "T",
+          "E214": "E",
+          "P215": "P",
+          "P216": "P"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UI46|DNAI1 variant T213M",
+        "fasta_sequence": "MIPASAKAPHKQPHKQSISIGRGTRKRDEDSGTEVGEGTDEWAQSKATVRPPDQLELTDAELKEEFTRILTANNPHAPQNIVRYSFKEGTYKPIGFVNQLAVHYTQVGNLIPKDSDEGRRQHYRDELVAGSQESVKVISETGNLEEDEEPKELETEPGSQTDVPAAGAAEKVTEEELMTPKQPKERKLTNQFNFSERASQTYNNPVRDRECQTEPPPRTNFSATANQWEIYDAYVEELEKQEKTKEKEKAKTPVAKKSGKMAMRKLTSMESQTDDLIKLSQAAKIMERMVNQNTYDDIAQDFKYYDDAADEYRDQVGTLLPLWKFQNDKAKRLSVTALCWNPKYRDLFAVGYGSYDFMKQSRGMLLLYSLKNPSFPEYMFSSNSGVMCLDIHVDHPYLVAVGHYDGNVAIYNLKKPHSQPSFCSSAKSGKHSDPVWQVKWQKDDMDQNLNFFSVSSDGRIVSWTLVKRKLVHIDVIKLKVEGSTTEVPEGLQLHPVGCGTAFDFHKEIDYMFLVGTEEGKIYKCSKSYSSQFLDTYDAHNMSVDTVSWNPYHTKVFMSCSSDWTVKIWDHTIKTPMFIYDLNSAVGDVAWAPYSSTVFAAVTTDGKAHIFDLAINKYEAICNQPVAAKKNRLTHVQFNLIHPIIIVGDDRGHIISLKLSPNLRKMPKEKKGQEVQKGPAVEIAKLDKLLNLVREVKIKT",
+        "full_sequence": "MIPASAKAPHKQPHKQSISIGRGTRKRDEDSGTEVGEGTDEWAQSKATVRPPDQLELTDAELKEEFTRILTANNPHAPQNIVRYSFKEGTYKPIGFVNQLAVHYTQVGNLIPKDSDEGRRQHYRDELVAGSQESVKVISETGNLEEDEEPKELETEPGSQTDVPAAGAAEKVTEEELMTPKQPKERKLTNQFNFSERASQTYNNPVRDRECQTEPPPRTNFSATANQWEIYDAYVEELEKQEKTKEKEKAKTPVAKKSGKMAMRKLTSMESQTDDLIKLSQAAKIMERMVNQNTYDDIAQDFKYYDDAADEYRDQVGTLLPLWKFQNDKAKRLSVTALCWNPKYRDLFAVGYGSYDFMKQSRGMLLLYSLKNPSFPEYMFSSNSGVMCLDIHVDHPYLVAVGHYDGNVAIYNLKKPHSQPSFCSSAKSGKHSDPVWQVKWQKDDMDQNLNFFSVSSDGRIVSWTLVKRKLVHIDVIKLKVEGSTTEVPEGLQLHPVGCGTAFDFHKEIDYMFLVGTEEGKIYKCSKSYSSQFLDTYDAHNMSVDTVSWNPYHTKVFMSCSSDWTVKIWDHTIKTPMFIYDLNSAVGDVAWAPYSSTVFAAVTTDGKAHIFDLAINKYEAICNQPVAAKKNRLTHVQFNLIHPIIIVGDDRGHIISLKLSPNLRKMPKEKKGQEVQKGPAVEIAKLDKLLNLVREVKIKT",
+        "n_residues": 699,
+        "mutation_pos_1indexed": 213,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "C211-Q212-T213-E214-P215-P216",
+        "pocket_lining_positions_precursor": [
+          211,
+          212,
+          213,
+          214,
+          215,
+          216
+        ],
+        "pocket_lining_1letter": "CQTEPP",
+        "sequence_slice_around_pocket": "NNPVRDRECQTEPPPRTNFS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DNAI1_T213M/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "C211",
+          "Q212",
+          "T213",
+          "E214",
+          "P215",
+          "P216"
+        ],
+        "values": [
+          [
+            0.0,
+            3.828,
+            6.356,
+            9.599,
+            12.782,
+            15.489
+          ],
+          [
+            3.828,
+            0.0,
+            3.83,
+            6.345,
+            9.723,
+            12.714
+          ],
+          [
+            6.356,
+            3.83,
+            0.0,
+            3.829,
+            6.453,
+            9.401
+          ],
+          [
+            9.599,
+            6.345,
+            3.829,
+            0.0,
+            3.853,
+            6.548
+          ],
+          [
+            12.782,
+            9.723,
+            6.453,
+            3.853,
+            0.0,
+            3.859
+          ],
+          [
+            15.489,
+            12.714,
+            9.401,
+            6.548,
+            3.859,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "composite_score": 0.7812023238033279,
+        "mw": 234.17,
+        "logp": 2.187,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8676,
+        "sa_score": 1.95,
+        "n_heavy_atoms": 17,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DNAI1-T213M Candidate #1",
+        "iupac_name": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.7812,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DNAI1_T213M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DNAI1_T213M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DNAI1_T213M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNAI1_T213M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNAI1_T213M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAI1-T213M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAI1-T213M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:05:36.015237+00:00"
     }
   ]
 }
