@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 527,
+  "total_entries": 528,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44990,
-    "queue_remaining": 133607
+    "total_processed": 44991,
+    "queue_remaining": 133606
   },
   "entries": [
     {
@@ -116864,6 +116864,155 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:35:11.788103+00:00"
+    },
+    {
+      "entry_id": "PCD-FANCF-M1T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCF-M1T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FANCF",
+        "uniprot": "",
+        "clinvar_id": "304209",
+        "disease": "Fanconi anemia complementation group F",
+        "mutation_precursor": "M1T",
+        "mutation_mature": "M1T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7488419014872713,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 375.6877649008968,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -27.54969596862793,
+          15.185506820678711,
+          34.840538024902344
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.713448961975954,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.69245885338822,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "E2": "E",
+          "S3": "S",
+          "L4": "L",
+          "I54": "I"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NPI8|FANCF variant M1T",
+        "fasta_sequence": "MESLLQHLDRFSELLAVSSTTYVSTWDPATVRRALQWARYLRHIHRRFGRHGPIRTALERRLHNQWRQEGGFGRGPVPGLANFQALGHCDVLLSLRLLENRALGDAARYHLVQQLFPGPGVRDADEETLQESLARLARRRSAVHMLRFNGYRENPNLQEDSLMKTQAELLLERLQEVGKAEAERPARFLSSLWERLPQNNFLKVIAVALLQPPLSRRPQEELEPGIHKSPGEGSQVLVHWLLGNSEVFAAFCRALPAGLLTLVTSRHPALSPVYLGLLTDWGQRLHYDLQKGIWVGTESQDVPWEELHNRFQSLCQAPPPLKDKVLTALETCKAQDGDFEVPGLSIWTDLLLALRSGAFRKRQVLGLSAGLSSV",
+        "full_sequence": "MESLLQHLDRFSELLAVSSTTYVSTWDPATVRRALQWARYLRHIHRRFGRHGPIRTALERRLHNQWRQEGGFGRGPVPGLANFQALGHCDVLLSLRLLENRALGDAARYHLVQQLFPGPGVRDADEETLQESLARLARRRSAVHMLRFNGYRENPNLQEDSLMKTQAELLLERLQEVGKAEAERPARFLSSLWERLPQNNFLKVIAVALLQPPLSRRPQEELEPGIHKSPGEGSQVLVHWLLGNSEVFAAFCRALPAGLLTLVTSRHPALSPVYLGLLTDWGQRLHYDLQKGIWVGTESQDVPWEELHNRFQSLCQAPPPLKDKVLTALETCKAQDGDFEVPGLSIWTDLLLALRSGAFRKRQVLGLSAGLSSV",
+        "n_residues": 374,
+        "mutation_pos_1indexed": 1,
+        "wt_aa": "M",
+        "mut_aa": "T",
+        "pocket_lining_residues": "M1-E2-S3-L4-I54",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3,
+          4,
+          54
+        ],
+        "pocket_lining_1letter": "MESLI",
+        "sequence_slice_around_pocket": "MESLLQHLDR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FANCF_M1T/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "M1",
+          "E2",
+          "S3",
+          "L4",
+          "I54"
+        ],
+        "values": [
+          [
+            0.0,
+            3.876,
+            5.619,
+            5.458,
+            9.43
+          ],
+          [
+            3.876,
+            0.0,
+            3.842,
+            5.497,
+            12.759
+          ],
+          [
+            5.619,
+            3.842,
+            0.0,
+            3.851,
+            14.185
+          ],
+          [
+            5.458,
+            5.497,
+            3.851,
+            0.0,
+            11.617
+          ],
+          [
+            9.43,
+            12.759,
+            14.185,
+            11.617,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)CCCc1nc2ccccc2[nH]1",
+        "composite_score": 0.8191587433845106,
+        "mw": 245.15,
+        "logp": 2.194,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7851,
+        "sa_score": 2.19,
+        "n_heavy_atoms": 18,
+        "tpsa": 71.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FANCF-M1T Candidate #1",
+        "iupac_name": "NCCCC(=O)CCCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8192,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FANCF_M1T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FANCF_M1T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FANCF_M1T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCF_M1T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCF_M1T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCF-M1T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCF-M1T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:35:34.027125+00:00"
     }
   ]
 }
