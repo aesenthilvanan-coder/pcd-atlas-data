@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 260,
+  "total_entries": 261,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44688,
-    "queue_remaining": 133909
+    "total_processed": 44689,
+    "queue_remaining": 133908
   },
   "entries": [
     {
@@ -57980,6 +57980,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:55:43.319289+00:00"
+    },
+    {
+      "entry_id": "PCD-TNNI2-V21M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNNI2-V21M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TNNI2",
+        "uniprot": "",
+        "clinvar_id": "303935",
+        "disease": "not provided",
+        "mutation_precursor": "V21M",
+        "mutation_mature": "V21M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7561623320511214,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 372.9572121240517,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          7.409951210021973,
+          19.879478454589844,
+          -17.969165802001953
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.564703626585831,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7815040892145886,
+        "cryptic": true,
+        "pocket_residues": {
+          "S20": "S",
+          "V21": "V",
+          "M22": "M",
+          "Q24": "Q",
+          "I25": "I"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P48788|TNNI2 variant V21M",
+        "fasta_sequence": "MGDEEKRNRAITARRQHLKSVMLQIAATELEKEESRREAEKQNYLAEHCPPLHIPGSMSEVQELCKQLHAKIDAAEEEKYDMEVRVQKTSKELEDMNQKLFDLRGKFKRPPLRRVRMSADAMLKALLGSKHKVCMDLRANLKQVKKEDTEKERDLRDVGDWRKNIEEKSGMEGRKKMFESES",
+        "full_sequence": "MGDEEKRNRAITARRQHLKSVMLQIAATELEKEESRREAEKQNYLAEHCPPLHIPGSMSEVQELCKQLHAKIDAAEEEKYDMEVRVQKTSKELEDMNQKLFDLRGKFKRPPLRRVRMSADAMLKALLGSKHKVCMDLRANLKQVKKEDTEKERDLRDVGDWRKNIEEKSGMEGRKKMFESES",
+        "n_residues": 182,
+        "mutation_pos_1indexed": 21,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "S20-V21-M22-Q24-I25",
+        "pocket_lining_positions_precursor": [
+          20,
+          21,
+          22,
+          24,
+          25
+        ],
+        "pocket_lining_1letter": "SVMQI",
+        "sequence_slice_around_pocket": "ITARRQHLKSVMLQIAATEL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TNNI2_V21M/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "S20",
+          "V21",
+          "M22",
+          "Q24",
+          "I25"
+        ],
+        "values": [
+          [
+            0.0,
+            3.845,
+            5.497,
+            6.188,
+            8.707
+          ],
+          [
+            3.845,
+            0.0,
+            3.847,
+            5.052,
+            6.169
+          ],
+          [
+            5.497,
+            3.847,
+            0.0,
+            5.471,
+            5.17
+          ],
+          [
+            6.188,
+            5.052,
+            5.471,
+            0.0,
+            3.852
+          ],
+          [
+            8.707,
+            6.169,
+            5.17,
+            3.852,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6484398839806108,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TNNI2-V21M Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6484,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TNNI2_V21M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TNNI2_V21M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TNNI2_V21M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TNNI2_V21M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TNNI2_V21M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNNI2-V21M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNNI2-V21M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:56:03.663877+00:00"
     }
   ]
 }
