@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 721,
+  "total_entries": 722,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45230,
-    "queue_remaining": 133367
+    "total_processed": 45231,
+    "queue_remaining": 133366
   },
   "entries": [
     {
@@ -159436,6 +159436,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:14:36.168199+00:00"
+    },
+    {
+      "entry_id": "PCD-CCDC40-A796G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CCDC40-A796G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CCDC40",
+        "uniprot": "",
+        "clinvar_id": "325742",
+        "disease": "Primary ciliary dyskinesia",
+        "mutation_precursor": "A796G",
+        "mutation_mature": "A796G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8955864543939682,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 630.0476237294857,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -21.863994598388672,
+          7.999370574951172,
+          31.60845947265625
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.708078230638254,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6094930987598137,
+        "cryptic": true,
+        "pocket_residues": {
+          "L795": "L",
+          "A796": "A",
+          "S797": "S",
+          "L798": "L",
+          "D799": "D",
+          "A800": "A",
+          "S801": "S",
+          "K802": "K",
+          "K803": "K"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q4G0X9|CCDC40 variant A796G",
+        "fasta_sequence": "MAEPGGAAGRSHPEDGSASEGEKEGNNESHMVSPPEKDDGQKGEEAVGSTEHPEEVTTQAEAAIEEGEVETEGEAAVEGEEEAVSYGDAESEEEYYYTETSSPEGQISAADTTYPYFSPPQELPGEEAYDSVSGEAGLQGFQQEATGPPESRERRVTSPEPSHGVLGPSEQMGQVTSGPAVGRLTGSTEEPQGQVLPMGVQHRFRLSHGSDIESSDLEEFVSQEPVIPPGVPDAHPREGDLPVFQDQIQQPSTEEGAMAERVESEGSDEEAEDEGSQLVVLDPDHPLMVRFQAALKNYLNRQIEKLKLDLQELVVATKQSRAQRQELGVNLYEVQQHLVHLQKLLEKSHDRHAMASSERRQKEEELQAARALYTKTCAAANEERKKLAALQTEMENLALHLFYMQNIDQDMRDDIRVMTQVVKKAETERIRAEIEKKKQDLYVDQLTTRAQQLEEDIALFEAQYLAQAEDTRILRKAVSEACTEIDAISVEKRRIMQQWASSLVGMKHRDEAHRAVLEALRGCQHQAKSTDGEIEAYKKSIMKEEEKNEKLASILNRTETEATLLQKLTTQCLTKQVALQSQFNTYRLTLQDTEDALSQDQLEQMILTEELQAIRQAIQGELELRRKTDAAIREKLQEHMTSNKTTKYFNQLILRLQKEKTNMMTHLSKINGDIAQTTLDITHTSSRLDAHQKTLVELDQDVKKVNELITNSQSEISRRTILIERKQGLINFLNKQLERMVSELGGEEVGPLELEIKRLSKLIDEHDGKAVQAQVTWLRLQQEMVKVTQEQEEQLASLDASKKELHIMEQKKLRVESKIEQEKKEQKEIEHHMKDLDNDLKKLNMLMNKNRCSSEELEQNNRVTENEFVRSLKASERETIKMQDKLNQLSEEKATLLNQLVEAEHQIMLWEKKIQLAKEMRSSVDSEIGQTEIRAMKGEIHRMKVRLGQLLKQQEKMIRAMELAVARRETVTTQAEGQRKMDRKALTRTDFHHKQLELRRKIRDVRKATDECTKTVLELEETQRNVSSSLLEKQEKLSVIQADFDTLEADLTRLGALKRQNLSEIVALQTRLKHLQAVKEGRYVFLFRSKQSLVLERQRLDKRLALIATILDRVRDEYPQFQEALHKVSQMIANKLESPGPS",
+        "full_sequence": "MAEPGGAAGRSHPEDGSASEGEKEGNNESHMVSPPEKDDGQKGEEAVGSTEHPEEVTTQAEAAIEEGEVETEGEAAVEGEEEAVSYGDAESEEEYYYTETSSPEGQISAADTTYPYFSPPQELPGEEAYDSVSGEAGLQGFQQEATGPPESRERRVTSPEPSHGVLGPSEQMGQVTSGPAVGRLTGSTEEPQGQVLPMGVQHRFRLSHGSDIESSDLEEFVSQEPVIPPGVPDAHPREGDLPVFQDQIQQPSTEEGAMAERVESEGSDEEAEDEGSQLVVLDPDHPLMVRFQAALKNYLNRQIEKLKLDLQELVVATKQSRAQRQELGVNLYEVQQHLVHLQKLLEKSHDRHAMASSERRQKEEELQAARALYTKTCAAANEERKKLAALQTEMENLALHLFYMQNIDQDMRDDIRVMTQVVKKAETERIRAEIEKKKQDLYVDQLTTRAQQLEEDIALFEAQYLAQAEDTRILRKAVSEACTEIDAISVEKRRIMQQWASSLVGMKHRDEAHRAVLEALRGCQHQAKSTDGEIEAYKKSIMKEEEKNEKLASILNRTETEATLLQKLTTQCLTKQVALQSQFNTYRLTLQDTEDALSQDQLEQMILTEELQAIRQAIQGELELRRKTDAAIREKLQEHMTSNKTTKYFNQLILRLQKEKTNMMTHLSKINGDIAQTTLDITHTSSRLDAHQKTLVELDQDVKKVNELITNSQSEISRRTILIERKQGLINFLNKQLERMVSELGGEEVGPLELEIKRLSKLIDEHDGKAVQAQVTWLRLQQEMVKVTQEQEEQLASLDASKKELHIMEQKKLRVESKIEQEKKEQKEIEHHMKDLDNDLKKLNMLMNKNRCSSEELEQNNRVTENEFVRSLKASERETIKMQDKLNQLSEEKATLLNQLVEAEHQIMLWEKKIQLAKEMRSSVDSEIGQTEIRAMKGEIHRMKVRLGQLLKQQEKMIRAMELAVARRETVTTQAEGQRKMDRKALTRTDFHHKQLELRRKIRDVRKATDECTKTVLELEETQRNVSSSLLEKQEKLSVIQADFDTLEADLTRLGALKRQNLSEIVALQTRLKHLQAVKEGRYVFLFRSKQSLVLERQRLDKRLALIATILDRVRDEYPQFQEALHKVSQMIANKLESPGPS",
+        "n_residues": 1142,
+        "mutation_pos_1indexed": 796,
+        "wt_aa": "A",
+        "mut_aa": "G",
+        "pocket_lining_residues": "L795-A796-S797-L798-D799-A800-S801-K802-K803",
+        "pocket_lining_positions_precursor": [
+          795,
+          796,
+          797,
+          798,
+          799,
+          800,
+          801,
+          802,
+          803
+        ],
+        "pocket_lining_1letter": "LASLDASKK",
+        "sequence_slice_around_pocket": "KVTQEQEEQLASLDASKKEL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CCDC40_A796G/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "L795",
+          "A796",
+          "S797",
+          "L798",
+          "D799",
+          "A800",
+          "S801",
+          "K802",
+          "K803"
+        ],
+        "values": [
+          [
+            0.0,
+            3.854,
+            5.526,
+            4.934,
+            6.107,
+            8.576,
+            9.642,
+            10.322,
+            12.338
+          ],
+          [
+            3.854,
+            0.0,
+            3.863,
+            5.483,
+            5.161,
+            6.226,
+            8.629,
+            9.869,
+            10.714
+          ],
+          [
+            5.526,
+            3.863,
+            0.0,
+            3.86,
+            5.419,
+            4.936,
+            6.074,
+            8.618,
+            9.848
+          ],
+          [
+            4.934,
+            5.483,
+            3.86,
+            0.0,
+            3.863,
+            5.488,
+            4.97,
+            6.207,
+            8.761
+          ],
+          [
+            6.107,
+            5.161,
+            5.419,
+            3.863,
+            0.0,
+            3.839,
+            5.308,
+            4.946,
+            6.273
+          ],
+          [
+            8.576,
+            6.226,
+            4.936,
+            5.488,
+            3.839,
+            0.0,
+            3.858,
+            5.529,
+            5.195
+          ],
+          [
+            9.642,
+            8.629,
+            6.074,
+            4.97,
+            5.308,
+            3.858,
+            0.0,
+            3.882,
+            5.463
+          ],
+          [
+            10.322,
+            9.869,
+            8.618,
+            6.207,
+            4.946,
+            5.529,
+            3.882,
+            0.0,
+            3.863
+          ],
+          [
+            12.338,
+            10.714,
+            9.848,
+            8.761,
+            6.273,
+            5.195,
+            5.463,
+            3.863,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CCCCC1NCCNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.8390351005415283,
+        "mw": 379.25,
+        "logp": 2.112,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.448,
+        "sa_score": 3.29,
+        "n_heavy_atoms": 28,
+        "tpsa": 94.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CCDC40-A796G Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CCCCC1NCCNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.839,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CCDC40_A796G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CCDC40_A796G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CCDC40_A796G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CCDC40_A796G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CCDC40_A796G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CCDC40-A796G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CCDC40-A796G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:15:14.451348+00:00"
     }
   ]
 }
