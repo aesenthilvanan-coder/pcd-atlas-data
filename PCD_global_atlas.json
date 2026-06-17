@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 919,
+  "total_entries": 920,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45456,
-    "queue_remaining": 133141
+    "total_processed": 45457,
+    "queue_remaining": 133140
   },
   "entries": [
     {
@@ -202225,6 +202225,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:13:47.517178+00:00"
+    },
+    {
+      "entry_id": "PCD-TNFSF11-P33Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFSF11-P33Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TNFSF11",
+        "uniprot": "",
+        "clinvar_id": "312228",
+        "disease": "Autosomal recessive osteopetrosis 2",
+        "mutation_precursor": "P33Q",
+        "mutation_mature": "P33Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8782642858355877,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 321.76111352927217,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -64.43543243408203,
+          -40.364559173583984,
+          -22.9085693359375
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.150196452722195,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7552610818175369,
+        "cryptic": true,
+        "pocket_residues": {
+          "P33": "P",
+          "P34": "P",
+          "P35": "P",
+          "P36": "P"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O14788|TNFSF11 variant P33Q",
+        "fasta_sequence": "MRRASRDYTKYLRGSEEMGGGPGAPHEGPLHAPPPPAPHQPPAASRSMFVALLGLGLGQVVCSVALFFYFRAQMDPNRISEDGTHCIYRILRLHENADFQDTTLESQDTKLIPDSCRRIKQAFQGAVQKELQHIVGSQHIRAEKAMVDGSWLDLAKRSKLEAQPFAHLTINATDIPSGSHKVSLSSWYHDRGWAKISNMTFSNGKLIVNQDGFYYLYANICFRHHETSGDLATEYLQLMVYVTKTSIKIPSSHTLMKGGSTKYWSGNSEFHFYSINVGGFFKLRSGEEISIEVSNPSLLDPDQDATYFGAFKVRDID",
+        "full_sequence": "MRRASRDYTKYLRGSEEMGGGPGAPHEGPLHAPPPPAPHQPPAASRSMFVALLGLGLGQVVCSVALFFYFRAQMDPNRISEDGTHCIYRILRLHENADFQDTTLESQDTKLIPDSCRRIKQAFQGAVQKELQHIVGSQHIRAEKAMVDGSWLDLAKRSKLEAQPFAHLTINATDIPSGSHKVSLSSWYHDRGWAKISNMTFSNGKLIVNQDGFYYLYANICFRHHETSGDLATEYLQLMVYVTKTSIKIPSSHTLMKGGSTKYWSGNSEFHFYSINVGGFFKLRSGEEISIEVSNPSLLDPDQDATYFGAFKVRDID",
+        "n_residues": 317,
+        "mutation_pos_1indexed": 33,
+        "wt_aa": "P",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "P33-P34-P35-P36",
+        "pocket_lining_positions_precursor": [
+          33,
+          34,
+          35,
+          36
+        ],
+        "pocket_lining_1letter": "PPPP",
+        "sequence_slice_around_pocket": "GAPHEGPLHAPPPPAPHQPP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TNFSF11_P33Q/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "P33",
+          "P34",
+          "P35",
+          "P36"
+        ],
+        "values": [
+          [
+            0.0,
+            3.877,
+            6.829,
+            9.426
+          ],
+          [
+            3.877,
+            0.0,
+            3.852,
+            6.701
+          ],
+          [
+            6.829,
+            3.852,
+            0.0,
+            3.861
+          ],
+          [
+            9.426,
+            6.701,
+            3.861,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "composite_score": 0.5653579322181025,
+        "mw": 234.17,
+        "logp": 2.187,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8676,
+        "sa_score": 1.95,
+        "n_heavy_atoms": 17,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TNFSF11-P33Q Candidate #1",
+        "iupac_name": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5654,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TNFSF11_P33Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TNFSF11_P33Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TNFSF11_P33Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TNFSF11_P33Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TNFSF11_P33Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFSF11-P33Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFSF11-P33Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:14:08.761840+00:00"
     }
   ]
 }
