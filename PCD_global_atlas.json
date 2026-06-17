@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 747,
+  "total_entries": 748,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45259,
-    "queue_remaining": 133338
+    "total_processed": 45260,
+    "queue_remaining": 133337
   },
   "entries": [
     {
@@ -165078,6 +165078,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:33:01.787473+00:00"
+    },
+    {
+      "entry_id": "PCD-FGF23-D184G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGF23-D184G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FGF23",
+        "uniprot": "",
+        "clinvar_id": "308805",
+        "disease": "Autosomal dominant hypophosphatemic rickets",
+        "mutation_precursor": "D184G",
+        "mutation_mature": "D184G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7960762773921636,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 468.48722474466337,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          9.772482872009277,
+          -10.801471710205078,
+          -44.7384033203125
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.6392067223338715,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8899575954787691,
+        "cryptic": true,
+        "pocket_residues": {
+          "E182": "E",
+          "D183": "D",
+          "D184": "D",
+          "S185": "S"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9GZV9|FGF23 variant D184G",
+        "fasta_sequence": "MLGARLRLWVCALCSVCSMSVLRAYPNASPLLGSSWGGLIHLYTATARNSYHLQIHKNGHVDGAPHQTIYSALMIRSEDAGFVVITGVMSRRYLCMDFRGNIFGSHYFDPENCRFQHQTLENGYDVYHSPQYHFLVSLGRAKRAFLPGMNPPPYSQFLSRRNEIPLIHFNTPIPRRHTRSAEDDSERDPLNVLKPRARMTPAPASCSQELPSAEDNSPMASDPLGVVRGGRVNTHAGGTGPEGCRPFAKFI",
+        "full_sequence": "MLGARLRLWVCALCSVCSMSVLRAYPNASPLLGSSWGGLIHLYTATARNSYHLQIHKNGHVDGAPHQTIYSALMIRSEDAGFVVITGVMSRRYLCMDFRGNIFGSHYFDPENCRFQHQTLENGYDVYHSPQYHFLVSLGRAKRAFLPGMNPPPYSQFLSRRNEIPLIHFNTPIPRRHTRSAEDDSERDPLNVLKPRARMTPAPASCSQELPSAEDNSPMASDPLGVVRGGRVNTHAGGTGPEGCRPFAKFI",
+        "n_residues": 251,
+        "mutation_pos_1indexed": 184,
+        "wt_aa": "D",
+        "mut_aa": "G",
+        "pocket_lining_residues": "E182-D183-D184-S185",
+        "pocket_lining_positions_precursor": [
+          182,
+          183,
+          184,
+          185
+        ],
+        "pocket_lining_1letter": "EDDS",
+        "sequence_slice_around_pocket": "PRRHTRSAEDDSERDPLNVL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FGF23_D184G/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "E182",
+          "D183",
+          "D184",
+          "S185"
+        ],
+        "values": [
+          [
+            0.0,
+            3.852,
+            6.04,
+            8.698
+          ],
+          [
+            3.852,
+            0.0,
+            3.862,
+            5.118
+          ],
+          [
+            6.04,
+            3.862,
+            0.0,
+            3.882
+          ],
+          [
+            8.698,
+            5.118,
+            3.882,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7262593381804362,
+        "mw": 316.23,
+        "logp": 1.954,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8995,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 23,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FGF23-D184G Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7263,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FGF23_D184G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FGF23_D184G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FGF23_D184G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FGF23_D184G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FGF23_D184G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGF23-D184G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGF23-D184G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:33:23.866859+00:00"
     }
   ]
 }
