@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 967,
+  "total_entries": 968,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45509,
-    "queue_remaining": 133088
+    "total_processed": 45513,
+    "queue_remaining": 133084
   },
   "entries": [
     {
@@ -212925,6 +212925,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:48:01.776288+00:00"
+    },
+    {
+      "entry_id": "PCD-TGM1-R656Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TGM1-R656Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TGM1",
+        "uniprot": "",
+        "clinvar_id": "312974",
+        "disease": "Autosomal recessive congenital ichthyosis 1",
+        "mutation_precursor": "R656Q",
+        "mutation_mature": "R656Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9486117283925457,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 387.4617590746336,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          27.161611557006836,
+          12.34062671661377,
+          -9.65041732788086
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.75727816661032,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8981921357120108,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y655": "Y",
+          "R656": "R",
+          "P657": "P",
+          "H658": "H",
+          "L659": "L",
+          "V660": "V"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P22735|TGM1 variant R656Q",
+        "fasta_sequence": "MMDGPRSDVGRWGGNPLQPPTTPSPEPEPEPDGRSRRGGGRSFWARCCGCCSCRNAADDDWGPEPSDSRGRGSSSGTRRPGSRGSDSRRPVSRGSGVNAAGDGTIREGMLVVNGVDLLSSRSDQNRREHHTDEYEYDELIVRRGQPFHMLLLLSRTYESSDRITLELLIGNNPEVGKGTHVIIPVGKGGSGGWKAQVVKASGQNLNLRVHTSPNAIIGKFQFTVRTQSDAGEFQLPFDPRNEIYILFNPWCPEDIVYVDHEDWRQEYVLNESGRIYYGTEAQIGERTWNYGQFDHGVLDACLYILDRRGMPYGGRGDPVNVSRVISAMVNSLDDNGVLIGNWSGDYSRGTNPSAWVGSVEILLSYLRTGYSVPYGQCWVFAGVTTTVLRCLGLATRTVTNFNSAHDTDTSLTMDIYFDENMKPLEHLNHDSVWNFHVWNDCWMKRPDLPSGFDGWQVVDATPQETSSGIFCCGPCSVESIKNGLVYMKYDTPFIFAEVNSDKVYWQRQDDGSFKIVYVEEKAIGTLIVTKAISSNMREDITYLYKHPEGSDAERKAVETAAAHGSKPNVYANRGSAEDVAMQVEAQDAVMGQDLMVSVMLINHSSSRRTVKLHLYLSVTFYTGVSGTIFKETKKEVELAPGASDRVTMPVAYKEYRPHLVDQGAMLLNVSGHVKESGQVLAKQHTFRLRTPDLSLTLLGAAVVGQECEVQIVFKNPLPVTLTNVVFRLEGSGLQRPKILNVGDIGGNETVTLRQSFVPVRPGPRQLIASLDSPQLSQVHGVIQVDVAPAPGDGGFFSDAGGDSHLGETIPMASRGGA",
+        "full_sequence": "MMDGPRSDVGRWGGNPLQPPTTPSPEPEPEPDGRSRRGGGRSFWARCCGCCSCRNAADDDWGPEPSDSRGRGSSSGTRRPGSRGSDSRRPVSRGSGVNAAGDGTIREGMLVVNGVDLLSSRSDQNRREHHTDEYEYDELIVRRGQPFHMLLLLSRTYESSDRITLELLIGNNPEVGKGTHVIIPVGKGGSGGWKAQVVKASGQNLNLRVHTSPNAIIGKFQFTVRTQSDAGEFQLPFDPRNEIYILFNPWCPEDIVYVDHEDWRQEYVLNESGRIYYGTEAQIGERTWNYGQFDHGVLDACLYILDRRGMPYGGRGDPVNVSRVISAMVNSLDDNGVLIGNWSGDYSRGTNPSAWVGSVEILLSYLRTGYSVPYGQCWVFAGVTTTVLRCLGLATRTVTNFNSAHDTDTSLTMDIYFDENMKPLEHLNHDSVWNFHVWNDCWMKRPDLPSGFDGWQVVDATPQETSSGIFCCGPCSVESIKNGLVYMKYDTPFIFAEVNSDKVYWQRQDDGSFKIVYVEEKAIGTLIVTKAISSNMREDITYLYKHPEGSDAERKAVETAAAHGSKPNVYANRGSAEDVAMQVEAQDAVMGQDLMVSVMLINHSSSRRTVKLHLYLSVTFYTGVSGTIFKETKKEVELAPGASDRVTMPVAYKEYRPHLVDQGAMLLNVSGHVKESGQVLAKQHTFRLRTPDLSLTLLGAAVVGQECEVQIVFKNPLPVTLTNVVFRLEGSGLQRPKILNVGDIGGNETVTLRQSFVPVRPGPRQLIASLDSPQLSQVHGVIQVDVAPAPGDGGFFSDAGGDSHLGETIPMASRGGA",
+        "n_residues": 817,
+        "mutation_pos_1indexed": 656,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "Y655-R656-P657-H658-L659-V660",
+        "pocket_lining_positions_precursor": [
+          655,
+          656,
+          657,
+          658,
+          659,
+          660
+        ],
+        "pocket_lining_1letter": "YRPHLV",
+        "sequence_slice_around_pocket": "VTMPVAYKEYRPHLVDQGAM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TGM1_R656Q/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "Y655",
+          "R656",
+          "P657",
+          "H658",
+          "L659",
+          "V660"
+        ],
+        "values": [
+          [
+            0.0,
+            3.891,
+            5.863,
+            5.502,
+            6.275,
+            9.91
+          ],
+          [
+            3.891,
+            0.0,
+            3.879,
+            5.445,
+            5.322,
+            9.025
+          ],
+          [
+            5.863,
+            3.879,
+            0.0,
+            3.843,
+            5.849,
+            8.949
+          ],
+          [
+            5.502,
+            5.445,
+            3.843,
+            0.0,
+            3.849,
+            6.481
+          ],
+          [
+            6.275,
+            5.322,
+            5.849,
+            3.849,
+            0.0,
+            3.798
+          ],
+          [
+            9.91,
+            9.025,
+            8.949,
+            6.481,
+            3.798,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.7081856870969668,
+        "mw": 244.12,
+        "logp": 2.049,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 6,
+        "qed": 0.7634,
+        "sa_score": 2.21,
+        "n_heavy_atoms": 18,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TGM1-R656Q Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7082,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TGM1_R656Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TGM1_R656Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TGM1_R656Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TGM1_R656Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TGM1_R656Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TGM1-R656Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TGM1-R656Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:49:11.570013+00:00"
     }
   ]
 }
