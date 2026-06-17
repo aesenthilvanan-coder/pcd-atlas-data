@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 296,
+  "total_entries": 297,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44725,
-    "queue_remaining": 133872
+    "total_processed": 44726,
+    "queue_remaining": 133871
   },
   "entries": [
     {
@@ -64803,6 +64803,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:23:15.841778+00:00"
+    },
+    {
+      "entry_id": "PCD-GCH1-P23L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GCH1-P23L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GCH1",
+        "uniprot": "",
+        "clinvar_id": "313398",
+        "disease": "GTP cyclohydrolase I deficiency",
+        "mutation_precursor": "P23L",
+        "mutation_mature": "P23L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8512100116916156,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 502.2848898453518,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -66.1298599243164,
+          20.739824295043945,
+          18.893037796020508
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.789604263600919,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6661333016856843,
+        "cryptic": true,
+        "pocket_residues": {
+          "G21": "G",
+          "F22": "F",
+          "P23": "P",
+          "E24": "E",
+          "R25": "R"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P30793|GCH1 variant P23L",
+        "fasta_sequence": "MEKGPVRAPAEKPRGARCSNGFPERDPPRPGPSRPAEKPPRPEAKSAQPADGWKGERPRSEEDNELNLPNLAAAYSSILSSLGENPQRQGLLKTPWRAASAMQFFTKGYQETISDVLNDAIFDEDHDEMVIVKDIDMFSMCEHHLVPFVGKVHIGYLPNKQVLGLSKLARIVEIYSRRLQVQERLTKQIAVAITEALRPAGVGVVVEATHMCMVMRGVQKMNSKTVTSTMLGVFREDPKTREEFLTLIRS",
+        "full_sequence": "MEKGPVRAPAEKPRGARCSNGFPERDPPRPGPSRPAEKPPRPEAKSAQPADGWKGERPRSEEDNELNLPNLAAAYSSILSSLGENPQRQGLLKTPWRAASAMQFFTKGYQETISDVLNDAIFDEDHDEMVIVKDIDMFSMCEHHLVPFVGKVHIGYLPNKQVLGLSKLARIVEIYSRRLQVQERLTKQIAVAITEALRPAGVGVVVEATHMCMVMRGVQKMNSKTVTSTMLGVFREDPKTREEFLTLIRS",
+        "n_residues": 250,
+        "mutation_pos_1indexed": 23,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "G21-F22-P23-E24-R25",
+        "pocket_lining_positions_precursor": [
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "pocket_lining_1letter": "GFPER",
+        "sequence_slice_around_pocket": "PRGARCSNGFPERDPPRPGP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GCH1_P23L/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "G21",
+          "F22",
+          "P23",
+          "E24",
+          "R25"
+        ],
+        "values": [
+          [
+            0.0,
+            3.849,
+            6.521,
+            9.258,
+            12.592
+          ],
+          [
+            3.849,
+            0.0,
+            3.854,
+            6.985,
+            9.826
+          ],
+          [
+            6.521,
+            3.854,
+            0.0,
+            3.806,
+            6.255
+          ],
+          [
+            9.258,
+            6.985,
+            3.806,
+            0.0,
+            3.843
+          ],
+          [
+            12.592,
+            9.826,
+            6.255,
+            3.843,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)c(CC(=O)NC(=O)c2ccc(F)cc2)c1",
+        "composite_score": 0.7534099640257812,
+        "mw": 330.14,
+        "logp": 2.053,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 6,
+        "qed": 0.8506,
+        "sa_score": 1.93,
+        "n_heavy_atoms": 24,
+        "tpsa": 67.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GCH1-P23L Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)c(CC(=O)NC(=O)c2ccc(F)cc2)c1",
+        "pocket_affinity_score": 0.7534,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GCH1_P23L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GCH1_P23L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GCH1_P23L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GCH1_P23L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GCH1_P23L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GCH1-P23L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GCH1-P23L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:23:37.409275+00:00"
     }
   ]
 }
