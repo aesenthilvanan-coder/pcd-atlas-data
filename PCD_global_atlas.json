@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 333,
+  "total_entries": 334,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44781,
-    "queue_remaining": 133816
+    "total_processed": 44782,
+    "queue_remaining": 133815
   },
   "entries": [
     {
@@ -72365,6 +72365,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:03:33.356684+00:00"
+    },
+    {
+      "entry_id": "PCD-AIP-V101M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIP-V101M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AIP",
+        "uniprot": "",
+        "clinvar_id": "305726",
+        "disease": "Somatotroph adenoma",
+        "mutation_precursor": "V101M",
+        "mutation_mature": "V101M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9116994129154357,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 526.9566069179969,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          43.323917388916016,
+          13.904901504516602,
+          -34.9987907409668
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.1308204614499586,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7655648638042389,
+        "cryptic": true,
+        "pocket_residues": {
+          "P98": "P",
+          "Q99": "Q",
+          "S100": "S",
+          "Y101": "Y",
+          "Q102": "Q"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NWT8|AIP variant V101M",
+        "fasta_sequence": "MLLGRLTSQLLRAVPWAGGRPPWPVSGVLGSRVCGPLYSTSPAGPGRAASLPRKGAQLELEEMLVPRKMSVSPLESWLTARCFLPRLDTGTAGTVAPPQSYQCPPSQIGEGAEQGDEGVADAPQIQCKNVLKIRRRKMNHHKYRKLVKKTRFLRRKVQEGRLRRKQIKFEKDLRRIWLKAGLKEAPEGWQTPKIYLRGK",
+        "full_sequence": "MLLGRLTSQLLRAVPWAGGRPPWPVSGVLGSRVCGPLYSTSPAGPGRAASLPRKGAQLELEEMLVPRKMSVSPLESWLTARCFLPRLDTGTAGTVAPPQSYQCPPSQIGEGAEQGDEGVADAPQIQCKNVLKIRRRKMNHHKYRKLVKKTRFLRRKVQEGRLRRKQIKFEKDLRRIWLKAGLKEAPEGWQTPKIYLRGK",
+        "n_residues": 199,
+        "mutation_pos_1indexed": 101,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "P98-Q99-S100-Y101-Q102",
+        "pocket_lining_positions_precursor": [
+          98,
+          99,
+          100,
+          101,
+          102
+        ],
+        "pocket_lining_1letter": "PQSYQ",
+        "sequence_slice_around_pocket": "TAGTVAPPQSYQCPPSQIGE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_V101M/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "P98",
+          "Q99",
+          "S100",
+          "Y101",
+          "Q102"
+        ],
+        "values": [
+          [
+            0.0,
+            3.837,
+            6.199,
+            9.047,
+            11.715
+          ],
+          [
+            3.837,
+            0.0,
+            3.789,
+            6.03,
+            8.256
+          ],
+          [
+            6.199,
+            3.789,
+            0.0,
+            3.812,
+            5.911
+          ],
+          [
+            9.047,
+            6.03,
+            3.812,
+            0.0,
+            3.821
+          ],
+          [
+            11.715,
+            8.256,
+            5.911,
+            3.821,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)c1ccc(OC)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.5625575926160643,
+        "mw": 359.22,
+        "logp": 2.079,
+        "hbd": 1,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.7849,
+        "sa_score": 3.21,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AIP-V101M Candidate #1",
+        "iupac_name": "CNCC(=O)c1ccc(OC)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5626,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_V101M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_V101M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_V101M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_V101M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_V101M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIP-V101M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIP-V101M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:03:53.111985+00:00"
     }
   ]
 }
