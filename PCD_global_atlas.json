@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1043,
+  "total_entries": 1044,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45622,
-    "queue_remaining": 132975
+    "total_processed": 45623,
+    "queue_remaining": 132974
   },
   "entries": [
     {
@@ -229722,6 +229722,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:03:05.437856+00:00"
+    },
+    {
+      "entry_id": "PCD-IL17RA-R143C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL17RA-R143C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "IL17RA",
+        "uniprot": "",
+        "clinvar_id": "340572",
+        "disease": "Immunodeficiency 51",
+        "mutation_precursor": "R143C",
+        "mutation_mature": "R143C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7914130029889455,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 471.1550307838202,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          30.793909072875977,
+          -0.20841455459594727,
+          -13.112175941467285
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.073908452717504,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7666467423423265,
+        "cryptic": true,
+        "pocket_residues": {
+          "S44": "S",
+          "Q45": "Q",
+          "P46": "P",
+          "L48": "L",
+          "W142": "W",
+          "R143": "R",
+          "F144": "F"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96F46|IL17RA variant R143C",
+        "fasta_sequence": "MGAARSPPSAVPGPLLGLLLLLLGVLAPGGASLRLLDHRALVCSQPGLNCTVKNSTCLDDSWIHPRNLTPSSPKDLQIQLHFAHTQQGDLFPVAHIEWTLQTDASILYLEGAELSVLQLNTNERLCVRFEFLSKLRHHHRRWRFTFSHFVVDPDQEYEVTVHHLPKPIPDGDPNHQSKNFLVPDCEHARMKVTTPCMSSGSLWDPNITVETLEAHQLRVSFTLWNESTHYQILLTSFPHMENHSCFEHMHHIPAPRPEEFHQRSNVTLTLRNLKGCCRHQVQIQPFFSSCLNDCLRHSATVSCPEMPDTPEPIPDYMPLWVYWFITGISILLVGSVILLIVCMTWRLAGPGSEKYSDDTKYTDGLPAADLIPPPLKPRKVWIIYSADHPLYVDVVLKFAQFLLTACGTEVALDLLEEQAISEAGVMTWVGRQKQEMVESNSKIIVLCSRGTRAKWQALLGRGAPVRLRCDHGKPVGDLFTAAMNMILPDFKRPACFGTYVVCYFSEVSCDGDVPDLFGAAPRYPLMDRFEEVYFRIQDLEMFQPGRMHRVGELSGDNYLRSPGGRQLRAALDRFRDWQVRCPDWFECENLYSADDQDAPSLDEEVFEEPLLPPGTGIVKRAPLVREPGSQACLAIDPLVGEEGGAAVAKLEPHLQPRGQPAPQPLHTLVLAAEEGALVAAVEPGPLADGAAVRLALAGEGEACPLLGSPGAGRNSVLFLPVDPEDSPLGSSTPMASPDLLPEDVREHLEGLMLSLFEQSLSCQAQGGCSRPAMVLTDPHTPYEEEQRQSVQSDQGYISRSSPQPPEGLTEMEEEEEEEQDPGKPALPLSPEDLESLRSLQRQLLFRQLQKNSGWDTMGSESEGPSA",
+        "full_sequence": "MGAARSPPSAVPGPLLGLLLLLLGVLAPGGASLRLLDHRALVCSQPGLNCTVKNSTCLDDSWIHPRNLTPSSPKDLQIQLHFAHTQQGDLFPVAHIEWTLQTDASILYLEGAELSVLQLNTNERLCVRFEFLSKLRHHHRRWRFTFSHFVVDPDQEYEVTVHHLPKPIPDGDPNHQSKNFLVPDCEHARMKVTTPCMSSGSLWDPNITVETLEAHQLRVSFTLWNESTHYQILLTSFPHMENHSCFEHMHHIPAPRPEEFHQRSNVTLTLRNLKGCCRHQVQIQPFFSSCLNDCLRHSATVSCPEMPDTPEPIPDYMPLWVYWFITGISILLVGSVILLIVCMTWRLAGPGSEKYSDDTKYTDGLPAADLIPPPLKPRKVWIIYSADHPLYVDVVLKFAQFLLTACGTEVALDLLEEQAISEAGVMTWVGRQKQEMVESNSKIIVLCSRGTRAKWQALLGRGAPVRLRCDHGKPVGDLFTAAMNMILPDFKRPACFGTYVVCYFSEVSCDGDVPDLFGAAPRYPLMDRFEEVYFRIQDLEMFQPGRMHRVGELSGDNYLRSPGGRQLRAALDRFRDWQVRCPDWFECENLYSADDQDAPSLDEEVFEEPLLPPGTGIVKRAPLVREPGSQACLAIDPLVGEEGGAAVAKLEPHLQPRGQPAPQPLHTLVLAAEEGALVAAVEPGPLADGAAVRLALAGEGEACPLLGSPGAGRNSVLFLPVDPEDSPLGSSTPMASPDLLPEDVREHLEGLMLSLFEQSLSCQAQGGCSRPAMVLTDPHTPYEEEQRQSVQSDQGYISRSSPQPPEGLTEMEEEEEEEQDPGKPALPLSPEDLESLRSLQRQLLFRQLQKNSGWDTMGSESEGPSA",
+        "n_residues": 866,
+        "mutation_pos_1indexed": 143,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "S44-Q45-P46-L48-W142-R143-F144",
+        "pocket_lining_positions_precursor": [
+          44,
+          45,
+          46,
+          48,
+          142,
+          143,
+          144
+        ],
+        "pocket_lining_1letter": "SQPLWRF",
+        "sequence_slice_around_pocket": "SKLRHHHRRWRFTFSHFVVD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_R143C/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "S44",
+          "Q45",
+          "P46",
+          "L48",
+          "W142",
+          "R143",
+          "F144"
+        ],
+        "values": [
+          [
+            0.0,
+            3.844,
+            7.137,
+            5.705,
+            11.304,
+            11.125,
+            9.371
+          ],
+          [
+            3.844,
+            0.0,
+            3.866,
+            5.187,
+            8.951,
+            9.222,
+            8.787
+          ],
+          [
+            7.137,
+            3.866,
+            0.0,
+            5.764,
+            9.792,
+            11.114,
+            11.786
+          ],
+          [
+            5.705,
+            5.187,
+            5.764,
+            0.0,
+            9.405,
+            11.188,
+            10.931
+          ],
+          [
+            11.304,
+            8.951,
+            9.792,
+            9.405,
+            0.0,
+            3.852,
+            6.717
+          ],
+          [
+            11.125,
+            9.222,
+            11.114,
+            11.188,
+            3.852,
+            0.0,
+            3.814
+          ],
+          [
+            9.371,
+            8.787,
+            11.786,
+            10.931,
+            6.717,
+            3.814,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.6328509254857964,
+        "mw": 350.19,
+        "logp": 1.868,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.6495,
+        "sa_score": 3.25,
+        "n_heavy_atoms": 26,
+        "tpsa": 99.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "IL17RA-R143C Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6329,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_R143C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_R143C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_R143C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_R143C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_R143C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL17RA-R143C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL17RA-R143C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:03:35.415397+00:00"
     }
   ]
 }
