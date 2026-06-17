@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 172,
+  "total_entries": 173,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44581,
-    "queue_remaining": 134016
+    "total_processed": 44582,
+    "queue_remaining": 134015
   },
   "entries": [
     {
@@ -39223,6 +39223,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T05:36:06.341126+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC11A2-I420V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC11A2-I420V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC11A2",
+        "uniprot": "",
+        "clinvar_id": "309311",
+        "disease": "Microcytic anemia with liver iron overload",
+        "mutation_precursor": "I420V",
+        "mutation_mature": "I420V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8149949463953688,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 474.68145422147126,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          11.475786209106445,
+          -7.661255836486816,
+          13.337043762207031
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.730570226498287,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.822719454777947,
+        "cryptic": true,
+        "pocket_residues": {
+          "I158": "I",
+          "V412": "V",
+          "V413": "V",
+          "L414": "L",
+          "T415": "T",
+          "R416": "R",
+          "S417": "S",
+          "I418": "I",
+          "A419": "A",
+          "I420": "I",
+          "I421": "I"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P49281|SLC11A2 variant I420V",
+        "fasta_sequence": "MVLGPEQKMSDDSVSGDHGESASLGNINPAYSNPSLSQSPGDSEEYFATYFNEKISIPEEEYSCFSFRKLWAFTGPGFLMSIAYLDPGNIESDLQSGAVAGFKLLWILLLATLVGLLLQRLAARLGVVTGLHLAEVCHRQYPKVPRVILWLMVELAIIGSDMQEVIGSAIAINLLSVGRIPLWGGVLITIADTFVFLFLDKYGLRKLEAFFGFLITIMALTFGYEYVTVKPSQSQVLKGMFVPSCSGCRTPQIEQAVGIVGAVIMPHNMYLHSALVKSRQVNRNNKQEVREANKYFFIESCIALFVSFIINVFVVSVFAEAFFGKTNEQVVEVCTNTSSPHAGLFPKDNSTLAVDIYKGGVVLGCYFGPAALYIWAVGILAAGQSSTMTGTYSGQFVMEGFLNLKWSRFARVVLTRSIAIIPTLLVAVFQDVEHLTGMNDFLNVLQSLQLPFALIPILTFTSLRPVMSDFANGLGWRIAGGILVLIICSINMYFVVVYVRDLGHVALYVVAAVVSVAYLGFVFYLGWQCLIALGMSFLDCGHTCHLGLTAQPELYLLNTMDADSLVSR",
+        "full_sequence": "MVLGPEQKMSDDSVSGDHGESASLGNINPAYSNPSLSQSPGDSEEYFATYFNEKISIPEEEYSCFSFRKLWAFTGPGFLMSIAYLDPGNIESDLQSGAVAGFKLLWILLLATLVGLLLQRLAARLGVVTGLHLAEVCHRQYPKVPRVILWLMVELAIIGSDMQEVIGSAIAINLLSVGRIPLWGGVLITIADTFVFLFLDKYGLRKLEAFFGFLITIMALTFGYEYVTVKPSQSQVLKGMFVPSCSGCRTPQIEQAVGIVGAVIMPHNMYLHSALVKSRQVNRNNKQEVREANKYFFIESCIALFVSFIINVFVVSVFAEAFFGKTNEQVVEVCTNTSSPHAGLFPKDNSTLAVDIYKGGVVLGCYFGPAALYIWAVGILAAGQSSTMTGTYSGQFVMEGFLNLKWSRFARVVLTRSIAIIPTLLVAVFQDVEHLTGMNDFLNVLQSLQLPFALIPILTFTSLRPVMSDFANGLGWRIAGGILVLIICSINMYFVVVYVRDLGHVALYVVAAVVSVAYLGFVFYLGWQCLIALGMSFLDCGHTCHLGLTAQPELYLLNTMDADSLVSR",
+        "n_residues": 568,
+        "mutation_pos_1indexed": 420,
+        "wt_aa": "I",
+        "mut_aa": "V",
+        "pocket_lining_residues": "I158-V412-V413-L414-T415-R416-S417-I418-A419-I420-I421",
+        "pocket_lining_positions_precursor": [
+          158,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421
+        ],
+        "pocket_lining_1letter": "IVVLTRSIAII",
+        "sequence_slice_around_pocket": "ARVVLTRSIAIIPTLLVAVF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC11A2_I420V/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "I158",
+          "V412",
+          "V413",
+          "L414",
+          "T415",
+          "R416",
+          "S417",
+          "I418",
+          "A419",
+          "I420",
+          "I421"
+        ],
+        "values": [
+          [
+            0.0,
+            11.041,
+            12.199,
+            10.31,
+            6.661,
+            7.977,
+            9.782,
+            7.22,
+            5.729,
+            9.503,
+            11.292
+          ],
+          [
+            11.041,
+            0.0,
+            3.854,
+            5.526,
+            5.406,
+            5.845,
+            8.295,
+            9.958,
+            10.529,
+            11.62,
+            13.858
+          ],
+          [
+            12.199,
+            3.854,
+            0.0,
+            3.859,
+            5.819,
+            5.228,
+            5.888,
+            8.614,
+            9.941,
+            10.086,
+            11.628
+          ],
+          [
+            10.31,
+            5.526,
+            3.859,
+            0.0,
+            3.848,
+            5.461,
+            5.081,
+            6.208,
+            8.683,
+            9.872,
+            10.597
+          ],
+          [
+            6.661,
+            5.406,
+            5.819,
+            3.848,
+            0.0,
+            3.834,
+            5.492,
+            5.14,
+            6.263,
+            8.603,
+            10.207
+          ],
+          [
+            7.977,
+            5.845,
+            5.228,
+            5.461,
+            3.834,
+            0.0,
+            3.828,
+            5.456,
+            5.063,
+            5.825,
+            8.359
+          ],
+          [
+            9.782,
+            8.295,
+            5.888,
+            5.081,
+            5.492,
+            3.828,
+            0.0,
+            3.859,
+            5.454,
+            5.132,
+            5.822
+          ],
+          [
+            7.22,
+            9.958,
+            8.614,
+            6.208,
+            5.14,
+            5.456,
+            3.859,
+            0.0,
+            3.864,
+            5.84,
+            5.778
+          ],
+          [
+            5.729,
+            10.529,
+            9.941,
+            8.683,
+            6.263,
+            5.063,
+            5.454,
+            3.864,
+            0.0,
+            3.869,
+            5.838
+          ],
+          [
+            9.503,
+            11.62,
+            10.086,
+            9.872,
+            8.603,
+            5.825,
+            5.132,
+            5.84,
+            3.869,
+            0.0,
+            3.861
+          ],
+          [
+            11.292,
+            13.858,
+            11.628,
+            10.597,
+            10.207,
+            8.359,
+            5.822,
+            5.778,
+            5.838,
+            3.861,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(OCCNC2CCCCN2c2cnccc2N)cc1",
+        "composite_score": 0.6504172505401828,
+        "mw": 341.22,
+        "logp": 2.107,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.6685,
+        "sa_score": 3.07,
+        "n_heavy_atoms": 25,
+        "tpsa": 89.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC11A2-I420V Candidate #1",
+        "iupac_name": "NCc1ccc(OCCNC2CCCCN2c2cnccc2N)cc1",
+        "pocket_affinity_score": 0.6504,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC11A2_I420V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC11A2_I420V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC11A2_I420V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC11A2_I420V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC11A2_I420V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC11A2-I420V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC11A2-I420V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T05:36:30.887193+00:00"
     }
   ]
 }
