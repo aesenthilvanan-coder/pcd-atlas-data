@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 284,
+  "total_entries": 285,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44713,
-    "queue_remaining": 133884
+    "total_processed": 44714,
+    "queue_remaining": 133883
   },
   "entries": [
     {
@@ -62113,6 +62113,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:11:15.005558+00:00"
+    },
+    {
+      "entry_id": "PCD-FANCM-L57F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCM-L57F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FANCM",
+        "uniprot": "",
+        "clinvar_id": "313188",
+        "disease": "Fanconi anemia",
+        "mutation_precursor": "L57F",
+        "mutation_mature": "L57F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7245635291077605,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 575.9012828302468,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          32.11867141723633,
+          -4.212947845458984,
+          -41.47609329223633
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.069736773512542,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8743975924511627,
+        "cryptic": true,
+        "pocket_residues": {
+          "D55": "D",
+          "V56": "V",
+          "L57": "L",
+          "L58": "L",
+          "V59": "V",
+          "A60": "A",
+          "E63": "E"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8IYD8|FANCM variant L57F",
+        "fasta_sequence": "MSGRQRTLFQTWGSSISRSSGTPGCSSGTERPQSPGSSKAPLPAAAEAQLESDDDVLLVAAYEAERQLCLENGGFCTSAGALWIYPTNCPVRDYQLHISRAALFCNTLVCLPTGLGKTFIAAVVMYNFYRWFPSGKVVFMAPTKPLVTQQIEACYQVMGIPQSHMAEMTGSTQASTRKEIWCSKRVLFLTPQVMVNDLSRGACPAAEIKCLVIDEAHKALGNYAYCQVVRELVKYTNHFRILALSATPGSDIKAVQQVITNLLIGQIELRSEDSPDILTYSHERKVEKLIVPLGEELAAIQKTYIQILESFARSLIQRNVLMRRDIPNLTKYQIILARDQFRKNPSPNIVGIQQGIIEGEFAICISLYHGYELLQQMGMRSLYFFLCGIMDGTKGMTRSKNELGRNEDFMKLYNHLECMFARTRSTSANGISAIQQGDKNKKFVYSHPKLKKLEEVVIEHFKSWNAENTTEKKRDETRVMIFSSFRDSVQEIAEMLSQHQPIIRVMTFVGHASGKSTKGFTQKEQLEVVKQFRDGGYNTLVSTCVGEEGLDIGEVDLIICFDSQKSPIRLVQRMGRTGRKRQGRIVIILSEGREERIYNQSQSNKRSIYKAISSNRQVLHFYQRSPRMVPDGINPKLHKMFITHGVYEPEKPSRNLQRKSSIFSYRDGMRQSSLKKDWFLSEEEFKLWNRLYRLRDSDEIKEITLPQVQFSSLQNEENKPAQESTTGIHQLSLSEWRLWQDHPLPTHQVDHSDRCRHFIGLMQMIEGMRHEEGECSYELEVESYLQMEDVTSTFIAPRNESNNLASDTFITHKKSSFIKNINQGSSSSVIESDEECAEIVKQTHIKPTKIVSLKKKVSKEIKKDQLKKENNHGIIDSVDNDRNSTVENIFQEDLPNDKRTSDTDEIAATCTINENVIKEPCVLLTECQFTNKSTSSLAGNVLDSGYNSFNDEKSVSSNLFLPFEEELYIVRTDDQFYNCHSLTKEVLANVERFLSYSPPPLSGLSDLEYEIAKGTALENLLFLPCAEHLRSDKCTCLLSHSAVNSQQNLELNSLKCINYPSEKSCLYDIPNDNISDEPSLCDCDVHKHNQNENLVPNNRVQIHRSPAQNLVGENNHDVDNSDLPVLSTDQDESLLLFEDVNTEFDDVSLSPLNSKSESLPVSDKTAISETPLVSQFLISDELLLDNNSELQDQITRDANSFKSRDQRGVQEEKVKNHEDIFDCSRDLFSVTFDLGFCSPDSDDEILEHTSDSNRPLDDLYGRYLEIKEISDANYVSNQALIPRDHSKNFTSGTVIIPSNEDMQNPNYVHLPLSAAKNEELLSPGYSQFSLPVQKKVMSTPLSKSNTLNSFSKIRKEILKTPDSSKEKVNLQRFKEALNSTFDYSEFSLEKSKSSGPMYLHKSCHSVEDGQLLTSNESEDDEIFRRKVKRAKGNVLNSPEDQKNSEVDSPLHAVKKRRFPINRSELSSSDESENFPKPCSQLEDFKVCNGNARRGIKVPKRQSHLKHVARKFLDDEAELSEEDAEYVSSDENDESENEQDSSLLDFLNDETQLSQAINDSEMRAIYMKSLRSPMMNNKYKMIHKTHKNINIFSQIPEQDETYLEDSFCVDEEESCKGQSSEEEVCVDFNLITDDCFANSKKYKTRRAVMLKEMMEQNCAHSKKKLSRIILPDDSSEEENNVNDKRESNIAVNPSTVKKNKQQDHCLNSVPSGSSAQSKVRSTPRVNPLAKQSKQTSLNLKDTISEVSDFKPQNHNEVQSTTPPFTTVDSQKDCRKFPVPQKDGSALEDSSTSGASCSKSRPHLAGTHTSLRLPQEGKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSMFERICVIVEKDREKTGDTSRMFRRTKSYDSLLTTLIGAGIRILFSSCQEETADLLKELSLVEQRKNVGIHVPTVVNSNKSEALQFYLSIPNISYITALNMCHQFSSVKRMANSSLQEISMYAQVTHQKAEEIYRYIHYVFDIQMLPNDLNQDRLKSDI",
+        "full_sequence": "MSGRQRTLFQTWGSSISRSSGTPGCSSGTERPQSPGSSKAPLPAAAEAQLESDDDVLLVAAYEAERQLCLENGGFCTSAGALWIYPTNCPVRDYQLHISRAALFCNTLVCLPTGLGKTFIAAVVMYNFYRWFPSGKVVFMAPTKPLVTQQIEACYQVMGIPQSHMAEMTGSTQASTRKEIWCSKRVLFLTPQVMVNDLSRGACPAAEIKCLVIDEAHKALGNYAYCQVVRELVKYTNHFRILALSATPGSDIKAVQQVITNLLIGQIELRSEDSPDILTYSHERKVEKLIVPLGEELAAIQKTYIQILESFARSLIQRNVLMRRDIPNLTKYQIILARDQFRKNPSPNIVGIQQGIIEGEFAICISLYHGYELLQQMGMRSLYFFLCGIMDGTKGMTRSKNELGRNEDFMKLYNHLECMFARTRSTSANGISAIQQGDKNKKFVYSHPKLKKLEEVVIEHFKSWNAENTTEKKRDETRVMIFSSFRDSVQEIAEMLSQHQPIIRVMTFVGHASGKSTKGFTQKEQLEVVKQFRDGGYNTLVSTCVGEEGLDIGEVDLIICFDSQKSPIRLVQRMGRTGRKRQGRIVIILSEGREERIYNQSQSNKRSIYKAISSNRQVLHFYQRSPRMVPDGINPKLHKMFITHGVYEPEKPSRNLQRKSSIFSYRDGMRQSSLKKDWFLSEEEFKLWNRLYRLRDSDEIKEITLPQVQFSSLQNEENKPAQESTTGIHQLSLSEWRLWQDHPLPTHQVDHSDRCRHFIGLMQMIEGMRHEEGECSYELEVESYLQMEDVTSTFIAPRNESNNLASDTFITHKKSSFIKNINQGSSSSVIESDEECAEIVKQTHIKPTKIVSLKKKVSKEIKKDQLKKENNHGIIDSVDNDRNSTVENIFQEDLPNDKRTSDTDEIAATCTINENVIKEPCVLLTECQFTNKSTSSLAGNVLDSGYNSFNDEKSVSSNLFLPFEEELYIVRTDDQFYNCHSLTKEVLANVERFLSYSPPPLSGLSDLEYEIAKGTALENLLFLPCAEHLRSDKCTCLLSHSAVNSQQNLELNSLKCINYPSEKSCLYDIPNDNISDEPSLCDCDVHKHNQNENLVPNNRVQIHRSPAQNLVGENNHDVDNSDLPVLSTDQDESLLLFEDVNTEFDDVSLSPLNSKSESLPVSDKTAISETPLVSQFLISDELLLDNNSELQDQITRDANSFKSRDQRGVQEEKVKNHEDIFDCSRDLFSVTFDLGFCSPDSDDEILEHTSDSNRPLDDLYGRYLEIKEISDANYVSNQALIPRDHSKNFTSGTVIIPSNEDMQNPNYVHLPLSAAKNEELLSPGYSQFSLPVQKKVMSTPLSKSNTLNSFSKIRKEILKTPDSSKEKVNLQRFKEALNSTFDYSEFSLEKSKSSGPMYLHKSCHSVEDGQLLTSNESEDDEIFRRKVKRAKGNVLNSPEDQKNSEVDSPLHAVKKRRFPINRSELSSSDESENFPKPCSQLEDFKVCNGNARRGIKVPKRQSHLKHVARKFLDDEAELSEEDAEYVSSDENDESENEQDSSLLDFLNDETQLSQAINDSEMRAIYMKSLRSPMMNNKYKMIHKTHKNINIFSQIPEQDETYLEDSFCVDEEESCKGQSSEEEVCVDFNLITDDCFANSKKYKTRRAVMLKEMMEQNCAHSKKKLSRIILPDDSSEEENNVNDKRESNIAVNPSTVKKNKQQDHCLNSVPSGSSAQSKVRSTPRVNPLAKQSKQTSLNLKDTISEVSDFKPQNHNEVQSTTPPFTTVDSQKDCRKFPVPQKDGSALEDSSTSGASCSKSRPHLAGTHTSLRLPQEGKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSMFERICVIVEKDREKTGDTSRMFRRTKSYDSLLTTLIGAGIRILFSSCQEETADLLKELSLVEQRKNVGIHVPTVVNSNKSEALQFYLSIPNISYITALNMCHQFSSVKRMANSSLQEISMYAQVTHQKAEEIYRYIHYVFDIQMLPNDLNQDRLKSDI",
+        "n_residues": 2048,
+        "mutation_pos_1indexed": 57,
+        "wt_aa": "L",
+        "mut_aa": "F",
+        "pocket_lining_residues": "D55-V56-L57-L58-V59-A60-E63",
+        "pocket_lining_positions_precursor": [
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          63
+        ],
+        "pocket_lining_1letter": "DVLLVAE",
+        "sequence_slice_around_pocket": "EAQLESDDDVLLVAAYEAER"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_L57F/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "D55",
+          "V56",
+          "L57",
+          "L58",
+          "V59",
+          "A60",
+          "E63"
+        ],
+        "values": [
+          [
+            0.0,
+            3.858,
+            5.384,
+            4.961,
+            5.95,
+            8.339,
+            11.758
+          ],
+          [
+            3.858,
+            0.0,
+            3.853,
+            5.543,
+            5.089,
+            5.967,
+            10.123
+          ],
+          [
+            5.384,
+            3.853,
+            0.0,
+            3.858,
+            5.506,
+            4.938,
+            9.615
+          ],
+          [
+            4.961,
+            5.543,
+            3.858,
+            0.0,
+            3.859,
+            5.389,
+            8.381
+          ],
+          [
+            5.95,
+            5.089,
+            5.506,
+            3.859,
+            0.0,
+            3.86,
+            5.839
+          ],
+          [
+            8.339,
+            5.967,
+            4.938,
+            5.389,
+            3.86,
+            0.0,
+            4.987
+          ],
+          [
+            11.758,
+            10.123,
+            9.615,
+            8.381,
+            5.839,
+            4.987,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1CNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.7879187267623461,
+        "mw": 400.17,
+        "logp": 1.754,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.5803,
+        "sa_score": 3.09,
+        "n_heavy_atoms": 28,
+        "tpsa": 117.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FANCM-L57F Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1CNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.7879,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_L57F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_L57F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_L57F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_L57F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_L57F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCM-L57F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCM-L57F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:12:56.054964+00:00"
     }
   ]
 }
