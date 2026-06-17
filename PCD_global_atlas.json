@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 510,
+  "total_entries": 511,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44973,
-    "queue_remaining": 133624
+    "total_processed": 44974,
+    "queue_remaining": 133623
   },
   "entries": [
     {
@@ -113159,6 +113159,253 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:26:06.654332+00:00"
+    },
+    {
+      "entry_id": "PCD-BBS2-R403C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BBS2-R403C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BBS2",
+        "uniprot": "",
+        "clinvar_id": "319857",
+        "disease": "Bardet-Biedl syndrome 2",
+        "mutation_precursor": "R403C",
+        "mutation_mature": "R403C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9132173110070871,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 584.1486698145665,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -23.383516311645508,
+          0.9046668410301208,
+          31.244924545288086
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.772458847313721,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8165488203717638,
+        "cryptic": true,
+        "pocket_residues": {
+          "H384": "H",
+          "T385": "T",
+          "R403": "R",
+          "I404": "I",
+          "S405": "S",
+          "T406": "T",
+          "S439": "S",
+          "S440": "S",
+          "I441": "I",
+          "C442": "C"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9BXC9|BBS2 variant R403C",
+        "fasta_sequence": "MLLPVFTLKLRHKISPRMVAIGRYDGTHPCLAAATQTGKVFIHNPHTRNQHVSASRVFQSPLESDVSLLSINQAVSCLTAGVLNPELGYDALLVGTQTNLLAYDVYNNSDLFYREVADGANAIVLGTLGDISSPLAIIGGNCALQGFNHEGSDLFWTVTGDNVNSLALCDFDGDGKKELLVGSEDFDIRVFKEDEIVAEMTETEIVTSLCPMYGSRFGYALSNGTVGVYDKTSRYWRIKSKNHAMSIHAFDLNSDGVNELITGWSNGKVDARSDRTGEVIFKDNFSSAIAGVVEGDYRMDGHIQLICCSVDGEIRGYLPGTAEMRGNLMDTSAEQDLIRELSQKKQNLLLELRNYEENAKAELASPLNEADGHRGIIPANTRLHTTLSVSLGNETQTAHTELRISTSNDTIIRAVLIFAEGIFTGESHVVHPSIHNLSSSICIPIVPPKDVPVDLHLKAFVGYRSSTQFHVFESTRQLPRFSMYALTSLDPASEPISYVNFTIAERAQRVVVWLGQNFLLPEDTHIQNAPFQVCFTSLRNGGHLHIKIKLSGEITINTDDIDLAGDIIQSMASFFAIEDLQVEADFPVYFEELRKVLVKVDEYHSVHQKLSADMADHSNLIRSLLVGAEDARLMRDMKTMKSRYMELYDLNRDLLNGYKIRCNNHTELLGNLKAVNQAIQRAGRLRVGKPKNQVITACRDAIRSNNINTLFKIMRVGTASS",
+        "full_sequence": "MLLPVFTLKLRHKISPRMVAIGRYDGTHPCLAAATQTGKVFIHNPHTRNQHVSASRVFQSPLESDVSLLSINQAVSCLTAGVLNPELGYDALLVGTQTNLLAYDVYNNSDLFYREVADGANAIVLGTLGDISSPLAIIGGNCALQGFNHEGSDLFWTVTGDNVNSLALCDFDGDGKKELLVGSEDFDIRVFKEDEIVAEMTETEIVTSLCPMYGSRFGYALSNGTVGVYDKTSRYWRIKSKNHAMSIHAFDLNSDGVNELITGWSNGKVDARSDRTGEVIFKDNFSSAIAGVVEGDYRMDGHIQLICCSVDGEIRGYLPGTAEMRGNLMDTSAEQDLIRELSQKKQNLLLELRNYEENAKAELASPLNEADGHRGIIPANTRLHTTLSVSLGNETQTAHTELRISTSNDTIIRAVLIFAEGIFTGESHVVHPSIHNLSSSICIPIVPPKDVPVDLHLKAFVGYRSSTQFHVFESTRQLPRFSMYALTSLDPASEPISYVNFTIAERAQRVVVWLGQNFLLPEDTHIQNAPFQVCFTSLRNGGHLHIKIKLSGEITINTDDIDLAGDIIQSMASFFAIEDLQVEADFPVYFEELRKVLVKVDEYHSVHQKLSADMADHSNLIRSLLVGAEDARLMRDMKTMKSRYMELYDLNRDLLNGYKIRCNNHTELLGNLKAVNQAIQRAGRLRVGKPKNQVITACRDAIRSNNINTLFKIMRVGTASS",
+        "n_residues": 721,
+        "mutation_pos_1indexed": 403,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "H384-T385-R403-I404-S405-T406-S439-S440-I441-C442",
+        "pocket_lining_positions_precursor": [
+          384,
+          385,
+          403,
+          404,
+          405,
+          406,
+          439,
+          440,
+          441,
+          442
+        ],
+        "pocket_lining_1letter": "HTRISTSSIC",
+        "sequence_slice_around_pocket": "NETQTAHTELRISTSNDTII"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BBS2_R403C/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "H384",
+          "T385",
+          "R403",
+          "I404",
+          "S405",
+          "T406",
+          "S439",
+          "S440",
+          "I441",
+          "C442"
+        ],
+        "values": [
+          [
+            0.0,
+            3.817,
+            8.076,
+            5.756,
+            5.157,
+            6.112,
+            10.471,
+            9.175,
+            10.678,
+            11.841
+          ],
+          [
+            3.817,
+            0.0,
+            5.659,
+            4.554,
+            6.49,
+            8.906,
+            12.02,
+            9.646,
+            9.77,
+            9.813
+          ],
+          [
+            8.076,
+            5.659,
+            0.0,
+            3.817,
+            6.627,
+            10.386,
+            10.722,
+            7.109,
+            5.805,
+            4.438
+          ],
+          [
+            5.756,
+            4.554,
+            3.817,
+            0.0,
+            3.832,
+            7.155,
+            8.362,
+            5.632,
+            5.349,
+            6.435
+          ],
+          [
+            5.157,
+            6.49,
+            6.627,
+            3.832,
+            0.0,
+            3.826,
+            5.627,
+            4.104,
+            6.429,
+            8.737
+          ],
+          [
+            6.112,
+            8.906,
+            10.386,
+            7.155,
+            3.826,
+            0.0,
+            5.489,
+            6.55,
+            9.442,
+            12.323
+          ],
+          [
+            10.471,
+            12.02,
+            10.722,
+            8.362,
+            5.627,
+            5.489,
+            0.0,
+            3.865,
+            7.018,
+            10.593
+          ],
+          [
+            9.175,
+            9.646,
+            7.109,
+            5.632,
+            4.104,
+            6.55,
+            3.865,
+            0.0,
+            3.834,
+            6.939
+          ],
+          [
+            10.678,
+            9.77,
+            5.805,
+            5.349,
+            6.429,
+            9.442,
+            7.018,
+            3.834,
+            0.0,
+            3.828
+          ],
+          [
+            11.841,
+            9.813,
+            4.438,
+            6.435,
+            8.737,
+            12.323,
+            10.593,
+            6.939,
+            3.828,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "composite_score": 0.5517499831458446,
+        "mw": 360.25,
+        "logp": 2.071,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.8126,
+        "sa_score": 3.31,
+        "n_heavy_atoms": 26,
+        "tpsa": 70.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BBS2-R403C Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "pocket_affinity_score": 0.5517,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BBS2_R403C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BBS2_R403C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BBS2_R403C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BBS2_R403C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BBS2_R403C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BBS2-R403C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BBS2-R403C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:26:32.886796+00:00"
     }
   ]
 }
