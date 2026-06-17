@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 746,
+  "total_entries": 747,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45258,
-    "queue_remaining": 133339
+    "total_processed": 45259,
+    "queue_remaining": 133338
   },
   "entries": [
     {
@@ -164945,6 +164945,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:32:39.106130+00:00"
+    },
+    {
+      "entry_id": "PCD-HPD-R279H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPD-R279H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HPD",
+        "uniprot": "",
+        "clinvar_id": "307482",
+        "disease": "Tyrosinemia type III",
+        "mutation_precursor": "R279H",
+        "mutation_mature": "R279H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.900110978913794,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 629.8640084821345,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -25.633394241333008,
+          -10.971330642700195,
+          -12.825443267822266
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.2977763027693685,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7517206593907264,
+        "cryptic": true,
+        "pocket_residues": {
+          "R279": "R",
+          "H280": "H",
+          "R282": "R",
+          "E283": "E"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P32754|HPD variant R279H",
+        "fasta_sequence": "MTTYSDKGAKPERGRFLHFHSVTFWVGNAKQATSFYCSKMGFEPLAYRGLETGSREVVSHVIKQGKIVFVLSSALNPWNKEMGDHLVKHGDGVKDIAFEVEDCDYIVQKARERGAKIMREPWVEQDKFGKVKFAVLQTYGDTTHTLVEKMNYIGQFLPGYEAPAFMDPLLPKLPKCSLEMIDHIVGNQPDQEMVSASEWYLKNLQFHRFWSVDDTQVHTEYSSLRSIVVANYEESIKMPINEPAPGKKKSQIQEYVDYNGGAGVQHIALKTEDIITAIRHLRERGLEFLSVPSTYYKQLREKLKTAKIKVKENIDALEELKILVDYDEKGYLLQIFTKPVQDRPTLFLEVIQRHNHQGFGAGNFNSLFKAFEEEQNLRGNLTNMETNGVVPGM",
+        "full_sequence": "MTTYSDKGAKPERGRFLHFHSVTFWVGNAKQATSFYCSKMGFEPLAYRGLETGSREVVSHVIKQGKIVFVLSSALNPWNKEMGDHLVKHGDGVKDIAFEVEDCDYIVQKARERGAKIMREPWVEQDKFGKVKFAVLQTYGDTTHTLVEKMNYIGQFLPGYEAPAFMDPLLPKLPKCSLEMIDHIVGNQPDQEMVSASEWYLKNLQFHRFWSVDDTQVHTEYSSLRSIVVANYEESIKMPINEPAPGKKKSQIQEYVDYNGGAGVQHIALKTEDIITAIRHLRERGLEFLSVPSTYYKQLREKLKTAKIKVKENIDALEELKILVDYDEKGYLLQIFTKPVQDRPTLFLEVIQRHNHQGFGAGNFNSLFKAFEEEQNLRGNLTNMETNGVVPGM",
+        "n_residues": 393,
+        "mutation_pos_1indexed": 279,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "R279-H280-R282-E283",
+        "pocket_lining_positions_precursor": [
+          279,
+          280,
+          282,
+          283
+        ],
+        "pocket_lining_1letter": "RHRE",
+        "sequence_slice_around_pocket": "LKTEDIITAIRHLRERGLEF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HPD_R279H/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "R279",
+          "H280",
+          "R282",
+          "E283"
+        ],
+        "values": [
+          [
+            0.0,
+            3.837,
+            5.231,
+            6.226
+          ],
+          [
+            3.837,
+            0.0,
+            5.38,
+            4.871
+          ],
+          [
+            5.231,
+            5.38,
+            0.0,
+            3.866
+          ],
+          [
+            6.226,
+            4.871,
+            3.866,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)c(OCNS(=O)(=O)c2ccncc2N2CCCCC2)c1",
+        "composite_score": 0.7419770236948119,
+        "mw": 420.18,
+        "logp": 2.115,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 9,
+        "qed": 0.6004,
+        "sa_score": 2.63,
+        "n_heavy_atoms": 29,
+        "tpsa": 92.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HPD-R279H Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)c(OCNS(=O)(=O)c2ccncc2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.742,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HPD_R279H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HPD_R279H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HPD_R279H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPD_R279H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPD_R279H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPD-R279H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPD-R279H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:33:01.787473+00:00"
     }
   ]
 }
