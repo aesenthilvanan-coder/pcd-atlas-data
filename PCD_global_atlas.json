@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 542,
+  "total_entries": 543,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45010,
-    "queue_remaining": 133587
+    "total_processed": 45014,
+    "queue_remaining": 133583
   },
   "entries": [
     {
@@ -119661,6 +119661,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:44:19.838525+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC35C1-R10K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC35C1-R10K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC35C1",
+        "uniprot": "",
+        "clinvar_id": "304736",
+        "disease": "Leukocyte adhesion deficiency type II",
+        "mutation_precursor": "R10K",
+        "mutation_mature": "R10K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7632859433839869,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 305.5467023392828,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          21.213258743286133,
+          -4.385739803314209,
+          -12.077914237976074
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.2696096382454884,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7083963139033883,
+        "cryptic": true,
+        "pocket_residues": {
+          "L6": "L",
+          "K7": "K",
+          "R8": "R",
+          "S9": "S",
+          "R10": "R",
+          "I11": "I",
+          "L12": "L",
+          "H13": "H",
+          "M14": "M",
+          "A15": "A"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96A29|SLC35C1 variant R10K",
+        "fasta_sequence": "MNRAPLKRSRILHMALTGASDPSAEAEANGEKPFLLRALQIALVVSLYWVTSISMVFLNKYLLDSPSLRLDTPIFVTFYQCLVTTLLCKGLSALAACCPGAVDFPSLRLDLRVARSVLPLSVVFIGMITFNNLCLKYVGVAFYNVGRSLTTVFNVLLSYLLLKQTTSFYALLTCGIIIGGFWLGVDQEGAEGTLSWLGTVFGVLASLCVSLNAIYTTKVLPAVDGSIWRLTFYNNVNACILFLPLLLLLGELQALRDFAQLGSAHFWGMMTLGGLFGFAIGYVTGLQIKFTSPLTHNVSGTAKACAQTVLAVLYYEETKSFLWWTSNMMVLGGSSAYTWVRGWEMKKTPEEPSPKDSEKSAMGV",
+        "full_sequence": "MNRAPLKRSRILHMALTGASDPSAEAEANGEKPFLLRALQIALVVSLYWVTSISMVFLNKYLLDSPSLRLDTPIFVTFYQCLVTTLLCKGLSALAACCPGAVDFPSLRLDLRVARSVLPLSVVFIGMITFNNLCLKYVGVAFYNVGRSLTTVFNVLLSYLLLKQTTSFYALLTCGIIIGGFWLGVDQEGAEGTLSWLGTVFGVLASLCVSLNAIYTTKVLPAVDGSIWRLTFYNNVNACILFLPLLLLLGELQALRDFAQLGSAHFWGMMTLGGLFGFAIGYVTGLQIKFTSPLTHNVSGTAKACAQTVLAVLYYEETKSFLWWTSNMMVLGGSSAYTWVRGWEMKKTPEEPSPKDSEKSAMGV",
+        "n_residues": 364,
+        "mutation_pos_1indexed": 10,
+        "wt_aa": "R",
+        "mut_aa": "K",
+        "pocket_lining_residues": "L6-K7-R8-S9-R10-I11-L12-H13-M14-A15",
+        "pocket_lining_positions_precursor": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "pocket_lining_1letter": "LKRSRILHMA",
+        "sequence_slice_around_pocket": "MNRAPLKRSRILHMALTGA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC35C1_R10K/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "L6",
+          "K7",
+          "R8",
+          "S9",
+          "R10",
+          "I11",
+          "L12",
+          "H13",
+          "M14",
+          "A15"
+        ],
+        "values": [
+          [
+            0.0,
+            3.867,
+            5.419,
+            5.161,
+            6.294,
+            8.812,
+            9.869,
+            10.374,
+            12.18,
+            14.223
+          ],
+          [
+            3.867,
+            0.0,
+            3.85,
+            5.498,
+            5.087,
+            6.229,
+            8.519,
+            9.651,
+            10.33,
+            12.197
+          ],
+          [
+            5.419,
+            3.85,
+            0.0,
+            3.843,
+            5.498,
+            5.306,
+            6.079,
+            8.442,
+            9.815,
+            10.559
+          ],
+          [
+            5.161,
+            5.498,
+            3.843,
+            0.0,
+            3.864,
+            5.645,
+            5.059,
+            5.9,
+            8.478,
+            9.804
+          ],
+          [
+            6.294,
+            5.087,
+            5.498,
+            3.864,
+            0.0,
+            3.866,
+            5.418,
+            4.881,
+            5.912,
+            8.46
+          ],
+          [
+            8.812,
+            6.229,
+            5.306,
+            5.645,
+            3.866,
+            0.0,
+            3.835,
+            5.398,
+            4.921,
+            6.03
+          ],
+          [
+            9.869,
+            8.519,
+            6.079,
+            5.059,
+            5.418,
+            3.835,
+            0.0,
+            3.844,
+            5.51,
+            5.116
+          ],
+          [
+            10.374,
+            9.651,
+            8.442,
+            5.9,
+            4.881,
+            5.398,
+            3.844,
+            0.0,
+            3.876,
+            5.471
+          ],
+          [
+            12.18,
+            10.33,
+            9.815,
+            8.478,
+            5.912,
+            4.921,
+            5.51,
+            3.876,
+            0.0,
+            3.857
+          ],
+          [
+            14.223,
+            12.197,
+            10.559,
+            9.804,
+            8.46,
+            6.03,
+            5.116,
+            5.471,
+            3.857,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6587470903082395,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC35C1-R10K Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6587,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC35C1_R10K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC35C1_R10K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC35C1_R10K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC35C1_R10K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC35C1_R10K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC35C1-R10K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC35C1-R10K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:45:18.487064+00:00"
     }
   ]
 }
