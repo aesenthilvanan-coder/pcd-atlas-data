@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 181,
+  "total_entries": 182,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44590,
-    "queue_remaining": 134007
+    "total_processed": 44593,
+    "queue_remaining": 134004
   },
   "entries": [
     {
@@ -41313,6 +41313,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T05:46:20.767892+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT2-G574R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT2-G574R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT2",
+        "uniprot": "",
+        "clinvar_id": "309596",
+        "disease": "Ichthyosis bullosa of Siemens",
+        "mutation_precursor": "G574R",
+        "mutation_mature": "G574R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7790598471484368,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 567.9613649106749,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -70.00623321533203,
+          2.145878791809082,
+          10.935209274291992
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.180288338130088,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8488998789904604,
+        "cryptic": true,
+        "pocket_residues": {
+          "G571": "G",
+          "R572": "R",
+          "Y573": "Y",
+          "G574": "G",
+          "S575": "S"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P35908|KRT2 variant G574R",
+        "fasta_sequence": "MSCQISCKSRGRGGGGGGFRGFSSGSAVVSGGSRRSTSSFSCLSRHGGGGGGFGGGGFGSRSLVGLGGTKSISISVAGGGGGFGAAGGFGGRGGGFGGGSSFGGGSGFSGGGFGGGGFGGGRFGGFGGPGGVGGLGGPGGFGPGGYPGGIHEVSVNQSLLQPLNVKVDPEIQNVKAQEREQIKTLNNKFASFIDKVRFLEQQNQVLQTKWELLQQMNVGTRPINLEPIFQGYIDSLKRYLDGLTAERTSQNSELNNMQDLVEDYKKKYEDEINKRTAAENDFVTLKKDVDNAYMIKVELQSKVDLLNQEIEFLKVLYDAEISQIHQSVTDTNVILSMDNSRNLDLDSIIAEVKAQYEEIAQRSKEEAEALYHSKYEELQVTVGRHGDSLKEIKIEISELNRVIQRLQGEIAHVKKQCKNVQDAIADAEQRGEHALKDARNKLNDLEEALQQAKEDLARLLRDYQELMNVKLALDVEIATYRKLLEGEECRMSGDLSSNVTVSVTSSTISSNVASKAAFGGSGGRGSSSGGGYSSGSSSYGSGGRQSGSRGGSGGGGSISGGGYGSGGGSGGRYGSGGGSKGGSISGGGYGSGGGKHSSGGGSRGGSSSGGGYGSGGGGSSSVKGSSGEAFGSSVTFSFR",
+        "full_sequence": "MSCQISCKSRGRGGGGGGFRGFSSGSAVVSGGSRRSTSSFSCLSRHGGGGGGFGGGGFGSRSLVGLGGTKSISISVAGGGGGFGAAGGFGGRGGGFGGGSSFGGGSGFSGGGFGGGGFGGGRFGGFGGPGGVGGLGGPGGFGPGGYPGGIHEVSVNQSLLQPLNVKVDPEIQNVKAQEREQIKTLNNKFASFIDKVRFLEQQNQVLQTKWELLQQMNVGTRPINLEPIFQGYIDSLKRYLDGLTAERTSQNSELNNMQDLVEDYKKKYEDEINKRTAAENDFVTLKKDVDNAYMIKVELQSKVDLLNQEIEFLKVLYDAEISQIHQSVTDTNVILSMDNSRNLDLDSIIAEVKAQYEEIAQRSKEEAEALYHSKYEELQVTVGRHGDSLKEIKIEISELNRVIQRLQGEIAHVKKQCKNVQDAIADAEQRGEHALKDARNKLNDLEEALQQAKEDLARLLRDYQELMNVKLALDVEIATYRKLLEGEECRMSGDLSSNVTVSVTSSTISSNVASKAAFGGSGGRGSSSGGGYSSGSSSYGSGGRQSGSRGGSGGGGSISGGGYGSGGGSGGRYGSGGGSKGGSISGGGYGSGGGKHSSGGGSRGGSSSGGGYGSGGGGSSSVKGSSGEAFGSSVTFSFR",
+        "n_residues": 639,
+        "mutation_pos_1indexed": 574,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "G571-R572-Y573-G574-S575",
+        "pocket_lining_positions_precursor": [
+          571,
+          572,
+          573,
+          574,
+          575
+        ],
+        "pocket_lining_1letter": "GRYGS",
+        "sequence_slice_around_pocket": "GSGGGSGGRYGSGGGSKGGS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT2_G574R/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "G571",
+          "R572",
+          "Y573",
+          "G574",
+          "S575"
+        ],
+        "values": [
+          [
+            0.0,
+            3.917,
+            7.05,
+            10.031,
+            13.855
+          ],
+          [
+            3.917,
+            0.0,
+            3.37,
+            6.365,
+            10.237
+          ],
+          [
+            7.05,
+            3.37,
+            0.0,
+            3.279,
+            7.197
+          ],
+          [
+            10.031,
+            6.365,
+            3.279,
+            0.0,
+            3.925
+          ],
+          [
+            13.855,
+            10.237,
+            7.197,
+            3.925,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COC1CCCC(N2CCCCC2)N1c1cnccc1NCCC(N)=O",
+        "composite_score": 0.5070228330120408,
+        "mw": 361.25,
+        "logp": 2.144,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.7741,
+        "sa_score": 3.65,
+        "n_heavy_atoms": 26,
+        "tpsa": 83.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT2-G574R Candidate #1",
+        "iupac_name": "COC1CCCC(N2CCCCC2)N1c1cnccc1NCCC(N)=O",
+        "pocket_affinity_score": 0.507,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT2_G574R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT2_G574R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT2_G574R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT2_G574R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT2_G574R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT2-G574R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT2-G574R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T05:47:18.127406+00:00"
     }
   ]
 }
