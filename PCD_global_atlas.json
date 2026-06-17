@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1326,
+  "total_entries": 1327,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45944,
-    "queue_remaining": 132653
+    "total_processed": 45945,
+    "queue_remaining": 132652
   },
   "entries": [
     {
@@ -293502,6 +293502,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:20:55.753312+00:00"
+    },
+    {
+      "entry_id": "PCD-ATP1A3-V642I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATP1A3-V642I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ATP1A3",
+        "uniprot": "",
+        "clinvar_id": "329410",
+        "disease": "Alternating hemiplegia of childhood 2",
+        "mutation_precursor": "V642I",
+        "mutation_mature": "V642I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9428742030734041,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 311.3859484944979,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -0.5694906711578369,
+          8.600464820861816,
+          40.55194854736328
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.809402995288801,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.816743933486667,
+        "cryptic": true,
+        "pocket_residues": {
+          "I640": "I",
+          "P641": "P",
+          "V642": "V",
+          "S643": "S",
+          "Q644": "Q"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P13637|ATP1A3 variant V642I",
+        "fasta_sequence": "MGDKKDDKDSPKKNKGKERRDLDDLKKEVAMTEHKMSVEEVCRKYNTDCVQGLTHSKAQEILARDGPNALTPPPTTPEWVKFCRQLFGGFSILLWIGAILCFLAYGIQAGTEDDPSGDNLYLGIVLAAVVIITGCFSYYQEAKSSKIMESFKNMVPQQALVIREGEKMQVNAEEVVVGDLVEIKGGDRVPADLRIISAHGCKVDNSSLTGESEPQTRSPDCTHDNPLETRNITFFSTNCVEGTARGVVVATGDRTVMGRIATLASGLEVGKTPIAIEIEHFIQLITGVAVFLGVSFFILSLILGYTWLEAVIFLIGIIVANVPEGLLATVTVCLTLTAKRMARKNCLVKNLEAVETLGSTSTICSDKTGTLTQNRMTVAHMWFDNQIHEADTTEDQSGTSFDKSSHTWVALSHIAGLCNRAVFKGGQDNIPVLKRDVAGDASESALLKCIELSSGSVKLMRERNKKVAEIPFNSTNKYQLSIHETEDPNDNRYLLVMKGAPERILDRCSTILLQGKEQPLDEEMKEAFQNAYLELGGLGERVLGFCHYYLPEEQFPKGFAFDCDDVNFTTDNLCFVGLMSMIDPPRAAVPDAVGKCRSAGIKVIMVTGDHPITAKAIAKGVGIISEGNETVEDIAARLNIPVSQVNPRDAKACVIHGTDLKDFTSEQIDEILQNHTEIVFARTSPQQKLIIVEGCQRQGAIVAVTGDGVNDSPALKKADIGVAMGIAGSDVSKQAADMILLDDNFASIVTGVEEGRLIFDNLKKSIAYTLTSNIPEITPFLLFIMANIPLPLGTITILCIDLGTDMVPAISLAYEAAESDIMKRQPRNPRTDKLVNERLISMAYGQIGMIQALGGFFSYFVILAENGFLPGNLVGIRLNWDDRTVNDLEDSYGQQWTYEQRKVVEFTCHTAFFVSIVVVQWADLIICKTRRNSVFQQGMKNKILIFGLFEETALAAFLSYCPGMDVALRMYPLKPSWWFCAFPYSFLIFVYDEIRKLILRRNPGGWVEKETYY",
+        "full_sequence": "MGDKKDDKDSPKKNKGKERRDLDDLKKEVAMTEHKMSVEEVCRKYNTDCVQGLTHSKAQEILARDGPNALTPPPTTPEWVKFCRQLFGGFSILLWIGAILCFLAYGIQAGTEDDPSGDNLYLGIVLAAVVIITGCFSYYQEAKSSKIMESFKNMVPQQALVIREGEKMQVNAEEVVVGDLVEIKGGDRVPADLRIISAHGCKVDNSSLTGESEPQTRSPDCTHDNPLETRNITFFSTNCVEGTARGVVVATGDRTVMGRIATLASGLEVGKTPIAIEIEHFIQLITGVAVFLGVSFFILSLILGYTWLEAVIFLIGIIVANVPEGLLATVTVCLTLTAKRMARKNCLVKNLEAVETLGSTSTICSDKTGTLTQNRMTVAHMWFDNQIHEADTTEDQSGTSFDKSSHTWVALSHIAGLCNRAVFKGGQDNIPVLKRDVAGDASESALLKCIELSSGSVKLMRERNKKVAEIPFNSTNKYQLSIHETEDPNDNRYLLVMKGAPERILDRCSTILLQGKEQPLDEEMKEAFQNAYLELGGLGERVLGFCHYYLPEEQFPKGFAFDCDDVNFTTDNLCFVGLMSMIDPPRAAVPDAVGKCRSAGIKVIMVTGDHPITAKAIAKGVGIISEGNETVEDIAARLNIPVSQVNPRDAKACVIHGTDLKDFTSEQIDEILQNHTEIVFARTSPQQKLIIVEGCQRQGAIVAVTGDGVNDSPALKKADIGVAMGIAGSDVSKQAADMILLDDNFASIVTGVEEGRLIFDNLKKSIAYTLTSNIPEITPFLLFIMANIPLPLGTITILCIDLGTDMVPAISLAYEAAESDIMKRQPRNPRTDKLVNERLISMAYGQIGMIQALGGFFSYFVILAENGFLPGNLVGIRLNWDDRTVNDLEDSYGQQWTYEQRKVVEFTCHTAFFVSIVVVQWADLIICKTRRNSVFQQGMKNKILIFGLFEETALAAFLSYCPGMDVALRMYPLKPSWWFCAFPYSFLIFVYDEIRKLILRRNPGGWVEKETYY",
+        "n_residues": 1013,
+        "mutation_pos_1indexed": 642,
+        "wt_aa": "V",
+        "mut_aa": "I",
+        "pocket_lining_residues": "I640-P641-V642-S643-Q644",
+        "pocket_lining_positions_precursor": [
+          640,
+          641,
+          642,
+          643,
+          644
+        ],
+        "pocket_lining_1letter": "IPVSQ",
+        "sequence_slice_around_pocket": "EDIAARLNIPVSQVNPRDAK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ATP1A3_V642I/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "I640",
+          "P641",
+          "V642",
+          "S643",
+          "Q644"
+        ],
+        "values": [
+          [
+            0.0,
+            3.853,
+            6.483,
+            8.326,
+            6.829
+          ],
+          [
+            3.853,
+            0.0,
+            3.88,
+            5.416,
+            5.756
+          ],
+          [
+            6.483,
+            3.88,
+            0.0,
+            3.862,
+            5.509
+          ],
+          [
+            8.326,
+            5.416,
+            3.862,
+            0.0,
+            3.867
+          ],
+          [
+            6.829,
+            5.756,
+            5.509,
+            3.867,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CCCCC1",
+        "composite_score": 0.5921551352722082,
+        "mw": 219.17,
+        "logp": 1.963,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8415,
+        "sa_score": 2.19,
+        "n_heavy_atoms": 16,
+        "tpsa": 42.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ATP1A3-V642I Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.5922,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ATP1A3_V642I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ATP1A3_V642I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ATP1A3_V642I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ATP1A3_V642I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ATP1A3_V642I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATP1A3-V642I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATP1A3-V642I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:21:28.407218+00:00"
     }
   ]
 }
