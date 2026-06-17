@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 979,
+  "total_entries": 980,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45526,
-    "queue_remaining": 133071
+    "total_processed": 45527,
+    "queue_remaining": 133070
   },
   "entries": [
     {
@@ -215341,6 +215341,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:57:03.715658+00:00"
+    },
+    {
+      "entry_id": "PCD-FANCM-L1543F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCM-L1543F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FANCM",
+        "uniprot": "",
+        "clinvar_id": "313220",
+        "disease": "Fanconi anemia",
+        "mutation_precursor": "L1543F",
+        "mutation_mature": "L1543F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8581238289737362,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 310.2880767755594,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          2.79970121383667,
+          4.5714287757873535,
+          30.997108459472656
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.006415442639599,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6166512526125303,
+        "cryptic": true,
+        "pocket_residues": {
+          "D1240": "D",
+          "S1241": "S",
+          "D1242": "D",
+          "D1243": "D",
+          "D1539": "D",
+          "S1540": "S",
+          "S1541": "S",
+          "L1542": "L",
+          "L1543": "L",
+          "D1544": "D",
+          "F1545": "F"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8IYD8|FANCM variant L1543F",
+        "fasta_sequence": "MSGRQRTLFQTWGSSISRSSGTPGCSSGTERPQSPGSSKAPLPAAAEAQLESDDDVLLVAAYEAERQLCLENGGFCTSAGALWIYPTNCPVRDYQLHISRAALFCNTLVCLPTGLGKTFIAAVVMYNFYRWFPSGKVVFMAPTKPLVTQQIEACYQVMGIPQSHMAEMTGSTQASTRKEIWCSKRVLFLTPQVMVNDLSRGACPAAEIKCLVIDEAHKALGNYAYCQVVRELVKYTNHFRILALSATPGSDIKAVQQVITNLLIGQIELRSEDSPDILTYSHERKVEKLIVPLGEELAAIQKTYIQILESFARSLIQRNVLMRRDIPNLTKYQIILARDQFRKNPSPNIVGIQQGIIEGEFAICISLYHGYELLQQMGMRSLYFFLCGIMDGTKGMTRSKNELGRNEDFMKLYNHLECMFARTRSTSANGISAIQQGDKNKKFVYSHPKLKKLEEVVIEHFKSWNAENTTEKKRDETRVMIFSSFRDSVQEIAEMLSQHQPIIRVMTFVGHASGKSTKGFTQKEQLEVVKQFRDGGYNTLVSTCVGEEGLDIGEVDLIICFDSQKSPIRLVQRMGRTGRKRQGRIVIILSEGREERIYNQSQSNKRSIYKAISSNRQVLHFYQRSPRMVPDGINPKLHKMFITHGVYEPEKPSRNLQRKSSIFSYRDGMRQSSLKKDWFLSEEEFKLWNRLYRLRDSDEIKEITLPQVQFSSLQNEENKPAQESTTGIHQLSLSEWRLWQDHPLPTHQVDHSDRCRHFIGLMQMIEGMRHEEGECSYELEVESYLQMEDVTSTFIAPRNESNNLASDTFITHKKSSFIKNINQGSSSSVIESDEECAEIVKQTHIKPTKIVSLKKKVSKEIKKDQLKKENNHGIIDSVDNDRNSTVENIFQEDLPNDKRTSDTDEIAATCTINENVIKEPCVLLTECQFTNKSTSSLAGNVLDSGYNSFNDEKSVSSNLFLPFEEELYIVRTDDQFYNCHSLTKEVLANVERFLSYSPPPLSGLSDLEYEIAKGTALENLLFLPCAEHLRSDKCTCLLSHSAVNSQQNLELNSLKCINYPSEKSCLYDIPNDNISDEPSLCDCDVHKHNQNENLVPNNRVQIHRSPAQNLVGENNHDVDNSDLPVLSTDQDESLLLFEDVNTEFDDVSLSPLNSKSESLPVSDKTAISETPLVSQFLISDELLLDNNSELQDQITRDANSFKSRDQRGVQEEKVKNHEDIFDCSRDLFSVTFDLGFCSPDSDDEILEHTSDSNRPLDDLYGRYLEIKEISDANYVSNQALIPRDHSKNFTSGTVIIPSNEDMQNPNYVHLPLSAAKNEELLSPGYSQFSLPVQKKVMSTPLSKSNTLNSFSKIRKEILKTPDSSKEKVNLQRFKEALNSTFDYSEFSLEKSKSSGPMYLHKSCHSVEDGQLLTSNESEDDEIFRRKVKRAKGNVLNSPEDQKNSEVDSPLHAVKKRRFPINRSELSSSDESENFPKPCSQLEDFKVCNGNARRGIKVPKRQSHLKHVARKFLDDEAELSEEDAEYVSSDENDESENEQDSSLLDFLNDETQLSQAINDSEMRAIYMKSLRSPMMNNKYKMIHKTHKNINIFSQIPEQDETYLEDSFCVDEEESCKGQSSEEEVCVDFNLITDDCFANSKKYKTRRAVMLKEMMEQNCAHSKKKLSRIILPDDSSEEENNVNDKRESNIAVNPSTVKKNKQQDHCLNSVPSGSSAQSKVRSTPRVNPLAKQSKQTSLNLKDTISEVSDFKPQNHNEVQSTTPPFTTVDSQKDCRKFPVPQKDGSALEDSSTSGASCSKSRPHLAGTHTSLRLPQEGKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSMFERICVIVEKDREKTGDTSRMFRRTKSYDSLLTTLIGAGIRILFSSCQEETADLLKELSLVEQRKNVGIHVPTVVNSNKSEALQFYLSIPNISYITALNMCHQFSSVKRMANSSLQEISMYAQVTHQKAEEIYRYIHYVFDIQMLPNDLNQDRLKSDI",
+        "full_sequence": "MSGRQRTLFQTWGSSISRSSGTPGCSSGTERPQSPGSSKAPLPAAAEAQLESDDDVLLVAAYEAERQLCLENGGFCTSAGALWIYPTNCPVRDYQLHISRAALFCNTLVCLPTGLGKTFIAAVVMYNFYRWFPSGKVVFMAPTKPLVTQQIEACYQVMGIPQSHMAEMTGSTQASTRKEIWCSKRVLFLTPQVMVNDLSRGACPAAEIKCLVIDEAHKALGNYAYCQVVRELVKYTNHFRILALSATPGSDIKAVQQVITNLLIGQIELRSEDSPDILTYSHERKVEKLIVPLGEELAAIQKTYIQILESFARSLIQRNVLMRRDIPNLTKYQIILARDQFRKNPSPNIVGIQQGIIEGEFAICISLYHGYELLQQMGMRSLYFFLCGIMDGTKGMTRSKNELGRNEDFMKLYNHLECMFARTRSTSANGISAIQQGDKNKKFVYSHPKLKKLEEVVIEHFKSWNAENTTEKKRDETRVMIFSSFRDSVQEIAEMLSQHQPIIRVMTFVGHASGKSTKGFTQKEQLEVVKQFRDGGYNTLVSTCVGEEGLDIGEVDLIICFDSQKSPIRLVQRMGRTGRKRQGRIVIILSEGREERIYNQSQSNKRSIYKAISSNRQVLHFYQRSPRMVPDGINPKLHKMFITHGVYEPEKPSRNLQRKSSIFSYRDGMRQSSLKKDWFLSEEEFKLWNRLYRLRDSDEIKEITLPQVQFSSLQNEENKPAQESTTGIHQLSLSEWRLWQDHPLPTHQVDHSDRCRHFIGLMQMIEGMRHEEGECSYELEVESYLQMEDVTSTFIAPRNESNNLASDTFITHKKSSFIKNINQGSSSSVIESDEECAEIVKQTHIKPTKIVSLKKKVSKEIKKDQLKKENNHGIIDSVDNDRNSTVENIFQEDLPNDKRTSDTDEIAATCTINENVIKEPCVLLTECQFTNKSTSSLAGNVLDSGYNSFNDEKSVSSNLFLPFEEELYIVRTDDQFYNCHSLTKEVLANVERFLSYSPPPLSGLSDLEYEIAKGTALENLLFLPCAEHLRSDKCTCLLSHSAVNSQQNLELNSLKCINYPSEKSCLYDIPNDNISDEPSLCDCDVHKHNQNENLVPNNRVQIHRSPAQNLVGENNHDVDNSDLPVLSTDQDESLLLFEDVNTEFDDVSLSPLNSKSESLPVSDKTAISETPLVSQFLISDELLLDNNSELQDQITRDANSFKSRDQRGVQEEKVKNHEDIFDCSRDLFSVTFDLGFCSPDSDDEILEHTSDSNRPLDDLYGRYLEIKEISDANYVSNQALIPRDHSKNFTSGTVIIPSNEDMQNPNYVHLPLSAAKNEELLSPGYSQFSLPVQKKVMSTPLSKSNTLNSFSKIRKEILKTPDSSKEKVNLQRFKEALNSTFDYSEFSLEKSKSSGPMYLHKSCHSVEDGQLLTSNESEDDEIFRRKVKRAKGNVLNSPEDQKNSEVDSPLHAVKKRRFPINRSELSSSDESENFPKPCSQLEDFKVCNGNARRGIKVPKRQSHLKHVARKFLDDEAELSEEDAEYVSSDENDESENEQDSSLLDFLNDETQLSQAINDSEMRAIYMKSLRSPMMNNKYKMIHKTHKNINIFSQIPEQDETYLEDSFCVDEEESCKGQSSEEEVCVDFNLITDDCFANSKKYKTRRAVMLKEMMEQNCAHSKKKLSRIILPDDSSEEENNVNDKRESNIAVNPSTVKKNKQQDHCLNSVPSGSSAQSKVRSTPRVNPLAKQSKQTSLNLKDTISEVSDFKPQNHNEVQSTTPPFTTVDSQKDCRKFPVPQKDGSALEDSSTSGASCSKSRPHLAGTHTSLRLPQEGKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSMFERICVIVEKDREKTGDTSRMFRRTKSYDSLLTTLIGAGIRILFSSCQEETADLLKELSLVEQRKNVGIHVPTVVNSNKSEALQFYLSIPNISYITALNMCHQFSSVKRMANSSLQEISMYAQVTHQKAEEIYRYIHYVFDIQMLPNDLNQDRLKSDI",
+        "n_residues": 2048,
+        "mutation_pos_1indexed": 1543,
+        "wt_aa": "L",
+        "mut_aa": "F",
+        "pocket_lining_residues": "D1240-S1241-D1242-D1243-D1539-S1540-S1541-L1542-L1543-D1544-F1545",
+        "pocket_lining_positions_precursor": [
+          1240,
+          1241,
+          1242,
+          1243,
+          1539,
+          1540,
+          1541,
+          1542,
+          1543,
+          1544,
+          1545
+        ],
+        "pocket_lining_1letter": "DSDDDSSLLDF",
+        "sequence_slice_around_pocket": "ESENEQDSSLLDFLNDETQL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_L1543F/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "D1240",
+          "S1241",
+          "D1242",
+          "D1243",
+          "D1539",
+          "S1540",
+          "S1541",
+          "L1542",
+          "L1543",
+          "D1544",
+          "F1545"
+        ],
+        "values": [
+          [
+            0.0,
+            3.384,
+            6.552,
+            8.816,
+            19.634,
+            16.169,
+            17.168,
+            15.057,
+            12.65,
+            14.957,
+            17.688
+          ],
+          [
+            3.384,
+            0.0,
+            3.825,
+            5.704,
+            19.412,
+            16.352,
+            18.044,
+            16.39,
+            14.556,
+            17.083,
+            19.999
+          ],
+          [
+            6.552,
+            3.825,
+            0.0,
+            3.868,
+            16.904,
+            14.298,
+            16.681,
+            15.768,
+            14.567,
+            17.129,
+            20.267
+          ],
+          [
+            8.816,
+            5.704,
+            3.868,
+            0.0,
+            18.386,
+            16.265,
+            18.777,
+            17.733,
+            17.091,
+            20.083,
+            22.908
+          ],
+          [
+            19.634,
+            19.412,
+            16.904,
+            18.386,
+            0.0,
+            3.938,
+            6.367,
+            9.528,
+            12.193,
+            13.648,
+            15.252
+          ],
+          [
+            16.169,
+            16.352,
+            14.298,
+            16.265,
+            3.938,
+            0.0,
+            3.882,
+            6.469,
+            8.491,
+            10.177,
+            12.238
+          ],
+          [
+            17.168,
+            18.044,
+            16.681,
+            18.777,
+            6.367,
+            3.882,
+            0.0,
+            3.87,
+            6.562,
+            7.797,
+            8.93
+          ],
+          [
+            15.057,
+            16.39,
+            15.768,
+            17.733,
+            9.528,
+            6.469,
+            3.87,
+            0.0,
+            3.916,
+            6.57,
+            7.227
+          ],
+          [
+            12.65,
+            14.556,
+            14.567,
+            17.091,
+            12.193,
+            8.491,
+            6.562,
+            3.916,
+            0.0,
+            3.888,
+            5.846
+          ],
+          [
+            14.957,
+            17.083,
+            17.129,
+            20.083,
+            13.648,
+            10.177,
+            7.797,
+            6.57,
+            3.888,
+            0.0,
+            3.875
+          ],
+          [
+            17.688,
+            19.999,
+            20.267,
+            22.908,
+            15.252,
+            12.238,
+            8.93,
+            7.227,
+            5.846,
+            3.875,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCCCCCCc1ncnc2[nH]cnc12",
+        "composite_score": 0.8537026891943736,
+        "mw": 247.18,
+        "logp": 2.065,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 8,
+        "qed": 0.7007,
+        "sa_score": 2.72,
+        "n_heavy_atoms": 18,
+        "tpsa": 66.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FANCM-L1543F Candidate #1",
+        "iupac_name": "CNCCCCCCCc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.8537,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_L1543F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_L1543F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_L1543F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_L1543F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_L1543F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCM-L1543F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCM-L1543F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:58:42.131874+00:00"
     }
   ]
 }
