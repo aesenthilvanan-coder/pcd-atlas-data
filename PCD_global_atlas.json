@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1436,
+  "total_entries": 1437,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46075,
-    "queue_remaining": 132522
+    "total_processed": 46077,
+    "queue_remaining": 132520
   },
   "entries": [
     {
@@ -317650,6 +317650,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:42:47.979402+00:00"
+    },
+    {
+      "entry_id": "PCD-CHRNE-G186S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNE-G186S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CHRNE",
+        "uniprot": "",
+        "clinvar_id": "323993",
+        "disease": "Congenital myasthenic syndrome",
+        "mutation_precursor": "G186S",
+        "mutation_mature": "G186S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8370109556562577,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 495.01113638099673,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          19.059619903564453,
+          26.184585571289062,
+          -12.619499206542969
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.025309414249043,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6788708463011276,
+        "cryptic": true,
+        "pocket_residues": {
+          "N184": "N",
+          "D185": "D",
+          "G186": "G",
+          "K187": "K"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q04844|CHRNE variant G186S",
+        "fasta_sequence": "MARAPLGVLLLLGLLGRGVGKNEELRLYHHLFNNYDPGSRPVREPEDTVTISLKVTLTNLISLNEKEETLTTSVWIGIDWQDYRLNYSKDDFGGIETLRVPSELVWLPEIVLENNIDGQFGVAYDANVLVYEGGSVTWLPPAIYRSVCAVEVTYFPFDWQNCSLIFRSQTYNAEEVEFTFAVDNDGKTINKIDIDTEAYTENGEWAIDFCPGVIRRHHGGATDGPGETDVIYSLIIRRKPLFYVINIIVPCVLISGLVLLAYFLPAQAGGQKCTVSINVLLAQTVFLFLIAQKIPETSLSVPLLGRFLIFVMVVATLIVMNCVIVLNVSQRTPTTHAMSPRLRHVLLELLPRLLGSPPPPEAPRAASPPRRASSVGLLLRAEELILKKPRSELVFEGQRHRQGTWTAAFCQSLGAAAPEVRCCVDAVNFVAESTRDQEATGEEVSDWVRMGNALDNICFWAALVLFSVGSSLIFLGAYFNRVPDLPYAPCIQP",
+        "full_sequence": "MARAPLGVLLLLGLLGRGVGKNEELRLYHHLFNNYDPGSRPVREPEDTVTISLKVTLTNLISLNEKEETLTTSVWIGIDWQDYRLNYSKDDFGGIETLRVPSELVWLPEIVLENNIDGQFGVAYDANVLVYEGGSVTWLPPAIYRSVCAVEVTYFPFDWQNCSLIFRSQTYNAEEVEFTFAVDNDGKTINKIDIDTEAYTENGEWAIDFCPGVIRRHHGGATDGPGETDVIYSLIIRRKPLFYVINIIVPCVLISGLVLLAYFLPAQAGGQKCTVSINVLLAQTVFLFLIAQKIPETSLSVPLLGRFLIFVMVVATLIVMNCVIVLNVSQRTPTTHAMSPRLRHVLLELLPRLLGSPPPPEAPRAASPPRRASSVGLLLRAEELILKKPRSELVFEGQRHRQGTWTAAFCQSLGAAAPEVRCCVDAVNFVAESTRDQEATGEEVSDWVRMGNALDNICFWAALVLFSVGSSLIFLGAYFNRVPDLPYAPCIQP",
+        "n_residues": 493,
+        "mutation_pos_1indexed": 186,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "N184-D185-G186-K187",
+        "pocket_lining_positions_precursor": [
+          184,
+          185,
+          186,
+          187
+        ],
+        "pocket_lining_1letter": "NDGK",
+        "sequence_slice_around_pocket": "VEFTFAVDNDGKTINKIDID"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_G186S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "N184",
+          "D185",
+          "G186",
+          "K187"
+        ],
+        "values": [
+          [
+            0.0,
+            3.878,
+            5.512,
+            7.482
+          ],
+          [
+            3.878,
+            0.0,
+            3.875,
+            5.563
+          ],
+          [
+            5.512,
+            3.875,
+            0.0,
+            3.875
+          ],
+          [
+            7.482,
+            5.563,
+            3.875,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7422456540149457,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CHRNE-G186S Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7422,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_G186S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_G186S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_G186S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_G186S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_G186S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNE-G186S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNE-G186S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:43:43.143880+00:00"
     }
   ]
 }
