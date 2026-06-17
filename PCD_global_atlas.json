@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 536,
+  "total_entries": 537,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44999,
-    "queue_remaining": 133598
+    "total_processed": 45000,
+    "queue_remaining": 133597
   },
   "entries": [
     {
@@ -118403,6 +118403,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:39:19.876782+00:00"
+    },
+    {
+      "entry_id": "PCD-DNAAF1-Q61E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAAF1-Q61E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DNAAF1",
+        "uniprot": "",
+        "clinvar_id": "320765",
+        "disease": "Primary ciliary dyskinesia 13",
+        "mutation_precursor": "Q61E",
+        "mutation_mature": "Q61E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7643388314060238,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 361.65902925807603,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          2.618246555328369,
+          -40.84177017211914,
+          34.845428466796875
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.736116703423709,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8434776211888323,
+        "cryptic": true,
+        "pocket_residues": {
+          "S60": "S",
+          "Q61": "Q",
+          "Q62": "Q",
+          "K63": "K"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NEP3|DNAAF1 variant Q61E",
+        "fasta_sequence": "MHPEPSEPATGGAAELDCAQEPGVEESAGDHGSAGRGGCKEEINDPKEICVGSSDTSYHSQQKQSGDNGSGGHFAHPREDREDRGPRMTKSSLQKLCKQHKLYITPALNDTLYLHFKGFDRIENLEEYTGLRCLWLQSNGIQKIENLEAQTELRCLFLQMNLLRKIENLEPLQKLDALNLSNNYIKTIENLSCLPVLNTLQMAHNHLETVEDIQHLQECLRLCVLDLSHNKLSDPEILSILESMPDLRVLNLMGNPVIRQIPNYRRTVTVRLKHLTYLDDRPVFPKDRACAEAWARGGYAAEKEERQQWESRERKKITDSIEALAMIKQRAEERKRQRESQERGEMTSSDDGENVPASAEGKEEPPGDRETRQKMELFVKESFEAKDELCPEKPSGEEPPVEAKREDGGPEPEGTLPAETLLLSSPVEVKGEDGDGEPEGTLPAEAPPPPPPVEVKGEDGDQEPEGTLPAETLLLSPPVKVKGEDGDREPEGTLPAEAPPPPPLGAAREEPTPQAVATEGVFVTELDGTRTEDLETIRLETKETFCIDDLPDLEDDDETGKSLEDQNMCFPKIEVISSLSDDSDPELDYTSLPVLENLPTDTLSNIFAVSKDTSKAARVPFTDIFKKEAKRDLEIRKQDTKSPRPLIQELSDEDPSGQLLMPPTCQRDAAPLTSSGDRDSDFLAASSPVPTESAATPPETCVGVAQPSQALPTWDLTAFPAPKAS",
+        "full_sequence": "MHPEPSEPATGGAAELDCAQEPGVEESAGDHGSAGRGGCKEEINDPKEICVGSSDTSYHSQQKQSGDNGSGGHFAHPREDREDRGPRMTKSSLQKLCKQHKLYITPALNDTLYLHFKGFDRIENLEEYTGLRCLWLQSNGIQKIENLEAQTELRCLFLQMNLLRKIENLEPLQKLDALNLSNNYIKTIENLSCLPVLNTLQMAHNHLETVEDIQHLQECLRLCVLDLSHNKLSDPEILSILESMPDLRVLNLMGNPVIRQIPNYRRTVTVRLKHLTYLDDRPVFPKDRACAEAWARGGYAAEKEERQQWESRERKKITDSIEALAMIKQRAEERKRQRESQERGEMTSSDDGENVPASAEGKEEPPGDRETRQKMELFVKESFEAKDELCPEKPSGEEPPVEAKREDGGPEPEGTLPAETLLLSSPVEVKGEDGDGEPEGTLPAEAPPPPPPVEVKGEDGDQEPEGTLPAETLLLSPPVKVKGEDGDREPEGTLPAEAPPPPPLGAAREEPTPQAVATEGVFVTELDGTRTEDLETIRLETKETFCIDDLPDLEDDDETGKSLEDQNMCFPKIEVISSLSDDSDPELDYTSLPVLENLPTDTLSNIFAVSKDTSKAARVPFTDIFKKEAKRDLEIRKQDTKSPRPLIQELSDEDPSGQLLMPPTCQRDAAPLTSSGDRDSDFLAASSPVPTESAATPPETCVGVAQPSQALPTWDLTAFPAPKAS",
+        "n_residues": 725,
+        "mutation_pos_1indexed": 61,
+        "wt_aa": "Q",
+        "mut_aa": "E",
+        "pocket_lining_residues": "S60-Q61-Q62-K63",
+        "pocket_lining_positions_precursor": [
+          60,
+          61,
+          62,
+          63
+        ],
+        "pocket_lining_1letter": "SQQK",
+        "sequence_slice_around_pocket": "VGSSDTSYHSQQKQSGDNGS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF1_Q61E/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "S60",
+          "Q61",
+          "Q62",
+          "K63"
+        ],
+        "values": [
+          [
+            0.0,
+            3.795,
+            7.402,
+            10.849
+          ],
+          [
+            3.795,
+            0.0,
+            3.736,
+            7.27
+          ],
+          [
+            7.402,
+            3.736,
+            0.0,
+            3.622
+          ],
+          [
+            10.849,
+            7.27,
+            3.622,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.541331999820764,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DNAAF1-Q61E Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5413,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF1_Q61E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF1_Q61E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF1_Q61E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF1_Q61E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF1_Q61E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAAF1-Q61E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAAF1-Q61E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:39:47.994910+00:00"
     }
   ]
 }
