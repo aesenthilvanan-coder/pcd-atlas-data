@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 445,
+  "total_entries": 446,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44901,
-    "queue_remaining": 133696
+    "total_processed": 44902,
+    "queue_remaining": 133695
   },
   "entries": [
     {
@@ -98219,6 +98219,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:36:36.060719+00:00"
+    },
+    {
+      "entry_id": "PCD-NDE1-T32M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDE1-T32M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NDE1",
+        "uniprot": "",
+        "clinvar_id": "318052",
+        "disease": "Lissencephaly 4",
+        "mutation_precursor": "T32M",
+        "mutation_mature": "T32M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8571923219115128,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 420.50300427878125,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -62.6138916015625,
+          -10.599504470825195,
+          70.37237548828125
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.446434544804651,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.754458504807635,
+        "cryptic": true,
+        "pocket_residues": {
+          "T32": "T",
+          "Q33": "Q",
+          "E34": "E",
+          "E35": "E",
+          "L36": "L",
+          "R37": "R"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NXR1|NDE1 variant T32M",
+        "fasta_sequence": "MEDSGKTFSSEEEEANYWKDLAMTYKQRAENTQEELREFQEGSREYEAELETQLQQIETRNRDLLSENNRLRMELETIKEKFEVQHSEGYRQISALEDDLAQTKAIKDQLQKYIRELEQANDDLERAKRATIMSLEDFEQRLNQAIERNAFLESELDEKENLLESVQRLKDEARDLRQELAVQQKQEKPRTPMPSSVEAERTDTAVQATGSVPSTPIAHRGPSSSLNTPGSFRRGLDDSTGGTPLTPAARISALNIVGDLLRKVGALESKLASCRNLVYDQSPNRTGGPASGRSSKNRDGGERRPSSTSVPLGDKGLDTSCRWLSKSTTRSSSSC",
+        "full_sequence": "MEDSGKTFSSEEEEANYWKDLAMTYKQRAENTQEELREFQEGSREYEAELETQLQQIETRNRDLLSENNRLRMELETIKEKFEVQHSEGYRQISALEDDLAQTKAIKDQLQKYIRELEQANDDLERAKRATIMSLEDFEQRLNQAIERNAFLESELDEKENLLESVQRLKDEARDLRQELAVQQKQEKPRTPMPSSVEAERTDTAVQATGSVPSTPIAHRGPSSSLNTPGSFRRGLDDSTGGTPLTPAARISALNIVGDLLRKVGALESKLASCRNLVYDQSPNRTGGPASGRSSKNRDGGERRPSSTSVPLGDKGLDTSCRWLSKSTTRSSSSC",
+        "n_residues": 335,
+        "mutation_pos_1indexed": 32,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "T32-Q33-E34-E35-L36-R37",
+        "pocket_lining_positions_precursor": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "pocket_lining_1letter": "TQEELR",
+        "sequence_slice_around_pocket": "AMTYKQRAENTQEELREFQE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NDE1_T32M/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "T32",
+          "Q33",
+          "E34",
+          "E35",
+          "L36",
+          "R37"
+        ],
+        "values": [
+          [
+            0.0,
+            3.832,
+            5.425,
+            5.016,
+            6.062,
+            8.51
+          ],
+          [
+            3.832,
+            0.0,
+            3.855,
+            5.553,
+            5.1,
+            6.134
+          ],
+          [
+            5.425,
+            3.855,
+            0.0,
+            3.878,
+            5.429,
+            4.972
+          ],
+          [
+            5.016,
+            5.553,
+            3.878,
+            0.0,
+            3.854,
+            5.466
+          ],
+          [
+            6.062,
+            5.1,
+            5.429,
+            3.854,
+            0.0,
+            3.851
+          ],
+          [
+            8.51,
+            6.134,
+            4.972,
+            5.466,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7599565293541966,
+        "mw": 288.2,
+        "logp": 1.983,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.9236,
+        "sa_score": 3.0,
+        "n_heavy_atoms": 21,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NDE1-T32M Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.76,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NDE1_T32M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NDE1_T32M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NDE1_T32M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDE1_T32M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDE1_T32M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDE1-T32M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDE1-T32M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:36:57.482691+00:00"
     }
   ]
 }
