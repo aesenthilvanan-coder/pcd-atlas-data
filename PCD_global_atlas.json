@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1092,
+  "total_entries": 1093,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45689,
-    "queue_remaining": 132908
+    "total_processed": 45690,
+    "queue_remaining": 132907
   },
   "entries": [
     {
@@ -240581,6 +240581,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:51:37.792052+00:00"
+    },
+    {
+      "entry_id": "PCD-G6PC3-V243M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-G6PC3-V243M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "G6PC3",
+        "uniprot": "",
+        "clinvar_id": "323469",
+        "disease": "Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency",
+        "mutation_precursor": "V243M",
+        "mutation_mature": "V243M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8804092697657991,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 474.7658261909522,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.8569607734680176,
+          -12.561748504638672,
+          -8.95952033996582
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.516909376893164,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8606984207982288,
+        "cryptic": true,
+        "pocket_residues": {
+          "V243": "V",
+          "R246": "R",
+          "P247": "P",
+          "F248": "F",
+          "A249": "A",
+          "I306": "I",
+          "S307": "S",
+          "Y310": "Y"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9BUM1|G6PC3 variant V243M",
+        "fasta_sequence": "MESTLGAGIVIAEALQNQLAWLENVWLWITFLGDPKILFLFYFPAAYYASRRVGIAVLWISLITEWLNLIFKWFLFGDRPFWWVHESGYYSQAPAQVHQFPSSCETGPGSPSGHCMITGAALWPIMTALSSQVATRARSRWVRVMPSLAYCTFLLAVGLSRIFILAHFPHQVLAGLITGAVLGWLMTPRVPMERELSFYGLTALALMLGTSLIYWTLFTLGLDLSWSISLAFKWCERPEWIHVDSRPFASLSRDSGAALGLGIALHSPCYAQVRRAQLGNGQKIACLVLAMGLLGPLDWLGHPPQISLFYIFNFLKYTLWPCLVLALVPWAVHMFSAQEAPPIHSS",
+        "full_sequence": "MESTLGAGIVIAEALQNQLAWLENVWLWITFLGDPKILFLFYFPAAYYASRRVGIAVLWISLITEWLNLIFKWFLFGDRPFWWVHESGYYSQAPAQVHQFPSSCETGPGSPSGHCMITGAALWPIMTALSSQVATRARSRWVRVMPSLAYCTFLLAVGLSRIFILAHFPHQVLAGLITGAVLGWLMTPRVPMERELSFYGLTALALMLGTSLIYWTLFTLGLDLSWSISLAFKWCERPEWIHVDSRPFASLSRDSGAALGLGIALHSPCYAQVRRAQLGNGQKIACLVLAMGLLGPLDWLGHPPQISLFYIFNFLKYTLWPCLVLALVPWAVHMFSAQEAPPIHSS",
+        "n_residues": 346,
+        "mutation_pos_1indexed": 243,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "V243-R246-P247-F248-A249-I306-S307-Y310",
+        "pocket_lining_positions_precursor": [
+          243,
+          246,
+          247,
+          248,
+          249,
+          306,
+          307,
+          310
+        ],
+        "pocket_lining_1letter": "VRPFAISY",
+        "sequence_slice_around_pocket": "KWCERPEWIHVDSRPFASLS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/G6PC3_V243M/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "V243",
+          "R246",
+          "P247",
+          "F248",
+          "A249",
+          "I306",
+          "S307",
+          "Y310"
+        ],
+        "values": [
+          [
+            0.0,
+            5.638,
+            9.323,
+            9.477,
+            7.363,
+            8.516,
+            11.501,
+            9.823
+          ],
+          [
+            5.638,
+            0.0,
+            3.87,
+            5.592,
+            5.267,
+            10.629,
+            12.283,
+            9.993
+          ],
+          [
+            9.323,
+            3.87,
+            0.0,
+            3.86,
+            5.513,
+            12.567,
+            13.136,
+            10.461
+          ],
+          [
+            9.477,
+            5.592,
+            3.86,
+            0.0,
+            3.856,
+            10.123,
+            9.87,
+            7.064
+          ],
+          [
+            7.363,
+            5.267,
+            5.513,
+            3.856,
+            0.0,
+            9.639,
+            10.115,
+            5.93
+          ],
+          [
+            8.516,
+            10.629,
+            12.567,
+            10.123,
+            9.639,
+            0.0,
+            3.856,
+            6.523
+          ],
+          [
+            11.501,
+            12.283,
+            13.136,
+            9.87,
+            10.115,
+            3.856,
+            0.0,
+            5.42
+          ],
+          [
+            9.823,
+            9.993,
+            10.461,
+            7.064,
+            5.93,
+            6.523,
+            5.42,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6707586393513728,
+        "mw": 336.17,
+        "logp": 2.19,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 4,
+        "qed": 0.6752,
+        "sa_score": 3.29,
+        "n_heavy_atoms": 25,
+        "tpsa": 99.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "G6PC3-V243M Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6708,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/G6PC3_V243M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/G6PC3_V243M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/G6PC3_V243M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/G6PC3_V243M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/G6PC3_V243M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-G6PC3-V243M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-G6PC3-V243M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:52:01.598444+00:00"
     }
   ]
 }
