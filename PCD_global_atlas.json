@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 282,
+  "total_entries": 283,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44711,
-    "queue_remaining": 133886
+    "total_processed": 44712,
+    "queue_remaining": 133885
   },
   "entries": [
     {
@@ -61616,6 +61616,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:10:21.086848+00:00"
+    },
+    {
+      "entry_id": "PCD-RAG2-H47L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAG2-H47L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RAG2",
+        "uniprot": "",
+        "clinvar_id": "304558",
+        "disease": "Severe combined immunodeficiency, autosomal recessive, T cell-negative, B cell-n",
+        "mutation_precursor": "H47L",
+        "mutation_mature": "H47L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7409870228832486,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 472.3509620792395,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -15.808769226074219,
+          6.169455051422119,
+          -22.783199310302734
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.4400118338511225,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6894603924567224,
+        "cryptic": true,
+        "pocket_residues": {
+          "F46": "F",
+          "H47": "H",
+          "K58": "K",
+          "P59": "P",
+          "T60": "T",
+          "I61": "I",
+          "K118": "K",
+          "K119": "K",
+          "V120": "V"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P55895|RAG2 variant H47L",
+        "fasta_sequence": "MSLQMVTVSNNIALIQPGFSLMNFDGQVFFFGQKGWPKRSCPTGVFHLDVKHNHVKLKPTIFSKDSCYLPPLRYPATCTFKGSLESEKHQYIIHGGKTPNNEVSDKIYVMSIVCKNNKKVTFRCTEKDLVGDVPEARYGHSINVVYSRGKSMGVLFGGRSYMPSTHRTTEKWNSVADCLPCVFLVDFEFGCATSYILPELQDGLSFHVSIAKNDTIYILGGHSLANNIRPANLYRIRVDLPLGSPAVNCTVLPGGISVSSAILTQTNNDEFVIVGGYQLENQKRMICNIISLEDNKIEIREMETPDWTPDIKHSKIWFGSNMGNGTVFLGIPGDNKQVVSEGFYFYMLKCAEDDTNEEQTTFTNSQTSTEDPGDSTPFEDSEEFCFSAEANSFDGDDEFDTYNEDDEEDESETGYWITCCPTCDVDINTWVPFYSTELNKPAMIYCSHGDGHWVHAQCMDLAERTLIHLSAGSNKYYCNEHVEIARALHTPQRVLPLKKPPMKSLRKKGSGKILTPAKKSFLRRLFD",
+        "full_sequence": "MSLQMVTVSNNIALIQPGFSLMNFDGQVFFFGQKGWPKRSCPTGVFHLDVKHNHVKLKPTIFSKDSCYLPPLRYPATCTFKGSLESEKHQYIIHGGKTPNNEVSDKIYVMSIVCKNNKKVTFRCTEKDLVGDVPEARYGHSINVVYSRGKSMGVLFGGRSYMPSTHRTTEKWNSVADCLPCVFLVDFEFGCATSYILPELQDGLSFHVSIAKNDTIYILGGHSLANNIRPANLYRIRVDLPLGSPAVNCTVLPGGISVSSAILTQTNNDEFVIVGGYQLENQKRMICNIISLEDNKIEIREMETPDWTPDIKHSKIWFGSNMGNGTVFLGIPGDNKQVVSEGFYFYMLKCAEDDTNEEQTTFTNSQTSTEDPGDSTPFEDSEEFCFSAEANSFDGDDEFDTYNEDDEEDESETGYWITCCPTCDVDINTWVPFYSTELNKPAMIYCSHGDGHWVHAQCMDLAERTLIHLSAGSNKYYCNEHVEIARALHTPQRVLPLKKPPMKSLRKKGSGKILTPAKKSFLRRLFD",
+        "n_residues": 527,
+        "mutation_pos_1indexed": 47,
+        "wt_aa": "H",
+        "mut_aa": "L",
+        "pocket_lining_residues": "F46-H47-K58-P59-T60-I61-K118-K119-V120",
+        "pocket_lining_positions_precursor": [
+          46,
+          47,
+          58,
+          59,
+          60,
+          61,
+          118,
+          119,
+          120
+        ],
+        "pocket_lining_1letter": "FHKPTIKKV",
+        "sequence_slice_around_pocket": "PKRSCPTGVFHLDVKHNHVK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RAG2_H47L/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "F46",
+          "H47",
+          "K58",
+          "P59",
+          "T60",
+          "I61",
+          "K118",
+          "K119",
+          "V120"
+        ],
+        "values": [
+          [
+            0.0,
+            3.817,
+            5.124,
+            4.711,
+            5.335,
+            8.85,
+            12.448,
+            10.728,
+            9.894
+          ],
+          [
+            3.817,
+            0.0,
+            4.982,
+            6.453,
+            6.483,
+            10.125,
+            9.547,
+            8.868,
+            8.396
+          ],
+          [
+            5.124,
+            4.982,
+            0.0,
+            3.866,
+            6.596,
+            10.193,
+            10.671,
+            9.454,
+            10.545
+          ],
+          [
+            4.711,
+            6.453,
+            3.866,
+            0.0,
+            3.847,
+            6.952,
+            11.66,
+            9.18,
+            9.637
+          ],
+          [
+            5.335,
+            6.483,
+            6.596,
+            3.847,
+            0.0,
+            3.824,
+            10.324,
+            7.258,
+            6.511
+          ],
+          [
+            8.85,
+            10.125,
+            10.193,
+            6.952,
+            3.824,
+            0.0,
+            11.897,
+            8.21,
+            7.0
+          ],
+          [
+            12.448,
+            9.547,
+            10.671,
+            11.66,
+            10.324,
+            11.897,
+            0.0,
+            3.863,
+            6.234
+          ],
+          [
+            10.728,
+            8.868,
+            9.454,
+            9.18,
+            7.258,
+            8.21,
+            3.863,
+            0.0,
+            3.833
+          ],
+          [
+            9.894,
+            8.396,
+            10.545,
+            9.637,
+            6.511,
+            7.0,
+            6.234,
+            3.833,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6156694560979534,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RAG2-H47L Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6157,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RAG2_H47L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RAG2_H47L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RAG2_H47L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RAG2_H47L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RAG2_H47L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAG2-H47L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAG2-H47L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:10:47.568595+00:00"
     }
   ]
 }
