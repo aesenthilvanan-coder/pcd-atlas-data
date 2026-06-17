@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 18,
+  "total_entries": 19,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44400,
-    "queue_remaining": 134197
+    "total_processed": 44401,
+    "queue_remaining": 134196
   },
   "entries": [
     {
@@ -4837,6 +4837,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T02:55:53.211455+00:00"
+    },
+    {
+      "entry_id": "PCD-XPA-H244R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-XPA-H244R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "XPA",
+        "uniprot": "",
+        "clinvar_id": "364088",
+        "disease": "Xeroderma pigmentosum group A",
+        "mutation_precursor": "H244R",
+        "mutation_mature": "H244R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9193477862215162,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 539.9097542793921,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -49.416202545166016,
+          -3.8063063621520996,
+          46.81169891357422
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.917652139789977,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7115369274705317,
+        "cryptic": true,
+        "pocket_residues": {
+          "V241": "V",
+          "H242": "H",
+          "Q243": "Q",
+          "H244": "H",
+          "C264": "C",
+          "H266": "H"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P23025|XPA variant H244R",
+        "fasta_sequence": "MAAADGALPEAAALEQPAELPASVRASIERKRQRALMLRQARLAARPYSATAAAATGGMANVKAAPKIIDTGGGFILEEEEEEEQKIGKVVHQPGPVMEFDYVICEECGKEFMDSYLMNHFDLPTCDNCRDADDKHKLITKTEAKQEYLLKDCDLEKREPPLKFIVKKNPHHSQWGDMKLYLKLQIVKRSLEVWGSQEALEEAKEVRQENREKMKQKKFDKKVKELRRAVRSSVWKRETIVHQHEYGPEENLEDDMYRKTCTMCGHELTYEKM",
+        "full_sequence": "MAAADGALPEAAALEQPAELPASVRASIERKRQRALMLRQARLAARPYSATAAAATGGMANVKAAPKIIDTGGGFILEEEEEEEQKIGKVVHQPGPVMEFDYVICEECGKEFMDSYLMNHFDLPTCDNCRDADDKHKLITKTEAKQEYLLKDCDLEKREPPLKFIVKKNPHHSQWGDMKLYLKLQIVKRSLEVWGSQEALEEAKEVRQENREKMKQKKFDKKVKELRRAVRSSVWKRETIVHQHEYGPEENLEDDMYRKTCTMCGHELTYEKM",
+        "n_residues": 273,
+        "mutation_pos_1indexed": 244,
+        "wt_aa": "H",
+        "mut_aa": "R",
+        "pocket_lining_residues": "V241-H242-Q243-H244-C264-H266",
+        "pocket_lining_positions_precursor": [
+          241,
+          242,
+          243,
+          244,
+          264,
+          266
+        ],
+        "pocket_lining_1letter": "VHQHCH",
+        "sequence_slice_around_pocket": "VWKRETIVHQHEYGPEENLE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/XPA_H244R/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "V241",
+          "H242",
+          "Q243",
+          "H244",
+          "C264",
+          "H266"
+        ],
+        "values": [
+          [
+            0.0,
+            3.779,
+            5.948,
+            8.759,
+            11.545,
+            12.866
+          ],
+          [
+            3.779,
+            0.0,
+            3.816,
+            5.846,
+            8.147,
+            10.208
+          ],
+          [
+            5.948,
+            3.816,
+            0.0,
+            3.818,
+            9.584,
+            10.767
+          ],
+          [
+            8.759,
+            5.846,
+            3.818,
+            0.0,
+            7.55,
+            7.712
+          ],
+          [
+            11.545,
+            8.147,
+            9.584,
+            7.55,
+            0.0,
+            5.568
+          ],
+          [
+            12.866,
+            10.208,
+            10.767,
+            7.712,
+            5.568,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCc1ccc(OC)c(N2CCCCC2)c1N1CC(=O)CCC1O",
+        "composite_score": 0.5636614151195866,
+        "mw": 361.24,
+        "logp": 1.935,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.8073,
+        "sa_score": 3.35,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "XPA-H244R Candidate #1",
+        "iupac_name": "CNCCc1ccc(OC)c(N2CCCCC2)c1N1CC(=O)CCC1O",
+        "pocket_affinity_score": 0.5637,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/XPA_H244R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/XPA_H244R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/XPA_H244R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/XPA_H244R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/XPA_H244R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-XPA-H244R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-XPA-H244R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T02:56:13.015294+00:00"
     }
   ]
 }
