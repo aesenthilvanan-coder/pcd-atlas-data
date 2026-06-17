@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 582,
+  "total_entries": 583,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45057,
-    "queue_remaining": 133540
+    "total_processed": 45058,
+    "queue_remaining": 133539
   },
   "entries": [
     {
@@ -129050,6 +129050,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:22:17.552177+00:00"
+    },
+    {
+      "entry_id": "PCD-TTC19-P49L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TTC19-P49L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TTC19",
+        "uniprot": "",
+        "clinvar_id": "321941",
+        "disease": "Mitochondrial complex III deficiency nuclear type 2",
+        "mutation_precursor": "P49L",
+        "mutation_mature": "P49L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8093016730880473,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 512.3901023365053,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.127538681030273,
+          10.563177108764648,
+          20.37755584716797
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.054356621073599,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8474272891488183,
+        "cryptic": true,
+        "pocket_residues": {
+          "R46": "R",
+          "V47": "V",
+          "A48": "A",
+          "P49": "P",
+          "H50": "H"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q6DKK2|TTC19 variant P49L",
+        "fasta_sequence": "MFRLLSWSLGRGFLRAAGRRCRGCSARLLPGLAGGPGPEVQVPPSRVAPHGRGPGLLPLLAALAWFSRPAAAEEEEQQGADGAAAEDGADEAEAEIIQLLKRAKLSIMKDEPEEAELILHDALRLAYQTDNKKAITYTYDLMANLAFIRGQLENAEQLFKATMSYLLGGGMKQEDNAIIEISLKLASIYAAQNRQEFAVAGYEFCISTLEEKIEREKELAEDIMSVEEKANTHLLLGMCLDACARYLLFSKQPSQAQRMYEKALQISEEIQGERHPQTIVLMSDLATTLDAQGRFDEAYIYMQRASDLARQINHPELHMVLSNLAAVLMHRERYTQAKEIYQEALKQAKLKKDEISVQHIREELAELSKKSRPLTNSVKL",
+        "full_sequence": "MFRLLSWSLGRGFLRAAGRRCRGCSARLLPGLAGGPGPEVQVPPSRVAPHGRGPGLLPLLAALAWFSRPAAAEEEEQQGADGAAAEDGADEAEAEIIQLLKRAKLSIMKDEPEEAELILHDALRLAYQTDNKKAITYTYDLMANLAFIRGQLENAEQLFKATMSYLLGGGMKQEDNAIIEISLKLASIYAAQNRQEFAVAGYEFCISTLEEKIEREKELAEDIMSVEEKANTHLLLGMCLDACARYLLFSKQPSQAQRMYEKALQISEEIQGERHPQTIVLMSDLATTLDAQGRFDEAYIYMQRASDLARQINHPELHMVLSNLAAVLMHRERYTQAKEIYQEALKQAKLKKDEISVQHIREELAELSKKSRPLTNSVKL",
+        "n_residues": 380,
+        "mutation_pos_1indexed": 49,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "R46-V47-A48-P49-H50",
+        "pocket_lining_positions_precursor": [
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "pocket_lining_1letter": "RVAPH",
+        "sequence_slice_around_pocket": "EVQVPPSRVAPHGRGPGLLP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TTC19_P49L/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "R46",
+          "V47",
+          "A48",
+          "P49",
+          "H50"
+        ],
+        "values": [
+          [
+            0.0,
+            3.787,
+            5.716,
+            8.493,
+            11.681
+          ],
+          [
+            3.787,
+            0.0,
+            3.797,
+            5.946,
+            8.508
+          ],
+          [
+            5.716,
+            3.797,
+            0.0,
+            3.828,
+            6.479
+          ],
+          [
+            8.493,
+            5.946,
+            3.828,
+            0.0,
+            3.815
+          ],
+          [
+            11.681,
+            8.508,
+            6.479,
+            3.815,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5458444021624831,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TTC19-P49L Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5458,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TTC19_P49L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TTC19_P49L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TTC19_P49L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TTC19_P49L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TTC19_P49L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TTC19-P49L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TTC19-P49L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:22:39.515957+00:00"
     }
   ]
 }
