@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 243,
+  "total_entries": 244,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44668,
-    "queue_remaining": 133929
+    "total_processed": 44669,
+    "queue_remaining": 133928
   },
   "entries": [
     {
@@ -54020,6 +54020,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:42:25.623147+00:00"
+    },
+    {
+      "entry_id": "PCD-CPAP-T477M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CPAP-T477M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CPAP",
+        "uniprot": "",
+        "clinvar_id": "311623",
+        "disease": "Microcephaly 6, primary, autosomal recessive",
+        "mutation_precursor": "T477M",
+        "mutation_mature": "T477M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7260166809585898,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 303.14977131652915,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          66.02017974853516,
+          -42.86923599243164,
+          13.329386711120605
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.8326118439070145,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6083378608873026,
+        "cryptic": true,
+        "pocket_residues": {
+          "I475": "I",
+          "Q476": "Q",
+          "T477": "T",
+          "G478": "G",
+          "K479": "K",
+          "K480": "K"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9HC77|CPAP variant T477M",
+        "fasta_sequence": "MFLMPTSSELNSGQNFLTQWMTNPSRAGVILNRGFPILEADKEKRAAVDISTSFPIKGTHFSDSFSFINEEDSLLEEQKLESNNPYKPQSDKSETHTAFPCIKKGPQVAACHSAPGHQEENKNDFIPDLASEFKEGAYKDPLFKKLEQLKEVQQKKQEQLKRQQLEQLQRLMEEQEKLLTMVSGQCTLPGLSLLPDDQSQKHRSPGNTTTGERATCCFPSYVYPDPTQEETYPSNILSHEQSNFCRTAHGDFVLTSKRASPNLFSEAQYQEAPVEKNNLKEENRNHPTGESILCWEKVTEQIQEANDKNLQKHDDSSEVANIEERPIKAAIGERKQTFEDYLEEQIQLEEQELKQKQLKEAEGPLPIKAKPKQPFLKRGEGLARFTNAKSKFQKGKESKLVTNQSTSEDQPLFKMDRQQLQRKTALKNKELCADNPILKKDSKARTKSGSVTLSQKPKMLKCSNRKSLSPSGLKIQTGKKCDGQFRDQIKFENKVTSNNKENVTECPKPCDTGCTGWNKTQGKDRLPLSTGPASRLAAKSPIRETMKESESSLDVSLQKKLETWEREKEKENLELDEFLFLEQAADEISFSSNSSFVLKILERDQQICKGHRMSSTPVKAVPQKTNPADPISHCNRSEDLDHTAREKESECEVAPKQLHSLSSADELREQPCKIRKAVQKSTSENQTEWNARDDEGVPNSDSSTDSEEQLDVTIKPSTEDRERGISSREDSPQVCDDKGPFKDTRTQEDKRRDVDLDLSDKDYSSDESIMESIKHKVSEPSRSSSLSLSKMDFDDERTWTDLEENLCNHDVVLGNESTYGTPQTCYPNNEIGILDKTIKRKIAPVKRGEDLSKSRRSRSPPTSELMMKFFPSLKPKPKSDSHLGNELKLNISQDQPPGDNARSQVLREKIIELETEIEKFKAENASLAKLRIERESALEKLRKEIADFEQQKAKELARIEEFKKEEMRKLQKERKVFEKYTTAARTFPDKKEREEIQTLKQQIADLREDLKRKETKWSSTHSRLRSQIQMLVRENTDLREEIKVMERFRLDAWKRAEAIESSLEVEKKDKLANTSVRFQNSQISSGTQVEKYKKNYLPMQGNPPRRSKSAPPRDLGNLDKGQAASPREPLEPLNFPDPEYKEEEEDQDIQGEISHPDGKVEKVYKNGCRVILFPNGTRKEVSADGKTITVTFFNGDVKQVMPDQRVIYYYAAAQTTHTTYPEGLEVLHFSSGQIEKHYPDGRKEITFPDQTVKNLFPDGQEESIFPDGTIVRVQRDGNKLIEFNNGQRELHTAQFKRREYPDGTVKTVYANGHQETKYRSGRIRVKDKEGNVLMDTEL",
+        "full_sequence": "MFLMPTSSELNSGQNFLTQWMTNPSRAGVILNRGFPILEADKEKRAAVDISTSFPIKGTHFSDSFSFINEEDSLLEEQKLESNNPYKPQSDKSETHTAFPCIKKGPQVAACHSAPGHQEENKNDFIPDLASEFKEGAYKDPLFKKLEQLKEVQQKKQEQLKRQQLEQLQRLMEEQEKLLTMVSGQCTLPGLSLLPDDQSQKHRSPGNTTTGERATCCFPSYVYPDPTQEETYPSNILSHEQSNFCRTAHGDFVLTSKRASPNLFSEAQYQEAPVEKNNLKEENRNHPTGESILCWEKVTEQIQEANDKNLQKHDDSSEVANIEERPIKAAIGERKQTFEDYLEEQIQLEEQELKQKQLKEAEGPLPIKAKPKQPFLKRGEGLARFTNAKSKFQKGKESKLVTNQSTSEDQPLFKMDRQQLQRKTALKNKELCADNPILKKDSKARTKSGSVTLSQKPKMLKCSNRKSLSPSGLKIQTGKKCDGQFRDQIKFENKVTSNNKENVTECPKPCDTGCTGWNKTQGKDRLPLSTGPASRLAAKSPIRETMKESESSLDVSLQKKLETWEREKEKENLELDEFLFLEQAADEISFSSNSSFVLKILERDQQICKGHRMSSTPVKAVPQKTNPADPISHCNRSEDLDHTAREKESECEVAPKQLHSLSSADELREQPCKIRKAVQKSTSENQTEWNARDDEGVPNSDSSTDSEEQLDVTIKPSTEDRERGISSREDSPQVCDDKGPFKDTRTQEDKRRDVDLDLSDKDYSSDESIMESIKHKVSEPSRSSSLSLSKMDFDDERTWTDLEENLCNHDVVLGNESTYGTPQTCYPNNEIGILDKTIKRKIAPVKRGEDLSKSRRSRSPPTSELMMKFFPSLKPKPKSDSHLGNELKLNISQDQPPGDNARSQVLREKIIELETEIEKFKAENASLAKLRIERESALEKLRKEIADFEQQKAKELARIEEFKKEEMRKLQKERKVFEKYTTAARTFPDKKEREEIQTLKQQIADLREDLKRKETKWSSTHSRLRSQIQMLVRENTDLREEIKVMERFRLDAWKRAEAIESSLEVEKKDKLANTSVRFQNSQISSGTQVEKYKKNYLPMQGNPPRRSKSAPPRDLGNLDKGQAASPREPLEPLNFPDPEYKEEEEDQDIQGEISHPDGKVEKVYKNGCRVILFPNGTRKEVSADGKTITVTFFNGDVKQVMPDQRVIYYYAAAQTTHTTYPEGLEVLHFSSGQIEKHYPDGRKEITFPDQTVKNLFPDGQEESIFPDGTIVRVQRDGNKLIEFNNGQRELHTAQFKRREYPDGTVKTVYANGHQETKYRSGRIRVKDKEGNVLMDTEL",
+        "n_residues": 1338,
+        "mutation_pos_1indexed": 477,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "I475-Q476-T477-G478-K479-K480",
+        "pocket_lining_positions_precursor": [
+          475,
+          476,
+          477,
+          478,
+          479,
+          480
+        ],
+        "pocket_lining_1letter": "IQTGKK",
+        "sequence_slice_around_pocket": "SLSPSGLKIQTGKKCDGQFR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_T477M/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "I475",
+          "Q476",
+          "T477",
+          "G478",
+          "K479",
+          "K480"
+        ],
+        "values": [
+          [
+            0.0,
+            3.545,
+            6.773,
+            9.749,
+            13.461,
+            16.305
+          ],
+          [
+            3.545,
+            0.0,
+            3.342,
+            6.206,
+            9.919,
+            12.779
+          ],
+          [
+            6.773,
+            3.342,
+            0.0,
+            3.239,
+            6.825,
+            9.938
+          ],
+          [
+            9.749,
+            6.206,
+            3.239,
+            0.0,
+            3.737,
+            6.707
+          ],
+          [
+            13.461,
+            9.919,
+            6.825,
+            3.737,
+            0.0,
+            3.422
+          ],
+          [
+            16.305,
+            12.779,
+            9.938,
+            6.707,
+            3.422,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.5229681997537181,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CPAP-T477M Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.523,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_T477M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_T477M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_T477M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_T477M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_T477M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CPAP-T477M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CPAP-T477M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:43:07.461283+00:00"
     }
   ]
 }
