@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1068,
+  "total_entries": 1069,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45650,
-    "queue_remaining": 132947
+    "total_processed": 45651,
+    "queue_remaining": 132946
   },
   "entries": [
     {
@@ -235283,6 +235283,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:21:16.842353+00:00"
+    },
+    {
+      "entry_id": "PCD-CTNS-S39L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CTNS-S39L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CTNS",
+        "uniprot": "",
+        "clinvar_id": "322836",
+        "disease": "Nephropathic cystinosis",
+        "mutation_precursor": "S39L",
+        "mutation_mature": "S39L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8263997571042321,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 462.028932052727,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          26.396995544433594,
+          -8.743471145629883,
+          -13.515745162963867
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.6194359583112505,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8592383723197914,
+        "cryptic": true,
+        "pocket_residues": {
+          "L34": "L",
+          "E35": "E",
+          "N36": "N",
+          "G37": "G",
+          "S38": "S",
+          "S39": "S",
+          "T40": "T",
+          "V89": "V",
+          "T90": "T",
+          "S91": "S",
+          "Q92": "Q"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O60931|CTNS variant S39L",
+        "fasta_sequence": "MIRNWLTIFILFPLKLVEKCESSVSLTVPPVVKLENGSSTNVSLTLRPPLNATLVITFEITFRSKNITILELPDEVVVPPGVTNSSFQVTSQNVGQLTVYLHGNHSNQTGPRIRFLVIRSSAISIINQVIGWIYFVAWSISFYPQVIMNWRRKSVIGLSFDFVALNLTGFVAYSVFNIGLLWVPYIKEQFLLKYPNGVNPVNSNDVFFSLHAVVLTLIIIVQCCLYERGGQRVSWPAIGFLVLAWLFAFVTMIVAAVGVTTWLQFLFCFSYIKLAVTLVKYFPQAYMNFYYKSTEGWSIGNVLLDFTGGSFSLLQMFLQSYNNDQWTLIFGDPTKFGLGVFSIVFDVVFFIQHFCLYRKRPGYDQLN",
+        "full_sequence": "MIRNWLTIFILFPLKLVEKCESSVSLTVPPVVKLENGSSTNVSLTLRPPLNATLVITFEITFRSKNITILELPDEVVVPPGVTNSSFQVTSQNVGQLTVYLHGNHSNQTGPRIRFLVIRSSAISIINQVIGWIYFVAWSISFYPQVIMNWRRKSVIGLSFDFVALNLTGFVAYSVFNIGLLWVPYIKEQFLLKYPNGVNPVNSNDVFFSLHAVVLTLIIIVQCCLYERGGQRVSWPAIGFLVLAWLFAFVTMIVAAVGVTTWLQFLFCFSYIKLAVTLVKYFPQAYMNFYYKSTEGWSIGNVLLDFTGGSFSLLQMFLQSYNNDQWTLIFGDPTKFGLGVFSIVFDVVFFIQHFCLYRKRPGYDQLN",
+        "n_residues": 367,
+        "mutation_pos_1indexed": 39,
+        "wt_aa": "S",
+        "mut_aa": "L",
+        "pocket_lining_residues": "L34-E35-N36-G37-S38-S39-T40-V89-T90-S91-Q92",
+        "pocket_lining_positions_precursor": [
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          89,
+          90,
+          91,
+          92
+        ],
+        "pocket_lining_1letter": "LENGSSTVTSQ",
+        "sequence_slice_around_pocket": "PPVVKLENGSSTNVSLTLRP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CTNS_S39L/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "L34",
+          "E35",
+          "N36",
+          "G37",
+          "S38",
+          "S39",
+          "T40",
+          "V89",
+          "T90",
+          "S91",
+          "Q92"
+        ],
+        "values": [
+          [
+            0.0,
+            3.805,
+            6.399,
+            8.335,
+            6.417,
+            7.27,
+            7.333,
+            9.228,
+            8.475,
+            6.797,
+            9.983
+          ],
+          [
+            3.805,
+            0.0,
+            3.835,
+            6.321,
+            5.451,
+            8.176,
+            9.563,
+            11.535,
+            9.555,
+            7.187,
+            9.277
+          ],
+          [
+            6.399,
+            3.835,
+            0.0,
+            3.857,
+            5.561,
+            8.648,
+            11.167,
+            11.528,
+            8.617,
+            5.459,
+            6.059
+          ],
+          [
+            8.335,
+            6.321,
+            3.857,
+            0.0,
+            3.86,
+            6.896,
+            10.336,
+            10.438,
+            6.897,
+            5.094,
+            5.358
+          ],
+          [
+            6.417,
+            5.451,
+            5.561,
+            3.86,
+            0.0,
+            3.818,
+            6.882,
+            8.633,
+            5.996,
+            5.637,
+            7.979
+          ],
+          [
+            7.27,
+            8.176,
+            8.648,
+            6.896,
+            3.818,
+            0.0,
+            3.835,
+            5.531,
+            4.174,
+            6.123,
+            9.263
+          ],
+          [
+            7.333,
+            9.563,
+            11.167,
+            10.336,
+            6.882,
+            3.835,
+            0.0,
+            5.589,
+            6.681,
+            8.647,
+            12.292
+          ],
+          [
+            9.228,
+            11.535,
+            11.528,
+            10.438,
+            8.633,
+            5.531,
+            5.589,
+            0.0,
+            3.827,
+            6.709,
+            9.829
+          ],
+          [
+            8.475,
+            9.555,
+            8.617,
+            6.897,
+            5.996,
+            4.174,
+            6.681,
+            3.827,
+            0.0,
+            3.813,
+            6.53
+          ],
+          [
+            6.797,
+            7.187,
+            5.459,
+            5.094,
+            5.637,
+            6.123,
+            8.647,
+            6.709,
+            3.813,
+            0.0,
+            3.837
+          ],
+          [
+            9.983,
+            9.277,
+            6.059,
+            5.358,
+            7.979,
+            9.263,
+            12.292,
+            9.829,
+            6.53,
+            3.837,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccc(Cl)cc1N1CCCCC1OC(N)=O",
+        "composite_score": 0.7300438435918977,
+        "mw": 311.1,
+        "logp": 1.893,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.8273,
+        "sa_score": 3.22,
+        "n_heavy_atoms": 21,
+        "tpsa": 98.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CTNS-S39L Candidate #1",
+        "iupac_name": "NCC(=O)c1ccc(Cl)cc1N1CCCCC1OC(N)=O",
+        "pocket_affinity_score": 0.73,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CTNS_S39L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CTNS_S39L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CTNS_S39L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CTNS_S39L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CTNS_S39L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CTNS-S39L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CTNS-S39L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:21:40.055947+00:00"
     }
   ]
 }
