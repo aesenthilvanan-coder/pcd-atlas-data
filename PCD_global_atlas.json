@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 614,
+  "total_entries": 615,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45104,
-    "queue_remaining": 133493
+    "total_processed": 45105,
+    "queue_remaining": 133492
   },
   "entries": [
     {
@@ -135833,6 +135833,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:51:25.842949+00:00"
+    },
+    {
+      "entry_id": "PCD-SERPING1-T76I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPING1-T76I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SERPING1",
+        "uniprot": "",
+        "clinvar_id": "305021",
+        "disease": "Hereditary angioedema type 1",
+        "mutation_precursor": "T76I",
+        "mutation_mature": "T76I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8499557727378659,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 644.8284579609503,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.3586897850036621,
+          31.38210105895996,
+          32.8834228515625
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.62772407331735,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8735929328759268,
+        "cryptic": true,
+        "pocket_residues": {
+          "A75": "A",
+          "T76": "T",
+          "K77": "K"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P05155|SERPING1 variant T76I",
+        "fasta_sequence": "MASRLTLLTLLLLLLAGDRASSNPNATSSSSQDPESLQDRGEGKVATTVISKMLFVEPILEVSSLPTTNSTTNSATKITANTTDEPTTQPTTEPTTQPTIQPTQPTTQLPTDSPTQPTTGSFCPGPVTLCSDLESHSTEAVLGDALVDFSLKLYHAFSAMKKVETNMAFSPFSIASLLTQVLLGAGENTKTNLESILSYPKDFTCVHQALKGFTTKGVTSVSQIFHSPDLAIRDTFVNASRTLYSSSPRVLSNNSDANLELINTWVAKNTNNKISRLLDSLPSDTRLVLLNAIYLSAKWKTTFDPKKTRMEPFHFKNSVIKVPMMNSKKYPVAHFIDQTLKAKVGQLQLSHNLSLVILVPQNLKHRLEDMEQALSPSVFKAIMEKLEMSKFQPTLLTLPRIKVTTSQDMLSIMEKLEFFDFSYDLNLCGLTEDPDLQVSAMQHQTVLELTETGVEAAAASAISVARTLLVFEVQQPFLFVLWDQQHKFPVFMGRVYDPRA",
+        "full_sequence": "MASRLTLLTLLLLLLAGDRASSNPNATSSSSQDPESLQDRGEGKVATTVISKMLFVEPILEVSSLPTTNSTTNSATKITANTTDEPTTQPTTEPTTQPTIQPTQPTTQLPTDSPTQPTTGSFCPGPVTLCSDLESHSTEAVLGDALVDFSLKLYHAFSAMKKVETNMAFSPFSIASLLTQVLLGAGENTKTNLESILSYPKDFTCVHQALKGFTTKGVTSVSQIFHSPDLAIRDTFVNASRTLYSSSPRVLSNNSDANLELINTWVAKNTNNKISRLLDSLPSDTRLVLLNAIYLSAKWKTTFDPKKTRMEPFHFKNSVIKVPMMNSKKYPVAHFIDQTLKAKVGQLQLSHNLSLVILVPQNLKHRLEDMEQALSPSVFKAIMEKLEMSKFQPTLLTLPRIKVTTSQDMLSIMEKLEFFDFSYDLNLCGLTEDPDLQVSAMQHQTVLELTETGVEAAAASAISVARTLLVFEVQQPFLFVLWDQQHKFPVFMGRVYDPRA",
+        "n_residues": 500,
+        "mutation_pos_1indexed": 76,
+        "wt_aa": "T",
+        "mut_aa": "I",
+        "pocket_lining_residues": "A75-T76-K77",
+        "pocket_lining_positions_precursor": [
+          75,
+          76,
+          77
+        ],
+        "pocket_lining_1letter": "ATK",
+        "sequence_slice_around_pocket": "PTTNSTTNSATKITANTTDE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SERPING1_T76I/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "A75",
+          "T76",
+          "K77"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            6.916
+          ],
+          [
+            3.859,
+            0.0,
+            3.87
+          ],
+          [
+            6.916,
+            3.87,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1NCCCNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.5239916068789449,
+        "mw": 451.14,
+        "logp": 2.108,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.5289,
+        "sa_score": 3.09,
+        "n_heavy_atoms": 30,
+        "tpsa": 117.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SERPING1-T76I Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1NCCCNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.524,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SERPING1_T76I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SERPING1_T76I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SERPING1_T76I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SERPING1_T76I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SERPING1_T76I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPING1-T76I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPING1-T76I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:51:49.756602+00:00"
     }
   ]
 }
