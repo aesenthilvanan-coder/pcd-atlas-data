@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1126,
+  "total_entries": 1127,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45723,
-    "queue_remaining": 132874
+    "total_processed": 45724,
+    "queue_remaining": 132873
   },
   "entries": [
     {
@@ -248381,6 +248381,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:36:04.724114+00:00"
+    },
+    {
+      "entry_id": "PCD-CLCN5-R309C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLCN5-R309C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CLCN5",
+        "uniprot": "",
+        "clinvar_id": "368477",
+        "disease": "Dent disease type 1",
+        "mutation_precursor": "R309C",
+        "mutation_mature": "R309C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7389573408570573,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 548.2217291363853,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -16.786685943603516,
+          -8.095048904418945,
+          10.125035285949707
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.66871822087189,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6131696403635324,
+        "cryptic": true,
+        "pocket_residues": {
+          "W92": "W",
+          "E95": "E",
+          "K96": "K",
+          "N305": "N",
+          "E306": "E",
+          "A307": "A",
+          "K308": "K",
+          "R309": "R",
+          "R310": "R",
+          "E311": "E"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P51795|CLCN5 variant R309C",
+        "fasta_sequence": "MAMWQGAMDNRGFQQGSFSSFQNSSSDEDLMDIPATAMDFSMRDDVPPLDREVGEDKSYNGGGIGSSNRIMDFLEEPIPGVGTYDDFNTIDWVREKSRDRDRHREITNKSKESTWALIHSVSDAFSGWLLMLLIGLLSGSLAGLIDISAHWMTDLKEGICTGGFWFNHEHCCWNSEHVTFEERDKCPEWNSWSQLIISTDEGAFAYIVNYFMYVLWALLFAFLAVSLVKVFAPYACGSGIPEIKTILSGFIIRGYLGKWTLVIKTITLVLAVSSGLSLGKEGPLVHVACCCGNILCHCFNKYRKNEAKRREVLSAAAAAGVSVAFGAPIGGVLFSLEEVSYYFPLKTLWRSFFAALVAAFTLRSINPFGNSRLVLFYVEFHTPWHLFELVPFILLGIFGGLWGALFIRTNIAWCRKRKTTQLGKYPVIEVLVVTAITAILAFPNEYTRMSTSELISELFNDCGLLDSSKLCDYENRFNTSKGGELPDRPAGVGVYSAMWQLALTLILKIVITIFTFGMKIPSGLFIPSMAVGAIAGRLLGVGMEQLAYYHQEWTVFNSWCSQGADCITPGLYAMVGAAACLGGVTRMTVSLVVIMFELTGGLEYIVPLMAAAMTSKWVADALGREGIYDAHIRLNGYPFLEAKEEFAHKTLAMDVMKPRRNDPLLTVLTQDSMTVEDVETIISETTYSGFPVVVSRESQRLVGFVLRRDLIISIENARKKQDGVVSTSIIYFTEHSPPLPPYTPPTLKLRNILDLSPFTVTDLTPMEIVVDIFRKLGLRQCLVTHNGRLLGIITKKDVLKHIAQMANQDPDSILFN",
+        "full_sequence": "MAMWQGAMDNRGFQQGSFSSFQNSSSDEDLMDIPATAMDFSMRDDVPPLDREVGEDKSYNGGGIGSSNRIMDFLEEPIPGVGTYDDFNTIDWVREKSRDRDRHREITNKSKESTWALIHSVSDAFSGWLLMLLIGLLSGSLAGLIDISAHWMTDLKEGICTGGFWFNHEHCCWNSEHVTFEERDKCPEWNSWSQLIISTDEGAFAYIVNYFMYVLWALLFAFLAVSLVKVFAPYACGSGIPEIKTILSGFIIRGYLGKWTLVIKTITLVLAVSSGLSLGKEGPLVHVACCCGNILCHCFNKYRKNEAKRREVLSAAAAAGVSVAFGAPIGGVLFSLEEVSYYFPLKTLWRSFFAALVAAFTLRSINPFGNSRLVLFYVEFHTPWHLFELVPFILLGIFGGLWGALFIRTNIAWCRKRKTTQLGKYPVIEVLVVTAITAILAFPNEYTRMSTSELISELFNDCGLLDSSKLCDYENRFNTSKGGELPDRPAGVGVYSAMWQLALTLILKIVITIFTFGMKIPSGLFIPSMAVGAIAGRLLGVGMEQLAYYHQEWTVFNSWCSQGADCITPGLYAMVGAAACLGGVTRMTVSLVVIMFELTGGLEYIVPLMAAAMTSKWVADALGREGIYDAHIRLNGYPFLEAKEEFAHKTLAMDVMKPRRNDPLLTVLTQDSMTVEDVETIISETTYSGFPVVVSRESQRLVGFVLRRDLIISIENARKKQDGVVSTSIIYFTEHSPPLPPYTPPTLKLRNILDLSPFTVTDLTPMEIVVDIFRKLGLRQCLVTHNGRLLGIITKKDVLKHIAQMANQDPDSILFN",
+        "n_residues": 816,
+        "mutation_pos_1indexed": 309,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "W92-E95-K96-N305-E306-A307-K308-R309-R310-E311",
+        "pocket_lining_positions_precursor": [
+          92,
+          95,
+          96,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311
+        ],
+        "pocket_lining_1letter": "WEKNEAKRRE",
+        "sequence_slice_around_pocket": "FNKYRKNEAKRREVLSAAAA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN5_R309C/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "W92",
+          "E95",
+          "K96",
+          "N305",
+          "E306",
+          "A307",
+          "K308",
+          "R309",
+          "R310",
+          "E311"
+        ],
+        "values": [
+          [
+            0.0,
+            5.101,
+            5.931,
+            9.789,
+            8.284,
+            6.222,
+            9.74,
+            11.553,
+            10.499,
+            11.854
+          ],
+          [
+            5.101,
+            0.0,
+            3.865,
+            6.294,
+            6.894,
+            6.039,
+            8.302,
+            10.561,
+            11.285,
+            12.353
+          ],
+          [
+            5.931,
+            3.865,
+            0.0,
+            8.485,
+            9.351,
+            6.973,
+            8.385,
+            11.631,
+            11.923,
+            11.818
+          ],
+          [
+            9.789,
+            6.294,
+            8.485,
+            0.0,
+            3.829,
+            5.616,
+            5.486,
+            6.257,
+            8.956,
+            10.325
+          ],
+          [
+            8.284,
+            6.894,
+            9.351,
+            3.829,
+            0.0,
+            3.857,
+            5.544,
+            4.951,
+            6.411,
+            8.975
+          ],
+          [
+            6.222,
+            6.039,
+            6.973,
+            5.616,
+            3.857,
+            0.0,
+            3.862,
+            5.42,
+            5.268,
+            6.705
+          ],
+          [
+            9.74,
+            8.302,
+            8.385,
+            5.486,
+            5.544,
+            3.862,
+            0.0,
+            3.832,
+            5.378,
+            5.118
+          ],
+          [
+            11.553,
+            10.561,
+            11.631,
+            6.257,
+            4.951,
+            5.42,
+            3.832,
+            0.0,
+            3.874,
+            5.516
+          ],
+          [
+            10.499,
+            11.285,
+            11.923,
+            8.956,
+            6.411,
+            5.268,
+            5.378,
+            3.874,
+            0.0,
+            3.848
+          ],
+          [
+            11.854,
+            12.353,
+            11.818,
+            10.325,
+            8.975,
+            6.705,
+            5.118,
+            5.516,
+            3.848,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "composite_score": 0.6916160056741962,
+        "mw": 360.25,
+        "logp": 2.071,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.8126,
+        "sa_score": 3.31,
+        "n_heavy_atoms": 26,
+        "tpsa": 70.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CLCN5-R309C Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "pocket_affinity_score": 0.6916,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN5_R309C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN5_R309C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN5_R309C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN5_R309C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN5_R309C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLCN5-R309C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLCN5-R309C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:36:33.742289+00:00"
     }
   ]
 }
