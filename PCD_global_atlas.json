@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 415,
+  "total_entries": 416,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44868,
-    "queue_remaining": 133729
+    "total_processed": 44869,
+    "queue_remaining": 133728
   },
   "entries": [
     {
@@ -91468,6 +91468,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:10:19.777650+00:00"
+    },
+    {
+      "entry_id": "PCD-PLCE1-I523V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PLCE1-I523V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PLCE1",
+        "uniprot": "",
+        "clinvar_id": "301700",
+        "disease": "Nephrotic syndrome, type 3",
+        "mutation_precursor": "I523V",
+        "mutation_mature": "I523V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9248338299693305,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 630.2824637681205,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          29.088396072387695,
+          -14.830827713012695,
+          -29.333778381347656
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.572039496769511,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.761560035639592,
+        "cryptic": true,
+        "pocket_residues": {
+          "E521": "E",
+          "L522": "L",
+          "I523": "I",
+          "D524": "D",
+          "L525": "L",
+          "Q526": "Q",
+          "P527": "P",
+          "L528": "L",
+          "I529": "I",
+          "V535": "V"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9P212|PLCE1 variant I523V",
+        "fasta_sequence": "MTSEEMTASVLIPVTQRKVVSAQSAADESSEKVSDINISKAHTVRRSGETSHTISQLNKLKEEPSGSNLPKILSIAREKIVSDENSNEKCWEKIMPDSAKNLNINCNNILRNHQHGLPQRQFYEMYNSVAEEDLCLETGIPSPLERKVFPGIQLELDRPSMGISPLGNQSVIIETGRAHPDSRRAVFHFHYEVDRRMSDTFCTLSENLILDDCGNCVPLPGGEEKQKKNYVAYTCKLMELAKNCDNKNEQLQCDHCDTLNDKYFCFEGSCEKVDMVYSGDSFCRKDFTDSQAAKTFLSHFEDFPDNCDDVEEDAFKSKKERSTLLVRRFCKNDREVKKSVYTGTRAIVRTLPSGHIGLTAWSYIDQKRNGPLLPCGRVMEPPSTVEIRQDGSQRLSEAQWYPIYNAVRREETENTVGSLLHFLTKLPASETAHGRISVGPCLKQCVRDTVCEYRATLQRTSISQYITGSLLEATTSLGARSGLLSTFGGSTGRMMLKERQPGPSVANSNALPSSSAGISKELIDLQPLIQFPEEVASILMEQEQTIYRRVLPVDYLCFLTRDLGTPECQSSLPCLKASISASILTTQNGEHNALEDLVMRFNEVSSWVTWLILTAGSMEEKREVFSYLVHVAKCCWNMGNYNAVMEFLAGLRSRKVLKMWQFMDQSDIETMRSLKDAMAQHESSCEYRKVVTRALHIPGCKVVPFCGVFLKELCEVLDGASGLMKLCPRYNSQEETLEFVADYSGQDNFLQRVGQNGLKNSEKESTVNSIFQVIRSCNRSLETDEEDSPSEGNSSRKSSLKDKSRWQFIIGDLLDSDNDIFEQSKEYDSHGSEDSQKAFDHGTELIPWYVLSIQADVHQFLLQGATVIHYDQDTHLSARCFLQLQPDNSTLTWVKPTTASPASSKAKLGVLNNTAEPGKFPLLGNAGLSSLTEGVLDLFAVKAVYMGHPGIDIHTVCVQNKLGSMFLSETGVTLLYGLQTTDNRLLHFVAPKHTAKMLFSGLLELTRAVRKMRKFPDQRQQWLRKQYVSLYQEDGRYEGPTLAHAVELFGGRRWSARNPSPGTSAKNAEKPNMQRNNTLGISTTKKKKKILMRGESGEVTDDEMATRKAKMHKECRSRSGSDPQDINEQEESEVNAIANPPNPLPSRRAHSLTTAGSPNLAAGTSSPIRPVSSPVLSSSNKSPSSAWSSSSWHGRIKGGMKGFQSFMVSDSNMSFVEFVELFKSFSVRSRKDLKDLFDVYAVPCNRSGSESAPLYTNLTIDENTSDLQPDLDLLTRNVSDLGLFIKSKQQLSDNQRQISDAIAAASIVTNGTGIESTSLGIFGVGILQLNDFLVNCQGEHCTYDEILSIIQKFEPSISMCHQGLMSFEGFARFLMDKENFASKNDESQENIKELQLPLSYYYIESSHNTYLTGHQLKGESSVELYSQVLLQGCRSVELDCWDGDDGMPIIYHGHTLTTKIPFKEVVEAIDRSAFINSDLPIIISIENHCSLPQQRKMAEIFKTVFGEKLVTKFLFETDFSDDPMLPSPDQLRKKVLLKNKKLKAHQTPVDILKQKAHQLASMQVQAYNGGNANPRPANNEEEEDEEDEYDYDYESLSDDNILEDRPENKSCNDKLQFEYNEEIPKRIKKADNSACNKGKVYDMELGEEFYLDQNKKESRQIAPELSDLVIYCQAVKFPGLSTLNASGSSRGKERKSRKSIFGNNPGRMSPGETASFNKTSGKSSCEGIRQTWEESSSPLNPTTSLSAIIRTPKCYHISSLNENAAKRLCRRYSQKLTQHTACQLLRTYPAATRIDSSNPNPLMFWLHGIQLVALNYQTDDLPLHLNAAMFEANGGCGYVLKPPVLWDKNCPMYQKFSPLERDLDSMDPAVYSLTIVSGQNVCPSNSMGSPCIEVDVLGMPLDSCHFRTKPIHRNTLNPMWNEQFLFHVHFEDLVFLRFAVVENNSSAVTAQRIIPLKALKRGYRHLQLRNLHNEVLEISSLFINSRRMEENSSGNTMSASSMFNTEERKCLQTHRVTVHGVPGPEPFTVFTINGGTKAKQLLQQILTNEQDIKPVTTDYFLMEEKYFISKEKNECRKQPFQRAIGPEEEIMQILSSWFPEEGYMGRIVLKTQQENLEEKNIVQDDKEVILSSEEESFFVQVHDVSPEQPRTVIKAPRVSTAQDVIQQTLCKAKYSYSILSNPNPSDYVLLEEVVKDTTNKKTTTPKSSQRVLLDQECVFQAQSKWKGAGKFILKLKEQVQASREDKKKGISFASELKKLTKSTKQPRGLTSPSQLLTSESIQTKEEKPVGGLSSSDTMDYRQ",
+        "full_sequence": "MTSEEMTASVLIPVTQRKVVSAQSAADESSEKVSDINISKAHTVRRSGETSHTISQLNKLKEEPSGSNLPKILSIAREKIVSDENSNEKCWEKIMPDSAKNLNINCNNILRNHQHGLPQRQFYEMYNSVAEEDLCLETGIPSPLERKVFPGIQLELDRPSMGISPLGNQSVIIETGRAHPDSRRAVFHFHYEVDRRMSDTFCTLSENLILDDCGNCVPLPGGEEKQKKNYVAYTCKLMELAKNCDNKNEQLQCDHCDTLNDKYFCFEGSCEKVDMVYSGDSFCRKDFTDSQAAKTFLSHFEDFPDNCDDVEEDAFKSKKERSTLLVRRFCKNDREVKKSVYTGTRAIVRTLPSGHIGLTAWSYIDQKRNGPLLPCGRVMEPPSTVEIRQDGSQRLSEAQWYPIYNAVRREETENTVGSLLHFLTKLPASETAHGRISVGPCLKQCVRDTVCEYRATLQRTSISQYITGSLLEATTSLGARSGLLSTFGGSTGRMMLKERQPGPSVANSNALPSSSAGISKELIDLQPLIQFPEEVASILMEQEQTIYRRVLPVDYLCFLTRDLGTPECQSSLPCLKASISASILTTQNGEHNALEDLVMRFNEVSSWVTWLILTAGSMEEKREVFSYLVHVAKCCWNMGNYNAVMEFLAGLRSRKVLKMWQFMDQSDIETMRSLKDAMAQHESSCEYRKVVTRALHIPGCKVVPFCGVFLKELCEVLDGASGLMKLCPRYNSQEETLEFVADYSGQDNFLQRVGQNGLKNSEKESTVNSIFQVIRSCNRSLETDEEDSPSEGNSSRKSSLKDKSRWQFIIGDLLDSDNDIFEQSKEYDSHGSEDSQKAFDHGTELIPWYVLSIQADVHQFLLQGATVIHYDQDTHLSARCFLQLQPDNSTLTWVKPTTASPASSKAKLGVLNNTAEPGKFPLLGNAGLSSLTEGVLDLFAVKAVYMGHPGIDIHTVCVQNKLGSMFLSETGVTLLYGLQTTDNRLLHFVAPKHTAKMLFSGLLELTRAVRKMRKFPDQRQQWLRKQYVSLYQEDGRYEGPTLAHAVELFGGRRWSARNPSPGTSAKNAEKPNMQRNNTLGISTTKKKKKILMRGESGEVTDDEMATRKAKMHKECRSRSGSDPQDINEQEESEVNAIANPPNPLPSRRAHSLTTAGSPNLAAGTSSPIRPVSSPVLSSSNKSPSSAWSSSSWHGRIKGGMKGFQSFMVSDSNMSFVEFVELFKSFSVRSRKDLKDLFDVYAVPCNRSGSESAPLYTNLTIDENTSDLQPDLDLLTRNVSDLGLFIKSKQQLSDNQRQISDAIAAASIVTNGTGIESTSLGIFGVGILQLNDFLVNCQGEHCTYDEILSIIQKFEPSISMCHQGLMSFEGFARFLMDKENFASKNDESQENIKELQLPLSYYYIESSHNTYLTGHQLKGESSVELYSQVLLQGCRSVELDCWDGDDGMPIIYHGHTLTTKIPFKEVVEAIDRSAFINSDLPIIISIENHCSLPQQRKMAEIFKTVFGEKLVTKFLFETDFSDDPMLPSPDQLRKKVLLKNKKLKAHQTPVDILKQKAHQLASMQVQAYNGGNANPRPANNEEEEDEEDEYDYDYESLSDDNILEDRPENKSCNDKLQFEYNEEIPKRIKKADNSACNKGKVYDMELGEEFYLDQNKKESRQIAPELSDLVIYCQAVKFPGLSTLNASGSSRGKERKSRKSIFGNNPGRMSPGETASFNKTSGKSSCEGIRQTWEESSSPLNPTTSLSAIIRTPKCYHISSLNENAAKRLCRRYSQKLTQHTACQLLRTYPAATRIDSSNPNPLMFWLHGIQLVALNYQTDDLPLHLNAAMFEANGGCGYVLKPPVLWDKNCPMYQKFSPLERDLDSMDPAVYSLTIVSGQNVCPSNSMGSPCIEVDVLGMPLDSCHFRTKPIHRNTLNPMWNEQFLFHVHFEDLVFLRFAVVENNSSAVTAQRIIPLKALKRGYRHLQLRNLHNEVLEISSLFINSRRMEENSSGNTMSASSMFNTEERKCLQTHRVTVHGVPGPEPFTVFTINGGTKAKQLLQQILTNEQDIKPVTTDYFLMEEKYFISKEKNECRKQPFQRAIGPEEEIMQILSSWFPEEGYMGRIVLKTQQENLEEKNIVQDDKEVILSSEEESFFVQVHDVSPEQPRTVIKAPRVSTAQDVIQQTLCKAKYSYSILSNPNPSDYVLLEEVVKDTTNKKTTTPKSSQRVLLDQECVFQAQSKWKGAGKFILKLKEQVQASREDKKKGISFASELKKLTKSTKQPRGLTSPSQLLTSESIQTKEEKPVGGLSSSDTMDYRQ",
+        "n_residues": 2302,
+        "mutation_pos_1indexed": 523,
+        "wt_aa": "I",
+        "mut_aa": "V",
+        "pocket_lining_residues": "E521-L522-I523-D524-L525-Q526-P527-L528-I529-V535",
+        "pocket_lining_positions_precursor": [
+          521,
+          522,
+          523,
+          524,
+          525,
+          526,
+          527,
+          528,
+          529,
+          535
+        ],
+        "pocket_lining_1letter": "ELIDLQPLIV",
+        "sequence_slice_around_pocket": "SSSAGISKELIDLQPLIQFP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PLCE1_I523V/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "E521",
+          "L522",
+          "I523",
+          "D524",
+          "L525",
+          "Q526",
+          "P527",
+          "L528",
+          "I529",
+          "V535"
+        ],
+        "values": [
+          [
+            0.0,
+            3.858,
+            5.403,
+            5.05,
+            6.352,
+            9.082,
+            11.467,
+            11.391,
+            12.71,
+            10.666
+          ],
+          [
+            3.858,
+            0.0,
+            3.866,
+            5.496,
+            5.038,
+            6.712,
+            10.019,
+            10.051,
+            10.289,
+            9.465
+          ],
+          [
+            5.403,
+            3.866,
+            0.0,
+            3.866,
+            5.346,
+            5.385,
+            8.365,
+            9.847,
+            10.678,
+            11.649
+          ],
+          [
+            5.05,
+            5.496,
+            3.866,
+            0.0,
+            3.906,
+            5.662,
+            7.005,
+            7.998,
+            10.145,
+            10.299
+          ],
+          [
+            6.352,
+            5.038,
+            5.346,
+            3.906,
+            0.0,
+            3.888,
+            5.721,
+            5.182,
+            6.623,
+            6.748
+          ],
+          [
+            9.082,
+            6.712,
+            5.385,
+            5.662,
+            3.888,
+            0.0,
+            3.906,
+            5.462,
+            5.799,
+            9.188
+          ],
+          [
+            11.467,
+            10.019,
+            8.365,
+            7.005,
+            5.721,
+            3.906,
+            0.0,
+            3.856,
+            5.94,
+            9.981
+          ],
+          [
+            11.391,
+            10.051,
+            9.847,
+            7.998,
+            5.182,
+            5.462,
+            3.856,
+            0.0,
+            3.888,
+            6.615
+          ],
+          [
+            12.71,
+            10.289,
+            10.678,
+            10.145,
+            6.623,
+            5.799,
+            5.94,
+            3.888,
+            0.0,
+            6.459
+          ],
+          [
+            10.666,
+            9.465,
+            11.649,
+            10.299,
+            6.748,
+            9.188,
+            9.981,
+            6.615,
+            6.459,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccc(C(=O)NCCC2CCCCN2c2cc(S(N)(=O)=O)ccc2N)cc1",
+        "composite_score": 0.8725138430587873,
+        "mw": 459.23,
+        "logp": 1.987,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 9,
+        "qed": 0.4221,
+        "sa_score": 2.88,
+        "n_heavy_atoms": 32,
+        "tpsa": 144.5,
+        "lipinski": true,
+        "veber": false,
+        "pains": false,
+        "common_name": "PLCE1-I523V Candidate #1",
+        "iupac_name": "NCCCc1ccc(C(=O)NCCC2CCCCN2c2cc(S(N)(=O)=O)ccc2N)cc1",
+        "pocket_affinity_score": 0.8725,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PLCE1_I523V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PLCE1_I523V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PLCE1_I523V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PLCE1_I523V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PLCE1_I523V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PLCE1-I523V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PLCE1-I523V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:12:24.160974+00:00"
     }
   ]
 }
