@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 23,
+  "total_entries": 24,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44405,
-    "queue_remaining": 134192
+    "total_processed": 44406,
+    "queue_remaining": 134191
   },
   "entries": [
     {
@@ -5646,6 +5646,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T02:57:28.511982+00:00"
+    },
+    {
+      "entry_id": "PCD-HPS6-V347I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS6-V347I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HPS6",
+        "uniprot": "",
+        "clinvar_id": "298556",
+        "disease": "Hermansky-Pudlak syndrome 6",
+        "mutation_precursor": "V347I",
+        "mutation_mature": "V347I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8933446759366116,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 378.5036023872692,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.0004041194915771,
+          1.7987550497055054,
+          36.683719635009766
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.7729551224439,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6493888751202912,
+        "cryptic": true,
+        "pocket_residues": {
+          "K346": "K",
+          "V347": "V",
+          "L348": "L",
+          "S349": "S"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q86YV9|HPS6 variant V347I",
+        "fasta_sequence": "MKRSGTLRLLSDLSAFGGAARLRELVAGDSAVRVRGSPDGRHLLLLRPPGAVAPQLLVASRGPGAELERAWPAGQPSPLDAFFLPWPARPALVLVWESGLAEVWGAGVGPGWRPLQSTELCPGGGARVVAVAALRGRLVWCEERQARAEGPSGSPAAAFSHCVCVRTLEPSGEASTSLGRTHVLLHHCPAFGLLASCRQLFLVPTATTWPGVAHVLLIWSPGKGKVMVAAPRLGLSYSKSLNPGRGDTWDFRTLLRGLPGLLSPREPLAVHTWAPTPQGLLLLDFGGTVSLLQSHGGTRAVGTLQEAPVGPWGSAALGTFQGTLACVLGSTLELLDMGSGQLLERKVLSTDRVHLLEPPAPGMEDEEELETRGNLRLLSALGLFCVGWEAPQGVELPSAKDLVFEEACGYYQRRSLRGAQLTPEELRHSSTFRAPQALASILQGHLPPSALLTMLRTELRDYRGLEQLKAQLVAGDDEEAGWTELAEQEVARLLRTELIGDQLAQLNTVFQALPTAAWGATLRALQLQLDGNGKLRSQAPPDVWKKVLGGITAGKEPPNGILPPFELLCQCLCQLEPRWLPPFVELAQQQGGPGWGAGGPGLPLYRRALAVLGEEGTRPEALELELLLSSGRPKAVLQAVGQLVQKEQWDRALDAGLALGPSSPLLRSEIFKLLLAEFAQHRRLDAHLPLLCRLCPPELAPAELLLLLRTYLPDEVGPPTPFPEPGAEPPLTVGLLKALLEQTGAQGWLSGPVLSPYEDILWDPSTPPPTPPRDL",
+        "full_sequence": "MKRSGTLRLLSDLSAFGGAARLRELVAGDSAVRVRGSPDGRHLLLLRPPGAVAPQLLVASRGPGAELERAWPAGQPSPLDAFFLPWPARPALVLVWESGLAEVWGAGVGPGWRPLQSTELCPGGGARVVAVAALRGRLVWCEERQARAEGPSGSPAAAFSHCVCVRTLEPSGEASTSLGRTHVLLHHCPAFGLLASCRQLFLVPTATTWPGVAHVLLIWSPGKGKVMVAAPRLGLSYSKSLNPGRGDTWDFRTLLRGLPGLLSPREPLAVHTWAPTPQGLLLLDFGGTVSLLQSHGGTRAVGTLQEAPVGPWGSAALGTFQGTLACVLGSTLELLDMGSGQLLERKVLSTDRVHLLEPPAPGMEDEEELETRGNLRLLSALGLFCVGWEAPQGVELPSAKDLVFEEACGYYQRRSLRGAQLTPEELRHSSTFRAPQALASILQGHLPPSALLTMLRTELRDYRGLEQLKAQLVAGDDEEAGWTELAEQEVARLLRTELIGDQLAQLNTVFQALPTAAWGATLRALQLQLDGNGKLRSQAPPDVWKKVLGGITAGKEPPNGILPPFELLCQCLCQLEPRWLPPFVELAQQQGGPGWGAGGPGLPLYRRALAVLGEEGTRPEALELELLLSSGRPKAVLQAVGQLVQKEQWDRALDAGLALGPSSPLLRSEIFKLLLAEFAQHRRLDAHLPLLCRLCPPELAPAELLLLLRTYLPDEVGPPTPFPEPGAEPPLTVGLLKALLEQTGAQGWLSGPVLSPYEDILWDPSTPPPTPPRDL",
+        "n_residues": 775,
+        "mutation_pos_1indexed": 347,
+        "wt_aa": "V",
+        "mut_aa": "I",
+        "pocket_lining_residues": "K346-V347-L348-S349",
+        "pocket_lining_positions_precursor": [
+          346,
+          347,
+          348,
+          349
+        ],
+        "pocket_lining_1letter": "KVLS",
+        "sequence_slice_around_pocket": "MGSGQLLERKVLSTDRVHLL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HPS6_V347I/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "K346",
+          "V347",
+          "L348",
+          "S349"
+        ],
+        "values": [
+          [
+            0.0,
+            3.788,
+            6.141,
+            9.571
+          ],
+          [
+            3.788,
+            0.0,
+            3.807,
+            6.641
+          ],
+          [
+            6.141,
+            3.807,
+            0.0,
+            3.838
+          ],
+          [
+            9.571,
+            6.641,
+            3.838,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.5664622750461737,
+        "mw": 288.2,
+        "logp": 1.983,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.9236,
+        "sa_score": 3.0,
+        "n_heavy_atoms": 21,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HPS6-V347I Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5665,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HPS6_V347I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HPS6_V347I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HPS6_V347I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS6_V347I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS6_V347I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS6-V347I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS6-V347I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T02:57:57.265278+00:00"
     }
   ]
 }
