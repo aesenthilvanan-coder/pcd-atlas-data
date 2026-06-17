@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1290,
+  "total_entries": 1291,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45906,
-    "queue_remaining": 132691
+    "total_processed": 45907,
+    "queue_remaining": 132690
   },
   "entries": [
     {
@@ -285485,6 +285485,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:55:54.536985+00:00"
+    },
+    {
+      "entry_id": "PCD-MC1R-R109W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MC1R-R109W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MC1R",
+        "uniprot": "",
+        "clinvar_id": "321426",
+        "disease": "Melanoma, cutaneous malignant, susceptibility to, 5",
+        "mutation_precursor": "R109W",
+        "mutation_mature": "R109W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9006577813099368,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 362.49829093869675,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          19.101036071777344,
+          -3.939865827560425,
+          -18.220544815063477
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.476428045052859,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7752989224021691,
+        "cryptic": true,
+        "pocket_residues": {
+          "A108": "A",
+          "R109": "R",
+          "A110": "A",
+          "A111": "A",
+          "V112": "V",
+          "L113": "L",
+          "Q114": "Q",
+          "Q115": "Q",
+          "L116": "L"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q01726|MC1R variant R109W",
+        "fasta_sequence": "MAVQGSQRRLLGSLNSTPTAIPQLGLAANQTGARCLEVSISDGLFLSLGLVSLVENALVVATIAKNRNLHSPMYCFICCLALSDLLVSGSNVLETAVILLLEAGALVARAAVLQQLDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAVAAIWVASVVFSTLFIAYYDHVAVLLCLVVFFLAMLVLMAVLYVHMLARACQHAQGIARLHKRQRPVHQGFGLKGAVTLTILLGIFFLCWGPFFLHLTLIVLCPEHPTCGCIFKNFNLFLALIICNAIIDPLIYAFHSQELRRTLKEVLTCSW",
+        "full_sequence": "MAVQGSQRRLLGSLNSTPTAIPQLGLAANQTGARCLEVSISDGLFLSLGLVSLVENALVVATIAKNRNLHSPMYCFICCLALSDLLVSGSNVLETAVILLLEAGALVARAAVLQQLDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAVAAIWVASVVFSTLFIAYYDHVAVLLCLVVFFLAMLVLMAVLYVHMLARACQHAQGIARLHKRQRPVHQGFGLKGAVTLTILLGIFFLCWGPFFLHLTLIVLCPEHPTCGCIFKNFNLFLALIICNAIIDPLIYAFHSQELRRTLKEVLTCSW",
+        "n_residues": 317,
+        "mutation_pos_1indexed": 109,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "A108-R109-A110-A111-V112-L113-Q114-Q115-L116",
+        "pocket_lining_positions_precursor": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116
+        ],
+        "pocket_lining_1letter": "ARAAVLQQL",
+        "sequence_slice_around_pocket": "LLLEAGALVARAAVLQQLDN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_R109W/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "A108",
+          "R109",
+          "A110",
+          "A111",
+          "V112",
+          "L113",
+          "Q114",
+          "Q115",
+          "L116"
+        ],
+        "values": [
+          [
+            0.0,
+            3.819,
+            6.415,
+            8.295,
+            6.455,
+            6.484,
+            9.963,
+            11.055,
+            10.392
+          ],
+          [
+            3.819,
+            0.0,
+            3.846,
+            5.44,
+            5.34,
+            6.41,
+            8.717,
+            10.094,
+            10.797
+          ],
+          [
+            6.415,
+            3.846,
+            0.0,
+            3.867,
+            5.532,
+            5.081,
+            6.076,
+            8.645,
+            9.847
+          ],
+          [
+            8.295,
+            5.44,
+            3.867,
+            0.0,
+            3.867,
+            5.504,
+            5.068,
+            6.227,
+            8.66
+          ],
+          [
+            6.455,
+            5.34,
+            5.532,
+            3.867,
+            0.0,
+            3.834,
+            5.429,
+            5.112,
+            6.143
+          ],
+          [
+            6.484,
+            6.41,
+            5.081,
+            5.504,
+            3.834,
+            0.0,
+            3.836,
+            5.478,
+            5.065
+          ],
+          [
+            9.963,
+            8.717,
+            6.076,
+            5.068,
+            5.429,
+            3.836,
+            0.0,
+            3.826,
+            5.483
+          ],
+          [
+            11.055,
+            10.094,
+            8.645,
+            6.227,
+            5.112,
+            5.478,
+            3.826,
+            0.0,
+            3.832
+          ],
+          [
+            10.392,
+            10.797,
+            9.847,
+            8.66,
+            6.143,
+            5.065,
+            5.483,
+            3.832,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "composite_score": 0.6959569449665539,
+        "mw": 260.15,
+        "logp": 1.904,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7992,
+        "sa_score": 2.9,
+        "n_heavy_atoms": 19,
+        "tpsa": 54.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MC1R-R109W Candidate #1",
+        "iupac_name": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "pocket_affinity_score": 0.696,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_R109W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_R109W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_R109W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_R109W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_R109W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MC1R-R109W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MC1R-R109W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:56:16.716499+00:00"
     }
   ]
 }
