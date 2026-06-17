@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 332,
+  "total_entries": 333,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44780,
-    "queue_remaining": 133817
+    "total_processed": 44781,
+    "queue_remaining": 133816
   },
   "entries": [
     {
@@ -72232,6 +72232,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:03:14.731978+00:00"
+    },
+    {
+      "entry_id": "PCD-AIP-G23E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIP-G23E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AIP",
+        "uniprot": "",
+        "clinvar_id": "305724",
+        "disease": "Somatotroph adenoma",
+        "mutation_precursor": "G23E",
+        "mutation_mature": "G23E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8068655714885639,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 293.27477215487465,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          9.4077730178833,
+          -24.343080520629883,
+          6.174129962921143
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.6893675042360927,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8929173955126052,
+        "cryptic": true,
+        "pocket_residues": {
+          "P22": "P",
+          "W23": "W",
+          "P24": "P",
+          "V25": "V"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NWT8|AIP variant G23E",
+        "fasta_sequence": "MLLGRLTSQLLRAVPWAGGRPPWPVSGVLGSRVCGPLYSTSPAGPGRAASLPRKGAQLELEEMLVPRKMSVSPLESWLTARCFLPRLDTGTAGTVAPPQSYQCPPSQIGEGAEQGDEGVADAPQIQCKNVLKIRRRKMNHHKYRKLVKKTRFLRRKVQEGRLRRKQIKFEKDLRRIWLKAGLKEAPEGWQTPKIYLRGK",
+        "full_sequence": "MLLGRLTSQLLRAVPWAGGRPPWPVSGVLGSRVCGPLYSTSPAGPGRAASLPRKGAQLELEEMLVPRKMSVSPLESWLTARCFLPRLDTGTAGTVAPPQSYQCPPSQIGEGAEQGDEGVADAPQIQCKNVLKIRRRKMNHHKYRKLVKKTRFLRRKVQEGRLRRKQIKFEKDLRRIWLKAGLKEAPEGWQTPKIYLRGK",
+        "n_residues": 199,
+        "mutation_pos_1indexed": 23,
+        "wt_aa": "G",
+        "mut_aa": "E",
+        "pocket_lining_residues": "P22-W23-P24-V25",
+        "pocket_lining_positions_precursor": [
+          22,
+          23,
+          24,
+          25
+        ],
+        "pocket_lining_1letter": "PWPV",
+        "sequence_slice_around_pocket": "AVPWAGGRPPWPVSGVLGSR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_G23E/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "P22",
+          "W23",
+          "P24",
+          "V25"
+        ],
+        "values": [
+          [
+            0.0,
+            3.834,
+            6.579,
+            10.274
+          ],
+          [
+            3.834,
+            0.0,
+            3.865,
+            7.359
+          ],
+          [
+            6.579,
+            3.865,
+            0.0,
+            3.756
+          ],
+          [
+            10.274,
+            7.359,
+            3.756,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.5424263624934267,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AIP-G23E Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.5424,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_G23E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_G23E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_G23E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_G23E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_G23E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIP-G23E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIP-G23E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:03:33.356684+00:00"
     }
   ]
 }
