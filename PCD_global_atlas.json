@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1431,
+  "total_entries": 1432,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46070,
-    "queue_remaining": 132527
+    "total_processed": 46071,
+    "queue_remaining": 132526
   },
   "entries": [
     {
@@ -316485,6 +316485,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:40:20.817521+00:00"
+    },
+    {
+      "entry_id": "PCD-GFAP-N283S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GFAP-N283S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GFAP",
+        "uniprot": "",
+        "clinvar_id": "323613",
+        "disease": "not specified",
+        "mutation_precursor": "N283S",
+        "mutation_mature": "N283S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9335788509103314,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 631.4603986453869,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -26.466684341430664,
+          -19.69613265991211,
+          22.9727840423584
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.878346007468526,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8092337225215711,
+        "cryptic": true,
+        "pocket_residues": {
+          "K279": "K",
+          "H280": "H",
+          "N283": "N",
+          "D284": "D"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P14136|GFAP variant N283S",
+        "fasta_sequence": "MERRRITSAARRSYVSSGEMMVGGLAPGRRLGPGTRLSLARMPPPLPTRVDFSLAGALNAGFKETRASERAEMMELNDRFASYIEKVRFLEQQNKALAAELNQLRAKEPTKLADVYQAELRELRLRLDQLTANSARLEVERDNLAQDLATVRQKLQDETNLRLEAENNLAAYRQEADEATLARLDLERKIESLEEEIRFLRKIHEEEVRELQEQLARQQVHVELDVAKPDLTAALKEIRTQYEAMASSNMHEAEEWYRSKFADLTDAAARNAELLRQAKHEANDYRRQLQSLTCDLESLRGTNESLERQMREQEERHVREAASYQEALARLEEEGQSLKDEMARHLQEYQDLLNVKLALDIEIATYRKLLEGEENRITIPVQTFSNLQIRETSLDTKSVSEGHLKRNIVVKTVEMRDGEVIKESKQEHKDVM",
+        "full_sequence": "MERRRITSAARRSYVSSGEMMVGGLAPGRRLGPGTRLSLARMPPPLPTRVDFSLAGALNAGFKETRASERAEMMELNDRFASYIEKVRFLEQQNKALAAELNQLRAKEPTKLADVYQAELRELRLRLDQLTANSARLEVERDNLAQDLATVRQKLQDETNLRLEAENNLAAYRQEADEATLARLDLERKIESLEEEIRFLRKIHEEEVRELQEQLARQQVHVELDVAKPDLTAALKEIRTQYEAMASSNMHEAEEWYRSKFADLTDAAARNAELLRQAKHEANDYRRQLQSLTCDLESLRGTNESLERQMREQEERHVREAASYQEALARLEEEGQSLKDEMARHLQEYQDLLNVKLALDIEIATYRKLLEGEENRITIPVQTFSNLQIRETSLDTKSVSEGHLKRNIVVKTVEMRDGEVIKESKQEHKDVM",
+        "n_residues": 432,
+        "mutation_pos_1indexed": 283,
+        "wt_aa": "N",
+        "mut_aa": "S",
+        "pocket_lining_residues": "K279-H280-N283-D284",
+        "pocket_lining_positions_precursor": [
+          279,
+          280,
+          283,
+          284
+        ],
+        "pocket_lining_1letter": "KHND",
+        "sequence_slice_around_pocket": "ELLRQAKHEANDYRRQLQSL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_N283S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "K279",
+          "H280",
+          "N283",
+          "D284"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            6.231,
+            8.704
+          ],
+          [
+            3.841,
+            0.0,
+            5.174,
+            6.275
+          ],
+          [
+            6.231,
+            5.174,
+            0.0,
+            3.85
+          ],
+          [
+            8.704,
+            6.275,
+            3.85,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(OCC(=O)OC2CCCCN2OC2CCCCC2N)cc1",
+        "composite_score": 0.7414307690246879,
+        "mw": 377.23,
+        "logp": 2.081,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.7018,
+        "sa_score": 3.73,
+        "n_heavy_atoms": 27,
+        "tpsa": 100.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GFAP-N283S Candidate #1",
+        "iupac_name": "NCc1ccc(OCC(=O)OC2CCCCN2OC2CCCCC2N)cc1",
+        "pocket_affinity_score": 0.7414,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_N283S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_N283S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_N283S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_N283S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_N283S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GFAP-N283S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GFAP-N283S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:40:45.578898+00:00"
     }
   ]
 }
