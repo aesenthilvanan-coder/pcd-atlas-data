@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 416,
+  "total_entries": 417,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44869,
-    "queue_remaining": 133728
+    "total_processed": 44870,
+    "queue_remaining": 133727
   },
   "entries": [
     {
@@ -91717,6 +91717,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:12:24.160974+00:00"
+    },
+    {
+      "entry_id": "PCD-PSTPIP1-T20M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSTPIP1-T20M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PSTPIP1",
+        "uniprot": "",
+        "clinvar_id": "317170",
+        "disease": "Pyogenic arthritis-pyoderma gangrenosum-acne syndrome",
+        "mutation_precursor": "T20M",
+        "mutation_mature": "T20M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7489720174027938,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 579.5961251977782,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -18.417278289794922,
+          -12.699336051940918,
+          6.543799877166748
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.959877562265719,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.825639062716263,
+        "cryptic": true,
+        "pocket_residues": {
+          "T20": "T",
+          "E23": "E",
+          "V24": "V",
+          "Q27": "Q"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43586|PSTPIP1 variant T20M",
+        "fasta_sequence": "MMPQLQFKDAFWCRDFTAHTGYEVLLQRLLDGRKMCKDMEELLRQRAQAEERYGKELVQIARKAGGQTEINSLRASFDSLKQQMENVGSSHIQLALTLREELRSLEEFRERQKEQRKKYEAVMDRVQKSKLSLYKKAMESKKTYEQKCRDADDAEQAFERISANGHQKQVEKSQNKARQCKDSATEAERVYRQSIAQLEKVRAEWEQEHRTTCEAFQLQEFDRLTILRNALWVHSNQLSMQCVKDDELYEEVRLTLEGCSIDADIDSFIQAKSTGTEPPAPVPYQNYYDREVTPLTSSPGIQPSCGMIKRFSGLLHGSPKTTSLAASAASTETLTPTPERNEGVYTAIAVQEIQGNPASPAQEYRALYDYTAQNPDELDLSAGDILEVILEGEDGWWTVERNGQRGFVPGSYLEKL",
+        "full_sequence": "MMPQLQFKDAFWCRDFTAHTGYEVLLQRLLDGRKMCKDMEELLRQRAQAEERYGKELVQIARKAGGQTEINSLRASFDSLKQQMENVGSSHIQLALTLREELRSLEEFRERQKEQRKKYEAVMDRVQKSKLSLYKKAMESKKTYEQKCRDADDAEQAFERISANGHQKQVEKSQNKARQCKDSATEAERVYRQSIAQLEKVRAEWEQEHRTTCEAFQLQEFDRLTILRNALWVHSNQLSMQCVKDDELYEEVRLTLEGCSIDADIDSFIQAKSTGTEPPAPVPYQNYYDREVTPLTSSPGIQPSCGMIKRFSGLLHGSPKTTSLAASAASTETLTPTPERNEGVYTAIAVQEIQGNPASPAQEYRALYDYTAQNPDELDLSAGDILEVILEGEDGWWTVERNGQRGFVPGSYLEKL",
+        "n_residues": 416,
+        "mutation_pos_1indexed": 20,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "T20-E23-V24-Q27",
+        "pocket_lining_positions_precursor": [
+          20,
+          23,
+          24,
+          27
+        ],
+        "pocket_lining_1letter": "TEVQ",
+        "sequence_slice_around_pocket": "AFWCRDFTAHTGYEVLLQRL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_T20M/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "T20",
+          "E23",
+          "V24",
+          "Q27"
+        ],
+        "values": [
+          [
+            0.0,
+            4.873,
+            6.168,
+            10.419
+          ],
+          [
+            4.873,
+            0.0,
+            3.858,
+            6.109
+          ],
+          [
+            6.168,
+            3.858,
+            0.0,
+            5.16
+          ],
+          [
+            10.419,
+            6.109,
+            5.16,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1CNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.703401248255577,
+        "mw": 390.17,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.7506,
+        "sa_score": 2.41,
+        "n_heavy_atoms": 27,
+        "tpsa": 97.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PSTPIP1-T20M Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1CNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.7034,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_T20M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_T20M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_T20M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_T20M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_T20M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSTPIP1-T20M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSTPIP1-T20M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:12:47.600969+00:00"
     }
   ]
 }
