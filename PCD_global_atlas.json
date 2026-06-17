@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1176,
+  "total_entries": 1177,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45773,
-    "queue_remaining": 132824
+    "total_processed": 45774,
+    "queue_remaining": 132823
   },
   "entries": [
     {
@@ -259152,6 +259152,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:12:11.533310+00:00"
+    },
+    {
+      "entry_id": "PCD-CLCN7-G32V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLCN7-G32V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CLCN7",
+        "uniprot": "",
+        "clinvar_id": "317968",
+        "disease": "Osteopetrosis",
+        "mutation_precursor": "G32V",
+        "mutation_mature": "G32V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8795857830207836,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 282.3639954964753,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -2.3941738605499268,
+          -43.15245056152344,
+          52.80921173095703
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.89621548635984,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8500061454388643,
+        "cryptic": true,
+        "pocket_residues": {
+          "R29": "R",
+          "P30": "P",
+          "G31": "G",
+          "G32": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P51798|CLCN7 variant G32V",
+        "fasta_sequence": "MANVSKKVSWSGRDRDDEEAAPLLRRTARPGGGTPLLNGAGPGAARQSPRSALFRVGHMSSVELDDELLDPDMDPPHPFPKEIPHNEKLLSLKYESLDYDNSENQLFLEEERRINHTAFRTVEIKRWVICALIGILTGLVACFIDIVVENLAGLKYRVIKGNIDKFTEKGGLSFSLLLWATLNAAFVLVGSVIVAFIEPVAAGSGIPQIKCFLNGVKIPHVVRLKTLVIKVSGVILSVVGGLAVGKEGPMIHSGSVIAAGISQGRSTSLKRDFKIFEYFRRDTEKRDFVSAGAAAGVSAAFGAPVGGVLFSLEEGASFWNQFLTWRIFFASMISTFTLNFVLSIYHGNMWDLSSPGLINFGRFDSEKMAYTIHEIPVFIAMGVVGGVLGAVFNALNYWLTMFRIRYIHRPCLQVIEAVLVAAVTATVAFVLIYSSRDCQPLQGGSMSYPLQLFCADGEYNSMAAAFFNTPEKSVVSLFHDPPGSYNPLTLGLFTLVYFFLACWTYGLTVSAGVFIPSLLIGAAWGRLFGISLSYLTGAAIWADPGKYALMGAAAQLGGIVRMTLSLTVIMMEATSNVTYGFPIMLVLMTAKIVGDVFIEGLYDMHIQLQSVPFLHWEAPVTSHSLTAREVMSTPVTCLRRREKVGVIVDVLSDTASNHNGFPVVEHADDTQPARLQGLILRSQLIVLLKHKVFVERSNLGLVQRRLRLKDFRDAYPRFPPIQSIHVSQDERECTMDLSEFMNPSPYTVPQEASLPRVFKLFRALGLRHLVVVDNRNQVVGLVTRKDLARYRLGKRGLEELSLAQT",
+        "full_sequence": "MANVSKKVSWSGRDRDDEEAAPLLRRTARPGGGTPLLNGAGPGAARQSPRSALFRVGHMSSVELDDELLDPDMDPPHPFPKEIPHNEKLLSLKYESLDYDNSENQLFLEEERRINHTAFRTVEIKRWVICALIGILTGLVACFIDIVVENLAGLKYRVIKGNIDKFTEKGGLSFSLLLWATLNAAFVLVGSVIVAFIEPVAAGSGIPQIKCFLNGVKIPHVVRLKTLVIKVSGVILSVVGGLAVGKEGPMIHSGSVIAAGISQGRSTSLKRDFKIFEYFRRDTEKRDFVSAGAAAGVSAAFGAPVGGVLFSLEEGASFWNQFLTWRIFFASMISTFTLNFVLSIYHGNMWDLSSPGLINFGRFDSEKMAYTIHEIPVFIAMGVVGGVLGAVFNALNYWLTMFRIRYIHRPCLQVIEAVLVAAVTATVAFVLIYSSRDCQPLQGGSMSYPLQLFCADGEYNSMAAAFFNTPEKSVVSLFHDPPGSYNPLTLGLFTLVYFFLACWTYGLTVSAGVFIPSLLIGAAWGRLFGISLSYLTGAAIWADPGKYALMGAAAQLGGIVRMTLSLTVIMMEATSNVTYGFPIMLVLMTAKIVGDVFIEGLYDMHIQLQSVPFLHWEAPVTSHSLTAREVMSTPVTCLRRREKVGVIVDVLSDTASNHNGFPVVEHADDTQPARLQGLILRSQLIVLLKHKVFVERSNLGLVQRRLRLKDFRDAYPRFPPIQSIHVSQDERECTMDLSEFMNPSPYTVPQEASLPRVFKLFRALGLRHLVVVDNRNQVVGLVTRKDLARYRLGKRGLEELSLAQT",
+        "n_residues": 805,
+        "mutation_pos_1indexed": 32,
+        "wt_aa": "G",
+        "mut_aa": "V",
+        "pocket_lining_residues": "R29-P30-G31-G32",
+        "pocket_lining_positions_precursor": [
+          29,
+          30,
+          31,
+          32
+        ],
+        "pocket_lining_1letter": "RPGG",
+        "sequence_slice_around_pocket": "PLLRRTARPGGGTPLLNGAG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN7_G32V/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "R29",
+          "P30",
+          "G31",
+          "G32"
+        ],
+        "values": [
+          [
+            0.0,
+            3.858,
+            7.256,
+            10.896
+          ],
+          [
+            3.858,
+            0.0,
+            3.825,
+            7.269
+          ],
+          [
+            7.256,
+            3.825,
+            0.0,
+            3.716
+          ],
+          [
+            10.896,
+            7.269,
+            3.716,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccccc1N1CCCCC1",
+        "composite_score": 0.5612858467155432,
+        "mw": 204.13,
+        "logp": 1.776,
+        "hbd": 1,
+        "hba": 2,
+        "rotatable_bonds": 2,
+        "qed": 0.7977,
+        "sa_score": 1.64,
+        "n_heavy_atoms": 15,
+        "tpsa": 46.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CLCN7-G32V Candidate #1",
+        "iupac_name": "NC(=O)c1ccccc1N1CCCCC1",
+        "pocket_affinity_score": 0.5613,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN7_G32V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN7_G32V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN7_G32V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN7_G32V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN7_G32V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLCN7-G32V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLCN7-G32V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:12:39.424156+00:00"
     }
   ]
 }
