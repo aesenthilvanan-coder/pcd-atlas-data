@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1212,
+  "total_entries": 1213,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45810,
-    "queue_remaining": 132787
+    "total_processed": 45814,
+    "queue_remaining": 132783
   },
   "entries": [
     {
@@ -267679,6 +267679,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:38:13.390324+00:00"
+    },
+    {
+      "entry_id": "PCD-LPIN2-P378S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LPIN2-P378S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LPIN2",
+        "uniprot": "",
+        "clinvar_id": "326646",
+        "disease": "Majeed syndrome",
+        "mutation_precursor": "P378S",
+        "mutation_mature": "P378S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8760073167142325,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 591.6226390430719,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          39.938316345214844,
+          11.067867279052734,
+          -40.764915466308594
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.8218462935619,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8999182410716343,
+        "cryptic": true,
+        "pocket_residues": {
+          "K377": "K",
+          "P378": "P",
+          "A379": "A",
+          "A380": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q92539|LPIN2 variant P378S",
+        "fasta_sequence": "MNYVGQLAGQVIVTVKELYKGINQATLSGCIDVIVVQQQDGSYQCSPFHVRFGKLGVLRSKEKVIDIEINGSAVDLHMKLGDNGEAFFVEETEEEYEKLPAYLATSPIPTEDQFFKDIDTPLVKSGGDETPSQSSDISHVLETETIFTPSSVKKKKRRRKKYKQDSKKEEQAASAAAEDTCDVGVSSDDDKGAQAARGSSNASLKEEECKEPLLFHSGDHYPLSDGDWSPLETTYPQTACPKSDSELEVKPAESLLRSESHMEWTWGGFPESTKVSKRERSDHHPRTATITPSENTHFRVIPSEDNLISEVEKDASMEDTVCTIVKPKPRALGTQMSDPTSVAELLEPPLESTQISSMLDADHLPNAALAEAPSESKPAAKVDSPSKKKGVHKRSQHQGPDDIYLDDLKGLEPEVAALYFPKSESEPGSRQWPESDTLSGSQSPQSVGSAAADSGTECLSDSAMDLPDVTLSLCGGLSENGEISKEKFMEHIITYHEFAENPGLIDNPNLVIRIYNRYYNWALAAPMILSLQVFQKSLPKATVESWVKDKMPKKSGRWWFWRKRESMTKQLPESKEGKSEAPPASDLPSSSKEPAGARPAENDSSSDEGSQELEESITVDPIPTEPLSHGSTTSYKKSLRLSSDQIAKLKLHDGPNDVVFSITTQYQGTCRCAGTIYLWNWNDKIIISDIDGTITKSDALGQILPQLGKDWTHQGIAKLYHSINENGYKFLYCSARAIGMADMTRGYLHWVNDKGTILPRGPLMLSPSSLFSAFHREVIEKKPEKFKIECLNDIKNLFAPSKQPFYAAFGNRPNDVYAYTQVGVPDCRIFTVNPKGELIQERTKGNKSSYHRLSELVEHVFPLLSKEQNSAFPCPEFSSFCYWRDPIPEVDLDDLS",
+        "full_sequence": "MNYVGQLAGQVIVTVKELYKGINQATLSGCIDVIVVQQQDGSYQCSPFHVRFGKLGVLRSKEKVIDIEINGSAVDLHMKLGDNGEAFFVEETEEEYEKLPAYLATSPIPTEDQFFKDIDTPLVKSGGDETPSQSSDISHVLETETIFTPSSVKKKKRRRKKYKQDSKKEEQAASAAAEDTCDVGVSSDDDKGAQAARGSSNASLKEEECKEPLLFHSGDHYPLSDGDWSPLETTYPQTACPKSDSELEVKPAESLLRSESHMEWTWGGFPESTKVSKRERSDHHPRTATITPSENTHFRVIPSEDNLISEVEKDASMEDTVCTIVKPKPRALGTQMSDPTSVAELLEPPLESTQISSMLDADHLPNAALAEAPSESKPAAKVDSPSKKKGVHKRSQHQGPDDIYLDDLKGLEPEVAALYFPKSESEPGSRQWPESDTLSGSQSPQSVGSAAADSGTECLSDSAMDLPDVTLSLCGGLSENGEISKEKFMEHIITYHEFAENPGLIDNPNLVIRIYNRYYNWALAAPMILSLQVFQKSLPKATVESWVKDKMPKKSGRWWFWRKRESMTKQLPESKEGKSEAPPASDLPSSSKEPAGARPAENDSSSDEGSQELEESITVDPIPTEPLSHGSTTSYKKSLRLSSDQIAKLKLHDGPNDVVFSITTQYQGTCRCAGTIYLWNWNDKIIISDIDGTITKSDALGQILPQLGKDWTHQGIAKLYHSINENGYKFLYCSARAIGMADMTRGYLHWVNDKGTILPRGPLMLSPSSLFSAFHREVIEKKPEKFKIECLNDIKNLFAPSKQPFYAAFGNRPNDVYAYTQVGVPDCRIFTVNPKGELIQERTKGNKSSYHRLSELVEHVFPLLSKEQNSAFPCPEFSSFCYWRDPIPEVDLDDLS",
+        "n_residues": 896,
+        "mutation_pos_1indexed": 378,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "K377-P378-A379-A380",
+        "pocket_lining_positions_precursor": [
+          377,
+          378,
+          379,
+          380
+        ],
+        "pocket_lining_1letter": "KPAA",
+        "sequence_slice_around_pocket": "ALAEAPSESKPAAKVDSPSK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LPIN2_P378S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "K377",
+          "P378",
+          "A379",
+          "A380"
+        ],
+        "values": [
+          [
+            0.0,
+            3.943,
+            7.571,
+            10.786
+          ],
+          [
+            3.943,
+            0.0,
+            3.921,
+            7.111
+          ],
+          [
+            7.571,
+            3.921,
+            0.0,
+            3.287
+          ],
+          [
+            10.786,
+            7.111,
+            3.287,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1C(CCNC(=O)c2ccc(Cl)cc2)CCC(=O)C1O",
+        "composite_score": 0.5425968554637329,
+        "mw": 388.13,
+        "logp": 1.994,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.7224,
+        "sa_score": 3.4,
+        "n_heavy_atoms": 27,
+        "tpsa": 108.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LPIN2-P378S Candidate #1",
+        "iupac_name": "Nc1ccncc1N1C(CCNC(=O)c2ccc(Cl)cc2)CCC(=O)C1O",
+        "pocket_affinity_score": 0.5426,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LPIN2_P378S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LPIN2_P378S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LPIN2_P378S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LPIN2_P378S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LPIN2_P378S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LPIN2-P378S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LPIN2-P378S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:39:22.007561+00:00"
     }
   ]
 }
