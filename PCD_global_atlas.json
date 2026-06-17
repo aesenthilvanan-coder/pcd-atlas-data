@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1201,
+  "total_entries": 1202,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45799,
-    "queue_remaining": 132798
+    "total_processed": 45800,
+    "queue_remaining": 132797
   },
   "entries": [
     {
@@ -265272,6 +265272,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:32:20.030129+00:00"
+    },
+    {
+      "entry_id": "PCD-SCNN1B-R156W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1B-R156W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SCNN1B",
+        "uniprot": "",
+        "clinvar_id": "318422",
+        "disease": "Bronchiectasis with or without elevated sweat chloride 1",
+        "mutation_precursor": "R156W",
+        "mutation_mature": "R156W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8150573125995265,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 337.53062687151146,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.349466800689697,
+          -25.100753784179688,
+          32.806297302246094
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.883508611294989,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6138023533958055,
+        "cryptic": true,
+        "pocket_residues": {
+          "I153": "I",
+          "D154": "D",
+          "E155": "E",
+          "R156": "R",
+          "N157": "N",
+          "P158": "P",
+          "H159": "H",
+          "H160": "H",
+          "P161": "P",
+          "M162": "M",
+          "V163": "V"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P51168|SCNN1B variant R156W",
+        "fasta_sequence": "MHVKKYLLKGLHRLQKGPGYTYKELLVWYCDNTNTHGPKRIICEGPKKKAMWFLLTLLFAALVCWQWGIFIRTYLSWEVSVSLSVGFKTMDFPAVTICNASPFKYSKIKHLLKDLDELMEAVLERILAPELSHANATRNLNFSIWNHTPLVLIDERNPHHPMVLDLFGDNHNGLTSSSASEKICNAHGCKMAMRLCSLNRTQCTFRNFTSATQALTEWYILQATNIFAQVPQQELVEMSYPGEQMILACLFGAEPCNYRNFTSIFYPHYGNCYIFNWGMTEKALPSANPGTEFGLKLILDIGQEDYVPFLASTAGVRLMLHEQRSYPFIRDEGIYAMSGTETSIGVLVDKLQRMGEPYSPCTVNGSEVPVQNFYSDYNTTYSIQACLRSCFQDHMIRNCNCGHYLYPLPRGEKYCNNRDFPDWAHCYSDLQMSVAQRETCIGMCKESCNDTQYKMTISMADWPSEASEDWIFHVLSQERDQSTNITLSRKGIVKLNIYFQEFNYRTIEESAANNIVWLLSNLGGQFGFWMGGSVLCLIEFGEIIIDFVWITIIKLVALAKSLRQRRAQASYAGPPPTVAELVEAHTNFGFQPDTAPRSPNTGPYPSEQALPIPGTPPPNYDSLRLQPLDVIESDSEGDAI",
+        "full_sequence": "MHVKKYLLKGLHRLQKGPGYTYKELLVWYCDNTNTHGPKRIICEGPKKKAMWFLLTLLFAALVCWQWGIFIRTYLSWEVSVSLSVGFKTMDFPAVTICNASPFKYSKIKHLLKDLDELMEAVLERILAPELSHANATRNLNFSIWNHTPLVLIDERNPHHPMVLDLFGDNHNGLTSSSASEKICNAHGCKMAMRLCSLNRTQCTFRNFTSATQALTEWYILQATNIFAQVPQQELVEMSYPGEQMILACLFGAEPCNYRNFTSIFYPHYGNCYIFNWGMTEKALPSANPGTEFGLKLILDIGQEDYVPFLASTAGVRLMLHEQRSYPFIRDEGIYAMSGTETSIGVLVDKLQRMGEPYSPCTVNGSEVPVQNFYSDYNTTYSIQACLRSCFQDHMIRNCNCGHYLYPLPRGEKYCNNRDFPDWAHCYSDLQMSVAQRETCIGMCKESCNDTQYKMTISMADWPSEASEDWIFHVLSQERDQSTNITLSRKGIVKLNIYFQEFNYRTIEESAANNIVWLLSNLGGQFGFWMGGSVLCLIEFGEIIIDFVWITIIKLVALAKSLRQRRAQASYAGPPPTVAELVEAHTNFGFQPDTAPRSPNTGPYPSEQALPIPGTPPPNYDSLRLQPLDVIESDSEGDAI",
+        "n_residues": 640,
+        "mutation_pos_1indexed": 156,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "I153-D154-E155-R156-N157-P158-H159-H160-P161-M162-V163",
+        "pocket_lining_positions_precursor": [
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163
+        ],
+        "pocket_lining_1letter": "IDERNPHHPMV",
+        "sequence_slice_around_pocket": "NHTPLVLIDERNPHHPMVLD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_R156W/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "I153",
+          "D154",
+          "E155",
+          "R156",
+          "N157",
+          "P158",
+          "H159",
+          "H160",
+          "P161",
+          "M162",
+          "V163"
+        ],
+        "values": [
+          [
+            0.0,
+            3.817,
+            6.158,
+            9.129,
+            10.443,
+            10.803,
+            12.786,
+            10.373,
+            6.563,
+            5.755,
+            4.639
+          ],
+          [
+            3.817,
+            0.0,
+            3.842,
+            5.616,
+            7.378,
+            8.765,
+            11.004,
+            8.825,
+            5.486,
+            5.087,
+            6.356
+          ],
+          [
+            6.158,
+            3.842,
+            0.0,
+            3.893,
+            5.164,
+            5.356,
+            8.374,
+            7.472,
+            4.691,
+            6.844,
+            8.953
+          ],
+          [
+            9.129,
+            5.616,
+            3.893,
+            0.0,
+            3.829,
+            6.11,
+            8.965,
+            8.526,
+            7.097,
+            8.624,
+            11.393
+          ],
+          [
+            10.443,
+            7.378,
+            5.164,
+            3.829,
+            0.0,
+            3.882,
+            5.472,
+            5.416,
+            5.722,
+            8.032,
+            11.523
+          ],
+          [
+            10.803,
+            8.765,
+            5.356,
+            6.11,
+            3.882,
+            0.0,
+            3.865,
+            5.574,
+            5.811,
+            9.37,
+            12.363
+          ],
+          [
+            12.786,
+            11.004,
+            8.374,
+            8.965,
+            5.472,
+            3.865,
+            0.0,
+            3.848,
+            6.483,
+            9.739,
+            13.02
+          ],
+          [
+            10.373,
+            8.825,
+            7.472,
+            8.526,
+            5.416,
+            5.574,
+            3.848,
+            0.0,
+            3.85,
+            6.251,
+            9.643
+          ],
+          [
+            6.563,
+            5.486,
+            4.691,
+            7.097,
+            5.722,
+            5.811,
+            6.483,
+            3.85,
+            0.0,
+            3.832,
+            6.704
+          ],
+          [
+            5.755,
+            5.087,
+            6.844,
+            8.624,
+            8.032,
+            9.37,
+            9.739,
+            6.251,
+            3.832,
+            0.0,
+            3.836
+          ],
+          [
+            4.639,
+            6.356,
+            8.953,
+            11.393,
+            11.523,
+            12.363,
+            13.02,
+            9.643,
+            6.704,
+            3.836,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8584905939350984,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SCNN1B-R156W Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8585,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_R156W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_R156W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_R156W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_R156W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_R156W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1B-R156W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1B-R156W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:32:46.758169+00:00"
     }
   ]
 }
