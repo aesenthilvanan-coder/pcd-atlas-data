@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 42,
+  "total_entries": 43,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44424,
-    "queue_remaining": 134173
+    "total_processed": 44425,
+    "queue_remaining": 134172
   },
   "entries": [
     {
@@ -10066,6 +10066,171 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:10:45.830553+00:00"
+    },
+    {
+      "entry_id": "PCD-BAG3-I524T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BAG3-I524T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BAG3",
+        "uniprot": "",
+        "clinvar_id": "298962",
+        "disease": "Myofibrillar myopathy 6;Dilated cardiomyopathy 1HH",
+        "mutation_precursor": "I524T",
+        "mutation_mature": "I524T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.930961452435738,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 389.1792726974645,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -60.29005432128906,
+          -15.794200897216797,
+          16.410259246826172
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.875258420512913,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7345808059625244,
+        "cryptic": true,
+        "pocket_residues": {
+          "L521": "L",
+          "Q522": "Q",
+          "A523": "A",
+          "I524": "I",
+          "M525": "M",
+          "E526": "E"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O95817|BAG3 variant I524T",
+        "fasta_sequence": "MSAATHSPMMQVASGNGDRDPLPPGWEIKIDPQTGWPFFVDHNSRTTTWNDPRVPSEGPKETPSSANGPSREGSRLPPAREGHPVYPQLRPGYIPIPVLHEGAENRQVHPFHVYPQPGMQRFRTEAAAAAPQRSQSPLRGMPETTQPDKQCGQVAAAAAAQPPASHGPERSQSPAASDCSSSSSSASLPSSGRSSLGSHQLPRGYISIPVIHEQNVTRPAAQPSFHQAQKTHYPAQQGEYQTHQPVYHKIQGDDWEPRPLRAASPFRSSVQGASSREGSPARSSTPLHSPSPIRVHTVVDRPQQPMTHRETAPVSQPENKPESKPGPVGPELPPGHIPIQVIRKEVDSKPVSQKPPPPSEKVEVKVPPAPVPCPPPSPGPSAVPSSPKSVATEERAAPSTAPAEATPPKPGEAEAPPKHPGVLKVEAILEKVQGLEQAVDNFEGKKTDKKYLMIEEYLTKELLALDSVDPEGRADVRQARRDGVRKVQTILEKLEQKAIDVPGQVQVYELQPSNLEADQPLQAIMEMGAVAADKGKKNAGNAEDPHTETQQPEATAAATSNPSSMTDTPGNPAAP",
+        "full_sequence": "MSAATHSPMMQVASGNGDRDPLPPGWEIKIDPQTGWPFFVDHNSRTTTWNDPRVPSEGPKETPSSANGPSREGSRLPPAREGHPVYPQLRPGYIPIPVLHEGAENRQVHPFHVYPQPGMQRFRTEAAAAAPQRSQSPLRGMPETTQPDKQCGQVAAAAAAQPPASHGPERSQSPAASDCSSSSSSASLPSSGRSSLGSHQLPRGYISIPVIHEQNVTRPAAQPSFHQAQKTHYPAQQGEYQTHQPVYHKIQGDDWEPRPLRAASPFRSSVQGASSREGSPARSSTPLHSPSPIRVHTVVDRPQQPMTHRETAPVSQPENKPESKPGPVGPELPPGHIPIQVIRKEVDSKPVSQKPPPPSEKVEVKVPPAPVPCPPPSPGPSAVPSSPKSVATEERAAPSTAPAEATPPKPGEAEAPPKHPGVLKVEAILEKVQGLEQAVDNFEGKKTDKKYLMIEEYLTKELLALDSVDPEGRADVRQARRDGVRKVQTILEKLEQKAIDVPGQVQVYELQPSNLEADQPLQAIMEMGAVAADKGKKNAGNAEDPHTETQQPEATAAATSNPSSMTDTPGNPAAP",
+        "n_residues": 575,
+        "mutation_pos_1indexed": 524,
+        "wt_aa": "I",
+        "mut_aa": "T",
+        "pocket_lining_residues": "L521-Q522-A523-I524-M525-E526",
+        "pocket_lining_positions_precursor": [
+          521,
+          522,
+          523,
+          524,
+          525,
+          526
+        ],
+        "pocket_lining_1letter": "LQAIME",
+        "sequence_slice_around_pocket": "NLEADQPLQAIMEMGAVAAD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_I524T/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "L521",
+          "Q522",
+          "A523",
+          "I524",
+          "M525",
+          "E526"
+        ],
+        "values": [
+          [
+            0.0,
+            3.85,
+            6.816,
+            8.784,
+            9.894,
+            13.54
+          ],
+          [
+            3.85,
+            0.0,
+            3.874,
+            6.861,
+            8.218,
+            11.353
+          ],
+          [
+            6.816,
+            3.874,
+            0.0,
+            3.865,
+            6.516,
+            9.259
+          ],
+          [
+            8.784,
+            6.861,
+            3.865,
+            0.0,
+            3.793,
+            6.583
+          ],
+          [
+            9.894,
+            8.218,
+            6.516,
+            3.793,
+            0.0,
+            3.853
+          ],
+          [
+            13.54,
+            11.353,
+            9.259,
+            6.583,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.9097643568885917,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BAG3-I524T Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9098,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_I524T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_I524T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_I524T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_I524T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_I524T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BAG3-I524T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BAG3-I524T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:11:09.796798+00:00"
     }
   ]
 }
