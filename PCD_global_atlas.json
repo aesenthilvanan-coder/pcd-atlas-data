@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 274,
+  "total_entries": 275,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44703,
-    "queue_remaining": 133894
+    "total_processed": 44704,
+    "queue_remaining": 133893
   },
   "entries": [
     {
@@ -60388,6 +60388,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:04:34.539549+00:00"
+    },
+    {
+      "entry_id": "PCD-PTCH1-R1345C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PTCH1-R1345C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PTCH1",
+        "uniprot": "",
+        "clinvar_id": "367664",
+        "disease": "Gorlin syndrome",
+        "mutation_precursor": "R1345C",
+        "mutation_mature": "R1345C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8958341869536705,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 434.9248998423092,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -29.11705207824707,
+          44.81084060668945,
+          -21.66431427001953
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.119234840404178,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6671144890482597,
+        "cryptic": true,
+        "pocket_residues": {
+          "G1343": "G",
+          "A1344": "A",
+          "R1345": "R",
+          "S1346": "S"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13635|PTCH1 variant R1345C",
+        "fasta_sequence": "MASAGNAAEPQDRGGGGSGCIGAPGRPAGGGRRRRTGGLRRAAAPDRDYLHRPSYCDAAFALEQISKGKATGRKAPLWLRAKFQRLLFKLGCYIQKNCGKFLVVGLLIFGAFAVGLKAANLETNVEELWVEVGGRVSRELNYTRQKIGEEAMFNPQLMIQTPKEEGANVLTTEALLQHLDSALQASRVHVYMYNRQWKLEHLCYKSGELITETGYMDQIIEYLYPCLIITPLDCFWEGAKLQSGTAYLLGKPPLRWTNFDPLEFLEELKKINYQVDSWEEMLNKAEVGHGYMDRPCLNPADPDCPATAPNKNSTKPLDMALVLNGGCHGLSRKYMHWQEELIVGGTVKNSTGKLVSAHALQTMFQLMTPKQMYEHFKGYEYVSHINWNEDKAAAILEAWQRTYVEVVHQSVAQNSTQKVLSFTTTTLDDILKSFSDVSVIRVASGYLLMLAYACLTMLRWDCSKSQGAVGLAGVLLVALSVAAGLGLCSLIGISFNAATTQVLPFLALGVGVDDVFLLAHAFSETGQNKRIPFEDRTGECLKRTGASVALTSISNVTAFFMAALIPIPALRAFSLQAAVVVVFNFAMVLLIFPAILSMDLYRREDRRLDIFCCFTSPCVSRVIQVEPQAYTDTHDNTRYSPPPPYSSHSFAHETQITMQSTVQLRTEYDPHTHVYYTTAEPRSEISVQPVTVTQDTLSCQSPESTSSTRDLLSQFSDSSLHCLEPPCTKWTLSSFAEKHYAPFLLKPKAKVVVIFLFLGLLGVSLYGTTRVRDGLDLTDIVPRETREYDFIAAQFKYFSFYNMYIVTQKADYPNIQHLLYDLHRSFSNVKYVMLEENKQLPKMWLHYFRDWLQGLQDAFDSDWETGKIMPNNYKNGSDDGVLAYKLLVQTGSRDKPIDISQLTKQRLVDADGIINPSAFYIYLTAWVSNDPVAYAASQANIRPHRPEWVHDKADYMPETRLRIPAAEPIEYAQFPFYLNGLRDTSDFVEAIEKVRTICSNYTSLGLSSYPNGYPFLFWEQYIGLRHWLLLFISVVLACTFLVCAVFLLNPWTAGIIVMVLALMTVELFGMMGLIGIKLSAVPVVILIASVGIGVEFTVHVALAFLTAIGDKNRRAVLALEHMFAPVLDGAVSTLLGVLMLAGSEFDFIVRYFFAVLAILTILGVLNGLVLLPVLLSFFGPYPEVSPANGLNRLPTPSPEPPPSVVRFAMPPGHTHSGSDSSDSEYSSQTTVSGLSEELRHYEAQQGAGGPAHQVIVEATENPVFAHSTVVHPESRHHPPSNPRQQPHLDSGSLPPGRQGQQPRRDPPREGLWPPPYRPRRDAFEISTEGHSGPSNRARWGPRGARSHNPRNPASTAMGSSVPGYCQPITTVTASASVTVAVHPPPVPGPGRNPRGGLCPGYPETDHGLFEDPHVPFHVRCERRDSKVEVIELQDVECEERPRGSSSN",
+        "full_sequence": "MASAGNAAEPQDRGGGGSGCIGAPGRPAGGGRRRRTGGLRRAAAPDRDYLHRPSYCDAAFALEQISKGKATGRKAPLWLRAKFQRLLFKLGCYIQKNCGKFLVVGLLIFGAFAVGLKAANLETNVEELWVEVGGRVSRELNYTRQKIGEEAMFNPQLMIQTPKEEGANVLTTEALLQHLDSALQASRVHVYMYNRQWKLEHLCYKSGELITETGYMDQIIEYLYPCLIITPLDCFWEGAKLQSGTAYLLGKPPLRWTNFDPLEFLEELKKINYQVDSWEEMLNKAEVGHGYMDRPCLNPADPDCPATAPNKNSTKPLDMALVLNGGCHGLSRKYMHWQEELIVGGTVKNSTGKLVSAHALQTMFQLMTPKQMYEHFKGYEYVSHINWNEDKAAAILEAWQRTYVEVVHQSVAQNSTQKVLSFTTTTLDDILKSFSDVSVIRVASGYLLMLAYACLTMLRWDCSKSQGAVGLAGVLLVALSVAAGLGLCSLIGISFNAATTQVLPFLALGVGVDDVFLLAHAFSETGQNKRIPFEDRTGECLKRTGASVALTSISNVTAFFMAALIPIPALRAFSLQAAVVVVFNFAMVLLIFPAILSMDLYRREDRRLDIFCCFTSPCVSRVIQVEPQAYTDTHDNTRYSPPPPYSSHSFAHETQITMQSTVQLRTEYDPHTHVYYTTAEPRSEISVQPVTVTQDTLSCQSPESTSSTRDLLSQFSDSSLHCLEPPCTKWTLSSFAEKHYAPFLLKPKAKVVVIFLFLGLLGVSLYGTTRVRDGLDLTDIVPRETREYDFIAAQFKYFSFYNMYIVTQKADYPNIQHLLYDLHRSFSNVKYVMLEENKQLPKMWLHYFRDWLQGLQDAFDSDWETGKIMPNNYKNGSDDGVLAYKLLVQTGSRDKPIDISQLTKQRLVDADGIINPSAFYIYLTAWVSNDPVAYAASQANIRPHRPEWVHDKADYMPETRLRIPAAEPIEYAQFPFYLNGLRDTSDFVEAIEKVRTICSNYTSLGLSSYPNGYPFLFWEQYIGLRHWLLLFISVVLACTFLVCAVFLLNPWTAGIIVMVLALMTVELFGMMGLIGIKLSAVPVVILIASVGIGVEFTVHVALAFLTAIGDKNRRAVLALEHMFAPVLDGAVSTLLGVLMLAGSEFDFIVRYFFAVLAILTILGVLNGLVLLPVLLSFFGPYPEVSPANGLNRLPTPSPEPPPSVVRFAMPPGHTHSGSDSSDSEYSSQTTVSGLSEELRHYEAQQGAGGPAHQVIVEATENPVFAHSTVVHPESRHHPPSNPRQQPHLDSGSLPPGRQGQQPRRDPPREGLWPPPYRPRRDAFEISTEGHSGPSNRARWGPRGARSHNPRNPASTAMGSSVPGYCQPITTVTASASVTVAVHPPPVPGPGRNPRGGLCPGYPETDHGLFEDPHVPFHVRCERRDSKVEVIELQDVECEERPRGSSSN",
+        "n_residues": 1447,
+        "mutation_pos_1indexed": 1345,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "G1343-A1344-R1345-S1346",
+        "pocket_lining_positions_precursor": [
+          1343,
+          1344,
+          1345,
+          1346
+        ],
+        "pocket_lining_1letter": "GARS",
+        "sequence_slice_around_pocket": "NRARWGPRGARSHNPRNPAS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PTCH1_R1345C/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "G1343",
+          "A1344",
+          "R1345",
+          "S1346"
+        ],
+        "values": [
+          [
+            0.0,
+            3.883,
+            7.593,
+            10.741
+          ],
+          [
+            3.883,
+            0.0,
+            3.915,
+            6.932
+          ],
+          [
+            7.593,
+            3.915,
+            0.0,
+            3.275
+          ],
+          [
+            10.741,
+            6.932,
+            3.275,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "composite_score": 0.561957691376768,
+        "mw": 325.18,
+        "logp": 1.996,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 7,
+        "qed": 0.7503,
+        "sa_score": 2.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 89.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PTCH1-R1345C Candidate #1",
+        "iupac_name": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.562,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PTCH1_R1345C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PTCH1_R1345C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PTCH1_R1345C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PTCH1_R1345C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PTCH1_R1345C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PTCH1-R1345C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PTCH1-R1345C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:05:25.378931+00:00"
     }
   ]
 }
