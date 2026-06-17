@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 24,
+  "total_entries": 25,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44406,
-    "queue_remaining": 134191
+    "total_processed": 44407,
+    "queue_remaining": 134190
   },
   "entries": [
     {
@@ -5779,6 +5779,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T02:57:57.265278+00:00"
+    },
+    {
+      "entry_id": "PCD-CHRNA2-R68P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNA2-R68P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CHRNA2",
+        "uniprot": "",
+        "clinvar_id": "362698",
+        "disease": "Autosomal dominant nocturnal frontal lobe epilepsy 4",
+        "mutation_precursor": "R68P",
+        "mutation_mature": "R68P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7468339999101659,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 491.54757360569306,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          36.874000549316406,
+          5.4828691482543945,
+          -31.374746322631836
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.774048229595436,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.789670014728121,
+        "cryptic": true,
+        "pocket_residues": {
+          "H65": "H",
+          "L66": "L",
+          "F67": "F",
+          "R68": "R",
+          "G69": "G",
+          "Y70": "Y",
+          "N71": "N"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q15822|CHRNA2 variant R68P",
+        "fasta_sequence": "MGPSCPVFLSFTKLSLWWLLLTPAGGEEAKRPPPRAPGDPLSSPSPTALPQGGSHTETEDRLFKHLFRGYNRWARPVPNTSDVVIVRFGLSIAQLIDVDEKNQMMTTNVWLKQEWSDYKLRWNPTDFGNITSLRVPSEMIWIPDIVLYNNADGEFAVTHMTKAHLFSTGTVHWVPPAIYKSSCSIDVTFFPFDQQNCKMKFGSWTYDKAKIDLEQMEQTVDLKDYWESGEWAIVNATGTYNSKKYDCCAEIYPDVTYAFVIRRLPLFYTINLIIPCLLISCLTVLVFYLPSDCGEKITLCISVLLSLTVFLLLITEIIPSTSLVIPLIGEYLLFTMIFVTLSIVITVFVLNVHHRSPSTHTMPHWVRGALLGCVPRWLLMNRPPPPVELCHPLRLKLSPSYHWLESNVDAEEREVVVEEEDRWACAGHVAPSVGTLCSHGHLHSGASGPKAEALLQEGELLLSPHMQKALEGVHYIADHLRSEDADSSVKEDWKYVAMVIDRIFLWLFIIVCFLGTIGLFLPPFLAGMI",
+        "full_sequence": "MGPSCPVFLSFTKLSLWWLLLTPAGGEEAKRPPPRAPGDPLSSPSPTALPQGGSHTETEDRLFKHLFRGYNRWARPVPNTSDVVIVRFGLSIAQLIDVDEKNQMMTTNVWLKQEWSDYKLRWNPTDFGNITSLRVPSEMIWIPDIVLYNNADGEFAVTHMTKAHLFSTGTVHWVPPAIYKSSCSIDVTFFPFDQQNCKMKFGSWTYDKAKIDLEQMEQTVDLKDYWESGEWAIVNATGTYNSKKYDCCAEIYPDVTYAFVIRRLPLFYTINLIIPCLLISCLTVLVFYLPSDCGEKITLCISVLLSLTVFLLLITEIIPSTSLVIPLIGEYLLFTMIFVTLSIVITVFVLNVHHRSPSTHTMPHWVRGALLGCVPRWLLMNRPPPPVELCHPLRLKLSPSYHWLESNVDAEEREVVVEEEDRWACAGHVAPSVGTLCSHGHLHSGASGPKAEALLQEGELLLSPHMQKALEGVHYIADHLRSEDADSSVKEDWKYVAMVIDRIFLWLFIIVCFLGTIGLFLPPFLAGMI",
+        "n_residues": 529,
+        "mutation_pos_1indexed": 68,
+        "wt_aa": "R",
+        "mut_aa": "P",
+        "pocket_lining_residues": "H65-L66-F67-R68-G69-Y70-N71",
+        "pocket_lining_positions_precursor": [
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71
+        ],
+        "pocket_lining_1letter": "HLFRGYN",
+        "sequence_slice_around_pocket": "TEDRLFKHLFRGYNRWARPV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNA2_R68P/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "H65",
+          "L66",
+          "F67",
+          "R68",
+          "G69",
+          "Y70",
+          "N71"
+        ],
+        "values": [
+          [
+            0.0,
+            3.864,
+            5.774,
+            5.607,
+            8.489,
+            9.622,
+            13.423
+          ],
+          [
+            3.864,
+            0.0,
+            3.855,
+            5.83,
+            7.346,
+            6.952,
+            10.68
+          ],
+          [
+            5.774,
+            3.855,
+            0.0,
+            3.897,
+            5.55,
+            5.008,
+            8.36
+          ],
+          [
+            5.607,
+            5.83,
+            3.897,
+            0.0,
+            3.865,
+            6.14,
+            9.394
+          ],
+          [
+            8.489,
+            7.346,
+            5.55,
+            3.865,
+            0.0,
+            3.837,
+            6.563
+          ],
+          [
+            9.622,
+            6.952,
+            5.008,
+            6.14,
+            3.837,
+            0.0,
+            3.854
+          ],
+          [
+            13.423,
+            10.68,
+            8.36,
+            9.394,
+            6.563,
+            3.854,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6101413402369121,
+        "mw": 386.15,
+        "logp": 2.076,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.618,
+        "sa_score": 3.11,
+        "n_heavy_atoms": 27,
+        "tpsa": 117.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CHRNA2-R68P Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6101,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNA2_R68P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNA2_R68P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNA2_R68P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNA2_R68P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNA2_R68P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNA2-R68P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNA2-R68P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T02:58:19.760564+00:00"
     }
   ]
 }
