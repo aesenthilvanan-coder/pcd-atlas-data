@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 509,
+  "total_entries": 510,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44972,
-    "queue_remaining": 133625
+    "total_processed": 44973,
+    "queue_remaining": 133624
   },
   "entries": [
     {
@@ -112910,6 +112910,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:25:42.553861+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT4-E159K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT4-E159K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT4",
+        "uniprot": "",
+        "clinvar_id": "309694",
+        "disease": "White sponge nevus 1",
+        "mutation_precursor": "E159K",
+        "mutation_mature": "E159K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8169194792882909,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 430.2843347807558,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          85.0687026977539,
+          -11.497051239013672,
+          -34.168785095214844
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.071363685416087,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6042592748131027,
+        "cryptic": true,
+        "pocket_residues": {
+          "L158": "L",
+          "E159": "E",
+          "Q160": "Q",
+          "Q161": "Q",
+          "N162": "N",
+          "K163": "K",
+          "V164": "V",
+          "L165": "L",
+          "E166": "E",
+          "T167": "T"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P19013|KRT4 variant E159K",
+        "fasta_sequence": "MIARQQCVRGGPRGFSCGSAIVGGGKRGAFSSVSMSGGAGRCSSGGFGSRSLYNLRGNKSISMSVAGSRQGACFGGAGGFGTGGFGGGFGGSFSGKGGPGFPVCPAGGIQEVTINQSLLTPLHVEIDPEIQKVRTEEREQIKLLNNKFASFIDKVQFLEQQNKVLETKWNLLQQQTTTTSSKNLEPLFETYLSVLRKQLDTLGNDKGRLQSELKTMQDSVEDFKTKYEEEINKRTAAENDFVVLKKDVDAAYLNKVELEAKVDSLNDEINFLKVLYDAELSQMQTHVSDTSVVLSMDNNRNLDLDSIIAEVRAQYEEIAQRSKAEAEALYQTKVQQLQISVDQHGDNLKNTKSEIAELNRMIQRLRAEIENIKKQCQTLQVSVADAEQRGENALKDAHSKRVELEAALQQAKEELARMLREYQELMSVKLALDIEIATYRKLLEGEEYRMSGECQSAVSISVVSGSTSTGGISGGLGSGSGFGLSSGFGSGSGSGFGFGGSVSGSSSSKIISTTTLNKRR",
+        "full_sequence": "MIARQQCVRGGPRGFSCGSAIVGGGKRGAFSSVSMSGGAGRCSSGGFGSRSLYNLRGNKSISMSVAGSRQGACFGGAGGFGTGGFGGGFGGSFSGKGGPGFPVCPAGGIQEVTINQSLLTPLHVEIDPEIQKVRTEEREQIKLLNNKFASFIDKVQFLEQQNKVLETKWNLLQQQTTTTSSKNLEPLFETYLSVLRKQLDTLGNDKGRLQSELKTMQDSVEDFKTKYEEEINKRTAAENDFVVLKKDVDAAYLNKVELEAKVDSLNDEINFLKVLYDAELSQMQTHVSDTSVVLSMDNNRNLDLDSIIAEVRAQYEEIAQRSKAEAEALYQTKVQQLQISVDQHGDNLKNTKSEIAELNRMIQRLRAEIENIKKQCQTLQVSVADAEQRGENALKDAHSKRVELEAALQQAKEELARMLREYQELMSVKLALDIEIATYRKLLEGEEYRMSGECQSAVSISVVSGSTSTGGISGGLGSGSGFGLSSGFGSGSGSGFGFGGSVSGSSSSKIISTTTLNKRR",
+        "n_residues": 520,
+        "mutation_pos_1indexed": 159,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "L158-E159-Q160-Q161-N162-K163-V164-L165-E166-T167",
+        "pocket_lining_positions_precursor": [
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167
+        ],
+        "pocket_lining_1letter": "LEQQNKVLET",
+        "sequence_slice_around_pocket": "ASFIDKVQFLEQQNKVLETK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_E159K/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "L158",
+          "E159",
+          "Q160",
+          "Q161",
+          "N162",
+          "K163",
+          "V164",
+          "L165",
+          "E166",
+          "T167"
+        ],
+        "values": [
+          [
+            0.0,
+            3.851,
+            5.46,
+            4.887,
+            6.024,
+            8.64,
+            9.638,
+            10.122,
+            11.978,
+            14.061
+          ],
+          [
+            3.851,
+            0.0,
+            3.831,
+            5.365,
+            4.922,
+            6.236,
+            8.585,
+            9.598,
+            10.262,
+            12.236
+          ],
+          [
+            5.46,
+            3.831,
+            0.0,
+            3.841,
+            5.41,
+            5.106,
+            6.227,
+            8.606,
+            9.776,
+            10.585
+          ],
+          [
+            4.887,
+            5.365,
+            3.841,
+            0.0,
+            3.852,
+            5.496,
+            4.984,
+            6.098,
+            8.563,
+            9.859
+          ],
+          [
+            6.024,
+            4.922,
+            5.41,
+            3.852,
+            0.0,
+            3.862,
+            5.36,
+            4.879,
+            5.972,
+            8.508
+          ],
+          [
+            8.64,
+            6.236,
+            5.106,
+            5.496,
+            3.862,
+            0.0,
+            3.836,
+            5.415,
+            4.969,
+            6.066
+          ],
+          [
+            9.638,
+            8.585,
+            6.227,
+            4.984,
+            5.36,
+            3.836,
+            0.0,
+            3.855,
+            5.522,
+            5.207
+          ],
+          [
+            10.122,
+            9.598,
+            8.606,
+            6.098,
+            4.879,
+            5.415,
+            3.855,
+            0.0,
+            3.85,
+            5.537
+          ],
+          [
+            11.978,
+            10.262,
+            9.776,
+            8.563,
+            5.972,
+            4.969,
+            5.522,
+            3.85,
+            0.0,
+            3.852
+          ],
+          [
+            14.061,
+            12.236,
+            10.585,
+            9.859,
+            8.508,
+            6.066,
+            5.207,
+            5.537,
+            3.852,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.8185372325564148,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT4-E159K Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8185,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_E159K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_E159K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_E159K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_E159K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_E159K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT4-E159K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT4-E159K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:26:06.654332+00:00"
     }
   ]
 }
