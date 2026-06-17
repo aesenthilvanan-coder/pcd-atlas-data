@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 677,
+  "total_entries": 678,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45172,
-    "queue_remaining": 133425
+    "total_processed": 45173,
+    "queue_remaining": 133424
   },
   "entries": [
     {
@@ -150070,6 +150070,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:46:06.806754+00:00"
+    },
+    {
+      "entry_id": "PCD-AIPL1-P370S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIPL1-P370S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AIPL1",
+        "uniprot": "",
+        "clinvar_id": "324611",
+        "disease": "Retinitis pigmentosa",
+        "mutation_precursor": "P370S",
+        "mutation_mature": "P370S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.934069889781194,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 419.2184632582035,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -24.881872177124023,
+          -31.38699722290039,
+          -16.752918243408203
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.8625134893481183,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8398709794969281,
+        "cryptic": true,
+        "pocket_residues": {
+          "A368": "A",
+          "E369": "E",
+          "P370": "P",
+          "A371": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NZN9|AIPL1 variant P370S",
+        "fasta_sequence": "MDAALLLNVEGVKKTILHGGTGELPNFITGSRVIFHFRTMKCDEERTVIDDSRQVGQPMHIIIGNMFKLEVWEILLTSMRVHEVAEFWCDTIHTGVYPILSRSLRQMAQGKDPTEWHVHTCGLANMFAYHTLGYEDLDELQKEPQPLVFVIELLQVDAPSDYQRETWNLSNHEKMKAVPVLHGEGNRLFKLGRYEEASSKYQEAIICLRNLQTKEKPWEVQWLKLEKMINTLILNYCQCLLKKEEYYEVLEHTSDILRHHPGIVKAYYVRARAHAEVWNEAEAKADLQKVLELEPSMQKAVRRELRLLENRMAEKQEEERLRCRNMLSQGATQPPAEPPTEPPAQSSTEPPAEPPTAPSAELSAGPPAEPATEPPPSPGHSLQH",
+        "full_sequence": "MDAALLLNVEGVKKTILHGGTGELPNFITGSRVIFHFRTMKCDEERTVIDDSRQVGQPMHIIIGNMFKLEVWEILLTSMRVHEVAEFWCDTIHTGVYPILSRSLRQMAQGKDPTEWHVHTCGLANMFAYHTLGYEDLDELQKEPQPLVFVIELLQVDAPSDYQRETWNLSNHEKMKAVPVLHGEGNRLFKLGRYEEASSKYQEAIICLRNLQTKEKPWEVQWLKLEKMINTLILNYCQCLLKKEEYYEVLEHTSDILRHHPGIVKAYYVRARAHAEVWNEAEAKADLQKVLELEPSMQKAVRRELRLLENRMAEKQEEERLRCRNMLSQGATQPPAEPPTEPPAQSSTEPPAEPPTAPSAELSAGPPAEPATEPPPSPGHSLQH",
+        "n_residues": 384,
+        "mutation_pos_1indexed": 370,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "A368-E369-P370-A371",
+        "pocket_lining_positions_precursor": [
+          368,
+          369,
+          370,
+          371
+        ],
+        "pocket_lining_1letter": "AEPA",
+        "sequence_slice_around_pocket": "AELSAGPPAEPATEPPPSPG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AIPL1_P370S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A368",
+          "E369",
+          "P370",
+          "A371"
+        ],
+        "values": [
+          [
+            0.0,
+            3.338,
+            6.849,
+            10.104
+          ],
+          [
+            3.338,
+            0.0,
+            3.892,
+            6.801
+          ],
+          [
+            6.849,
+            3.892,
+            0.0,
+            3.841
+          ],
+          [
+            10.104,
+            6.801,
+            3.841,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)c1ccc(Cl)cc1N1CCCC(=O)C1",
+        "composite_score": 0.7853561193085448,
+        "mw": 280.1,
+        "logp": 2.041,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 4,
+        "qed": 0.8575,
+        "sa_score": 2.48,
+        "n_heavy_atoms": 19,
+        "tpsa": 63.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AIPL1-P370S Candidate #1",
+        "iupac_name": "NCCC(=O)c1ccc(Cl)cc1N1CCCC(=O)C1",
+        "pocket_affinity_score": 0.7854,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AIPL1_P370S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AIPL1_P370S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AIPL1_P370S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AIPL1_P370S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AIPL1_P370S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIPL1-P370S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIPL1-P370S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:46:29.807906+00:00"
     }
   ]
 }
