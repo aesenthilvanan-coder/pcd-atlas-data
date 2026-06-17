@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 451,
+  "total_entries": 452,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44907,
-    "queue_remaining": 133690
+    "total_processed": 44908,
+    "queue_remaining": 133689
   },
   "entries": [
     {
@@ -99899,6 +99899,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:41:25.562594+00:00"
+    },
+    {
+      "entry_id": "PCD-IL10RA-R107Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL10RA-R107Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "IL10RA",
+        "uniprot": "",
+        "clinvar_id": "302542",
+        "disease": "Inflammatory bowel disease 28",
+        "mutation_precursor": "R107Q",
+        "mutation_mature": "R107Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7720237202754638,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 323.6910627570113,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          20.223676681518555,
+          14.713920593261719,
+          -19.152318954467773
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.8779550132073357,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6499643123667381,
+        "cryptic": true,
+        "pocket_residues": {
+          "L26": "L",
+          "T55": "T",
+          "C56": "C",
+          "A102": "A",
+          "V103": "V",
+          "D104": "D",
+          "G105": "G",
+          "S106": "S",
+          "R107": "R",
+          "H108": "H",
+          "S109": "S"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13651|IL10RA variant R107Q",
+        "fasta_sequence": "MLPCLVVLLAALLSLRLGSDAHGTELPSPPSVWFEAEFFHHILHWTPIPNQSESTCYEVALLRYGIESWNSISNCSQTLSYDLTAVTLDLYHSNGYRARVRAVDGSRHSNWTVTNTRFSVDEVTLTVGSVNLEIHNGFILGKIQLPRPKMAPANDTYESIFSHFREYEIAIRKVPGNFTFTHKKVKHENFSLLTSGEVGEFCVQVKPSVASRSNKGMWSKEECISLTRQYFTVTNVIIFFAFVLLLSGALAYCLALQLYVRRRKKLPSVLLFKKPSPFIFISQRPSPETQDTIHPLDEEAFLKVSPELKNLDLHGSTDSGFGSTKPSLQTEEPQFLLPDPHPQADRTLGNREPPVLGDSCSSGSSNSTDSGICLQEPSLSPSTGPTWEQQVGSNSRGQDDSGIDLVQNSEGRAGDTQGGSALGHHSPPEPEVPGEEDPAAVAFQGYLRQTRCAEEKATKTGCLEEESPLTDGLGPKFGRCLVDEAGLHPPALAKGYLKQDPLEMTLASSGAPTGQWNQPTEEWSLLALSSCSDLGISDWSFAHDLAPLGCVAAPGGLLGSFNSDLVTLPLISSLQSSE",
+        "full_sequence": "MLPCLVVLLAALLSLRLGSDAHGTELPSPPSVWFEAEFFHHILHWTPIPNQSESTCYEVALLRYGIESWNSISNCSQTLSYDLTAVTLDLYHSNGYRARVRAVDGSRHSNWTVTNTRFSVDEVTLTVGSVNLEIHNGFILGKIQLPRPKMAPANDTYESIFSHFREYEIAIRKVPGNFTFTHKKVKHENFSLLTSGEVGEFCVQVKPSVASRSNKGMWSKEECISLTRQYFTVTNVIIFFAFVLLLSGALAYCLALQLYVRRRKKLPSVLLFKKPSPFIFISQRPSPETQDTIHPLDEEAFLKVSPELKNLDLHGSTDSGFGSTKPSLQTEEPQFLLPDPHPQADRTLGNREPPVLGDSCSSGSSNSTDSGICLQEPSLSPSTGPTWEQQVGSNSRGQDDSGIDLVQNSEGRAGDTQGGSALGHHSPPEPEVPGEEDPAAVAFQGYLRQTRCAEEKATKTGCLEEESPLTDGLGPKFGRCLVDEAGLHPPALAKGYLKQDPLEMTLASSGAPTGQWNQPTEEWSLLALSSCSDLGISDWSFAHDLAPLGCVAAPGGLLGSFNSDLVTLPLISSLQSSE",
+        "n_residues": 578,
+        "mutation_pos_1indexed": 107,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "L26-T55-C56-A102-V103-D104-G105-S106-R107-H108-S109",
+        "pocket_lining_positions_precursor": [
+          26,
+          55,
+          56,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109
+        ],
+        "pocket_lining_1letter": "LTCAVDGSRHS",
+        "sequence_slice_around_pocket": "RARVRAVDGSRHSNWTVTNT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/IL10RA_R107Q/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "L26",
+          "T55",
+          "C56",
+          "A102",
+          "V103",
+          "D104",
+          "G105",
+          "S106",
+          "R107",
+          "H108",
+          "S109"
+        ],
+        "values": [
+          [
+            0.0,
+            9.645,
+            11.448,
+            7.146,
+            7.643,
+            7.859,
+            10.665,
+            10.345,
+            6.568,
+            5.835,
+            4.798
+          ],
+          [
+            9.645,
+            0.0,
+            3.799,
+            6.603,
+            5.586,
+            4.5,
+            7.629,
+            10.489,
+            9.469,
+            9.271,
+            10.727
+          ],
+          [
+            11.448,
+            3.799,
+            0.0,
+            5.836,
+            5.39,
+            6.536,
+            9.099,
+            11.463,
+            10.808,
+            9.564,
+            10.908
+          ],
+          [
+            7.146,
+            6.603,
+            5.836,
+            0.0,
+            3.848,
+            6.872,
+            10.103,
+            10.735,
+            8.416,
+            5.62,
+            5.381
+          ],
+          [
+            7.643,
+            5.586,
+            5.39,
+            3.848,
+            0.0,
+            3.848,
+            6.404,
+            7.186,
+            5.774,
+            4.269,
+            6.594
+          ],
+          [
+            7.859,
+            4.5,
+            6.536,
+            6.872,
+            3.848,
+            0.0,
+            3.833,
+            6.118,
+            5.261,
+            6.29,
+            8.947
+          ],
+          [
+            10.665,
+            7.629,
+            9.099,
+            10.103,
+            6.404,
+            3.833,
+            0.0,
+            3.856,
+            5.63,
+            7.975,
+            11.44
+          ],
+          [
+            10.345,
+            10.489,
+            11.463,
+            10.735,
+            7.186,
+            6.118,
+            3.856,
+            0.0,
+            3.862,
+            6.642,
+            10.364
+          ],
+          [
+            6.568,
+            9.469,
+            10.808,
+            8.416,
+            5.774,
+            5.261,
+            5.63,
+            3.862,
+            0.0,
+            3.803,
+            7.019
+          ],
+          [
+            5.835,
+            9.271,
+            9.564,
+            5.62,
+            4.269,
+            6.29,
+            7.975,
+            6.642,
+            3.803,
+            0.0,
+            3.812
+          ],
+          [
+            4.798,
+            10.727,
+            10.908,
+            5.381,
+            6.594,
+            8.947,
+            11.44,
+            10.364,
+            7.019,
+            3.812,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8433342430028009,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "IL10RA-R107Q Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8433,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/IL10RA_R107Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/IL10RA_R107Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/IL10RA_R107Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/IL10RA_R107Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/IL10RA_R107Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL10RA-R107Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL10RA-R107Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:41:49.803671+00:00"
     }
   ]
 }
