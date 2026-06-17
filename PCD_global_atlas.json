@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 538,
+  "total_entries": 539,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45001,
-    "queue_remaining": 133596
+    "total_processed": 45002,
+    "queue_remaining": 133595
   },
   "entries": [
     {
@@ -118838,6 +118838,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:40:14.956325+00:00"
+    },
+    {
+      "entry_id": "PCD-DNAAF1-D555V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAAF1-D555V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DNAAF1",
+        "uniprot": "",
+        "clinvar_id": "320777",
+        "disease": "Primary ciliary dyskinesia",
+        "mutation_precursor": "D555V",
+        "mutation_mature": "D555V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8762091089540126,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 451.7439270271702,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          19.80457305908203,
+          51.30801773071289,
+          3.388782501220703
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.692088948267348,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8597450536090392,
+        "cryptic": true,
+        "pocket_residues": {
+          "D552": "D",
+          "L553": "L",
+          "E554": "E",
+          "D555": "D",
+          "D556": "D",
+          "D557": "D"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NEP3|DNAAF1 variant D555V",
+        "fasta_sequence": "MHPEPSEPATGGAAELDCAQEPGVEESAGDHGSAGRGGCKEEINDPKEICVGSSDTSYHSQQKQSGDNGSGGHFAHPREDREDRGPRMTKSSLQKLCKQHKLYITPALNDTLYLHFKGFDRIENLEEYTGLRCLWLQSNGIQKIENLEAQTELRCLFLQMNLLRKIENLEPLQKLDALNLSNNYIKTIENLSCLPVLNTLQMAHNHLETVEDIQHLQECLRLCVLDLSHNKLSDPEILSILESMPDLRVLNLMGNPVIRQIPNYRRTVTVRLKHLTYLDDRPVFPKDRACAEAWARGGYAAEKEERQQWESRERKKITDSIEALAMIKQRAEERKRQRESQERGEMTSSDDGENVPASAEGKEEPPGDRETRQKMELFVKESFEAKDELCPEKPSGEEPPVEAKREDGGPEPEGTLPAETLLLSSPVEVKGEDGDGEPEGTLPAEAPPPPPPVEVKGEDGDQEPEGTLPAETLLLSPPVKVKGEDGDREPEGTLPAEAPPPPPLGAAREEPTPQAVATEGVFVTELDGTRTEDLETIRLETKETFCIDDLPDLEDDDETGKSLEDQNMCFPKIEVISSLSDDSDPELDYTSLPVLENLPTDTLSNIFAVSKDTSKAARVPFTDIFKKEAKRDLEIRKQDTKSPRPLIQELSDEDPSGQLLMPPTCQRDAAPLTSSGDRDSDFLAASSPVPTESAATPPETCVGVAQPSQALPTWDLTAFPAPKAS",
+        "full_sequence": "MHPEPSEPATGGAAELDCAQEPGVEESAGDHGSAGRGGCKEEINDPKEICVGSSDTSYHSQQKQSGDNGSGGHFAHPREDREDRGPRMTKSSLQKLCKQHKLYITPALNDTLYLHFKGFDRIENLEEYTGLRCLWLQSNGIQKIENLEAQTELRCLFLQMNLLRKIENLEPLQKLDALNLSNNYIKTIENLSCLPVLNTLQMAHNHLETVEDIQHLQECLRLCVLDLSHNKLSDPEILSILESMPDLRVLNLMGNPVIRQIPNYRRTVTVRLKHLTYLDDRPVFPKDRACAEAWARGGYAAEKEERQQWESRERKKITDSIEALAMIKQRAEERKRQRESQERGEMTSSDDGENVPASAEGKEEPPGDRETRQKMELFVKESFEAKDELCPEKPSGEEPPVEAKREDGGPEPEGTLPAETLLLSSPVEVKGEDGDGEPEGTLPAEAPPPPPPVEVKGEDGDQEPEGTLPAETLLLSPPVKVKGEDGDREPEGTLPAEAPPPPPLGAAREEPTPQAVATEGVFVTELDGTRTEDLETIRLETKETFCIDDLPDLEDDDETGKSLEDQNMCFPKIEVISSLSDDSDPELDYTSLPVLENLPTDTLSNIFAVSKDTSKAARVPFTDIFKKEAKRDLEIRKQDTKSPRPLIQELSDEDPSGQLLMPPTCQRDAAPLTSSGDRDSDFLAASSPVPTESAATPPETCVGVAQPSQALPTWDLTAFPAPKAS",
+        "n_residues": 725,
+        "mutation_pos_1indexed": 555,
+        "wt_aa": "D",
+        "mut_aa": "V",
+        "pocket_lining_residues": "D552-L553-E554-D555-D556-D557",
+        "pocket_lining_positions_precursor": [
+          552,
+          553,
+          554,
+          555,
+          556,
+          557
+        ],
+        "pocket_lining_1letter": "DLEDDD",
+        "sequence_slice_around_pocket": "FCIDDLPDLEDDDETGKSLE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF1_D555V/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "D552",
+          "L553",
+          "E554",
+          "D555",
+          "D556",
+          "D557"
+        ],
+        "values": [
+          [
+            0.0,
+            3.833,
+            6.257,
+            9.597,
+            12.374,
+            15.749
+          ],
+          [
+            3.833,
+            0.0,
+            3.821,
+            6.765,
+            8.995,
+            12.473
+          ],
+          [
+            6.257,
+            3.821,
+            0.0,
+            3.842,
+            6.373,
+            9.737
+          ],
+          [
+            9.597,
+            6.765,
+            3.842,
+            0.0,
+            3.854,
+            6.337
+          ],
+          [
+            12.374,
+            8.995,
+            6.373,
+            3.854,
+            0.0,
+            3.827
+          ],
+          [
+            15.749,
+            12.473,
+            9.737,
+            6.337,
+            3.827,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CCCCC2N2CCCCC2C(N)=O)c1",
+        "composite_score": 0.6830951296090383,
+        "mw": 346.24,
+        "logp": 1.81,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8493,
+        "sa_score": 3.3,
+        "n_heavy_atoms": 25,
+        "tpsa": 84.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DNAAF1-D555V Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CCCCC2N2CCCCC2C(N)=O)c1",
+        "pocket_affinity_score": 0.6831,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF1_D555V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF1_D555V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF1_D555V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF1_D555V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF1_D555V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAAF1-D555V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAAF1-D555V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:40:42.332326+00:00"
     }
   ]
 }
