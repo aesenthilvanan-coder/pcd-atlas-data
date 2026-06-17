@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1368,
+  "total_entries": 1369,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46004,
-    "queue_remaining": 132593
+    "total_processed": 46005,
+    "queue_remaining": 132592
   },
   "entries": [
     {
@@ -303203,6 +303203,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:52:41.479846+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC4A1-E68K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC4A1-E68K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC4A1",
+        "uniprot": "",
+        "clinvar_id": "323519",
+        "disease": "Autosomal dominant distal renal tubular acidosis",
+        "mutation_precursor": "E68K",
+        "mutation_mature": "E68K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8817696513762054,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 386.3532823787715,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          49.81147766113281,
+          -4.6693010330200195,
+          -48.46647262573242
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.722294876346457,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7414591553020837,
+        "cryptic": true,
+        "pocket_residues": {
+          "M66": "M",
+          "D67": "D",
+          "E68": "E",
+          "K69": "K",
+          "N70": "N",
+          "Q71": "Q",
+          "E72": "E",
+          "L170": "L"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P02730|SLC4A1 variant E68K",
+        "fasta_sequence": "MEELQDDYEDMMEENLEQEEYEDPDIPESQMEEPAAHDTEATATDYHTTSHPGTHKVYVELQELVMDEKNQELRWMEAARWVQLEENLGENGAWGRPHLSHLTFWSLLELRRVFTKGTVLLDLQETSLAGVANQLLDRFIFEDQIRPQDREELLRALLLKHSHAGELEALGGVKPAVLTRSGDPSQPLLPQHSSLETQLFCEQGDGGTEGHSPSGILEKIPPDSEATLVLVGRADFLEQPVLGFVRLQEAAELEAVELPVPIRFLFVLLGPEAPHIDYTQLGRAAATLMSERVFRIDAYMAQSRGELLHSLEGFLDCSLVLPPTDAPSEQALLSLVPVQRELLRRRYQSSPAKPDSSFYKGLDLNGGPDDPLQQTGQLFGGLVRDIRRRYPYYLSDITDAFSPQVLAAVIFIYFAALSPAITFGGLLGEKTRNQMGVSELLISTAVQGILFALLGAQPLLVVGFSGPLLVFEEAFFSFCETNGLEYIVGRVWIGFWLILLVVLVVAFEGSFLVRFISRYTQEIFSFLISLIFIYETFSKLIKIFQDHPLQKTYNYNVLMVPKPQGPLPNTALLSLVLMAGTFFFAMMLRKFKNSSYFPGKLRRVIGDFGVPISILIMVLVDFFIQDTYTQKLSVPDGFKVSNSSARGWVIHPLGLRSEFPIWMMFASALPALLVFILIFLESQITTLIVSKPERKMVKGSGFHLDLLLVVGMGGVAALFGMPWLSATTVRSVTHANALTVMGKASTPGAAAQIQEVKEQRISGLLVAVLVGLSILMEPILSRIPLAVLFGIFLYMGVTSLSGIQLFDRILLLFKPPKYHPDVPYVKRVKTWRMHLFTGIQIICLAVLWVVKSTPASLALPFVLILTVPLRRVLLPLIFRNVELQCLDADDAKATFDEEEGRDEYDEVAMPV",
+        "full_sequence": "MEELQDDYEDMMEENLEQEEYEDPDIPESQMEEPAAHDTEATATDYHTTSHPGTHKVYVELQELVMDEKNQELRWMEAARWVQLEENLGENGAWGRPHLSHLTFWSLLELRRVFTKGTVLLDLQETSLAGVANQLLDRFIFEDQIRPQDREELLRALLLKHSHAGELEALGGVKPAVLTRSGDPSQPLLPQHSSLETQLFCEQGDGGTEGHSPSGILEKIPPDSEATLVLVGRADFLEQPVLGFVRLQEAAELEAVELPVPIRFLFVLLGPEAPHIDYTQLGRAAATLMSERVFRIDAYMAQSRGELLHSLEGFLDCSLVLPPTDAPSEQALLSLVPVQRELLRRRYQSSPAKPDSSFYKGLDLNGGPDDPLQQTGQLFGGLVRDIRRRYPYYLSDITDAFSPQVLAAVIFIYFAALSPAITFGGLLGEKTRNQMGVSELLISTAVQGILFALLGAQPLLVVGFSGPLLVFEEAFFSFCETNGLEYIVGRVWIGFWLILLVVLVVAFEGSFLVRFISRYTQEIFSFLISLIFIYETFSKLIKIFQDHPLQKTYNYNVLMVPKPQGPLPNTALLSLVLMAGTFFFAMMLRKFKNSSYFPGKLRRVIGDFGVPISILIMVLVDFFIQDTYTQKLSVPDGFKVSNSSARGWVIHPLGLRSEFPIWMMFASALPALLVFILIFLESQITTLIVSKPERKMVKGSGFHLDLLLVVGMGGVAALFGMPWLSATTVRSVTHANALTVMGKASTPGAAAQIQEVKEQRISGLLVAVLVGLSILMEPILSRIPLAVLFGIFLYMGVTSLSGIQLFDRILLLFKPPKYHPDVPYVKRVKTWRMHLFTGIQIICLAVLWVVKSTPASLALPFVLILTVPLRRVLLPLIFRNVELQCLDADDAKATFDEEEGRDEYDEVAMPV",
+        "n_residues": 911,
+        "mutation_pos_1indexed": 68,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "M66-D67-E68-K69-N70-Q71-E72-L170",
+        "pocket_lining_positions_precursor": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          170
+        ],
+        "pocket_lining_1letter": "MDEKNQEL",
+        "sequence_slice_around_pocket": "YVELQELVMDEKNQELRWME"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A1_E68K/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "M66",
+          "D67",
+          "E68",
+          "K69",
+          "N70",
+          "Q71",
+          "E72",
+          "L170"
+        ],
+        "values": [
+          [
+            0.0,
+            3.81,
+            6.396,
+            8.812,
+            8.254,
+            5.715,
+            5.363,
+            9.56
+          ],
+          [
+            3.81,
+            0.0,
+            3.8,
+            5.518,
+            5.957,
+            5.197,
+            5.766,
+            5.896
+          ],
+          [
+            6.396,
+            3.8,
+            0.0,
+            3.839,
+            6.098,
+            5.519,
+            8.112,
+            6.48
+          ],
+          [
+            8.812,
+            5.518,
+            3.839,
+            0.0,
+            3.853,
+            5.853,
+            8.209,
+            5.659
+          ],
+          [
+            8.254,
+            5.957,
+            6.098,
+            3.853,
+            0.0,
+            3.877,
+            5.384,
+            7.858
+          ],
+          [
+            5.715,
+            5.197,
+            5.519,
+            5.853,
+            3.877,
+            0.0,
+            3.859,
+            9.699
+          ],
+          [
+            5.363,
+            5.766,
+            8.112,
+            8.209,
+            5.384,
+            3.859,
+            0.0,
+            10.275
+          ],
+          [
+            9.56,
+            5.896,
+            6.48,
+            5.659,
+            7.858,
+            9.699,
+            10.275,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.754649249907052,
+        "mw": 274.22,
+        "logp": 2.343,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.9187,
+        "sa_score": 3.06,
+        "n_heavy_atoms": 20,
+        "tpsa": 45.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC4A1-E68K Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7546,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A1_E68K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A1_E68K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A1_E68K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A1_E68K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A1_E68K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC4A1-E68K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC4A1-E68K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:53:15.362901+00:00"
     }
   ]
 }
