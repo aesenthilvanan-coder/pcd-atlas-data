@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 958,
+  "total_entries": 959,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45496,
-    "queue_remaining": 133101
+    "total_processed": 45497,
+    "queue_remaining": 133100
   },
   "entries": [
     {
@@ -210701,6 +210701,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:39:49.222635+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC7A7-I311V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC7A7-I311V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC7A7",
+        "uniprot": "",
+        "clinvar_id": "312820",
+        "disease": "Lysinuric protein intolerance",
+        "mutation_precursor": "I311V",
+        "mutation_mature": "I311V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9049092812578977,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 474.94989231287553,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -7.958673477172852,
+          -20.25189781188965,
+          9.41402816772461
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.4288666941302897,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8822345703882797,
+        "cryptic": true,
+        "pocket_residues": {
+          "A194": "A",
+          "F308": "F",
+          "N309": "N",
+          "W310": "W",
+          "I311": "I",
+          "I312": "I",
+          "P313": "P",
+          "L314": "L",
+          "S315": "S"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UM01|SLC7A7 variant I311V",
+        "fasta_sequence": "MVDSTEYEVASQPEVETSPLGDGASPGPEQVKLKKEISLLNGVCLIVGNMIGSGIFVSPKGVLIYSASFGLSLVIWAVGGLFSVFGALCYAELGTTIKKSGASYAYILEAFGGFLAFIRLWTSLLIIEPTSQAIIAITFANYMVQPLFPSCFAPYAASRLLAAACICLLTFINCAYVKWGTLVQDIFTYAKVLALIAVIVAGIVRLGQGASTHFENSFEGSSFAVGDIALALYSALFSYSGWDTLNYVTEEIKNPERNLPLSIGISMPIVTIIYILTNVAYYTVLDMRDILASDAVAVTFADQIFGIFNWIIPLSVALSCFGGLNASIVAASRLFFVGSREGHLPDAICMIHVERFTPVPSLLFNGIMALIYLCVEDIFQLINYYSFSYWFFVGLSIVGQLYLRWKEPDRPRPLKLSVFFPIVFCLCTIFLVAVPLYSDTINSLIGIAIALSGLPFYFLIIRVPEHKRPLYLRRIVGSATRYLQVLCMSVAAEMDLEDGGEMPKQRDPKSN",
+        "full_sequence": "MVDSTEYEVASQPEVETSPLGDGASPGPEQVKLKKEISLLNGVCLIVGNMIGSGIFVSPKGVLIYSASFGLSLVIWAVGGLFSVFGALCYAELGTTIKKSGASYAYILEAFGGFLAFIRLWTSLLIIEPTSQAIIAITFANYMVQPLFPSCFAPYAASRLLAAACICLLTFINCAYVKWGTLVQDIFTYAKVLALIAVIVAGIVRLGQGASTHFENSFEGSSFAVGDIALALYSALFSYSGWDTLNYVTEEIKNPERNLPLSIGISMPIVTIIYILTNVAYYTVLDMRDILASDAVAVTFADQIFGIFNWIIPLSVALSCFGGLNASIVAASRLFFVGSREGHLPDAICMIHVERFTPVPSLLFNGIMALIYLCVEDIFQLINYYSFSYWFFVGLSIVGQLYLRWKEPDRPRPLKLSVFFPIVFCLCTIFLVAVPLYSDTINSLIGIAIALSGLPFYFLIIRVPEHKRPLYLRRIVGSATRYLQVLCMSVAAEMDLEDGGEMPKQRDPKSN",
+        "n_residues": 511,
+        "mutation_pos_1indexed": 311,
+        "wt_aa": "I",
+        "mut_aa": "V",
+        "pocket_lining_residues": "A194-F308-N309-W310-I311-I312-P313-L314-S315",
+        "pocket_lining_positions_precursor": [
+          194,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315
+        ],
+        "pocket_lining_1letter": "AFNWIIPLS",
+        "sequence_slice_around_pocket": "ADQIFGIFNWIIPLSVALSC"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_I311V/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "A194",
+          "F308",
+          "N309",
+          "W310",
+          "I311",
+          "I312",
+          "P313",
+          "L314",
+          "S315"
+        ],
+        "values": [
+          [
+            0.0,
+            11.713,
+            11.292,
+            11.47,
+            8.163,
+            6.647,
+            9.887,
+            10.109,
+            6.998
+          ],
+          [
+            11.713,
+            0.0,
+            3.875,
+            5.594,
+            5.909,
+            8.181,
+            10.416,
+            10.876,
+            11.875
+          ],
+          [
+            11.292,
+            3.875,
+            0.0,
+            3.881,
+            5.597,
+            6.181,
+            7.77,
+            9.449,
+            10.779
+          ],
+          [
+            11.47,
+            5.594,
+            3.881,
+            0.0,
+            3.87,
+            5.506,
+            5.672,
+            6.286,
+            8.624
+          ],
+          [
+            8.163,
+            5.909,
+            5.597,
+            3.87,
+            0.0,
+            3.848,
+            5.89,
+            5.352,
+            6.037
+          ],
+          [
+            6.647,
+            8.181,
+            6.181,
+            5.506,
+            3.848,
+            0.0,
+            3.884,
+            5.494,
+            5.169
+          ],
+          [
+            9.887,
+            10.416,
+            7.77,
+            5.672,
+            5.89,
+            3.884,
+            0.0,
+            3.835,
+            5.532
+          ],
+          [
+            10.109,
+            10.876,
+            9.449,
+            6.286,
+            5.352,
+            5.494,
+            3.835,
+            0.0,
+            3.853
+          ],
+          [
+            6.998,
+            11.875,
+            10.779,
+            8.624,
+            6.037,
+            5.169,
+            5.532,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6730273444679898,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC7A7-I311V Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.673,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_I311V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_I311V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_I311V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_I311V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_I311V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC7A7-I311V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC7A7-I311V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:40:15.781356+00:00"
     }
   ]
 }
