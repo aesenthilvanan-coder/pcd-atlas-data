@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 588,
+  "total_entries": 589,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45063,
-    "queue_remaining": 133534
+    "total_processed": 45064,
+    "queue_remaining": 133533
   },
   "entries": [
     {
@@ -130178,6 +130178,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:24:41.720482+00:00"
+    },
+    {
+      "entry_id": "PCD-MEN1-R21S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MEN1-R21S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MEN1",
+        "uniprot": "",
+        "clinvar_id": "305315",
+        "disease": "Hyperparathyroidism",
+        "mutation_precursor": "R21S",
+        "mutation_mature": "R21S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9489212938811412,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 560.2551164169035,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          17.35297393798828,
+          16.359888076782227,
+          -9.416949272155762
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.9931066405687257,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7405833321083677,
+        "cryptic": true,
+        "pocket_residues": {
+          "L10": "L",
+          "F11": "F",
+          "P12": "P",
+          "L13": "L",
+          "D17": "D",
+          "D18": "D",
+          "V19": "V",
+          "V20": "V",
+          "R21": "R",
+          "L22": "L"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O00255|MEN1 variant R21S",
+        "fasta_sequence": "MGLKAAQKTLFPLRSIDDVVRLFAAELGREEPDLVLLSLVLGFVEHFLAVNRVIPTNVPELTFQPSPAPDPPGGLTYFPVADLSIIAALYARFTAQIRGAVDLSLYPREGGVSSRELVKKVSDVIWNSLSRSYFKDRAHIQSLFSFITGTKLDSSGVAFAVVGACQALGLRDVHLALSEDHAWVVFGPNGEQTAEVTWHGKGNEDRRGQTVNAGVAERSWLYLKGSYMRCDRKMEVAFMVCAINPSIDLHTDSLELLQLQQKLLWLLYDLGHLERYPMALGNLADLEELEPTPGRPDPLTLYHKGIASAKTYYRDEHIYPYMYLAGYHCRNRNVREALQAWADTATVIQDYNYCREDEEIYKEFFEVANDVIPNLLKEAASLLEAGEERPGEQSQGTQSQGSALQDPECFAHLLRFYDGICKWEEGSPTPVLHVGWATFLVQSLGRFEGQVRQKVRIVSREAEAAEAEEPWGEEAREGRRRGPRRESKPEEPPPPKKPALDKGLGTGQGAVSGPPRKPPGTVAGTARGPEGGSTAQVPAPTASPPPEGPVLTFQSEKMKGMKELLVATKINSSAIKLQLTAQSQVQMKKQKVSTPSDYTLSFLKRQRKGL",
+        "full_sequence": "MGLKAAQKTLFPLRSIDDVVRLFAAELGREEPDLVLLSLVLGFVEHFLAVNRVIPTNVPELTFQPSPAPDPPGGLTYFPVADLSIIAALYARFTAQIRGAVDLSLYPREGGVSSRELVKKVSDVIWNSLSRSYFKDRAHIQSLFSFITGTKLDSSGVAFAVVGACQALGLRDVHLALSEDHAWVVFGPNGEQTAEVTWHGKGNEDRRGQTVNAGVAERSWLYLKGSYMRCDRKMEVAFMVCAINPSIDLHTDSLELLQLQQKLLWLLYDLGHLERYPMALGNLADLEELEPTPGRPDPLTLYHKGIASAKTYYRDEHIYPYMYLAGYHCRNRNVREALQAWADTATVIQDYNYCREDEEIYKEFFEVANDVIPNLLKEAASLLEAGEERPGEQSQGTQSQGSALQDPECFAHLLRFYDGICKWEEGSPTPVLHVGWATFLVQSLGRFEGQVRQKVRIVSREAEAAEAEEPWGEEAREGRRRGPRRESKPEEPPPPKKPALDKGLGTGQGAVSGPPRKPPGTVAGTARGPEGGSTAQVPAPTASPPPEGPVLTFQSEKMKGMKELLVATKINSSAIKLQLTAQSQVQMKKQKVSTPSDYTLSFLKRQRKGL",
+        "n_residues": 610,
+        "mutation_pos_1indexed": 21,
+        "wt_aa": "R",
+        "mut_aa": "S",
+        "pocket_lining_residues": "L10-F11-P12-L13-D17-D18-V19-V20-R21-L22",
+        "pocket_lining_positions_precursor": [
+          10,
+          11,
+          12,
+          13,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "pocket_lining_1letter": "LFPLDDVVRL",
+        "sequence_slice_around_pocket": "FPLRSIDDVVRLFAAELGRE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MEN1_R21S/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "L10",
+          "F11",
+          "P12",
+          "L13",
+          "D17",
+          "D18",
+          "V19",
+          "V20",
+          "R21",
+          "L22"
+        ],
+        "values": [
+          [
+            0.0,
+            3.839,
+            6.401,
+            6.995,
+            11.189,
+            7.576,
+            8.882,
+            10.618,
+            7.764,
+            6.457
+          ],
+          [
+            3.839,
+            0.0,
+            2.961,
+            5.084,
+            12.09,
+            8.239,
+            9.278,
+            12.132,
+            10.231,
+            8.531
+          ],
+          [
+            6.401,
+            2.961,
+            0.0,
+            3.84,
+            11.886,
+            8.261,
+            9.57,
+            12.833,
+            11.538,
+            10.304
+          ],
+          [
+            6.995,
+            5.084,
+            3.84,
+            0.0,
+            8.452,
+            5.086,
+            6.135,
+            9.558,
+            9.099,
+            8.345
+          ],
+          [
+            11.189,
+            12.09,
+            11.886,
+            8.452,
+            0.0,
+            3.856,
+            5.386,
+            4.841,
+            6.05,
+            8.617
+          ],
+          [
+            7.576,
+            8.239,
+            8.261,
+            5.086,
+            3.856,
+            0.0,
+            3.843,
+            5.452,
+            4.998,
+            6.334
+          ],
+          [
+            8.882,
+            9.278,
+            9.57,
+            6.135,
+            5.386,
+            3.843,
+            0.0,
+            3.864,
+            5.378,
+            5.054
+          ],
+          [
+            10.618,
+            12.132,
+            12.833,
+            9.558,
+            4.841,
+            5.452,
+            3.864,
+            0.0,
+            3.875,
+            5.464
+          ],
+          [
+            7.764,
+            10.231,
+            11.538,
+            9.099,
+            6.05,
+            4.998,
+            5.378,
+            3.875,
+            0.0,
+            3.85
+          ],
+          [
+            6.457,
+            8.531,
+            10.304,
+            8.345,
+            8.617,
+            6.334,
+            5.054,
+            5.464,
+            3.85,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.8798667812599179,
+        "mw": 414.18,
+        "logp": 2.14,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.4888,
+        "sa_score": 3.05,
+        "n_heavy_atoms": 29,
+        "tpsa": 130.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MEN1-R21S Candidate #1",
+        "iupac_name": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8799,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MEN1_R21S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MEN1_R21S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MEN1_R21S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MEN1_R21S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MEN1_R21S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MEN1-R21S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MEN1-R21S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:25:06.791251+00:00"
     }
   ]
 }
