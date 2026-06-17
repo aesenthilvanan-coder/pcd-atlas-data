@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1399,
+  "total_entries": 1400,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46037,
-    "queue_remaining": 132560
+    "total_processed": 46039,
+    "queue_remaining": 132558
   },
   "entries": [
     {
@@ -310255,6 +310255,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:18:42.222547+00:00"
+    },
+    {
+      "entry_id": "PCD-POLG2-Q166E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-POLG2-Q166E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "POLG2",
+        "uniprot": "",
+        "clinvar_id": "324560",
+        "disease": "Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal",
+        "mutation_precursor": "Q166E",
+        "mutation_mature": "Q166E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7562662826678063,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 312.6849711032211,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          4.233592987060547,
+          -20.981637954711914,
+          -47.60150146484375
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.280058017544294,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8462744867769846,
+        "cryptic": true,
+        "pocket_residues": {
+          "L162": "L",
+          "S163": "S",
+          "K164": "K",
+          "E165": "E",
+          "Q166": "Q",
+          "L167": "L",
+          "V168": "V",
+          "A169": "A"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UHN1|POLG2 variant Q166E",
+        "fasta_sequence": "MRSRVAVRACHKVCRCLLSGFGGRVDAGQPELLTERSSPKGGHVKSHAELEGNGEHPEAPGSGEGSEALLEICQRRHFLSGSKQQLSRDSLLSGCHPGFGPLGVELRKNLAAEWWTSVVVFREQVFPVDALHHKPGPLLPGDSAFRLVSAETLREILQDKELSKEQLVAFLENVLKTSGKLRENLLHGALEHYVNCLDLVNKRLPYGLAQIGVCFHPVFDTKQIRNGVKSIGEKTEASLVWFTPPRTSNQWLDFWLRHRLQWWRKFAMSPSNFSSSDCQDEEGRKGNKLYYNFPWGKELIETLWNLGDHELLHMYPGNVSKLHGRDGRKNVVPCVLSVNGDLDRGMLAYLYDSFQLTENSFTRKKNLHRKVLKLHPCLAPIKVALDVGRGPTLELRQVCQGLFNELLENGISVWPGYLETMQSSLEQLYSKYDEMSILFTVLVTETTLENGLIHLRSRDTTMKEMMHISKLKDFLIKYISSAKNV",
+        "full_sequence": "MRSRVAVRACHKVCRCLLSGFGGRVDAGQPELLTERSSPKGGHVKSHAELEGNGEHPEAPGSGEGSEALLEICQRRHFLSGSKQQLSRDSLLSGCHPGFGPLGVELRKNLAAEWWTSVVVFREQVFPVDALHHKPGPLLPGDSAFRLVSAETLREILQDKELSKEQLVAFLENVLKTSGKLRENLLHGALEHYVNCLDLVNKRLPYGLAQIGVCFHPVFDTKQIRNGVKSIGEKTEASLVWFTPPRTSNQWLDFWLRHRLQWWRKFAMSPSNFSSSDCQDEEGRKGNKLYYNFPWGKELIETLWNLGDHELLHMYPGNVSKLHGRDGRKNVVPCVLSVNGDLDRGMLAYLYDSFQLTENSFTRKKNLHRKVLKLHPCLAPIKVALDVGRGPTLELRQVCQGLFNELLENGISVWPGYLETMQSSLEQLYSKYDEMSILFTVLVTETTLENGLIHLRSRDTTMKEMMHISKLKDFLIKYISSAKNV",
+        "n_residues": 485,
+        "mutation_pos_1indexed": 166,
+        "wt_aa": "Q",
+        "mut_aa": "E",
+        "pocket_lining_residues": "L162-S163-K164-E165-Q166-L167-V168-A169",
+        "pocket_lining_positions_precursor": [
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169
+        ],
+        "pocket_lining_1letter": "LSKEQLVA",
+        "sequence_slice_around_pocket": "ILQDKELSKEQLVAFLENVL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/POLG2_Q166E/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "L162",
+          "S163",
+          "K164",
+          "E165",
+          "Q166",
+          "L167",
+          "V168",
+          "A169"
+        ],
+        "values": [
+          [
+            0.0,
+            3.807,
+            6.608,
+            8.143,
+            6.179,
+            6.673,
+            10.153,
+            10.916
+          ],
+          [
+            3.807,
+            0.0,
+            3.848,
+            5.296,
+            5.207,
+            6.439,
+            8.788,
+            9.922
+          ],
+          [
+            6.608,
+            3.848,
+            0.0,
+            3.845,
+            5.568,
+            5.15,
+            6.262,
+            8.658
+          ],
+          [
+            8.143,
+            5.296,
+            3.845,
+            0.0,
+            3.844,
+            5.431,
+            5.119,
+            6.07
+          ],
+          [
+            6.179,
+            5.207,
+            5.568,
+            3.844,
+            0.0,
+            3.847,
+            5.513,
+            5.052
+          ],
+          [
+            6.673,
+            6.439,
+            5.15,
+            5.431,
+            3.847,
+            0.0,
+            3.856,
+            5.522
+          ],
+          [
+            10.153,
+            8.788,
+            6.262,
+            5.119,
+            5.513,
+            3.856,
+            0.0,
+            3.84
+          ],
+          [
+            10.916,
+            9.922,
+            8.658,
+            6.07,
+            5.052,
+            5.522,
+            3.84,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)CCCc1c[nH]c2ccccc12",
+        "composite_score": 0.8400061230179879,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.09,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "POLG2-Q166E Candidate #1",
+        "iupac_name": "NCC(=O)CCCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.84,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/POLG2_Q166E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/POLG2_Q166E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/POLG2_Q166E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/POLG2_Q166E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/POLG2_Q166E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-POLG2-Q166E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-POLG2-Q166E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:19:18.223781+00:00"
     }
   ]
 }
