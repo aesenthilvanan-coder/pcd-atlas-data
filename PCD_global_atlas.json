@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 894,
+  "total_entries": 895,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45426,
-    "queue_remaining": 133171
+    "total_processed": 45428,
+    "queue_remaining": 133169
   },
   "entries": [
     {
@@ -196978,6 +196978,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:48:11.659345+00:00"
+    },
+    {
+      "entry_id": "PCD-SCNN1B-S143F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1B-S143F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SCNN1B",
+        "uniprot": "",
+        "clinvar_id": "318421",
+        "disease": "Pseudohypoaldosteronism, type IB1, autosomal recessive",
+        "mutation_precursor": "S143F",
+        "mutation_mature": "S143F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8973136240180991,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 643.0814295065815,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -23.548730850219727,
+          -19.77927017211914,
+          19.0323486328125
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.1176665233586816,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7346656232697628,
+        "cryptic": true,
+        "pocket_residues": {
+          "F142": "F",
+          "S143": "S",
+          "I144": "I",
+          "W145": "W",
+          "N146": "N",
+          "H147": "H",
+          "T148": "T",
+          "P149": "P"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P51168|SCNN1B variant S143F",
+        "fasta_sequence": "MHVKKYLLKGLHRLQKGPGYTYKELLVWYCDNTNTHGPKRIICEGPKKKAMWFLLTLLFAALVCWQWGIFIRTYLSWEVSVSLSVGFKTMDFPAVTICNASPFKYSKIKHLLKDLDELMEAVLERILAPELSHANATRNLNFSIWNHTPLVLIDERNPHHPMVLDLFGDNHNGLTSSSASEKICNAHGCKMAMRLCSLNRTQCTFRNFTSATQALTEWYILQATNIFAQVPQQELVEMSYPGEQMILACLFGAEPCNYRNFTSIFYPHYGNCYIFNWGMTEKALPSANPGTEFGLKLILDIGQEDYVPFLASTAGVRLMLHEQRSYPFIRDEGIYAMSGTETSIGVLVDKLQRMGEPYSPCTVNGSEVPVQNFYSDYNTTYSIQACLRSCFQDHMIRNCNCGHYLYPLPRGEKYCNNRDFPDWAHCYSDLQMSVAQRETCIGMCKESCNDTQYKMTISMADWPSEASEDWIFHVLSQERDQSTNITLSRKGIVKLNIYFQEFNYRTIEESAANNIVWLLSNLGGQFGFWMGGSVLCLIEFGEIIIDFVWITIIKLVALAKSLRQRRAQASYAGPPPTVAELVEAHTNFGFQPDTAPRSPNTGPYPSEQALPIPGTPPPNYDSLRLQPLDVIESDSEGDAI",
+        "full_sequence": "MHVKKYLLKGLHRLQKGPGYTYKELLVWYCDNTNTHGPKRIICEGPKKKAMWFLLTLLFAALVCWQWGIFIRTYLSWEVSVSLSVGFKTMDFPAVTICNASPFKYSKIKHLLKDLDELMEAVLERILAPELSHANATRNLNFSIWNHTPLVLIDERNPHHPMVLDLFGDNHNGLTSSSASEKICNAHGCKMAMRLCSLNRTQCTFRNFTSATQALTEWYILQATNIFAQVPQQELVEMSYPGEQMILACLFGAEPCNYRNFTSIFYPHYGNCYIFNWGMTEKALPSANPGTEFGLKLILDIGQEDYVPFLASTAGVRLMLHEQRSYPFIRDEGIYAMSGTETSIGVLVDKLQRMGEPYSPCTVNGSEVPVQNFYSDYNTTYSIQACLRSCFQDHMIRNCNCGHYLYPLPRGEKYCNNRDFPDWAHCYSDLQMSVAQRETCIGMCKESCNDTQYKMTISMADWPSEASEDWIFHVLSQERDQSTNITLSRKGIVKLNIYFQEFNYRTIEESAANNIVWLLSNLGGQFGFWMGGSVLCLIEFGEIIIDFVWITIIKLVALAKSLRQRRAQASYAGPPPTVAELVEAHTNFGFQPDTAPRSPNTGPYPSEQALPIPGTPPPNYDSLRLQPLDVIESDSEGDAI",
+        "n_residues": 640,
+        "mutation_pos_1indexed": 143,
+        "wt_aa": "S",
+        "mut_aa": "F",
+        "pocket_lining_residues": "F142-S143-I144-W145-N146-H147-T148-P149",
+        "pocket_lining_positions_precursor": [
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149
+        ],
+        "pocket_lining_1letter": "FSIWNHTP",
+        "sequence_slice_around_pocket": "HANATRNLNFSIWNHTPLVL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_S143F/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "F142",
+          "S143",
+          "I144",
+          "W145",
+          "N146",
+          "H147",
+          "T148",
+          "P149"
+        ],
+        "values": [
+          [
+            0.0,
+            3.879,
+            5.332,
+            4.851,
+            5.941,
+            8.838,
+            10.637,
+            9.535
+          ],
+          [
+            3.879,
+            0.0,
+            3.861,
+            5.585,
+            5.428,
+            6.98,
+            9.869,
+            10.207
+          ],
+          [
+            5.332,
+            3.861,
+            0.0,
+            3.849,
+            5.724,
+            5.94,
+            7.725,
+            8.453
+          ],
+          [
+            4.851,
+            5.585,
+            3.849,
+            0.0,
+            3.846,
+            5.573,
+            6.093,
+            5.194
+          ],
+          [
+            5.941,
+            5.428,
+            5.724,
+            3.846,
+            0.0,
+            3.854,
+            5.893,
+            5.667
+          ],
+          [
+            8.838,
+            6.98,
+            5.94,
+            5.573,
+            3.854,
+            0.0,
+            3.853,
+            6.21
+          ],
+          [
+            10.637,
+            9.869,
+            7.725,
+            6.093,
+            5.893,
+            3.853,
+            0.0,
+            3.845
+          ],
+          [
+            9.535,
+            10.207,
+            8.453,
+            5.194,
+            5.667,
+            6.21,
+            3.845,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CC(=O)CCC1CCNc1ccncc1N1CCCCC1",
+        "composite_score": 0.6734193846944816,
+        "mw": 458.21,
+        "logp": 2.154,
+        "hbd": 2,
+        "hba": 8,
+        "rotatable_bonds": 7,
+        "qed": 0.6473,
+        "sa_score": 3.45,
+        "n_heavy_atoms": 32,
+        "tpsa": 121.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SCNN1B-S143F Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CC(=O)CCC1CCNc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.6734,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_S143F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_S143F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_S143F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_S143F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_S143F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1B-S143F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1B-S143F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:49:07.116497+00:00"
     }
   ]
 }
