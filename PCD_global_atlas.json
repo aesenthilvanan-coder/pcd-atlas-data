@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 841,
+  "total_entries": 842,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45360,
-    "queue_remaining": 133237
+    "total_processed": 45365,
+    "queue_remaining": 133232
   },
   "entries": [
     {
@@ -185759,6 +185759,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:05:56.313019+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT83-P475S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT83-P475S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT83",
+        "uniprot": "",
+        "clinvar_id": "309495",
+        "disease": "Monilethrix",
+        "mutation_precursor": "P475S",
+        "mutation_mature": "P475S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.928620435925899,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 284.6234839529777,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -27.40776252746582,
+          -10.306642532348633,
+          -29.510408401489258
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.655496423058135,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6808262196729206,
+        "cryptic": true,
+        "pocket_residues": {
+          "K474": "K",
+          "P475": "P",
+          "C476": "C",
+          "G477": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P78385|KRT83 variant P475S",
+        "fasta_sequence": "MTCGFNSIGCGFRPGNFSCVSACGPRPSRCCITAAPYRGISCYRGLTGGFGSHSVCGGFRAGSCGRSFGYRSGGVCGPSPPCITTVSVNESLLTPLNLEIDPNAQCVKQEEKEQIKSLNSRFAAFIDKVRFLEQQNKLLETKLQFYQNRECCQSNLEPLFAGYIETLRREAECVEADSGRLASELNHVQEVLEGYKKKYEEEVALRATAENEFVALKKDVDCAYLRKSDLEANVEALIQEIDFLRRLYEEEIRILQSHISDTSVVVKLDNSRDLNMDCIVAEIKAQYDDIATRSRAEAESWYRSKCEEMKATVIRHGETLRRTKEEINELNRMIQRLTAEVENAKCQNSKLEAAVAQSEQQGEAALSDARCKLAELEGALQKAKQDMACLIREYQEVMNSKLGLDIEIATYRRLLEGEEQRLCEGVEAVNVCVSSSRGGVVCGDLCVSGSRPVTGSVCSAPCNGNLVVSTGLCKPCGQLNTTCGGGSCGQGRH",
+        "full_sequence": "MTCGFNSIGCGFRPGNFSCVSACGPRPSRCCITAAPYRGISCYRGLTGGFGSHSVCGGFRAGSCGRSFGYRSGGVCGPSPPCITTVSVNESLLTPLNLEIDPNAQCVKQEEKEQIKSLNSRFAAFIDKVRFLEQQNKLLETKLQFYQNRECCQSNLEPLFAGYIETLRREAECVEADSGRLASELNHVQEVLEGYKKKYEEEVALRATAENEFVALKKDVDCAYLRKSDLEANVEALIQEIDFLRRLYEEEIRILQSHISDTSVVVKLDNSRDLNMDCIVAEIKAQYDDIATRSRAEAESWYRSKCEEMKATVIRHGETLRRTKEEINELNRMIQRLTAEVENAKCQNSKLEAAVAQSEQQGEAALSDARCKLAELEGALQKAKQDMACLIREYQEVMNSKLGLDIEIATYRRLLEGEEQRLCEGVEAVNVCVSSSRGGVVCGDLCVSGSRPVTGSVCSAPCNGNLVVSTGLCKPCGQLNTTCGGGSCGQGRH",
+        "n_residues": 493,
+        "mutation_pos_1indexed": 475,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "K474-P475-C476-G477",
+        "pocket_lining_positions_precursor": [
+          474,
+          475,
+          476,
+          477
+        ],
+        "pocket_lining_1letter": "KPCG",
+        "sequence_slice_around_pocket": "NLVVSTGLCKPCGQLNTTCG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_P475S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "K474",
+          "P475",
+          "C476",
+          "G477"
+        ],
+        "values": [
+          [
+            0.0,
+            3.814,
+            6.131,
+            9.392
+          ],
+          [
+            3.814,
+            0.0,
+            3.842,
+            6.519
+          ],
+          [
+            6.131,
+            3.842,
+            0.0,
+            3.728
+          ],
+          [
+            9.392,
+            6.519,
+            3.728,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.5768499951734449,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT83-P475S Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.5768,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_P475S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_P475S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_P475S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_P475S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_P475S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT83-P475S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT83-P475S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:07:10.276363+00:00"
     }
   ]
 }
