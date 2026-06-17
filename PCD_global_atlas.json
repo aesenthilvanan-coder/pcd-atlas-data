@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 235,
+  "total_entries": 236,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44647,
-    "queue_remaining": 133950
+    "total_processed": 44648,
+    "queue_remaining": 133949
   },
   "entries": [
     {
@@ -52335,6 +52335,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:34:02.314142+00:00"
+    },
+    {
+      "entry_id": "PCD-ROBO3-V1308M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ROBO3-V1308M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ROBO3",
+        "uniprot": "",
+        "clinvar_id": "303278",
+        "disease": "Gaze palsy, familial horizontal, with progressive scoliosis 1",
+        "mutation_precursor": "V1308M",
+        "mutation_mature": "V1308M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8757005420825628,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 540.7094486508101,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.539119720458984,
+          -60.11663055419922,
+          41.602176666259766
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.727134847807671,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8937681052746752,
+        "cryptic": true,
+        "pocket_residues": {
+          "A1307": "A",
+          "V1308": "V",
+          "P1309": "P"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96MS0|ROBO3 variant V1308M",
+        "fasta_sequence": "MLRYLLKTLLQMNLFADSLAGDISNSSELLLGFNSSLAALNHTLLPPGDPSLNGSRVGPEDAMPRIVEQPPDLLVSRGEPATLPCRAEGRPRPNIEWYKNGARVATVREDPRAHRLLLPSGALFFPRIVHGRRARPDEGVYTCVARNYLGAAASRNASLEVAVLRDDFRQSPGNVVVAVGEPAVLECVPPRGHPEPSVSWRKDGARLKEEEGRITIRGGKLMMSHTLKSDAGMYVCVASNMAGERESAAAEVMVLERPSFLRRPVNQVVLADAPVTFLCEVKGDPPPRLRWRKEDGELPTGRYEIRSDHSLWIGHVSAEDEGTYTCVAENSVGRAEASGSLSVHVPPQLVTQPQDQMAAPGESVAFQCETKGNPPPAIFWQKEGSQVLLFPSQSLQPTGRFSVSPRGQLNITAVQRGDAGYYVCQAVSVAGSILAKALLEIKGASLDGLPPVILQGPANQTLVLGSSVWLPCRVTGNPQPSVRWKKDGQWLQGDDLQFKTMANGTLYIANVQEMDMGFYSCVAKSSTGEATWSGWLKMREDWGVSPDPPTEPSSPPGAPSQPVVTEITKNSITLTWKPNPQTGAAVTSYVIEAFSPAAGNTWRTVADGVQLETHTVSGLQPNTIYLFLVRAVGAWGLSEPSPVSEPVRTQDSSPSRPVEDPWRGQQGLAEVAVRLQEPIVLGPRTLQVSWTVDGPVQLVQGFRVSWRVAGPEGGSWTMLDLQSPSQQSTVLRGLPPGTQIQIKVQAQGQEGLGAESLSVTRSIPEEAPSGPPQGVAVALGGDGNSSITVSWEPPLPSQQNGVITEYQIWCLGNESRFHLNRSAAGWARSAMLRGLVPGLLYRTLVAAATSAGVGVPSAPVLVQLPSPPDLEPGLEVGAGLAVRLARVLREPAFLAGSGAACGALLLGLCAALYWRRKQRKELSHYTASFAYTPAVSFPHSEGLSGASSRPPMGLGPAPYSWLADSWPHPSRSPSAQEPRGSCCPSNPDPDDRYYNEAGISLYLAQTARGTAAPGEGPVYSTIDPAGEELQTFHGGFPQHPSGDLGPWSQYAPPEWSQGDSGAKGGKVKLLGKPVQMPSLNWPEALPPPPPSCELSCLEGPEEELEGSSEPEEWCPPMPERSHLTEPSSSGGCLVTPSRRETPSPTPSYGQQSTATLTPSPPDPPQPPTDMPHLHQMPRRVPLGPSSPLSVSQPMLGIREARPAGLGAGPAASPHLSPSPAPSTASSAPGRTWQGNGEMTPPLQGPRARFRKKPKALPYRRENSPGDLPPPPLPPPEEEASWALELRAAGSMSSLERERSGERKAVQAVPLAAQRVLHPDEEAWLPYSRPSFLSRGQGTSTCSTAGSNSSRGSSSSRGSRGPGRSRSRSQSRSQSQRPGQKRREEPR",
+        "full_sequence": "MLRYLLKTLLQMNLFADSLAGDISNSSELLLGFNSSLAALNHTLLPPGDPSLNGSRVGPEDAMPRIVEQPPDLLVSRGEPATLPCRAEGRPRPNIEWYKNGARVATVREDPRAHRLLLPSGALFFPRIVHGRRARPDEGVYTCVARNYLGAAASRNASLEVAVLRDDFRQSPGNVVVAVGEPAVLECVPPRGHPEPSVSWRKDGARLKEEEGRITIRGGKLMMSHTLKSDAGMYVCVASNMAGERESAAAEVMVLERPSFLRRPVNQVVLADAPVTFLCEVKGDPPPRLRWRKEDGELPTGRYEIRSDHSLWIGHVSAEDEGTYTCVAENSVGRAEASGSLSVHVPPQLVTQPQDQMAAPGESVAFQCETKGNPPPAIFWQKEGSQVLLFPSQSLQPTGRFSVSPRGQLNITAVQRGDAGYYVCQAVSVAGSILAKALLEIKGASLDGLPPVILQGPANQTLVLGSSVWLPCRVTGNPQPSVRWKKDGQWLQGDDLQFKTMANGTLYIANVQEMDMGFYSCVAKSSTGEATWSGWLKMREDWGVSPDPPTEPSSPPGAPSQPVVTEITKNSITLTWKPNPQTGAAVTSYVIEAFSPAAGNTWRTVADGVQLETHTVSGLQPNTIYLFLVRAVGAWGLSEPSPVSEPVRTQDSSPSRPVEDPWRGQQGLAEVAVRLQEPIVLGPRTLQVSWTVDGPVQLVQGFRVSWRVAGPEGGSWTMLDLQSPSQQSTVLRGLPPGTQIQIKVQAQGQEGLGAESLSVTRSIPEEAPSGPPQGVAVALGGDGNSSITVSWEPPLPSQQNGVITEYQIWCLGNESRFHLNRSAAGWARSAMLRGLVPGLLYRTLVAAATSAGVGVPSAPVLVQLPSPPDLEPGLEVGAGLAVRLARVLREPAFLAGSGAACGALLLGLCAALYWRRKQRKELSHYTASFAYTPAVSFPHSEGLSGASSRPPMGLGPAPYSWLADSWPHPSRSPSAQEPRGSCCPSNPDPDDRYYNEAGISLYLAQTARGTAAPGEGPVYSTIDPAGEELQTFHGGFPQHPSGDLGPWSQYAPPEWSQGDSGAKGGKVKLLGKPVQMPSLNWPEALPPPPPSCELSCLEGPEEELEGSSEPEEWCPPMPERSHLTEPSSSGGCLVTPSRRETPSPTPSYGQQSTATLTPSPPDPPQPPTDMPHLHQMPRRVPLGPSSPLSVSQPMLGIREARPAGLGAGPAASPHLSPSPAPSTASSAPGRTWQGNGEMTPPLQGPRARFRKKPKALPYRRENSPGDLPPPPLPPPEEEASWALELRAAGSMSSLERERSGERKAVQAVPLAAQRVLHPDEEAWLPYSRPSFLSRGQGTSTCSTAGSNSSRGSSSSRGSRGPGRSRSRSQSRSQSQRPGQKRREEPR",
+        "n_residues": 1386,
+        "mutation_pos_1indexed": 1308,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "A1307-V1308-P1309",
+        "pocket_lining_positions_precursor": [
+          1307,
+          1308,
+          1309
+        ],
+        "pocket_lining_1letter": "AVP",
+        "sequence_slice_around_pocket": "RSGERKAVQAVPLAAQRVLH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ROBO3_V1308M/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "A1307",
+          "V1308",
+          "P1309"
+        ],
+        "values": [
+          [
+            0.0,
+            3.833,
+            6.653
+          ],
+          [
+            3.833,
+            0.0,
+            3.89
+          ],
+          [
+            6.653,
+            3.89,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1OCCOc1ccc(CN)cc1",
+        "composite_score": 0.5430969566515519,
+        "mw": 344.17,
+        "logp": 1.9,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 9,
+        "qed": 0.6791,
+        "sa_score": 2.02,
+        "n_heavy_atoms": 25,
+        "tpsa": 82.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ROBO3-V1308M Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1OCCOc1ccc(CN)cc1",
+        "pocket_affinity_score": 0.5431,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ROBO3_V1308M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ROBO3_V1308M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ROBO3_V1308M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ROBO3_V1308M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ROBO3_V1308M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ROBO3-V1308M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ROBO3-V1308M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:34:49.883765+00:00"
     }
   ]
 }
