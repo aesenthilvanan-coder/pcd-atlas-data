@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 969,
+  "total_entries": 970,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45514,
-    "queue_remaining": 133083
+    "total_processed": 45517,
+    "queue_remaining": 133080
   },
   "entries": [
     {
@@ -213221,6 +213221,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:49:56.520578+00:00"
+    },
+    {
+      "entry_id": "PCD-CNGB1-A78T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CNGB1-A78T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CNGB1",
+        "uniprot": "",
+        "clinvar_id": "320112",
+        "disease": "Retinitis pigmentosa",
+        "mutation_precursor": "A78T",
+        "mutation_mature": "A78T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8263356086629242,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 535.8769723662972,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -11.045412063598633,
+          -7.923586845397949,
+          -66.55973815917969
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.019718768729317,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7576672484631394,
+        "cryptic": true,
+        "pocket_residues": {
+          "A77": "A",
+          "A78": "A",
+          "L79": "L"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q14028|CNGB1 variant A78T",
+        "fasta_sequence": "MLGWVQRVLPQPPGTPRKTKMQEEEEVEPEPEMEAEVEPEPNPEEAETESESMPPEESFKEEEVAVADPSPQETKEAALTSTISLRAQGAEISEMNSPSRRVLTWLMKGVEKVIPQPVHSITEDPAQILGHGSTGDTGCTDEPNEALEAQDTRPGLRLLLWLEQNLERVLPQPPKSSEVWRDEPAVATGAASDPAPPGRPQEMGPKLQARETPSLPTPIPLQPKEEPKEAPAPEPQPGSQAQTSSLPPTRDPARLVAWVLHRLEMALPQPVLHGKIGEQEPDSPGICDVQTISILPGGQVEPDLVLEEVEPPWEDAHQDVSTSPQGTEVVPAYEEENKAVEKMPRELSRIEEEKEDEEEEEEEEEEEEEEEVTEVLLDSCVVSQVGVGQSEEDGTRPQSTSDQKLWEEVGEEAKKEAEEKAKEEAEEVAEEEAEKEPQDWAETKEEPEAEAEAASSGVPATKQHPEVQVEDTDADSCPLMAEENPPSTVLPPPSPAKSDTLIVPSSASGTHRKKLPSEDDEAEELKALSPAESPVVAWSDPTTPKDTDGQDRAASTASTNSAIINDRLQELVKLFKERTEKVKEKLIDPDVTSDEESPKPSPAKKAPEPAPDTKPAEAEPVEEEHYCDMLCCKFKHRPWKKYQFPQSIDPLTNLMYVLWLFFVVMAWNWNCWLIPVRWAFPYQTPDNIHHWLLMDYLCDLIYFLDITVFQTRLQFVRGGDIITDKKDMRNNYLKSRRFKMDLLSLLPLDFLYLKVGVNPLLRLPRCLKYMAFFEFNSRLESILSKAYVYRVIRTTAYLLYSLHLNSCLYYWASAYQGLGSTHWVYDGVGNSYIRCYYFAVKTLITIGGLPDPKTLFEIVFQLLNYFTGVFAFSVMIGQMRDVVGAATAGQTYYRSCMDSTVKYMNFYKIPKSVQNRVKTWYEYTWHSQGMLDESELMVQLPDKMRLDLAIDVNYNIVSKVALFQGCDRQMIFDMLKRLRSVVYLPNDYVCKKGEIGREMYIIQAGQVQVLGGPDGKSVLVTLKAGSVFGEISLLAVGGGNRRTANVVAHGFTNLFILDKKDLNEILVHYPESQKLLRKKARRMLRSNNKPKEEKSVLILPPRAGTPKLFNAALAMTGKMGGKGAKGGKLAHLRARLKELAALEAAAKQQELVEQAKSSQDVKGEEGSAAPDQHTHPKEAATDPPAPRTPPEPPGSPPSSPPPASLGRPEGEEEGPAEPEEHSVRICMSPGPEPGEQILSVKMPEEREEKAE",
+        "full_sequence": "MLGWVQRVLPQPPGTPRKTKMQEEEEVEPEPEMEAEVEPEPNPEEAETESESMPPEESFKEEEVAVADPSPQETKEAALTSTISLRAQGAEISEMNSPSRRVLTWLMKGVEKVIPQPVHSITEDPAQILGHGSTGDTGCTDEPNEALEAQDTRPGLRLLLWLEQNLERVLPQPPKSSEVWRDEPAVATGAASDPAPPGRPQEMGPKLQARETPSLPTPIPLQPKEEPKEAPAPEPQPGSQAQTSSLPPTRDPARLVAWVLHRLEMALPQPVLHGKIGEQEPDSPGICDVQTISILPGGQVEPDLVLEEVEPPWEDAHQDVSTSPQGTEVVPAYEEENKAVEKMPRELSRIEEEKEDEEEEEEEEEEEEEEEVTEVLLDSCVVSQVGVGQSEEDGTRPQSTSDQKLWEEVGEEAKKEAEEKAKEEAEEVAEEEAEKEPQDWAETKEEPEAEAEAASSGVPATKQHPEVQVEDTDADSCPLMAEENPPSTVLPPPSPAKSDTLIVPSSASGTHRKKLPSEDDEAEELKALSPAESPVVAWSDPTTPKDTDGQDRAASTASTNSAIINDRLQELVKLFKERTEKVKEKLIDPDVTSDEESPKPSPAKKAPEPAPDTKPAEAEPVEEEHYCDMLCCKFKHRPWKKYQFPQSIDPLTNLMYVLWLFFVVMAWNWNCWLIPVRWAFPYQTPDNIHHWLLMDYLCDLIYFLDITVFQTRLQFVRGGDIITDKKDMRNNYLKSRRFKMDLLSLLPLDFLYLKVGVNPLLRLPRCLKYMAFFEFNSRLESILSKAYVYRVIRTTAYLLYSLHLNSCLYYWASAYQGLGSTHWVYDGVGNSYIRCYYFAVKTLITIGGLPDPKTLFEIVFQLLNYFTGVFAFSVMIGQMRDVVGAATAGQTYYRSCMDSTVKYMNFYKIPKSVQNRVKTWYEYTWHSQGMLDESELMVQLPDKMRLDLAIDVNYNIVSKVALFQGCDRQMIFDMLKRLRSVVYLPNDYVCKKGEIGREMYIIQAGQVQVLGGPDGKSVLVTLKAGSVFGEISLLAVGGGNRRTANVVAHGFTNLFILDKKDLNEILVHYPESQKLLRKKARRMLRSNNKPKEEKSVLILPPRAGTPKLFNAALAMTGKMGGKGAKGGKLAHLRARLKELAALEAAAKQQELVEQAKSSQDVKGEEGSAAPDQHTHPKEAATDPPAPRTPPEPPGSPPSSPPPASLGRPEGEEEGPAEPEEHSVRICMSPGPEPGEQILSVKMPEEREEKAE",
+        "n_residues": 1251,
+        "mutation_pos_1indexed": 78,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "A77-A78-L79",
+        "pocket_lining_positions_precursor": [
+          77,
+          78,
+          79
+        ],
+        "pocket_lining_1letter": "AAL",
+        "sequence_slice_around_pocket": "DPSPQETKEAALTSTISLRA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB1_A78T/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "A77",
+          "A78",
+          "L79"
+        ],
+        "values": [
+          [
+            0.0,
+            3.881,
+            6.819
+          ],
+          [
+            3.881,
+            0.0,
+            3.206
+          ],
+          [
+            6.819,
+            3.206,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccccc1N1CC(=O)CCC1NCNCc1c[nH]c2ccccc12",
+        "composite_score": 0.6224940116238602,
+        "mw": 391.2,
+        "logp": 2.099,
+        "hbd": 4,
+        "hba": 5,
+        "rotatable_bonds": 7,
+        "qed": 0.3648,
+        "sa_score": 3.34,
+        "n_heavy_atoms": 29,
+        "tpsa": 103.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CNGB1-A78T Candidate #1",
+        "iupac_name": "NC(=O)c1ccccc1N1CC(=O)CCC1NCNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6225,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB1_A78T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB1_A78T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB1_A78T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB1_A78T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB1_A78T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CNGB1-A78T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CNGB1-A78T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:51:07.582745+00:00"
     }
   ]
 }
