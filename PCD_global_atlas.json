@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1246,
+  "total_entries": 1247,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45847,
-    "queue_remaining": 132750
+    "total_processed": 45848,
+    "queue_remaining": 132749
   },
   "entries": [
     {
@@ -275538,6 +275538,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:03:36.453251+00:00"
+    },
+    {
+      "entry_id": "PCD-FECH-E121G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FECH-E121G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FECH",
+        "uniprot": "",
+        "clinvar_id": "327433",
+        "disease": "Protoporphyria, erythropoietic, 1",
+        "mutation_precursor": "E121G",
+        "mutation_mature": "E121G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7649640258505803,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 332.87798862418913,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.495545387268066,
+          20.184537887573242,
+          12.867016792297363
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.827146087655176,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7580145936329424,
+        "cryptic": true,
+        "pocket_residues": {
+          "R115": "R",
+          "T116": "T",
+          "P117": "P",
+          "K118": "K",
+          "I119": "I",
+          "Q120": "Q",
+          "E121": "E",
+          "Q122": "Q"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P22830|FECH variant E121G",
+        "fasta_sequence": "MRSLGANMAAALRAAGVLLRDPLASSSWRVCQPWRWKSGAAAAAVTTETAQHAQGAKPQVQPQKRKPKTGILMLNMGGPETLGDVHDFLLRLFLDRDLMTLPIQNKLAPFIAKRRTPKIQEQYRRIGGGSPIKIWTSKQGEGMVKLLDELSPNTAPHKYYIGFRYVHPLTEEAIEEMERDGLERAIAFTQYPQYSCSTTGSSLNAIYRYYNQVGRKPTMKWSTIDRWPTHHLLIQCFADHILKELDHFPLEKRSEVVILFSAHSLPMSVVNRGDPYPQEVSATVQKVMERLEYCNPYRLVWQSKVGPMPWLGPQTDESIKGLCERGRKNILLVPIAFTSDHIETLYELDIEYSQVLAKECGVENIRRAESLNGNPLFSKALADLVHSHIQSNELCSKQLTLSCPLCVNPVCRETKSFFTSQQL",
+        "full_sequence": "MRSLGANMAAALRAAGVLLRDPLASSSWRVCQPWRWKSGAAAAAVTTETAQHAQGAKPQVQPQKRKPKTGILMLNMGGPETLGDVHDFLLRLFLDRDLMTLPIQNKLAPFIAKRRTPKIQEQYRRIGGGSPIKIWTSKQGEGMVKLLDELSPNTAPHKYYIGFRYVHPLTEEAIEEMERDGLERAIAFTQYPQYSCSTTGSSLNAIYRYYNQVGRKPTMKWSTIDRWPTHHLLIQCFADHILKELDHFPLEKRSEVVILFSAHSLPMSVVNRGDPYPQEVSATVQKVMERLEYCNPYRLVWQSKVGPMPWLGPQTDESIKGLCERGRKNILLVPIAFTSDHIETLYELDIEYSQVLAKECGVENIRRAESLNGNPLFSKALADLVHSHIQSNELCSKQLTLSCPLCVNPVCRETKSFFTSQQL",
+        "n_residues": 423,
+        "mutation_pos_1indexed": 121,
+        "wt_aa": "E",
+        "mut_aa": "G",
+        "pocket_lining_residues": "R115-T116-P117-K118-I119-Q120-E121-Q122",
+        "pocket_lining_positions_precursor": [
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122
+        ],
+        "pocket_lining_1letter": "RTPKIQEQ",
+        "sequence_slice_around_pocket": "IAKRRTPKIQEQYRRIGGGS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_E121G/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "R115",
+          "T116",
+          "P117",
+          "K118",
+          "I119",
+          "Q120",
+          "E121",
+          "Q122"
+        ],
+        "values": [
+          [
+            0.0,
+            3.861,
+            5.82,
+            5.621,
+            6.259,
+            8.659,
+            10.358,
+            10.985
+          ],
+          [
+            3.861,
+            0.0,
+            3.879,
+            5.593,
+            5.184,
+            5.93,
+            8.66,
+            9.889
+          ],
+          [
+            5.82,
+            3.879,
+            0.0,
+            3.841,
+            5.565,
+            5.093,
+            6.376,
+            8.877
+          ],
+          [
+            5.621,
+            5.593,
+            3.841,
+            0.0,
+            3.842,
+            5.501,
+            5.271,
+            6.578
+          ],
+          [
+            6.259,
+            5.184,
+            5.565,
+            3.842,
+            0.0,
+            3.862,
+            5.377,
+            4.997
+          ],
+          [
+            8.659,
+            5.93,
+            5.093,
+            5.501,
+            3.862,
+            0.0,
+            3.849,
+            5.407
+          ],
+          [
+            10.358,
+            8.66,
+            6.376,
+            5.271,
+            5.377,
+            3.849,
+            0.0,
+            3.848
+          ],
+          [
+            10.985,
+            9.889,
+            8.877,
+            6.578,
+            4.997,
+            5.407,
+            3.848,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "composite_score": 0.7211719691746545,
+        "mw": 234.17,
+        "logp": 2.187,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8676,
+        "sa_score": 1.95,
+        "n_heavy_atoms": 17,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FECH-E121G Candidate #1",
+        "iupac_name": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.7212,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_E121G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_E121G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_E121G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_E121G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_E121G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FECH-E121G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FECH-E121G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:03:59.460745+00:00"
     }
   ]
 }
