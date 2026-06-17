@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 983,
+  "total_entries": 984,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45530,
-    "queue_remaining": 133067
+    "total_processed": 45531,
+    "queue_remaining": 133066
   },
   "entries": [
     {
@@ -216384,6 +216384,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T17:00:28.081005+00:00"
+    },
+    {
+      "entry_id": "PCD-STX16-R73W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STX16-R73W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "STX16",
+        "uniprot": "",
+        "clinvar_id": "339046",
+        "disease": "Pseudohypoparathyroidism type 1B",
+        "mutation_precursor": "R73W",
+        "mutation_mature": "R73W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8585052909791372,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 588.4570796214969,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -14.271408081054688,
+          -13.180490493774414,
+          17.678682327270508
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.501305915861437,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8304308037248114,
+        "cryptic": true,
+        "pocket_residues": {
+          "G69": "G",
+          "V70": "V",
+          "T71": "T",
+          "K72": "K",
+          "R73": "R",
+          "P74": "P"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O14662|STX16 variant R73W",
+        "fasta_sequence": "MATRRLTDAFLLLRNNSIQNRQLLAEQVSSHITSSPLHSRSIAAELDELADDRMALVSGISLDPEAAIGVTKRPPPKWVDGVDEIQYDVGRIKQKMKELASLHDKHLNRPTLDDSSEEEHAIEITTQEITQLFHRCQRAVQALPSRARACSEQEGRLLGNVVASLAQALQELSTSFRHAQSGYLKRMKNREERSQHFFDTSVPLMDDGDDNTLYHRGFTEDQLVLVEQNTLMVEEREREIRQIVQSISDLNEIFRDLGAMIVEQGTVLDRIDYNVEQSCIKTEDGLKQLHKAEQYQKKNRKMLVILILFVIIIVLIVVLVGVKSR",
+        "full_sequence": "MATRRLTDAFLLLRNNSIQNRQLLAEQVSSHITSSPLHSRSIAAELDELADDRMALVSGISLDPEAAIGVTKRPPPKWVDGVDEIQYDVGRIKQKMKELASLHDKHLNRPTLDDSSEEEHAIEITTQEITQLFHRCQRAVQALPSRARACSEQEGRLLGNVVASLAQALQELSTSFRHAQSGYLKRMKNREERSQHFFDTSVPLMDDGDDNTLYHRGFTEDQLVLVEQNTLMVEEREREIRQIVQSISDLNEIFRDLGAMIVEQGTVLDRIDYNVEQSCIKTEDGLKQLHKAEQYQKKNRKMLVILILFVIIIVLIVVLVGVKSR",
+        "n_residues": 325,
+        "mutation_pos_1indexed": 73,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "G69-V70-T71-K72-R73-P74",
+        "pocket_lining_positions_precursor": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "pocket_lining_1letter": "GVTKRP",
+        "sequence_slice_around_pocket": "DPEAAIGVTKRPPPKWVDGV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_R73W/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "G69",
+          "V70",
+          "T71",
+          "K72",
+          "R73",
+          "P74"
+        ],
+        "values": [
+          [
+            0.0,
+            3.776,
+            5.319,
+            7.266,
+            10.334,
+            12.91
+          ],
+          [
+            3.776,
+            0.0,
+            3.804,
+            5.616,
+            8.161,
+            10.972
+          ],
+          [
+            5.319,
+            3.804,
+            0.0,
+            3.834,
+            5.429,
+            8.715
+          ],
+          [
+            7.266,
+            5.616,
+            3.834,
+            0.0,
+            3.786,
+            5.661
+          ],
+          [
+            10.334,
+            8.161,
+            5.429,
+            3.786,
+            0.0,
+            3.811
+          ],
+          [
+            12.91,
+            10.972,
+            8.715,
+            5.661,
+            3.811,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCS(=O)(=O)c1ccncc1N1CCCCC1CNC(=O)c1ccc(F)cc1",
+        "composite_score": 0.537363243557569,
+        "mw": 406.15,
+        "logp": 1.699,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.7565,
+        "sa_score": 3.02,
+        "n_heavy_atoms": 28,
+        "tpsa": 105.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "STX16-R73W Candidate #1",
+        "iupac_name": "NCS(=O)(=O)c1ccncc1N1CCCCC1CNC(=O)c1ccc(F)cc1",
+        "pocket_affinity_score": 0.5374,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_R73W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_R73W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_R73W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_R73W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_R73W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STX16-R73W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STX16-R73W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T17:00:52.662047+00:00"
     }
   ]
 }
