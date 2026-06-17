@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 872,
+  "total_entries": 873,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45396,
-    "queue_remaining": 133201
+    "total_processed": 45397,
+    "queue_remaining": 133200
   },
   "entries": [
     {
@@ -191956,6 +191956,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:27:41.394767+00:00"
+    },
+    {
+      "entry_id": "PCD-TSFM-R254C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSFM-R254C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TSFM",
+        "uniprot": "",
+        "clinvar_id": "310018",
+        "disease": "Fatal mitochondrial disease due to combined oxidative phosphorylation defect typ",
+        "mutation_precursor": "R254C",
+        "mutation_mature": "R254C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8932988879085592,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 425.6767325651716,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.884109020233154,
+          11.40540885925293,
+          -21.387258529663086
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.433219082852515,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8271923177757858,
+        "cryptic": true,
+        "pocket_residues": {
+          "L249": "L",
+          "E250": "E",
+          "D251": "D",
+          "V252": "V",
+          "G253": "G",
+          "R254": "R",
+          "R255": "R"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P43897|TSFM variant R254C",
+        "fasta_sequence": "MSLLRSLRVFLVARTGSYPAGSLLRQSPQPRHTFYAGPRLSASASSKELLMKLRRKTGYSFVNCKKALETCGGDLKQAEIWLHKEAQKEGWSKAAKLQGRKTKEGLIGLLQEGNTTVLVEVNCETDFVSRNLKFQLLVQQVALGTMMHCQTLKDQPSAYSKGFLNSSELSGLPAGPDREGSLKDQLALAIGKLGENMILKRAAWVKVPSGFYVGSYVHGAMQSPSLHKLVLGKYGALVICETSEQKTNLEDVGRRLGQHVVGMAPLSVGSLDDEPGGEAETKMLSQPYLLDPSITLGQYVQPQGVSVVDFVRFECGEGEEAAETE",
+        "full_sequence": "MSLLRSLRVFLVARTGSYPAGSLLRQSPQPRHTFYAGPRLSASASSKELLMKLRRKTGYSFVNCKKALETCGGDLKQAEIWLHKEAQKEGWSKAAKLQGRKTKEGLIGLLQEGNTTVLVEVNCETDFVSRNLKFQLLVQQVALGTMMHCQTLKDQPSAYSKGFLNSSELSGLPAGPDREGSLKDQLALAIGKLGENMILKRAAWVKVPSGFYVGSYVHGAMQSPSLHKLVLGKYGALVICETSEQKTNLEDVGRRLGQHVVGMAPLSVGSLDDEPGGEAETKMLSQPYLLDPSITLGQYVQPQGVSVVDFVRFECGEGEEAAETE",
+        "n_residues": 325,
+        "mutation_pos_1indexed": 254,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "L249-E250-D251-V252-G253-R254-R255",
+        "pocket_lining_positions_precursor": [
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255
+        ],
+        "pocket_lining_1letter": "LEDVGRR",
+        "sequence_slice_around_pocket": "EQKTNLEDVGRRLGQHVVGM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TSFM_R254C/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "L249",
+          "E250",
+          "D251",
+          "V252",
+          "G253",
+          "R254",
+          "R255"
+        ],
+        "values": [
+          [
+            0.0,
+            3.864,
+            5.623,
+            5.002,
+            5.775,
+            8.376,
+            9.785
+          ],
+          [
+            3.864,
+            0.0,
+            3.844,
+            5.556,
+            5.226,
+            6.123,
+            8.655
+          ],
+          [
+            5.623,
+            3.844,
+            0.0,
+            3.85,
+            5.521,
+            5.115,
+            6.139
+          ],
+          [
+            5.002,
+            5.556,
+            3.85,
+            0.0,
+            3.847,
+            5.521,
+            5.188
+          ],
+          [
+            5.775,
+            5.226,
+            5.521,
+            3.847,
+            0.0,
+            3.834,
+            5.513
+          ],
+          [
+            8.376,
+            6.123,
+            5.115,
+            5.521,
+            3.834,
+            0.0,
+            3.867
+          ],
+          [
+            9.785,
+            8.655,
+            6.139,
+            5.188,
+            5.513,
+            3.867,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7677173579238149,
+        "mw": 302.21,
+        "logp": 2.025,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.8623,
+        "sa_score": 3.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TSFM-R254C Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7677,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TSFM_R254C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TSFM_R254C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TSFM_R254C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TSFM_R254C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TSFM_R254C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSFM-R254C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSFM-R254C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:28:03.198769+00:00"
     }
   ]
 }
