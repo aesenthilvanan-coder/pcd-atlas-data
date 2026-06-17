@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1320,
+  "total_entries": 1321,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45937,
-    "queue_remaining": 132660
+    "total_processed": 45938,
+    "queue_remaining": 132659
   },
   "entries": [
     {
@@ -292487,6 +292487,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:18:04.640529+00:00"
+    },
+    {
+      "entry_id": "PCD-FLCN-D476E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FLCN-D476E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FLCN",
+        "uniprot": "",
+        "clinvar_id": "322062",
+        "disease": "Familial spontaneous pneumothorax",
+        "mutation_precursor": "D476E",
+        "mutation_mature": "D476E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8735325708419518,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 548.3932403976519,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -29.577472686767578,
+          10.80691146850586,
+          22.363479614257812
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.120337374881986,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6171039692334056,
+        "cryptic": true,
+        "pocket_residues": {
+          "P359": "P",
+          "A474": "A",
+          "A475": "A",
+          "D476": "D",
+          "R477": "R"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NFG4|FLCN variant D476E",
+        "fasta_sequence": "MNAIVALCHFCELHGPRTLFCTEVLHAPLPQGDGNEDSPGQGEQAEEEEGGIQMNSRMRAHSPAEGASVESSSPGPKKSDMCEGCRSLAAGHPGYISHDKETSIKYVSHQHPSHPQLFSIVRQACVRSLSCEVCPGREGPIFFGDEQHGFVFSHTFFIKDSLARGFQRWYSIITIMMDRIYLINSWPFLLGKVRGIIDELQGKALKVFEAEQFGCPQRAQRMNTAFTPFLHQRNGNAARSLTSLTSDDNLWACLHTSFAWLLKACGSRLTEKLLEGAPTEDTLVQMEKLADLEEESESWDNSEAEEEEKAPVLPESTEGRELTQGPAESSSLSGCGSWQPRKLPVFKSLRHMRQVLGAPSFRMLAWHVLMGNQVIWKSRDVDLVQSAFEVLRTMLPVGCVRIIPYSSQYEEAYRCNFLGLSPHVQIPPHVLSSEFAVIVEVHAAARSTLHPVGCEDDQSLSKYEFVVTSGSPVAADRVGPTILNKIEAALTNQNLSVDVVDQCLVCLKEEWMNKVKVLFKFTKVDSRPKEDTQKLLSILGASEEDNVKLLKFWMTGLSKTYKSHLMSTVRSPTASESRN",
+        "full_sequence": "MNAIVALCHFCELHGPRTLFCTEVLHAPLPQGDGNEDSPGQGEQAEEEEGGIQMNSRMRAHSPAEGASVESSSPGPKKSDMCEGCRSLAAGHPGYISHDKETSIKYVSHQHPSHPQLFSIVRQACVRSLSCEVCPGREGPIFFGDEQHGFVFSHTFFIKDSLARGFQRWYSIITIMMDRIYLINSWPFLLGKVRGIIDELQGKALKVFEAEQFGCPQRAQRMNTAFTPFLHQRNGNAARSLTSLTSDDNLWACLHTSFAWLLKACGSRLTEKLLEGAPTEDTLVQMEKLADLEEESESWDNSEAEEEEKAPVLPESTEGRELTQGPAESSSLSGCGSWQPRKLPVFKSLRHMRQVLGAPSFRMLAWHVLMGNQVIWKSRDVDLVQSAFEVLRTMLPVGCVRIIPYSSQYEEAYRCNFLGLSPHVQIPPHVLSSEFAVIVEVHAAARSTLHPVGCEDDQSLSKYEFVVTSGSPVAADRVGPTILNKIEAALTNQNLSVDVVDQCLVCLKEEWMNKVKVLFKFTKVDSRPKEDTQKLLSILGASEEDNVKLLKFWMTGLSKTYKSHLMSTVRSPTASESRN",
+        "n_residues": 579,
+        "mutation_pos_1indexed": 476,
+        "wt_aa": "D",
+        "mut_aa": "E",
+        "pocket_lining_residues": "P359-A474-A475-D476-R477",
+        "pocket_lining_positions_precursor": [
+          359,
+          474,
+          475,
+          476,
+          477
+        ],
+        "pocket_lining_1letter": "PAADR",
+        "sequence_slice_around_pocket": "VVTSGSPVAADRVGPTILNK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_D476E/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "P359",
+          "A474",
+          "A475",
+          "D476",
+          "R477"
+        ],
+        "values": [
+          [
+            0.0,
+            9.476,
+            6.29,
+            9.602,
+            11.559
+          ],
+          [
+            9.476,
+            0.0,
+            3.816,
+            4.988,
+            6.034
+          ],
+          [
+            6.29,
+            3.816,
+            0.0,
+            3.89,
+            5.945
+          ],
+          [
+            9.602,
+            4.988,
+            3.89,
+            0.0,
+            3.876
+          ],
+          [
+            11.559,
+            6.034,
+            5.945,
+            3.876,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1CC(=O)NC(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.761598952184187,
+        "mw": 382.2,
+        "logp": 2.038,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.7935,
+        "sa_score": 2.38,
+        "n_heavy_atoms": 28,
+        "tpsa": 97.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FLCN-D476E Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1CC(=O)NC(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.7616,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_D476E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_D476E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_D476E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_D476E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_D476E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FLCN-D476E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FLCN-D476E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:18:28.650556+00:00"
     }
   ]
 }
