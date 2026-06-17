@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1328,
+  "total_entries": 1329,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45946,
-    "queue_remaining": 132651
+    "total_processed": 45947,
+    "queue_remaining": 132650
   },
   "entries": [
     {
@@ -293782,6 +293782,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:21:49.070986+00:00"
+    },
+    {
+      "entry_id": "PCD-CDH1-T646A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDH1-T646A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CDH1",
+        "uniprot": "",
+        "clinvar_id": "320266",
+        "disease": "Hereditary diffuse gastric adenocarcinoma",
+        "mutation_precursor": "T646A",
+        "mutation_mature": "T646A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7880221931588697,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 636.3090951915401,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.09988546371459961,
+          15.53026008605957,
+          -14.615756034851074
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.357935720259972,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8608195530394136,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q185": "Q",
+          "D187": "D",
+          "L190": "L",
+          "G206": "G",
+          "D230": "D",
+          "S231": "S",
+          "V232": "V",
+          "T233": "T",
+          "T248": "T",
+          "H249": "H",
+          "R273": "R"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UM11|CDH1 variant T646A",
+        "fasta_sequence": "MDQDYERRLLRQIVIQNENTMPRVTEMRRTLTPASSPVSSPSKHGDRFIPSRAGANWSVNFHRINENEKSPSQNRKAKDATSDNGKDGLAYSALLKNELLGAGIEKVQDPQTEDRRLQPSTPEKKGLFTYSLSTKRSSPDDGNDVSPYSLSPVSNKSQKLLRSPRKPTRKISKIPFKVLDAPELQDDFYLNLVDWSSLNVLSVGLGTCVYLWSACTSQVTRLCDLSVEGDSVTSVGWSERGNLVAVGTHKGFVQIWDAAAGKKLSMLEGHTARVGALAWNAEQLSSGSRDRMILQRDIRTPPLQSERRLQGHRQEVCGLKWSTDHQLLASGGNDNKLLVWNHSSLSPVQQYTEHLAAVKAIAWSPHQHGLLASGGGTADRCIRFWNTLTGQPLQCIDTGSQVCNLAWSKHANELVSTHGYSQNQILVWKYPSLTQVAKLTGHSYRVLYLAMSPDGEAIVTGAGDETLRFWNVFSKTRSTKVKWESVSVLNLFTRIR",
+        "full_sequence": "MDQDYERRLLRQIVIQNENTMPRVTEMRRTLTPASSPVSSPSKHGDRFIPSRAGANWSVNFHRINENEKSPSQNRKAKDATSDNGKDGLAYSALLKNELLGAGIEKVQDPQTEDRRLQPSTPEKKGLFTYSLSTKRSSPDDGNDVSPYSLSPVSNKSQKLLRSPRKPTRKISKIPFKVLDAPELQDDFYLNLVDWSSLNVLSVGLGTCVYLWSACTSQVTRLCDLSVEGDSVTSVGWSERGNLVAVGTHKGFVQIWDAAAGKKLSMLEGHTARVGALAWNAEQLSSGSRDRMILQRDIRTPPLQSERRLQGHRQEVCGLKWSTDHQLLASGGNDNKLLVWNHSSLSPVQQYTEHLAAVKAIAWSPHQHGLLASGGGTADRCIRFWNTLTGQPLQCIDTGSQVCNLAWSKHANELVSTHGYSQNQILVWKYPSLTQVAKLTGHSYRVLYLAMSPDGEAIVTGAGDETLRFWNVFSKTRSTKVKWESVSVLNLFTRIR",
+        "n_residues": 496,
+        "mutation_pos_1indexed": 646,
+        "wt_aa": "T",
+        "mut_aa": "A",
+        "pocket_lining_residues": "Q185-D187-L190-G206-D230-S231-V232-T233-T248-H249-R273",
+        "pocket_lining_positions_precursor": [
+          185,
+          187,
+          190,
+          206,
+          230,
+          231,
+          232,
+          233,
+          248,
+          249,
+          273
+        ],
+        "pocket_lining_1letter": "QDLGDSVTTHR",
+        "sequence_slice_around_pocket": "ERGNLVAVGTHKGFVQIWDA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CDH1_T646A/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "Q185",
+          "D187",
+          "L190",
+          "G206",
+          "D230",
+          "S231",
+          "V232",
+          "T233",
+          "T248",
+          "H249",
+          "R273"
+        ],
+        "values": [
+          [
+            0.0,
+            5.672,
+            8.138,
+            6.604,
+            13.572,
+            10.0,
+            9.381,
+            9.117,
+            13.271,
+            12.406,
+            14.194
+          ],
+          [
+            5.672,
+            0.0,
+            5.805,
+            11.283,
+            15.491,
+            12.267,
+            11.455,
+            9.199,
+            13.746,
+            12.175,
+            12.404
+          ],
+          [
+            8.138,
+            5.805,
+            0.0,
+            11.236,
+            13.928,
+            10.667,
+            8.428,
+            5.096,
+            9.95,
+            9.706,
+            9.226
+          ],
+          [
+            6.604,
+            11.283,
+            11.236,
+            0.0,
+            9.042,
+            5.862,
+            6.266,
+            8.76,
+            10.636,
+            10.643,
+            13.836
+          ],
+          [
+            13.572,
+            15.491,
+            13.928,
+            9.042,
+            0.0,
+            3.855,
+            7.102,
+            9.377,
+            6.551,
+            5.903,
+            9.745
+          ],
+          [
+            10.0,
+            12.267,
+            10.667,
+            5.862,
+            3.855,
+            0.0,
+            3.811,
+            6.341,
+            5.647,
+            5.373,
+            9.103
+          ],
+          [
+            9.381,
+            11.455,
+            8.428,
+            6.266,
+            7.102,
+            3.811,
+            0.0,
+            3.837,
+            4.832,
+            6.371,
+            8.992
+          ],
+          [
+            9.117,
+            9.199,
+            5.096,
+            8.76,
+            9.377,
+            6.341,
+            3.837,
+            0.0,
+            5.091,
+            5.793,
+            6.757
+          ],
+          [
+            13.271,
+            13.746,
+            9.95,
+            10.636,
+            6.551,
+            5.647,
+            4.832,
+            5.091,
+            0.0,
+            3.833,
+            5.719
+          ],
+          [
+            12.406,
+            12.175,
+            9.706,
+            10.643,
+            5.903,
+            5.373,
+            6.371,
+            5.793,
+            3.833,
+            0.0,
+            3.951
+          ],
+          [
+            14.194,
+            12.404,
+            9.226,
+            13.836,
+            9.745,
+            9.103,
+            8.992,
+            6.757,
+            5.719,
+            3.951,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC1CCCCC1ON1CCCCC1CNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.6834137337880457,
+        "mw": 451.26,
+        "logp": 2.406,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.6564,
+        "sa_score": 3.89,
+        "n_heavy_atoms": 31,
+        "tpsa": 100.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CDH1-T646A Candidate #1",
+        "iupac_name": "NC1CCCCC1ON1CCCCC1CNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.6834,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CDH1_T646A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CDH1_T646A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CDH1_T646A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDH1_T646A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDH1_T646A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDH1-T646A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDH1-T646A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:22:13.664503+00:00"
     }
   ]
 }
