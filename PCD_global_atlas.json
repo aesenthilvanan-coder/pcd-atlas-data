@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 521,
+  "total_entries": 522,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44984,
-    "queue_remaining": 133613
+    "total_processed": 44985,
+    "queue_remaining": 133612
   },
   "entries": [
     {
@@ -115480,6 +115480,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:32:38.100744+00:00"
+    },
+    {
+      "entry_id": "PCD-HEPACAM-A358T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HEPACAM-A358T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HEPACAM",
+        "uniprot": "",
+        "clinvar_id": "303325",
+        "disease": "Megalencephalic leukoencephalopathy with subcortical cysts",
+        "mutation_precursor": "A358T",
+        "mutation_mature": "A358T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9026219219011269,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 641.4722310395888,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -17.208614349365234,
+          41.63382339477539,
+          -15.968687057495117
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.8393720643487645,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7298138494591889,
+        "cryptic": true,
+        "pocket_residues": {
+          "I355": "I",
+          "R356": "R",
+          "S357": "S",
+          "A358": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q14CZ8|HEPACAM variant A358T",
+        "fasta_sequence": "MKRERGALSRASRALRLAPFVYLLLIQTDPLEGVNITSPVRLIHGTVGKSALLSVQYSSTSSDRPVVKWQLKRDKPVTVVQSIGTEVIGTLRPDYRDRIRLFENGSLLLSDLQLADEGTYEVEISITDDTFTGEKTINLTVDVPISRPQVLVASTTVLELSEAFTLNCSHENGTKPSYTWLKDGKPLLNDSRMLLSPDQKVLTITRVLMEDDDLYSCMVENPISQGRSLPVKITVYRRSSLYIILSTGGIFLLVTLVTVCACWKPSKRKQKKLEKQNSLEYMDQNDDRLKPEADTLPRSGEQERKNPMALYILKDKDSPETEENPAPEPRSATEPGPPGYSVSPAVPGRSPGLPIRSARRYPRSPARSPATGRTHSSPPRAPSSPGRSRSASRTLRTAGVHIIREQDEAGPVEISA",
+        "full_sequence": "MKRERGALSRASRALRLAPFVYLLLIQTDPLEGVNITSPVRLIHGTVGKSALLSVQYSSTSSDRPVVKWQLKRDKPVTVVQSIGTEVIGTLRPDYRDRIRLFENGSLLLSDLQLADEGTYEVEISITDDTFTGEKTINLTVDVPISRPQVLVASTTVLELSEAFTLNCSHENGTKPSYTWLKDGKPLLNDSRMLLSPDQKVLTITRVLMEDDDLYSCMVENPISQGRSLPVKITVYRRSSLYIILSTGGIFLLVTLVTVCACWKPSKRKQKKLEKQNSLEYMDQNDDRLKPEADTLPRSGEQERKNPMALYILKDKDSPETEENPAPEPRSATEPGPPGYSVSPAVPGRSPGLPIRSARRYPRSPARSPATGRTHSSPPRAPSSPGRSRSASRTLRTAGVHIIREQDEAGPVEISA",
+        "n_residues": 416,
+        "mutation_pos_1indexed": 358,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "I355-R356-S357-A358",
+        "pocket_lining_positions_precursor": [
+          355,
+          356,
+          357,
+          358
+        ],
+        "pocket_lining_1letter": "IRSA",
+        "sequence_slice_around_pocket": "GRSPGLPIRSARRYPRSPAR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HEPACAM_A358T/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "I355",
+          "R356",
+          "S357",
+          "A358"
+        ],
+        "values": [
+          [
+            0.0,
+            3.81,
+            6.704,
+            10.115
+          ],
+          [
+            3.81,
+            0.0,
+            3.776,
+            6.611
+          ],
+          [
+            6.704,
+            3.776,
+            0.0,
+            3.781
+          ],
+          [
+            10.115,
+            6.611,
+            3.781,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNC(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.5342173300829616,
+        "mw": 472.23,
+        "logp": 2.09,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.548,
+        "sa_score": 3.1,
+        "n_heavy_atoms": 33,
+        "tpsa": 134.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HEPACAM-A358T Candidate #1",
+        "iupac_name": "Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNC(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.5342,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HEPACAM_A358T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HEPACAM_A358T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HEPACAM_A358T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HEPACAM_A358T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HEPACAM_A358T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HEPACAM-A358T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HEPACAM-A358T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:33:01.134563+00:00"
     }
   ]
 }
