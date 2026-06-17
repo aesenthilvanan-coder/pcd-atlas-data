@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 25,
+  "total_entries": 26,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44407,
-    "queue_remaining": 134190
+    "total_processed": 44408,
+    "queue_remaining": 134189
   },
   "entries": [
     {
@@ -5961,6 +5961,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T02:58:19.760564+00:00"
+    },
+    {
+      "entry_id": "PCD-ESCO2-C109R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ESCO2-C109R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ESCO2",
+        "uniprot": "",
+        "clinvar_id": "362732",
+        "disease": "not provided",
+        "mutation_precursor": "C109R",
+        "mutation_mature": "C109R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8439881403630157,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 639.339721320688,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.0739521980285645,
+          -52.35395431518555,
+          17.59395408630371
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.223854423207442,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7193979728237163,
+        "cryptic": true,
+        "pocket_residues": {
+          "S105": "S",
+          "R106": "R",
+          "S107": "S",
+          "T108": "T",
+          "C109": "C"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q56NI9|ESCO2 variant C109R",
+        "fasta_sequence": "MAALTPRKRKQDSLKCDSLLHFTENLFPSPNKKHCFYQNSDKNEENLHCSQQEHFVLSALKTTEINRLPSANQGSPFKSALSTVSFYNQNKWYLNPLERKLIKESRSTCLKTNDEDKSFPIVTEKMQGKPVCSKKNNKKPQKSLTAKYQPKYRHIKPVSRNSRNSKQNRVIYKPIVEKENNCHSAENNSNAPRVLSQKIKPQVTLQGGAAFFVRKKSSLRKSSLENEPSLGRTQKSKSEVIEDSDVETVSEKKTFATRQVPKCLVLEEKLKIGLLSASSKNKEKLIKDSSDDRVSSKEHKVDKNEAFSSEDSLGENKTISPKSTVYPIFSASSVNSKRSLGEEQFSVGSVNFMKQTNIQKNTNTRDTSKKTKDQLIIDAGQKHFGATVCKSCGMIYTASNPEDEMQHVQHHHRFLEGIKYVGWKKERVVAEFWDGKIVLVLPHDPSFAIKKVEDVQELVDNELGFQQVVPKCPNKIKTFLFISDEKRVVGCLIAEPIKQAFRVLSEPIGPESPSSTECPRAWQCSDVPEPAVCGISRIWVFRLKRRKRIARRLVDTLRNCFMFGCFLSTDEIAFSDPTPDGKLFATKYCNTPNFLVYNFNS",
+        "full_sequence": "MAALTPRKRKQDSLKCDSLLHFTENLFPSPNKKHCFYQNSDKNEENLHCSQQEHFVLSALKTTEINRLPSANQGSPFKSALSTVSFYNQNKWYLNPLERKLIKESRSTCLKTNDEDKSFPIVTEKMQGKPVCSKKNNKKPQKSLTAKYQPKYRHIKPVSRNSRNSKQNRVIYKPIVEKENNCHSAENNSNAPRVLSQKIKPQVTLQGGAAFFVRKKSSLRKSSLENEPSLGRTQKSKSEVIEDSDVETVSEKKTFATRQVPKCLVLEEKLKIGLLSASSKNKEKLIKDSSDDRVSSKEHKVDKNEAFSSEDSLGENKTISPKSTVYPIFSASSVNSKRSLGEEQFSVGSVNFMKQTNIQKNTNTRDTSKKTKDQLIIDAGQKHFGATVCKSCGMIYTASNPEDEMQHVQHHHRFLEGIKYVGWKKERVVAEFWDGKIVLVLPHDPSFAIKKVEDVQELVDNELGFQQVVPKCPNKIKTFLFISDEKRVVGCLIAEPIKQAFRVLSEPIGPESPSSTECPRAWQCSDVPEPAVCGISRIWVFRLKRRKRIARRLVDTLRNCFMFGCFLSTDEIAFSDPTPDGKLFATKYCNTPNFLVYNFNS",
+        "n_residues": 601,
+        "mutation_pos_1indexed": 109,
+        "wt_aa": "C",
+        "mut_aa": "R",
+        "pocket_lining_residues": "S105-R106-S107-T108-C109",
+        "pocket_lining_positions_precursor": [
+          105,
+          106,
+          107,
+          108,
+          109
+        ],
+        "pocket_lining_1letter": "SRSTC",
+        "sequence_slice_around_pocket": "RKLIKESRSTCLKTNDEDKS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ESCO2_C109R/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "S105",
+          "R106",
+          "S107",
+          "T108",
+          "C109"
+        ],
+        "values": [
+          [
+            0.0,
+            3.866,
+            5.372,
+            5.063,
+            6.279
+          ],
+          [
+            3.866,
+            0.0,
+            3.848,
+            5.515,
+            5.301
+          ],
+          [
+            5.372,
+            3.848,
+            0.0,
+            3.86,
+            5.672
+          ],
+          [
+            5.063,
+            5.515,
+            3.86,
+            0.0,
+            3.866
+          ],
+          [
+            6.279,
+            5.301,
+            5.672,
+            3.866,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(O)cc1N1CC(=O)CCC1OCNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.5223119208327566,
+        "mw": 417.11,
+        "logp": 2.044,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.6181,
+        "sa_score": 3.29,
+        "n_heavy_atoms": 29,
+        "tpsa": 122.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ESCO2-C109R Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(O)cc1N1CC(=O)CCC1OCNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.5223,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ESCO2_C109R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ESCO2_C109R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ESCO2_C109R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ESCO2_C109R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ESCO2_C109R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ESCO2-C109R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ESCO2-C109R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T02:58:43.822814+00:00"
     }
   ]
 }
