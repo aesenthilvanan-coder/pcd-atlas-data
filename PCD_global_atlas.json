@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 413,
+  "total_entries": 414,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44866,
-    "queue_remaining": 133731
+    "total_processed": 44867,
+    "queue_remaining": 133730
   },
   "entries": [
     {
@@ -91080,6 +91080,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:07:49.405094+00:00"
+    },
+    {
+      "entry_id": "PCD-CYP11A1-V79I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP11A1-V79I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CYP11A1",
+        "uniprot": "",
+        "clinvar_id": "317132",
+        "disease": "Congenital adrenal insufficiency with 46, XY sex reversal OR 46,XY disorder of s",
+        "mutation_precursor": "V79I",
+        "mutation_mature": "V79I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8811160346784496,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 463.242992932713,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.43830406665802,
+          12.896404266357422,
+          -22.89868927001953
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.3551793626666555,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7186259050591335,
+        "cryptic": true,
+        "pocket_residues": {
+          "L76": "L",
+          "H77": "H",
+          "H78": "H",
+          "V79": "V",
+          "Q80": "Q",
+          "N81": "N",
+          "F82": "F",
+          "Q83": "Q",
+          "K84": "K"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P05108|CYP11A1 variant V79I",
+        "fasta_sequence": "MLAKGLPPRSVLVKGCQTFLSAPREGLGRLRVPTGEGAGISTRSPRPFNEIPSPGDNGWLNLYHFWRETGTHKVHLHHVQNFQKYGPIYREKLGNVESVYVIDPEDVALLFKSEGPNPERFLIPPWVAYHQYYQRPIGVLLKKSAAWKKDRVALNQEVMAPEATKNFLPLLDAVSRDFVSVLHRRIKKAGSGNYSGDISDDLFRFAFESITNVIFGERQGMLEEVVNPEAQRFIDAIYQMFHTSVPMLNLPPDLFRLFRTKTWKDHVAAWDVIFSKADIYTQNFYWELRQKGSVHHDYRGILYRLLGDSKMSFEDIKANVTEMLAGGVDTTSMTLQWHLYEMARNLKVQDMLRAEVLAARHQAQGDMATMLQLVPLLKASIKETLRLHPISVTLQRYLVNDLVLRDYMIPAKTLVQVAIYALGREPTFFFDPENFDPTRWLSKDKNITYFRNLGFGWGVRQCLGRRIAELEMTIFLINMLENFRVEIQHLSDVGTTFNLILMPEKPISFTFWPFNQEATQQ",
+        "full_sequence": "MLAKGLPPRSVLVKGCQTFLSAPREGLGRLRVPTGEGAGISTRSPRPFNEIPSPGDNGWLNLYHFWRETGTHKVHLHHVQNFQKYGPIYREKLGNVESVYVIDPEDVALLFKSEGPNPERFLIPPWVAYHQYYQRPIGVLLKKSAAWKKDRVALNQEVMAPEATKNFLPLLDAVSRDFVSVLHRRIKKAGSGNYSGDISDDLFRFAFESITNVIFGERQGMLEEVVNPEAQRFIDAIYQMFHTSVPMLNLPPDLFRLFRTKTWKDHVAAWDVIFSKADIYTQNFYWELRQKGSVHHDYRGILYRLLGDSKMSFEDIKANVTEMLAGGVDTTSMTLQWHLYEMARNLKVQDMLRAEVLAARHQAQGDMATMLQLVPLLKASIKETLRLHPISVTLQRYLVNDLVLRDYMIPAKTLVQVAIYALGREPTFFFDPENFDPTRWLSKDKNITYFRNLGFGWGVRQCLGRRIAELEMTIFLINMLENFRVEIQHLSDVGTTFNLILMPEKPISFTFWPFNQEATQQ",
+        "n_residues": 521,
+        "mutation_pos_1indexed": 79,
+        "wt_aa": "V",
+        "mut_aa": "I",
+        "pocket_lining_residues": "L76-H77-H78-V79-Q80-N81-F82-Q83-K84",
+        "pocket_lining_positions_precursor": [
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84
+        ],
+        "pocket_lining_1letter": "LHHVQNFQK",
+        "sequence_slice_around_pocket": "TGTHKVHLHHVQNFQKYGPI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CYP11A1_V79I/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "L76",
+          "H77",
+          "H78",
+          "V79",
+          "Q80",
+          "N81",
+          "F82",
+          "Q83",
+          "K84"
+        ],
+        "values": [
+          [
+            0.0,
+            3.851,
+            5.382,
+            5.024,
+            6.146,
+            8.513,
+            10.034,
+            10.647,
+            12.257
+          ],
+          [
+            3.851,
+            0.0,
+            3.836,
+            5.554,
+            5.191,
+            6.097,
+            8.79,
+            9.942,
+            10.394
+          ],
+          [
+            5.382,
+            3.836,
+            0.0,
+            3.869,
+            5.499,
+            5.039,
+            6.298,
+            8.666,
+            9.756
+          ],
+          [
+            5.024,
+            5.554,
+            3.869,
+            0.0,
+            3.854,
+            5.492,
+            5.385,
+            6.364,
+            8.755
+          ],
+          [
+            6.146,
+            5.191,
+            5.499,
+            3.854,
+            0.0,
+            3.838,
+            5.627,
+            5.094,
+            6.182
+          ],
+          [
+            8.513,
+            6.097,
+            5.039,
+            5.492,
+            3.838,
+            0.0,
+            3.861,
+            5.346,
+            4.919
+          ],
+          [
+            10.034,
+            8.79,
+            6.298,
+            5.385,
+            5.627,
+            3.861,
+            0.0,
+            3.848,
+            5.42
+          ],
+          [
+            10.647,
+            9.942,
+            8.666,
+            6.364,
+            5.094,
+            5.346,
+            3.848,
+            0.0,
+            3.863
+          ],
+          [
+            12.257,
+            10.394,
+            9.756,
+            8.755,
+            6.182,
+            4.919,
+            5.42,
+            3.863,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1CC(=O)NCc1nc2ccccc2[nH]1",
+        "composite_score": 0.6743397224666313,
+        "mw": 326.12,
+        "logp": 1.66,
+        "hbd": 3,
+        "hba": 3,
+        "rotatable_bonds": 5,
+        "qed": 0.6644,
+        "sa_score": 2.16,
+        "n_heavy_atoms": 24,
+        "tpsa": 100.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CYP11A1-V79I Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1CC(=O)NCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6743,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CYP11A1_V79I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CYP11A1_V79I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CYP11A1_V79I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CYP11A1_V79I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CYP11A1_V79I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP11A1-V79I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP11A1-V79I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:08:13.308754+00:00"
     }
   ]
 }
