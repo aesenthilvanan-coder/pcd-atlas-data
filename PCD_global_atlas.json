@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 104,
+  "total_entries": 105,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44508,
-    "queue_remaining": 134089
+    "total_processed": 44509,
+    "queue_remaining": 134088
   },
   "entries": [
     {
@@ -23864,6 +23864,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:13:42.180328+00:00"
+    },
+    {
+      "entry_id": "PCD-PSAP-H486Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-H486Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PSAP",
+        "uniprot": "",
+        "clinvar_id": "300508",
+        "disease": "Sphingolipid activator protein 1 deficiency",
+        "mutation_precursor": "H486Y",
+        "mutation_mature": "H486Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7220150426241696,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 323.6153063032428,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          25.130643844604492,
+          -6.885775566101074,
+          -11.741600036621094
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.7601651275195067,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.830967182795275,
+        "cryptic": true,
+        "pocket_residues": {
+          "K188": "K",
+          "T189": "T",
+          "S190": "S",
+          "L191": "L",
+          "K192": "K",
+          "K193": "K",
+          "V194": "V",
+          "V195": "V",
+          "K196": "K",
+          "E197": "E"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NZJ7|PSAP variant H486Y",
+        "fasta_sequence": "MGASDPEVAPWARGGAAGMAGAGAGAGARGGAAAGVEARARDPPPAHRAHPRHPRPAAQPSARRMDGGSGGLGSGDNAPTTEALFVALGAGVTALSHPLLYVKLLIQVGHEPMPPTLGTNVLGRKVLYLPSFFTYAKYIVQVDGKIGLFRGLSPRLMSNALSTVTRGSMKKVFPPDEIEQVSNKDDMKTSLKKVVKETSYEMMMQCVSRMLAHPLHVISMRCMVQFVGREAKYSGVLSSIGKIFKEEGLLGFFVGLIPHLLGDVVFLWGCNLLAHFINAYLVDDSVSDTPGGLGNDQNPGSQFSQALAIRSYTKFVMGIAVSMLTYPFLLVGDLMAVNNCGLQAGLPPYSPVFKSWIHCWKYLSVQGQLFRGSSLLFRRVSSGSCFALE",
+        "full_sequence": "MGASDPEVAPWARGGAAGMAGAGAGAGARGGAAAGVEARARDPPPAHRAHPRHPRPAAQPSARRMDGGSGGLGSGDNAPTTEALFVALGAGVTALSHPLLYVKLLIQVGHEPMPPTLGTNVLGRKVLYLPSFFTYAKYIVQVDGKIGLFRGLSPRLMSNALSTVTRGSMKKVFPPDEIEQVSNKDDMKTSLKKVVKETSYEMMMQCVSRMLAHPLHVISMRCMVQFVGREAKYSGVLSSIGKIFKEEGLLGFFVGLIPHLLGDVVFLWGCNLLAHFINAYLVDDSVSDTPGGLGNDQNPGSQFSQALAIRSYTKFVMGIAVSMLTYPFLLVGDLMAVNNCGLQAGLPPYSPVFKSWIHCWKYLSVQGQLFRGSSLLFRRVSSGSCFALE",
+        "n_residues": 389,
+        "mutation_pos_1indexed": 486,
+        "wt_aa": "H",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "K188-T189-S190-L191-K192-K193-V194-V195-K196-E197",
+        "pocket_lining_positions_precursor": [
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197
+        ],
+        "pocket_lining_1letter": "KTSLKKVVKE",
+        "sequence_slice_around_pocket": "DDMKTSLKKVVKETSYEMMM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_H486Y/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "K188",
+          "T189",
+          "S190",
+          "L191",
+          "K192",
+          "K193",
+          "V194",
+          "V195",
+          "K196",
+          "E197"
+        ],
+        "values": [
+          [
+            0.0,
+            3.833,
+            5.439,
+            5.151,
+            6.141,
+            8.531,
+            9.883,
+            10.479,
+            12.188,
+            14.114
+          ],
+          [
+            3.833,
+            0.0,
+            3.853,
+            5.527,
+            5.101,
+            6.065,
+            8.63,
+            9.842,
+            10.437,
+            12.089
+          ],
+          [
+            5.439,
+            3.853,
+            0.0,
+            3.851,
+            5.537,
+            5.055,
+            6.179,
+            8.617,
+            9.892,
+            10.44
+          ],
+          [
+            5.151,
+            5.527,
+            3.851,
+            0.0,
+            3.867,
+            5.394,
+            5.063,
+            6.071,
+            8.557,
+            9.793
+          ],
+          [
+            6.141,
+            5.101,
+            5.537,
+            3.867,
+            0.0,
+            3.844,
+            5.539,
+            5.082,
+            6.079,
+            8.531
+          ],
+          [
+            8.531,
+            6.065,
+            5.055,
+            5.394,
+            3.844,
+            0.0,
+            3.851,
+            5.497,
+            5.153,
+            6.041
+          ],
+          [
+            9.883,
+            8.63,
+            6.179,
+            5.063,
+            5.539,
+            3.851,
+            0.0,
+            3.851,
+            5.542,
+            5.101
+          ],
+          [
+            10.479,
+            9.842,
+            8.617,
+            6.071,
+            5.082,
+            5.497,
+            3.851,
+            0.0,
+            3.872,
+            5.561
+          ],
+          [
+            12.188,
+            10.437,
+            9.892,
+            8.557,
+            6.079,
+            5.153,
+            5.542,
+            3.872,
+            0.0,
+            3.859
+          ],
+          [
+            14.114,
+            12.089,
+            10.44,
+            9.793,
+            8.531,
+            6.041,
+            5.101,
+            5.561,
+            3.859,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)CCCc1c[nH]c2ccccc12",
+        "composite_score": 0.8193167676631234,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.09,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PSAP-H486Y Candidate #1",
+        "iupac_name": "NCC(=O)CCCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8193,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_H486Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_H486Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_H486Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_H486Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_H486Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-H486Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-H486Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:14:03.000231+00:00"
     }
   ]
 }
