@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 900,
+  "total_entries": 901,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45433,
-    "queue_remaining": 133164
+    "total_processed": 45434,
+    "queue_remaining": 133163
   },
   "entries": [
     {
@@ -198304,6 +198304,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:51:22.883885+00:00"
+    },
+    {
+      "entry_id": "PCD-DNAAF3-P530L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAAF3-P530L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DNAAF3",
+        "uniprot": "",
+        "clinvar_id": "330207",
+        "disease": "Primary ciliary dyskinesia",
+        "mutation_precursor": "P530L",
+        "mutation_mature": "P530L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.94408973602864,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 314.1759484106808,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          63.19055938720703,
+          -19.50413703918457,
+          -0.9960741400718689
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.1925531873220572,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8781349640133441,
+        "cryptic": true,
+        "pocket_residues": {
+          "L528": "L",
+          "A529": "A",
+          "P530": "P",
+          "P531": "P",
+          "N532": "N"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8N9W5|DNAAF3 variant P530L",
+        "fasta_sequence": "MTTPAGSGSGFGSVSWWGLSPALDLQAESPPVDPDSQADTVHSNPELDVLLLGSVDGRHLLRTLSRAKFWPRRRFNFFVLENNLEAVARHMLIFSLALEEPEKMGLQERSETFLEVWGNALLRPPVAAFVRAQADLLAHLVPEPDRLEEQLPWLSLRALKFRERDALEAVFRFWAGGEKGPQAFPMSRLWDSRLRHYLGSRYDARRGVSDWDLRMKLHDRGAQVIHPQEFRRWRDTGVAFELRDSSAYHVPNRTLASGRLLSYRGERVAARGYWGDIATGPFVAFGIEADDESLLRTSNGQPVKTAGEITQHNVTELLRDVAAWGRARATGGDLEEQQHAEGSPEPGTPAAPTPESFTVHFLPLNSAQTLHHKSCYNGRFQLLYVACGMVHLLIPELGACVAPGGNLIVELARYLVDVRQEQLQGFNTRVRELAQAAGFAPQTGARPSETFARFCKSQESALGNTVPAVEPGTPPLDILAQPLEASNPALEGLTQPLQGGTPHCEPCQLPSESPGSLSEVLAQPQGALAPPNCESDSKTGV",
+        "full_sequence": "MTTPAGSGSGFGSVSWWGLSPALDLQAESPPVDPDSQADTVHSNPELDVLLLGSVDGRHLLRTLSRAKFWPRRRFNFFVLENNLEAVARHMLIFSLALEEPEKMGLQERSETFLEVWGNALLRPPVAAFVRAQADLLAHLVPEPDRLEEQLPWLSLRALKFRERDALEAVFRFWAGGEKGPQAFPMSRLWDSRLRHYLGSRYDARRGVSDWDLRMKLHDRGAQVIHPQEFRRWRDTGVAFELRDSSAYHVPNRTLASGRLLSYRGERVAARGYWGDIATGPFVAFGIEADDESLLRTSNGQPVKTAGEITQHNVTELLRDVAAWGRARATGGDLEEQQHAEGSPEPGTPAAPTPESFTVHFLPLNSAQTLHHKSCYNGRFQLLYVACGMVHLLIPELGACVAPGGNLIVELARYLVDVRQEQLQGFNTRVRELAQAAGFAPQTGARPSETFARFCKSQESALGNTVPAVEPGTPPLDILAQPLEASNPALEGLTQPLQGGTPHCEPCQLPSESPGSLSEVLAQPQGALAPPNCESDSKTGV",
+        "n_residues": 541,
+        "mutation_pos_1indexed": 530,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "L528-A529-P530-P531-N532",
+        "pocket_lining_positions_precursor": [
+          528,
+          529,
+          530,
+          531,
+          532
+        ],
+        "pocket_lining_1letter": "LAPPN",
+        "sequence_slice_around_pocket": "VLAQPQGALAPPNCESDSKT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF3_P530L/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "L528",
+          "A529",
+          "P530",
+          "P531",
+          "N532"
+        ],
+        "values": [
+          [
+            0.0,
+            3.248,
+            6.983,
+            10.241,
+            12.96
+          ],
+          [
+            3.248,
+            0.0,
+            3.96,
+            7.086,
+            9.769
+          ],
+          [
+            6.983,
+            3.96,
+            0.0,
+            3.899,
+            7.173
+          ],
+          [
+            10.241,
+            7.086,
+            3.899,
+            0.0,
+            3.853
+          ],
+          [
+            12.96,
+            9.769,
+            7.173,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "composite_score": 0.5915293125998023,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.89,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DNAAF3-P530L Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5915,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF3_P530L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF3_P530L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF3_P530L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF3_P530L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF3_P530L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAAF3-P530L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAAF3-P530L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:51:47.693726+00:00"
     }
   ]
 }
