@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 418,
+  "total_entries": 419,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44871,
-    "queue_remaining": 133726
+    "total_processed": 44872,
+    "queue_remaining": 133725
   },
   "entries": [
     {
@@ -91999,6 +91999,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:13:09.631175+00:00"
+    },
+    {
+      "entry_id": "PCD-RLBP1-R64Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RLBP1-R64Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RLBP1",
+        "uniprot": "",
+        "clinvar_id": "317242",
+        "disease": "Newfoundland cone-rod dystrophy",
+        "mutation_precursor": "R64Q",
+        "mutation_mature": "R64Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7387709221419472,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 524.9208191458827,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          15.916593551635742,
+          3.6429708003997803,
+          -22.508834838867188
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.015047754958312,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7905631435762022,
+        "cryptic": true,
+        "pocket_residues": {
+          "V63": "V",
+          "R64": "R",
+          "Q67": "Q",
+          "E68": "E"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P12271|RLBP1 variant R64Q",
+        "fasta_sequence": "MSEGVGTFRMVPEEEQELRAQLEQLTTKDHGPVFGPCSQLPRHTLQKAKDELNEREETREEAVRELQEMVQAQAASGEELAVAVAERVQEKDSGFFLRFIRARKFNVGRAYELLRGYVNFRLQYPELFDSLSPEAVRCTIEAGYPGVLSSRDKYGRVVMLFNIENWQSQEITFDEILQAYCFILEKLLENEETQINGFCIIENFKGFTMQQAASLRTSDLRKMVDMLQDSFPARFKAIHFIHQPWYFTTTYNVVKPFLKSKLLERVFVHGDDLSGFYQEIDENILPSDFGGTLPKYDGKAVAEQLFGPQAQAENTAF",
+        "full_sequence": "MSEGVGTFRMVPEEEQELRAQLEQLTTKDHGPVFGPCSQLPRHTLQKAKDELNEREETREEAVRELQEMVQAQAASGEELAVAVAERVQEKDSGFFLRFIRARKFNVGRAYELLRGYVNFRLQYPELFDSLSPEAVRCTIEAGYPGVLSSRDKYGRVVMLFNIENWQSQEITFDEILQAYCFILEKLLENEETQINGFCIIENFKGFTMQQAASLRTSDLRKMVDMLQDSFPARFKAIHFIHQPWYFTTTYNVVKPFLKSKLLERVFVHGDDLSGFYQEIDENILPSDFGGTLPKYDGKAVAEQLFGPQAQAENTAF",
+        "n_residues": 317,
+        "mutation_pos_1indexed": 64,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "V63-R64-Q67-E68",
+        "pocket_lining_positions_precursor": [
+          63,
+          64,
+          67,
+          68
+        ],
+        "pocket_lining_1letter": "VRQE",
+        "sequence_slice_around_pocket": "EREETREEAVRELQEMVQAQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RLBP1_R64Q/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "V63",
+          "R64",
+          "Q67",
+          "E68"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            6.214,
+            8.642
+          ],
+          [
+            3.841,
+            0.0,
+            5.092,
+            6.079
+          ],
+          [
+            6.214,
+            5.092,
+            0.0,
+            3.858
+          ],
+          [
+            8.642,
+            6.079,
+            3.858,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CC(=O)CCC1CNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.6987728284467811,
+        "mw": 372.14,
+        "logp": 2.162,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8392,
+        "sa_score": 3.02,
+        "n_heavy_atoms": 26,
+        "tpsa": 88.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RLBP1-R64Q Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CC(=O)CCC1CNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.6988,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RLBP1_R64Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RLBP1_R64Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RLBP1_R64Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RLBP1_R64Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RLBP1_R64Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RLBP1-R64Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RLBP1-R64Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:13:31.160342+00:00"
     }
   ]
 }
