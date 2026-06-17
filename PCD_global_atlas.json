@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1070,
+  "total_entries": 1071,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45652,
-    "queue_remaining": 132945
+    "total_processed": 45653,
+    "queue_remaining": 132944
   },
   "entries": [
     {
@@ -235759,6 +235759,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:23:08.105037+00:00"
+    },
+    {
+      "entry_id": "PCD-CTNS-M148I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CTNS-M148I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CTNS",
+        "uniprot": "",
+        "clinvar_id": "322840",
+        "disease": "Ocular cystinosis",
+        "mutation_precursor": "M148I",
+        "mutation_mature": "M148I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8493484126824951,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 368.0347147642738,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.806869506835938,
+          -9.574080467224121,
+          9.656575202941895
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.769014359992186,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7421581743627234,
+        "cryptic": true,
+        "pocket_residues": {
+          "F142": "F",
+          "Y143": "Y",
+          "P144": "P",
+          "Q145": "Q",
+          "V146": "V",
+          "I147": "I",
+          "M148": "M",
+          "N149": "N",
+          "W150": "W",
+          "I219": "I"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O60931|CTNS variant M148I",
+        "fasta_sequence": "MIRNWLTIFILFPLKLVEKCESSVSLTVPPVVKLENGSSTNVSLTLRPPLNATLVITFEITFRSKNITILELPDEVVVPPGVTNSSFQVTSQNVGQLTVYLHGNHSNQTGPRIRFLVIRSSAISIINQVIGWIYFVAWSISFYPQVIMNWRRKSVIGLSFDFVALNLTGFVAYSVFNIGLLWVPYIKEQFLLKYPNGVNPVNSNDVFFSLHAVVLTLIIIVQCCLYERGGQRVSWPAIGFLVLAWLFAFVTMIVAAVGVTTWLQFLFCFSYIKLAVTLVKYFPQAYMNFYYKSTEGWSIGNVLLDFTGGSFSLLQMFLQSYNNDQWTLIFGDPTKFGLGVFSIVFDVVFFIQHFCLYRKRPGYDQLN",
+        "full_sequence": "MIRNWLTIFILFPLKLVEKCESSVSLTVPPVVKLENGSSTNVSLTLRPPLNATLVITFEITFRSKNITILELPDEVVVPPGVTNSSFQVTSQNVGQLTVYLHGNHSNQTGPRIRFLVIRSSAISIINQVIGWIYFVAWSISFYPQVIMNWRRKSVIGLSFDFVALNLTGFVAYSVFNIGLLWVPYIKEQFLLKYPNGVNPVNSNDVFFSLHAVVLTLIIIVQCCLYERGGQRVSWPAIGFLVLAWLFAFVTMIVAAVGVTTWLQFLFCFSYIKLAVTLVKYFPQAYMNFYYKSTEGWSIGNVLLDFTGGSFSLLQMFLQSYNNDQWTLIFGDPTKFGLGVFSIVFDVVFFIQHFCLYRKRPGYDQLN",
+        "n_residues": 367,
+        "mutation_pos_1indexed": 148,
+        "wt_aa": "M",
+        "mut_aa": "I",
+        "pocket_lining_residues": "F142-Y143-P144-Q145-V146-I147-M148-N149-W150-I219",
+        "pocket_lining_positions_precursor": [
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          219
+        ],
+        "pocket_lining_1letter": "FYPQVIMNWI",
+        "sequence_slice_around_pocket": "WSISFYPQVIMNWRRKSVIG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CTNS_M148I/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "F142",
+          "Y143",
+          "P144",
+          "Q145",
+          "V146",
+          "I147",
+          "M148",
+          "N149",
+          "W150",
+          "I219"
+        ],
+        "values": [
+          [
+            0.0,
+            3.846,
+            5.837,
+            5.826,
+            6.614,
+            8.986,
+            10.395,
+            11.32,
+            12.805,
+            9.291
+          ],
+          [
+            3.846,
+            0.0,
+            3.879,
+            5.422,
+            4.991,
+            5.97,
+            8.333,
+            9.878,
+            10.429,
+            9.837
+          ],
+          [
+            5.837,
+            3.879,
+            0.0,
+            3.847,
+            5.612,
+            5.257,
+            5.895,
+            8.546,
+            9.848,
+            11.081
+          ],
+          [
+            5.826,
+            5.422,
+            3.847,
+            0.0,
+            3.859,
+            5.532,
+            5.079,
+            6.095,
+            8.515,
+            7.965
+          ],
+          [
+            6.614,
+            4.991,
+            5.612,
+            3.859,
+            0.0,
+            3.852,
+            5.627,
+            5.407,
+            6.258,
+            6.124
+          ],
+          [
+            8.986,
+            5.97,
+            5.257,
+            5.532,
+            3.852,
+            0.0,
+            3.846,
+            5.521,
+            5.003,
+            9.668
+          ],
+          [
+            10.395,
+            8.333,
+            5.895,
+            5.079,
+            5.627,
+            3.846,
+            0.0,
+            3.844,
+            5.427,
+            10.427
+          ],
+          [
+            11.32,
+            9.878,
+            8.546,
+            6.095,
+            5.407,
+            5.521,
+            3.844,
+            0.0,
+            3.846,
+            7.939
+          ],
+          [
+            12.805,
+            10.429,
+            9.848,
+            8.515,
+            6.258,
+            5.003,
+            5.427,
+            3.846,
+            0.0,
+            9.321
+          ],
+          [
+            9.291,
+            9.837,
+            11.081,
+            7.965,
+            6.124,
+            9.668,
+            10.427,
+            7.939,
+            9.321,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6841300431682139,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CTNS-M148I Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6841,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CTNS_M148I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CTNS_M148I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CTNS_M148I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CTNS_M148I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CTNS_M148I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CTNS-M148I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CTNS-M148I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:23:31.117712+00:00"
     }
   ]
 }
