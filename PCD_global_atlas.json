@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1279,
+  "total_entries": 1280,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45895,
-    "queue_remaining": 132702
+    "total_processed": 45896,
+    "queue_remaining": 132701
   },
   "entries": [
     {
@@ -282820,6 +282820,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:44:14.242666+00:00"
+    },
+    {
+      "entry_id": "PCD-NOTCH3-R1834Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NOTCH3-R1834Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NOTCH3",
+        "uniprot": "",
+        "clinvar_id": "328381",
+        "disease": "Cerebral arteriopathy, autosomal dominant, with subcortical infarcts and leukoen",
+        "mutation_precursor": "R1834Q",
+        "mutation_mature": "R1834Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8215204215990337,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 516.9177293279857,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -13.548028945922852,
+          24.527446746826172,
+          -8.093914031982422
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.527979587976429,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7073644325306585,
+        "cryptic": true,
+        "pocket_residues": {
+          "G1832": "G",
+          "A1833": "A",
+          "R1834": "R",
+          "G1839": "G",
+          "E1840": "E",
+          "T1841": "T",
+          "A1867": "A",
+          "Q1868": "Q",
+          "D1869": "D",
+          "H1870": "H"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UM47|NOTCH3 variant R1834Q",
+        "fasta_sequence": "MGPGARGRRRRRRPMSPPPPPPPVRALPLLLLLAGPGAAAPPCLDGSPCANGGRCTQLPSREAACLCPPGWVGERCQLEDPCHSGPCAGRGVCQSSVVAGTARFSCRCPRGFRGPDCSLPDPCLSSPCAHGARCSVGPDGRFLCSCPPGYQGRSCRSDVDECRVGEPCRHGGTCLNTPGSFRCQCPAGYTGPLCENPAVPCAPSPCRNGGTCRQSGDLTYDCACLPGFEGQNCEVNVDDCPGHRCLNGGTCVDGVNTYNCQCPPEWTGQFCTEDVDECQLQPNACHNGGTCFNTLGGHSCVCVNGWTGESCSQNIDDCATAVCFHGATCHDRVASFYCACPMGKTGLLCHLDDACVSNPCHEDAICDTNPVNGRAICTCPPGFTGGACDQDVDECSIGANPCEHLGRCVNTQGSFLCQCGRGYTGPRCETDVNECLSGPCRNQATCLDRIGQFTCICMAGFTGTYCEVDIDECQSSPCVNGGVCKDRVNGFSCTCPSGFSGSTCQLDVDECASTPCRNGAKCVDQPDGYECRCAEGFEGTLCDRNVDDCSPDPCHHGRCVDGIASFSCACAPGYTGTRCESQVDECRSQPCRHGGKCLDLVDKYLCRCPSGTTGVNCEVNIDDCASNPCTFGVCRDGINRYDCVCQPGFTGPLCNVEINECASSPCGEGGSCVDGENGFRCLCPPGSLPPLCLPPSHPCAHEPCSHGICYDAPGGFRCVCEPGWSGPRCSQSLARDACESQPCRAGGTCSSDGMGFHCTCPPGVQGRQCELLSPCTPNPCEHGGRCESAPGQLPVCSCPQGWQGPRCQQDVDECAGPAPCGPHGICTNLAGSFSCTCHGGYTGPSCDQDINDCDPNPCLNGGSCQDGVGSFSCSCLPGFAGPRCARDVDECLSNPCGPGTCTDHVASFTCTCPPGYGGFHCEQDLPDCSPSSCFNGGTCVDGVNSFSCLCRPGYTGAHCQHEADPCLSRPCLHGGVCSAAHPGFRCTCLESFTGPQCQTLVDWCSRQPCQNGGRCVQTGAYCLCPPGWSGRLCDIRSLPCREAAAQIGVRLEQLCQAGGQCVDEDSSHYCVCPEGRTGSHCEQEVDPCLAQPCQHGGTCRGYMGGYMCECLPGYNGDNCEDDVDECASQPCQHGGSCIDLVARYLCSCPPGTLGVLCEINEDDCGPGPPLDSGPRCLHNGTCVDLVGGFRCTCPPGYTGLRCEADINECRSGACHAAHTRDCLQDPGGGFRCLCHAGFSGPRCQTVLSPCESQPCQHGGQCRPSPGPGGGLTFTCHCAQPFWGPRCERVARSCRELQCPVGVPCQQTPRGPRCACPPGLSGPSCRSFPGSPPGASNASCAAAPCLHGGSCRPAPLAPFFRCACAQGWTGPRCEAPAAAPEVSEEPRCPRAACQAKRGDQRCDRECNSPGCGWDGGDCSLSVGDPWRQCEALQCWRLFNNSRCDPACSSPACLYDNFDCHAGGRERTCNPVYEKYCADHFADGRCDQGCNTEECGWDGLDCASEVPALLARGVLVLTVLLPPEELLRSSADFLQRLSAILRTSLRFRLDAHGQAMVFPYHRPSPGSEPRARRELAPEVIGSVVMLEIDNRLCLQSPENDHCFPDAQSAADYLGALSAVERLDFPYPLRDVRGEPLEPPEPSVPLLPLLVAGAVLLLVILVLGVMVARRKREHSTLWFPEGFSLHKDVASGHKGRREPVGQDALGMKNMAKGESLMGEVATDWMDTECPEAKRLKVEEPGMGAEEAVDCRQWTQHHLVAADIRVAPAMALTPPQGDADADGMDVNVRGPDGFTPLMLASFCGGALEPMPTEEDEADDTSASIISDLICQGAQLGARTDRTGETALHLAARYARADAAKRLLDAGADTNAQDHSGRTPLHTAVTADAQGVFQILIRNRSTDLDARMADGSTALILAARLAVEGMVEELIASHADVNAVDELGKSALHWAAAVNNVEATLALLKNGANKDMQDSKEETPLFLAAREGSYEAAKLLLDHFANREITDHLDRLPRDVAQERLHQDIVRLLDQPSGPRSPPGPHGLGPLLCPPGAFLPGLKAAQSGSKKSRRPPGKAGLGPQGPRGRGKKLTLACPGPLADSSVTLSPVDSLDSPRPFGGPPASPGGFPLEGPYAAATATAVSLAQLGGPGRAGLGRQPPGGCVLSLGLLNPVAVPLDWARLPPPAPPGPSFLLPLAPGPQLLNPGTPVSPQERPPPYLAVPGHGEEYPAAGAHSSPPKARFLRVPSEHPYLTPSPESPEHWASPSPPSLSDWSESTPSPATATGAMATTTGALPAQPLPLSVPSSLAQAQTQLGPQPEVTPKRQVLA",
+        "full_sequence": "MGPGARGRRRRRRPMSPPPPPPPVRALPLLLLLAGPGAAAPPCLDGSPCANGGRCTQLPSREAACLCPPGWVGERCQLEDPCHSGPCAGRGVCQSSVVAGTARFSCRCPRGFRGPDCSLPDPCLSSPCAHGARCSVGPDGRFLCSCPPGYQGRSCRSDVDECRVGEPCRHGGTCLNTPGSFRCQCPAGYTGPLCENPAVPCAPSPCRNGGTCRQSGDLTYDCACLPGFEGQNCEVNVDDCPGHRCLNGGTCVDGVNTYNCQCPPEWTGQFCTEDVDECQLQPNACHNGGTCFNTLGGHSCVCVNGWTGESCSQNIDDCATAVCFHGATCHDRVASFYCACPMGKTGLLCHLDDACVSNPCHEDAICDTNPVNGRAICTCPPGFTGGACDQDVDECSIGANPCEHLGRCVNTQGSFLCQCGRGYTGPRCETDVNECLSGPCRNQATCLDRIGQFTCICMAGFTGTYCEVDIDECQSSPCVNGGVCKDRVNGFSCTCPSGFSGSTCQLDVDECASTPCRNGAKCVDQPDGYECRCAEGFEGTLCDRNVDDCSPDPCHHGRCVDGIASFSCACAPGYTGTRCESQVDECRSQPCRHGGKCLDLVDKYLCRCPSGTTGVNCEVNIDDCASNPCTFGVCRDGINRYDCVCQPGFTGPLCNVEINECASSPCGEGGSCVDGENGFRCLCPPGSLPPLCLPPSHPCAHEPCSHGICYDAPGGFRCVCEPGWSGPRCSQSLARDACESQPCRAGGTCSSDGMGFHCTCPPGVQGRQCELLSPCTPNPCEHGGRCESAPGQLPVCSCPQGWQGPRCQQDVDECAGPAPCGPHGICTNLAGSFSCTCHGGYTGPSCDQDINDCDPNPCLNGGSCQDGVGSFSCSCLPGFAGPRCARDVDECLSNPCGPGTCTDHVASFTCTCPPGYGGFHCEQDLPDCSPSSCFNGGTCVDGVNSFSCLCRPGYTGAHCQHEADPCLSRPCLHGGVCSAAHPGFRCTCLESFTGPQCQTLVDWCSRQPCQNGGRCVQTGAYCLCPPGWSGRLCDIRSLPCREAAAQIGVRLEQLCQAGGQCVDEDSSHYCVCPEGRTGSHCEQEVDPCLAQPCQHGGTCRGYMGGYMCECLPGYNGDNCEDDVDECASQPCQHGGSCIDLVARYLCSCPPGTLGVLCEINEDDCGPGPPLDSGPRCLHNGTCVDLVGGFRCTCPPGYTGLRCEADINECRSGACHAAHTRDCLQDPGGGFRCLCHAGFSGPRCQTVLSPCESQPCQHGGQCRPSPGPGGGLTFTCHCAQPFWGPRCERVARSCRELQCPVGVPCQQTPRGPRCACPPGLSGPSCRSFPGSPPGASNASCAAAPCLHGGSCRPAPLAPFFRCACAQGWTGPRCEAPAAAPEVSEEPRCPRAACQAKRGDQRCDRECNSPGCGWDGGDCSLSVGDPWRQCEALQCWRLFNNSRCDPACSSPACLYDNFDCHAGGRERTCNPVYEKYCADHFADGRCDQGCNTEECGWDGLDCASEVPALLARGVLVLTVLLPPEELLRSSADFLQRLSAILRTSLRFRLDAHGQAMVFPYHRPSPGSEPRARRELAPEVIGSVVMLEIDNRLCLQSPENDHCFPDAQSAADYLGALSAVERLDFPYPLRDVRGEPLEPPEPSVPLLPLLVAGAVLLLVILVLGVMVARRKREHSTLWFPEGFSLHKDVASGHKGRREPVGQDALGMKNMAKGESLMGEVATDWMDTECPEAKRLKVEEPGMGAEEAVDCRQWTQHHLVAADIRVAPAMALTPPQGDADADGMDVNVRGPDGFTPLMLASFCGGALEPMPTEEDEADDTSASIISDLICQGAQLGARTDRTGETALHLAARYARADAAKRLLDAGADTNAQDHSGRTPLHTAVTADAQGVFQILIRNRSTDLDARMADGSTALILAARLAVEGMVEELIASHADVNAVDELGKSALHWAAAVNNVEATLALLKNGANKDMQDSKEETPLFLAAREGSYEAAKLLLDHFANREITDHLDRLPRDVAQERLHQDIVRLLDQPSGPRSPPGPHGLGPLLCPPGAFLPGLKAAQSGSKKSRRPPGKAGLGPQGPRGRGKKLTLACPGPLADSSVTLSPVDSLDSPRPFGGPPASPGGFPLEGPYAAATATAVSLAQLGGPGRAGLGRQPPGGCVLSLGLLNPVAVPLDWARLPPPAPPGPSFLLPLAPGPQLLNPGTPVSPQERPPPYLAVPGHGEEYPAAGAHSSPPKARFLRVPSEHPYLTPSPESPEHWASPSPPSLSDWSESTPSPATATGAMATTTGALPAQPLPLSVPSSLAQAQTQLGPQPEVTPKRQVLA",
+        "n_residues": 2321,
+        "mutation_pos_1indexed": 1834,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "G1832-A1833-R1834-G1839-E1840-T1841-A1867-Q1868-D1869-H1870",
+        "pocket_lining_positions_precursor": [
+          1832,
+          1833,
+          1834,
+          1839,
+          1840,
+          1841,
+          1867,
+          1868,
+          1869,
+          1870
+        ],
+        "pocket_lining_1letter": "GARGETAQDH",
+        "sequence_slice_around_pocket": "LICQGAQLGARTDRTGETAL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NOTCH3_R1834Q/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "G1832",
+          "A1833",
+          "R1834",
+          "G1839",
+          "E1840",
+          "T1841",
+          "A1867",
+          "Q1868",
+          "D1869",
+          "H1870"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            6.411,
+            10.282,
+            9.072,
+            5.967,
+            8.14,
+            10.548,
+            11.123,
+            13.785
+          ],
+          [
+            3.841,
+            0.0,
+            3.858,
+            8.669,
+            8.03,
+            5.732,
+            10.492,
+            11.811,
+            11.103,
+            13.054
+          ],
+          [
+            6.411,
+            3.858,
+            0.0,
+            4.906,
+            4.99,
+            4.71,
+            9.822,
+            9.864,
+            8.114,
+            9.589
+          ],
+          [
+            10.282,
+            8.669,
+            4.906,
+            0.0,
+            3.844,
+            6.807,
+            9.774,
+            7.909,
+            4.703,
+            4.977
+          ],
+          [
+            9.072,
+            8.03,
+            4.99,
+            3.844,
+            0.0,
+            3.843,
+            8.507,
+            7.589,
+            4.98,
+            7.388
+          ],
+          [
+            5.967,
+            5.732,
+            4.71,
+            6.807,
+            3.843,
+            0.0,
+            7.579,
+            8.499,
+            7.529,
+            10.563
+          ],
+          [
+            8.14,
+            10.492,
+            9.822,
+            9.774,
+            8.507,
+            7.579,
+            0.0,
+            3.854,
+            6.872,
+            10.259
+          ],
+          [
+            10.548,
+            11.811,
+            9.864,
+            7.909,
+            7.589,
+            8.499,
+            3.854,
+            0.0,
+            3.878,
+            6.856
+          ],
+          [
+            11.123,
+            11.103,
+            8.114,
+            4.703,
+            4.98,
+            7.529,
+            6.872,
+            3.878,
+            0.0,
+            3.89
+          ],
+          [
+            13.785,
+            13.054,
+            9.589,
+            4.977,
+            7.388,
+            10.563,
+            10.259,
+            6.856,
+            3.89,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7180402764189164,
+        "mw": 302.21,
+        "logp": 2.025,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.8623,
+        "sa_score": 3.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NOTCH3-R1834Q Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.718,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NOTCH3_R1834Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NOTCH3_R1834Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NOTCH3_R1834Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NOTCH3_R1834Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NOTCH3_R1834Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NOTCH3-R1834Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NOTCH3-R1834Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:46:43.060963+00:00"
     }
   ]
 }
