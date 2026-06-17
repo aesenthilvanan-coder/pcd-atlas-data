@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 555,
+  "total_entries": 556,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45028,
-    "queue_remaining": 133569
+    "total_processed": 45029,
+    "queue_remaining": 133568
   },
   "entries": [
     {
@@ -123183,6 +123183,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:58:00.132137+00:00"
+    },
+    {
+      "entry_id": "PCD-CEP290-E725A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CEP290-E725A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CEP290",
+        "uniprot": "",
+        "clinvar_id": "310614",
+        "disease": "Meckel syndrome, type 4",
+        "mutation_precursor": "E725A",
+        "mutation_mature": "E725A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9361713263063837,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 552.2687669884558,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -63.75690841674805,
+          -4.238015651702881,
+          43.679344177246094
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.611888991728662,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6448582852342989,
+        "cryptic": true,
+        "pocket_residues": {
+          "E721": "E",
+          "S722": "S",
+          "R723": "R",
+          "K724": "K",
+          "E725": "E",
+          "A726": "A",
+          "I727": "I",
+          "N728": "N",
+          "Y729": "Y",
+          "S730": "S"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15078|CEP290 variant E725A",
+        "fasta_sequence": "MPPNINWKEIMKVDPDDLPRQEELADNLLISLSKVEVNELKSEKQENVIHLFRITQSLMKMKAQEVELALEEVEKAGEEQAKFENQLKTKVMKLENELEMAQQSAGGRDTRFLRNEICQLEKQLEQKDRELEDMEKELEKEKKVNEQLALRNEEAENENSKLRRENKRLKKKNEQLCQDIIDYQKQIDSQKETLLSRRGEDSDYRSQLSKKNYELIQYLDEIQTLTEANEKIEVQNQEMRKNLEESVQEMEKMTDEYNRMKAIVHQTDNVIDQLKKENDHYQLQVQELTDLLKSKNEEDDPIMVAVNAKVEEWKLILSSKDDEIIEYQQMLHNLREKLKNAQLDADKSNVMALQQGIQERDSQIKMLTEQVEQYTKEMEKNTCIIEDLKNELQRNKGASTLSQQTHMKIQSTLDILKEKTKEAERTAELAEADAREKDKELVEALKRLKDYESGVYGLEDAVVEIKNCKNQIKIRDREIEILTKEINKLELKISDFLDENEALRERVGLEPKTMIDLTEFRNSKHLKQQQYRAENQILLKEIESLEEERLDLKKKIRQMAQERGKRSATSGLTTEDLNLTENISQGDRISERKLDLLSLKNMSEAQSKNEFLSRELIEKERDLERSRTVIAKFQNKLKELVEENKQLEEGMKEILQAIKEMQKDPDVKGGETSLIIPSLERLVNAIESKNAEGIFDASLHLKAQVDQLTGRNEELRQELRESRKEAINYSQQLAKANLKIDHLEKETSLLRQSEGSNVVFKGIDLPDGIAPSSASIINSQNEYLIHLLQELENKEKKLKNLEDSLEDYNRKFAVIRHQQSLLYKEYLSEKETWKTESKTIKEEKRKLEDQVQQDAIKVKEYNNLLNALQMDSDEMKKILAENSRKITVLQVNEKSLIRQYTTLVELERQLRKENEKQKNELLSMEAEVCEKIGCLQRFKEMAIFKIAALQKVVDNSVSLSELELANKQYNELTAKYRDILQKDNMLVQRTSNLEHLECENISLKEQVESINKELEITKEKLHTIEQAWEQETKLGNESSMDKAKKSITNSDIVSISKKITMLEMKELNERQRAEHCQKMYEHLRTSLKQMEERNFELETKFAELTKINLDAQKVEQMLRDELADSVSKAVSDADRQRILELEKNEMELKVEVSKLREISDIARRQVEILNAQQQSRDKEVESLRMQLLDYQAQSDEKSLIAKLHQHNVSLQLSEATALGKLESITSKLQKMEAYNLRLEQKLDEKEQALYYARLEGRNRAKHLRQTIQSLRRQFSGALPLAQQEKFSKTMIQLQNDKLKIMQEMKNSQQEHRNMENKTLEMELKLKGLEELISTLKDTKGAQKVINWHMKIEELRLQELKLNRELVKDKEEIKYLNNIISEYERTISSLEEEIVQQNKFHEERQMAWDQREVDLERQLDIFDRQQNEILNAAQKFEEATGSIPDPSLPLPNQLEIALRKIKENIRIILETRATCKSLEEKLKEKESALRLAEQNILSRDKVINELRLRLPATAEREKLIAELGRKEMEPKSHHTLKIAHQTIANMQARLNQKEEVLKKYQRLLEKAREEQREIVKKHEEDLHILHHRLELQADSSLNKFKQTAWDLMKQSPTPVPTNKHFIRLAEMEQTVAEQDDSLSSLLVKLKKVSQDLERQREITELKVKEFENIKLQLQENHEDEVKKVKAEVEDLKYLLDQSQKESQCLKSELQAQKEANSRAPTTTMRNLVERLKSQLALKEKQQKALSRALLELRAEMTAAAEERIISATSQKEAHLNVQQIVDRHTRELKTQVEDLNENLLKLKEALKTSKNRENSLTDNLNDLNNELQKKQKAYNKILREKEEIDQENDELKRQIKRLTSGLQGKPLTDNKQSLIEELQRKVKKLENQLEGKVEEVDLKPMKEKNAKEELIRWEEGKKWQAKIEGIRNKLKEKEGEVFTLTKQLNTLKDLFAKADKEKLTLQRKLKTTGMTVDQVLGIRALESEKELEELKKRNLDLENDILYMRAHQALPRDSVVEDLHLQNRYLQEKLHALEKQFSKDTYSKPSISGIESDDHCQREQELQKENLKLSSENIELKFQLEQANKDLPRLKNQVRDLKEMCEFLKKEKAEVQRKLGHVRGSGRSGKTIPELEKTIGLMKKVVEKVQRENEQLKKASGILTSEKMANIEQENEKLKAELEKLKAHLGHQLSMHYESKTKGTEKIIAENERLRKELKKETDAAEKLRIAKNNLEILNEKMTVQLEETGKRLQFAESRGPQLEGADSKSWKSIVVTRMYETKLKELETDIAKKNQSITDLKQLVKEATEREQKVNKYNEDLEQQIKILKHVPEGAETEQGLKRELQVLRLANHQLDKEKAELIHQIEANKDQSGAESTIPDADQLKEKIKDLETQLKMSDLEKQHLKEEIKKLKKELENFDPSFFEEIEDLKYNYKEEVKKNILLEEKVKKLSEQLGVELTSPVAASEEFEDEEESPVNFPIY",
+        "full_sequence": "MPPNINWKEIMKVDPDDLPRQEELADNLLISLSKVEVNELKSEKQENVIHLFRITQSLMKMKAQEVELALEEVEKAGEEQAKFENQLKTKVMKLENELEMAQQSAGGRDTRFLRNEICQLEKQLEQKDRELEDMEKELEKEKKVNEQLALRNEEAENENSKLRRENKRLKKKNEQLCQDIIDYQKQIDSQKETLLSRRGEDSDYRSQLSKKNYELIQYLDEIQTLTEANEKIEVQNQEMRKNLEESVQEMEKMTDEYNRMKAIVHQTDNVIDQLKKENDHYQLQVQELTDLLKSKNEEDDPIMVAVNAKVEEWKLILSSKDDEIIEYQQMLHNLREKLKNAQLDADKSNVMALQQGIQERDSQIKMLTEQVEQYTKEMEKNTCIIEDLKNELQRNKGASTLSQQTHMKIQSTLDILKEKTKEAERTAELAEADAREKDKELVEALKRLKDYESGVYGLEDAVVEIKNCKNQIKIRDREIEILTKEINKLELKISDFLDENEALRERVGLEPKTMIDLTEFRNSKHLKQQQYRAENQILLKEIESLEEERLDLKKKIRQMAQERGKRSATSGLTTEDLNLTENISQGDRISERKLDLLSLKNMSEAQSKNEFLSRELIEKERDLERSRTVIAKFQNKLKELVEENKQLEEGMKEILQAIKEMQKDPDVKGGETSLIIPSLERLVNAIESKNAEGIFDASLHLKAQVDQLTGRNEELRQELRESRKEAINYSQQLAKANLKIDHLEKETSLLRQSEGSNVVFKGIDLPDGIAPSSASIINSQNEYLIHLLQELENKEKKLKNLEDSLEDYNRKFAVIRHQQSLLYKEYLSEKETWKTESKTIKEEKRKLEDQVQQDAIKVKEYNNLLNALQMDSDEMKKILAENSRKITVLQVNEKSLIRQYTTLVELERQLRKENEKQKNELLSMEAEVCEKIGCLQRFKEMAIFKIAALQKVVDNSVSLSELELANKQYNELTAKYRDILQKDNMLVQRTSNLEHLECENISLKEQVESINKELEITKEKLHTIEQAWEQETKLGNESSMDKAKKSITNSDIVSISKKITMLEMKELNERQRAEHCQKMYEHLRTSLKQMEERNFELETKFAELTKINLDAQKVEQMLRDELADSVSKAVSDADRQRILELEKNEMELKVEVSKLREISDIARRQVEILNAQQQSRDKEVESLRMQLLDYQAQSDEKSLIAKLHQHNVSLQLSEATALGKLESITSKLQKMEAYNLRLEQKLDEKEQALYYARLEGRNRAKHLRQTIQSLRRQFSGALPLAQQEKFSKTMIQLQNDKLKIMQEMKNSQQEHRNMENKTLEMELKLKGLEELISTLKDTKGAQKVINWHMKIEELRLQELKLNRELVKDKEEIKYLNNIISEYERTISSLEEEIVQQNKFHEERQMAWDQREVDLERQLDIFDRQQNEILNAAQKFEEATGSIPDPSLPLPNQLEIALRKIKENIRIILETRATCKSLEEKLKEKESALRLAEQNILSRDKVINELRLRLPATAEREKLIAELGRKEMEPKSHHTLKIAHQTIANMQARLNQKEEVLKKYQRLLEKAREEQREIVKKHEEDLHILHHRLELQADSSLNKFKQTAWDLMKQSPTPVPTNKHFIRLAEMEQTVAEQDDSLSSLLVKLKKVSQDLERQREITELKVKEFENIKLQLQENHEDEVKKVKAEVEDLKYLLDQSQKESQCLKSELQAQKEANSRAPTTTMRNLVERLKSQLALKEKQQKALSRALLELRAEMTAAAEERIISATSQKEAHLNVQQIVDRHTRELKTQVEDLNENLLKLKEALKTSKNRENSLTDNLNDLNNELQKKQKAYNKILREKEEIDQENDELKRQIKRLTSGLQGKPLTDNKQSLIEELQRKVKKLENQLEGKVEEVDLKPMKEKNAKEELIRWEEGKKWQAKIEGIRNKLKEKEGEVFTLTKQLNTLKDLFAKADKEKLTLQRKLKTTGMTVDQVLGIRALESEKELEELKKRNLDLENDILYMRAHQALPRDSVVEDLHLQNRYLQEKLHALEKQFSKDTYSKPSISGIESDDHCQREQELQKENLKLSSENIELKFQLEQANKDLPRLKNQVRDLKEMCEFLKKEKAEVQRKLGHVRGSGRSGKTIPELEKTIGLMKKVVEKVQRENEQLKKASGILTSEKMANIEQENEKLKAELEKLKAHLGHQLSMHYESKTKGTEKIIAENERLRKELKKETDAAEKLRIAKNNLEILNEKMTVQLEETGKRLQFAESRGPQLEGADSKSWKSIVVTRMYETKLKELETDIAKKNQSITDLKQLVKEATEREQKVNKYNEDLEQQIKILKHVPEGAETEQGLKRELQVLRLANHQLDKEKAELIHQIEANKDQSGAESTIPDADQLKEKIKDLETQLKMSDLEKQHLKEEIKKLKKELENFDPSFFEEIEDLKYNYKEEVKKNILLEEKVKKLSEQLGVELTSPVAASEEFEDEEESPVNFPIY",
+        "n_residues": 2479,
+        "mutation_pos_1indexed": 725,
+        "wt_aa": "E",
+        "mut_aa": "A",
+        "pocket_lining_residues": "E721-S722-R723-K724-E725-A726-I727-N728-Y729-S730",
+        "pocket_lining_positions_precursor": [
+          721,
+          722,
+          723,
+          724,
+          725,
+          726,
+          727,
+          728,
+          729,
+          730
+        ],
+        "pocket_lining_1letter": "ESRKEAINYS",
+        "sequence_slice_around_pocket": "LRQELRESRKEAINYSQQLA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CEP290_E725A/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "E721",
+          "S722",
+          "R723",
+          "K724",
+          "E725",
+          "A726",
+          "I727",
+          "N728",
+          "Y729",
+          "S730"
+        ],
+        "values": [
+          [
+            0.0,
+            3.857,
+            5.251,
+            4.84,
+            6.193,
+            8.394,
+            9.487,
+            10.362,
+            12.096,
+            13.541
+          ],
+          [
+            3.857,
+            0.0,
+            3.873,
+            5.361,
+            4.84,
+            5.778,
+            8.278,
+            9.44,
+            9.954,
+            11.418
+          ],
+          [
+            5.251,
+            3.873,
+            0.0,
+            3.868,
+            5.378,
+            4.774,
+            5.844,
+            8.394,
+            9.462,
+            9.635
+          ],
+          [
+            4.84,
+            5.361,
+            3.868,
+            0.0,
+            3.835,
+            5.514,
+            4.979,
+            6.15,
+            8.594,
+            9.431
+          ],
+          [
+            6.193,
+            4.84,
+            5.378,
+            3.835,
+            0.0,
+            3.852,
+            5.314,
+            4.858,
+            5.996,
+            8.188
+          ],
+          [
+            8.394,
+            5.778,
+            4.774,
+            5.514,
+            3.852,
+            0.0,
+            3.878,
+            5.447,
+            4.948,
+            5.673
+          ],
+          [
+            9.487,
+            8.278,
+            5.844,
+            4.979,
+            5.314,
+            3.878,
+            0.0,
+            3.866,
+            5.494,
+            4.726
+          ],
+          [
+            10.362,
+            9.44,
+            8.394,
+            6.15,
+            4.858,
+            5.447,
+            3.866,
+            0.0,
+            3.857,
+            5.386
+          ],
+          [
+            12.096,
+            9.954,
+            9.462,
+            8.594,
+            5.996,
+            4.948,
+            5.494,
+            3.857,
+            0.0,
+            3.871
+          ],
+          [
+            13.541,
+            11.418,
+            9.635,
+            9.431,
+            8.188,
+            5.673,
+            4.726,
+            5.386,
+            3.871,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1OCNc1nc2ccccc2[nH]1",
+        "composite_score": 0.8835105943757798,
+        "mw": 402.15,
+        "logp": 2.008,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.5384,
+        "sa_score": 3.48,
+        "n_heavy_atoms": 28,
+        "tpsa": 126.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CEP290-E725A Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1OCNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8835,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CEP290_E725A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CEP290_E725A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CEP290_E725A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CEP290_E725A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CEP290_E725A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CEP290-E725A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CEP290-E725A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:00:48.117303+00:00"
     }
   ]
 }
