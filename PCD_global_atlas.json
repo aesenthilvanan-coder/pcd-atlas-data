@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1054,
+  "total_entries": 1055,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45636,
-    "queue_remaining": 132961
+    "total_processed": 45637,
+    "queue_remaining": 132960
   },
   "entries": [
     {
@@ -232494,6 +232494,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:10:38.552764+00:00"
+    },
+    {
+      "entry_id": "PCD-HPS4-A567V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS4-A567V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HPS4",
+        "uniprot": "",
+        "clinvar_id": "341002",
+        "disease": "not specified",
+        "mutation_precursor": "A567V",
+        "mutation_mature": "A567V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8664476907983746,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 389.79649269928694,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -18.07119369506836,
+          -4.754441738128662,
+          21.60426902770996
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.795920851552046,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7558324197163045,
+        "cryptic": true,
+        "pocket_residues": {
+          "C183": "C",
+          "Q184": "Q",
+          "R185": "R",
+          "S186": "S",
+          "P187": "P",
+          "H188": "H",
+          "I189": "I",
+          "A567": "A",
+          "I568": "I",
+          "E570": "E",
+          "V571": "V"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NQG7|HPS4 variant A567V",
+        "fasta_sequence": "MATSTSTEAKSASWWNYFFLYDGSKVKEEGDPTRAGICYFYPSQTLLDQQELLCGQIAGVVRCVSDISDSPPTLVRLRKLKFAIKVDGDYLWVLGCAVELPDVSCKRFLDQLVGFFNFYNGPVSLAYENCSQEELSTEWDTFIEQILKNTSDLHKIFNSLWNLDQTKVEPLLLLKAARILQTCQRSPHILAGCILYKGLIVSTQLPPSLTAKVLLHRTAPQEQRLPTGEDAPQEHGAALPPNVQIIPVFVTKEEAISLHEFPVEQMTRSLASPAGLQDGSAQHHPKGGSTSALKENATGHVESMAWTTPDPTSPDEACPDGRKENGCLSGHDLESIRPAGLHNSARGEVLGLSSSLGKELVFLQEELDLSEIHIPEAQEVEMASGHFAFLHVPVPDGRAPYCKASLSASSSLEPTPPEDTAISSLRPPSAPEMLTQHGAQEQLEDHPGHSSQAPIPRADPLPRRTRRPLLLPRLDPGQRGNKLPTGEQGLDEDVDGVCESHAAPGLECSSGSANCQGAGPSADGISSRLTPAESCMGLVRMNLYTHCVKGLVLSLLAEEPLLGDSAAIEEVYHSSLASLNGLEVHLKETLPRDEAASTSSTYNFTHYDRIQSLLMANLPQVATPQDRRFLQAVSLMHSEFAQLPALYEMTVRNASTAVYACCNPIQETYFQQLAPAARSSGFPNPQDGAFSLSGKAKQKLLKHGVNLL",
+        "full_sequence": "MATSTSTEAKSASWWNYFFLYDGSKVKEEGDPTRAGICYFYPSQTLLDQQELLCGQIAGVVRCVSDISDSPPTLVRLRKLKFAIKVDGDYLWVLGCAVELPDVSCKRFLDQLVGFFNFYNGPVSLAYENCSQEELSTEWDTFIEQILKNTSDLHKIFNSLWNLDQTKVEPLLLLKAARILQTCQRSPHILAGCILYKGLIVSTQLPPSLTAKVLLHRTAPQEQRLPTGEDAPQEHGAALPPNVQIIPVFVTKEEAISLHEFPVEQMTRSLASPAGLQDGSAQHHPKGGSTSALKENATGHVESMAWTTPDPTSPDEACPDGRKENGCLSGHDLESIRPAGLHNSARGEVLGLSSSLGKELVFLQEELDLSEIHIPEAQEVEMASGHFAFLHVPVPDGRAPYCKASLSASSSLEPTPPEDTAISSLRPPSAPEMLTQHGAQEQLEDHPGHSSQAPIPRADPLPRRTRRPLLLPRLDPGQRGNKLPTGEQGLDEDVDGVCESHAAPGLECSSGSANCQGAGPSADGISSRLTPAESCMGLVRMNLYTHCVKGLVLSLLAEEPLLGDSAAIEEVYHSSLASLNGLEVHLKETLPRDEAASTSSTYNFTHYDRIQSLLMANLPQVATPQDRRFLQAVSLMHSEFAQLPALYEMTVRNASTAVYACCNPIQETYFQQLAPAARSSGFPNPQDGAFSLSGKAKQKLLKHGVNLL",
+        "n_residues": 708,
+        "mutation_pos_1indexed": 567,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "C183-Q184-R185-S186-P187-H188-I189-A567-I568-E570-V571",
+        "pocket_lining_positions_precursor": [
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          567,
+          568,
+          570,
+          571
+        ],
+        "pocket_lining_1letter": "CQRSPHIAIEV",
+        "sequence_slice_around_pocket": "AEEPLLGDSAAIEEVYHSSL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_A567V/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "C183",
+          "Q184",
+          "R185",
+          "S186",
+          "P187",
+          "H188",
+          "I189",
+          "A567",
+          "I568",
+          "E570",
+          "V571"
+        ],
+        "values": [
+          [
+            0.0,
+            3.873,
+            5.397,
+            5.639,
+            8.826,
+            9.909,
+            7.004,
+            9.84,
+            10.081,
+            8.521,
+            5.728
+          ],
+          [
+            3.873,
+            0.0,
+            3.869,
+            5.428,
+            7.524,
+            8.189,
+            5.318,
+            10.859,
+            11.975,
+            10.999,
+            8.799
+          ],
+          [
+            5.397,
+            3.869,
+            0.0,
+            3.822,
+            6.531,
+            8.904,
+            7.535,
+            9.962,
+            12.055,
+            9.71,
+            8.875
+          ],
+          [
+            5.639,
+            5.428,
+            3.822,
+            0.0,
+            3.843,
+            6.692,
+            6.205,
+            6.16,
+            8.489,
+            6.903,
+            6.487
+          ],
+          [
+            8.826,
+            7.524,
+            6.531,
+            3.843,
+            0.0,
+            3.861,
+            5.688,
+            5.986,
+            8.933,
+            9.18,
+            9.137
+          ],
+          [
+            9.909,
+            8.189,
+            8.904,
+            6.692,
+            3.861,
+            0.0,
+            3.87,
+            7.798,
+            9.581,
+            11.615,
+            10.601
+          ],
+          [
+            7.004,
+            5.318,
+            7.535,
+            6.205,
+            5.688,
+            3.87,
+            0.0,
+            8.922,
+            9.73,
+            11.274,
+            9.11
+          ],
+          [
+            9.84,
+            10.859,
+            9.962,
+            6.16,
+            5.986,
+            7.798,
+            8.922,
+            0.0,
+            3.856,
+            5.131,
+            6.339
+          ],
+          [
+            10.081,
+            11.975,
+            12.055,
+            8.489,
+            8.933,
+            9.581,
+            9.73,
+            3.856,
+            0.0,
+            5.578,
+            5.391
+          ],
+          [
+            8.521,
+            10.999,
+            9.71,
+            6.903,
+            9.18,
+            11.615,
+            11.274,
+            5.131,
+            5.578,
+            0.0,
+            3.854
+          ],
+          [
+            5.728,
+            8.799,
+            8.875,
+            6.487,
+            9.137,
+            10.601,
+            9.11,
+            6.339,
+            5.391,
+            3.854,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "composite_score": 0.8764219760800805,
+        "mw": 260.15,
+        "logp": 1.904,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7992,
+        "sa_score": 2.9,
+        "n_heavy_atoms": 19,
+        "tpsa": 54.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HPS4-A567V Candidate #1",
+        "iupac_name": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "pocket_affinity_score": 0.8764,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_A567V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_A567V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_A567V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_A567V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_A567V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS4-A567V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS4-A567V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:11:07.478513+00:00"
     }
   ]
 }
