@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 784,
+  "total_entries": 785,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45298,
-    "queue_remaining": 133299
+    "total_processed": 45299,
+    "queue_remaining": 133298
   },
   "entries": [
     {
@@ -172912,6 +172912,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T14:09:18.380397+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT4-T176M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT4-T176M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT4",
+        "uniprot": "",
+        "clinvar_id": "309692",
+        "disease": "White sponge nevus 1",
+        "mutation_precursor": "T176M",
+        "mutation_mature": "T176M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8146660231481885,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 353.90115892083844,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          69.19738006591797,
+          -5.0809149742126465,
+          -31.57821273803711
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.355873128861534,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7403961184380166,
+        "cryptic": true,
+        "pocket_residues": {
+          "W169": "W",
+          "L171": "L",
+          "L172": "L",
+          "Q173": "Q",
+          "Q174": "Q",
+          "Q175": "Q",
+          "T176": "T"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P19013|KRT4 variant T176M",
+        "fasta_sequence": "MIARQQCVRGGPRGFSCGSAIVGGGKRGAFSSVSMSGGAGRCSSGGFGSRSLYNLRGNKSISMSVAGSRQGACFGGAGGFGTGGFGGGFGGSFSGKGGPGFPVCPAGGIQEVTINQSLLTPLHVEIDPEIQKVRTEEREQIKLLNNKFASFIDKVQFLEQQNKVLETKWNLLQQQTTTTSSKNLEPLFETYLSVLRKQLDTLGNDKGRLQSELKTMQDSVEDFKTKYEEEINKRTAAENDFVVLKKDVDAAYLNKVELEAKVDSLNDEINFLKVLYDAELSQMQTHVSDTSVVLSMDNNRNLDLDSIIAEVRAQYEEIAQRSKAEAEALYQTKVQQLQISVDQHGDNLKNTKSEIAELNRMIQRLRAEIENIKKQCQTLQVSVADAEQRGENALKDAHSKRVELEAALQQAKEELARMLREYQELMSVKLALDIEIATYRKLLEGEEYRMSGECQSAVSISVVSGSTSTGGISGGLGSGSGFGLSSGFGSGSGSGFGFGGSVSGSSSSKIISTTTLNKRR",
+        "full_sequence": "MIARQQCVRGGPRGFSCGSAIVGGGKRGAFSSVSMSGGAGRCSSGGFGSRSLYNLRGNKSISMSVAGSRQGACFGGAGGFGTGGFGGGFGGSFSGKGGPGFPVCPAGGIQEVTINQSLLTPLHVEIDPEIQKVRTEEREQIKLLNNKFASFIDKVQFLEQQNKVLETKWNLLQQQTTTTSSKNLEPLFETYLSVLRKQLDTLGNDKGRLQSELKTMQDSVEDFKTKYEEEINKRTAAENDFVVLKKDVDAAYLNKVELEAKVDSLNDEINFLKVLYDAELSQMQTHVSDTSVVLSMDNNRNLDLDSIIAEVRAQYEEIAQRSKAEAEALYQTKVQQLQISVDQHGDNLKNTKSEIAELNRMIQRLRAEIENIKKQCQTLQVSVADAEQRGENALKDAHSKRVELEAALQQAKEELARMLREYQELMSVKLALDIEIATYRKLLEGEEYRMSGECQSAVSISVVSGSTSTGGISGGLGSGSGFGLSSGFGSGSGSGFGFGGSVSGSSSSKIISTTTLNKRR",
+        "n_residues": 520,
+        "mutation_pos_1indexed": 176,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "W169-L171-L172-Q173-Q174-Q175-T176",
+        "pocket_lining_positions_precursor": [
+          169,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176
+        ],
+        "pocket_lining_1letter": "WLLQQQT",
+        "sequence_slice_around_pocket": "ETKWNLLQQQTTTTSSKNLE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_T176M/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "W169",
+          "L171",
+          "L172",
+          "Q173",
+          "Q174",
+          "Q175",
+          "T176"
+        ],
+        "values": [
+          [
+            0.0,
+            5.427,
+            4.989,
+            5.945,
+            8.462,
+            9.468,
+            10.059
+          ],
+          [
+            5.427,
+            0.0,
+            3.846,
+            5.447,
+            5.06,
+            5.894,
+            8.413
+          ],
+          [
+            4.989,
+            3.846,
+            0.0,
+            3.845,
+            5.5,
+            4.804,
+            5.899
+          ],
+          [
+            5.945,
+            5.447,
+            3.845,
+            0.0,
+            3.852,
+            5.324,
+            4.854
+          ],
+          [
+            8.462,
+            5.06,
+            5.5,
+            3.852,
+            0.0,
+            3.841,
+            5.42
+          ],
+          [
+            9.468,
+            5.894,
+            4.804,
+            5.324,
+            3.841,
+            0.0,
+            3.87
+          ],
+          [
+            10.059,
+            8.413,
+            5.899,
+            4.854,
+            5.42,
+            3.87,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6707695129348301,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT4-T176M Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6708,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_T176M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_T176M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_T176M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_T176M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_T176M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT4-T176M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT4-T176M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T14:09:41.556731+00:00"
     }
   ]
 }
