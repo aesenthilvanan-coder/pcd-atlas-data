@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1455,
+  "total_entries": 1456,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46095,
-    "queue_remaining": 132502
+    "total_processed": 46096,
+    "queue_remaining": 132501
   },
   "entries": [
     {
@@ -322386,6 +322386,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:58:48.081272+00:00"
+    },
+    {
+      "entry_id": "PCD-COL6A2-R569Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL6A2-R569Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COL6A2",
+        "uniprot": "",
+        "clinvar_id": "340369",
+        "disease": "Collagen 6-related myopathy",
+        "mutation_precursor": "R569Q",
+        "mutation_mature": "R569Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9155775143956626,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 605.6701705062685,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          7.204293251037598,
+          40.16485595703125,
+          45.86412811279297
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.913112761510353,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8789315315838377,
+        "cryptic": true,
+        "pocket_residues": {
+          "G567": "G",
+          "P568": "P",
+          "R569": "R",
+          "G570": "G",
+          "P571": "P"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P12110|COL6A2 variant R569Q",
+        "fasta_sequence": "MLQGTCSVLLLWGILGAIQAQQQEVISPDTTERNNNCPEKTDCPIHVYFVLDTSESVTMQSPTDILLFHMKQFVPQFISQLQNEFYLDQVALSWRYGGLHFSDQVEVFSPPGSDRASFIKNLQGISSFRRGTFTDCALANMTEQIRQDRSKGTVHFAVVITDGHVTGSPCGGIKLQAERAREEGIRLFAVAPNQNLKEQGLRDIASTPHELYRNDYATMLPDSTEIDQDTINRIIKVMKHEAYGECYKVSCLEIPGPSGPKGYRGQKGAKGNMGEPGEPGQKGRQGDPGIEGPIGFPGPKGVPGFKGEKGEFGADGRKGAPGLAGKNGTDGQKGKLGRIGPPGCKGDPGNRGPDGYPGEAGSPGERGDQGGKGDPGRPGRRGPPGEIGAKGSKGYQGNSGAPGSPGVKGAKGGPGPRGPKGEPGRRGDPGTKGSPGSDGPKGEKGDPGPEGPRGLAGEVGNKGAKGDRGLPGPRGPQGALGEPGKQGSRGDPGDAGPRGDSGQPGPKGDPGRPGFSYPGPRGAPGEKGEPGPRGPEGGRGDFGLKGEPGRKGEKGEPADPGPPGEPGPRGPRGVPGPEGEPGPPGDPGLTECDVMTYVRETCGCCDCEKRCGALDVVFVIDSSESIGYTNFTLEKNFVINVVNRLGAIAKDPKSETGTRVGVVQYSHEGTFEAIQLDDERIDSLSSFKEAVKNLEWIAGGTWTPSALKFAYDRLIKESRRQKTRVFAVVITDGRHDPRDDDLNLRALCDRDVTVTAIGIGDMFHEKHESENLYSIACDKPQQVRNMTLFSDLVAEKFIDDMEDVLCPDPQIVCPDLPCQTELSVAQCTQRPVDIVFLLDGSERLGEQNFHKARRFVEQVARRLTLARRDDDPLNARVALLQFGGPGEQQVAFPLSHNLTAIHEALETTQYLNSFSHVGAGVVHAINAIVRSPRGGARRHAELSFVFLTDGVTGNDSLHESAHSMRKQNVVPTVLALGSDVDMDVLTTLSLGDRAAVFHEKDYDSLAQPGFFDRFIRWIC",
+        "full_sequence": "MLQGTCSVLLLWGILGAIQAQQQEVISPDTTERNNNCPEKTDCPIHVYFVLDTSESVTMQSPTDILLFHMKQFVPQFISQLQNEFYLDQVALSWRYGGLHFSDQVEVFSPPGSDRASFIKNLQGISSFRRGTFTDCALANMTEQIRQDRSKGTVHFAVVITDGHVTGSPCGGIKLQAERAREEGIRLFAVAPNQNLKEQGLRDIASTPHELYRNDYATMLPDSTEIDQDTINRIIKVMKHEAYGECYKVSCLEIPGPSGPKGYRGQKGAKGNMGEPGEPGQKGRQGDPGIEGPIGFPGPKGVPGFKGEKGEFGADGRKGAPGLAGKNGTDGQKGKLGRIGPPGCKGDPGNRGPDGYPGEAGSPGERGDQGGKGDPGRPGRRGPPGEIGAKGSKGYQGNSGAPGSPGVKGAKGGPGPRGPKGEPGRRGDPGTKGSPGSDGPKGEKGDPGPEGPRGLAGEVGNKGAKGDRGLPGPRGPQGALGEPGKQGSRGDPGDAGPRGDSGQPGPKGDPGRPGFSYPGPRGAPGEKGEPGPRGPEGGRGDFGLKGEPGRKGEKGEPADPGPPGEPGPRGPRGVPGPEGEPGPPGDPGLTECDVMTYVRETCGCCDCEKRCGALDVVFVIDSSESIGYTNFTLEKNFVINVVNRLGAIAKDPKSETGTRVGVVQYSHEGTFEAIQLDDERIDSLSSFKEAVKNLEWIAGGTWTPSALKFAYDRLIKESRRQKTRVFAVVITDGRHDPRDDDLNLRALCDRDVTVTAIGIGDMFHEKHESENLYSIACDKPQQVRNMTLFSDLVAEKFIDDMEDVLCPDPQIVCPDLPCQTELSVAQCTQRPVDIVFLLDGSERLGEQNFHKARRFVEQVARRLTLARRDDDPLNARVALLQFGGPGEQQVAFPLSHNLTAIHEALETTQYLNSFSHVGAGVVHAINAIVRSPRGGARRHAELSFVFLTDGVTGNDSLHESAHSMRKQNVVPTVLALGSDVDMDVLTTLSLGDRAAVFHEKDYDSLAQPGFFDRFIRWIC",
+        "n_residues": 1019,
+        "mutation_pos_1indexed": 569,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "G567-P568-R569-G570-P571",
+        "pocket_lining_positions_precursor": [
+          567,
+          568,
+          569,
+          570,
+          571
+        ],
+        "pocket_lining_1letter": "GPRGP",
+        "sequence_slice_around_pocket": "DPGPPGEPGPRGPRGVPGPE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A2_R569Q/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "G567",
+          "P568",
+          "R569",
+          "G570",
+          "P571"
+        ],
+        "values": [
+          [
+            0.0,
+            3.863,
+            6.586,
+            8.885,
+            12.404
+          ],
+          [
+            3.863,
+            0.0,
+            3.834,
+            6.399,
+            9.303
+          ],
+          [
+            6.586,
+            3.834,
+            0.0,
+            3.837,
+            6.572
+          ],
+          [
+            8.885,
+            6.399,
+            3.837,
+            0.0,
+            3.86
+          ],
+          [
+            12.404,
+            9.303,
+            6.572,
+            3.86,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1CNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.5618232104330423,
+        "mw": 408.1,
+        "logp": 2.171,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.7882,
+        "sa_score": 2.81,
+        "n_heavy_atoms": 27,
+        "tpsa": 105.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COL6A2-R569Q Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1CNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.5618,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A2_R569Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A2_R569Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A2_R569Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A2_R569Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A2_R569Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL6A2-R569Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL6A2-R569Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:59:22.200857+00:00"
     }
   ]
 }
