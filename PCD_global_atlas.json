@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 309,
+  "total_entries": 310,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44753,
-    "queue_remaining": 133844
+    "total_processed": 44754,
+    "queue_remaining": 133843
   },
   "entries": [
     {
@@ -67407,6 +67407,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:37:54.866819+00:00"
+    },
+    {
+      "entry_id": "PCD-CACNB2-R646W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CACNB2-R646W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CACNB2",
+        "uniprot": "",
+        "clinvar_id": "299567",
+        "disease": "Brugada syndrome 4",
+        "mutation_precursor": "R646W",
+        "mutation_mature": "R646W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.85508412262432,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 610.6440288735863,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -27.312246322631836,
+          -20.41472053527832,
+          32.952430725097656
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.127447564690866,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.744162497059303,
+        "cryptic": true,
+        "pocket_residues": {
+          "S643": "S",
+          "K644": "K",
+          "K645": "K",
+          "R646": "R"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q08289|CACNB2 variant R646W",
+        "fasta_sequence": "MVQRDMSKSPPTAAAAVAQEIQMELLENVAPAGALGAAAQSYGKGARRKNRFKGSDGSTSSDTTSNSFVRQGSADSYTSRPSDSDVSLEEDREAVRREAERQAQAQLEKAKTKPVAFAVRTNVSYSAAHEDDVPVPGMAISFEAKDFLHVKEKFNNDWWIGRLVKEGCEIGFIPSPVKLENMRLQHEQRAKQGKFYSSKSGGNSSSSLGDIVPSSRKSTPPSSAIDIDATGLDAEENDIPANHRSPKPSANSVTSPHSKEKRMPFFKKTEHTPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFEGRISITRVTADISLAKRSVLNNPSKHAIIERSNTRSSLAEVQSEIERIFELARTLQLVVLDADTINHPAQLSKTSLAPIIVYVKISSPKVLQRLIKSRGKSQAKHLNVQMVAADKLAQCPPELFDVILDENQLEDACEHLADYLEAYWKATHPPSSSLPNPLLSRTLATSSLPLSPTLASNSQGSQGDQRTDRSAPIRSASQAEEEPSVEPVKKSQHRSSSSAPHHNHRSGTSRGLSRQETFDSETQESRDSAYVEPKEDYSHDHVDHYASHRDHNHRDETHGSSDHRHRESRHRSRDVDREQDHNECNKQRSRHKSKDRYCEKDGEVISKKRNEAGEWNRDVYIRQ",
+        "full_sequence": "MVQRDMSKSPPTAAAAVAQEIQMELLENVAPAGALGAAAQSYGKGARRKNRFKGSDGSTSSDTTSNSFVRQGSADSYTSRPSDSDVSLEEDREAVRREAERQAQAQLEKAKTKPVAFAVRTNVSYSAAHEDDVPVPGMAISFEAKDFLHVKEKFNNDWWIGRLVKEGCEIGFIPSPVKLENMRLQHEQRAKQGKFYSSKSGGNSSSSLGDIVPSSRKSTPPSSAIDIDATGLDAEENDIPANHRSPKPSANSVTSPHSKEKRMPFFKKTEHTPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFEGRISITRVTADISLAKRSVLNNPSKHAIIERSNTRSSLAEVQSEIERIFELARTLQLVVLDADTINHPAQLSKTSLAPIIVYVKISSPKVLQRLIKSRGKSQAKHLNVQMVAADKLAQCPPELFDVILDENQLEDACEHLADYLEAYWKATHPPSSSLPNPLLSRTLATSSLPLSPTLASNSQGSQGDQRTDRSAPIRSASQAEEEPSVEPVKKSQHRSSSSAPHHNHRSGTSRGLSRQETFDSETQESRDSAYVEPKEDYSHDHVDHYASHRDHNHRDETHGSSDHRHRESRHRSRDVDREQDHNECNKQRSRHKSKDRYCEKDGEVISKKRNEAGEWNRDVYIRQ",
+        "n_residues": 660,
+        "mutation_pos_1indexed": 646,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "S643-K644-K645-R646",
+        "pocket_lining_positions_precursor": [
+          643,
+          644,
+          645,
+          646
+        ],
+        "pocket_lining_1letter": "SKKR",
+        "sequence_slice_around_pocket": "EKDGEVISKKRNEAGEWNRD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CACNB2_R646W/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "S643",
+          "K644",
+          "K645",
+          "R646"
+        ],
+        "values": [
+          [
+            0.0,
+            3.839,
+            6.534,
+            9.543
+          ],
+          [
+            3.839,
+            0.0,
+            3.83,
+            6.444
+          ],
+          [
+            6.534,
+            3.83,
+            0.0,
+            3.859
+          ],
+          [
+            9.543,
+            6.444,
+            3.859,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(Cl)cc1CC(=O)NS(=O)(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.5438254318649723,
+        "mw": 436.1,
+        "logp": 1.872,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.7122,
+        "sa_score": 2.55,
+        "n_heavy_atoms": 29,
+        "tpsa": 122.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CACNB2-R646W Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(Cl)cc1CC(=O)NS(=O)(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.5438,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CACNB2_R646W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CACNB2_R646W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CACNB2_R646W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CACNB2_R646W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CACNB2_R646W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CACNB2-R646W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CACNB2-R646W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:38:20.607278+00:00"
     }
   ]
 }
