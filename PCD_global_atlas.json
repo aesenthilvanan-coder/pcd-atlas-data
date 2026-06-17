@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 238,
+  "total_entries": 239,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44650,
-    "queue_remaining": 133947
+    "total_processed": 44651,
+    "queue_remaining": 133946
   },
   "entries": [
     {
@@ -53114,6 +53114,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:36:56.111346+00:00"
+    },
+    {
+      "entry_id": "PCD-HEPACAM-R288C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HEPACAM-R288C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HEPACAM",
+        "uniprot": "",
+        "clinvar_id": "303327",
+        "disease": "not provided",
+        "mutation_precursor": "R288C",
+        "mutation_mature": "R288C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8337447514112183,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 383.608867430453,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -88.45590209960938,
+          -10.907259941101074,
+          85.86482238769531
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.145293842937874,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8354000662628478,
+        "cryptic": true,
+        "pocket_residues": {
+          "N285": "N",
+          "D286": "D",
+          "D287": "D",
+          "R288": "R"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q14CZ8|HEPACAM variant R288C",
+        "fasta_sequence": "MKRERGALSRASRALRLAPFVYLLLIQTDPLEGVNITSPVRLIHGTVGKSALLSVQYSSTSSDRPVVKWQLKRDKPVTVVQSIGTEVIGTLRPDYRDRIRLFENGSLLLSDLQLADEGTYEVEISITDDTFTGEKTINLTVDVPISRPQVLVASTTVLELSEAFTLNCSHENGTKPSYTWLKDGKPLLNDSRMLLSPDQKVLTITRVLMEDDDLYSCMVENPISQGRSLPVKITVYRRSSLYIILSTGGIFLLVTLVTVCACWKPSKRKQKKLEKQNSLEYMDQNDDRLKPEADTLPRSGEQERKNPMALYILKDKDSPETEENPAPEPRSATEPGPPGYSVSPAVPGRSPGLPIRSARRYPRSPARSPATGRTHSSPPRAPSSPGRSRSASRTLRTAGVHIIREQDEAGPVEISA",
+        "full_sequence": "MKRERGALSRASRALRLAPFVYLLLIQTDPLEGVNITSPVRLIHGTVGKSALLSVQYSSTSSDRPVVKWQLKRDKPVTVVQSIGTEVIGTLRPDYRDRIRLFENGSLLLSDLQLADEGTYEVEISITDDTFTGEKTINLTVDVPISRPQVLVASTTVLELSEAFTLNCSHENGTKPSYTWLKDGKPLLNDSRMLLSPDQKVLTITRVLMEDDDLYSCMVENPISQGRSLPVKITVYRRSSLYIILSTGGIFLLVTLVTVCACWKPSKRKQKKLEKQNSLEYMDQNDDRLKPEADTLPRSGEQERKNPMALYILKDKDSPETEENPAPEPRSATEPGPPGYSVSPAVPGRSPGLPIRSARRYPRSPARSPATGRTHSSPPRAPSSPGRSRSASRTLRTAGVHIIREQDEAGPVEISA",
+        "n_residues": 416,
+        "mutation_pos_1indexed": 288,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "N285-D286-D287-R288",
+        "pocket_lining_positions_precursor": [
+          285,
+          286,
+          287,
+          288
+        ],
+        "pocket_lining_1letter": "NDDR",
+        "sequence_slice_around_pocket": "SLEYMDQNDDRLKPEADTLP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HEPACAM_R288C/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "N285",
+          "D286",
+          "D287",
+          "R288"
+        ],
+        "values": [
+          [
+            0.0,
+            3.806,
+            6.196,
+            9.333
+          ],
+          [
+            3.806,
+            0.0,
+            3.78,
+            6.697
+          ],
+          [
+            6.196,
+            3.78,
+            0.0,
+            3.672
+          ],
+          [
+            9.333,
+            6.697,
+            3.672,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCCc1ccc(OC)cc1N1CCCC(=O)C1",
+        "composite_score": 0.7445079713967446,
+        "mw": 276.18,
+        "logp": 2.016,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 6,
+        "qed": 0.8072,
+        "sa_score": 2.36,
+        "n_heavy_atoms": 20,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HEPACAM-R288C Candidate #1",
+        "iupac_name": "CNCCCc1ccc(OC)cc1N1CCCC(=O)C1",
+        "pocket_affinity_score": 0.7445,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HEPACAM_R288C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HEPACAM_R288C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HEPACAM_R288C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HEPACAM_R288C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HEPACAM_R288C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HEPACAM-R288C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HEPACAM-R288C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:37:17.936786+00:00"
     }
   ]
 }
