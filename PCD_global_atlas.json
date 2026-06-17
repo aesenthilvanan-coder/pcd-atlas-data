@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 984,
+  "total_entries": 985,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45531,
-    "queue_remaining": 133066
+    "total_processed": 45532,
+    "queue_remaining": 133065
   },
   "entries": [
     {
@@ -216547,6 +216547,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T17:00:52.662047+00:00"
+    },
+    {
+      "entry_id": "PCD-STX16-E152D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STX16-E152D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "STX16",
+        "uniprot": "",
+        "clinvar_id": "339049",
+        "disease": "Pseudohypoparathyroidism type 1B",
+        "mutation_precursor": "E152D",
+        "mutation_mature": "E152D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7439380027088444,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 506.74682219632365,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -23.472469329833984,
+          3.459895372390747,
+          12.389983177185059
+        ],
+        "dist_mutation_to_pocket_angstrom": 0.8593046584630946,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8129767817098221,
+        "cryptic": true,
+        "pocket_residues": {
+          "C150": "C",
+          "S151": "S",
+          "E152": "E",
+          "Q153": "Q",
+          "E154": "E",
+          "G155": "G",
+          "R156": "R"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O14662|STX16 variant E152D",
+        "fasta_sequence": "MATRRLTDAFLLLRNNSIQNRQLLAEQVSSHITSSPLHSRSIAAELDELADDRMALVSGISLDPEAAIGVTKRPPPKWVDGVDEIQYDVGRIKQKMKELASLHDKHLNRPTLDDSSEEEHAIEITTQEITQLFHRCQRAVQALPSRARACSEQEGRLLGNVVASLAQALQELSTSFRHAQSGYLKRMKNREERSQHFFDTSVPLMDDGDDNTLYHRGFTEDQLVLVEQNTLMVEEREREIRQIVQSISDLNEIFRDLGAMIVEQGTVLDRIDYNVEQSCIKTEDGLKQLHKAEQYQKKNRKMLVILILFVIIIVLIVVLVGVKSR",
+        "full_sequence": "MATRRLTDAFLLLRNNSIQNRQLLAEQVSSHITSSPLHSRSIAAELDELADDRMALVSGISLDPEAAIGVTKRPPPKWVDGVDEIQYDVGRIKQKMKELASLHDKHLNRPTLDDSSEEEHAIEITTQEITQLFHRCQRAVQALPSRARACSEQEGRLLGNVVASLAQALQELSTSFRHAQSGYLKRMKNREERSQHFFDTSVPLMDDGDDNTLYHRGFTEDQLVLVEQNTLMVEEREREIRQIVQSISDLNEIFRDLGAMIVEQGTVLDRIDYNVEQSCIKTEDGLKQLHKAEQYQKKNRKMLVILILFVIIIVLIVVLVGVKSR",
+        "n_residues": 325,
+        "mutation_pos_1indexed": 152,
+        "wt_aa": "E",
+        "mut_aa": "D",
+        "pocket_lining_residues": "C150-S151-E152-Q153-E154-G155-R156",
+        "pocket_lining_positions_precursor": [
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156
+        ],
+        "pocket_lining_1letter": "CSEQEGR",
+        "sequence_slice_around_pocket": "ALPSRARACSEQEGRLLGNV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_E152D/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "C150",
+          "S151",
+          "E152",
+          "Q153",
+          "E154",
+          "G155",
+          "R156"
+        ],
+        "values": [
+          [
+            0.0,
+            3.806,
+            6.5,
+            7.788,
+            5.503,
+            5.846,
+            9.459
+          ],
+          [
+            3.806,
+            0.0,
+            3.854,
+            5.308,
+            5.072,
+            6.157,
+            8.733
+          ],
+          [
+            6.5,
+            3.854,
+            0.0,
+            3.86,
+            5.593,
+            5.058,
+            6.363
+          ],
+          [
+            7.788,
+            5.308,
+            3.86,
+            0.0,
+            3.852,
+            5.395,
+            5.232
+          ],
+          [
+            5.503,
+            5.072,
+            5.593,
+            3.852,
+            0.0,
+            3.862,
+            5.536
+          ],
+          [
+            5.846,
+            6.157,
+            5.058,
+            5.395,
+            3.862,
+            0.0,
+            3.858
+          ],
+          [
+            9.459,
+            8.733,
+            6.363,
+            5.232,
+            5.536,
+            3.858,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7077796649171122,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "STX16-E152D Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7078,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_E152D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_E152D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_E152D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_E152D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_E152D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STX16-E152D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STX16-E152D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T17:01:17.062979+00:00"
     }
   ]
 }
