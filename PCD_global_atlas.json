@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1055,
+  "total_entries": 1056,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45637,
-    "queue_remaining": 132960
+    "total_processed": 45638,
+    "queue_remaining": 132959
   },
   "entries": [
     {
@@ -232769,6 +232769,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:11:07.478513+00:00"
+    },
+    {
+      "entry_id": "PCD-HPS4-T251S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS4-T251S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HPS4",
+        "uniprot": "",
+        "clinvar_id": "341016",
+        "disease": "Hermansky-Pudlak syndrome 4",
+        "mutation_precursor": "T251S",
+        "mutation_mature": "T251S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7722356355295916,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 482.0719260441981,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          7.061371326446533,
+          -3.272459030151367,
+          12.285467147827148
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.393112330671164,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6346206926965379,
+        "cryptic": true,
+        "pocket_residues": {
+          "D110": "D",
+          "V113": "V",
+          "G114": "G",
+          "F115": "F",
+          "F116": "F",
+          "N117": "N",
+          "F118": "F",
+          "G121": "G",
+          "P122": "P",
+          "T251": "T"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NQG7|HPS4 variant T251S",
+        "fasta_sequence": "MATSTSTEAKSASWWNYFFLYDGSKVKEEGDPTRAGICYFYPSQTLLDQQELLCGQIAGVVRCVSDISDSPPTLVRLRKLKFAIKVDGDYLWVLGCAVELPDVSCKRFLDQLVGFFNFYNGPVSLAYENCSQEELSTEWDTFIEQILKNTSDLHKIFNSLWNLDQTKVEPLLLLKAARILQTCQRSPHILAGCILYKGLIVSTQLPPSLTAKVLLHRTAPQEQRLPTGEDAPQEHGAALPPNVQIIPVFVTKEEAISLHEFPVEQMTRSLASPAGLQDGSAQHHPKGGSTSALKENATGHVESMAWTTPDPTSPDEACPDGRKENGCLSGHDLESIRPAGLHNSARGEVLGLSSSLGKELVFLQEELDLSEIHIPEAQEVEMASGHFAFLHVPVPDGRAPYCKASLSASSSLEPTPPEDTAISSLRPPSAPEMLTQHGAQEQLEDHPGHSSQAPIPRADPLPRRTRRPLLLPRLDPGQRGNKLPTGEQGLDEDVDGVCESHAAPGLECSSGSANCQGAGPSADGISSRLTPAESCMGLVRMNLYTHCVKGLVLSLLAEEPLLGDSAAIEEVYHSSLASLNGLEVHLKETLPRDEAASTSSTYNFTHYDRIQSLLMANLPQVATPQDRRFLQAVSLMHSEFAQLPALYEMTVRNASTAVYACCNPIQETYFQQLAPAARSSGFPNPQDGAFSLSGKAKQKLLKHGVNLL",
+        "full_sequence": "MATSTSTEAKSASWWNYFFLYDGSKVKEEGDPTRAGICYFYPSQTLLDQQELLCGQIAGVVRCVSDISDSPPTLVRLRKLKFAIKVDGDYLWVLGCAVELPDVSCKRFLDQLVGFFNFYNGPVSLAYENCSQEELSTEWDTFIEQILKNTSDLHKIFNSLWNLDQTKVEPLLLLKAARILQTCQRSPHILAGCILYKGLIVSTQLPPSLTAKVLLHRTAPQEQRLPTGEDAPQEHGAALPPNVQIIPVFVTKEEAISLHEFPVEQMTRSLASPAGLQDGSAQHHPKGGSTSALKENATGHVESMAWTTPDPTSPDEACPDGRKENGCLSGHDLESIRPAGLHNSARGEVLGLSSSLGKELVFLQEELDLSEIHIPEAQEVEMASGHFAFLHVPVPDGRAPYCKASLSASSSLEPTPPEDTAISSLRPPSAPEMLTQHGAQEQLEDHPGHSSQAPIPRADPLPRRTRRPLLLPRLDPGQRGNKLPTGEQGLDEDVDGVCESHAAPGLECSSGSANCQGAGPSADGISSRLTPAESCMGLVRMNLYTHCVKGLVLSLLAEEPLLGDSAAIEEVYHSSLASLNGLEVHLKETLPRDEAASTSSTYNFTHYDRIQSLLMANLPQVATPQDRRFLQAVSLMHSEFAQLPALYEMTVRNASTAVYACCNPIQETYFQQLAPAARSSGFPNPQDGAFSLSGKAKQKLLKHGVNLL",
+        "n_residues": 708,
+        "mutation_pos_1indexed": 251,
+        "wt_aa": "T",
+        "mut_aa": "S",
+        "pocket_lining_residues": "D110-V113-G114-F115-F116-N117-F118-G121-P122-T251",
+        "pocket_lining_positions_precursor": [
+          110,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          121,
+          122,
+          251
+        ],
+        "pocket_lining_1letter": "DVGFFNFGPT",
+        "sequence_slice_around_pocket": "PNVQIIPVFVTKEEAISLHE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_T251S/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "D110",
+          "V113",
+          "G114",
+          "F115",
+          "F116",
+          "N117",
+          "F118",
+          "G121",
+          "P122",
+          "T251"
+        ],
+        "values": [
+          [
+            0.0,
+            5.207,
+            5.982,
+            8.65,
+            10.08,
+            10.461,
+            11.912,
+            14.584,
+            14.095,
+            12.975
+          ],
+          [
+            5.207,
+            0.0,
+            3.834,
+            5.537,
+            5.272,
+            6.138,
+            8.473,
+            10.127,
+            9.737,
+            11.933
+          ],
+          [
+            5.982,
+            3.834,
+            0.0,
+            3.871,
+            5.544,
+            5.161,
+            5.933,
+            9.35,
+            10.057,
+            9.033
+          ],
+          [
+            8.65,
+            5.537,
+            3.871,
+            0.0,
+            3.799,
+            5.519,
+            4.97,
+            9.238,
+            10.945,
+            11.41
+          ],
+          [
+            10.08,
+            5.272,
+            5.544,
+            3.799,
+            0.0,
+            3.804,
+            5.369,
+            6.881,
+            8.131,
+            12.181
+          ],
+          [
+            10.461,
+            6.138,
+            5.161,
+            5.519,
+            3.804,
+            0.0,
+            3.851,
+            4.259,
+            5.567,
+            8.837
+          ],
+          [
+            11.912,
+            8.473,
+            5.933,
+            4.97,
+            5.369,
+            3.851,
+            0.0,
+            5.803,
+            8.67,
+            8.407
+          ],
+          [
+            14.584,
+            10.127,
+            9.35,
+            9.238,
+            6.881,
+            4.259,
+            5.803,
+            0.0,
+            3.856,
+            9.888
+          ],
+          [
+            14.095,
+            9.737,
+            10.057,
+            10.945,
+            8.131,
+            5.567,
+            8.67,
+            3.856,
+            0.0,
+            10.764
+          ],
+          [
+            12.975,
+            11.933,
+            9.033,
+            11.41,
+            12.181,
+            8.837,
+            8.407,
+            9.888,
+            10.764,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8107122113239037,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HPS4-T251S Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8107,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_T251S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_T251S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_T251S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_T251S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_T251S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS4-T251S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS4-T251S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:11:35.036432+00:00"
     }
   ]
 }
