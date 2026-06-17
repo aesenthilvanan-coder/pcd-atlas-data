@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 305,
+  "total_entries": 306,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44748,
-    "queue_remaining": 133849
+    "total_processed": 44750,
+    "queue_remaining": 133847
   },
   "entries": [
     {
@@ -66460,6 +66460,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:36:18.522299+00:00"
+    },
+    {
+      "entry_id": "PCD-TMEM216-M120V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMEM216-M120V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TMEM216",
+        "uniprot": "",
+        "clinvar_id": "305080",
+        "disease": "Meckel syndrome, type 2",
+        "mutation_precursor": "M120V",
+        "mutation_mature": "M120V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8239449016084602,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 559.1311950308617,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -10.297300338745117,
+          0.530221700668335,
+          -2.1986050605773926
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.541955619942176,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7281232313138845,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y30": "Y",
+          "T33": "T",
+          "Y34": "Y",
+          "I119": "I",
+          "M120": "M",
+          "I123": "I"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9P0N5|TMEM216 variant M120V",
+        "fasta_sequence": "MLPRGLKMAPRGKRLSSTPLEILFFLNGWYNATYFLLELFIFLYKGVLLPYPTANLVLDVVMLLLYLGIEVIRLFFGTKGNLCQRKMPLSISVALTFPSAMMASYYLLLQTYVLRLEAIMNGILLFFCGSELLLEVLTLAAFSRI",
+        "full_sequence": "MLPRGLKMAPRGKRLSSTPLEILFFLNGWYNATYFLLELFIFLYKGVLLPYPTANLVLDVVMLLLYLGIEVIRLFFGTKGNLCQRKMPLSISVALTFPSAMMASYYLLLQTYVLRLEAIMNGILLFFCGSELLLEVLTLAAFSRI",
+        "n_residues": 145,
+        "mutation_pos_1indexed": 120,
+        "wt_aa": "M",
+        "mut_aa": "V",
+        "pocket_lining_residues": "Y30-T33-Y34-I119-M120-I123",
+        "pocket_lining_positions_precursor": [
+          30,
+          33,
+          34,
+          119,
+          120,
+          123
+        ],
+        "pocket_lining_1letter": "YTYIMI",
+        "sequence_slice_around_pocket": "QTYVLRLEAIMNGILLFFCG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM216_M120V/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "Y30",
+          "T33",
+          "Y34",
+          "I119",
+          "M120",
+          "I123"
+        ],
+        "values": [
+          [
+            0.0,
+            5.187,
+            5.981,
+            12.643,
+            9.284,
+            9.182
+          ],
+          [
+            5.187,
+            0.0,
+            3.851,
+            13.286,
+            9.784,
+            12.203
+          ],
+          [
+            5.981,
+            3.851,
+            0.0,
+            10.767,
+            7.026,
+            10.102
+          ],
+          [
+            12.643,
+            13.286,
+            10.767,
+            0.0,
+            3.839,
+            6.319
+          ],
+          [
+            9.284,
+            9.784,
+            7.026,
+            3.839,
+            0.0,
+            5.361
+          ],
+          [
+            9.182,
+            12.203,
+            10.102,
+            6.319,
+            5.361,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "composite_score": 0.6458163726861129,
+        "mw": 391.2,
+        "logp": 2.032,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.5326,
+        "sa_score": 3.34,
+        "n_heavy_atoms": 29,
+        "tpsa": 104.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TMEM216-M120V Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6458,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM216_M120V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM216_M120V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM216_M120V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM216_M120V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM216_M120V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMEM216-M120V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMEM216-M120V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:36:50.905782+00:00"
     }
   ]
 }
