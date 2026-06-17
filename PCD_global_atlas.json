@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 91,
+  "total_entries": 92,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44492,
-    "queue_remaining": 134105
+    "total_processed": 44494,
+    "queue_remaining": 134103
   },
   "entries": [
     {
@@ -20434,6 +20434,279 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:55:40.652833+00:00"
+    },
+    {
+      "entry_id": "PCD-MYBPC1-P486Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYBPC1-P486Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MYBPC1",
+        "uniprot": "",
+        "clinvar_id": "306732",
+        "disease": "Arthrogryposis, distal, type 1B",
+        "mutation_precursor": "P486Q",
+        "mutation_mature": "P486Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7421291472360133,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 431.7430169516089,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -55.51837921142578,
+          6.248449325561523,
+          40.2663459777832
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.685650629206355,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8117077834970228,
+        "cryptic": true,
+        "pocket_residues": {
+          "P461": "P",
+          "G462": "G",
+          "K463": "K",
+          "W464": "W",
+          "V479": "V",
+          "V480": "V",
+          "H481": "H",
+          "H486": "H",
+          "K487": "K",
+          "F503": "F",
+          "P505": "P"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q00872|MYBPC1 variant P486Q",
+        "fasta_sequence": "MPEPTKKEENEVPAPAPPPEEPSKEKEAGTTPAKDWTLVETPPGEEQAKQNANSQLSILFIEKPQGGTVKVGEDITFIAKVKAEDLLRKPTIKWFKGKWMDLASKAGKHLQLKETFERHSRVYTFEMQIIKAKDNFAGNYRCEVTYKDKFDSCSFDLEVHESTGTTPNIDIRSAFKRSGEGQEDAGELDFSGLLKRREVKQQEEEPQVDVWELLKNAKPSEYEKIAFQYGITDLRGMLKRLKRMRREEKKSAAFAKILDPAYQVDKGGRVRFVVELADPKLEVKWYKNGQEIRPSTKYIFEHKGCQRILFINNCQMTDDSEYYVTAGDEKCSTELFVREPPIMVTKQLEDTTAYCGERVELECEVSEDDANVKWFKNGEEIIPGPKSRYRIRVEGKKHILIIEGATKADAAEYSVMTTGGQSSAKLSVDLKPLKILTPLTDQTVNLGKEICLKCEISENIPGKWTKNGLPVQESDRLKVVHKGRIHKLVIANALTEDEGDYVFAPDAYNVTLPAKVHVIDPPKIILDGLDADNTVTVIAGNKLRLEIPISGEPPPKAMWSRGDKAIMEGSGRIRTESYPDSSTLVIDIAERDDSGVYHINLKNEAGEAHASIKVKVVDFPDPPVAPTVTEVGDDWCIMNWEPPAYDGGSPILGYFIERKKKQSSRWMRLNFDLCKETTFEPKKMIEGVAYEVRIFAVNAIGISKPSMPSRPFVPLAVTSPPTLLTVDSVTDTTVTMRWRPPDHIGAAGLDGYVLEYCFEGSTSAKQSDENGEAAYDLPAEDWIVANKDLIDKTKFTITGLPTDAKIFVRVKAVNAAGASEPKYYSQPILVKEIIEPPKIRIPRHLKQTYIRRVGEAVNLVIPFQGKPRPELTWKKDGAEIDKNQINIRNSETDTIIFIRKAERSHSGKYDLQVKVDKFVETASIDIQIIDRPGPPQIVKIEDVWGENVALTWTPPKDDGNAAITGYTIQKADKKSMEWFTVIEHYHRTSATITELVIGNEYYFRVFSENMCGLSEDATMTKESAVIARDGKIYKNPVYEDFDFSEAPMFTQPLVNTYAIAGYNATLNCSVRGNPKPKITWMKNKVAIVDDPRYRMFSNQGVCTLEIRKPSPYDGGTYCCKAVNDLGTVEIECKLEVKVIAQ",
+        "full_sequence": "MPEPTKKEENEVPAPAPPPEEPSKEKEAGTTPAKDWTLVETPPGEEQAKQNANSQLSILFIEKPQGGTVKVGEDITFIAKVKAEDLLRKPTIKWFKGKWMDLASKAGKHLQLKETFERHSRVYTFEMQIIKAKDNFAGNYRCEVTYKDKFDSCSFDLEVHESTGTTPNIDIRSAFKRSGEGQEDAGELDFSGLLKRREVKQQEEEPQVDVWELLKNAKPSEYEKIAFQYGITDLRGMLKRLKRMRREEKKSAAFAKILDPAYQVDKGGRVRFVVELADPKLEVKWYKNGQEIRPSTKYIFEHKGCQRILFINNCQMTDDSEYYVTAGDEKCSTELFVREPPIMVTKQLEDTTAYCGERVELECEVSEDDANVKWFKNGEEIIPGPKSRYRIRVEGKKHILIIEGATKADAAEYSVMTTGGQSSAKLSVDLKPLKILTPLTDQTVNLGKEICLKCEISENIPGKWTKNGLPVQESDRLKVVHKGRIHKLVIANALTEDEGDYVFAPDAYNVTLPAKVHVIDPPKIILDGLDADNTVTVIAGNKLRLEIPISGEPPPKAMWSRGDKAIMEGSGRIRTESYPDSSTLVIDIAERDDSGVYHINLKNEAGEAHASIKVKVVDFPDPPVAPTVTEVGDDWCIMNWEPPAYDGGSPILGYFIERKKKQSSRWMRLNFDLCKETTFEPKKMIEGVAYEVRIFAVNAIGISKPSMPSRPFVPLAVTSPPTLLTVDSVTDTTVTMRWRPPDHIGAAGLDGYVLEYCFEGSTSAKQSDENGEAAYDLPAEDWIVANKDLIDKTKFTITGLPTDAKIFVRVKAVNAAGASEPKYYSQPILVKEIIEPPKIRIPRHLKQTYIRRVGEAVNLVIPFQGKPRPELTWKKDGAEIDKNQINIRNSETDTIIFIRKAERSHSGKYDLQVKVDKFVETASIDIQIIDRPGPPQIVKIEDVWGENVALTWTPPKDDGNAAITGYTIQKADKKSMEWFTVIEHYHRTSATITELVIGNEYYFRVFSENMCGLSEDATMTKESAVIARDGKIYKNPVYEDFDFSEAPMFTQPLVNTYAIAGYNATLNCSVRGNPKPKITWMKNKVAIVDDPRYRMFSNQGVCTLEIRKPSPYDGGTYCCKAVNDLGTVEIECKLEVKVIAQ",
+        "n_residues": 1141,
+        "mutation_pos_1indexed": 486,
+        "wt_aa": "P",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "P461-G462-K463-W464-V479-V480-H481-H486-K487-F503-P505",
+        "pocket_lining_positions_precursor": [
+          461,
+          462,
+          463,
+          464,
+          479,
+          480,
+          481,
+          486,
+          487,
+          503,
+          505
+        ],
+        "pocket_lining_1letter": "PGKWVVHHKFP",
+        "sequence_slice_around_pocket": "RLKVVHKGRIHKLVIANALT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MYBPC1_P486Q/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "P461",
+          "G462",
+          "K463",
+          "W464",
+          "V479",
+          "V480",
+          "H481",
+          "H486",
+          "K487",
+          "F503",
+          "P505"
+        ],
+        "values": [
+          [
+            0.0,
+            3.816,
+            7.285,
+            10.09,
+            10.761,
+            9.871,
+            6.831,
+            8.191,
+            11.125,
+            9.882,
+            5.916
+          ],
+          [
+            3.816,
+            0.0,
+            3.808,
+            6.802,
+            10.117,
+            10.413,
+            8.435,
+            8.271,
+            10.489,
+            6.626,
+            3.91
+          ],
+          [
+            7.285,
+            3.808,
+            0.0,
+            3.802,
+            9.384,
+            11.052,
+            10.34,
+            9.894,
+            10.827,
+            5.749,
+            6.478
+          ],
+          [
+            10.09,
+            6.802,
+            3.802,
+            0.0,
+            8.108,
+            10.512,
+            10.975,
+            9.586,
+            9.218,
+            4.634,
+            8.892
+          ],
+          [
+            10.761,
+            10.117,
+            9.384,
+            8.108,
+            0.0,
+            3.843,
+            6.726,
+            7.649,
+            5.869,
+            10.648,
+            13.297
+          ],
+          [
+            9.871,
+            10.413,
+            11.052,
+            10.512,
+            3.843,
+            0.0,
+            3.823,
+            5.7,
+            4.951,
+            11.75,
+            13.191
+          ],
+          [
+            6.831,
+            8.435,
+            10.34,
+            10.975,
+            6.726,
+            3.823,
+            0.0,
+            4.626,
+            6.524,
+            11.313,
+            10.855
+          ],
+          [
+            8.191,
+            8.271,
+            9.894,
+            9.586,
+            7.649,
+            5.7,
+            4.626,
+            0.0,
+            3.824,
+            8.396,
+            9.458
+          ],
+          [
+            11.125,
+            10.489,
+            10.827,
+            9.218,
+            5.869,
+            4.951,
+            6.524,
+            3.824,
+            0.0,
+            9.019,
+            12.163
+          ],
+          [
+            9.882,
+            6.626,
+            5.749,
+            4.634,
+            10.648,
+            11.75,
+            11.313,
+            8.396,
+            9.019,
+            0.0,
+            6.55
+          ],
+          [
+            5.916,
+            3.91,
+            6.478,
+            8.892,
+            13.297,
+            13.191,
+            10.855,
+            9.458,
+            12.163,
+            6.55,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.5917113918581486,
+        "mw": 317.21,
+        "logp": 2.135,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9218,
+        "sa_score": 3.14,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MYBPC1-P486Q Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5917,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MYBPC1_P486Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MYBPC1_P486Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MYBPC1_P486Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MYBPC1_P486Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MYBPC1_P486Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYBPC1-P486Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYBPC1-P486Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:56:37.241125+00:00"
     }
   ]
 }
