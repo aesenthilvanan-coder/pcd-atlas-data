@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1139,
+  "total_entries": 1140,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45736,
-    "queue_remaining": 132861
+    "total_processed": 45737,
+    "queue_remaining": 132860
   },
   "entries": [
     {
@@ -251088,6 +251088,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:49:32.091051+00:00"
+    },
+    {
+      "entry_id": "PCD-TTC8-S2N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TTC8-S2N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TTC8",
+        "uniprot": "",
+        "clinvar_id": "314797",
+        "disease": "Retinitis pigmentosa",
+        "mutation_precursor": "S2N",
+        "mutation_mature": "S2N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7911312410994189,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 645.9318602416254,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -11.598835945129395,
+          17.595413208007812,
+          50.72823715209961
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.143422428892003,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6382887293676608,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "S2": "S",
+          "S3": "S",
+          "E4": "E"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8TAM2|TTC8 variant S2N",
+        "fasta_sequence": "MSSEMEPLLLAWSYFRRRKFQLCADLCTQMLEKSPYDQEPDPELPVHQAAWILKARALTEMVYIDEIDVDQEGIAEMMLDENAIAQVPRPGTSLKLPGTNQTGGPSQAVRPITQAGRPITGFLRPSTQSGRPGTMEQAIRTPRTAYTARPITSSSGRFVRLGTASMLTSPDGPFINLSRLNLTKYSQKPKLAKALFEYIFHHENDVKTIHLEDVVLHLGIYPFLLRNKNHIEKNALDLAALSTEHSQYKDWWWKVQIGKCYYRLGMYREAEKQFKSALKQQEMVDTFLYLAKVYVSLDQPVTALNLFKQGLDKFPGEVTLLCGIARIYEEMNNMSSAAEYYKEVLKQDNTHVEAIACIGSNHFYSDQPEIALRFYRRLLQMGIYNGQLFNNLGLCCFYAQQYDMTLTSFERALSLAENEEEAADVWYNLGHVAVGIGDTNLAHQCFRLALVNNNNHAEAYNNLAVLEMRKGHVEQARALLQTASSLAPHMYEPHFNFATISDKIGDLQRSYVAAQKSEAAFPDHVDTQHLIKQLRQHFAML",
+        "full_sequence": "MSSEMEPLLLAWSYFRRRKFQLCADLCTQMLEKSPYDQEPDPELPVHQAAWILKARALTEMVYIDEIDVDQEGIAEMMLDENAIAQVPRPGTSLKLPGTNQTGGPSQAVRPITQAGRPITGFLRPSTQSGRPGTMEQAIRTPRTAYTARPITSSSGRFVRLGTASMLTSPDGPFINLSRLNLTKYSQKPKLAKALFEYIFHHENDVKTIHLEDVVLHLGIYPFLLRNKNHIEKNALDLAALSTEHSQYKDWWWKVQIGKCYYRLGMYREAEKQFKSALKQQEMVDTFLYLAKVYVSLDQPVTALNLFKQGLDKFPGEVTLLCGIARIYEEMNNMSSAAEYYKEVLKQDNTHVEAIACIGSNHFYSDQPEIALRFYRRLLQMGIYNGQLFNNLGLCCFYAQQYDMTLTSFERALSLAENEEEAADVWYNLGHVAVGIGDTNLAHQCFRLALVNNNNHAEAYNNLAVLEMRKGHVEQARALLQTASSLAPHMYEPHFNFATISDKIGDLQRSYVAAQKSEAAFPDHVDTQHLIKQLRQHFAML",
+        "n_residues": 541,
+        "mutation_pos_1indexed": 2,
+        "wt_aa": "S",
+        "mut_aa": "N",
+        "pocket_lining_residues": "M1-S2-S3-E4",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "pocket_lining_1letter": "MSSE",
+        "sequence_slice_around_pocket": "MSSEMEPLLLA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TTC8_S2N/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "M1",
+          "S2",
+          "S3",
+          "E4"
+        ],
+        "values": [
+          [
+            0.0,
+            3.836,
+            5.927,
+            8.375
+          ],
+          [
+            3.836,
+            0.0,
+            3.827,
+            5.785
+          ],
+          [
+            5.927,
+            3.827,
+            0.0,
+            3.809
+          ],
+          [
+            8.375,
+            5.785,
+            3.809,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "composite_score": 0.6908400848897291,
+        "mw": 374.27,
+        "logp": 2.113,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 7,
+        "qed": 0.7649,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 27,
+        "tpsa": 70.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TTC8-S2N Candidate #1",
+        "iupac_name": "CNCCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "pocket_affinity_score": 0.6908,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TTC8_S2N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TTC8_S2N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TTC8_S2N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TTC8_S2N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TTC8_S2N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TTC8-S2N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TTC8-S2N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:49:56.075685+00:00"
     }
   ]
 }
