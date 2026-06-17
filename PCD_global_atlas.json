@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 654,
+  "total_entries": 655,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45149,
-    "queue_remaining": 133448
+    "total_processed": 45150,
+    "queue_remaining": 133447
   },
   "entries": [
     {
@@ -145502,6 +145502,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:23:28.999388+00:00"
+    },
+    {
+      "entry_id": "PCD-TCIRG1-T635M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TCIRG1-T635M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TCIRG1",
+        "uniprot": "",
+        "clinvar_id": "305813",
+        "disease": "Autosomal recessive osteopetrosis 1",
+        "mutation_precursor": "T635M",
+        "mutation_mature": "T635M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8231184763012587,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 543.561742850162,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          28.044904708862305,
+          -16.932310104370117,
+          -35.804237365722656
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.436632321097939,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8646910327530967,
+        "cryptic": true,
+        "pocket_residues": {
+          "V631": "V",
+          "V632": "V",
+          "A634": "A",
+          "T635": "T"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13488|TCIRG1 variant T635M",
+        "fasta_sequence": "MGSMFRSEEVALVQLFLPTAAAYTCVSRLGELGLVEFRDLNASVSAFQRRFVVDVRRCEELEKTFTFLQEEVRRAGLVLPPPKGRLPAPPPRDLLRIQEETERLAQELRDVRGNQQALRAQLHQLQLHAAVLRQGHEPQLAAAHTDGASERTPLLQAPGGPHQDLRVNFVAGAVEPHKAPALERLLWRACRGFLIASFRELEQPLEHPVTGEPATWMTFLISYWGEQIGQKIRKITDCFHCHVFPFLQQEEARLGALQQLQQQSQELQEVLGETERFLSQVLGRVLQLLPPGQVQVHKMKAVYLALNQCSVSTTHKCLIAEAWCSVRDLPALQEALRDSSMEEGVSAVAHRIPCRDMPPTLIRTNRFTASFQGIVDAYGVGRYQEVNPAPYTIITFPFLFAVMFGDVGHGLLMFLFALAMVLAENRPAVKAAQNEIWQTFFRGRYLLLLMGLFSIYTGFIYNECFSRATSIFPSGWSVAAMANQSGWSDAFLAQHTMLTLDPNVTGVFLGPYPFGIDPIWSLAANHLSFLNSFKMKMSVILGVVHMAFGVVLGVFNHVHFGQRHRLLLETLPELTFLLGLFGYLVFLVIYKWLCVWAARAASAPSILIHFINMFLFSHSPSNRLLYPRQEVVQATLVVLALAMVPILLLGTPLHLLHRHRRRLRRRPADRQEENKAGLLDLPDASVNGWSSDEEKAGGLDDEEEAELVPSEVLMHQAIHTIEFCLGCVSNTASYLRLWALSLAHAQLSEVLWAMVMRIGLGLGREVGVAAVVLVPIFAAFAVMTVAILLVMEGLSAFLHALRLHWVEFQNKFYSGTGYKLSPFTFAATDD",
+        "full_sequence": "MGSMFRSEEVALVQLFLPTAAAYTCVSRLGELGLVEFRDLNASVSAFQRRFVVDVRRCEELEKTFTFLQEEVRRAGLVLPPPKGRLPAPPPRDLLRIQEETERLAQELRDVRGNQQALRAQLHQLQLHAAVLRQGHEPQLAAAHTDGASERTPLLQAPGGPHQDLRVNFVAGAVEPHKAPALERLLWRACRGFLIASFRELEQPLEHPVTGEPATWMTFLISYWGEQIGQKIRKITDCFHCHVFPFLQQEEARLGALQQLQQQSQELQEVLGETERFLSQVLGRVLQLLPPGQVQVHKMKAVYLALNQCSVSTTHKCLIAEAWCSVRDLPALQEALRDSSMEEGVSAVAHRIPCRDMPPTLIRTNRFTASFQGIVDAYGVGRYQEVNPAPYTIITFPFLFAVMFGDVGHGLLMFLFALAMVLAENRPAVKAAQNEIWQTFFRGRYLLLLMGLFSIYTGFIYNECFSRATSIFPSGWSVAAMANQSGWSDAFLAQHTMLTLDPNVTGVFLGPYPFGIDPIWSLAANHLSFLNSFKMKMSVILGVVHMAFGVVLGVFNHVHFGQRHRLLLETLPELTFLLGLFGYLVFLVIYKWLCVWAARAASAPSILIHFINMFLFSHSPSNRLLYPRQEVVQATLVVLALAMVPILLLGTPLHLLHRHRRRLRRRPADRQEENKAGLLDLPDASVNGWSSDEEKAGGLDDEEEAELVPSEVLMHQAIHTIEFCLGCVSNTASYLRLWALSLAHAQLSEVLWAMVMRIGLGLGREVGVAAVVLVPIFAAFAVMTVAILLVMEGLSAFLHALRLHWVEFQNKFYSGTGYKLSPFTFAATDD",
+        "n_residues": 830,
+        "mutation_pos_1indexed": 635,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "V631-V632-A634-T635",
+        "pocket_lining_positions_precursor": [
+          631,
+          632,
+          634,
+          635
+        ],
+        "pocket_lining_1letter": "VVAT",
+        "sequence_slice_around_pocket": "LYPRQEVVQATLVVLALAMV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TCIRG1_T635M/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "V631",
+          "V632",
+          "A634",
+          "T635"
+        ],
+        "values": [
+          [
+            0.0,
+            3.84,
+            5.222,
+            6.078
+          ],
+          [
+            3.84,
+            0.0,
+            5.572,
+            5.161
+          ],
+          [
+            5.222,
+            5.572,
+            0.0,
+            3.866
+          ],
+          [
+            6.078,
+            5.161,
+            3.866,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1CCNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.6284355318191317,
+        "mw": 414.18,
+        "logp": 2.144,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.5101,
+        "sa_score": 3.11,
+        "n_heavy_atoms": 29,
+        "tpsa": 117.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TCIRG1-T635M Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1CCNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6284,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TCIRG1_T635M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TCIRG1_T635M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TCIRG1_T635M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TCIRG1_T635M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TCIRG1_T635M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TCIRG1-T635M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TCIRG1-T635M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:23:57.958567+00:00"
     }
   ]
 }
