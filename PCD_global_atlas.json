@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1163,
+  "total_entries": 1164,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45760,
-    "queue_remaining": 132837
+    "total_processed": 45761,
+    "queue_remaining": 132836
   },
   "entries": [
     {
@@ -256680,6 +256680,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:04:31.810388+00:00"
+    },
+    {
+      "entry_id": "PCD-CAPN3-R197H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CAPN3-R197H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CAPN3",
+        "uniprot": "",
+        "clinvar_id": "315892",
+        "disease": "Autosomal recessive limb-girdle muscular dystrophy type 2A",
+        "mutation_precursor": "R197H",
+        "mutation_mature": "R197H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8771537230358882,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 594.7184197387194,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -24.44873046875,
+          14.8599271774292,
+          28.632627487182617
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.484769022024408,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8726847834979087,
+        "cryptic": true,
+        "pocket_residues": {
+          "H196": "H",
+          "R197": "R",
+          "N198": "N"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P20807|CAPN3 variant R197H",
+        "fasta_sequence": "MPTVISASVAPRTAAEPRSPGPVPHPAQSKATEAGGGNPSGIYSAIISRNFPIIGVKEKTFEQLHKKCLEKKVLYVDPEFPPDETSLFYSQKFPIQFVWKRPPEICENPRFIIDGANRTDICQGELGDCWFLAAIACLTLNQHLLFRVIPHDQSFIENYAGIFHFQFWRYGEWVDVVIDDCLPTYNNQLVFTKSNHRNEFWSALLEKAYAKLHGSYEALKGGNTTEAMEDFTGGVAEFFEIRDAPSDMYKIMKKAIERGSLMGCSIDDGTNMTYGTSPSGLNMGELIARMVRNMDNSLLQDSDLDPRGSDERPTRTIIPVQYETRMACGLVRGHAYSVTGLDEVPFKGEKVKLVRLRNPWGQVEWNGSWSDRWKDWSFVDKDEKARLQHQVTEDGEFWMSYEDFIYHFTKLEICNLTADALQSDKLQTWTVSVNEGRWVRGCSAGGCRNFPDTFWTNPQYRLKLLEEDDDPDDSEVICSFLVALMQKNRRKDRKLGASLFTIGFAIYEVPKEMHGNKQHLQKDFFLYNASKARSKTYINMREVSQRFRLPPSEYVIVPSTYEPHQEGEFILRVFSEKRNLSEEVENTISVDRPVKKKKTKPIIFVSDRANSNKELGVDQESEEGKGKTSPDKQKQSPQPQPGSSDQESEEQQQFRNIFKQIAGDDMEICADELKKVLNTVVNKHKDLKTHGFTLESCRSMIALMDTDGSGKLNLQEFHHLWNKIKAWQKIFKHYDTDQSGTINSYEMRNAVNDAGFHLNNQLYDIITMRYADKHMNIDFDSFICCFVRLEGMFRAFHAFDKDGDGIIKLNVLEWLQLTMYA",
+        "full_sequence": "MPTVISASVAPRTAAEPRSPGPVPHPAQSKATEAGGGNPSGIYSAIISRNFPIIGVKEKTFEQLHKKCLEKKVLYVDPEFPPDETSLFYSQKFPIQFVWKRPPEICENPRFIIDGANRTDICQGELGDCWFLAAIACLTLNQHLLFRVIPHDQSFIENYAGIFHFQFWRYGEWVDVVIDDCLPTYNNQLVFTKSNHRNEFWSALLEKAYAKLHGSYEALKGGNTTEAMEDFTGGVAEFFEIRDAPSDMYKIMKKAIERGSLMGCSIDDGTNMTYGTSPSGLNMGELIARMVRNMDNSLLQDSDLDPRGSDERPTRTIIPVQYETRMACGLVRGHAYSVTGLDEVPFKGEKVKLVRLRNPWGQVEWNGSWSDRWKDWSFVDKDEKARLQHQVTEDGEFWMSYEDFIYHFTKLEICNLTADALQSDKLQTWTVSVNEGRWVRGCSAGGCRNFPDTFWTNPQYRLKLLEEDDDPDDSEVICSFLVALMQKNRRKDRKLGASLFTIGFAIYEVPKEMHGNKQHLQKDFFLYNASKARSKTYINMREVSQRFRLPPSEYVIVPSTYEPHQEGEFILRVFSEKRNLSEEVENTISVDRPVKKKKTKPIIFVSDRANSNKELGVDQESEEGKGKTSPDKQKQSPQPQPGSSDQESEEQQQFRNIFKQIAGDDMEICADELKKVLNTVVNKHKDLKTHGFTLESCRSMIALMDTDGSGKLNLQEFHHLWNKIKAWQKIFKHYDTDQSGTINSYEMRNAVNDAGFHLNNQLYDIITMRYADKHMNIDFDSFICCFVRLEGMFRAFHAFDKDGDGIIKLNVLEWLQLTMYA",
+        "n_residues": 821,
+        "mutation_pos_1indexed": 197,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "H196-R197-N198",
+        "pocket_lining_positions_precursor": [
+          196,
+          197,
+          198
+        ],
+        "pocket_lining_1letter": "HRN",
+        "sequence_slice_around_pocket": "NQLVFTKSNHRNEFWSALLE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CAPN3_R197H/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "H196",
+          "R197",
+          "N198"
+        ],
+        "values": [
+          [
+            0.0,
+            3.852,
+            5.515
+          ],
+          [
+            3.852,
+            0.0,
+            3.851
+          ],
+          [
+            5.515,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "composite_score": 0.5391566017114824,
+        "mw": 361.24,
+        "logp": 2.104,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8409,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CAPN3-R197H Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5392,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CAPN3_R197H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CAPN3_R197H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CAPN3_R197H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CAPN3_R197H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CAPN3_R197H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CAPN3-R197H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CAPN3-R197H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:05:02.987558+00:00"
     }
   ]
 }
