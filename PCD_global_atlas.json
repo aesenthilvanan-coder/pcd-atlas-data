@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1263,
+  "total_entries": 1264,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45864,
-    "queue_remaining": 132733
+    "total_processed": 45865,
+    "queue_remaining": 132732
   },
   "entries": [
     {
@@ -279392,6 +279392,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:26:47.144974+00:00"
+    },
+    {
+      "entry_id": "PCD-SCNN1G-L609F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1G-L609F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SCNN1G",
+        "uniprot": "",
+        "clinvar_id": "318360",
+        "disease": "Pseudohypoaldosteronism, type IB1, autosomal recessive",
+        "mutation_precursor": "L609F",
+        "mutation_mature": "L609F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8075310912436575,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 478.2833199348104,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          40.791282653808594,
+          30.69431495666504,
+          -44.823974609375
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.223707310483292,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.607251511260422,
+        "cryptic": true,
+        "pocket_residues": {
+          "F605": "F",
+          "N606": "N",
+          "S607": "S",
+          "A608": "A",
+          "L609": "L",
+          "H610": "H",
+          "L611": "L",
+          "P612": "P"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P51170|SCNN1G variant L609F",
+        "fasta_sequence": "MAPGEKIKAKIKKNLPVTGPQAPTIKELMRWYCLNTNTHGCRRIVVSRGRLRRLLWIGFTLTAVALILWQCALLVFSFYTVSVSIKVHFRKLDFPAVTICNINPYKYSTVRHLLADLEQETREALKSLYGFPESRKRREAESWNSVSEGKQPRFSHRIPLLIFDQDEKGKARDFFTGRKRKVGGSIIHKASNVMHIESKQVVGFQLCSNDTSDCATYTFSSGINAIQEWYKLHYMNIMAQVPLEKKINMSYSAEELLVTCFFDGVSCDARNFTLFHHPMHGNCYTFNNRENETILSTSMGGSEYGLQVILYINEEEYNPFLVSSTGAKVIIHRQDEYPFVEDVGTEIETAMVTSIGMHLTESFKLSEPYSQCTEDGSDVPIRNIYNAAYSLQICLHSCFQTKMVEKCGCAQYSQPLPPAANYCNYQQHPNWMYCYYQLHRAFVQEELGCQSVCKEACSFKEWTLTTSLAQWPSVVSEKWLLPVLTWDQGRQVNKKLNKTDLAKLLIFYKDLNQRSIMESPANSIEMLLSNFGGQLGLWMSCSVVCVIEIIEVFFIDFFSIIARRQWQKAKEWWAWKQAPPCPEAPRSPQGQDNPALDIDDDLPTFNSALHLPPALGTQVPGTPPPKYNTLRLERAFSNQLTDTQMLDEL",
+        "full_sequence": "MAPGEKIKAKIKKNLPVTGPQAPTIKELMRWYCLNTNTHGCRRIVVSRGRLRRLLWIGFTLTAVALILWQCALLVFSFYTVSVSIKVHFRKLDFPAVTICNINPYKYSTVRHLLADLEQETREALKSLYGFPESRKRREAESWNSVSEGKQPRFSHRIPLLIFDQDEKGKARDFFTGRKRKVGGSIIHKASNVMHIESKQVVGFQLCSNDTSDCATYTFSSGINAIQEWYKLHYMNIMAQVPLEKKINMSYSAEELLVTCFFDGVSCDARNFTLFHHPMHGNCYTFNNRENETILSTSMGGSEYGLQVILYINEEEYNPFLVSSTGAKVIIHRQDEYPFVEDVGTEIETAMVTSIGMHLTESFKLSEPYSQCTEDGSDVPIRNIYNAAYSLQICLHSCFQTKMVEKCGCAQYSQPLPPAANYCNYQQHPNWMYCYYQLHRAFVQEELGCQSVCKEACSFKEWTLTTSLAQWPSVVSEKWLLPVLTWDQGRQVNKKLNKTDLAKLLIFYKDLNQRSIMESPANSIEMLLSNFGGQLGLWMSCSVVCVIEIIEVFFIDFFSIIARRQWQKAKEWWAWKQAPPCPEAPRSPQGQDNPALDIDDDLPTFNSALHLPPALGTQVPGTPPPKYNTLRLERAFSNQLTDTQMLDEL",
+        "n_residues": 649,
+        "mutation_pos_1indexed": 609,
+        "wt_aa": "L",
+        "mut_aa": "F",
+        "pocket_lining_residues": "F605-N606-S607-A608-L609-H610-L611-P612",
+        "pocket_lining_positions_precursor": [
+          605,
+          606,
+          607,
+          608,
+          609,
+          610,
+          611,
+          612
+        ],
+        "pocket_lining_1letter": "FNSALHLP",
+        "sequence_slice_around_pocket": "DDDLPTFNSALHLPPALGTQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_L609F/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "F605",
+          "N606",
+          "S607",
+          "A608",
+          "L609",
+          "H610",
+          "L611",
+          "P612"
+        ],
+        "values": [
+          [
+            0.0,
+            3.871,
+            5.31,
+            4.936,
+            6.662,
+            9.24,
+            11.667,
+            12.409
+          ],
+          [
+            3.871,
+            0.0,
+            3.856,
+            5.451,
+            5.335,
+            7.342,
+            10.683,
+            12.063
+          ],
+          [
+            5.31,
+            3.856,
+            0.0,
+            3.862,
+            5.395,
+            5.512,
+            8.494,
+            8.922
+          ],
+          [
+            4.936,
+            5.451,
+            3.862,
+            0.0,
+            3.863,
+            5.28,
+            6.898,
+            7.574
+          ],
+          [
+            6.662,
+            5.335,
+            5.395,
+            3.863,
+            0.0,
+            3.825,
+            6.212,
+            8.698
+          ],
+          [
+            9.24,
+            7.342,
+            5.512,
+            5.28,
+            3.825,
+            0.0,
+            3.837,
+            6.219
+          ],
+          [
+            11.667,
+            10.683,
+            8.494,
+            6.898,
+            6.212,
+            3.837,
+            0.0,
+            3.85
+          ],
+          [
+            12.409,
+            12.063,
+            8.922,
+            7.574,
+            8.698,
+            6.219,
+            3.85,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6378888635071648,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SCNN1G-L609F Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6379,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_L609F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_L609F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_L609F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_L609F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_L609F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1G-L609F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1G-L609F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:27:17.652182+00:00"
     }
   ]
 }
