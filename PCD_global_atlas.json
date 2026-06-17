@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 36,
+  "total_entries": 37,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44418,
-    "queue_remaining": 134179
+    "total_processed": 44419,
+    "queue_remaining": 134178
   },
   "entries": [
     {
@@ -8451,6 +8451,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:05:56.016333+00:00"
+    },
+    {
+      "entry_id": "PCD-RBM20-R102Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RBM20-R102Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RBM20",
+        "uniprot": "",
+        "clinvar_id": "298786",
+        "disease": "Dilated cardiomyopathy 1DD",
+        "mutation_precursor": "R102Q",
+        "mutation_mature": "R102Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8566734800833817,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 468.15696179457166,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -39.44560623168945,
+          4.26270055770874,
+          9.686357498168945
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.006552580828452,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8508598845385548,
+        "cryptic": true,
+        "pocket_residues": {
+          "T99": "T",
+          "L100": "L",
+          "H101": "H",
+          "R102": "R",
+          "L103": "L",
+          "K104": "K",
+          "A106": "A",
+          "Q107": "Q",
+          "L124": "L"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q5T481|RBM20 variant R102Q",
+        "fasta_sequence": "MVLAAAMSQDADPSGPEQPDRVACSVPGARASPAPSGPRGMQQPPPPPQPPPPPQAGLPQIIQNAAKLLDKNPFSVSNPNPLLPSPASLQLAQLQAQLTLHRLKLAQTAVTNNTAAATVLNQVLSKVAMSQPLFNQLRHPSVITGPHGHAGVPQHAAAIPSTRFPSNAIAFSPPSQTRGPGPSMNLPNQPPSAMVMHPFTGVMPQTPGQPAVILGIGKTGPAPATAGFYEYGKASSGQTYGPETDGQPGFLPSSASTSGSVTYEGHYSHTGQDGQAAFSKDFYGPNSQGSHVASGFPAEQAGGLKSEVGPLLQGTNSQWESPHGFSGQSKPDLTAGPMWPPPHNQPYELYDPEEPTSDRTPPSFGGRLNNSKQGFIGAGRRAKEDQALLSVRPLQAHELNDFHGVAPLHLPHICSICDKKVFDLKDWELHVKGKLHAQKCLVFSENAGIRCILGSAEGTLCASPNSTAVYNPAGNEDYASNLGTSYVPIPARSFTQSSPTFPLASVGTTFAQRKGAGRVVHICNLPEGSCTENDVINLGLPFGKVTNYILMKSTNQAFLEMAYTEAAQAMVQYYQEKSAVINGEKLLIRMSKRYKELQLKKPGKAVAAIIQDIHSQRERDMFREADRYGPERPRSRSPVSRSLSPRSHTPSFTSCSSSHSPPGPSRADWGNGRDSWEHSPYARREEERDPAPWRDNGDDKRDRMDPWAHDRKHHPRQLDKAELDERPEGGRPHREKYPRSGSPNLPHSVSSYKSREDGYYRKEPKAKSDKYLKQQQDAPGRSRRKDEARLRESRHPHPDDSGKEDGLGPKVTRAPEGAKAKQNEKNKTKRTDRDQEGADDRKENTMAENEAGKEEQEGMEESPQSVGRQEKEAEFSDPENTRTKKEQDWESESEAEGESWYPTNMEELVTVDEVGEEEDFIVEPDIPELEEIVPIDQKDKICPETCLCVTTTLDLDLAQDFPKEGVKAVGNGAAEISLKSPRELPSASTSCPSDMDVEMPGLNLDAERKPAESETGLSLEDSDCYEKEAKGVESSDVHPAPTVQQMSSPKPAEERARQPSPFVDDCKTRGTPEDGACEGSPLEEKASPPIETDLQNQACQEVLTPENSRYVEMKSLEVRSPEYTEVELKQPLSLPSWEPEDVFSELSIPLGVEFVVPRTGFYCKLCGLFYTSEETAKMSHCRSAVHYRNLQKYLSQLAEEGLKETEGADSPRPEDSGIVPRFERKKL",
+        "full_sequence": "MVLAAAMSQDADPSGPEQPDRVACSVPGARASPAPSGPRGMQQPPPPPQPPPPPQAGLPQIIQNAAKLLDKNPFSVSNPNPLLPSPASLQLAQLQAQLTLHRLKLAQTAVTNNTAAATVLNQVLSKVAMSQPLFNQLRHPSVITGPHGHAGVPQHAAAIPSTRFPSNAIAFSPPSQTRGPGPSMNLPNQPPSAMVMHPFTGVMPQTPGQPAVILGIGKTGPAPATAGFYEYGKASSGQTYGPETDGQPGFLPSSASTSGSVTYEGHYSHTGQDGQAAFSKDFYGPNSQGSHVASGFPAEQAGGLKSEVGPLLQGTNSQWESPHGFSGQSKPDLTAGPMWPPPHNQPYELYDPEEPTSDRTPPSFGGRLNNSKQGFIGAGRRAKEDQALLSVRPLQAHELNDFHGVAPLHLPHICSICDKKVFDLKDWELHVKGKLHAQKCLVFSENAGIRCILGSAEGTLCASPNSTAVYNPAGNEDYASNLGTSYVPIPARSFTQSSPTFPLASVGTTFAQRKGAGRVVHICNLPEGSCTENDVINLGLPFGKVTNYILMKSTNQAFLEMAYTEAAQAMVQYYQEKSAVINGEKLLIRMSKRYKELQLKKPGKAVAAIIQDIHSQRERDMFREADRYGPERPRSRSPVSRSLSPRSHTPSFTSCSSSHSPPGPSRADWGNGRDSWEHSPYARREEERDPAPWRDNGDDKRDRMDPWAHDRKHHPRQLDKAELDERPEGGRPHREKYPRSGSPNLPHSVSSYKSREDGYYRKEPKAKSDKYLKQQQDAPGRSRRKDEARLRESRHPHPDDSGKEDGLGPKVTRAPEGAKAKQNEKNKTKRTDRDQEGADDRKENTMAENEAGKEEQEGMEESPQSVGRQEKEAEFSDPENTRTKKEQDWESESEAEGESWYPTNMEELVTVDEVGEEEDFIVEPDIPELEEIVPIDQKDKICPETCLCVTTTLDLDLAQDFPKEGVKAVGNGAAEISLKSPRELPSASTSCPSDMDVEMPGLNLDAERKPAESETGLSLEDSDCYEKEAKGVESSDVHPAPTVQQMSSPKPAEERARQPSPFVDDCKTRGTPEDGACEGSPLEEKASPPIETDLQNQACQEVLTPENSRYVEMKSLEVRSPEYTEVELKQPLSLPSWEPEDVFSELSIPLGVEFVVPRTGFYCKLCGLFYTSEETAKMSHCRSAVHYRNLQKYLSQLAEEGLKETEGADSPRPEDSGIVPRFERKKL",
+        "n_residues": 1227,
+        "mutation_pos_1indexed": 102,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "T99-L100-H101-R102-L103-K104-A106-Q107-L124",
+        "pocket_lining_positions_precursor": [
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          106,
+          107,
+          124
+        ],
+        "pocket_lining_1letter": "TLHRLKAQL",
+        "sequence_slice_around_pocket": "AQLQAQLTLHRLKLAQTAVT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RBM20_R102Q/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "T99",
+          "L100",
+          "H101",
+          "R102",
+          "L103",
+          "K104",
+          "A106",
+          "Q107",
+          "L124"
+        ],
+        "values": [
+          [
+            0.0,
+            3.86,
+            5.435,
+            5.06,
+            6.089,
+            8.603,
+            10.327,
+            12.151,
+            12.517
+          ],
+          [
+            3.86,
+            0.0,
+            3.849,
+            5.48,
+            4.922,
+            6.074,
+            9.632,
+            10.297,
+            12.835
+          ],
+          [
+            5.435,
+            3.849,
+            0.0,
+            3.866,
+            5.403,
+            5.042,
+            8.448,
+            9.726,
+            15.175
+          ],
+          [
+            5.06,
+            5.48,
+            3.866,
+            0.0,
+            3.86,
+            5.519,
+            5.993,
+            8.547,
+            12.969
+          ],
+          [
+            6.089,
+            4.922,
+            5.403,
+            3.86,
+            0.0,
+            3.866,
+            5.014,
+            6.101,
+            10.184
+          ],
+          [
+            8.603,
+            6.074,
+            5.042,
+            5.519,
+            3.866,
+            0.0,
+            5.402,
+            5.003,
+            13.312
+          ],
+          [
+            10.327,
+            9.632,
+            8.448,
+            5.993,
+            5.014,
+            5.402,
+            0.0,
+            3.868,
+            11.867
+          ],
+          [
+            12.151,
+            10.297,
+            9.726,
+            8.547,
+            6.101,
+            5.003,
+            3.868,
+            0.0,
+            12.02
+          ],
+          [
+            12.517,
+            12.835,
+            15.175,
+            12.969,
+            10.184,
+            13.312,
+            11.867,
+            12.02,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "composite_score": 0.654659042424234,
+        "mw": 260.15,
+        "logp": 1.904,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7992,
+        "sa_score": 2.9,
+        "n_heavy_atoms": 19,
+        "tpsa": 54.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RBM20-R102Q Candidate #1",
+        "iupac_name": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "pocket_affinity_score": 0.6547,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RBM20_R102Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RBM20_R102Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RBM20_R102Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RBM20_R102Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RBM20_R102Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RBM20-R102Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RBM20-R102Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:06:37.887103+00:00"
     }
   ]
 }
