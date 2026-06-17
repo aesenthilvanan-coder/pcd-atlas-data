@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 523,
+  "total_entries": 524,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44986,
-    "queue_remaining": 133611
+    "total_processed": 44987,
+    "queue_remaining": 133610
   },
   "entries": [
     {
@@ -115916,6 +115916,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:33:31.673977+00:00"
+    },
+    {
+      "entry_id": "PCD-CDH3-V561M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDH3-V561M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CDH3",
+        "uniprot": "",
+        "clinvar_id": "320244",
+        "disease": "not provided",
+        "mutation_precursor": "V561M",
+        "mutation_mature": "V561M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8078195845534288,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 345.3168532419596,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          51.57914733886719,
+          34.871849060058594,
+          -71.27308654785156
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.1678706408835895,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7764582173659766,
+        "cryptic": true,
+        "pocket_residues": {
+          "V561": "V",
+          "R562": "R",
+          "Q563": "Q",
+          "V564": "V"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P22223|CDH3 variant V561M",
+        "fasta_sequence": "MGLPRGPLASLLLLQVCWLQCAASEPCRAVFREAEVTLEAGGAEQEPGQALGKVFMGCPGQEPALFSTDNDDFTVRNGETVQERRSLKERNPLKIFPSKRILRRHKRDWVVAPISVPENGKGPFPQRLNQLKSNKDRDTKIFYSITGPGADSPPEGVFAVEKETGWLLLNKPLDREEIAKYELFGHAVSENGASVEDPMNISIIVTDQNDHKPKFTQDTFRGSVLEGVLPGTSVMQVTATDEDDAIYTYNGVVAYSIHSQEPKDPHDLMFTIHRSTGTISVISSGLDREKVPEYTLTIQATDMDGDGSTTTAVAVVEILDANDNAPMFDPQKYEAHVPENAVGHEVQRLTVTDLDAPNSPAWRATYLIMGGDDGDHFTITTHPESNQGILTTRKGLDFEAKNQHTLYVEVTNEAPFVLKLPTSTATIVVHVEDVNEAPVFVPPSKVVEVQEGIPTGEPVCVYTAEDPDKENQKISYRILRDPAGWLAMDPDSGQVTAVGTLDREDEQFVRNNIYEVMVLAMDNGSPPTTGTGTLLLTLIDVNDHGPVPEPRQITICNQSPVRQVLNITDKDLSPHTSPFQAQLTDDSDIYWTAEVNEEGDTVVLSLKKFLKQDTYDVHLSLSDHGNKEQLTVIRATVCDCHGHVETCPGPWKGGFILPVLGAVLALLFLLLVLLLLVRKKRKIKEPLLLPEDDTRDNVFYYGEEGGGEEDQDYDITQLHRGLEARPEVVLRNDVAPTIIPTPMYRPRPANPDEIGNFIIENLKAANTDPTAPPYDTLLVFDYEGSGSDAASLSSLTSSASDQDQDYDYLNEWGSRFKKLADMYGGGEDD",
+        "full_sequence": "MGLPRGPLASLLLLQVCWLQCAASEPCRAVFREAEVTLEAGGAEQEPGQALGKVFMGCPGQEPALFSTDNDDFTVRNGETVQERRSLKERNPLKIFPSKRILRRHKRDWVVAPISVPENGKGPFPQRLNQLKSNKDRDTKIFYSITGPGADSPPEGVFAVEKETGWLLLNKPLDREEIAKYELFGHAVSENGASVEDPMNISIIVTDQNDHKPKFTQDTFRGSVLEGVLPGTSVMQVTATDEDDAIYTYNGVVAYSIHSQEPKDPHDLMFTIHRSTGTISVISSGLDREKVPEYTLTIQATDMDGDGSTTTAVAVVEILDANDNAPMFDPQKYEAHVPENAVGHEVQRLTVTDLDAPNSPAWRATYLIMGGDDGDHFTITTHPESNQGILTTRKGLDFEAKNQHTLYVEVTNEAPFVLKLPTSTATIVVHVEDVNEAPVFVPPSKVVEVQEGIPTGEPVCVYTAEDPDKENQKISYRILRDPAGWLAMDPDSGQVTAVGTLDREDEQFVRNNIYEVMVLAMDNGSPPTTGTGTLLLTLIDVNDHGPVPEPRQITICNQSPVRQVLNITDKDLSPHTSPFQAQLTDDSDIYWTAEVNEEGDTVVLSLKKFLKQDTYDVHLSLSDHGNKEQLTVIRATVCDCHGHVETCPGPWKGGFILPVLGAVLALLFLLLVLLLLVRKKRKIKEPLLLPEDDTRDNVFYYGEEGGGEEDQDYDITQLHRGLEARPEVVLRNDVAPTIIPTPMYRPRPANPDEIGNFIIENLKAANTDPTAPPYDTLLVFDYEGSGSDAASLSSLTSSASDQDQDYDYLNEWGSRFKKLADMYGGGEDD",
+        "n_residues": 829,
+        "mutation_pos_1indexed": 561,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "V561-R562-Q563-V564",
+        "pocket_lining_positions_precursor": [
+          561,
+          562,
+          563,
+          564
+        ],
+        "pocket_lining_1letter": "VRQV",
+        "sequence_slice_around_pocket": "RQITICNQSPVRQVLNITDK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CDH3_V561M/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "V561",
+          "R562",
+          "Q563",
+          "V564"
+        ],
+        "values": [
+          [
+            0.0,
+            3.828,
+            6.284,
+            9.43
+          ],
+          [
+            3.828,
+            0.0,
+            3.841,
+            6.438
+          ],
+          [
+            6.284,
+            3.841,
+            0.0,
+            3.821
+          ],
+          [
+            9.43,
+            6.438,
+            3.821,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)c(N2CCCC(=O)C2)c1",
+        "composite_score": 0.5467919614843895,
+        "mw": 234.14,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.8671,
+        "sa_score": 2.24,
+        "n_heavy_atoms": 17,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CDH3-V561M Candidate #1",
+        "iupac_name": "CNc1ccc(OC)c(N2CCCC(=O)C2)c1",
+        "pocket_affinity_score": 0.5468,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CDH3_V561M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CDH3_V561M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CDH3_V561M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDH3_V561M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDH3_V561M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDH3-V561M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDH3-V561M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:33:59.834954+00:00"
     }
   ]
 }
