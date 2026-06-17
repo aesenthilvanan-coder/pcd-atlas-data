@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 514,
+  "total_entries": 515,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44977,
-    "queue_remaining": 133620
+    "total_processed": 44978,
+    "queue_remaining": 133619
   },
   "entries": [
     {
@@ -114385,6 +114385,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:28:16.215978+00:00"
+    },
+    {
+      "entry_id": "PCD-SUOX-R76S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SUOX-R76S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SUOX",
+        "uniprot": "",
+        "clinvar_id": "309833",
+        "disease": "Sulfite oxidase deficiency",
+        "mutation_precursor": "R76S",
+        "mutation_mature": "R76S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.940495960232568,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 391.4844439297532,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -26.044702529907227,
+          30.797361373901367,
+          -30.385488510131836
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.3451831657328874,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8537793126460373,
+        "cryptic": true,
+        "pocket_residues": {
+          "H73": "H",
+          "C75": "C",
+          "R76": "R",
+          "A77": "A",
+          "A78": "A",
+          "Q79": "Q",
+          "I157": "I"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P51687|SUOX variant R76S",
+        "fasta_sequence": "MLLLHRAVVLRLQQACRLKSIPSRICIQACSTNDSFQPQRPSLTFSGDNSSTQGWRVMGTLLGLGAVLAYQDHRCRAAQESTHIYTKEEVSSHTSPETGIWVTLGSEVFDVTEFVDLHPGGPSKLMLAAGGPLEPFWALYAVHNQSHVRELLAQYKIGELNPEDKVAPTVETSDPYADDPVRHPALKVNSQRPFNAEPPPELLTENYITPNPIFFTRNHLPVPNLDPDTYRLHVVGAPGGQSLSLSLDDLHNFPRYEITVTLQCAGNRRSEMTQVKEVKGLEWRTGAISTARWAGARLCDVLAQAGHQLCETEAHVCFEGLDSDPTGTAYGASIPLARAMDPEAEVLLAYEMNGQPLPRDHGFPVRVVVPGVVGARHVKWLGRVSVQPEESYSHWQRRDYKGFSPSVDWETVDFDSAPSIQELPVQSAITEPRDGETVESGEVTIKGYAWSGGGRAVIRVDVSLDGGLTWQVAKLDGEEQRPRKAWAWRLWQLKAPVPAGQKELNIVCKAVDDGYNVQPDTVAPIWNLRGVLSNAWHRVHVYVSP",
+        "full_sequence": "MLLLHRAVVLRLQQACRLKSIPSRICIQACSTNDSFQPQRPSLTFSGDNSSTQGWRVMGTLLGLGAVLAYQDHRCRAAQESTHIYTKEEVSSHTSPETGIWVTLGSEVFDVTEFVDLHPGGPSKLMLAAGGPLEPFWALYAVHNQSHVRELLAQYKIGELNPEDKVAPTVETSDPYADDPVRHPALKVNSQRPFNAEPPPELLTENYITPNPIFFTRNHLPVPNLDPDTYRLHVVGAPGGQSLSLSLDDLHNFPRYEITVTLQCAGNRRSEMTQVKEVKGLEWRTGAISTARWAGARLCDVLAQAGHQLCETEAHVCFEGLDSDPTGTAYGASIPLARAMDPEAEVLLAYEMNGQPLPRDHGFPVRVVVPGVVGARHVKWLGRVSVQPEESYSHWQRRDYKGFSPSVDWETVDFDSAPSIQELPVQSAITEPRDGETVESGEVTIKGYAWSGGGRAVIRVDVSLDGGLTWQVAKLDGEEQRPRKAWAWRLWQLKAPVPAGQKELNIVCKAVDDGYNVQPDTVAPIWNLRGVLSNAWHRVHVYVSP",
+        "n_residues": 545,
+        "mutation_pos_1indexed": 76,
+        "wt_aa": "R",
+        "mut_aa": "S",
+        "pocket_lining_residues": "H73-C75-R76-A77-A78-Q79-I157",
+        "pocket_lining_positions_precursor": [
+          73,
+          75,
+          76,
+          77,
+          78,
+          79,
+          157
+        ],
+        "pocket_lining_1letter": "HCRAAQI",
+        "sequence_slice_around_pocket": "AVLAYQDHRCRAAQESTHIY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SUOX_R76S/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "H73",
+          "C75",
+          "R76",
+          "A77",
+          "A78",
+          "Q79",
+          "I157"
+        ],
+        "values": [
+          [
+            0.0,
+            5.357,
+            5.043,
+            6.015,
+            8.456,
+            10.566,
+            11.508
+          ],
+          [
+            5.357,
+            0.0,
+            3.883,
+            5.845,
+            5.436,
+            7.546,
+            12.941
+          ],
+          [
+            5.043,
+            3.883,
+            0.0,
+            3.853,
+            5.365,
+            6.005,
+            9.39
+          ],
+          [
+            6.015,
+            5.845,
+            3.853,
+            0.0,
+            3.878,
+            5.602,
+            7.748
+          ],
+          [
+            8.456,
+            5.436,
+            5.365,
+            3.878,
+            0.0,
+            3.85,
+            10.557
+          ],
+          [
+            10.566,
+            7.546,
+            6.005,
+            5.602,
+            3.85,
+            0.0,
+            9.464
+          ],
+          [
+            11.508,
+            12.941,
+            9.39,
+            7.748,
+            10.557,
+            9.464,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "composite_score": 0.7068422238927182,
+        "mw": 260.15,
+        "logp": 1.904,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7992,
+        "sa_score": 2.9,
+        "n_heavy_atoms": 19,
+        "tpsa": 54.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SUOX-R76S Candidate #1",
+        "iupac_name": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "pocket_affinity_score": 0.7068,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SUOX_R76S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SUOX_R76S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SUOX_R76S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SUOX_R76S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SUOX_R76S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SUOX-R76S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SUOX-R76S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:28:42.829433+00:00"
     }
   ]
 }
