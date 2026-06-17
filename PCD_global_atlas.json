@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1437,
+  "total_entries": 1438,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46077,
-    "queue_remaining": 132520
+    "total_processed": 46078,
+    "queue_remaining": 132519
   },
   "entries": [
     {
@@ -317784,6 +317784,128 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:43:43.143880+00:00"
+    },
+    {
+      "entry_id": "PCD-CHRNE-Q169L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNE-Q169L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CHRNE",
+        "uniprot": "",
+        "clinvar_id": "323995",
+        "disease": "Congenital myasthenic syndrome",
+        "mutation_precursor": "Q169L",
+        "mutation_mature": "Q169L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8914351846768724,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 396.04339404363134,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          15.227190017700195,
+          -10.314836502075195,
+          -17.612085342407227
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.328928375645157,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6344379625888419,
+        "cryptic": true,
+        "pocket_residues": {
+          "E113": "E",
+          "Q169": "Q",
+          "T170": "T"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q04844|CHRNE variant Q169L",
+        "fasta_sequence": "MARAPLGVLLLLGLLGRGVGKNEELRLYHHLFNNYDPGSRPVREPEDTVTISLKVTLTNLISLNEKEETLTTSVWIGIDWQDYRLNYSKDDFGGIETLRVPSELVWLPEIVLENNIDGQFGVAYDANVLVYEGGSVTWLPPAIYRSVCAVEVTYFPFDWQNCSLIFRSQTYNAEEVEFTFAVDNDGKTINKIDIDTEAYTENGEWAIDFCPGVIRRHHGGATDGPGETDVIYSLIIRRKPLFYVINIIVPCVLISGLVLLAYFLPAQAGGQKCTVSINVLLAQTVFLFLIAQKIPETSLSVPLLGRFLIFVMVVATLIVMNCVIVLNVSQRTPTTHAMSPRLRHVLLELLPRLLGSPPPPEAPRAASPPRRASSVGLLLRAEELILKKPRSELVFEGQRHRQGTWTAAFCQSLGAAAPEVRCCVDAVNFVAESTRDQEATGEEVSDWVRMGNALDNICFWAALVLFSVGSSLIFLGAYFNRVPDLPYAPCIQP",
+        "full_sequence": "MARAPLGVLLLLGLLGRGVGKNEELRLYHHLFNNYDPGSRPVREPEDTVTISLKVTLTNLISLNEKEETLTTSVWIGIDWQDYRLNYSKDDFGGIETLRVPSELVWLPEIVLENNIDGQFGVAYDANVLVYEGGSVTWLPPAIYRSVCAVEVTYFPFDWQNCSLIFRSQTYNAEEVEFTFAVDNDGKTINKIDIDTEAYTENGEWAIDFCPGVIRRHHGGATDGPGETDVIYSLIIRRKPLFYVINIIVPCVLISGLVLLAYFLPAQAGGQKCTVSINVLLAQTVFLFLIAQKIPETSLSVPLLGRFLIFVMVVATLIVMNCVIVLNVSQRTPTTHAMSPRLRHVLLELLPRLLGSPPPPEAPRAASPPRRASSVGLLLRAEELILKKPRSELVFEGQRHRQGTWTAAFCQSLGAAAPEVRCCVDAVNFVAESTRDQEATGEEVSDWVRMGNALDNICFWAALVLFSVGSSLIFLGAYFNRVPDLPYAPCIQP",
+        "n_residues": 493,
+        "mutation_pos_1indexed": 169,
+        "wt_aa": "Q",
+        "mut_aa": "L",
+        "pocket_lining_residues": "E113-Q169-T170",
+        "pocket_lining_positions_precursor": [
+          113,
+          169,
+          170
+        ],
+        "pocket_lining_1letter": "EQT",
+        "sequence_slice_around_pocket": "WQNCSLIFRSQTYNAEEVEF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_Q169L/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "E113",
+          "Q169",
+          "T170"
+        ],
+        "values": [
+          [
+            0.0,
+            8.42,
+            12.187
+          ],
+          [
+            8.42,
+            0.0,
+            3.832
+          ],
+          [
+            12.187,
+            3.832,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.7777630833735187,
+        "mw": 276.18,
+        "logp": 2.016,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 6,
+        "qed": 0.8628,
+        "sa_score": 2.25,
+        "n_heavy_atoms": 20,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CHRNE-Q169L Candidate #1",
+        "iupac_name": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7778,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_Q169L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_Q169L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_Q169L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_Q169L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_Q169L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNE-Q169L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNE-Q169L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:44:07.792599+00:00"
     }
   ]
 }
