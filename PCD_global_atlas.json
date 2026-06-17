@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 116,
+  "total_entries": 117,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44520,
-    "queue_remaining": 134077
+    "total_processed": 44521,
+    "queue_remaining": 134076
   },
   "entries": [
     {
@@ -26552,6 +26552,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:22:45.951647+00:00"
+    },
+    {
+      "entry_id": "PCD-MRPS16-T6P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MRPS16-T6P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MRPS16",
+        "uniprot": "",
+        "clinvar_id": "1378106",
+        "disease": "not provided",
+        "mutation_precursor": "T6P",
+        "mutation_mature": "T6P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9402697717118215,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 376.1430910432904,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.640734672546387,
+          -12.220758438110352,
+          -35.10505294799805
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.597328604280916,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7914302293645682,
+        "cryptic": true,
+        "pocket_residues": {
+          "V2": "V",
+          "H3": "H",
+          "L4": "L",
+          "T5": "T",
+          "T6": "T",
+          "L7": "L"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y3D3|MRPS16 variant T6P",
+        "fasta_sequence": "MVHLTTLLCKAYRGGHLTIRLALGGCTNRPFYRIVAAHNKCPRDGRFVEQLGSYDPLPNSHGEKLVALNLDRIRHWIGCGAHLSKPMEKLLGLAGFFPLHPMMITNAERLRRKRAREVLLASQKTDAEATDTEATET",
+        "full_sequence": "MVHLTTLLCKAYRGGHLTIRLALGGCTNRPFYRIVAAHNKCPRDGRFVEQLGSYDPLPNSHGEKLVALNLDRIRHWIGCGAHLSKPMEKLLGLAGFFPLHPMMITNAERLRRKRAREVLLASQKTDAEATDTEATET",
+        "n_residues": 137,
+        "mutation_pos_1indexed": 6,
+        "wt_aa": "T",
+        "mut_aa": "P",
+        "pocket_lining_residues": "V2-H3-L4-T5-T6-L7",
+        "pocket_lining_positions_precursor": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "pocket_lining_1letter": "VHLTTL",
+        "sequence_slice_around_pocket": "MVHLTTLLCKAYRGG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MRPS16_T6P/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "V2",
+          "H3",
+          "L4",
+          "T5",
+          "T6",
+          "L7"
+        ],
+        "values": [
+          [
+            0.0,
+            3.835,
+            5.747,
+            8.849,
+            10.887,
+            12.953
+          ],
+          [
+            3.835,
+            0.0,
+            3.867,
+            5.544,
+            7.91,
+            10.664
+          ],
+          [
+            5.747,
+            3.867,
+            0.0,
+            3.862,
+            6.218,
+            7.784
+          ],
+          [
+            8.849,
+            5.544,
+            3.862,
+            0.0,
+            3.857,
+            6.404
+          ],
+          [
+            10.887,
+            7.91,
+            6.218,
+            3.857,
+            0.0,
+            3.889
+          ],
+          [
+            12.953,
+            10.664,
+            7.784,
+            6.404,
+            3.889,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.7204563948717007,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MRPS16-T6P Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7205,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MRPS16_T6P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MRPS16_T6P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MRPS16_T6P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MRPS16_T6P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MRPS16_T6P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MRPS16-T6P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MRPS16-T6P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:23:05.964768+00:00"
     }
   ]
 }
