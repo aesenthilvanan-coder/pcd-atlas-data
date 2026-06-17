@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 934,
+  "total_entries": 935,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45471,
-    "queue_remaining": 133126
+    "total_processed": 45472,
+    "queue_remaining": 133125
   },
   "entries": [
     {
@@ -206008,6 +206008,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:22:45.004451+00:00"
+    },
+    {
+      "entry_id": "PCD-NOD2-D127N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NOD2-D127N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NOD2",
+        "uniprot": "",
+        "clinvar_id": "319426",
+        "disease": "Blau syndrome",
+        "mutation_precursor": "D127N",
+        "mutation_mature": "D127N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8631520852445149,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 622.1797413879335,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          24.12118148803711,
+          -60.54892349243164,
+          9.799509048461914
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.017265053886942,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8003733870861184,
+        "cryptic": true,
+        "pocket_residues": {
+          "H126": "H",
+          "S127": "S",
+          "L128": "L",
+          "H129": "H",
+          "P130": "P",
+          "A131": "A",
+          "R132": "R",
+          "A196": "A",
+          "A197": "A"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9HC29|NOD2 variant D127N",
+        "fasta_sequence": "MGEEGGSASHDEEERASVLLGHSPGCEMCSQEAFQAQRSQLVELLVSGSLEGFESVLDWLLSWEVLSWEDYEGFHLLGQPLSHLARRLLDTVWNKGTWACQKLIAAAQEAQADSQSPKLHGCWDPHSLHPARDLQSHRPAIVRRLHSHVENMLDLAWERGFVSQYECDEIRLPIFTPSQRARRLLDLATVKANGLAAFLLQHVQELPVPLALPLEAATCKKYMAKLRTTVSAQSRFLSTYDGAETLCLEDIYTENVLEVWADVGMAGPPQKSPATLGLEELFSTPGHLNDDADTVLVVGEAGSGKSTLLQRLHLLWAAGQDFQEFLFVFPFSCRQLQCMAKPLSVRTLLFEHCCWPDVGQEDIFQLLLDHPDRVLLTFDGFDEFKFRFTDRERHCSPTDPTSVQTLLFNLLQGNLLKNARKVVTSRPAAVSAFLRKYIRTEFNLKGFSEQGIELYLRKRHHEPGVADRLIRLLQETSALHGLCHLPVFSWMVSKCHQELLLQEGGSPKTTTDMYLLILQHFLLHATPPDSASQGLGPSLLRGRLPTLLHLGRLALWGLGMCCYVFSAQQLQAAQVSPDDISLGFLVRAKGVVPGSTAPLEFLHITFQCFFAAFYLALSADVPPALLRHLFNCGRPGNSPMARLLPTMCIQASEGKDSSVAALLQKAEPHNLQITAAFLAGLLSREHWGLLAECQTSEKALLRRQACARWCLARSLRKHFHSIPPAAPGEAKSVHAMPGFIWLIRSLYEMQEERLARKAARGLNVGHLKLTFCSVGPTECAALAFVLQHLRRPVALQLDYNSVGDIGVEQLLPCLGVCKALYLRDNNISDRGICKLIECALHCEQLQKLALFNNKLTDGCAHSMAKLLACRQNFLALRLGNNYITAAGAQVLAEGLRGNTSLQFLGFWGNRVGDEGAQALAEALGDHQSLRWLSLVGNNIGSVGAQALALMLAKNVMLEELCLEENHLQDEGVCSLAEGLKKNSSLKILKLSNNCITYLGAEALLQALERNDTILEVWLRGNTFSLEEVDKLGCRDTRLLL",
+        "full_sequence": "MGEEGGSASHDEEERASVLLGHSPGCEMCSQEAFQAQRSQLVELLVSGSLEGFESVLDWLLSWEVLSWEDYEGFHLLGQPLSHLARRLLDTVWNKGTWACQKLIAAAQEAQADSQSPKLHGCWDPHSLHPARDLQSHRPAIVRRLHSHVENMLDLAWERGFVSQYECDEIRLPIFTPSQRARRLLDLATVKANGLAAFLLQHVQELPVPLALPLEAATCKKYMAKLRTTVSAQSRFLSTYDGAETLCLEDIYTENVLEVWADVGMAGPPQKSPATLGLEELFSTPGHLNDDADTVLVVGEAGSGKSTLLQRLHLLWAAGQDFQEFLFVFPFSCRQLQCMAKPLSVRTLLFEHCCWPDVGQEDIFQLLLDHPDRVLLTFDGFDEFKFRFTDRERHCSPTDPTSVQTLLFNLLQGNLLKNARKVVTSRPAAVSAFLRKYIRTEFNLKGFSEQGIELYLRKRHHEPGVADRLIRLLQETSALHGLCHLPVFSWMVSKCHQELLLQEGGSPKTTTDMYLLILQHFLLHATPPDSASQGLGPSLLRGRLPTLLHLGRLALWGLGMCCYVFSAQQLQAAQVSPDDISLGFLVRAKGVVPGSTAPLEFLHITFQCFFAAFYLALSADVPPALLRHLFNCGRPGNSPMARLLPTMCIQASEGKDSSVAALLQKAEPHNLQITAAFLAGLLSREHWGLLAECQTSEKALLRRQACARWCLARSLRKHFHSIPPAAPGEAKSVHAMPGFIWLIRSLYEMQEERLARKAARGLNVGHLKLTFCSVGPTECAALAFVLQHLRRPVALQLDYNSVGDIGVEQLLPCLGVCKALYLRDNNISDRGICKLIECALHCEQLQKLALFNNKLTDGCAHSMAKLLACRQNFLALRLGNNYITAAGAQVLAEGLRGNTSLQFLGFWGNRVGDEGAQALAEALGDHQSLRWLSLVGNNIGSVGAQALALMLAKNVMLEELCLEENHLQDEGVCSLAEGLKKNSSLKILKLSNNCITYLGAEALLQALERNDTILEVWLRGNTFSLEEVDKLGCRDTRLLL",
+        "n_residues": 1040,
+        "mutation_pos_1indexed": 127,
+        "wt_aa": "D",
+        "mut_aa": "N",
+        "pocket_lining_residues": "H126-S127-L128-H129-P130-A131-R132-A196-A197",
+        "pocket_lining_positions_precursor": [
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          196,
+          197
+        ],
+        "pocket_lining_1letter": "HSLHPARAA",
+        "sequence_slice_around_pocket": "PKLHGCWDPHSLHPARDLQS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_D127N/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "H126",
+          "S127",
+          "L128",
+          "H129",
+          "P130",
+          "A131",
+          "R132",
+          "A196",
+          "A197"
+        ],
+        "values": [
+          [
+            0.0,
+            3.836,
+            6.531,
+            8.71,
+            7.982,
+            11.837,
+            12.643,
+            11.096,
+            7.655
+          ],
+          [
+            3.836,
+            0.0,
+            3.821,
+            5.293,
+            5.512,
+            9.212,
+            9.281,
+            10.121,
+            7.686
+          ],
+          [
+            6.531,
+            3.821,
+            0.0,
+            3.888,
+            6.301,
+            9.277,
+            9.364,
+            10.913,
+            9.038
+          ],
+          [
+            8.71,
+            5.293,
+            3.888,
+            0.0,
+            3.872,
+            5.754,
+            5.625,
+            8.772,
+            8.269
+          ],
+          [
+            7.982,
+            5.512,
+            6.301,
+            3.872,
+            0.0,
+            3.861,
+            5.486,
+            5.403,
+            5.072
+          ],
+          [
+            11.837,
+            9.212,
+            9.277,
+            5.754,
+            3.861,
+            0.0,
+            3.848,
+            5.18,
+            7.284
+          ],
+          [
+            12.643,
+            9.281,
+            9.364,
+            5.625,
+            5.486,
+            3.848,
+            0.0,
+            8.791,
+            10.187
+          ],
+          [
+            11.096,
+            10.121,
+            10.913,
+            8.772,
+            5.403,
+            5.18,
+            8.791,
+            0.0,
+            3.855
+          ],
+          [
+            7.655,
+            7.686,
+            9.038,
+            8.269,
+            5.072,
+            7.284,
+            10.187,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6465072953898606,
+        "mw": 414.18,
+        "logp": 2.14,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.4888,
+        "sa_score": 3.05,
+        "n_heavy_atoms": 29,
+        "tpsa": 130.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NOD2-D127N Candidate #1",
+        "iupac_name": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6465,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_D127N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_D127N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_D127N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_D127N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_D127N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NOD2-D127N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NOD2-D127N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:23:21.500145+00:00"
     }
   ]
 }
