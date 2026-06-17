@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 595,
+  "total_entries": 596,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45070,
-    "queue_remaining": 133527
+    "total_processed": 45071,
+    "queue_remaining": 133526
   },
   "entries": [
     {
@@ -131506,6 +131506,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:30:37.210924+00:00"
+    },
+    {
+      "entry_id": "PCD-FLCN-A264V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FLCN-A264V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FLCN",
+        "uniprot": "",
+        "clinvar_id": "322066",
+        "disease": "Familial spontaneous pneumothorax",
+        "mutation_precursor": "A264V",
+        "mutation_mature": "A264V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8406288476460159,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 358.3419417174803,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          11.329686164855957,
+          -7.057799816131592,
+          -14.077909469604492
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.0138858342604635,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8749200781330561,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "L262": "L",
+          "K263": "K",
+          "A264": "A",
+          "C265": "C",
+          "G266": "G",
+          "S267": "S",
+          "R268": "R",
+          "L269": "L",
+          "T270": "T"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NFG4|FLCN variant A264V",
+        "fasta_sequence": "MNAIVALCHFCELHGPRTLFCTEVLHAPLPQGDGNEDSPGQGEQAEEEEGGIQMNSRMRAHSPAEGASVESSSPGPKKSDMCEGCRSLAAGHPGYISHDKETSIKYVSHQHPSHPQLFSIVRQACVRSLSCEVCPGREGPIFFGDEQHGFVFSHTFFIKDSLARGFQRWYSIITIMMDRIYLINSWPFLLGKVRGIIDELQGKALKVFEAEQFGCPQRAQRMNTAFTPFLHQRNGNAARSLTSLTSDDNLWACLHTSFAWLLKACGSRLTEKLLEGAPTEDTLVQMEKLADLEEESESWDNSEAEEEEKAPVLPESTEGRELTQGPAESSSLSGCGSWQPRKLPVFKSLRHMRQVLGAPSFRMLAWHVLMGNQVIWKSRDVDLVQSAFEVLRTMLPVGCVRIIPYSSQYEEAYRCNFLGLSPHVQIPPHVLSSEFAVIVEVHAAARSTLHPVGCEDDQSLSKYEFVVTSGSPVAADRVGPTILNKIEAALTNQNLSVDVVDQCLVCLKEEWMNKVKVLFKFTKVDSRPKEDTQKLLSILGASEEDNVKLLKFWMTGLSKTYKSHLMSTVRSPTASESRN",
+        "full_sequence": "MNAIVALCHFCELHGPRTLFCTEVLHAPLPQGDGNEDSPGQGEQAEEEEGGIQMNSRMRAHSPAEGASVESSSPGPKKSDMCEGCRSLAAGHPGYISHDKETSIKYVSHQHPSHPQLFSIVRQACVRSLSCEVCPGREGPIFFGDEQHGFVFSHTFFIKDSLARGFQRWYSIITIMMDRIYLINSWPFLLGKVRGIIDELQGKALKVFEAEQFGCPQRAQRMNTAFTPFLHQRNGNAARSLTSLTSDDNLWACLHTSFAWLLKACGSRLTEKLLEGAPTEDTLVQMEKLADLEEESESWDNSEAEEEEKAPVLPESTEGRELTQGPAESSSLSGCGSWQPRKLPVFKSLRHMRQVLGAPSFRMLAWHVLMGNQVIWKSRDVDLVQSAFEVLRTMLPVGCVRIIPYSSQYEEAYRCNFLGLSPHVQIPPHVLSSEFAVIVEVHAAARSTLHPVGCEDDQSLSKYEFVVTSGSPVAADRVGPTILNKIEAALTNQNLSVDVVDQCLVCLKEEWMNKVKVLFKFTKVDSRPKEDTQKLLSILGASEEDNVKLLKFWMTGLSKTYKSHLMSTVRSPTASESRN",
+        "n_residues": 579,
+        "mutation_pos_1indexed": 264,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "M1-L262-K263-A264-C265-G266-S267-R268-L269-T270",
+        "pocket_lining_positions_precursor": [
+          1,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270
+        ],
+        "pocket_lining_1letter": "MLKACGSRLT",
+        "sequence_slice_around_pocket": "LHTSFAWLLKACGSRLTEKL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_A264V/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "M1",
+          "L262",
+          "K263",
+          "A264",
+          "C265",
+          "G266",
+          "S267",
+          "R268",
+          "L269",
+          "T270"
+        ],
+        "values": [
+          [
+            0.0,
+            8.213,
+            8.844,
+            10.484,
+            8.123,
+            5.474,
+            8.897,
+            10.485,
+            9.123,
+            9.63
+          ],
+          [
+            8.213,
+            0.0,
+            3.887,
+            5.623,
+            5.086,
+            6.115,
+            8.752,
+            10.335,
+            11.712,
+            13.914
+          ],
+          [
+            8.844,
+            3.887,
+            0.0,
+            3.825,
+            5.5,
+            5.189,
+            6.344,
+            9.002,
+            11.036,
+            12.601
+          ],
+          [
+            10.484,
+            5.623,
+            3.825,
+            0.0,
+            3.844,
+            5.433,
+            5.168,
+            6.437,
+            9.361,
+            11.642
+          ],
+          [
+            8.123,
+            5.086,
+            5.5,
+            3.844,
+            0.0,
+            3.844,
+            5.586,
+            5.602,
+            7.191,
+            10.079
+          ],
+          [
+            5.474,
+            6.115,
+            5.189,
+            5.433,
+            3.844,
+            0.0,
+            3.854,
+            5.778,
+            6.327,
+            7.868
+          ],
+          [
+            8.897,
+            8.752,
+            6.344,
+            5.168,
+            5.586,
+            3.854,
+            0.0,
+            3.871,
+            5.967,
+            6.976
+          ],
+          [
+            10.485,
+            10.335,
+            9.002,
+            6.437,
+            5.602,
+            5.778,
+            3.871,
+            0.0,
+            3.825,
+            6.409
+          ],
+          [
+            9.123,
+            11.712,
+            11.036,
+            9.361,
+            7.191,
+            6.327,
+            5.967,
+            3.825,
+            0.0,
+            3.796
+          ],
+          [
+            9.63,
+            13.914,
+            12.601,
+            11.642,
+            10.079,
+            7.868,
+            6.976,
+            6.409,
+            3.796,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6771629523540467,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FLCN-A264V Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6772,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_A264V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_A264V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_A264V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_A264V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_A264V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FLCN-A264V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FLCN-A264V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:31:02.306994+00:00"
     }
   ]
 }
