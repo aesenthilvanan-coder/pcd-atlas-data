@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 75,
+  "total_entries": 76,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44474,
-    "queue_remaining": 134123
+    "total_processed": 44475,
+    "queue_remaining": 134122
   },
   "entries": [
     {
@@ -17430,6 +17430,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:44:31.835706+00:00"
+    },
+    {
+      "entry_id": "PCD-ALG8-Y84C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG8-Y84C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ALG8",
+        "uniprot": "",
+        "clinvar_id": "306226",
+        "disease": "ALG8 congenital disorder of glycosylation",
+        "mutation_precursor": "Y84C",
+        "mutation_mature": "Y84C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7627923929423333,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 323.2103741209757,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -2.488109588623047,
+          28.03164291381836,
+          -20.010986328125
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.9794658089628205,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6033278406143924,
+        "cryptic": true,
+        "pocket_residues": {
+          "K83": "K",
+          "Y84": "Y",
+          "F85": "F",
+          "D86": "D"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9BVK2|ALG8 variant Y84C",
+        "fasta_sequence": "MAALTIATGTGNWFSALALGVTLLKCLLIPTYHSTDFEVHRNWLAITHSLPISQWYYEATSEWTLDYPPFFAWFEYILSHVAKYFDQEMLNVHNLNYSSSRTLLFQRFSVIFMDVLFVYAVRECCKCIDGKKVGKELTEKPKFILSVLLLWNFGLLIVDHIHFQYNGFLFGLMLLSIARLFQKRHMEGAFLFAVLLHFKHIYLYVAPAYGVYLLRSYCFTANKPDGSIRWKSFSFVRVISLGLVVFLVSALSLGPFLALNQLPQVFSRLFPFKRGLCHAYWAPNFWALYNALDKVLSVIGLKLKFLDPNNIPKASMTSGLVQQFQHTVLPSVTPLATLICTLIAILPSIFCLWFKPQGPRGFLRCLTLCALSSFMFGWHVHEKAILLAILPMSLLSVGKAGDASIFLILTTTGHYSLFPLLFTAPELPIKILLMLLFTIYSISSLKTLFRKEKPLFNWMETFYLLGLGPLEVCCEFVFPFTSWKVKYPFIPLLLTSVYCAVGITYAWFKLYVSVLIDSAIGKTKKQ",
+        "full_sequence": "MAALTIATGTGNWFSALALGVTLLKCLLIPTYHSTDFEVHRNWLAITHSLPISQWYYEATSEWTLDYPPFFAWFEYILSHVAKYFDQEMLNVHNLNYSSSRTLLFQRFSVIFMDVLFVYAVRECCKCIDGKKVGKELTEKPKFILSVLLLWNFGLLIVDHIHFQYNGFLFGLMLLSIARLFQKRHMEGAFLFAVLLHFKHIYLYVAPAYGVYLLRSYCFTANKPDGSIRWKSFSFVRVISLGLVVFLVSALSLGPFLALNQLPQVFSRLFPFKRGLCHAYWAPNFWALYNALDKVLSVIGLKLKFLDPNNIPKASMTSGLVQQFQHTVLPSVTPLATLICTLIAILPSIFCLWFKPQGPRGFLRCLTLCALSSFMFGWHVHEKAILLAILPMSLLSVGKAGDASIFLILTTTGHYSLFPLLFTAPELPIKILLMLLFTIYSISSLKTLFRKEKPLFNWMETFYLLGLGPLEVCCEFVFPFTSWKVKYPFIPLLLTSVYCAVGITYAWFKLYVSVLIDSAIGKTKKQ",
+        "n_residues": 526,
+        "mutation_pos_1indexed": 84,
+        "wt_aa": "Y",
+        "mut_aa": "C",
+        "pocket_lining_residues": "K83-Y84-F85-D86",
+        "pocket_lining_positions_precursor": [
+          83,
+          84,
+          85,
+          86
+        ],
+        "pocket_lining_1letter": "KYFD",
+        "sequence_slice_around_pocket": "FEYILSHVAKYFDQEMLNVH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ALG8_Y84C/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "K83",
+          "Y84",
+          "F85",
+          "D86"
+        ],
+        "values": [
+          [
+            0.0,
+            3.856,
+            5.553,
+            5.392
+          ],
+          [
+            3.856,
+            0.0,
+            3.84,
+            5.815
+          ],
+          [
+            5.553,
+            3.84,
+            0.0,
+            3.833
+          ],
+          [
+            5.392,
+            5.815,
+            3.833,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1N1CCCCC1",
+        "composite_score": 0.7186594633736408,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.82,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ALG8-Y84C Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7187,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ALG8_Y84C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ALG8_Y84C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ALG8_Y84C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALG8_Y84C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALG8_Y84C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG8-Y84C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG8-Y84C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:44:56.030603+00:00"
     }
   ]
 }
