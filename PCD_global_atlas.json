@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 565,
+  "total_entries": 566,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45038,
-    "queue_remaining": 133559
+    "total_processed": 45039,
+    "queue_remaining": 133558
   },
   "entries": [
     {
@@ -125444,6 +125444,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:05:50.014242+00:00"
+    },
+    {
+      "entry_id": "PCD-CBLIF-A127T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBLIF-A127T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CBLIF",
+        "uniprot": "",
+        "clinvar_id": "305038",
+        "disease": "Hereditary intrinsic factor deficiency",
+        "mutation_precursor": "A127T",
+        "mutation_mature": "A127T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8017860416754031,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 562.8382127697893,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -15.567995071411133,
+          23.155120849609375,
+          -6.974884986877441
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.924220480067354,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6412927024599105,
+        "cryptic": true,
+        "pocket_residues": {
+          "P125": "P",
+          "N126": "N",
+          "A127": "A",
+          "N164": "N",
+          "S165": "S",
+          "S166": "S"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P27352|CBLIF variant A127T",
+        "fasta_sequence": "MAWFALYLLSLLWATAGTSTQTQSSCSVPSAQEPLVNGIQVLMENSVTSSAYPNPSILIAMNLAGAYNLKAQKLLTYQLMSSDNNDLTIGQLGLTIMALTSSCRDPGDKVSILQRQMENWAPSSPNAEASAFYGPSLAILALCQKNSEATLPIAVRFAKTLLANSSPFNVDTGAMATLALTCMYNKIPVGSEEGYRSLFGQVLKDIVEKISMKIKDNGIIGDIYSTGLAMQALSVTPEPSKKEWNCKKTTDMILNEIKQGKFHNPMSIAQILPSLKGKTYLDVPQVTCSPDHEVQPTLPSNPGPGPTSASNITVIYTINNQLRGVELLFNETINVSVKSGSVLLVVLEEAQRKNPMFKFETTMTSWGLVVSSINNIAENVNHKTYWQFLSGVTPLNEGVADYIPFNHEHITANFTQY",
+        "full_sequence": "MAWFALYLLSLLWATAGTSTQTQSSCSVPSAQEPLVNGIQVLMENSVTSSAYPNPSILIAMNLAGAYNLKAQKLLTYQLMSSDNNDLTIGQLGLTIMALTSSCRDPGDKVSILQRQMENWAPSSPNAEASAFYGPSLAILALCQKNSEATLPIAVRFAKTLLANSSPFNVDTGAMATLALTCMYNKIPVGSEEGYRSLFGQVLKDIVEKISMKIKDNGIIGDIYSTGLAMQALSVTPEPSKKEWNCKKTTDMILNEIKQGKFHNPMSIAQILPSLKGKTYLDVPQVTCSPDHEVQPTLPSNPGPGPTSASNITVIYTINNQLRGVELLFNETINVSVKSGSVLLVVLEEAQRKNPMFKFETTMTSWGLVVSSINNIAENVNHKTYWQFLSGVTPLNEGVADYIPFNHEHITANFTQY",
+        "n_residues": 417,
+        "mutation_pos_1indexed": 127,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "P125-N126-A127-N164-S165-S166",
+        "pocket_lining_positions_precursor": [
+          125,
+          126,
+          127,
+          164,
+          165,
+          166
+        ],
+        "pocket_lining_1letter": "PNANSS",
+        "sequence_slice_around_pocket": "MENWAPSSPNAEASAFYGPS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_A127T/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "P125",
+          "N126",
+          "A127",
+          "N164",
+          "S165",
+          "S166"
+        ],
+        "values": [
+          [
+            0.0,
+            3.867,
+            5.674,
+            5.182,
+            7.122,
+            8.406
+          ],
+          [
+            3.867,
+            0.0,
+            3.832,
+            5.953,
+            5.923,
+            5.8
+          ],
+          [
+            5.674,
+            3.832,
+            0.0,
+            7.332,
+            8.254,
+            6.682
+          ],
+          [
+            5.182,
+            5.953,
+            7.332,
+            0.0,
+            3.839,
+            5.913
+          ],
+          [
+            7.122,
+            5.923,
+            8.254,
+            3.839,
+            0.0,
+            3.844
+          ],
+          [
+            8.406,
+            5.8,
+            6.682,
+            5.913,
+            3.844,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)C(O)Cc1ccc(O)cc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.516750839038141,
+        "mw": 375.25,
+        "logp": 2.016,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.6755,
+        "sa_score": 3.6,
+        "n_heavy_atoms": 27,
+        "tpsa": 90.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CBLIF-A127T Candidate #1",
+        "iupac_name": "NCCC(=O)C(O)Cc1ccc(O)cc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5168,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_A127T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_A127T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_A127T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_A127T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_A127T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBLIF-A127T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBLIF-A127T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:06:12.463585+00:00"
     }
   ]
 }
