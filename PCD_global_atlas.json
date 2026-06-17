@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1149,
+  "total_entries": 1150,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45746,
-    "queue_remaining": 132851
+    "total_processed": 45747,
+    "queue_remaining": 132850
   },
   "entries": [
     {
@@ -252864,6 +252864,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:54:43.565301+00:00"
+    },
+    {
+      "entry_id": "PCD-FANCI-S371G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCI-S371G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FANCI",
+        "uniprot": "",
+        "clinvar_id": "317269",
+        "disease": "Fanconi anemia",
+        "mutation_precursor": "S371G",
+        "mutation_mature": "S371G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7427585043905814,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 402.01487097686424,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -25.113542556762695,
+          -13.683781623840332,
+          -5.143637180328369
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.18813245685847,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6989640358835134,
+        "cryptic": true,
+        "pocket_residues": {
+          "K369": "K",
+          "N370": "N",
+          "S371": "S",
+          "V372": "V",
+          "H373": "H",
+          "S374": "S",
+          "W375": "W",
+          "I432": "I",
+          "H433": "H"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NVI1|FANCI variant S371G",
+        "fasta_sequence": "MDQKILSLAAEKTADKLQEFLQTLREGDLTNLLQNQAVKGKVAGALLRAIFKGSPCSEEAGTLRRRKIYTCCIQLVESGDLQKEIASEIIGLLMLEAHHFPGPLLVELANEFISAVREGSLVNGKSLELLPIILTALATKKENLAYGKGVLSGEECKKQLINTLCSGRWDQQYVIQLTSMFKDVPLTAEEVEFVVEKALSMFSKMNLQEIPPLVYQLLVLSSKGSRKSVLEGIIAFFSALDKQHNEEQSGDELLDVVTVPSGELRHVEGTIILHIVFAIKLDYELGRELVKHLKVGQQGDSNNNLSPFSIALLLSVTRIQRFQDQVLDLLKTSVVKSFKDLQLLQGSKFLQNLVPHRSYVSTMILEVVKNSVHSWDHVTQGLVELGFILMDSYGPKKVLDGKTIETSPSLSRMPNQHACKLGANILLETFKIHEMIRQEILEQVLNRVVTRASSPISHFLDLLSNIVMYAPLVLQSCSSKVTEAFDYLSFLPLQTVQRLLKAVQPLLKVSMSMRDCLILVLRKAMFANQLDARKSAVAGFLLLLKNFKVLGSLSSSQCSQSLSVSQVHVDVHSHYNSVANETFCLEIMDSLRRCLSQQADVRLMLYEGFYDVLRRNSQLANSVMQTLLSQLKQFYEPKPDLLPPLKLEACILTQGDKISLQEPLDYLLCCIQHCLAWYKNTVIPLQQGEEEEEEEEAFYEDLDDILESITNRMIKSELEDFELDKSADFSQSTSIGIKNNICAFLVMGVCEVLIEYNFSISSFSKNRFEDILSLFMCYKKLSDILNEKAGKAKTKMANKTSDSLLSMKFVSSLLTALFRDSIQSHQESLSVLRSSNEFMRYAVNVALQKVQQLKETGHVSGPDGQNPEKIFQNLCDITRVLLWRYTSIPTSVEESGKKEKGKSISLLCLEGLQKIFSAVQQFYQPKIQQFLRALDVTDKEGEEREDADVSVTQRTAFQIRQFQRSLLNLLSSQEEDFNSKEALLLVTVLTSLSKLLEPSSPQFVQMLSWTSKICKENSREDALFCKSLMNLLFSLHVSYKSPVILLRDLSQDIHGHLGDIDQDVEVEKTNHFAIVNLRTAAPTVCLLVLSQAEKVLEEVDWLITKLKGQVSQETLSEEASSQATLPNQPVEKAIIMQLGTLLTFFHELVQTALPSGSCVDTLLKDLCKMYTTLTALVRYYLQVCQSSGGIPKNMEKLVKLSGSHLTPLCYSFISYVQNKSKSLNYTGEKKEKPAAVATAMARVLRETKPIPNLIFAIEQYEKFLIHLSKKSKVNLMQHMKLSTSRDFKIKGNILDMVLREDGEDENEEGTASEHGGQNKEPAKKKRKK",
+        "full_sequence": "MDQKILSLAAEKTADKLQEFLQTLREGDLTNLLQNQAVKGKVAGALLRAIFKGSPCSEEAGTLRRRKIYTCCIQLVESGDLQKEIASEIIGLLMLEAHHFPGPLLVELANEFISAVREGSLVNGKSLELLPIILTALATKKENLAYGKGVLSGEECKKQLINTLCSGRWDQQYVIQLTSMFKDVPLTAEEVEFVVEKALSMFSKMNLQEIPPLVYQLLVLSSKGSRKSVLEGIIAFFSALDKQHNEEQSGDELLDVVTVPSGELRHVEGTIILHIVFAIKLDYELGRELVKHLKVGQQGDSNNNLSPFSIALLLSVTRIQRFQDQVLDLLKTSVVKSFKDLQLLQGSKFLQNLVPHRSYVSTMILEVVKNSVHSWDHVTQGLVELGFILMDSYGPKKVLDGKTIETSPSLSRMPNQHACKLGANILLETFKIHEMIRQEILEQVLNRVVTRASSPISHFLDLLSNIVMYAPLVLQSCSSKVTEAFDYLSFLPLQTVQRLLKAVQPLLKVSMSMRDCLILVLRKAMFANQLDARKSAVAGFLLLLKNFKVLGSLSSSQCSQSLSVSQVHVDVHSHYNSVANETFCLEIMDSLRRCLSQQADVRLMLYEGFYDVLRRNSQLANSVMQTLLSQLKQFYEPKPDLLPPLKLEACILTQGDKISLQEPLDYLLCCIQHCLAWYKNTVIPLQQGEEEEEEEEAFYEDLDDILESITNRMIKSELEDFELDKSADFSQSTSIGIKNNICAFLVMGVCEVLIEYNFSISSFSKNRFEDILSLFMCYKKLSDILNEKAGKAKTKMANKTSDSLLSMKFVSSLLTALFRDSIQSHQESLSVLRSSNEFMRYAVNVALQKVQQLKETGHVSGPDGQNPEKIFQNLCDITRVLLWRYTSIPTSVEESGKKEKGKSISLLCLEGLQKIFSAVQQFYQPKIQQFLRALDVTDKEGEEREDADVSVTQRTAFQIRQFQRSLLNLLSSQEEDFNSKEALLLVTVLTSLSKLLEPSSPQFVQMLSWTSKICKENSREDALFCKSLMNLLFSLHVSYKSPVILLRDLSQDIHGHLGDIDQDVEVEKTNHFAIVNLRTAAPTVCLLVLSQAEKVLEEVDWLITKLKGQVSQETLSEEASSQATLPNQPVEKAIIMQLGTLLTFFHELVQTALPSGSCVDTLLKDLCKMYTTLTALVRYYLQVCQSSGGIPKNMEKLVKLSGSHLTPLCYSFISYVQNKSKSLNYTGEKKEKPAAVATAMARVLRETKPIPNLIFAIEQYEKFLIHLSKKSKVNLMQHMKLSTSRDFKIKGNILDMVLREDGEDENEEGTASEHGGQNKEPAKKKRKK",
+        "n_residues": 1328,
+        "mutation_pos_1indexed": 371,
+        "wt_aa": "S",
+        "mut_aa": "G",
+        "pocket_lining_residues": "K369-N370-S371-V372-H373-S374-W375-I432-H433",
+        "pocket_lining_positions_precursor": [
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          432,
+          433
+        ],
+        "pocket_lining_1letter": "KNSVHSWIH",
+        "sequence_slice_around_pocket": "STMILEVVKNSVHSWDHVTQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FANCI_S371G/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "K369",
+          "N370",
+          "S371",
+          "V372",
+          "H373",
+          "S374",
+          "W375",
+          "I432",
+          "H433"
+        ],
+        "values": [
+          [
+            0.0,
+            3.842,
+            5.47,
+            6.312,
+            8.744,
+            11.077,
+            10.146,
+            7.839,
+            10.474
+          ],
+          [
+            3.842,
+            0.0,
+            3.844,
+            5.434,
+            6.085,
+            8.746,
+            7.763,
+            9.835,
+            11.612
+          ],
+          [
+            5.47,
+            3.844,
+            0.0,
+            3.869,
+            5.277,
+            6.206,
+            4.687,
+            7.99,
+            8.623
+          ],
+          [
+            6.312,
+            5.434,
+            3.869,
+            0.0,
+            3.877,
+            5.547,
+            6.551,
+            6.421,
+            7.615
+          ],
+          [
+            8.744,
+            6.085,
+            5.277,
+            3.877,
+            0.0,
+            3.871,
+            5.768,
+            10.239,
+            10.833
+          ],
+          [
+            11.077,
+            8.746,
+            6.206,
+            5.547,
+            3.871,
+            0.0,
+            3.862,
+            10.616,
+            9.778
+          ],
+          [
+            10.146,
+            7.763,
+            4.687,
+            6.551,
+            5.768,
+            3.862,
+            0.0,
+            10.931,
+            9.94
+          ],
+          [
+            7.839,
+            9.835,
+            7.99,
+            6.421,
+            10.239,
+            10.616,
+            10.931,
+            0.0,
+            3.855
+          ],
+          [
+            10.474,
+            11.612,
+            8.623,
+            7.615,
+            10.833,
+            9.778,
+            9.94,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6341493412028472,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FANCI-S371G Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6341,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FANCI_S371G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FANCI_S371G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FANCI_S371G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCI_S371G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCI_S371G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCI-S371G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCI-S371G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:55:28.361958+00:00"
     }
   ]
 }
