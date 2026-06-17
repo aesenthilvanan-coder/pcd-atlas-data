@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1407,
+  "total_entries": 1408,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46046,
-    "queue_remaining": 132551
+    "total_processed": 46047,
+    "queue_remaining": 132550
   },
   "entries": [
     {
@@ -311822,6 +311822,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:22:14.953957+00:00"
+    },
+    {
+      "entry_id": "PCD-SOX9-G305A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SOX9-G305A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SOX9",
+        "uniprot": "",
+        "clinvar_id": "2182788",
+        "disease": "Inborn genetic diseases",
+        "mutation_precursor": "G305A",
+        "mutation_mature": "G305A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7758557887639028,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 514.4826883599518,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -0.40947914123535156,
+          -22.365291595458984,
+          9.483490943908691
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.965985246307328,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8139469326166525,
+        "cryptic": true,
+        "pocket_residues": {
+          "P304": "P",
+          "G305": "G",
+          "V306": "V",
+          "P307": "P",
+          "A308": "A"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P48436|SOX9 variant G305A",
+        "fasta_sequence": "MNLLDPFMKMTDEQEKGLSGAPSPTMSEDSAGSPCPSGSGSDTENTRPQENTFPKGEPDLKKESEEDKFPVCIREAVSQVLKGYDWTLVPMPVRVNGSSKNKPHVKRPMNAFMVWAQAARRKLADQYPHLHNAELSKTLGKLWRLLNESEKRPFVEEAERLRVQHKKDHPDYKYQPRRRKSVKNGQAEAEEATEQTHISPNAIFKALQADSPHSSSGMSEVHSPGEHSGQSQGPPTPPTTPKTDVQPGKADLKREGRPLPEGGRQPPIDFRDVDIGELSSDVISNIETFDVNEFDQYLPPNGHPGVPATHGQVTYTGSYGISSTAATPASAGHVWMSKQQAPPPPPQQPPQAPPAPQAPPQPQAAPPQQPAAPPQQPQAHTLTTLSSEPGQSQRTHIKTEQLSPSHYSEQQQHSPQQIAYSPFNLPHYSPSYPPITRSQYDYTDHQNSSSYYSHAAGQGTGLYSTFTYMNPAQRPMYTPIADTSGVPSIPQTHSPQHWEQPVYTQLTRP",
+        "full_sequence": "MNLLDPFMKMTDEQEKGLSGAPSPTMSEDSAGSPCPSGSGSDTENTRPQENTFPKGEPDLKKESEEDKFPVCIREAVSQVLKGYDWTLVPMPVRVNGSSKNKPHVKRPMNAFMVWAQAARRKLADQYPHLHNAELSKTLGKLWRLLNESEKRPFVEEAERLRVQHKKDHPDYKYQPRRRKSVKNGQAEAEEATEQTHISPNAIFKALQADSPHSSSGMSEVHSPGEHSGQSQGPPTPPTTPKTDVQPGKADLKREGRPLPEGGRQPPIDFRDVDIGELSSDVISNIETFDVNEFDQYLPPNGHPGVPATHGQVTYTGSYGISSTAATPASAGHVWMSKQQAPPPPPQQPPQAPPAPQAPPQPQAAPPQQPAAPPQQPQAHTLTTLSSEPGQSQRTHIKTEQLSPSHYSEQQQHSPQQIAYSPFNLPHYSPSYPPITRSQYDYTDHQNSSSYYSHAAGQGTGLYSTFTYMNPAQRPMYTPIADTSGVPSIPQTHSPQHWEQPVYTQLTRP",
+        "n_residues": 509,
+        "mutation_pos_1indexed": 305,
+        "wt_aa": "G",
+        "mut_aa": "A",
+        "pocket_lining_residues": "P304-G305-V306-P307-A308",
+        "pocket_lining_positions_precursor": [
+          304,
+          305,
+          306,
+          307,
+          308
+        ],
+        "pocket_lining_1letter": "PGVPA",
+        "sequence_slice_around_pocket": "DQYLPPNGHPGVPATHGQVT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SOX9_G305A/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "P304",
+          "G305",
+          "V306",
+          "P307",
+          "A308"
+        ],
+        "values": [
+          [
+            0.0,
+            3.853,
+            6.632,
+            9.367,
+            12.506
+          ],
+          [
+            3.853,
+            0.0,
+            3.845,
+            6.745,
+            9.404
+          ],
+          [
+            6.632,
+            3.845,
+            0.0,
+            3.856,
+            6.024
+          ],
+          [
+            9.367,
+            6.745,
+            3.856,
+            0.0,
+            3.84
+          ],
+          [
+            12.506,
+            9.404,
+            6.024,
+            3.84,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "composite_score": 0.5279409865409493,
+        "mw": 360.25,
+        "logp": 2.071,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.8126,
+        "sa_score": 3.31,
+        "n_heavy_atoms": 26,
+        "tpsa": 70.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SOX9-G305A Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "pocket_affinity_score": 0.5279,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SOX9_G305A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SOX9_G305A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SOX9_G305A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SOX9_G305A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SOX9_G305A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SOX9-G305A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SOX9-G305A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:22:39.255244+00:00"
     }
   ]
 }
