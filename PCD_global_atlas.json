@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 529,
+  "total_entries": 530,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44992,
-    "queue_remaining": 133605
+    "total_processed": 44993,
+    "queue_remaining": 133604
   },
   "entries": [
     {
@@ -117134,6 +117134,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:36:05.224059+00:00"
+    },
+    {
+      "entry_id": "PCD-WT1-Y400H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-WT1-Y400H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "WT1",
+        "uniprot": "",
+        "clinvar_id": "304419",
+        "disease": "Wilms tumor 1",
+        "mutation_precursor": "Y400H",
+        "mutation_mature": "Y400H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8077277065602567,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 332.0581732089983,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -11.144970893859863,
+          -3.6593358516693115,
+          16.56470489501953
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.623930103047081,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8669250724499645,
+        "cryptic": true,
+        "pocket_residues": {
+          "L398": "L",
+          "T400": "T",
+          "H401": "H",
+          "T402": "T",
+          "R403": "R",
+          "T404": "T",
+          "H405": "H"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P19544|WT1 variant Y400H",
+        "fasta_sequence": "MGSDVRDLNALLPAVPSLGGGGGCALPVSGAAQWAPVLDFAPPGASAYGSLGGPAPPPAPPPPPPPPPHSFIKQEPSWGGAEPHEEQCLSAFTVHFSGQFTGTAGACRYGPFGPPPPSQASSGQARMFPNAPYLPSCLESQPAIRNQGYSTVTFDGTPSYGHTPSHHAAQFPNHSFKHEDPMGQQGSLGEQQYSVPPPVYGCHTPTDSCTGSQALLLRTPYSSDNLYQMTSQLECMTWNQMNLGATLKGVAAGSSSSVKWTEGQSNHSTGYESDNHTTPILCGAQYRIHTHGVFRGIQDVRRVPGVAPTLVRSASETSEKRPFMCAYPGCNKRYFKLSHLQMHSRKHTGEKPYQCDFKDCERRFSRSDQLKRHQRRHTGVKPFQCKTCQRKFSRSDHLKTHTRTHTGKTSEKPFSCRWPSCQKKFARSDELVRHHNMHQRNMTKLQLAL",
+        "full_sequence": "MGSDVRDLNALLPAVPSLGGGGGCALPVSGAAQWAPVLDFAPPGASAYGSLGGPAPPPAPPPPPPPPPHSFIKQEPSWGGAEPHEEQCLSAFTVHFSGQFTGTAGACRYGPFGPPPPSQASSGQARMFPNAPYLPSCLESQPAIRNQGYSTVTFDGTPSYGHTPSHHAAQFPNHSFKHEDPMGQQGSLGEQQYSVPPPVYGCHTPTDSCTGSQALLLRTPYSSDNLYQMTSQLECMTWNQMNLGATLKGVAAGSSSSVKWTEGQSNHSTGYESDNHTTPILCGAQYRIHTHGVFRGIQDVRRVPGVAPTLVRSASETSEKRPFMCAYPGCNKRYFKLSHLQMHSRKHTGEKPYQCDFKDCERRFSRSDQLKRHQRRHTGVKPFQCKTCQRKFSRSDHLKTHTRTHTGKTSEKPFSCRWPSCQKKFARSDELVRHHNMHQRNMTKLQLAL",
+        "n_residues": 449,
+        "mutation_pos_1indexed": 400,
+        "wt_aa": "Y",
+        "mut_aa": "H",
+        "pocket_lining_residues": "L398-T400-H401-T402-R403-T404-H405",
+        "pocket_lining_positions_precursor": [
+          398,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405
+        ],
+        "pocket_lining_1letter": "LTHTRTH",
+        "sequence_slice_around_pocket": "RKFSRSDHLKTHTRTHTGKT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/WT1_Y400H/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "L398",
+          "T400",
+          "H401",
+          "T402",
+          "R403",
+          "T404",
+          "H405"
+        ],
+        "values": [
+          [
+            0.0,
+            5.532,
+            4.921,
+            6.099,
+            8.887,
+            10.166,
+            10.987
+          ],
+          [
+            5.532,
+            0.0,
+            3.831,
+            5.624,
+            5.541,
+            7.592,
+            9.932
+          ],
+          [
+            4.921,
+            3.831,
+            0.0,
+            3.86,
+            5.298,
+            5.533,
+            7.434
+          ],
+          [
+            6.099,
+            5.624,
+            3.86,
+            0.0,
+            3.862,
+            5.315,
+            5.324
+          ],
+          [
+            8.887,
+            5.541,
+            5.298,
+            3.862,
+            0.0,
+            3.855,
+            5.519
+          ],
+          [
+            10.166,
+            7.592,
+            5.533,
+            5.315,
+            3.855,
+            0.0,
+            3.858
+          ],
+          [
+            10.987,
+            9.932,
+            7.434,
+            5.324,
+            5.519,
+            3.858,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1N1CCCCC1",
+        "composite_score": 0.5436520652273693,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.82,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "WT1-Y400H Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5437,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/WT1_Y400H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/WT1_Y400H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/WT1_Y400H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/WT1_Y400H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/WT1_Y400H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-WT1-Y400H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-WT1-Y400H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:36:27.090856+00:00"
     }
   ]
 }
