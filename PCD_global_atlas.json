@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 487,
+  "total_entries": 488,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44947,
-    "queue_remaining": 133650
+    "total_processed": 44951,
+    "queue_remaining": 133646
   },
   "entries": [
     {
@@ -108217,6 +108217,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:10:19.505792+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC5A2-F535V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A2-F535V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC5A2",
+        "uniprot": "",
+        "clinvar_id": "319069",
+        "disease": "Familial renal glucosuria",
+        "mutation_precursor": "F535V",
+        "mutation_mature": "F535V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7822133075546489,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 584.0023072591666,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          1.3427364826202393,
+          12.187761306762695,
+          19.152984619140625
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.603394005743571,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.678372838858987,
+        "cryptic": true,
+        "pocket_residues": {
+          "F534": "F",
+          "F535": "F",
+          "C536": "C",
+          "G538": "G",
+          "L539": "L"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P31639|SLC5A2 variant F535V",
+        "fasta_sequence": "MEEHTEAGSAPEMGAQKALIDNPADILVIAAYFLLVIGVGLWSMCRTNRGTVGGYFLAGRSMVWWPVGASLFASNIGSGHFVGLAGTGAASGLAVAGFEWNALFVVLLLGWLFAPVYLTAGVITMPQYLRKRFGGRRIRLYLSVLSLFLYIFTKISVDMFSGAVFIQQALGWNIYASVIALLGITMIYTVTGGLAALMYTDTVQTFVILGGACILMGYAFHEVGGYSGLFDKYLGAATSLTVSEDPAVGNISSFCYRPRPDSYHLLRHPVTGDLPWPALLLGLTIVSGWYWCSDQVIVQRCLAGKSLTHIKAGCILCGYLKLTPMFLMVMPGMISRILYPDEVACVVPEVCRRVCGTEVGCSNIAYPRLVVKLMPNGLRGLMLAVMLAALMSSLASIFNSSSTLFTMDIYTRLRPRAGDRELLLVGRLWVVFIVVVSVAWLPVVQAAQGGQLFDYIQAVSSYLAPPVSAVFVLALFVPRVNEQGAFWGLIGGLLMGLARLIPEFSFGSGSCVQPSACPAFLCGVHYLYFAIVLFFCSGLLTLTVSLCTAPIPRKHLHRLVFSLRHSKEEREDLDADEQQGSSLPVQNGCPESAMEMNEPQAPAPSLFRQCLLWFCGMSRGGVGSPPPLTQEEAAAAARRLEDISEDPSWARVVNLNALLMMAVAVFLWGFYA",
+        "full_sequence": "MEEHTEAGSAPEMGAQKALIDNPADILVIAAYFLLVIGVGLWSMCRTNRGTVGGYFLAGRSMVWWPVGASLFASNIGSGHFVGLAGTGAASGLAVAGFEWNALFVVLLLGWLFAPVYLTAGVITMPQYLRKRFGGRRIRLYLSVLSLFLYIFTKISVDMFSGAVFIQQALGWNIYASVIALLGITMIYTVTGGLAALMYTDTVQTFVILGGACILMGYAFHEVGGYSGLFDKYLGAATSLTVSEDPAVGNISSFCYRPRPDSYHLLRHPVTGDLPWPALLLGLTIVSGWYWCSDQVIVQRCLAGKSLTHIKAGCILCGYLKLTPMFLMVMPGMISRILYPDEVACVVPEVCRRVCGTEVGCSNIAYPRLVVKLMPNGLRGLMLAVMLAALMSSLASIFNSSSTLFTMDIYTRLRPRAGDRELLLVGRLWVVFIVVVSVAWLPVVQAAQGGQLFDYIQAVSSYLAPPVSAVFVLALFVPRVNEQGAFWGLIGGLLMGLARLIPEFSFGSGSCVQPSACPAFLCGVHYLYFAIVLFFCSGLLTLTVSLCTAPIPRKHLHRLVFSLRHSKEEREDLDADEQQGSSLPVQNGCPESAMEMNEPQAPAPSLFRQCLLWFCGMSRGGVGSPPPLTQEEAAAAARRLEDISEDPSWARVVNLNALLMMAVAVFLWGFYA",
+        "n_residues": 672,
+        "mutation_pos_1indexed": 535,
+        "wt_aa": "F",
+        "mut_aa": "V",
+        "pocket_lining_residues": "F534-F535-C536-G538-L539",
+        "pocket_lining_positions_precursor": [
+          534,
+          535,
+          536,
+          538,
+          539
+        ],
+        "pocket_lining_1letter": "FFCGL",
+        "sequence_slice_around_pocket": "HYLYFAIVLFFCSGLLTLTV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_F535V/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "F534",
+          "F535",
+          "C536",
+          "G538",
+          "L539"
+        ],
+        "values": [
+          [
+            0.0,
+            3.831,
+            5.647,
+            5.873,
+            8.443
+          ],
+          [
+            3.831,
+            0.0,
+            3.852,
+            4.956,
+            5.851
+          ],
+          [
+            5.647,
+            3.852,
+            0.0,
+            5.515,
+            5.178
+          ],
+          [
+            5.873,
+            4.956,
+            5.515,
+            0.0,
+            3.849
+          ],
+          [
+            8.443,
+            5.851,
+            5.178,
+            3.849,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1NCCNCc1c[nH]c2ccccc12",
+        "composite_score": 0.6113645732046862,
+        "mw": 428.2,
+        "logp": 1.906,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.4074,
+        "sa_score": 3.29,
+        "n_heavy_atoms": 30,
+        "tpsa": 116.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC5A2-F535V Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1NCCNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6114,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_F535V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_F535V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_F535V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_F535V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_F535V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A2-F535V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A2-F535V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:11:23.781041+00:00"
     }
   ]
 }
