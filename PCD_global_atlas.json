@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 732,
+  "total_entries": 733,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45241,
-    "queue_remaining": 133356
+    "total_processed": 45242,
+    "queue_remaining": 133355
   },
   "entries": [
     {
@@ -161852,6 +161852,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:22:15.764692+00:00"
+    },
+    {
+      "entry_id": "PCD-ALOXE3-R670W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALOXE3-R670W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ALOXE3",
+        "uniprot": "",
+        "clinvar_id": "325957",
+        "disease": "Autosomal recessive congenital ichthyosis 3",
+        "mutation_precursor": "R670W",
+        "mutation_mature": "R670W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9233188689146015,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 391.4508554725296,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          12.462376594543457,
+          21.5992431640625,
+          -14.028953552246094
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.586117514554743,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8831294654718781,
+        "cryptic": true,
+        "pocket_residues": {
+          "E665": "E",
+          "E666": "E",
+          "A667": "A",
+          "P668": "P",
+          "R669": "R",
+          "R670": "R",
+          "S671": "S",
+          "I672": "I",
+          "A673": "A"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9BYJ1|ALOXE3 variant R670W",
+        "fasta_sequence": "MAVYRLCVTTGPYLRAGTLDNISVTLVGTCGESPKQRLDRMGRDFAPGSVQKYKVRCTAELGELLLLRVHKERYAFFRKDSWYCSRICVTEPDGSVSHFPCYQWIEGYCTVELRPGTARTICQDSLPLLLDHRTRELRARQECYRWKIYAPGFPCMVDVNSFQEMESDKKFALTKTTTCVDQGDSSGNRYLPGFPMKIDIPSLMYMEPNVRYSATKTISLLFNAIPASLGMKLRGLLDRKGSWKKLDDMQNIFWCHKTFTTKYVTEHWCEDHFFGYQYLNGVNPVMLHCISSLPSKLPVTNDMVAPLLGQDTCLQTELERGNIFLADYWILAEAPTHCLNGRQQYVAAPLCLLWLSPQGALVPLAIQLSQTPGPDSPIFLPTDSEWDWLLAKTWVRNSEFLVHENNTHFLCTHLLCEAFAMATLRQLPLCHPIYKLLLPHTRYTLQVNTIARATLLNPEGLVDQVTSIGRQGLIYLMSTGLAHFTYTNFCLPDSLRARGVLAIPNYHYRDDGLKIWAAIESFVSEIVGYYYPSDASVQQDSELQAWTGEIFAQAFLGRESSGFPSRLCTPGEMVKFLTAIIFNCSAQHAAVNSGQHDFGAWMPNAPSSMRQPPPQTKGTTTLKTYLDTLPEVNISCNNLLLFWLVSQEPKDQRPLGTYPDEHFTEEAPRRSIAAFQSRLAQISRDIQERNQGLALPYTYLDPPLIENSVSI",
+        "full_sequence": "MAVYRLCVTTGPYLRAGTLDNISVTLVGTCGESPKQRLDRMGRDFAPGSVQKYKVRCTAELGELLLLRVHKERYAFFRKDSWYCSRICVTEPDGSVSHFPCYQWIEGYCTVELRPGTARTICQDSLPLLLDHRTRELRARQECYRWKIYAPGFPCMVDVNSFQEMESDKKFALTKTTTCVDQGDSSGNRYLPGFPMKIDIPSLMYMEPNVRYSATKTISLLFNAIPASLGMKLRGLLDRKGSWKKLDDMQNIFWCHKTFTTKYVTEHWCEDHFFGYQYLNGVNPVMLHCISSLPSKLPVTNDMVAPLLGQDTCLQTELERGNIFLADYWILAEAPTHCLNGRQQYVAAPLCLLWLSPQGALVPLAIQLSQTPGPDSPIFLPTDSEWDWLLAKTWVRNSEFLVHENNTHFLCTHLLCEAFAMATLRQLPLCHPIYKLLLPHTRYTLQVNTIARATLLNPEGLVDQVTSIGRQGLIYLMSTGLAHFTYTNFCLPDSLRARGVLAIPNYHYRDDGLKIWAAIESFVSEIVGYYYPSDASVQQDSELQAWTGEIFAQAFLGRESSGFPSRLCTPGEMVKFLTAIIFNCSAQHAAVNSGQHDFGAWMPNAPSSMRQPPPQTKGTTTLKTYLDTLPEVNISCNNLLLFWLVSQEPKDQRPLGTYPDEHFTEEAPRRSIAAFQSRLAQISRDIQERNQGLALPYTYLDPPLIENSVSI",
+        "n_residues": 711,
+        "mutation_pos_1indexed": 670,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "E665-E666-A667-P668-R669-R670-S671-I672-A673",
+        "pocket_lining_positions_precursor": [
+          665,
+          666,
+          667,
+          668,
+          669,
+          670,
+          671,
+          672,
+          673
+        ],
+        "pocket_lining_1letter": "EEAPRRSIA",
+        "sequence_slice_around_pocket": "DEHFTEEAPRRSIAAFQSRL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ALOXE3_R670W/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "E665",
+          "E666",
+          "A667",
+          "P668",
+          "R669",
+          "R670",
+          "S671",
+          "I672",
+          "A673"
+        ],
+        "values": [
+          [
+            0.0,
+            3.822,
+            5.759,
+            6.03,
+            6.53,
+            9.021,
+            10.509,
+            11.134,
+            12.767
+          ],
+          [
+            3.822,
+            0.0,
+            3.855,
+            5.788,
+            5.152,
+            6.228,
+            8.76,
+            9.956,
+            10.578
+          ],
+          [
+            5.759,
+            3.855,
+            0.0,
+            3.894,
+            5.446,
+            5.239,
+            6.365,
+            8.796,
+            10.004
+          ],
+          [
+            6.03,
+            5.788,
+            3.894,
+            0.0,
+            3.864,
+            5.493,
+            4.958,
+            6.178,
+            8.687
+          ],
+          [
+            6.53,
+            5.152,
+            5.446,
+            3.864,
+            0.0,
+            3.852,
+            5.399,
+            5.036,
+            6.276
+          ],
+          [
+            9.021,
+            6.228,
+            5.239,
+            5.493,
+            3.852,
+            0.0,
+            3.858,
+            5.447,
+            5.038
+          ],
+          [
+            10.509,
+            8.76,
+            6.365,
+            4.958,
+            5.399,
+            3.858,
+            0.0,
+            3.858,
+            5.441
+          ],
+          [
+            11.134,
+            9.956,
+            8.796,
+            6.178,
+            5.036,
+            5.447,
+            3.858,
+            0.0,
+            3.855
+          ],
+          [
+            12.767,
+            10.578,
+            10.004,
+            8.687,
+            6.276,
+            5.038,
+            5.441,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.9053704161690559,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ALOXE3-R670W Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9054,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ALOXE3_R670W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ALOXE3_R670W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ALOXE3_R670W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALOXE3_R670W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALOXE3_R670W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALOXE3-R670W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALOXE3-R670W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:22:43.684707+00:00"
     }
   ]
 }
