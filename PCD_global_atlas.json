@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 559,
+  "total_entries": 560,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45032,
-    "queue_remaining": 133565
+    "total_processed": 45033,
+    "queue_remaining": 133564
   },
   "entries": [
     {
@@ -123949,6 +123949,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:02:56.920746+00:00"
+    },
+    {
+      "entry_id": "PCD-MC1R-V186M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MC1R-V186M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MC1R",
+        "uniprot": "",
+        "clinvar_id": "321432",
+        "disease": "Melanoma, cutaneous malignant, susceptibility to, 5",
+        "mutation_precursor": "V186M",
+        "mutation_mature": "V186M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8233740376086566,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 384.3265053678241,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.452289581298828,
+          11.43241024017334,
+          -18.93648910522461
+        ],
+        "dist_mutation_to_pocket_angstrom": 0.998830805814607,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6681471964232832,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y183": "Y",
+          "D184": "D",
+          "H185": "H",
+          "V186": "V",
+          "A187": "A",
+          "V188": "V",
+          "L189": "L",
+          "L190": "L",
+          "V265": "V"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q01726|MC1R variant V186M",
+        "fasta_sequence": "MAVQGSQRRLLGSLNSTPTAIPQLGLAANQTGARCLEVSISDGLFLSLGLVSLVENALVVATIAKNRNLHSPMYCFICCLALSDLLVSGSNVLETAVILLLEAGALVARAAVLQQLDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAVAAIWVASVVFSTLFIAYYDHVAVLLCLVVFFLAMLVLMAVLYVHMLARACQHAQGIARLHKRQRPVHQGFGLKGAVTLTILLGIFFLCWGPFFLHLTLIVLCPEHPTCGCIFKNFNLFLALIICNAIIDPLIYAFHSQELRRTLKEVLTCSW",
+        "full_sequence": "MAVQGSQRRLLGSLNSTPTAIPQLGLAANQTGARCLEVSISDGLFLSLGLVSLVENALVVATIAKNRNLHSPMYCFICCLALSDLLVSGSNVLETAVILLLEAGALVARAAVLQQLDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAVAAIWVASVVFSTLFIAYYDHVAVLLCLVVFFLAMLVLMAVLYVHMLARACQHAQGIARLHKRQRPVHQGFGLKGAVTLTILLGIFFLCWGPFFLHLTLIVLCPEHPTCGCIFKNFNLFLALIICNAIIDPLIYAFHSQELRRTLKEVLTCSW",
+        "n_residues": 317,
+        "mutation_pos_1indexed": 186,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "Y183-D184-H185-V186-A187-V188-L189-L190-V265",
+        "pocket_lining_positions_precursor": [
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          265
+        ],
+        "pocket_lining_1letter": "YDHVAVLLV",
+        "sequence_slice_around_pocket": "STLFIAYYDHVAVLLCLVVF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_V186M/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "Y183",
+          "D184",
+          "H185",
+          "V186",
+          "A187",
+          "V188",
+          "L189",
+          "L190",
+          "V265"
+        ],
+        "values": [
+          [
+            0.0,
+            3.865,
+            5.429,
+            7.402,
+            9.012,
+            6.79,
+            6.831,
+            10.438,
+            10.574
+          ],
+          [
+            3.865,
+            0.0,
+            3.839,
+            6.291,
+            8.889,
+            8.309,
+            8.428,
+            11.317,
+            9.656
+          ],
+          [
+            5.429,
+            3.839,
+            0.0,
+            3.84,
+            5.401,
+            5.755,
+            6.999,
+            8.977,
+            9.688
+          ],
+          [
+            7.402,
+            6.291,
+            3.84,
+            0.0,
+            3.854,
+            5.593,
+            5.262,
+            6.098,
+            6.744
+          ],
+          [
+            9.012,
+            8.889,
+            5.401,
+            3.854,
+            0.0,
+            3.867,
+            5.535,
+            5.033,
+            9.876
+          ],
+          [
+            6.79,
+            8.309,
+            5.755,
+            5.593,
+            3.867,
+            0.0,
+            3.821,
+            5.439,
+            10.79
+          ],
+          [
+            6.831,
+            8.428,
+            6.999,
+            5.262,
+            5.535,
+            3.821,
+            0.0,
+            3.856,
+            7.85
+          ],
+          [
+            10.438,
+            11.317,
+            8.977,
+            6.098,
+            5.033,
+            5.439,
+            3.856,
+            0.0,
+            8.423
+          ],
+          [
+            10.574,
+            9.656,
+            9.688,
+            6.744,
+            9.876,
+            10.79,
+            7.85,
+            8.423,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8607111693146663,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MC1R-V186M Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8607,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_V186M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_V186M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_V186M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_V186M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_V186M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MC1R-V186M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MC1R-V186M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:03:18.885146+00:00"
     }
   ]
 }
