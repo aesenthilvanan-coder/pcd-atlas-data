@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 803,
+  "total_entries": 804,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45318,
-    "queue_remaining": 133279
+    "total_processed": 45319,
+    "queue_remaining": 133278
   },
   "entries": [
     {
@@ -176442,6 +176442,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T14:24:12.722499+00:00"
+    },
+    {
+      "entry_id": "PCD-SCNN1A-E358G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-E358G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SCNN1A",
+        "uniprot": "",
+        "clinvar_id": "310142",
+        "disease": "Bronchiectasis with or without elevated sweat chloride 2",
+        "mutation_precursor": "E358G",
+        "mutation_mature": "E358G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8555267146224214,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 580.4337014434298,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.990229606628418,
+          -2.817134380340576,
+          -3.3165440559387207
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.2603180371046205,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.680362150547973,
+        "cryptic": true,
+        "pocket_residues": {
+          "A129": "A",
+          "T131": "T",
+          "T307": "T",
+          "H354": "H",
+          "E358": "E",
+          "P359": "P",
+          "A360": "A",
+          "F361": "F",
+          "M362": "M"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P37088|SCNN1A variant E358G",
+        "fasta_sequence": "MEGNKLEEQDSSPPQSTPGLMKGNKREEQGLGPEPAAPQQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKTAFWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLNSDKLVFPAVTICTLNPYRYPEIKEELEELDRITEQTLFDLYKYSSFTTLVAGSRSRRDLRGTLPHPLQRLRVPPPPHGARRARSVASSLRDNNPQVDWKDWKIGFQLCNQNKSDCFYQTYSSGVDAVREWYRFHYINILSRLPETLPSLEEDTLGNFIFACRFNQVSCNQANYSHFHHPMYGNCYTFNDKNNSNLWMSSMPGINNGLSLMLRAEQNDFIPLLSTVTGARVMVHGQDEPAFMDDGGFNLRPGVETSISMRKETLDRLGGDYGDCTKNGSDVPVENLYPSKYTQQVCIHSCFQESMIKECGCAYIFYPRPQNVEYCDYRKHSSWGYCYYKLQVDFSSDHLGCFTKCRKPCSVTSYQLSAGYSRWPSVTSQEWVFQMLSRQNNYTVNNKRNGVAKVNIFFKELNYKTNSESPSVTMVTLLSNLGSQWSLWFGSSVLSVVEMAELVFDLLVIMFLMLLRRFRSRYWSPGRGGRGAQEVASTLASSPPSHFCPHPMSLSLSQPGPAPSPALTAPPPAYATLGPRPSPGGSAGASSSTCPLGGP",
+        "full_sequence": "MEGNKLEEQDSSPPQSTPGLMKGNKREEQGLGPEPAAPQQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKTAFWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLNSDKLVFPAVTICTLNPYRYPEIKEELEELDRITEQTLFDLYKYSSFTTLVAGSRSRRDLRGTLPHPLQRLRVPPPPHGARRARSVASSLRDNNPQVDWKDWKIGFQLCNQNKSDCFYQTYSSGVDAVREWYRFHYINILSRLPETLPSLEEDTLGNFIFACRFNQVSCNQANYSHFHHPMYGNCYTFNDKNNSNLWMSSMPGINNGLSLMLRAEQNDFIPLLSTVTGARVMVHGQDEPAFMDDGGFNLRPGVETSISMRKETLDRLGGDYGDCTKNGSDVPVENLYPSKYTQQVCIHSCFQESMIKECGCAYIFYPRPQNVEYCDYRKHSSWGYCYYKLQVDFSSDHLGCFTKCRKPCSVTSYQLSAGYSRWPSVTSQEWVFQMLSRQNNYTVNNKRNGVAKVNIFFKELNYKTNSESPSVTMVTLLSNLGSQWSLWFGSSVLSVVEMAELVFDLLVIMFLMLLRRFRSRYWSPGRGGRGAQEVASTLASSPPSHFCPHPMSLSLSQPGPAPSPALTAPPPAYATLGPRPSPGGSAGASSSTCPLGGP",
+        "n_residues": 669,
+        "mutation_pos_1indexed": 358,
+        "wt_aa": "E",
+        "mut_aa": "G",
+        "pocket_lining_residues": "A129-T131-T307-H354-E358-P359-A360-F361-M362",
+        "pocket_lining_positions_precursor": [
+          129,
+          131,
+          307,
+          354,
+          358,
+          359,
+          360,
+          361,
+          362
+        ],
+        "pocket_lining_1letter": "ATTHEPAFM",
+        "sequence_slice_around_pocket": "GARVMVHGQDEPAFMDDGGF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_E358G/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "A129",
+          "T131",
+          "T307",
+          "H354",
+          "E358",
+          "P359",
+          "A360",
+          "F361",
+          "M362"
+        ],
+        "values": [
+          [
+            0.0,
+            6.592,
+            6.527,
+            5.314,
+            8.461,
+            9.468,
+            8.785,
+            12.08,
+            12.723
+          ],
+          [
+            6.592,
+            0.0,
+            4.115,
+            7.931,
+            10.997,
+            9.497,
+            6.581,
+            9.414,
+            8.233
+          ],
+          [
+            6.527,
+            4.115,
+            0.0,
+            9.804,
+            11.122,
+            9.774,
+            8.156,
+            11.736,
+            11.3
+          ],
+          [
+            5.314,
+            7.931,
+            9.804,
+            0.0,
+            6.365,
+            7.654,
+            6.845,
+            8.776,
+            10.135
+          ],
+          [
+            8.461,
+            10.997,
+            11.122,
+            6.365,
+            0.0,
+            3.85,
+            6.629,
+            8.682,
+            11.717
+          ],
+          [
+            9.468,
+            9.497,
+            9.774,
+            7.654,
+            3.85,
+            0.0,
+            3.831,
+            6.018,
+            8.981
+          ],
+          [
+            8.785,
+            6.581,
+            8.156,
+            6.845,
+            6.629,
+            3.831,
+            0.0,
+            3.867,
+            5.563
+          ],
+          [
+            12.08,
+            9.414,
+            11.736,
+            8.776,
+            8.682,
+            6.018,
+            3.867,
+            0.0,
+            3.845
+          ],
+          [
+            12.723,
+            8.233,
+            11.3,
+            10.135,
+            11.717,
+            8.981,
+            5.563,
+            3.845,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1CCNC(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.8480507246082157,
+        "mw": 422.24,
+        "logp": 2.407,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.7365,
+        "sa_score": 3.33,
+        "n_heavy_atoms": 31,
+        "tpsa": 104.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SCNN1A-E358G Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1CCNC(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.8481,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_E358G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_E358G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_E358G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_E358G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_E358G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-E358G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-E358G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T14:24:40.888254+00:00"
     }
   ]
 }
