@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 502,
+  "total_entries": 503,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44965,
-    "queue_remaining": 133632
+    "total_processed": 44966,
+    "queue_remaining": 133631
   },
   "entries": [
     {
@@ -111616,6 +111616,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:20:00.789523+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT2-G493V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT2-G493V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT2",
+        "uniprot": "",
+        "clinvar_id": "309601",
+        "disease": "Ichthyosis bullosa of Siemens",
+        "mutation_precursor": "G493V",
+        "mutation_mature": "G493V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7569250881028886,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 384.8952894440526,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          59.867210388183594,
+          40.26799011230469,
+          -80.54660034179688
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.692695781576075,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8346040432467067,
+        "cryptic": true,
+        "pocket_residues": {
+          "E487": "E",
+          "E488": "E",
+          "C489": "C",
+          "R490": "R",
+          "M491": "M",
+          "S492": "S",
+          "G493": "G",
+          "D494": "D"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P35908|KRT2 variant G493V",
+        "fasta_sequence": "MSCQISCKSRGRGGGGGGFRGFSSGSAVVSGGSRRSTSSFSCLSRHGGGGGGFGGGGFGSRSLVGLGGTKSISISVAGGGGGFGAAGGFGGRGGGFGGGSSFGGGSGFSGGGFGGGGFGGGRFGGFGGPGGVGGLGGPGGFGPGGYPGGIHEVSVNQSLLQPLNVKVDPEIQNVKAQEREQIKTLNNKFASFIDKVRFLEQQNQVLQTKWELLQQMNVGTRPINLEPIFQGYIDSLKRYLDGLTAERTSQNSELNNMQDLVEDYKKKYEDEINKRTAAENDFVTLKKDVDNAYMIKVELQSKVDLLNQEIEFLKVLYDAEISQIHQSVTDTNVILSMDNSRNLDLDSIIAEVKAQYEEIAQRSKEEAEALYHSKYEELQVTVGRHGDSLKEIKIEISELNRVIQRLQGEIAHVKKQCKNVQDAIADAEQRGEHALKDARNKLNDLEEALQQAKEDLARLLRDYQELMNVKLALDVEIATYRKLLEGEECRMSGDLSSNVTVSVTSSTISSNVASKAAFGGSGGRGSSSGGGYSSGSSSYGSGGRQSGSRGGSGGGGSISGGGYGSGGGSGGRYGSGGGSKGGSISGGGYGSGGGKHSSGGGSRGGSSSGGGYGSGGGGSSSVKGSSGEAFGSSVTFSFR",
+        "full_sequence": "MSCQISCKSRGRGGGGGGFRGFSSGSAVVSGGSRRSTSSFSCLSRHGGGGGGFGGGGFGSRSLVGLGGTKSISISVAGGGGGFGAAGGFGGRGGGFGGGSSFGGGSGFSGGGFGGGGFGGGRFGGFGGPGGVGGLGGPGGFGPGGYPGGIHEVSVNQSLLQPLNVKVDPEIQNVKAQEREQIKTLNNKFASFIDKVRFLEQQNQVLQTKWELLQQMNVGTRPINLEPIFQGYIDSLKRYLDGLTAERTSQNSELNNMQDLVEDYKKKYEDEINKRTAAENDFVTLKKDVDNAYMIKVELQSKVDLLNQEIEFLKVLYDAEISQIHQSVTDTNVILSMDNSRNLDLDSIIAEVKAQYEEIAQRSKEEAEALYHSKYEELQVTVGRHGDSLKEIKIEISELNRVIQRLQGEIAHVKKQCKNVQDAIADAEQRGEHALKDARNKLNDLEEALQQAKEDLARLLRDYQELMNVKLALDVEIATYRKLLEGEECRMSGDLSSNVTVSVTSSTISSNVASKAAFGGSGGRGSSSGGGYSSGSSSYGSGGRQSGSRGGSGGGGSISGGGYGSGGGSGGRYGSGGGSKGGSISGGGYGSGGGKHSSGGGSRGGSSSGGGYGSGGGGSSSVKGSSGEAFGSSVTFSFR",
+        "n_residues": 639,
+        "mutation_pos_1indexed": 493,
+        "wt_aa": "G",
+        "mut_aa": "V",
+        "pocket_lining_residues": "E487-E488-C489-R490-M491-S492-G493-D494",
+        "pocket_lining_positions_precursor": [
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493,
+          494
+        ],
+        "pocket_lining_1letter": "EECRMSGD",
+        "sequence_slice_around_pocket": "LLEGEECRMSGDLSSNVTVS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT2_G493V/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "E487",
+          "E488",
+          "C489",
+          "R490",
+          "M491",
+          "S492",
+          "G493",
+          "D494"
+        ],
+        "values": [
+          [
+            0.0,
+            3.857,
+            5.196,
+            4.906,
+            6.353,
+            8.489,
+            10.509,
+            12.378
+          ],
+          [
+            3.857,
+            0.0,
+            3.879,
+            5.326,
+            5.002,
+            5.784,
+            8.854,
+            10.523
+          ],
+          [
+            5.196,
+            3.879,
+            0.0,
+            3.889,
+            5.657,
+            5.137,
+            6.882,
+            7.619
+          ],
+          [
+            4.906,
+            5.326,
+            3.889,
+            0.0,
+            3.849,
+            5.59,
+            6.09,
+            8.347
+          ],
+          [
+            6.353,
+            5.002,
+            5.657,
+            3.849,
+            0.0,
+            3.86,
+            5.669,
+            8.869
+          ],
+          [
+            8.489,
+            5.784,
+            5.137,
+            5.59,
+            3.86,
+            0.0,
+            3.828,
+            5.979
+          ],
+          [
+            10.509,
+            8.854,
+            6.882,
+            6.09,
+            5.669,
+            3.828,
+            0.0,
+            3.855
+          ],
+          [
+            12.378,
+            10.523,
+            7.619,
+            8.347,
+            8.869,
+            5.979,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.704076523750652,
+        "mw": 274.22,
+        "logp": 2.343,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.9187,
+        "sa_score": 3.06,
+        "n_heavy_atoms": 20,
+        "tpsa": 45.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT2-G493V Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7041,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT2_G493V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT2_G493V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT2_G493V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT2_G493V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT2_G493V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT2-G493V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT2-G493V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:20:25.998452+00:00"
     }
   ]
 }
