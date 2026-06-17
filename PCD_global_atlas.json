@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 121,
+  "total_entries": 122,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44525,
-    "queue_remaining": 134072
+    "total_processed": 44526,
+    "queue_remaining": 134071
   },
   "entries": [
     {
@@ -27584,6 +27584,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:24:53.252428+00:00"
+    },
+    {
+      "entry_id": "PCD-ELP1-P316L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ELP1-P316L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ELP1",
+        "uniprot": "",
+        "clinvar_id": "364577",
+        "disease": "Familial dysautonomia",
+        "mutation_precursor": "P316L",
+        "mutation_mature": "P316L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8145653914846481,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 354.5295657617022,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -35.455421447753906,
+          -12.823653221130371,
+          25.599023818969727
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.967376542531497,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6423545227813567,
+        "cryptic": true,
+        "pocket_residues": {
+          "I315": "I",
+          "P316": "P",
+          "S339": "S",
+          "T340": "T",
+          "C341": "C",
+          "G342": "G",
+          "K345": "K"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O95163|ELP1 variant P316L",
+        "fasta_sequence": "MRNLKLFRTLEFRDIQGPGNPQCFSLRTEQGTVLIGSEHGLIEVDPVSREVKNEVSLVAEGFLPEDGSGRIVGVQDLLDQESVCVATASGDVILCSLSTQQLECVGSVASGISVMSWSPDQELVLLATGQQTLIMMTKDFEPILEQQIHQDDFGESKFITVGWGRKETQFHGSEGRQAAFQMQMHESALPWDDHRPQVTWRGDGQFFAVSVVCPETGARKVRVWNREFALQSTSEPVAGLGPALAWKPSGSLIASTQDKPNQQDIVFFEKNGLLHGHFTLPFLKDEVKVNDLLWNADSSVLAVWLEDLQREESSIPKTCVQLWTVGNYHWYLKQSLSFSTCGKSKIVSLMWDPVTPYRLHVLCQGWHYLAYDWHWTTDRSVGDNSSDLSNVAVIDGNRVLVTVFRQTVVPPPMCTYQLLFPHPVNQVTFLAHPQKSNDLAVLDASNQISVYKCGDCPSADPTVKLGAVGGSGFKVCLRTPHLEKRYKIQFENNEDQDVNPLKLGLLTWIEEDVFLAVSHSEFSPRSVIHHLTAASSEMDEEHGQLNVSSSAAVDGVIISLCCNSKTKSVVLQLADGQIFKYLWESPSLAIKPWKNSGGFPVRFPYPCTQTELAMIGEEECVLGLTDRCRFFINDIEVASNITSFAVYDEFLLLTTHSHTCQCFCLRDASFKTLQAGLSSNHVSHGEVLRKVERGSRIVTVVPQDTKLVLQMPRGNLEVVHHRALVLAQIRKWLDKLMFKEAFECMRKLRINLNLIYDHNPKVFLGNVETFIKQIDSVNHINLFFTELKEEDVTKTMYPAPVTSSVYLSRDPDGNKIDLVCDAMRAVMESINPHKYCLSILTSHVKKTTPELEIVLQKVHELQGNAPSDPDAVSAEEALKYLLHLVDVNELYDHSLGTYDFDLVLMVAEKSQKDPKEYLPFLNTLKKMETNYQRFTIDKYLKRYEKAIGHLSKCGPEYFPECLNLIKDKNLYNEALKLYSPSSQQYQDISIAYGEHLMQEHMYEPAGLMFARCGAHEKALSAFLTCGNWKQALCVAAQLNFTKDQLVGLGRTLAGKLVEQRKHIDAAMVLEECAQDYEEAVLLLLEGAAWEEALRLVYKYNRLDIIETNVKPSILEAQKNYMAFLDSQTATFSRHKKRLLVVRELKEQAQQAGLDDEVPHGQESDLFSETSSVVSGSEMSGKYSHSNSRISARSSKNRRKAERKKHSLKEGSPLEDLALLEALSEVVQNTENLKDEVYHILKVLFLFEFDEQGRELQKAFEDTLQLMERSLPEIWTLTYQQNSATPVLGPNSTANSIMASYQQQKTSVPVLDAELFIPPKINRRTQWKLSLLD",
+        "full_sequence": "MRNLKLFRTLEFRDIQGPGNPQCFSLRTEQGTVLIGSEHGLIEVDPVSREVKNEVSLVAEGFLPEDGSGRIVGVQDLLDQESVCVATASGDVILCSLSTQQLECVGSVASGISVMSWSPDQELVLLATGQQTLIMMTKDFEPILEQQIHQDDFGESKFITVGWGRKETQFHGSEGRQAAFQMQMHESALPWDDHRPQVTWRGDGQFFAVSVVCPETGARKVRVWNREFALQSTSEPVAGLGPALAWKPSGSLIASTQDKPNQQDIVFFEKNGLLHGHFTLPFLKDEVKVNDLLWNADSSVLAVWLEDLQREESSIPKTCVQLWTVGNYHWYLKQSLSFSTCGKSKIVSLMWDPVTPYRLHVLCQGWHYLAYDWHWTTDRSVGDNSSDLSNVAVIDGNRVLVTVFRQTVVPPPMCTYQLLFPHPVNQVTFLAHPQKSNDLAVLDASNQISVYKCGDCPSADPTVKLGAVGGSGFKVCLRTPHLEKRYKIQFENNEDQDVNPLKLGLLTWIEEDVFLAVSHSEFSPRSVIHHLTAASSEMDEEHGQLNVSSSAAVDGVIISLCCNSKTKSVVLQLADGQIFKYLWESPSLAIKPWKNSGGFPVRFPYPCTQTELAMIGEEECVLGLTDRCRFFINDIEVASNITSFAVYDEFLLLTTHSHTCQCFCLRDASFKTLQAGLSSNHVSHGEVLRKVERGSRIVTVVPQDTKLVLQMPRGNLEVVHHRALVLAQIRKWLDKLMFKEAFECMRKLRINLNLIYDHNPKVFLGNVETFIKQIDSVNHINLFFTELKEEDVTKTMYPAPVTSSVYLSRDPDGNKIDLVCDAMRAVMESINPHKYCLSILTSHVKKTTPELEIVLQKVHELQGNAPSDPDAVSAEEALKYLLHLVDVNELYDHSLGTYDFDLVLMVAEKSQKDPKEYLPFLNTLKKMETNYQRFTIDKYLKRYEKAIGHLSKCGPEYFPECLNLIKDKNLYNEALKLYSPSSQQYQDISIAYGEHLMQEHMYEPAGLMFARCGAHEKALSAFLTCGNWKQALCVAAQLNFTKDQLVGLGRTLAGKLVEQRKHIDAAMVLEECAQDYEEAVLLLLEGAAWEEALRLVYKYNRLDIIETNVKPSILEAQKNYMAFLDSQTATFSRHKKRLLVVRELKEQAQQAGLDDEVPHGQESDLFSETSSVVSGSEMSGKYSHSNSRISARSSKNRRKAERKKHSLKEGSPLEDLALLEALSEVVQNTENLKDEVYHILKVLFLFEFDEQGRELQKAFEDTLQLMERSLPEIWTLTYQQNSATPVLGPNSTANSIMASYQQQKTSVPVLDAELFIPPKINRRTQWKLSLLD",
+        "n_residues": 1332,
+        "mutation_pos_1indexed": 316,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "I315-P316-S339-T340-C341-G342-K345",
+        "pocket_lining_positions_precursor": [
+          315,
+          316,
+          339,
+          340,
+          341,
+          342,
+          345
+        ],
+        "pocket_lining_1letter": "IPSTCGK",
+        "sequence_slice_around_pocket": "EDLQREESSIPKTCVQLWTV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ELP1_P316L/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "I315",
+          "P316",
+          "S339",
+          "T340",
+          "C341",
+          "G342",
+          "K345"
+        ],
+        "values": [
+          [
+            0.0,
+            3.856,
+            7.475,
+            7.551,
+            8.146,
+            11.099,
+            11.856
+          ],
+          [
+            3.856,
+            0.0,
+            6.878,
+            5.814,
+            8.04,
+            11.619,
+            10.534
+          ],
+          [
+            7.475,
+            6.878,
+            0.0,
+            3.861,
+            5.484,
+            7.378,
+            5.551
+          ],
+          [
+            7.551,
+            5.814,
+            3.861,
+            0.0,
+            3.834,
+            7.103,
+            4.806
+          ],
+          [
+            8.146,
+            8.04,
+            5.484,
+            3.834,
+            0.0,
+            3.821,
+            5.386
+          ],
+          [
+            11.099,
+            11.619,
+            7.378,
+            7.103,
+            3.821,
+            0.0,
+            5.98
+          ],
+          [
+            11.856,
+            10.534,
+            5.551,
+            4.806,
+            5.386,
+            5.98,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)c1ccc(O)cc1N1CCCCC1",
+        "composite_score": 0.5472946037731566,
+        "mw": 248.15,
+        "logp": 1.914,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 4,
+        "qed": 0.7988,
+        "sa_score": 2.23,
+        "n_heavy_atoms": 18,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ELP1-P316L Candidate #1",
+        "iupac_name": "NCCC(=O)c1ccc(O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5473,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ELP1_P316L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ELP1_P316L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ELP1_P316L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ELP1_P316L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ELP1_P316L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ELP1-P316L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ELP1-P316L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:25:40.579135+00:00"
     }
   ]
 }
