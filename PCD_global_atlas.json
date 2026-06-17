@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 186,
+  "total_entries": 187,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44598,
-    "queue_remaining": 133999
+    "total_processed": 44599,
+    "queue_remaining": 133998
   },
   "entries": [
     {
@@ -42166,6 +42166,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T05:50:57.270726+00:00"
+    },
+    {
+      "entry_id": "PCD-CARD9-E270V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CARD9-E270V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CARD9",
+        "uniprot": "",
+        "clinvar_id": "365844",
+        "disease": "Predisposition to invasive fungal disease due to CARD9 deficiency",
+        "mutation_precursor": "E270V",
+        "mutation_mature": "E270V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8172953626157881,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 571.947023713113,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -101.03512573242188,
+          -1.807469129562378,
+          100.21917724609375
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.070473278870448,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6039688579781474,
+        "cryptic": true,
+        "pocket_residues": {
+          "E265": "E",
+          "A266": "A",
+          "S267": "S",
+          "V268": "V",
+          "Q269": "Q",
+          "E270": "E"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9H257|CARD9 variant E270V",
+        "fasta_sequence": "MSDYENDDECWSVLEGFRVTLTSVIDPSRITPYLRQCKVLNPDDEEQVLSDPNLVIRKRKVGVLLDILQRTGHKGYVAFLESLELYYPQLYKKVTGKEPARVFSMIIDASGESGLTQLLMTEVMKLQKKVQDLTALLSSKDDFIKELRVKDSLLRKHQERVQRLKEECEAGSRELKRCKEENYDLAMRLAHQSEEKGAALMRNRDLQLEIDQLKHSLMKAEDDCKVERKHTLKLRHAMEQRPSQELLWELQQEKALLQARVQELEASVQEGKLDRSSPYIQVLEEDWRQALRDHQEQANTIFSLRKDLRQGEARRLRCMEEKEMFELQCLALRKDSKMYKDRIEAILLQMEEVAIERDQAIATREELHAQHARGLQEKDALRKQVRELGEKADELQLQVFQCEAQLLAVEGRLRRQQLETLVLSSDLEDGSPRRSQELSLPQDLEDTQLSDKGCLAGGGSPKQPFAALHQEQVLRNPHDAGLSSGEPPEKERRRLKESFENYRRKRALRKMQKGWRQGEEDRENTTGSDNTDTEGS",
+        "full_sequence": "MSDYENDDECWSVLEGFRVTLTSVIDPSRITPYLRQCKVLNPDDEEQVLSDPNLVIRKRKVGVLLDILQRTGHKGYVAFLESLELYYPQLYKKVTGKEPARVFSMIIDASGESGLTQLLMTEVMKLQKKVQDLTALLSSKDDFIKELRVKDSLLRKHQERVQRLKEECEAGSRELKRCKEENYDLAMRLAHQSEEKGAALMRNRDLQLEIDQLKHSLMKAEDDCKVERKHTLKLRHAMEQRPSQELLWELQQEKALLQARVQELEASVQEGKLDRSSPYIQVLEEDWRQALRDHQEQANTIFSLRKDLRQGEARRLRCMEEKEMFELQCLALRKDSKMYKDRIEAILLQMEEVAIERDQAIATREELHAQHARGLQEKDALRKQVRELGEKADELQLQVFQCEAQLLAVEGRLRRQQLETLVLSSDLEDGSPRRSQELSLPQDLEDTQLSDKGCLAGGGSPKQPFAALHQEQVLRNPHDAGLSSGEPPEKERRRLKESFENYRRKRALRKMQKGWRQGEEDRENTTGSDNTDTEGS",
+        "n_residues": 536,
+        "mutation_pos_1indexed": 270,
+        "wt_aa": "E",
+        "mut_aa": "V",
+        "pocket_lining_residues": "E265-A266-S267-V268-Q269-E270",
+        "pocket_lining_positions_precursor": [
+          265,
+          266,
+          267,
+          268,
+          269,
+          270
+        ],
+        "pocket_lining_1letter": "EASVQE",
+        "sequence_slice_around_pocket": "RVQELEASVQEGKLDRSSPY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CARD9_E270V/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "E265",
+          "A266",
+          "S267",
+          "V268",
+          "Q269",
+          "E270"
+        ],
+        "values": [
+          [
+            0.0,
+            3.882,
+            5.584,
+            5.688,
+            8.595,
+            12.173
+          ],
+          [
+            3.882,
+            0.0,
+            3.877,
+            5.752,
+            7.347,
+            10.827
+          ],
+          [
+            5.584,
+            3.877,
+            0.0,
+            3.89,
+            5.999,
+            8.623
+          ],
+          [
+            5.688,
+            5.752,
+            3.89,
+            0.0,
+            3.843,
+            6.769
+          ],
+          [
+            8.595,
+            7.347,
+            5.999,
+            3.843,
+            0.0,
+            3.845
+          ],
+          [
+            12.173,
+            10.827,
+            8.623,
+            6.769,
+            3.845,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7252740439410236,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CARD9-E270V Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7253,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CARD9_E270V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CARD9_E270V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CARD9_E270V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CARD9_E270V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CARD9_E270V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CARD9-E270V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CARD9-E270V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T05:51:20.144731+00:00"
     }
   ]
 }
