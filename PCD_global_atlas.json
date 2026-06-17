@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 188,
+  "total_entries": 189,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44600,
-    "queue_remaining": 133997
+    "total_processed": 44601,
+    "queue_remaining": 133996
   },
   "entries": [
     {
@@ -42513,6 +42513,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T05:52:21.713436+00:00"
+    },
+    {
+      "entry_id": "PCD-SMARCA2-R1560Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMARCA2-R1560Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SMARCA2",
+        "uniprot": "",
+        "clinvar_id": "366321",
+        "disease": "Nicolaides-Baraitser syndrome",
+        "mutation_precursor": "R1560Q",
+        "mutation_mature": "R1560Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8219384769968618,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 318.2568311132424,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          25.0874080657959,
+          -36.43208694458008,
+          21.789188385009766
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.6428507508236505,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8818336436267141,
+        "cryptic": true,
+        "pocket_residues": {
+          "N1559": "N",
+          "R1560": "R",
+          "G1561": "G",
+          "K1562": "K"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P51531|SMARCA2 variant R1560Q",
+        "fasta_sequence": "MSTPTDPGAMPHPGPSPGPGPSPGPILGPSPGPGPSPGSVHSMMGPSPGPPSVSHPMPTMGSTDFPQEGMHQMHKPIDGIHDKGIVEDIHCGSMKGTGMRPPHPGMGPPQSPMDQHSQGYMSPHPSPLGAPEHVSSPMSGGGPTPPQMPPSQPGALIPGDPQAMSQPNRGPSPFSPVQLHQLRAQILAYKMLARGQPLPETLQLAVQGKRTLPGLQQQQQQQQQQQQQQQQQQQQQQQPQQQPPQPQTQQQQQPALVNYNRPSGPGPELSGPSTPQKLPVPAPGGRPSPAPPAAAQPPAAAVPGPSVPQPAPGQPSPVLQLQQKQSRISPIQKPQGLDPVEILQEREYRLQARIAHRIQELENLPGSLPPDLRTKATVELKALRLLNFQRQLRQEVVACMRRDTTLETALNSKAYKRSKRQTLREARMTEKLEKQQKIEQERKRRQKHQEYLNSILQHAKDFKEYHRSVAGKIQKLSKAVATWHANTEREQKKETERIEKERMRRLMAEDEEGYRKLIDQKKDRRLAYLLQQTDEYVANLTNLVWEHKQAQAAKEKKKRRRRKKKAEENAEGGESALGPDGEPIDESSQMSDLPVKVTHTETGKVLFGPEAPKASQLDAWLEMNPGYEVAPRSDSEESDSDYEEEDEEEESSRQETEEKILLDPNSEEVSEKDAKQIIETAKQDVDDEYSMQYSARGSQSYYTVAHAISERVEKQSALLINGTLKHYQLQGLEWMVSLYNNNLNGILADEMGLGKTIQTIALITYLMEHKRLNGPYLIIVPLSTLSNWTYEFDKWAPSVVKISYKGTPAMRRSLVPQLRSGKFNVLLTTYEYIIKDKHILAKIRWKYMIVDEGHRMKNHHCKLTQVLNTHYVAPRRILLTGTPLQNKLPELWALLNFLLPTIFKSCSTFEQWFNAPFAMTGERVDLNEEETILIIRRLHKVLRPFLLRRLKKEVESQLPEKVEYVIKCDMSALQKILYRHMQAKGILLTDGSEKDKKGKGGAKTLMNTIMQLRKICNHPYMFQHIEESFAEHLGYSNGVINGAELYRASGKFELLDRILPKLRATNHRVLLFCQMTSLMTIMEDYFAFRNFLYLRLDGTTKSEDRAALLKKFNEPGSQYFIFLLSTRAGGLGLNLQAADTVVIFDSDWNPHQDLQAQDRAHRIGQQNEVRVLRLCTVNSVEEKILAAAKYKLNVDQKVIQAGMFDQKSSSHERRAFLQAILEHEEENEEEDEVPDDETLNQMIARREEEFDLFMRMDMDRRREDARNPKRKPRLMEEDELPSWIIKDDAEVERLTCEEEEEKIFGRGSRQRRDVDYSDALTEKQWLRAIEDGNLEEMEEEVRLKKRKRRRNVDKDPAKEDVEKAKKRRGRPPAEKLSPNPPKLTKQMNAIIDTVINYKDRCNVEKVPSNSQLEIEGNSSGRQLSEVFIQLPSRKELPEYYELIRKPVDFKKIKERIRNHKYRSLGDLEKDVMLLCHNAQTFNLEGSQIYEDSIVLQSVFKSARQKIAKEEESEDESNEEEEEEDEEESESEAKSVKVKIKLNKKDDKGRDKGKGKKRPNRGKAKPVVSDFDSDEEQDEREQSEGSGTDDE",
+        "full_sequence": "MSTPTDPGAMPHPGPSPGPGPSPGPILGPSPGPGPSPGSVHSMMGPSPGPPSVSHPMPTMGSTDFPQEGMHQMHKPIDGIHDKGIVEDIHCGSMKGTGMRPPHPGMGPPQSPMDQHSQGYMSPHPSPLGAPEHVSSPMSGGGPTPPQMPPSQPGALIPGDPQAMSQPNRGPSPFSPVQLHQLRAQILAYKMLARGQPLPETLQLAVQGKRTLPGLQQQQQQQQQQQQQQQQQQQQQQQPQQQPPQPQTQQQQQPALVNYNRPSGPGPELSGPSTPQKLPVPAPGGRPSPAPPAAAQPPAAAVPGPSVPQPAPGQPSPVLQLQQKQSRISPIQKPQGLDPVEILQEREYRLQARIAHRIQELENLPGSLPPDLRTKATVELKALRLLNFQRQLRQEVVACMRRDTTLETALNSKAYKRSKRQTLREARMTEKLEKQQKIEQERKRRQKHQEYLNSILQHAKDFKEYHRSVAGKIQKLSKAVATWHANTEREQKKETERIEKERMRRLMAEDEEGYRKLIDQKKDRRLAYLLQQTDEYVANLTNLVWEHKQAQAAKEKKKRRRRKKKAEENAEGGESALGPDGEPIDESSQMSDLPVKVTHTETGKVLFGPEAPKASQLDAWLEMNPGYEVAPRSDSEESDSDYEEEDEEEESSRQETEEKILLDPNSEEVSEKDAKQIIETAKQDVDDEYSMQYSARGSQSYYTVAHAISERVEKQSALLINGTLKHYQLQGLEWMVSLYNNNLNGILADEMGLGKTIQTIALITYLMEHKRLNGPYLIIVPLSTLSNWTYEFDKWAPSVVKISYKGTPAMRRSLVPQLRSGKFNVLLTTYEYIIKDKHILAKIRWKYMIVDEGHRMKNHHCKLTQVLNTHYVAPRRILLTGTPLQNKLPELWALLNFLLPTIFKSCSTFEQWFNAPFAMTGERVDLNEEETILIIRRLHKVLRPFLLRRLKKEVESQLPEKVEYVIKCDMSALQKILYRHMQAKGILLTDGSEKDKKGKGGAKTLMNTIMQLRKICNHPYMFQHIEESFAEHLGYSNGVINGAELYRASGKFELLDRILPKLRATNHRVLLFCQMTSLMTIMEDYFAFRNFLYLRLDGTTKSEDRAALLKKFNEPGSQYFIFLLSTRAGGLGLNLQAADTVVIFDSDWNPHQDLQAQDRAHRIGQQNEVRVLRLCTVNSVEEKILAAAKYKLNVDQKVIQAGMFDQKSSSHERRAFLQAILEHEEENEEEDEVPDDETLNQMIARREEEFDLFMRMDMDRRREDARNPKRKPRLMEEDELPSWIIKDDAEVERLTCEEEEEKIFGRGSRQRRDVDYSDALTEKQWLRAIEDGNLEEMEEEVRLKKRKRRRNVDKDPAKEDVEKAKKRRGRPPAEKLSPNPPKLTKQMNAIIDTVINYKDRCNVEKVPSNSQLEIEGNSSGRQLSEVFIQLPSRKELPEYYELIRKPVDFKKIKERIRNHKYRSLGDLEKDVMLLCHNAQTFNLEGSQIYEDSIVLQSVFKSARQKIAKEEESEDESNEEEEEEDEEESESEAKSVKVKIKLNKKDDKGRDKGKGKKRPNRGKAKPVVSDFDSDEEQDEREQSEGSGTDDE",
+        "n_residues": 1590,
+        "mutation_pos_1indexed": 1560,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "N1559-R1560-G1561-K1562",
+        "pocket_lining_positions_precursor": [
+          1559,
+          1560,
+          1561,
+          1562
+        ],
+        "pocket_lining_1letter": "NRGK",
+        "sequence_slice_around_pocket": "DKGKGKKRPNRGKAKPVVSD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SMARCA2_R1560Q/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "N1559",
+          "R1560",
+          "G1561",
+          "K1562"
+        ],
+        "values": [
+          [
+            0.0,
+            3.323,
+            5.868,
+            8.923
+          ],
+          [
+            3.323,
+            0.0,
+            3.241,
+            6.671
+          ],
+          [
+            5.868,
+            3.241,
+            0.0,
+            3.87
+          ],
+          [
+            8.923,
+            6.671,
+            3.87,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1N1CCCCC1",
+        "composite_score": 0.5535383276705889,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.82,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SMARCA2-R1560Q Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5535,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SMARCA2_R1560Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SMARCA2_R1560Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SMARCA2_R1560Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SMARCA2_R1560Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SMARCA2_R1560Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMARCA2-R1560Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMARCA2-R1560Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T05:53:33.269799+00:00"
     }
   ]
 }
