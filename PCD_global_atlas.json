@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 31,
+  "total_entries": 32,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44413,
-    "queue_remaining": 134184
+    "total_processed": 44414,
+    "queue_remaining": 134183
   },
   "entries": [
     {
@@ -7515,6 +7515,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:02:21.569635+00:00"
+    },
+    {
+      "entry_id": "PCD-ALX4-A243V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALX4-A243V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ALX4",
+        "uniprot": "",
+        "clinvar_id": "304705",
+        "disease": "Parietal foramina 2",
+        "mutation_precursor": "A243V",
+        "mutation_mature": "A243V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8470678327052881,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 460.58112436921385,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.3048298358917236,
+          11.652534484863281,
+          -10.650794982910156
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.6520788787858987,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.817552878599522,
+        "cryptic": true,
+        "pocket_residues": {
+          "V232": "V",
+          "Y238": "Y",
+          "P239": "P",
+          "D240": "D",
+          "V241": "V",
+          "Y242": "Y",
+          "A243": "A",
+          "R244": "R",
+          "E245": "E",
+          "Q246": "Q",
+          "L247": "L"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9H161|ALX4 variant A243V",
+        "fasta_sequence": "MNAETCVSYCESPAAAMDAYYSPVSQSREGSSPFRAFPGGDKFGTTFLSAAAKAQGFGDAKSRARYGAGQQDLATPLESGAGARGSFNKFQPQPSTPQPQPPPQPQPQQQQPQPQPPAQPHLYLQRGACKTPPDGSLKLQEGSSGHSAALQVPCYAKESSLGEPELPPDSDTVGMDSSYLSVKEAGVKGPQDRASSDLPSPLEKADSESNKGKKRRNRTTFTSYQLEELEKVFQKTHYPDVYAREQLAMRTDLTEARVQVWFQNRRAKWRKRERFGQMQQVRTHFSTAYELPLLTRAENYAQIQNPSWLGNNGAASPVPACVVPCDPVPACMSPHAHPPGSGASSVTDFLSVSGAGSHVGQTHMGSLFGAASLSPGLNGYELNGEPDRKTSSIAALRMKAKEHSAAISWAT",
+        "full_sequence": "MNAETCVSYCESPAAAMDAYYSPVSQSREGSSPFRAFPGGDKFGTTFLSAAAKAQGFGDAKSRARYGAGQQDLATPLESGAGARGSFNKFQPQPSTPQPQPPPQPQPQQQQPQPQPPAQPHLYLQRGACKTPPDGSLKLQEGSSGHSAALQVPCYAKESSLGEPELPPDSDTVGMDSSYLSVKEAGVKGPQDRASSDLPSPLEKADSESNKGKKRRNRTTFTSYQLEELEKVFQKTHYPDVYAREQLAMRTDLTEARVQVWFQNRRAKWRKRERFGQMQQVRTHFSTAYELPLLTRAENYAQIQNPSWLGNNGAASPVPACVVPCDPVPACMSPHAHPPGSGASSVTDFLSVSGAGSHVGQTHMGSLFGAASLSPGLNGYELNGEPDRKTSSIAALRMKAKEHSAAISWAT",
+        "n_residues": 411,
+        "mutation_pos_1indexed": 243,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "V232-Y238-P239-D240-V241-Y242-A243-R244-E245-Q246-L247",
+        "pocket_lining_positions_precursor": [
+          232,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247
+        ],
+        "pocket_lining_1letter": "VYPDVYAREQL",
+        "sequence_slice_around_pocket": "FQKTHYPDVYAREQLAMRTD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ALX4_A243V/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "V232",
+          "Y238",
+          "P239",
+          "D240",
+          "V241",
+          "Y242",
+          "A243",
+          "R244",
+          "E245",
+          "Q246",
+          "L247"
+        ],
+        "values": [
+          [
+            0.0,
+            9.263,
+            7.846,
+            11.216,
+            13.175,
+            12.709,
+            8.874,
+            9.418,
+            12.35,
+            10.841,
+            8.331
+          ],
+          [
+            9.263,
+            0.0,
+            3.864,
+            6.474,
+            9.684,
+            11.656,
+            9.39,
+            9.472,
+            13.199,
+            14.007,
+            12.742
+          ],
+          [
+            7.846,
+            3.864,
+            0.0,
+            3.828,
+            6.788,
+            8.042,
+            5.526,
+            6.108,
+            9.682,
+            10.249,
+            9.459
+          ],
+          [
+            11.216,
+            6.474,
+            3.828,
+            0.0,
+            3.892,
+            5.719,
+            5.239,
+            6.265,
+            8.814,
+            10.076,
+            10.593
+          ],
+          [
+            13.175,
+            9.684,
+            6.788,
+            3.892,
+            0.0,
+            3.852,
+            5.494,
+            5.153,
+            6.222,
+            8.632,
+            9.805
+          ],
+          [
+            12.709,
+            11.656,
+            8.042,
+            5.719,
+            3.852,
+            0.0,
+            3.845,
+            5.431,
+            5.071,
+            6.037,
+            8.461
+          ],
+          [
+            8.874,
+            9.39,
+            5.526,
+            5.239,
+            5.494,
+            3.845,
+            0.0,
+            3.881,
+            5.618,
+            5.202,
+            6.166
+          ],
+          [
+            9.418,
+            9.472,
+            6.108,
+            6.265,
+            5.153,
+            5.431,
+            3.881,
+            0.0,
+            3.864,
+            5.501,
+            4.975
+          ],
+          [
+            12.35,
+            13.199,
+            9.682,
+            8.814,
+            6.222,
+            5.071,
+            5.618,
+            3.864,
+            0.0,
+            3.845,
+            5.35
+          ],
+          [
+            10.841,
+            14.007,
+            10.249,
+            10.076,
+            8.632,
+            6.037,
+            5.202,
+            5.501,
+            3.845,
+            0.0,
+            3.864
+          ],
+          [
+            8.331,
+            12.742,
+            9.459,
+            10.593,
+            9.805,
+            8.461,
+            6.166,
+            4.975,
+            5.35,
+            3.864,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8498889218866229,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ALX4-A243V Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8499,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ALX4_A243V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ALX4_A243V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ALX4_A243V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALX4_A243V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALX4_A243V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALX4-A243V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALX4-A243V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:02:43.444277+00:00"
     }
   ]
 }
