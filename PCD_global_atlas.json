@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 471,
+  "total_entries": 472,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44929,
-    "queue_remaining": 133668
+    "total_processed": 44930,
+    "queue_remaining": 133667
   },
   "entries": [
     {
@@ -104375,6 +104375,128 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:58:01.977125+00:00"
+    },
+    {
+      "entry_id": "PCD-SCNN1B-D634H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1B-D634H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SCNN1B",
+        "uniprot": "",
+        "clinvar_id": "318447",
+        "disease": "Liddle syndrome 1",
+        "mutation_precursor": "D634H",
+        "mutation_mature": "D634H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.848101158202839,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 606.280819202883,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          67.82127380371094,
+          -13.07448673248291,
+          -61.63419723510742
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.429588001795893,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7870629687536188,
+        "cryptic": true,
+        "pocket_residues": {
+          "S633": "S",
+          "D634": "D",
+          "S635": "S"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P51168|SCNN1B variant D634H",
+        "fasta_sequence": "MHVKKYLLKGLHRLQKGPGYTYKELLVWYCDNTNTHGPKRIICEGPKKKAMWFLLTLLFAALVCWQWGIFIRTYLSWEVSVSLSVGFKTMDFPAVTICNASPFKYSKIKHLLKDLDELMEAVLERILAPELSHANATRNLNFSIWNHTPLVLIDERNPHHPMVLDLFGDNHNGLTSSSASEKICNAHGCKMAMRLCSLNRTQCTFRNFTSATQALTEWYILQATNIFAQVPQQELVEMSYPGEQMILACLFGAEPCNYRNFTSIFYPHYGNCYIFNWGMTEKALPSANPGTEFGLKLILDIGQEDYVPFLASTAGVRLMLHEQRSYPFIRDEGIYAMSGTETSIGVLVDKLQRMGEPYSPCTVNGSEVPVQNFYSDYNTTYSIQACLRSCFQDHMIRNCNCGHYLYPLPRGEKYCNNRDFPDWAHCYSDLQMSVAQRETCIGMCKESCNDTQYKMTISMADWPSEASEDWIFHVLSQERDQSTNITLSRKGIVKLNIYFQEFNYRTIEESAANNIVWLLSNLGGQFGFWMGGSVLCLIEFGEIIIDFVWITIIKLVALAKSLRQRRAQASYAGPPPTVAELVEAHTNFGFQPDTAPRSPNTGPYPSEQALPIPGTPPPNYDSLRLQPLDVIESDSEGDAI",
+        "full_sequence": "MHVKKYLLKGLHRLQKGPGYTYKELLVWYCDNTNTHGPKRIICEGPKKKAMWFLLTLLFAALVCWQWGIFIRTYLSWEVSVSLSVGFKTMDFPAVTICNASPFKYSKIKHLLKDLDELMEAVLERILAPELSHANATRNLNFSIWNHTPLVLIDERNPHHPMVLDLFGDNHNGLTSSSASEKICNAHGCKMAMRLCSLNRTQCTFRNFTSATQALTEWYILQATNIFAQVPQQELVEMSYPGEQMILACLFGAEPCNYRNFTSIFYPHYGNCYIFNWGMTEKALPSANPGTEFGLKLILDIGQEDYVPFLASTAGVRLMLHEQRSYPFIRDEGIYAMSGTETSIGVLVDKLQRMGEPYSPCTVNGSEVPVQNFYSDYNTTYSIQACLRSCFQDHMIRNCNCGHYLYPLPRGEKYCNNRDFPDWAHCYSDLQMSVAQRETCIGMCKESCNDTQYKMTISMADWPSEASEDWIFHVLSQERDQSTNITLSRKGIVKLNIYFQEFNYRTIEESAANNIVWLLSNLGGQFGFWMGGSVLCLIEFGEIIIDFVWITIIKLVALAKSLRQRRAQASYAGPPPTVAELVEAHTNFGFQPDTAPRSPNTGPYPSEQALPIPGTPPPNYDSLRLQPLDVIESDSEGDAI",
+        "n_residues": 640,
+        "mutation_pos_1indexed": 634,
+        "wt_aa": "D",
+        "mut_aa": "H",
+        "pocket_lining_residues": "S633-D634-S635",
+        "pocket_lining_positions_precursor": [
+          633,
+          634,
+          635
+        ],
+        "pocket_lining_1letter": "SDS",
+        "sequence_slice_around_pocket": "RLQPLDVIESDSEGDAI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_D634H/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "S633",
+          "D634",
+          "S635"
+        ],
+        "values": [
+          [
+            0.0,
+            3.888,
+            7.003
+          ],
+          [
+            3.888,
+            0.0,
+            3.367
+          ],
+          [
+            7.003,
+            3.367,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COC1CCCC(N2CCCCC2)N1c1cnccc1NCCC(N)=O",
+        "composite_score": 0.7127897279432417,
+        "mw": 361.25,
+        "logp": 2.144,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.7741,
+        "sa_score": 3.65,
+        "n_heavy_atoms": 26,
+        "tpsa": 83.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SCNN1B-D634H Candidate #1",
+        "iupac_name": "COC1CCCC(N2CCCCC2)N1c1cnccc1NCCC(N)=O",
+        "pocket_affinity_score": 0.7128,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_D634H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_D634H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_D634H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_D634H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1B_D634H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1B-D634H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1B-D634H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:58:28.422791+00:00"
     }
   ]
 }
