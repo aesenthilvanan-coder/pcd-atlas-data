@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 444,
+  "total_entries": 445,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44900,
-    "queue_remaining": 133697
+    "total_processed": 44901,
+    "queue_remaining": 133696
   },
   "entries": [
     {
@@ -97995,6 +97995,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:36:11.350888+00:00"
+    },
+    {
+      "entry_id": "PCD-ALG9-R554W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG9-R554W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ALG9",
+        "uniprot": "",
+        "clinvar_id": "302425",
+        "disease": "ALG9 congenital disorder of glycosylation",
+        "mutation_precursor": "R554W",
+        "mutation_mature": "R554W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8258090828047366,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 502.4275687333944,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          29.50123405456543,
+          11.577668190002441,
+          -15.830974578857422
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.806309694295968,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6092772731934293,
+        "cryptic": true,
+        "pocket_residues": {
+          "P549": "P",
+          "K550": "K",
+          "Y551": "Y",
+          "S552": "S",
+          "S553": "S",
+          "N554": "N",
+          "K555": "K",
+          "E557": "E",
+          "W558": "W"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9H6U8|ALG9 variant R554W",
+        "fasta_sequence": "MASRGARQRLKGSGASSGDTAPAADKLRELLGSREAGGAEHRTELSGNKAGQVWAPEGSTAFKCLLSARLCAALLSNISDCDETFNYWEPTHYLIYGEGFQTWEYSPAYAIRSYAYLLLHAWPAAFHARILQTNKILVFYFLRCLLAFVSCICELYFYKAVCKKFGLHVSRMMLAFLVLSTGMFCSSSAFLPSSFCMYTTLIAMTGWYMDKTSIAVLGVAAGAILGWPFSAALGLPIAFDLLVMKHRWKSFFHWSLMALILFLVPVVVIDSYYYGKLVIAPLNIVLYNVFTPHGPDLYGTEPWYFYLINGFLNFNVAFALALLVLPLTSLMEYLLQRFHVQNLGHPYWLTLAPMYIWFIIFFIQPHKEERFLFPVYPLICLCGAVALSALQKCYHFVFQRYRLEHYTVTSNWLALGTVFLFGLLSFSRSVALFRGYHGPLDLYPEFYRIATDPTIHTVPEGRPVNVCVGKEWYRFPSSFLLPDNWQLQFIPSEFRGQLPKPFAEGPLATRIVPTDMNDQNLEEPSRYIDISKCHYLVDLDTMRETPREPKYSSNKEEWISLAYRPFLDASRSSKLLRAFYVPFLSDQYTVYVNYTILKPRKAKQIRKKSGG",
+        "full_sequence": "MASRGARQRLKGSGASSGDTAPAADKLRELLGSREAGGAEHRTELSGNKAGQVWAPEGSTAFKCLLSARLCAALLSNISDCDETFNYWEPTHYLIYGEGFQTWEYSPAYAIRSYAYLLLHAWPAAFHARILQTNKILVFYFLRCLLAFVSCICELYFYKAVCKKFGLHVSRMMLAFLVLSTGMFCSSSAFLPSSFCMYTTLIAMTGWYMDKTSIAVLGVAAGAILGWPFSAALGLPIAFDLLVMKHRWKSFFHWSLMALILFLVPVVVIDSYYYGKLVIAPLNIVLYNVFTPHGPDLYGTEPWYFYLINGFLNFNVAFALALLVLPLTSLMEYLLQRFHVQNLGHPYWLTLAPMYIWFIIFFIQPHKEERFLFPVYPLICLCGAVALSALQKCYHFVFQRYRLEHYTVTSNWLALGTVFLFGLLSFSRSVALFRGYHGPLDLYPEFYRIATDPTIHTVPEGRPVNVCVGKEWYRFPSSFLLPDNWQLQFIPSEFRGQLPKPFAEGPLATRIVPTDMNDQNLEEPSRYIDISKCHYLVDLDTMRETPREPKYSSNKEEWISLAYRPFLDASRSSKLLRAFYVPFLSDQYTVYVNYTILKPRKAKQIRKKSGG",
+        "n_residues": 611,
+        "mutation_pos_1indexed": 554,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "P549-K550-Y551-S552-S553-N554-K555-E557-W558",
+        "pocket_lining_positions_precursor": [
+          549,
+          550,
+          551,
+          552,
+          553,
+          554,
+          555,
+          557,
+          558
+        ],
+        "pocket_lining_1letter": "PKYSSNKEW",
+        "sequence_slice_around_pocket": "ETPREPKYSSNKEEWISLAY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ALG9_R554W/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "P549",
+          "K550",
+          "Y551",
+          "S552",
+          "S553",
+          "N554",
+          "K555",
+          "E557",
+          "W558"
+        ],
+        "values": [
+          [
+            0.0,
+            3.814,
+            5.649,
+            8.839,
+            8.777,
+            9.192,
+            12.789,
+            12.383,
+            12.15
+          ],
+          [
+            3.814,
+            0.0,
+            3.829,
+            5.607,
+            5.676,
+            7.35,
+            10.485,
+            11.538,
+            10.452
+          ],
+          [
+            5.649,
+            3.829,
+            0.0,
+            3.87,
+            5.493,
+            5.522,
+            8.169,
+            8.23,
+            6.861
+          ],
+          [
+            8.839,
+            5.607,
+            3.87,
+            0.0,
+            3.861,
+            5.45,
+            6.541,
+            8.879,
+            6.415
+          ],
+          [
+            8.777,
+            5.676,
+            5.493,
+            3.861,
+            0.0,
+            3.847,
+            5.817,
+            9.275,
+            8.183
+          ],
+          [
+            9.192,
+            7.35,
+            5.522,
+            5.45,
+            3.847,
+            0.0,
+            3.854,
+            5.779,
+            6.008
+          ],
+          [
+            12.789,
+            10.485,
+            8.169,
+            6.541,
+            5.817,
+            3.854,
+            0.0,
+            5.561,
+            5.074
+          ],
+          [
+            12.383,
+            11.538,
+            8.23,
+            8.879,
+            9.275,
+            5.779,
+            5.561,
+            0.0,
+            3.842
+          ],
+          [
+            12.15,
+            10.452,
+            6.861,
+            6.415,
+            8.183,
+            6.008,
+            5.074,
+            3.842,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7398150246287575,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ALG9-R554W Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7398,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ALG9_R554W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ALG9_R554W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ALG9_R554W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALG9_R554W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALG9_R554W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG9-R554W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG9-R554W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:36:36.060719+00:00"
     }
   ]
 }
