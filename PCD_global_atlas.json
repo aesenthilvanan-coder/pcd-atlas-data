@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 454,
+  "total_entries": 455,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44910,
-    "queue_remaining": 133687
+    "total_processed": 44911,
+    "queue_remaining": 133686
   },
   "entries": [
     {
@@ -100561,6 +100561,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:42:39.630025+00:00"
+    },
+    {
+      "entry_id": "PCD-YARS2-D312H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-YARS2-D312H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "YARS2",
+        "uniprot": "",
+        "clinvar_id": "308454",
+        "disease": "Myopathy, lactic acidosis, and sideroblastic anemia 2",
+        "mutation_precursor": "D312H",
+        "mutation_mature": "D312H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7214192895880287,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 547.6793332241825,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.44106417894363403,
+          23.59311866760254,
+          -3.3221335411071777
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.003647484633697,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7956344018710183,
+        "cryptic": true,
+        "pocket_residues": {
+          "P310": "P",
+          "D311": "D",
+          "D312": "D",
+          "S313": "S",
+          "V314": "V",
+          "E315": "E"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y2Z4|YARS2 variant D312H",
+        "fasta_sequence": "MAAPILRSFSWGRWSGTLNLSVLLPLGLRKAHSGAQGLLAAQKARGLFKDFFPETGTKIELPELFDRGTASFPQTIYCGFDPTADSLHVGHLLALLGLFHLQRAGHNVIALVGGATARLGDPSGRTKEREALETERVRANARALRLGLEALAANHQQLFTDGRSWGSFTVLDNSAWYQKQHLVDFLAAVGGHFRMGTLLSRQSVQLRLKSPEGMSLAEFFYQVLQAYDFYYLFQRYGCRVQLGGSDQLGNIMSGYEFINKLTGEDVFGITVPLITSTTGAKLGKSAGNAVWLNRDKTSPFELYQFFVRQPDDSVERYLKLFTFLPLPEIDHIMQLHVKEPERRGPQKRLAAEVTKLVHGREGLDSAKRCTQALYHSSIDALEVMSDQELKELFKEAPFSEFFLDPGTSVLDTCRKANAIPDGPRGYRMITEGGVSINHQQVTNPESVLIVGQHILKNGLSLLKIGKRNFYIIKWLQL",
+        "full_sequence": "MAAPILRSFSWGRWSGTLNLSVLLPLGLRKAHSGAQGLLAAQKARGLFKDFFPETGTKIELPELFDRGTASFPQTIYCGFDPTADSLHVGHLLALLGLFHLQRAGHNVIALVGGATARLGDPSGRTKEREALETERVRANARALRLGLEALAANHQQLFTDGRSWGSFTVLDNSAWYQKQHLVDFLAAVGGHFRMGTLLSRQSVQLRLKSPEGMSLAEFFYQVLQAYDFYYLFQRYGCRVQLGGSDQLGNIMSGYEFINKLTGEDVFGITVPLITSTTGAKLGKSAGNAVWLNRDKTSPFELYQFFVRQPDDSVERYLKLFTFLPLPEIDHIMQLHVKEPERRGPQKRLAAEVTKLVHGREGLDSAKRCTQALYHSSIDALEVMSDQELKELFKEAPFSEFFLDPGTSVLDTCRKANAIPDGPRGYRMITEGGVSINHQQVTNPESVLIVGQHILKNGLSLLKIGKRNFYIIKWLQL",
+        "n_residues": 477,
+        "mutation_pos_1indexed": 312,
+        "wt_aa": "D",
+        "mut_aa": "H",
+        "pocket_lining_residues": "P310-D311-D312-S313-V314-E315",
+        "pocket_lining_positions_precursor": [
+          310,
+          311,
+          312,
+          313,
+          314,
+          315
+        ],
+        "pocket_lining_1letter": "PDDSVE",
+        "sequence_slice_around_pocket": "LYQFFVRQPDDSVERYLKLF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/YARS2_D312H/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "P310",
+          "D311",
+          "D312",
+          "S313",
+          "V314",
+          "E315"
+        ],
+        "values": [
+          [
+            0.0,
+            3.838,
+            5.524,
+            5.656,
+            6.323,
+            9.715
+          ],
+          [
+            3.838,
+            0.0,
+            3.862,
+            5.588,
+            5.456,
+            7.764
+          ],
+          [
+            5.524,
+            3.862,
+            0.0,
+            3.847,
+            6.041,
+            7.285
+          ],
+          [
+            5.656,
+            5.588,
+            3.847,
+            0.0,
+            3.836,
+            5.717
+          ],
+          [
+            6.323,
+            5.456,
+            6.041,
+            3.836,
+            0.0,
+            3.847
+          ],
+          [
+            9.715,
+            7.764,
+            7.285,
+            5.717,
+            3.847,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC1CC(=O)CCC1ON1CCCCC1CCNc1ncc(F)cn1",
+        "composite_score": 0.6737774851484489,
+        "mw": 365.22,
+        "logp": 1.9,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.7621,
+        "sa_score": 4.13,
+        "n_heavy_atoms": 26,
+        "tpsa": 93.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "YARS2-D312H Candidate #1",
+        "iupac_name": "NCC1CC(=O)CCC1ON1CCCCC1CCNc1ncc(F)cn1",
+        "pocket_affinity_score": 0.6738,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/YARS2_D312H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/YARS2_D312H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/YARS2_D312H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/YARS2_D312H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/YARS2_D312H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-YARS2-D312H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-YARS2-D312H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:43:02.609353+00:00"
     }
   ]
 }
