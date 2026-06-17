@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1416,
+  "total_entries": 1417,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46055,
-    "queue_remaining": 132542
+    "total_processed": 46056,
+    "queue_remaining": 132541
   },
   "entries": [
     {
@@ -313418,6 +313418,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:31:16.734859+00:00"
+    },
+    {
+      "entry_id": "PCD-FKBP10-G174S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FKBP10-G174S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FKBP10",
+        "uniprot": "",
+        "clinvar_id": "323183",
+        "disease": "Osteogenesis imperfecta type 11",
+        "mutation_precursor": "G174S",
+        "mutation_mature": "G174S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7261587549773484,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 597.9319177711652,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -29.086660385131836,
+          -5.174764633178711,
+          2.775317668914795
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.552254423026678,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8348176907057157,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q172": "Q",
+          "D173": "D",
+          "G174": "G",
+          "V205": "V",
+          "G206": "G",
+          "D215": "D",
+          "Q216": "Q",
+          "L219": "L"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96AY3|FKBP10 variant G174S",
+        "fasta_sequence": "MFPAGPPSHSLLRLPLLQLLLLVVQAVGRGLGRASPAGGPLEDVVIERYHIPRACPREVQMGDFVRYHYNGTFEDGKKFDSSYDRNTLVAIVVGVGRLITGMDRGLMGMCVNERRRLIVPPHLGYGSIGLAGLIPPDATLYFDVVLLDVWNKEDTVQVSTLLRPPHCPRMVQDGDFVRYHYNGTLLDGTSFDTSYSKGGTYDTYVGSGWLIKGMDQGLLGMCPGERRKIIIPPFLAYGEKGYGTVIPPQASLVFHVLLIDVHNPKDAVQLETLELPPGCVRRAGAGDFMRYHYNGSLMDGTLFDSSYSRNHTYNTYIGQGYIIPGMDQGLQGACMGERRRITIPPHLAYGENGTGDKIPGSAVLIFNVHVIDFHNPADVVEIRTLSRPSETCNETTKLGDFVRYHYNCSLLDGTQLFTSHDYGAPQEATLGANKVIEGLDTGLQGMCVGERRQLIVPPHLAHGESGARGVPGSAVLLFEVELVSREDGLPTGYLFVWHKDPPANLFEDMDLNKDGEVPPEEFSTFIKAQVSEGKGRLMPGQDPEKTIGDMFQNQDRNQDGKITVDELKLKSDEDEERVHEEL",
+        "full_sequence": "MFPAGPPSHSLLRLPLLQLLLLVVQAVGRGLGRASPAGGPLEDVVIERYHIPRACPREVQMGDFVRYHYNGTFEDGKKFDSSYDRNTLVAIVVGVGRLITGMDRGLMGMCVNERRRLIVPPHLGYGSIGLAGLIPPDATLYFDVVLLDVWNKEDTVQVSTLLRPPHCPRMVQDGDFVRYHYNGTLLDGTSFDTSYSKGGTYDTYVGSGWLIKGMDQGLLGMCPGERRKIIIPPFLAYGEKGYGTVIPPQASLVFHVLLIDVHNPKDAVQLETLELPPGCVRRAGAGDFMRYHYNGSLMDGTLFDSSYSRNHTYNTYIGQGYIIPGMDQGLQGACMGERRRITIPPHLAYGENGTGDKIPGSAVLIFNVHVIDFHNPADVVEIRTLSRPSETCNETTKLGDFVRYHYNCSLLDGTQLFTSHDYGAPQEATLGANKVIEGLDTGLQGMCVGERRQLIVPPHLAHGESGARGVPGSAVLLFEVELVSREDGLPTGYLFVWHKDPPANLFEDMDLNKDGEVPPEEFSTFIKAQVSEGKGRLMPGQDPEKTIGDMFQNQDRNQDGKITVDELKLKSDEDEERVHEEL",
+        "n_residues": 582,
+        "mutation_pos_1indexed": 174,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "Q172-D173-G174-V205-G206-D215-Q216-L219",
+        "pocket_lining_positions_precursor": [
+          172,
+          173,
+          174,
+          205,
+          206,
+          215,
+          216,
+          219
+        ],
+        "pocket_lining_1letter": "QDGVGDQL",
+        "sequence_slice_around_pocket": "PPHCPRMVQDGDFVRYHYNG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FKBP10_G174S/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "Q172",
+          "D173",
+          "G174",
+          "V205",
+          "G206",
+          "D215",
+          "Q216",
+          "L219"
+        ],
+        "values": [
+          [
+            0.0,
+            3.818,
+            6.238,
+            7.319,
+            8.227,
+            9.886,
+            10.131,
+            5.791
+          ],
+          [
+            3.818,
+            0.0,
+            3.846,
+            5.65,
+            5.058,
+            8.491,
+            9.408,
+            7.204
+          ],
+          [
+            6.238,
+            3.846,
+            0.0,
+            5.388,
+            5.676,
+            10.091,
+            12.133,
+            10.088
+          ],
+          [
+            7.319,
+            5.65,
+            5.388,
+            0.0,
+            3.841,
+            5.47,
+            8.446,
+            7.576
+          ],
+          [
+            8.227,
+            5.058,
+            5.676,
+            3.841,
+            0.0,
+            5.49,
+            7.862,
+            8.628
+          ],
+          [
+            9.886,
+            8.491,
+            10.091,
+            5.47,
+            5.49,
+            0.0,
+            3.848,
+            6.669
+          ],
+          [
+            10.131,
+            9.408,
+            12.133,
+            8.446,
+            7.862,
+            3.848,
+            0.0,
+            5.625
+          ],
+          [
+            5.791,
+            7.204,
+            10.088,
+            7.576,
+            8.628,
+            6.669,
+            5.625,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CCCCC1CCNCCc1ccc(S(N)(=O)=O)cc1",
+        "composite_score": 0.6712229163112426,
+        "mw": 403.2,
+        "logp": 1.893,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.5801,
+        "sa_score": 2.94,
+        "n_heavy_atoms": 28,
+        "tpsa": 114.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FKBP10-G174S Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CCCCC1CCNCCc1ccc(S(N)(=O)=O)cc1",
+        "pocket_affinity_score": 0.6712,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FKBP10_G174S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FKBP10_G174S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FKBP10_G174S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FKBP10_G174S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FKBP10_G174S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FKBP10-G174S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FKBP10-G174S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:31:42.149195+00:00"
     }
   ]
 }
