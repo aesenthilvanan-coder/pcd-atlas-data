@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 278,
+  "total_entries": 279,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44707,
-    "queue_remaining": 133890
+    "total_processed": 44708,
+    "queue_remaining": 133889
   },
   "entries": [
     {
@@ -60992,6 +60992,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:07:55.624771+00:00"
+    },
+    {
+      "entry_id": "PCD-INF2-I685V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-INF2-I685V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "INF2",
+        "uniprot": "",
+        "clinvar_id": "312700",
+        "disease": "Focal segmental glomerulosclerosis 5",
+        "mutation_precursor": "I685V",
+        "mutation_mature": "I685V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8762844812200083,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 550.0864132001208,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -50.23147964477539,
+          -9.252867698669434,
+          34.42686080932617
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.075284183421133,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8550384268131833,
+        "cryptic": true,
+        "pocket_residues": {
+          "F632": "F",
+          "H683": "H",
+          "E684": "E",
+          "I685": "I",
+          "E686": "E",
+          "N687": "N",
+          "L688": "L",
+          "R689": "R",
+          "A690": "A",
+          "F691": "F"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q27J81|INF2 variant I685V",
+        "fasta_sequence": "MSVKEGAQRKWAALKEKLGPQDSDPTEANLESADPELCIRLLQMPSVVNYSGLRKRLEGSDGGWMVQFLEQSGLDLLLEALARLSGRGVARISDALLQLTCVSCVRAVMNSRQGIEYILSNQGYVRQLSQALDTSNVMVKKQVFELLAALCIYSPEGHVLTLDALDHYKTVCSQQYRFSIVMNELSGSDNVPYVVTLLSVINAVILGPEDLRARTQLRNEFIGLQLLDVLARLRDLEDADLLIQLEAFEEAKAEDEEELLRVSGGVDMSSHQEVFASLFHKVSCSPVSAQLLSVLQGLLHLEPTLRSSQLLWEALESLVNRAVLLASDAQECTLEEVVERLLSVKGRPRPSPLVKAHKSVQANLDQSQRGSSPQNTTTPKPSVEGQQPAAAAACEPVDHAQSESILKVSQPRALEQQASTPPPPPPPPLLPGSSAEPPPPPPPPPLPSVGAKALPTAPPPPPLPGLGAMAPPAPPLPPPLPGSCEFLPPPPPPLPGLGCPPPPPPLLPGMGWGPPPPPPPLLPCTCSPPVAGGMEEVIVAQVDHGLGSAWVPSHRRVNPPTLRMKKLNWQKLPSNVAREHNSMWASLSSPDAEAVEPDFSSIERLFSFPAAKPKEPTMVAPRARKEPKEITFLDAKKSLNLNIFLKQFKCSNEEVAAMIRAGDTTKFDVEVLKQLLKLLPEKHEIENLRAFTEERAKLASADHFYLLLLAIPCYQLRIECMLLCEGAAAVLDMVRPKAQLVLAACESLLTSRQLPIFCQLILRIGNFLNYGSHTGDADGFKISTLLKLTETKSQQNRVTLLHHVLEEAEKSHPDLLQLPRDLEQPSQAAGINLEIIRSEASSNLKKLLETERKVSASVAEVQEQYTERLQASISAFRALDELFEAIEQKQRELADYLCEDAQQLSLEDTFSTMKAFRDLFLRALKENKDRKEQAAKAERRKQQLAEEEARRPRGEDGKPVRKGPGKQEEVCVIDALLADIRKGFQLRKTARGRGDTDGGSKAASMDPPRATEPVATSNPAGDPVGSTRCPASEPGLDATTASESRGWDLVDAVTPGPQPTLEQLEEGGPRPLERRSSWYVDASDVLTTEDPQCPQPLEGAWPVTLGDAQALKPLKFSSNQPPAAGSSRQDAKDPTSLLGVLQAEADSTSEGLEDAVHSRGARPPAAGPGGDEDEDEEDTAPESALDTSLDKSFSEDAVTDSSGSGTLPRARGRASKGTGKRRKKRPSRSQEEVPPDSDDNKTKKLCVIQ",
+        "full_sequence": "MSVKEGAQRKWAALKEKLGPQDSDPTEANLESADPELCIRLLQMPSVVNYSGLRKRLEGSDGGWMVQFLEQSGLDLLLEALARLSGRGVARISDALLQLTCVSCVRAVMNSRQGIEYILSNQGYVRQLSQALDTSNVMVKKQVFELLAALCIYSPEGHVLTLDALDHYKTVCSQQYRFSIVMNELSGSDNVPYVVTLLSVINAVILGPEDLRARTQLRNEFIGLQLLDVLARLRDLEDADLLIQLEAFEEAKAEDEEELLRVSGGVDMSSHQEVFASLFHKVSCSPVSAQLLSVLQGLLHLEPTLRSSQLLWEALESLVNRAVLLASDAQECTLEEVVERLLSVKGRPRPSPLVKAHKSVQANLDQSQRGSSPQNTTTPKPSVEGQQPAAAAACEPVDHAQSESILKVSQPRALEQQASTPPPPPPPPLLPGSSAEPPPPPPPPPLPSVGAKALPTAPPPPPLPGLGAMAPPAPPLPPPLPGSCEFLPPPPPPLPGLGCPPPPPPLLPGMGWGPPPPPPPLLPCTCSPPVAGGMEEVIVAQVDHGLGSAWVPSHRRVNPPTLRMKKLNWQKLPSNVAREHNSMWASLSSPDAEAVEPDFSSIERLFSFPAAKPKEPTMVAPRARKEPKEITFLDAKKSLNLNIFLKQFKCSNEEVAAMIRAGDTTKFDVEVLKQLLKLLPEKHEIENLRAFTEERAKLASADHFYLLLLAIPCYQLRIECMLLCEGAAAVLDMVRPKAQLVLAACESLLTSRQLPIFCQLILRIGNFLNYGSHTGDADGFKISTLLKLTETKSQQNRVTLLHHVLEEAEKSHPDLLQLPRDLEQPSQAAGINLEIIRSEASSNLKKLLETERKVSASVAEVQEQYTERLQASISAFRALDELFEAIEQKQRELADYLCEDAQQLSLEDTFSTMKAFRDLFLRALKENKDRKEQAAKAERRKQQLAEEEARRPRGEDGKPVRKGPGKQEEVCVIDALLADIRKGFQLRKTARGRGDTDGGSKAASMDPPRATEPVATSNPAGDPVGSTRCPASEPGLDATTASESRGWDLVDAVTPGPQPTLEQLEEGGPRPLERRSSWYVDASDVLTTEDPQCPQPLEGAWPVTLGDAQALKPLKFSSNQPPAAGSSRQDAKDPTSLLGVLQAEADSTSEGLEDAVHSRGARPPAAGPGGDEDEDEEDTAPESALDTSLDKSFSEDAVTDSSGSGTLPRARGRASKGTGKRRKKRPSRSQEEVPPDSDDNKTKKLCVIQ",
+        "n_residues": 1249,
+        "mutation_pos_1indexed": 685,
+        "wt_aa": "I",
+        "mut_aa": "V",
+        "pocket_lining_residues": "F632-H683-E684-I685-E686-N687-L688-R689-A690-F691",
+        "pocket_lining_positions_precursor": [
+          632,
+          683,
+          684,
+          685,
+          686,
+          687,
+          688,
+          689,
+          690,
+          691
+        ],
+        "pocket_lining_1letter": "FHEIENLRAF",
+        "sequence_slice_around_pocket": "LLKLLPEKHEIENLRAFTEE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/INF2_I685V/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "F632",
+          "H683",
+          "E684",
+          "I685",
+          "E686",
+          "N687",
+          "L688",
+          "R689",
+          "A690",
+          "F691"
+        ],
+        "values": [
+          [
+            0.0,
+            9.598,
+            6.707,
+            9.468,
+            10.043,
+            6.741,
+            7.095,
+            10.771,
+            10.708,
+            9.386
+          ],
+          [
+            9.598,
+            0.0,
+            3.871,
+            5.449,
+            5.023,
+            6.207,
+            8.656,
+            9.83,
+            10.604,
+            12.575
+          ],
+          [
+            6.707,
+            3.871,
+            0.0,
+            3.858,
+            5.381,
+            5.005,
+            6.035,
+            8.449,
+            9.818,
+            10.69
+          ],
+          [
+            9.468,
+            5.449,
+            3.858,
+            0.0,
+            3.855,
+            5.564,
+            5.208,
+            6.069,
+            8.636,
+            10.087
+          ],
+          [
+            10.043,
+            5.023,
+            5.381,
+            3.855,
+            0.0,
+            3.87,
+            5.601,
+            5.148,
+            6.209,
+            8.829
+          ],
+          [
+            6.741,
+            6.207,
+            5.005,
+            5.564,
+            3.87,
+            0.0,
+            3.863,
+            5.489,
+            5.186,
+            6.436
+          ],
+          [
+            7.095,
+            8.656,
+            6.035,
+            5.208,
+            5.601,
+            3.863,
+            0.0,
+            3.87,
+            5.535,
+            5.268
+          ],
+          [
+            10.771,
+            9.83,
+            8.449,
+            6.069,
+            5.148,
+            5.489,
+            3.87,
+            0.0,
+            3.838,
+            5.48
+          ],
+          [
+            10.708,
+            10.604,
+            9.818,
+            8.636,
+            6.209,
+            5.186,
+            5.535,
+            3.838,
+            0.0,
+            3.856
+          ],
+          [
+            9.386,
+            12.575,
+            10.69,
+            10.087,
+            8.829,
+            6.436,
+            5.268,
+            5.48,
+            3.856,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1CCCCC1OCCNc1ncnc2[nH]cnc12",
+        "composite_score": 0.851418357873922,
+        "mw": 383.21,
+        "logp": 1.962,
+        "hbd": 4,
+        "hba": 8,
+        "rotatable_bonds": 7,
+        "qed": 0.4564,
+        "sa_score": 3.55,
+        "n_heavy_atoms": 28,
+        "tpsa": 125.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "INF2-I685V Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1CCCCC1OCCNc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.8514,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/INF2_I685V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/INF2_I685V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/INF2_I685V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/INF2_I685V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/INF2_I685V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-INF2-I685V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-INF2-I685V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:08:36.916771+00:00"
     }
   ]
 }
