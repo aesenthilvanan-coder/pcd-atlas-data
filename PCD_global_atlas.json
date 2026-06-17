@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 166,
+  "total_entries": 167,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44572,
-    "queue_remaining": 134025
+    "total_processed": 44576,
+    "queue_remaining": 134021
   },
   "entries": [
     {
@@ -37778,6 +37778,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T05:32:15.001560+00:00"
+    },
+    {
+      "entry_id": "PCD-HOGA1-H62L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HOGA1-H62L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HOGA1",
+        "uniprot": "",
+        "clinvar_id": "301789",
+        "disease": "Primary hyperoxaluria type 3",
+        "mutation_precursor": "H62L",
+        "mutation_mature": "H62L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9333818574268874,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 564.1011430818795,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          13.682671546936035,
+          14.617749214172363,
+          3.2541539669036865
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.78686038115333,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6455916371658538,
+        "cryptic": true,
+        "pocket_residues": {
+          "H62": "H",
+          "K63": "K",
+          "G65": "G"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q86XE5|HOGA1 variant H62L",
+        "fasta_sequence": "MLGPQVWSSVRQGLSRSLSRNVGVWASGEGKKVDIAGIYPPVTTPFTATAEVDYGKLEENLHKLGTFPFRGFVVQGSNGEFPFLTSSERLEVVSRVRQAMPKNRLLLAGSGCESTQATVEMTVSMAQVGADAAMVVTPCYYRGRMSSAALIHHYTKVADLSPIPVVLYSVPANTGLDLPVDAVVTLSQHPNIVGMKDSGGDVTRIGLIVHKTRKQDFQVLAGSAGFLMASYALGAVGGVCALANVLGAQVCQLERLCCTGQWEDAQKLQHRLIEPNAAVTRRFGIPGLKKIMDWFGYYGGPCRAPLQELSPAEEEALRMDFTSNGWL",
+        "full_sequence": "MLGPQVWSSVRQGLSRSLSRNVGVWASGEGKKVDIAGIYPPVTTPFTATAEVDYGKLEENLHKLGTFPFRGFVVQGSNGEFPFLTSSERLEVVSRVRQAMPKNRLLLAGSGCESTQATVEMTVSMAQVGADAAMVVTPCYYRGRMSSAALIHHYTKVADLSPIPVVLYSVPANTGLDLPVDAVVTLSQHPNIVGMKDSGGDVTRIGLIVHKTRKQDFQVLAGSAGFLMASYALGAVGGVCALANVLGAQVCQLERLCCTGQWEDAQKLQHRLIEPNAAVTRRFGIPGLKKIMDWFGYYGGPCRAPLQELSPAEEEALRMDFTSNGWL",
+        "n_residues": 327,
+        "mutation_pos_1indexed": 62,
+        "wt_aa": "H",
+        "mut_aa": "L",
+        "pocket_lining_residues": "H62-K63-G65",
+        "pocket_lining_positions_precursor": [
+          62,
+          63,
+          65
+        ],
+        "pocket_lining_1letter": "HKG",
+        "sequence_slice_around_pocket": "VDYGKLEENLHKLGTFPFRG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HOGA1_H62L/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "H62",
+          "K63",
+          "G65"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            5.044
+          ],
+          [
+            3.859,
+            0.0,
+            5.53
+          ],
+          [
+            5.044,
+            5.53,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5584078664449899,
+        "mw": 319.17,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.924,
+        "sa_score": 3.13,
+        "n_heavy_atoms": 23,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HOGA1-H62L Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5584,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HOGA1_H62L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HOGA1_H62L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HOGA1_H62L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HOGA1_H62L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HOGA1_H62L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HOGA1-H62L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HOGA1-H62L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T05:33:13.033179+00:00"
     }
   ]
 }
