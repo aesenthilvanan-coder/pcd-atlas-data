@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 973,
+  "total_entries": 974,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45520,
-    "queue_remaining": 133077
+    "total_processed": 45521,
+    "queue_remaining": 133076
   },
   "entries": [
     {
@@ -213744,6 +213744,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:53:12.970742+00:00"
+    },
+    {
+      "entry_id": "PCD-CYP24A1-G232E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP24A1-G232E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CYP24A1",
+        "uniprot": "",
+        "clinvar_id": "338827",
+        "disease": "Hypercalcemia, infantile, 1",
+        "mutation_precursor": "G232E",
+        "mutation_mature": "G232E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8442276272695848,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 531.9832472347097,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          3.6497693061828613,
+          -22.08579444885254,
+          14.721914291381836
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.3032709512256244,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6507375481711961,
+        "cryptic": true,
+        "pocket_residues": {
+          "F224": "F",
+          "G225": "G",
+          "A231": "A",
+          "G232": "G",
+          "D233": "D",
+          "E234": "E",
+          "A235": "A",
+          "V236": "V"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q07973|CYP24A1 variant G232E",
+        "fasta_sequence": "MSSPISKSRSLAAFLQQLRSPRQPPRLVTSTAYTSPQPREVPVCPLTAGGETQNAAALPGPTSWPLLGSLLQILWKGGLKKQHDTLVEYHKKYGKIFRMKLGSFESVHLGSPCLLEALYRTESAYPQRLEIKPWKAYRDYRKEGYGLLILEGEDWQRVRSAFQKKLMKPGEVMKLDNKINEVLADFMGRIDELCDERGHVEDLYSELNKWSFESICLVLYEKRFGLLQKNAGDEAVNFIMAIKTMMSTFGRMMVTPVELHKSLNTKVWQDHTLAWDTIFKSVKACIDNRLEKYSQQPSADFLCDIYHQNRLSKKELYAAVTELQLAAVETTANSLMWILYNLSRNPQVQQKLLKEIQSVLPENQVPRAEDLRNMPYLKACLKESMRLTPSVPFTTRTLDKATVLGEYALPKGTVLMLNTQVLGSSEDNFEDSSQFRPERWLQEKEKINPFAHLPFGVGKRMCIGRRLAELQLHLALCWIVRKYDIQATDNEPVEMLHSGTLVPSRELPIAFCQR",
+        "full_sequence": "MSSPISKSRSLAAFLQQLRSPRQPPRLVTSTAYTSPQPREVPVCPLTAGGETQNAAALPGPTSWPLLGSLLQILWKGGLKKQHDTLVEYHKKYGKIFRMKLGSFESVHLGSPCLLEALYRTESAYPQRLEIKPWKAYRDYRKEGYGLLILEGEDWQRVRSAFQKKLMKPGEVMKLDNKINEVLADFMGRIDELCDERGHVEDLYSELNKWSFESICLVLYEKRFGLLQKNAGDEAVNFIMAIKTMMSTFGRMMVTPVELHKSLNTKVWQDHTLAWDTIFKSVKACIDNRLEKYSQQPSADFLCDIYHQNRLSKKELYAAVTELQLAAVETTANSLMWILYNLSRNPQVQQKLLKEIQSVLPENQVPRAEDLRNMPYLKACLKESMRLTPSVPFTTRTLDKATVLGEYALPKGTVLMLNTQVLGSSEDNFEDSSQFRPERWLQEKEKINPFAHLPFGVGKRMCIGRRLAELQLHLALCWIVRKYDIQATDNEPVEMLHSGTLVPSRELPIAFCQR",
+        "n_residues": 514,
+        "mutation_pos_1indexed": 232,
+        "wt_aa": "G",
+        "mut_aa": "E",
+        "pocket_lining_residues": "F224-G225-A231-G232-D233-E234-A235-V236",
+        "pocket_lining_positions_precursor": [
+          224,
+          225,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236
+        ],
+        "pocket_lining_1letter": "FGAGDEAV",
+        "sequence_slice_around_pocket": "KRFGLLQKNAGDEAVNFIMA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CYP24A1_G232E/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "F224",
+          "G225",
+          "A231",
+          "G232",
+          "D233",
+          "E234",
+          "A235",
+          "V236"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            7.336,
+            7.013,
+            9.425,
+            7.616,
+            5.715,
+            9.21
+          ],
+          [
+            3.841,
+            0.0,
+            5.531,
+            6.707,
+            10.132,
+            9.747,
+            7.67,
+            10.137
+          ],
+          [
+            7.336,
+            5.531,
+            0.0,
+            3.838,
+            6.664,
+            8.262,
+            6.516,
+            6.761
+          ],
+          [
+            7.013,
+            6.707,
+            3.838,
+            0.0,
+            3.856,
+            5.45,
+            5.607,
+            6.553
+          ],
+          [
+            9.425,
+            10.132,
+            6.664,
+            3.856,
+            0.0,
+            3.845,
+            5.576,
+            5.112
+          ],
+          [
+            7.616,
+            9.747,
+            8.262,
+            5.45,
+            3.845,
+            0.0,
+            3.841,
+            5.574
+          ],
+          [
+            5.715,
+            7.67,
+            6.516,
+            5.607,
+            5.576,
+            3.841,
+            0.0,
+            3.848
+          ],
+          [
+            9.21,
+            10.137,
+            6.761,
+            6.553,
+            5.112,
+            5.574,
+            3.848,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2C(CNc3nc4ccccc4[nH]3)CCC(=O)C2O)c1",
+        "composite_score": 0.8344788701916006,
+        "mw": 395.2,
+        "logp": 1.999,
+        "hbd": 4,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.5043,
+        "sa_score": 3.62,
+        "n_heavy_atoms": 29,
+        "tpsa": 116.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CYP24A1-G232E Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2C(CNc3nc4ccccc4[nH]3)CCC(=O)C2O)c1",
+        "pocket_affinity_score": 0.8345,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CYP24A1_G232E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CYP24A1_G232E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CYP24A1_G232E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CYP24A1_G232E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CYP24A1_G232E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP24A1-G232E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP24A1-G232E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:53:38.545479+00:00"
     }
   ]
 }
