@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 897,
+  "total_entries": 898,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45430,
-    "queue_remaining": 133167
+    "total_processed": 45431,
+    "queue_remaining": 133166
   },
   "entries": [
     {
@@ -197561,6 +197561,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:50:04.240149+00:00"
+    },
+    {
+      "entry_id": "PCD-COG7-H393R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COG7-H393R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COG7",
+        "uniprot": "",
+        "clinvar_id": "318477",
+        "disease": "not provided",
+        "mutation_precursor": "H393R",
+        "mutation_mature": "H393R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7214184736352485,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 311.8977132351508,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          14.722728729248047,
+          -8.32339859008789,
+          -19.912567138671875
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.182617750044799,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7210688022546102,
+        "cryptic": true,
+        "pocket_residues": {
+          "S392": "S",
+          "H393": "H",
+          "N396": "N"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P83436|COG7 variant H393R",
+        "fasta_sequence": "MDFSKFLADDFDVKEWINAAFRAGSKEAASGKADGHAATLVMKLQLFIQEVNHAVEETSHQALQNMPKVLRDVEALKQEASFLKEQMILVKEDIKKFEQDTSQSMQVLVEIDQVKSRMQLAAESLQEADKWSTLSADIEETFKTQDIAVISAKLTGMQNSLMMLVDTPDYSEKCVHLEALKNRLEALASPQIVAAFTSQAVDQSKVFVKVFTEIDRMPQLLAYYYKCHKVQLLAAWQELCQSDLSLDRQLTGLYDALLGAWHTQIQWATQVFQKPHEVVMVLLIQTLGALMPSLPSCLSNGVERAGPEQELTRLLEFYDATAHFAKGLEMALLPHLHEHNLVKVTELVDAVYDPYKPYQLKYGDMEESNLLIQMSAVPLEHGEVIDCVQELSHSVNKLFGLASAAVDRCVRFTNGLGTCGLLSALKSLFAKYVSDFTSTLQSIRKKCKLDHIPPNSLFQEDWTAFQNSIRIIATCGELLRHCGDFEQQLANRILSTAGKYLSDSCSPRSLAGFQESILTDKKNSAKNPWQEYNYLQKDNPAEYASLMEILYTLKEKGSSNHNLLAAPRAALTRLNQQAHQLAFDSVFLRIKQQLLLISKMDSWNTAGIGETLTDELPAFSLTPLEYISNIGQYIMSLPLNLEPFVTQEDSALELALHAGKLPFPPEQGDELPELDNMADNWLGSIARATMQTYCDAILQIPELSPHSAKQLATDIDYLINVMDALGLQPSRTLQHIVTLLKTRPEDYRQVSKGLPRRLATTVATMRSVNY",
+        "full_sequence": "MDFSKFLADDFDVKEWINAAFRAGSKEAASGKADGHAATLVMKLQLFIQEVNHAVEETSHQALQNMPKVLRDVEALKQEASFLKEQMILVKEDIKKFEQDTSQSMQVLVEIDQVKSRMQLAAESLQEADKWSTLSADIEETFKTQDIAVISAKLTGMQNSLMMLVDTPDYSEKCVHLEALKNRLEALASPQIVAAFTSQAVDQSKVFVKVFTEIDRMPQLLAYYYKCHKVQLLAAWQELCQSDLSLDRQLTGLYDALLGAWHTQIQWATQVFQKPHEVVMVLLIQTLGALMPSLPSCLSNGVERAGPEQELTRLLEFYDATAHFAKGLEMALLPHLHEHNLVKVTELVDAVYDPYKPYQLKYGDMEESNLLIQMSAVPLEHGEVIDCVQELSHSVNKLFGLASAAVDRCVRFTNGLGTCGLLSALKSLFAKYVSDFTSTLQSIRKKCKLDHIPPNSLFQEDWTAFQNSIRIIATCGELLRHCGDFEQQLANRILSTAGKYLSDSCSPRSLAGFQESILTDKKNSAKNPWQEYNYLQKDNPAEYASLMEILYTLKEKGSSNHNLLAAPRAALTRLNQQAHQLAFDSVFLRIKQQLLLISKMDSWNTAGIGETLTDELPAFSLTPLEYISNIGQYIMSLPLNLEPFVTQEDSALELALHAGKLPFPPEQGDELPELDNMADNWLGSIARATMQTYCDAILQIPELSPHSAKQLATDIDYLINVMDALGLQPSRTLQHIVTLLKTRPEDYRQVSKGLPRRLATTVATMRSVNY",
+        "n_residues": 770,
+        "mutation_pos_1indexed": 393,
+        "wt_aa": "H",
+        "mut_aa": "R",
+        "pocket_lining_residues": "S392-H393-N396",
+        "pocket_lining_positions_precursor": [
+          392,
+          393,
+          396
+        ],
+        "pocket_lining_1letter": "SHN",
+        "sequence_slice_around_pocket": "EVIDCVQELSHSVNKLFGLA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COG7_H393R/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "S392",
+          "H393",
+          "N396"
+        ],
+        "values": [
+          [
+            0.0,
+            3.865,
+            7.9
+          ],
+          [
+            3.865,
+            0.0,
+            5.865
+          ],
+          [
+            7.9,
+            5.865,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1N1CCCCC1",
+        "composite_score": 0.523436488861427,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.82,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COG7-H393R Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5234,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COG7_H393R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COG7_H393R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COG7_H393R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COG7_H393R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COG7_H393R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COG7-H393R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COG7-H393R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:50:32.551916+00:00"
     }
   ]
 }
