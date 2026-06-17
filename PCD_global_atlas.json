@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 986,
+  "total_entries": 987,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45533,
-    "queue_remaining": 133064
+    "total_processed": 45534,
+    "queue_remaining": 133063
   },
   "entries": [
     {
@@ -216978,6 +216978,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T17:01:40.773598+00:00"
+    },
+    {
+      "entry_id": "PCD-SPART-A472S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPART-A472S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SPART",
+        "uniprot": "",
+        "clinvar_id": "311767",
+        "disease": "Troyer syndrome",
+        "mutation_precursor": "A472S",
+        "mutation_mature": "A472S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8777133189804743,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 464.6484155292326,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          33.025325775146484,
+          -11.602255821228027,
+          -16.364551544189453
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.8934637846134095,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8716208915695801,
+        "cryptic": true,
+        "pocket_residues": {
+          "S470": "S",
+          "P471": "P",
+          "A472": "A"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8N0X7|SPART variant A472S",
+        "fasta_sequence": "MEQEPQNGEPAEIKIIREAYKKAFLFVNKGLNTDELGQKEEAKNYYKQGIGHLLRGISISSKESEHTGPGWESARQMQQKMKETLQNVRTRLEILEKGLATSLQNDLQEVPKLYPEFPPKDMCEKLPEPQSFSSAPQHAEVNGNTSTPSAGAVAAPASLSLPSQSCPAEAPPAYTPQAAEGHYTVSYGTDSGEFSSVGEEFYRNHSQPPPLETLGLDADELILIPNGVQIFFVNPAGEVSAPSYPGYLRIVRFLDNSLDTVLNRPPGFLQVCDWLYPLVPDRSPVLKCTAGAYMFPDTMLQAAGCFVGVVLSSELPEDDRELFEDLLRQMSDLRLQANWNRAEEENEFQIPGRTRPSSDQLKEASGTDVKQLDQGNKDVRHKGKRGKRAKDTSSEEVNLSHIVPCEPVPEEKPKELPEWSEKVAHNILSGASWVSWGLVKGAEITGKAIQKGASKLRERIQPEEKPVEVSPAVTKGLYIAKQATGGAAKVSQFLVDGVCTVANCVGKELAPHVKKHGSKLVPESLKKDKDGKSPLDGAMVVAASSVQGFSTVWQGLECAAKCIVNNVSAETVQTVRYKYGYNAGEATHHAVDSAVNVGVTAYNINNIGIKAMVKKTATQTGHTLLEDYQIVDNSQRENQEGAANVNVRGEKDEQTKEVKEAKKKDK",
+        "full_sequence": "MEQEPQNGEPAEIKIIREAYKKAFLFVNKGLNTDELGQKEEAKNYYKQGIGHLLRGISISSKESEHTGPGWESARQMQQKMKETLQNVRTRLEILEKGLATSLQNDLQEVPKLYPEFPPKDMCEKLPEPQSFSSAPQHAEVNGNTSTPSAGAVAAPASLSLPSQSCPAEAPPAYTPQAAEGHYTVSYGTDSGEFSSVGEEFYRNHSQPPPLETLGLDADELILIPNGVQIFFVNPAGEVSAPSYPGYLRIVRFLDNSLDTVLNRPPGFLQVCDWLYPLVPDRSPVLKCTAGAYMFPDTMLQAAGCFVGVVLSSELPEDDRELFEDLLRQMSDLRLQANWNRAEEENEFQIPGRTRPSSDQLKEASGTDVKQLDQGNKDVRHKGKRGKRAKDTSSEEVNLSHIVPCEPVPEEKPKELPEWSEKVAHNILSGASWVSWGLVKGAEITGKAIQKGASKLRERIQPEEKPVEVSPAVTKGLYIAKQATGGAAKVSQFLVDGVCTVANCVGKELAPHVKKHGSKLVPESLKKDKDGKSPLDGAMVVAASSVQGFSTVWQGLECAAKCIVNNVSAETVQTVRYKYGYNAGEATHHAVDSAVNVGVTAYNINNIGIKAMVKKTATQTGHTLLEDYQIVDNSQRENQEGAANVNVRGEKDEQTKEVKEAKKKDK",
+        "n_residues": 666,
+        "mutation_pos_1indexed": 472,
+        "wt_aa": "A",
+        "mut_aa": "S",
+        "pocket_lining_residues": "S470-P471-A472",
+        "pocket_lining_positions_precursor": [
+          470,
+          471,
+          472
+        ],
+        "pocket_lining_1letter": "SPA",
+        "sequence_slice_around_pocket": "PEEKPVEVSPAVTKGLYIAK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SPART_A472S/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "S470",
+          "P471",
+          "A472"
+        ],
+        "values": [
+          [
+            0.0,
+            3.879,
+            5.416
+          ],
+          [
+            3.879,
+            0.0,
+            3.847
+          ],
+          [
+            5.416,
+            3.847,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1C(O)CCCC1N1CCCCC1",
+        "composite_score": 0.5567487800474011,
+        "mw": 318.24,
+        "logp": 2.094,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8701,
+        "sa_score": 3.61,
+        "n_heavy_atoms": 23,
+        "tpsa": 65.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SPART-A472S Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1C(O)CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5567,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SPART_A472S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SPART_A472S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SPART_A472S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPART_A472S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPART_A472S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPART-A472S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPART-A472S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T17:02:07.398777+00:00"
     }
   ]
 }
