@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 410,
+  "total_entries": 411,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44863,
-    "queue_remaining": 133734
+    "total_processed": 44864,
+    "queue_remaining": 133733
   },
   "entries": [
     {
@@ -90666,6 +90666,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:06:34.960481+00:00"
+    },
+    {
+      "entry_id": "PCD-TRPV4-M69L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRPV4-M69L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TRPV4",
+        "uniprot": "",
+        "clinvar_id": "307143",
+        "disease": "Spondylometaphyseal dysplasia, Kozlowski type",
+        "mutation_precursor": "M69L",
+        "mutation_mature": "M69L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7860847083222969,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 554.1944702156397,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -14.479215621948242,
+          -16.47046661376953,
+          25.312223434448242
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.170847929430496,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8118455280441593,
+        "cryptic": true,
+        "pocket_residues": {
+          "N66": "N",
+          "L67": "L",
+          "R68": "R",
+          "M69": "M"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9HBA0|TRPV4 variant M69L",
+        "fasta_sequence": "MADSSEGPRAGPGEVAELPGDESGTPGGEAFPLSSLANLFEGEDGSLSPSPADASRPAGPGDGRPNLRMKFQGAFRKGVPNPIDLLESTLYESSVVPGPKKAPMDSLFDYGTYRHHSSDNKRWRKKIIEKQPQSPKAPAPQPPPILKVFNRPILFDIVSRGSTADLDGLLPFLLTHKKRLTDEEFREPSTGKTCLPKALLNLSNGRNDTIPVLLDIAERTGNMREFINSPFRDIYYRGQTALHIAIERRCKHYVELLVAQGADVHAQARGRFFQPKDEGGYFYFGELPLSLAACTNQPHIVNYLTENPHKKADMRRQDSRGNTVLHALVAIADNTRENTKFVTKMYDLLLLKCARLFPDSNLEAVLNNDGLSPLMMAAKTGKIGIFQHIIRREVTDEDTRHLSRKFKDWAYGPVYSSLYDLSSLDTCGEEASVLEILVYNSKIENRHEMLAVEPINELLRDKWRKFGAVSFYINVVSYLCAMVIFTLTAYYQPLEGTPPYPYRTTVDYLRLAGEVITLFTGVLFFFTNIKDLFMKKCPGVNSLFIDGSFQLLYFIYSVLVIVSAALYLAGIEAYLAVMVFALVLGWMNALYFTRGLKLTGTYSIMIQKILFKDLFRFLLVYLLFMIGYASALVSLLNPCANMKVCNEDQTNCTVPTYPSCRDSETFSTFLLDLFKLTIGMGDLEMLSSTKYPVVFIILLVTYIILTFVLLLNMLIALMGETVGQVSKESKHIWKLQWATTILDIERSFPVFLRKAFRSGEMVTVGKSSDGTPDRRWCFRVDEVNWSHWNQNLGIINEDPGKNETYQYYGFSHTVGRLRRDRWSSVVPRVVELNKNSNPDEVVVPLDSMGNPRCDGHQQGYPRKWRTDDAPL",
+        "full_sequence": "MADSSEGPRAGPGEVAELPGDESGTPGGEAFPLSSLANLFEGEDGSLSPSPADASRPAGPGDGRPNLRMKFQGAFRKGVPNPIDLLESTLYESSVVPGPKKAPMDSLFDYGTYRHHSSDNKRWRKKIIEKQPQSPKAPAPQPPPILKVFNRPILFDIVSRGSTADLDGLLPFLLTHKKRLTDEEFREPSTGKTCLPKALLNLSNGRNDTIPVLLDIAERTGNMREFINSPFRDIYYRGQTALHIAIERRCKHYVELLVAQGADVHAQARGRFFQPKDEGGYFYFGELPLSLAACTNQPHIVNYLTENPHKKADMRRQDSRGNTVLHALVAIADNTRENTKFVTKMYDLLLLKCARLFPDSNLEAVLNNDGLSPLMMAAKTGKIGIFQHIIRREVTDEDTRHLSRKFKDWAYGPVYSSLYDLSSLDTCGEEASVLEILVYNSKIENRHEMLAVEPINELLRDKWRKFGAVSFYINVVSYLCAMVIFTLTAYYQPLEGTPPYPYRTTVDYLRLAGEVITLFTGVLFFFTNIKDLFMKKCPGVNSLFIDGSFQLLYFIYSVLVIVSAALYLAGIEAYLAVMVFALVLGWMNALYFTRGLKLTGTYSIMIQKILFKDLFRFLLVYLLFMIGYASALVSLLNPCANMKVCNEDQTNCTVPTYPSCRDSETFSTFLLDLFKLTIGMGDLEMLSSTKYPVVFIILLVTYIILTFVLLLNMLIALMGETVGQVSKESKHIWKLQWATTILDIERSFPVFLRKAFRSGEMVTVGKSSDGTPDRRWCFRVDEVNWSHWNQNLGIINEDPGKNETYQYYGFSHTVGRLRRDRWSSVVPRVVELNKNSNPDEVVVPLDSMGNPRCDGHQQGYPRKWRTDDAPL",
+        "n_residues": 871,
+        "mutation_pos_1indexed": 69,
+        "wt_aa": "M",
+        "mut_aa": "L",
+        "pocket_lining_residues": "N66-L67-R68-M69",
+        "pocket_lining_positions_precursor": [
+          66,
+          67,
+          68,
+          69
+        ],
+        "pocket_lining_1letter": "NLRM",
+        "sequence_slice_around_pocket": "GPGDGRPNLRMKFQGAFRKG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV4_M69L/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "N66",
+          "L67",
+          "R68",
+          "M69"
+        ],
+        "values": [
+          [
+            0.0,
+            3.856,
+            5.874,
+            9.016
+          ],
+          [
+            3.856,
+            0.0,
+            3.811,
+            5.976
+          ],
+          [
+            5.874,
+            3.811,
+            0.0,
+            3.841
+          ],
+          [
+            9.016,
+            5.976,
+            3.841,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.5093415092765582,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TRPV4-M69L Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5093,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV4_M69L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV4_M69L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV4_M69L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV4_M69L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV4_M69L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRPV4-M69L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRPV4-M69L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:07:04.996157+00:00"
     }
   ]
 }
