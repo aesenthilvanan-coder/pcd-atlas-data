@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 558,
+  "total_entries": 559,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45031,
-    "queue_remaining": 133566
+    "total_processed": 45032,
+    "queue_remaining": 133565
   },
   "entries": [
     {
@@ -123815,6 +123815,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:02:28.558022+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC6A5-A20V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC6A5-A20V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC6A5",
+        "uniprot": "",
+        "clinvar_id": "303994",
+        "disease": "Hyperekplexia 3",
+        "mutation_precursor": "A20V",
+        "mutation_mature": "A20V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9223312241886907,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 463.9084754312151,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          10.802163124084473,
+          -24.514860153198242,
+          -66.20124053955078
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.24132599339179,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7827783602070915,
+        "cryptic": true,
+        "pocket_residues": {
+          "E18": "E",
+          "A19": "A",
+          "A20": "A",
+          "A21": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y345|SLC6A5 variant A20V",
+        "fasta_sequence": "MDCSAPKEMNKLPANSPEAAAAQGHPDGPCAPRTSPEQELPAAAAPPPPRVPRSASTGAQTFQSADARACEAERPGVGSCKLSSPRAQAASAALRDLREAQGAQASPPPGSSGPGNALHCKIPFLRGPEGDANVSVGKGTLERNNTPVVGWVNMSQSTVVLATDGITSVLPGSVATVATQEDEQGDENKARGNWSSKLDFILSMVGYAVGLGNVWRFPYLAFQNGGGAFLIPYLMMLALAGLPIFFLEVSLGQFASQGPVSVWKAIPALQGCGIAMLIISVLIAIYYNVIICYTLFYLFASFVSVLPWGSCNNPWNTPECKDKTKLLLDSCVISDHPKIQIKNSTFCMTAYPNVTMVNFTSQANKTFVSGSEEYFKYFVLKISAGIEYPGEIRWPLALCLFLAWVIVYASLAKGIKTSGKVVYFTATFPYVVLVILLIRGVTLPGAGAGIWYFITPKWEKLTDATVWKDAATQIFFSLSAAWGGLITLSSYNKFHNNCYRDTLIVTCTNSATSIFAGFVIFSVIGFMANERKVNIENVADQGPGIAFVVYPEALTRLPLSPFWAIIFFLMLLTLGLDTMFATIETIVTSISDEFPKYLRTHKPVFTLGCCICFFIMGFPMITQGGIYMFQLVDTYAASYALVIIAIFELVGISYVYGLQRFCEDIEMMIGFQPNIFWKVCWAFVTPTILTFILCFSFYQWEPMTYGSYRYPNWSMVLGWLMLACSVIWIPIMFVIKMHLAPGRFIERLKLVCSPQPDWGPFLAQHRGERYKNMIDPLGTSSLGLKLPVKDLELGTQC",
+        "full_sequence": "MDCSAPKEMNKLPANSPEAAAAQGHPDGPCAPRTSPEQELPAAAAPPPPRVPRSASTGAQTFQSADARACEAERPGVGSCKLSSPRAQAASAALRDLREAQGAQASPPPGSSGPGNALHCKIPFLRGPEGDANVSVGKGTLERNNTPVVGWVNMSQSTVVLATDGITSVLPGSVATVATQEDEQGDENKARGNWSSKLDFILSMVGYAVGLGNVWRFPYLAFQNGGGAFLIPYLMMLALAGLPIFFLEVSLGQFASQGPVSVWKAIPALQGCGIAMLIISVLIAIYYNVIICYTLFYLFASFVSVLPWGSCNNPWNTPECKDKTKLLLDSCVISDHPKIQIKNSTFCMTAYPNVTMVNFTSQANKTFVSGSEEYFKYFVLKISAGIEYPGEIRWPLALCLFLAWVIVYASLAKGIKTSGKVVYFTATFPYVVLVILLIRGVTLPGAGAGIWYFITPKWEKLTDATVWKDAATQIFFSLSAAWGGLITLSSYNKFHNNCYRDTLIVTCTNSATSIFAGFVIFSVIGFMANERKVNIENVADQGPGIAFVVYPEALTRLPLSPFWAIIFFLMLLTLGLDTMFATIETIVTSISDEFPKYLRTHKPVFTLGCCICFFIMGFPMITQGGIYMFQLVDTYAASYALVIIAIFELVGISYVYGLQRFCEDIEMMIGFQPNIFWKVCWAFVTPTILTFILCFSFYQWEPMTYGSYRYPNWSMVLGWLMLACSVIWIPIMFVIKMHLAPGRFIERLKLVCSPQPDWGPFLAQHRGERYKNMIDPLGTSSLGLKLPVKDLELGTQC",
+        "n_residues": 797,
+        "mutation_pos_1indexed": 20,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "E18-A19-A20-A21",
+        "pocket_lining_positions_precursor": [
+          18,
+          19,
+          20,
+          21
+        ],
+        "pocket_lining_1letter": "EAAA",
+        "sequence_slice_around_pocket": "NKLPANSPEAAAAQGHPDGP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A5_A20V/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "E18",
+          "A19",
+          "A20",
+          "A21"
+        ],
+        "values": [
+          [
+            0.0,
+            3.388,
+            7.323,
+            10.609
+          ],
+          [
+            3.388,
+            0.0,
+            3.944,
+            7.223
+          ],
+          [
+            7.323,
+            3.944,
+            0.0,
+            3.352
+          ],
+          [
+            10.609,
+            7.223,
+            3.352,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8836918232132798,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC6A5-A20V Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8837,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A5_A20V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A5_A20V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A5_A20V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A5_A20V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A5_A20V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC6A5-A20V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC6A5-A20V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:02:56.920746+00:00"
     }
   ]
 }
