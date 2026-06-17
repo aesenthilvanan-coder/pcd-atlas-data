@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 653,
+  "total_entries": 654,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45148,
-    "queue_remaining": 133449
+    "total_processed": 45149,
+    "queue_remaining": 133448
   },
   "entries": [
     {
@@ -145337,6 +145337,171 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:23:04.990017+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC7A7-E376D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC7A7-E376D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC7A7",
+        "uniprot": "",
+        "clinvar_id": "312815",
+        "disease": "Lysinuric protein intolerance",
+        "mutation_precursor": "E376D",
+        "mutation_mature": "E376D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8730417486109634,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 495.74760280303184,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          4.380646705627441,
+          5.462588787078857,
+          19.607009887695312
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.684331484278751,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6510491122289113,
+        "cryptic": true,
+        "pocket_residues": {
+          "V375": "V",
+          "E376": "E",
+          "D377": "D",
+          "I378": "I",
+          "F379": "F",
+          "Q380": "Q"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UM01|SLC7A7 variant E376D",
+        "fasta_sequence": "MVDSTEYEVASQPEVETSPLGDGASPGPEQVKLKKEISLLNGVCLIVGNMIGSGIFVSPKGVLIYSASFGLSLVIWAVGGLFSVFGALCYAELGTTIKKSGASYAYILEAFGGFLAFIRLWTSLLIIEPTSQAIIAITFANYMVQPLFPSCFAPYAASRLLAAACICLLTFINCAYVKWGTLVQDIFTYAKVLALIAVIVAGIVRLGQGASTHFENSFEGSSFAVGDIALALYSALFSYSGWDTLNYVTEEIKNPERNLPLSIGISMPIVTIIYILTNVAYYTVLDMRDILASDAVAVTFADQIFGIFNWIIPLSVALSCFGGLNASIVAASRLFFVGSREGHLPDAICMIHVERFTPVPSLLFNGIMALIYLCVEDIFQLINYYSFSYWFFVGLSIVGQLYLRWKEPDRPRPLKLSVFFPIVFCLCTIFLVAVPLYSDTINSLIGIAIALSGLPFYFLIIRVPEHKRPLYLRRIVGSATRYLQVLCMSVAAEMDLEDGGEMPKQRDPKSN",
+        "full_sequence": "MVDSTEYEVASQPEVETSPLGDGASPGPEQVKLKKEISLLNGVCLIVGNMIGSGIFVSPKGVLIYSASFGLSLVIWAVGGLFSVFGALCYAELGTTIKKSGASYAYILEAFGGFLAFIRLWTSLLIIEPTSQAIIAITFANYMVQPLFPSCFAPYAASRLLAAACICLLTFINCAYVKWGTLVQDIFTYAKVLALIAVIVAGIVRLGQGASTHFENSFEGSSFAVGDIALALYSALFSYSGWDTLNYVTEEIKNPERNLPLSIGISMPIVTIIYILTNVAYYTVLDMRDILASDAVAVTFADQIFGIFNWIIPLSVALSCFGGLNASIVAASRLFFVGSREGHLPDAICMIHVERFTPVPSLLFNGIMALIYLCVEDIFQLINYYSFSYWFFVGLSIVGQLYLRWKEPDRPRPLKLSVFFPIVFCLCTIFLVAVPLYSDTINSLIGIAIALSGLPFYFLIIRVPEHKRPLYLRRIVGSATRYLQVLCMSVAAEMDLEDGGEMPKQRDPKSN",
+        "n_residues": 511,
+        "mutation_pos_1indexed": 376,
+        "wt_aa": "E",
+        "mut_aa": "D",
+        "pocket_lining_residues": "V375-E376-D377-I378-F379-Q380",
+        "pocket_lining_positions_precursor": [
+          375,
+          376,
+          377,
+          378,
+          379,
+          380
+        ],
+        "pocket_lining_1letter": "VEDIFQ",
+        "sequence_slice_around_pocket": "GIMALIYLCVEDIFQLINYY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_E376D/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "V375",
+          "E376",
+          "D377",
+          "I378",
+          "F379",
+          "Q380"
+        ],
+        "values": [
+          [
+            0.0,
+            3.835,
+            5.708,
+            7.235,
+            9.531,
+            7.553
+          ],
+          [
+            3.835,
+            0.0,
+            3.826,
+            6.558,
+            9.075,
+            8.288
+          ],
+          [
+            5.708,
+            3.826,
+            0.0,
+            3.829,
+            5.422,
+            5.451
+          ],
+          [
+            7.235,
+            6.558,
+            3.829,
+            0.0,
+            3.853,
+            5.461
+          ],
+          [
+            9.531,
+            9.075,
+            5.422,
+            3.853,
+            0.0,
+            3.842
+          ],
+          [
+            7.553,
+            8.288,
+            5.451,
+            5.461,
+            3.842,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CCCCC1CCNc1ncnc2[nH]cnc12",
+        "composite_score": 0.8641538554166859,
+        "mw": 352.21,
+        "logp": 2.068,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.6229,
+        "sa_score": 3.39,
+        "n_heavy_atoms": 26,
+        "tpsa": 108.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC7A7-E376D Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CCCCC1CCNc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.8642,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_E376D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_E376D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_E376D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_E376D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_E376D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC7A7-E376D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC7A7-E376D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:23:28.999388+00:00"
     }
   ]
 }
