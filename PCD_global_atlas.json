@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 726,
+  "total_entries": 727,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45235,
-    "queue_remaining": 133362
+    "total_processed": 45236,
+    "queue_remaining": 133361
   },
   "entries": [
     {
@@ -160484,6 +160484,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:17:37.044302+00:00"
+    },
+    {
+      "entry_id": "PCD-TRPV4-A217V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRPV4-A217V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TRPV4",
+        "uniprot": "",
+        "clinvar_id": "307138",
+        "disease": "Neuronopathy, distal hereditary motor, autosomal dominant 8",
+        "mutation_precursor": "A217V",
+        "mutation_mature": "A217V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7307459166066969,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 358.8761899117942,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -33.36081314086914,
+          6.142788410186768,
+          38.08469009399414
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.938379025412498,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6718195362946233,
+        "cryptic": true,
+        "pocket_residues": {
+          "P211": "P",
+          "L214": "L",
+          "D215": "D",
+          "I216": "I",
+          "A217": "A",
+          "E218": "E",
+          "M223": "M",
+          "Q260": "Q"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9HBA0|TRPV4 variant A217V",
+        "fasta_sequence": "MADSSEGPRAGPGEVAELPGDESGTPGGEAFPLSSLANLFEGEDGSLSPSPADASRPAGPGDGRPNLRMKFQGAFRKGVPNPIDLLESTLYESSVVPGPKKAPMDSLFDYGTYRHHSSDNKRWRKKIIEKQPQSPKAPAPQPPPILKVFNRPILFDIVSRGSTADLDGLLPFLLTHKKRLTDEEFREPSTGKTCLPKALLNLSNGRNDTIPVLLDIAERTGNMREFINSPFRDIYYRGQTALHIAIERRCKHYVELLVAQGADVHAQARGRFFQPKDEGGYFYFGELPLSLAACTNQPHIVNYLTENPHKKADMRRQDSRGNTVLHALVAIADNTRENTKFVTKMYDLLLLKCARLFPDSNLEAVLNNDGLSPLMMAAKTGKIGIFQHIIRREVTDEDTRHLSRKFKDWAYGPVYSSLYDLSSLDTCGEEASVLEILVYNSKIENRHEMLAVEPINELLRDKWRKFGAVSFYINVVSYLCAMVIFTLTAYYQPLEGTPPYPYRTTVDYLRLAGEVITLFTGVLFFFTNIKDLFMKKCPGVNSLFIDGSFQLLYFIYSVLVIVSAALYLAGIEAYLAVMVFALVLGWMNALYFTRGLKLTGTYSIMIQKILFKDLFRFLLVYLLFMIGYASALVSLLNPCANMKVCNEDQTNCTVPTYPSCRDSETFSTFLLDLFKLTIGMGDLEMLSSTKYPVVFIILLVTYIILTFVLLLNMLIALMGETVGQVSKESKHIWKLQWATTILDIERSFPVFLRKAFRSGEMVTVGKSSDGTPDRRWCFRVDEVNWSHWNQNLGIINEDPGKNETYQYYGFSHTVGRLRRDRWSSVVPRVVELNKNSNPDEVVVPLDSMGNPRCDGHQQGYPRKWRTDDAPL",
+        "full_sequence": "MADSSEGPRAGPGEVAELPGDESGTPGGEAFPLSSLANLFEGEDGSLSPSPADASRPAGPGDGRPNLRMKFQGAFRKGVPNPIDLLESTLYESSVVPGPKKAPMDSLFDYGTYRHHSSDNKRWRKKIIEKQPQSPKAPAPQPPPILKVFNRPILFDIVSRGSTADLDGLLPFLLTHKKRLTDEEFREPSTGKTCLPKALLNLSNGRNDTIPVLLDIAERTGNMREFINSPFRDIYYRGQTALHIAIERRCKHYVELLVAQGADVHAQARGRFFQPKDEGGYFYFGELPLSLAACTNQPHIVNYLTENPHKKADMRRQDSRGNTVLHALVAIADNTRENTKFVTKMYDLLLLKCARLFPDSNLEAVLNNDGLSPLMMAAKTGKIGIFQHIIRREVTDEDTRHLSRKFKDWAYGPVYSSLYDLSSLDTCGEEASVLEILVYNSKIENRHEMLAVEPINELLRDKWRKFGAVSFYINVVSYLCAMVIFTLTAYYQPLEGTPPYPYRTTVDYLRLAGEVITLFTGVLFFFTNIKDLFMKKCPGVNSLFIDGSFQLLYFIYSVLVIVSAALYLAGIEAYLAVMVFALVLGWMNALYFTRGLKLTGTYSIMIQKILFKDLFRFLLVYLLFMIGYASALVSLLNPCANMKVCNEDQTNCTVPTYPSCRDSETFSTFLLDLFKLTIGMGDLEMLSSTKYPVVFIILLVTYIILTFVLLLNMLIALMGETVGQVSKESKHIWKLQWATTILDIERSFPVFLRKAFRSGEMVTVGKSSDGTPDRRWCFRVDEVNWSHWNQNLGIINEDPGKNETYQYYGFSHTVGRLRRDRWSSVVPRVVELNKNSNPDEVVVPLDSMGNPRCDGHQQGYPRKWRTDDAPL",
+        "n_residues": 871,
+        "mutation_pos_1indexed": 217,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "P211-L214-D215-I216-A217-E218-M223-Q260",
+        "pocket_lining_positions_precursor": [
+          211,
+          214,
+          215,
+          216,
+          217,
+          218,
+          223,
+          260
+        ],
+        "pocket_lining_1letter": "PLDIAEMQ",
+        "sequence_slice_around_pocket": "NDTIPVLLDIAERTGNMREF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV4_A217V/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "P211",
+          "L214",
+          "D215",
+          "I216",
+          "A217",
+          "E218",
+          "M223",
+          "Q260"
+        ],
+        "values": [
+          [
+            0.0,
+            4.98,
+            6.312,
+            8.696,
+            9.67,
+            10.377,
+            11.5,
+            10.313
+          ],
+          [
+            4.98,
+            0.0,
+            3.887,
+            5.375,
+            4.873,
+            6.057,
+            6.753,
+            8.276
+          ],
+          [
+            6.312,
+            3.887,
+            0.0,
+            3.867,
+            5.438,
+            4.968,
+            8.355,
+            10.125
+          ],
+          [
+            8.696,
+            5.375,
+            3.867,
+            0.0,
+            3.869,
+            5.472,
+            8.426,
+            12.619
+          ],
+          [
+            9.67,
+            4.873,
+            5.438,
+            3.869,
+            0.0,
+            3.868,
+            4.768,
+            10.387
+          ],
+          [
+            10.377,
+            6.057,
+            4.968,
+            5.472,
+            3.868,
+            0.0,
+            4.958,
+            9.117
+          ],
+          [
+            11.5,
+            6.753,
+            8.355,
+            8.426,
+            4.768,
+            4.958,
+            0.0,
+            7.405
+          ],
+          [
+            10.313,
+            8.276,
+            10.125,
+            12.619,
+            10.387,
+            9.117,
+            7.405,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8186644659138523,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TRPV4-A217V Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8187,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV4_A217V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV4_A217V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV4_A217V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV4_A217V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV4_A217V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRPV4-A217V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRPV4-A217V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:18:08.511358+00:00"
     }
   ]
 }
