@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 452,
+  "total_entries": 453,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44908,
-    "queue_remaining": 133689
+    "total_processed": 44909,
+    "queue_remaining": 133688
   },
   "entries": [
     {
@@ -100174,6 +100174,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:41:49.803671+00:00"
+    },
+    {
+      "entry_id": "PCD-MMP20-M92V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP20-M92V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MMP20",
+        "uniprot": "",
+        "clinvar_id": "301955",
+        "disease": "Amelogenesis imperfecta hypomaturation type 2A2",
+        "mutation_precursor": "M92V",
+        "mutation_mature": "M92V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9399633509332987,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 506.2318870691013,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          23.97089385986328,
+          3.659025192260742,
+          -21.111787796020508
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.526382538406299,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7954376605895105,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q89": "Q",
+          "T90": "T",
+          "T91": "T",
+          "M92": "M",
+          "N93": "N",
+          "V94": "V",
+          "I95": "I",
+          "K96": "K",
+          "K97": "K"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O60882|MMP20 variant M92V",
+        "fasta_sequence": "MKVLPASGLAVFLIMALKFSTAAPSLVAASPRTWRNNYRLAQAYLDKYYTNKEGHQIGEMVARGSNSMIRKIKELQAFFGLQVTGKLDQTTMNVIKKPRCGVPDVANYRLFPGEPKWKKNTLTYRISKYTPSMSSVEVDKAVEMALQAWSSAVPLSFVRINSGEADIMISFENGDHGDSYPFDGPRGTLAHAFAPGEGLGGDTHFDNAEKWTMGTNGFNLFTVAAHEFGHALGLAHSTDPSALMYPTYKYKNPYGFHLPKDDVKGIQALYGPRKVFLGKPTLPHAPHHKPSIPDLCDSSSSFDAVTMLGKELLLFKDRIFWRRQVHLRTGIRPSTITSSFPQLMSNVDAAYEVAERGTAYFFKGPHYWITRGFQMQGPPRTIYDFGFPRHVQQIDAAVYLREPQKTLFFVGDEYYSYDERKRKMEKDYPKNTEEEFSGVNGQIDAAVELNGYIYFFSGPKTYKYDTEKEDVVSVVKSSSWIGC",
+        "full_sequence": "MKVLPASGLAVFLIMALKFSTAAPSLVAASPRTWRNNYRLAQAYLDKYYTNKEGHQIGEMVARGSNSMIRKIKELQAFFGLQVTGKLDQTTMNVIKKPRCGVPDVANYRLFPGEPKWKKNTLTYRISKYTPSMSSVEVDKAVEMALQAWSSAVPLSFVRINSGEADIMISFENGDHGDSYPFDGPRGTLAHAFAPGEGLGGDTHFDNAEKWTMGTNGFNLFTVAAHEFGHALGLAHSTDPSALMYPTYKYKNPYGFHLPKDDVKGIQALYGPRKVFLGKPTLPHAPHHKPSIPDLCDSSSSFDAVTMLGKELLLFKDRIFWRRQVHLRTGIRPSTITSSFPQLMSNVDAAYEVAERGTAYFFKGPHYWITRGFQMQGPPRTIYDFGFPRHVQQIDAAVYLREPQKTLFFVGDEYYSYDERKRKMEKDYPKNTEEEFSGVNGQIDAAVELNGYIYFFSGPKTYKYDTEKEDVVSVVKSSSWIGC",
+        "n_residues": 483,
+        "mutation_pos_1indexed": 92,
+        "wt_aa": "M",
+        "mut_aa": "V",
+        "pocket_lining_residues": "Q89-T90-T91-M92-N93-V94-I95-K96-K97",
+        "pocket_lining_positions_precursor": [
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97
+        ],
+        "pocket_lining_1letter": "QTTMNVIKK",
+        "sequence_slice_around_pocket": "QVTGKLDQTTMNVIKKPRCG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MMP20_M92V/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "Q89",
+          "T90",
+          "T91",
+          "M92",
+          "N93",
+          "V94",
+          "I95",
+          "K96",
+          "K97"
+        ],
+        "values": [
+          [
+            0.0,
+            3.86,
+            5.502,
+            5.067,
+            6.052,
+            8.803,
+            9.827,
+            10.488,
+            12.625
+          ],
+          [
+            3.86,
+            0.0,
+            3.849,
+            5.524,
+            5.116,
+            6.629,
+            8.942,
+            10.205,
+            11.265
+          ],
+          [
+            5.502,
+            3.849,
+            0.0,
+            3.84,
+            5.463,
+            5.326,
+            6.406,
+            8.903,
+            10.419
+          ],
+          [
+            5.067,
+            5.524,
+            3.84,
+            0.0,
+            3.846,
+            5.355,
+            4.926,
+            6.189,
+            8.826
+          ],
+          [
+            6.052,
+            5.116,
+            5.463,
+            3.846,
+            0.0,
+            3.864,
+            5.622,
+            5.384,
+            6.645
+          ],
+          [
+            8.803,
+            6.629,
+            5.326,
+            5.355,
+            3.864,
+            0.0,
+            3.86,
+            5.474,
+            5.405
+          ],
+          [
+            9.827,
+            8.942,
+            6.406,
+            4.926,
+            5.622,
+            3.86,
+            0.0,
+            3.867,
+            5.711
+          ],
+          [
+            10.488,
+            10.205,
+            8.903,
+            6.189,
+            5.384,
+            5.474,
+            3.867,
+            0.0,
+            3.857
+          ],
+          [
+            12.625,
+            11.265,
+            10.419,
+            8.826,
+            6.645,
+            5.405,
+            5.711,
+            3.857,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1OCNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.6634710636559441,
+        "mw": 366.18,
+        "logp": 1.799,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.4507,
+        "sa_score": 3.6,
+        "n_heavy_atoms": 27,
+        "tpsa": 109.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MMP20-M92V Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1OCNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6635,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MMP20_M92V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MMP20_M92V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MMP20_M92V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MMP20_M92V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MMP20_M92V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP20-M92V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP20-M92V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:42:13.185581+00:00"
     }
   ]
 }
