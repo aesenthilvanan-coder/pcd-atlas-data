@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 359,
+  "total_entries": 360,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44809,
-    "queue_remaining": 133788
+    "total_processed": 44810,
+    "queue_remaining": 133787
   },
   "entries": [
     {
@@ -78784,6 +78784,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:27:43.527165+00:00"
+    },
+    {
+      "entry_id": "PCD-PSAP-I338V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-I338V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PSAP",
+        "uniprot": "",
+        "clinvar_id": "300517",
+        "disease": "Krabbe disease due to saposin A deficiency",
+        "mutation_precursor": "I338V",
+        "mutation_mature": "I338V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7454215827036701,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 454.30222607998166,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.8788275718688965,
+          -7.25459623336792,
+          5.15256404876709
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.1030611464109255,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7564524363304196,
+        "cryptic": true,
+        "pocket_residues": {
+          "V254": "V",
+          "G255": "G",
+          "V331": "V",
+          "G332": "G",
+          "D333": "D",
+          "L334": "L",
+          "M335": "M",
+          "A336": "A",
+          "V337": "V",
+          "N338": "N",
+          "W356": "W"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NZJ7|PSAP variant I338V",
+        "fasta_sequence": "MGASDPEVAPWARGGAAGMAGAGAGAGARGGAAAGVEARARDPPPAHRAHPRHPRPAAQPSARRMDGGSGGLGSGDNAPTTEALFVALGAGVTALSHPLLYVKLLIQVGHEPMPPTLGTNVLGRKVLYLPSFFTYAKYIVQVDGKIGLFRGLSPRLMSNALSTVTRGSMKKVFPPDEIEQVSNKDDMKTSLKKVVKETSYEMMMQCVSRMLAHPLHVISMRCMVQFVGREAKYSGVLSSIGKIFKEEGLLGFFVGLIPHLLGDVVFLWGCNLLAHFINAYLVDDSVSDTPGGLGNDQNPGSQFSQALAIRSYTKFVMGIAVSMLTYPFLLVGDLMAVNNCGLQAGLPPYSPVFKSWIHCWKYLSVQGQLFRGSSLLFRRVSSGSCFALE",
+        "full_sequence": "MGASDPEVAPWARGGAAGMAGAGAGAGARGGAAAGVEARARDPPPAHRAHPRHPRPAAQPSARRMDGGSGGLGSGDNAPTTEALFVALGAGVTALSHPLLYVKLLIQVGHEPMPPTLGTNVLGRKVLYLPSFFTYAKYIVQVDGKIGLFRGLSPRLMSNALSTVTRGSMKKVFPPDEIEQVSNKDDMKTSLKKVVKETSYEMMMQCVSRMLAHPLHVISMRCMVQFVGREAKYSGVLSSIGKIFKEEGLLGFFVGLIPHLLGDVVFLWGCNLLAHFINAYLVDDSVSDTPGGLGNDQNPGSQFSQALAIRSYTKFVMGIAVSMLTYPFLLVGDLMAVNNCGLQAGLPPYSPVFKSWIHCWKYLSVQGQLFRGSSLLFRRVSSGSCFALE",
+        "n_residues": 389,
+        "mutation_pos_1indexed": 338,
+        "wt_aa": "I",
+        "mut_aa": "V",
+        "pocket_lining_residues": "V254-G255-V331-G332-D333-L334-M335-A336-V337-N338-W356",
+        "pocket_lining_positions_precursor": [
+          254,
+          255,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          356
+        ],
+        "pocket_lining_1letter": "VGVGDLMAVNW",
+        "sequence_slice_around_pocket": "FLLVGDLMAVNNCGLQAGLP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_I338V/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "V254",
+          "G255",
+          "V331",
+          "G332",
+          "D333",
+          "L334",
+          "M335",
+          "A336",
+          "V337",
+          "N338",
+          "W356"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            10.438,
+            7.587,
+            8.895,
+            9.231,
+            5.867,
+            4.894,
+            8.105,
+            8.451,
+            8.819
+          ],
+          [
+            3.841,
+            0.0,
+            7.164,
+            3.978,
+            6.352,
+            7.411,
+            4.792,
+            4.949,
+            8.601,
+            9.199,
+            6.973
+          ],
+          [
+            10.438,
+            7.164,
+            0.0,
+            3.844,
+            5.466,
+            5.14,
+            6.065,
+            8.615,
+            10.267,
+            10.18,
+            6.382
+          ],
+          [
+            7.587,
+            3.978,
+            3.844,
+            0.0,
+            3.834,
+            5.522,
+            5.118,
+            6.169,
+            8.996,
+            9.842,
+            7.126
+          ],
+          [
+            8.895,
+            6.352,
+            5.466,
+            3.834,
+            0.0,
+            3.84,
+            5.521,
+            5.22,
+            6.848,
+            8.797,
+            9.999
+          ],
+          [
+            9.231,
+            7.411,
+            5.14,
+            5.522,
+            3.84,
+            0.0,
+            3.819,
+            5.495,
+            5.52,
+            5.987,
+            8.65
+          ],
+          [
+            5.867,
+            4.792,
+            6.065,
+            5.118,
+            5.521,
+            3.819,
+            0.0,
+            3.874,
+            5.462,
+            4.935,
+            6.422
+          ],
+          [
+            4.894,
+            4.949,
+            8.615,
+            6.169,
+            5.22,
+            5.495,
+            3.874,
+            0.0,
+            3.874,
+            5.867,
+            9.805
+          ],
+          [
+            8.105,
+            8.601,
+            10.267,
+            8.996,
+            6.848,
+            5.52,
+            5.462,
+            3.874,
+            0.0,
+            3.846,
+            11.82
+          ],
+          [
+            8.451,
+            9.199,
+            10.18,
+            9.842,
+            8.797,
+            5.987,
+            4.935,
+            5.867,
+            3.846,
+            0.0,
+            10.097
+          ],
+          [
+            8.819,
+            6.973,
+            6.382,
+            7.126,
+            9.999,
+            8.65,
+            6.422,
+            9.805,
+            11.82,
+            10.097,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8045671566104208,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PSAP-I338V Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8046,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_I338V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_I338V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_I338V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_I338V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_I338V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-I338V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-I338V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:28:05.487604+00:00"
     }
   ]
 }
