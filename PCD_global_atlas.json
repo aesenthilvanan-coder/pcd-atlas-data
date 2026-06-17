@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 267,
+  "total_entries": 268,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44696,
-    "queue_remaining": 133901
+    "total_processed": 44697,
+    "queue_remaining": 133900
   },
   "entries": [
     {
@@ -59135,6 +59135,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:59:52.689898+00:00"
+    },
+    {
+      "entry_id": "PCD-SPTLC1-M214V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPTLC1-M214V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SPTLC1",
+        "uniprot": "",
+        "clinvar_id": "367549",
+        "disease": "Neuropathy, hereditary sensory and autonomic, type 1A",
+        "mutation_precursor": "M214V",
+        "mutation_mature": "M214V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7562044547490043,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 547.1888027945226,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.920010566711426,
+          12.396306991577148,
+          24.813133239746094
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.407460768527112,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.895836592045607,
+        "cryptic": true,
+        "pocket_residues": {
+          "D213": "D",
+          "M214": "M",
+          "A215": "A",
+          "D216": "D",
+          "E218": "E",
+          "R219": "R"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15269|SPTLC1 variant M214V",
+        "fasta_sequence": "MATATEQWVLVEMVQALYEAPAYHLILEGILILWIIRLLFSKTYKLQERSDLTVKEKEELIEEWQPEPLVPPVPKDHPALNYNIVSGPPSHKTVVNGKECINFASFNFLGLLDNPRVKAAALASLKKYGVGTCGPRGFYGTFDVHLDLEDRLAKFMKTEEAIIYSYGFATIASAIPAYSKRGDIVFVDRAACFAIQKGLQASRSDIKLFKHNDMADLERLLKEQEIEDQKNPRKARVTRRFIVVEGLYMNTGTICPLPELVKLKYKYKARIFLEESLSFGVLGEHGRGVTEHYGINIDDIDLISANMENALASIGGFCCGRSFVIDHQRLSGQGYCFSASLPPLLAAAAIEALNIMEENPGIFAVLKEKCGQIHKALQGISGLKVVGESLSPAFHLQLEESTGSREQDVRLLQEIVDQCMNRSIALTQARYLEKEEKCLPPPSIRVVVTVEQTEEELERAASTIKEVAQAVLL",
+        "full_sequence": "MATATEQWVLVEMVQALYEAPAYHLILEGILILWIIRLLFSKTYKLQERSDLTVKEKEELIEEWQPEPLVPPVPKDHPALNYNIVSGPPSHKTVVNGKECINFASFNFLGLLDNPRVKAAALASLKKYGVGTCGPRGFYGTFDVHLDLEDRLAKFMKTEEAIIYSYGFATIASAIPAYSKRGDIVFVDRAACFAIQKGLQASRSDIKLFKHNDMADLERLLKEQEIEDQKNPRKARVTRRFIVVEGLYMNTGTICPLPELVKLKYKYKARIFLEESLSFGVLGEHGRGVTEHYGINIDDIDLISANMENALASIGGFCCGRSFVIDHQRLSGQGYCFSASLPPLLAAAAIEALNIMEENPGIFAVLKEKCGQIHKALQGISGLKVVGESLSPAFHLQLEESTGSREQDVRLLQEIVDQCMNRSIALTQARYLEKEEKCLPPPSIRVVVTVEQTEEELERAASTIKEVAQAVLL",
+        "n_residues": 473,
+        "mutation_pos_1indexed": 214,
+        "wt_aa": "M",
+        "mut_aa": "V",
+        "pocket_lining_residues": "D213-M214-A215-D216-E218-R219",
+        "pocket_lining_positions_precursor": [
+          213,
+          214,
+          215,
+          216,
+          218,
+          219
+        ],
+        "pocket_lining_1letter": "DMADER",
+        "sequence_slice_around_pocket": "SDIKLFKHNDMADLERLLKE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC1_M214V/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "D213",
+          "M214",
+          "A215",
+          "D216",
+          "E218",
+          "R219"
+        ],
+        "values": [
+          [
+            0.0,
+            3.821,
+            5.505,
+            5.494,
+            8.777,
+            10.087
+          ],
+          [
+            3.821,
+            0.0,
+            3.839,
+            5.465,
+            5.97,
+            8.474
+          ],
+          [
+            5.505,
+            3.839,
+            0.0,
+            3.846,
+            5.046,
+            6.135
+          ],
+          [
+            5.494,
+            5.465,
+            3.846,
+            0.0,
+            5.451,
+            4.96
+          ],
+          [
+            8.777,
+            5.97,
+            5.046,
+            5.451,
+            0.0,
+            3.866
+          ],
+          [
+            10.087,
+            8.474,
+            6.135,
+            4.96,
+            3.866,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "composite_score": 0.6987466204037753,
+        "mw": 361.24,
+        "logp": 2.104,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8409,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SPTLC1-M214V Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.6987,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC1_M214V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC1_M214V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC1_M214V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC1_M214V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC1_M214V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPTLC1-M214V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPTLC1-M214V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:00:15.786909+00:00"
     }
   ]
 }
