@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 629,
+  "total_entries": 630,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45123,
-    "queue_remaining": 133474
+    "total_processed": 45124,
+    "queue_remaining": 133473
   },
   "entries": [
     {
@@ -139585,6 +139585,171 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:06:25.240434+00:00"
+    },
+    {
+      "entry_id": "PCD-COG6-R587C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COG6-R587C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COG6",
+        "uniprot": "",
+        "clinvar_id": "312148",
+        "disease": "COG6-congenital disorder of glycosylation",
+        "mutation_precursor": "R587C",
+        "mutation_mature": "R587C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9193872352209438,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 430.4603371756403,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          37.316558837890625,
+          28.421348571777344,
+          -59.28812026977539
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.2992819438433547,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.82493023041838,
+        "cryptic": true,
+        "pocket_residues": {
+          "D586": "D",
+          "R587": "R",
+          "Y588": "Y",
+          "L589": "L",
+          "S590": "S",
+          "A591": "A"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y2V7|COG6 variant R587C",
+        "fasta_sequence": "MAEGSGEVVAVSATGAANGLNNGAGGTSATTCNPLSRKLHKILETRLDNDKEMLEALKALSTFFVENSLRTRRNLRGDIERKSLAINEEFVSIFKEVKEELESISEDVQAMSNCCQDMTSRLQAAKEQTQDLIVKTTKLQSESQKLEIRAQVADAFLSKFQLTSDEMSLLRGTREGPITEDFFKALGRVKQIHNDVKVLLRTNQQTAGLEIMEQMALLQETAYERLYRWAQSECRTLTQESCDVSPVLTQAMEALQDRPVLYKYTLDEFGTARRSTVVRGFIDALTRGGPGGTPRPIEMHSHDPLRYVGDMLAWLHQATASEKEHLEALLKHVTTQGVEENIQEVVGHITEGVCRPLKVRIEQVIVAEPGAVLLYKISNLLKFYHHTISGIVGNSATALLTTIEEMHLLSKKIFFNSLSLHASKLMDKVELPPPDLGPSSALNQTLMLLREVLASHDSSVVPLDARQADFVQVLSCVLDPLLQMCTVSASNLGTADMATFMVNSLYMMKTTLALFEFTDRRLEMLQFQIEAHLDTLINEQASYVLTRVGLSYIYNTVQQHKPEQGSLANMPNLDSVTLKAAMVQFDRYLSAPDNLLIPQLNFLLSATVKEQIVKQSTELVCRAYGEVYAAVMNPINEYKDPENILHRSPQQVQTLLS",
+        "full_sequence": "MAEGSGEVVAVSATGAANGLNNGAGGTSATTCNPLSRKLHKILETRLDNDKEMLEALKALSTFFVENSLRTRRNLRGDIERKSLAINEEFVSIFKEVKEELESISEDVQAMSNCCQDMTSRLQAAKEQTQDLIVKTTKLQSESQKLEIRAQVADAFLSKFQLTSDEMSLLRGTREGPITEDFFKALGRVKQIHNDVKVLLRTNQQTAGLEIMEQMALLQETAYERLYRWAQSECRTLTQESCDVSPVLTQAMEALQDRPVLYKYTLDEFGTARRSTVVRGFIDALTRGGPGGTPRPIEMHSHDPLRYVGDMLAWLHQATASEKEHLEALLKHVTTQGVEENIQEVVGHITEGVCRPLKVRIEQVIVAEPGAVLLYKISNLLKFYHHTISGIVGNSATALLTTIEEMHLLSKKIFFNSLSLHASKLMDKVELPPPDLGPSSALNQTLMLLREVLASHDSSVVPLDARQADFVQVLSCVLDPLLQMCTVSASNLGTADMATFMVNSLYMMKTTLALFEFTDRRLEMLQFQIEAHLDTLINEQASYVLTRVGLSYIYNTVQQHKPEQGSLANMPNLDSVTLKAAMVQFDRYLSAPDNLLIPQLNFLLSATVKEQIVKQSTELVCRAYGEVYAAVMNPINEYKDPENILHRSPQQVQTLLS",
+        "n_residues": 657,
+        "mutation_pos_1indexed": 587,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "D586-R587-Y588-L589-S590-A591",
+        "pocket_lining_positions_precursor": [
+          586,
+          587,
+          588,
+          589,
+          590,
+          591
+        ],
+        "pocket_lining_1letter": "DRYLSA",
+        "sequence_slice_around_pocket": "TLKAAMVQFDRYLSAPDNLL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COG6_R587C/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "D586",
+          "R587",
+          "Y588",
+          "L589",
+          "S590",
+          "A591"
+        ],
+        "values": [
+          [
+            0.0,
+            3.854,
+            5.37,
+            4.914,
+            6.219,
+            8.845
+          ],
+          [
+            3.854,
+            0.0,
+            3.828,
+            5.495,
+            5.174,
+            6.586
+          ],
+          [
+            5.37,
+            3.828,
+            0.0,
+            3.866,
+            5.407,
+            5.275
+          ],
+          [
+            4.914,
+            5.495,
+            3.866,
+            0.0,
+            3.853,
+            5.575
+          ],
+          [
+            6.219,
+            5.174,
+            5.407,
+            3.853,
+            0.0,
+            3.855
+          ],
+          [
+            8.845,
+            6.586,
+            5.275,
+            5.575,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(Cc1c[nH]c2ccccc12)OCN1CCCC(=O)C1",
+        "composite_score": 0.9036558039913949,
+        "mw": 301.18,
+        "logp": 1.895,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 6,
+        "qed": 0.8002,
+        "sa_score": 3.31,
+        "n_heavy_atoms": 22,
+        "tpsa": 57.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COG6-R587C Candidate #1",
+        "iupac_name": "CNC(Cc1c[nH]c2ccccc12)OCN1CCCC(=O)C1",
+        "pocket_affinity_score": 0.9037,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COG6_R587C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COG6_R587C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COG6_R587C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COG6_R587C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COG6_R587C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COG6-R587C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COG6-R587C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:06:51.582871+00:00"
     }
   ]
 }
