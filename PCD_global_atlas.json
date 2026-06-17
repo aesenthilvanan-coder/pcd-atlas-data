@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1276,
+  "total_entries": 1277,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45883,
-    "queue_remaining": 132714
+    "total_processed": 45892,
+    "queue_remaining": 132705
   },
   "entries": [
     {
@@ -282317,6 +282317,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:36:21.504691+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC5A2-G235E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A2-G235E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC5A2",
+        "uniprot": "",
+        "clinvar_id": "319057",
+        "disease": "Familial renal glucosuria",
+        "mutation_precursor": "G235E",
+        "mutation_mature": "G235E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7866652012274715,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 634.2174675822547,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          20.926589965820312,
+          5.879288196563721,
+          -18.30977439880371
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.08755796186691,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.655719423368069,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y233": "Y",
+          "L234": "L",
+          "G235": "G",
+          "A236": "A",
+          "A237": "A",
+          "T238": "T",
+          "S253": "S",
+          "Y256": "Y",
+          "R257": "R",
+          "P258": "P"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P31639|SLC5A2 variant G235E",
+        "fasta_sequence": "MEEHTEAGSAPEMGAQKALIDNPADILVIAAYFLLVIGVGLWSMCRTNRGTVGGYFLAGRSMVWWPVGASLFASNIGSGHFVGLAGTGAASGLAVAGFEWNALFVVLLLGWLFAPVYLTAGVITMPQYLRKRFGGRRIRLYLSVLSLFLYIFTKISVDMFSGAVFIQQALGWNIYASVIALLGITMIYTVTGGLAALMYTDTVQTFVILGGACILMGYAFHEVGGYSGLFDKYLGAATSLTVSEDPAVGNISSFCYRPRPDSYHLLRHPVTGDLPWPALLLGLTIVSGWYWCSDQVIVQRCLAGKSLTHIKAGCILCGYLKLTPMFLMVMPGMISRILYPDEVACVVPEVCRRVCGTEVGCSNIAYPRLVVKLMPNGLRGLMLAVMLAALMSSLASIFNSSSTLFTMDIYTRLRPRAGDRELLLVGRLWVVFIVVVSVAWLPVVQAAQGGQLFDYIQAVSSYLAPPVSAVFVLALFVPRVNEQGAFWGLIGGLLMGLARLIPEFSFGSGSCVQPSACPAFLCGVHYLYFAIVLFFCSGLLTLTVSLCTAPIPRKHLHRLVFSLRHSKEEREDLDADEQQGSSLPVQNGCPESAMEMNEPQAPAPSLFRQCLLWFCGMSRGGVGSPPPLTQEEAAAAARRLEDISEDPSWARVVNLNALLMMAVAVFLWGFYA",
+        "full_sequence": "MEEHTEAGSAPEMGAQKALIDNPADILVIAAYFLLVIGVGLWSMCRTNRGTVGGYFLAGRSMVWWPVGASLFASNIGSGHFVGLAGTGAASGLAVAGFEWNALFVVLLLGWLFAPVYLTAGVITMPQYLRKRFGGRRIRLYLSVLSLFLYIFTKISVDMFSGAVFIQQALGWNIYASVIALLGITMIYTVTGGLAALMYTDTVQTFVILGGACILMGYAFHEVGGYSGLFDKYLGAATSLTVSEDPAVGNISSFCYRPRPDSYHLLRHPVTGDLPWPALLLGLTIVSGWYWCSDQVIVQRCLAGKSLTHIKAGCILCGYLKLTPMFLMVMPGMISRILYPDEVACVVPEVCRRVCGTEVGCSNIAYPRLVVKLMPNGLRGLMLAVMLAALMSSLASIFNSSSTLFTMDIYTRLRPRAGDRELLLVGRLWVVFIVVVSVAWLPVVQAAQGGQLFDYIQAVSSYLAPPVSAVFVLALFVPRVNEQGAFWGLIGGLLMGLARLIPEFSFGSGSCVQPSACPAFLCGVHYLYFAIVLFFCSGLLTLTVSLCTAPIPRKHLHRLVFSLRHSKEEREDLDADEQQGSSLPVQNGCPESAMEMNEPQAPAPSLFRQCLLWFCGMSRGGVGSPPPLTQEEAAAAARRLEDISEDPSWARVVNLNALLMMAVAVFLWGFYA",
+        "n_residues": 672,
+        "mutation_pos_1indexed": 235,
+        "wt_aa": "G",
+        "mut_aa": "E",
+        "pocket_lining_residues": "Y233-L234-G235-A236-A237-T238-S253-Y256-R257-P258",
+        "pocket_lining_positions_precursor": [
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          253,
+          256,
+          257,
+          258
+        ],
+        "pocket_lining_1letter": "YLGAATSYRP",
+        "sequence_slice_around_pocket": "GYSGLFDKYLGAATSLTVSE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_G235E/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "Y233",
+          "L234",
+          "G235",
+          "A236",
+          "A237",
+          "T238",
+          "S253",
+          "Y256",
+          "R257",
+          "P258"
+        ],
+        "values": [
+          [
+            0.0,
+            3.875,
+            5.347,
+            5.115,
+            8.612,
+            11.908,
+            15.042,
+            11.975,
+            9.405,
+            7.451
+          ],
+          [
+            3.875,
+            0.0,
+            3.87,
+            5.612,
+            7.826,
+            11.625,
+            12.289,
+            10.458,
+            7.062,
+            5.5
+          ],
+          [
+            5.347,
+            3.87,
+            0.0,
+            3.864,
+            5.878,
+            9.443,
+            11.776,
+            10.211,
+            7.395,
+            7.697
+          ],
+          [
+            5.115,
+            5.612,
+            3.864,
+            0.0,
+            3.847,
+            6.93,
+            11.855,
+            8.585,
+            6.978,
+            7.24
+          ],
+          [
+            8.612,
+            7.826,
+            5.878,
+            3.847,
+            0.0,
+            3.842,
+            8.712,
+            5.612,
+            5.158,
+            7.335
+          ],
+          [
+            11.908,
+            11.625,
+            9.443,
+            6.93,
+            3.842,
+            0.0,
+            9.688,
+            6.351,
+            7.936,
+            10.477
+          ],
+          [
+            15.042,
+            12.289,
+            11.776,
+            11.855,
+            8.712,
+            9.688,
+            0.0,
+            5.561,
+            5.872,
+            9.314
+          ],
+          [
+            11.975,
+            10.458,
+            10.211,
+            8.585,
+            5.612,
+            6.351,
+            5.561,
+            0.0,
+            3.85,
+            6.62
+          ],
+          [
+            9.405,
+            7.062,
+            7.395,
+            6.978,
+            5.158,
+            7.936,
+            5.872,
+            3.85,
+            0.0,
+            3.822
+          ],
+          [
+            7.451,
+            5.5,
+            7.697,
+            7.24,
+            7.335,
+            10.477,
+            9.314,
+            6.62,
+            3.822,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1OCCNc1ncnc2[nH]cnc12",
+        "composite_score": 0.61833851886614,
+        "mw": 439.23,
+        "logp": 2.095,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 9,
+        "qed": 0.4341,
+        "sa_score": 3.49,
+        "n_heavy_atoms": 32,
+        "tpsa": 117.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC5A2-G235E Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1OCCNc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.6183,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_G235E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_G235E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_G235E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_G235E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_G235E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A2-G235E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A2-G235E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:38:25.765320+00:00"
     }
   ]
 }
