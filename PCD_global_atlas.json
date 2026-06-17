@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 404,
+  "total_entries": 405,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44857,
-    "queue_remaining": 133740
+    "total_processed": 44858,
+    "queue_remaining": 133739
   },
   "entries": [
     {
@@ -88896,6 +88896,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:01:52.390239+00:00"
+    },
+    {
+      "entry_id": "PCD-MRPS16-R20H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MRPS16-R20H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MRPS16",
+        "uniprot": "",
+        "clinvar_id": "300722",
+        "disease": "not provided",
+        "mutation_precursor": "R20H",
+        "mutation_mature": "R20H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8137511863238662,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 644.0423400040019,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.114964962005615,
+          4.85352897644043,
+          -6.916896343231201
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.169578786843782,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6123107894504092,
+        "cryptic": true,
+        "pocket_residues": {
+          "I19": "I",
+          "R20": "R",
+          "L21": "L",
+          "L83": "L",
+          "S84": "S",
+          "K85": "K",
+          "P86": "P",
+          "M87": "M",
+          "E88": "E"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y3D3|MRPS16 variant R20H",
+        "fasta_sequence": "MVHLTTLLCKAYRGGHLTIRLALGGCTNRPFYRIVAAHNKCPRDGRFVEQLGSYDPLPNSHGEKLVALNLDRIRHWIGCGAHLSKPMEKLLGLAGFFPLHPMMITNAERLRRKRAREVLLASQKTDAEATDTEATET",
+        "full_sequence": "MVHLTTLLCKAYRGGHLTIRLALGGCTNRPFYRIVAAHNKCPRDGRFVEQLGSYDPLPNSHGEKLVALNLDRIRHWIGCGAHLSKPMEKLLGLAGFFPLHPMMITNAERLRRKRAREVLLASQKTDAEATDTEATET",
+        "n_residues": 137,
+        "mutation_pos_1indexed": 20,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "I19-R20-L21-L83-S84-K85-P86-M87-E88",
+        "pocket_lining_positions_precursor": [
+          19,
+          20,
+          21,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88
+        ],
+        "pocket_lining_1letter": "IRLLSKPME",
+        "sequence_slice_around_pocket": "KAYRGGHLTIRLALGGCTNR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MRPS16_R20H/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "I19",
+          "R20",
+          "L21",
+          "L83",
+          "S84",
+          "K85",
+          "P86",
+          "M87",
+          "E88"
+        ],
+        "values": [
+          [
+            0.0,
+            3.82,
+            7.257,
+            5.052,
+            6.321,
+            9.874,
+            9.997,
+            7.263,
+            9.471
+          ],
+          [
+            3.82,
+            0.0,
+            3.793,
+            6.553,
+            5.347,
+            8.527,
+            7.896,
+            6.397,
+            9.54
+          ],
+          [
+            7.257,
+            3.793,
+            0.0,
+            9.78,
+            7.775,
+            9.753,
+            7.687,
+            7.195,
+            10.932
+          ],
+          [
+            5.052,
+            6.553,
+            9.78,
+            0.0,
+            3.811,
+            6.539,
+            8.265,
+            6.011,
+            6.106
+          ],
+          [
+            6.321,
+            5.347,
+            7.775,
+            3.811,
+            0.0,
+            3.879,
+            5.653,
+            5.179,
+            6.286
+          ],
+          [
+            9.874,
+            8.527,
+            9.753,
+            6.539,
+            3.879,
+            0.0,
+            3.887,
+            5.485,
+            5.168
+          ],
+          [
+            9.997,
+            7.896,
+            7.687,
+            8.265,
+            5.653,
+            3.887,
+            0.0,
+            3.857,
+            5.475
+          ],
+          [
+            7.263,
+            6.397,
+            7.195,
+            6.011,
+            5.179,
+            5.485,
+            3.857,
+            0.0,
+            3.854
+          ],
+          [
+            9.471,
+            9.54,
+            10.932,
+            6.106,
+            6.286,
+            5.168,
+            5.475,
+            3.854,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CC(=O)CCC1OCNc1ccncc1N1CCCCC1",
+        "composite_score": 0.8197015230937027,
+        "mw": 460.19,
+        "logp": 1.696,
+        "hbd": 2,
+        "hba": 9,
+        "rotatable_bonds": 7,
+        "qed": 0.5927,
+        "sa_score": 3.71,
+        "n_heavy_atoms": 32,
+        "tpsa": 130.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MRPS16-R20H Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CC(=O)CCC1OCNc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.8197,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MRPS16_R20H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MRPS16_R20H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MRPS16_R20H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MRPS16_R20H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MRPS16_R20H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MRPS16-R20H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MRPS16-R20H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:02:13.724650+00:00"
     }
   ]
 }
