@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 110,
+  "total_entries": 111,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44514,
-    "queue_remaining": 134083
+    "total_processed": 44515,
+    "queue_remaining": 134082
   },
   "entries": [
     {
@@ -25364,6 +25364,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:18:07.135520+00:00"
+    },
+    {
+      "entry_id": "PCD-TBX3-A597V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX3-A597V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TBX3",
+        "uniprot": "",
+        "clinvar_id": "307357",
+        "disease": "Ulnar-mammary syndrome",
+        "mutation_precursor": "A597V",
+        "mutation_mature": "A597V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7350723422091168,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 519.5126820007803,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -41.254539489746094,
+          4.187608242034912,
+          -19.26531982421875
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.159303491951631,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6556476128428791,
+        "cryptic": true,
+        "pocket_residues": {
+          "P596": "P",
+          "F597": "F",
+          "G598": "G",
+          "S599": "S",
+          "L600": "L"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15119|TBX3 variant A597V",
+        "fasta_sequence": "MSLSMRDPVIPGTSMAYHPFLPHRAPDFAMSAVLGHQPPFFPALTLPPNGAAALSLPGALAKPIMDQLVGAAETGIPFSSLGPQAHLRPLKTMEPEEEVEDDPKVHLEAKELWDQFHKRGTEMVITKSGRRMFPPFKVRCSGLDKKAKYILLMDIIAADDCRYKFHNSRWMVAGKADPEMPKRMYIHPDSPATGEQWMSKVVTFHKLKLTNNISDKHGFTLAFPSDHATWQGNYSFGTQTILNSMHKYQPRFHIVRANDILKLPYSTFRTYLFPETEFIAVTAYQNDKITQLKIDNNPFAKGFRDTGNGRREKRKQLTLQSMRVFDERHKKENGTSDESSSEQAAFNCFAQASSPAASTVGTSNLKDLCPSEGESDAEAESKEEHGPEACDAAKISTTTSEEPCRDKGSPAVKAHLFAAERPRDSGRLDKASPDSRHSPATISSSTRGLGAEERRSPVREGTAPAKVEEARALPGKEAFAPLTVQTDAAAAHLAQGPLPGLGFAPGLAGQQFFNGHPLFLHPSQFAMGGAFSSMAAAGMGPLLATVSGASTGVSGLDSTAMASAAAAQGLSGASAATLPFHLQQHVLASQGLAMSPFGSLFPYPYTYMAAAAAASSAAASSSVHRHPFLNLNTMRPRLRYSPYSIPVPVPDGSSLLTTALPSMAAAAGPLDGKVAALAASPASVAVDSGSELNSRSSTLSSSSMSLSPKLCAEKEAATSELQSIQRLVSGLEAKPDRSRSASP",
+        "full_sequence": "MSLSMRDPVIPGTSMAYHPFLPHRAPDFAMSAVLGHQPPFFPALTLPPNGAAALSLPGALAKPIMDQLVGAAETGIPFSSLGPQAHLRPLKTMEPEEEVEDDPKVHLEAKELWDQFHKRGTEMVITKSGRRMFPPFKVRCSGLDKKAKYILLMDIIAADDCRYKFHNSRWMVAGKADPEMPKRMYIHPDSPATGEQWMSKVVTFHKLKLTNNISDKHGFTLAFPSDHATWQGNYSFGTQTILNSMHKYQPRFHIVRANDILKLPYSTFRTYLFPETEFIAVTAYQNDKITQLKIDNNPFAKGFRDTGNGRREKRKQLTLQSMRVFDERHKKENGTSDESSSEQAAFNCFAQASSPAASTVGTSNLKDLCPSEGESDAEAESKEEHGPEACDAAKISTTTSEEPCRDKGSPAVKAHLFAAERPRDSGRLDKASPDSRHSPATISSSTRGLGAEERRSPVREGTAPAKVEEARALPGKEAFAPLTVQTDAAAAHLAQGPLPGLGFAPGLAGQQFFNGHPLFLHPSQFAMGGAFSSMAAAGMGPLLATVSGASTGVSGLDSTAMASAAAAQGLSGASAATLPFHLQQHVLASQGLAMSPFGSLFPYPYTYMAAAAAASSAAASSSVHRHPFLNLNTMRPRLRYSPYSIPVPVPDGSSLLTTALPSMAAAAGPLDGKVAALAASPASVAVDSGSELNSRSSTLSSSSMSLSPKLCAEKEAATSELQSIQRLVSGLEAKPDRSRSASP",
+        "n_residues": 743,
+        "mutation_pos_1indexed": 597,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "P596-F597-G598-S599-L600",
+        "pocket_lining_positions_precursor": [
+          596,
+          597,
+          598,
+          599,
+          600
+        ],
+        "pocket_lining_1letter": "PFGSL",
+        "sequence_slice_around_pocket": "LASQGLAMSPFGSLFPYPYT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_A597V/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "P596",
+          "F597",
+          "G598",
+          "S599",
+          "L600"
+        ],
+        "values": [
+          [
+            0.0,
+            3.83,
+            7.227,
+            9.778,
+            13.005
+          ],
+          [
+            3.83,
+            0.0,
+            3.789,
+            7.116,
+            10.05
+          ],
+          [
+            7.227,
+            3.789,
+            0.0,
+            3.759,
+            6.427
+          ],
+          [
+            9.778,
+            7.116,
+            3.759,
+            0.0,
+            3.833
+          ],
+          [
+            13.005,
+            10.05,
+            6.427,
+            3.833,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5070846901462853,
+        "mw": 316.23,
+        "logp": 1.954,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8995,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 23,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TBX3-A597V Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5071,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_A597V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_A597V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_A597V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_A597V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_A597V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX3-A597V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX3-A597V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:18:35.009223+00:00"
     }
   ]
 }
