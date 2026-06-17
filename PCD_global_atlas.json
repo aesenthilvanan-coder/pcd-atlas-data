@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 672,
+  "total_entries": 673,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45167,
-    "queue_remaining": 133430
+    "total_processed": 45168,
+    "queue_remaining": 133429
   },
   "entries": [
     {
@@ -148982,6 +148982,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:38:27.701653+00:00"
+    },
+    {
+      "entry_id": "PCD-TALDO1-I66T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TALDO1-I66T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TALDO1",
+        "uniprot": "",
+        "clinvar_id": "306128",
+        "disease": "Deficiency of transaldolase",
+        "mutation_precursor": "I66T",
+        "mutation_mature": "I66T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8193947399161106,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 289.8299194327614,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -23.362308502197266,
+          2.605720281600952,
+          16.61817741394043
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.200677857471183,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7469205134785887,
+        "cryptic": true,
+        "pocket_residues": {
+          "E60": "E",
+          "V62": "V",
+          "E63": "E",
+          "E64": "E",
+          "A65": "A",
+          "I66": "I",
+          "A67": "A",
+          "L326": "L",
+          "R329": "R",
+          "M330": "M"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P37837|TALDO1 variant I66T",
+        "fasta_sequence": "MSSSPVKRQRMESALDQLKQFTTVVADTGDFHAIDEYKPQDATTNPSLILAAAQMPAYQELVEEAIAYGRKLGGSQEDQIKNAIDKLFVLFGAEILKKIPGRVSTEVDARLSFDKDAMVARARRLIELYKEAGISKDRILIKLSSTWEGIQAGKELEEQHGIHCNMTLLFSFAQAVACAEAGVTLISPFVGRILDWHVANTDKKSYEPLEDPGVKSVTKIYNYYKKFSYKTIVMGASFRNTGEIKALAGCDFLTISPKLLGELLQDNAKLVPVLSAKAAQASDLEKIHLDEKSFRWLHNEDQMAVEKLSDGIRKFAADAVKLERMLTERMFNAENGK",
+        "full_sequence": "MSSSPVKRQRMESALDQLKQFTTVVADTGDFHAIDEYKPQDATTNPSLILAAAQMPAYQELVEEAIAYGRKLGGSQEDQIKNAIDKLFVLFGAEILKKIPGRVSTEVDARLSFDKDAMVARARRLIELYKEAGISKDRILIKLSSTWEGIQAGKELEEQHGIHCNMTLLFSFAQAVACAEAGVTLISPFVGRILDWHVANTDKKSYEPLEDPGVKSVTKIYNYYKKFSYKTIVMGASFRNTGEIKALAGCDFLTISPKLLGELLQDNAKLVPVLSAKAAQASDLEKIHLDEKSFRWLHNEDQMAVEKLSDGIRKFAADAVKLERMLTERMFNAENGK",
+        "n_residues": 337,
+        "mutation_pos_1indexed": 66,
+        "wt_aa": "I",
+        "mut_aa": "T",
+        "pocket_lining_residues": "E60-V62-E63-E64-A65-I66-A67-L326-R329-M330",
+        "pocket_lining_positions_precursor": [
+          60,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          326,
+          329,
+          330
+        ],
+        "pocket_lining_1letter": "EVEEAIALRM",
+        "sequence_slice_around_pocket": "PAYQELVEEAIAYGRKLGGS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TALDO1_I66T/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "E60",
+          "V62",
+          "E63",
+          "E64",
+          "A65",
+          "I66",
+          "A67",
+          "L326",
+          "R329",
+          "M330"
+        ],
+        "values": [
+          [
+            0.0,
+            5.44,
+            5.155,
+            6.152,
+            8.623,
+            9.893,
+            10.436,
+            12.826,
+            12.723,
+            13.715
+          ],
+          [
+            5.44,
+            0.0,
+            3.839,
+            5.507,
+            5.137,
+            6.251,
+            8.649,
+            7.831,
+            9.374,
+            10.157
+          ],
+          [
+            5.155,
+            3.839,
+            0.0,
+            3.861,
+            5.431,
+            5.039,
+            6.05,
+            8.964,
+            8.711,
+            8.834
+          ],
+          [
+            6.152,
+            5.507,
+            3.861,
+            0.0,
+            3.844,
+            5.496,
+            5.057,
+            11.174,
+            11.961,
+            11.177
+          ],
+          [
+            8.623,
+            5.137,
+            5.431,
+            3.844,
+            0.0,
+            3.863,
+            5.515,
+            8.797,
+            11.114,
+            10.019
+          ],
+          [
+            9.893,
+            6.251,
+            5.039,
+            5.496,
+            3.863,
+            0.0,
+            3.843,
+            6.898,
+            8.1,
+            6.338
+          ],
+          [
+            10.436,
+            8.649,
+            6.05,
+            5.057,
+            5.515,
+            3.843,
+            0.0,
+            10.618,
+            10.71,
+            8.465
+          ],
+          [
+            12.826,
+            7.831,
+            8.964,
+            11.174,
+            8.797,
+            6.898,
+            10.618,
+            0.0,
+            5.237,
+            5.823
+          ],
+          [
+            12.723,
+            9.374,
+            8.711,
+            11.961,
+            11.114,
+            8.1,
+            10.71,
+            5.237,
+            0.0,
+            3.796
+          ],
+          [
+            13.715,
+            10.157,
+            8.834,
+            11.177,
+            10.019,
+            6.338,
+            8.465,
+            5.823,
+            3.796,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCCCc1nc2ccccc2[nH]1",
+        "composite_score": 0.8568675735700386,
+        "mw": 203.14,
+        "logp": 2.234,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.7321,
+        "sa_score": 1.94,
+        "n_heavy_atoms": 15,
+        "tpsa": 54.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TALDO1-I66T Candidate #1",
+        "iupac_name": "NCCCCCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8569,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TALDO1_I66T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TALDO1_I66T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TALDO1_I66T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TALDO1_I66T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TALDO1_I66T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TALDO1-I66T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TALDO1-I66T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:38:50.527586+00:00"
     }
   ]
 }
