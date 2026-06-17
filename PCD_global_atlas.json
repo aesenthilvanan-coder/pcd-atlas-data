@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 250,
+  "total_entries": 251,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44675,
-    "queue_remaining": 133922
+    "total_processed": 44676,
+    "queue_remaining": 133921
   },
   "entries": [
     {
@@ -55749,6 +55749,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:48:18.436490+00:00"
+    },
+    {
+      "entry_id": "PCD-KCNJ11-T345M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNJ11-T345M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KCNJ11",
+        "uniprot": "",
+        "clinvar_id": "303734",
+        "disease": "Hyperinsulinemic hypoglycemia, familial, 2",
+        "mutation_precursor": "T345M",
+        "mutation_mature": "T345M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7496835723777264,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 299.71251407901104,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -23.515329360961914,
+          -13.564094543457031,
+          26.221357345581055
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.05282226908266,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6105342405159899,
+        "cryptic": true,
+        "pocket_residues": {
+          "D269": "D",
+          "L270": "L",
+          "A271": "A",
+          "P272": "P",
+          "S273": "S",
+          "D274": "D",
+          "L343": "L",
+          "C344": "C",
+          "T345": "T",
+          "A346": "A"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q14654|KCNJ11 variant T345M",
+        "fasta_sequence": "MLSRKGIIPEEYVLTRLAEDPAKPRYRARQRRARFVSKKGNCNVAHKNIREQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDEDHSLLEALTLASARGPLRKRSVPMAKAKPKFSISPDSLS",
+        "full_sequence": "MLSRKGIIPEEYVLTRLAEDPAKPRYRARQRRARFVSKKGNCNVAHKNIREQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDEDHSLLEALTLASARGPLRKRSVPMAKAKPKFSISPDSLS",
+        "n_residues": 390,
+        "mutation_pos_1indexed": 345,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "D269-L270-A271-P272-S273-D274-L343-C344-T345-A346",
+        "pocket_lining_positions_precursor": [
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          343,
+          344,
+          345,
+          346
+        ],
+        "pocket_lining_1letter": "DLAPSDLCTA",
+        "sequence_slice_around_pocket": "NTVKVPTPLCTARQLDEDHS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ11_T345M/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "D269",
+          "L270",
+          "A271",
+          "P272",
+          "S273",
+          "D274",
+          "L343",
+          "C344",
+          "T345",
+          "A346"
+        ],
+        "values": [
+          [
+            0.0,
+            3.865,
+            6.37,
+            9.953,
+            11.288,
+            9.889,
+            12.459,
+            9.38,
+            5.686,
+            6.38
+          ],
+          [
+            3.865,
+            0.0,
+            3.83,
+            6.757,
+            8.397,
+            6.731,
+            10.704,
+            8.632,
+            5.609,
+            7.208
+          ],
+          [
+            6.37,
+            3.83,
+            0.0,
+            3.866,
+            5.196,
+            5.267,
+            7.745,
+            6.166,
+            4.786,
+            8.015
+          ],
+          [
+            9.953,
+            6.757,
+            3.866,
+            0.0,
+            3.86,
+            5.442,
+            6.228,
+            6.817,
+            7.165,
+            10.051
+          ],
+          [
+            11.288,
+            8.397,
+            5.196,
+            3.86,
+            0.0,
+            3.845,
+            8.554,
+            8.959,
+            9.445,
+            12.888
+          ],
+          [
+            9.889,
+            6.731,
+            5.267,
+            5.442,
+            3.845,
+            0.0,
+            11.327,
+            10.955,
+            10.041,
+            12.997
+          ],
+          [
+            12.459,
+            10.704,
+            7.745,
+            6.228,
+            8.554,
+            11.327,
+            0.0,
+            3.851,
+            7.141,
+            9.511
+          ],
+          [
+            9.38,
+            8.632,
+            6.166,
+            6.817,
+            8.959,
+            10.955,
+            3.851,
+            0.0,
+            3.839,
+            6.601
+          ],
+          [
+            5.686,
+            5.609,
+            4.786,
+            7.165,
+            9.445,
+            10.041,
+            7.141,
+            3.839,
+            0.0,
+            3.838
+          ],
+          [
+            6.38,
+            7.208,
+            8.015,
+            10.051,
+            12.888,
+            12.997,
+            9.511,
+            6.601,
+            3.838,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8344222390515951,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KCNJ11-T345M Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8344,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ11_T345M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ11_T345M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ11_T345M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ11_T345M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ11_T345M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNJ11-T345M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNJ11-T345M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:48:40.075098+00:00"
     }
   ]
 }
