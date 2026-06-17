@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 539,
+  "total_entries": 540,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45002,
-    "queue_remaining": 133595
+    "total_processed": 45003,
+    "queue_remaining": 133594
   },
   "entries": [
     {
@@ -119001,6 +119001,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:40:42.332326+00:00"
+    },
+    {
+      "entry_id": "PCD-PEX5-N520S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PEX5-N520S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PEX5",
+        "uniprot": "",
+        "clinvar_id": "310427",
+        "disease": "not provided",
+        "mutation_precursor": "N520S",
+        "mutation_mature": "N520S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8232122901306691,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 607.4431412953322,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.310826301574707,
+          18.433860778808594,
+          -4.774115562438965
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.372806918054576,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7081800167172835,
+        "cryptic": true,
+        "pocket_residues": {
+          "L515": "L",
+          "S516": "S",
+          "V517": "V",
+          "R518": "R",
+          "P519": "P",
+          "N520": "N",
+          "D521": "D",
+          "Y522": "Y",
+          "L524": "L"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P50542|PEX5 variant N520S",
+        "fasta_sequence": "MAMRELVEAECGGANPLMKLAGHFTQDKALRQEGLRPGPWPPGAPASEAASKPLGVASEDELVAEFLQDQNAPLVSRAPQTFKMDDLLAEMQQIEQSNFRQAPQRAPGVADLALSENWAQEFLAAGDAVDVTQDYNETDWSQEFISEVTDPLSVSPARWAEEYLEQSEEKLWLGEPEGTATDRWYDEYHPEEDLQHTASDFVAKVDDPKLANSEFLKFVRQIGEGQVSLESGAGSGRAQAEQWAAEFIQQQGTSDAWVDQFTRPVNTSALDMEFERAKSAIESDVDFWDKLQAELEEMAKRDAEAHPWLSDYDDLTSATYDKGYQFEEENPLRDHPQPFEEGLRRLQEGDLPNAVLLFEAAVQQDPKHMEAWQYLGTTQAENEQELLAISALRRCLELKPDNQTALMALAVSFTNESLQRQACETLRDWLRYTPAYAHLVTPAEEGAGGAGLGPSKRILGSLLSDSLFLEVKELFLAAVRLDPTSIDPDVQCGLGVLFNLSGEYDKAVDCFTAALSVRPNDYLLWNKLGATLANGNQSEEAVAAYRRALELQPGYIRSRYNLGISCINLGAHREAVEHFLEALNMQRKSRGPRGEGGAMSENIWSTLRLALSMLGQSDAYGAADARDLSTLLTMFGLPQ",
+        "full_sequence": "MAMRELVEAECGGANPLMKLAGHFTQDKALRQEGLRPGPWPPGAPASEAASKPLGVASEDELVAEFLQDQNAPLVSRAPQTFKMDDLLAEMQQIEQSNFRQAPQRAPGVADLALSENWAQEFLAAGDAVDVTQDYNETDWSQEFISEVTDPLSVSPARWAEEYLEQSEEKLWLGEPEGTATDRWYDEYHPEEDLQHTASDFVAKVDDPKLANSEFLKFVRQIGEGQVSLESGAGSGRAQAEQWAAEFIQQQGTSDAWVDQFTRPVNTSALDMEFERAKSAIESDVDFWDKLQAELEEMAKRDAEAHPWLSDYDDLTSATYDKGYQFEEENPLRDHPQPFEEGLRRLQEGDLPNAVLLFEAAVQQDPKHMEAWQYLGTTQAENEQELLAISALRRCLELKPDNQTALMALAVSFTNESLQRQACETLRDWLRYTPAYAHLVTPAEEGAGGAGLGPSKRILGSLLSDSLFLEVKELFLAAVRLDPTSIDPDVQCGLGVLFNLSGEYDKAVDCFTAALSVRPNDYLLWNKLGATLANGNQSEEAVAAYRRALELQPGYIRSRYNLGISCINLGAHREAVEHFLEALNMQRKSRGPRGEGGAMSENIWSTLRLALSMLGQSDAYGAADARDLSTLLTMFGLPQ",
+        "n_residues": 639,
+        "mutation_pos_1indexed": 520,
+        "wt_aa": "N",
+        "mut_aa": "S",
+        "pocket_lining_residues": "L515-S516-V517-R518-P519-N520-D521-Y522-L524",
+        "pocket_lining_positions_precursor": [
+          515,
+          516,
+          517,
+          518,
+          519,
+          520,
+          521,
+          522,
+          524
+        ],
+        "pocket_lining_1letter": "LSVRPNDYL",
+        "sequence_slice_around_pocket": "CFTAALSVRPNDYLLWNKLG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PEX5_N520S/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "L515",
+          "S516",
+          "V517",
+          "R518",
+          "P519",
+          "N520",
+          "D521",
+          "Y522",
+          "L524"
+        ],
+        "values": [
+          [
+            0.0,
+            3.857,
+            5.269,
+            4.657,
+            4.678,
+            7.623,
+            7.068,
+            9.298,
+            6.479
+          ],
+          [
+            3.857,
+            0.0,
+            3.869,
+            5.779,
+            5.703,
+            9.466,
+            10.041,
+            12.688,
+            10.328
+          ],
+          [
+            5.269,
+            3.869,
+            0.0,
+            3.872,
+            6.174,
+            9.108,
+            9.257,
+            12.666,
+            10.602
+          ],
+          [
+            4.657,
+            5.779,
+            3.872,
+            0.0,
+            3.886,
+            5.628,
+            5.495,
+            9.087,
+            8.137
+          ],
+          [
+            4.678,
+            5.703,
+            6.174,
+            3.886,
+            0.0,
+            3.859,
+            5.723,
+            8.298,
+            8.505
+          ],
+          [
+            7.623,
+            9.466,
+            9.108,
+            5.628,
+            3.859,
+            0.0,
+            3.847,
+            6.006,
+            8.575
+          ],
+          [
+            7.068,
+            10.041,
+            9.257,
+            5.495,
+            5.723,
+            3.847,
+            0.0,
+            3.819,
+            5.534
+          ],
+          [
+            9.298,
+            12.688,
+            12.666,
+            9.087,
+            8.298,
+            6.006,
+            3.819,
+            0.0,
+            5.478
+          ],
+          [
+            6.479,
+            10.328,
+            10.602,
+            8.137,
+            8.505,
+            8.575,
+            5.534,
+            5.478,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.8272403979027031,
+        "mw": 414.18,
+        "logp": 2.14,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.4888,
+        "sa_score": 3.05,
+        "n_heavy_atoms": 29,
+        "tpsa": 130.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PEX5-N520S Candidate #1",
+        "iupac_name": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8272,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PEX5_N520S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PEX5_N520S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PEX5_N520S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PEX5_N520S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PEX5_N520S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PEX5-N520S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PEX5-N520S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:41:10.109255+00:00"
     }
   ]
 }
