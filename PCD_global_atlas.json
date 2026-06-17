@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 976,
+  "total_entries": 977,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45523,
-    "queue_remaining": 133074
+    "total_processed": 45524,
+    "queue_remaining": 133073
   },
   "entries": [
     {
@@ -214460,6 +214460,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:54:33.642730+00:00"
+    },
+    {
+      "entry_id": "PCD-PAX9-A171T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PAX9-A171T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PAX9",
+        "uniprot": "",
+        "clinvar_id": "313167",
+        "disease": "Tooth agenesis, selective, 3",
+        "mutation_precursor": "A171T",
+        "mutation_mature": "A171T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8459194038371102,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 529.5515897941636,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          49.11344909667969,
+          13.833889961242676,
+          3.6535181999206543
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.164477478189722,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6159845969012749,
+        "cryptic": true,
+        "pocket_residues": {
+          "A171": "A",
+          "K172": "K",
+          "V173": "V",
+          "P174": "P"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P55771|PAX9 variant A171T",
+        "fasta_sequence": "MEPAFGEVNQLGGVFVNGRPLPNAIRLRIVELAQLGIRPCDISRQLRVSHGCVSKILARYNETGSILPGAIGGSKPRVTTPTVVKHIRTYKQRDPGIFAWEIRDRLLADGVCDKYNVPSVSSISRILRNKIGNLAQQGHYDSYKQHQPTPQPALPYNHIYSYPSPITAAAAKVPTPPGVPAIPGSVAMPRTWPSSHSVTDILGIRSITDQVSDSSPYHSPKVEEWSSLGRNNFPAAAPHAVNGLEKGALEQEAKYGQAPNGLPAVGSFVSASSMAPYPTPAQVSPYMTYSAAPSGYVAGHGWQHAGGTSLSPHNCDIPASLAFKGMQAAREGSHSVTASAL",
+        "full_sequence": "MEPAFGEVNQLGGVFVNGRPLPNAIRLRIVELAQLGIRPCDISRQLRVSHGCVSKILARYNETGSILPGAIGGSKPRVTTPTVVKHIRTYKQRDPGIFAWEIRDRLLADGVCDKYNVPSVSSISRILRNKIGNLAQQGHYDSYKQHQPTPQPALPYNHIYSYPSPITAAAAKVPTPPGVPAIPGSVAMPRTWPSSHSVTDILGIRSITDQVSDSSPYHSPKVEEWSSLGRNNFPAAAPHAVNGLEKGALEQEAKYGQAPNGLPAVGSFVSASSMAPYPTPAQVSPYMTYSAAPSGYVAGHGWQHAGGTSLSPHNCDIPASLAFKGMQAAREGSHSVTASAL",
+        "n_residues": 341,
+        "mutation_pos_1indexed": 171,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "A171-K172-V173-P174",
+        "pocket_lining_positions_precursor": [
+          171,
+          172,
+          173,
+          174
+        ],
+        "pocket_lining_1letter": "AKVP",
+        "sequence_slice_around_pocket": "SYPSPITAAAAKVPTPPGVP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PAX9_A171T/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A171",
+          "K172",
+          "V173",
+          "P174"
+        ],
+        "values": [
+          [
+            0.0,
+            3.61,
+            7.217,
+            10.323
+          ],
+          [
+            3.61,
+            0.0,
+            3.849,
+            6.957
+          ],
+          [
+            7.217,
+            3.849,
+            0.0,
+            3.745
+          ],
+          [
+            10.323,
+            6.957,
+            3.745,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.540870655860537,
+        "mw": 358.24,
+        "logp": 1.913,
+        "hbd": 1,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.802,
+        "sa_score": 3.48,
+        "n_heavy_atoms": 26,
+        "tpsa": 79.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PAX9-A171T Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5409,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PAX9_A171T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PAX9_A171T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PAX9_A171T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PAX9_A171T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PAX9_A171T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PAX9-A171T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PAX9-A171T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:54:56.718598+00:00"
     }
   ]
 }
