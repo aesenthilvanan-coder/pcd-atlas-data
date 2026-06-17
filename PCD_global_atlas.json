@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 132,
+  "total_entries": 133,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44536,
-    "queue_remaining": 134061
+    "total_processed": 44537,
+    "queue_remaining": 134060
   },
   "entries": [
     {
@@ -30111,6 +30111,171 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:32:11.907242+00:00"
+    },
+    {
+      "entry_id": "PCD-LRSAM1-Q409E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LRSAM1-Q409E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LRSAM1",
+        "uniprot": "",
+        "clinvar_id": "365027",
+        "disease": "Charcot-Marie-Tooth disease axonal type 2P",
+        "mutation_precursor": "Q409E",
+        "mutation_mature": "Q409E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9499717034293185,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 498.09511261183354,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -85.69234466552734,
+          4.838273525238037,
+          56.46874237060547
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.71659004407434,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6361361372597321,
+        "cryptic": true,
+        "pocket_residues": {
+          "M404": "M",
+          "A405": "A",
+          "Y406": "Y",
+          "E407": "E",
+          "S408": "S",
+          "Q409": "Q"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q6UWE0|LRSAM1 variant Q409E",
+        "fasta_sequence": "MPLFFRKRKPSEEARKRLEYQMCLAKEAGADDILDISKCELSEIPFGAFATCKVLQKKVLIVHTNHLTSLLPKSCSLLSLATIKVLDLHDNQLTALPDDLGQLTALQVLNVERNQLMQLPRSIGNLTQLQTLNVKDNKLKELPDTVGELRSLRTLNISGNEIQRLPQMLAHVRTLEMLSLDASAMVYPPREVCGAGTAAILQFLCKESGLEYYPPSQYLLPILEQDGIENSRDSPDGPTDRFSREELEWQNRFSDYEKRKEQKMLEKLEFERRLELGQREHTQLLQQSSSQKDEILQTVKEEQSRLEQGLSEHQRHLNAERQRLQEQLKQTEQNISSRIQKLLQDNQRQKKSSEILKSLENERIRMEQLMSITQEETESLRRRDVASAMQQMLTESCKNRLIQMAYESQRQNLVQQACSSMAEMDERFQQILSWQQMDQNKAISQILQESAMQKAAFEALQVKKDLMHRQIRSQIKLIETELLQLTQLELKRKSLDTESLQEMISEQRWALSSLLQQLLKEKQQREEELREILTELEAKSETRQENYWLIQYQRLLNQKPLSLKLQEEGMERQLVALLEELSAEHYLPIFAHHRLSLDLLSQMSPGDLAKVGVSEAGLQHEILRRVQELLDAARIQPELKPPMGEVVTPTAPQEPPESVRPSAPPAELEVQASECVVCLEREAQMIFLNCGHVCCCQQCCQPLRTCPLCRQDIAQRLRIYHSS",
+        "full_sequence": "MPLFFRKRKPSEEARKRLEYQMCLAKEAGADDILDISKCELSEIPFGAFATCKVLQKKVLIVHTNHLTSLLPKSCSLLSLATIKVLDLHDNQLTALPDDLGQLTALQVLNVERNQLMQLPRSIGNLTQLQTLNVKDNKLKELPDTVGELRSLRTLNISGNEIQRLPQMLAHVRTLEMLSLDASAMVYPPREVCGAGTAAILQFLCKESGLEYYPPSQYLLPILEQDGIENSRDSPDGPTDRFSREELEWQNRFSDYEKRKEQKMLEKLEFERRLELGQREHTQLLQQSSSQKDEILQTVKEEQSRLEQGLSEHQRHLNAERQRLQEQLKQTEQNISSRIQKLLQDNQRQKKSSEILKSLENERIRMEQLMSITQEETESLRRRDVASAMQQMLTESCKNRLIQMAYESQRQNLVQQACSSMAEMDERFQQILSWQQMDQNKAISQILQESAMQKAAFEALQVKKDLMHRQIRSQIKLIETELLQLTQLELKRKSLDTESLQEMISEQRWALSSLLQQLLKEKQQREEELREILTELEAKSETRQENYWLIQYQRLLNQKPLSLKLQEEGMERQLVALLEELSAEHYLPIFAHHRLSLDLLSQMSPGDLAKVGVSEAGLQHEILRRVQELLDAARIQPELKPPMGEVVTPTAPQEPPESVRPSAPPAELEVQASECVVCLEREAQMIFLNCGHVCCCQQCCQPLRTCPLCRQDIAQRLRIYHSS",
+        "n_residues": 723,
+        "mutation_pos_1indexed": 409,
+        "wt_aa": "Q",
+        "mut_aa": "E",
+        "pocket_lining_residues": "M404-A405-Y406-E407-S408-Q409",
+        "pocket_lining_positions_precursor": [
+          404,
+          405,
+          406,
+          407,
+          408,
+          409
+        ],
+        "pocket_lining_1letter": "MAYESQ",
+        "sequence_slice_around_pocket": "NRLIQMAYESQRQNLVQQAC"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LRSAM1_Q409E/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "M404",
+          "A405",
+          "Y406",
+          "E407",
+          "S408",
+          "Q409"
+        ],
+        "values": [
+          [
+            0.0,
+            3.842,
+            5.464,
+            5.021,
+            5.953,
+            8.467
+          ],
+          [
+            3.842,
+            0.0,
+            3.848,
+            5.555,
+            5.11,
+            6.072
+          ],
+          [
+            5.464,
+            3.848,
+            0.0,
+            3.861,
+            5.477,
+            5.105
+          ],
+          [
+            5.021,
+            5.555,
+            3.861,
+            0.0,
+            3.862,
+            5.555
+          ],
+          [
+            5.953,
+            5.11,
+            5.477,
+            3.862,
+            0.0,
+            3.843
+          ],
+          [
+            8.467,
+            6.072,
+            5.105,
+            5.555,
+            3.843,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)c(NCC(=O)NCc2nc3ccccc3[nH]2)c1",
+        "composite_score": 0.9016445378745223,
+        "mw": 353.19,
+        "logp": 2.019,
+        "hbd": 4,
+        "hba": 5,
+        "rotatable_bonds": 8,
+        "qed": 0.4973,
+        "sa_score": 2.21,
+        "n_heavy_atoms": 26,
+        "tpsa": 91.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LRSAM1-Q409E Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)c(NCC(=O)NCc2nc3ccccc3[nH]2)c1",
+        "pocket_affinity_score": 0.9016,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LRSAM1_Q409E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LRSAM1_Q409E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LRSAM1_Q409E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LRSAM1_Q409E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LRSAM1_Q409E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LRSAM1-Q409E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LRSAM1-Q409E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:32:37.275437+00:00"
     }
   ]
 }
