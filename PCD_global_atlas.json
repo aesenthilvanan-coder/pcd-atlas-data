@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 608,
+  "total_entries": 609,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45097,
-    "queue_remaining": 133500
+    "total_processed": 45098,
+    "queue_remaining": 133499
   },
   "entries": [
     {
@@ -134523,6 +134523,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:46:59.699624+00:00"
+    },
+    {
+      "entry_id": "PCD-CPAP-K929E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CPAP-K929E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CPAP",
+        "uniprot": "",
+        "clinvar_id": "311616",
+        "disease": "Seckel syndrome 4",
+        "mutation_precursor": "K929E",
+        "mutation_mature": "K929E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8072485760550668,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 426.5319812014469,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.307093143463135,
+          3.7356956005096436,
+          62.50722885131836
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.744094136278381,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8035800460588481,
+        "cryptic": true,
+        "pocket_residues": {
+          "A922": "A",
+          "E923": "E",
+          "N924": "N",
+          "A925": "A",
+          "S926": "S",
+          "L927": "L",
+          "A928": "A",
+          "K929": "K",
+          "L930": "L",
+          "R931": "R"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9HC77|CPAP variant K929E",
+        "fasta_sequence": "MFLMPTSSELNSGQNFLTQWMTNPSRAGVILNRGFPILEADKEKRAAVDISTSFPIKGTHFSDSFSFINEEDSLLEEQKLESNNPYKPQSDKSETHTAFPCIKKGPQVAACHSAPGHQEENKNDFIPDLASEFKEGAYKDPLFKKLEQLKEVQQKKQEQLKRQQLEQLQRLMEEQEKLLTMVSGQCTLPGLSLLPDDQSQKHRSPGNTTTGERATCCFPSYVYPDPTQEETYPSNILSHEQSNFCRTAHGDFVLTSKRASPNLFSEAQYQEAPVEKNNLKEENRNHPTGESILCWEKVTEQIQEANDKNLQKHDDSSEVANIEERPIKAAIGERKQTFEDYLEEQIQLEEQELKQKQLKEAEGPLPIKAKPKQPFLKRGEGLARFTNAKSKFQKGKESKLVTNQSTSEDQPLFKMDRQQLQRKTALKNKELCADNPILKKDSKARTKSGSVTLSQKPKMLKCSNRKSLSPSGLKIQTGKKCDGQFRDQIKFENKVTSNNKENVTECPKPCDTGCTGWNKTQGKDRLPLSTGPASRLAAKSPIRETMKESESSLDVSLQKKLETWEREKEKENLELDEFLFLEQAADEISFSSNSSFVLKILERDQQICKGHRMSSTPVKAVPQKTNPADPISHCNRSEDLDHTAREKESECEVAPKQLHSLSSADELREQPCKIRKAVQKSTSENQTEWNARDDEGVPNSDSSTDSEEQLDVTIKPSTEDRERGISSREDSPQVCDDKGPFKDTRTQEDKRRDVDLDLSDKDYSSDESIMESIKHKVSEPSRSSSLSLSKMDFDDERTWTDLEENLCNHDVVLGNESTYGTPQTCYPNNEIGILDKTIKRKIAPVKRGEDLSKSRRSRSPPTSELMMKFFPSLKPKPKSDSHLGNELKLNISQDQPPGDNARSQVLREKIIELETEIEKFKAENASLAKLRIERESALEKLRKEIADFEQQKAKELARIEEFKKEEMRKLQKERKVFEKYTTAARTFPDKKEREEIQTLKQQIADLREDLKRKETKWSSTHSRLRSQIQMLVRENTDLREEIKVMERFRLDAWKRAEAIESSLEVEKKDKLANTSVRFQNSQISSGTQVEKYKKNYLPMQGNPPRRSKSAPPRDLGNLDKGQAASPREPLEPLNFPDPEYKEEEEDQDIQGEISHPDGKVEKVYKNGCRVILFPNGTRKEVSADGKTITVTFFNGDVKQVMPDQRVIYYYAAAQTTHTTYPEGLEVLHFSSGQIEKHYPDGRKEITFPDQTVKNLFPDGQEESIFPDGTIVRVQRDGNKLIEFNNGQRELHTAQFKRREYPDGTVKTVYANGHQETKYRSGRIRVKDKEGNVLMDTEL",
+        "full_sequence": "MFLMPTSSELNSGQNFLTQWMTNPSRAGVILNRGFPILEADKEKRAAVDISTSFPIKGTHFSDSFSFINEEDSLLEEQKLESNNPYKPQSDKSETHTAFPCIKKGPQVAACHSAPGHQEENKNDFIPDLASEFKEGAYKDPLFKKLEQLKEVQQKKQEQLKRQQLEQLQRLMEEQEKLLTMVSGQCTLPGLSLLPDDQSQKHRSPGNTTTGERATCCFPSYVYPDPTQEETYPSNILSHEQSNFCRTAHGDFVLTSKRASPNLFSEAQYQEAPVEKNNLKEENRNHPTGESILCWEKVTEQIQEANDKNLQKHDDSSEVANIEERPIKAAIGERKQTFEDYLEEQIQLEEQELKQKQLKEAEGPLPIKAKPKQPFLKRGEGLARFTNAKSKFQKGKESKLVTNQSTSEDQPLFKMDRQQLQRKTALKNKELCADNPILKKDSKARTKSGSVTLSQKPKMLKCSNRKSLSPSGLKIQTGKKCDGQFRDQIKFENKVTSNNKENVTECPKPCDTGCTGWNKTQGKDRLPLSTGPASRLAAKSPIRETMKESESSLDVSLQKKLETWEREKEKENLELDEFLFLEQAADEISFSSNSSFVLKILERDQQICKGHRMSSTPVKAVPQKTNPADPISHCNRSEDLDHTAREKESECEVAPKQLHSLSSADELREQPCKIRKAVQKSTSENQTEWNARDDEGVPNSDSSTDSEEQLDVTIKPSTEDRERGISSREDSPQVCDDKGPFKDTRTQEDKRRDVDLDLSDKDYSSDESIMESIKHKVSEPSRSSSLSLSKMDFDDERTWTDLEENLCNHDVVLGNESTYGTPQTCYPNNEIGILDKTIKRKIAPVKRGEDLSKSRRSRSPPTSELMMKFFPSLKPKPKSDSHLGNELKLNISQDQPPGDNARSQVLREKIIELETEIEKFKAENASLAKLRIERESALEKLRKEIADFEQQKAKELARIEEFKKEEMRKLQKERKVFEKYTTAARTFPDKKEREEIQTLKQQIADLREDLKRKETKWSSTHSRLRSQIQMLVRENTDLREEIKVMERFRLDAWKRAEAIESSLEVEKKDKLANTSVRFQNSQISSGTQVEKYKKNYLPMQGNPPRRSKSAPPRDLGNLDKGQAASPREPLEPLNFPDPEYKEEEEDQDIQGEISHPDGKVEKVYKNGCRVILFPNGTRKEVSADGKTITVTFFNGDVKQVMPDQRVIYYYAAAQTTHTTYPEGLEVLHFSSGQIEKHYPDGRKEITFPDQTVKNLFPDGQEESIFPDGTIVRVQRDGNKLIEFNNGQRELHTAQFKRREYPDGTVKTVYANGHQETKYRSGRIRVKDKEGNVLMDTEL",
+        "n_residues": 1338,
+        "mutation_pos_1indexed": 929,
+        "wt_aa": "K",
+        "mut_aa": "E",
+        "pocket_lining_residues": "A922-E923-N924-A925-S926-L927-A928-K929-L930-R931",
+        "pocket_lining_positions_precursor": [
+          922,
+          923,
+          924,
+          925,
+          926,
+          927,
+          928,
+          929,
+          930,
+          931
+        ],
+        "pocket_lining_1letter": "AENASLAKLR",
+        "sequence_slice_around_pocket": "KFKAENASLAKLRIERESAL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_K929E/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "A922",
+          "E923",
+          "N924",
+          "A925",
+          "S926",
+          "L927",
+          "A928",
+          "K929",
+          "L930",
+          "R931"
+        ],
+        "values": [
+          [
+            0.0,
+            3.853,
+            5.535,
+            5.056,
+            6.209,
+            8.615,
+            9.717,
+            10.617,
+            12.409,
+            14.366
+          ],
+          [
+            3.853,
+            0.0,
+            3.858,
+            5.437,
+            5.04,
+            6.099,
+            8.541,
+            9.867,
+            10.491,
+            12.387
+          ],
+          [
+            5.535,
+            3.858,
+            0.0,
+            3.862,
+            5.427,
+            4.889,
+            6.088,
+            8.735,
+            9.792,
+            10.521
+          ],
+          [
+            5.056,
+            5.437,
+            3.862,
+            0.0,
+            3.865,
+            5.453,
+            4.929,
+            6.374,
+            8.779,
+            9.992
+          ],
+          [
+            6.209,
+            5.04,
+            5.427,
+            3.865,
+            0.0,
+            3.858,
+            5.287,
+            5.055,
+            6.246,
+            8.741
+          ],
+          [
+            8.615,
+            6.099,
+            4.889,
+            5.453,
+            3.858,
+            0.0,
+            3.863,
+            5.561,
+            5.136,
+            6.33
+          ],
+          [
+            9.717,
+            8.541,
+            6.088,
+            4.929,
+            5.287,
+            3.863,
+            0.0,
+            3.882,
+            5.515,
+            5.29
+          ],
+          [
+            10.617,
+            9.867,
+            8.735,
+            6.374,
+            5.055,
+            5.561,
+            3.882,
+            0.0,
+            3.857,
+            5.555
+          ],
+          [
+            12.409,
+            10.491,
+            9.792,
+            8.779,
+            6.246,
+            5.136,
+            5.515,
+            3.857,
+            0.0,
+            3.871
+          ],
+          [
+            14.366,
+            12.387,
+            10.521,
+            9.992,
+            8.741,
+            6.33,
+            5.29,
+            5.555,
+            3.871,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8451257692381724,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CPAP-K929E Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8451,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_K929E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_K929E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_K929E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_K929E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_K929E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CPAP-K929E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CPAP-K929E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:47:58.435987+00:00"
     }
   ]
 }
