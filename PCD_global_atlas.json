@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1255,
+  "total_entries": 1256,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45856,
-    "queue_remaining": 132741
+    "total_processed": 45857,
+    "queue_remaining": 132740
   },
   "entries": [
     {
@@ -277533,6 +277533,189 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:11:15.564742+00:00"
+    },
+    {
+      "entry_id": "PCD-DHODH-E228K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DHODH-E228K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DHODH",
+        "uniprot": "",
+        "clinvar_id": "320428",
+        "disease": "Miller syndrome",
+        "mutation_precursor": "E228K",
+        "mutation_mature": "E228K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8999321526341952,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 566.1969651843666,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          2.472960948944092,
+          -19.58145523071289,
+          -9.499710083007812
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.112151933965037,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8541158162469025,
+        "cryptic": true,
+        "pocket_residues": {
+          "S222": "S",
+          "L223": "L",
+          "Q224": "Q",
+          "G225": "G",
+          "A227": "A",
+          "E228": "E",
+          "L229": "L"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q02127|DHODH variant E228K",
+        "fasta_sequence": "MAWRHLKKRAQDAVIILGGGGLLFASYLMATGDERFYAEHLMPTLQGLLDPESAHRLAVRFTSLGLLPRARFQDSDMLEVRVLGHKFRNPVGIAAGFDKHGEAVDGLYKMGFGFVEIGSVTPKPQEGNPRPRVFRLPEDQAVINRYGFNSHGLSVVEHRLRARQQKQAKLTEDGLPLGVNLGKNKTSVDAAEDYAEGVRVLGPLADYLVVNVSSPNTAGLRSLQGKAELRRLLTKVLQERDGLRRVHRPAVLVKIAPDLTSQDKEDIASVVKELGIDGLIVTNTTVSRPAGLQGALRSETGGLSGKPLRDLSTQTIREMYALTQGRVPIIGVGGVSSGQDALEKIRAGASLVQLYTALTFWGPPVVGKVKRELEALLKEQGFGGVTDAIGADHRR",
+        "full_sequence": "MAWRHLKKRAQDAVIILGGGGLLFASYLMATGDERFYAEHLMPTLQGLLDPESAHRLAVRFTSLGLLPRARFQDSDMLEVRVLGHKFRNPVGIAAGFDKHGEAVDGLYKMGFGFVEIGSVTPKPQEGNPRPRVFRLPEDQAVINRYGFNSHGLSVVEHRLRARQQKQAKLTEDGLPLGVNLGKNKTSVDAAEDYAEGVRVLGPLADYLVVNVSSPNTAGLRSLQGKAELRRLLTKVLQERDGLRRVHRPAVLVKIAPDLTSQDKEDIASVVKELGIDGLIVTNTTVSRPAGLQGALRSETGGLSGKPLRDLSTQTIREMYALTQGRVPIIGVGGVSSGQDALEKIRAGASLVQLYTALTFWGPPVVGKVKRELEALLKEQGFGGVTDAIGADHRR",
+        "n_residues": 395,
+        "mutation_pos_1indexed": 228,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "S222-L223-Q224-G225-A227-E228-L229",
+        "pocket_lining_positions_precursor": [
+          222,
+          223,
+          224,
+          225,
+          227,
+          228,
+          229
+        ],
+        "pocket_lining_1letter": "SLQGAEL",
+        "sequence_slice_around_pocket": "AGLRSLQGKAELRRLLTKVL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DHODH_E228K/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "S222",
+          "L223",
+          "Q224",
+          "G225",
+          "A227",
+          "E228",
+          "L229"
+        ],
+        "values": [
+          [
+            0.0,
+            3.869,
+            5.212,
+            5.829,
+            10.473,
+            8.044,
+            8.734
+          ],
+          [
+            3.869,
+            0.0,
+            3.862,
+            5.462,
+            8.592,
+            5.47,
+            5.431
+          ],
+          [
+            5.212,
+            3.862,
+            0.0,
+            3.859,
+            8.5,
+            6.863,
+            5.277
+          ],
+          [
+            5.829,
+            5.462,
+            3.859,
+            0.0,
+            5.946,
+            5.612,
+            5.777
+          ],
+          [
+            10.473,
+            8.592,
+            8.5,
+            5.946,
+            0.0,
+            3.85,
+            5.496
+          ],
+          [
+            8.044,
+            5.47,
+            6.863,
+            5.612,
+            3.85,
+            0.0,
+            3.822
+          ],
+          [
+            8.734,
+            5.431,
+            5.277,
+            5.777,
+            5.496,
+            3.822,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccc(S(N)(=O)=O)cc1N1CC(=O)CCC1CNc1ccncc1N1CCCCC1",
+        "composite_score": 0.8518771524603249,
+        "mw": 458.21,
+        "logp": 1.951,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 6,
+        "qed": 0.5592,
+        "sa_score": 3.33,
+        "n_heavy_atoms": 32,
+        "tpsa": 134.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DHODH-E228K Candidate #1",
+        "iupac_name": "Nc1ccc(S(N)(=O)=O)cc1N1CC(=O)CCC1CNc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.8519,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DHODH_E228K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DHODH_E228K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DHODH_E228K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DHODH_E228K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DHODH_E228K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DHODH-E228K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DHODH-E228K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:11:44.645769+00:00"
     }
   ]
 }
