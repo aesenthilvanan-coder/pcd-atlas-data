@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1314,
+  "total_entries": 1315,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45930,
-    "queue_remaining": 132667
+    "total_processed": 45931,
+    "queue_remaining": 132666
   },
   "entries": [
     {
@@ -291066,6 +291066,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:14:53.691529+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC6A2-V601L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC6A2-V601L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC6A2",
+        "uniprot": "",
+        "clinvar_id": "319810",
+        "disease": "not provided",
+        "mutation_precursor": "V601L",
+        "mutation_mature": "V601L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8943856240278274,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 429.46946055154706,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -34.60896682739258,
+          0.20148906111717224,
+          23.753862380981445
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.6420434008904397,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8751448373087491,
+        "cryptic": true,
+        "pocket_residues": {
+          "E586": "E",
+          "A589": "A",
+          "Y590": "Y",
+          "H598": "H",
+          "H599": "H",
+          "L600": "L",
+          "V601": "V",
+          "A602": "A",
+          "Q603": "Q",
+          "R604": "R"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P23975|SLC6A2 variant V601L",
+        "fasta_sequence": "MLLARMNPQVQPENNGADTGPEQPLRARKTAELLVVKERNGVQCLLAPRDGDAQPRETWGKKIDFLLSVVGFAVDLANVWRFPYLCYKNGGGAFLIPYTLFLIIAGMPLFYMELALGQYNREGAATVWKICPFFKGVGYAVILIALYVGFYYNVIIAWSLYYLFSSFTLNLPWTDCGHTWNSPNCTDPKLLNGSVLGNHTKYSKYKFTPAAEFYERGVLHLHESSGIHDIGLPQWQLLLCLMVVVIVLYFSLWKGVKTSGKVVWITATLPYFVLFVLLVHGVTLPGASNGINAYLHIDFYRLKEATVWIDAATQIFFSLGAGFGVLIAFASYNKFDNNCYRDALLTSSINCITSFVSGFAIFSILGYMAHEHKVNIEDVATEGAGLVFILYPEAISTLSGSTFWAVVFFVMLLALGLDSSMGGMEAVITGLADDFQVLKRHRKLFTFGVTFSTFLLALFCITKGGIYVLTLLDTFAAGTSILFAVLMEAIGVSWFYGVDRFSNDIQQMMGFRPGLYWRLCWKFVSPAFLLFVVVVSIINFKPLTYDDYIFPPWANWVGWGIALSSMVLVPIYVIYKFLSTQGSLWERLAYGITPENEHHLVAQRDIRQFQLQHWLAI",
+        "full_sequence": "MLLARMNPQVQPENNGADTGPEQPLRARKTAELLVVKERNGVQCLLAPRDGDAQPRETWGKKIDFLLSVVGFAVDLANVWRFPYLCYKNGGGAFLIPYTLFLIIAGMPLFYMELALGQYNREGAATVWKICPFFKGVGYAVILIALYVGFYYNVIIAWSLYYLFSSFTLNLPWTDCGHTWNSPNCTDPKLLNGSVLGNHTKYSKYKFTPAAEFYERGVLHLHESSGIHDIGLPQWQLLLCLMVVVIVLYFSLWKGVKTSGKVVWITATLPYFVLFVLLVHGVTLPGASNGINAYLHIDFYRLKEATVWIDAATQIFFSLGAGFGVLIAFASYNKFDNNCYRDALLTSSINCITSFVSGFAIFSILGYMAHEHKVNIEDVATEGAGLVFILYPEAISTLSGSTFWAVVFFVMLLALGLDSSMGGMEAVITGLADDFQVLKRHRKLFTFGVTFSTFLLALFCITKGGIYVLTLLDTFAAGTSILFAVLMEAIGVSWFYGVDRFSNDIQQMMGFRPGLYWRLCWKFVSPAFLLFVVVVSIINFKPLTYDDYIFPPWANWVGWGIALSSMVLVPIYVIYKFLSTQGSLWERLAYGITPENEHHLVAQRDIRQFQLQHWLAI",
+        "n_residues": 617,
+        "mutation_pos_1indexed": 601,
+        "wt_aa": "V",
+        "mut_aa": "L",
+        "pocket_lining_residues": "E586-A589-Y590-H598-H599-L600-V601-A602-Q603-R604",
+        "pocket_lining_positions_precursor": [
+          586,
+          589,
+          590,
+          598,
+          599,
+          600,
+          601,
+          602,
+          603,
+          604
+        ],
+        "pocket_lining_1letter": "EAYHHLVAQR",
+        "sequence_slice_around_pocket": "GITPENEHHLVAQRDIRQFQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A2_V601L/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "E586",
+          "A589",
+          "Y590",
+          "H598",
+          "H599",
+          "L600",
+          "V601",
+          "A602",
+          "Q603",
+          "R604"
+        ],
+        "values": [
+          [
+            0.0,
+            4.973,
+            6.121,
+            10.105,
+            11.708,
+            11.211,
+            7.367,
+            8.269,
+            10.833,
+            8.896
+          ],
+          [
+            4.973,
+            0.0,
+            3.86,
+            8.455,
+            11.002,
+            9.742,
+            6.401,
+            9.368,
+            11.21,
+            8.902
+          ],
+          [
+            6.121,
+            3.86,
+            0.0,
+            6.245,
+            9.513,
+            9.628,
+            6.691,
+            9.154,
+            11.891,
+            10.773
+          ],
+          [
+            10.105,
+            8.455,
+            6.245,
+            0.0,
+            3.847,
+            5.409,
+            5.127,
+            6.787,
+            9.052,
+            9.934
+          ],
+          [
+            11.708,
+            11.002,
+            9.513,
+            3.847,
+            0.0,
+            3.891,
+            5.467,
+            5.268,
+            6.765,
+            9.067
+          ],
+          [
+            11.211,
+            9.742,
+            9.628,
+            5.409,
+            3.891,
+            0.0,
+            3.852,
+            5.264,
+            4.848,
+            6.259
+          ],
+          [
+            7.367,
+            6.401,
+            6.691,
+            5.127,
+            5.467,
+            3.852,
+            0.0,
+            3.84,
+            5.319,
+            4.928
+          ],
+          [
+            8.269,
+            9.368,
+            9.154,
+            6.787,
+            5.268,
+            5.264,
+            3.84,
+            0.0,
+            3.876,
+            5.532
+          ],
+          [
+            10.833,
+            11.21,
+            11.891,
+            9.052,
+            6.765,
+            4.848,
+            5.319,
+            3.876,
+            0.0,
+            3.893
+          ],
+          [
+            8.896,
+            8.902,
+            10.773,
+            9.934,
+            9.067,
+            6.259,
+            4.928,
+            5.532,
+            3.893,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8799019392236903,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC6A2-V601L Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8799,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A2_V601L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A2_V601L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A2_V601L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A2_V601L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A2_V601L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC6A2-V601L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC6A2-V601L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:15:20.382151+00:00"
     }
   ]
 }
