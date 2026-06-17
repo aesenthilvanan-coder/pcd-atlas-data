@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1273,
+  "total_entries": 1274,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45874,
-    "queue_remaining": 132723
+    "total_processed": 45881,
+    "queue_remaining": 132716
   },
   "entries": [
     {
@@ -281721,6 +281721,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:33:51.325596+00:00"
+    },
+    {
+      "entry_id": "PCD-PRKCSH-R152W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRKCSH-R152W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PRKCSH",
+        "uniprot": "",
+        "clinvar_id": "328174",
+        "disease": "Polycystic liver disease 1",
+        "mutation_precursor": "R152W",
+        "mutation_mature": "R152W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7954689200533824,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 625.8372689671959,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -17.0826416015625,
+          1.834609031677246,
+          -11.115019798278809
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.0616408810296685,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7909652605994953,
+        "cryptic": true,
+        "pocket_residues": {
+          "W148": "W",
+          "K149": "K",
+          "K150": "K",
+          "A151": "A",
+          "R152": "R",
+          "E153": "E",
+          "E154": "E",
+          "K155": "K",
+          "Q156": "Q",
+          "I398": "I"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P14314|PRKCSH variant R152W",
+        "fasta_sequence": "MLLPLLLLLPMCWAVEVKRPRGVSLTNHHFYDESKPFTCLDGSATIPFDQVNDDYCDCKDGSDEPGTAACPNGSFHCTNTGYKPLYIPSNRVNDGVCDCCDGTDEYNSGVICENTCKEKGRKERESLQQMAEVTREGFRLKKILIEDWKKAREEKQKKLIELQAGKKSLEDQVEMLRTVKEEAEKPEREAKEQHQKLWEEQLAAAKAQQEQELAADAFKELDDDMDGTVSVTELQTHPELDTDGDGALSEAEAQALLSGDTQTDATSFYDRVWAAIRDKYRSEALPTDLPAPSAPDLTEPKEEQPPVPSSPTEEEEEEEEEEEEEAEEEEEEEDSEEAPPPLSPPQPASPAEEDKMPPYDEQTQAFIDAAQEARNKFEEAERSLKDMEESIRNLEQEISFDFGPNGEFAYLYSQCYELTTNEYVYRLCPFKLVSQKPKLGGSPTSLGTWGSWIGPDHDKFSAMKYEQGTGCWQGPNRSTTVRLLCGKETMVTSTTEPSRCEYLMELMTPAACPEPPPEAPTEDDHDEL",
+        "full_sequence": "MLLPLLLLLPMCWAVEVKRPRGVSLTNHHFYDESKPFTCLDGSATIPFDQVNDDYCDCKDGSDEPGTAACPNGSFHCTNTGYKPLYIPSNRVNDGVCDCCDGTDEYNSGVICENTCKEKGRKERESLQQMAEVTREGFRLKKILIEDWKKAREEKQKKLIELQAGKKSLEDQVEMLRTVKEEAEKPEREAKEQHQKLWEEQLAAAKAQQEQELAADAFKELDDDMDGTVSVTELQTHPELDTDGDGALSEAEAQALLSGDTQTDATSFYDRVWAAIRDKYRSEALPTDLPAPSAPDLTEPKEEQPPVPSSPTEEEEEEEEEEEEEAEEEEEEEDSEEAPPPLSPPQPASPAEEDKMPPYDEQTQAFIDAAQEARNKFEEAERSLKDMEESIRNLEQEISFDFGPNGEFAYLYSQCYELTTNEYVYRLCPFKLVSQKPKLGGSPTSLGTWGSWIGPDHDKFSAMKYEQGTGCWQGPNRSTTVRLLCGKETMVTSTTEPSRCEYLMELMTPAACPEPPPEAPTEDDHDEL",
+        "n_residues": 528,
+        "mutation_pos_1indexed": 152,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "W148-K149-K150-A151-R152-E153-E154-K155-Q156-I398",
+        "pocket_lining_positions_precursor": [
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          398
+        ],
+        "pocket_lining_1letter": "WKKAREEKQI",
+        "sequence_slice_around_pocket": "KILIEDWKKAREEKQKKLIE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PRKCSH_R152W/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "W148",
+          "K149",
+          "K150",
+          "A151",
+          "R152",
+          "E153",
+          "E154",
+          "K155",
+          "Q156",
+          "I398"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            5.49,
+            4.968,
+            5.857,
+            8.526,
+            9.738,
+            10.092,
+            11.848,
+            10.123
+          ],
+          [
+            3.859,
+            0.0,
+            3.853,
+            5.599,
+            5.204,
+            6.334,
+            8.781,
+            9.922,
+            10.557,
+            10.725
+          ],
+          [
+            5.49,
+            3.853,
+            0.0,
+            3.832,
+            5.447,
+            5.189,
+            6.25,
+            8.603,
+            9.887,
+            12.035
+          ],
+          [
+            4.968,
+            5.599,
+            3.832,
+            0.0,
+            3.858,
+            5.535,
+            5.097,
+            6.043,
+            8.54,
+            9.561
+          ],
+          [
+            5.857,
+            5.204,
+            5.447,
+            3.858,
+            0.0,
+            3.853,
+            5.463,
+            4.998,
+            6.0,
+            6.686
+          ],
+          [
+            8.526,
+            6.334,
+            5.189,
+            5.535,
+            3.853,
+            0.0,
+            3.86,
+            5.499,
+            5.075,
+            9.602
+          ],
+          [
+            9.738,
+            8.781,
+            6.25,
+            5.097,
+            5.463,
+            3.86,
+            0.0,
+            3.857,
+            5.504,
+            10.582
+          ],
+          [
+            10.092,
+            9.922,
+            8.603,
+            6.043,
+            4.998,
+            5.499,
+            3.857,
+            0.0,
+            3.853,
+            7.477
+          ],
+          [
+            11.848,
+            10.557,
+            9.887,
+            8.54,
+            6.0,
+            5.075,
+            5.504,
+            3.853,
+            0.0,
+            7.746
+          ],
+          [
+            10.123,
+            10.725,
+            12.035,
+            9.561,
+            6.686,
+            9.602,
+            10.582,
+            7.477,
+            7.746,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)cc1N1CCCCC1NCCNc1ncnc2[nH]cnc12",
+        "composite_score": 0.7995901084111388,
+        "mw": 410.25,
+        "logp": 2.099,
+        "hbd": 4,
+        "hba": 8,
+        "rotatable_bonds": 9,
+        "qed": 0.3979,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 30,
+        "tpsa": 103.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PRKCSH-R152W Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)cc1N1CCCCC1NCCNc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.7996,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PRKCSH_R152W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PRKCSH_R152W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PRKCSH_R152W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PRKCSH_R152W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PRKCSH_R152W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRKCSH-R152W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRKCSH-R152W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:35:28.399298+00:00"
     }
   ]
 }
