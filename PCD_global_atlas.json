@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 921,
+  "total_entries": 922,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45458,
-    "queue_remaining": 133139
+    "total_processed": 45459,
+    "queue_remaining": 133138
   },
   "entries": [
     {
@@ -202723,6 +202723,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:14:35.917601+00:00"
+    },
+    {
+      "entry_id": "PCD-THBD-S307L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-THBD-S307L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "THBD",
+        "uniprot": "",
+        "clinvar_id": "337888",
+        "disease": "Atypical hemolytic-uremic syndrome with thrombomodulin anomaly",
+        "mutation_precursor": "S307L",
+        "mutation_mature": "S307L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7484604804792822,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 538.5123987655346,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          8.391908645629883,
+          -5.717740535736084,
+          -4.29139518737793
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.8520861507785895,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8296279369983113,
+        "cryptic": true,
+        "pocket_residues": {
+          "V297": "V",
+          "P298": "P",
+          "N299": "N",
+          "S305": "S",
+          "Y306": "Y",
+          "S307": "S",
+          "C308": "C"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P07204|THBD variant S307L",
+        "fasta_sequence": "MLGVLVLGALALAGLGFPAPAEPQPGGSQCVEHDCFALYPGPATFLNASQICDGLRGHLMTVRSSVAADVISLLLNGDGGVGRRRLWIGLQLPPGCGDPKRLGPLRGFQWVTGDNNTSYSRWARLDLNGAPLCGPLCVAVSAAEATVPSEPIWEEQQCEVKADGFLCEFHFPATCRPLAVEPGAAAAAVSITYGTPFAARGADFQALPVGSSAAVAPLGLQLMCTAPPGAVQGHWAREAPGAWDCSVENGGCEHACNAIPGAPRCQCPAGAALQADGRSCTASATQSCNDLCEHFCVPNPDQPGSYSCMCETGYRLAADQHRCEDVDDCILEPSPCPQRCVNTQGGFECHCYPNYDLVDGECVEPVDPCFRANCEYQCQPLNQTSYLCVCAEGFAPIPHEPHRCQMFCNQTACPADCDPNTQASCECPEGYILDDGFICTDIDECENGGFCSGVCHNLPGTFECICGPDSALARHIGTDCDSGKVDGGDSGSGEPPPSPTPGSTLTPPAVGLVHSGLLIGISIASLCLVVALLALLCHLRKKQGAARAKMEYKCAAPSKEVVLQHVRTERTPQRL",
+        "full_sequence": "MLGVLVLGALALAGLGFPAPAEPQPGGSQCVEHDCFALYPGPATFLNASQICDGLRGHLMTVRSSVAADVISLLLNGDGGVGRRRLWIGLQLPPGCGDPKRLGPLRGFQWVTGDNNTSYSRWARLDLNGAPLCGPLCVAVSAAEATVPSEPIWEEQQCEVKADGFLCEFHFPATCRPLAVEPGAAAAAVSITYGTPFAARGADFQALPVGSSAAVAPLGLQLMCTAPPGAVQGHWAREAPGAWDCSVENGGCEHACNAIPGAPRCQCPAGAALQADGRSCTASATQSCNDLCEHFCVPNPDQPGSYSCMCETGYRLAADQHRCEDVDDCILEPSPCPQRCVNTQGGFECHCYPNYDLVDGECVEPVDPCFRANCEYQCQPLNQTSYLCVCAEGFAPIPHEPHRCQMFCNQTACPADCDPNTQASCECPEGYILDDGFICTDIDECENGGFCSGVCHNLPGTFECICGPDSALARHIGTDCDSGKVDGGDSGSGEPPPSPTPGSTLTPPAVGLVHSGLLIGISIASLCLVVALLALLCHLRKKQGAARAKMEYKCAAPSKEVVLQHVRTERTPQRL",
+        "n_residues": 575,
+        "mutation_pos_1indexed": 307,
+        "wt_aa": "S",
+        "mut_aa": "L",
+        "pocket_lining_residues": "V297-P298-N299-S305-Y306-S307-C308",
+        "pocket_lining_positions_precursor": [
+          297,
+          298,
+          299,
+          305,
+          306,
+          307,
+          308
+        ],
+        "pocket_lining_1letter": "VPNSYSC",
+        "sequence_slice_around_pocket": "VPNPDQPGSYSCMCETGYRL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/THBD_S307L/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "V297",
+          "P298",
+          "N299",
+          "S305",
+          "Y306",
+          "S307",
+          "C308"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            6.403,
+            8.878,
+            5.502,
+            5.193,
+            6.22
+          ],
+          [
+            3.841,
+            0.0,
+            3.823,
+            6.179,
+            4.173,
+            6.425,
+            8.668
+          ],
+          [
+            6.403,
+            3.823,
+            0.0,
+            5.45,
+            5.196,
+            7.253,
+            10.565
+          ],
+          [
+            8.878,
+            6.179,
+            5.45,
+            0.0,
+            3.832,
+            7.16,
+            10.271
+          ],
+          [
+            5.502,
+            4.173,
+            5.196,
+            3.832,
+            0.0,
+            3.819,
+            6.666
+          ],
+          [
+            5.193,
+            6.425,
+            7.253,
+            7.16,
+            3.819,
+            0.0,
+            3.794
+          ],
+          [
+            6.22,
+            8.668,
+            10.565,
+            10.271,
+            6.666,
+            3.794,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)c(OCNc2ccncc2N2CC(=O)CCC2O)c1",
+        "composite_score": 0.5020368682067187,
+        "mw": 372.18,
+        "logp": 2.068,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 7,
+        "qed": 0.6359,
+        "sa_score": 3.4,
+        "n_heavy_atoms": 27,
+        "tpsa": 96.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "THBD-S307L Candidate #1",
+        "iupac_name": "CNc1ccc(OC)c(OCNc2ccncc2N2CC(=O)CCC2O)c1",
+        "pocket_affinity_score": 0.502,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/THBD_S307L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/THBD_S307L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/THBD_S307L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/THBD_S307L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/THBD_S307L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-THBD-S307L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-THBD-S307L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:15:02.088097+00:00"
     }
   ]
 }
