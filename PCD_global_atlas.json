@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 394,
+  "total_entries": 395,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44845,
-    "queue_remaining": 133752
+    "total_processed": 44846,
+    "queue_remaining": 133751
   },
   "entries": [
     {
@@ -86883,6 +86883,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:56:08.603038+00:00"
+    },
+    {
+      "entry_id": "PCD-MAT1A-M76T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MAT1A-M76T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MAT1A",
+        "uniprot": "",
+        "clinvar_id": "301191",
+        "disease": "Hepatic methionine adenosyltransferase deficiency",
+        "mutation_precursor": "M76T",
+        "mutation_mature": "M76T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9210420331179205,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 365.73220362973717,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          15.41366958618164,
+          7.838533878326416,
+          -22.277729034423828
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.199302068890836,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.867672346283774,
+        "cryptic": true,
+        "pocket_residues": {
+          "S73": "S",
+          "M74": "M",
+          "A75": "A",
+          "M76": "M",
+          "V77": "V"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q00266|MAT1A variant M76T",
+        "fasta_sequence": "MNGPVDGLCDHSLSEGVFMFTSESVGEGHPDKICDQISDAVLDAHLKQDPNAKVACETVCKTGMVLLCGEITSMAMVDYQRVVRDTIKHIGYDDSAKGFDFKTCNVLVALEQQSPDIAQCVHLDRNEEDVGAGDQGLMFGYATDETEECMPLTIILAHKLNARMADLRRSGLLPWLRPDSKTQVTVQYMQDNGAVIPVRIHTIVISVQHNEDITLEEMRRALKEQVIRAVVPAKYLDEDTVYHLQPSGRFVIGGPQGDAGVTGRKIIVDTYGGWGAHGGGAFSGKDYTKVDRSAAYAARWVAKSLVKAGLCRRVLVQVSYAIGVAEPLSISIFTYGTSQKTERELLDVVHKNFDLRPGVIVRDLDLKKPIYQKTACYGHFGRSEFPWEVPRKLVF",
+        "full_sequence": "MNGPVDGLCDHSLSEGVFMFTSESVGEGHPDKICDQISDAVLDAHLKQDPNAKVACETVCKTGMVLLCGEITSMAMVDYQRVVRDTIKHIGYDDSAKGFDFKTCNVLVALEQQSPDIAQCVHLDRNEEDVGAGDQGLMFGYATDETEECMPLTIILAHKLNARMADLRRSGLLPWLRPDSKTQVTVQYMQDNGAVIPVRIHTIVISVQHNEDITLEEMRRALKEQVIRAVVPAKYLDEDTVYHLQPSGRFVIGGPQGDAGVTGRKIIVDTYGGWGAHGGGAFSGKDYTKVDRSAAYAARWVAKSLVKAGLCRRVLVQVSYAIGVAEPLSISIFTYGTSQKTERELLDVVHKNFDLRPGVIVRDLDLKKPIYQKTACYGHFGRSEFPWEVPRKLVF",
+        "n_residues": 395,
+        "mutation_pos_1indexed": 76,
+        "wt_aa": "M",
+        "mut_aa": "T",
+        "pocket_lining_residues": "S73-M74-A75-M76-V77",
+        "pocket_lining_positions_precursor": [
+          73,
+          74,
+          75,
+          76,
+          77
+        ],
+        "pocket_lining_1letter": "SMAMV",
+        "sequence_slice_around_pocket": "LLCGEITSMAMVDYQRVVRD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MAT1A_M76T/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "S73",
+          "M74",
+          "A75",
+          "M76",
+          "V77"
+        ],
+        "values": [
+          [
+            0.0,
+            3.84,
+            5.424,
+            8.264,
+            9.592
+          ],
+          [
+            3.84,
+            0.0,
+            3.859,
+            6.722,
+            9.411
+          ],
+          [
+            5.424,
+            3.859,
+            0.0,
+            3.826,
+            5.978
+          ],
+          [
+            8.264,
+            6.722,
+            3.826,
+            0.0,
+            3.847
+          ],
+          [
+            9.592,
+            9.411,
+            5.978,
+            3.847,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.7097428209464299,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MAT1A-M76T Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7097,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MAT1A_M76T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MAT1A_M76T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MAT1A_M76T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MAT1A_M76T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MAT1A_M76T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MAT1A-M76T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MAT1A-M76T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:56:30.426391+00:00"
     }
   ]
 }
