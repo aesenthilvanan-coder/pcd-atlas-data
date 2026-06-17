@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 728,
+  "total_entries": 729,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45237,
-    "queue_remaining": 133360
+    "total_processed": 45238,
+    "queue_remaining": 133359
   },
   "entries": [
     {
@@ -160870,6 +160870,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:18:33.363343+00:00"
+    },
+    {
+      "entry_id": "PCD-ATP2A2-L32F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATP2A2-L32F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ATP2A2",
+        "uniprot": "",
+        "clinvar_id": "307160",
+        "disease": "Keratosis follicularis",
+        "mutation_precursor": "L32F",
+        "mutation_mature": "L32F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7461841459255406,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 589.7343212430341,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          3.2222518920898438,
+          36.276737213134766,
+          -23.195571899414062
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.790321305759558,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6116293331417805,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q28": "Q",
+          "V29": "V",
+          "K30": "K",
+          "K31": "K",
+          "L32": "L",
+          "K33": "K",
+          "E34": "E",
+          "R35": "R",
+          "W36": "W"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P16615|ATP2A2 variant L32F",
+        "fasta_sequence": "MENAHTKTVEEVLGHFGVNESTGLSLEQVKKLKERWGSNELPAEEGKTLLELVIEQFEDLLVRILLLAACISFVLAWFEEGEETITAFVEPFVILLILVANAIVGVWQERNAENAIEALKEYEPEMGKVYRQDRKSVQRIKAKDIVPGDIVEIAVGDKVPADIRLTSIKSTTLRVDQSILTGESVSVIKHTDPVPDPRAVNQDKKNMLFSGTNIAAGKAMGVVVATGVNTEIGKIRDEMVATEQERTPLQQKLDEFGEQLSKVISLICIAVWIINIGHFNDPVHGGSWIRGAIYYFKIAVALAVAAIPEGLPAVITTCLALGTRRMAKKNAIVRSLPSVETLGCTSVICSDKTGTLTTNQMSVCRMFILDRVEGDTCSLNEFTITGSTYAPIGEVHKDDKPVNCHQYDGLVELATICALCNDSALDYNEAKGVYEKVGEATETALTCLVEKMNVFDTELKGLSKIERANACNSVIKQLMKKEFTLEFSRDRKSMSVYCTPNKPSRTSMSKMFVKGAPEGVIDRCTHIRVGSTKVPMTSGVKQKIMSVIREWGSGSDTLRCLALATHDNPLRREEMHLEDSANFIKYETNLTFVGCVGMLDPPRIEVASSVKLCRQAGIRVIMITGDNKGTAVAICRRIGIFGQDEDVTSKAFTGREFDELNPSAQRDACLNARCFARVEPSHKSKIVEFLQSFDEITAMTGDGVNDAPALKKAEIGIAMGSGTAVAKTASEMVLADDNFSTIVAAVEEGRAIYNNMKQFIRYLISSNVGEVVCIFLTAALGFPEALIPVQLLWVNLVTDGLPATALGFNPPDLDIMNKPPRNPKEPLISGWLFFRYLAIGCYVGAATVGAAAWWFIAADGGPRVSFYQLSHFLQCKEDNPDFEGVDCAIFESPYPMTMALSVLVTIEMCNALNSLSENQSLLRMPPWENIWLVGSICLSMSLHFLILYVEPLPLIFQITPLNVTQWLMVLKISLPVILMDETLKFVARNYLEPGKECVQPATKSCSFSACTDGISWPFVLLIMPLVIWVYSTDTNFSDMFWS",
+        "full_sequence": "MENAHTKTVEEVLGHFGVNESTGLSLEQVKKLKERWGSNELPAEEGKTLLELVIEQFEDLLVRILLLAACISFVLAWFEEGEETITAFVEPFVILLILVANAIVGVWQERNAENAIEALKEYEPEMGKVYRQDRKSVQRIKAKDIVPGDIVEIAVGDKVPADIRLTSIKSTTLRVDQSILTGESVSVIKHTDPVPDPRAVNQDKKNMLFSGTNIAAGKAMGVVVATGVNTEIGKIRDEMVATEQERTPLQQKLDEFGEQLSKVISLICIAVWIINIGHFNDPVHGGSWIRGAIYYFKIAVALAVAAIPEGLPAVITTCLALGTRRMAKKNAIVRSLPSVETLGCTSVICSDKTGTLTTNQMSVCRMFILDRVEGDTCSLNEFTITGSTYAPIGEVHKDDKPVNCHQYDGLVELATICALCNDSALDYNEAKGVYEKVGEATETALTCLVEKMNVFDTELKGLSKIERANACNSVIKQLMKKEFTLEFSRDRKSMSVYCTPNKPSRTSMSKMFVKGAPEGVIDRCTHIRVGSTKVPMTSGVKQKIMSVIREWGSGSDTLRCLALATHDNPLRREEMHLEDSANFIKYETNLTFVGCVGMLDPPRIEVASSVKLCRQAGIRVIMITGDNKGTAVAICRRIGIFGQDEDVTSKAFTGREFDELNPSAQRDACLNARCFARVEPSHKSKIVEFLQSFDEITAMTGDGVNDAPALKKAEIGIAMGSGTAVAKTASEMVLADDNFSTIVAAVEEGRAIYNNMKQFIRYLISSNVGEVVCIFLTAALGFPEALIPVQLLWVNLVTDGLPATALGFNPPDLDIMNKPPRNPKEPLISGWLFFRYLAIGCYVGAATVGAAAWWFIAADGGPRVSFYQLSHFLQCKEDNPDFEGVDCAIFESPYPMTMALSVLVTIEMCNALNSLSENQSLLRMPPWENIWLVGSICLSMSLHFLILYVEPLPLIFQITPLNVTQWLMVLKISLPVILMDETLKFVARNYLEPGKECVQPATKSCSFSACTDGISWPFVLLIMPLVIWVYSTDTNFSDMFWS",
+        "n_residues": 1042,
+        "mutation_pos_1indexed": 32,
+        "wt_aa": "L",
+        "mut_aa": "F",
+        "pocket_lining_residues": "Q28-V29-K30-K31-L32-K33-E34-R35-W36",
+        "pocket_lining_positions_precursor": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "pocket_lining_1letter": "QVKKLKERW",
+        "sequence_slice_around_pocket": "TGLSLEQVKKLKERWGSNEL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ATP2A2_L32F/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "Q28",
+          "V29",
+          "K30",
+          "K31",
+          "L32",
+          "K33",
+          "E34",
+          "R35",
+          "W36"
+        ],
+        "values": [
+          [
+            0.0,
+            3.854,
+            5.512,
+            5.156,
+            5.959,
+            8.398,
+            9.905,
+            10.444,
+            11.879
+          ],
+          [
+            3.854,
+            0.0,
+            3.852,
+            5.591,
+            5.175,
+            5.933,
+            8.58,
+            9.813,
+            10.298
+          ],
+          [
+            5.512,
+            3.852,
+            0.0,
+            3.856,
+            5.558,
+            5.12,
+            6.237,
+            8.689,
+            10.124
+          ],
+          [
+            5.156,
+            5.591,
+            3.856,
+            0.0,
+            3.841,
+            5.522,
+            5.213,
+            6.279,
+            8.773
+          ],
+          [
+            5.959,
+            5.175,
+            5.558,
+            3.841,
+            0.0,
+            3.853,
+            5.435,
+            4.958,
+            5.937
+          ],
+          [
+            8.398,
+            5.933,
+            5.12,
+            5.522,
+            3.853,
+            0.0,
+            3.852,
+            5.437,
+            5.376
+          ],
+          [
+            9.905,
+            8.58,
+            6.237,
+            5.213,
+            5.435,
+            3.852,
+            0.0,
+            3.862,
+            5.951
+          ],
+          [
+            10.444,
+            9.813,
+            8.689,
+            6.279,
+            4.958,
+            5.437,
+            3.862,
+            0.0,
+            3.84
+          ],
+          [
+            11.879,
+            10.298,
+            10.124,
+            8.773,
+            5.937,
+            5.376,
+            5.951,
+            3.84,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1OCNc1nc2ccccc2[nH]1",
+        "composite_score": 0.7987029909428883,
+        "mw": 402.15,
+        "logp": 2.008,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.5384,
+        "sa_score": 3.48,
+        "n_heavy_atoms": 28,
+        "tpsa": 126.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ATP2A2-L32F Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1OCNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.7987,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ATP2A2_L32F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ATP2A2_L32F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ATP2A2_L32F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ATP2A2_L32F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ATP2A2_L32F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATP2A2-L32F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATP2A2-L32F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:19:09.898188+00:00"
     }
   ]
 }
