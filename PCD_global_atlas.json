@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 112,
+  "total_entries": 113,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44516,
-    "queue_remaining": 134081
+    "total_processed": 44517,
+    "queue_remaining": 134080
   },
   "entries": [
     {
@@ -25659,6 +25659,229 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:20:57.485269+00:00"
+    },
+    {
+      "entry_id": "PCD-TBX3-I234V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX3-I234V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TBX3",
+        "uniprot": "",
+        "clinvar_id": "307373",
+        "disease": "Ulnar-mammary syndrome",
+        "mutation_precursor": "I234V",
+        "mutation_mature": "I234V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8638692247149862,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 611.1716438795089,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -20.868122100830078,
+          13.586043357849121,
+          -6.060229301452637
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.612363697840555,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8321802651160266,
+        "cryptic": true,
+        "pocket_residues": {
+          "P181": "P",
+          "K182": "K",
+          "R183": "R",
+          "W230": "W",
+          "Q231": "Q",
+          "G232": "G",
+          "N233": "N",
+          "Y234": "Y",
+          "S235": "S"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15119|TBX3 variant I234V",
+        "fasta_sequence": "MSLSMRDPVIPGTSMAYHPFLPHRAPDFAMSAVLGHQPPFFPALTLPPNGAAALSLPGALAKPIMDQLVGAAETGIPFSSLGPQAHLRPLKTMEPEEEVEDDPKVHLEAKELWDQFHKRGTEMVITKSGRRMFPPFKVRCSGLDKKAKYILLMDIIAADDCRYKFHNSRWMVAGKADPEMPKRMYIHPDSPATGEQWMSKVVTFHKLKLTNNISDKHGFTLAFPSDHATWQGNYSFGTQTILNSMHKYQPRFHIVRANDILKLPYSTFRTYLFPETEFIAVTAYQNDKITQLKIDNNPFAKGFRDTGNGRREKRKQLTLQSMRVFDERHKKENGTSDESSSEQAAFNCFAQASSPAASTVGTSNLKDLCPSEGESDAEAESKEEHGPEACDAAKISTTTSEEPCRDKGSPAVKAHLFAAERPRDSGRLDKASPDSRHSPATISSSTRGLGAEERRSPVREGTAPAKVEEARALPGKEAFAPLTVQTDAAAAHLAQGPLPGLGFAPGLAGQQFFNGHPLFLHPSQFAMGGAFSSMAAAGMGPLLATVSGASTGVSGLDSTAMASAAAAQGLSGASAATLPFHLQQHVLASQGLAMSPFGSLFPYPYTYMAAAAAASSAAASSSVHRHPFLNLNTMRPRLRYSPYSIPVPVPDGSSLLTTALPSMAAAAGPLDGKVAALAASPASVAVDSGSELNSRSSTLSSSSMSLSPKLCAEKEAATSELQSIQRLVSGLEAKPDRSRSASP",
+        "full_sequence": "MSLSMRDPVIPGTSMAYHPFLPHRAPDFAMSAVLGHQPPFFPALTLPPNGAAALSLPGALAKPIMDQLVGAAETGIPFSSLGPQAHLRPLKTMEPEEEVEDDPKVHLEAKELWDQFHKRGTEMVITKSGRRMFPPFKVRCSGLDKKAKYILLMDIIAADDCRYKFHNSRWMVAGKADPEMPKRMYIHPDSPATGEQWMSKVVTFHKLKLTNNISDKHGFTLAFPSDHATWQGNYSFGTQTILNSMHKYQPRFHIVRANDILKLPYSTFRTYLFPETEFIAVTAYQNDKITQLKIDNNPFAKGFRDTGNGRREKRKQLTLQSMRVFDERHKKENGTSDESSSEQAAFNCFAQASSPAASTVGTSNLKDLCPSEGESDAEAESKEEHGPEACDAAKISTTTSEEPCRDKGSPAVKAHLFAAERPRDSGRLDKASPDSRHSPATISSSTRGLGAEERRSPVREGTAPAKVEEARALPGKEAFAPLTVQTDAAAAHLAQGPLPGLGFAPGLAGQQFFNGHPLFLHPSQFAMGGAFSSMAAAGMGPLLATVSGASTGVSGLDSTAMASAAAAQGLSGASAATLPFHLQQHVLASQGLAMSPFGSLFPYPYTYMAAAAAASSAAASSSVHRHPFLNLNTMRPRLRYSPYSIPVPVPDGSSLLTTALPSMAAAAGPLDGKVAALAASPASVAVDSGSELNSRSSTLSSSSMSLSPKLCAEKEAATSELQSIQRLVSGLEAKPDRSRSASP",
+        "n_residues": 743,
+        "mutation_pos_1indexed": 234,
+        "wt_aa": "I",
+        "mut_aa": "V",
+        "pocket_lining_residues": "P181-K182-R183-W230-Q231-G232-N233-Y234-S235",
+        "pocket_lining_positions_precursor": [
+          181,
+          182,
+          183,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235
+        ],
+        "pocket_lining_1letter": "PKRWQGNYS",
+        "sequence_slice_around_pocket": "PSDHATWQGNYSFGTQTILN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_I234V/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "P181",
+          "K182",
+          "R183",
+          "W230",
+          "Q231",
+          "G232",
+          "N233",
+          "Y234",
+          "S235"
+        ],
+        "values": [
+          [
+            0.0,
+            3.836,
+            6.371,
+            14.128,
+            12.057,
+            10.021,
+            6.208,
+            7.614,
+            7.939
+          ],
+          [
+            3.836,
+            0.0,
+            3.824,
+            14.672,
+            13.244,
+            10.292,
+            6.632,
+            6.32,
+            7.294
+          ],
+          [
+            6.371,
+            3.824,
+            0.0,
+            14.175,
+            13.728,
+            10.908,
+            7.78,
+            5.579,
+            5.009
+          ],
+          [
+            14.128,
+            14.672,
+            14.175,
+            0.0,
+            3.852,
+            5.535,
+            8.559,
+            9.024,
+            9.901
+          ],
+          [
+            12.057,
+            13.244,
+            13.728,
+            3.852,
+            0.0,
+            3.871,
+            6.671,
+            8.776,
+            10.217
+          ],
+          [
+            10.021,
+            10.292,
+            10.908,
+            5.535,
+            3.871,
+            0.0,
+            3.859,
+            5.661,
+            8.258
+          ],
+          [
+            6.208,
+            6.632,
+            7.78,
+            8.559,
+            6.671,
+            3.859,
+            0.0,
+            3.881,
+            6.33
+          ],
+          [
+            7.614,
+            6.32,
+            5.579,
+            9.024,
+            8.776,
+            5.661,
+            3.881,
+            0.0,
+            3.834
+          ],
+          [
+            7.939,
+            7.294,
+            5.009,
+            9.901,
+            10.217,
+            8.258,
+            6.33,
+            3.834,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COC1CCCC(N2CCCCC2)N1c1cnccc1NCCC(N)=O",
+        "composite_score": 0.5222128057034814,
+        "mw": 361.25,
+        "logp": 2.144,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.7741,
+        "sa_score": 3.65,
+        "n_heavy_atoms": 26,
+        "tpsa": 83.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TBX3-I234V Candidate #1",
+        "iupac_name": "COC1CCCC(N2CCCCC2)N1c1cnccc1NCCC(N)=O",
+        "pocket_affinity_score": 0.5222,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_I234V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_I234V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_I234V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_I234V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_I234V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX3-I234V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX3-I234V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:21:27.141557+00:00"
     }
   ]
 }
