@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1322,
+  "total_entries": 1323,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45939,
-    "queue_remaining": 132658
+    "total_processed": 45940,
+    "queue_remaining": 132657
   },
   "entries": [
     {
@@ -292798,6 +292798,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:19:10.391519+00:00"
+    },
+    {
+      "entry_id": "PCD-HSF4-E87K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HSF4-E87K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HSF4",
+        "uniprot": "",
+        "clinvar_id": "320179",
+        "disease": "Cataract 5 multiple types",
+        "mutation_precursor": "E87K",
+        "mutation_mature": "E87K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9230716346494663,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 560.5948338559581,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -11.96721076965332,
+          -3.5203726291656494,
+          -0.42396116256713867
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.675706975967269,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8080063826133902,
+        "cryptic": true,
+        "pocket_residues": {
+          "V84": "V",
+          "S85": "S",
+          "I86": "I",
+          "E87": "E",
+          "Q88": "Q",
+          "G89": "G",
+          "G90": "G",
+          "R96": "R"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9ULV5|HSF4 variant E87K",
+        "fasta_sequence": "MQEAPAALPTEPGPSPVPAFLGKLWALVGDPGTDHLIRWSPSGTSFLVSDQSRFAKEVLPQYFKHSNMASFVRQLNMYGFRKVVSIEQGGLLRPERDHVEFQHPSFVRGREQLLERVRRKVPALRGDDGRWRPEDLGRLLGEVQALRGVQESTEARLRELRQQNEILWREVVTLRQSHGQQHRVIGKLIQCLFGPLQAGPSNAGGKRKLSLMLDEGSSCPTPAKFNTCPLPGALLQDPYFIQSPLPETNLGLSPHRARGPIISDIPEDSPSPEGTRLSPSSDGRREKGLALLKEEPASPGGDGEAGLALAPNECDFCVTAPPPLPVAVVQAILEGKGSFSPEGPRNAQQPEPGDPREIPDRGPLGLESGDRSPESLLPPMLLQPPQESVEPAGPLDVLGPSLQGREWTLMDLDMELSLMQPLVPERGEPELAVKGLNSPSPGKDPTLGAPLLLDVQAALGGPALGLPGALTIYSTPESRTASYLGPEASPSP",
+        "full_sequence": "MQEAPAALPTEPGPSPVPAFLGKLWALVGDPGTDHLIRWSPSGTSFLVSDQSRFAKEVLPQYFKHSNMASFVRQLNMYGFRKVVSIEQGGLLRPERDHVEFQHPSFVRGREQLLERVRRKVPALRGDDGRWRPEDLGRLLGEVQALRGVQESTEARLRELRQQNEILWREVVTLRQSHGQQHRVIGKLIQCLFGPLQAGPSNAGGKRKLSLMLDEGSSCPTPAKFNTCPLPGALLQDPYFIQSPLPETNLGLSPHRARGPIISDIPEDSPSPEGTRLSPSSDGRREKGLALLKEEPASPGGDGEAGLALAPNECDFCVTAPPPLPVAVVQAILEGKGSFSPEGPRNAQQPEPGDPREIPDRGPLGLESGDRSPESLLPPMLLQPPQESVEPAGPLDVLGPSLQGREWTLMDLDMELSLMQPLVPERGEPELAVKGLNSPSPGKDPTLGAPLLLDVQAALGGPALGLPGALTIYSTPESRTASYLGPEASPSP",
+        "n_residues": 492,
+        "mutation_pos_1indexed": 87,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "V84-S85-I86-E87-Q88-G89-G90-R96",
+        "pocket_lining_positions_precursor": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          96
+        ],
+        "pocket_lining_1letter": "VSIEQGGR",
+        "sequence_slice_around_pocket": "MYGFRKVVSIEQGGLLRPER"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HSF4_E87K/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "V84",
+          "S85",
+          "I86",
+          "E87",
+          "Q88",
+          "G89",
+          "G90",
+          "R96"
+        ],
+        "values": [
+          [
+            0.0,
+            3.826,
+            6.005,
+            8.907,
+            9.069,
+            11.35,
+            11.794,
+            11.71
+          ],
+          [
+            3.826,
+            0.0,
+            3.853,
+            5.442,
+            6.183,
+            9.095,
+            10.478,
+            9.992
+          ],
+          [
+            6.005,
+            3.853,
+            0.0,
+            3.876,
+            5.485,
+            6.904,
+            9.048,
+            12.615
+          ],
+          [
+            8.907,
+            5.442,
+            3.876,
+            0.0,
+            3.858,
+            5.91,
+            8.995,
+            11.48
+          ],
+          [
+            9.069,
+            6.183,
+            5.485,
+            3.858,
+            0.0,
+            3.814,
+            5.801,
+            9.188
+          ],
+          [
+            11.35,
+            9.095,
+            6.904,
+            5.91,
+            3.814,
+            0.0,
+            3.814,
+            12.403
+          ],
+          [
+            11.794,
+            10.478,
+            9.048,
+            8.995,
+            5.801,
+            3.814,
+            0.0,
+            12.055
+          ],
+          [
+            11.71,
+            9.992,
+            12.615,
+            11.48,
+            9.188,
+            12.403,
+            12.055,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(Cl)cc1CC(=O)NC(=O)c1ccc(F)cc1",
+        "composite_score": 0.7732404829281297,
+        "mw": 334.05,
+        "logp": 2.077,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8967,
+        "sa_score": 1.93,
+        "n_heavy_atoms": 23,
+        "tpsa": 89.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HSF4-E87K Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(Cl)cc1CC(=O)NC(=O)c1ccc(F)cc1",
+        "pocket_affinity_score": 0.7732,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HSF4_E87K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HSF4_E87K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HSF4_E87K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HSF4_E87K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HSF4_E87K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HSF4-E87K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HSF4-E87K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:19:34.651819+00:00"
     }
   ]
 }
