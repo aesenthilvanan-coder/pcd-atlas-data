@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 120,
+  "total_entries": 121,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44524,
-    "queue_remaining": 134073
+    "total_processed": 44525,
+    "queue_remaining": 134072
   },
   "entries": [
     {
@@ -27360,6 +27360,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:24:24.127800+00:00"
+    },
+    {
+      "entry_id": "PCD-GSN-A519T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GSN-A519T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GSN",
+        "uniprot": "",
+        "clinvar_id": "364820",
+        "disease": "Finnish type amyloidosis",
+        "mutation_precursor": "A519T",
+        "mutation_mature": "A519T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9002834086371111,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 501.46437624352166,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -21.83340835571289,
+          26.973949432373047,
+          1.3662314414978027
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.6692679241457435,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6224076076204851,
+        "cryptic": true,
+        "pocket_residues": {
+          "L513": "L",
+          "D514": "D",
+          "E515": "E",
+          "E516": "E",
+          "L517": "L",
+          "G518": "G",
+          "G519": "G",
+          "T520": "T",
+          "P521": "P"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P06396|GSN variant A519T",
+        "fasta_sequence": "MAPHRPAPALLCALSLALCALSLPVRAATASRGASQAGAPQGRVPEARPNSMVVEHPEFLKAGKEPGLQIWRVEKFDLVPVPTNLYGDFFTGDAYVILKTVQLRNGNLQYDLHYWLGNECSQDESGAAAIFTVQLDDYLNGRAVQHREVQGFESATFLGYFKSGLKYKKGGVASGFKHVVPNEVVVQRLFQVKGRRVVRATEVPVSWESFNNGDCFILDLGNNIHQWCGSNSNRYERLKATQVSKGIRDNERSGRARVHVSEEGTEPEAMLQVLGPKPALPAGTEDTAKEDAANRKLAKLYKVSNGAGTMSVSLVADENPFAQGALKSEDCFILDHGKDGKIFVWKGKQANTEERKAALKTASDFITKMDYPKQTQVSVLPEGGETPLFKQFFKNWRDPDQTDGLGLSYLSSHIANVERVPFDAATLHTSTAMAAQHGMDDDGTGQKQIWRIEGSNKVPVDPATYGQFYGGDSYIILYNYRHGGRQGQIIYNWQGAQSTQDEVAASAILTAQLDEELGGTPVQSRVVQGKEPAHLMSLFGGKPMIIYKGGTSREGGQTAPASTRLFQVRANSAGATRAVEVLPKAGALNSNDAFVLKTPSAAYLWVGTGASEAEKTGAQELLRVLRAQPVQVAEGSEPDGFWEALGGKAAYRTSPRLKDKKMDAHPPRLFACSNKIGRFVIEEVPGELMQEDLATDDVMLLDTWDQVFVWVGKDSQEEEKTEALTSAKRYIETDPANRDRRTPITVVKQGFEPPSFVGWFLGWDDDYWSVDPLDRAMAELAA",
+        "full_sequence": "MAPHRPAPALLCALSLALCALSLPVRAATASRGASQAGAPQGRVPEARPNSMVVEHPEFLKAGKEPGLQIWRVEKFDLVPVPTNLYGDFFTGDAYVILKTVQLRNGNLQYDLHYWLGNECSQDESGAAAIFTVQLDDYLNGRAVQHREVQGFESATFLGYFKSGLKYKKGGVASGFKHVVPNEVVVQRLFQVKGRRVVRATEVPVSWESFNNGDCFILDLGNNIHQWCGSNSNRYERLKATQVSKGIRDNERSGRARVHVSEEGTEPEAMLQVLGPKPALPAGTEDTAKEDAANRKLAKLYKVSNGAGTMSVSLVADENPFAQGALKSEDCFILDHGKDGKIFVWKGKQANTEERKAALKTASDFITKMDYPKQTQVSVLPEGGETPLFKQFFKNWRDPDQTDGLGLSYLSSHIANVERVPFDAATLHTSTAMAAQHGMDDDGTGQKQIWRIEGSNKVPVDPATYGQFYGGDSYIILYNYRHGGRQGQIIYNWQGAQSTQDEVAASAILTAQLDEELGGTPVQSRVVQGKEPAHLMSLFGGKPMIIYKGGTSREGGQTAPASTRLFQVRANSAGATRAVEVLPKAGALNSNDAFVLKTPSAAYLWVGTGASEAEKTGAQELLRVLRAQPVQVAEGSEPDGFWEALGGKAAYRTSPRLKDKKMDAHPPRLFACSNKIGRFVIEEVPGELMQEDLATDDVMLLDTWDQVFVWVGKDSQEEEKTEALTSAKRYIETDPANRDRRTPITVVKQGFEPPSFVGWFLGWDDDYWSVDPLDRAMAELAA",
+        "n_residues": 782,
+        "mutation_pos_1indexed": 519,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "L513-D514-E515-E516-L517-G518-G519-T520-P521",
+        "pocket_lining_positions_precursor": [
+          513,
+          514,
+          515,
+          516,
+          517,
+          518,
+          519,
+          520,
+          521
+        ],
+        "pocket_lining_1letter": "LDEELGGTP",
+        "sequence_slice_around_pocket": "LTAQLDEELGGTPVQSRVVQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GSN_A519T/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "L513",
+          "D514",
+          "E515",
+          "E516",
+          "L517",
+          "G518",
+          "G519",
+          "T520",
+          "P521"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            5.513,
+            4.939,
+            6.228,
+            8.818,
+            8.561,
+            10.35,
+            8.96
+          ],
+          [
+            3.841,
+            0.0,
+            3.853,
+            5.472,
+            5.107,
+            6.501,
+            5.042,
+            6.878,
+            5.924
+          ],
+          [
+            5.513,
+            3.853,
+            0.0,
+            3.873,
+            5.289,
+            4.995,
+            4.645,
+            7.968,
+            8.745
+          ],
+          [
+            4.939,
+            5.472,
+            3.873,
+            0.0,
+            3.879,
+            5.56,
+            7.296,
+            9.557,
+            9.986
+          ],
+          [
+            6.228,
+            5.107,
+            5.289,
+            3.879,
+            0.0,
+            3.864,
+            5.844,
+            6.572,
+            7.085
+          ],
+          [
+            8.818,
+            6.501,
+            4.995,
+            5.56,
+            3.864,
+            0.0,
+            3.87,
+            5.491,
+            7.932
+          ],
+          [
+            8.561,
+            5.042,
+            4.645,
+            7.296,
+            5.844,
+            3.87,
+            0.0,
+            3.861,
+            6.031
+          ],
+          [
+            10.35,
+            6.878,
+            7.968,
+            9.557,
+            6.572,
+            5.491,
+            3.861,
+            0.0,
+            3.865
+          ],
+          [
+            8.96,
+            5.924,
+            8.745,
+            9.986,
+            7.085,
+            7.932,
+            6.031,
+            3.865,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCCCS(=O)(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.7557576463945107,
+        "mw": 311.17,
+        "logp": 1.975,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 7,
+        "qed": 0.7792,
+        "sa_score": 2.42,
+        "n_heavy_atoms": 21,
+        "tpsa": 76.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GSN-A519T Candidate #1",
+        "iupac_name": "NCCCCCS(=O)(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.7558,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GSN_A519T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GSN_A519T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GSN_A519T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GSN_A519T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GSN_A519T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GSN-A519T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GSN-A519T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:24:53.252428+00:00"
     }
   ]
 }
