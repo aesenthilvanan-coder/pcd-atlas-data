@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 12,
+  "total_entries": 13,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44394,
-    "queue_remaining": 134203
+    "total_processed": 44395,
+    "queue_remaining": 134202
   },
   "entries": [
     {
@@ -3451,6 +3451,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T02:51:51.606216+00:00"
+    },
+    {
+      "entry_id": "PCD-ROR2-A436V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ROR2-A436V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ROR2",
+        "uniprot": "",
+        "clinvar_id": "367507",
+        "disease": "Brachydactyly type B1",
+        "mutation_precursor": "A436V",
+        "mutation_mature": "A436V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8428793390063645,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 376.2771373067639,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          37.65301513671875,
+          -21.801288604736328,
+          -37.762332916259766
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.41180219001204,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7380682140304409,
+        "cryptic": true,
+        "pocket_residues": {
+          "A434": "A",
+          "S435": "S",
+          "A436": "A",
+          "S437": "S"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q01974|ROR2 variant A436V",
+        "fasta_sequence": "MARGSALPRRPLLCIPAVWAAAALLLSVSRTSGEVEVLDPNDPLGPLDGQDGPIPTLKGYFLNFLEPVNNITIVQGQTAILHCKVAGNPPPNVRWLKNDAPVVQEPRRIIIRKTEYGSRLRIQDLDTTDTGYYQCVATNGMKTITATGVLFVRLGPTHSPNHNFQDDYHEDGFCQPYRGIACARFIGNRTIYVDSLQMQGEIENRITAAFTMIGTSTHLSDQCSQFAIPSFCHFVFPLCDARSRTPKPRELCRDECEVLESDLCRQEYTIARSNPLILMRLQLPKCEALPMPESPDAANCMRIGIPAERLGRYHQCYNGSGMDYRGTASTTKSGHQCQPWALQHPHSHHLSSTDFPELGGGHAYCRNPGGQMEGPWCFTQNKNVRMELCDVPSCSPRDSSKMGILYILVPSIAIPLVIACLFFLVCMCRNKQKASASTPQRRQLMASPSQDMEMPLINQHKQAKLKEISLSAVRFMEELGEDRFGKVYKGHLFGPAPGEQTQAVAIKTLKDKAEGPLREEFRHEAMLRARLQHPNVVCLLGVVTKDQPLSMIFSYCSHGDLHEFLVMRSPHSDVGSTDDDRTVKSALEPPDFVHLVAQIAAGMEYLSSHHVVHKDLATRNVLVYDKLNVKISDLGLFREVYAADYYKLLGNSLLPIRWMAPEAIMYGKFSIDSDIWSYGVVLWEVFSYGLQPYCGYSNQDVVEMIRNRQVLPCPDDCPAWVYALMIECWNEFPSRRPRFKDIHSRLRAWGNLSNYNSSAQTSGASNTTQTSSLSTSPVSNVSNARYVGPKQKAPPFPQPQFIPMKGQIRPMVPPPQLYVPVNGYQPVPAYGAYLPNFYPVQIPMQMAPQQVPPQMVPKPSSHHSGSGSTSTGYVTTAPSNTSMADRAALLSEGADDTQNAPEDGAQSTVQEAEEEEEGSVPETELLGDCDTLQVDEAQVQLEA",
+        "full_sequence": "MARGSALPRRPLLCIPAVWAAAALLLSVSRTSGEVEVLDPNDPLGPLDGQDGPIPTLKGYFLNFLEPVNNITIVQGQTAILHCKVAGNPPPNVRWLKNDAPVVQEPRRIIIRKTEYGSRLRIQDLDTTDTGYYQCVATNGMKTITATGVLFVRLGPTHSPNHNFQDDYHEDGFCQPYRGIACARFIGNRTIYVDSLQMQGEIENRITAAFTMIGTSTHLSDQCSQFAIPSFCHFVFPLCDARSRTPKPRELCRDECEVLESDLCRQEYTIARSNPLILMRLQLPKCEALPMPESPDAANCMRIGIPAERLGRYHQCYNGSGMDYRGTASTTKSGHQCQPWALQHPHSHHLSSTDFPELGGGHAYCRNPGGQMEGPWCFTQNKNVRMELCDVPSCSPRDSSKMGILYILVPSIAIPLVIACLFFLVCMCRNKQKASASTPQRRQLMASPSQDMEMPLINQHKQAKLKEISLSAVRFMEELGEDRFGKVYKGHLFGPAPGEQTQAVAIKTLKDKAEGPLREEFRHEAMLRARLQHPNVVCLLGVVTKDQPLSMIFSYCSHGDLHEFLVMRSPHSDVGSTDDDRTVKSALEPPDFVHLVAQIAAGMEYLSSHHVVHKDLATRNVLVYDKLNVKISDLGLFREVYAADYYKLLGNSLLPIRWMAPEAIMYGKFSIDSDIWSYGVVLWEVFSYGLQPYCGYSNQDVVEMIRNRQVLPCPDDCPAWVYALMIECWNEFPSRRPRFKDIHSRLRAWGNLSNYNSSAQTSGASNTTQTSSLSTSPVSNVSNARYVGPKQKAPPFPQPQFIPMKGQIRPMVPPPQLYVPVNGYQPVPAYGAYLPNFYPVQIPMQMAPQQVPPQMVPKPSSHHSGSGSTSTGYVTTAPSNTSMADRAALLSEGADDTQNAPEDGAQSTVQEAEEEEEGSVPETELLGDCDTLQVDEAQVQLEA",
+        "n_residues": 943,
+        "mutation_pos_1indexed": 436,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "A434-S435-A436-S437",
+        "pocket_lining_positions_precursor": [
+          434,
+          435,
+          436,
+          437
+        ],
+        "pocket_lining_1letter": "ASAS",
+        "sequence_slice_around_pocket": "CMCRNKQKASASTPQRRQLM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ROR2_A436V/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A434",
+          "S435",
+          "A436",
+          "S437"
+        ],
+        "values": [
+          [
+            0.0,
+            3.665,
+            6.991,
+            10.548
+          ],
+          [
+            3.665,
+            0.0,
+            3.425,
+            6.943
+          ],
+          [
+            6.991,
+            3.425,
+            0.0,
+            3.565
+          ],
+          [
+            10.548,
+            6.943,
+            3.565,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccc(F)cc1N1CCCCC1",
+        "composite_score": 0.5460321622531711,
+        "mw": 236.13,
+        "logp": 1.957,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8159,
+        "sa_score": 2.14,
+        "n_heavy_atoms": 17,
+        "tpsa": 46.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ROR2-A436V Candidate #1",
+        "iupac_name": "NCC(=O)c1ccc(F)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.546,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ROR2_A436V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ROR2_A436V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ROR2_A436V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ROR2_A436V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ROR2_A436V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ROR2-A436V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ROR2-A436V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T02:53:44.699532+00:00"
     }
   ]
 }
