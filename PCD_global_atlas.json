@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1219,
+  "total_entries": 1220,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45820,
-    "queue_remaining": 132777
+    "total_processed": 45821,
+    "queue_remaining": 132776
   },
   "entries": [
     {
@@ -269119,6 +269119,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:42:53.867189+00:00"
+    },
+    {
+      "entry_id": "PCD-MESP2-R62Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MESP2-R62Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MESP2",
+        "uniprot": "",
+        "clinvar_id": "317385",
+        "disease": "Spondylocostal dysostosis 2, autosomal recessive",
+        "mutation_precursor": "R62Q",
+        "mutation_mature": "R62Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7879452606363886,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 461.7986971928701,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          38.62192916870117,
+          2.0876214504241943,
+          -60.80393981933594
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.420115808790414,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.74969173613993,
+        "cryptic": true,
+        "pocket_residues": {
+          "S61": "S",
+          "R62": "R",
+          "A63": "A",
+          "A64": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q0VG99|MESP2 variant R62Q",
+        "fasta_sequence": "MAQSPPPQSLLGHDHWIFAQGWGWAGHWDSTSPASSSDSSGSCPCDGARGLPQPQPPSCSSRAAEAAATTPRRARTGPAGGQRQSASEREKLRMRTLARALHELRRFLPPSLAPAGQSLTKIETLRLAIRYIGHLSAVLGLSEESLQCRRRQRGDAGSPWGCPLCPDRGPAEAQTQAEGQGQGQGQGQGQGQGQGQGQGQGQGQGRRPGLVSAVLAEASWGSPSACPGAQAAPERLGRGVHDTDPWATPPYCPKIQSPPYSSQGTTSDASLWTPPQGCPWTQSSPEPRNPPVPWTAAPATLELAAVYQGLSVSPEPCLSLGAPSLLPHPSCQRLQPQTPGRCWSHSAEVVPNSEDQGPGAAFQLSEASPPQSSGLRFSGCPELWQEDLEGARLGIFY",
+        "full_sequence": "MAQSPPPQSLLGHDHWIFAQGWGWAGHWDSTSPASSSDSSGSCPCDGARGLPQPQPPSCSSRAAEAAATTPRRARTGPAGGQRQSASEREKLRMRTLARALHELRRFLPPSLAPAGQSLTKIETLRLAIRYIGHLSAVLGLSEESLQCRRRQRGDAGSPWGCPLCPDRGPAEAQTQAEGQGQGQGQGQGQGQGQGQGQGQGQGQGRRPGLVSAVLAEASWGSPSACPGAQAAPERLGRGVHDTDPWATPPYCPKIQSPPYSSQGTTSDASLWTPPQGCPWTQSSPEPRNPPVPWTAAPATLELAAVYQGLSVSPEPCLSLGAPSLLPHPSCQRLQPQTPGRCWSHSAEVVPNSEDQGPGAAFQLSEASPPQSSGLRFSGCPELWQEDLEGARLGIFY",
+        "n_residues": 397,
+        "mutation_pos_1indexed": 62,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "S61-R62-A63-A64",
+        "pocket_lining_positions_precursor": [
+          61,
+          62,
+          63,
+          64
+        ],
+        "pocket_lining_1letter": "SRAA",
+        "sequence_slice_around_pocket": "PQPQPPSCSSRAAEAAATTP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MESP2_R62Q/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "S61",
+          "R62",
+          "A63",
+          "A64"
+        ],
+        "values": [
+          [
+            0.0,
+            3.704,
+            7.113,
+            10.196
+          ],
+          [
+            3.704,
+            0.0,
+            3.61,
+            7.011
+          ],
+          [
+            7.113,
+            3.61,
+            0.0,
+            3.641
+          ],
+          [
+            10.196,
+            7.011,
+            3.641,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "composite_score": 0.5383125854399682,
+        "mw": 325.18,
+        "logp": 1.996,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 7,
+        "qed": 0.7503,
+        "sa_score": 2.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 89.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MESP2-R62Q Candidate #1",
+        "iupac_name": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5383,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MESP2_R62Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MESP2_R62Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MESP2_R62Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MESP2_R62Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MESP2_R62Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MESP2-R62Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MESP2-R62Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:43:19.816146+00:00"
     }
   ]
 }
