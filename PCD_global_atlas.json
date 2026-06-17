@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 995,
+  "total_entries": 996,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45543,
-    "queue_remaining": 133054
+    "total_processed": 45544,
+    "queue_remaining": 133053
   },
   "entries": [
     {
@@ -218697,6 +218697,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T17:05:50.396261+00:00"
+    },
+    {
+      "entry_id": "PCD-MLYCD-G446S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MLYCD-G446S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MLYCD",
+        "uniprot": "",
+        "clinvar_id": "320736",
+        "disease": "Deficiency of malonyl-CoA decarboxylase",
+        "mutation_precursor": "G446S",
+        "mutation_mature": "G446S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8903989503331156,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 541.7699010766842,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          15.903282165527344,
+          0.6529226303100586,
+          0.10989034175872803
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.424857977205231,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.893667445498978,
+        "cryptic": true,
+        "pocket_residues": {
+          "I331": "I",
+          "P332": "P",
+          "G333": "G",
+          "F334": "F",
+          "T335": "T",
+          "K336": "K",
+          "W337": "W",
+          "N417": "N",
+          "G446": "G",
+          "S447": "S"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O95822|MLYCD variant G446S",
+        "fasta_sequence": "MRGFGPGLTARRLLPLRLPPRPPGPRLASGQAAGALERAMDELLRRAVPPTPAYELREKTPAPAEGQCADFVSFYGGLAETAQRAELLGRLARGFGVDHGQVAEQSAGVLHLRQQQREAAVLLQAEDRLRYALVPRYRGLFHHISKLDGGVRFLVQLRADLLEAQALKLVEGPDVREMNGVLKGMLSEWFSSGFLNLERVTWHSPCEVLQKISEAEAVHPVKNWMDMKRRVGPYRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETEEKNKITAAIFYSISLTQQGLQGVELGTFLIKRVVKELQREFPHLGVFSSLSPIPGFTKWLLGLLNSQTKEHGRNELFTDSECKEISEITGGPINETLKLLLSSSEWVQSEKLVRALQTPLMRLCAWYLYGEKHRGYALNPVANFHLQNGAVLWRINWMADVSLRGITGSCGLMANYRYFLEETGPNSTSYLGSKIIKASEQVLSLVAQFQKNSKL",
+        "full_sequence": "MRGFGPGLTARRLLPLRLPPRPPGPRLASGQAAGALERAMDELLRRAVPPTPAYELREKTPAPAEGQCADFVSFYGGLAETAQRAELLGRLARGFGVDHGQVAEQSAGVLHLRQQQREAAVLLQAEDRLRYALVPRYRGLFHHISKLDGGVRFLVQLRADLLEAQALKLVEGPDVREMNGVLKGMLSEWFSSGFLNLERVTWHSPCEVLQKISEAEAVHPVKNWMDMKRRVGPYRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETEEKNKITAAIFYSISLTQQGLQGVELGTFLIKRVVKELQREFPHLGVFSSLSPIPGFTKWLLGLLNSQTKEHGRNELFTDSECKEISEITGGPINETLKLLLSSSEWVQSEKLVRALQTPLMRLCAWYLYGEKHRGYALNPVANFHLQNGAVLWRINWMADVSLRGITGSCGLMANYRYFLEETGPNSTSYLGSKIIKASEQVLSLVAQFQKNSKL",
+        "n_residues": 493,
+        "mutation_pos_1indexed": 446,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "I331-P332-G333-F334-T335-K336-W337-N417-G446-S447",
+        "pocket_lining_positions_precursor": [
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          417,
+          446,
+          447
+        ],
+        "pocket_lining_1letter": "IPGFTKWNGS",
+        "sequence_slice_around_pocket": "MADVSLRGITGSCGLMANYR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_G446S/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "I331",
+          "P332",
+          "G333",
+          "F334",
+          "T335",
+          "K336",
+          "W337",
+          "N417",
+          "G446",
+          "S447"
+        ],
+        "values": [
+          [
+            0.0,
+            3.855,
+            6.479,
+            6.07,
+            8.831,
+            10.696,
+            10.89,
+            7.156,
+            7.086,
+            5.493
+          ],
+          [
+            3.855,
+            0.0,
+            3.834,
+            5.751,
+            7.836,
+            8.554,
+            9.659,
+            7.266,
+            5.289,
+            5.951
+          ],
+          [
+            6.479,
+            3.834,
+            0.0,
+            3.86,
+            5.676,
+            5.119,
+            6.099,
+            7.279,
+            5.886,
+            6.618
+          ],
+          [
+            6.07,
+            5.751,
+            3.86,
+            0.0,
+            3.857,
+            5.428,
+            5.073,
+            8.004,
+            6.458,
+            4.944
+          ],
+          [
+            8.831,
+            7.836,
+            5.676,
+            3.857,
+            0.0,
+            3.854,
+            5.484,
+            11.69,
+            5.552,
+            4.975
+          ],
+          [
+            10.696,
+            8.554,
+            5.119,
+            5.428,
+            3.854,
+            0.0,
+            3.85,
+            11.496,
+            7.363,
+            8.185
+          ],
+          [
+            10.89,
+            9.659,
+            6.099,
+            5.073,
+            5.484,
+            3.85,
+            0.0,
+            10.026,
+            9.953,
+            9.469
+          ],
+          [
+            7.156,
+            7.266,
+            7.279,
+            8.004,
+            11.69,
+            11.496,
+            10.026,
+            0.0,
+            12.028,
+            11.195
+          ],
+          [
+            7.086,
+            5.289,
+            5.886,
+            6.458,
+            5.552,
+            7.363,
+            9.953,
+            12.028,
+            0.0,
+            3.839
+          ],
+          [
+            5.493,
+            5.951,
+            6.618,
+            4.944,
+            4.975,
+            8.185,
+            9.469,
+            11.195,
+            3.839,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1CCCNCCCc1ncnc2[nH]cnc12",
+        "composite_score": 0.6612703378060797,
+        "mw": 354.22,
+        "logp": 1.975,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 10,
+        "qed": 0.4813,
+        "sa_score": 2.74,
+        "n_heavy_atoms": 26,
+        "tpsa": 101.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MLYCD-G446S Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1CCCNCCCc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.6613,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_G446S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_G446S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_G446S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_G446S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_G446S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MLYCD-G446S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MLYCD-G446S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T17:06:15.644871+00:00"
     }
   ]
 }
