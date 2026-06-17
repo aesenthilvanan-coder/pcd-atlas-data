@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 715,
+  "total_entries": 716,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45224,
-    "queue_remaining": 133373
+    "total_processed": 45225,
+    "queue_remaining": 133372
   },
   "entries": [
     {
@@ -158098,6 +158098,207 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:11:22.288399+00:00"
+    },
+    {
+      "entry_id": "PCD-SEPTIN9-D348N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SEPTIN9-D348N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SEPTIN9",
+        "uniprot": "",
+        "clinvar_id": "325554",
+        "disease": "Amyotrophic neuralgia",
+        "mutation_precursor": "D348N",
+        "mutation_mature": "D348N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.899608258048177,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 489.6151883017269,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.124697208404541,
+          -17.560335159301758,
+          -11.256996154785156
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.718057383757151,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6423245828405534,
+        "cryptic": true,
+        "pocket_residues": {
+          "G296": "G",
+          "H347": "H",
+          "D348": "D",
+          "I349": "I",
+          "E350": "E",
+          "R355": "R",
+          "M356": "M",
+          "K357": "K"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UHD8|SEPTIN9 variant D348N",
+        "fasta_sequence": "MKKSYSGGTRTSSGRLRRLGDSSGPALKRSFEVEEVETPNSTPPRRVQTPLLRATVASSTQKFQDLGVKNSEPSARHVDSLSQRSPKASLRRVELSGPKAAEPVSRRTELSIDISSKQVENAGAIGPSRFGLKRAEVLGHKTPEPAPRRTEITIVKPQESAHRRMEPPASKVPEVPTAPATDAAPKRVEIQMPKPAEAPTAPSPAQTLENSEPAPVSQLQSRLEPKPQPPVAEATPRSQEATEAAPSCVGDMADTPRDAGLKQAPASRNEKAPVDFGYVGIDSILEQMRRKAMKQGFEFNIMVVGQSGLGKSTLINTLFKSKISRKSVQPTSEERIPKTIEIKSITHDIEEKGVRMKLTVIDTPGFGDHINNENCWQPIMKFINDQYEKYLQEEVNINRKKRIPDTRVHCCLYFIPATGHSLRPLDIEFMKRLSKVVNIVPVIAKADTLTLEERVHFKQRITADLLSNGIDVYPQKEFDEDSEDRLVNEKFREMIPFAVVGSDHEYQVNGKRILGRKTKWGTIEVENTTHCEFAYLRDLLIRTHMQNIKDITSSIHFEAYRVKRLNEGSSAMANGMEEKEPEAPEM",
+        "full_sequence": "MKKSYSGGTRTSSGRLRRLGDSSGPALKRSFEVEEVETPNSTPPRRVQTPLLRATVASSTQKFQDLGVKNSEPSARHVDSLSQRSPKASLRRVELSGPKAAEPVSRRTELSIDISSKQVENAGAIGPSRFGLKRAEVLGHKTPEPAPRRTEITIVKPQESAHRRMEPPASKVPEVPTAPATDAAPKRVEIQMPKPAEAPTAPSPAQTLENSEPAPVSQLQSRLEPKPQPPVAEATPRSQEATEAAPSCVGDMADTPRDAGLKQAPASRNEKAPVDFGYVGIDSILEQMRRKAMKQGFEFNIMVVGQSGLGKSTLINTLFKSKISRKSVQPTSEERIPKTIEIKSITHDIEEKGVRMKLTVIDTPGFGDHINNENCWQPIMKFINDQYEKYLQEEVNINRKKRIPDTRVHCCLYFIPATGHSLRPLDIEFMKRLSKVVNIVPVIAKADTLTLEERVHFKQRITADLLSNGIDVYPQKEFDEDSEDRLVNEKFREMIPFAVVGSDHEYQVNGKRILGRKTKWGTIEVENTTHCEFAYLRDLLIRTHMQNIKDITSSIHFEAYRVKRLNEGSSAMANGMEEKEPEAPEM",
+        "n_residues": 586,
+        "mutation_pos_1indexed": 348,
+        "wt_aa": "D",
+        "mut_aa": "N",
+        "pocket_lining_residues": "G296-H347-D348-I349-E350-R355-M356-K357",
+        "pocket_lining_positions_precursor": [
+          296,
+          347,
+          348,
+          349,
+          350,
+          355,
+          356,
+          357
+        ],
+        "pocket_lining_1letter": "GHDIERMK",
+        "sequence_slice_around_pocket": "KTIEIKSITHDIEEKGVRMK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SEPTIN9_D348N/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "G296",
+          "H347",
+          "D348",
+          "I349",
+          "E350",
+          "R355",
+          "M356",
+          "K357"
+        ],
+        "values": [
+          [
+            0.0,
+            12.515,
+            9.494,
+            9.546,
+            9.181,
+            4.656,
+            5.389,
+            7.313
+          ],
+          [
+            12.515,
+            0.0,
+            3.808,
+            6.159,
+            9.904,
+            10.372,
+            8.231,
+            5.744
+          ],
+          [
+            9.494,
+            3.808,
+            0.0,
+            3.84,
+            6.946,
+            6.948,
+            5.833,
+            4.436
+          ],
+          [
+            9.546,
+            6.159,
+            3.84,
+            0.0,
+            3.832,
+            5.685,
+            5.057,
+            6.105
+          ],
+          [
+            9.181,
+            9.904,
+            6.946,
+            3.832,
+            0.0,
+            4.538,
+            6.258,
+            8.796
+          ],
+          [
+            4.656,
+            10.372,
+            6.948,
+            5.685,
+            4.538,
+            0.0,
+            3.829,
+            6.795
+          ],
+          [
+            5.389,
+            8.231,
+            5.833,
+            5.057,
+            6.258,
+            3.829,
+            0.0,
+            3.826
+          ],
+          [
+            7.313,
+            5.744,
+            4.436,
+            6.105,
+            8.796,
+            6.795,
+            3.826,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.765910394481866,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SEPTIN9-D348N Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7659,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SEPTIN9_D348N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SEPTIN9_D348N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SEPTIN9_D348N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SEPTIN9_D348N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SEPTIN9_D348N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SEPTIN9-D348N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SEPTIN9-D348N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:11:48.598876+00:00"
     }
   ]
 }
