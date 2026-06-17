@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 264,
+  "total_entries": 265,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44692,
-    "queue_remaining": 133905
+    "total_processed": 44693,
+    "queue_remaining": 133904
   },
   "entries": [
     {
@@ -58678,6 +58678,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:58:26.060744+00:00"
+    },
+    {
+      "entry_id": "PCD-INS-G44R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-INS-G44R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "INS",
+        "uniprot": "",
+        "clinvar_id": "304055",
+        "disease": "Transient Neonatal Diabetes, Dominant/Recessive",
+        "mutation_precursor": "G44R",
+        "mutation_mature": "G44R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.888558756682915,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 542.655530486171,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.3358845710754395,
+          -5.588983535766602,
+          -8.393726348876953
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.7326121238591172,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7724366329439799,
+        "cryptic": true,
+        "pocket_residues": {
+          "L41": "L",
+          "V42": "V",
+          "C43": "C",
+          "G44": "G",
+          "E45": "E",
+          "R46": "R"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P01308|INS variant G44R",
+        "fasta_sequence": "MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN",
+        "full_sequence": "MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN",
+        "n_residues": 110,
+        "mutation_pos_1indexed": 44,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "L41-V42-C43-G44-E45-R46",
+        "pocket_lining_positions_precursor": [
+          41,
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "pocket_lining_1letter": "LVCGER",
+        "sequence_slice_around_pocket": "HLVEALYLVCGERGFFYTPK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/INS_G44R/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "L41",
+          "V42",
+          "C43",
+          "G44",
+          "E45",
+          "R46"
+        ],
+        "values": [
+          [
+            0.0,
+            3.88,
+            5.738,
+            5.177,
+            8.943,
+            10.978
+          ],
+          [
+            3.88,
+            0.0,
+            3.874,
+            5.174,
+            7.922,
+            9.604
+          ],
+          [
+            5.738,
+            3.874,
+            0.0,
+            3.865,
+            5.947,
+            6.299
+          ],
+          [
+            5.177,
+            5.174,
+            3.865,
+            0.0,
+            3.882,
+            6.187
+          ],
+          [
+            8.943,
+            7.922,
+            5.947,
+            3.882,
+            0.0,
+            3.879
+          ],
+          [
+            10.978,
+            9.604,
+            6.299,
+            6.187,
+            3.879,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7482850502608431,
+        "mw": 319.17,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.924,
+        "sa_score": 3.13,
+        "n_heavy_atoms": 23,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "INS-G44R Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7483,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/INS_G44R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/INS_G44R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/INS_G44R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/INS_G44R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/INS_G44R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-INS-G44R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-INS-G44R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:58:45.748714+00:00"
     }
   ]
 }
