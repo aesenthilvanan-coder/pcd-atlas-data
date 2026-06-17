@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 400,
+  "total_entries": 401,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44853,
-    "queue_remaining": 133744
+    "total_processed": 44854,
+    "queue_remaining": 133743
   },
   "entries": [
     {
@@ -88012,6 +88012,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:59:55.208102+00:00"
+    },
+    {
+      "entry_id": "PCD-CDHR1-D290G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDHR1-D290G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CDHR1",
+        "uniprot": "",
+        "clinvar_id": "301228",
+        "disease": "Cone-rod dystrophy 15",
+        "mutation_precursor": "D290G",
+        "mutation_mature": "D290G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8793462208671066,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 322.58718518050244,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          4.028314590454102,
+          -1.1182200908660889,
+          -26.212587356567383
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.506140030298027,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8273063451738741,
+        "cryptic": true,
+        "pocket_residues": {
+          "G288": "G",
+          "N289": "N",
+          "D290": "D",
+          "L311": "L",
+          "Q312": "Q",
+          "R313": "R",
+          "V315": "V",
+          "Y316": "Y"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96JP9|CDHR1 variant D290G",
+        "fasta_sequence": "MRRCRWAALALGLLRLCLAQANFAPHFFDNGVGSTNGNMALFSLPEDTPVGSHVYTLNGTDPEGDPISYHISFDPSTRSVFSVDPTFGNITLVEELDREREDEIEAIISISDGLNLVAEKVVILVTDANDEAPRFIQEPYVALVPEDIPAGSIIFKVHAVDRDTGSGGSVTYFLQNLHSPFAVDRHSGVLRLQAGATLDYERSRTHYITVVAKDGGGRLHGADVVFSATTTVTVNVEDVQDMAPVFVGTPYYGYVYEDTLPGSEVLKVVAMDGDRGKPNRILYSLVNGNDGAFEINETSGAISITQSPAQLQREVYELHVQVTEMSPAGSPAAQATVPVTIRIVDLNNHPPTFYGESGPQNRFELSMNEHPPQGEILRGLKITVNDSDQGANAKFNLQLVGPRGIFRVVPQTVLNEAQVTIIVENSAAIDFEKSKVLTFKLLAVEVNTPEKFSSTADVVIQLLDTNDNVPKFDSLYYVARIPENAPGGSSVVAVTAVDPDTGPWGEVKYSTYGTGADLFLIHPSTGLIYTQPWASLDAEATARYNFYVKAEDMEGKYSVAEVFITLLDVNDHPPQFGKSVQKKTMVLGTPVKIEAIDEDAEEPNNLVDYSITHAEPANVFDINSHTGEIWLKNSIRSLDALHNITPGRDCLWSLEVQAKDRGSPSFSTTALLKIDITDAETLSRSPMAAFLIQTKDNPMKAVGVLAGTMATVVAITVLISTATFWRNKKSNKVLPMRRVLRKRPSPAPRTIRIEWLKSKSTKAATKFMLKEKPPNENCNNNSPESSLLPRAPALPPPPSVAPSTGAAQWTVPTVSGSLTPQPTQPPPKPKTMGSPVQSTLISELKQKFEKKSVHNKAYF",
+        "full_sequence": "MRRCRWAALALGLLRLCLAQANFAPHFFDNGVGSTNGNMALFSLPEDTPVGSHVYTLNGTDPEGDPISYHISFDPSTRSVFSVDPTFGNITLVEELDREREDEIEAIISISDGLNLVAEKVVILVTDANDEAPRFIQEPYVALVPEDIPAGSIIFKVHAVDRDTGSGGSVTYFLQNLHSPFAVDRHSGVLRLQAGATLDYERSRTHYITVVAKDGGGRLHGADVVFSATTTVTVNVEDVQDMAPVFVGTPYYGYVYEDTLPGSEVLKVVAMDGDRGKPNRILYSLVNGNDGAFEINETSGAISITQSPAQLQREVYELHVQVTEMSPAGSPAAQATVPVTIRIVDLNNHPPTFYGESGPQNRFELSMNEHPPQGEILRGLKITVNDSDQGANAKFNLQLVGPRGIFRVVPQTVLNEAQVTIIVENSAAIDFEKSKVLTFKLLAVEVNTPEKFSSTADVVIQLLDTNDNVPKFDSLYYVARIPENAPGGSSVVAVTAVDPDTGPWGEVKYSTYGTGADLFLIHPSTGLIYTQPWASLDAEATARYNFYVKAEDMEGKYSVAEVFITLLDVNDHPPQFGKSVQKKTMVLGTPVKIEAIDEDAEEPNNLVDYSITHAEPANVFDINSHTGEIWLKNSIRSLDALHNITPGRDCLWSLEVQAKDRGSPSFSTTALLKIDITDAETLSRSPMAAFLIQTKDNPMKAVGVLAGTMATVVAITVLISTATFWRNKKSNKVLPMRRVLRKRPSPAPRTIRIEWLKSKSTKAATKFMLKEKPPNENCNNNSPESSLLPRAPALPPPPSVAPSTGAAQWTVPTVSGSLTPQPTQPPPKPKTMGSPVQSTLISELKQKFEKKSVHNKAYF",
+        "n_residues": 859,
+        "mutation_pos_1indexed": 290,
+        "wt_aa": "D",
+        "mut_aa": "G",
+        "pocket_lining_residues": "G288-N289-D290-L311-Q312-R313-V315-Y316",
+        "pocket_lining_positions_precursor": [
+          288,
+          289,
+          290,
+          311,
+          312,
+          313,
+          315,
+          316
+        ],
+        "pocket_lining_1letter": "GNDLQRVY",
+        "sequence_slice_around_pocket": "RILYSLVNGNDGAFEINETS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_D290G/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "G288",
+          "N289",
+          "D290",
+          "L311",
+          "Q312",
+          "R313",
+          "V315",
+          "Y316"
+        ],
+        "values": [
+          [
+            0.0,
+            3.86,
+            5.762,
+            12.482,
+            12.539,
+            11.147,
+            10.16,
+            6.508
+          ],
+          [
+            3.86,
+            0.0,
+            3.893,
+            11.075,
+            12.16,
+            11.614,
+            11.452,
+            7.842
+          ],
+          [
+            5.762,
+            3.893,
+            0.0,
+            9.144,
+            9.692,
+            10.183,
+            11.821,
+            8.88
+          ],
+          [
+            12.482,
+            11.075,
+            9.144,
+            0.0,
+            3.821,
+            5.729,
+            9.644,
+            9.641
+          ],
+          [
+            12.539,
+            12.16,
+            9.692,
+            3.821,
+            0.0,
+            3.85,
+            9.145,
+            9.701
+          ],
+          [
+            11.147,
+            11.614,
+            10.183,
+            5.729,
+            3.85,
+            0.0,
+            5.439,
+            6.797
+          ],
+          [
+            10.16,
+            11.452,
+            11.821,
+            9.644,
+            9.145,
+            5.439,
+            0.0,
+            3.828
+          ],
+          [
+            6.508,
+            7.842,
+            8.88,
+            9.641,
+            9.701,
+            6.797,
+            3.828,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.894870792757605,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CDHR1-D290G Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8949,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_D290G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_D290G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_D290G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_D290G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_D290G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDHR1-D290G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDHR1-D290G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:00:24.878247+00:00"
     }
   ]
 }
