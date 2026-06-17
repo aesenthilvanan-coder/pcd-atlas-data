@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 590,
+  "total_entries": 591,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45065,
-    "queue_remaining": 133532
+    "total_processed": 45066,
+    "queue_remaining": 133531
   },
   "entries": [
     {
@@ -130547,6 +130547,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:27:17.395335+00:00"
+    },
+    {
+      "entry_id": "PCD-TNFRSF13B-R198C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFRSF13B-R198C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TNFRSF13B",
+        "uniprot": "",
+        "clinvar_id": "322026",
+        "disease": "Immunodeficiency, common variable, 2",
+        "mutation_precursor": "R198C",
+        "mutation_mature": "R198C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8894539198796269,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 636.1694513309425,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          37.16440963745117,
+          -23.344074249267578,
+          -21.065885543823242
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.268402989479526,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8850549807139296,
+        "cryptic": true,
+        "pocket_residues": {
+          "S194": "S",
+          "C195": "C",
+          "Q196": "Q",
+          "P197": "P",
+          "R198": "R"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O14836|TNFRSF13B variant R198C",
+        "fasta_sequence": "MSGLGRSRRGGRSRVDQEERFPQGLWTGVAMRSCPEEQYWDPLLGTCMSCKTICNHQSQRTCAAFCRSLSCRKEQGKFYDHLLRDCISCASICGQHPKQCAYFCENKLRSPVNLPPELRRQRSGEVENNSDNSGRYQGLEHRGSEASPALPGLKLSADQVALVYSTLGLCLCAVLCCFLVAVACFLKKRGDPCSCQPRSRPRQSPAKSSQDHAMEAGSPVSTSPEPVETCSFCFPECRAPTQESAVTPGTPDPTCAGRWGCHTRTTVLQPCPHIPDSGLGIVCVPAQEGGPGA",
+        "full_sequence": "MSGLGRSRRGGRSRVDQEERFPQGLWTGVAMRSCPEEQYWDPLLGTCMSCKTICNHQSQRTCAAFCRSLSCRKEQGKFYDHLLRDCISCASICGQHPKQCAYFCENKLRSPVNLPPELRRQRSGEVENNSDNSGRYQGLEHRGSEASPALPGLKLSADQVALVYSTLGLCLCAVLCCFLVAVACFLKKRGDPCSCQPRSRPRQSPAKSSQDHAMEAGSPVSTSPEPVETCSFCFPECRAPTQESAVTPGTPDPTCAGRWGCHTRTTVLQPCPHIPDSGLGIVCVPAQEGGPGA",
+        "n_residues": 293,
+        "mutation_pos_1indexed": 198,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "S194-C195-Q196-P197-R198",
+        "pocket_lining_positions_precursor": [
+          194,
+          195,
+          196,
+          197,
+          198
+        ],
+        "pocket_lining_1letter": "SCQPR",
+        "sequence_slice_around_pocket": "KRGDPCSCQPRSRPRQSPAK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13B_R198C/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "S194",
+          "C195",
+          "Q196",
+          "P197",
+          "R198"
+        ],
+        "values": [
+          [
+            0.0,
+            3.774,
+            5.407,
+            8.618,
+            10.56
+          ],
+          [
+            3.774,
+            0.0,
+            3.788,
+            6.093,
+            9.127
+          ],
+          [
+            5.407,
+            3.788,
+            0.0,
+            3.821,
+            6.106
+          ],
+          [
+            8.618,
+            6.093,
+            3.821,
+            0.0,
+            3.854
+          ],
+          [
+            10.56,
+            9.127,
+            6.106,
+            3.854,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC1C(O)CC(=O)C1N1CCCCC1CCNc1ccncc1N1CCCCC1",
+        "composite_score": 0.5308291371922418,
+        "mw": 415.29,
+        "logp": 2.006,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.6269,
+        "sa_score": 4.04,
+        "n_heavy_atoms": 30,
+        "tpsa": 94.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TNFRSF13B-R198C Candidate #1",
+        "iupac_name": "NCC1C(O)CC(=O)C1N1CCCCC1CCNc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.5308,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13B_R198C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13B_R198C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13B_R198C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13B_R198C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13B_R198C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFRSF13B-R198C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFRSF13B-R198C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:27:39.552738+00:00"
     }
   ]
 }
