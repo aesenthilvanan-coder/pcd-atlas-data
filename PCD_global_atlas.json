@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1152,
+  "total_entries": 1153,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45749,
-    "queue_remaining": 132848
+    "total_processed": 45750,
+    "queue_remaining": 132847
   },
   "entries": [
     {
@@ -253639,6 +253639,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:56:31.054235+00:00"
+    },
+    {
+      "entry_id": "PCD-ADAMTS17-E78G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ADAMTS17-E78G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ADAMTS17",
+        "uniprot": "",
+        "clinvar_id": "315320",
+        "disease": "Weill-Marchesani 4 syndrome, recessive",
+        "mutation_precursor": "E78G",
+        "mutation_mature": "E78G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7851406995524228,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 494.4374305143113,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -28.545913696289062,
+          8.58077621459961,
+          -22.615184783935547
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.321896832819603,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6882276688323559,
+        "cryptic": true,
+        "pocket_residues": {
+          "A74": "A",
+          "R75": "R",
+          "P76": "P",
+          "G77": "G",
+          "E78": "E",
+          "R79": "R"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8TE56|ADAMTS17 variant E78G",
+        "fasta_sequence": "MCDGALLPPLVLPVLLLLVWGLDPGTAVGDAAADVEVVLPWRVRPDDVHLPPLPAAPGPRRRRRPRTPPAAPRARPGERALLLHLPAFGRDLYLQLRRDLRFLSRGFEVEEAGAARRRGRPAELCFYSGRVLGHPGSLVSLSACGAAGGLVGLIQLGQEQVLIQPLNNSQGPFSGREHLIRRKWSLTPSPSAEAQRPEQLCKVLTEKKKPTWGRPSRDWRERRNAIRLTSEHTVETLVVADADMVQYHGAEAAQRFILTVMNMVYNMFQHQSLGIKINIQVTKLVLLRQRPAKLSIGHHGERSLESFCHWQNEEYGGARYLGNNQVPGGKDDPPLVDAAVFVTRTDFCVHKDEPCDTVGIAYLGGVCSAKRKCVLAEDNGLNLAFTIAHELGHNLGMNHDDDHSSCAGRSHIMSGEWVKGRNPSDLSWSSCSRDDLENFLKSKVSTCLLVTDPRSQHTVRLPHKLPGMHYSANEQCQILFGMNATFCRNMEHLMCAGLWCLVEGDTSCKTKLDPPLDGTECGADKWCRAGECVSKTPIPEHVDGDWSPWGAWSMCSRTCGTGARFRQRKCDNPPPGPGGTHCPGASVEHAVCENLPCPKGLPSFRDQQCQAHDRLSPKKKGLLTAVVVDDKPCELYCSPLGKESPLLVADRVLDGTPCGPYETDLCVHGKCQKIGCDGIIGSAAKEDRCGVCSGDGKTCHLVKGDFSHARGTALKDSGKGSINSDWKIELPGEFQIAGTTVRYVRRGLWEKISAKGPTKLPLHLMVLLFHDQDYGIHYEYTVPVNRTAENQSEPEKPQDSLFIWTHSGWEGCSVQCGGGERRTIVSCTRIVNKTTTLVNDSDCPQASRPEPQVRRCNLHPCQSRWVAGPWSPCSATCEKGFQHREVTCVYQLQNGTHVATRPLYCPGPRPAAVQSCEGQDCLSIWEASEWSQCSASCGKGVWKRTVACTNSQGKCDASTRPRAEEACEDYSGCYEWKTGDWSTCSSTCGKGLQSRVVQCMHKVTGRHGSECPALSKPAPYRQCYQEVCNDRINANTITSPRLAALTYKCTRDQWTVYCRVIREKNLCQDMRWYQRCCQTCRDFYANKMRQPPPNS",
+        "full_sequence": "MCDGALLPPLVLPVLLLLVWGLDPGTAVGDAAADVEVVLPWRVRPDDVHLPPLPAAPGPRRRRRPRTPPAAPRARPGERALLLHLPAFGRDLYLQLRRDLRFLSRGFEVEEAGAARRRGRPAELCFYSGRVLGHPGSLVSLSACGAAGGLVGLIQLGQEQVLIQPLNNSQGPFSGREHLIRRKWSLTPSPSAEAQRPEQLCKVLTEKKKPTWGRPSRDWRERRNAIRLTSEHTVETLVVADADMVQYHGAEAAQRFILTVMNMVYNMFQHQSLGIKINIQVTKLVLLRQRPAKLSIGHHGERSLESFCHWQNEEYGGARYLGNNQVPGGKDDPPLVDAAVFVTRTDFCVHKDEPCDTVGIAYLGGVCSAKRKCVLAEDNGLNLAFTIAHELGHNLGMNHDDDHSSCAGRSHIMSGEWVKGRNPSDLSWSSCSRDDLENFLKSKVSTCLLVTDPRSQHTVRLPHKLPGMHYSANEQCQILFGMNATFCRNMEHLMCAGLWCLVEGDTSCKTKLDPPLDGTECGADKWCRAGECVSKTPIPEHVDGDWSPWGAWSMCSRTCGTGARFRQRKCDNPPPGPGGTHCPGASVEHAVCENLPCPKGLPSFRDQQCQAHDRLSPKKKGLLTAVVVDDKPCELYCSPLGKESPLLVADRVLDGTPCGPYETDLCVHGKCQKIGCDGIIGSAAKEDRCGVCSGDGKTCHLVKGDFSHARGTALKDSGKGSINSDWKIELPGEFQIAGTTVRYVRRGLWEKISAKGPTKLPLHLMVLLFHDQDYGIHYEYTVPVNRTAENQSEPEKPQDSLFIWTHSGWEGCSVQCGGGERRTIVSCTRIVNKTTTLVNDSDCPQASRPEPQVRRCNLHPCQSRWVAGPWSPCSATCEKGFQHREVTCVYQLQNGTHVATRPLYCPGPRPAAVQSCEGQDCLSIWEASEWSQCSASCGKGVWKRTVACTNSQGKCDASTRPRAEEACEDYSGCYEWKTGDWSTCSSTCGKGLQSRVVQCMHKVTGRHGSECPALSKPAPYRQCYQEVCNDRINANTITSPRLAALTYKCTRDQWTVYCRVIREKNLCQDMRWYQRCCQTCRDFYANKMRQPPPNS",
+        "n_residues": 1095,
+        "mutation_pos_1indexed": 78,
+        "wt_aa": "E",
+        "mut_aa": "G",
+        "pocket_lining_residues": "A74-R75-P76-G77-E78-R79",
+        "pocket_lining_positions_precursor": [
+          74,
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "pocket_lining_1letter": "ARPGER",
+        "sequence_slice_around_pocket": "PPAAPRARPGERALLLHLPA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ADAMTS17_E78G/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "A74",
+          "R75",
+          "P76",
+          "G77",
+          "E78",
+          "R79"
+        ],
+        "values": [
+          [
+            0.0,
+            3.85,
+            6.393,
+            8.442,
+            7.789,
+            9.986
+          ],
+          [
+            3.85,
+            0.0,
+            3.867,
+            5.871,
+            6.803,
+            9.558
+          ],
+          [
+            6.393,
+            3.867,
+            0.0,
+            3.844,
+            6.241,
+            7.714
+          ],
+          [
+            8.442,
+            5.871,
+            3.844,
+            0.0,
+            3.856,
+            5.738
+          ],
+          [
+            7.789,
+            6.803,
+            6.241,
+            3.856,
+            0.0,
+            3.851
+          ],
+          [
+            9.986,
+            9.558,
+            7.714,
+            5.738,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(O)Cc1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7102987345220573,
+        "mw": 332.26,
+        "logp": 2.136,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.8354,
+        "sa_score": 3.49,
+        "n_heavy_atoms": 24,
+        "tpsa": 65.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ADAMTS17-E78G Candidate #1",
+        "iupac_name": "NCCC(O)Cc1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7103,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ADAMTS17_E78G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ADAMTS17_E78G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ADAMTS17_E78G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ADAMTS17_E78G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ADAMTS17_E78G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ADAMTS17-E78G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ADAMTS17-E78G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:57:07.888290+00:00"
     }
   ]
 }
