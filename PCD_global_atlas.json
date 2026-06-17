@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 67,
+  "total_entries": 68,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44466,
-    "queue_remaining": 134131
+    "total_processed": 44467,
+    "queue_remaining": 134130
   },
   "entries": [
     {
@@ -15658,6 +15658,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:34:39.882973+00:00"
+    },
+    {
+      "entry_id": "PCD-EYA1-Y109H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EYA1-Y109H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "EYA1",
+        "uniprot": "",
+        "clinvar_id": "363661",
+        "disease": "Otofaciocervical syndrome 1",
+        "mutation_precursor": "Y109H",
+        "mutation_mature": "Y109H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7298229557249165,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 577.6490471902165,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -7.464775562286377,
+          -52.216922760009766,
+          -0.707331657409668
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.457035470922697,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8897162154726621,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y109": "Y",
+          "G110": "G",
+          "Q111": "Q"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q99502|EYA1 variant Y109H",
+        "fasta_sequence": "MEMQDLTSPHSRLSGSSESPSGPKLGNSHINSNSMTPNGTEVKTEPMSSSETASTTADGSLNNFSGSAIGSSSFSPRPTHQFSPPQIYPSNRPYPHILPTPSSQTMAAYGQTQFTTGMQQATAYATYPQPGQPYGISSYGALWAGIKTEGGLSQSQSPGQTGFLSYGTSFSTPQPGQAPYSYQMQGSSFTTSSGIYTGNNSLTNSSGFNSSQQDYPSYPSFGQGQYAQYYNSSPYPAHYMTSSNTSPTTPSTNATYQLQEPPSGITSQAVTDPTAEYSTIHSPSTPIKDSDSDRLRRGSDGKSRGRGRRNNNPSPPPDSDLERVFIWDLDETIIVFHSLLTGSYANRYGRDPPTSVSLGLRMEEMIFNLADTHLFFNDLEECDQVHIDDVSSDDNGQDLSTYNFGTDGFPAAATSANLCLATGVRGGVDWMRKLAFRYRRVKEIYNTYKNNVGGLLGPAKREAWLQLRAEIEALTDSWLTLALKALSLIHSRTNCVNILVTTTQLIPALAKVLLYGLGIVFPIENIYSATKIGKESCFERIIQRFGRKVVYVVIGDGVEEEQGAKKHAMPFWRISSHSDLMALHHALELEYL",
+        "full_sequence": "MEMQDLTSPHSRLSGSSESPSGPKLGNSHINSNSMTPNGTEVKTEPMSSSETASTTADGSLNNFSGSAIGSSSFSPRPTHQFSPPQIYPSNRPYPHILPTPSSQTMAAYGQTQFTTGMQQATAYATYPQPGQPYGISSYGALWAGIKTEGGLSQSQSPGQTGFLSYGTSFSTPQPGQAPYSYQMQGSSFTTSSGIYTGNNSLTNSSGFNSSQQDYPSYPSFGQGQYAQYYNSSPYPAHYMTSSNTSPTTPSTNATYQLQEPPSGITSQAVTDPTAEYSTIHSPSTPIKDSDSDRLRRGSDGKSRGRGRRNNNPSPPPDSDLERVFIWDLDETIIVFHSLLTGSYANRYGRDPPTSVSLGLRMEEMIFNLADTHLFFNDLEECDQVHIDDVSSDDNGQDLSTYNFGTDGFPAAATSANLCLATGVRGGVDWMRKLAFRYRRVKEIYNTYKNNVGGLLGPAKREAWLQLRAEIEALTDSWLTLALKALSLIHSRTNCVNILVTTTQLIPALAKVLLYGLGIVFPIENIYSATKIGKESCFERIIQRFGRKVVYVVIGDGVEEEQGAKKHAMPFWRISSHSDLMALHHALELEYL",
+        "n_residues": 592,
+        "mutation_pos_1indexed": 109,
+        "wt_aa": "Y",
+        "mut_aa": "H",
+        "pocket_lining_residues": "Y109-G110-Q111",
+        "pocket_lining_positions_precursor": [
+          109,
+          110,
+          111
+        ],
+        "pocket_lining_1letter": "YGQ",
+        "sequence_slice_around_pocket": "PTPSSQTMAAYGQTQFTTGM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/EYA1_Y109H/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "Y109",
+          "G110",
+          "Q111"
+        ],
+        "values": [
+          [
+            0.0,
+            3.182,
+            6.72
+          ],
+          [
+            3.182,
+            0.0,
+            3.645
+          ],
+          [
+            6.72,
+            3.645,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COC1CC(=O)C(N2CCCCC2CCNC(=O)c2ccc(Cl)cc2)C1N",
+        "composite_score": 0.5066896126933461,
+        "mw": 393.18,
+        "logp": 1.998,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.7717,
+        "sa_score": 3.71,
+        "n_heavy_atoms": 27,
+        "tpsa": 84.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "EYA1-Y109H Candidate #1",
+        "iupac_name": "COC1CC(=O)C(N2CCCCC2CCNC(=O)c2ccc(Cl)cc2)C1N",
+        "pocket_affinity_score": 0.5067,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/EYA1_Y109H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/EYA1_Y109H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/EYA1_Y109H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/EYA1_Y109H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/EYA1_Y109H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EYA1-Y109H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EYA1-Y109H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:35:03.902013+00:00"
     }
   ]
 }
