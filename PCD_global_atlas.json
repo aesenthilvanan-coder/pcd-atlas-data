@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1291,
+  "total_entries": 1292,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45907,
-    "queue_remaining": 132690
+    "total_processed": 45908,
+    "queue_remaining": 132689
   },
   "entries": [
     {
@@ -285709,6 +285709,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:56:16.716499+00:00"
+    },
+    {
+      "entry_id": "PCD-MC1R-S172I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MC1R-S172I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MC1R",
+        "uniprot": "",
+        "clinvar_id": "321430",
+        "disease": "Tyrosinase-positive oculocutaneous albinism",
+        "mutation_precursor": "S172I",
+        "mutation_mature": "S172I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9379920972890479,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 420.18072093528184,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.0212907791137695,
+          -3.549899101257324,
+          -9.073115348815918
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.2896722048833458,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.601011391330979,
+        "cryptic": true,
+        "pocket_residues": {
+          "S126": "S",
+          "L129": "L",
+          "I168": "I",
+          "W169": "W",
+          "V170": "V",
+          "A171": "A",
+          "S172": "S",
+          "V173": "V",
+          "V174": "V",
+          "F175": "F",
+          "S176": "S"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q01726|MC1R variant S172I",
+        "fasta_sequence": "MAVQGSQRRLLGSLNSTPTAIPQLGLAANQTGARCLEVSISDGLFLSLGLVSLVENALVVATIAKNRNLHSPMYCFICCLALSDLLVSGSNVLETAVILLLEAGALVARAAVLQQLDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAVAAIWVASVVFSTLFIAYYDHVAVLLCLVVFFLAMLVLMAVLYVHMLARACQHAQGIARLHKRQRPVHQGFGLKGAVTLTILLGIFFLCWGPFFLHLTLIVLCPEHPTCGCIFKNFNLFLALIICNAIIDPLIYAFHSQELRRTLKEVLTCSW",
+        "full_sequence": "MAVQGSQRRLLGSLNSTPTAIPQLGLAANQTGARCLEVSISDGLFLSLGLVSLVENALVVATIAKNRNLHSPMYCFICCLALSDLLVSGSNVLETAVILLLEAGALVARAAVLQQLDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAVAAIWVASVVFSTLFIAYYDHVAVLLCLVVFFLAMLVLMAVLYVHMLARACQHAQGIARLHKRQRPVHQGFGLKGAVTLTILLGIFFLCWGPFFLHLTLIVLCPEHPTCGCIFKNFNLFLALIICNAIIDPLIYAFHSQELRRTLKEVLTCSW",
+        "n_residues": 317,
+        "mutation_pos_1indexed": 172,
+        "wt_aa": "S",
+        "mut_aa": "I",
+        "pocket_lining_residues": "S126-L129-I168-W169-V170-A171-S172-V173-V174-F175-S176",
+        "pocket_lining_positions_precursor": [
+          126,
+          129,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176
+        ],
+        "pocket_lining_1letter": "SLIWVASVVFS",
+        "sequence_slice_around_pocket": "RRAVAAIWVASVVFSTLFIA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_S172I/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "S126",
+          "L129",
+          "I168",
+          "W169",
+          "V170",
+          "A171",
+          "S172",
+          "V173",
+          "V174",
+          "F175",
+          "S176"
+        ],
+        "values": [
+          [
+            0.0,
+            4.993,
+            9.655,
+            7.756,
+            9.107,
+            8.561,
+            4.805,
+            5.028,
+            8.093,
+            7.471,
+            5.188
+          ],
+          [
+            4.993,
+            0.0,
+            8.52,
+            8.696,
+            10.643,
+            8.741,
+            5.482,
+            8.391,
+            10.393,
+            8.404,
+            7.727
+          ],
+          [
+            9.655,
+            8.52,
+            0.0,
+            3.849,
+            5.632,
+            5.216,
+            5.925,
+            8.623,
+            9.967,
+            10.409,
+            11.883
+          ],
+          [
+            7.756,
+            8.696,
+            3.849,
+            0.0,
+            3.846,
+            5.561,
+            5.128,
+            6.213,
+            8.618,
+            10.003,
+            10.538
+          ],
+          [
+            9.107,
+            10.643,
+            5.632,
+            3.846,
+            0.0,
+            3.829,
+            5.495,
+            5.325,
+            6.147,
+            8.575,
+            9.969
+          ],
+          [
+            8.561,
+            8.741,
+            5.216,
+            5.561,
+            3.829,
+            0.0,
+            3.842,
+            5.609,
+            5.178,
+            5.98,
+            8.402
+          ],
+          [
+            4.805,
+            5.482,
+            5.925,
+            5.128,
+            5.495,
+            3.842,
+            0.0,
+            3.85,
+            5.559,
+            5.293,
+            5.968
+          ],
+          [
+            5.028,
+            8.391,
+            8.623,
+            6.213,
+            5.325,
+            5.609,
+            3.85,
+            0.0,
+            3.853,
+            5.65,
+            5.195
+          ],
+          [
+            8.093,
+            10.393,
+            9.967,
+            8.618,
+            6.147,
+            5.178,
+            5.559,
+            3.853,
+            0.0,
+            3.845,
+            5.539
+          ],
+          [
+            7.471,
+            8.404,
+            10.409,
+            10.003,
+            8.575,
+            5.98,
+            5.293,
+            5.65,
+            3.845,
+            0.0,
+            3.843
+          ],
+          [
+            5.188,
+            7.727,
+            11.883,
+            10.538,
+            9.969,
+            8.402,
+            5.968,
+            5.195,
+            5.539,
+            3.843,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "composite_score": 0.6965065428138474,
+        "mw": 260.15,
+        "logp": 1.904,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7992,
+        "sa_score": 2.9,
+        "n_heavy_atoms": 19,
+        "tpsa": 54.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MC1R-S172I Candidate #1",
+        "iupac_name": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "pocket_affinity_score": 0.6965,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_S172I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_S172I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_S172I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_S172I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MC1R_S172I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MC1R-S172I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MC1R-S172I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:56:38.585399+00:00"
     }
   ]
 }
