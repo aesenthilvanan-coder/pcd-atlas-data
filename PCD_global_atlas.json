@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 943,
+  "total_entries": 944,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45480,
-    "queue_remaining": 133117
+    "total_processed": 45481,
+    "queue_remaining": 133116
   },
   "entries": [
     {
@@ -207788,6 +207788,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:29:02.708911+00:00"
+    },
+    {
+      "entry_id": "PCD-COL4A1-P1055L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL4A1-P1055L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COL4A1",
+        "uniprot": "",
+        "clinvar_id": "311044",
+        "disease": "Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures",
+        "mutation_precursor": "P1055L",
+        "mutation_mature": "P1055L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7856254360808272,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 611.9887142552178,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          55.3387451171875,
+          -65.08070373535156,
+          -44.708744049072266
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.159028450778972,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6129626267529444,
+        "cryptic": true,
+        "pocket_residues": {
+          "P1055": "P",
+          "G1056": "G",
+          "I1057": "I",
+          "G1058": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P02462|COL4A1 variant P1055L",
+        "fasta_sequence": "MGPRLSVWLLLLPAALLLHEEHSRAAAKGGCAGSGCGKCDCHGVKGQKGERGLPGLQGVIGFPGMQGPEGPQGPPGQKGDTGEPGLPGTKGTRGPPGASGYPGNPGLPGIPGQDGPPGPPGIPGCNGTKGERGPLGPPGLPGFAGNPGPPGLPGMKGDPGEILGHVPGMLLKGERGFPGIPGTPGPPGLPGLQGPVGPPGFTGPPGPPGPPGPPGEKGQMGLSFQGPKGDKGDQGVSGPPGVPGQAQVQEKGDFATKGEKGQKGEPGFQGMPGVGEKGEPGKPGPRGKPGKDGDKGEKGSPGFPGEPGYPGLIGRQGPQGEKGEAGPPGPPGIVIGTGPLGEKGERGYPGTPGPRGEPGPKGFPGLPGQPGPPGLPVPGQAGAPGFPGERGEKGDRGFPGTSLPGPSGRDGLPGPPGSPGPPGQPGYTNGIVECQPGPPGDQGPPGIPGQPGFIGEIGEKGQKGESCLICDIDGYRGPPGPQGPPGEIGFPGQPGAKGDRGLPGRDGVAGVPGPQGTPGLIGQPGAKGEPGEFYFDLRLKGDKGDPGFPGQPGMPGRAGSPGRDGHPGLPGPKGSPGSVGLKGERGPPGGVGFPGSRGDTGPPGPPGYGPAGPIGDKGQAGFPGGPGSPGLPGPKGEPGKIVPLPGPPGAEGLPGSPGFPGPQGDRGFPGTPGRPGLPGEKGAVGQPGIGFPGPPGPKGVDGLPGDMGPPGTPGRPGFNGLPGNPGVQGQKGEPGVGLPGLKGLPGLPGIPGTPGEKGSIGVPGVPGEHGAIGPPGLQGIRGEPGPPGLPGSVGSPGVPGIGPPGARGPPGGQGPPGLSGPPGIKGEKGFPGFPGLDMPGPKGDKGAQGLPGITGQSGLPGLPGQQGAPGIPGFPGSKGEMGVMGTPGQPGSPGPVGAPGLPGEKGDHGFPGSSGPRGDPGLKGDKGDVGLPGKPGSMDKVDMGSMKGQKGDQGEKGQIGPIGEKGSRGDPGTPGVPGKDGQAGQPGQPGPKGDPGISGTPGAPGLPGPKGSVGGMGLPGTPGEKGVPGIPGPQGSPGLPGDKGAKGEKGQAGPPGIGIPGLRGEKGDQGIAGFPGSPGEKGEKGSIGIPGMPGSPGLKGSPGSVGYPGSPGLPGEKGDKGLPGLDGIPGVKGEAGLPGTPGPTGPAGQKGEPGSDGIPGSAGEKGEPGLPGRGFPGFPGAKGDKGSKGEVGFPGLAGSPGIPGSKGEQGFMGPPGPQGQPGLPGSPGHATEGPKGDRGPQGQPGLPGLPGPMGPPGLPGIDGVKGDKGNPGWPGAPGVPGPKGDPGFQGMPGIGGSPGITGSKGDMGPPGVPGFQGPKGLPGLQGIKGDQGDQGVPGAKGLPGPPGPPGPYDIIKGEPGLPGPEGPPGLKGLQGLPGPKGQQGVTGLVGIPGPPGIPGFDGAPGQKGEMGPAGPTGPRGFPGPPGPDGLPGSMGPPGTPSVDHGFLVTRHSQTIDDPQCPSGTKILYHGYSLLYVQGNERAHGQDLGTAGSCLRKFSTMPFLFCNINNVCNFASRNDYSYWLSTPEPMPMSMAPITGENIRPFISRCAVCEAPAMVMAVHSQTIQIPPCPSGWSSLWIGYSFVMHTSAGAEGSGQALASPGSCLEEFRSAPFIECHGRGTCNYYANAYSFWLATIERSEMFKKPTPSTLKAGELRTHVSRCQVCMRRT",
+        "full_sequence": "MGPRLSVWLLLLPAALLLHEEHSRAAAKGGCAGSGCGKCDCHGVKGQKGERGLPGLQGVIGFPGMQGPEGPQGPPGQKGDTGEPGLPGTKGTRGPPGASGYPGNPGLPGIPGQDGPPGPPGIPGCNGTKGERGPLGPPGLPGFAGNPGPPGLPGMKGDPGEILGHVPGMLLKGERGFPGIPGTPGPPGLPGLQGPVGPPGFTGPPGPPGPPGPPGEKGQMGLSFQGPKGDKGDQGVSGPPGVPGQAQVQEKGDFATKGEKGQKGEPGFQGMPGVGEKGEPGKPGPRGKPGKDGDKGEKGSPGFPGEPGYPGLIGRQGPQGEKGEAGPPGPPGIVIGTGPLGEKGERGYPGTPGPRGEPGPKGFPGLPGQPGPPGLPVPGQAGAPGFPGERGEKGDRGFPGTSLPGPSGRDGLPGPPGSPGPPGQPGYTNGIVECQPGPPGDQGPPGIPGQPGFIGEIGEKGQKGESCLICDIDGYRGPPGPQGPPGEIGFPGQPGAKGDRGLPGRDGVAGVPGPQGTPGLIGQPGAKGEPGEFYFDLRLKGDKGDPGFPGQPGMPGRAGSPGRDGHPGLPGPKGSPGSVGLKGERGPPGGVGFPGSRGDTGPPGPPGYGPAGPIGDKGQAGFPGGPGSPGLPGPKGEPGKIVPLPGPPGAEGLPGSPGFPGPQGDRGFPGTPGRPGLPGEKGAVGQPGIGFPGPPGPKGVDGLPGDMGPPGTPGRPGFNGLPGNPGVQGQKGEPGVGLPGLKGLPGLPGIPGTPGEKGSIGVPGVPGEHGAIGPPGLQGIRGEPGPPGLPGSVGSPGVPGIGPPGARGPPGGQGPPGLSGPPGIKGEKGFPGFPGLDMPGPKGDKGAQGLPGITGQSGLPGLPGQQGAPGIPGFPGSKGEMGVMGTPGQPGSPGPVGAPGLPGEKGDHGFPGSSGPRGDPGLKGDKGDVGLPGKPGSMDKVDMGSMKGQKGDQGEKGQIGPIGEKGSRGDPGTPGVPGKDGQAGQPGQPGPKGDPGISGTPGAPGLPGPKGSVGGMGLPGTPGEKGVPGIPGPQGSPGLPGDKGAKGEKGQAGPPGIGIPGLRGEKGDQGIAGFPGSPGEKGEKGSIGIPGMPGSPGLKGSPGSVGYPGSPGLPGEKGDKGLPGLDGIPGVKGEAGLPGTPGPTGPAGQKGEPGSDGIPGSAGEKGEPGLPGRGFPGFPGAKGDKGSKGEVGFPGLAGSPGIPGSKGEQGFMGPPGPQGQPGLPGSPGHATEGPKGDRGPQGQPGLPGLPGPMGPPGLPGIDGVKGDKGNPGWPGAPGVPGPKGDPGFQGMPGIGGSPGITGSKGDMGPPGVPGFQGPKGLPGLQGIKGDQGDQGVPGAKGLPGPPGPPGPYDIIKGEPGLPGPEGPPGLKGLQGLPGPKGQQGVTGLVGIPGPPGIPGFDGAPGQKGEMGPAGPTGPRGFPGPPGPDGLPGSMGPPGTPSVDHGFLVTRHSQTIDDPQCPSGTKILYHGYSLLYVQGNERAHGQDLGTAGSCLRKFSTMPFLFCNINNVCNFASRNDYSYWLSTPEPMPMSMAPITGENIRPFISRCAVCEAPAMVMAVHSQTIQIPPCPSGWSSLWIGYSFVMHTSAGAEGSGQALASPGSCLEEFRSAPFIECHGRGTCNYYANAYSFWLATIERSEMFKKPTPSTLKAGELRTHVSRCQVCMRRT",
+        "n_residues": 1669,
+        "mutation_pos_1indexed": 1055,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "P1055-G1056-I1057-G1058",
+        "pocket_lining_positions_precursor": [
+          1055,
+          1056,
+          1057,
+          1058
+        ],
+        "pocket_lining_1letter": "PGIG",
+        "sequence_slice_around_pocket": "AKGEKGQAGPPGIGIPGLRG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A1_P1055L/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "P1055",
+          "G1056",
+          "I1057",
+          "G1058"
+        ],
+        "values": [
+          [
+            0.0,
+            3.867,
+            6.834,
+            9.897
+          ],
+          [
+            3.867,
+            0.0,
+            3.367,
+            6.192
+          ],
+          [
+            6.834,
+            3.367,
+            0.0,
+            3.846
+          ],
+          [
+            9.897,
+            6.192,
+            3.846,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC1C(ON2CCCCC2CCNC(=O)c2ccc(Cl)cc2)CCC(=O)C1O",
+        "composite_score": 0.5050813268901427,
+        "mw": 423.19,
+        "logp": 1.913,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.6184,
+        "sa_score": 4.0,
+        "n_heavy_atoms": 29,
+        "tpsa": 104.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COL4A1-P1055L Candidate #1",
+        "iupac_name": "NCC1C(ON2CCCCC2CCNC(=O)c2ccc(Cl)cc2)CCC(=O)C1O",
+        "pocket_affinity_score": 0.5051,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A1_P1055L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A1_P1055L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A1_P1055L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A1_P1055L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A1_P1055L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL4A1-P1055L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL4A1-P1055L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:30:07.836654+00:00"
     }
   ]
 }
