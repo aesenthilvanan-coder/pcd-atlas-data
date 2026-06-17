@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 501,
+  "total_entries": 502,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44964,
-    "queue_remaining": 133633
+    "total_processed": 44965,
+    "queue_remaining": 133632
   },
   "entries": [
     {
@@ -111452,6 +111452,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:19:36.803249+00:00"
+    },
+    {
+      "entry_id": "PCD-USH1C-G407E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-USH1C-G407E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "USH1C",
+        "uniprot": "",
+        "clinvar_id": "303804",
+        "disease": "Usher syndrome type 1C",
+        "mutation_precursor": "G407E",
+        "mutation_mature": "G407E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.848440951667193,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 351.8634864917755,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          22.448341369628906,
+          32.053871154785156,
+          -33.216129302978516
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.04985812035778,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6294883312799004,
+        "cryptic": true,
+        "pocket_residues": {
+          "D405": "D",
+          "Q406": "Q",
+          "G407": "G",
+          "V408": "V",
+          "E409": "E",
+          "P410": "P"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y6N9|USH1C variant G407E",
+        "fasta_sequence": "MDRKVAREFRHKVDFLIENDAEKDYLYDVLRMYHQTMDVAVLVGDLKLVINEPSRLPLFDAIRPLIPLKHQVEYDQLTPRRSRKLKEVRLDRLHPEGLGLSVRGGLEFGCGLFISHLIKGGQADSVGLQVGDEIVRINGYSISSCTHEEVINLIRTKKTVSIKVRHIGLIPVKSSPDEPLTWQYVDQFVSESGGVRGSLGSPGNRENKEKKVFISLVGSRGLGCSISSGPIQKPGIFISHVKPGSLSAEVGLEIGDQIVEVNGVDFSNLDHKEAVNVLKSSRSLTISIVAAAGRELFMTDRERLAEARQRELQRQELLMQKRLAMESNKILQEQQEMERQRRKEIAQKAAEENERYRKEMEQIVEEEEKFKKQWEEDWGSKEQLLLPKTITAEVHPVPLRKPKYDQGVEPELEPADDLDGGTEEQGEQDFRKYEEGFDPYSMFTPEQIMGKDVRLLRIKKEGSLDLALEGGVDSPIGKVVVSAVYERGAAERHGGIVKGDEIMAINGKIVTDYTLAEAEAALQKAWNQGGDWIDLVVAVCPPKEYDDELTFF",
+        "full_sequence": "MDRKVAREFRHKVDFLIENDAEKDYLYDVLRMYHQTMDVAVLVGDLKLVINEPSRLPLFDAIRPLIPLKHQVEYDQLTPRRSRKLKEVRLDRLHPEGLGLSVRGGLEFGCGLFISHLIKGGQADSVGLQVGDEIVRINGYSISSCTHEEVINLIRTKKTVSIKVRHIGLIPVKSSPDEPLTWQYVDQFVSESGGVRGSLGSPGNRENKEKKVFISLVGSRGLGCSISSGPIQKPGIFISHVKPGSLSAEVGLEIGDQIVEVNGVDFSNLDHKEAVNVLKSSRSLTISIVAAAGRELFMTDRERLAEARQRELQRQELLMQKRLAMESNKILQEQQEMERQRRKEIAQKAAEENERYRKEMEQIVEEEEKFKKQWEEDWGSKEQLLLPKTITAEVHPVPLRKPKYDQGVEPELEPADDLDGGTEEQGEQDFRKYEEGFDPYSMFTPEQIMGKDVRLLRIKKEGSLDLALEGGVDSPIGKVVVSAVYERGAAERHGGIVKGDEIMAINGKIVTDYTLAEAEAALQKAWNQGGDWIDLVVAVCPPKEYDDELTFF",
+        "n_residues": 552,
+        "mutation_pos_1indexed": 407,
+        "wt_aa": "G",
+        "mut_aa": "E",
+        "pocket_lining_residues": "D405-Q406-G407-V408-E409-P410",
+        "pocket_lining_positions_precursor": [
+          405,
+          406,
+          407,
+          408,
+          409,
+          410
+        ],
+        "pocket_lining_1letter": "DQGVEP",
+        "sequence_slice_around_pocket": "VPLRKPKYDQGVEPELEPAD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/USH1C_G407E/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "D405",
+          "Q406",
+          "G407",
+          "V408",
+          "E409",
+          "P410"
+        ],
+        "values": [
+          [
+            0.0,
+            3.875,
+            7.365,
+            10.601,
+            13.692,
+            16.747
+          ],
+          [
+            3.875,
+            0.0,
+            3.671,
+            7.171,
+            9.944,
+            13.066
+          ],
+          [
+            7.365,
+            3.671,
+            0.0,
+            3.767,
+            6.466,
+            9.512
+          ],
+          [
+            10.601,
+            7.171,
+            3.767,
+            0.0,
+            3.769,
+            6.328
+          ],
+          [
+            13.692,
+            9.944,
+            6.466,
+            3.769,
+            0.0,
+            3.218
+          ],
+          [
+            16.747,
+            13.066,
+            9.512,
+            6.328,
+            3.218,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)c1ccc(O)cc1N1CCCCC1",
+        "composite_score": 0.7505681819959068,
+        "mw": 248.15,
+        "logp": 1.914,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 4,
+        "qed": 0.7988,
+        "sa_score": 2.23,
+        "n_heavy_atoms": 18,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "USH1C-G407E Candidate #1",
+        "iupac_name": "NCCC(=O)c1ccc(O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7506,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/USH1C_G407E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/USH1C_G407E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/USH1C_G407E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/USH1C_G407E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/USH1C_G407E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-USH1C-G407E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-USH1C-G407E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:20:00.789523+00:00"
     }
   ]
 }
