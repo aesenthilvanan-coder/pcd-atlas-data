@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 922,
+  "total_entries": 923,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45459,
-    "queue_remaining": 133138
+    "total_processed": 45460,
+    "queue_remaining": 133137
   },
   "entries": [
     {
@@ -202904,6 +202904,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:15:02.088097+00:00"
+    },
+    {
+      "entry_id": "PCD-VSX1-P58L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VSX1-P58L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "VSX1",
+        "uniprot": "",
+        "clinvar_id": "337970",
+        "disease": "Posterior polymorphous corneal dystrophy",
+        "mutation_precursor": "P58L",
+        "mutation_mature": "P58L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7463208513138047,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 641.9304675856787,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -55.52139663696289,
+          52.65864181518555,
+          -17.34865951538086
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.3529972951910816,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6374184605280601,
+        "cryptic": true,
+        "pocket_residues": {
+          "E56": "E",
+          "G57": "G",
+          "P58": "P",
+          "A59": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NZR4|VSX1 variant P58L",
+        "fasta_sequence": "MTGRDSLSDGRTSSRALVPGGSPRGSRPRGFAITDLLGLEAELPAPAGPGQGSGCEGPAVAPCPGPGLDGSSLARGALPLGLGLLCGFGTQPPAAARAPCLLLADVPFLPPRGPEPAAPLAPSRPPPALGRQKRSDSVSTSDEDSQSEDRNDLKASPTLGKRKKRRHRTVFTAHQLEELEKAFSEAHYPDVYAREMLAVKTELPEDRIQVWFQNRRAKWRKREKRWGGSSVMAEYGLYGAMVRHCIPLPDSVLNSAEGGLLGSCAPWLLGMHKKSMGMIRKPGSEDKLAGLWGSDHFKEGSSQSESGSQRGSDKVSPENGLEDVAIDLSSSARQETKKVHPGAGAQGGSNSTALEGPQPGKVGAT",
+        "full_sequence": "MTGRDSLSDGRTSSRALVPGGSPRGSRPRGFAITDLLGLEAELPAPAGPGQGSGCEGPAVAPCPGPGLDGSSLARGALPLGLGLLCGFGTQPPAAARAPCLLLADVPFLPPRGPEPAAPLAPSRPPPALGRQKRSDSVSTSDEDSQSEDRNDLKASPTLGKRKKRRHRTVFTAHQLEELEKAFSEAHYPDVYAREMLAVKTELPEDRIQVWFQNRRAKWRKREKRWGGSSVMAEYGLYGAMVRHCIPLPDSVLNSAEGGLLGSCAPWLLGMHKKSMGMIRKPGSEDKLAGLWGSDHFKEGSSQSESGSQRGSDKVSPENGLEDVAIDLSSSARQETKKVHPGAGAQGGSNSTALEGPQPGKVGAT",
+        "n_residues": 365,
+        "mutation_pos_1indexed": 58,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "E56-G57-P58-A59",
+        "pocket_lining_positions_precursor": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "pocket_lining_1letter": "EGPA",
+        "sequence_slice_around_pocket": "GPGQGSGCEGPAVAPCPGPG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_P58L/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "E56",
+          "G57",
+          "P58",
+          "A59"
+        ],
+        "values": [
+          [
+            0.0,
+            3.868,
+            7.179,
+            10.917
+          ],
+          [
+            3.868,
+            0.0,
+            3.934,
+            7.29
+          ],
+          [
+            7.179,
+            3.934,
+            0.0,
+            3.907
+          ],
+          [
+            10.917,
+            7.29,
+            3.907,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)C1CC(=O)CCC1ON1CCCCC1CNC(=O)c1ccc(F)cc1",
+        "composite_score": 0.679369857895109,
+        "mw": 419.22,
+        "logp": 1.997,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.6683,
+        "sa_score": 3.86,
+        "n_heavy_atoms": 30,
+        "tpsa": 101.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "VSX1-P58L Candidate #1",
+        "iupac_name": "NCCC(=O)C1CC(=O)CCC1ON1CCCCC1CNC(=O)c1ccc(F)cc1",
+        "pocket_affinity_score": 0.6794,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_P58L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_P58L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_P58L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_P58L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_P58L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VSX1-P58L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VSX1-P58L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:15:25.870978+00:00"
     }
   ]
 }
