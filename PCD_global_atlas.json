@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 704,
+  "total_entries": 705,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45213,
-    "queue_remaining": 133384
+    "total_processed": 45214,
+    "queue_remaining": 133383
   },
   "entries": [
     {
@@ -155918,6 +155918,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:05:00.342640+00:00"
+    },
+    {
+      "entry_id": "PCD-MPDU1-P15S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MPDU1-P15S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MPDU1",
+        "uniprot": "",
+        "clinvar_id": "325513",
+        "disease": "not provided",
+        "mutation_precursor": "P15S",
+        "mutation_mature": "P15S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7866536410378673,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 369.0654921767747,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          27.349712371826172,
+          -6.834981918334961,
+          -9.800491333007812
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.262198950821702,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8137286940635704,
+        "cryptic": true,
+        "pocket_residues": {
+          "R11": "R",
+          "L12": "L",
+          "V14": "V",
+          "P15": "P"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O75352|MPDU1 variant P15S",
+        "fasta_sequence": "MAAEADGPLKRLLVPILLPEKCYDQLFVQWDLLHVPCLKILLSKGLGLGIVAGSLLVKLPQVFKILGAKSAEGLSLQSVMLELVALTGTMVYSITNNFPFSSWGEALFLMLQTITICFLVMHYRGQTVKGVAFLACYGLVLLVLLSPLTPLTVVTLLQASNVPAVVVGRLLQAATNYHNGHTGQLSAITVFLLFGGSLARIFTSIQETGDPLMAGTFVVSSLCNGLIAAQLLFYWNAKPPHKQKKAQ",
+        "full_sequence": "MAAEADGPLKRLLVPILLPEKCYDQLFVQWDLLHVPCLKILLSKGLGLGIVAGSLLVKLPQVFKILGAKSAEGLSLQSVMLELVALTGTMVYSITNNFPFSSWGEALFLMLQTITICFLVMHYRGQTVKGVAFLACYGLVLLVLLSPLTPLTVVTLLQASNVPAVVVGRLLQAATNYHNGHTGQLSAITVFLLFGGSLARIFTSIQETGDPLMAGTFVVSSLCNGLIAAQLLFYWNAKPPHKQKKAQ",
+        "n_residues": 247,
+        "mutation_pos_1indexed": 15,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "R11-L12-V14-P15",
+        "pocket_lining_positions_precursor": [
+          11,
+          12,
+          14,
+          15
+        ],
+        "pocket_lining_1letter": "RLVP",
+        "sequence_slice_around_pocket": "ADGPLKRLLVPILLPEKCYD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MPDU1_P15S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "R11",
+          "L12",
+          "V14",
+          "P15"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            5.861,
+            6.953
+          ],
+          [
+            3.841,
+            0.0,
+            5.931,
+            6.464
+          ],
+          [
+            5.861,
+            5.931,
+            0.0,
+            3.862
+          ],
+          [
+            6.953,
+            6.464,
+            3.862,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.5509633832967329,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MPDU1-P15S Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.551,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MPDU1_P15S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MPDU1_P15S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MPDU1_P15S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MPDU1_P15S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MPDU1_P15S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MPDU1-P15S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MPDU1-P15S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:05:21.333122+00:00"
     }
   ]
 }
