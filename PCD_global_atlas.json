@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 881,
+  "total_entries": 882,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45412,
-    "queue_remaining": 133185
+    "total_processed": 45413,
+    "queue_remaining": 133184
   },
   "entries": [
     {
@@ -193932,6 +193932,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:37:05.223947+00:00"
+    },
+    {
+      "entry_id": "PCD-SCNN1A-G276C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-G276C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SCNN1A",
+        "uniprot": "",
+        "clinvar_id": "310148",
+        "disease": "Bronchiectasis with or without elevated sweat chloride 2",
+        "mutation_precursor": "G276C",
+        "mutation_mature": "G276C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8874065766267042,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 337.6590260213121,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -35.97721862792969,
+          -3.6906485557556152,
+          4.883623123168945
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.985205608851742,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6370804493245661,
+        "cryptic": true,
+        "pocket_residues": {
+          "D273": "D",
+          "T274": "T",
+          "G276": "G",
+          "N277": "N",
+          "N510": "N",
+          "N511": "N"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P37088|SCNN1A variant G276C",
+        "fasta_sequence": "MEGNKLEEQDSSPPQSTPGLMKGNKREEQGLGPEPAAPQQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKTAFWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLNSDKLVFPAVTICTLNPYRYPEIKEELEELDRITEQTLFDLYKYSSFTTLVAGSRSRRDLRGTLPHPLQRLRVPPPPHGARRARSVASSLRDNNPQVDWKDWKIGFQLCNQNKSDCFYQTYSSGVDAVREWYRFHYINILSRLPETLPSLEEDTLGNFIFACRFNQVSCNQANYSHFHHPMYGNCYTFNDKNNSNLWMSSMPGINNGLSLMLRAEQNDFIPLLSTVTGARVMVHGQDEPAFMDDGGFNLRPGVETSISMRKETLDRLGGDYGDCTKNGSDVPVENLYPSKYTQQVCIHSCFQESMIKECGCAYIFYPRPQNVEYCDYRKHSSWGYCYYKLQVDFSSDHLGCFTKCRKPCSVTSYQLSAGYSRWPSVTSQEWVFQMLSRQNNYTVNNKRNGVAKVNIFFKELNYKTNSESPSVTMVTLLSNLGSQWSLWFGSSVLSVVEMAELVFDLLVIMFLMLLRRFRSRYWSPGRGGRGAQEVASTLASSPPSHFCPHPMSLSLSQPGPAPSPALTAPPPAYATLGPRPSPGGSAGASSSTCPLGGP",
+        "full_sequence": "MEGNKLEEQDSSPPQSTPGLMKGNKREEQGLGPEPAAPQQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKTAFWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLNSDKLVFPAVTICTLNPYRYPEIKEELEELDRITEQTLFDLYKYSSFTTLVAGSRSRRDLRGTLPHPLQRLRVPPPPHGARRARSVASSLRDNNPQVDWKDWKIGFQLCNQNKSDCFYQTYSSGVDAVREWYRFHYINILSRLPETLPSLEEDTLGNFIFACRFNQVSCNQANYSHFHHPMYGNCYTFNDKNNSNLWMSSMPGINNGLSLMLRAEQNDFIPLLSTVTGARVMVHGQDEPAFMDDGGFNLRPGVETSISMRKETLDRLGGDYGDCTKNGSDVPVENLYPSKYTQQVCIHSCFQESMIKECGCAYIFYPRPQNVEYCDYRKHSSWGYCYYKLQVDFSSDHLGCFTKCRKPCSVTSYQLSAGYSRWPSVTSQEWVFQMLSRQNNYTVNNKRNGVAKVNIFFKELNYKTNSESPSVTMVTLLSNLGSQWSLWFGSSVLSVVEMAELVFDLLVIMFLMLLRRFRSRYWSPGRGGRGAQEVASTLASSPPSHFCPHPMSLSLSQPGPAPSPALTAPPPAYATLGPRPSPGGSAGASSSTCPLGGP",
+        "n_residues": 669,
+        "mutation_pos_1indexed": 276,
+        "wt_aa": "G",
+        "mut_aa": "C",
+        "pocket_lining_residues": "D273-T274-G276-N277-N510-N511",
+        "pocket_lining_positions_precursor": [
+          273,
+          274,
+          276,
+          277,
+          510,
+          511
+        ],
+        "pocket_lining_1letter": "DTGNNN",
+        "sequence_slice_around_pocket": "TLPSLEEDTLGNFIFACRFN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_G276C/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "D273",
+          "T274",
+          "G276",
+          "N277",
+          "N510",
+          "N511"
+        ],
+        "values": [
+          [
+            0.0,
+            3.861,
+            5.911,
+            7.133,
+            11.578,
+            13.356
+          ],
+          [
+            3.861,
+            0.0,
+            5.366,
+            4.803,
+            11.069,
+            12.708
+          ],
+          [
+            5.911,
+            5.366,
+            0.0,
+            3.837,
+            7.225,
+            10.172
+          ],
+          [
+            7.133,
+            4.803,
+            3.837,
+            0.0,
+            6.894,
+            8.692
+          ],
+          [
+            11.578,
+            11.069,
+            7.225,
+            6.894,
+            0.0,
+            3.892
+          ],
+          [
+            13.356,
+            12.708,
+            10.172,
+            8.692,
+            3.892,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccc(F)cc1N1CCCCC1",
+        "composite_score": 0.7719170314947121,
+        "mw": 236.13,
+        "logp": 1.957,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8159,
+        "sa_score": 2.14,
+        "n_heavy_atoms": 17,
+        "tpsa": 46.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SCNN1A-G276C Candidate #1",
+        "iupac_name": "NCC(=O)c1ccc(F)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7719,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_G276C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_G276C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_G276C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_G276C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_G276C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-G276C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-G276C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:37:30.965416+00:00"
     }
   ]
 }
