@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 822,
+  "total_entries": 823,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45341,
-    "queue_remaining": 133256
+    "total_processed": 45342,
+    "queue_remaining": 133255
   },
   "entries": [
     {
@@ -181130,6 +181130,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T14:42:19.473760+00:00"
+    },
+    {
+      "entry_id": "PCD-IL12RB1-V107A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL12RB1-V107A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "IL12RB1",
+        "uniprot": "",
+        "clinvar_id": "328600",
+        "disease": "Mendelian susceptibility to mycobacterial diseases due to complete IL12RB1 defic",
+        "mutation_precursor": "V107A",
+        "mutation_mature": "V107A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7380818787091299,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 351.975610049406,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          52.526695251464844,
+          15.23828125,
+          -42.933101654052734
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.043206033276381,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6930585321801794,
+        "cryptic": true,
+        "pocket_residues": {
+          "D101": "D",
+          "V105": "V",
+          "S106": "S",
+          "V107": "V",
+          "L108": "L",
+          "Y109": "Y",
+          "T110": "T",
+          "Q132": "Q",
+          "L133": "L",
+          "Y134": "Y"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P42701|IL12RB1 variant V107A",
+        "fasta_sequence": "MEPLVTWVVPLLFLFLLSRQGAACRTSECCFQDPPYPDADSGSASGPRDLRCYRISSDRYECSWQYEGPTAGVSHFLRCCLSSGRCCYFAAGSATRLQFSDQAGVSVLYTVTLWVESWARNQTEKSPEVTLQLYNSVKYEPPLGDIKVSKLAGQLRMEWETPDNQVGAEVQFRHRTPSSPWKLGDCGPQDDDTESCLCPLEMNVAQEFQLRRRQLGSQGSSWSKWSSPVCVPPENPPQPQVRFSVEQLGQDGRRRLTLKEQPTQLELPEGCQGLAPGTEVTYRLQLHMLSCPCKAKATRTLHLGKMPYLSGAAYNVAVISSNQFGPGLNQTWHIPADTHTEPVALNISVGTNGTTMYWPARAQSMTYCIEWQPVGQDGGLATCSLTAPQDPDPAGMATYSWSRESGAMGQEKCYYITIFASAHPEKLTLWSTVLSTYHFGGNASAAGTPHHVSVKNHSLDSVSVDWAPSLLSTCPGVLKEYVVRCRDEDSKQVSEHPVQPTETQVTLSGLRAGVAYTVQVRADTAWLRGVWSQPQRFSIEVQVSDWLIFFASLGSFLSILLVGVLGYLGLNRAARHLCPPLPTPCASSAIEFPGGKETWQWINPVDFQEEASLQEALVVEMSWDKGERTEPLEKTELPEGAPELALDTELSLEDGDRCKAKM",
+        "full_sequence": "MEPLVTWVVPLLFLFLLSRQGAACRTSECCFQDPPYPDADSGSASGPRDLRCYRISSDRYECSWQYEGPTAGVSHFLRCCLSSGRCCYFAAGSATRLQFSDQAGVSVLYTVTLWVESWARNQTEKSPEVTLQLYNSVKYEPPLGDIKVSKLAGQLRMEWETPDNQVGAEVQFRHRTPSSPWKLGDCGPQDDDTESCLCPLEMNVAQEFQLRRRQLGSQGSSWSKWSSPVCVPPENPPQPQVRFSVEQLGQDGRRRLTLKEQPTQLELPEGCQGLAPGTEVTYRLQLHMLSCPCKAKATRTLHLGKMPYLSGAAYNVAVISSNQFGPGLNQTWHIPADTHTEPVALNISVGTNGTTMYWPARAQSMTYCIEWQPVGQDGGLATCSLTAPQDPDPAGMATYSWSRESGAMGQEKCYYITIFASAHPEKLTLWSTVLSTYHFGGNASAAGTPHHVSVKNHSLDSVSVDWAPSLLSTCPGVLKEYVVRCRDEDSKQVSEHPVQPTETQVTLSGLRAGVAYTVQVRADTAWLRGVWSQPQRFSIEVQVSDWLIFFASLGSFLSILLVGVLGYLGLNRAARHLCPPLPTPCASSAIEFPGGKETWQWINPVDFQEEASLQEALVVEMSWDKGERTEPLEKTELPEGAPELALDTELSLEDGDRCKAKM",
+        "n_residues": 662,
+        "mutation_pos_1indexed": 107,
+        "wt_aa": "V",
+        "mut_aa": "A",
+        "pocket_lining_residues": "D101-V105-S106-V107-L108-Y109-T110-Q132-L133-Y134",
+        "pocket_lining_positions_precursor": [
+          101,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          132,
+          133,
+          134
+        ],
+        "pocket_lining_1letter": "DVSVLYTQLY",
+        "sequence_slice_around_pocket": "LQFSDQAGVSVLYTVTLWVE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/IL12RB1_V107A/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "D101",
+          "V105",
+          "S106",
+          "V107",
+          "L108",
+          "Y109",
+          "T110",
+          "Q132",
+          "L133",
+          "Y134"
+        ],
+        "values": [
+          [
+            0.0,
+            5.747,
+            7.102,
+            6.478,
+            9.611,
+            11.79,
+            13.853,
+            12.37,
+            9.498,
+            9.386
+          ],
+          [
+            5.747,
+            0.0,
+            3.826,
+            5.847,
+            9.002,
+            9.148,
+            10.537,
+            10.808,
+            9.11,
+            10.657
+          ],
+          [
+            7.102,
+            3.826,
+            0.0,
+            3.834,
+            5.665,
+            5.726,
+            8.058,
+            8.753,
+            8.126,
+            8.946
+          ],
+          [
+            6.478,
+            5.847,
+            3.834,
+            0.0,
+            3.866,
+            5.653,
+            7.689,
+            6.33,
+            4.882,
+            5.157
+          ],
+          [
+            9.611,
+            9.002,
+            5.665,
+            3.866,
+            0.0,
+            3.849,
+            6.982,
+            6.145,
+            6.702,
+            5.532
+          ],
+          [
+            11.79,
+            9.148,
+            5.726,
+            5.653,
+            3.849,
+            0.0,
+            3.805,
+            5.61,
+            7.638,
+            8.161
+          ],
+          [
+            13.853,
+            10.537,
+            8.058,
+            7.689,
+            6.982,
+            3.805,
+            0.0,
+            4.502,
+            7.49,
+            9.342
+          ],
+          [
+            12.37,
+            10.808,
+            8.753,
+            6.33,
+            6.145,
+            5.61,
+            4.502,
+            0.0,
+            3.848,
+            5.59
+          ],
+          [
+            9.498,
+            9.11,
+            8.126,
+            4.882,
+            6.702,
+            7.638,
+            7.49,
+            3.848,
+            0.0,
+            3.85
+          ],
+          [
+            9.386,
+            10.657,
+            8.946,
+            5.157,
+            5.532,
+            8.161,
+            9.342,
+            5.59,
+            3.85,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COC(CCc1c[nH]c2ccccc12)CC(N)=O",
+        "composite_score": 0.8295207869689056,
+        "mw": 246.14,
+        "logp": 1.991,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 6,
+        "qed": 0.8181,
+        "sa_score": 2.67,
+        "n_heavy_atoms": 18,
+        "tpsa": 68.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "IL12RB1-V107A Candidate #1",
+        "iupac_name": "COC(CCc1c[nH]c2ccccc12)CC(N)=O",
+        "pocket_affinity_score": 0.8295,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/IL12RB1_V107A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/IL12RB1_V107A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/IL12RB1_V107A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/IL12RB1_V107A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/IL12RB1_V107A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL12RB1-V107A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL12RB1-V107A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T14:42:46.151359+00:00"
     }
   ]
 }
