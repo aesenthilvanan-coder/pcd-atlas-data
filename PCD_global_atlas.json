@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 252,
+  "total_entries": 253,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44677,
-    "queue_remaining": 133920
+    "total_processed": 44678,
+    "queue_remaining": 133919
   },
   "entries": [
     {
@@ -56273,6 +56273,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:49:35.325691+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC1A1-I104T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC1A1-I104T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC1A1",
+        "uniprot": "",
+        "clinvar_id": "367041",
+        "disease": "Dicarboxylic aminoaciduria",
+        "mutation_precursor": "I104T",
+        "mutation_mature": "I104T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8234290607451239,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 459.1504084079197,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.919519424438477,
+          10.318036079406738,
+          -10.705245971679688
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.305433316524385,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8277525884224622,
+        "cryptic": true,
+        "pocket_residues": {
+          "C100": "C",
+          "L103": "L",
+          "I104": "I",
+          "I107": "I"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P43005|SLC1A1 variant I104T",
+        "fasta_sequence": "MGKPARKGCEWKRFLKNNWVLLSTVAAVVLGITTGVLVREHSNLSTLEKFYFAFPGEILMRMLKLIILPLIISSMITGVAALDSNVSGKIGLRAVVYYFCTTLIAVILGIVLVVSIKPGVTQKVGEIARTGSTPEVSTVDAMLDLIRNMFPENLVQACFQQYKTKREEVKPPSDPEMNMTEESFTAVMTTAISKNKTKEYKIVGMYSDGINVLGLIVFCLVFGLVIGKMGEKGQILVDFFNALSDATMKIVQIIMCYMPLGILFLIAGKIIEVEDWEIFRKLGLYMATVLTGLAIHSIVILPLIYFIVVRKNPFRFAMGMAQALLTALMISSSSATLPVTFRCAEENNQVDKRITRFVLPVGATINMDGTALYEAVAAVFIAQLNDLDLGIGQIITISITATSASIGAAGVPQAGLVTMVIVLSAVGLPAEDVTLIIAVDWLLDRFRTMVNVLGDAFGTGIVEKLSKKELEQMDVSSEVNIVNPFALESTILDNEDSDTKKSYVNGGFAVDKSDTISFTQTSQF",
+        "full_sequence": "MGKPARKGCEWKRFLKNNWVLLSTVAAVVLGITTGVLVREHSNLSTLEKFYFAFPGEILMRMLKLIILPLIISSMITGVAALDSNVSGKIGLRAVVYYFCTTLIAVILGIVLVVSIKPGVTQKVGEIARTGSTPEVSTVDAMLDLIRNMFPENLVQACFQQYKTKREEVKPPSDPEMNMTEESFTAVMTTAISKNKTKEYKIVGMYSDGINVLGLIVFCLVFGLVIGKMGEKGQILVDFFNALSDATMKIVQIIMCYMPLGILFLIAGKIIEVEDWEIFRKLGLYMATVLTGLAIHSIVILPLIYFIVVRKNPFRFAMGMAQALLTALMISSSSATLPVTFRCAEENNQVDKRITRFVLPVGATINMDGTALYEAVAAVFIAQLNDLDLGIGQIITISITATSASIGAAGVPQAGLVTMVIVLSAVGLPAEDVTLIIAVDWLLDRFRTMVNVLGDAFGTGIVEKLSKKELEQMDVSSEVNIVNPFALESTILDNEDSDTKKSYVNGGFAVDKSDTISFTQTSQF",
+        "n_residues": 524,
+        "mutation_pos_1indexed": 104,
+        "wt_aa": "I",
+        "mut_aa": "T",
+        "pocket_lining_residues": "C100-L103-I104-I107",
+        "pocket_lining_positions_precursor": [
+          100,
+          103,
+          104,
+          107
+        ],
+        "pocket_lining_1letter": "CLII",
+        "sequence_slice_around_pocket": "AVVYYFCTTLIAVILGIVLV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC1A1_I104T/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "C100",
+          "L103",
+          "I104",
+          "I107"
+        ],
+        "values": [
+          [
+            0.0,
+            5.2,
+            6.211,
+            10.65
+          ],
+          [
+            5.2,
+            0.0,
+            3.858,
+            6.226
+          ],
+          [
+            6.211,
+            3.858,
+            0.0,
+            5.145
+          ],
+          [
+            10.65,
+            6.226,
+            5.145,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6528326187920688,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC1A1-I104T Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6528,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC1A1_I104T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC1A1_I104T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC1A1_I104T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC1A1_I104T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC1A1_I104T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC1A1-I104T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC1A1-I104T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:49:59.589534+00:00"
     }
   ]
 }
