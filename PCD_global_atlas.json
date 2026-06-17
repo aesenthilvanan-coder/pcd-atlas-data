@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 279,
+  "total_entries": 280,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44708,
-    "queue_remaining": 133889
+    "total_processed": 44709,
+    "queue_remaining": 133888
   },
   "entries": [
     {
@@ -61241,6 +61241,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:08:36.916771+00:00"
+    },
+    {
+      "entry_id": "PCD-RPGRIP1-M220V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RPGRIP1-M220V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RPGRIP1",
+        "uniprot": "",
+        "clinvar_id": "312783",
+        "disease": "Cone-rod dystrophy 13",
+        "mutation_precursor": "M220V",
+        "mutation_mature": "M220V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8609955664984719,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 306.4879748288987,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -42.5701904296875,
+          53.577945709228516,
+          22.446928024291992
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.3765052143255443,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7930945907219733,
+        "cryptic": true,
+        "pocket_residues": {
+          "L218": "L",
+          "C219": "C",
+          "M220": "M",
+          "P221": "P"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96KN7|RPGRIP1 variant M220V",
+        "fasta_sequence": "MSHLVDPTSGDLPVRDIDAIPLVLPASKGKNMKTQPPLSRMNREELEDSFFRLREDHMLVKELSWKQQDEIKRLRTTLLRLTAAGRDLRVAEEAAPLSETARRGQKAGWRQRLSMHQRPQMHRLQGHFHCVGPASPRRAQPRVQVGHRQLHTAGAPVPEKPKRGPRDRLSYTAPPSFKEHATNENRGEVASKPSELVSGSNSIISFSSVISMAKPIGLCMPNSAHIMASNTMQVEEPPKSPEKMWPKDENFEQRSSLECAQKAAELRASIKEKVELIRLKKLLHERNASLVMTKAQLTEVQEAYETLLQKNQGILSAAHEALLKQVNELRAELKEESKKAVSLKSQLEDVSILQMTLKEFQERVEDLEKERKLLNDNYDKLLESMLDSSDSSSQPHWSNELIAEQLQQQVSQLQDQLDAELEDKRKVLLELSREKAQNEDLKLEVTNILQKHKQEVELLQNAATISQPPDRQSEPATHPAVLQENTQIEPSEPKNQEEKKLSQVLNELQVSHAETTLELEKTRDMLILQRKINVCYQEELEAMMTKADNDNRDHKEKLERLTRLLDLKNNRIKQLEGILRSHDLPTSEQLKDVAYGTRPLSLCLETLPAHGDEDKVDISLLHQGENLFELHIHQAFLTSAALAQAGDTQPTTFCTYSFYDFETHCTPLSVGPQPLYDFTSQYVMETDSLFLHYLQEASARLDIHQAMASEHSTLAAGWICFDRVLETVEKVHGLATLIGAGGEEFGVLEYWMRLRFPIKPSLQACNKRKKAQVYLSTDVLGGRKAQEEEFRSESWEPQNELWIEITKCCGLRSRWLGTQPSPYAVYRFFTFSDHDTAIIPASNNPYFRDQARFPVLVTSDLDHYLRREALSIHVFDDEDLEPGSYLGRARVPLLPLAKNESIKGDFNLTDPAEKPNGSIQVQLDWKFPYIPPESFLKPEAQTKGKDTKDSSKISSEEEKASFPSQDQMASPEVPIEAGQYRSKRKPPHGGERKEKEHQVVSYSRRKHGKRIGVQGKNRMEYLSLNILNGNTPEQVNYTEWKFSETNSFIGDGFKNQHEEEEMTLSHSALKQKEPLHPVNDKESSEQGSEVSEAQTTDSDDVIVPPMSQKYPKADSEKMCIEIVSLAFYPEAEVMSDENIKQVYVEYKFYDLPLSETETPVSLRKPRAGEEIHFHFSKVIDLDPQEQQGRRRFLFDMLNGQDPDQGHLKFTVVSDPLDEEKKECEEVGYAYLQLWQILESGRDILEQELDIVSPEDLATPIGRLKVSLQAAAVLHAIYKEMTEDLFS",
+        "full_sequence": "MSHLVDPTSGDLPVRDIDAIPLVLPASKGKNMKTQPPLSRMNREELEDSFFRLREDHMLVKELSWKQQDEIKRLRTTLLRLTAAGRDLRVAEEAAPLSETARRGQKAGWRQRLSMHQRPQMHRLQGHFHCVGPASPRRAQPRVQVGHRQLHTAGAPVPEKPKRGPRDRLSYTAPPSFKEHATNENRGEVASKPSELVSGSNSIISFSSVISMAKPIGLCMPNSAHIMASNTMQVEEPPKSPEKMWPKDENFEQRSSLECAQKAAELRASIKEKVELIRLKKLLHERNASLVMTKAQLTEVQEAYETLLQKNQGILSAAHEALLKQVNELRAELKEESKKAVSLKSQLEDVSILQMTLKEFQERVEDLEKERKLLNDNYDKLLESMLDSSDSSSQPHWSNELIAEQLQQQVSQLQDQLDAELEDKRKVLLELSREKAQNEDLKLEVTNILQKHKQEVELLQNAATISQPPDRQSEPATHPAVLQENTQIEPSEPKNQEEKKLSQVLNELQVSHAETTLELEKTRDMLILQRKINVCYQEELEAMMTKADNDNRDHKEKLERLTRLLDLKNNRIKQLEGILRSHDLPTSEQLKDVAYGTRPLSLCLETLPAHGDEDKVDISLLHQGENLFELHIHQAFLTSAALAQAGDTQPTTFCTYSFYDFETHCTPLSVGPQPLYDFTSQYVMETDSLFLHYLQEASARLDIHQAMASEHSTLAAGWICFDRVLETVEKVHGLATLIGAGGEEFGVLEYWMRLRFPIKPSLQACNKRKKAQVYLSTDVLGGRKAQEEEFRSESWEPQNELWIEITKCCGLRSRWLGTQPSPYAVYRFFTFSDHDTAIIPASNNPYFRDQARFPVLVTSDLDHYLRREALSIHVFDDEDLEPGSYLGRARVPLLPLAKNESIKGDFNLTDPAEKPNGSIQVQLDWKFPYIPPESFLKPEAQTKGKDTKDSSKISSEEEKASFPSQDQMASPEVPIEAGQYRSKRKPPHGGERKEKEHQVVSYSRRKHGKRIGVQGKNRMEYLSLNILNGNTPEQVNYTEWKFSETNSFIGDGFKNQHEEEEMTLSHSALKQKEPLHPVNDKESSEQGSEVSEAQTTDSDDVIVPPMSQKYPKADSEKMCIEIVSLAFYPEAEVMSDENIKQVYVEYKFYDLPLSETETPVSLRKPRAGEEIHFHFSKVIDLDPQEQQGRRRFLFDMLNGQDPDQGHLKFTVVSDPLDEEKKECEEVGYAYLQLWQILESGRDILEQELDIVSPEDLATPIGRLKVSLQAAAVLHAIYKEMTEDLFS",
+        "n_residues": 1286,
+        "mutation_pos_1indexed": 220,
+        "wt_aa": "M",
+        "mut_aa": "V",
+        "pocket_lining_residues": "L218-C219-M220-P221",
+        "pocket_lining_positions_precursor": [
+          218,
+          219,
+          220,
+          221
+        ],
+        "pocket_lining_1letter": "LCMP",
+        "sequence_slice_around_pocket": "ISMAKPIGLCMPNSAHIMAS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RPGRIP1_M220V/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "L218",
+          "C219",
+          "M220",
+          "P221"
+        ],
+        "values": [
+          [
+            0.0,
+            3.147,
+            6.769,
+            9.945
+          ],
+          [
+            3.147,
+            0.0,
+            3.879,
+            6.894
+          ],
+          [
+            6.769,
+            3.879,
+            0.0,
+            3.277
+          ],
+          [
+            9.945,
+            6.894,
+            3.277,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "composite_score": 0.5627413655702019,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.89,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RPGRIP1-M220V Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5627,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RPGRIP1_M220V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RPGRIP1_M220V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RPGRIP1_M220V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RPGRIP1_M220V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RPGRIP1_M220V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RPGRIP1-M220V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RPGRIP1-M220V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:09:28.606102+00:00"
     }
   ]
 }
