@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 843,
+  "total_entries": 844,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45366,
-    "queue_remaining": 133231
+    "total_processed": 45367,
+    "queue_remaining": 133230
   },
   "entries": [
     {
@@ -186014,6 +186014,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:07:33.768298+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT83-R293C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT83-R293C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT83",
+        "uniprot": "",
+        "clinvar_id": "309515",
+        "disease": "Monilethrix",
+        "mutation_precursor": "R293C",
+        "mutation_mature": "R293C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7889892903395456,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 511.8072798668925,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          78.21857452392578,
+          9.921473503112793,
+          -36.211387634277344
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.9726908582643117,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7502219347677357,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y287": "Y",
+          "D288": "D",
+          "D289": "D",
+          "I290": "I",
+          "A291": "A",
+          "T292": "T",
+          "R293": "R",
+          "S294": "S",
+          "R295": "R",
+          "A296": "A"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P78385|KRT83 variant R293C",
+        "fasta_sequence": "MTCGFNSIGCGFRPGNFSCVSACGPRPSRCCITAAPYRGISCYRGLTGGFGSHSVCGGFRAGSCGRSFGYRSGGVCGPSPPCITTVSVNESLLTPLNLEIDPNAQCVKQEEKEQIKSLNSRFAAFIDKVRFLEQQNKLLETKLQFYQNRECCQSNLEPLFAGYIETLRREAECVEADSGRLASELNHVQEVLEGYKKKYEEEVALRATAENEFVALKKDVDCAYLRKSDLEANVEALIQEIDFLRRLYEEEIRILQSHISDTSVVVKLDNSRDLNMDCIVAEIKAQYDDIATRSRAEAESWYRSKCEEMKATVIRHGETLRRTKEEINELNRMIQRLTAEVENAKCQNSKLEAAVAQSEQQGEAALSDARCKLAELEGALQKAKQDMACLIREYQEVMNSKLGLDIEIATYRRLLEGEEQRLCEGVEAVNVCVSSSRGGVVCGDLCVSGSRPVTGSVCSAPCNGNLVVSTGLCKPCGQLNTTCGGGSCGQGRH",
+        "full_sequence": "MTCGFNSIGCGFRPGNFSCVSACGPRPSRCCITAAPYRGISCYRGLTGGFGSHSVCGGFRAGSCGRSFGYRSGGVCGPSPPCITTVSVNESLLTPLNLEIDPNAQCVKQEEKEQIKSLNSRFAAFIDKVRFLEQQNKLLETKLQFYQNRECCQSNLEPLFAGYIETLRREAECVEADSGRLASELNHVQEVLEGYKKKYEEEVALRATAENEFVALKKDVDCAYLRKSDLEANVEALIQEIDFLRRLYEEEIRILQSHISDTSVVVKLDNSRDLNMDCIVAEIKAQYDDIATRSRAEAESWYRSKCEEMKATVIRHGETLRRTKEEINELNRMIQRLTAEVENAKCQNSKLEAAVAQSEQQGEAALSDARCKLAELEGALQKAKQDMACLIREYQEVMNSKLGLDIEIATYRRLLEGEEQRLCEGVEAVNVCVSSSRGGVVCGDLCVSGSRPVTGSVCSAPCNGNLVVSTGLCKPCGQLNTTCGGGSCGQGRH",
+        "n_residues": 493,
+        "mutation_pos_1indexed": 293,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "Y287-D288-D289-I290-A291-T292-R293-S294-R295-A296",
+        "pocket_lining_positions_precursor": [
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296
+        ],
+        "pocket_lining_1letter": "YDDIATRSRA",
+        "sequence_slice_around_pocket": "IKAQYDDIATRSRAEAESWY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_R293C/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "Y287",
+          "D288",
+          "D289",
+          "I290",
+          "A291",
+          "T292",
+          "R293",
+          "S294",
+          "R295",
+          "A296"
+        ],
+        "values": [
+          [
+            0.0,
+            3.838,
+            5.438,
+            4.991,
+            5.971,
+            8.494,
+            9.67,
+            10.15,
+            11.988,
+            13.939
+          ],
+          [
+            3.838,
+            0.0,
+            3.856,
+            5.499,
+            5.008,
+            6.035,
+            8.429,
+            9.653,
+            10.375,
+            12.026
+          ],
+          [
+            5.438,
+            3.856,
+            0.0,
+            3.877,
+            5.476,
+            5.116,
+            5.912,
+            8.33,
+            9.729,
+            10.283
+          ],
+          [
+            4.991,
+            5.499,
+            3.877,
+            0.0,
+            3.855,
+            5.569,
+            5.059,
+            5.819,
+            8.414,
+            9.723
+          ],
+          [
+            5.971,
+            5.008,
+            5.476,
+            3.855,
+            0.0,
+            3.858,
+            5.55,
+            5.054,
+            6.065,
+            8.555
+          ],
+          [
+            8.494,
+            6.035,
+            5.116,
+            5.569,
+            3.858,
+            0.0,
+            3.866,
+            5.477,
+            5.052,
+            6.035
+          ],
+          [
+            9.67,
+            8.429,
+            5.912,
+            5.059,
+            5.55,
+            3.866,
+            0.0,
+            3.849,
+            5.445,
+            5.025
+          ],
+          [
+            10.15,
+            9.653,
+            8.33,
+            5.819,
+            5.054,
+            5.477,
+            3.849,
+            0.0,
+            3.849,
+            5.564
+          ],
+          [
+            11.988,
+            10.375,
+            9.729,
+            8.414,
+            6.065,
+            5.052,
+            5.445,
+            3.849,
+            0.0,
+            3.853
+          ],
+          [
+            13.939,
+            12.026,
+            10.283,
+            9.723,
+            8.555,
+            6.035,
+            5.025,
+            5.564,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8124130491280569,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT83-R293C Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8124,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_R293C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_R293C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_R293C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_R293C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_R293C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT83-R293C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT83-R293C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:08:01.591021+00:00"
     }
   ]
 }
