@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 139,
+  "total_entries": 140,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44543,
-    "queue_remaining": 134054
+    "total_processed": 44544,
+    "queue_remaining": 134053
   },
   "entries": [
     {
@@ -31897,6 +31897,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:40:05.681984+00:00"
+    },
+    {
+      "entry_id": "PCD-FGD4-P126T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGD4-P126T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FGD4",
+        "uniprot": "",
+        "clinvar_id": "308284",
+        "disease": "Charcot-Marie-Tooth disease type 4H",
+        "mutation_precursor": "P126T",
+        "mutation_mature": "P126T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8633834155802762,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 285.47870637551296,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          53.21394729614258,
+          0.34379541873931885,
+          -14.147095680236816
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.718451397757925,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6000990174000556,
+        "cryptic": true,
+        "pocket_residues": {
+          "T125": "T",
+          "H126": "H",
+          "I127": "I"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96M96|FGD4 variant P126T",
+        "fasta_sequence": "MEEIKPASASCVSKEKPSKVSDLISRFEGGSSLSNYSDLKKESAVNLNAPRTPGRHGLTTTPQQKLLSQHLPQRQGNDTDKTQGAQTCVANGVMAAQNQMECEEEKAATLSSDTSIQASEPLLDTHIVNGERDETATAPASPTTDSCDGNASDSSYRTPGIGPVLPLEERGAETETKVQERENGESPLELEQLDQHHEMKETNEQKLHKIANELLLTERAYVNRLDLLDQVFYCKLLEEANRGSFPAEMVNKIFSNISSINAFHSKFLLPELEKRMQEWETTPRIGDILQKLAPFLKMYGEYVKGFDNAMELVKNMTERIPQFKSVVEEIQKQKICGSLTLQHHMLEPVQRIPRYEMLLKDYLRKLPPDSLDWNDAKKSLEIISTAASHSNSAIRKMENLKKLLEIYEMLGEEEDIVNPSNELIKEGQILKLAARNTSAQERYLFLFNNMLLYCVPKFSLVGSKFTVRTRVGIDGMKIVETQNEEYPHTFQVSGKERTLELQASSAQDKEEWIKALQETIDAFHQRHETFRNAIAKDNDIHSEVSTAELGKRAPRWIRDNEVTMCMKCKEPFNALTRRRHHCRACGYVVCWKCSDYKAQLEYDGGKLSKVCKDCYQIISGFTDSEEKKRKGILEIESAEVSGNSVVCSFLQYMEKSKPWQKAWCVIPKQDPLVLYMYGAPQDVRAQATIPLLGYVVDEMPRSADLPHSFKLTQSKSVHSFAADSEELKQKWLKVILLAVTGETPGGPNEHPATLDDHPEPKKKSEC",
+        "full_sequence": "MEEIKPASASCVSKEKPSKVSDLISRFEGGSSLSNYSDLKKESAVNLNAPRTPGRHGLTTTPQQKLLSQHLPQRQGNDTDKTQGAQTCVANGVMAAQNQMECEEEKAATLSSDTSIQASEPLLDTHIVNGERDETATAPASPTTDSCDGNASDSSYRTPGIGPVLPLEERGAETETKVQERENGESPLELEQLDQHHEMKETNEQKLHKIANELLLTERAYVNRLDLLDQVFYCKLLEEANRGSFPAEMVNKIFSNISSINAFHSKFLLPELEKRMQEWETTPRIGDILQKLAPFLKMYGEYVKGFDNAMELVKNMTERIPQFKSVVEEIQKQKICGSLTLQHHMLEPVQRIPRYEMLLKDYLRKLPPDSLDWNDAKKSLEIISTAASHSNSAIRKMENLKKLLEIYEMLGEEEDIVNPSNELIKEGQILKLAARNTSAQERYLFLFNNMLLYCVPKFSLVGSKFTVRTRVGIDGMKIVETQNEEYPHTFQVSGKERTLELQASSAQDKEEWIKALQETIDAFHQRHETFRNAIAKDNDIHSEVSTAELGKRAPRWIRDNEVTMCMKCKEPFNALTRRRHHCRACGYVVCWKCSDYKAQLEYDGGKLSKVCKDCYQIISGFTDSEEKKRKGILEIESAEVSGNSVVCSFLQYMEKSKPWQKAWCVIPKQDPLVLYMYGAPQDVRAQATIPLLGYVVDEMPRSADLPHSFKLTQSKSVHSFAADSEELKQKWLKVILLAVTGETPGGPNEHPATLDDHPEPKKKSEC",
+        "n_residues": 766,
+        "mutation_pos_1indexed": 126,
+        "wt_aa": "P",
+        "mut_aa": "T",
+        "pocket_lining_residues": "T125-H126-I127",
+        "pocket_lining_positions_precursor": [
+          125,
+          126,
+          127
+        ],
+        "pocket_lining_1letter": "THI",
+        "sequence_slice_around_pocket": "IQASEPLLDTHIVNGERDET"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FGD4_P126T/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "T125",
+          "H126",
+          "I127"
+        ],
+        "values": [
+          [
+            0.0,
+            3.468,
+            7.094
+          ],
+          [
+            3.468,
+            0.0,
+            3.946
+          ],
+          [
+            7.094,
+            3.946,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccccc1N1CCCCC1",
+        "composite_score": 0.5580221661653089,
+        "mw": 204.13,
+        "logp": 1.776,
+        "hbd": 1,
+        "hba": 2,
+        "rotatable_bonds": 2,
+        "qed": 0.7977,
+        "sa_score": 1.64,
+        "n_heavy_atoms": 15,
+        "tpsa": 46.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FGD4-P126T Candidate #1",
+        "iupac_name": "NC(=O)c1ccccc1N1CCCCC1",
+        "pocket_affinity_score": 0.558,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FGD4_P126T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FGD4_P126T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FGD4_P126T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FGD4_P126T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FGD4_P126T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGD4-P126T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGD4-P126T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:40:32.922294+00:00"
     }
   ]
 }
