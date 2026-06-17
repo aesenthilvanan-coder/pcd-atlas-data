@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1033,
+  "total_entries": 1034,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45607,
-    "queue_remaining": 132990
+    "total_processed": 45608,
+    "queue_remaining": 132989
   },
   "entries": [
     {
@@ -227596,6 +227596,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T17:50:28.276477+00:00"
+    },
+    {
+      "entry_id": "PCD-TTC19-P253L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TTC19-P253L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TTC19",
+        "uniprot": "",
+        "clinvar_id": "321947",
+        "disease": "Mitochondrial complex III deficiency nuclear type 2",
+        "mutation_precursor": "P253L",
+        "mutation_mature": "P253L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7257395635650721,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 568.5455656094272,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -15.629064559936523,
+          10.732059478759766,
+          1.5766521692276
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.15521280895913,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6521332187156448,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y246": "Y",
+          "L247": "L",
+          "L248": "L",
+          "F249": "F",
+          "S250": "S",
+          "K251": "K",
+          "Q252": "Q",
+          "P253": "P",
+          "S254": "S",
+          "Q255": "Q",
+          "A256": "A"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q6DKK2|TTC19 variant P253L",
+        "fasta_sequence": "MFRLLSWSLGRGFLRAAGRRCRGCSARLLPGLAGGPGPEVQVPPSRVAPHGRGPGLLPLLAALAWFSRPAAAEEEEQQGADGAAAEDGADEAEAEIIQLLKRAKLSIMKDEPEEAELILHDALRLAYQTDNKKAITYTYDLMANLAFIRGQLENAEQLFKATMSYLLGGGMKQEDNAIIEISLKLASIYAAQNRQEFAVAGYEFCISTLEEKIEREKELAEDIMSVEEKANTHLLLGMCLDACARYLLFSKQPSQAQRMYEKALQISEEIQGERHPQTIVLMSDLATTLDAQGRFDEAYIYMQRASDLARQINHPELHMVLSNLAAVLMHRERYTQAKEIYQEALKQAKLKKDEISVQHIREELAELSKKSRPLTNSVKL",
+        "full_sequence": "MFRLLSWSLGRGFLRAAGRRCRGCSARLLPGLAGGPGPEVQVPPSRVAPHGRGPGLLPLLAALAWFSRPAAAEEEEQQGADGAAAEDGADEAEAEIIQLLKRAKLSIMKDEPEEAELILHDALRLAYQTDNKKAITYTYDLMANLAFIRGQLENAEQLFKATMSYLLGGGMKQEDNAIIEISLKLASIYAAQNRQEFAVAGYEFCISTLEEKIEREKELAEDIMSVEEKANTHLLLGMCLDACARYLLFSKQPSQAQRMYEKALQISEEIQGERHPQTIVLMSDLATTLDAQGRFDEAYIYMQRASDLARQINHPELHMVLSNLAAVLMHRERYTQAKEIYQEALKQAKLKKDEISVQHIREELAELSKKSRPLTNSVKL",
+        "n_residues": 380,
+        "mutation_pos_1indexed": 253,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "Y246-L247-L248-F249-S250-K251-Q252-P253-S254-Q255-A256",
+        "pocket_lining_positions_precursor": [
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256
+        ],
+        "pocket_lining_1letter": "YLLFSKQPSQA",
+        "sequence_slice_around_pocket": "CARYLLFSKQPSQAQRMYEK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TTC19_P253L/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "Y246",
+          "L247",
+          "L248",
+          "F249",
+          "S250",
+          "K251",
+          "Q252",
+          "P253",
+          "S254",
+          "Q255",
+          "A256"
+        ],
+        "values": [
+          [
+            0.0,
+            3.858,
+            5.541,
+            5.129,
+            6.063,
+            8.778,
+            8.755,
+            9.858,
+            12.345,
+            10.188,
+            7.961
+          ],
+          [
+            3.858,
+            0.0,
+            3.852,
+            5.457,
+            4.802,
+            6.309,
+            5.11,
+            6.63,
+            8.77,
+            6.734,
+            5.342
+          ],
+          [
+            5.541,
+            3.852,
+            0.0,
+            3.846,
+            5.278,
+            5.047,
+            5.261,
+            5.03,
+            8.469,
+            8.036,
+            5.658
+          ],
+          [
+            5.129,
+            5.457,
+            3.846,
+            0.0,
+            3.853,
+            5.442,
+            7.526,
+            8.485,
+            11.99,
+            11.354,
+            9.255
+          ],
+          [
+            6.063,
+            4.802,
+            5.278,
+            3.853,
+            0.0,
+            3.893,
+            5.7,
+            8.352,
+            11.185,
+            10.259,
+            9.485
+          ],
+          [
+            8.778,
+            6.309,
+            5.047,
+            5.442,
+            3.893,
+            0.0,
+            3.843,
+            5.93,
+            8.958,
+            9.395,
+            8.983
+          ],
+          [
+            8.755,
+            5.11,
+            5.261,
+            7.526,
+            5.7,
+            3.843,
+            0.0,
+            3.87,
+            5.705,
+            5.701,
+            6.315
+          ],
+          [
+            9.858,
+            6.63,
+            5.03,
+            8.485,
+            8.352,
+            5.93,
+            3.87,
+            0.0,
+            3.868,
+            5.481,
+            4.834
+          ],
+          [
+            12.345,
+            8.77,
+            8.469,
+            11.99,
+            11.185,
+            8.958,
+            5.705,
+            3.868,
+            0.0,
+            3.833,
+            5.516
+          ],
+          [
+            10.188,
+            6.734,
+            8.036,
+            11.354,
+            10.259,
+            9.395,
+            5.701,
+            5.481,
+            3.833,
+            0.0,
+            3.84
+          ],
+          [
+            7.961,
+            5.342,
+            5.658,
+            9.255,
+            9.485,
+            8.983,
+            6.315,
+            4.834,
+            5.516,
+            3.84,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1CNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.6074936047385259,
+        "mw": 400.17,
+        "logp": 1.754,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.5803,
+        "sa_score": 3.09,
+        "n_heavy_atoms": 28,
+        "tpsa": 117.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TTC19-P253L Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1CNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6075,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TTC19_P253L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TTC19_P253L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TTC19_P253L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TTC19_P253L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TTC19_P253L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TTC19-P253L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TTC19-P253L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T17:50:51.213951+00:00"
     }
   ]
 }
