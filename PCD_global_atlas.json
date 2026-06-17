@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1345,
+  "total_entries": 1346,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45965,
-    "queue_remaining": 132632
+    "total_processed": 45966,
+    "queue_remaining": 132631
   },
   "entries": [
     {
@@ -297845,6 +297845,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:33:31.261347+00:00"
+    },
+    {
+      "entry_id": "PCD-MLYCD-E348D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MLYCD-E348D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MLYCD",
+        "uniprot": "",
+        "clinvar_id": "320731",
+        "disease": "Deficiency of malonyl-CoA decarboxylase",
+        "mutation_precursor": "E348D",
+        "mutation_mature": "E348D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.928059856551985,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 439.03495861958874,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          38.12611389160156,
+          -7.359861850738525,
+          9.77230453491211
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.7164556066987835,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8295344833219447,
+        "cryptic": true,
+        "pocket_residues": {
+          "T346": "T",
+          "K347": "K",
+          "E348": "E",
+          "H349": "H",
+          "G350": "G",
+          "R351": "R"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O95822|MLYCD variant E348D",
+        "fasta_sequence": "MRGFGPGLTARRLLPLRLPPRPPGPRLASGQAAGALERAMDELLRRAVPPTPAYELREKTPAPAEGQCADFVSFYGGLAETAQRAELLGRLARGFGVDHGQVAEQSAGVLHLRQQQREAAVLLQAEDRLRYALVPRYRGLFHHISKLDGGVRFLVQLRADLLEAQALKLVEGPDVREMNGVLKGMLSEWFSSGFLNLERVTWHSPCEVLQKISEAEAVHPVKNWMDMKRRVGPYRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETEEKNKITAAIFYSISLTQQGLQGVELGTFLIKRVVKELQREFPHLGVFSSLSPIPGFTKWLLGLLNSQTKEHGRNELFTDSECKEISEITGGPINETLKLLLSSSEWVQSEKLVRALQTPLMRLCAWYLYGEKHRGYALNPVANFHLQNGAVLWRINWMADVSLRGITGSCGLMANYRYFLEETGPNSTSYLGSKIIKASEQVLSLVAQFQKNSKL",
+        "full_sequence": "MRGFGPGLTARRLLPLRLPPRPPGPRLASGQAAGALERAMDELLRRAVPPTPAYELREKTPAPAEGQCADFVSFYGGLAETAQRAELLGRLARGFGVDHGQVAEQSAGVLHLRQQQREAAVLLQAEDRLRYALVPRYRGLFHHISKLDGGVRFLVQLRADLLEAQALKLVEGPDVREMNGVLKGMLSEWFSSGFLNLERVTWHSPCEVLQKISEAEAVHPVKNWMDMKRRVGPYRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETEEKNKITAAIFYSISLTQQGLQGVELGTFLIKRVVKELQREFPHLGVFSSLSPIPGFTKWLLGLLNSQTKEHGRNELFTDSECKEISEITGGPINETLKLLLSSSEWVQSEKLVRALQTPLMRLCAWYLYGEKHRGYALNPVANFHLQNGAVLWRINWMADVSLRGITGSCGLMANYRYFLEETGPNSTSYLGSKIIKASEQVLSLVAQFQKNSKL",
+        "n_residues": 493,
+        "mutation_pos_1indexed": 348,
+        "wt_aa": "E",
+        "mut_aa": "D",
+        "pocket_lining_residues": "T346-K347-E348-H349-G350-R351",
+        "pocket_lining_positions_precursor": [
+          346,
+          347,
+          348,
+          349,
+          350,
+          351
+        ],
+        "pocket_lining_1letter": "TKEHGR",
+        "sequence_slice_around_pocket": "LLGLLNSQTKEHGRNELFTD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_E348D/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "T346",
+          "K347",
+          "E348",
+          "H349",
+          "G350",
+          "R351"
+        ],
+        "values": [
+          [
+            0.0,
+            3.868,
+            5.684,
+            6.721,
+            8.36,
+            8.848
+          ],
+          [
+            3.868,
+            0.0,
+            3.835,
+            6.087,
+            9.06,
+            10.322
+          ],
+          [
+            5.684,
+            3.835,
+            0.0,
+            3.812,
+            6.389,
+            7.668
+          ],
+          [
+            6.721,
+            6.087,
+            3.812,
+            0.0,
+            3.755,
+            6.777
+          ],
+          [
+            8.36,
+            9.06,
+            6.389,
+            3.755,
+            0.0,
+            3.88
+          ],
+          [
+            8.848,
+            10.322,
+            7.668,
+            6.777,
+            3.88,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.7801004813883377,
+        "mw": 317.21,
+        "logp": 2.135,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9218,
+        "sa_score": 3.14,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MLYCD-E348D Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.7801,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_E348D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_E348D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_E348D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_E348D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_E348D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MLYCD-E348D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MLYCD-E348D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:33:54.415725+00:00"
     }
   ]
 }
