@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1111,
+  "total_entries": 1112,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45708,
-    "queue_remaining": 132889
+    "total_processed": 45709,
+    "queue_remaining": 132888
   },
   "entries": [
     {
@@ -244651,6 +244651,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:20:58.097127+00:00"
+    },
+    {
+      "entry_id": "PCD-FANCB-K498N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCB-K498N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FANCB",
+        "uniprot": "",
+        "clinvar_id": "368024",
+        "disease": "Fanconi anemia complementation group B",
+        "mutation_precursor": "K498N",
+        "mutation_mature": "K498N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7744988590694676,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 289.99142640227876,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          21.87109375,
+          -34.156517028808594,
+          -27.171436309814453
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.369982750486489,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8674045510076459,
+        "cryptic": true,
+        "pocket_residues": {
+          "L474": "L",
+          "T493": "T",
+          "T494": "T",
+          "S495": "S",
+          "S496": "S",
+          "L497": "L",
+          "K498": "K",
+          "L499": "L",
+          "Q576": "Q"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NB91|FANCB variant K498N",
+        "fasta_sequence": "MTSKQAMSSNEQERLLCYNGEVLVFQLSKGNFADKEPTKTPILHVRRMVFDRGTKVFVQKSTGFFTIKEENSHLKIMCCNCVSDFRTGINLPYIVIEKNKKNNVFEYFLLILHSTNKFEMRLSFKLGYEMKDGLRVLNGPLILWRHVKAFFFISSQTGKVVSVSGNFSSIQWAGEIENLGMVLLGLKECCLSEEECTQEPSKSDYAIWNTKFCVYSLESQEVLSDIYIIPPAYSSVVTYVHICATEIIKNQLRISLIALTRKNQLISFQNGTPKNVCQLPFGDPCAVQLMDSGGGNLFFVVSFISNNACAVWKESFQVAAKWEKLSLVLIDDFIGSGTEQVLLLFKDSLNSDCLTSFKITDLGKINYSSEPSDCNEDDLFEDKQENRYLVVPPLETGLKVCFSSFRELRQHLLLKEKIISKSYKALINLVQGKDDNTSSAEEKECLVPLCGEEENSVHILDEKLSDNFQDSEQLVEKIWYRVIDDSLVVGVKTTSSLKLSLNDVTLSLLMDQAHDSRFRLLKCQNRVIKLSTNPFPAPYLMPCEIGLEAKRVTLTPDSKKEESFVCEHPSKKECVQIITAVTSLSPLLTFSKFCCTVLLQIMERESGNCPKDRYVVCGRVFLSLEDLSTGKYLLTFPKKKPIEHMEDLFALLAAFHKSCFQITSPGYALNSMKVWLLEHMKCEIIKEFPEVYFCERPGSFYGTLFTWKQRTPFEGILIIYSRNQTVMFQCLHNLIRILPINCFLKNLKSGSENFLIDNMAFTLEKELVTLSSLSSAIAKHESNFMQRCEVSKGKSSVVAAALSDRRENIHPYRKELQREKKKMLQTNLKVSGALYREITLKVAEVQLKSDFAAQKLSNL",
+        "full_sequence": "MTSKQAMSSNEQERLLCYNGEVLVFQLSKGNFADKEPTKTPILHVRRMVFDRGTKVFVQKSTGFFTIKEENSHLKIMCCNCVSDFRTGINLPYIVIEKNKKNNVFEYFLLILHSTNKFEMRLSFKLGYEMKDGLRVLNGPLILWRHVKAFFFISSQTGKVVSVSGNFSSIQWAGEIENLGMVLLGLKECCLSEEECTQEPSKSDYAIWNTKFCVYSLESQEVLSDIYIIPPAYSSVVTYVHICATEIIKNQLRISLIALTRKNQLISFQNGTPKNVCQLPFGDPCAVQLMDSGGGNLFFVVSFISNNACAVWKESFQVAAKWEKLSLVLIDDFIGSGTEQVLLLFKDSLNSDCLTSFKITDLGKINYSSEPSDCNEDDLFEDKQENRYLVVPPLETGLKVCFSSFRELRQHLLLKEKIISKSYKALINLVQGKDDNTSSAEEKECLVPLCGEEENSVHILDEKLSDNFQDSEQLVEKIWYRVIDDSLVVGVKTTSSLKLSLNDVTLSLLMDQAHDSRFRLLKCQNRVIKLSTNPFPAPYLMPCEIGLEAKRVTLTPDSKKEESFVCEHPSKKECVQIITAVTSLSPLLTFSKFCCTVLLQIMERESGNCPKDRYVVCGRVFLSLEDLSTGKYLLTFPKKKPIEHMEDLFALLAAFHKSCFQITSPGYALNSMKVWLLEHMKCEIIKEFPEVYFCERPGSFYGTLFTWKQRTPFEGILIIYSRNQTVMFQCLHNLIRILPINCFLKNLKSGSENFLIDNMAFTLEKELVTLSSLSSAIAKHESNFMQRCEVSKGKSSVVAAALSDRRENIHPYRKELQREKKKMLQTNLKVSGALYREITLKVAEVQLKSDFAAQKLSNL",
+        "n_residues": 859,
+        "mutation_pos_1indexed": 498,
+        "wt_aa": "K",
+        "mut_aa": "N",
+        "pocket_lining_residues": "L474-T493-T494-S495-S496-L497-K498-L499-Q576",
+        "pocket_lining_positions_precursor": [
+          474,
+          493,
+          494,
+          495,
+          496,
+          497,
+          498,
+          499,
+          576
+        ],
+        "pocket_lining_1letter": "LTTSSLKLQ",
+        "sequence_slice_around_pocket": "VVGVKTTSSLKLSLNDVTLS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FANCB_K498N/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "L474",
+          "T493",
+          "T494",
+          "S495",
+          "S496",
+          "L497",
+          "K498",
+          "L499",
+          "Q576"
+        ],
+        "values": [
+          [
+            0.0,
+            5.749,
+            5.45,
+            8.696,
+            8.086,
+            7.651,
+            11.466,
+            11.513,
+            12.25
+          ],
+          [
+            5.749,
+            0.0,
+            3.827,
+            6.498,
+            8.337,
+            7.257,
+            10.168,
+            9.875,
+            6.801
+          ],
+          [
+            5.45,
+            3.827,
+            0.0,
+            3.856,
+            5.537,
+            6.31,
+            9.523,
+            10.629,
+            8.626
+          ],
+          [
+            8.696,
+            6.498,
+            3.856,
+            0.0,
+            3.883,
+            5.486,
+            7.408,
+            9.605,
+            8.045
+          ],
+          [
+            8.086,
+            8.337,
+            5.537,
+            3.883,
+            0.0,
+            3.843,
+            6.189,
+            8.902,
+            10.964
+          ],
+          [
+            7.651,
+            7.257,
+            6.31,
+            5.486,
+            3.843,
+            0.0,
+            3.851,
+            5.311,
+            9.417
+          ],
+          [
+            11.466,
+            10.168,
+            9.523,
+            7.408,
+            6.189,
+            3.851,
+            0.0,
+            3.833,
+            9.817
+          ],
+          [
+            11.513,
+            9.875,
+            10.629,
+            9.605,
+            8.902,
+            5.311,
+            3.833,
+            0.0,
+            9.322
+          ],
+          [
+            12.25,
+            6.801,
+            8.626,
+            8.045,
+            10.964,
+            9.417,
+            9.817,
+            9.322,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.6563079265245813,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FANCB-K498N Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6563,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FANCB_K498N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FANCB_K498N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FANCB_K498N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCB_K498N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCB_K498N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCB-K498N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCB-K498N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:21:29.910080+00:00"
     }
   ]
 }
