@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1104,
+  "total_entries": 1105,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45701,
-    "queue_remaining": 132896
+    "total_processed": 45702,
+    "queue_remaining": 132895
   },
   "entries": [
     {
@@ -243331,6 +243331,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:16:51.315172+00:00"
+    },
+    {
+      "entry_id": "PCD-CDAN1-P86S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDAN1-P86S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CDAN1",
+        "uniprot": "",
+        "clinvar_id": "315953",
+        "disease": "Congenital dyserythropoietic anemia, type I",
+        "mutation_precursor": "P86S",
+        "mutation_mature": "P86S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7818374119489166,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 515.465372932265,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          16.034912109375,
+          -12.808211326599121,
+          52.84790802001953
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.54971585218848,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6755791665497812,
+        "cryptic": true,
+        "pocket_residues": {
+          "P86": "P",
+          "G87": "G",
+          "G88": "G",
+          "P89": "P"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8IWY9|CDAN1 variant P86S",
+        "fasta_sequence": "MAAVLESLLREEVSVAAVVRWIARSTQGSEDNAGEAAALSSLRALRKEFVPFLLNFLREQSSRVLPQGPPTPAKTPGASAALPGRPGGPPRGSRGARSQLFPPTEAQSTAAEAPLARRGGRRRGPGPARERGGRGLEEGVSGESLPGAGGRRLRGSGSPSRPSLTLSDPPNLSNLEEFPPVGSVPPGPTGTKPSRRINPTPVSEERSLSKPKTCFTSPPISCVPSSQPSALDTSPWGLGLPPGCRSLQEEREMLRKERSKQLQQSPTPTCPTPELGSPLPSRTGSLTDEPADPARVSSRQRLELVALVYSSCIAENLVPNLFLELFFVFQLLTARRMVTAKDSDPELSPAVLDSLESPLFQSIHDCVFFAVQVLECHFQVLSNLDKGTLKLLAENERLLCFSPALQGRLRAAYEGSVAKVSLVMPPSTQAVSFQPETDNRANFSSDRAFHTFKKQRDVFYEVLREWEDHHEEPGWDFEKGLGSRIRAMMGQLSAACSHSHFVRLFQKQLLQMCQSPGGAGGTVLGEAPDVLSMLGADKLGRLWRLQERLMAPQSSGGPCPPPTFPGCQGFFRDFILSASSFQFNQHLMDSLSLKIQELNGLALPQHEPNDEDGESDVDWQGERKQFAVVLLSLRLLAKFLGFVAFLPYRGPEPPPTGELQDSILALRSQVPPVLDVRTLLQRGLQARRAVLTVPWLVEFLSFADHVVPLLEYYRDIFTLLLRLHRSLVLSQESEGKMCFLNKLLLLAVLGWLFQIPTVPEDLFFLEEGPSYAFEVDTVAPEHGLDNAPVVDQQLLYTCCPYIGELRKLLASWVSGSSGRSGGFMRKITPTTTTSLGAQPSQTSQGLQAQLAQAFFHNQPPSLRRTVEFVAERIGSNCVKHIKATLVADLVRQAESLLQEQLVTQGEEGGDPAQLLEILCSQLCPHGAQALALGREFCQRKSPGAVRALLPEETPAAVLSSAENIAVGLATEKACAWLSANITALIRREVKAAVSRTLRAQGPEPAARGERRGCSRACEHHAPLPSHLISEIKDVLSLAVGPRDPDEGVSPEHLEQLLGQLGQTLRCRQFLCPPAEQHLAKCSVELASLLVADQIPILGPPAQYRLERGQARRLLHMLLSLWKEDFQGPVPLQLLLSPRNVGLLADTRPREWDLLLFLLRELVEKGLMGRMEIEACLGSLHQAQWPGDFAEELATLSNLFLAEPHLPEPQLRACELVQPNRGTVLAQS",
+        "full_sequence": "MAAVLESLLREEVSVAAVVRWIARSTQGSEDNAGEAAALSSLRALRKEFVPFLLNFLREQSSRVLPQGPPTPAKTPGASAALPGRPGGPPRGSRGARSQLFPPTEAQSTAAEAPLARRGGRRRGPGPARERGGRGLEEGVSGESLPGAGGRRLRGSGSPSRPSLTLSDPPNLSNLEEFPPVGSVPPGPTGTKPSRRINPTPVSEERSLSKPKTCFTSPPISCVPSSQPSALDTSPWGLGLPPGCRSLQEEREMLRKERSKQLQQSPTPTCPTPELGSPLPSRTGSLTDEPADPARVSSRQRLELVALVYSSCIAENLVPNLFLELFFVFQLLTARRMVTAKDSDPELSPAVLDSLESPLFQSIHDCVFFAVQVLECHFQVLSNLDKGTLKLLAENERLLCFSPALQGRLRAAYEGSVAKVSLVMPPSTQAVSFQPETDNRANFSSDRAFHTFKKQRDVFYEVLREWEDHHEEPGWDFEKGLGSRIRAMMGQLSAACSHSHFVRLFQKQLLQMCQSPGGAGGTVLGEAPDVLSMLGADKLGRLWRLQERLMAPQSSGGPCPPPTFPGCQGFFRDFILSASSFQFNQHLMDSLSLKIQELNGLALPQHEPNDEDGESDVDWQGERKQFAVVLLSLRLLAKFLGFVAFLPYRGPEPPPTGELQDSILALRSQVPPVLDVRTLLQRGLQARRAVLTVPWLVEFLSFADHVVPLLEYYRDIFTLLLRLHRSLVLSQESEGKMCFLNKLLLLAVLGWLFQIPTVPEDLFFLEEGPSYAFEVDTVAPEHGLDNAPVVDQQLLYTCCPYIGELRKLLASWVSGSSGRSGGFMRKITPTTTTSLGAQPSQTSQGLQAQLAQAFFHNQPPSLRRTVEFVAERIGSNCVKHIKATLVADLVRQAESLLQEQLVTQGEEGGDPAQLLEILCSQLCPHGAQALALGREFCQRKSPGAVRALLPEETPAAVLSSAENIAVGLATEKACAWLSANITALIRREVKAAVSRTLRAQGPEPAARGERRGCSRACEHHAPLPSHLISEIKDVLSLAVGPRDPDEGVSPEHLEQLLGQLGQTLRCRQFLCPPAEQHLAKCSVELASLLVADQIPILGPPAQYRLERGQARRLLHMLLSLWKEDFQGPVPLQLLLSPRNVGLLADTRPREWDLLLFLLRELVEKGLMGRMEIEACLGSLHQAQWPGDFAEELATLSNLFLAEPHLPEPQLRACELVQPNRGTVLAQS",
+        "n_residues": 1227,
+        "mutation_pos_1indexed": 86,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "P86-G87-G88-P89",
+        "pocket_lining_positions_precursor": [
+          86,
+          87,
+          88,
+          89
+        ],
+        "pocket_lining_1letter": "PGGP",
+        "sequence_slice_around_pocket": "PGASAALPGRPGGPPRGSRG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CDAN1_P86S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "P86",
+          "G87",
+          "G88",
+          "P89"
+        ],
+        "values": [
+          [
+            0.0,
+            3.83,
+            7.203,
+            9.845
+          ],
+          [
+            3.83,
+            0.0,
+            3.827,
+            7.236
+          ],
+          [
+            7.203,
+            3.827,
+            0.0,
+            3.874
+          ],
+          [
+            9.845,
+            7.236,
+            3.874,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "composite_score": 0.529549487131784,
+        "mw": 360.25,
+        "logp": 2.071,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.8126,
+        "sa_score": 3.31,
+        "n_heavy_atoms": 26,
+        "tpsa": 70.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CDAN1-P86S Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "pocket_affinity_score": 0.5295,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CDAN1_P86S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CDAN1_P86S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CDAN1_P86S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDAN1_P86S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDAN1_P86S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDAN1-P86S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDAN1-P86S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:17:30.843625+00:00"
     }
   ]
 }
