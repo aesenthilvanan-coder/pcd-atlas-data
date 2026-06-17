@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 52,
+  "total_entries": 53,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44434,
-    "queue_remaining": 134163
+    "total_processed": 44435,
+    "queue_remaining": 134162
   },
   "entries": [
     {
@@ -11840,6 +11840,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:17:48.183602+00:00"
+    },
+    {
+      "entry_id": "PCD-HGSNAT-V69I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HGSNAT-V69I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HGSNAT",
+        "uniprot": "",
+        "clinvar_id": "363139",
+        "disease": "Mucopolysaccharidosis, MPS-III-C",
+        "mutation_precursor": "V69I",
+        "mutation_mature": "V69I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9434298069418744,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 282.6494444577971,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          7.1850080490112305,
+          -9.36410140991211,
+          -44.32356262207031
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.69415385079675,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8522008320673908,
+        "cryptic": true,
+        "pocket_residues": {
+          "D68": "D",
+          "L69": "L",
+          "D70": "D",
+          "K71": "K",
+          "K72": "K",
+          "R73": "R"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q68CP4|HGSNAT variant V69I",
+        "fasta_sequence": "MTGARASAAEQRRAGRSGQARAAERAAGMSGAGRALAALLLAASVLSAALLAPGGSSGRDAQAAPPRDLDKKRHAELKMDQALLLIHNELLWTNLTVYWKSECCYHCLFQVLVNVPQSPKAGKPSAAAASVSTQHGSILQLNDTLEEKEVCRLEYRFGEFGNYSLLVKNIHNGVSEIACDLAVNEDPVDSNLPVSIAFLIGLAVIIVISFLRLLLSLDDFNNWISKAISSRETDRLINSELGSPSRTDPLDGDVQPATWRLSALPPRLRSVDTFRGIALILMVFVNYGGGKYWYFKHASWNGLTVADLVFPWFVFIMGSSIFLSMTSILQRGCSKFRLLGKIAWRSFLLICIGIIIVNPNYCLGPLSWDKVRIPGVLQRLGVTYFVVAVLELLFAKPVPEHCASERSCLSLRDITSSWPQWLLILVLEGLWLGLTFLLPVPGCPTGYLGPGGIGDFGKYPNCTGGAAGYIDRLLLGDDHLYQHPSSAVLYHTEVAYDPEGILGTINSIVMAFLGVQAGKILLYYKARTKDILIRFTAWCCILGLISVALTKVSENEGFIPVNKNLWSLSYVTTLSSFAFFILLVLYPVVDVKGLWTGTPFFYPGMNSILVYVGHEVFENYFPFQWKLKDNQSHKEHLTQNIVATALWVLIAYILYRKKIFWKI",
+        "full_sequence": "MTGARASAAEQRRAGRSGQARAAERAAGMSGAGRALAALLLAASVLSAALLAPGGSSGRDAQAAPPRDLDKKRHAELKMDQALLLIHNELLWTNLTVYWKSECCYHCLFQVLVNVPQSPKAGKPSAAAASVSTQHGSILQLNDTLEEKEVCRLEYRFGEFGNYSLLVKNIHNGVSEIACDLAVNEDPVDSNLPVSIAFLIGLAVIIVISFLRLLLSLDDFNNWISKAISSRETDRLINSELGSPSRTDPLDGDVQPATWRLSALPPRLRSVDTFRGIALILMVFVNYGGGKYWYFKHASWNGLTVADLVFPWFVFIMGSSIFLSMTSILQRGCSKFRLLGKIAWRSFLLICIGIIIVNPNYCLGPLSWDKVRIPGVLQRLGVTYFVVAVLELLFAKPVPEHCASERSCLSLRDITSSWPQWLLILVLEGLWLGLTFLLPVPGCPTGYLGPGGIGDFGKYPNCTGGAAGYIDRLLLGDDHLYQHPSSAVLYHTEVAYDPEGILGTINSIVMAFLGVQAGKILLYYKARTKDILIRFTAWCCILGLISVALTKVSENEGFIPVNKNLWSLSYVTTLSSFAFFILLVLYPVVDVKGLWTGTPFFYPGMNSILVYVGHEVFENYFPFQWKLKDNQSHKEHLTQNIVATALWVLIAYILYRKKIFWKI",
+        "n_residues": 663,
+        "mutation_pos_1indexed": 69,
+        "wt_aa": "V",
+        "mut_aa": "I",
+        "pocket_lining_residues": "D68-L69-D70-K71-K72-R73",
+        "pocket_lining_positions_precursor": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "pocket_lining_1letter": "DLDKKR",
+        "sequence_slice_around_pocket": "RDAQAAPPRDLDKKRHAELK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HGSNAT_V69I/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "D68",
+          "L69",
+          "D70",
+          "K71",
+          "K72",
+          "R73"
+        ],
+        "values": [
+          [
+            0.0,
+            3.909,
+            6.131,
+            8.325,
+            11.067,
+            13.033
+          ],
+          [
+            3.909,
+            0.0,
+            3.888,
+            5.957,
+            7.709,
+            9.458
+          ],
+          [
+            6.131,
+            3.888,
+            0.0,
+            3.876,
+            6.3,
+            7.464
+          ],
+          [
+            8.325,
+            5.957,
+            3.876,
+            0.0,
+            3.873,
+            6.662
+          ],
+          [
+            11.067,
+            7.709,
+            6.3,
+            3.873,
+            0.0,
+            3.88
+          ],
+          [
+            13.033,
+            9.458,
+            7.464,
+            6.662,
+            3.88,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.7843069429314725,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HGSNAT-V69I Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7843,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HGSNAT_V69I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HGSNAT_V69I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HGSNAT_V69I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HGSNAT_V69I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HGSNAT_V69I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HGSNAT-V69I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HGSNAT-V69I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:18:13.477703+00:00"
     }
   ]
 }
