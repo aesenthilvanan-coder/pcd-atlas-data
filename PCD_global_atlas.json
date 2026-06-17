@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 47,
+  "total_entries": 48,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44429,
-    "queue_remaining": 134168
+    "total_processed": 44430,
+    "queue_remaining": 134167
   },
   "entries": [
     {
@@ -10913,6 +10913,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:15:47.244983+00:00"
+    },
+    {
+      "entry_id": "PCD-BSCL2-A282V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BSCL2-A282V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BSCL2",
+        "uniprot": "",
+        "clinvar_id": "305177",
+        "disease": "Neuronopathy, distal hereditary motor, type 5A",
+        "mutation_precursor": "A282V",
+        "mutation_mature": "A282V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8261640487455355,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 424.11087221538514,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -56.162513732910156,
+          -25.772401809692383,
+          71.41646575927734
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.313238549936709,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.765160915265554,
+        "cryptic": true,
+        "pocket_residues": {
+          "N279": "N",
+          "K282": "K",
+          "E283": "E",
+          "Q285": "Q",
+          "R286": "R"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96G97|BSCL2 variant A282V",
+        "fasta_sequence": "MVNDPPVPALLWAQEVGQVLAGRARRLLLQFGVLFCTILLLLWVSVFLYGSFYYSYMPTVSHLSPVHFYYRTDCDSSTTSLCSFPVANVSLTKGGRDRVLMYGQPYRVTLELELPESPVNQDLGMFLVTISCYTRGGRIISTSSRSVMLHYRSDLLQMLDTLVFSSLLLFGFAEQKQLLEVELYADYRENSYVPTTGAIIEIHSKRIQLYGAYLRIHAHFTGLRYLLYNFPMTCAFIGVASNFTFLSVIVLFSYMQWVWGGIWPRHRFSLQVNIRKRDNSRKEVQRRISAHQPGPEGQEESTPQSDVTEDGESPEDPSGTEGQLSEEEKPDQQPLSGEEELEPEASDGSGSWEDAALLTEANLPAPAPASASAPVLETLGSSEPAGGALRQRPTCSSS",
+        "full_sequence": "MVNDPPVPALLWAQEVGQVLAGRARRLLLQFGVLFCTILLLLWVSVFLYGSFYYSYMPTVSHLSPVHFYYRTDCDSSTTSLCSFPVANVSLTKGGRDRVLMYGQPYRVTLELELPESPVNQDLGMFLVTISCYTRGGRIISTSSRSVMLHYRSDLLQMLDTLVFSSLLLFGFAEQKQLLEVELYADYRENSYVPTTGAIIEIHSKRIQLYGAYLRIHAHFTGLRYLLYNFPMTCAFIGVASNFTFLSVIVLFSYMQWVWGGIWPRHRFSLQVNIRKRDNSRKEVQRRISAHQPGPEGQEESTPQSDVTEDGESPEDPSGTEGQLSEEEKPDQQPLSGEEELEPEASDGSGSWEDAALLTEANLPAPAPASASAPVLETLGSSEPAGGALRQRPTCSSS",
+        "n_residues": 398,
+        "mutation_pos_1indexed": 282,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "N279-K282-E283-Q285-R286",
+        "pocket_lining_positions_precursor": [
+          279,
+          282,
+          283,
+          285,
+          286
+        ],
+        "pocket_lining_1letter": "NKEQR",
+        "sequence_slice_around_pocket": "VNIRKRDNSRKEVQRRISAH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_A282V/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "N279",
+          "K282",
+          "E283",
+          "Q285",
+          "R286"
+        ],
+        "values": [
+          [
+            0.0,
+            5.11,
+            6.098,
+            9.835,
+            10.532
+          ],
+          [
+            5.11,
+            0.0,
+            3.86,
+            5.05,
+            6.157
+          ],
+          [
+            6.098,
+            3.86,
+            0.0,
+            5.521,
+            5.191
+          ],
+          [
+            9.835,
+            5.05,
+            5.521,
+            0.0,
+            3.881
+          ],
+          [
+            10.532,
+            6.157,
+            5.191,
+            3.881,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC1CC(=O)CCC1ON1CCCCC1N1CCCCC1",
+        "composite_score": 0.7255175080241445,
+        "mw": 309.24,
+        "logp": 1.912,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.8595,
+        "sa_score": 4.07,
+        "n_heavy_atoms": 22,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BSCL2-A282V Candidate #1",
+        "iupac_name": "NCC1CC(=O)CCC1ON1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7255,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_A282V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_A282V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_A282V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_A282V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_A282V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BSCL2-A282V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BSCL2-A282V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:16:10.032187+00:00"
     }
   ]
 }
