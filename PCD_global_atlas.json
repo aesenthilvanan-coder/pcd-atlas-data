@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 311,
+  "total_entries": 312,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44755,
-    "queue_remaining": 133842
+    "total_processed": 44756,
+    "queue_remaining": 133841
   },
   "entries": [
     {
@@ -67704,6 +67704,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:39:21.237174+00:00"
+    },
+    {
+      "entry_id": "PCD-SMPD1-V117M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMPD1-V117M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SMPD1",
+        "uniprot": "",
+        "clinvar_id": "305197",
+        "disease": "Niemann-Pick disease, type A",
+        "mutation_precursor": "V117M",
+        "mutation_mature": "V117M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8823453214707561,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 444.18061252538746,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          20.881389617919922,
+          6.172008037567139,
+          -30.329736709594727
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.663632561458199,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6914762145610899,
+        "cryptic": true,
+        "pocket_residues": {
+          "S116": "S",
+          "V117": "V",
+          "K120": "K"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P17405|SMPD1 variant V117M",
+        "fasta_sequence": "MPRYGASLRQSCPRSGREQGQDGTAGAPGLLWMGLVLALALALALALALSDSRVLWAPAEAHPLSPQGHPARLHRIVPRLRDVFGWGNLTCPICKGLFTAINLGLKKEPNVARVGSVAIKLCNLLKIAPPAVCQSIVHLFEDDMVEVWRRSVLSPSEACGLLLGSTCGHWDIFSSWNISLPTVPKPPPKPPSPPAPGAPVSRILFLTDLHWDHDYLEGTDPDCADPLCCRRGSGLPPASRPGAGYWGEYSKCDLPLRTLESLLSGLGPAGPFDMVYWTGDIPAHDVWHQTRQDQLRALTTVTALVRKFLGPVPVYPAVGNHESTPVNSFPPPFIEGNHSSRWLYEAMAKAWEPWLPAEALRTLRIGGFYALSPYPGLRLISLNMNFCSRENFWLLINSTDPAGQLQWLVGELQAAEDRGDKVHIIGHIPPGHCLKSWSWNYYRIVARYENTLAAQFFGHTHVDEFEVFYDEETLSRPLAVAFLAPSATTYIGLNPGYRVYQIDGNYSGSSHVVLDHETYILNLTQANIPGAIPHWQLLYRARETYGLPNTLPTAWHNLVYRMRGDMQLFQTFWFLYHKGHPPSEPCGTPCRLATLCAQLSARADSPALCRHLMPDGSLPEAQSLWPRPLFC",
+        "full_sequence": "MPRYGASLRQSCPRSGREQGQDGTAGAPGLLWMGLVLALALALALALALSDSRVLWAPAEAHPLSPQGHPARLHRIVPRLRDVFGWGNLTCPICKGLFTAINLGLKKEPNVARVGSVAIKLCNLLKIAPPAVCQSIVHLFEDDMVEVWRRSVLSPSEACGLLLGSTCGHWDIFSSWNISLPTVPKPPPKPPSPPAPGAPVSRILFLTDLHWDHDYLEGTDPDCADPLCCRRGSGLPPASRPGAGYWGEYSKCDLPLRTLESLLSGLGPAGPFDMVYWTGDIPAHDVWHQTRQDQLRALTTVTALVRKFLGPVPVYPAVGNHESTPVNSFPPPFIEGNHSSRWLYEAMAKAWEPWLPAEALRTLRIGGFYALSPYPGLRLISLNMNFCSRENFWLLINSTDPAGQLQWLVGELQAAEDRGDKVHIIGHIPPGHCLKSWSWNYYRIVARYENTLAAQFFGHTHVDEFEVFYDEETLSRPLAVAFLAPSATTYIGLNPGYRVYQIDGNYSGSSHVVLDHETYILNLTQANIPGAIPHWQLLYRARETYGLPNTLPTAWHNLVYRMRGDMQLFQTFWFLYHKGHPPSEPCGTPCRLATLCAQLSARADSPALCRHLMPDGSLPEAQSLWPRPLFC",
+        "n_residues": 631,
+        "mutation_pos_1indexed": 117,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "S116-V117-K120",
+        "pocket_lining_positions_precursor": [
+          116,
+          117,
+          120
+        ],
+        "pocket_lining_1letter": "SVK",
+        "sequence_slice_around_pocket": "KEPNVARVGSVAIKLCNLLK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_V117M/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "S116",
+          "V117",
+          "K120"
+        ],
+        "values": [
+          [
+            0.0,
+            3.864,
+            6.435
+          ],
+          [
+            3.864,
+            0.0,
+            5.163
+          ],
+          [
+            6.435,
+            5.163,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "composite_score": 0.561101500952461,
+        "mw": 325.18,
+        "logp": 1.996,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 7,
+        "qed": 0.7503,
+        "sa_score": 2.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 89.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SMPD1-V117M Candidate #1",
+        "iupac_name": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5611,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_V117M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_V117M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_V117M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_V117M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_V117M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMPD1-V117M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMPD1-V117M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:39:46.537900+00:00"
     }
   ]
 }
