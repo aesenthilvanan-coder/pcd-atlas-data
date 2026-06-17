@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1403,
+  "total_entries": 1404,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46042,
-    "queue_remaining": 132555
+    "total_processed": 46043,
+    "queue_remaining": 132554
   },
   "entries": [
     {
@@ -310954,6 +310954,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:20:39.322975+00:00"
+    },
+    {
+      "entry_id": "PCD-PROKR2-A51T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PROKR2-A51T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PROKR2",
+        "uniprot": "",
+        "clinvar_id": "338865",
+        "disease": "Hypogonadotropic hypogonadism 3 with or without anosmia",
+        "mutation_precursor": "A51T",
+        "mutation_mature": "A51T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8509317246788862,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 288.5494888359373,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          23.402036666870117,
+          -15.057772636413574,
+          -4.263432502746582
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.632494548296409,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8404730077066145,
+        "cryptic": true,
+        "pocket_residues": {
+          "R47": "R",
+          "T48": "T",
+          "F50": "F",
+          "A51": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NFJ6|PROKR2 variant A51T",
+        "fasta_sequence": "MAAQNGNTSFTPNFNPPQDHASSLSFNFSYGDYDLPMDEDEDMTKTRTFFAAKIVIGIALAGIMLVCGIGNFVFIAALTRYKKLRNLTNLLIANLAISDFLVAIICCPFEMDYYVVRQLSWEHGHVLCASVNYLRTVSLYVSTNALLAIAIDRYLAIVHPLKPRMNYQTASFLIALVWMVSILIAIPSAYFATETVLFIVKSQEKIFCGQIWPVDQQLYYKSYFLFIFGVEFVGPVVTMTLCYARISRELWFKAVPGFQTEQIRKRLRCRRKTVLVLMCILTAYVLCWAPFYGFTIVRDFFPTVFVKEKHYLTAFYVVECIAMSNSMINTVCFVTVKNNTMKYFKKMMLLHWRPSQRGSKSSADLDLRTNGVPTTEEVDCIRLK",
+        "full_sequence": "MAAQNGNTSFTPNFNPPQDHASSLSFNFSYGDYDLPMDEDEDMTKTRTFFAAKIVIGIALAGIMLVCGIGNFVFIAALTRYKKLRNLTNLLIANLAISDFLVAIICCPFEMDYYVVRQLSWEHGHVLCASVNYLRTVSLYVSTNALLAIAIDRYLAIVHPLKPRMNYQTASFLIALVWMVSILIAIPSAYFATETVLFIVKSQEKIFCGQIWPVDQQLYYKSYFLFIFGVEFVGPVVTMTLCYARISRELWFKAVPGFQTEQIRKRLRCRRKTVLVLMCILTAYVLCWAPFYGFTIVRDFFPTVFVKEKHYLTAFYVVECIAMSNSMINTVCFVTVKNNTMKYFKKMMLLHWRPSQRGSKSSADLDLRTNGVPTTEEVDCIRLK",
+        "n_residues": 384,
+        "mutation_pos_1indexed": 51,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "R47-T48-F50-A51",
+        "pocket_lining_positions_precursor": [
+          47,
+          48,
+          50,
+          51
+        ],
+        "pocket_lining_1letter": "RTFA",
+        "sequence_slice_around_pocket": "EDMTKTRTFFAAKIVIGIAL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_A51T/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "R47",
+          "T48",
+          "F50",
+          "A51"
+        ],
+        "values": [
+          [
+            0.0,
+            3.854,
+            5.062,
+            6.157
+          ],
+          [
+            3.854,
+            0.0,
+            5.482,
+            5.148
+          ],
+          [
+            5.062,
+            5.482,
+            0.0,
+            3.843
+          ],
+          [
+            6.157,
+            5.148,
+            3.843,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1CCCCC1",
+        "composite_score": 0.5516262762211421,
+        "mw": 206.14,
+        "logp": 1.841,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 2,
+        "qed": 0.7759,
+        "sa_score": 2.05,
+        "n_heavy_atoms": 15,
+        "tpsa": 49.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PROKR2-A51T Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5516,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_A51T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_A51T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_A51T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_A51T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_A51T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PROKR2-A51T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PROKR2-A51T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:21:00.184182+00:00"
     }
   ]
 }
