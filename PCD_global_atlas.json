@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 422,
+  "total_entries": 423,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44875,
-    "queue_remaining": 133722
+    "total_processed": 44876,
+    "queue_remaining": 133721
   },
   "entries": [
     {
@@ -92919,6 +92919,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:15:25.363719+00:00"
+    },
+    {
+      "entry_id": "PCD-HPS1-T60M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS1-T60M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HPS1",
+        "uniprot": "",
+        "clinvar_id": "298353",
+        "disease": "Hermansky-Pudlak syndrome 1",
+        "mutation_precursor": "T60M",
+        "mutation_mature": "T60M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7801948397797952,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 341.1807731008258,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -35.59210205078125,
+          1.4725862741470337,
+          -8.49077033996582
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.117951269130396,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7007439514709682,
+        "cryptic": true,
+        "pocket_residues": {
+          "P53": "P",
+          "V54": "V",
+          "I55": "I",
+          "I56": "I",
+          "S57": "S",
+          "S58": "S",
+          "M59": "M",
+          "T60": "T",
+          "M61": "M",
+          "T68": "T"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q92902|HPS1 variant T60M",
+        "fasta_sequence": "MKCVLVATEGAEVLFYWTDQEFEESLRLKFGQSENEEEELPALEDQLSTLLAPVIISSMTMLEKLSDTYTCFSTENGNFLYVLHLFGECLFIAINGDHTESEGDLRRKLYVLKYLFEVHFGLVTVDGHLIRKELRPPDLAQRVQLWEHFQSLLWTYSRLREQEQCFAVEALERLIHPQLCELCIEALERHVIQAVNTSPERGGEEALHAFLLVHSKLLAFYSSHSASSLRPADLLALILLVQDLYPSESTAEDDIQPSPRRARSSQNIPVQQAWSPHSTGPTGGSSAETETDSFSLPEEYFTPAPSPGDQSSGSTIWLEGGTPPMDALQIAEDTLQTLVPHCPVPSGPRRIFLDANVKESYCPLVPHTMYCLPLWQGINLVLLTRSPSAPLALVLSQLMDGFSMLEKKLKEGPEPGASLRSQPLVGDLRQRMDKFVKNRGAQEIQSTWLEFKAKAFSKSEPGSSWELLQACGKLKRQLCAIYRLNFLTTAPSRGGPHLPQHLQDQVQRLMREKLTDWKDFLLVKSRRNITMVSYLEDFPGLVHFIYVDRTTGQMVAPSLNCSQKTSSELGKGPLAAFVKTKVWSLIQLARRYLQKGYTTLLFQEGDFYCSYFLWFENDMGYKLQMIEVPVLSDDSVPIGMLGGDYYRKLLRYYSKNRPTEAVRCYELLALHLSVIPTDLLVQQAGQLARRLWEASRIPLL",
+        "full_sequence": "MKCVLVATEGAEVLFYWTDQEFEESLRLKFGQSENEEEELPALEDQLSTLLAPVIISSMTMLEKLSDTYTCFSTENGNFLYVLHLFGECLFIAINGDHTESEGDLRRKLYVLKYLFEVHFGLVTVDGHLIRKELRPPDLAQRVQLWEHFQSLLWTYSRLREQEQCFAVEALERLIHPQLCELCIEALERHVIQAVNTSPERGGEEALHAFLLVHSKLLAFYSSHSASSLRPADLLALILLVQDLYPSESTAEDDIQPSPRRARSSQNIPVQQAWSPHSTGPTGGSSAETETDSFSLPEEYFTPAPSPGDQSSGSTIWLEGGTPPMDALQIAEDTLQTLVPHCPVPSGPRRIFLDANVKESYCPLVPHTMYCLPLWQGINLVLLTRSPSAPLALVLSQLMDGFSMLEKKLKEGPEPGASLRSQPLVGDLRQRMDKFVKNRGAQEIQSTWLEFKAKAFSKSEPGSSWELLQACGKLKRQLCAIYRLNFLTTAPSRGGPHLPQHLQDQVQRLMREKLTDWKDFLLVKSRRNITMVSYLEDFPGLVHFIYVDRTTGQMVAPSLNCSQKTSSELGKGPLAAFVKTKVWSLIQLARRYLQKGYTTLLFQEGDFYCSYFLWFENDMGYKLQMIEVPVLSDDSVPIGMLGGDYYRKLLRYYSKNRPTEAVRCYELLALHLSVIPTDLLVQQAGQLARRLWEASRIPLL",
+        "n_residues": 700,
+        "mutation_pos_1indexed": 60,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "P53-V54-I55-I56-S57-S58-M59-T60-M61-T68",
+        "pocket_lining_positions_precursor": [
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          68
+        ],
+        "pocket_lining_1letter": "PVIISSMTMT",
+        "sequence_slice_around_pocket": "LLAPVIISSMTMLEKLSDTY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_T60M/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "P53",
+          "V54",
+          "I55",
+          "I56",
+          "S57",
+          "S58",
+          "M59",
+          "T60",
+          "M61",
+          "T68"
+        ],
+        "values": [
+          [
+            0.0,
+            3.871,
+            5.613,
+            5.317,
+            5.924,
+            8.586,
+            9.989,
+            10.367,
+            12.054,
+            13.884
+          ],
+          [
+            3.871,
+            0.0,
+            3.858,
+            5.673,
+            5.138,
+            6.142,
+            8.613,
+            9.923,
+            10.622,
+            11.054
+          ],
+          [
+            5.613,
+            3.858,
+            0.0,
+            3.864,
+            5.491,
+            5.292,
+            6.161,
+            8.535,
+            10.02,
+            10.731
+          ],
+          [
+            5.317,
+            5.673,
+            3.864,
+            0.0,
+            3.859,
+            5.611,
+            5.155,
+            5.909,
+            8.498,
+            11.126
+          ],
+          [
+            5.924,
+            5.138,
+            5.491,
+            3.859,
+            0.0,
+            3.863,
+            5.547,
+            5.177,
+            6.136,
+            8.66
+          ],
+          [
+            8.586,
+            6.142,
+            5.292,
+            5.611,
+            3.863,
+            0.0,
+            3.851,
+            5.604,
+            5.241,
+            5.674
+          ],
+          [
+            9.989,
+            8.613,
+            6.161,
+            5.155,
+            5.547,
+            3.851,
+            0.0,
+            3.85,
+            5.465,
+            7.587
+          ],
+          [
+            10.367,
+            9.923,
+            8.535,
+            5.909,
+            5.177,
+            5.604,
+            3.85,
+            0.0,
+            3.847,
+            8.458
+          ],
+          [
+            12.054,
+            10.622,
+            10.02,
+            8.498,
+            6.136,
+            5.241,
+            5.465,
+            3.847,
+            0.0,
+            5.322
+          ],
+          [
+            13.884,
+            11.054,
+            10.731,
+            11.126,
+            8.66,
+            5.674,
+            7.587,
+            8.458,
+            5.322,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.653388894554985,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HPS1-T60M Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6534,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_T60M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_T60M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_T60M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_T60M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_T60M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS1-T60M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS1-T60M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:15:52.360815+00:00"
     }
   ]
 }
