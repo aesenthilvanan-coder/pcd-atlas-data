@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 208,
+  "total_entries": 209,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44620,
-    "queue_remaining": 133977
+    "total_processed": 44621,
+    "queue_remaining": 133976
   },
   "entries": [
     {
@@ -46374,6 +46374,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:05:56.179592+00:00"
+    },
+    {
+      "entry_id": "PCD-FANCG-S603F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCG-S603F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FANCG",
+        "uniprot": "",
+        "clinvar_id": "366730",
+        "disease": "Fanconi anemia",
+        "mutation_precursor": "S603F",
+        "mutation_mature": "S603F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8670572571759868,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 638.1417016496334,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -26.339021682739258,
+          -6.077188968658447,
+          34.83495330810547
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.902448918381023,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6507236242962824,
+        "cryptic": true,
+        "pocket_residues": {
+          "D549": "D",
+          "F552": "F",
+          "H553": "H",
+          "Q556": "Q",
+          "R601": "R",
+          "P602": "P",
+          "S603": "S",
+          "D604": "D",
+          "R605": "R",
+          "D606": "D",
+          "F608": "F"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15287|FANCG variant S603F",
+        "fasta_sequence": "MSRQTTSVGSSCLDLWREKNDRLVRQAKVAQNSGLTLRRQQLAQDALEGLRGLLHSLQGLPAAVPVLPLELTVTCNFIILRASLAQGFTEDQAQDIQRSLERVLETQEQQGPRLEQGLRELWDSVLRASCLLPELLSALHRLVGLQAALWLSADRLGDLALLLETLNGSQSGASKDLLLLLKTWSPPAEELDAPLTLQDAQGLKDVLLTAFAYRQGLQELITGNPDKALSSLHEAASGLCPRPVLVQVYTALGSCHRKMGNPQRALLYLVAALKEGSAWGPPLLEASRLYQQLGDTTAELESLELLVEALNVPCSSKAPQFLIEVELLLPPPDLASPLHCGTQSQTKHILASRCLQTGRAGDAAEHYLDLLALLLDSSEPRFSPPPSPPGPCMPEVFLEAAVALIQAGRAQDALTLCEELLSRTSSLLPKMSRLWEDARKGTKELPYCPLWVSATHLLQGQAWVQLGAQKVAISEFSRCLELLFRATPEEKEQGAAFNCEQGCKSDAALQQLRAAALISRGLEWVASGQDTKALQDFLLSVQMCPGNRDTYFHLLQTLKRLDRRDEATALWWRLEAQTKGSHEDALWSLPLYLESYLSWIRPSDRDAFLEEFRTSLPKSCDL",
+        "full_sequence": "MSRQTTSVGSSCLDLWREKNDRLVRQAKVAQNSGLTLRRQQLAQDALEGLRGLLHSLQGLPAAVPVLPLELTVTCNFIILRASLAQGFTEDQAQDIQRSLERVLETQEQQGPRLEQGLRELWDSVLRASCLLPELLSALHRLVGLQAALWLSADRLGDLALLLETLNGSQSGASKDLLLLLKTWSPPAEELDAPLTLQDAQGLKDVLLTAFAYRQGLQELITGNPDKALSSLHEAASGLCPRPVLVQVYTALGSCHRKMGNPQRALLYLVAALKEGSAWGPPLLEASRLYQQLGDTTAELESLELLVEALNVPCSSKAPQFLIEVELLLPPPDLASPLHCGTQSQTKHILASRCLQTGRAGDAAEHYLDLLALLLDSSEPRFSPPPSPPGPCMPEVFLEAAVALIQAGRAQDALTLCEELLSRTSSLLPKMSRLWEDARKGTKELPYCPLWVSATHLLQGQAWVQLGAQKVAISEFSRCLELLFRATPEEKEQGAAFNCEQGCKSDAALQQLRAAALISRGLEWVASGQDTKALQDFLLSVQMCPGNRDTYFHLLQTLKRLDRRDEATALWWRLEAQTKGSHEDALWSLPLYLESYLSWIRPSDRDAFLEEFRTSLPKSCDL",
+        "n_residues": 622,
+        "mutation_pos_1indexed": 603,
+        "wt_aa": "S",
+        "mut_aa": "F",
+        "pocket_lining_residues": "D549-F552-H553-Q556-R601-P602-S603-D604-R605-D606-F608",
+        "pocket_lining_positions_precursor": [
+          549,
+          552,
+          553,
+          556,
+          601,
+          602,
+          603,
+          604,
+          605,
+          606,
+          608
+        ],
+        "pocket_lining_1letter": "DFHQRPSDRDF",
+        "sequence_slice_around_pocket": "LESYLSWIRPSDRDAFLEEF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FANCG_S603F/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "D549",
+          "F552",
+          "H553",
+          "Q556",
+          "R601",
+          "P602",
+          "S603",
+          "D604",
+          "R605",
+          "D606",
+          "F608"
+        ],
+        "values": [
+          [
+            0.0,
+            5.236,
+            6.592,
+            10.906,
+            5.838,
+            6.795,
+            10.083,
+            10.602,
+            7.503,
+            10.1,
+            11.533
+          ],
+          [
+            5.236,
+            0.0,
+            3.855,
+            6.159,
+            9.234,
+            7.752,
+            10.692,
+            9.453,
+            6.55,
+            9.068,
+            7.986
+          ],
+          [
+            6.592,
+            3.855,
+            0.0,
+            5.154,
+            9.552,
+            8.297,
+            11.763,
+            11.161,
+            9.188,
+            12.353,
+            10.512
+          ],
+          [
+            10.906,
+            6.159,
+            5.154,
+            0.0,
+            13.413,
+            10.877,
+            13.308,
+            11.364,
+            10.253,
+            12.749,
+            8.762
+          ],
+          [
+            5.838,
+            9.234,
+            9.552,
+            13.413,
+            0.0,
+            3.854,
+            6.471,
+            9.011,
+            7.813,
+            10.917,
+            12.804
+          ],
+          [
+            6.795,
+            7.752,
+            8.297,
+            10.877,
+            3.854,
+            0.0,
+            3.869,
+            5.57,
+            5.193,
+            8.779,
+            9.542
+          ],
+          [
+            10.083,
+            10.692,
+            11.763,
+            13.308,
+            6.471,
+            3.869,
+            0.0,
+            3.838,
+            5.651,
+            8.154,
+            9.551
+          ],
+          [
+            10.602,
+            9.453,
+            11.161,
+            11.364,
+            9.011,
+            5.57,
+            3.838,
+            0.0,
+            3.847,
+            5.804,
+            5.934
+          ],
+          [
+            7.503,
+            6.55,
+            9.188,
+            10.253,
+            7.813,
+            5.193,
+            5.651,
+            3.847,
+            0.0,
+            3.81,
+            5.398
+          ],
+          [
+            10.1,
+            9.068,
+            12.353,
+            12.749,
+            10.917,
+            8.779,
+            8.154,
+            5.804,
+            3.81,
+            0.0,
+            5.556
+          ],
+          [
+            11.533,
+            7.986,
+            10.512,
+            8.762,
+            12.804,
+            9.542,
+            9.551,
+            5.934,
+            5.398,
+            5.556,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCS(=O)(=O)c1ccncc1N1CCCCC1CCNc1ncc(F)cn1",
+        "composite_score": 0.7290922315393494,
+        "mw": 422.19,
+        "logp": 1.994,
+        "hbd": 2,
+        "hba": 8,
+        "rotatable_bonds": 9,
+        "qed": 0.6306,
+        "sa_score": 3.35,
+        "n_heavy_atoms": 29,
+        "tpsa": 114.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FANCG-S603F Candidate #1",
+        "iupac_name": "NCCCS(=O)(=O)c1ccncc1N1CCCCC1CCNc1ncc(F)cn1",
+        "pocket_affinity_score": 0.7291,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FANCG_S603F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FANCG_S603F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FANCG_S603F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCG_S603F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCG_S603F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCG-S603F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCG-S603F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:06:20.713887+00:00"
     }
   ]
 }
