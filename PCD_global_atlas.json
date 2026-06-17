@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1406,
+  "total_entries": 1407,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46045,
-    "queue_remaining": 132552
+    "total_processed": 46046,
+    "queue_remaining": 132551
   },
   "entries": [
     {
@@ -311675,6 +311675,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:21:50.115332+00:00"
+    },
+    {
+      "entry_id": "PCD-HNF1B-Q473R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HNF1B-Q473R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HNF1B",
+        "uniprot": "",
+        "clinvar_id": "322946",
+        "disease": "Renal cysts and diabetes syndrome",
+        "mutation_precursor": "Q473R",
+        "mutation_mature": "Q473R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7752451075772966,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 562.7539879569258,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -45.40235137939453,
+          0.9790147542953491,
+          -36.87785720825195
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.6314341503973913,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6295414807879524,
+        "cryptic": true,
+        "pocket_residues": {
+          "P471": "P",
+          "V472": "V",
+          "Q473": "Q",
+          "F474": "F",
+          "S475": "S"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P35680|HNF1B variant Q473R",
+        "fasta_sequence": "MVSKLTSLQQELLSALLSSGVTKEVLVQALEELLPSPNFGVKLETLPLSPGSGAEPDTKPVFHTLTNGHAKGRLSGDEGSEDGDDYDTPPILKELQALNTEEAAEQRAEVDRMLSEDPWRAAKMIKGYMQQHNIPQREVVDVTGLNQSHLSQHLNKGTPMKTQKRAALYTWYVRKQREILRQFNQTVQSSGNMTDKSSQDQLLFLFPEFSQQSHGPGQSDDACSEPTNKKMRRNRFKWGPASQQILYQAYDRQKNPSKEEREALVEECNRAECLQRGVSPSKAHGLGSNLVTEVRVYNWFANRRKEEAFRQKLAMDAYSSNQTHSLNPLLSHGSPHHQPSSSPPNKLSGVRYSQQGNNEITSSSTISHHGNSAMVTSQSVLQQVSPASLDPGHNLLSPDGKMISVSGGGLPPVSTLTNIHSLSHHNPQQSQNLIMTPLSGVMAIAQSLNTSQAQSVPVINSVAGSLAALQPVQFSQQLHSPHQQPLMQQSPGSHMAQQPFMAAVTQLQNSHMYAHKQEPPQYSHTSRFPSAMVVTDTSSISTLTNMSSSKQCPLQAW",
+        "full_sequence": "MVSKLTSLQQELLSALLSSGVTKEVLVQALEELLPSPNFGVKLETLPLSPGSGAEPDTKPVFHTLTNGHAKGRLSGDEGSEDGDDYDTPPILKELQALNTEEAAEQRAEVDRMLSEDPWRAAKMIKGYMQQHNIPQREVVDVTGLNQSHLSQHLNKGTPMKTQKRAALYTWYVRKQREILRQFNQTVQSSGNMTDKSSQDQLLFLFPEFSQQSHGPGQSDDACSEPTNKKMRRNRFKWGPASQQILYQAYDRQKNPSKEEREALVEECNRAECLQRGVSPSKAHGLGSNLVTEVRVYNWFANRRKEEAFRQKLAMDAYSSNQTHSLNPLLSHGSPHHQPSSSPPNKLSGVRYSQQGNNEITSSSTISHHGNSAMVTSQSVLQQVSPASLDPGHNLLSPDGKMISVSGGGLPPVSTLTNIHSLSHHNPQQSQNLIMTPLSGVMAIAQSLNTSQAQSVPVINSVAGSLAALQPVQFSQQLHSPHQQPLMQQSPGSHMAQQPFMAAVTQLQNSHMYAHKQEPPQYSHTSRFPSAMVVTDTSSISTLTNMSSSKQCPLQAW",
+        "n_residues": 557,
+        "mutation_pos_1indexed": 473,
+        "wt_aa": "Q",
+        "mut_aa": "R",
+        "pocket_lining_residues": "P471-V472-Q473-F474-S475",
+        "pocket_lining_positions_precursor": [
+          471,
+          472,
+          473,
+          474,
+          475
+        ],
+        "pocket_lining_1letter": "PVQFS",
+        "sequence_slice_around_pocket": "AGSLAALQPVQFSQQLHSPH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HNF1B_Q473R/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "P471",
+          "V472",
+          "Q473",
+          "F474",
+          "S475"
+        ],
+        "values": [
+          [
+            0.0,
+            3.856,
+            6.85,
+            10.634,
+            13.566
+          ],
+          [
+            3.856,
+            0.0,
+            3.859,
+            7.197,
+            10.037
+          ],
+          [
+            6.85,
+            3.859,
+            0.0,
+            3.879,
+            6.922
+          ],
+          [
+            10.634,
+            7.197,
+            3.879,
+            0.0,
+            3.154
+          ],
+          [
+            13.566,
+            10.037,
+            6.922,
+            3.154,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(Cl)cc1C(O)C(=O)Nc1ccncc1N1CCCC(=O)C1",
+        "composite_score": 0.5048805874106123,
+        "mw": 402.11,
+        "logp": 1.675,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.6981,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 28,
+        "tpsa": 125.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HNF1B-Q473R Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(Cl)cc1C(O)C(=O)Nc1ccncc1N1CCCC(=O)C1",
+        "pocket_affinity_score": 0.5049,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HNF1B_Q473R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HNF1B_Q473R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HNF1B_Q473R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HNF1B_Q473R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HNF1B_Q473R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HNF1B-Q473R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HNF1B-Q473R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:22:14.953957+00:00"
     }
   ]
 }
