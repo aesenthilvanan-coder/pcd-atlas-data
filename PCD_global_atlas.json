@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1247,
+  "total_entries": 1248,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45848,
-    "queue_remaining": 132749
+    "total_processed": 45849,
+    "queue_remaining": 132748
   },
   "entries": [
     {
@@ -275740,6 +275740,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:03:59.460745+00:00"
+    },
+    {
+      "entry_id": "PCD-FECH-T47A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FECH-T47A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FECH",
+        "uniprot": "",
+        "clinvar_id": "327436",
+        "disease": "Inborn genetic diseases",
+        "mutation_precursor": "T47A",
+        "mutation_mature": "T47A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7317528175869579,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 328.25702625663627,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          20.411529541015625,
+          -42.26740264892578,
+          5.089227199554443
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.955332598996138,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7804767882121333,
+        "cryptic": true,
+        "pocket_residues": {
+          "T46": "T",
+          "T47": "T",
+          "E48": "E",
+          "T49": "T",
+          "A50": "A"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P22830|FECH variant T47A",
+        "fasta_sequence": "MRSLGANMAAALRAAGVLLRDPLASSSWRVCQPWRWKSGAAAAAVTTETAQHAQGAKPQVQPQKRKPKTGILMLNMGGPETLGDVHDFLLRLFLDRDLMTLPIQNKLAPFIAKRRTPKIQEQYRRIGGGSPIKIWTSKQGEGMVKLLDELSPNTAPHKYYIGFRYVHPLTEEAIEEMERDGLERAIAFTQYPQYSCSTTGSSLNAIYRYYNQVGRKPTMKWSTIDRWPTHHLLIQCFADHILKELDHFPLEKRSEVVILFSAHSLPMSVVNRGDPYPQEVSATVQKVMERLEYCNPYRLVWQSKVGPMPWLGPQTDESIKGLCERGRKNILLVPIAFTSDHIETLYELDIEYSQVLAKECGVENIRRAESLNGNPLFSKALADLVHSHIQSNELCSKQLTLSCPLCVNPVCRETKSFFTSQQL",
+        "full_sequence": "MRSLGANMAAALRAAGVLLRDPLASSSWRVCQPWRWKSGAAAAAVTTETAQHAQGAKPQVQPQKRKPKTGILMLNMGGPETLGDVHDFLLRLFLDRDLMTLPIQNKLAPFIAKRRTPKIQEQYRRIGGGSPIKIWTSKQGEGMVKLLDELSPNTAPHKYYIGFRYVHPLTEEAIEEMERDGLERAIAFTQYPQYSCSTTGSSLNAIYRYYNQVGRKPTMKWSTIDRWPTHHLLIQCFADHILKELDHFPLEKRSEVVILFSAHSLPMSVVNRGDPYPQEVSATVQKVMERLEYCNPYRLVWQSKVGPMPWLGPQTDESIKGLCERGRKNILLVPIAFTSDHIETLYELDIEYSQVLAKECGVENIRRAESLNGNPLFSKALADLVHSHIQSNELCSKQLTLSCPLCVNPVCRETKSFFTSQQL",
+        "n_residues": 423,
+        "mutation_pos_1indexed": 47,
+        "wt_aa": "T",
+        "mut_aa": "A",
+        "pocket_lining_residues": "T46-T47-E48-T49-A50",
+        "pocket_lining_positions_precursor": [
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "pocket_lining_1letter": "TTETA",
+        "sequence_slice_around_pocket": "KSGAAAAAVTTETAQHAQGA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_T47A/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "T46",
+          "T47",
+          "E48",
+          "T49",
+          "A50"
+        ],
+        "values": [
+          [
+            0.0,
+            3.824,
+            6.48,
+            9.675,
+            12.589
+          ],
+          [
+            3.824,
+            0.0,
+            3.821,
+            6.194,
+            9.331
+          ],
+          [
+            6.48,
+            3.821,
+            0.0,
+            3.822,
+            6.196
+          ],
+          [
+            9.675,
+            6.194,
+            3.822,
+            0.0,
+            3.82
+          ],
+          [
+            12.589,
+            9.331,
+            6.196,
+            3.82,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)c(N2CCCC(=O)C2)c1",
+        "composite_score": 0.7072317296365376,
+        "mw": 234.14,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.8671,
+        "sa_score": 2.24,
+        "n_heavy_atoms": 17,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FECH-T47A Candidate #1",
+        "iupac_name": "CNc1ccc(OC)c(N2CCCC(=O)C2)c1",
+        "pocket_affinity_score": 0.7072,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_T47A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_T47A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_T47A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_T47A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_T47A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FECH-T47A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FECH-T47A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:04:23.012849+00:00"
     }
   ]
 }
