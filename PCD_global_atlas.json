@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1249,
+  "total_entries": 1250,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45850,
-    "queue_remaining": 132747
+    "total_processed": 45851,
+    "queue_remaining": 132746
   },
   "entries": [
     {
@@ -276190,6 +276190,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:04:51.280682+00:00"
+    },
+    {
+      "entry_id": "PCD-UMOD-T581N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-UMOD-T581N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "UMOD",
+        "uniprot": "",
+        "clinvar_id": "318284",
+        "disease": "not provided",
+        "mutation_precursor": "T581N",
+        "mutation_mature": "T581N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8586466496148951,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 648.6353596485952,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -8.672618865966797,
+          1.5794239044189453,
+          40.733089447021484
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.345099088537235,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6701033253540573,
+        "cryptic": true,
+        "pocket_residues": {
+          "C527": "C",
+          "P580": "P",
+          "T581": "T",
+          "C582": "C",
+          "S583": "S",
+          "G584": "G"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P07911|UMOD variant T581N",
+        "fasta_sequence": "MGQPSLTWMLMVVVASWFITTAATDTSEARWCSECHSNATCTEDEAVTTCTCQEGFTGDGLTCVDLDECAIPGAHNCSANSSCVNTPGSFSCVCPEGFRLSPGLGCTDVDECAEPGLSHCHALATCVNVVGSYLCVCPAGYRGDGWHCECSPGSCGPGLDCVPEGDALVCADPCQAHRTLDEYWRSTEYGEGYACDTDLRGWYRFVGQGGARMAETCVPVLRCNTAAPMWLNGTHPSSDEGIVSRKACAHWSGHCCLWDASVQVKACAGGYYVYNLTAPPECHLAYCTDPSSVEGTCEECSIDEDCKSNNGRWHCQCKQDFNITDISLLEHRLECGANDMKVSLGKCQLKSLGFDKVFMYLSDSRCSGFNDRDNRDWVSVVTPARDGPCGTVLTRNETHATYSNTLYLADEIIIRDLNIKINFACSYPLDMKVSLKTALQPMVSALNIRVGGTGMFTVRMALFQTPSYTQPYQGSSVTLSTEAFLYVGTMLDGGDLSRFALLMTNCYATPSSNATDPLKYFIIQDRCPHTRDSTIQVVENGESSQGRFSVQMFRFAGNYDLVYLHCEVYLCDTMNEKCKPTCSGTRFRSGSVIDQSRVLNLGPITRKGVQATVSRAFSSLGLLKVWLPLLLSATLTLTFQ",
+        "full_sequence": "MGQPSLTWMLMVVVASWFITTAATDTSEARWCSECHSNATCTEDEAVTTCTCQEGFTGDGLTCVDLDECAIPGAHNCSANSSCVNTPGSFSCVCPEGFRLSPGLGCTDVDECAEPGLSHCHALATCVNVVGSYLCVCPAGYRGDGWHCECSPGSCGPGLDCVPEGDALVCADPCQAHRTLDEYWRSTEYGEGYACDTDLRGWYRFVGQGGARMAETCVPVLRCNTAAPMWLNGTHPSSDEGIVSRKACAHWSGHCCLWDASVQVKACAGGYYVYNLTAPPECHLAYCTDPSSVEGTCEECSIDEDCKSNNGRWHCQCKQDFNITDISLLEHRLECGANDMKVSLGKCQLKSLGFDKVFMYLSDSRCSGFNDRDNRDWVSVVTPARDGPCGTVLTRNETHATYSNTLYLADEIIIRDLNIKINFACSYPLDMKVSLKTALQPMVSALNIRVGGTGMFTVRMALFQTPSYTQPYQGSSVTLSTEAFLYVGTMLDGGDLSRFALLMTNCYATPSSNATDPLKYFIIQDRCPHTRDSTIQVVENGESSQGRFSVQMFRFAGNYDLVYLHCEVYLCDTMNEKCKPTCSGTRFRSGSVIDQSRVLNLGPITRKGVQATVSRAFSSLGLLKVWLPLLLSATLTLTFQ",
+        "n_residues": 640,
+        "mutation_pos_1indexed": 581,
+        "wt_aa": "T",
+        "mut_aa": "N",
+        "pocket_lining_residues": "C527-P580-T581-C582-S583-G584",
+        "pocket_lining_positions_precursor": [
+          527,
+          580,
+          581,
+          582,
+          583,
+          584
+        ],
+        "pocket_lining_1letter": "CPTCSG",
+        "sequence_slice_around_pocket": "CDTMNEKCKPTCSGTRFRSG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/UMOD_T581N/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "C527",
+          "P580",
+          "T581",
+          "C582",
+          "S583",
+          "G584"
+        ],
+        "values": [
+          [
+            0.0,
+            6.929,
+            7.797,
+            5.744,
+            8.726,
+            9.267
+          ],
+          [
+            6.929,
+            0.0,
+            3.852,
+            6.178,
+            9.621,
+            12.411
+          ],
+          [
+            7.797,
+            3.852,
+            0.0,
+            3.824,
+            6.469,
+            9.803
+          ],
+          [
+            5.744,
+            6.178,
+            3.824,
+            0.0,
+            3.846,
+            6.303
+          ],
+          [
+            8.726,
+            9.621,
+            6.469,
+            3.846,
+            0.0,
+            3.858
+          ],
+          [
+            9.267,
+            12.411,
+            9.803,
+            6.303,
+            3.858,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CC(=O)CCC1OCNc1ccncc1N1CCCCC1",
+        "composite_score": 0.5157358673078706,
+        "mw": 460.19,
+        "logp": 1.696,
+        "hbd": 2,
+        "hba": 9,
+        "rotatable_bonds": 7,
+        "qed": 0.5927,
+        "sa_score": 3.71,
+        "n_heavy_atoms": 32,
+        "tpsa": 130.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "UMOD-T581N Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CC(=O)CCC1OCNc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.5157,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/UMOD_T581N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/UMOD_T581N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/UMOD_T581N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/UMOD_T581N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/UMOD_T581N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-UMOD-T581N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-UMOD-T581N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:05:19.401904+00:00"
     }
   ]
 }
