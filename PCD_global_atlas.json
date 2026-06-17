@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1332,
+  "total_entries": 1333,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45950,
-    "queue_remaining": 132647
+    "total_processed": 45951,
+    "queue_remaining": 132646
   },
   "entries": [
     {
@@ -294771,6 +294771,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:23:46.062420+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC46A1-V171D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC46A1-V171D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC46A1",
+        "uniprot": "",
+        "clinvar_id": "322409",
+        "disease": "Congenital defect of folate absorption",
+        "mutation_precursor": "V171D",
+        "mutation_mature": "V171D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9141339364896183,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 334.9004251993845,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -21.224853515625,
+          5.263089656829834,
+          13.504508972167969
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.144309771757892,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8620710666942268,
+        "cryptic": true,
+        "pocket_residues": {
+          "A166": "A",
+          "S167": "S",
+          "V168": "V",
+          "A169": "A",
+          "D170": "D",
+          "V171": "V",
+          "S172": "S",
+          "S173": "S",
+          "T233": "T",
+          "E385": "E",
+          "Q388": "Q"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96NT5|SLC46A1 variant V171D",
+        "fasta_sequence": "MEGSASPPEKPRARPAAAVLCRGPVEPLVFLANFALVLQGPLTTQYLWHRFSADLGYNGTRQRGGCSNRSADPTMQEVETLTSHWTLYMNVGGFLVGLFSSTLLGAWSDSVGRRPLLVLASLGLLLQALVSVFVVQLQLHVGYFVLGRILCALLGDFGGLLAASFASVADVSSSRSRTFRMALLEASIGVAGMLASLLGGHWLRAQGYANPFWLALALLIAMTLYAAFCFGETLKEPKSTRLFTFRHHRSIVQLYVAPAPEKSRKHLALYSLAIFVVITVHFGAQDILTLYELSTPLCWDSKLIGYGSAAQHLPYLTSLLALKLLQYCLADAWVAEIGLAFNILGMVVFAFATITPLMFTGYGLLFLSLVITPVIRAKLSKLVRETEQGALFSAVACVNSLAMLTASGIFNSLYPATLNFMKGFPFLLGAGLLLIPAVLIGMLEKADPHLEFQQFPQSP",
+        "full_sequence": "MEGSASPPEKPRARPAAAVLCRGPVEPLVFLANFALVLQGPLTTQYLWHRFSADLGYNGTRQRGGCSNRSADPTMQEVETLTSHWTLYMNVGGFLVGLFSSTLLGAWSDSVGRRPLLVLASLGLLLQALVSVFVVQLQLHVGYFVLGRILCALLGDFGGLLAASFASVADVSSSRSRTFRMALLEASIGVAGMLASLLGGHWLRAQGYANPFWLALALLIAMTLYAAFCFGETLKEPKSTRLFTFRHHRSIVQLYVAPAPEKSRKHLALYSLAIFVVITVHFGAQDILTLYELSTPLCWDSKLIGYGSAAQHLPYLTSLLALKLLQYCLADAWVAEIGLAFNILGMVVFAFATITPLMFTGYGLLFLSLVITPVIRAKLSKLVRETEQGALFSAVACVNSLAMLTASGIFNSLYPATLNFMKGFPFLLGAGLLLIPAVLIGMLEKADPHLEFQQFPQSP",
+        "n_residues": 459,
+        "mutation_pos_1indexed": 171,
+        "wt_aa": "V",
+        "mut_aa": "D",
+        "pocket_lining_residues": "A166-S167-V168-A169-D170-V171-S172-S173-T233-E385-Q388",
+        "pocket_lining_positions_precursor": [
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          233,
+          385,
+          388
+        ],
+        "pocket_lining_1letter": "ASVADVSSTEQ",
+        "sequence_slice_around_pocket": "LAASFASVADVSSSRSRTFR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC46A1_V171D/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "A166",
+          "S167",
+          "V168",
+          "A169",
+          "D170",
+          "V171",
+          "S172",
+          "S173",
+          "T233",
+          "E385",
+          "Q388"
+        ],
+        "values": [
+          [
+            0.0,
+            3.867,
+            5.494,
+            4.95,
+            6.082,
+            8.819,
+            9.877,
+            12.666,
+            8.915,
+            9.398,
+            5.751
+          ],
+          [
+            3.867,
+            0.0,
+            3.858,
+            5.428,
+            5.052,
+            6.464,
+            8.654,
+            12.083,
+            5.879,
+            10.967,
+            8.871
+          ],
+          [
+            5.494,
+            3.858,
+            0.0,
+            3.849,
+            5.492,
+            5.379,
+            5.965,
+            9.537,
+            8.577,
+            11.664,
+            10.138
+          ],
+          [
+            4.95,
+            5.428,
+            3.849,
+            0.0,
+            3.875,
+            5.612,
+            5.229,
+            7.753,
+            9.542,
+            8.204,
+            7.325
+          ],
+          [
+            6.082,
+            5.052,
+            5.492,
+            3.875,
+            0.0,
+            3.882,
+            5.863,
+            8.352,
+            6.49,
+            7.195,
+            7.815
+          ],
+          [
+            8.819,
+            6.464,
+            5.379,
+            5.612,
+            3.882,
+            0.0,
+            3.868,
+            7.009,
+            7.012,
+            10.5,
+            11.554
+          ],
+          [
+            9.877,
+            8.654,
+            5.965,
+            5.229,
+            5.863,
+            3.868,
+            0.0,
+            3.801,
+            10.749,
+            10.817,
+            12.028
+          ],
+          [
+            12.666,
+            12.083,
+            9.537,
+            7.753,
+            8.352,
+            7.009,
+            3.801,
+            0.0,
+            13.759,
+            10.964,
+            13.392
+          ],
+          [
+            8.915,
+            5.879,
+            8.577,
+            9.542,
+            6.49,
+            7.012,
+            10.749,
+            13.759,
+            0.0,
+            12.051,
+            11.924
+          ],
+          [
+            9.398,
+            10.967,
+            11.664,
+            8.204,
+            7.195,
+            10.5,
+            10.817,
+            10.964,
+            12.051,
+            0.0,
+            5.517
+          ],
+          [
+            5.751,
+            8.871,
+            10.138,
+            7.325,
+            7.815,
+            11.554,
+            12.028,
+            13.392,
+            11.924,
+            5.517,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.9059692005173062,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC46A1-V171D Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.906,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC46A1_V171D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC46A1_V171D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC46A1_V171D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC46A1_V171D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC46A1_V171D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC46A1-V171D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC46A1-V171D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:24:10.528691+00:00"
     }
   ]
 }
