@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1058,
+  "total_entries": 1059,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45640,
-    "queue_remaining": 132957
+    "total_processed": 45641,
+    "queue_remaining": 132956
   },
   "entries": [
     {
@@ -233349,6 +233349,207 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:12:30.987810+00:00"
+    },
+    {
+      "entry_id": "PCD-NF2-T480M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NF2-T480M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NF2",
+        "uniprot": "",
+        "clinvar_id": "341073",
+        "disease": "Neurofibromatosis, type 2",
+        "mutation_precursor": "T480M",
+        "mutation_mature": "T480M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8119268719323953,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 478.6021639741546,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -37.38831329345703,
+          -6.062629699707031,
+          36.27325439453125
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.009603135935325,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7023290247857675,
+        "cryptic": true,
+        "pocket_residues": {
+          "L356": "L",
+          "R359": "R",
+          "K478": "K",
+          "P479": "P",
+          "T480": "T",
+          "Y481": "Y",
+          "P482": "P",
+          "P483": "P"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P35240|NF2 variant T480M",
+        "fasta_sequence": "MAGAIASRMSFSSLKRKQPKTFTVRIVTMDAEMEFNCEMKWKGKDLFDLVCRTLGLRETWFFGLQYTIKDTVAWLKMDKKVLDHDVSKEEPVTFHFLAKFYPENAEEELVQEITQHLFFLQVKKQILDEKIYCPPEASVLLASYAVQAKYGDYDPSVHKRGFLAQEELLPKRVINLYQMTPEMWEERITAWYAEHRGRARDEAEMEYLKIAQDLEMYGVNYFAIRNKKGTELLLGVDALGLHIYDPENRLTPKISFPWNEIRNISYSDKEFTIKPLDKKIDVFKFNSSKLRVNKLILQLCIGNHDLFMRRRKADSLEVQQMKAQAREEKARKQMERQRLAREKQMREEAERTRDELERRLLQMKEEATMANEALMRSEETADLLAEKAQITEEEAKLLAQKAAEAEQEMQRIKATAIRTEEEKRLMEQKVLEAEVLALKMAEESERRAKEADQLKQDLQEAREAERRAKQKLLEIATKPTYPPMNPIPAPLPPDIPSFNLIGDSLSFDFKDTDMKRLSMEIEKEKVEYMEKSKHLQEQLNELKTEIEALKLKERETALDILHNENSDRGGSSKHNTIKKLTLQSAKSRVAFFEEL",
+        "full_sequence": "MAGAIASRMSFSSLKRKQPKTFTVRIVTMDAEMEFNCEMKWKGKDLFDLVCRTLGLRETWFFGLQYTIKDTVAWLKMDKKVLDHDVSKEEPVTFHFLAKFYPENAEEELVQEITQHLFFLQVKKQILDEKIYCPPEASVLLASYAVQAKYGDYDPSVHKRGFLAQEELLPKRVINLYQMTPEMWEERITAWYAEHRGRARDEAEMEYLKIAQDLEMYGVNYFAIRNKKGTELLLGVDALGLHIYDPENRLTPKISFPWNEIRNISYSDKEFTIKPLDKKIDVFKFNSSKLRVNKLILQLCIGNHDLFMRRRKADSLEVQQMKAQAREEKARKQMERQRLAREKQMREEAERTRDELERRLLQMKEEATMANEALMRSEETADLLAEKAQITEEEAKLLAQKAAEAEQEMQRIKATAIRTEEEKRLMEQKVLEAEVLALKMAEESERRAKEADQLKQDLQEAREAERRAKQKLLEIATKPTYPPMNPIPAPLPPDIPSFNLIGDSLSFDFKDTDMKRLSMEIEKEKVEYMEKSKHLQEQLNELKTEIEALKLKERETALDILHNENSDRGGSSKHNTIKKLTLQSAKSRVAFFEEL",
+        "n_residues": 595,
+        "mutation_pos_1indexed": 480,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "L356-R359-K478-P479-T480-Y481-P482-P483",
+        "pocket_lining_positions_precursor": [
+          356,
+          359,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483
+        ],
+        "pocket_lining_1letter": "LRKPTYPP",
+        "sequence_slice_around_pocket": "QKLLEIATKPTYPPMNPIPA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NF2_T480M/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "L356",
+          "R359",
+          "K478",
+          "P479",
+          "T480",
+          "Y481",
+          "P482",
+          "P483"
+        ],
+        "values": [
+          [
+            0.0,
+            5.049,
+            13.317,
+            11.876,
+            8.37,
+            8.652,
+            9.687,
+            12.968
+          ],
+          [
+            5.049,
+            0.0,
+            11.326,
+            11.426,
+            8.575,
+            10.476,
+            11.399,
+            15.174
+          ],
+          [
+            13.317,
+            11.326,
+            0.0,
+            3.85,
+            6.125,
+            8.78,
+            10.174,
+            12.483
+          ],
+          [
+            11.876,
+            11.426,
+            3.85,
+            0.0,
+            3.852,
+            5.351,
+            7.16,
+            9.047
+          ],
+          [
+            8.37,
+            8.575,
+            6.125,
+            3.852,
+            0.0,
+            3.835,
+            6.782,
+            9.488
+          ],
+          [
+            8.652,
+            10.476,
+            8.78,
+            5.351,
+            3.835,
+            0.0,
+            3.787,
+            5.959
+          ],
+          [
+            9.687,
+            11.399,
+            10.174,
+            7.16,
+            6.782,
+            3.787,
+            0.0,
+            3.854
+          ],
+          [
+            12.968,
+            15.174,
+            12.483,
+            9.047,
+            9.488,
+            5.959,
+            3.854,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCc1ccc(OCC(=O)c2cc(Cl)ccc2C(N)=O)cc1",
+        "composite_score": 0.5385767401883247,
+        "mw": 332.09,
+        "logp": 2.202,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 7,
+        "qed": 0.7597,
+        "sa_score": 2.01,
+        "n_heavy_atoms": 23,
+        "tpsa": 95.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NF2-T480M Candidate #1",
+        "iupac_name": "NCCc1ccc(OCC(=O)c2cc(Cl)ccc2C(N)=O)cc1",
+        "pocket_affinity_score": 0.5386,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NF2_T480M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NF2_T480M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NF2_T480M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NF2_T480M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NF2_T480M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NF2-T480M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NF2-T480M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:12:57.600117+00:00"
     }
   ]
 }
