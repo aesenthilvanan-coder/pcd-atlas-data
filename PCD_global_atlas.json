@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 355,
+  "total_entries": 356,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44805,
-    "queue_remaining": 133792
+    "total_processed": 44806,
+    "queue_remaining": 133791
   },
   "entries": [
     {
@@ -77661,6 +77661,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:22:57.263145+00:00"
+    },
+    {
+      "entry_id": "PCD-RET-R474W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RET-R474W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RET",
+        "uniprot": "",
+        "clinvar_id": "299892",
+        "disease": "Multiple endocrine neoplasia, type 2",
+        "mutation_precursor": "R474W",
+        "mutation_mature": "R474W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9434495175341153,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 555.5903064216026,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -48.18299102783203,
+          -3.8034348487854004,
+          42.18722152709961
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.35410342134866,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6474264706917195,
+        "cryptic": true,
+        "pocket_residues": {
+          "R414": "R",
+          "R415": "R",
+          "A416": "A",
+          "T470": "T",
+          "K471": "K",
+          "L473": "L",
+          "R474": "R",
+          "R475": "R",
+          "Y508": "Y",
+          "V509": "V",
+          "A510": "A"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P07949|RET variant R474W",
+        "fasta_sequence": "MAKATSGAAGLRLLLLLLLPLLGKVALGLYFSRDAYWEKLYVDQAAGTPLLYVHALRDAPEEVPSFRLGQHLYGTYRTRLHENNWICIQEDTGLLYLNRSLDHSSWEKLSVRNRGFPLLTVYLKVFLSPTSLREGECQWPGCARVYFSFFNTSFPACSSLKPRELCFPETRPSFRIRENRPPGTFHQFRLLPVQFLCPNISVAYRLLEGEGLPFRCAPDSLEVSTRWALDREQREKYELVAVCTVHAGAREEVVMVPFPVTVYDEDDSAPTFPAGVDTASAVVEFKRKEDTVVATLRVFDADVVPASGELVRRYTSTLLPGDTWAQQTFRVEHWPNETSVQANGSFVRATVHDYRLVLNRNLSISENRTMQLAVLVNDSDFQGPGAGVLLLHFNVSVLPVSLHLPSTYSLSVSRRARRFAQIGKVCVENCQAFSGINVQYKLHSSGANCSTLGVVTSAEDTSGILFVNDTKALRRPKCAELHYMVVATDQQTSRQAQAQLLVTVEGSYVAEEAGCPLSCAVSKRRLECEECGGLGSPTGRCEWRQGDGKGITRNFSTCSPSTKTCPDGHCDVVETQDINICPQDCLRGSIVGGHEPGEPRGIKAGYGTCNCFPEEEKCFCEPEDIQDPLCDELCRTVIAAAVLFSFIVSVLLSAFCIHCYHKFAHKPPISSAEMTFRRPAQAFPVSYSSSGARRPSLDSMENQVSVDAFKILEDPKWEFPRKNLVLGKTLGEGEFGKVVKATAFHLKGRAGYTTVAVKMLKENASPSELRDLLSEFNVLKQVNHPHVIKLYGACSQDGPLLLIVEYAKYGSLRGFLRESRKVGPGYLGSGGSRNSSSLDHPDERALTMGDLISFAWQISQGMQYLAEMKLVHRDLAARNILVAEGRKMKISDFGLSRDVYEEDSYVKRSQGRIPVKWMAIESLFDHIYTTQSDVWSFGVLLWEIVTLGGNPYPGIPPERLFNLLKTGHRMERPDNCSEEMYRLMLQCWKQEPDKRPVFADISKDLEKMMVKRRDYLDLAASTPSDSLIYDDGLSEEETPLVDCNNAPLPRALPSTWIENKLYGMSDPNWPGESPVPLTRADGTNTGFPRYPNDSVYANWMLSPSAAKLMDTFDS",
+        "full_sequence": "MAKATSGAAGLRLLLLLLLPLLGKVALGLYFSRDAYWEKLYVDQAAGTPLLYVHALRDAPEEVPSFRLGQHLYGTYRTRLHENNWICIQEDTGLLYLNRSLDHSSWEKLSVRNRGFPLLTVYLKVFLSPTSLREGECQWPGCARVYFSFFNTSFPACSSLKPRELCFPETRPSFRIRENRPPGTFHQFRLLPVQFLCPNISVAYRLLEGEGLPFRCAPDSLEVSTRWALDREQREKYELVAVCTVHAGAREEVVMVPFPVTVYDEDDSAPTFPAGVDTASAVVEFKRKEDTVVATLRVFDADVVPASGELVRRYTSTLLPGDTWAQQTFRVEHWPNETSVQANGSFVRATVHDYRLVLNRNLSISENRTMQLAVLVNDSDFQGPGAGVLLLHFNVSVLPVSLHLPSTYSLSVSRRARRFAQIGKVCVENCQAFSGINVQYKLHSSGANCSTLGVVTSAEDTSGILFVNDTKALRRPKCAELHYMVVATDQQTSRQAQAQLLVTVEGSYVAEEAGCPLSCAVSKRRLECEECGGLGSPTGRCEWRQGDGKGITRNFSTCSPSTKTCPDGHCDVVETQDINICPQDCLRGSIVGGHEPGEPRGIKAGYGTCNCFPEEEKCFCEPEDIQDPLCDELCRTVIAAAVLFSFIVSVLLSAFCIHCYHKFAHKPPISSAEMTFRRPAQAFPVSYSSSGARRPSLDSMENQVSVDAFKILEDPKWEFPRKNLVLGKTLGEGEFGKVVKATAFHLKGRAGYTTVAVKMLKENASPSELRDLLSEFNVLKQVNHPHVIKLYGACSQDGPLLLIVEYAKYGSLRGFLRESRKVGPGYLGSGGSRNSSSLDHPDERALTMGDLISFAWQISQGMQYLAEMKLVHRDLAARNILVAEGRKMKISDFGLSRDVYEEDSYVKRSQGRIPVKWMAIESLFDHIYTTQSDVWSFGVLLWEIVTLGGNPYPGIPPERLFNLLKTGHRMERPDNCSEEMYRLMLQCWKQEPDKRPVFADISKDLEKMMVKRRDYLDLAASTPSDSLIYDDGLSEEETPLVDCNNAPLPRALPSTWIENKLYGMSDPNWPGESPVPLTRADGTNTGFPRYPNDSVYANWMLSPSAAKLMDTFDS",
+        "n_residues": 1114,
+        "mutation_pos_1indexed": 474,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "R414-R415-A416-T470-K471-L473-R474-R475-Y508-V509-A510",
+        "pocket_lining_positions_precursor": [
+          414,
+          415,
+          416,
+          470,
+          471,
+          473,
+          474,
+          475,
+          508,
+          509,
+          510
+        ],
+        "pocket_lining_1letter": "RRATKLRRYVA",
+        "sequence_slice_around_pocket": "ILFVNDTKALRRPKCAELHY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RET_R474W/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "R414",
+          "R415",
+          "A416",
+          "T470",
+          "K471",
+          "L473",
+          "R474",
+          "R475",
+          "Y508",
+          "V509",
+          "A510"
+        ],
+        "values": [
+          [
+            0.0,
+            3.845,
+            5.608,
+            8.31,
+            10.026,
+            6.246,
+            6.052,
+            9.097,
+            5.751,
+            8.884,
+            11.192
+          ],
+          [
+            3.845,
+            0.0,
+            3.86,
+            8.552,
+            10.892,
+            8.631,
+            8.135,
+            11.818,
+            5.637,
+            7.117,
+            8.976
+          ],
+          [
+            5.608,
+            3.86,
+            0.0,
+            7.419,
+            10.796,
+            8.323,
+            9.434,
+            12.998,
+            9.336,
+            10.797,
+            12.017
+          ],
+          [
+            8.31,
+            8.552,
+            7.419,
+            0.0,
+            3.89,
+            4.818,
+            6.207,
+            8.955,
+            11.025,
+            13.065,
+            12.89
+          ],
+          [
+            10.026,
+            10.892,
+            10.796,
+            3.89,
+            0.0,
+            5.457,
+            5.31,
+            6.803,
+            11.493,
+            13.693,
+            13.17
+          ],
+          [
+            6.246,
+            8.631,
+            8.323,
+            4.818,
+            5.457,
+            0.0,
+            3.877,
+            5.655,
+            10.008,
+            13.18,
+            14.158
+          ],
+          [
+            6.052,
+            8.135,
+            9.434,
+            6.207,
+            5.31,
+            3.877,
+            0.0,
+            3.891,
+            7.339,
+            10.502,
+            11.354
+          ],
+          [
+            9.097,
+            11.818,
+            12.998,
+            8.955,
+            6.803,
+            5.655,
+            3.891,
+            0.0,
+            10.204,
+            13.541,
+            14.429
+          ],
+          [
+            5.751,
+            5.637,
+            9.336,
+            11.025,
+            11.493,
+            10.008,
+            7.339,
+            10.204,
+            0.0,
+            3.844,
+            6.656
+          ],
+          [
+            8.884,
+            7.117,
+            10.797,
+            13.065,
+            13.693,
+            13.18,
+            10.502,
+            13.541,
+            3.844,
+            0.0,
+            3.822
+          ],
+          [
+            11.192,
+            8.976,
+            12.017,
+            12.89,
+            13.17,
+            14.158,
+            11.354,
+            14.429,
+            6.656,
+            3.822,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.6834895941860377,
+        "mw": 379.2,
+        "logp": 2.055,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.5222,
+        "sa_score": 3.24,
+        "n_heavy_atoms": 28,
+        "tpsa": 107.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RET-R474W Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6835,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RET_R474W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RET_R474W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RET_R474W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RET_R474W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RET_R474W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RET-R474W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RET-R474W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:23:33.467301+00:00"
     }
   ]
 }
