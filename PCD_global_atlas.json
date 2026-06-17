@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 485,
+  "total_entries": 486,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44944,
-    "queue_remaining": 133653
+    "total_processed": 44946,
+    "queue_remaining": 133651
   },
   "entries": [
     {
@@ -107721,6 +107721,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:09:16.343939+00:00"
+    },
+    {
+      "entry_id": "PCD-DLAT-P316S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DLAT-P316S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DLAT",
+        "uniprot": "",
+        "clinvar_id": "302456",
+        "disease": "Pyruvate dehydrogenase E2 deficiency",
+        "mutation_precursor": "P316S",
+        "mutation_mature": "P316S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7495349795306553,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 484.9856111001472,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -50.64302062988281,
+          1.8981658220291138,
+          8.023521423339844
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.23305610963493,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6129662608030215,
+        "cryptic": true,
+        "pocket_residues": {
+          "D313": "D",
+          "L314": "L",
+          "K315": "K",
+          "P316": "P",
+          "Q317": "Q",
+          "V318": "V"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P10515|DLAT variant P316S",
+        "fasta_sequence": "MWRVCARRAQNVAPWAGLEARWTALQEVPGTPRVTSRSGPAPARRNSVTTGYGGVRALCGWTPSSGATPRNRLLLQLLGSPGRRYYSLPPHQKVPLPSLSPTMQAGTIARWEKKEGDKINEGDLIAEVETDKATVGFESLEECYMAKILVAEGTRDVPIGAIICITVGKPEDIEAFKNYTLDSSAAPTPQAAPAPTPAATASPPTPSAQAPGSSYPPHMQVLLPALSPTMTMGTVQRWEKKVGEKLSEGDLLAEIETDKATIGFEVQEEGYLAKILVPEGTRDVPLGTPLCIIVEKEADISAFADYRPTEVTDLKPQVPPPTPPPVAAVPPTPQPLAPTPSAPCPATPAGPKGRVFVSPLAKKLAVEKGIDLTQVKGTGPDGRITKKDIDSFVPSKVAPAPAAVVPPTGPGMAPVPTGVFTDIPISNIRRVIAQRLMQSKQTIPHYYLSIDVNMGEVLLVRKELNKILEGRSKISVNDFIIKASALACLKVPEANSSWMDTVIRQNHVVDVSVAVSTPAGLITPIVFNAHIKGVETIANDVVSLATKAREGKLQPHEFQGGTFTISNLGMFGIKNFSAIINPPQACILAIGASEDKLVPADNEKGFDVASMMSVTLSCDHRVVDGAVGAQWLAEFRKYLEKPITMLL",
+        "full_sequence": "MWRVCARRAQNVAPWAGLEARWTALQEVPGTPRVTSRSGPAPARRNSVTTGYGGVRALCGWTPSSGATPRNRLLLQLLGSPGRRYYSLPPHQKVPLPSLSPTMQAGTIARWEKKEGDKINEGDLIAEVETDKATVGFESLEECYMAKILVAEGTRDVPIGAIICITVGKPEDIEAFKNYTLDSSAAPTPQAAPAPTPAATASPPTPSAQAPGSSYPPHMQVLLPALSPTMTMGTVQRWEKKVGEKLSEGDLLAEIETDKATIGFEVQEEGYLAKILVPEGTRDVPLGTPLCIIVEKEADISAFADYRPTEVTDLKPQVPPPTPPPVAAVPPTPQPLAPTPSAPCPATPAGPKGRVFVSPLAKKLAVEKGIDLTQVKGTGPDGRITKKDIDSFVPSKVAPAPAAVVPPTGPGMAPVPTGVFTDIPISNIRRVIAQRLMQSKQTIPHYYLSIDVNMGEVLLVRKELNKILEGRSKISVNDFIIKASALACLKVPEANSSWMDTVIRQNHVVDVSVAVSTPAGLITPIVFNAHIKGVETIANDVVSLATKAREGKLQPHEFQGGTFTISNLGMFGIKNFSAIINPPQACILAIGASEDKLVPADNEKGFDVASMMSVTLSCDHRVVDGAVGAQWLAEFRKYLEKPITMLL",
+        "n_residues": 647,
+        "mutation_pos_1indexed": 316,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "D313-L314-K315-P316-Q317-V318",
+        "pocket_lining_positions_precursor": [
+          313,
+          314,
+          315,
+          316,
+          317,
+          318
+        ],
+        "pocket_lining_1letter": "DLKPQV",
+        "sequence_slice_around_pocket": "YRPTEVTDLKPQVPPPTPPP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DLAT_P316S/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "D313",
+          "L314",
+          "K315",
+          "P316",
+          "Q317",
+          "V318"
+        ],
+        "values": [
+          [
+            0.0,
+            3.658,
+            5.409,
+            8.585,
+            10.838,
+            13.311
+          ],
+          [
+            3.658,
+            0.0,
+            3.655,
+            5.557,
+            8.591,
+            10.613
+          ],
+          [
+            5.409,
+            3.655,
+            0.0,
+            3.72,
+            5.536,
+            7.967
+          ],
+          [
+            8.585,
+            5.557,
+            3.72,
+            0.0,
+            3.715,
+            5.285
+          ],
+          [
+            10.838,
+            8.591,
+            5.536,
+            3.715,
+            0.0,
+            3.783
+          ],
+          [
+            13.311,
+            10.613,
+            7.967,
+            5.285,
+            3.783,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(O)C(=O)c1ccccc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7025474513044419,
+        "mw": 331.23,
+        "logp": 1.991,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8077,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 24,
+        "tpsa": 69.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DLAT-P316S Candidate #1",
+        "iupac_name": "NCC(O)C(=O)c1ccccc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7025,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DLAT_P316S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DLAT_P316S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DLAT_P316S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DLAT_P316S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DLAT_P316S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DLAT-P316S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DLAT-P316S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:09:54.671799+00:00"
     }
   ]
 }
