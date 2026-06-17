@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 695,
+  "total_entries": 696,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45196,
-    "queue_remaining": 133401
+    "total_processed": 45197,
+    "queue_remaining": 133400
   },
   "entries": [
     {
@@ -153542,6 +153542,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:55:39.138868+00:00"
+    },
+    {
+      "entry_id": "PCD-USH1G-R188L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-USH1G-R188L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "USH1G",
+        "uniprot": "",
+        "clinvar_id": "325054",
+        "disease": "Usher syndrome type 1G",
+        "mutation_precursor": "R188L",
+        "mutation_mature": "R188L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9159544515049551,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 538.5676537680981,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          17.785987854003906,
+          4.706131458282471,
+          -67.16788482666016
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.580238492621669,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8475217962078982,
+        "cryptic": true,
+        "pocket_residues": {
+          "T185": "T",
+          "L186": "L",
+          "S187": "S",
+          "R188": "R",
+          "R189": "R"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q495M9|USH1G variant R188L",
+        "fasta_sequence": "MNDQYHRAARDGYLELLKEATRKELNAPDEDGMTPTLWAAYHGNLESLRLIVSRGGDPDKCDIWGNTPLHLAASNGHLHCLSFLVSFGANIWCLDNDYHTPLDMAAMKGHMECVRYLDSIAAKQSSLNPKLVGKLKDKAFREAERRIRECAKLQRRHHERMERRYRRELAERSDTLSFSSLTSSTLSRRLQHLALGSHLPYSQATLHGTARGKTKMQKKLERRKQGGEGTFKVSEDGRKSARSLSGLQLGSDVMFVRQGTYANPKEWGRAPLRDMFLSDEDSVSRATLAAEPAHSEVSTDSGHDSLFTRPGLGTMVFRRNYLSSGLHGLGREDGGLDGVGAPRGRLQSSPSLDDDSLGSANSLQDRSCGEELPWDELDLGLDEDLEPETSPLETFLASLHMEDFAALLRQEKIDLEALMLCSDLDLRSISVPLGPRKKILGAVRRRRQAMERPPALEDTEL",
+        "full_sequence": "MNDQYHRAARDGYLELLKEATRKELNAPDEDGMTPTLWAAYHGNLESLRLIVSRGGDPDKCDIWGNTPLHLAASNGHLHCLSFLVSFGANIWCLDNDYHTPLDMAAMKGHMECVRYLDSIAAKQSSLNPKLVGKLKDKAFREAERRIRECAKLQRRHHERMERRYRRELAERSDTLSFSSLTSSTLSRRLQHLALGSHLPYSQATLHGTARGKTKMQKKLERRKQGGEGTFKVSEDGRKSARSLSGLQLGSDVMFVRQGTYANPKEWGRAPLRDMFLSDEDSVSRATLAAEPAHSEVSTDSGHDSLFTRPGLGTMVFRRNYLSSGLHGLGREDGGLDGVGAPRGRLQSSPSLDDDSLGSANSLQDRSCGEELPWDELDLGLDEDLEPETSPLETFLASLHMEDFAALLRQEKIDLEALMLCSDLDLRSISVPLGPRKKILGAVRRRRQAMERPPALEDTEL",
+        "n_residues": 461,
+        "mutation_pos_1indexed": 188,
+        "wt_aa": "R",
+        "mut_aa": "L",
+        "pocket_lining_residues": "T185-L186-S187-R188-R189",
+        "pocket_lining_positions_precursor": [
+          185,
+          186,
+          187,
+          188,
+          189
+        ],
+        "pocket_lining_1letter": "TLSRR",
+        "sequence_slice_around_pocket": "FSSLTSSTLSRRLQHLALGS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/USH1G_R188L/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "T185",
+          "L186",
+          "S187",
+          "R188",
+          "R189"
+        ],
+        "values": [
+          [
+            0.0,
+            3.906,
+            6.265,
+            9.886,
+            13.108
+          ],
+          [
+            3.906,
+            0.0,
+            3.368,
+            6.541,
+            9.602
+          ],
+          [
+            6.265,
+            3.368,
+            0.0,
+            3.756,
+            7.294
+          ],
+          [
+            9.886,
+            6.541,
+            3.756,
+            0.0,
+            3.662
+          ],
+          [
+            13.108,
+            9.602,
+            7.294,
+            3.662,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)c1ccc(OC)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.5607927897992337,
+        "mw": 359.22,
+        "logp": 2.079,
+        "hbd": 1,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.7849,
+        "sa_score": 3.21,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "USH1G-R188L Candidate #1",
+        "iupac_name": "CNCC(=O)c1ccc(OC)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5608,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/USH1G_R188L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/USH1G_R188L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/USH1G_R188L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/USH1G_R188L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/USH1G_R188L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-USH1G-R188L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-USH1G-R188L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:56:03.231324+00:00"
     }
   ]
 }
