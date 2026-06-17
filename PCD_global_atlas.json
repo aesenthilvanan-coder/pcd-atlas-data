@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 56,
+  "total_entries": 57,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44438,
-    "queue_remaining": 134159
+    "total_processed": 44439,
+    "queue_remaining": 134158
   },
   "entries": [
     {
@@ -12848,6 +12848,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:19:34.044391+00:00"
+    },
+    {
+      "entry_id": "PCD-PHYH-R201G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PHYH-R201G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PHYH",
+        "uniprot": "",
+        "clinvar_id": "299251",
+        "disease": "Phytanic acid storage disease",
+        "mutation_precursor": "R201G",
+        "mutation_mature": "R201G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8297639468961695,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 360.90738354643634,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.973634719848633,
+          -13.150843620300293,
+          6.293476104736328
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.922657539460906,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7229322283567061,
+        "cryptic": true,
+        "pocket_residues": {
+          "R201": "R",
+          "V207": "V",
+          "R245": "R",
+          "V246": "V",
+          "H247": "H"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O14832|PHYH variant R201G",
+        "fasta_sequence": "MEQLRAAARLQIVLGHLGRPSAGAVVAHPTSGTISSASFHPQQFQYTLDNNVLTLEQRKFYEENGFLVIKNLVPDADIQRFRNEFEKICRKEVKPLGLTVMRDVTISKSEYAPSEKMITKVQDFQEDKELFRYCTLPEILKYVECFTGPNIMAMHTMLINKPPDSGKKTSRHPLHQDLHYFPFRPSDLIVCAWTAMEHISRNNGCLVVLPGTHKGSLKPHDYPKWEGGVNKMFHGIQDYEENKARVHLVMEKGDTVFFHPLLIHGSGQNKTQGFRKAISCHFASADCHYIDVKGTSQENIEKEVVGIAHKFFGAENSVNLKDIWMFRARLVKGERTNL",
+        "full_sequence": "MEQLRAAARLQIVLGHLGRPSAGAVVAHPTSGTISSASFHPQQFQYTLDNNVLTLEQRKFYEENGFLVIKNLVPDADIQRFRNEFEKICRKEVKPLGLTVMRDVTISKSEYAPSEKMITKVQDFQEDKELFRYCTLPEILKYVECFTGPNIMAMHTMLINKPPDSGKKTSRHPLHQDLHYFPFRPSDLIVCAWTAMEHISRNNGCLVVLPGTHKGSLKPHDYPKWEGGVNKMFHGIQDYEENKARVHLVMEKGDTVFFHPLLIHGSGQNKTQGFRKAISCHFASADCHYIDVKGTSQENIEKEVVGIAHKFFGAENSVNLKDIWMFRARLVKGERTNL",
+        "n_residues": 338,
+        "mutation_pos_1indexed": 201,
+        "wt_aa": "R",
+        "mut_aa": "G",
+        "pocket_lining_residues": "R201-V207-R245-V246-H247",
+        "pocket_lining_positions_precursor": [
+          201,
+          207,
+          245,
+          246,
+          247
+        ],
+        "pocket_lining_1letter": "RVRVH",
+        "sequence_slice_around_pocket": "CAWTAMEHISRNNGCLVVLP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PHYH_R201G/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "R201",
+          "V207",
+          "R245",
+          "V246",
+          "H247"
+        ],
+        "values": [
+          [
+            0.0,
+            8.967,
+            12.247,
+            10.559,
+            6.938
+          ],
+          [
+            8.967,
+            0.0,
+            6.436,
+            5.676,
+            4.613
+          ],
+          [
+            12.247,
+            6.436,
+            0.0,
+            3.822,
+            6.568
+          ],
+          [
+            10.559,
+            5.676,
+            3.822,
+            0.0,
+            3.828
+          ],
+          [
+            6.938,
+            4.613,
+            6.568,
+            3.828,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.5611096674022406,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PHYH-R201G Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5611,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PHYH_R201G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PHYH_R201G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PHYH_R201G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PHYH_R201G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PHYH_R201G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PHYH-R201G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PHYH-R201G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:19:53.956856+00:00"
     }
   ]
 }
