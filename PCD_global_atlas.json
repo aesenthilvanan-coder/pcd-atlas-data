@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 987,
+  "total_entries": 988,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45534,
-    "queue_remaining": 133063
+    "total_processed": 45535,
+    "queue_remaining": 133062
   },
   "entries": [
     {
@@ -217099,6 +217099,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T17:02:07.398777+00:00"
+    },
+    {
+      "entry_id": "PCD-FA2H-E78K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FA2H-E78K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FA2H",
+        "uniprot": "",
+        "clinvar_id": "320501",
+        "disease": "Hereditary spastic paraplegia 35",
+        "mutation_precursor": "E78K",
+        "mutation_mature": "E78K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7902305507843832,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 294.78048420555916,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          15.981021881103516,
+          2.5510897636413574,
+          -18.557825088500977
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.322617152294129,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.82757010283802,
+        "cryptic": true,
+        "pocket_residues": {
+          "R75": "R",
+          "E78": "E",
+          "Q79": "Q",
+          "K115": "K",
+          "V116": "V",
+          "V117": "V",
+          "D118": "D",
+          "W119": "W"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q7L5A8|FA2H variant E78K",
+        "fasta_sequence": "MAPAPPPAASFSPSEVQRRLAAGACWVRRGARLYDLSSFVRHHPGGEQLLRARAGQDISADLDGPPHRHSANARRWLEQYYVGELRGEQQGSMENEPVALEETQKTDPAMEPRFKVVDWDKDLVDWRKPLLWQVGHLGEKYDEWVHQPVTRPIRLFHSDLIEGLSKTVWYSVPIIWVPLVLYLSWSYYRTFAQGNVRLFTSFTTEYTVAVPKSMFPGLFMLGTFLWSLIEYLIHRFLFHMKPPSDSYYLIMLHFVMHGQHHKAPFDGSRLVFPPVPASLVIGVFYLCMQLILPEAVGGTVFAGGLLGYVLYDMTHYYLHFGSPHKGSYLYSLKAHHVKHHFAHQKSGFGISTKLWDYCFHTLTPEKPHLKTQ",
+        "full_sequence": "MAPAPPPAASFSPSEVQRRLAAGACWVRRGARLYDLSSFVRHHPGGEQLLRARAGQDISADLDGPPHRHSANARRWLEQYYVGELRGEQQGSMENEPVALEETQKTDPAMEPRFKVVDWDKDLVDWRKPLLWQVGHLGEKYDEWVHQPVTRPIRLFHSDLIEGLSKTVWYSVPIIWVPLVLYLSWSYYRTFAQGNVRLFTSFTTEYTVAVPKSMFPGLFMLGTFLWSLIEYLIHRFLFHMKPPSDSYYLIMLHFVMHGQHHKAPFDGSRLVFPPVPASLVIGVFYLCMQLILPEAVGGTVFAGGLLGYVLYDMTHYYLHFGSPHKGSYLYSLKAHHVKHHFAHQKSGFGISTKLWDYCFHTLTPEKPHLKTQ",
+        "n_residues": 372,
+        "mutation_pos_1indexed": 78,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "R75-E78-Q79-K115-V116-V117-D118-W119",
+        "pocket_lining_positions_precursor": [
+          75,
+          78,
+          79,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "pocket_lining_1letter": "REQKVVDW",
+        "sequence_slice_around_pocket": "RHSANARRWLEQYYVGELRG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FA2H_E78K/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "R75",
+          "E78",
+          "Q79",
+          "K115",
+          "V116",
+          "V117",
+          "D118",
+          "W119"
+        ],
+        "values": [
+          [
+            0.0,
+            5.288,
+            7.208,
+            9.575,
+            9.573,
+            8.292,
+            11.856,
+            12.525
+          ],
+          [
+            5.288,
+            0.0,
+            3.864,
+            8.388,
+            6.872,
+            7.187,
+            10.935,
+            12.16
+          ],
+          [
+            7.208,
+            3.864,
+            0.0,
+            10.914,
+            8.314,
+            7.55,
+            10.822,
+            10.952
+          ],
+          [
+            9.575,
+            8.388,
+            10.914,
+            0.0,
+            3.808,
+            5.867,
+            7.646,
+            10.988
+          ],
+          [
+            9.573,
+            6.872,
+            8.314,
+            3.808,
+            0.0,
+            3.819,
+            5.952,
+            8.948
+          ],
+          [
+            8.292,
+            7.187,
+            7.55,
+            5.867,
+            3.819,
+            0.0,
+            3.822,
+            5.773
+          ],
+          [
+            11.856,
+            10.935,
+            10.822,
+            7.646,
+            5.952,
+            3.822,
+            0.0,
+            3.818
+          ],
+          [
+            12.525,
+            12.16,
+            10.952,
+            10.988,
+            8.948,
+            5.773,
+            3.818,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)CCCc1c[nH]c2ccccc12",
+        "composite_score": 0.8515761395878984,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.09,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FA2H-E78K Candidate #1",
+        "iupac_name": "NCC(=O)CCCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8516,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FA2H_E78K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FA2H_E78K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FA2H_E78K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FA2H_E78K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FA2H_E78K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FA2H-E78K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FA2H-E78K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T17:02:29.722519+00:00"
     }
   ]
 }
