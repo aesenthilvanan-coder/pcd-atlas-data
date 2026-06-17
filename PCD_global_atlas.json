@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 307,
+  "total_entries": 308,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44751,
-    "queue_remaining": 133846
+    "total_processed": 44752,
+    "queue_remaining": 133845
   },
   "entries": [
     {
@@ -66927,6 +66927,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:37:13.187136+00:00"
+    },
+    {
+      "entry_id": "PCD-ACADSB-K396T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACADSB-K396T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ACADSB",
+        "uniprot": "",
+        "clinvar_id": "299087",
+        "disease": "Deficiency of 2-methylbutyryl-CoA dehydrogenase",
+        "mutation_precursor": "K396T",
+        "mutation_mature": "K396T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7967524328871338,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 555.3385864383098,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.012171745300293,
+          8.072965621948242,
+          23.25058364868164
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.520335943485531,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8250547429239538,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y394": "Y",
+          "T395": "T",
+          "K396": "K",
+          "D397": "D",
+          "Y398": "Y"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P45954|ACADSB variant K396T",
+        "fasta_sequence": "MEGLAVRLLRGSRLLRRNFLTCLSSWKIPPHVSKSSQSEALLNITNNGIHFAPLQTFTDEEMMIKSSVKKFAQEQIAPLVSTMDENSKMEKSVIQGLFQQGLMGIEVDPEYGGTGASFLSTVLVIEELAKVDASVAVFCEIQNTLINTLIRKHGTEEQKATYLPQLTTEKVGSFCLSEAGAGSDSFALKTRADKEGDYYVLNGSKMWISSAEHAGLFLVMANVDPTIGYKGITSFLVDRDTPGLHIGKPENKLGLRASSTCPLTFENVKVPEANILGQIGHGYKYAIGSLNEGRIGIAAQMLGLAQGCFDYTIPYIKERIQFGKRLFDFQGLQHQVAHVATQLEAARLLTYNAARLLEAGKPFIKEASMAKYYASEIAGQTTSKCIEWMGGVGYTKDYPVEKYFRDAKIGTIYEGASNIQLNTIAKHIDAEY",
+        "full_sequence": "MEGLAVRLLRGSRLLRRNFLTCLSSWKIPPHVSKSSQSEALLNITNNGIHFAPLQTFTDEEMMIKSSVKKFAQEQIAPLVSTMDENSKMEKSVIQGLFQQGLMGIEVDPEYGGTGASFLSTVLVIEELAKVDASVAVFCEIQNTLINTLIRKHGTEEQKATYLPQLTTEKVGSFCLSEAGAGSDSFALKTRADKEGDYYVLNGSKMWISSAEHAGLFLVMANVDPTIGYKGITSFLVDRDTPGLHIGKPENKLGLRASSTCPLTFENVKVPEANILGQIGHGYKYAIGSLNEGRIGIAAQMLGLAQGCFDYTIPYIKERIQFGKRLFDFQGLQHQVAHVATQLEAARLLTYNAARLLEAGKPFIKEASMAKYYASEIAGQTTSKCIEWMGGVGYTKDYPVEKYFRDAKIGTIYEGASNIQLNTIAKHIDAEY",
+        "n_residues": 432,
+        "mutation_pos_1indexed": 396,
+        "wt_aa": "K",
+        "mut_aa": "T",
+        "pocket_lining_residues": "Y394-T395-K396-D397-Y398",
+        "pocket_lining_positions_precursor": [
+          394,
+          395,
+          396,
+          397,
+          398
+        ],
+        "pocket_lining_1letter": "YTKDY",
+        "sequence_slice_around_pocket": "IEWMGGVGYTKDYPVEKYFR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ACADSB_K396T/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "Y394",
+          "T395",
+          "K396",
+          "D397",
+          "Y398"
+        ],
+        "values": [
+          [
+            0.0,
+            3.87,
+            6.831,
+            8.768,
+            7.848
+          ],
+          [
+            3.87,
+            0.0,
+            3.836,
+            5.437,
+            6.091
+          ],
+          [
+            6.831,
+            3.836,
+            0.0,
+            3.842,
+            5.225
+          ],
+          [
+            8.768,
+            5.437,
+            3.842,
+            0.0,
+            3.858
+          ],
+          [
+            7.848,
+            6.091,
+            5.225,
+            3.858,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)c(C(OC)C(=O)NC2CC(=O)CC2N2CCCCC2)c1",
+        "composite_score": 0.7104054995938099,
+        "mw": 389.23,
+        "logp": 2.127,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.7437,
+        "sa_score": 3.71,
+        "n_heavy_atoms": 28,
+        "tpsa": 79.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ACADSB-K396T Candidate #1",
+        "iupac_name": "CNc1ccc(OC)c(C(OC)C(=O)NC2CC(=O)CC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.7104,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ACADSB_K396T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ACADSB_K396T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ACADSB_K396T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACADSB_K396T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACADSB_K396T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACADSB-K396T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACADSB-K396T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:37:34.051571+00:00"
     }
   ]
 }
