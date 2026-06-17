@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1298,
+  "total_entries": 1299,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45914,
-    "queue_remaining": 132683
+    "total_processed": 45915,
+    "queue_remaining": 132682
   },
   "entries": [
     {
@@ -287335,6 +287335,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:59:59.654835+00:00"
+    },
+    {
+      "entry_id": "PCD-NOD2-E887K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NOD2-E887K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NOD2",
+        "uniprot": "",
+        "clinvar_id": "319473",
+        "disease": "Blau syndrome",
+        "mutation_precursor": "E887K",
+        "mutation_mature": "E887K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9431661929670431,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 539.6602651907747,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -7.758676528930664,
+          6.813003063201904,
+          24.687149047851562
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.630030562751241,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8532654626986602,
+        "cryptic": true,
+        "pocket_residues": {
+          "T856": "T",
+          "D857": "D",
+          "Y882": "Y",
+          "I883": "I",
+          "T884": "T",
+          "A885": "A",
+          "A886": "A",
+          "G887": "G",
+          "R910": "R"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9HC29|NOD2 variant E887K",
+        "fasta_sequence": "MGEEGGSASHDEEERASVLLGHSPGCEMCSQEAFQAQRSQLVELLVSGSLEGFESVLDWLLSWEVLSWEDYEGFHLLGQPLSHLARRLLDTVWNKGTWACQKLIAAAQEAQADSQSPKLHGCWDPHSLHPARDLQSHRPAIVRRLHSHVENMLDLAWERGFVSQYECDEIRLPIFTPSQRARRLLDLATVKANGLAAFLLQHVQELPVPLALPLEAATCKKYMAKLRTTVSAQSRFLSTYDGAETLCLEDIYTENVLEVWADVGMAGPPQKSPATLGLEELFSTPGHLNDDADTVLVVGEAGSGKSTLLQRLHLLWAAGQDFQEFLFVFPFSCRQLQCMAKPLSVRTLLFEHCCWPDVGQEDIFQLLLDHPDRVLLTFDGFDEFKFRFTDRERHCSPTDPTSVQTLLFNLLQGNLLKNARKVVTSRPAAVSAFLRKYIRTEFNLKGFSEQGIELYLRKRHHEPGVADRLIRLLQETSALHGLCHLPVFSWMVSKCHQELLLQEGGSPKTTTDMYLLILQHFLLHATPPDSASQGLGPSLLRGRLPTLLHLGRLALWGLGMCCYVFSAQQLQAAQVSPDDISLGFLVRAKGVVPGSTAPLEFLHITFQCFFAAFYLALSADVPPALLRHLFNCGRPGNSPMARLLPTMCIQASEGKDSSVAALLQKAEPHNLQITAAFLAGLLSREHWGLLAECQTSEKALLRRQACARWCLARSLRKHFHSIPPAAPGEAKSVHAMPGFIWLIRSLYEMQEERLARKAARGLNVGHLKLTFCSVGPTECAALAFVLQHLRRPVALQLDYNSVGDIGVEQLLPCLGVCKALYLRDNNISDRGICKLIECALHCEQLQKLALFNNKLTDGCAHSMAKLLACRQNFLALRLGNNYITAAGAQVLAEGLRGNTSLQFLGFWGNRVGDEGAQALAEALGDHQSLRWLSLVGNNIGSVGAQALALMLAKNVMLEELCLEENHLQDEGVCSLAEGLKKNSSLKILKLSNNCITYLGAEALLQALERNDTILEVWLRGNTFSLEEVDKLGCRDTRLLL",
+        "full_sequence": "MGEEGGSASHDEEERASVLLGHSPGCEMCSQEAFQAQRSQLVELLVSGSLEGFESVLDWLLSWEVLSWEDYEGFHLLGQPLSHLARRLLDTVWNKGTWACQKLIAAAQEAQADSQSPKLHGCWDPHSLHPARDLQSHRPAIVRRLHSHVENMLDLAWERGFVSQYECDEIRLPIFTPSQRARRLLDLATVKANGLAAFLLQHVQELPVPLALPLEAATCKKYMAKLRTTVSAQSRFLSTYDGAETLCLEDIYTENVLEVWADVGMAGPPQKSPATLGLEELFSTPGHLNDDADTVLVVGEAGSGKSTLLQRLHLLWAAGQDFQEFLFVFPFSCRQLQCMAKPLSVRTLLFEHCCWPDVGQEDIFQLLLDHPDRVLLTFDGFDEFKFRFTDRERHCSPTDPTSVQTLLFNLLQGNLLKNARKVVTSRPAAVSAFLRKYIRTEFNLKGFSEQGIELYLRKRHHEPGVADRLIRLLQETSALHGLCHLPVFSWMVSKCHQELLLQEGGSPKTTTDMYLLILQHFLLHATPPDSASQGLGPSLLRGRLPTLLHLGRLALWGLGMCCYVFSAQQLQAAQVSPDDISLGFLVRAKGVVPGSTAPLEFLHITFQCFFAAFYLALSADVPPALLRHLFNCGRPGNSPMARLLPTMCIQASEGKDSSVAALLQKAEPHNLQITAAFLAGLLSREHWGLLAECQTSEKALLRRQACARWCLARSLRKHFHSIPPAAPGEAKSVHAMPGFIWLIRSLYEMQEERLARKAARGLNVGHLKLTFCSVGPTECAALAFVLQHLRRPVALQLDYNSVGDIGVEQLLPCLGVCKALYLRDNNISDRGICKLIECALHCEQLQKLALFNNKLTDGCAHSMAKLLACRQNFLALRLGNNYITAAGAQVLAEGLRGNTSLQFLGFWGNRVGDEGAQALAEALGDHQSLRWLSLVGNNIGSVGAQALALMLAKNVMLEELCLEENHLQDEGVCSLAEGLKKNSSLKILKLSNNCITYLGAEALLQALERNDTILEVWLRGNTFSLEEVDKLGCRDTRLLL",
+        "n_residues": 1040,
+        "mutation_pos_1indexed": 887,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "T856-D857-Y882-I883-T884-A885-A886-G887-R910",
+        "pocket_lining_positions_precursor": [
+          856,
+          857,
+          882,
+          883,
+          884,
+          885,
+          886,
+          887,
+          910
+        ],
+        "pocket_lining_1letter": "TDYITAAGR",
+        "sequence_slice_around_pocket": "RLGNNYITAAGAQVLAEGLR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_E887K/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "T856",
+          "D857",
+          "Y882",
+          "I883",
+          "T884",
+          "A885",
+          "A886",
+          "G887",
+          "R910"
+        ],
+        "values": [
+          [
+            0.0,
+            3.839,
+            4.66,
+            4.726,
+            7.368,
+            10.614,
+            9.69,
+            7.323,
+            9.911
+          ],
+          [
+            3.839,
+            0.0,
+            7.345,
+            5.243,
+            6.456,
+            8.557,
+            6.566,
+            4.206,
+            10.378
+          ],
+          [
+            4.66,
+            7.345,
+            0.0,
+            3.85,
+            6.332,
+            10.104,
+            10.873,
+            9.155,
+            6.533
+          ],
+          [
+            4.726,
+            5.243,
+            3.85,
+            0.0,
+            3.841,
+            7.072,
+            7.736,
+            5.6,
+            5.835
+          ],
+          [
+            7.368,
+            6.456,
+            6.332,
+            3.841,
+            0.0,
+            3.835,
+            5.355,
+            5.404,
+            4.557
+          ],
+          [
+            10.614,
+            8.557,
+            10.104,
+            7.072,
+            3.835,
+            0.0,
+            3.857,
+            5.642,
+            6.669
+          ],
+          [
+            9.69,
+            6.566,
+            10.873,
+            7.736,
+            5.355,
+            3.857,
+            0.0,
+            3.853,
+            9.597
+          ],
+          [
+            7.323,
+            4.206,
+            9.155,
+            5.6,
+            5.404,
+            5.642,
+            3.853,
+            0.0,
+            9.508
+          ],
+          [
+            9.911,
+            10.378,
+            6.533,
+            5.835,
+            4.557,
+            6.669,
+            9.597,
+            9.508,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CC(=O)CCC1CNCCc1c[nH]c2ccccc12",
+        "composite_score": 0.8885611668635863,
+        "mw": 391.2,
+        "logp": 2.032,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 7,
+        "qed": 0.5348,
+        "sa_score": 3.2,
+        "n_heavy_atoms": 29,
+        "tpsa": 104.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NOD2-E887K Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CC(=O)CCC1CNCCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8886,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_E887K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_E887K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_E887K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_E887K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_E887K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NOD2-E887K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NOD2-E887K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:00:35.063374+00:00"
     }
   ]
 }
