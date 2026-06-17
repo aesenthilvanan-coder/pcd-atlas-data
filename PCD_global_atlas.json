@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 334,
+  "total_entries": 335,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44782,
-    "queue_remaining": 133815
+    "total_processed": 44783,
+    "queue_remaining": 133814
   },
   "entries": [
     {
@@ -72512,6 +72512,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:03:53.111985+00:00"
+    },
+    {
+      "entry_id": "PCD-GALC-G333R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALC-G333R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GALC",
+        "uniprot": "",
+        "clinvar_id": "314753",
+        "disease": "Galactosylceramide beta-galactosidase deficiency",
+        "mutation_precursor": "G333R",
+        "mutation_mature": "G333R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8571059398500559,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 571.5543251738386,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -11.982346534729004,
+          -3.061535358428955,
+          -21.33357048034668
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.20389253406746,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6013408180206283,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q328": "Q",
+          "E329": "E",
+          "P330": "P",
+          "W331": "W",
+          "S332": "S",
+          "G333": "G",
+          "H334": "H",
+          "S483": "S",
+          "Q484": "Q",
+          "P485": "P",
+          "F486": "F"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P54803|GALC variant G333R",
+        "fasta_sequence": "MAEWLLSASWQRRAKAMTAAAGSAGRAAVPLLLCALLAPGGAYVLDDSDGLGREFDGIGAVSGGGATSRLLVNYPEPYRSQILDYLFKPNFGASLHILKVEIGGDGQTTDGTEPSHMHYALDENYFRGYEWWLMKEAKKRNPNITLIGLPWSFPGWLGKGFDWPYVNLQLTAYYVVTWIVGAKRYHDLDIDYIGIWNERSYNANYIKILRKMLNYQGLQRVKIIASDNLWESISASMLLDAELFKVVDVIGAHYPGTHSAKDAKLTGKKLWSSEDFSTLNSDMGAGCWGRILNQNYINGYMTSTIAWNLVASYYEQLPYGRCGLMTAQEPWSGHYVVESPVWVSAHTTQFTQPGWYYLKTVGHLEKGGSYVALTDGLGNLTIIIETMSHKHSKCIRPFLPYFNVSQQFATFVLKGSFSEIPELQVWYTKLGKTSERFLFKQLDSLWLLDSDGSFTLSLHEDELFTLTTLTTGRKGSYPLPPKSQPFPSTYKDDFNVDYPFFSEAPNFADQTGVFEYFTNIEDPGEHHFTLRQVLNQRPITWAADASNTISIIGDYNWTNLTIKCDVYIETPDTGGVFIAGRVNKGGILIRSARGIFFWIFANGSYRVTGDLAGWIIYALGRVEVTAKKWYTLTLTIKGHFTSGMLNDKSLWTDIPVNFPKNGWAAIGTHSFEFAQFDNFLVEATR",
+        "full_sequence": "MAEWLLSASWQRRAKAMTAAAGSAGRAAVPLLLCALLAPGGAYVLDDSDGLGREFDGIGAVSGGGATSRLLVNYPEPYRSQILDYLFKPNFGASLHILKVEIGGDGQTTDGTEPSHMHYALDENYFRGYEWWLMKEAKKRNPNITLIGLPWSFPGWLGKGFDWPYVNLQLTAYYVVTWIVGAKRYHDLDIDYIGIWNERSYNANYIKILRKMLNYQGLQRVKIIASDNLWESISASMLLDAELFKVVDVIGAHYPGTHSAKDAKLTGKKLWSSEDFSTLNSDMGAGCWGRILNQNYINGYMTSTIAWNLVASYYEQLPYGRCGLMTAQEPWSGHYVVESPVWVSAHTTQFTQPGWYYLKTVGHLEKGGSYVALTDGLGNLTIIIETMSHKHSKCIRPFLPYFNVSQQFATFVLKGSFSEIPELQVWYTKLGKTSERFLFKQLDSLWLLDSDGSFTLSLHEDELFTLTTLTTGRKGSYPLPPKSQPFPSTYKDDFNVDYPFFSEAPNFADQTGVFEYFTNIEDPGEHHFTLRQVLNQRPITWAADASNTISIIGDYNWTNLTIKCDVYIETPDTGGVFIAGRVNKGGILIRSARGIFFWIFANGSYRVTGDLAGWIIYALGRVEVTAKKWYTLTLTIKGHFTSGMLNDKSLWTDIPVNFPKNGWAAIGTHSFEFAQFDNFLVEATR",
+        "n_residues": 685,
+        "mutation_pos_1indexed": 333,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "Q328-E329-P330-W331-S332-G333-H334-S483-Q484-P485-F486",
+        "pocket_lining_positions_precursor": [
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          483,
+          484,
+          485,
+          486
+        ],
+        "pocket_lining_1letter": "QEPWSGHSQPF",
+        "sequence_slice_around_pocket": "GLMTAQEPWSGHYVVESPVW"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_G333R/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "Q328",
+          "E329",
+          "P330",
+          "W331",
+          "S332",
+          "G333",
+          "H334",
+          "S483",
+          "Q484",
+          "P485",
+          "F486"
+        ],
+        "values": [
+          [
+            0.0,
+            3.885,
+            6.408,
+            8.99,
+            9.321,
+            8.834,
+            7.811,
+            9.61,
+            10.509,
+            10.667,
+            10.225
+          ],
+          [
+            3.885,
+            0.0,
+            3.873,
+            5.397,
+            5.549,
+            5.99,
+            5.775,
+            7.348,
+            7.51,
+            8.126,
+            7.607
+          ],
+          [
+            6.408,
+            3.873,
+            0.0,
+            3.864,
+            5.529,
+            5.001,
+            7.12,
+            10.061,
+            9.873,
+            10.64,
+            9.15
+          ],
+          [
+            8.99,
+            5.397,
+            3.864,
+            0.0,
+            3.871,
+            5.909,
+            8.198,
+            9.498,
+            7.999,
+            8.536,
+            6.788
+          ],
+          [
+            9.321,
+            5.549,
+            5.529,
+            3.871,
+            0.0,
+            3.847,
+            5.326,
+            6.418,
+            5.788,
+            8.031,
+            8.09
+          ],
+          [
+            8.834,
+            5.99,
+            5.001,
+            5.909,
+            3.847,
+            0.0,
+            3.855,
+            7.912,
+            8.881,
+            11.344,
+            11.318
+          ],
+          [
+            7.811,
+            5.775,
+            7.12,
+            8.198,
+            5.326,
+            3.855,
+            0.0,
+            5.213,
+            7.659,
+            10.509,
+            11.562
+          ],
+          [
+            9.61,
+            7.348,
+            10.061,
+            9.498,
+            6.418,
+            7.912,
+            5.213,
+            0.0,
+            3.824,
+            7.08,
+            9.67
+          ],
+          [
+            10.509,
+            7.51,
+            9.873,
+            7.999,
+            5.788,
+            8.881,
+            7.659,
+            3.824,
+            0.0,
+            3.836,
+            6.579
+          ],
+          [
+            10.667,
+            8.126,
+            10.64,
+            8.536,
+            8.031,
+            11.344,
+            10.509,
+            7.08,
+            3.836,
+            0.0,
+            3.795
+          ],
+          [
+            10.225,
+            7.607,
+            9.15,
+            6.788,
+            8.09,
+            11.318,
+            11.562,
+            9.67,
+            6.579,
+            3.795,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7412481216132735,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GALC-G333R Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7412,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_G333R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_G333R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_G333R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_G333R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_G333R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALC-G333R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALC-G333R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:04:18.736263+00:00"
     }
   ]
 }
