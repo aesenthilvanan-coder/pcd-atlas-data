@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1203,
+  "total_entries": 1204,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45801,
-    "queue_remaining": 132796
+    "total_processed": 45802,
+    "queue_remaining": 132795
   },
   "entries": [
     {
@@ -265694,6 +265694,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:33:25.263018+00:00"
+    },
+    {
+      "entry_id": "PCD-AFG3L2-Q33P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AFG3L2-Q33P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AFG3L2",
+        "uniprot": "",
+        "clinvar_id": "326114",
+        "disease": "not provided",
+        "mutation_precursor": "Q33P",
+        "mutation_mature": "Q33P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8262378128174647,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 574.9273743013666,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          33.399139404296875,
+          -2.014292001724243,
+          30.847929000854492
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.229287969242073,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8707825228861229,
+        "cryptic": true,
+        "pocket_residues": {
+          "P30": "P",
+          "G31": "G",
+          "E32": "E",
+          "Q33": "Q",
+          "P34": "P",
+          "C35": "C",
+          "L36": "L",
+          "R37": "R",
+          "T38": "T"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y4W6|AFG3L2 variant Q33P",
+        "fasta_sequence": "MAHRCLRLWGRGGCWPRGLQQLLVPGGVGPGEQPCLRTLYRFVTTQARASRNSLLTDIIAAYQRFCSRPPKGFEKYFPNGKNGKKASEPKEVMGEKKESKPAATTRSSGGGGGGGGKRGGKKDDSHWWSRFQKGDIPWDDKDFRMFFLWTALFWGGVMFYLLLKRSGREITWKDFVNNYLSKGVVDRLEVVNKRFVRVTFTPGKTPVDGQYVWFNIGSVDTFERNLETLQQELGIEGENRVPVVYIAESDGSFLLSMLPTVLIIAFLLYTIRRGPAGIGRTGRGMGGLFSVGETTAKVLKDEIDVKFKDVAGCEEAKLEIMEFVNFLKNPKQYQDLGAKIPKGAILTGPPGTGKTLLAKATAGEANVPFITVSGSEFLEMFVGVGPARVRDLFALARKNAPCILFIDEIDAVGRKRGRGNFGGQSEQENTLNQLLVEMDGFNTTTNVVILAGTNRPDILDPALLRPGRFDRQIFIGPPDIKGRASIFKVHLRPLKLDSTLEKDKLARKLASLTPGFSGADVANVCNEAALIAARHLSDSINQKHFEQAIERVIGGLEKKTQVLQPEEKKTVAYHEAGHAVAGWYLEHADPLLKVSIIPRGKGLGYAQYLPKEQYLYTKEQLLDRMCMTLGGRVSEEIFFGRITTGAQDDLRKVTQSAYAQIVQFGMNEKVGQISFDLPRQGDMVLEKPYSEATARLIDDEVRILINDAYKRTVALLTEKKADVEKVALLLLEKEVLDKNDMVELLGPRPFAEKSTYEEFVEGTGSLDEDTSLPEGLKDWNKEREKEKEEPPGEKVAN",
+        "full_sequence": "MAHRCLRLWGRGGCWPRGLQQLLVPGGVGPGEQPCLRTLYRFVTTQARASRNSLLTDIIAAYQRFCSRPPKGFEKYFPNGKNGKKASEPKEVMGEKKESKPAATTRSSGGGGGGGGKRGGKKDDSHWWSRFQKGDIPWDDKDFRMFFLWTALFWGGVMFYLLLKRSGREITWKDFVNNYLSKGVVDRLEVVNKRFVRVTFTPGKTPVDGQYVWFNIGSVDTFERNLETLQQELGIEGENRVPVVYIAESDGSFLLSMLPTVLIIAFLLYTIRRGPAGIGRTGRGMGGLFSVGETTAKVLKDEIDVKFKDVAGCEEAKLEIMEFVNFLKNPKQYQDLGAKIPKGAILTGPPGTGKTLLAKATAGEANVPFITVSGSEFLEMFVGVGPARVRDLFALARKNAPCILFIDEIDAVGRKRGRGNFGGQSEQENTLNQLLVEMDGFNTTTNVVILAGTNRPDILDPALLRPGRFDRQIFIGPPDIKGRASIFKVHLRPLKLDSTLEKDKLARKLASLTPGFSGADVANVCNEAALIAARHLSDSINQKHFEQAIERVIGGLEKKTQVLQPEEKKTVAYHEAGHAVAGWYLEHADPLLKVSIIPRGKGLGYAQYLPKEQYLYTKEQLLDRMCMTLGGRVSEEIFFGRITTGAQDDLRKVTQSAYAQIVQFGMNEKVGQISFDLPRQGDMVLEKPYSEATARLIDDEVRILINDAYKRTVALLTEKKADVEKVALLLLEKEVLDKNDMVELLGPRPFAEKSTYEEFVEGTGSLDEDTSLPEGLKDWNKEREKEKEEPPGEKVAN",
+        "n_residues": 797,
+        "mutation_pos_1indexed": 33,
+        "wt_aa": "Q",
+        "mut_aa": "P",
+        "pocket_lining_residues": "P30-G31-E32-Q33-P34-C35-L36-R37-T38",
+        "pocket_lining_positions_precursor": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "pocket_lining_1letter": "PGEQPCLRT",
+        "sequence_slice_around_pocket": "LVPGGVGPGEQPCLRTLYRF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_Q33P/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "P30",
+          "G31",
+          "E32",
+          "Q33",
+          "P34",
+          "C35",
+          "L36",
+          "R37",
+          "T38"
+        ],
+        "values": [
+          [
+            0.0,
+            3.858,
+            7.202,
+            9.532,
+            12.025,
+            15.658,
+            17.741,
+            16.841,
+            17.063
+          ],
+          [
+            3.858,
+            0.0,
+            3.802,
+            7.029,
+            9.337,
+            12.743,
+            15.384,
+            15.034,
+            14.828
+          ],
+          [
+            7.202,
+            3.802,
+            0.0,
+            3.742,
+            5.934,
+            9.041,
+            11.875,
+            12.048,
+            11.873
+          ],
+          [
+            9.532,
+            7.029,
+            3.742,
+            0.0,
+            3.893,
+            6.584,
+            8.694,
+            9.166,
+            9.932
+          ],
+          [
+            12.025,
+            9.337,
+            5.934,
+            3.893,
+            0.0,
+            3.872,
+            6.354,
+            6.444,
+            6.225
+          ],
+          [
+            15.658,
+            12.743,
+            9.041,
+            6.584,
+            3.872,
+            0.0,
+            3.873,
+            6.049,
+            5.912
+          ],
+          [
+            17.741,
+            15.384,
+            11.875,
+            8.694,
+            6.354,
+            3.873,
+            0.0,
+            3.892,
+            5.756
+          ],
+          [
+            16.841,
+            15.034,
+            12.048,
+            9.166,
+            6.444,
+            6.049,
+            3.892,
+            0.0,
+            3.86
+          ],
+          [
+            17.063,
+            14.828,
+            11.873,
+            9.932,
+            6.225,
+            5.912,
+            5.756,
+            3.86,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(N)cc1CC(=O)NC(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.7251690223785445,
+        "mw": 368.18,
+        "logp": 2.162,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.7851,
+        "sa_score": 2.35,
+        "n_heavy_atoms": 27,
+        "tpsa": 97.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AFG3L2-Q33P Candidate #1",
+        "iupac_name": "COc1ccc(N)cc1CC(=O)NC(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.7252,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_Q33P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_Q33P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_Q33P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_Q33P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_Q33P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AFG3L2-Q33P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AFG3L2-Q33P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:33:53.825413+00:00"
     }
   ]
 }
