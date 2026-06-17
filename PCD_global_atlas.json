@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 335,
+  "total_entries": 336,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44783,
-    "queue_remaining": 133814
+    "total_processed": 44784,
+    "queue_remaining": 133813
   },
   "entries": [
     {
@@ -72786,6 +72786,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:04:18.736263+00:00"
+    },
+    {
+      "entry_id": "PCD-GALC-A14G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALC-A14G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GALC",
+        "uniprot": "",
+        "clinvar_id": "314763",
+        "disease": "Galactosylceramide beta-galactosidase deficiency",
+        "mutation_precursor": "A14G",
+        "mutation_mature": "A14G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8341107833467106,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 574.6229327791025,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.736708164215088,
+          -33.75544738769531,
+          3.206117868423462
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.780322093211649,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8875234169335504,
+        "cryptic": true,
+        "pocket_residues": {
+          "W10": "W",
+          "Q11": "Q",
+          "R12": "R",
+          "R13": "R",
+          "A14": "A",
+          "K15": "K"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P54803|GALC variant A14G",
+        "fasta_sequence": "MAEWLLSASWQRRAKAMTAAAGSAGRAAVPLLLCALLAPGGAYVLDDSDGLGREFDGIGAVSGGGATSRLLVNYPEPYRSQILDYLFKPNFGASLHILKVEIGGDGQTTDGTEPSHMHYALDENYFRGYEWWLMKEAKKRNPNITLIGLPWSFPGWLGKGFDWPYVNLQLTAYYVVTWIVGAKRYHDLDIDYIGIWNERSYNANYIKILRKMLNYQGLQRVKIIASDNLWESISASMLLDAELFKVVDVIGAHYPGTHSAKDAKLTGKKLWSSEDFSTLNSDMGAGCWGRILNQNYINGYMTSTIAWNLVASYYEQLPYGRCGLMTAQEPWSGHYVVESPVWVSAHTTQFTQPGWYYLKTVGHLEKGGSYVALTDGLGNLTIIIETMSHKHSKCIRPFLPYFNVSQQFATFVLKGSFSEIPELQVWYTKLGKTSERFLFKQLDSLWLLDSDGSFTLSLHEDELFTLTTLTTGRKGSYPLPPKSQPFPSTYKDDFNVDYPFFSEAPNFADQTGVFEYFTNIEDPGEHHFTLRQVLNQRPITWAADASNTISIIGDYNWTNLTIKCDVYIETPDTGGVFIAGRVNKGGILIRSARGIFFWIFANGSYRVTGDLAGWIIYALGRVEVTAKKWYTLTLTIKGHFTSGMLNDKSLWTDIPVNFPKNGWAAIGTHSFEFAQFDNFLVEATR",
+        "full_sequence": "MAEWLLSASWQRRAKAMTAAAGSAGRAAVPLLLCALLAPGGAYVLDDSDGLGREFDGIGAVSGGGATSRLLVNYPEPYRSQILDYLFKPNFGASLHILKVEIGGDGQTTDGTEPSHMHYALDENYFRGYEWWLMKEAKKRNPNITLIGLPWSFPGWLGKGFDWPYVNLQLTAYYVVTWIVGAKRYHDLDIDYIGIWNERSYNANYIKILRKMLNYQGLQRVKIIASDNLWESISASMLLDAELFKVVDVIGAHYPGTHSAKDAKLTGKKLWSSEDFSTLNSDMGAGCWGRILNQNYINGYMTSTIAWNLVASYYEQLPYGRCGLMTAQEPWSGHYVVESPVWVSAHTTQFTQPGWYYLKTVGHLEKGGSYVALTDGLGNLTIIIETMSHKHSKCIRPFLPYFNVSQQFATFVLKGSFSEIPELQVWYTKLGKTSERFLFKQLDSLWLLDSDGSFTLSLHEDELFTLTTLTTGRKGSYPLPPKSQPFPSTYKDDFNVDYPFFSEAPNFADQTGVFEYFTNIEDPGEHHFTLRQVLNQRPITWAADASNTISIIGDYNWTNLTIKCDVYIETPDTGGVFIAGRVNKGGILIRSARGIFFWIFANGSYRVTGDLAGWIIYALGRVEVTAKKWYTLTLTIKGHFTSGMLNDKSLWTDIPVNFPKNGWAAIGTHSFEFAQFDNFLVEATR",
+        "n_residues": 685,
+        "mutation_pos_1indexed": 14,
+        "wt_aa": "A",
+        "mut_aa": "G",
+        "pocket_lining_residues": "W10-Q11-R12-R13-A14-K15",
+        "pocket_lining_positions_precursor": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "pocket_lining_1letter": "WQRRAK",
+        "sequence_slice_around_pocket": "WLLSASWQRRAKAMTAAAGS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_A14G/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "W10",
+          "Q11",
+          "R12",
+          "R13",
+          "A14",
+          "K15"
+        ],
+        "values": [
+          [
+            0.0,
+            3.826,
+            7.2,
+            9.603,
+            12.009,
+            15.809
+          ],
+          [
+            3.826,
+            0.0,
+            3.917,
+            6.672,
+            9.495,
+            13.247
+          ],
+          [
+            7.2,
+            3.917,
+            0.0,
+            3.225,
+            6.823,
+            10.254
+          ],
+          [
+            9.603,
+            6.672,
+            3.225,
+            0.0,
+            3.848,
+            7.075
+          ],
+          [
+            12.009,
+            9.495,
+            6.823,
+            3.848,
+            0.0,
+            3.821
+          ],
+          [
+            15.809,
+            13.247,
+            10.254,
+            7.075,
+            3.821,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)C(O)Cc1ccc(O)cc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.5233345678294415,
+        "mw": 375.25,
+        "logp": 2.016,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.6755,
+        "sa_score": 3.6,
+        "n_heavy_atoms": 27,
+        "tpsa": 90.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GALC-A14G Candidate #1",
+        "iupac_name": "NCCC(=O)C(O)Cc1ccc(O)cc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5233,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_A14G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_A14G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_A14G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_A14G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_A14G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALC-A14G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALC-A14G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:04:44.422018+00:00"
     }
   ]
 }
