@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 583,
+  "total_entries": 584,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45058,
-    "queue_remaining": 133539
+    "total_processed": 45059,
+    "queue_remaining": 133538
   },
   "entries": [
     {
@@ -129197,6 +129197,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:22:39.515957+00:00"
+    },
+    {
+      "entry_id": "PCD-WT1-S232T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-WT1-S232T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "WT1",
+        "uniprot": "",
+        "clinvar_id": "304422",
+        "disease": "Meacham syndrome",
+        "mutation_precursor": "S232T",
+        "mutation_mature": "S232T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7424760019034543,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 340.68421911841307,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.910776138305664,
+          16.038623809814453,
+          -21.4505558013916
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.941404325497889,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8382476984630106,
+        "cryptic": true,
+        "pocket_residues": {
+          "M229": "M",
+          "T230": "T",
+          "S231": "S",
+          "Q232": "Q",
+          "L233": "L"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P19544|WT1 variant S232T",
+        "fasta_sequence": "MGSDVRDLNALLPAVPSLGGGGGCALPVSGAAQWAPVLDFAPPGASAYGSLGGPAPPPAPPPPPPPPPHSFIKQEPSWGGAEPHEEQCLSAFTVHFSGQFTGTAGACRYGPFGPPPPSQASSGQARMFPNAPYLPSCLESQPAIRNQGYSTVTFDGTPSYGHTPSHHAAQFPNHSFKHEDPMGQQGSLGEQQYSVPPPVYGCHTPTDSCTGSQALLLRTPYSSDNLYQMTSQLECMTWNQMNLGATLKGVAAGSSSSVKWTEGQSNHSTGYESDNHTTPILCGAQYRIHTHGVFRGIQDVRRVPGVAPTLVRSASETSEKRPFMCAYPGCNKRYFKLSHLQMHSRKHTGEKPYQCDFKDCERRFSRSDQLKRHQRRHTGVKPFQCKTCQRKFSRSDHLKTHTRTHTGKTSEKPFSCRWPSCQKKFARSDELVRHHNMHQRNMTKLQLAL",
+        "full_sequence": "MGSDVRDLNALLPAVPSLGGGGGCALPVSGAAQWAPVLDFAPPGASAYGSLGGPAPPPAPPPPPPPPPHSFIKQEPSWGGAEPHEEQCLSAFTVHFSGQFTGTAGACRYGPFGPPPPSQASSGQARMFPNAPYLPSCLESQPAIRNQGYSTVTFDGTPSYGHTPSHHAAQFPNHSFKHEDPMGQQGSLGEQQYSVPPPVYGCHTPTDSCTGSQALLLRTPYSSDNLYQMTSQLECMTWNQMNLGATLKGVAAGSSSSVKWTEGQSNHSTGYESDNHTTPILCGAQYRIHTHGVFRGIQDVRRVPGVAPTLVRSASETSEKRPFMCAYPGCNKRYFKLSHLQMHSRKHTGEKPYQCDFKDCERRFSRSDQLKRHQRRHTGVKPFQCKTCQRKFSRSDHLKTHTRTHTGKTSEKPFSCRWPSCQKKFARSDELVRHHNMHQRNMTKLQLAL",
+        "n_residues": 449,
+        "mutation_pos_1indexed": 232,
+        "wt_aa": "S",
+        "mut_aa": "T",
+        "pocket_lining_residues": "M229-T230-S231-Q232-L233",
+        "pocket_lining_positions_precursor": [
+          229,
+          230,
+          231,
+          232,
+          233
+        ],
+        "pocket_lining_1letter": "MTSQL",
+        "sequence_slice_around_pocket": "SSDNLYQMTSQLECMTWNQM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/WT1_S232T/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "M229",
+          "T230",
+          "S231",
+          "Q232",
+          "L233"
+        ],
+        "values": [
+          [
+            0.0,
+            3.738,
+            5.582,
+            8.755,
+            10.976
+          ],
+          [
+            3.738,
+            0.0,
+            3.79,
+            6.934,
+            9.089
+          ],
+          [
+            5.582,
+            3.79,
+            0.0,
+            3.759,
+            6.889
+          ],
+          [
+            8.755,
+            6.934,
+            3.759,
+            0.0,
+            3.614
+          ],
+          [
+            10.976,
+            9.089,
+            6.889,
+            3.614,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "composite_score": 0.5273135630647329,
+        "mw": 234.17,
+        "logp": 2.187,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8676,
+        "sa_score": 1.95,
+        "n_heavy_atoms": 17,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "WT1-S232T Candidate #1",
+        "iupac_name": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5273,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/WT1_S232T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/WT1_S232T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/WT1_S232T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/WT1_S232T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/WT1_S232T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-WT1-S232T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-WT1-S232T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:23:03.170756+00:00"
     }
   ]
 }
