@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 499,
+  "total_entries": 500,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44962,
-    "queue_remaining": 133635
+    "total_processed": 44963,
+    "queue_remaining": 133634
   },
   "entries": [
     {
@@ -111002,6 +111002,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:18:49.621087+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT83-E340K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT83-E340K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT83",
+        "uniprot": "",
+        "clinvar_id": "309508",
+        "disease": "Monilethrix",
+        "mutation_precursor": "E340K",
+        "mutation_mature": "E340K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9472458803799968,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 346.9244848083894,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          14.280138969421387,
+          -6.083423614501953,
+          -1.118214726448059
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.332817682986663,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6485546458715634,
+        "cryptic": true,
+        "pocket_residues": {
+          "L337": "L",
+          "T338": "T",
+          "A339": "A",
+          "E340": "E",
+          "V341": "V",
+          "E342": "E",
+          "N343": "N",
+          "A344": "A",
+          "K345": "K"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P78385|KRT83 variant E340K",
+        "fasta_sequence": "MTCGFNSIGCGFRPGNFSCVSACGPRPSRCCITAAPYRGISCYRGLTGGFGSHSVCGGFRAGSCGRSFGYRSGGVCGPSPPCITTVSVNESLLTPLNLEIDPNAQCVKQEEKEQIKSLNSRFAAFIDKVRFLEQQNKLLETKLQFYQNRECCQSNLEPLFAGYIETLRREAECVEADSGRLASELNHVQEVLEGYKKKYEEEVALRATAENEFVALKKDVDCAYLRKSDLEANVEALIQEIDFLRRLYEEEIRILQSHISDTSVVVKLDNSRDLNMDCIVAEIKAQYDDIATRSRAEAESWYRSKCEEMKATVIRHGETLRRTKEEINELNRMIQRLTAEVENAKCQNSKLEAAVAQSEQQGEAALSDARCKLAELEGALQKAKQDMACLIREYQEVMNSKLGLDIEIATYRRLLEGEEQRLCEGVEAVNVCVSSSRGGVVCGDLCVSGSRPVTGSVCSAPCNGNLVVSTGLCKPCGQLNTTCGGGSCGQGRH",
+        "full_sequence": "MTCGFNSIGCGFRPGNFSCVSACGPRPSRCCITAAPYRGISCYRGLTGGFGSHSVCGGFRAGSCGRSFGYRSGGVCGPSPPCITTVSVNESLLTPLNLEIDPNAQCVKQEEKEQIKSLNSRFAAFIDKVRFLEQQNKLLETKLQFYQNRECCQSNLEPLFAGYIETLRREAECVEADSGRLASELNHVQEVLEGYKKKYEEEVALRATAENEFVALKKDVDCAYLRKSDLEANVEALIQEIDFLRRLYEEEIRILQSHISDTSVVVKLDNSRDLNMDCIVAEIKAQYDDIATRSRAEAESWYRSKCEEMKATVIRHGETLRRTKEEINELNRMIQRLTAEVENAKCQNSKLEAAVAQSEQQGEAALSDARCKLAELEGALQKAKQDMACLIREYQEVMNSKLGLDIEIATYRRLLEGEEQRLCEGVEAVNVCVSSSRGGVVCGDLCVSGSRPVTGSVCSAPCNGNLVVSTGLCKPCGQLNTTCGGGSCGQGRH",
+        "n_residues": 493,
+        "mutation_pos_1indexed": 340,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "L337-T338-A339-E340-V341-E342-N343-A344-K345",
+        "pocket_lining_positions_precursor": [
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345
+        ],
+        "pocket_lining_1letter": "LTAEVENAK",
+        "sequence_slice_around_pocket": "LNRMIQRLTAEVENAKCQNS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_E340K/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "L337",
+          "T338",
+          "A339",
+          "E340",
+          "V341",
+          "E342",
+          "N343",
+          "A344",
+          "K345"
+        ],
+        "values": [
+          [
+            0.0,
+            3.856,
+            5.45,
+            4.966,
+            6.098,
+            8.628,
+            9.724,
+            10.353,
+            12.206
+          ],
+          [
+            3.856,
+            0.0,
+            3.846,
+            5.466,
+            5.104,
+            6.235,
+            8.604,
+            9.851,
+            10.545
+          ],
+          [
+            5.45,
+            3.846,
+            0.0,
+            3.865,
+            5.506,
+            5.167,
+            6.121,
+            8.612,
+            9.863
+          ],
+          [
+            4.966,
+            5.466,
+            3.865,
+            0.0,
+            3.863,
+            5.525,
+            5.042,
+            6.102,
+            8.608
+          ],
+          [
+            6.098,
+            5.104,
+            5.506,
+            3.863,
+            0.0,
+            3.85,
+            5.465,
+            5.065,
+            6.154
+          ],
+          [
+            8.628,
+            6.235,
+            5.167,
+            5.525,
+            3.85,
+            0.0,
+            3.848,
+            5.459,
+            5.014
+          ],
+          [
+            9.724,
+            8.604,
+            6.121,
+            5.042,
+            5.465,
+            3.848,
+            0.0,
+            3.857,
+            5.467
+          ],
+          [
+            10.353,
+            9.851,
+            8.612,
+            6.102,
+            5.065,
+            5.459,
+            3.857,
+            0.0,
+            3.871
+          ],
+          [
+            12.206,
+            10.545,
+            9.863,
+            8.608,
+            6.154,
+            5.014,
+            5.467,
+            3.871,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COC(CCc1c[nH]c2ccccc12)CC(N)=O",
+        "composite_score": 0.9275143813084643,
+        "mw": 246.14,
+        "logp": 1.991,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 6,
+        "qed": 0.8181,
+        "sa_score": 2.67,
+        "n_heavy_atoms": 18,
+        "tpsa": 68.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT83-E340K Candidate #1",
+        "iupac_name": "COC(CCc1c[nH]c2ccccc12)CC(N)=O",
+        "pocket_affinity_score": 0.9275,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_E340K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_E340K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_E340K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_E340K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT83_E340K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT83-E340K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT83-E340K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:19:13.811777+00:00"
     }
   ]
 }
