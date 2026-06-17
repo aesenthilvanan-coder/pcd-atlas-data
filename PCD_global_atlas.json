@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 149,
+  "total_entries": 150,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44553,
-    "queue_remaining": 134044
+    "total_processed": 44554,
+    "queue_remaining": 134043
   },
   "entries": [
     {
@@ -34125,6 +34125,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:59:32.716250+00:00"
+    },
+    {
+      "entry_id": "PCD-PKP2-V411I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PKP2-V411I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PKP2",
+        "uniprot": "",
+        "clinvar_id": "308511",
+        "disease": "not specified",
+        "mutation_precursor": "V411I",
+        "mutation_mature": "V411I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.872056522885623,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 557.9146172743684,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          21.027851104736328,
+          5.038018226623535,
+          -25.278308868408203
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.509914958939365,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8758594654200788,
+        "cryptic": true,
+        "pocket_residues": {
+          "S371": "S",
+          "N408": "N",
+          "E409": "E",
+          "D410": "D",
+          "V411": "V",
+          "Q412": "Q",
+          "R413": "R",
+          "A414": "A",
+          "V415": "V",
+          "T454": "T"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q99959|PKP2 variant V411I",
+        "fasta_sequence": "MAAPGAPAEYGYIRTVLGQQILGQLDSSSLALPSEAKLKLAGSSGRGGQTVKSLRIQEQVQQTLARKGRSSVGNGNLHRTSSVPEYVYNLHLVENDFVGGRSPVPKTYDMLKAGTTATYEGRWGRGTAQYSSQKSVEERSLRHPLRRLEISPDSSPERAHYTHSDYQYSQRSQAGHTLHHQESRRAALLVPPRYARSEIVGVSRAGTTSRQRHFDTYHRQYQHGSVSDTVFDSIPANPALLTYPRPGTSRSMGNLLEKENYLTAGLTVGQVRPLVPLQPVTQNRASRSSWHQSSFHSTRTLREAGPSVAVDSSGRRAHLTVGQAAAGGSGNLLTERSTFTDSQLGNADMEMTLERAVSMLEADHMLPSRISAAATFIQHECFQKSEARKRVNQLRGILKLLQLLKVQNEDVQRAVCGALRNLVFEDNDNKLEVAELNGVPRLLQVLKQTRDLETKKQITDHTVNLRSRNGWPGAVAHACNPSTLGGQGGRITRSGVRDQPDQHGLLWNLSSNDKLKNLMITEALLTLTENIIIPFSGWPEGDYPKANGLLDFDIFYNVTGCLRNMSSAGADGRKAMRRCDGLIDSLVHYVRGTIADYQPDDKATENCVCILHNLSYQLEAELPEKYSQNIYIQNRNIQTDNNKSIGCFGSRSRKVKEQYQDVPMPEEKSNPKGVEWLWHSIVIRMYLSLIAKSVRNYTQEASLGALQNLTAGSGPMPTSVAQTVVQKESGLQHTRKMLHVGDPSVKKTAISLLRNLSRNLSLQNEIAKETLPDLVSIIPDTVPSTDLLIETTASACYTLNNIIQNSYQNARDLLNTGGIQKIMAISAGDAYASNKASKAASVLLYSLWAHTELHHAYKKAQFKKTDFVNSRTAKAYHSLKD",
+        "full_sequence": "MAAPGAPAEYGYIRTVLGQQILGQLDSSSLALPSEAKLKLAGSSGRGGQTVKSLRIQEQVQQTLARKGRSSVGNGNLHRTSSVPEYVYNLHLVENDFVGGRSPVPKTYDMLKAGTTATYEGRWGRGTAQYSSQKSVEERSLRHPLRRLEISPDSSPERAHYTHSDYQYSQRSQAGHTLHHQESRRAALLVPPRYARSEIVGVSRAGTTSRQRHFDTYHRQYQHGSVSDTVFDSIPANPALLTYPRPGTSRSMGNLLEKENYLTAGLTVGQVRPLVPLQPVTQNRASRSSWHQSSFHSTRTLREAGPSVAVDSSGRRAHLTVGQAAAGGSGNLLTERSTFTDSQLGNADMEMTLERAVSMLEADHMLPSRISAAATFIQHECFQKSEARKRVNQLRGILKLLQLLKVQNEDVQRAVCGALRNLVFEDNDNKLEVAELNGVPRLLQVLKQTRDLETKKQITDHTVNLRSRNGWPGAVAHACNPSTLGGQGGRITRSGVRDQPDQHGLLWNLSSNDKLKNLMITEALLTLTENIIIPFSGWPEGDYPKANGLLDFDIFYNVTGCLRNMSSAGADGRKAMRRCDGLIDSLVHYVRGTIADYQPDDKATENCVCILHNLSYQLEAELPEKYSQNIYIQNRNIQTDNNKSIGCFGSRSRKVKEQYQDVPMPEEKSNPKGVEWLWHSIVIRMYLSLIAKSVRNYTQEASLGALQNLTAGSGPMPTSVAQTVVQKESGLQHTRKMLHVGDPSVKKTAISLLRNLSRNLSLQNEIAKETLPDLVSIIPDTVPSTDLLIETTASACYTLNNIIQNSYQNARDLLNTGGIQKIMAISAGDAYASNKASKAASVLLYSLWAHTELHHAYKKAQFKKTDFVNSRTAKAYHSLKD",
+        "n_residues": 881,
+        "mutation_pos_1indexed": 411,
+        "wt_aa": "V",
+        "mut_aa": "I",
+        "pocket_lining_residues": "S371-N408-E409-D410-V411-Q412-R413-A414-V415-T454",
+        "pocket_lining_positions_precursor": [
+          371,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          454
+        ],
+        "pocket_lining_1letter": "SNEDVQRAVT",
+        "sequence_slice_around_pocket": "LQLLKVQNEDVQRAVCGALR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PKP2_V411I/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "S371",
+          "N408",
+          "E409",
+          "D410",
+          "V411",
+          "Q412",
+          "R413",
+          "A414",
+          "V415",
+          "T454"
+        ],
+        "values": [
+          [
+            0.0,
+            9.525,
+            9.507,
+            6.169,
+            4.734,
+            8.162,
+            8.234,
+            5.657,
+            7.351,
+            12.676
+          ],
+          [
+            9.525,
+            0.0,
+            3.835,
+            5.725,
+            5.575,
+            6.233,
+            8.684,
+            10.29,
+            10.722,
+            10.485
+          ],
+          [
+            9.507,
+            3.835,
+            0.0,
+            3.869,
+            5.555,
+            5.037,
+            5.925,
+            8.502,
+            9.754,
+            7.087
+          ],
+          [
+            6.169,
+            5.725,
+            3.869,
+            0.0,
+            3.852,
+            5.534,
+            5.138,
+            6.06,
+            8.415,
+            8.267
+          ],
+          [
+            4.734,
+            5.575,
+            5.555,
+            3.852,
+            0.0,
+            3.861,
+            5.528,
+            5.25,
+            5.899,
+            9.4
+          ],
+          [
+            8.162,
+            6.233,
+            5.037,
+            5.534,
+            3.861,
+            0.0,
+            3.869,
+            5.679,
+            5.174,
+            6.535
+          ],
+          [
+            8.234,
+            8.684,
+            5.925,
+            5.138,
+            5.528,
+            3.869,
+            0.0,
+            3.841,
+            5.534,
+            4.531
+          ],
+          [
+            5.657,
+            10.29,
+            8.502,
+            6.06,
+            5.25,
+            5.679,
+            3.841,
+            0.0,
+            3.871,
+            8.19
+          ],
+          [
+            7.351,
+            10.722,
+            9.754,
+            8.415,
+            5.899,
+            5.174,
+            5.534,
+            3.871,
+            0.0,
+            9.163
+          ],
+          [
+            12.676,
+            10.485,
+            7.087,
+            8.267,
+            9.4,
+            6.535,
+            4.531,
+            8.19,
+            9.163,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CC(=O)CCC1CCNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.8517669102453131,
+        "mw": 378.22,
+        "logp": 2.134,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.5448,
+        "sa_score": 3.3,
+        "n_heavy_atoms": 28,
+        "tpsa": 99.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PKP2-V411I Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CC(=O)CCC1CCNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8518,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PKP2_V411I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PKP2_V411I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PKP2_V411I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PKP2_V411I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PKP2_V411I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PKP2-V411I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PKP2-V411I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T05:00:05.269446+00:00"
     }
   ]
 }
