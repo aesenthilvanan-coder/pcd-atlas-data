@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1129,
+  "total_entries": 1130,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45726,
-    "queue_remaining": 132871
+    "total_processed": 45727,
+    "queue_remaining": 132870
   },
   "entries": [
     {
@@ -249057,6 +249057,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:37:29.108998+00:00"
+    },
+    {
+      "entry_id": "PCD-ACE-R228C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACE-R228C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ACE",
+        "uniprot": "",
+        "clinvar_id": "324367",
+        "disease": "Renal tubular dysgenesis",
+        "mutation_precursor": "R228C",
+        "mutation_mature": "R228C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9106384732202426,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 487.44902434100146,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.30158233642578,
+          14.967153549194336,
+          41.29813766479492
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.649612317957138,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8904054641157323,
+        "cryptic": true,
+        "pocket_residues": {
+          "A225": "A",
+          "R228": "R",
+          "S229": "S",
+          "Y231": "Y",
+          "N232": "N",
+          "S233": "S",
+          "P234": "P",
+          "T235": "T",
+          "F236": "F",
+          "E237": "E",
+          "D238": "D"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P12821|ACE variant R228C",
+        "fasta_sequence": "MGAASGRRGPGLLLPLPLLLLLPPQPALALDPGLQPGNFSADEAGAQLFAQSYNSSAEQVLFQSVAASWAHDTNITAENARRQEEAALLSQEFAEAWGQKAKELYEPIWQNFTDPQLRRIIGAVRTLGSANLPLAKRQQYNALLSNMSRIYSTAKVCLPNKTATCWSLDPDLTNILASSRSYAMLLFAWEGWHNAAGIPLKPLYEDFTALSNEAYKQDGFTDTGAYWRSWYNSPTFEDDLEHLYQQLEPLYLNLHAFVRRALHRRYGDRYINLRGPIPAHLLGDMWAQSWENIYDMVVPFPDKPNLDVTSTMLQQGWNATHMFRVAEEFFTSLELSPMPPEFWEGSMLEKPADGREVVCHASAWDFYNRKDFRIKQCTRVTMDQLSTVHHEMGHIQYYLQYKDLPVSLRRGANPGFHEAIGDVLALSVSTPEHLHKIGLLDRVTNDTESDINYLLKMALEKIAFLPFGYLVDQWRWGVFSGRTPPSRYNFDWWYLRTKYQGICPPVTRNETHFDAGAKFHVPNVTPYIRYFVSFVLQFQFHEALCKEAGYEGPLHQCDIYRSTKAGAKLRKVLQAGSSRPWQEVLKDMVGLDALDAQPLLKYFQPVTQWLQEQNQQNGEVLGWPEYQWHPPLPDNYPEGIDLVTDEAEASKFVEEYDRTSQVVWNEYAEANWNYNTNITTETSKILLQKNMQIANHTLKYGTQARKFDVNQLQNTTIKRIIKKVQDLERAALPAQELEEYNKILLDMETTYSVATVCHPNGSCLQLEPDLTNVMATSRKYEDLLWAWEGWRDKAGRAILQFYPKYVELINQAARLNGYVDAGDSWRSMYETPSLEQDLERLFQELQPLYLNLHAYVRRALHRHYGAQHINLEGPIPAHLLGNMWAQTWSNIYDLVVPFPSAPSMDTTEAMLKQGWTPRRMFKEADDFFTSLGLLPVPPEFWNKSMLEKPTDGREVVCHASAWDFYNGKDFRIKQCTTVNLEDLVVAHHEMGHIQYFMQYKDLPVALREGANPGFHEAIGDVLALSVSTPKHLHSLNLLSSEGGSDEHDINFLMKMALDKIAFIPFSYLVDQWRWRVFDGSITKENYNQEWWSLRLKYQGLCPPVPRTQGDFDPGAKFHIPSSVPYIRYFVSFIIQFQFHEALCQAAGHTGPLHKCDIYQSKEAGQRLATAMKLGFSRPWPEAMQLITGQPNMSASAMLSYFKPLLDWLRTENELHGEKLGWPQYNWTPNSARSEGPLPDSGRVSFLGLDLDAQQARVGQWLLLFLGIALLVATLGLSQRLFSIRHRSLHRHSHGPQFGSEVELRHS",
+        "full_sequence": "MGAASGRRGPGLLLPLPLLLLLPPQPALALDPGLQPGNFSADEAGAQLFAQSYNSSAEQVLFQSVAASWAHDTNITAENARRQEEAALLSQEFAEAWGQKAKELYEPIWQNFTDPQLRRIIGAVRTLGSANLPLAKRQQYNALLSNMSRIYSTAKVCLPNKTATCWSLDPDLTNILASSRSYAMLLFAWEGWHNAAGIPLKPLYEDFTALSNEAYKQDGFTDTGAYWRSWYNSPTFEDDLEHLYQQLEPLYLNLHAFVRRALHRRYGDRYINLRGPIPAHLLGDMWAQSWENIYDMVVPFPDKPNLDVTSTMLQQGWNATHMFRVAEEFFTSLELSPMPPEFWEGSMLEKPADGREVVCHASAWDFYNRKDFRIKQCTRVTMDQLSTVHHEMGHIQYYLQYKDLPVSLRRGANPGFHEAIGDVLALSVSTPEHLHKIGLLDRVTNDTESDINYLLKMALEKIAFLPFGYLVDQWRWGVFSGRTPPSRYNFDWWYLRTKYQGICPPVTRNETHFDAGAKFHVPNVTPYIRYFVSFVLQFQFHEALCKEAGYEGPLHQCDIYRSTKAGAKLRKVLQAGSSRPWQEVLKDMVGLDALDAQPLLKYFQPVTQWLQEQNQQNGEVLGWPEYQWHPPLPDNYPEGIDLVTDEAEASKFVEEYDRTSQVVWNEYAEANWNYNTNITTETSKILLQKNMQIANHTLKYGTQARKFDVNQLQNTTIKRIIKKVQDLERAALPAQELEEYNKILLDMETTYSVATVCHPNGSCLQLEPDLTNVMATSRKYEDLLWAWEGWRDKAGRAILQFYPKYVELINQAARLNGYVDAGDSWRSMYETPSLEQDLERLFQELQPLYLNLHAYVRRALHRHYGAQHINLEGPIPAHLLGNMWAQTWSNIYDLVVPFPSAPSMDTTEAMLKQGWTPRRMFKEADDFFTSLGLLPVPPEFWNKSMLEKPTDGREVVCHASAWDFYNGKDFRIKQCTTVNLEDLVVAHHEMGHIQYFMQYKDLPVALREGANPGFHEAIGDVLALSVSTPKHLHSLNLLSSEGGSDEHDINFLMKMALDKIAFIPFSYLVDQWRWRVFDGSITKENYNQEWWSLRLKYQGLCPPVPRTQGDFDPGAKFHIPSSVPYIRYFVSFIIQFQFHEALCQAAGHTGPLHKCDIYQSKEAGQRLATAMKLGFSRPWPEAMQLITGQPNMSASAMLSYFKPLLDWLRTENELHGEKLGWPQYNWTPNSARSEGPLPDSGRVSFLGLDLDAQQARVGQWLLLFLGIALLVATLGLSQRLFSIRHRSLHRHSHGPQFGSEVELRHS",
+        "n_residues": 1306,
+        "mutation_pos_1indexed": 228,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "A225-R228-S229-Y231-N232-S233-P234-T235-F236-E237-D238",
+        "pocket_lining_positions_precursor": [
+          225,
+          228,
+          229,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238
+        ],
+        "pocket_lining_1letter": "ARSYNSPTFED",
+        "sequence_slice_around_pocket": "DGFTDTGAYWRSWYNSPTFE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ACE_R228C/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "A225",
+          "R228",
+          "S229",
+          "Y231",
+          "N232",
+          "S233",
+          "P234",
+          "T235",
+          "F236",
+          "E237",
+          "D238"
+        ],
+        "values": [
+          [
+            0.0,
+            5.131,
+            6.182,
+            10.582,
+            10.926,
+            11.574,
+            10.783,
+            12.324,
+            10.716,
+            10.542,
+            14.064
+          ],
+          [
+            5.131,
+            0.0,
+            3.866,
+            5.896,
+            7.547,
+            8.29,
+            9.139,
+            10.153,
+            7.401,
+            8.371,
+            11.925
+          ],
+          [
+            6.182,
+            3.866,
+            0.0,
+            5.37,
+            5.24,
+            7.395,
+            8.392,
+            10.747,
+            8.933,
+            10.957,
+            13.998
+          ],
+          [
+            10.582,
+            5.896,
+            5.37,
+            0.0,
+            3.878,
+            5.585,
+            8.731,
+            9.876,
+            7.294,
+            10.349,
+            12.726
+          ],
+          [
+            10.926,
+            7.547,
+            5.24,
+            3.878,
+            0.0,
+            3.866,
+            6.633,
+            9.063,
+            7.998,
+            11.436,
+            13.309
+          ],
+          [
+            11.574,
+            8.29,
+            7.395,
+            5.585,
+            3.866,
+            0.0,
+            3.861,
+            5.405,
+            5.145,
+            8.843,
+            9.93
+          ],
+          [
+            10.783,
+            9.139,
+            8.392,
+            8.731,
+            6.633,
+            3.861,
+            0.0,
+            3.882,
+            5.723,
+            8.278,
+            9.055
+          ],
+          [
+            12.324,
+            10.153,
+            10.747,
+            9.876,
+            9.063,
+            5.405,
+            3.882,
+            0.0,
+            3.853,
+            5.794,
+            5.387
+          ],
+          [
+            10.716,
+            7.401,
+            8.933,
+            7.294,
+            7.998,
+            5.145,
+            5.723,
+            3.853,
+            0.0,
+            3.875,
+            5.495
+          ],
+          [
+            10.542,
+            8.371,
+            10.957,
+            10.349,
+            11.436,
+            8.843,
+            8.278,
+            5.794,
+            3.875,
+            0.0,
+            3.867
+          ],
+          [
+            14.064,
+            11.925,
+            13.998,
+            12.726,
+            13.309,
+            9.93,
+            9.055,
+            5.387,
+            5.495,
+            3.867,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CCN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.848566532389875,
+        "mw": 331.23,
+        "logp": 2.178,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.896,
+        "sa_score": 3.16,
+        "n_heavy_atoms": 24,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ACE-R228C Candidate #1",
+        "iupac_name": "COc1ccc(CCN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.8486,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ACE_R228C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ACE_R228C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ACE_R228C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACE_R228C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACE_R228C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACE-R228C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACE-R228C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:38:13.589254+00:00"
     }
   ]
 }
