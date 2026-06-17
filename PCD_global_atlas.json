@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 906,
+  "total_entries": 907,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45440,
-    "queue_remaining": 133157
+    "total_processed": 45442,
+    "queue_remaining": 133155
   },
   "entries": [
     {
@@ -199470,6 +199470,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:58:39.410982+00:00"
+    },
+    {
+      "entry_id": "PCD-BBS10-R343Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BBS10-R343Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BBS10",
+        "uniprot": "",
+        "clinvar_id": "310493",
+        "disease": "Bardet-Biedl syndrome 10",
+        "mutation_precursor": "R343Q",
+        "mutation_mature": "R343Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7634530994312584,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 333.61321889812984,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          8.341217994689941,
+          11.657608985900879,
+          -17.591676712036133
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.337857825386983,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.850773343527657,
+        "cryptic": true,
+        "pocket_residues": {
+          "I259": "I",
+          "I310": "I",
+          "E337": "E",
+          "E338": "E",
+          "V339": "V",
+          "S340": "S",
+          "L341": "L",
+          "I342": "I",
+          "R343": "R",
+          "R344": "R",
+          "I345": "I"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8TAM1|BBS10 variant R343Q",
+        "fasta_sequence": "MLSSMAAAGSVKAALQVAEVLEAIVSCCVGPEGRQVLCTKPTGEVLLSRNGGRLLEALHLEHPIARMIVDCVSSHLKKTGDGAKTFIIFLCHLLRGLHAITDREKDPLMCENIQTHGRHWKNCSRWKFISQALLTFQTQILDGIMDQYLSRHFLSIFSSAKERTLCRSSLELLLEAYFCGRVGRNNHKFISQLMCDYFFKCMTCKSGIGVFELVDDHFVELNVGVTGLPVSDSRIIAGLVLQKDFSVYRPADGDMRMVIVTETIQPLFSTSGSEFILNSEAQFQTSQFWIMEKTKAIMKHLHSQNVKLLISSVKQPDLVSYYAGVNGISVVECLSSEEVSLIRRIIGLSPFVPPQAFSQCEIPNTALVKFCKPLILRSKRYVHLGLISTCAFIPHSIVLCGPVHGLIEQHEDALHGALKMLRQLFKDLDLNYMTQTNDQNGTSSLFIYKNSGESYQAPDPGNGSIQRPYQDTVAENKDALEKTQTYLKVHSNLVIPDVELETYIPYSTPTLTPTDTFQTVETLTCLSLERNRLTDYYEPLLKNNSTAYSTRGNRIEISYENLQVTNITRKGSMLPVSCKLPNMGTSQSYLSSSMPAGCVLPVGGNFEILLHYYLLNYAKKCHQSEETMVSMIIANALLGIPKVLYKSKTGKYSFPHTYIRAVHALQTNQPLVSSQTGLESVMGKYQLLTSVLQCLTKILTIDMVITVKRHPQKVHNQDSEDEL",
+        "full_sequence": "MLSSMAAAGSVKAALQVAEVLEAIVSCCVGPEGRQVLCTKPTGEVLLSRNGGRLLEALHLEHPIARMIVDCVSSHLKKTGDGAKTFIIFLCHLLRGLHAITDREKDPLMCENIQTHGRHWKNCSRWKFISQALLTFQTQILDGIMDQYLSRHFLSIFSSAKERTLCRSSLELLLEAYFCGRVGRNNHKFISQLMCDYFFKCMTCKSGIGVFELVDDHFVELNVGVTGLPVSDSRIIAGLVLQKDFSVYRPADGDMRMVIVTETIQPLFSTSGSEFILNSEAQFQTSQFWIMEKTKAIMKHLHSQNVKLLISSVKQPDLVSYYAGVNGISVVECLSSEEVSLIRRIIGLSPFVPPQAFSQCEIPNTALVKFCKPLILRSKRYVHLGLISTCAFIPHSIVLCGPVHGLIEQHEDALHGALKMLRQLFKDLDLNYMTQTNDQNGTSSLFIYKNSGESYQAPDPGNGSIQRPYQDTVAENKDALEKTQTYLKVHSNLVIPDVELETYIPYSTPTLTPTDTFQTVETLTCLSLERNRLTDYYEPLLKNNSTAYSTRGNRIEISYENLQVTNITRKGSMLPVSCKLPNMGTSQSYLSSSMPAGCVLPVGGNFEILLHYYLLNYAKKCHQSEETMVSMIIANALLGIPKVLYKSKTGKYSFPHTYIRAVHALQTNQPLVSSQTGLESVMGKYQLLTSVLQCLTKILTIDMVITVKRHPQKVHNQDSEDEL",
+        "n_residues": 723,
+        "mutation_pos_1indexed": 343,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "I259-I310-E337-E338-V339-S340-L341-I342-R343-R344-I345",
+        "pocket_lining_positions_precursor": [
+          259,
+          310,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345
+        ],
+        "pocket_lining_1letter": "IIEEVSLIRRI",
+        "sequence_slice_around_pocket": "CLSSEEVSLIRRIIGLSPFV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BBS10_R343Q/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "I259",
+          "I310",
+          "E337",
+          "E338",
+          "V339",
+          "S340",
+          "L341",
+          "I342",
+          "R343",
+          "R344",
+          "I345"
+        ],
+        "values": [
+          [
+            0.0,
+            4.707,
+            13.152,
+            11.116,
+            7.828,
+            10.378,
+            11.773,
+            8.866,
+            8.338,
+            12.17,
+            12.737
+          ],
+          [
+            4.707,
+            0.0,
+            13.217,
+            10.326,
+            8.367,
+            11.936,
+            12.56,
+            9.736,
+            10.964,
+            14.482,
+            14.32
+          ],
+          [
+            13.152,
+            13.217,
+            0.0,
+            3.862,
+            5.403,
+            4.842,
+            6.043,
+            8.597,
+            9.655,
+            10.313,
+            12.215
+          ],
+          [
+            11.116,
+            10.326,
+            3.862,
+            0.0,
+            3.846,
+            5.49,
+            5.18,
+            6.309,
+            8.653,
+            9.962,
+            10.755
+          ],
+          [
+            7.828,
+            8.367,
+            5.403,
+            3.846,
+            0.0,
+            3.861,
+            5.478,
+            5.175,
+            6.089,
+            8.597,
+            10.016
+          ],
+          [
+            10.378,
+            11.936,
+            4.842,
+            5.49,
+            3.861,
+            0.0,
+            3.851,
+            5.576,
+            5.093,
+            6.132,
+            8.708
+          ],
+          [
+            11.773,
+            12.56,
+            6.043,
+            5.18,
+            5.478,
+            3.851,
+            0.0,
+            3.853,
+            5.475,
+            5.122,
+            6.21
+          ],
+          [
+            8.866,
+            9.736,
+            8.597,
+            6.309,
+            5.175,
+            5.576,
+            3.853,
+            0.0,
+            3.861,
+            5.486,
+            5.215
+          ],
+          [
+            8.338,
+            10.964,
+            9.655,
+            8.653,
+            6.089,
+            5.093,
+            5.475,
+            3.861,
+            0.0,
+            3.849,
+            5.641
+          ],
+          [
+            12.17,
+            14.482,
+            10.313,
+            9.962,
+            8.597,
+            6.132,
+            5.122,
+            5.486,
+            3.849,
+            0.0,
+            3.854
+          ],
+          [
+            12.737,
+            14.32,
+            12.215,
+            10.755,
+            10.016,
+            8.708,
+            6.21,
+            5.215,
+            5.641,
+            3.854,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8351216652487359,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BBS10-R343Q Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8351,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BBS10_R343Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BBS10_R343Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BBS10_R343Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BBS10_R343Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BBS10_R343Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BBS10-R343Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BBS10-R343Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:59:20.748239+00:00"
     }
   ]
 }
