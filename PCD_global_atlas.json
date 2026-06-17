@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 632,
+  "total_entries": 633,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45126,
-    "queue_remaining": 133471
+    "total_processed": 45127,
+    "queue_remaining": 133470
   },
   "entries": [
     {
@@ -140187,6 +140187,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:09:19.570311+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT13-R406L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT13-R406L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT13",
+        "uniprot": "",
+        "clinvar_id": "323078",
+        "disease": "White sponge nevus 2",
+        "mutation_precursor": "R406L",
+        "mutation_mature": "R406L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7337762078608769,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 562.646137187159,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          79.71537780761719,
+          2.2065744400024414,
+          -62.35969161987305
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.8830153287115285,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.82045391583212,
+        "cryptic": true,
+        "pocket_residues": {
+          "A403": "A",
+          "T404": "T",
+          "Y405": "Y",
+          "R406": "R",
+          "S407": "S",
+          "L408": "L",
+          "L409": "L",
+          "E410": "E",
+          "G411": "G",
+          "Q412": "Q",
+          "D413": "D"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P13646|KRT13 variant R406L",
+        "fasta_sequence": "MSLRLQSSSASYGGGFGGGSCQLGGGRGVSTCSTRFVSGGSAGGYGGGVSCGFGGGAGSGFGGGYGGGLGGGYGGGLGGGFGGGFAGGFVDFGACDGGLLTGNEKITMQNLNDRLASYLEKVRALEEANADLEVKIRDWHLKQSPASPERDYSPYYKTIEELRDKILTATIENNRVILEIDNARLAADDFRLKYENELALRQSVEADINGLRRVLDELTLSKTDLEMQIESLNEELAYMKKNHEEEMKEFSNQVVGQVNVEMDATPGIDLTRVLAEMREQYEAMAERNRRDAEEWFHTKSAELNKEVSTNTAMIQTSKTEITELRRTLQGLEIELQSQLSMKAGLENTVAETECRYALQLQQIQGLISSIEAQLSELRSEMECQNQEYKMLLDIKTRLEQEIATYRSLLEGQDAKMIGFPSSAGSVSPRSTSVTTTSSASVTTTSNASGRRTSDVRRP",
+        "full_sequence": "MSLRLQSSSASYGGGFGGGSCQLGGGRGVSTCSTRFVSGGSAGGYGGGVSCGFGGGAGSGFGGGYGGGLGGGYGGGLGGGFGGGFAGGFVDFGACDGGLLTGNEKITMQNLNDRLASYLEKVRALEEANADLEVKIRDWHLKQSPASPERDYSPYYKTIEELRDKILTATIENNRVILEIDNARLAADDFRLKYENELALRQSVEADINGLRRVLDELTLSKTDLEMQIESLNEELAYMKKNHEEEMKEFSNQVVGQVNVEMDATPGIDLTRVLAEMREQYEAMAERNRRDAEEWFHTKSAELNKEVSTNTAMIQTSKTEITELRRTLQGLEIELQSQLSMKAGLENTVAETECRYALQLQQIQGLISSIEAQLSELRSEMECQNQEYKMLLDIKTRLEQEIATYRSLLEGQDAKMIGFPSSAGSVSPRSTSVTTTSSASVTTTSNASGRRTSDVRRP",
+        "n_residues": 458,
+        "mutation_pos_1indexed": 406,
+        "wt_aa": "R",
+        "mut_aa": "L",
+        "pocket_lining_residues": "A403-T404-Y405-R406-S407-L408-L409-E410-G411-Q412-D413",
+        "pocket_lining_positions_precursor": [
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413
+        ],
+        "pocket_lining_1letter": "ATYRSLLEGQD",
+        "sequence_slice_around_pocket": "TRLEQEIATYRSLLEGQDAK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT13_R406L/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "A403",
+          "T404",
+          "Y405",
+          "R406",
+          "S407",
+          "L408",
+          "L409",
+          "E410",
+          "G411",
+          "Q412",
+          "D413"
+        ],
+        "values": [
+          [
+            0.0,
+            3.842,
+            5.482,
+            5.073,
+            6.192,
+            8.645,
+            9.889,
+            10.523,
+            12.081,
+            14.106,
+            15.203
+          ],
+          [
+            3.842,
+            0.0,
+            3.86,
+            5.484,
+            5.096,
+            6.203,
+            8.706,
+            9.958,
+            10.374,
+            12.186,
+            14.185
+          ],
+          [
+            5.482,
+            3.86,
+            0.0,
+            3.873,
+            5.462,
+            5.025,
+            6.187,
+            8.663,
+            9.726,
+            10.416,
+            12.188
+          ],
+          [
+            5.073,
+            5.484,
+            3.873,
+            0.0,
+            3.835,
+            5.442,
+            5.096,
+            6.116,
+            8.417,
+            9.749,
+            10.407
+          ],
+          [
+            6.192,
+            5.096,
+            5.462,
+            3.835,
+            0.0,
+            3.852,
+            5.511,
+            5.172,
+            5.919,
+            8.449,
+            9.796
+          ],
+          [
+            8.645,
+            6.203,
+            5.025,
+            5.442,
+            3.852,
+            0.0,
+            3.858,
+            5.612,
+            5.048,
+            6.025,
+            8.558
+          ],
+          [
+            9.889,
+            8.706,
+            6.187,
+            5.096,
+            5.511,
+            3.858,
+            0.0,
+            3.863,
+            5.445,
+            5.038,
+            6.041
+          ],
+          [
+            10.523,
+            9.958,
+            8.663,
+            6.116,
+            5.172,
+            5.612,
+            3.863,
+            0.0,
+            3.847,
+            5.446,
+            5.012
+          ],
+          [
+            12.081,
+            10.374,
+            9.726,
+            8.417,
+            5.919,
+            5.048,
+            5.445,
+            3.847,
+            0.0,
+            3.844,
+            5.557
+          ],
+          [
+            14.106,
+            12.186,
+            10.416,
+            9.749,
+            8.449,
+            6.025,
+            5.038,
+            5.446,
+            3.844,
+            0.0,
+            3.863
+          ],
+          [
+            15.203,
+            14.185,
+            12.188,
+            10.407,
+            9.796,
+            8.558,
+            6.041,
+            5.012,
+            5.557,
+            3.863,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CC(=O)CCC2CCNc2ncnc3[nH]cnc23)c1",
+        "composite_score": 0.7915474482208417,
+        "mw": 395.21,
+        "logp": 1.86,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 7,
+        "qed": 0.5541,
+        "sa_score": 3.48,
+        "n_heavy_atoms": 29,
+        "tpsa": 122.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT13-R406L Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CC(=O)CCC2CCNc2ncnc3[nH]cnc23)c1",
+        "pocket_affinity_score": 0.7915,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT13_R406L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT13_R406L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT13_R406L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT13_R406L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT13_R406L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT13-R406L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT13-R406L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:09:43.247677+00:00"
     }
   ]
 }
