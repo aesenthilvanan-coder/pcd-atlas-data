@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1165,
+  "total_entries": 1166,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45762,
-    "queue_remaining": 132835
+    "total_processed": 45763,
+    "queue_remaining": 132834
   },
   "entries": [
     {
@@ -256934,6 +256934,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:05:31.709016+00:00"
+    },
+    {
+      "entry_id": "PCD-GNPTG-G23R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GNPTG-G23R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GNPTG",
+        "uniprot": "",
+        "clinvar_id": "317804",
+        "disease": "not provided",
+        "mutation_precursor": "G23R",
+        "mutation_mature": "G23R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9162533596410277,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 615.525481712184,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          17.00491714477539,
+          20.4449405670166,
+          -54.43729019165039
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.552059852089901,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7766228234438575,
+        "cryptic": true,
+        "pocket_residues": {
+          "P21": "P",
+          "A22": "A",
+          "G23": "G",
+          "A24": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UJJ9|GNPTG variant G23R",
+        "fasta_sequence": "MAAGLARLLLLLGLSAGGPAPAGAAKMKVVEEPNAFGVNNPFLPQASRLQAKRDPSPVSGPVHLFRLSGKCFSLVESTYKYEFCPFHNVTQHEQTFRWNAYSGILGIWHEWEIANNTFTGMWMRDGDACRSRSRQSKVELACGKSNRLAHVSEPSTCVYALTFETPLVCHPHALLVYPTLPEALQRQWDQVEQDLADELITPQGHEKLLRTLFEDAGYLKTPEENEPTQLEGGPDSLGFETLENCRKAHKELSKEIKRLKGLLTQHGIPYTRPTETSNLEHLGHETPRAKSPEQLRGDPGLRGSL",
+        "full_sequence": "MAAGLARLLLLLGLSAGGPAPAGAAKMKVVEEPNAFGVNNPFLPQASRLQAKRDPSPVSGPVHLFRLSGKCFSLVESTYKYEFCPFHNVTQHEQTFRWNAYSGILGIWHEWEIANNTFTGMWMRDGDACRSRSRQSKVELACGKSNRLAHVSEPSTCVYALTFETPLVCHPHALLVYPTLPEALQRQWDQVEQDLADELITPQGHEKLLRTLFEDAGYLKTPEENEPTQLEGGPDSLGFETLENCRKAHKELSKEIKRLKGLLTQHGIPYTRPTETSNLEHLGHETPRAKSPEQLRGDPGLRGSL",
+        "n_residues": 305,
+        "mutation_pos_1indexed": 23,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "P21-A22-G23-A24",
+        "pocket_lining_positions_precursor": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "pocket_lining_1letter": "PAGA",
+        "sequence_slice_around_pocket": "GLSAGGPAPAGAAKMKVVEE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GNPTG_G23R/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "P21",
+          "A22",
+          "G23",
+          "A24"
+        ],
+        "values": [
+          [
+            0.0,
+            3.808,
+            6.028,
+            8.314
+          ],
+          [
+            3.808,
+            0.0,
+            3.823,
+            6.258
+          ],
+          [
+            6.028,
+            3.823,
+            0.0,
+            3.81
+          ],
+          [
+            8.314,
+            6.258,
+            3.81,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5544315969507128,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GNPTG-G23R Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5544,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GNPTG_G23R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GNPTG_G23R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GNPTG_G23R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GNPTG_G23R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GNPTG_G23R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GNPTG-G23R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GNPTG-G23R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:05:53.249494+00:00"
     }
   ]
 }
