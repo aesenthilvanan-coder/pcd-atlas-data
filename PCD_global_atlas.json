@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 184,
+  "total_entries": 185,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44595,
-    "queue_remaining": 134002
+    "total_processed": 44597,
+    "queue_remaining": 134000
   },
   "entries": [
     {
@@ -41795,6 +41795,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T05:48:39.328965+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT1-T638A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT1-T638A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT1",
+        "uniprot": "",
+        "clinvar_id": "309636",
+        "disease": "Epidermolytic ichthyosis",
+        "mutation_precursor": "T638A",
+        "mutation_mature": "T638A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8299890503881957,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 540.313298174813,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -29.28308868408203,
+          12.463014602661133,
+          34.10002136230469
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.929100903912415,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7052162047013446,
+        "cryptic": true,
+        "pocket_residues": {
+          "V635": "V",
+          "S636": "S",
+          "T637": "T",
+          "T638": "T",
+          "Y639": "Y"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P04264|KRT1 variant T638A",
+        "fasta_sequence": "MSRQFSSRSGYRSGGGFSSGSAGIINYQRRTTSSSTRRSGGGGGRFSSCGGGGGSFGAGGGFGSRSLVNLGGSKSISISVARGGGRGSGFGGGYGGGGFGGGGFGGGGFGGGGIGGGGFGGFGSGGGGFGGGGFGGGGYGGGYGPVCPPGGIQEVTINQSLLQPLNVEIDPEIQKVKSREREQIKSLNNQFASFIDKVRFLEQQNQVLQTKWELLQQVDTSTRTHNLEPYFESFINNLRRRVDQLKSDQSRLDSELKNMQDMVEDYRNKYEDEINKRTNAENEFVTIKKDVDGAYMTKVDLQAKLDNLQQEIDFLTALYQAELSQMQTQISETNVILSMDNNRSLDLDSIIAEVKAQYEDIAQKSKAEAESLYQSKYEELQITAGRHGDSVRNSKIEISELNRVIQRLRSEIDNVKKQISNLQQSISDAEQRGENALKDAKNKLNDLEDALQQAKEDLARLLRDYQELMNTKLALDLEIATYRTLLEGEESRMSGECAPNVSVSVSTSHTTISGGGSRGGGGGGYGSGGSSYGSGGGSYGSGGGGGGGRGSYGSGGSSYGSGGGSYGSGGGGGGHGSYGSGSSSGGYRGGSGGGGGGSSGGRGSGGGSSGGSIGGRGSSSGGVKSSGGSSSVKFVSTTYSGVTR",
+        "full_sequence": "MSRQFSSRSGYRSGGGFSSGSAGIINYQRRTTSSSTRRSGGGGGRFSSCGGGGGSFGAGGGFGSRSLVNLGGSKSISISVARGGGRGSGFGGGYGGGGFGGGGFGGGGFGGGGIGGGGFGGFGSGGGGFGGGGFGGGGYGGGYGPVCPPGGIQEVTINQSLLQPLNVEIDPEIQKVKSREREQIKSLNNQFASFIDKVRFLEQQNQVLQTKWELLQQVDTSTRTHNLEPYFESFINNLRRRVDQLKSDQSRLDSELKNMQDMVEDYRNKYEDEINKRTNAENEFVTIKKDVDGAYMTKVDLQAKLDNLQQEIDFLTALYQAELSQMQTQISETNVILSMDNNRSLDLDSIIAEVKAQYEDIAQKSKAEAESLYQSKYEELQITAGRHGDSVRNSKIEISELNRVIQRLRSEIDNVKKQISNLQQSISDAEQRGENALKDAKNKLNDLEDALQQAKEDLARLLRDYQELMNTKLALDLEIATYRTLLEGEESRMSGECAPNVSVSVSTSHTTISGGGSRGGGGGGYGSGGSSYGSGGGSYGSGGGGGGGRGSYGSGGSSYGSGGGSYGSGGGGGGHGSYGSGSSSGGYRGGSGGGGGGSSGGRGSGGGSSGGSIGGRGSSSGGVKSSGGSSSVKFVSTTYSGVTR",
+        "n_residues": 644,
+        "mutation_pos_1indexed": 638,
+        "wt_aa": "T",
+        "mut_aa": "A",
+        "pocket_lining_residues": "V635-S636-T637-T638-Y639",
+        "pocket_lining_positions_precursor": [
+          635,
+          636,
+          637,
+          638,
+          639
+        ],
+        "pocket_lining_1letter": "VSTTY",
+        "sequence_slice_around_pocket": "GSSSVKFVSTTYSGVTR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT1_T638A/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "V635",
+          "S636",
+          "T637",
+          "T638",
+          "Y639"
+        ],
+        "values": [
+          [
+            0.0,
+            3.832,
+            6.46,
+            9.695,
+            12.819
+          ],
+          [
+            3.832,
+            0.0,
+            3.834,
+            6.345,
+            9.637
+          ],
+          [
+            6.46,
+            3.834,
+            0.0,
+            3.831,
+            6.391
+          ],
+          [
+            9.695,
+            6.345,
+            3.831,
+            0.0,
+            3.825
+          ],
+          [
+            12.819,
+            9.637,
+            6.391,
+            3.825,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC1CCCCC1ON1CCCCC1N1CCCCC1C(N)=O",
+        "composite_score": 0.5243794858614906,
+        "mw": 352.28,
+        "logp": 1.977,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.7634,
+        "sa_score": 4.18,
+        "n_heavy_atoms": 25,
+        "tpsa": 84.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT1-T638A Candidate #1",
+        "iupac_name": "NCCC1CCCCC1ON1CCCCC1N1CCCCC1C(N)=O",
+        "pocket_affinity_score": 0.5244,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT1_T638A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT1_T638A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT1_T638A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT1_T638A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT1_T638A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT1-T638A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT1-T638A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T05:49:15.758046+00:00"
     }
   ]
 }
