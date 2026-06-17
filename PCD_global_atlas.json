@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1084,
+  "total_entries": 1085,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45681,
-    "queue_remaining": 132916
+    "total_processed": 45682,
+    "queue_remaining": 132915
   },
   "entries": [
     {
@@ -238487,6 +238487,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:41:07.784082+00:00"
+    },
+    {
+      "entry_id": "PCD-TRMU-V285I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRMU-V285I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TRMU",
+        "uniprot": "",
+        "clinvar_id": "342008",
+        "disease": "Acute infantile liver failure due to synthesis defect of mtDNA-encoded proteins",
+        "mutation_precursor": "V285I",
+        "mutation_mature": "V285I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8017630772629653,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 643.2216086848351,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          14.263946533203125,
+          -8.91061782836914,
+          -22.204750061035156
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.165503298356998,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6074631945964492,
+        "cryptic": true,
+        "pocket_residues": {
+          "R240": "R",
+          "P241": "P",
+          "G242": "G",
+          "G258": "G",
+          "W259": "W",
+          "D283": "D",
+          "S284": "S",
+          "V285": "V",
+          "K286": "K",
+          "G287": "G",
+          "D288": "D"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O75648|TRMU variant V285I",
+        "fasta_sequence": "MQALRHVVCALSGGVDSAVAALLLRRRGYQVTGVFMKNWDSLDEHGVCTADKDCEDAYRVCQILDIPFHQVSYVKEYWNDVFSDFLNEYEKGRTPNPDIVCNKHIKFSCFFHYAVDNLGADAIATGHYARTSLEDEEVFEQKHVKKPEGLFRNRFEVRNAVKLLQAADSFKDQTFFLSQVSQDALRRTIFPLGGLTKEFVKKIAAENRLHHVLQKKESMGMCFIGKRNFEHFLLQYLQPRPGHFISIEDNKVLGTHKGWFLYTLGQRANIGGLREPWYVVEKDSVKGDVFVAPRTDHPALYRDLLRTSRVHWIAEEPPAALVRDKMMECHFRFRHQMALVPCVLTLNQDGTVWVTAVQAVRALATGQFAVFYKGDECLGSGKILRLGPSAYTLQKGQRRAGMATESPSDSPEDGPGLSPLL",
+        "full_sequence": "MQALRHVVCALSGGVDSAVAALLLRRRGYQVTGVFMKNWDSLDEHGVCTADKDCEDAYRVCQILDIPFHQVSYVKEYWNDVFSDFLNEYEKGRTPNPDIVCNKHIKFSCFFHYAVDNLGADAIATGHYARTSLEDEEVFEQKHVKKPEGLFRNRFEVRNAVKLLQAADSFKDQTFFLSQVSQDALRRTIFPLGGLTKEFVKKIAAENRLHHVLQKKESMGMCFIGKRNFEHFLLQYLQPRPGHFISIEDNKVLGTHKGWFLYTLGQRANIGGLREPWYVVEKDSVKGDVFVAPRTDHPALYRDLLRTSRVHWIAEEPPAALVRDKMMECHFRFRHQMALVPCVLTLNQDGTVWVTAVQAVRALATGQFAVFYKGDECLGSGKILRLGPSAYTLQKGQRRAGMATESPSDSPEDGPGLSPLL",
+        "n_residues": 421,
+        "mutation_pos_1indexed": 285,
+        "wt_aa": "V",
+        "mut_aa": "I",
+        "pocket_lining_residues": "R240-P241-G242-G258-W259-D283-S284-V285-K286-G287-D288",
+        "pocket_lining_positions_precursor": [
+          240,
+          241,
+          242,
+          258,
+          259,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288
+        ],
+        "pocket_lining_1letter": "RPGGWDSVKGD",
+        "sequence_slice_around_pocket": "EPWYVVEKDSVKGDVFVAPR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TRMU_V285I/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "R240",
+          "P241",
+          "G242",
+          "G258",
+          "W259",
+          "D283",
+          "S284",
+          "V285",
+          "K286",
+          "G287",
+          "D288"
+        ],
+        "values": [
+          [
+            0.0,
+            3.836,
+            6.603,
+            4.629,
+            7.536,
+            12.121,
+            9.956,
+            11.036,
+            10.123,
+            7.13,
+            9.829
+          ],
+          [
+            3.836,
+            0.0,
+            3.835,
+            5.106,
+            7.871,
+            12.276,
+            11.249,
+            12.113,
+            9.993,
+            7.11,
+            8.486
+          ],
+          [
+            6.603,
+            3.835,
+            0.0,
+            6.239,
+            7.085,
+            9.698,
+            9.784,
+            10.475,
+            7.632,
+            5.122,
+            5.109
+          ],
+          [
+            4.629,
+            5.106,
+            6.239,
+            0.0,
+            3.841,
+            10.605,
+            9.278,
+            11.683,
+            10.752,
+            6.959,
+            8.222
+          ],
+          [
+            7.536,
+            7.871,
+            7.085,
+            3.841,
+            0.0,
+            7.52,
+            6.873,
+            9.999,
+            9.485,
+            5.872,
+            6.312
+          ],
+          [
+            12.121,
+            12.276,
+            9.698,
+            10.605,
+            7.52,
+            0.0,
+            3.83,
+            5.483,
+            5.705,
+            5.507,
+            5.197
+          ],
+          [
+            9.956,
+            11.249,
+            9.784,
+            9.278,
+            6.873,
+            3.83,
+            0.0,
+            3.861,
+            5.771,
+            4.826,
+            6.945
+          ],
+          [
+            11.036,
+            12.113,
+            10.475,
+            11.683,
+            9.999,
+            5.483,
+            3.861,
+            0.0,
+            3.839,
+            5.551,
+            7.988
+          ],
+          [
+            10.123,
+            9.993,
+            7.632,
+            10.752,
+            9.485,
+            5.705,
+            5.771,
+            3.839,
+            0.0,
+            3.824,
+            5.483
+          ],
+          [
+            7.13,
+            7.11,
+            5.122,
+            6.959,
+            5.872,
+            5.507,
+            4.826,
+            5.551,
+            3.824,
+            0.0,
+            3.853
+          ],
+          [
+            9.829,
+            8.486,
+            5.109,
+            8.222,
+            6.312,
+            5.197,
+            6.945,
+            7.988,
+            5.483,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccc(S(N)(=O)=O)cc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "composite_score": 0.682048785873164,
+        "mw": 469.21,
+        "logp": 2.034,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 9,
+        "qed": 0.3788,
+        "sa_score": 3.28,
+        "n_heavy_atoms": 33,
+        "tpsa": 134.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TRMU-V285I Candidate #1",
+        "iupac_name": "NCCCc1ccc(S(N)(=O)=O)cc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.682,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TRMU_V285I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TRMU_V285I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TRMU_V285I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRMU_V285I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRMU_V285I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRMU-V285I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRMU-V285I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:41:32.116035+00:00"
     }
   ]
 }
