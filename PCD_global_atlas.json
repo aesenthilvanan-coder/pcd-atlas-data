@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 662,
+  "total_entries": 663,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45157,
-    "queue_remaining": 133440
+    "total_processed": 45158,
+    "queue_remaining": 133439
   },
   "entries": [
     {
@@ -147193,6 +147193,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:28:15.499702+00:00"
+    },
+    {
+      "entry_id": "PCD-LRTOMT-R70Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LRTOMT-R70Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LRTOMT",
+        "uniprot": "",
+        "clinvar_id": "305991",
+        "disease": "Autosomal recessive nonsyndromic hearing loss 63",
+        "mutation_precursor": "R70Q",
+        "mutation_mature": "R70Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7783759585892507,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 547.3454739519917,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          23.970600128173828,
+          -6.355501651763916,
+          -15.496498107910156
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.2236210658008435,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6802079724754261,
+        "cryptic": true,
+        "pocket_residues": {
+          "L69": "L",
+          "R70": "R",
+          "D71": "D",
+          "C72": "C",
+          "L73": "L",
+          "S74": "S"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8WZ04|LRTOMT variant R70Q",
+        "fasta_sequence": "MGTPWRKRKGIAGPGLPDLSCALVLQPRAQVGTMSPAIALAFLPLVVTLLVRYRHYFRLLVRTVLLRSLRDCLSGLRIEERAFSYVLTHALPGDPGHILTTLDHWSSRCEYLSHMGPVKGQILMRLVEEKAPACVLELGTYCGYSTLLIARALPPGGRLLTVERDPRTAAVAEKLIRLAGFDEHMVELIVGSSEDVIPCLRTQYQLSRADLVLLAHRPRCYLRDLQLLEAHALLPAGATVLADHVLFPGAPRFLQYAKSCGRYRCRLHHTGLPDFPAIKDGIAQLTYAGPG",
+        "full_sequence": "MGTPWRKRKGIAGPGLPDLSCALVLQPRAQVGTMSPAIALAFLPLVVTLLVRYRHYFRLLVRTVLLRSLRDCLSGLRIEERAFSYVLTHALPGDPGHILTTLDHWSSRCEYLSHMGPVKGQILMRLVEEKAPACVLELGTYCGYSTLLIARALPPGGRLLTVERDPRTAAVAEKLIRLAGFDEHMVELIVGSSEDVIPCLRTQYQLSRADLVLLAHRPRCYLRDLQLLEAHALLPAGATVLADHVLFPGAPRFLQYAKSCGRYRCRLHHTGLPDFPAIKDGIAQLTYAGPG",
+        "n_residues": 291,
+        "mutation_pos_1indexed": 70,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "L69-R70-D71-C72-L73-S74",
+        "pocket_lining_positions_precursor": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "pocket_lining_1letter": "LRDCLS",
+        "sequence_slice_around_pocket": "LVRTVLLRSLRDCLSGLRIE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LRTOMT_R70Q/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "L69",
+          "R70",
+          "D71",
+          "C72",
+          "L73",
+          "S74"
+        ],
+        "values": [
+          [
+            0.0,
+            3.857,
+            5.588,
+            5.216,
+            6.233,
+            8.726
+          ],
+          [
+            3.857,
+            0.0,
+            3.831,
+            5.315,
+            4.95,
+            5.867
+          ],
+          [
+            5.588,
+            3.831,
+            0.0,
+            3.855,
+            5.625,
+            5.488
+          ],
+          [
+            5.216,
+            5.315,
+            3.855,
+            0.0,
+            3.852,
+            5.834
+          ],
+          [
+            6.233,
+            4.95,
+            5.625,
+            3.852,
+            0.0,
+            3.844
+          ],
+          [
+            8.726,
+            5.867,
+            5.488,
+            5.834,
+            3.844,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(Cl)cc1C(O)C(=O)NC1CCCC1N1CCCCC1",
+        "composite_score": 0.708811757018555,
+        "mw": 379.17,
+        "logp": 1.995,
+        "hbd": 3,
+        "hba": 4,
+        "rotatable_bonds": 5,
+        "qed": 0.7286,
+        "sa_score": 3.39,
+        "n_heavy_atoms": 26,
+        "tpsa": 95.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LRTOMT-R70Q Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(Cl)cc1C(O)C(=O)NC1CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7088,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LRTOMT_R70Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LRTOMT_R70Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LRTOMT_R70Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LRTOMT_R70Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LRTOMT_R70Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LRTOMT-R70Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LRTOMT-R70Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:28:36.949691+00:00"
     }
   ]
 }
