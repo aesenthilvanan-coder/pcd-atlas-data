@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 779,
+  "total_entries": 780,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45293,
-    "queue_remaining": 133304
+    "total_processed": 45294,
+    "queue_remaining": 133303
   },
   "entries": [
     {
@@ -171706,6 +171706,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T14:01:01.976000+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT1-T328S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT1-T328S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT1",
+        "uniprot": "",
+        "clinvar_id": "309648",
+        "disease": "Diffuse nonepidermolytic palmoplantar keratoderma",
+        "mutation_precursor": "T328S",
+        "mutation_mature": "T328S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9330215077736219,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 410.7013506602773,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -78.24737548828125,
+          -12.640289306640625,
+          60.9535026550293
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.076259637479334,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8623462777643827,
+        "cryptic": true,
+        "pocket_residues": {
+          "T328": "T",
+          "Q329": "Q",
+          "I330": "I",
+          "S331": "S",
+          "E332": "E",
+          "T333": "T",
+          "N334": "N"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P04264|KRT1 variant T328S",
+        "fasta_sequence": "MSRQFSSRSGYRSGGGFSSGSAGIINYQRRTTSSSTRRSGGGGGRFSSCGGGGGSFGAGGGFGSRSLVNLGGSKSISISVARGGGRGSGFGGGYGGGGFGGGGFGGGGFGGGGIGGGGFGGFGSGGGGFGGGGFGGGGYGGGYGPVCPPGGIQEVTINQSLLQPLNVEIDPEIQKVKSREREQIKSLNNQFASFIDKVRFLEQQNQVLQTKWELLQQVDTSTRTHNLEPYFESFINNLRRRVDQLKSDQSRLDSELKNMQDMVEDYRNKYEDEINKRTNAENEFVTIKKDVDGAYMTKVDLQAKLDNLQQEIDFLTALYQAELSQMQTQISETNVILSMDNNRSLDLDSIIAEVKAQYEDIAQKSKAEAESLYQSKYEELQITAGRHGDSVRNSKIEISELNRVIQRLRSEIDNVKKQISNLQQSISDAEQRGENALKDAKNKLNDLEDALQQAKEDLARLLRDYQELMNTKLALDLEIATYRTLLEGEESRMSGECAPNVSVSVSTSHTTISGGGSRGGGGGGYGSGGSSYGSGGGSYGSGGGGGGGRGSYGSGGSSYGSGGGSYGSGGGGGGHGSYGSGSSSGGYRGGSGGGGGGSSGGRGSGGGSSGGSIGGRGSSSGGVKSSGGSSSVKFVSTTYSGVTR",
+        "full_sequence": "MSRQFSSRSGYRSGGGFSSGSAGIINYQRRTTSSSTRRSGGGGGRFSSCGGGGGSFGAGGGFGSRSLVNLGGSKSISISVARGGGRGSGFGGGYGGGGFGGGGFGGGGFGGGGIGGGGFGGFGSGGGGFGGGGFGGGGYGGGYGPVCPPGGIQEVTINQSLLQPLNVEIDPEIQKVKSREREQIKSLNNQFASFIDKVRFLEQQNQVLQTKWELLQQVDTSTRTHNLEPYFESFINNLRRRVDQLKSDQSRLDSELKNMQDMVEDYRNKYEDEINKRTNAENEFVTIKKDVDGAYMTKVDLQAKLDNLQQEIDFLTALYQAELSQMQTQISETNVILSMDNNRSLDLDSIIAEVKAQYEDIAQKSKAEAESLYQSKYEELQITAGRHGDSVRNSKIEISELNRVIQRLRSEIDNVKKQISNLQQSISDAEQRGENALKDAKNKLNDLEDALQQAKEDLARLLRDYQELMNTKLALDLEIATYRTLLEGEESRMSGECAPNVSVSVSTSHTTISGGGSRGGGGGGYGSGGSSYGSGGGSYGSGGGGGGGRGSYGSGGSSYGSGGGSYGSGGGGGGHGSYGSGSSSGGYRGGSGGGGGGSSGGRGSGGGSSGGSIGGRGSSSGGVKSSGGSSSVKFVSTTYSGVTR",
+        "n_residues": 644,
+        "mutation_pos_1indexed": 328,
+        "wt_aa": "T",
+        "mut_aa": "S",
+        "pocket_lining_residues": "T328-Q329-I330-S331-E332-T333-N334",
+        "pocket_lining_positions_precursor": [
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334
+        ],
+        "pocket_lining_1letter": "TQISETN",
+        "sequence_slice_around_pocket": "LYQAELSQMQTQISETNVIL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT1_T328S/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "T328",
+          "Q329",
+          "I330",
+          "S331",
+          "E332",
+          "T333",
+          "N334"
+        ],
+        "values": [
+          [
+            0.0,
+            3.866,
+            5.535,
+            4.987,
+            6.395,
+            8.826,
+            10.306
+          ],
+          [
+            3.866,
+            0.0,
+            3.854,
+            5.392,
+            5.178,
+            6.205,
+            8.736
+          ],
+          [
+            5.535,
+            3.854,
+            0.0,
+            3.864,
+            5.442,
+            5.086,
+            6.028
+          ],
+          [
+            4.987,
+            5.392,
+            3.864,
+            0.0,
+            3.868,
+            5.77,
+            5.783
+          ],
+          [
+            6.395,
+            5.178,
+            5.442,
+            3.868,
+            0.0,
+            3.892,
+            5.865
+          ],
+          [
+            8.826,
+            6.205,
+            5.086,
+            5.77,
+            3.892,
+            0.0,
+            3.855
+          ],
+          [
+            10.306,
+            8.736,
+            6.028,
+            5.783,
+            5.865,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.7897087973421691,
+        "mw": 276.18,
+        "logp": 2.016,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 6,
+        "qed": 0.8628,
+        "sa_score": 2.25,
+        "n_heavy_atoms": 20,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT1-T328S Candidate #1",
+        "iupac_name": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7897,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT1_T328S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT1_T328S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT1_T328S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT1_T328S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT1_T328S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT1-T328S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT1-T328S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T14:01:28.388323+00:00"
     }
   ]
 }
