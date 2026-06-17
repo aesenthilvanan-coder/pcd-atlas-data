@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 114,
+  "total_entries": 115,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44518,
-    "queue_remaining": 134079
+    "total_processed": 44519,
+    "queue_remaining": 134078
   },
   "entries": [
     {
@@ -26155,6 +26155,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:21:50.634406+00:00"
+    },
+    {
+      "entry_id": "PCD-TRIM32-P137S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRIM32-P137S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TRIM32",
+        "uniprot": "",
+        "clinvar_id": "364717",
+        "disease": "Sarcotubular myopathy",
+        "mutation_precursor": "P137S",
+        "mutation_mature": "P137S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7528339229490999,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 538.4962407098515,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          70.5567855834961,
+          30.725187301635742,
+          -51.45044708251953
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.8592133748270316,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6782335921169588,
+        "cryptic": true,
+        "pocket_residues": {
+          "R109": "R",
+          "Q110": "Q",
+          "F111": "F",
+          "C112": "C",
+          "E121": "E",
+          "T135": "T",
+          "L136": "L",
+          "P137": "P",
+          "V138": "V",
+          "E140": "E"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13049|TRIM32 variant P137S",
+        "fasta_sequence": "MAAAAASHLNLDALREVLECPICMESFTEEQLRPKLLHCGHTICRQCLEKLLASSINGVRCPFCSKITRITSLTQLTDNLTVLKIIDTAGLSEAVGLLMCRSCGRRLPRQFCRSCGLVLCEPCREADHQPPGHCTLPVKEAAEERRRDFGEKLTRLRELMGELQRRKAALEGVSKDLQARYKAVLQEYGHEERRVQDELARSRKFFTGSLAEVEKSNSQVVEEQSYLLNIAEVQAVSRCDYFLAKIKQADVALLEETADEEEPELTASLPRELTLQDVELLKVGHVGPLQIGQAVKKPRTVNVEDSWAMEATASAASTSVTFREMDMSPEEVVASPRASPAKQRGPEAASNIQQCLFLKKMGAKGSTPGMFNLPVSLYVTSQGEVLVADRGNYRIQVFTRKGFLKEIRRSPSGIDSFVLSFLGADLPNLTPLSVAMNCQGLIGVTDSYDNSLKVYTLDGHCVACHRSQLSKPWGITALPSGQFVVTDVEGGKLWCFTVDRGSGVVKYSCLCSAVRPKFVTCDAEGTVYFTQGLGLNLENRQNEHHLEGGFSIGSVGPDGQLGRQISHFFSENEDFRCIAGMCVDARGDLIVADSSRKEILHFPKGGGYSVLIREGLTCPVGIALTPKGQLLVLDCWDHCIKIYSYHLRRYSTP",
+        "full_sequence": "MAAAAASHLNLDALREVLECPICMESFTEEQLRPKLLHCGHTICRQCLEKLLASSINGVRCPFCSKITRITSLTQLTDNLTVLKIIDTAGLSEAVGLLMCRSCGRRLPRQFCRSCGLVLCEPCREADHQPPGHCTLPVKEAAEERRRDFGEKLTRLRELMGELQRRKAALEGVSKDLQARYKAVLQEYGHEERRVQDELARSRKFFTGSLAEVEKSNSQVVEEQSYLLNIAEVQAVSRCDYFLAKIKQADVALLEETADEEEPELTASLPRELTLQDVELLKVGHVGPLQIGQAVKKPRTVNVEDSWAMEATASAASTSVTFREMDMSPEEVVASPRASPAKQRGPEAASNIQQCLFLKKMGAKGSTPGMFNLPVSLYVTSQGEVLVADRGNYRIQVFTRKGFLKEIRRSPSGIDSFVLSFLGADLPNLTPLSVAMNCQGLIGVTDSYDNSLKVYTLDGHCVACHRSQLSKPWGITALPSGQFVVTDVEGGKLWCFTVDRGSGVVKYSCLCSAVRPKFVTCDAEGTVYFTQGLGLNLENRQNEHHLEGGFSIGSVGPDGQLGRQISHFFSENEDFRCIAGMCVDARGDLIVADSSRKEILHFPKGGGYSVLIREGLTCPVGIALTPKGQLLVLDCWDHCIKIYSYHLRRYSTP",
+        "n_residues": 653,
+        "mutation_pos_1indexed": 137,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "R109-Q110-F111-C112-E121-T135-L136-P137-V138-E140",
+        "pocket_lining_positions_precursor": [
+          109,
+          110,
+          111,
+          112,
+          121,
+          135,
+          136,
+          137,
+          138,
+          140
+        ],
+        "pocket_lining_1letter": "RQFCETLPVE",
+        "sequence_slice_around_pocket": "DHQPPGHCTLPVKEAAEERR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TRIM32_P137S/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "R109",
+          "Q110",
+          "F111",
+          "C112",
+          "E121",
+          "T135",
+          "L136",
+          "P137",
+          "V138",
+          "E140"
+        ],
+        "values": [
+          [
+            0.0,
+            3.823,
+            7.052,
+            10.199,
+            6.267,
+            9.946,
+            8.547,
+            5.867,
+            5.705,
+            10.444
+          ],
+          [
+            3.823,
+            0.0,
+            3.827,
+            6.55,
+            6.465,
+            6.231,
+            5.489,
+            4.511,
+            5.038,
+            9.353
+          ],
+          [
+            7.052,
+            3.827,
+            0.0,
+            3.808,
+            9.788,
+            5.473,
+            5.312,
+            5.993,
+            5.101,
+            8.944
+          ],
+          [
+            10.199,
+            6.55,
+            3.808,
+            0.0,
+            10.994,
+            4.281,
+            6.507,
+            8.833,
+            8.779,
+            11.553
+          ],
+          [
+            6.267,
+            6.465,
+            9.788,
+            10.994,
+            0.0,
+            9.954,
+            10.488,
+            9.578,
+            11.036,
+            14.997
+          ],
+          [
+            9.946,
+            6.231,
+            5.473,
+            4.281,
+            9.954,
+            0.0,
+            3.841,
+            7.097,
+            8.908,
+            10.339
+          ],
+          [
+            8.547,
+            5.489,
+            5.312,
+            6.507,
+            10.488,
+            3.841,
+            0.0,
+            3.839,
+            6.252,
+            6.663
+          ],
+          [
+            5.867,
+            4.511,
+            5.993,
+            8.833,
+            9.578,
+            7.097,
+            3.839,
+            0.0,
+            3.867,
+            5.438
+          ],
+          [
+            5.705,
+            5.038,
+            5.101,
+            8.779,
+            11.036,
+            8.908,
+            6.252,
+            3.867,
+            0.0,
+            5.624
+          ],
+          [
+            10.444,
+            9.353,
+            8.944,
+            11.553,
+            14.997,
+            10.339,
+            6.663,
+            5.438,
+            5.624,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCc1ccncc1CNc1ccncc1N1CCCCC1OC(N)=O",
+        "composite_score": 0.8158067267054975,
+        "mw": 370.21,
+        "logp": 2.002,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.6817,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 27,
+        "tpsa": 119.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TRIM32-P137S Candidate #1",
+        "iupac_name": "NCCc1ccncc1CNc1ccncc1N1CCCCC1OC(N)=O",
+        "pocket_affinity_score": 0.8158,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TRIM32_P137S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TRIM32_P137S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TRIM32_P137S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRIM32_P137S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRIM32_P137S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRIM32-P137S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRIM32-P137S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:22:16.978877+00:00"
     }
   ]
 }
