@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 417,
+  "total_entries": 418,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44870,
-    "queue_remaining": 133727
+    "total_processed": 44871,
+    "queue_remaining": 133726
   },
   "entries": [
     {
@@ -91851,6 +91851,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:12:47.600969+00:00"
+    },
+    {
+      "entry_id": "PCD-PSTPIP1-N286D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSTPIP1-N286D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PSTPIP1",
+        "uniprot": "",
+        "clinvar_id": "317181",
+        "disease": "Pyogenic arthritis-pyoderma gangrenosum-acne syndrome",
+        "mutation_precursor": "N286D",
+        "mutation_mature": "N286D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8593931461144164,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 588.11735607492,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          69.63163757324219,
+          -0.4738752245903015,
+          -78.82767486572266
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.8865598831430197,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6336941091253622,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q285": "Q",
+          "N286": "N",
+          "Y287": "Y",
+          "Y288": "Y",
+          "D289": "D"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43586|PSTPIP1 variant N286D",
+        "fasta_sequence": "MMPQLQFKDAFWCRDFTAHTGYEVLLQRLLDGRKMCKDMEELLRQRAQAEERYGKELVQIARKAGGQTEINSLRASFDSLKQQMENVGSSHIQLALTLREELRSLEEFRERQKEQRKKYEAVMDRVQKSKLSLYKKAMESKKTYEQKCRDADDAEQAFERISANGHQKQVEKSQNKARQCKDSATEAERVYRQSIAQLEKVRAEWEQEHRTTCEAFQLQEFDRLTILRNALWVHSNQLSMQCVKDDELYEEVRLTLEGCSIDADIDSFIQAKSTGTEPPAPVPYQNYYDREVTPLTSSPGIQPSCGMIKRFSGLLHGSPKTTSLAASAASTETLTPTPERNEGVYTAIAVQEIQGNPASPAQEYRALYDYTAQNPDELDLSAGDILEVILEGEDGWWTVERNGQRGFVPGSYLEKL",
+        "full_sequence": "MMPQLQFKDAFWCRDFTAHTGYEVLLQRLLDGRKMCKDMEELLRQRAQAEERYGKELVQIARKAGGQTEINSLRASFDSLKQQMENVGSSHIQLALTLREELRSLEEFRERQKEQRKKYEAVMDRVQKSKLSLYKKAMESKKTYEQKCRDADDAEQAFERISANGHQKQVEKSQNKARQCKDSATEAERVYRQSIAQLEKVRAEWEQEHRTTCEAFQLQEFDRLTILRNALWVHSNQLSMQCVKDDELYEEVRLTLEGCSIDADIDSFIQAKSTGTEPPAPVPYQNYYDREVTPLTSSPGIQPSCGMIKRFSGLLHGSPKTTSLAASAASTETLTPTPERNEGVYTAIAVQEIQGNPASPAQEYRALYDYTAQNPDELDLSAGDILEVILEGEDGWWTVERNGQRGFVPGSYLEKL",
+        "n_residues": 416,
+        "mutation_pos_1indexed": 286,
+        "wt_aa": "N",
+        "mut_aa": "D",
+        "pocket_lining_residues": "Q285-N286-Y287-Y288-D289",
+        "pocket_lining_positions_precursor": [
+          285,
+          286,
+          287,
+          288,
+          289
+        ],
+        "pocket_lining_1letter": "QNYYD",
+        "sequence_slice_around_pocket": "TEPPAPVPYQNYYDREVTPL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_N286D/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "Q285",
+          "N286",
+          "Y287",
+          "Y288",
+          "D289"
+        ],
+        "values": [
+          [
+            0.0,
+            3.796,
+            6.232,
+            8.376,
+            6.974
+          ],
+          [
+            3.796,
+            0.0,
+            3.84,
+            5.47,
+            5.433
+          ],
+          [
+            6.232,
+            3.84,
+            0.0,
+            3.861,
+            5.815
+          ],
+          [
+            8.376,
+            5.47,
+            3.861,
+            0.0,
+            3.88
+          ],
+          [
+            6.974,
+            5.433,
+            5.815,
+            3.88,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC1CC(=O)CCC1ON1CCCCC1CNC(=O)c1ccc(F)cc1",
+        "composite_score": 0.732311526219134,
+        "mw": 377.21,
+        "logp": 2.038,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.7925,
+        "sa_score": 3.71,
+        "n_heavy_atoms": 27,
+        "tpsa": 84.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PSTPIP1-N286D Candidate #1",
+        "iupac_name": "NCC1CC(=O)CCC1ON1CCCCC1CNC(=O)c1ccc(F)cc1",
+        "pocket_affinity_score": 0.7323,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_N286D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_N286D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_N286D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_N286D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_N286D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSTPIP1-N286D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSTPIP1-N286D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:13:09.631175+00:00"
     }
   ]
 }
