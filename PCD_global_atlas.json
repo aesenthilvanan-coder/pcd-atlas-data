@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 618,
+  "total_entries": 619,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45108,
-    "queue_remaining": 133489
+    "total_processed": 45109,
+    "queue_remaining": 133488
   },
   "entries": [
     {
@@ -136703,6 +136703,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:52:58.098641+00:00"
+    },
+    {
+      "entry_id": "PCD-CBLIF-Y52N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBLIF-Y52N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CBLIF",
+        "uniprot": "",
+        "clinvar_id": "305044",
+        "disease": "Hereditary intrinsic factor deficiency",
+        "mutation_precursor": "Y52N",
+        "mutation_mature": "Y52N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9070240743756519,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 313.5550725000593,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          4.609364986419678,
+          -2.2901296615600586,
+          8.335258483886719
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.902719916189159,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6540952678727265,
+        "cryptic": true,
+        "pocket_residues": {
+          "A51": "A",
+          "Y52": "Y",
+          "P53": "P",
+          "N54": "N",
+          "P55": "P",
+          "L75": "L",
+          "T76": "T",
+          "Y77": "Y",
+          "Q78": "Q",
+          "L79": "L",
+          "S82": "S"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P27352|CBLIF variant Y52N",
+        "fasta_sequence": "MAWFALYLLSLLWATAGTSTQTQSSCSVPSAQEPLVNGIQVLMENSVTSSAYPNPSILIAMNLAGAYNLKAQKLLTYQLMSSDNNDLTIGQLGLTIMALTSSCRDPGDKVSILQRQMENWAPSSPNAEASAFYGPSLAILALCQKNSEATLPIAVRFAKTLLANSSPFNVDTGAMATLALTCMYNKIPVGSEEGYRSLFGQVLKDIVEKISMKIKDNGIIGDIYSTGLAMQALSVTPEPSKKEWNCKKTTDMILNEIKQGKFHNPMSIAQILPSLKGKTYLDVPQVTCSPDHEVQPTLPSNPGPGPTSASNITVIYTINNQLRGVELLFNETINVSVKSGSVLLVVLEEAQRKNPMFKFETTMTSWGLVVSSINNIAENVNHKTYWQFLSGVTPLNEGVADYIPFNHEHITANFTQY",
+        "full_sequence": "MAWFALYLLSLLWATAGTSTQTQSSCSVPSAQEPLVNGIQVLMENSVTSSAYPNPSILIAMNLAGAYNLKAQKLLTYQLMSSDNNDLTIGQLGLTIMALTSSCRDPGDKVSILQRQMENWAPSSPNAEASAFYGPSLAILALCQKNSEATLPIAVRFAKTLLANSSPFNVDTGAMATLALTCMYNKIPVGSEEGYRSLFGQVLKDIVEKISMKIKDNGIIGDIYSTGLAMQALSVTPEPSKKEWNCKKTTDMILNEIKQGKFHNPMSIAQILPSLKGKTYLDVPQVTCSPDHEVQPTLPSNPGPGPTSASNITVIYTINNQLRGVELLFNETINVSVKSGSVLLVVLEEAQRKNPMFKFETTMTSWGLVVSSINNIAENVNHKTYWQFLSGVTPLNEGVADYIPFNHEHITANFTQY",
+        "n_residues": 417,
+        "mutation_pos_1indexed": 52,
+        "wt_aa": "Y",
+        "mut_aa": "N",
+        "pocket_lining_residues": "A51-Y52-P53-N54-P55-L75-T76-Y77-Q78-L79-S82",
+        "pocket_lining_positions_precursor": [
+          51,
+          52,
+          53,
+          54,
+          55,
+          75,
+          76,
+          77,
+          78,
+          79,
+          82
+        ],
+        "pocket_lining_1letter": "AYPNPLTYQLS",
+        "sequence_slice_around_pocket": "LMENSVTSSAYPNPSILIAM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_Y52N/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "A51",
+          "Y52",
+          "P53",
+          "N54",
+          "P55",
+          "L75",
+          "T76",
+          "Y77",
+          "Q78",
+          "L79",
+          "S82"
+        ],
+        "values": [
+          [
+            0.0,
+            3.817,
+            6.125,
+            8.301,
+            11.825,
+            9.254,
+            12.879,
+            12.935,
+            9.954,
+            11.931,
+            13.363
+          ],
+          [
+            3.817,
+            0.0,
+            3.885,
+            5.947,
+            9.524,
+            9.343,
+            12.392,
+            12.647,
+            9.174,
+            10.085,
+            10.982
+          ],
+          [
+            6.125,
+            3.885,
+            0.0,
+            3.839,
+            6.438,
+            6.212,
+            8.755,
+            9.427,
+            6.231,
+            6.47,
+            8.616
+          ],
+          [
+            8.301,
+            5.947,
+            3.839,
+            0.0,
+            3.88,
+            7.647,
+            9.759,
+            11.669,
+            9.197,
+            8.119,
+            10.975
+          ],
+          [
+            11.825,
+            9.524,
+            6.438,
+            3.88,
+            0.0,
+            7.942,
+            8.483,
+            11.098,
+            9.569,
+            7.14,
+            10.764
+          ],
+          [
+            9.254,
+            9.343,
+            6.212,
+            7.647,
+            7.942,
+            0.0,
+            3.843,
+            5.458,
+            5.066,
+            6.239,
+            10.581
+          ],
+          [
+            12.879,
+            12.392,
+            8.755,
+            9.759,
+            8.483,
+            3.843,
+            0.0,
+            3.838,
+            5.609,
+            5.348,
+            10.119
+          ],
+          [
+            12.935,
+            12.647,
+            9.427,
+            11.669,
+            11.098,
+            5.458,
+            3.838,
+            0.0,
+            3.842,
+            5.416,
+            8.63
+          ],
+          [
+            9.954,
+            9.174,
+            6.231,
+            9.197,
+            9.569,
+            5.066,
+            5.609,
+            3.842,
+            0.0,
+            3.858,
+            6.23
+          ],
+          [
+            11.931,
+            10.085,
+            6.47,
+            8.119,
+            7.14,
+            6.239,
+            5.348,
+            5.416,
+            3.858,
+            0.0,
+            5.072
+          ],
+          [
+            13.363,
+            10.982,
+            8.616,
+            10.975,
+            10.764,
+            10.581,
+            10.119,
+            8.63,
+            6.23,
+            5.072,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.7117556301769902,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CBLIF-Y52N Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7118,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_Y52N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_Y52N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_Y52N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_Y52N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_Y52N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBLIF-Y52N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBLIF-Y52N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:53:19.948972+00:00"
     }
   ]
 }
