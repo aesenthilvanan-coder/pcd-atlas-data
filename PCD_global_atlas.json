@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 745,
+  "total_entries": 746,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45256,
-    "queue_remaining": 133341
+    "total_processed": 45258,
+    "queue_remaining": 133339
   },
   "entries": [
     {
@@ -164798,6 +164798,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:31:59.117641+00:00"
+    },
+    {
+      "entry_id": "PCD-GALC-W10R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALC-W10R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GALC",
+        "uniprot": "",
+        "clinvar_id": "314764",
+        "disease": "Galactosylceramide beta-galactosidase deficiency",
+        "mutation_precursor": "W10R",
+        "mutation_mature": "W10R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7972849638769249,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 397.72914400206434,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.924548625946045,
+          -28.374605178833008,
+          -1.5911502838134766
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.153837757076163,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8965849004293933,
+        "cryptic": true,
+        "pocket_residues": {
+          "S7": "S",
+          "A8": "A",
+          "S9": "S",
+          "W10": "W",
+          "Q11": "Q"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P54803|GALC variant W10R",
+        "fasta_sequence": "MAEWLLSASWQRRAKAMTAAAGSAGRAAVPLLLCALLAPGGAYVLDDSDGLGREFDGIGAVSGGGATSRLLVNYPEPYRSQILDYLFKPNFGASLHILKVEIGGDGQTTDGTEPSHMHYALDENYFRGYEWWLMKEAKKRNPNITLIGLPWSFPGWLGKGFDWPYVNLQLTAYYVVTWIVGAKRYHDLDIDYIGIWNERSYNANYIKILRKMLNYQGLQRVKIIASDNLWESISASMLLDAELFKVVDVIGAHYPGTHSAKDAKLTGKKLWSSEDFSTLNSDMGAGCWGRILNQNYINGYMTSTIAWNLVASYYEQLPYGRCGLMTAQEPWSGHYVVESPVWVSAHTTQFTQPGWYYLKTVGHLEKGGSYVALTDGLGNLTIIIETMSHKHSKCIRPFLPYFNVSQQFATFVLKGSFSEIPELQVWYTKLGKTSERFLFKQLDSLWLLDSDGSFTLSLHEDELFTLTTLTTGRKGSYPLPPKSQPFPSTYKDDFNVDYPFFSEAPNFADQTGVFEYFTNIEDPGEHHFTLRQVLNQRPITWAADASNTISIIGDYNWTNLTIKCDVYIETPDTGGVFIAGRVNKGGILIRSARGIFFWIFANGSYRVTGDLAGWIIYALGRVEVTAKKWYTLTLTIKGHFTSGMLNDKSLWTDIPVNFPKNGWAAIGTHSFEFAQFDNFLVEATR",
+        "full_sequence": "MAEWLLSASWQRRAKAMTAAAGSAGRAAVPLLLCALLAPGGAYVLDDSDGLGREFDGIGAVSGGGATSRLLVNYPEPYRSQILDYLFKPNFGASLHILKVEIGGDGQTTDGTEPSHMHYALDENYFRGYEWWLMKEAKKRNPNITLIGLPWSFPGWLGKGFDWPYVNLQLTAYYVVTWIVGAKRYHDLDIDYIGIWNERSYNANYIKILRKMLNYQGLQRVKIIASDNLWESISASMLLDAELFKVVDVIGAHYPGTHSAKDAKLTGKKLWSSEDFSTLNSDMGAGCWGRILNQNYINGYMTSTIAWNLVASYYEQLPYGRCGLMTAQEPWSGHYVVESPVWVSAHTTQFTQPGWYYLKTVGHLEKGGSYVALTDGLGNLTIIIETMSHKHSKCIRPFLPYFNVSQQFATFVLKGSFSEIPELQVWYTKLGKTSERFLFKQLDSLWLLDSDGSFTLSLHEDELFTLTTLTTGRKGSYPLPPKSQPFPSTYKDDFNVDYPFFSEAPNFADQTGVFEYFTNIEDPGEHHFTLRQVLNQRPITWAADASNTISIIGDYNWTNLTIKCDVYIETPDTGGVFIAGRVNKGGILIRSARGIFFWIFANGSYRVTGDLAGWIIYALGRVEVTAKKWYTLTLTIKGHFTSGMLNDKSLWTDIPVNFPKNGWAAIGTHSFEFAQFDNFLVEATR",
+        "n_residues": 685,
+        "mutation_pos_1indexed": 10,
+        "wt_aa": "W",
+        "mut_aa": "R",
+        "pocket_lining_residues": "S7-A8-S9-W10-Q11",
+        "pocket_lining_positions_precursor": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "pocket_lining_1letter": "SASWQ",
+        "sequence_slice_around_pocket": "MAEWLLSASWQRRAKAMTA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_W10R/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "S7",
+          "A8",
+          "S9",
+          "W10",
+          "Q11"
+        ],
+        "values": [
+          [
+            0.0,
+            3.85,
+            6.636,
+            8.108,
+            10.805
+          ],
+          [
+            3.85,
+            0.0,
+            3.86,
+            6.403,
+            8.486
+          ],
+          [
+            6.636,
+            3.86,
+            0.0,
+            3.844,
+            6.412
+          ],
+          [
+            8.108,
+            6.403,
+            3.844,
+            0.0,
+            3.826
+          ],
+          [
+            10.805,
+            8.486,
+            6.412,
+            3.826,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC1CC(=O)CC1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.5283037824083066,
+        "mw": 293.25,
+        "logp": 1.981,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 4,
+        "qed": 0.8609,
+        "sa_score": 3.92,
+        "n_heavy_atoms": 21,
+        "tpsa": 49.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GALC-W10R Candidate #1",
+        "iupac_name": "NCCC1CC(=O)CC1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5283,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_W10R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_W10R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_W10R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_W10R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GALC_W10R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALC-W10R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALC-W10R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:32:39.106130+00:00"
     }
   ]
 }
