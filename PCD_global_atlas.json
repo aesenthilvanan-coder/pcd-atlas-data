@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 169,
+  "total_entries": 170,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44578,
-    "queue_remaining": 134019
+    "total_processed": 44579,
+    "queue_remaining": 134018
   },
   "entries": [
     {
@@ -38445,6 +38445,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T05:34:12.635678+00:00"
+    },
+    {
+      "entry_id": "PCD-HPS1-G643E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS1-G643E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HPS1",
+        "uniprot": "",
+        "clinvar_id": "298337",
+        "disease": "Hermansky-Pudlak syndrome 1",
+        "mutation_precursor": "G643E",
+        "mutation_mature": "G643E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.764442087854317,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 410.3897075591205,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.97195053100586,
+          -2.985940933227539,
+          -5.884575843811035
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.091517697845558,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7368522336394449,
+        "cryptic": true,
+        "pocket_residues": {
+          "R107": "R",
+          "Y110": "Y",
+          "V111": "V",
+          "S635": "S",
+          "V636": "V",
+          "P637": "P",
+          "L641": "L",
+          "G642": "G",
+          "G643": "G",
+          "D644": "D"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q92902|HPS1 variant G643E",
+        "fasta_sequence": "MKCVLVATEGAEVLFYWTDQEFEESLRLKFGQSENEEEELPALEDQLSTLLAPVIISSMTMLEKLSDTYTCFSTENGNFLYVLHLFGECLFIAINGDHTESEGDLRRKLYVLKYLFEVHFGLVTVDGHLIRKELRPPDLAQRVQLWEHFQSLLWTYSRLREQEQCFAVEALERLIHPQLCELCIEALERHVIQAVNTSPERGGEEALHAFLLVHSKLLAFYSSHSASSLRPADLLALILLVQDLYPSESTAEDDIQPSPRRARSSQNIPVQQAWSPHSTGPTGGSSAETETDSFSLPEEYFTPAPSPGDQSSGSTIWLEGGTPPMDALQIAEDTLQTLVPHCPVPSGPRRIFLDANVKESYCPLVPHTMYCLPLWQGINLVLLTRSPSAPLALVLSQLMDGFSMLEKKLKEGPEPGASLRSQPLVGDLRQRMDKFVKNRGAQEIQSTWLEFKAKAFSKSEPGSSWELLQACGKLKRQLCAIYRLNFLTTAPSRGGPHLPQHLQDQVQRLMREKLTDWKDFLLVKSRRNITMVSYLEDFPGLVHFIYVDRTTGQMVAPSLNCSQKTSSELGKGPLAAFVKTKVWSLIQLARRYLQKGYTTLLFQEGDFYCSYFLWFENDMGYKLQMIEVPVLSDDSVPIGMLGGDYYRKLLRYYSKNRPTEAVRCYELLALHLSVIPTDLLVQQAGQLARRLWEASRIPLL",
+        "full_sequence": "MKCVLVATEGAEVLFYWTDQEFEESLRLKFGQSENEEEELPALEDQLSTLLAPVIISSMTMLEKLSDTYTCFSTENGNFLYVLHLFGECLFIAINGDHTESEGDLRRKLYVLKYLFEVHFGLVTVDGHLIRKELRPPDLAQRVQLWEHFQSLLWTYSRLREQEQCFAVEALERLIHPQLCELCIEALERHVIQAVNTSPERGGEEALHAFLLVHSKLLAFYSSHSASSLRPADLLALILLVQDLYPSESTAEDDIQPSPRRARSSQNIPVQQAWSPHSTGPTGGSSAETETDSFSLPEEYFTPAPSPGDQSSGSTIWLEGGTPPMDALQIAEDTLQTLVPHCPVPSGPRRIFLDANVKESYCPLVPHTMYCLPLWQGINLVLLTRSPSAPLALVLSQLMDGFSMLEKKLKEGPEPGASLRSQPLVGDLRQRMDKFVKNRGAQEIQSTWLEFKAKAFSKSEPGSSWELLQACGKLKRQLCAIYRLNFLTTAPSRGGPHLPQHLQDQVQRLMREKLTDWKDFLLVKSRRNITMVSYLEDFPGLVHFIYVDRTTGQMVAPSLNCSQKTSSELGKGPLAAFVKTKVWSLIQLARRYLQKGYTTLLFQEGDFYCSYFLWFENDMGYKLQMIEVPVLSDDSVPIGMLGGDYYRKLLRYYSKNRPTEAVRCYELLALHLSVIPTDLLVQQAGQLARRLWEASRIPLL",
+        "n_residues": 700,
+        "mutation_pos_1indexed": 643,
+        "wt_aa": "G",
+        "mut_aa": "E",
+        "pocket_lining_residues": "R107-Y110-V111-S635-V636-P637-L641-G642-G643-D644",
+        "pocket_lining_positions_precursor": [
+          107,
+          110,
+          111,
+          635,
+          636,
+          637,
+          641,
+          642,
+          643,
+          644
+        ],
+        "pocket_lining_1letter": "RYVSVPLGGD",
+        "sequence_slice_around_pocket": "DDSVPIGMLGGDYYRKLLRY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_G643E/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "R107",
+          "Y110",
+          "V111",
+          "S635",
+          "V636",
+          "P637",
+          "L641",
+          "G642",
+          "G643",
+          "D644"
+        ],
+        "values": [
+          [
+            0.0,
+            5.08,
+            6.031,
+            10.159,
+            7.678,
+            5.829,
+            8.706,
+            6.23,
+            9.676,
+            12.075
+          ],
+          [
+            5.08,
+            0.0,
+            3.871,
+            10.536,
+            7.464,
+            8.046,
+            7.678,
+            4.748,
+            7.455,
+            10.896
+          ],
+          [
+            6.031,
+            3.871,
+            0.0,
+            13.809,
+            10.398,
+            9.968,
+            5.898,
+            5.107,
+            8.447,
+            11.111
+          ],
+          [
+            10.159,
+            10.536,
+            13.809,
+            0.0,
+            3.829,
+            6.042,
+            14.019,
+            10.443,
+            10.232,
+            12.277
+          ],
+          [
+            7.678,
+            7.464,
+            10.398,
+            3.829,
+            0.0,
+            3.869,
+            10.226,
+            6.643,
+            6.632,
+            9.03
+          ],
+          [
+            5.829,
+            8.046,
+            9.968,
+            6.042,
+            3.869,
+            0.0,
+            9.463,
+            6.513,
+            7.901,
+            9.4
+          ],
+          [
+            8.706,
+            7.678,
+            5.898,
+            14.019,
+            10.226,
+            9.463,
+            0.0,
+            3.844,
+            5.607,
+            6.301
+          ],
+          [
+            6.23,
+            4.748,
+            5.107,
+            10.443,
+            6.643,
+            6.513,
+            3.844,
+            0.0,
+            3.859,
+            6.456
+          ],
+          [
+            9.676,
+            7.455,
+            8.447,
+            10.232,
+            6.632,
+            7.901,
+            5.607,
+            3.859,
+            0.0,
+            3.851
+          ],
+          [
+            12.075,
+            10.896,
+            11.111,
+            12.277,
+            9.03,
+            9.4,
+            6.301,
+            6.456,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8248287282569275,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HPS1-G643E Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8248,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_G643E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_G643E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_G643E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_G643E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_G643E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS1-G643E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS1-G643E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T05:34:41.288225+00:00"
     }
   ]
 }
