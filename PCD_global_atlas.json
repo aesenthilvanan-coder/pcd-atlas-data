@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 352,
+  "total_entries": 353,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44800,
-    "queue_remaining": 133797
+    "total_processed": 44802,
+    "queue_remaining": 133795
   },
   "entries": [
     {
@@ -76829,6 +76829,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:19:38.781374+00:00"
+    },
+    {
+      "entry_id": "PCD-SERPINH1-E100K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPINH1-E100K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SERPINH1",
+        "uniprot": "",
+        "clinvar_id": "306097",
+        "disease": "Osteogenesis imperfecta type 10",
+        "mutation_precursor": "E100K",
+        "mutation_mature": "E100K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7559955542372085,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 559.286435492581,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.985332489013672,
+          21.186981201171875,
+          7.23716926574707
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.047101290361166,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7589233092526124,
+        "cryptic": true,
+        "pocket_residues": {
+          "S98": "S",
+          "A99": "A",
+          "E100": "E",
+          "Q101": "Q",
+          "L102": "L",
+          "R103": "R"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P50454|SERPINH1 variant E100K",
+        "fasta_sequence": "MRSLLLLSAFCLLEAALAAEVKKPAAAAAPGTAEKLSPKAATLAERSAGLAFSLYQAMAKDQAVENILVSPVVVASSLGLVSLGGKATTASQAKAVLSAEQLRDEEVHAGLGELLRSLSNSTARNVTWKLGSRLYGPSSVSFADDFVRSSKQHYNCEHSKINFRDKRSALQSINEWAAQTTDGKLPEVTKDVERTDGALLVNAMFFKPHWDEKFHHKMVDNRGFMVTRSYTVGVMMMHRTGLYNYYDDEKEKLQIVEMPLAHKLSSLIILMPHHVEPLERLEKLLTKEQLKIWMGKMQKKAVAISLPKGVVEVTHDLQKHLAGLGLTEAIDKNKADLSRMSGKKDLYLASVFHATAFELDTDGNPFDQDIYGREELRSPKLFYADHPFIFLVRDTQSGSLLFIGRLVRPKGDKMRDEL",
+        "full_sequence": "MRSLLLLSAFCLLEAALAAEVKKPAAAAAPGTAEKLSPKAATLAERSAGLAFSLYQAMAKDQAVENILVSPVVVASSLGLVSLGGKATTASQAKAVLSAEQLRDEEVHAGLGELLRSLSNSTARNVTWKLGSRLYGPSSVSFADDFVRSSKQHYNCEHSKINFRDKRSALQSINEWAAQTTDGKLPEVTKDVERTDGALLVNAMFFKPHWDEKFHHKMVDNRGFMVTRSYTVGVMMMHRTGLYNYYDDEKEKLQIVEMPLAHKLSSLIILMPHHVEPLERLEKLLTKEQLKIWMGKMQKKAVAISLPKGVVEVTHDLQKHLAGLGLTEAIDKNKADLSRMSGKKDLYLASVFHATAFELDTDGNPFDQDIYGREELRSPKLFYADHPFIFLVRDTQSGSLLFIGRLVRPKGDKMRDEL",
+        "n_residues": 418,
+        "mutation_pos_1indexed": 100,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "S98-A99-E100-Q101-L102-R103",
+        "pocket_lining_positions_precursor": [
+          98,
+          99,
+          100,
+          101,
+          102,
+          103
+        ],
+        "pocket_lining_1letter": "SAEQLR",
+        "sequence_slice_around_pocket": "ASQAKAVLSAEQLRDEEVHA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINH1_E100K/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "S98",
+          "A99",
+          "E100",
+          "Q101",
+          "L102",
+          "R103"
+        ],
+        "values": [
+          [
+            0.0,
+            3.851,
+            5.882,
+            8.108,
+            9.121,
+            12.068
+          ],
+          [
+            3.851,
+            0.0,
+            3.878,
+            5.51,
+            5.426,
+            8.288
+          ],
+          [
+            5.882,
+            3.878,
+            0.0,
+            3.853,
+            5.587,
+            7.714
+          ],
+          [
+            8.108,
+            5.51,
+            3.853,
+            0.0,
+            3.863,
+            6.752
+          ],
+          [
+            9.121,
+            5.426,
+            5.587,
+            3.863,
+            0.0,
+            3.839
+          ],
+          [
+            12.068,
+            8.288,
+            7.714,
+            6.752,
+            3.839,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1CCNC(=O)c1ccc(F)cc1",
+        "composite_score": 0.7009316965835313,
+        "mw": 344.15,
+        "logp": 2.095,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.8082,
+        "sa_score": 1.96,
+        "n_heavy_atoms": 25,
+        "tpsa": 67.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SERPINH1-E100K Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1CCNC(=O)c1ccc(F)cc1",
+        "pocket_affinity_score": 0.7009,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINH1_E100K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINH1_E100K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINH1_E100K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINH1_E100K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINH1_E100K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPINH1-E100K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPINH1-E100K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:20:13.893912+00:00"
     }
   ]
 }
