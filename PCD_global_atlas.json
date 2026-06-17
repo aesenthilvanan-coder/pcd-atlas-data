@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 889,
+  "total_entries": 890,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45421,
-    "queue_remaining": 133176
+    "total_processed": 45422,
+    "queue_remaining": 133175
   },
   "entries": [
     {
@@ -195578,6 +195578,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:44:14.328471+00:00"
+    },
+    {
+      "entry_id": "PCD-NLRP12-P100S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NLRP12-P100S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NLRP12",
+        "uniprot": "",
+        "clinvar_id": "330044",
+        "disease": "Familial cold autoinflammatory syndrome 2",
+        "mutation_precursor": "P100S",
+        "mutation_mature": "P100S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7238987645049946,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 297.0677234738873,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -16.9095401763916,
+          33.266693115234375,
+          -5.531155109405518
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.6778871943749385,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8852260751665771,
+        "cryptic": true,
+        "pocket_residues": {
+          "T98": "T",
+          "P99": "P",
+          "P100": "P",
+          "G101": "G",
+          "G102": "G"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P59046|NLRP12 variant P100S",
+        "fasta_sequence": "MLRTAGRDGLCRLSTYLEELEAVELKKFKLYLGTATELGEGKIPWGSMEKAGPLEMAQLLITHFGPEEAWRLALSTFERINRKDLWERGQREDLVRDTPPGGPSSLGNQSTCLLEVSLVTPRKDPQETYRDYVRRKFRLMEDRNARLGECVNLSHRYTRLLLVKEHSNPMQVQQQLLDTGRGHARTVGHQASPIKIETLFEPDEERPEPPRTVVMQGAAGIGKSMLAHKVMLDWADGKLFQGRFDYLFYINCREMNQSATECSMQDLIFSCWPEPSAPLQELIRVPERLLFIIDGFDELKPSFHDPQGPWCLCWEEKRPTELLLNSLIRKKLLPELSLLITTRPTALEKLHRLLEHPRHVEILGFSEAERKEYFYKYFHNAEQAGQVFNYVRDNEPLFTMCFVPLVCWVVCTCLQQQLEGGGLLRQTSRTTTAVYMLYLLSLMQPKPGAPRLQPPPNQRGLCSLAADGLWNQKILFEEQDLRKHGLDGEDVSAFLNMNIFQKDINCERYYSFIHLSFQEFFAAMYYILDEGEGGAGPDQDVTRLLTEYAFSERSFLALTSRFLFGLLNEETRSHLEKSLCWKVSPHIKMDLLQWIQSKAQSDGSTLQQGSLEFFSCLYEIQEEEFIQQALSHFQVIVVSNIASKMEHMVSSFCLKRCRSAQVLHLYGATYSADGEDRARCSAGAHTLLVQLPERTVLLDAYSEHLAAALCTNPNLIELSLYRNALGSRGVKLLCQGLRHPNCKLQNLRLKRCRISSSACEDLSAALIANKNLTRMDLSGNGVGFPGMMLLCEGLRHPQCRLQMIQLRKCQLESGACQEMASVLGTNPHLVELDLTGNALEDLGLRLLCQGLRHPVCRLRTLWLKICRLTAAACDELASTLSVNQSLRELDLSLNELGDLGVLLLCEGLRHPTCKLQTLRLGICRLGSAACEGLSVVLQANHNLRELDLSFNDLGDWGLWLLAEGLQHPACRLQKLWLDSCGLTAKACENLYFTLGINQTLTDLYLTNNALGDTGVRLLCKRLSHPGCKLRVLWLFGMDLNKMTHSRLAALRVTKPYLDIGC",
+        "full_sequence": "MLRTAGRDGLCRLSTYLEELEAVELKKFKLYLGTATELGEGKIPWGSMEKAGPLEMAQLLITHFGPEEAWRLALSTFERINRKDLWERGQREDLVRDTPPGGPSSLGNQSTCLLEVSLVTPRKDPQETYRDYVRRKFRLMEDRNARLGECVNLSHRYTRLLLVKEHSNPMQVQQQLLDTGRGHARTVGHQASPIKIETLFEPDEERPEPPRTVVMQGAAGIGKSMLAHKVMLDWADGKLFQGRFDYLFYINCREMNQSATECSMQDLIFSCWPEPSAPLQELIRVPERLLFIIDGFDELKPSFHDPQGPWCLCWEEKRPTELLLNSLIRKKLLPELSLLITTRPTALEKLHRLLEHPRHVEILGFSEAERKEYFYKYFHNAEQAGQVFNYVRDNEPLFTMCFVPLVCWVVCTCLQQQLEGGGLLRQTSRTTTAVYMLYLLSLMQPKPGAPRLQPPPNQRGLCSLAADGLWNQKILFEEQDLRKHGLDGEDVSAFLNMNIFQKDINCERYYSFIHLSFQEFFAAMYYILDEGEGGAGPDQDVTRLLTEYAFSERSFLALTSRFLFGLLNEETRSHLEKSLCWKVSPHIKMDLLQWIQSKAQSDGSTLQQGSLEFFSCLYEIQEEEFIQQALSHFQVIVVSNIASKMEHMVSSFCLKRCRSAQVLHLYGATYSADGEDRARCSAGAHTLLVQLPERTVLLDAYSEHLAAALCTNPNLIELSLYRNALGSRGVKLLCQGLRHPNCKLQNLRLKRCRISSSACEDLSAALIANKNLTRMDLSGNGVGFPGMMLLCEGLRHPQCRLQMIQLRKCQLESGACQEMASVLGTNPHLVELDLTGNALEDLGLRLLCQGLRHPVCRLRTLWLKICRLTAAACDELASTLSVNQSLRELDLSLNELGDLGVLLLCEGLRHPTCKLQTLRLGICRLGSAACEGLSVVLQANHNLRELDLSFNDLGDWGLWLLAEGLQHPACRLQKLWLDSCGLTAKACENLYFTLGINQTLTDLYLTNNALGDTGVRLLCKRLSHPGCKLRVLWLFGMDLNKMTHSRLAALRVTKPYLDIGC",
+        "n_residues": 1061,
+        "mutation_pos_1indexed": 100,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "T98-P99-P100-G101-G102",
+        "pocket_lining_positions_precursor": [
+          98,
+          99,
+          100,
+          101,
+          102
+        ],
+        "pocket_lining_1letter": "TPPGG",
+        "sequence_slice_around_pocket": "QREDLVRDTPPGGPSSLGNQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP12_P100S/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "T98",
+          "P99",
+          "P100",
+          "G101",
+          "G102"
+        ],
+        "values": [
+          [
+            0.0,
+            3.857,
+            6.389,
+            8.971,
+            11.577
+          ],
+          [
+            3.857,
+            0.0,
+            3.862,
+            6.685,
+            10.118
+          ],
+          [
+            6.389,
+            3.862,
+            0.0,
+            3.832,
+            7.032
+          ],
+          [
+            8.971,
+            6.685,
+            3.832,
+            0.0,
+            3.822
+          ],
+          [
+            11.577,
+            10.118,
+            7.032,
+            3.822,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CCCCC1",
+        "composite_score": 0.5171491703290155,
+        "mw": 222.12,
+        "logp": 1.915,
+        "hbd": 1,
+        "hba": 2,
+        "rotatable_bonds": 2,
+        "qed": 0.8305,
+        "sa_score": 1.86,
+        "n_heavy_atoms": 16,
+        "tpsa": 46.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NLRP12-P100S Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5171,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP12_P100S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP12_P100S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP12_P100S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP12_P100S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP12_P100S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NLRP12-P100S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NLRP12-P100S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:44:55.109242+00:00"
     }
   ]
 }
