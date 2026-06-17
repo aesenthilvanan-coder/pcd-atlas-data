@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 240,
+  "total_entries": 241,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44656,
-    "queue_remaining": 133941
+    "total_processed": 44666,
+    "queue_remaining": 133931
   },
   "entries": [
     {
@@ -53613,6 +53613,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:37:38.607842+00:00"
+    },
+    {
+      "entry_id": "PCD-CDON-N609S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDON-N609S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CDON",
+        "uniprot": "",
+        "clinvar_id": "303511",
+        "disease": "Holoprosencephaly 11",
+        "mutation_precursor": "N609S",
+        "mutation_mature": "N609S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8179112315353003,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 373.91240103852465,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.8169803619384766,
+          36.82057571411133,
+          23.38144874572754
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.336658855974901,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7342383041879609,
+        "cryptic": true,
+        "pocket_residues": {
+          "L606": "L",
+          "P607": "P",
+          "I608": "I",
+          "N609": "N",
+          "S659": "S",
+          "A660": "A"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q4KMG0|CDON variant N609S",
+        "fasta_sequence": "MHPDLGPLCTLLYVTLTILCSSVSSDLAPYFTSEPLSAVQKLGGPVVLHCSAQPVTTRISWLHNGKTLDGNLEHVKIHQGTLTILSLNSSLLGYYQCLANNSIGAIVSGPATVSVAVLGDFGSSTKHVITAEEKSAGFIGCRVPESNPKAEVRYKIRGKWLEHSTENYLILPSGNLQILNVSLEDKGSYKCAAYNPVTHQLKVEPIGRKLLVSRPSSDDVHILHPTHSQALAVLSRSPVTLECVVSGVPAPQVYWLKDGQDIAPGSNWRRLYSHLATDSVDPADSGNYSCMAGNKSGDVKYVTYMVNVLEHASISKGLQDQIVSLGATVHFTCDVHGNPAPNCTWFHNAQPIHPSARHLTAGNGLKISGVTVEDVGMYQCVADNGIGFMHSTGRLEIENDGGFKPVIITAPVSAKVADGDFVTLSCNASGLPVPVIRWYDSHGLITSHPSQVLRSKSRKSQLSRPEGLNLEPVYFVLSQAGASSLHIQAVTQEHAGKYICEAANEHGTTQAEASLMVVPFETNTKAETVTLPDAAQNDDRSKRDGSETGLLSSFPVKVHPSAVESAPEKNASGISVPDAPIILSPPQTHTPDTYNLVWRAGKDGGLPINAYFVKYRKLDDGVGMLGSWHTVRVPGSENELHLAELEPSSLYEVLMVARSAAGEGQPAMLTFRTSKEKTASSKNTQASSPPVGIPKYPVVSEAANNNFGVVLTDSSRHSGVPEAPDRPTISTASETSVYVTWIPRANGGSPITAFKVEYKRMRTSNWLVAAEDIPPSKLSVEVRSLEPGSTYKFRVIAINHYGESFRSSASRPYQVVGFPNRFSSRPITGPHIAYTEAVSDTQIMLKWTYIPSSNNNTPIQGFYIYYRPTDSDNDSDYKRDVVEGSKQWHMIGHLQPETSYDIKMQCFNEGGESEFSNVMICETKVKRVPGASEYPVKDLSTPPNSLGSGGNVGPATSPARSSDMLYLIVGCVLGVMVLILMVFIAMCLWKNRQQNTIQKYDPPGYLYQGSDMNGQMVDYTTLSGASQINGNVHGGFLTNGGLSSGYSHLHHKVPNAVNGIVNGSLNGGLYSGHSNSLTRTHVDFEHPHHLVNGGGMYTAVPQIDPLECVNCRNCRNNNRCFTKTNSTFSSSPPPVVPVVAPYPQDGLEMKPLSHVKVPVCLTSAVPDCGQLPEESVKDNVEPVPTQRTCCQDIVNDVSSDGSEDPAEFSRGQEGMINLRIPDHLQLAKSCVWEGDSCAHSETEINIVSWNALILPPVPEGCAEKTMWSPPGIPLDSPTEVLQQPRET",
+        "full_sequence": "MHPDLGPLCTLLYVTLTILCSSVSSDLAPYFTSEPLSAVQKLGGPVVLHCSAQPVTTRISWLHNGKTLDGNLEHVKIHQGTLTILSLNSSLLGYYQCLANNSIGAIVSGPATVSVAVLGDFGSSTKHVITAEEKSAGFIGCRVPESNPKAEVRYKIRGKWLEHSTENYLILPSGNLQILNVSLEDKGSYKCAAYNPVTHQLKVEPIGRKLLVSRPSSDDVHILHPTHSQALAVLSRSPVTLECVVSGVPAPQVYWLKDGQDIAPGSNWRRLYSHLATDSVDPADSGNYSCMAGNKSGDVKYVTYMVNVLEHASISKGLQDQIVSLGATVHFTCDVHGNPAPNCTWFHNAQPIHPSARHLTAGNGLKISGVTVEDVGMYQCVADNGIGFMHSTGRLEIENDGGFKPVIITAPVSAKVADGDFVTLSCNASGLPVPVIRWYDSHGLITSHPSQVLRSKSRKSQLSRPEGLNLEPVYFVLSQAGASSLHIQAVTQEHAGKYICEAANEHGTTQAEASLMVVPFETNTKAETVTLPDAAQNDDRSKRDGSETGLLSSFPVKVHPSAVESAPEKNASGISVPDAPIILSPPQTHTPDTYNLVWRAGKDGGLPINAYFVKYRKLDDGVGMLGSWHTVRVPGSENELHLAELEPSSLYEVLMVARSAAGEGQPAMLTFRTSKEKTASSKNTQASSPPVGIPKYPVVSEAANNNFGVVLTDSSRHSGVPEAPDRPTISTASETSVYVTWIPRANGGSPITAFKVEYKRMRTSNWLVAAEDIPPSKLSVEVRSLEPGSTYKFRVIAINHYGESFRSSASRPYQVVGFPNRFSSRPITGPHIAYTEAVSDTQIMLKWTYIPSSNNNTPIQGFYIYYRPTDSDNDSDYKRDVVEGSKQWHMIGHLQPETSYDIKMQCFNEGGESEFSNVMICETKVKRVPGASEYPVKDLSTPPNSLGSGGNVGPATSPARSSDMLYLIVGCVLGVMVLILMVFIAMCLWKNRQQNTIQKYDPPGYLYQGSDMNGQMVDYTTLSGASQINGNVHGGFLTNGGLSSGYSHLHHKVPNAVNGIVNGSLNGGLYSGHSNSLTRTHVDFEHPHHLVNGGGMYTAVPQIDPLECVNCRNCRNNNRCFTKTNSTFSSSPPPVVPVVAPYPQDGLEMKPLSHVKVPVCLTSAVPDCGQLPEESVKDNVEPVPTQRTCCQDIVNDVSSDGSEDPAEFSRGQEGMINLRIPDHLQLAKSCVWEGDSCAHSETEINIVSWNALILPPVPEGCAEKTMWSPPGIPLDSPTEVLQQPRET",
+        "n_residues": 1287,
+        "mutation_pos_1indexed": 609,
+        "wt_aa": "N",
+        "mut_aa": "S",
+        "pocket_lining_residues": "L606-P607-I608-N609-S659-A660",
+        "pocket_lining_positions_precursor": [
+          606,
+          607,
+          608,
+          609,
+          659,
+          660
+        ],
+        "pocket_lining_1letter": "LPINSA",
+        "sequence_slice_around_pocket": "RAGKDGGLPINAYFVKYRKL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CDON_N609S/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "L606",
+          "P607",
+          "I608",
+          "N609",
+          "S659",
+          "A660"
+        ],
+        "values": [
+          [
+            0.0,
+            3.867,
+            6.645,
+            8.915,
+            5.922,
+            6.389
+          ],
+          [
+            3.867,
+            0.0,
+            3.832,
+            6.18,
+            5.601,
+            7.399
+          ],
+          [
+            6.645,
+            3.832,
+            0.0,
+            3.837,
+            4.287,
+            7.574
+          ],
+          [
+            8.915,
+            6.18,
+            3.837,
+            0.0,
+            5.168,
+            7.309
+          ],
+          [
+            5.922,
+            5.601,
+            4.287,
+            5.168,
+            0.0,
+            3.834
+          ],
+          [
+            6.389,
+            7.399,
+            7.574,
+            7.309,
+            3.834,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6708954677853411,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CDON-N609S Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6709,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CDON_N609S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CDON_N609S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CDON_N609S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDON_N609S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDON_N609S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDON-N609S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDON-N609S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:41:06.997812+00:00"
     }
   ]
 }
