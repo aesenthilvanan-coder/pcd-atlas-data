@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 140,
+  "total_entries": 141,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44544,
-    "queue_remaining": 134053
+    "total_processed": 44545,
+    "queue_remaining": 134052
   },
   "entries": [
     {
@@ -32018,6 +32018,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:40:32.922294+00:00"
+    },
+    {
+      "entry_id": "PCD-CDHR1-A40T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDHR1-A40T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CDHR1",
+        "uniprot": "",
+        "clinvar_id": "301208",
+        "disease": "Cone-rod dystrophy 15",
+        "mutation_precursor": "A40T",
+        "mutation_mature": "A40T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9201841477147009,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 308.45408055243956,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          115.80835723876953,
+          2.988386392593384,
+          -35.73733901977539
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.433071414848777,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7295090006934507,
+        "cryptic": true,
+        "pocket_residues": {
+          "F27": "F",
+          "M39": "M",
+          "A40": "A",
+          "L57": "L",
+          "I107": "I",
+          "I108": "I",
+          "S109": "S",
+          "E119": "E",
+          "K120": "K",
+          "V121": "V"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96JP9|CDHR1 variant A40T",
+        "fasta_sequence": "MRRCRWAALALGLLRLCLAQANFAPHFFDNGVGSTNGNMALFSLPEDTPVGSHVYTLNGTDPEGDPISYHISFDPSTRSVFSVDPTFGNITLVEELDREREDEIEAIISISDGLNLVAEKVVILVTDANDEAPRFIQEPYVALVPEDIPAGSIIFKVHAVDRDTGSGGSVTYFLQNLHSPFAVDRHSGVLRLQAGATLDYERSRTHYITVVAKDGGGRLHGADVVFSATTTVTVNVEDVQDMAPVFVGTPYYGYVYEDTLPGSEVLKVVAMDGDRGKPNRILYSLVNGNDGAFEINETSGAISITQSPAQLQREVYELHVQVTEMSPAGSPAAQATVPVTIRIVDLNNHPPTFYGESGPQNRFELSMNEHPPQGEILRGLKITVNDSDQGANAKFNLQLVGPRGIFRVVPQTVLNEAQVTIIVENSAAIDFEKSKVLTFKLLAVEVNTPEKFSSTADVVIQLLDTNDNVPKFDSLYYVARIPENAPGGSSVVAVTAVDPDTGPWGEVKYSTYGTGADLFLIHPSTGLIYTQPWASLDAEATARYNFYVKAEDMEGKYSVAEVFITLLDVNDHPPQFGKSVQKKTMVLGTPVKIEAIDEDAEEPNNLVDYSITHAEPANVFDINSHTGEIWLKNSIRSLDALHNITPGRDCLWSLEVQAKDRGSPSFSTTALLKIDITDAETLSRSPMAAFLIQTKDNPMKAVGVLAGTMATVVAITVLISTATFWRNKKSNKVLPMRRVLRKRPSPAPRTIRIEWLKSKSTKAATKFMLKEKPPNENCNNNSPESSLLPRAPALPPPPSVAPSTGAAQWTVPTVSGSLTPQPTQPPPKPKTMGSPVQSTLISELKQKFEKKSVHNKAYF",
+        "full_sequence": "MRRCRWAALALGLLRLCLAQANFAPHFFDNGVGSTNGNMALFSLPEDTPVGSHVYTLNGTDPEGDPISYHISFDPSTRSVFSVDPTFGNITLVEELDREREDEIEAIISISDGLNLVAEKVVILVTDANDEAPRFIQEPYVALVPEDIPAGSIIFKVHAVDRDTGSGGSVTYFLQNLHSPFAVDRHSGVLRLQAGATLDYERSRTHYITVVAKDGGGRLHGADVVFSATTTVTVNVEDVQDMAPVFVGTPYYGYVYEDTLPGSEVLKVVAMDGDRGKPNRILYSLVNGNDGAFEINETSGAISITQSPAQLQREVYELHVQVTEMSPAGSPAAQATVPVTIRIVDLNNHPPTFYGESGPQNRFELSMNEHPPQGEILRGLKITVNDSDQGANAKFNLQLVGPRGIFRVVPQTVLNEAQVTIIVENSAAIDFEKSKVLTFKLLAVEVNTPEKFSSTADVVIQLLDTNDNVPKFDSLYYVARIPENAPGGSSVVAVTAVDPDTGPWGEVKYSTYGTGADLFLIHPSTGLIYTQPWASLDAEATARYNFYVKAEDMEGKYSVAEVFITLLDVNDHPPQFGKSVQKKTMVLGTPVKIEAIDEDAEEPNNLVDYSITHAEPANVFDINSHTGEIWLKNSIRSLDALHNITPGRDCLWSLEVQAKDRGSPSFSTTALLKIDITDAETLSRSPMAAFLIQTKDNPMKAVGVLAGTMATVVAITVLISTATFWRNKKSNKVLPMRRVLRKRPSPAPRTIRIEWLKSKSTKAATKFMLKEKPPNENCNNNSPESSLLPRAPALPPPPSVAPSTGAAQWTVPTVSGSLTPQPTQPPPKPKTMGSPVQSTLISELKQKFEKKSVHNKAYF",
+        "n_residues": 859,
+        "mutation_pos_1indexed": 40,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "F27-M39-A40-L57-I107-I108-S109-E119-K120-V121",
+        "pocket_lining_positions_precursor": [
+          27,
+          39,
+          40,
+          57,
+          107,
+          108,
+          109,
+          119,
+          120,
+          121
+        ],
+        "pocket_lining_1letter": "FMALIISEKV",
+        "sequence_slice_around_pocket": "NGVGSTNGNMALFSLPEDTP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_A40T/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "F27",
+          "M39",
+          "A40",
+          "L57",
+          "I107",
+          "I108",
+          "S109",
+          "E119",
+          "K120",
+          "V121"
+        ],
+        "values": [
+          [
+            0.0,
+            10.448,
+            11.917,
+            7.407,
+            12.75,
+            9.57,
+            8.69,
+            9.212,
+            12.357,
+            12.527
+          ],
+          [
+            10.448,
+            0.0,
+            3.861,
+            8.49,
+            11.608,
+            10.095,
+            12.853,
+            10.536,
+            10.277,
+            7.219
+          ],
+          [
+            11.917,
+            3.861,
+            0.0,
+            11.792,
+            11.548,
+            11.073,
+            13.911,
+            9.798,
+            8.838,
+            5.875
+          ],
+          [
+            7.407,
+            8.49,
+            11.792,
+            0.0,
+            12.124,
+            8.601,
+            9.397,
+            11.719,
+            13.347,
+            12.022
+          ],
+          [
+            12.75,
+            11.608,
+            11.548,
+            12.124,
+            0.0,
+            3.808,
+            6.495,
+            5.507,
+            4.493,
+            6.157
+          ],
+          [
+            9.57,
+            10.095,
+            11.073,
+            8.601,
+            3.808,
+            0.0,
+            3.814,
+            5.375,
+            6.439,
+            7.181
+          ],
+          [
+            8.69,
+            12.853,
+            13.911,
+            9.397,
+            6.495,
+            3.814,
+            0.0,
+            6.358,
+            8.89,
+            10.523
+          ],
+          [
+            9.212,
+            10.536,
+            9.798,
+            11.719,
+            5.507,
+            5.375,
+            6.358,
+            0.0,
+            3.827,
+            6.383
+          ],
+          [
+            12.357,
+            10.277,
+            8.838,
+            13.347,
+            4.493,
+            6.439,
+            8.89,
+            3.827,
+            0.0,
+            3.829
+          ],
+          [
+            12.527,
+            7.219,
+            5.875,
+            12.022,
+            6.157,
+            7.181,
+            10.523,
+            6.383,
+            3.829,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.9203537852296422,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CDHR1-A40T Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9204,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_A40T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_A40T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_A40T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_A40T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_A40T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDHR1-A40T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDHR1-A40T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:41:04.359943+00:00"
     }
   ]
 }
