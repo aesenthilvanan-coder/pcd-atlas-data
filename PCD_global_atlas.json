@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1155,
+  "total_entries": 1156,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45752,
-    "queue_remaining": 132845
+    "total_processed": 45753,
+    "queue_remaining": 132844
   },
   "entries": [
     {
@@ -254369,6 +254369,279 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:58:19.561277+00:00"
+    },
+    {
+      "entry_id": "PCD-TSEN54-R472Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSEN54-R472Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TSEN54",
+        "uniprot": "",
+        "clinvar_id": "325094",
+        "disease": "Pontoneocerebellar hypoplasia",
+        "mutation_precursor": "R472Q",
+        "mutation_mature": "R472Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7764402945693827,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 384.50726129688366,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.4947450160980225,
+          -1.5953617095947266,
+          -4.568922996520996
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.768251481556527,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7483871629023824,
+        "cryptic": true,
+        "pocket_residues": {
+          "V452": "V",
+          "Y453": "Y",
+          "P469": "P",
+          "Y470": "Y",
+          "A471": "A",
+          "R472": "R",
+          "M473": "M",
+          "V498": "V",
+          "P499": "P",
+          "L500": "L",
+          "I501": "I"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q7Z6J9|TSEN54 variant R472Q",
+        "fasta_sequence": "MEPEPEPAAVEVPAGRVLSARELFAARSRSQKLPQRSHGPKDFLPDGSAAQAERLRRCREELWQLLAEQRVERLGSLVAAEWRPEEGFVELKSPAGKFWQTMGFSEQGRQRLHPEEALYLLECGSIHLFHQDLPLSIQEAYQLLLTDHTVTFLQYQVFSHLKRLGYVVRRFQPSSVLSPYERQLNLDASVQHLEDGDGKRKRSSSSPRSINKKAKALDNSLQPKSLAASSPPPCSQPSQCPEEKPQESSPMKGPGGPFQLLGSLGPSPGPAREGVGCSWESGRAENGVTGAGKRRWNFEQISFPNMASDSRHTLLRAPAPELLPANVAGRETDAESWCQKLNQRKEKLSRREREHHAEAAQFQEDVNADPEVQRCSSWREYKELLQRRQVQRSQRRAPHLWGQPVTPLLSPGQASSPAVVLQHISVLQTTHLPDGGARLLEKSGGLEIIFDVYQADAVATFRKNNPGKPYARMCISGFDEPVPDLCSLKRLSYQSGDVPLIFALVDHGDISFYSFRDFTLPQDVGH",
+        "full_sequence": "MEPEPEPAAVEVPAGRVLSARELFAARSRSQKLPQRSHGPKDFLPDGSAAQAERLRRCREELWQLLAEQRVERLGSLVAAEWRPEEGFVELKSPAGKFWQTMGFSEQGRQRLHPEEALYLLECGSIHLFHQDLPLSIQEAYQLLLTDHTVTFLQYQVFSHLKRLGYVVRRFQPSSVLSPYERQLNLDASVQHLEDGDGKRKRSSSSPRSINKKAKALDNSLQPKSLAASSPPPCSQPSQCPEEKPQESSPMKGPGGPFQLLGSLGPSPGPAREGVGCSWESGRAENGVTGAGKRRWNFEQISFPNMASDSRHTLLRAPAPELLPANVAGRETDAESWCQKLNQRKEKLSRREREHHAEAAQFQEDVNADPEVQRCSSWREYKELLQRRQVQRSQRRAPHLWGQPVTPLLSPGQASSPAVVLQHISVLQTTHLPDGGARLLEKSGGLEIIFDVYQADAVATFRKNNPGKPYARMCISGFDEPVPDLCSLKRLSYQSGDVPLIFALVDHGDISFYSFRDFTLPQDVGH",
+        "n_residues": 526,
+        "mutation_pos_1indexed": 472,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "V452-Y453-P469-Y470-A471-R472-M473-V498-P499-L500-I501",
+        "pocket_lining_positions_precursor": [
+          452,
+          453,
+          469,
+          470,
+          471,
+          472,
+          473,
+          498,
+          499,
+          500,
+          501
+        ],
+        "pocket_lining_1letter": "VYPYARMVPLI",
+        "sequence_slice_around_pocket": "RKNNPGKPYARMCISGFDEP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_R472Q/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "V452",
+          "Y453",
+          "P469",
+          "Y470",
+          "A471",
+          "R472",
+          "M473",
+          "V498",
+          "P499",
+          "L500",
+          "I501"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            5.569,
+            5.726,
+            5.249,
+            6.117,
+            7.211,
+            10.091,
+            10.293,
+            10.268,
+            9.769
+          ],
+          [
+            3.841,
+            0.0,
+            4.984,
+            4.944,
+            6.959,
+            9.116,
+            10.863,
+            10.961,
+            11.687,
+            12.765,
+            12.579
+          ],
+          [
+            5.569,
+            4.984,
+            0.0,
+            3.818,
+            5.429,
+            7.067,
+            10.258,
+            6.782,
+            8.828,
+            10.47,
+            11.799
+          ],
+          [
+            5.726,
+            4.944,
+            3.818,
+            0.0,
+            3.822,
+            7.239,
+            9.939,
+            6.803,
+            7.278,
+            9.36,
+            10.031
+          ],
+          [
+            5.249,
+            6.959,
+            5.429,
+            3.822,
+            0.0,
+            3.817,
+            6.395,
+            5.774,
+            5.087,
+            5.883,
+            6.495
+          ],
+          [
+            6.117,
+            9.116,
+            7.067,
+            7.239,
+            3.817,
+            0.0,
+            3.801,
+            6.532,
+            6.223,
+            4.913,
+            5.991
+          ],
+          [
+            7.211,
+            10.863,
+            10.258,
+            9.939,
+            6.395,
+            3.801,
+            0.0,
+            10.089,
+            8.759,
+            6.064,
+            4.932
+          ],
+          [
+            10.091,
+            10.961,
+            6.782,
+            6.803,
+            5.774,
+            6.532,
+            10.089,
+            0.0,
+            3.853,
+            6.469,
+            9.589
+          ],
+          [
+            10.293,
+            11.687,
+            8.828,
+            7.278,
+            5.087,
+            6.223,
+            8.759,
+            3.853,
+            0.0,
+            3.817,
+            6.555
+          ],
+          [
+            10.268,
+            12.765,
+            10.47,
+            9.36,
+            5.883,
+            4.913,
+            6.064,
+            6.469,
+            3.817,
+            0.0,
+            3.85
+          ],
+          [
+            9.769,
+            12.579,
+            11.799,
+            10.031,
+            6.495,
+            5.991,
+            4.932,
+            9.589,
+            6.555,
+            3.85,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "composite_score": 0.6493786532555977,
+        "mw": 260.15,
+        "logp": 1.904,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7992,
+        "sa_score": 2.9,
+        "n_heavy_atoms": 19,
+        "tpsa": 54.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TSEN54-R472Q Candidate #1",
+        "iupac_name": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "pocket_affinity_score": 0.6494,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_R472Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_R472Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_R472Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_R472Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_R472Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSEN54-R472Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSEN54-R472Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:58:46.595548+00:00"
     }
   ]
 }
