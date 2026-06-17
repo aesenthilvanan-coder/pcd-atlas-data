@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 848,
+  "total_entries": 849,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45372,
-    "queue_remaining": 133225
+    "total_processed": 45373,
+    "queue_remaining": 133224
   },
   "entries": [
     {
@@ -187262,6 +187262,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:10:22.690572+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT5-G519S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT5-G519S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT5",
+        "uniprot": "",
+        "clinvar_id": "309557",
+        "disease": "Epidermolysis bullosa simplex",
+        "mutation_precursor": "G519S",
+        "mutation_mature": "G519S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9348416067985735,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 319.36027542632166,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          59.69304656982422,
+          -9.103218078613281,
+          -11.279746055603027
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.863677254657505,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6581415588036788,
+        "cryptic": true,
+        "pocket_residues": {
+          "G518": "G",
+          "G519": "G",
+          "L520": "L",
+          "G521": "G",
+          "G522": "G"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P13647|KRT5 variant G519S",
+        "fasta_sequence": "MSRQSSVSFRSGGSRSFSTASAITPSVSRTSFTSVSRSGGGGGGGFGRVSLAGACGVGGYGSRSLYNLGGSKRISISTSGGSFRNRFGAGAGGGYGFGGGAGSGFGFGGGAGGGFGLGGGAGFGGGFGGPGFPVCPPGGIQEVTVNQSLLTPLNLQIDPSIQRVRTEEREQIKTLNNKFASFIDKVRFLEQQNKVLDTKWTLLQEQGTKTVRQNLEPLFEQYINNLRRQLDSIVGERGRLDSELRNMQDLVEDFKNKYEDEINKRTTAENEFVMLKKDVDAAYMNKVELEAKVDALMDEINFMKMFFDAELSQMQTHVSDTSVVLSMDNNRNLDLDSIIAEVKAQYEEIANRSRTEAESWYQTKYEELQQTAGRHGDDLRNTKHEISEMNRMIQRLRAEIDNVKKQCANLQNAIADAEQRGELALKDARNKLAELEEALQKAKQDMARLLREYQELMNTKLALDVEIATYRKLLEGEECRLSGEGVGPVNISVVTSSVSSGYGSGSGYGGGLGGGLGGGLGGGLAGGSSGSYYSSSSGGVGLGGGLSVGGSGFSASSGRGLGVGFGSGGGSSSSVKFVSTTSSSRKSFKS",
+        "full_sequence": "MSRQSSVSFRSGGSRSFSTASAITPSVSRTSFTSVSRSGGGGGGGFGRVSLAGACGVGGYGSRSLYNLGGSKRISISTSGGSFRNRFGAGAGGGYGFGGGAGSGFGFGGGAGGGFGLGGGAGFGGGFGGPGFPVCPPGGIQEVTVNQSLLTPLNLQIDPSIQRVRTEEREQIKTLNNKFASFIDKVRFLEQQNKVLDTKWTLLQEQGTKTVRQNLEPLFEQYINNLRRQLDSIVGERGRLDSELRNMQDLVEDFKNKYEDEINKRTTAENEFVMLKKDVDAAYMNKVELEAKVDALMDEINFMKMFFDAELSQMQTHVSDTSVVLSMDNNRNLDLDSIIAEVKAQYEEIANRSRTEAESWYQTKYEELQQTAGRHGDDLRNTKHEISEMNRMIQRLRAEIDNVKKQCANLQNAIADAEQRGELALKDARNKLAELEEALQKAKQDMARLLREYQELMNTKLALDVEIATYRKLLEGEECRLSGEGVGPVNISVVTSSVSSGYGSGSGYGGGLGGGLGGGLGGGLAGGSSGSYYSSSSGGVGLGGGLSVGGSGFSASSGRGLGVGFGSGGGSSSSVKFVSTTSSSRKSFKS",
+        "n_residues": 590,
+        "mutation_pos_1indexed": 519,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "G518-G519-L520-G521-G522",
+        "pocket_lining_positions_precursor": [
+          518,
+          519,
+          520,
+          521,
+          522
+        ],
+        "pocket_lining_1letter": "GGLGG",
+        "sequence_slice_around_pocket": "GGGLGGGLGGGLGGGLAGGS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT5_G519S/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "G518",
+          "G519",
+          "L520",
+          "G521",
+          "G522"
+        ],
+        "values": [
+          [
+            0.0,
+            3.912,
+            7.148,
+            10.835,
+            14.193
+          ],
+          [
+            3.912,
+            0.0,
+            3.311,
+            7.135,
+            10.498
+          ],
+          [
+            7.148,
+            3.311,
+            0.0,
+            3.909,
+            7.215
+          ],
+          [
+            10.835,
+            7.135,
+            3.909,
+            0.0,
+            3.702
+          ],
+          [
+            14.193,
+            10.498,
+            7.215,
+            3.702,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CCCCC1",
+        "composite_score": 0.5876658017390477,
+        "mw": 219.17,
+        "logp": 1.963,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8415,
+        "sa_score": 2.19,
+        "n_heavy_atoms": 16,
+        "tpsa": 42.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT5-G519S Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.5877,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT5_G519S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT5_G519S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT5_G519S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT5_G519S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT5_G519S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT5-G519S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT5-G519S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:10:46.957275+00:00"
     }
   ]
 }
