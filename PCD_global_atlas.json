@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1050,
+  "total_entries": 1051,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45632,
-    "queue_remaining": 132965
+    "total_processed": 45633,
+    "queue_remaining": 132964
   },
   "entries": [
     {
@@ -231681,6 +231681,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:08:50.166824+00:00"
+    },
+    {
+      "entry_id": "PCD-SNAP29-M184V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SNAP29-M184V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SNAP29",
+        "uniprot": "",
+        "clinvar_id": "340835",
+        "disease": "CEDNIK syndrome",
+        "mutation_precursor": "M184V",
+        "mutation_mature": "M184V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8467793789159375,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 508.1581188786806,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          31.24214744567871,
+          -5.781409740447998,
+          -26.971311569213867
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.2888780045868575,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6220824954900165,
+        "cryptic": true,
+        "pocket_residues": {
+          "A180": "A",
+          "G181": "G",
+          "S182": "S",
+          "A183": "A",
+          "M184": "M",
+          "S185": "S"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O95721|SNAP29 variant M184V",
+        "fasta_sequence": "MSAYPKSYNPFDDDGEDEGARPAPWRDARDLPDGPDAPADRQQYLRQEVLRRAEATAASTSRSLALMYESEKVGVASSEELARQRGVLERTEKMVDKMDQDLKISQKHINSIKSVFGGLVNYFKSKPVETPPEQNGTLTSQPNNRLKEAISTSKEQEAKYQASHPNLRKLDDTDPVPRGAGSAMSTDAYPKNPHLRAYHQKIDSNLDELSMGLGRLKDIALGMQTEIEEQDDILDRLTTKVDKLDVNIKSTERKVRQL",
+        "full_sequence": "MSAYPKSYNPFDDDGEDEGARPAPWRDARDLPDGPDAPADRQQYLRQEVLRRAEATAASTSRSLALMYESEKVGVASSEELARQRGVLERTEKMVDKMDQDLKISQKHINSIKSVFGGLVNYFKSKPVETPPEQNGTLTSQPNNRLKEAISTSKEQEAKYQASHPNLRKLDDTDPVPRGAGSAMSTDAYPKNPHLRAYHQKIDSNLDELSMGLGRLKDIALGMQTEIEEQDDILDRLTTKVDKLDVNIKSTERKVRQL",
+        "n_residues": 258,
+        "mutation_pos_1indexed": 184,
+        "wt_aa": "M",
+        "mut_aa": "V",
+        "pocket_lining_residues": "A180-G181-S182-A183-M184-S185",
+        "pocket_lining_positions_precursor": [
+          180,
+          181,
+          182,
+          183,
+          184,
+          185
+        ],
+        "pocket_lining_1letter": "AGSAMS",
+        "sequence_slice_around_pocket": "DPVPRGAGSAMSTDAYPKNP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SNAP29_M184V/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "A180",
+          "G181",
+          "S182",
+          "A183",
+          "M184",
+          "S185"
+        ],
+        "values": [
+          [
+            0.0,
+            3.847,
+            6.787,
+            9.693,
+            13.059,
+            14.994
+          ],
+          [
+            3.847,
+            0.0,
+            3.825,
+            7.013,
+            9.884,
+            11.854
+          ],
+          [
+            6.787,
+            3.825,
+            0.0,
+            3.802,
+            6.936,
+            9.747
+          ],
+          [
+            9.693,
+            7.013,
+            3.802,
+            0.0,
+            3.853,
+            6.865
+          ],
+          [
+            13.059,
+            9.884,
+            6.936,
+            3.853,
+            0.0,
+            3.699
+          ],
+          [
+            14.994,
+            11.854,
+            9.747,
+            6.865,
+            3.699,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CC(=O)CCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6486265866338594,
+        "mw": 364.16,
+        "logp": 1.707,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.6344,
+        "sa_score": 3.28,
+        "n_heavy_atoms": 27,
+        "tpsa": 117.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SNAP29-M184V Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CC(=O)CCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6486,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SNAP29_M184V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SNAP29_M184V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SNAP29_M184V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SNAP29_M184V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SNAP29_M184V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SNAP29-M184V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SNAP29-M184V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:09:13.480323+00:00"
     }
   ]
 }
