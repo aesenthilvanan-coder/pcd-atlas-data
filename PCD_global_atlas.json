@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 994,
+  "total_entries": 995,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45541,
-    "queue_remaining": 133056
+    "total_processed": 45543,
+    "queue_remaining": 133054
   },
   "entries": [
     {
@@ -218550,6 +218550,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T17:05:09.471276+00:00"
+    },
+    {
+      "entry_id": "PCD-COL9A3-P579T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-P579T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COL9A3",
+        "uniprot": "",
+        "clinvar_id": "1573036",
+        "disease": "not provided",
+        "mutation_precursor": "P579T",
+        "mutation_mature": "P579T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9073745377542622,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 425.6537153078365,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -39.434085845947266,
+          14.042745590209961,
+          -1.5816850662231445
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.500560437817412,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7012869743642792,
+        "cryptic": true,
+        "pocket_residues": {
+          "A576": "A",
+          "R577": "R",
+          "G578": "G",
+          "P579": "P",
+          "P580": "P"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q14050|COL9A3 variant P579T",
+        "fasta_sequence": "MAGPRACAPLLLLLLLGELLAAAGAQRVGLPGPPGPPGPPGKPGQDGIDGEAGPPGLPGPPGPKGAPGKPGKPGEAGLPGLPGVDGLTGRDGPPGPKGAPGERGSLGPPGPPGLGGKGLPGPPGEAGVSGPPGGIGLRGPPGPSGLPGLPGPPGPPGPPGHPGVLPEGATDLQCPSICPPGPPGPPGMPGFKGPTGYKGEQGEVGKDGEKGDPGPPGPAGLPGSVGLQGPRGLRGLPGPLGPPGDRGPIGFRGPPGIPGAPGKAGDRGERGPEGFRGPKGDLGRPGPKGTPGVAGPSGEPGMPGKDGQNGVPGLDGQKGEAGRNGAPGEKGPNGLPGLPGRAGSKGEKGERGRAGELGEAGPSGEPGVPGDAGMPGERGEAGHRGSAGALGPQGPPGAPGVRGFQGQKGSMGDPGLPGPQGLRGDVGDRGPGGAAGPKGDQGIAGSDGLPGDKGELGPSGLVGPKGESGSRGELGPKGTQGPNGTSGVQGVPGPPGPLGLQGVPGVPGITGKPGVPGKEASEQRIRELCGGMISEQIAQLAAHLRKPLAPGSIGRPGPAGPPGPPGPPGSIGHPGARGPPGYRGPTGELGDPGPRGNQGDRGDKGAAGAGLDGPEGDQGPQGPQGVPGTSKDGQDGAPGEPGPPGDPGLPGAIGAQGTPGICDTSACQGAVLGGVGEKSGSRSS",
+        "full_sequence": "MAGPRACAPLLLLLLLGELLAAAGAQRVGLPGPPGPPGPPGKPGQDGIDGEAGPPGLPGPPGPKGAPGKPGKPGEAGLPGLPGVDGLTGRDGPPGPKGAPGERGSLGPPGPPGLGGKGLPGPPGEAGVSGPPGGIGLRGPPGPSGLPGLPGPPGPPGPPGHPGVLPEGATDLQCPSICPPGPPGPPGMPGFKGPTGYKGEQGEVGKDGEKGDPGPPGPAGLPGSVGLQGPRGLRGLPGPLGPPGDRGPIGFRGPPGIPGAPGKAGDRGERGPEGFRGPKGDLGRPGPKGTPGVAGPSGEPGMPGKDGQNGVPGLDGQKGEAGRNGAPGEKGPNGLPGLPGRAGSKGEKGERGRAGELGEAGPSGEPGVPGDAGMPGERGEAGHRGSAGALGPQGPPGAPGVRGFQGQKGSMGDPGLPGPQGLRGDVGDRGPGGAAGPKGDQGIAGSDGLPGDKGELGPSGLVGPKGESGSRGELGPKGTQGPNGTSGVQGVPGPPGPLGLQGVPGVPGITGKPGVPGKEASEQRIRELCGGMISEQIAQLAAHLRKPLAPGSIGRPGPAGPPGPPGPPGSIGHPGARGPPGYRGPTGELGDPGPRGNQGDRGDKGAAGAGLDGPEGDQGPQGPQGVPGTSKDGQDGAPGEPGPPGDPGLPGAIGAQGTPGICDTSACQGAVLGGVGEKSGSRSS",
+        "n_residues": 684,
+        "mutation_pos_1indexed": 579,
+        "wt_aa": "P",
+        "mut_aa": "T",
+        "pocket_lining_residues": "A576-R577-G578-P579-P580",
+        "pocket_lining_positions_precursor": [
+          576,
+          577,
+          578,
+          579,
+          580
+        ],
+        "pocket_lining_1letter": "ARGPP",
+        "sequence_slice_around_pocket": "GSIGHPGARGPPGYRGPTGE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_P579T/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "A576",
+          "R577",
+          "G578",
+          "P579",
+          "P580"
+        ],
+        "values": [
+          [
+            0.0,
+            3.858,
+            6.262,
+            9.363,
+            12.159
+          ],
+          [
+            3.858,
+            0.0,
+            3.837,
+            6.659,
+            8.701
+          ],
+          [
+            6.262,
+            3.837,
+            0.0,
+            3.86,
+            6.526
+          ],
+          [
+            9.363,
+            6.659,
+            3.86,
+            0.0,
+            3.873
+          ],
+          [
+            12.159,
+            8.701,
+            6.526,
+            3.873,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)OC1CCCCN1c1cc(Cl)ccc1C(N)=O",
+        "composite_score": 0.5729503138355497,
+        "mw": 297.09,
+        "logp": 1.851,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.8891,
+        "sa_score": 3.02,
+        "n_heavy_atoms": 20,
+        "tpsa": 98.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COL9A3-P579T Candidate #1",
+        "iupac_name": "NC(=O)OC1CCCCN1c1cc(Cl)ccc1C(N)=O",
+        "pocket_affinity_score": 0.573,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_P579T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_P579T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_P579T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_P579T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_P579T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-P579T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-P579T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T17:05:50.396261+00:00"
     }
   ]
 }
