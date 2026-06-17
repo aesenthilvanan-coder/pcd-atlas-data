@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 626,
+  "total_entries": 627,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45120,
-    "queue_remaining": 133477
+    "total_processed": 45121,
+    "queue_remaining": 133476
   },
   "entries": [
     {
@@ -138831,6 +138831,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:03:20.033074+00:00"
+    },
+    {
+      "entry_id": "PCD-PNPLA2-S407F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PNPLA2-S407F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PNPLA2",
+        "uniprot": "",
+        "clinvar_id": "306307",
+        "disease": "Neutral lipid storage myopathy",
+        "mutation_precursor": "S407F",
+        "mutation_mature": "S407F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7301492985870252,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 392.01131844594033,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          41.73737716674805,
+          -18.22357749938965,
+          -24.584224700927734
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.394658944880779,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8786744529257553,
+        "cryptic": true,
+        "pocket_residues": {
+          "P406": "P",
+          "S407": "S",
+          "V408": "V",
+          "P409": "P"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96AD5|PNPLA2 variant S407F",
+        "fasta_sequence": "MFPREKTWNISFAGCGFLGVYYVGVASCLREHAPFLVANATHIYGASAGALTATALVTGVCLGEAGAKFIEVSKEARKRFLGPLHPSFNLVKIIRSFLLKVLPADSHEHASGRLGISLTRVSDGENVIISHFNSKDELIQANVCSGFIPVYCGLIPPSLQGVRYVDGGISDNLPLYELKNTITVSPFSGESDICPQDSSTNIHELRVTNTSIQFNLRNLYRLSKALFPPEPLVLREMCKQGYRDGLRFLQRNGLLNRPNPLLALPPARPHGPEDKDQAVESAQAEDYSQLPGEDHILEHLPARLNEALLEACVEPTDLLTTLSNMLPVRLATAMMVPYTLPLESALSFTIRLLEWLPDVPEDIRWMKEQTGSICQYLVMRAKRKLGRHLPSRLPEQVELRRVQSLPSVPLSCAAYREALPGWMRNNLSLGDALAKWEECQRQLLLGLFCTNVAFPPEALRMRAPADPAPAPADPASPQHQLAGPAPLLSTPAPEARPVIGALGL",
+        "full_sequence": "MFPREKTWNISFAGCGFLGVYYVGVASCLREHAPFLVANATHIYGASAGALTATALVTGVCLGEAGAKFIEVSKEARKRFLGPLHPSFNLVKIIRSFLLKVLPADSHEHASGRLGISLTRVSDGENVIISHFNSKDELIQANVCSGFIPVYCGLIPPSLQGVRYVDGGISDNLPLYELKNTITVSPFSGESDICPQDSSTNIHELRVTNTSIQFNLRNLYRLSKALFPPEPLVLREMCKQGYRDGLRFLQRNGLLNRPNPLLALPPARPHGPEDKDQAVESAQAEDYSQLPGEDHILEHLPARLNEALLEACVEPTDLLTTLSNMLPVRLATAMMVPYTLPLESALSFTIRLLEWLPDVPEDIRWMKEQTGSICQYLVMRAKRKLGRHLPSRLPEQVELRRVQSLPSVPLSCAAYREALPGWMRNNLSLGDALAKWEECQRQLLLGLFCTNVAFPPEALRMRAPADPAPAPADPASPQHQLAGPAPLLSTPAPEARPVIGALGL",
+        "n_residues": 504,
+        "mutation_pos_1indexed": 407,
+        "wt_aa": "S",
+        "mut_aa": "F",
+        "pocket_lining_residues": "P406-S407-V408-P409",
+        "pocket_lining_positions_precursor": [
+          406,
+          407,
+          408,
+          409
+        ],
+        "pocket_lining_1letter": "PSVP",
+        "sequence_slice_around_pocket": "VELRRVQSLPSVPLSCAAYR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PNPLA2_S407F/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "P406",
+          "S407",
+          "V408",
+          "P409"
+        ],
+        "values": [
+          [
+            0.0,
+            3.889,
+            6.898,
+            10.398
+          ],
+          [
+            3.889,
+            0.0,
+            3.883,
+            6.765
+          ],
+          [
+            6.898,
+            3.883,
+            0.0,
+            3.886
+          ],
+          [
+            10.398,
+            6.765,
+            3.886,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)c1ccc(Cl)cc1N1CCCC(=O)C1",
+        "composite_score": 0.5241004412695012,
+        "mw": 280.1,
+        "logp": 2.041,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 4,
+        "qed": 0.8575,
+        "sa_score": 2.48,
+        "n_heavy_atoms": 19,
+        "tpsa": 63.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PNPLA2-S407F Candidate #1",
+        "iupac_name": "NCCC(=O)c1ccc(Cl)cc1N1CCCC(=O)C1",
+        "pocket_affinity_score": 0.5241,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PNPLA2_S407F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PNPLA2_S407F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PNPLA2_S407F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PNPLA2_S407F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PNPLA2_S407F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PNPLA2-S407F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PNPLA2-S407F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:03:45.286456+00:00"
     }
   ]
 }
