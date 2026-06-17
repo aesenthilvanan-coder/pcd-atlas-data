@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1333,
+  "total_entries": 1334,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45951,
-    "queue_remaining": 132646
+    "total_processed": 45952,
+    "queue_remaining": 132645
   },
   "entries": [
     {
@@ -295046,6 +295046,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:24:10.528691+00:00"
+    },
+    {
+      "entry_id": "PCD-CRX-H10D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CRX-H10D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CRX",
+        "uniprot": "",
+        "clinvar_id": "329693",
+        "disease": "Cone-rod dystrophy 2",
+        "mutation_precursor": "H10D",
+        "mutation_mature": "H10D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7953390634046931,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 393.59469760756934,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          18.426490783691406,
+          -18.772825241088867,
+          3.504887104034424
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.675943954227746,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6028893553048477,
+        "cryptic": true,
+        "pocket_residues": {
+          "P9": "P",
+          "H10": "H",
+          "Y11": "Y",
+          "S12": "S"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43186|CRX variant H10D",
+        "fasta_sequence": "MMAYMNPGPHYSVNALALSGPSVDLMHQAVPYPSAPRKQRRERTTFTRSQLEELEALFAKTQYPDVYAREEVALKINLPESRVQVWFKNRRAKCRQQRQQQKQQQQPPGGQAKARPAKRKAGTSPRPSTDVCPDPLGISDSYSPPLPGPSGSPTTAVATVSIWSPASESPLPEAQRAGLVASGPSLTSAPYAMTYAPASAFCSSPSAYGSPSSYFSGLDPYLSPMVPQLGGPALSPLSGPSVGPSLAQSPTSLSGQSYGAYSPVDSLEFKDPTGTWKFTYNPMDPLDYKDQSAWKFQIL",
+        "full_sequence": "MMAYMNPGPHYSVNALALSGPSVDLMHQAVPYPSAPRKQRRERTTFTRSQLEELEALFAKTQYPDVYAREEVALKINLPESRVQVWFKNRRAKCRQQRQQQKQQQQPPGGQAKARPAKRKAGTSPRPSTDVCPDPLGISDSYSPPLPGPSGSPTTAVATVSIWSPASESPLPEAQRAGLVASGPSLTSAPYAMTYAPASAFCSSPSAYGSPSSYFSGLDPYLSPMVPQLGGPALSPLSGPSVGPSLAQSPTSLSGQSYGAYSPVDSLEFKDPTGTWKFTYNPMDPLDYKDQSAWKFQIL",
+        "n_residues": 299,
+        "mutation_pos_1indexed": 10,
+        "wt_aa": "H",
+        "mut_aa": "D",
+        "pocket_lining_residues": "P9-H10-Y11-S12",
+        "pocket_lining_positions_precursor": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "pocket_lining_1letter": "PHYS",
+        "sequence_slice_around_pocket": "MMAYMNPGPHYSVNALALS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CRX_H10D/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "P9",
+          "H10",
+          "Y11",
+          "S12"
+        ],
+        "values": [
+          [
+            0.0,
+            3.314,
+            6.591,
+            9.516
+          ],
+          [
+            3.314,
+            0.0,
+            3.822,
+            7.323
+          ],
+          [
+            6.591,
+            3.822,
+            0.0,
+            3.722
+          ],
+          [
+            9.516,
+            7.323,
+            3.722,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCCc1ccc(OC)c(N2CCCC(=O)C2)c1",
+        "composite_score": 0.5446539507759662,
+        "mw": 276.18,
+        "logp": 2.016,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 6,
+        "qed": 0.8072,
+        "sa_score": 2.28,
+        "n_heavy_atoms": 20,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CRX-H10D Candidate #1",
+        "iupac_name": "CNCCCc1ccc(OC)c(N2CCCC(=O)C2)c1",
+        "pocket_affinity_score": 0.5447,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CRX_H10D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CRX_H10D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CRX_H10D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CRX_H10D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CRX_H10D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CRX-H10D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CRX-H10D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:24:32.124322+00:00"
     }
   ]
 }
