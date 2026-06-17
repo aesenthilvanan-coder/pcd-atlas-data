@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 658,
+  "total_entries": 659,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45153,
-    "queue_remaining": 133444
+    "total_processed": 45154,
+    "queue_remaining": 133443
   },
   "entries": [
     {
@@ -146375,6 +146375,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:26:21.323857+00:00"
+    },
+    {
+      "entry_id": "PCD-DHCR7-T364M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DHCR7-T364M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DHCR7",
+        "uniprot": "",
+        "clinvar_id": "305954",
+        "disease": "Smith-Lemli-Opitz syndrome",
+        "mutation_precursor": "T364M",
+        "mutation_mature": "T364M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8485514658367563,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 441.5722542209938,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          8.143516540527344,
+          20.820650100708008,
+          -24.9932918548584
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.315987124071414,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6240084751942063,
+        "cryptic": true,
+        "pocket_residues": {
+          "F361": "F",
+          "R362": "R",
+          "R363": "R",
+          "T364": "T",
+          "D365": "D",
+          "G366": "G",
+          "R367": "R",
+          "C368": "C"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UBM7|DHCR7 variant T364M",
+        "fasta_sequence": "MAAKSQPNIPKAKSLDGVTNDRTASQGQWGRAWEVDWFSLASVIFLLLFAPFIVYYFIMACDQYSCALTGPVVDIVTGHARLSDIWAKTPPITRKAAQLYTLWVTFQVLLYTSLPDFCHKFLPGYVGGIQEGAVTPAGVVNKYQINGLQAWLLTHLLWFANAHLLSWFSPTIIFDNWIPLLWCANILGYAVSTFAMVKGYFFPTSARDCKFTGNFFYNYMMGIEFNPRIGKWFDFKLFFNGRPGIVAWTLINLSFAAKQRELHSHVTNAMVLVNVLQAIYVIDFFWNETWYLKTIDICHDHFGWYLGWGDCVWLPYLYTLQGLYLVYHPVQLSTPHAVGVLLLGLVGYYIFRVANHQKDLFRRTDGRCLIWGRKPKVIECSYTSADGQRHHSKLLVSGFWGVARHFNYVGDLMGSLAYCLACGGGHLLPYFYIIYMAILLTHRCLRDEHRCASKYGRDWERYTAAVPYRLLPGIF",
+        "full_sequence": "MAAKSQPNIPKAKSLDGVTNDRTASQGQWGRAWEVDWFSLASVIFLLLFAPFIVYYFIMACDQYSCALTGPVVDIVTGHARLSDIWAKTPPITRKAAQLYTLWVTFQVLLYTSLPDFCHKFLPGYVGGIQEGAVTPAGVVNKYQINGLQAWLLTHLLWFANAHLLSWFSPTIIFDNWIPLLWCANILGYAVSTFAMVKGYFFPTSARDCKFTGNFFYNYMMGIEFNPRIGKWFDFKLFFNGRPGIVAWTLINLSFAAKQRELHSHVTNAMVLVNVLQAIYVIDFFWNETWYLKTIDICHDHFGWYLGWGDCVWLPYLYTLQGLYLVYHPVQLSTPHAVGVLLLGLVGYYIFRVANHQKDLFRRTDGRCLIWGRKPKVIECSYTSADGQRHHSKLLVSGFWGVARHFNYVGDLMGSLAYCLACGGGHLLPYFYIIYMAILLTHRCLRDEHRCASKYGRDWERYTAAVPYRLLPGIF",
+        "n_residues": 475,
+        "mutation_pos_1indexed": 364,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "F361-R362-R363-T364-D365-G366-R367-C368",
+        "pocket_lining_positions_precursor": [
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368
+        ],
+        "pocket_lining_1letter": "FRRTDGRC",
+        "sequence_slice_around_pocket": "ANHQKDLFRRTDGRCLIWGR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_T364M/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "F361",
+          "R362",
+          "R363",
+          "T364",
+          "D365",
+          "G366",
+          "R367",
+          "C368"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            5.701,
+            5.448,
+            5.906,
+            4.843,
+            7.187,
+            6.34
+          ],
+          [
+            3.859,
+            0.0,
+            3.861,
+            5.581,
+            5.099,
+            6.518,
+            9.062,
+            9.418
+          ],
+          [
+            5.701,
+            3.861,
+            0.0,
+            3.844,
+            5.652,
+            7.827,
+            8.724,
+            9.099
+          ],
+          [
+            5.448,
+            5.581,
+            3.844,
+            0.0,
+            3.851,
+            5.274,
+            5.015,
+            6.148
+          ],
+          [
+            5.906,
+            5.099,
+            5.652,
+            3.851,
+            0.0,
+            3.858,
+            5.612,
+            7.974
+          ],
+          [
+            4.843,
+            6.518,
+            7.827,
+            5.274,
+            3.858,
+            0.0,
+            3.882,
+            5.508
+          ],
+          [
+            7.187,
+            9.062,
+            8.724,
+            5.015,
+            5.612,
+            3.882,
+            0.0,
+            3.834
+          ],
+          [
+            6.34,
+            9.418,
+            9.099,
+            6.148,
+            7.974,
+            5.508,
+            3.834,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCc1ccc(OC)cc1N1CCCCC1OC(N)=O",
+        "composite_score": 0.7444330807462781,
+        "mw": 307.19,
+        "logp": 1.869,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.8388,
+        "sa_score": 3.1,
+        "n_heavy_atoms": 22,
+        "tpsa": 76.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DHCR7-T364M Candidate #1",
+        "iupac_name": "CNCCc1ccc(OC)cc1N1CCCCC1OC(N)=O",
+        "pocket_affinity_score": 0.7444,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_T364M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_T364M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_T364M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_T364M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_T364M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DHCR7-T364M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DHCR7-T364M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:26:45.646863+00:00"
     }
   ]
 }
