@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 877,
+  "total_entries": 878,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45408,
-    "queue_remaining": 133189
+    "total_processed": 45409,
+    "queue_remaining": 133188
   },
   "entries": [
     {
@@ -193214,6 +193214,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:33:03.876639+00:00"
+    },
+    {
+      "entry_id": "PCD-IGFALS-A212T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IGFALS-A212T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "IGFALS",
+        "uniprot": "",
+        "clinvar_id": "318256",
+        "disease": "Short stature due to primary acid-labile subunit deficiency",
+        "mutation_precursor": "A212T",
+        "mutation_mature": "A212T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8466926068818437,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 444.58068779010733,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -29.780004501342773,
+          -17.300878524780273,
+          10.426926612854004
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.534025067044647,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6335850847971428,
+        "cryptic": true,
+        "pocket_residues": {
+          "P211": "P",
+          "A212": "A",
+          "S215": "S",
+          "Q240": "Q"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P35858|IGFALS variant A212T",
+        "fasta_sequence": "MALRKGGLALALLLLSWVALGPRSLEGADPGTPGEAEGPACPAACVCSYDDDADELSVFCSSRNLTRLPDGVPGGTQALWLDGNNLSSVPPAAFQNLSSLGFLNLQGGQLGSLEPQALLGLENLCHLHLERNQLRSLALGTFAHTPALASLGLSNNRLSRLEDGLFEGLGSLWDLNLGWNSLAVLPDAAFRGLGSLRELVLAGNRLAYLQPALFSGLAELRELDLSRNALRAIKANVFVQLPRLQKLYLDRNLIAAVAPGAFLGLKALRWLDLSHNRVAGLLEDTFPGLLGLRVLRLSHNAIASLRPRTFKDLHFLEELQLGHNRIRQLAERSFEGLGQLEVLTLDHNQLQEVKAGAFLGLTNVAVMNLSGNCLRNLPEQVFRGLGKLHSLHLEGSCLGRIRPHTFTGLSGLRRLFLKDNGLVGIEEQSLWGLAELLELDLTSNQLTHLPHRLFQGLGKLEYLLLSRNRLAELPADALGPLQRAFWLDVSHNRLEALPNSLLAPLGRLRYLSLRNNSLRTFTPQPPGLERLWLEGNPWDCGCPLKALRDFALQNPSAVPRFVQAICEGDDCQPPAYTYNNITCASPPEVVGLDLRDLSEAHFAPC",
+        "full_sequence": "MALRKGGLALALLLLSWVALGPRSLEGADPGTPGEAEGPACPAACVCSYDDDADELSVFCSSRNLTRLPDGVPGGTQALWLDGNNLSSVPPAAFQNLSSLGFLNLQGGQLGSLEPQALLGLENLCHLHLERNQLRSLALGTFAHTPALASLGLSNNRLSRLEDGLFEGLGSLWDLNLGWNSLAVLPDAAFRGLGSLRELVLAGNRLAYLQPALFSGLAELRELDLSRNALRAIKANVFVQLPRLQKLYLDRNLIAAVAPGAFLGLKALRWLDLSHNRVAGLLEDTFPGLLGLRVLRLSHNAIASLRPRTFKDLHFLEELQLGHNRIRQLAERSFEGLGQLEVLTLDHNQLQEVKAGAFLGLTNVAVMNLSGNCLRNLPEQVFRGLGKLHSLHLEGSCLGRIRPHTFTGLSGLRRLFLKDNGLVGIEEQSLWGLAELLELDLTSNQLTHLPHRLFQGLGKLEYLLLSRNRLAELPADALGPLQRAFWLDVSHNRLEALPNSLLAPLGRLRYLSLRNNSLRTFTPQPPGLERLWLEGNPWDCGCPLKALRDFALQNPSAVPRFVQAICEGDDCQPPAYTYNNITCASPPEVVGLDLRDLSEAHFAPC",
+        "n_residues": 605,
+        "mutation_pos_1indexed": 212,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "P211-A212-S215-Q240",
+        "pocket_lining_positions_precursor": [
+          211,
+          212,
+          215,
+          240
+        ],
+        "pocket_lining_1letter": "PASQ",
+        "sequence_slice_around_pocket": "AGNRLAYLQPALFSGLAELR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/IGFALS_A212T/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "P211",
+          "A212",
+          "S215",
+          "Q240"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            7.586,
+            8.01
+          ],
+          [
+            3.859,
+            0.0,
+            5.28,
+            8.474
+          ],
+          [
+            7.586,
+            5.28,
+            0.0,
+            5.939
+          ],
+          [
+            8.01,
+            8.474,
+            5.939,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5553523217445552,
+        "mw": 317.21,
+        "logp": 2.135,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9218,
+        "sa_score": 3.11,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "IGFALS-A212T Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5554,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/IGFALS_A212T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/IGFALS_A212T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/IGFALS_A212T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/IGFALS_A212T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/IGFALS_A212T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IGFALS-A212T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IGFALS-A212T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:33:30.437925+00:00"
     }
   ]
 }
