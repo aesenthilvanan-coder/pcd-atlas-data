@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 313,
+  "total_entries": 314,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44757,
-    "queue_remaining": 133840
+    "total_processed": 44758,
+    "queue_remaining": 133839
   },
   "entries": [
     {
@@ -68224,6 +68224,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:40:11.121952+00:00"
+    },
+    {
+      "entry_id": "PCD-EFEMP2-T312A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EFEMP2-T312A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "EFEMP2",
+        "uniprot": "",
+        "clinvar_id": "305379",
+        "disease": "not provided",
+        "mutation_precursor": "T312A",
+        "mutation_mature": "T312A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9284576357744663,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 307.25589647908345,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -33.19135665893555,
+          -24.50444793701172,
+          21.036104202270508
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.102030258514948,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7772837475832096,
+        "cryptic": true,
+        "pocket_residues": {
+          "A297": "A",
+          "D311": "D",
+          "T312": "T",
+          "N313": "N",
+          "R314": "R",
+          "C315": "C",
+          "Q321": "Q"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O95967|EFEMP2 variant T312A",
+        "fasta_sequence": "MLPCASCLPGSLLLWALLLLLLGSASPQDSEEPDSYTECTDGYEWDPDSQHCRDVNECLTIPEACKGEMKCINHYGGYLCLPRSAAVINDLHGEGPPPPVPPAQHPNPCPPGYEPDDQDSCVDVDECAQALHDCRPSQDCHNLPGSYQCTCPDGYRKIGPECVDIDECRYRYCQHRCVNLPGSFRCQCEPGFQLGPNNRSCVDVNECDMGAPCEQRCFNSYGTFLCRCHQGYELHRDGFSCSDIDECSYSSYLCQYRCINEPGRFSCHCPQGYQLLATRLCQDIDECESGAHQCSEAQTCVNFHGGYRCVDTNRCVEPYIQVSENRCLCPASNPLCREQPSSIVHRYMTITSERSVPADVFQIQATSVYPGAYNAFQIRAGNSQGDFYIRQINNVSAMLVLARPVTGPREYVLDLEMVTMNSLMSYRASSVLRLTVFVGAYTF",
+        "full_sequence": "MLPCASCLPGSLLLWALLLLLLGSASPQDSEEPDSYTECTDGYEWDPDSQHCRDVNECLTIPEACKGEMKCINHYGGYLCLPRSAAVINDLHGEGPPPPVPPAQHPNPCPPGYEPDDQDSCVDVDECAQALHDCRPSQDCHNLPGSYQCTCPDGYRKIGPECVDIDECRYRYCQHRCVNLPGSFRCQCEPGFQLGPNNRSCVDVNECDMGAPCEQRCFNSYGTFLCRCHQGYELHRDGFSCSDIDECSYSSYLCQYRCINEPGRFSCHCPQGYQLLATRLCQDIDECESGAHQCSEAQTCVNFHGGYRCVDTNRCVEPYIQVSENRCLCPASNPLCREQPSSIVHRYMTITSERSVPADVFQIQATSVYPGAYNAFQIRAGNSQGDFYIRQINNVSAMLVLARPVTGPREYVLDLEMVTMNSLMSYRASSVLRLTVFVGAYTF",
+        "n_residues": 443,
+        "mutation_pos_1indexed": 312,
+        "wt_aa": "T",
+        "mut_aa": "A",
+        "pocket_lining_residues": "A297-D311-T312-N313-R314-C315-Q321",
+        "pocket_lining_positions_precursor": [
+          297,
+          311,
+          312,
+          313,
+          314,
+          315,
+          321
+        ],
+        "pocket_lining_1letter": "ADTNRCQ",
+        "sequence_slice_around_pocket": "NFHGGYRCVDTNRCVEPYIQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/EFEMP2_T312A/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "A297",
+          "D311",
+          "T312",
+          "N313",
+          "R314",
+          "C315",
+          "Q321"
+        ],
+        "values": [
+          [
+            0.0,
+            5.912,
+            5.712,
+            7.952,
+            10.759,
+            13.608,
+            14.297
+          ],
+          [
+            5.912,
+            0.0,
+            3.828,
+            5.479,
+            6.148,
+            9.775,
+            12.28
+          ],
+          [
+            5.712,
+            3.828,
+            0.0,
+            3.85,
+            6.203,
+            9.152,
+            9.743
+          ],
+          [
+            7.952,
+            5.479,
+            3.85,
+            0.0,
+            3.849,
+            5.803,
+            7.096
+          ],
+          [
+            10.759,
+            6.148,
+            6.203,
+            3.849,
+            0.0,
+            3.806,
+            7.826
+          ],
+          [
+            13.608,
+            9.775,
+            9.152,
+            5.803,
+            3.806,
+            0.0,
+            5.857
+          ],
+          [
+            14.297,
+            12.28,
+            9.743,
+            7.096,
+            7.826,
+            5.857,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CCCCC1",
+        "composite_score": 0.7861251146058922,
+        "mw": 222.12,
+        "logp": 1.915,
+        "hbd": 1,
+        "hba": 2,
+        "rotatable_bonds": 2,
+        "qed": 0.8305,
+        "sa_score": 1.86,
+        "n_heavy_atoms": 16,
+        "tpsa": 46.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "EFEMP2-T312A Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7861,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/EFEMP2_T312A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/EFEMP2_T312A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/EFEMP2_T312A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/EFEMP2_T312A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/EFEMP2_T312A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EFEMP2-T312A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EFEMP2-T312A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:40:31.024461+00:00"
     }
   ]
 }
