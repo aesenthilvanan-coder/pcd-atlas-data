@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 153,
+  "total_entries": 154,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44557,
-    "queue_remaining": 134040
+    "total_processed": 44558,
+    "queue_remaining": 134039
   },
   "entries": [
     {
@@ -35053,6 +35053,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T05:04:39.050622+00:00"
+    },
+    {
+      "entry_id": "PCD-LIPA-R127Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LIPA-R127Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LIPA",
+        "uniprot": "",
+        "clinvar_id": "301582",
+        "disease": "Wolman disease",
+        "mutation_precursor": "R127Q",
+        "mutation_mature": "R127Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7910103512141263,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 528.4374267717785,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -14.57961368560791,
+          -10.330106735229492,
+          -12.052345275878906
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.956115834662879,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8963630259488392,
+        "cryptic": true,
+        "pocket_residues": {
+          "G122": "G",
+          "R127": "R",
+          "K128": "K",
+          "S133": "S",
+          "V134": "V",
+          "S135": "S",
+          "Q136": "Q",
+          "F139": "F",
+          "W140": "W",
+          "K231": "K",
+          "E232": "E"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P38571|LIPA variant R127Q",
+        "fasta_sequence": "MKMRFLGLVVCLVLWTLHSEGSGGKLTAVDPETNMNVSEIISYWGFPSEEYLVETEDGYILCLNRIPHGRKNHSDKGPKPVVFLQHGLLADSSNWVTNLANSSLGFILADAGFDVWMGNSRGNTWSRKHKTLSVSQDEFWAFSYDEMAKYDLPASINFILNKTGQEQVYYVGHSQGTTIGFIAFSQIPELAKRIKMFFALGPVASVAFCTSPMAKLGRLPDHLIKDLFGDKEFLPQSAFLKWLGTHVCTHVILKELCGNLCFLLCGFNERNLNMSRVDVYTTHSPAGTSVQNMLHWSQAVKFQKFQAFDWGSSAKNYFHYNQSYPPTYNVKDMLVPTAVWSGGHDWLADVYDVNILLTQITNLVFHESIPEWEHLDFIWGLDAPWRLYNKIINLMRKYQ",
+        "full_sequence": "MKMRFLGLVVCLVLWTLHSEGSGGKLTAVDPETNMNVSEIISYWGFPSEEYLVETEDGYILCLNRIPHGRKNHSDKGPKPVVFLQHGLLADSSNWVTNLANSSLGFILADAGFDVWMGNSRGNTWSRKHKTLSVSQDEFWAFSYDEMAKYDLPASINFILNKTGQEQVYYVGHSQGTTIGFIAFSQIPELAKRIKMFFALGPVASVAFCTSPMAKLGRLPDHLIKDLFGDKEFLPQSAFLKWLGTHVCTHVILKELCGNLCFLLCGFNERNLNMSRVDVYTTHSPAGTSVQNMLHWSQAVKFQKFQAFDWGSSAKNYFHYNQSYPPTYNVKDMLVPTAVWSGGHDWLADVYDVNILLTQITNLVFHESIPEWEHLDFIWGLDAPWRLYNKIINLMRKYQ",
+        "n_residues": 399,
+        "mutation_pos_1indexed": 127,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "G122-R127-K128-S133-V134-S135-Q136-F139-W140-K231-E232",
+        "pocket_lining_positions_precursor": [
+          122,
+          127,
+          128,
+          133,
+          134,
+          135,
+          136,
+          139,
+          140,
+          231,
+          232
+        ],
+        "pocket_lining_1letter": "GRKSVSQFWKE",
+        "sequence_slice_around_pocket": "MGNSRGNTWSRKHKTLSVSQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LIPA_R127Q/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "G122",
+          "R127",
+          "K128",
+          "S133",
+          "V134",
+          "S135",
+          "Q136",
+          "F139",
+          "W140",
+          "K231",
+          "E232"
+        ],
+        "values": [
+          [
+            0.0,
+            4.709,
+            7.881,
+            11.424,
+            8.576,
+            11.751,
+            12.293,
+            8.299,
+            7.258,
+            9.663,
+            7.675
+          ],
+          [
+            4.709,
+            0.0,
+            3.843,
+            8.961,
+            6.848,
+            10.606,
+            11.864,
+            8.802,
+            9.669,
+            11.884,
+            10.349
+          ],
+          [
+            7.881,
+            3.843,
+            0.0,
+            7.427,
+            7.143,
+            10.866,
+            11.645,
+            8.795,
+            11.024,
+            13.879,
+            13.221
+          ],
+          [
+            11.424,
+            8.961,
+            7.427,
+            0.0,
+            3.856,
+            5.166,
+            5.525,
+            6.61,
+            9.797,
+            11.258,
+            12.421
+          ],
+          [
+            8.576,
+            6.848,
+            7.143,
+            3.856,
+            0.0,
+            3.851,
+            5.57,
+            5.85,
+            7.686,
+            8.37,
+            8.818
+          ],
+          [
+            11.751,
+            10.606,
+            10.866,
+            5.166,
+            3.851,
+            0.0,
+            3.873,
+            7.553,
+            8.989,
+            7.937,
+            9.431
+          ],
+          [
+            12.293,
+            11.864,
+            11.645,
+            5.525,
+            5.57,
+            3.873,
+            0.0,
+            5.549,
+            7.484,
+            7.656,
+            10.304
+          ],
+          [
+            8.299,
+            8.802,
+            8.795,
+            6.61,
+            5.85,
+            7.553,
+            5.549,
+            0.0,
+            3.86,
+            7.617,
+            9.288
+          ],
+          [
+            7.258,
+            9.669,
+            11.024,
+            9.797,
+            7.686,
+            8.989,
+            7.484,
+            3.86,
+            0.0,
+            5.066,
+            6.564
+          ],
+          [
+            9.663,
+            11.884,
+            13.879,
+            11.258,
+            8.37,
+            7.937,
+            7.656,
+            7.617,
+            5.066,
+            0.0,
+            3.838
+          ],
+          [
+            7.675,
+            10.349,
+            13.221,
+            12.421,
+            8.818,
+            9.431,
+            10.304,
+            9.288,
+            6.564,
+            3.838,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1CNC(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.8314247255045981,
+        "mw": 408.23,
+        "logp": 2.017,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 5,
+        "qed": 0.7798,
+        "sa_score": 3.31,
+        "n_heavy_atoms": 30,
+        "tpsa": 104.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LIPA-R127Q Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1CNC(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.8314,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LIPA_R127Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LIPA_R127Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LIPA_R127Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LIPA_R127Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LIPA_R127Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LIPA-R127Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LIPA-R127Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T05:05:00.454396+00:00"
     }
   ]
 }
