@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1387,
+  "total_entries": 1388,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46025,
-    "queue_remaining": 132572
+    "total_processed": 46026,
+    "queue_remaining": 132571
   },
   "entries": [
     {
@@ -307333,6 +307333,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:08:46.496992+00:00"
+    },
+    {
+      "entry_id": "PCD-SAMHD1-R531S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SAMHD1-R531S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SAMHD1",
+        "uniprot": "",
+        "clinvar_id": "338342",
+        "disease": "Chilblain lupus 2",
+        "mutation_precursor": "R531S",
+        "mutation_mature": "R531S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9027746286875861,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 475.93568034811994,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -36.62479782104492,
+          -4.750396728515625,
+          -4.970312118530273
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.8079797055455575,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7883725972713554,
+        "cryptic": true,
+        "pocket_residues": {
+          "V343": "V",
+          "S519": "S",
+          "F520": "F",
+          "Y521": "Y",
+          "R528": "R",
+          "A529": "A",
+          "I530": "I",
+          "R531": "R"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y3Z3|SAMHD1 variant R531S",
+        "fasta_sequence": "MQRADSEQPSKRPRCDDSPRTPSNTPSAEADWSPGLELHPDYKTWGPEQVCSFLRRGGFEEPVLLKNIRENEITGALLPCLDESRFENLGVSSLGERKKLLSYIQRLVQIHVDTMKVINDPIHGHIELHPLLVRIIDTPQFQRLRYIKQLGGGYYVFPGASHNRFEHSLGVGYLAGCLVHALGEKQPELQISERDVLCVQIAGLCHDLGHGPFSHMFDGRFIPLARPEVKWTHEQGSVMMFEHLINSNGIKPVMEQYGLIPEEDICFIKEQIVGPLESPVEDSLWPYKGRPENKSFLYEIVSNKRNGIDVDKWDYFARDCHHLGIQNNFDYKRFIKFARVCEVDNELRICARDKEVGNLYDMFHTRNSLHRRAYQHKVGNIIDTMITDAFLKADDYIEITGAGGKKYRISTAIDDMEAYTKLTDNIFLEILYSTDPKLKDAREILKQIEYRNLFKYVGETQPTGQIKIKREDYESLPKEVASAKPKVLLDVKLKAEDFIVDVINMDYGMQEKNPIDHVSFYCKTAPNRAIRITKNQVSQLLPEKFAEQLIRVYCKKVDRKSLYAARQYFVQWCADRNFTKPQDGDVIAPLITPQKKEWNDSTSVQNPTRLREASKSRVQLFKDDPM",
+        "full_sequence": "MQRADSEQPSKRPRCDDSPRTPSNTPSAEADWSPGLELHPDYKTWGPEQVCSFLRRGGFEEPVLLKNIRENEITGALLPCLDESRFENLGVSSLGERKKLLSYIQRLVQIHVDTMKVINDPIHGHIELHPLLVRIIDTPQFQRLRYIKQLGGGYYVFPGASHNRFEHSLGVGYLAGCLVHALGEKQPELQISERDVLCVQIAGLCHDLGHGPFSHMFDGRFIPLARPEVKWTHEQGSVMMFEHLINSNGIKPVMEQYGLIPEEDICFIKEQIVGPLESPVEDSLWPYKGRPENKSFLYEIVSNKRNGIDVDKWDYFARDCHHLGIQNNFDYKRFIKFARVCEVDNELRICARDKEVGNLYDMFHTRNSLHRRAYQHKVGNIIDTMITDAFLKADDYIEITGAGGKKYRISTAIDDMEAYTKLTDNIFLEILYSTDPKLKDAREILKQIEYRNLFKYVGETQPTGQIKIKREDYESLPKEVASAKPKVLLDVKLKAEDFIVDVINMDYGMQEKNPIDHVSFYCKTAPNRAIRITKNQVSQLLPEKFAEQLIRVYCKKVDRKSLYAARQYFVQWCADRNFTKPQDGDVIAPLITPQKKEWNDSTSVQNPTRLREASKSRVQLFKDDPM",
+        "n_residues": 626,
+        "mutation_pos_1indexed": 531,
+        "wt_aa": "R",
+        "mut_aa": "S",
+        "pocket_lining_residues": "V343-S519-F520-Y521-R528-A529-I530-R531",
+        "pocket_lining_positions_precursor": [
+          343,
+          519,
+          520,
+          521,
+          528,
+          529,
+          530,
+          531
+        ],
+        "pocket_lining_1letter": "VSFYRAIR",
+        "sequence_slice_around_pocket": "YCKTAPNRAIRITKNQVSQL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_R531S/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "V343",
+          "S519",
+          "F520",
+          "Y521",
+          "R528",
+          "A529",
+          "I530",
+          "R531"
+        ],
+        "values": [
+          [
+            0.0,
+            7.689,
+            9.954,
+            10.849,
+            8.472,
+            6.343,
+            8.539,
+            10.148
+          ],
+          [
+            7.689,
+            0.0,
+            3.819,
+            7.121,
+            9.61,
+            5.941,
+            5.812,
+            5.536
+          ],
+          [
+            9.954,
+            3.819,
+            0.0,
+            3.841,
+            8.286,
+            5.437,
+            5.136,
+            6.026
+          ],
+          [
+            10.849,
+            7.121,
+            3.841,
+            0.0,
+            5.923,
+            4.973,
+            5.916,
+            8.496
+          ],
+          [
+            8.472,
+            9.61,
+            8.286,
+            5.923,
+            0.0,
+            3.79,
+            6.596,
+            10.374
+          ],
+          [
+            6.343,
+            5.941,
+            5.437,
+            4.973,
+            3.79,
+            0.0,
+            3.841,
+            7.157
+          ],
+          [
+            8.539,
+            5.812,
+            5.136,
+            5.916,
+            6.596,
+            3.841,
+            0.0,
+            3.837
+          ],
+          [
+            10.148,
+            5.536,
+            6.026,
+            8.496,
+            10.374,
+            7.157,
+            3.837,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6771980174980002,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SAMHD1-R531S Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6772,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_R531S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_R531S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_R531S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_R531S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_R531S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SAMHD1-R531S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SAMHD1-R531S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:09:12.706848+00:00"
     }
   ]
 }
