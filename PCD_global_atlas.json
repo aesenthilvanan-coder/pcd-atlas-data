@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 796,
+  "total_entries": 797,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45311,
-    "queue_remaining": 133286
+    "total_processed": 45312,
+    "queue_remaining": 133285
   },
   "entries": [
     {
@@ -175088,6 +175088,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T14:20:06.661414+00:00"
+    },
+    {
+      "entry_id": "PCD-TYK2-G512R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TYK2-G512R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TYK2",
+        "uniprot": "",
+        "clinvar_id": "327949",
+        "disease": "Immunodeficiency 35",
+        "mutation_precursor": "G512R",
+        "mutation_mature": "G512R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8327400079389357,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 536.1684748952803,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          21.684595108032227,
+          5.02530574798584,
+          26.624958038330078
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.497205412888624,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7383155514996477,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q509": "Q",
+          "Q510": "Q",
+          "D511": "D",
+          "G512": "G",
+          "A513": "A",
+          "F514": "F",
+          "S522": "S",
+          "P524": "P"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P29597|TYK2 variant G512R",
+        "fasta_sequence": "MPLRHWGMARGSKPVGDGAQPMAAMGGLKVLLHWAGPGGGEPWVTFSESSLTAEEVCIHIAHKVGITPPCFNLFALFDAQAQVWLPPNHILEIPRDASLMLYFRIRFYFRNWHGMNPREPAVYRCGPPGTEASSDQTAQGMQLLDPASFEYLFEQGKHEFVNDVASLWELSTEEEIHHFKNESLGMAFLHLCHLALRHGIPLEEVAKKTSFKDCIPRSFRRHIRQHSALTRLRLRNVFRRFLRDFQPGRLSQQMVMVKYLATLERLAPRFGTERVPVCHLRLLAQAEGEPCYIRDSGVAPTDPGPESAAGPPTHEVLVTGTGGIQWWPVEEEVNKEEGSSGSSGRNPQASLFGKKAKAHKAVGQPADRPREPLWAYFCDFRDITHVVLKEHCVSIHRQDNKCLELSLPSRAAALSFVSLVDGYFRLTADSSHYLCHEVAPPRLVMSIRDGIHGPLLEPFVQAKLRPEDGLYLIHWSTSHPYRLILTVAQRSQAPDGMQSLRLRKFPIEQQDGAFVLEGWGRSFPSVRELGAALQGCLLRAGDDCFSLRRCCLPQPGETSNLIIMRGARASPRTLNLSQLSFHRVDQKEITQLSHLGQGTRTNVYEGRLRVEGSGDPEEGKMDDEDPLVPGRDRGQELRVVLKVLDPSHHDIALAFYETASLMSQVSHTHLAFVHGVCVRGPENIMVTEYVEHGPLDVWLRRERGHVPMAWKMVVAQQLASALSYLENKNLVHGNVCGRNILLARLGLAEGTSPFIKLSDPGVGLGALSREERVERIPWLAPECLPGGANSLSTAMDKWGFGATLLEICFDGEAPLQSRSPSEKEHFYQRQHRLPEPSCPQLATLTSQCLTYEPTQRPSFRTILRDLTRLQPHNLADVLTVNPDSPASDPTVFHKRYLKKIRDLGEGHFGKVSLYCYDPTNDGTGEMVAVKALKADCGPQHRSGWKQEIDILRTLYHEHIIKYKGCCEDQGEKSLQLVMEYVPLGSLRDYLPRHSIGLAQLLLFAQQICEGMAYLHAQHYIHRDLAARNVLLDNDRLVKIGDFGLAKAVPEGHEYYRVREDGDSPVFWYAPECLKEYKFYYASDVWSFGVTLYELLTHCDSSQSPPTKFLELIGIAQGQMTVLRLTELLERGERLPRPDKCPCEVYHLMKNCWETEASFRPTFENLIPILKTVHEKYQGQAPSVFSVC",
+        "full_sequence": "MPLRHWGMARGSKPVGDGAQPMAAMGGLKVLLHWAGPGGGEPWVTFSESSLTAEEVCIHIAHKVGITPPCFNLFALFDAQAQVWLPPNHILEIPRDASLMLYFRIRFYFRNWHGMNPREPAVYRCGPPGTEASSDQTAQGMQLLDPASFEYLFEQGKHEFVNDVASLWELSTEEEIHHFKNESLGMAFLHLCHLALRHGIPLEEVAKKTSFKDCIPRSFRRHIRQHSALTRLRLRNVFRRFLRDFQPGRLSQQMVMVKYLATLERLAPRFGTERVPVCHLRLLAQAEGEPCYIRDSGVAPTDPGPESAAGPPTHEVLVTGTGGIQWWPVEEEVNKEEGSSGSSGRNPQASLFGKKAKAHKAVGQPADRPREPLWAYFCDFRDITHVVLKEHCVSIHRQDNKCLELSLPSRAAALSFVSLVDGYFRLTADSSHYLCHEVAPPRLVMSIRDGIHGPLLEPFVQAKLRPEDGLYLIHWSTSHPYRLILTVAQRSQAPDGMQSLRLRKFPIEQQDGAFVLEGWGRSFPSVRELGAALQGCLLRAGDDCFSLRRCCLPQPGETSNLIIMRGARASPRTLNLSQLSFHRVDQKEITQLSHLGQGTRTNVYEGRLRVEGSGDPEEGKMDDEDPLVPGRDRGQELRVVLKVLDPSHHDIALAFYETASLMSQVSHTHLAFVHGVCVRGPENIMVTEYVEHGPLDVWLRRERGHVPMAWKMVVAQQLASALSYLENKNLVHGNVCGRNILLARLGLAEGTSPFIKLSDPGVGLGALSREERVERIPWLAPECLPGGANSLSTAMDKWGFGATLLEICFDGEAPLQSRSPSEKEHFYQRQHRLPEPSCPQLATLTSQCLTYEPTQRPSFRTILRDLTRLQPHNLADVLTVNPDSPASDPTVFHKRYLKKIRDLGEGHFGKVSLYCYDPTNDGTGEMVAVKALKADCGPQHRSGWKQEIDILRTLYHEHIIKYKGCCEDQGEKSLQLVMEYVPLGSLRDYLPRHSIGLAQLLLFAQQICEGMAYLHAQHYIHRDLAARNVLLDNDRLVKIGDFGLAKAVPEGHEYYRVREDGDSPVFWYAPECLKEYKFYYASDVWSFGVTLYELLTHCDSSQSPPTKFLELIGIAQGQMTVLRLTELLERGERLPRPDKCPCEVYHLMKNCWETEASFRPTFENLIPILKTVHEKYQGQAPSVFSVC",
+        "n_residues": 1187,
+        "mutation_pos_1indexed": 512,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "Q509-Q510-D511-G512-A513-F514-S522-P524",
+        "pocket_lining_positions_precursor": [
+          509,
+          510,
+          511,
+          512,
+          513,
+          514,
+          522,
+          524
+        ],
+        "pocket_lining_1letter": "QQDGAFSP",
+        "sequence_slice_around_pocket": "LRKFPIEQQDGAFVLEGWGR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TYK2_G512R/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "Q509",
+          "Q510",
+          "D511",
+          "G512",
+          "A513",
+          "F514",
+          "S522",
+          "P524"
+        ],
+        "values": [
+          [
+            0.0,
+            3.862,
+            6.814,
+            6.536,
+            5.748,
+            4.736,
+            9.468,
+            9.646
+          ],
+          [
+            3.862,
+            0.0,
+            3.878,
+            5.674,
+            5.302,
+            6.293,
+            8.918,
+            10.025
+          ],
+          [
+            6.814,
+            3.878,
+            0.0,
+            3.862,
+            5.61,
+            8.465,
+            10.271,
+            9.658
+          ],
+          [
+            6.536,
+            5.674,
+            3.862,
+            0.0,
+            3.856,
+            7.021,
+            9.683,
+            6.635
+          ],
+          [
+            5.748,
+            5.302,
+            5.61,
+            3.856,
+            0.0,
+            3.844,
+            5.94,
+            4.747
+          ],
+          [
+            4.736,
+            6.293,
+            8.465,
+            7.021,
+            3.844,
+            0.0,
+            5.571,
+            6.289
+          ],
+          [
+            9.468,
+            8.918,
+            10.271,
+            9.683,
+            5.94,
+            5.571,
+            0.0,
+            7.052
+          ],
+          [
+            9.646,
+            10.025,
+            9.658,
+            6.635,
+            4.747,
+            6.289,
+            7.052,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "composite_score": 0.7301811250731706,
+        "mw": 374.27,
+        "logp": 2.113,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 7,
+        "qed": 0.7649,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 27,
+        "tpsa": 70.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TYK2-G512R Candidate #1",
+        "iupac_name": "CNCCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "pocket_affinity_score": 0.7302,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TYK2_G512R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TYK2_G512R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TYK2_G512R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TYK2_G512R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TYK2_G512R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TYK2-G512R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TYK2-G512R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T14:20:48.300483+00:00"
     }
   ]
 }
