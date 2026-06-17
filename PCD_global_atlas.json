@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1390,
+  "total_entries": 1391,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46028,
-    "queue_remaining": 132569
+    "total_processed": 46029,
+    "queue_remaining": 132568
   },
   "entries": [
     {
@@ -308137,6 +308137,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:10:41.203636+00:00"
+    },
+    {
+      "entry_id": "PCD-FOXN1-L184I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXN1-L184I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FOXN1",
+        "uniprot": "",
+        "clinvar_id": "322420",
+        "disease": "T-cell immunodeficiency, congenital alopecia, and nail dystrophy",
+        "mutation_precursor": "L184I",
+        "mutation_mature": "L184I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8090994610796115,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 633.7696711268428,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          18.515487670898438,
+          3.967247724533081,
+          -17.825700759887695
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.044250695068242,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8736420889926833,
+        "cryptic": true,
+        "pocket_residues": {
+          "W180": "W",
+          "C181": "C",
+          "N182": "N",
+          "G183": "G",
+          "L184": "L",
+          "P185": "P"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15353|FOXN1 variant L184I",
+        "fasta_sequence": "MVSLPPPQSDVTLPGPTRLEGERQGDLMQAPGLPGSPAPQSKHAGFSCSSFVSDGPPERTPSLPPHSPRIASPGPEQVQGHCPAGPGPGPFRLSPSDKYPGFGFEEAAASSPGRFLKGSHAPFHPYKRPFHEDVFPEAETTLALKGHSFKTPGPLEAFEEIPVDVAEAEAFLPGFSAEAWCNGLPYPSQEHGPQVLGSEVKVKPPVLESGAGMFCYQPPLQHMYCSSQPPFHQYSPGGGSYPIPYLGSSHYQYQRMAPQASTDGHQPLFPKPIYSYSILIFMALKNSKTGSLPVSEIYNFMTEHFPYFKTAPDGWKNSVRHNLSLNKCFEKVENKSGSSSRKGCLWALNPAKIDKMQEELQKWKRKDPIAVRKSMAKPEELDSLIGDKREKLGSPLLGCPPPGLSGSGPIRPLAPPAGLSPPLHSLHPAPGPIPGKNPLQDLLMGHTPSCYGQTYLHLSPGLAPPGPPQPLFPQPDGHLELRAQPGTPQDSPLPAHTPPSHSAKLLAEPSPARTMHDTLLPDGDLGTDLDAINPSLTDFDFQGNLWEQLKDDSLALDPLVLVTSSPTSSSMPPPQPPPHCFPPGPCLTETGSGAGDLAAPGSGGSGALGDLHLTTLYSAFMELEPTPPTAPAGPSVYLSPSSKPVALA",
+        "full_sequence": "MVSLPPPQSDVTLPGPTRLEGERQGDLMQAPGLPGSPAPQSKHAGFSCSSFVSDGPPERTPSLPPHSPRIASPGPEQVQGHCPAGPGPGPFRLSPSDKYPGFGFEEAAASSPGRFLKGSHAPFHPYKRPFHEDVFPEAETTLALKGHSFKTPGPLEAFEEIPVDVAEAEAFLPGFSAEAWCNGLPYPSQEHGPQVLGSEVKVKPPVLESGAGMFCYQPPLQHMYCSSQPPFHQYSPGGGSYPIPYLGSSHYQYQRMAPQASTDGHQPLFPKPIYSYSILIFMALKNSKTGSLPVSEIYNFMTEHFPYFKTAPDGWKNSVRHNLSLNKCFEKVENKSGSSSRKGCLWALNPAKIDKMQEELQKWKRKDPIAVRKSMAKPEELDSLIGDKREKLGSPLLGCPPPGLSGSGPIRPLAPPAGLSPPLHSLHPAPGPIPGKNPLQDLLMGHTPSCYGQTYLHLSPGLAPPGPPQPLFPQPDGHLELRAQPGTPQDSPLPAHTPPSHSAKLLAEPSPARTMHDTLLPDGDLGTDLDAINPSLTDFDFQGNLWEQLKDDSLALDPLVLVTSSPTSSSMPPPQPPPHCFPPGPCLTETGSGAGDLAAPGSGGSGALGDLHLTTLYSAFMELEPTPPTAPAGPSVYLSPSSKPVALA",
+        "n_residues": 648,
+        "mutation_pos_1indexed": 184,
+        "wt_aa": "L",
+        "mut_aa": "I",
+        "pocket_lining_residues": "W180-C181-N182-G183-L184-P185",
+        "pocket_lining_positions_precursor": [
+          180,
+          181,
+          182,
+          183,
+          184,
+          185
+        ],
+        "pocket_lining_1letter": "WCNGLP",
+        "sequence_slice_around_pocket": "GFSAEAWCNGLPYPSQEHGP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_L184I/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "W180",
+          "C181",
+          "N182",
+          "G183",
+          "L184",
+          "P185"
+        ],
+        "values": [
+          [
+            0.0,
+            3.783,
+            6.584,
+            8.585,
+            10.869,
+            13.54
+          ],
+          [
+            3.783,
+            0.0,
+            3.796,
+            6.96,
+            10.035,
+            13.191
+          ],
+          [
+            6.584,
+            3.796,
+            0.0,
+            3.573,
+            7.032,
+            10.244
+          ],
+          [
+            8.585,
+            6.96,
+            3.573,
+            0.0,
+            3.783,
+            6.715
+          ],
+          [
+            10.869,
+            10.035,
+            7.032,
+            3.783,
+            0.0,
+            3.872
+          ],
+          [
+            13.54,
+            13.191,
+            10.244,
+            6.715,
+            3.872,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccc(S(N)(=O)=O)cc1N1CC(=O)CCC1CCNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.5171360181065742,
+        "mw": 450.11,
+        "logp": 1.928,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.5751,
+        "sa_score": 3.0,
+        "n_heavy_atoms": 30,
+        "tpsa": 135.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FOXN1-L184I Candidate #1",
+        "iupac_name": "Nc1ccc(S(N)(=O)=O)cc1N1CC(=O)CCC1CCNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.5171,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_L184I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_L184I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_L184I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_L184I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_L184I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXN1-L184I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXN1-L184I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:11:07.147725+00:00"
     }
   ]
 }
