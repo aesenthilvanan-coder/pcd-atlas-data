@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 627,
+  "total_entries": 628,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45121,
-    "queue_remaining": 133476
+    "total_processed": 45122,
+    "queue_remaining": 133475
   },
   "entries": [
     {
@@ -138964,6 +138964,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:03:45.286456+00:00"
+    },
+    {
+      "entry_id": "PCD-COG6-D107V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COG6-D107V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COG6",
+        "uniprot": "",
+        "clinvar_id": "312133",
+        "disease": "COG6-congenital disorder of glycosylation",
+        "mutation_precursor": "D107V",
+        "mutation_mature": "D107V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9201249874665876,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 586.4439925570201,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -103.76801300048828,
+          -6.546553134918213,
+          76.91236114501953
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.715791696903185,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6876851616122837,
+        "cryptic": true,
+        "pocket_residues": {
+          "S103": "S",
+          "E106": "E",
+          "D107": "D",
+          "Q109": "Q",
+          "A110": "A"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y2V7|COG6 variant D107V",
+        "fasta_sequence": "MAEGSGEVVAVSATGAANGLNNGAGGTSATTCNPLSRKLHKILETRLDNDKEMLEALKALSTFFVENSLRTRRNLRGDIERKSLAINEEFVSIFKEVKEELESISEDVQAMSNCCQDMTSRLQAAKEQTQDLIVKTTKLQSESQKLEIRAQVADAFLSKFQLTSDEMSLLRGTREGPITEDFFKALGRVKQIHNDVKVLLRTNQQTAGLEIMEQMALLQETAYERLYRWAQSECRTLTQESCDVSPVLTQAMEALQDRPVLYKYTLDEFGTARRSTVVRGFIDALTRGGPGGTPRPIEMHSHDPLRYVGDMLAWLHQATASEKEHLEALLKHVTTQGVEENIQEVVGHITEGVCRPLKVRIEQVIVAEPGAVLLYKISNLLKFYHHTISGIVGNSATALLTTIEEMHLLSKKIFFNSLSLHASKLMDKVELPPPDLGPSSALNQTLMLLREVLASHDSSVVPLDARQADFVQVLSCVLDPLLQMCTVSASNLGTADMATFMVNSLYMMKTTLALFEFTDRRLEMLQFQIEAHLDTLINEQASYVLTRVGLSYIYNTVQQHKPEQGSLANMPNLDSVTLKAAMVQFDRYLSAPDNLLIPQLNFLLSATVKEQIVKQSTELVCRAYGEVYAAVMNPINEYKDPENILHRSPQQVQTLLS",
+        "full_sequence": "MAEGSGEVVAVSATGAANGLNNGAGGTSATTCNPLSRKLHKILETRLDNDKEMLEALKALSTFFVENSLRTRRNLRGDIERKSLAINEEFVSIFKEVKEELESISEDVQAMSNCCQDMTSRLQAAKEQTQDLIVKTTKLQSESQKLEIRAQVADAFLSKFQLTSDEMSLLRGTREGPITEDFFKALGRVKQIHNDVKVLLRTNQQTAGLEIMEQMALLQETAYERLYRWAQSECRTLTQESCDVSPVLTQAMEALQDRPVLYKYTLDEFGTARRSTVVRGFIDALTRGGPGGTPRPIEMHSHDPLRYVGDMLAWLHQATASEKEHLEALLKHVTTQGVEENIQEVVGHITEGVCRPLKVRIEQVIVAEPGAVLLYKISNLLKFYHHTISGIVGNSATALLTTIEEMHLLSKKIFFNSLSLHASKLMDKVELPPPDLGPSSALNQTLMLLREVLASHDSSVVPLDARQADFVQVLSCVLDPLLQMCTVSASNLGTADMATFMVNSLYMMKTTLALFEFTDRRLEMLQFQIEAHLDTLINEQASYVLTRVGLSYIYNTVQQHKPEQGSLANMPNLDSVTLKAAMVQFDRYLSAPDNLLIPQLNFLLSATVKEQIVKQSTELVCRAYGEVYAAVMNPINEYKDPENILHRSPQQVQTLLS",
+        "n_residues": 657,
+        "mutation_pos_1indexed": 107,
+        "wt_aa": "D",
+        "mut_aa": "V",
+        "pocket_lining_residues": "S103-E106-D107-Q109-A110",
+        "pocket_lining_positions_precursor": [
+          103,
+          106,
+          107,
+          109,
+          110
+        ],
+        "pocket_lining_1letter": "SEDQA",
+        "sequence_slice_around_pocket": "VKEELESISEDVQAMSNCCQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COG6_D107V/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "S103",
+          "E106",
+          "D107",
+          "Q109",
+          "A110"
+        ],
+        "values": [
+          [
+            0.0,
+            5.165,
+            6.364,
+            9.984,
+            10.645
+          ],
+          [
+            5.165,
+            0.0,
+            3.852,
+            5.161,
+            6.116
+          ],
+          [
+            6.364,
+            3.852,
+            0.0,
+            5.45,
+            5.058
+          ],
+          [
+            9.984,
+            5.161,
+            5.45,
+            0.0,
+            3.845
+          ],
+          [
+            10.645,
+            6.116,
+            5.058,
+            3.845,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7631187594056678,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COG6-D107V Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7631,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COG6_D107V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COG6_D107V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COG6_D107V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COG6_D107V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COG6_D107V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COG6-D107V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COG6-D107V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:04:13.524237+00:00"
     }
   ]
 }
