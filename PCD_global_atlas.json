@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 946,
+  "total_entries": 947,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45483,
-    "queue_remaining": 133114
+    "total_processed": 45484,
+    "queue_remaining": 133113
   },
   "entries": [
     {
@@ -208233,6 +208233,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:32:15.142608+00:00"
+    },
+    {
+      "entry_id": "PCD-DNMT3B-Y404C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNMT3B-Y404C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DNMT3B",
+        "uniprot": "",
+        "clinvar_id": "338163",
+        "disease": "Immunodeficiency-centromeric instability-facial anomalies syndrome 1",
+        "mutation_precursor": "Y404C",
+        "mutation_mature": "Y404C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8614291065408393,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 309.65497978662603,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -38.87626266479492,
+          -0.9445334672927856,
+          -1.2595651149749756
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.531256815581783,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7311644136480131,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y404": "Y",
+          "N405": "N",
+          "N406": "N",
+          "G407": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UBC3|DNMT3B variant Y404C",
+        "fasta_sequence": "MKGDTRHLNGEEDAGGREDSILVNGACSDQSSDSPPILEAIRTPEIRGRRSSSRLSKREVSSLLSYTQDLTGDGDGEDGDGSDTPVMPKLFRETRTRSESPAVRTRNNNSVSSRERHRPSPRSTRGRQGRNHVDESPVEFPATRSLRRRATASAGTPWPSPPSSYLTIDLTDDTEDTHGTPQSSSTPYARLAQDSQQGGMESPQVEADSGDGDSSEYQDGKEFGIGDLVWGKIKGFSWWPAMVVSWKATSKRQAMSGMRWVQWFGDGKFSEVSADKLVALGLFSQHFNLATFNKLVSYRKAMYHALEKARVRAGKTFPSSPGDSLEDQLKPMLEWAHGGFKPTGIEGLKPNNTQPVVNKSKVRRAGSRKLESRKYENKTRRRTADDSATSDYCPAPKRLKTNCYNNGKDRGDEDQSREQMASDVANNKSSLEDGCLSCGRKNPVSFHPLFEGGLCQTCRDRFLELFYMYDDDGYQSYCTVCCEGRELLLCSNTSCCRCFCVECLEVLVGTGTAAEAKLQEPWSCYMCLPQRCHGVLRRRKDWNVRLQAFFTSDTGLEYEAPKLYPAIPAARRRPIRVLSLFDGIATGYLVLKELGIKVGKYVASEVCEESIAVGTVKHEGNIKYVNDVRNITKKNIEEWGPFDLVIGGSPCNDLSNVNPARKGLYEGTGRLFFEFYHLLNYSRPKEGDDRPFFWMFENVVAMKVGDKRDISRFLECNPVMIDAIKVSAAHRARYFWGNLPGMNRPVIASKNDKLELQDCLEYNRIAKLKKVQTITTKSNSIKQGKNQLFPVVMNGKEDVLWCTELERIFGFPVHYTDVSNMGRGARQKLLGRSWSVPVIRHLFAPLKDYFACE",
+        "full_sequence": "MKGDTRHLNGEEDAGGREDSILVNGACSDQSSDSPPILEAIRTPEIRGRRSSSRLSKREVSSLLSYTQDLTGDGDGEDGDGSDTPVMPKLFRETRTRSESPAVRTRNNNSVSSRERHRPSPRSTRGRQGRNHVDESPVEFPATRSLRRRATASAGTPWPSPPSSYLTIDLTDDTEDTHGTPQSSSTPYARLAQDSQQGGMESPQVEADSGDGDSSEYQDGKEFGIGDLVWGKIKGFSWWPAMVVSWKATSKRQAMSGMRWVQWFGDGKFSEVSADKLVALGLFSQHFNLATFNKLVSYRKAMYHALEKARVRAGKTFPSSPGDSLEDQLKPMLEWAHGGFKPTGIEGLKPNNTQPVVNKSKVRRAGSRKLESRKYENKTRRRTADDSATSDYCPAPKRLKTNCYNNGKDRGDEDQSREQMASDVANNKSSLEDGCLSCGRKNPVSFHPLFEGGLCQTCRDRFLELFYMYDDDGYQSYCTVCCEGRELLLCSNTSCCRCFCVECLEVLVGTGTAAEAKLQEPWSCYMCLPQRCHGVLRRRKDWNVRLQAFFTSDTGLEYEAPKLYPAIPAARRRPIRVLSLFDGIATGYLVLKELGIKVGKYVASEVCEESIAVGTVKHEGNIKYVNDVRNITKKNIEEWGPFDLVIGGSPCNDLSNVNPARKGLYEGTGRLFFEFYHLLNYSRPKEGDDRPFFWMFENVVAMKVGDKRDISRFLECNPVMIDAIKVSAAHRARYFWGNLPGMNRPVIASKNDKLELQDCLEYNRIAKLKKVQTITTKSNSIKQGKNQLFPVVMNGKEDVLWCTELERIFGFPVHYTDVSNMGRGARQKLLGRSWSVPVIRHLFAPLKDYFACE",
+        "n_residues": 853,
+        "mutation_pos_1indexed": 404,
+        "wt_aa": "Y",
+        "mut_aa": "C",
+        "pocket_lining_residues": "Y404-N405-N406-G407",
+        "pocket_lining_positions_precursor": [
+          404,
+          405,
+          406,
+          407
+        ],
+        "pocket_lining_1letter": "YNNG",
+        "sequence_slice_around_pocket": "PAPKRLKTNCYNNGKDRGDE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DNMT3B_Y404C/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "Y404",
+          "N405",
+          "N406",
+          "G407"
+        ],
+        "values": [
+          [
+            0.0,
+            3.765,
+            5.172,
+            8.483
+          ],
+          [
+            3.765,
+            0.0,
+            3.803,
+            5.632
+          ],
+          [
+            5.172,
+            3.803,
+            0.0,
+            3.778
+          ],
+          [
+            8.483,
+            5.632,
+            3.778,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CCCCC1",
+        "composite_score": 0.5665473384621815,
+        "mw": 219.17,
+        "logp": 1.963,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8415,
+        "sa_score": 2.19,
+        "n_heavy_atoms": 16,
+        "tpsa": 42.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DNMT3B-Y404C Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.5665,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DNMT3B_Y404C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DNMT3B_Y404C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DNMT3B_Y404C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNMT3B_Y404C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNMT3B_Y404C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNMT3B-Y404C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNMT3B-Y404C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:32:48.261996+00:00"
     }
   ]
 }
