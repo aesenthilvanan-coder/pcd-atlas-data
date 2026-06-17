@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 602,
+  "total_entries": 603,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45084,
-    "queue_remaining": 133513
+    "total_processed": 45085,
+    "queue_remaining": 133512
   },
   "entries": [
     {
@@ -132916,6 +132916,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:40:41.241722+00:00"
+    },
+    {
+      "entry_id": "PCD-ALX4-R63Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALX4-R63Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ALX4",
+        "uniprot": "",
+        "clinvar_id": "304714",
+        "disease": "Parietal foramina 2",
+        "mutation_precursor": "R63Q",
+        "mutation_mature": "R63Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8569535742244727,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 449.09851871497364,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -18.157512664794922,
+          -10.16759204864502,
+          37.339778900146484
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.9314518716181992,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6864402266561705,
+        "cryptic": true,
+        "pocket_residues": {
+          "S62": "S",
+          "R63": "R",
+          "A64": "A",
+          "R65": "R",
+          "I407": "I",
+          "A410": "A"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9H161|ALX4 variant R63Q",
+        "fasta_sequence": "MNAETCVSYCESPAAAMDAYYSPVSQSREGSSPFRAFPGGDKFGTTFLSAAAKAQGFGDAKSRARYGAGQQDLATPLESGAGARGSFNKFQPQPSTPQPQPPPQPQPQQQQPQPQPPAQPHLYLQRGACKTPPDGSLKLQEGSSGHSAALQVPCYAKESSLGEPELPPDSDTVGMDSSYLSVKEAGVKGPQDRASSDLPSPLEKADSESNKGKKRRNRTTFTSYQLEELEKVFQKTHYPDVYAREQLAMRTDLTEARVQVWFQNRRAKWRKRERFGQMQQVRTHFSTAYELPLLTRAENYAQIQNPSWLGNNGAASPVPACVVPCDPVPACMSPHAHPPGSGASSVTDFLSVSGAGSHVGQTHMGSLFGAASLSPGLNGYELNGEPDRKTSSIAALRMKAKEHSAAISWAT",
+        "full_sequence": "MNAETCVSYCESPAAAMDAYYSPVSQSREGSSPFRAFPGGDKFGTTFLSAAAKAQGFGDAKSRARYGAGQQDLATPLESGAGARGSFNKFQPQPSTPQPQPPPQPQPQQQQPQPQPPAQPHLYLQRGACKTPPDGSLKLQEGSSGHSAALQVPCYAKESSLGEPELPPDSDTVGMDSSYLSVKEAGVKGPQDRASSDLPSPLEKADSESNKGKKRRNRTTFTSYQLEELEKVFQKTHYPDVYAREQLAMRTDLTEARVQVWFQNRRAKWRKRERFGQMQQVRTHFSTAYELPLLTRAENYAQIQNPSWLGNNGAASPVPACVVPCDPVPACMSPHAHPPGSGASSVTDFLSVSGAGSHVGQTHMGSLFGAASLSPGLNGYELNGEPDRKTSSIAALRMKAKEHSAAISWAT",
+        "n_residues": 411,
+        "mutation_pos_1indexed": 63,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "S62-R63-A64-R65-I407-A410",
+        "pocket_lining_positions_precursor": [
+          62,
+          63,
+          64,
+          65,
+          407,
+          410
+        ],
+        "pocket_lining_1letter": "SRARIA",
+        "sequence_slice_around_pocket": "KAQGFGDAKSRARYGAGQQD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ALX4_R63Q/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "S62",
+          "R63",
+          "A64",
+          "R65",
+          "I407",
+          "A410"
+        ],
+        "values": [
+          [
+            0.0,
+            4.083,
+            7.836,
+            11.794,
+            6.208,
+            6.938
+          ],
+          [
+            4.083,
+            0.0,
+            4.067,
+            7.798,
+            6.94,
+            7.246
+          ],
+          [
+            7.836,
+            4.067,
+            0.0,
+            4.097,
+            10.63,
+            10.417
+          ],
+          [
+            11.794,
+            7.798,
+            4.097,
+            0.0,
+            13.478,
+            13.079
+          ],
+          [
+            6.208,
+            6.94,
+            10.63,
+            13.478,
+            0.0,
+            5.631
+          ],
+          [
+            6.938,
+            7.246,
+            10.417,
+            13.079,
+            5.631,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1OCNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.6452083511908502,
+        "mw": 374.11,
+        "logp": 2.217,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.7786,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 26,
+        "tpsa": 97.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ALX4-R63Q Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1OCNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.6452,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ALX4_R63Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ALX4_R63Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ALX4_R63Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALX4_R63Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALX4_R63Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALX4-R63Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALX4-R63Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:41:03.946716+00:00"
     }
   ]
 }
