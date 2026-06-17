@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 693,
+  "total_entries": 694,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45191,
-    "queue_remaining": 133406
+    "total_processed": 45195,
+    "queue_remaining": 133402
   },
   "entries": [
     {
@@ -153169,6 +153169,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:54:14.387108+00:00"
+    },
+    {
+      "entry_id": "PCD-CHRNB1-R102P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNB1-R102P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CHRNB1",
+        "uniprot": "",
+        "clinvar_id": "325076",
+        "disease": "Congenital myasthenic syndrome 4C",
+        "mutation_precursor": "R102P",
+        "mutation_mature": "R102P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8452931728902816,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 503.3382390268413,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          19.402448654174805,
+          3.4585680961608887,
+          -38.46107482910156
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.1354902238833895,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8458595617060014,
+        "cryptic": true,
+        "pocket_residues": {
+          "D99": "D",
+          "S100": "S",
+          "L101": "L",
+          "R102": "R",
+          "I103": "I",
+          "V131": "V",
+          "V132": "V",
+          "V133": "V",
+          "S134": "S"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P11230|CHRNB1 variant R102P",
+        "fasta_sequence": "MTPGALLMLLGALGAPLAPGVRGSEAEGRLREKLFSGYDSSVRPAREVGDRVRVSVGLILAQLISLNEKDEEMSTKVYLDLEWTDYRLSWDPAEHDGIDSLRITAESVWLPDVVLLNNNDGNFDVALDISVVVSSDGSVRWQPPGIYRSSCSIQVTYFPFDWQNCTMVFSSYSYDSSEVSLQTGLGPDGQGHQEIHIHEGTFIENGQWEIIHKPSRLIQPPGDPRGGREGQRQEVIFYLIIRRKPLFYLVNVIAPCILITLLAIFVFYLPPDAGEKMGLSIFALLTLTVFLLLLADKVPETSLSVPIIIKYLMFTMVLVTFSVILSVVVLNLHHRSPHTHQMPLWVRQIFIHKLPLYLRLKRPKPERDLMPEPPHCSSPGSGWGRGTDEYFIRKPPSDFLFPKPNRFQPELSAPDLRRFIDGPNRAVALLPELREVVSSISYIARQLQEQEDHDALKEDWQFVAMVVDRLFLWTFIIFTSVGTLVIFLDATYHLPPPDPFP",
+        "full_sequence": "MTPGALLMLLGALGAPLAPGVRGSEAEGRLREKLFSGYDSSVRPAREVGDRVRVSVGLILAQLISLNEKDEEMSTKVYLDLEWTDYRLSWDPAEHDGIDSLRITAESVWLPDVVLLNNNDGNFDVALDISVVVSSDGSVRWQPPGIYRSSCSIQVTYFPFDWQNCTMVFSSYSYDSSEVSLQTGLGPDGQGHQEIHIHEGTFIENGQWEIIHKPSRLIQPPGDPRGGREGQRQEVIFYLIIRRKPLFYLVNVIAPCILITLLAIFVFYLPPDAGEKMGLSIFALLTLTVFLLLLADKVPETSLSVPIIIKYLMFTMVLVTFSVILSVVVLNLHHRSPHTHQMPLWVRQIFIHKLPLYLRLKRPKPERDLMPEPPHCSSPGSGWGRGTDEYFIRKPPSDFLFPKPNRFQPELSAPDLRRFIDGPNRAVALLPELREVVSSISYIARQLQEQEDHDALKEDWQFVAMVVDRLFLWTFIIFTSVGTLVIFLDATYHLPPPDPFP",
+        "n_residues": 501,
+        "mutation_pos_1indexed": 102,
+        "wt_aa": "R",
+        "mut_aa": "P",
+        "pocket_lining_residues": "D99-S100-L101-R102-I103-V131-V132-V133-S134",
+        "pocket_lining_positions_precursor": [
+          99,
+          100,
+          101,
+          102,
+          103,
+          131,
+          132,
+          133,
+          134
+        ],
+        "pocket_lining_1letter": "DSLRIVVVS",
+        "sequence_slice_around_pocket": "PAEHDGIDSLRITAESVWLP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNB1_R102P/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "D99",
+          "S100",
+          "L101",
+          "R102",
+          "I103",
+          "V131",
+          "V132",
+          "V133",
+          "S134"
+        ],
+        "values": [
+          [
+            0.0,
+            3.862,
+            7.092,
+            10.628,
+            13.339,
+            13.959,
+            10.385,
+            8.576,
+            5.816
+          ],
+          [
+            3.862,
+            0.0,
+            3.823,
+            6.937,
+            9.846,
+            10.236,
+            6.709,
+            5.612,
+            4.417
+          ],
+          [
+            7.092,
+            3.823,
+            0.0,
+            3.846,
+            6.378,
+            8.314,
+            5.841,
+            5.212,
+            6.453
+          ],
+          [
+            10.628,
+            6.937,
+            3.846,
+            0.0,
+            3.815,
+            5.765,
+            4.775,
+            6.332,
+            8.984
+          ],
+          [
+            13.339,
+            9.846,
+            6.378,
+            3.815,
+            0.0,
+            5.304,
+            6.479,
+            7.318,
+            10.752
+          ],
+          [
+            13.959,
+            10.236,
+            8.314,
+            5.765,
+            5.304,
+            0.0,
+            3.83,
+            6.348,
+            9.91
+          ],
+          [
+            10.385,
+            6.709,
+            5.841,
+            4.775,
+            6.479,
+            3.83,
+            0.0,
+            3.813,
+            6.631
+          ],
+          [
+            8.576,
+            5.612,
+            5.212,
+            6.332,
+            7.318,
+            6.348,
+            3.813,
+            0.0,
+            3.828
+          ],
+          [
+            5.816,
+            4.417,
+            6.453,
+            8.984,
+            10.752,
+            9.91,
+            6.631,
+            3.828,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(Cl)cc1C(O)CNc1ccncc1N1CCCC(=O)C1",
+        "composite_score": 0.8447023313157342,
+        "mw": 388.13,
+        "logp": 2.149,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.6992,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 27,
+        "tpsa": 108.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CHRNB1-R102P Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(Cl)cc1C(O)CNc1ccncc1N1CCCC(=O)C1",
+        "pocket_affinity_score": 0.8447,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNB1_R102P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNB1_R102P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNB1_R102P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNB1_R102P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNB1_R102P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNB1-R102P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNB1-R102P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:55:15.706474+00:00"
     }
   ]
 }
