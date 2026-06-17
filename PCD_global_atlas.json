@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1063,
+  "total_entries": 1064,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45645,
-    "queue_remaining": 132952
+    "total_processed": 45646,
+    "queue_remaining": 132951
   },
   "entries": [
     {
@@ -234314,6 +234314,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:18:02.634525+00:00"
+    },
+    {
+      "entry_id": "PCD-TRPV3-L541S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRPV3-L541S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TRPV3",
+        "uniprot": "",
+        "clinvar_id": "322765",
+        "disease": "Isolated focal non-epidermolytic palmoplantar keratoderma",
+        "mutation_precursor": "L541S",
+        "mutation_mature": "L541S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8181545469670404,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 576.2622371266503,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -0.27839136123657227,
+          -6.597466945648193,
+          -51.52339553833008
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.334862062897923,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7353858990349421,
+        "cryptic": true,
+        "pocket_residues": {
+          "F538": "F",
+          "L541": "L",
+          "F542": "F"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NET8|TRPV3 variant L541S",
+        "fasta_sequence": "MKAHPKEMVPLMGKRVAAPSGNPAILPEKRPAEITPTKKSAHFFLEIEGFEPNPTVAKTSPPVFSKPMDSNIRQCISGNCDDMDSPQSPQDDVTETPSNPNSPSAQLAKEEQRRKKRRLKKRIFAAVSEGCVEELVELLVELQELCRRRHDEDVPDFLMHKLTASDTGKTCLMKALLNINPNTKEIVRILLAFAEENDILGRFINAEYTEEAYEGQTALNIAIERRQGDIAALLIAAGADVNAHAKGAFFNPKYQHEGFYFGETPLALAACTNQPEIVQLLMEHEQTDITSRDSRGNNILHALVTVAEDFKTQNDFVKRMYDMILLRSGNWELETTRNNDGLTPLQLAAKMGKAEILKYILSREIKEKRLRSLSRKFTDWAYGPVSSSLYDLTNVDTTTDNSVLEITVYNTNIDNRHEMLTLEPLHTLLHMKWKKFAKHMFFLSFCFYFFYNITLTLVSYYRPREEEAIPHPLALTHKMGWLQLLGRMFVLIWAMCISVKEGIAIFLLRPSDLQSILSDAWFHFVFFIQAVLVILSVFLYLFAYKEYLACLVLAMALGWANMLYYTRGFQSMGMYSVMIQKVILHDVLKFLFVYIVFLLGFGVALASLIEKCPKDNKDCSSYGSFSDAVLELFKLTIGLGDLNIQQNSKYPILFLFLLITYVILTFVLLLNMLIALMGETVENVSKESERIWRLQRARTILEFEKMLPEWLRSRFRMGELCKVAEDDFRLCLRINEVKWTEWKTHVSFLNEDPGPVRRTDFNKIQDSSRNNSKTTLNAFEEVEEFPETSV",
+        "full_sequence": "MKAHPKEMVPLMGKRVAAPSGNPAILPEKRPAEITPTKKSAHFFLEIEGFEPNPTVAKTSPPVFSKPMDSNIRQCISGNCDDMDSPQSPQDDVTETPSNPNSPSAQLAKEEQRRKKRRLKKRIFAAVSEGCVEELVELLVELQELCRRRHDEDVPDFLMHKLTASDTGKTCLMKALLNINPNTKEIVRILLAFAEENDILGRFINAEYTEEAYEGQTALNIAIERRQGDIAALLIAAGADVNAHAKGAFFNPKYQHEGFYFGETPLALAACTNQPEIVQLLMEHEQTDITSRDSRGNNILHALVTVAEDFKTQNDFVKRMYDMILLRSGNWELETTRNNDGLTPLQLAAKMGKAEILKYILSREIKEKRLRSLSRKFTDWAYGPVSSSLYDLTNVDTTTDNSVLEITVYNTNIDNRHEMLTLEPLHTLLHMKWKKFAKHMFFLSFCFYFFYNITLTLVSYYRPREEEAIPHPLALTHKMGWLQLLGRMFVLIWAMCISVKEGIAIFLLRPSDLQSILSDAWFHFVFFIQAVLVILSVFLYLFAYKEYLACLVLAMALGWANMLYYTRGFQSMGMYSVMIQKVILHDVLKFLFVYIVFLLGFGVALASLIEKCPKDNKDCSSYGSFSDAVLELFKLTIGLGDLNIQQNSKYPILFLFLLITYVILTFVLLLNMLIALMGETVENVSKESERIWRLQRARTILEFEKMLPEWLRSRFRMGELCKVAEDDFRLCLRINEVKWTEWKTHVSFLNEDPGPVRRTDFNKIQDSSRNNSKTTLNAFEEVEEFPETSV",
+        "n_residues": 790,
+        "mutation_pos_1indexed": 541,
+        "wt_aa": "L",
+        "mut_aa": "S",
+        "pocket_lining_residues": "F538-L541-F542",
+        "pocket_lining_positions_precursor": [
+          538,
+          541,
+          542
+        ],
+        "pocket_lining_1letter": "FLF",
+        "sequence_slice_around_pocket": "VLVILSVFLYLFAYKEYLAC"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV3_L541S/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "F538",
+          "L541",
+          "F542"
+        ],
+        "values": [
+          [
+            0.0,
+            5.044,
+            6.259
+          ],
+          [
+            5.044,
+            0.0,
+            3.863
+          ],
+          [
+            6.259,
+            3.863,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1C(OCNCc2c[nH]c3ccccc23)CCC(=O)C1O",
+        "composite_score": 0.6126627491912152,
+        "mw": 410.2,
+        "logp": 1.91,
+        "hbd": 5,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.2977,
+        "sa_score": 3.88,
+        "n_heavy_atoms": 30,
+        "tpsa": 123.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TRPV3-L541S Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1C(OCNCc2c[nH]c3ccccc23)CCC(=O)C1O",
+        "pocket_affinity_score": 0.6127,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV3_L541S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV3_L541S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV3_L541S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV3_L541S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV3_L541S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRPV3-L541S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRPV3-L541S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:18:36.958415+00:00"
     }
   ]
 }
