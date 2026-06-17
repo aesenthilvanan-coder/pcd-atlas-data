@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1435,
+  "total_entries": 1436,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46074,
-    "queue_remaining": 132523
+    "total_processed": 46075,
+    "queue_remaining": 132522
   },
   "entries": [
     {
@@ -317375,6 +317375,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:42:23.864780+00:00"
+    },
+    {
+      "entry_id": "PCD-SGSH-R443Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SGSH-R443Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SGSH",
+        "uniprot": "",
+        "clinvar_id": "325828",
+        "disease": "Mucopolysaccharidosis, MPS-III-A",
+        "mutation_precursor": "R443Q",
+        "mutation_mature": "R443Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8589815778822826,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 289.6169233730923,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -2.1609840393066406,
+          22.293121337890625,
+          -16.590042114257812
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.1176789742124305,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8141479759935131,
+        "cryptic": true,
+        "pocket_residues": {
+          "H383": "H",
+          "F384": "F",
+          "R385": "R",
+          "L438": "L",
+          "Y439": "Y",
+          "D440": "D",
+          "R441": "R",
+          "S442": "S",
+          "R443": "R",
+          "L451": "L",
+          "F457": "F"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P51688|SGSH variant R443Q",
+        "fasta_sequence": "MSCPVPACCALLLVLGLCRARPRNALLLLADDGGFESGAYNNSAIATPHLDALARRSLLFRNAFTSVSSCSPSRASLLTGLPQHQNGMYGLHQDVHHFNSFDKVRSLPLLLSQAGVRTGIIGKKHVGPETVYPFDFAYTEENGSVLQVGRNITRIKLLVRKFLQTQDDRPFFLYVAFHDPHRCGHSQPQYGTFCEKFGNGESGMGRIPDWTPQAYDPLDVLVPYFVPNTPAARADLAAQYTTVGRMDQGVGLVLQELRDAGVLNDTLVIFTSDNGIPFPSGRTNLYWPGTAEPLLVSSPEHPKRWGQVSEAYVSLLDLTPTILDWFSIPYPSYAIFGSKTIHLTGRSLLPALEAEPLWATVFGSQSHHEVTMSYPMRSVQHRHFRLVHNLNFKMPFPIDQDFYVSPTFQDLLNRTTAGQPTGWYKDLRHYYYRARWELYDRSRDPHETQNLATDPRFAQLLEMLRDQLAKWQWETHDPWVCAPDGVLEEKLSPQCQPLHNEL",
+        "full_sequence": "MSCPVPACCALLLVLGLCRARPRNALLLLADDGGFESGAYNNSAIATPHLDALARRSLLFRNAFTSVSSCSPSRASLLTGLPQHQNGMYGLHQDVHHFNSFDKVRSLPLLLSQAGVRTGIIGKKHVGPETVYPFDFAYTEENGSVLQVGRNITRIKLLVRKFLQTQDDRPFFLYVAFHDPHRCGHSQPQYGTFCEKFGNGESGMGRIPDWTPQAYDPLDVLVPYFVPNTPAARADLAAQYTTVGRMDQGVGLVLQELRDAGVLNDTLVIFTSDNGIPFPSGRTNLYWPGTAEPLLVSSPEHPKRWGQVSEAYVSLLDLTPTILDWFSIPYPSYAIFGSKTIHLTGRSLLPALEAEPLWATVFGSQSHHEVTMSYPMRSVQHRHFRLVHNLNFKMPFPIDQDFYVSPTFQDLLNRTTAGQPTGWYKDLRHYYYRARWELYDRSRDPHETQNLATDPRFAQLLEMLRDQLAKWQWETHDPWVCAPDGVLEEKLSPQCQPLHNEL",
+        "n_residues": 502,
+        "mutation_pos_1indexed": 443,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "H383-F384-R385-L438-Y439-D440-R441-S442-R443-L451-F457",
+        "pocket_lining_positions_precursor": [
+          383,
+          384,
+          385,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          451,
+          457
+        ],
+        "pocket_lining_1letter": "HFRLYDRSRLF",
+        "sequence_slice_around_pocket": "RARWELYDRSRDPHETQNLA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SGSH_R443Q/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "H383",
+          "F384",
+          "R385",
+          "L438",
+          "Y439",
+          "D440",
+          "R441",
+          "S442",
+          "R443",
+          "L451",
+          "F457"
+        ],
+        "values": [
+          [
+            0.0,
+            3.848,
+            6.434,
+            10.439,
+            7.89,
+            5.548,
+            4.924,
+            5.803,
+            8.916,
+            12.888,
+            13.805
+          ],
+          [
+            3.848,
+            0.0,
+            3.83,
+            7.111,
+            5.624,
+            4.618,
+            6.354,
+            8.063,
+            9.974,
+            9.974,
+            10.704
+          ],
+          [
+            6.434,
+            3.83,
+            0.0,
+            5.656,
+            5.21,
+            6.621,
+            7.735,
+            10.662,
+            12.139,
+            10.052,
+            12.21
+          ],
+          [
+            10.439,
+            7.111,
+            5.656,
+            0.0,
+            3.841,
+            7.105,
+            9.818,
+            12.541,
+            12.311,
+            5.037,
+            8.892
+          ],
+          [
+            7.89,
+            5.624,
+            5.21,
+            3.841,
+            0.0,
+            3.833,
+            6.118,
+            9.001,
+            8.758,
+            6.006,
+            10.198
+          ],
+          [
+            5.548,
+            4.618,
+            6.621,
+            7.105,
+            3.833,
+            0.0,
+            3.842,
+            5.495,
+            5.837,
+            7.937,
+            10.331
+          ],
+          [
+            4.924,
+            6.354,
+            7.735,
+            9.818,
+            6.118,
+            3.842,
+            0.0,
+            3.845,
+            5.323,
+            11.248,
+            14.169
+          ],
+          [
+            5.803,
+            8.063,
+            10.662,
+            12.541,
+            9.001,
+            5.495,
+            3.845,
+            0.0,
+            3.868,
+            12.987,
+            14.633
+          ],
+          [
+            8.916,
+            9.974,
+            12.139,
+            12.311,
+            8.758,
+            5.837,
+            5.323,
+            3.868,
+            0.0,
+            11.431,
+            13.957
+          ],
+          [
+            12.888,
+            9.974,
+            10.052,
+            5.037,
+            6.006,
+            7.937,
+            11.248,
+            12.987,
+            11.431,
+            0.0,
+            6.673
+          ],
+          [
+            13.805,
+            10.704,
+            12.21,
+            8.892,
+            10.198,
+            10.331,
+            14.169,
+            14.633,
+            13.957,
+            6.673,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.882926882972108,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SGSH-R443Q Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8829,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SGSH_R443Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SGSH_R443Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SGSH_R443Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SGSH_R443Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SGSH_R443Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SGSH-R443Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SGSH-R443Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:42:47.979402+00:00"
     }
   ]
 }
