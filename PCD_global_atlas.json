@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 988,
+  "total_entries": 989,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45535,
-    "queue_remaining": 133062
+    "total_processed": 45536,
+    "queue_remaining": 133061
   },
   "entries": [
     {
@@ -217302,6 +217302,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T17:02:29.722519+00:00"
+    },
+    {
+      "entry_id": "PCD-EDN3-T98K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EDN3-T98K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "EDN3",
+        "uniprot": "",
+        "clinvar_id": "339123",
+        "disease": "Hirschsprung disease, susceptibility to, 4",
+        "mutation_precursor": "T98K",
+        "mutation_mature": "T98K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8381352255452892,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 476.2968763283825,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.17763137817382812,
+          -6.015225410461426,
+          -12.021577835083008
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.258137450948954,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7077954209671731,
+        "cryptic": true,
+        "pocket_residues": {
+          "T98": "T",
+          "I118": "I",
+          "T120": "T",
+          "Q123": "Q",
+          "T124": "T",
+          "V125": "V",
+          "P126": "P"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P14138|EDN3 variant T98K",
+        "fasta_sequence": "MEPGLWLLFGLTVTSAAGFVPCSQSGDAGRRGVSQAPTAARSEGDCEETVAGPGEETVAGPGEGTVAPTALQGPSPGSPGQEQAAEGAPEHHRSRRCTCFTYKDKECVYYCHLDIIWINTPEQTVPYGLSNYRGSFRGKRSAGPLPGNLQLSHRPHLRCACVGRYDKACLHFCTQTLDVSSNSRTAEKTDKEEEGKVEVKDQQSKQALDLHHPKLMPGSGLALAPSTCPRCLFQEGAP",
+        "full_sequence": "MEPGLWLLFGLTVTSAAGFVPCSQSGDAGRRGVSQAPTAARSEGDCEETVAGPGEETVAGPGEGTVAPTALQGPSPGSPGQEQAAEGAPEHHRSRRCTCFTYKDKECVYYCHLDIIWINTPEQTVPYGLSNYRGSFRGKRSAGPLPGNLQLSHRPHLRCACVGRYDKACLHFCTQTLDVSSNSRTAEKTDKEEEGKVEVKDQQSKQALDLHHPKLMPGSGLALAPSTCPRCLFQEGAP",
+        "n_residues": 238,
+        "mutation_pos_1indexed": 98,
+        "wt_aa": "T",
+        "mut_aa": "K",
+        "pocket_lining_residues": "T98-I118-T120-Q123-T124-V125-P126",
+        "pocket_lining_positions_precursor": [
+          98,
+          118,
+          120,
+          123,
+          124,
+          125,
+          126
+        ],
+        "pocket_lining_1letter": "TITQTVP",
+        "sequence_slice_around_pocket": "APEHHRSRRCTCFTYKDKEC"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/EDN3_T98K/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "T98",
+          "I118",
+          "T120",
+          "Q123",
+          "T124",
+          "V125",
+          "P126"
+        ],
+        "values": [
+          [
+            0.0,
+            7.001,
+            11.023,
+            10.749,
+            7.113,
+            8.573,
+            7.003
+          ],
+          [
+            7.001,
+            0.0,
+            5.781,
+            10.48,
+            8.572,
+            12.039,
+            12.527
+          ],
+          [
+            11.023,
+            5.781,
+            0.0,
+            7.726,
+            8.138,
+            11.902,
+            14.026
+          ],
+          [
+            10.749,
+            10.48,
+            7.726,
+            0.0,
+            3.764,
+            5.737,
+            9.239
+          ],
+          [
+            7.113,
+            8.572,
+            8.138,
+            3.764,
+            0.0,
+            3.815,
+            6.215
+          ],
+          [
+            8.573,
+            12.039,
+            11.902,
+            5.737,
+            3.815,
+            0.0,
+            3.842
+          ],
+          [
+            7.003,
+            12.527,
+            14.026,
+            9.239,
+            6.215,
+            3.842,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5487410301803768,
+        "mw": 317.21,
+        "logp": 2.135,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9218,
+        "sa_score": 3.11,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "EDN3-T98K Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5487,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/EDN3_T98K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/EDN3_T98K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/EDN3_T98K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/EDN3_T98K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/EDN3_T98K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EDN3-T98K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EDN3-T98K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T17:02:52.532040+00:00"
     }
   ]
 }
