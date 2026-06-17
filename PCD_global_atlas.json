@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1443,
+  "total_entries": 1444,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46083,
-    "queue_remaining": 132514
+    "total_processed": 46084,
+    "queue_remaining": 132513
   },
   "entries": [
     {
@@ -319112,6 +319112,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:47:11.228514+00:00"
+    },
+    {
+      "entry_id": "PCD-TBX4-K112R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX4-K112R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TBX4",
+        "uniprot": "",
+        "clinvar_id": "324250",
+        "disease": "Coxopodopatellar syndrome",
+        "mutation_precursor": "K112R",
+        "mutation_mature": "K112R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7912956728876823,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 531.8501628067839,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -18.296222686767578,
+          5.407820224761963,
+          18.882183074951172
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.292151981987997,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6491080907061315,
+        "cryptic": true,
+        "pocket_residues": {
+          "T111": "T",
+          "K112": "K",
+          "P155": "P",
+          "A156": "A",
+          "T157": "T",
+          "N205": "N"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P57082|TBX4 variant K112R",
+        "fasta_sequence": "MLQDKGLSESEEAFRAPGPALGEASAANAPEPALAAPGLSGAALGSPPGPGADVVAAAAAEQTIENIKVGLHEKELWKKFHEAGTEMIITKAGRRMFPSYKVKVTGMNPKTKYILLIDIVPADDHRYKFCDNKWMVAGKAEPAMPGRLYVHPDSPATGAHWMRQLVSFQKLKLTNNHLDPFGHIILNSMHKYQPRLHIVKADENNAFGSKNTAFCTHVFPETSFISVTSYQNHKITQLKIENNPFAKGFRGSDDSDLRVARLQSKEYPVISKSIMRQRLISPQLSATPDVGPLLGTHQALQHYQHENGAHSQLAEPQDLPLSTFPTQRDSSLFYHCLKRRDGTRHLDLPCKRSYLEAPSSVGEDHYFRSPPPYDQQMLSPSYCSEVTPREACMYSGSGPEIAGVSGVDDLPPPPLSCNMWTSVSPYTSYSVQTMETVPYQPFPTHFTATTMMPRLPTLSAQSSQPPGNAHFSVYNQLSQSQVRERGPSASFPRERGLPQGCERKPPSPHLNAANEFLYSQTFSLSRESSLQYHSGMGTVENWTDG",
+        "full_sequence": "MLQDKGLSESEEAFRAPGPALGEASAANAPEPALAAPGLSGAALGSPPGPGADVVAAAAAEQTIENIKVGLHEKELWKKFHEAGTEMIITKAGRRMFPSYKVKVTGMNPKTKYILLIDIVPADDHRYKFCDNKWMVAGKAEPAMPGRLYVHPDSPATGAHWMRQLVSFQKLKLTNNHLDPFGHIILNSMHKYQPRLHIVKADENNAFGSKNTAFCTHVFPETSFISVTSYQNHKITQLKIENNPFAKGFRGSDDSDLRVARLQSKEYPVISKSIMRQRLISPQLSATPDVGPLLGTHQALQHYQHENGAHSQLAEPQDLPLSTFPTQRDSSLFYHCLKRRDGTRHLDLPCKRSYLEAPSSVGEDHYFRSPPPYDQQMLSPSYCSEVTPREACMYSGSGPEIAGVSGVDDLPPPPLSCNMWTSVSPYTSYSVQTMETVPYQPFPTHFTATTMMPRLPTLSAQSSQPPGNAHFSVYNQLSQSQVRERGPSASFPRERGLPQGCERKPPSPHLNAANEFLYSQTFSLSRESSLQYHSGMGTVENWTDG",
+        "n_residues": 545,
+        "mutation_pos_1indexed": 112,
+        "wt_aa": "K",
+        "mut_aa": "R",
+        "pocket_lining_residues": "T111-K112-P155-A156-T157-N205",
+        "pocket_lining_positions_precursor": [
+          111,
+          112,
+          155,
+          156,
+          157,
+          205
+        ],
+        "pocket_lining_1letter": "TKPATN",
+        "sequence_slice_around_pocket": "VKVTGMNPKTKYILLIDIVP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TBX4_K112R/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "T111",
+          "K112",
+          "P155",
+          "A156",
+          "T157",
+          "N205"
+        ],
+        "values": [
+          [
+            0.0,
+            3.854,
+            9.963,
+            8.307,
+            5.413,
+            6.216
+          ],
+          [
+            3.854,
+            0.0,
+            6.148,
+            5.246,
+            4.175,
+            5.784
+          ],
+          [
+            9.963,
+            6.148,
+            0.0,
+            3.852,
+            7.127,
+            9.792
+          ],
+          [
+            8.307,
+            5.246,
+            3.852,
+            0.0,
+            3.853,
+            10.208
+          ],
+          [
+            5.413,
+            4.175,
+            7.127,
+            3.853,
+            0.0,
+            9.364
+          ],
+          [
+            6.216,
+            5.784,
+            9.792,
+            10.208,
+            9.364,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "composite_score": 0.5282765463896375,
+        "mw": 361.24,
+        "logp": 2.104,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8409,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TBX4-K112R Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5283,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TBX4_K112R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TBX4_K112R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TBX4_K112R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TBX4_K112R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TBX4_K112R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX4-K112R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX4-K112R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:47:37.467921+00:00"
     }
   ]
 }
