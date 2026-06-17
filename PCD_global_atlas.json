@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 199,
+  "total_entries": 200,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44611,
-    "queue_remaining": 133986
+    "total_processed": 44612,
+    "queue_remaining": 133985
   },
   "entries": [
     {
@@ -44708,6 +44708,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T05:59:46.999675+00:00"
+    },
+    {
+      "entry_id": "PCD-SCNN1A-S495L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-S495L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SCNN1A",
+        "uniprot": "",
+        "clinvar_id": "310138",
+        "disease": "Pseudohypoaldosteronism, type IB1, autosomal recessive",
+        "mutation_precursor": "S495L",
+        "mutation_mature": "S495L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7801490971010272,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 578.8137326482728,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -37.76638412475586,
+          23.414936065673828,
+          11.363228797912598
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.436623730323604,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7820404533949543,
+        "cryptic": true,
+        "pocket_residues": {
+          "S495": "S",
+          "V496": "V",
+          "T497": "T",
+          "S498": "S",
+          "Q499": "Q",
+          "E500": "E"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P37088|SCNN1A variant S495L",
+        "fasta_sequence": "MEGNKLEEQDSSPPQSTPGLMKGNKREEQGLGPEPAAPQQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKTAFWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLNSDKLVFPAVTICTLNPYRYPEIKEELEELDRITEQTLFDLYKYSSFTTLVAGSRSRRDLRGTLPHPLQRLRVPPPPHGARRARSVASSLRDNNPQVDWKDWKIGFQLCNQNKSDCFYQTYSSGVDAVREWYRFHYINILSRLPETLPSLEEDTLGNFIFACRFNQVSCNQANYSHFHHPMYGNCYTFNDKNNSNLWMSSMPGINNGLSLMLRAEQNDFIPLLSTVTGARVMVHGQDEPAFMDDGGFNLRPGVETSISMRKETLDRLGGDYGDCTKNGSDVPVENLYPSKYTQQVCIHSCFQESMIKECGCAYIFYPRPQNVEYCDYRKHSSWGYCYYKLQVDFSSDHLGCFTKCRKPCSVTSYQLSAGYSRWPSVTSQEWVFQMLSRQNNYTVNNKRNGVAKVNIFFKELNYKTNSESPSVTMVTLLSNLGSQWSLWFGSSVLSVVEMAELVFDLLVIMFLMLLRRFRSRYWSPGRGGRGAQEVASTLASSPPSHFCPHPMSLSLSQPGPAPSPALTAPPPAYATLGPRPSPGGSAGASSSTCPLGGP",
+        "full_sequence": "MEGNKLEEQDSSPPQSTPGLMKGNKREEQGLGPEPAAPQQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKTAFWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLNSDKLVFPAVTICTLNPYRYPEIKEELEELDRITEQTLFDLYKYSSFTTLVAGSRSRRDLRGTLPHPLQRLRVPPPPHGARRARSVASSLRDNNPQVDWKDWKIGFQLCNQNKSDCFYQTYSSGVDAVREWYRFHYINILSRLPETLPSLEEDTLGNFIFACRFNQVSCNQANYSHFHHPMYGNCYTFNDKNNSNLWMSSMPGINNGLSLMLRAEQNDFIPLLSTVTGARVMVHGQDEPAFMDDGGFNLRPGVETSISMRKETLDRLGGDYGDCTKNGSDVPVENLYPSKYTQQVCIHSCFQESMIKECGCAYIFYPRPQNVEYCDYRKHSSWGYCYYKLQVDFSSDHLGCFTKCRKPCSVTSYQLSAGYSRWPSVTSQEWVFQMLSRQNNYTVNNKRNGVAKVNIFFKELNYKTNSESPSVTMVTLLSNLGSQWSLWFGSSVLSVVEMAELVFDLLVIMFLMLLRRFRSRYWSPGRGGRGAQEVASTLASSPPSHFCPHPMSLSLSQPGPAPSPALTAPPPAYATLGPRPSPGGSAGASSSTCPLGGP",
+        "n_residues": 669,
+        "mutation_pos_1indexed": 495,
+        "wt_aa": "S",
+        "mut_aa": "L",
+        "pocket_lining_residues": "S495-V496-T497-S498-Q499-E500",
+        "pocket_lining_positions_precursor": [
+          495,
+          496,
+          497,
+          498,
+          499,
+          500
+        ],
+        "pocket_lining_1letter": "SVTSQE",
+        "sequence_slice_around_pocket": "QLSAGYSRWPSVTSQEWVFQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_S495L/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "S495",
+          "V496",
+          "T497",
+          "S498",
+          "Q499",
+          "E500"
+        ],
+        "values": [
+          [
+            0.0,
+            3.864,
+            5.367,
+            5.11,
+            5.821,
+            9.277
+          ],
+          [
+            3.864,
+            0.0,
+            3.871,
+            5.682,
+            5.338,
+            7.836
+          ],
+          [
+            5.367,
+            3.871,
+            0.0,
+            3.861,
+            5.761,
+            6.993
+          ],
+          [
+            5.11,
+            5.682,
+            3.861,
+            0.0,
+            3.846,
+            5.662
+          ],
+          [
+            5.821,
+            5.338,
+            5.761,
+            3.846,
+            0.0,
+            3.857
+          ],
+          [
+            9.277,
+            7.836,
+            6.993,
+            5.662,
+            3.857,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "composite_score": 0.7013939251181799,
+        "mw": 361.24,
+        "logp": 2.104,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8409,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SCNN1A-S495L Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7014,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_S495L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_S495L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_S495L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_S495L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_S495L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-S495L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-S495L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:00:11.554778+00:00"
     }
   ]
 }
