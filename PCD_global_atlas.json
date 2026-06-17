@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 262,
+  "total_entries": 263,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44690,
-    "queue_remaining": 133907
+    "total_processed": 44691,
+    "queue_remaining": 133906
   },
   "entries": [
     {
@@ -58310,6 +58310,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:57:32.593704+00:00"
+    },
+    {
+      "entry_id": "PCD-TWNK-G26S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TWNK-G26S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TWNK",
+        "uniprot": "",
+        "clinvar_id": "298494",
+        "disease": "Autosomal recessive cerebellar ataxia",
+        "mutation_precursor": "G26S",
+        "mutation_mature": "G26S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9070938036093837,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 476.24773638364263,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          38.34299850463867,
+          -38.383209228515625,
+          22.896968841552734
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.233903877300524,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6104403977412453,
+        "cryptic": true,
+        "pocket_residues": {
+          "R25": "R",
+          "G26": "G",
+          "L27": "L"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96RR1|TWNK variant G26S",
+        "fasta_sequence": "MWVLLRSGYPLRILLPLRGEWMGRRGLPRNLAPGPPRRRYRKETLQALDMPVLPVTATEIRQYLRGHGIPFQDGHSCLRALSPFAESSQLKGQTGVTTSFSLFIDKTTGHFLCMTSLAEGSWEDFQASVEGRGDGAREGFLLSKAPEFEDSEEVRRIWNRAIPLWELPDQEEVQLADTMFGLTKVTDDTLKRFSVRYLRPARSLVFPWFSPGGSGLRGLKLLEAKCQGDGVSYEETTIPRPSAYHNLFGLPLISRRDAEVVLTSRELDSLALNQSTGLPTLTLPRGTTCLPPALLPYLEQFRRIVFWLGDDLRSWEAAKLFARKLNPKRCFLVRPGDQQPRPLEALNGGFNLSRILRTALPAWHKSIVSFRQLREEVLGELSNVEQAAGLRWSRFPDLNRILKGHRKGELTVFTGPTGSGKTTFISEYALDLCSQGVNTLWGSFEISNVRLARVMLTQFAEGRLEDQLDKYDHWADRFEDLPLYFMTFHGQQSIRTVIDTMQHAVYVYDICHVIIDNLQFMMGHEQLSTDRIAAQDYIIGVFRKFATDNNCHVTLVIHPRKEDDDKELQTASIFGSAKASQEADNVLILQDRKLVTGPGKRYLQVSKNRFDGDVGVFPLEFNKNSLTFSIPPKNKARLKKIKDDTGPVAKKPSSGKKGATTQNSEICSGQAPTPDQPDTSKRSK",
+        "full_sequence": "MWVLLRSGYPLRILLPLRGEWMGRRGLPRNLAPGPPRRRYRKETLQALDMPVLPVTATEIRQYLRGHGIPFQDGHSCLRALSPFAESSQLKGQTGVTTSFSLFIDKTTGHFLCMTSLAEGSWEDFQASVEGRGDGAREGFLLSKAPEFEDSEEVRRIWNRAIPLWELPDQEEVQLADTMFGLTKVTDDTLKRFSVRYLRPARSLVFPWFSPGGSGLRGLKLLEAKCQGDGVSYEETTIPRPSAYHNLFGLPLISRRDAEVVLTSRELDSLALNQSTGLPTLTLPRGTTCLPPALLPYLEQFRRIVFWLGDDLRSWEAAKLFARKLNPKRCFLVRPGDQQPRPLEALNGGFNLSRILRTALPAWHKSIVSFRQLREEVLGELSNVEQAAGLRWSRFPDLNRILKGHRKGELTVFTGPTGSGKTTFISEYALDLCSQGVNTLWGSFEISNVRLARVMLTQFAEGRLEDQLDKYDHWADRFEDLPLYFMTFHGQQSIRTVIDTMQHAVYVYDICHVIIDNLQFMMGHEQLSTDRIAAQDYIIGVFRKFATDNNCHVTLVIHPRKEDDDKELQTASIFGSAKASQEADNVLILQDRKLVTGPGKRYLQVSKNRFDGDVGVFPLEFNKNSLTFSIPPKNKARLKKIKDDTGPVAKKPSSGKKGATTQNSEICSGQAPTPDQPDTSKRSK",
+        "n_residues": 684,
+        "mutation_pos_1indexed": 26,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "R25-G26-L27",
+        "pocket_lining_positions_precursor": [
+          25,
+          26,
+          27
+        ],
+        "pocket_lining_1letter": "RGL",
+        "sequence_slice_around_pocket": "PLRGEWMGRRGLPRNLAPGP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TWNK_G26S/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "R25",
+          "G26",
+          "L27"
+        ],
+        "values": [
+          [
+            0.0,
+            3.667,
+            7.412
+          ],
+          [
+            3.667,
+            0.0,
+            3.834
+          ],
+          [
+            7.412,
+            3.834,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(OCC(=O)C2CCCCN2c2cnccc2N)cc1",
+        "composite_score": 0.5672849860910872,
+        "mw": 340.19,
+        "logp": 2.13,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.8364,
+        "sa_score": 2.92,
+        "n_heavy_atoms": 25,
+        "tpsa": 94.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TWNK-G26S Candidate #1",
+        "iupac_name": "NCc1ccc(OCC(=O)C2CCCCN2c2cnccc2N)cc1",
+        "pocket_affinity_score": 0.5673,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TWNK_G26S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TWNK_G26S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TWNK_G26S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TWNK_G26S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TWNK_G26S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TWNK-G26S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TWNK-G26S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:57:59.352549+00:00"
     }
   ]
 }
