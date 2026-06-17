@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 343,
+  "total_entries": 344,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44791,
-    "queue_remaining": 133806
+    "total_processed": 44792,
+    "queue_remaining": 133805
   },
   "entries": [
     {
@@ -74798,6 +74798,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:10:50.493540+00:00"
+    },
+    {
+      "entry_id": "PCD-TRIP11-L1034F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRIP11-L1034F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TRIP11",
+        "uniprot": "",
+        "clinvar_id": "314951",
+        "disease": "Achondrogenesis, type IA",
+        "mutation_precursor": "L1034F",
+        "mutation_mature": "L1034F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.767826890742818,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 646.1335912205647,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          62.42167663574219,
+          -14.767532348632812,
+          -34.87852096557617
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.7284215649271095,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8025665636850607,
+        "cryptic": true,
+        "pocket_residues": {
+          "L1030": "L",
+          "E1031": "E",
+          "I1032": "I",
+          "K1033": "K",
+          "L1034": "L",
+          "L1035": "L",
+          "N1036": "N",
+          "E1037": "E",
+          "K1038": "K",
+          "N1039": "N"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q15643|TRIP11 variant L1034F",
+        "fasta_sequence": "MSSWLGGLGSGLGQSLGQVGGSLASLTGQISNFTKDMLMEGTEEVEAELPDSRTKEIEAIHAILRSENERLKKLCTDLEEKHEASEIQIKQQSTSYRNQLQQKEVEISHLKARQIALQDQLLKLQSAAQSVPSGAGVPATTASSSFAYGISHHPSAFHDDDMDFGDIISSQQEINRLSNEVSRLESEVGHWRHIAQTSKAQGTDNSDQSEICKLQNIIKELKQNRSQEIDDHQHEMSVLQNAHQQKLTEISRRHREELSDYEERIEELENLLQQGGSGVIETDLSKIYEMQKTIQVLQIEKVESTKKMEQLEDKIKDINKKLSSAENDRDILRREQEQLNVEKRQIMEECENLKLECSKLQPSAVKQSDTMTEKERILAQSASVEEVFRLQQALSDAENEIMRLSSLNQDNSLAEDNLKLKMRIEVLEKEKSLLSQEKEELQMSLLKLNNEYEVIKSTATRDISLDSELHDLRLNLEAKEQELNQSISEKETLIAEIEELDRQNQEATKHMILIKDQLSKQQNEGDSIISKLKQDLNDEKKRVHQLEDDKMDITKELDVQKEKLIQSEVALNDLHLTKQKLEDKVENLVDQLNKSQESNVSIQKENLELKEHIRQNEEELSRIRNELMQSLNQDSNSNFKDTLLKEREAEVRNLKQNLSELEQLNENLKKVAFDVKMENEKLVLACEDVRHQLEECLAGNNQLSLEKNTIVETLKMEKGEIEAELCWAKKRLLEEANKYEKTIEELSNARNLNTSALQLEHEHLIKLNQKKDMEIAELKKNIEQMDTDHKETKDVLSSSLEEQKQLTQLINKKEIFIEKLKERSSKLQEELDKYSQALRKNEILRQTIEEKDRSLGSMKEENNHLQEELERLREEQSRTAPVADPKTLDSVTELASEVSQLNTIKEHLEEEIKHHQKIIEDQNQSKMQLLQSLQEQKKEMDEFRYQHEQMNATHTQLFLEKDEEIKSLQKTIEQIKTQLHEERQDIQTDNSDIFQETKVQSLNIENGSEKHDLSKAETERLVKGIKERELEIKLLNEKNISLTKQIDQLSKDEVGKLTQIIQQKDLEIQALHARISSTSHTQDVVYLQQQLQAYAMEREKVFAVLNEKTRENSHLKTEYHKMMDIVAAKEAALIKLQDENKKLSTRFESSGQDMFRETIQNLSRIIREKDIEIDALSQKCQTLLAVLQTSSTGNEAGGVNSNQFEELLQERDKLKQQVKKMEEWKQQVMTTVQNMQHESAQLQEELHQLQAQVLVDSDNNSKLQVDYTGLIQSYEQNETKLKNFGQELAQVQHSIGQLCNTKDLLLGKLDIISPQLSSASLLTPQSAECLRASKSEVLSESSELLQQELEELRKSLQEKDATIRTLQENNHRLSDSIAATSELERKEHEQTDSEIKQLKEKQDVLQKLLKEKDLLIKAKSDQLLSSNENFTNKVNENELLRQAVTNLKERILILEMDIGKLKGENEKIVETYRGKETEYQALQETNMKFSMMLREKEFECHSMKEKALAFEQLLKEKEQGKTGELNQLLNAVKSMQEKTVVFQQERDQVMLALKQKQMENTALQNEVQRLRDKEFRSNQELERLRNHLLESEDSYTREALAAEDREAKLRKKVTVLEEKLVSSSNAMENASHQASVQVESLQEQLNVVSKQRDETALQLSVSQEQVKQYALSLANLQMVLEHFQQEEKAMYSAELEKQKQLIAEWKKNAENLEGKVISLQECLDEANAALDSASRLTEQLDVKEEQIEELKRQNELRQEMLDDVQKKLMSLANSSEGKVDKVLMRNLFIGHFHTPKNQRHEVLRLMGSILGVRREEMEQLFHDDQGGVTRWMTGWLGGGSKSVPNTPLRPNQQSVVNSSFSELFVKFLETESHPSIPPPKLSVHDMKPLDSPGRRKRDTNAPESFKDTAESRSGRRTDVNPFLAPRSAAVPLINPAGLGPGGPGHLLLKPISDVLPTFTPLPALPDNSAGVVLKDLLKQ",
+        "full_sequence": "MSSWLGGLGSGLGQSLGQVGGSLASLTGQISNFTKDMLMEGTEEVEAELPDSRTKEIEAIHAILRSENERLKKLCTDLEEKHEASEIQIKQQSTSYRNQLQQKEVEISHLKARQIALQDQLLKLQSAAQSVPSGAGVPATTASSSFAYGISHHPSAFHDDDMDFGDIISSQQEINRLSNEVSRLESEVGHWRHIAQTSKAQGTDNSDQSEICKLQNIIKELKQNRSQEIDDHQHEMSVLQNAHQQKLTEISRRHREELSDYEERIEELENLLQQGGSGVIETDLSKIYEMQKTIQVLQIEKVESTKKMEQLEDKIKDINKKLSSAENDRDILRREQEQLNVEKRQIMEECENLKLECSKLQPSAVKQSDTMTEKERILAQSASVEEVFRLQQALSDAENEIMRLSSLNQDNSLAEDNLKLKMRIEVLEKEKSLLSQEKEELQMSLLKLNNEYEVIKSTATRDISLDSELHDLRLNLEAKEQELNQSISEKETLIAEIEELDRQNQEATKHMILIKDQLSKQQNEGDSIISKLKQDLNDEKKRVHQLEDDKMDITKELDVQKEKLIQSEVALNDLHLTKQKLEDKVENLVDQLNKSQESNVSIQKENLELKEHIRQNEEELSRIRNELMQSLNQDSNSNFKDTLLKEREAEVRNLKQNLSELEQLNENLKKVAFDVKMENEKLVLACEDVRHQLEECLAGNNQLSLEKNTIVETLKMEKGEIEAELCWAKKRLLEEANKYEKTIEELSNARNLNTSALQLEHEHLIKLNQKKDMEIAELKKNIEQMDTDHKETKDVLSSSLEEQKQLTQLINKKEIFIEKLKERSSKLQEELDKYSQALRKNEILRQTIEEKDRSLGSMKEENNHLQEELERLREEQSRTAPVADPKTLDSVTELASEVSQLNTIKEHLEEEIKHHQKIIEDQNQSKMQLLQSLQEQKKEMDEFRYQHEQMNATHTQLFLEKDEEIKSLQKTIEQIKTQLHEERQDIQTDNSDIFQETKVQSLNIENGSEKHDLSKAETERLVKGIKERELEIKLLNEKNISLTKQIDQLSKDEVGKLTQIIQQKDLEIQALHARISSTSHTQDVVYLQQQLQAYAMEREKVFAVLNEKTRENSHLKTEYHKMMDIVAAKEAALIKLQDENKKLSTRFESSGQDMFRETIQNLSRIIREKDIEIDALSQKCQTLLAVLQTSSTGNEAGGVNSNQFEELLQERDKLKQQVKKMEEWKQQVMTTVQNMQHESAQLQEELHQLQAQVLVDSDNNSKLQVDYTGLIQSYEQNETKLKNFGQELAQVQHSIGQLCNTKDLLLGKLDIISPQLSSASLLTPQSAECLRASKSEVLSESSELLQQELEELRKSLQEKDATIRTLQENNHRLSDSIAATSELERKEHEQTDSEIKQLKEKQDVLQKLLKEKDLLIKAKSDQLLSSNENFTNKVNENELLRQAVTNLKERILILEMDIGKLKGENEKIVETYRGKETEYQALQETNMKFSMMLREKEFECHSMKEKALAFEQLLKEKEQGKTGELNQLLNAVKSMQEKTVVFQQERDQVMLALKQKQMENTALQNEVQRLRDKEFRSNQELERLRNHLLESEDSYTREALAAEDREAKLRKKVTVLEEKLVSSSNAMENASHQASVQVESLQEQLNVVSKQRDETALQLSVSQEQVKQYALSLANLQMVLEHFQQEEKAMYSAELEKQKQLIAEWKKNAENLEGKVISLQECLDEANAALDSASRLTEQLDVKEEQIEELKRQNELRQEMLDDVQKKLMSLANSSEGKVDKVLMRNLFIGHFHTPKNQRHEVLRLMGSILGVRREEMEQLFHDDQGGVTRWMTGWLGGGSKSVPNTPLRPNQQSVVNSSFSELFVKFLETESHPSIPPPKLSVHDMKPLDSPGRRKRDTNAPESFKDTAESRSGRRTDVNPFLAPRSAAVPLINPAGLGPGGPGHLLLKPISDVLPTFTPLPALPDNSAGVVLKDLLKQ",
+        "n_residues": 1979,
+        "mutation_pos_1indexed": 1034,
+        "wt_aa": "L",
+        "mut_aa": "F",
+        "pocket_lining_residues": "L1030-E1031-I1032-K1033-L1034-L1035-N1036-E1037-K1038-N1039",
+        "pocket_lining_positions_precursor": [
+          1030,
+          1031,
+          1032,
+          1033,
+          1034,
+          1035,
+          1036,
+          1037,
+          1038,
+          1039
+        ],
+        "pocket_lining_1letter": "LEIKLLNEKN",
+        "sequence_slice_around_pocket": "GIKERELEIKLLNEKNISLT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TRIP11_L1034F/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "L1030",
+          "E1031",
+          "I1032",
+          "K1033",
+          "L1034",
+          "L1035",
+          "N1036",
+          "E1037",
+          "K1038",
+          "N1039"
+        ],
+        "values": [
+          [
+            0.0,
+            3.856,
+            5.505,
+            5.148,
+            6.252,
+            8.638,
+            9.84,
+            10.681,
+            12.346,
+            14.248
+          ],
+          [
+            3.856,
+            0.0,
+            3.868,
+            5.487,
+            5.139,
+            6.093,
+            8.542,
+            9.932,
+            10.443,
+            12.229
+          ],
+          [
+            5.505,
+            3.868,
+            0.0,
+            3.874,
+            5.55,
+            5.073,
+            6.093,
+            8.717,
+            9.789,
+            10.413
+          ],
+          [
+            5.148,
+            5.487,
+            3.874,
+            0.0,
+            3.844,
+            5.481,
+            5.016,
+            6.251,
+            8.62,
+            9.806
+          ],
+          [
+            6.252,
+            5.139,
+            5.55,
+            3.844,
+            0.0,
+            3.864,
+            5.394,
+            5.11,
+            6.155,
+            8.636
+          ],
+          [
+            8.638,
+            6.093,
+            5.073,
+            5.481,
+            3.864,
+            0.0,
+            3.841,
+            5.546,
+            4.998,
+            6.177
+          ],
+          [
+            9.84,
+            8.542,
+            6.093,
+            5.016,
+            5.394,
+            3.841,
+            0.0,
+            3.867,
+            5.393,
+            5.031
+          ],
+          [
+            10.681,
+            9.932,
+            8.717,
+            6.251,
+            5.11,
+            5.546,
+            3.867,
+            0.0,
+            3.863,
+            5.445
+          ],
+          [
+            12.346,
+            10.443,
+            9.789,
+            8.62,
+            6.155,
+            4.998,
+            5.393,
+            3.863,
+            0.0,
+            3.853
+          ],
+          [
+            14.248,
+            12.229,
+            10.413,
+            9.806,
+            8.636,
+            6.177,
+            5.031,
+            5.445,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccc(S(N)(=O)=O)cc1N1CC(=O)CCC1CNc1ccncc1N1CCCCC1",
+        "composite_score": 0.8116085161875388,
+        "mw": 458.21,
+        "logp": 1.951,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 6,
+        "qed": 0.5592,
+        "sa_score": 3.33,
+        "n_heavy_atoms": 32,
+        "tpsa": 134.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TRIP11-L1034F Candidate #1",
+        "iupac_name": "Nc1ccc(S(N)(=O)=O)cc1N1CC(=O)CCC1CNc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.8116,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TRIP11_L1034F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TRIP11_L1034F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TRIP11_L1034F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRIP11_L1034F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRIP11_L1034F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRIP11-L1034F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRIP11-L1034F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:12:23.641604+00:00"
     }
   ]
 }
