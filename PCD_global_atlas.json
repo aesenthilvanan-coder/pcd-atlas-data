@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 623,
+  "total_entries": 624,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45115,
-    "queue_remaining": 133482
+    "total_processed": 45118,
+    "queue_remaining": 133479
   },
   "entries": [
     {
@@ -138202,6 +138202,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:59:59.473887+00:00"
+    },
+    {
+      "entry_id": "PCD-BSCL2-G275R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BSCL2-G275R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BSCL2",
+        "uniprot": "",
+        "clinvar_id": "305178",
+        "disease": "Congenital generalized lipodystrophy type 2",
+        "mutation_precursor": "G275R",
+        "mutation_mature": "G275R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7234313296430611,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 530.5030324941713,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -49.884544372558594,
+          -18.507183074951172,
+          67.59858703613281
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.4762880758299985,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.864846041398772,
+        "cryptic": true,
+        "pocket_residues": {
+          "N273": "N",
+          "I274": "I",
+          "R275": "R",
+          "K276": "K",
+          "R277": "R",
+          "D278": "D",
+          "N279": "N",
+          "S280": "S",
+          "R281": "R",
+          "K282": "K"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96G97|BSCL2 variant G275R",
+        "fasta_sequence": "MVNDPPVPALLWAQEVGQVLAGRARRLLLQFGVLFCTILLLLWVSVFLYGSFYYSYMPTVSHLSPVHFYYRTDCDSSTTSLCSFPVANVSLTKGGRDRVLMYGQPYRVTLELELPESPVNQDLGMFLVTISCYTRGGRIISTSSRSVMLHYRSDLLQMLDTLVFSSLLLFGFAEQKQLLEVELYADYRENSYVPTTGAIIEIHSKRIQLYGAYLRIHAHFTGLRYLLYNFPMTCAFIGVASNFTFLSVIVLFSYMQWVWGGIWPRHRFSLQVNIRKRDNSRKEVQRRISAHQPGPEGQEESTPQSDVTEDGESPEDPSGTEGQLSEEEKPDQQPLSGEEELEPEASDGSGSWEDAALLTEANLPAPAPASASAPVLETLGSSEPAGGALRQRPTCSSS",
+        "full_sequence": "MVNDPPVPALLWAQEVGQVLAGRARRLLLQFGVLFCTILLLLWVSVFLYGSFYYSYMPTVSHLSPVHFYYRTDCDSSTTSLCSFPVANVSLTKGGRDRVLMYGQPYRVTLELELPESPVNQDLGMFLVTISCYTRGGRIISTSSRSVMLHYRSDLLQMLDTLVFSSLLLFGFAEQKQLLEVELYADYRENSYVPTTGAIIEIHSKRIQLYGAYLRIHAHFTGLRYLLYNFPMTCAFIGVASNFTFLSVIVLFSYMQWVWGGIWPRHRFSLQVNIRKRDNSRKEVQRRISAHQPGPEGQEESTPQSDVTEDGESPEDPSGTEGQLSEEEKPDQQPLSGEEELEPEASDGSGSWEDAALLTEANLPAPAPASASAPVLETLGSSEPAGGALRQRPTCSSS",
+        "n_residues": 398,
+        "mutation_pos_1indexed": 275,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "N273-I274-R275-K276-R277-D278-N279-S280-R281-K282",
+        "pocket_lining_positions_precursor": [
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282
+        ],
+        "pocket_lining_1letter": "NIRKRDNSRK",
+        "sequence_slice_around_pocket": "RHRFSLQVNIRKRDNSRKEV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_G275R/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "N273",
+          "I274",
+          "R275",
+          "K276",
+          "R277",
+          "D278",
+          "N279",
+          "S280",
+          "R281",
+          "K282"
+        ],
+        "values": [
+          [
+            0.0,
+            3.869,
+            5.538,
+            5.005,
+            6.006,
+            8.599,
+            9.871,
+            10.316,
+            12.182,
+            14.277
+          ],
+          [
+            3.869,
+            0.0,
+            3.865,
+            5.512,
+            5.095,
+            6.241,
+            8.729,
+            9.877,
+            10.603,
+            12.513
+          ],
+          [
+            5.538,
+            3.865,
+            0.0,
+            3.871,
+            5.48,
+            5.127,
+            6.205,
+            8.59,
+            9.885,
+            10.675
+          ],
+          [
+            5.005,
+            5.512,
+            3.871,
+            0.0,
+            3.875,
+            5.509,
+            5.175,
+            6.092,
+            8.634,
+            9.973
+          ],
+          [
+            6.006,
+            5.095,
+            5.48,
+            3.875,
+            0.0,
+            3.85,
+            5.587,
+            5.107,
+            6.21,
+            8.792
+          ],
+          [
+            8.599,
+            6.241,
+            5.127,
+            5.509,
+            3.85,
+            0.0,
+            3.856,
+            5.449,
+            5.073,
+            6.32
+          ],
+          [
+            9.871,
+            8.729,
+            6.205,
+            5.175,
+            5.587,
+            3.856,
+            0.0,
+            3.861,
+            5.443,
+            5.11
+          ],
+          [
+            10.316,
+            9.877,
+            8.59,
+            6.092,
+            5.107,
+            5.449,
+            3.861,
+            0.0,
+            3.87,
+            5.528
+          ],
+          [
+            12.182,
+            10.603,
+            9.885,
+            8.634,
+            6.21,
+            5.073,
+            5.443,
+            3.87,
+            0.0,
+            3.873
+          ],
+          [
+            14.277,
+            12.513,
+            10.675,
+            9.973,
+            8.792,
+            6.32,
+            5.11,
+            5.528,
+            3.873,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.6763358264660889,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BSCL2-G275R Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.6763,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_G275R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_G275R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_G275R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_G275R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_G275R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BSCL2-G275R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BSCL2-G275R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:00:46.945391+00:00"
     }
   ]
 }
