@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 205,
+  "total_entries": 206,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44617,
-    "queue_remaining": 133980
+    "total_processed": 44618,
+    "queue_remaining": 133979
   },
   "entries": [
     {
@@ -45943,6 +45943,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:04:37.854999+00:00"
+    },
+    {
+      "entry_id": "PCD-TOPORS-G783R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TOPORS-G783R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TOPORS",
+        "uniprot": "",
+        "clinvar_id": "366565",
+        "disease": "Retinitis pigmentosa",
+        "mutation_precursor": "G783R",
+        "mutation_mature": "G783R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8955474592970097,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 442.00101650283204,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          33.85286331176758,
+          -19.07028579711914,
+          -9.74824333190918
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.294666022366747,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6332165875580646,
+        "cryptic": true,
+        "pocket_residues": {
+          "A780": "A",
+          "S781": "S",
+          "T782": "T",
+          "G783": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NS56|TOPORS variant G783R",
+        "fasta_sequence": "MGSQPPLGSPLSREEGEAPPPAPASEGRRRSRRVRLRGSCRHRPSFLGCRELAASAPARPAPASSEIMASAAKEFKMDNFSPKAGTSKLQQTVPADASPDSKCPICLDRFDNVSYLDRCLHKFCFRCVQEWSKNKAECPLCKQPFDSIFHSVRAEDDFKEYVLRPSYNGSFVTPDRRFRYRTTLTRERNASVYSPSGPVNRRTTTPPDSGVLFEGLGISTRPRDVEIPQFMRQIAVRRPTTADERSLRKIQEQDIINFRRTLYRAGARVRNIEDGGRYRDISAEFFRRNPACLHRLVPWLKRELTVLFGAHGSLVNIVQHIIMSNVTRYDLESQAFVSDLRPFLLNRTEHFIHEFISFARSPFNMAAFDQHANYDCPAPSYEEGSHSDSSVITISPDEAETQELDINVATVSQAPWDDETPGPSYSSSEQVHVTMSSLLNTSDSSDEELVTGGATSQIQGVQTNDDLNNDSDDSSDNCVIVGFVKPLAERTPELVELSSDSEDLGSYEKMETVKTQEQEQSYSSGDSDVSRCSSPHSVLGKDEQINKGHCDSSTRIKSKKEEKRSTSLSSPRNLNSSVRGDRVYSPYNHRHRKRGRSRSSDSRSQSRSGHDQKNHRKHHGKKRMKSKRSRSRESSRPRGRRDKKRSRTRDSSWSRRSQTLSLSSESTSRSRSRSSDHGKRRSRSRNRDRYYLRNNYGSRYKWEYTYYSRNKDRDGYESSYRRRTLSRAHYSRQSSSPEFRVQSFSERTNARKKNNHSERKYYYYERHRSRSLSSNRSRTASTGTDRVRNEKPGGKRKYKTRHLEGTNEVAQPSREFASKAKDSHYQKSSSKLDGNYKNESDTFSDSRSSDRETKHKRRKRKTRSLSVEIVYEGKATDTTKHHKKKKKKHKKKHKKHHGDNASRSPVVITIDSDSDKDSEVKEDTECDNSGPQDPLQNEFLAPSLEPFETKDVVTIEAEFGVLDKECDIATLSNNLNNANKTVDNIPPLAASVEQTLDVREESTFVSDLENQPSNIVSLQTEPSRQLPSPRTSLMSVCLGRDCDMS",
+        "full_sequence": "MGSQPPLGSPLSREEGEAPPPAPASEGRRRSRRVRLRGSCRHRPSFLGCRELAASAPARPAPASSEIMASAAKEFKMDNFSPKAGTSKLQQTVPADASPDSKCPICLDRFDNVSYLDRCLHKFCFRCVQEWSKNKAECPLCKQPFDSIFHSVRAEDDFKEYVLRPSYNGSFVTPDRRFRYRTTLTRERNASVYSPSGPVNRRTTTPPDSGVLFEGLGISTRPRDVEIPQFMRQIAVRRPTTADERSLRKIQEQDIINFRRTLYRAGARVRNIEDGGRYRDISAEFFRRNPACLHRLVPWLKRELTVLFGAHGSLVNIVQHIIMSNVTRYDLESQAFVSDLRPFLLNRTEHFIHEFISFARSPFNMAAFDQHANYDCPAPSYEEGSHSDSSVITISPDEAETQELDINVATVSQAPWDDETPGPSYSSSEQVHVTMSSLLNTSDSSDEELVTGGATSQIQGVQTNDDLNNDSDDSSDNCVIVGFVKPLAERTPELVELSSDSEDLGSYEKMETVKTQEQEQSYSSGDSDVSRCSSPHSVLGKDEQINKGHCDSSTRIKSKKEEKRSTSLSSPRNLNSSVRGDRVYSPYNHRHRKRGRSRSSDSRSQSRSGHDQKNHRKHHGKKRMKSKRSRSRESSRPRGRRDKKRSRTRDSSWSRRSQTLSLSSESTSRSRSRSSDHGKRRSRSRNRDRYYLRNNYGSRYKWEYTYYSRNKDRDGYESSYRRRTLSRAHYSRQSSSPEFRVQSFSERTNARKKNNHSERKYYYYERHRSRSLSSNRSRTASTGTDRVRNEKPGGKRKYKTRHLEGTNEVAQPSREFASKAKDSHYQKSSSKLDGNYKNESDTFSDSRSSDRETKHKRRKRKTRSLSVEIVYEGKATDTTKHHKKKKKKHKKKHKKHHGDNASRSPVVITIDSDSDKDSEVKEDTECDNSGPQDPLQNEFLAPSLEPFETKDVVTIEAEFGVLDKECDIATLSNNLNNANKTVDNIPPLAASVEQTLDVREESTFVSDLENQPSNIVSLQTEPSRQLPSPRTSLMSVCLGRDCDMS",
+        "n_residues": 1045,
+        "mutation_pos_1indexed": 783,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "A780-S781-T782-G783",
+        "pocket_lining_positions_precursor": [
+          780,
+          781,
+          782,
+          783
+        ],
+        "pocket_lining_1letter": "ASTG",
+        "sequence_slice_around_pocket": "SSNRSRTASTGTDRVRNEKP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TOPORS_G783R/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A780",
+          "S781",
+          "T782",
+          "G783"
+        ],
+        "values": [
+          [
+            0.0,
+            3.86,
+            6.954,
+            9.986
+          ],
+          [
+            3.86,
+            0.0,
+            3.856,
+            6.604
+          ],
+          [
+            6.954,
+            3.856,
+            0.0,
+            3.096
+          ],
+          [
+            9.986,
+            6.604,
+            3.096,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccc(Cl)cc1N1CCCCC1OC(N)=O",
+        "composite_score": 0.5632824226897015,
+        "mw": 311.1,
+        "logp": 1.893,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.8273,
+        "sa_score": 3.22,
+        "n_heavy_atoms": 21,
+        "tpsa": 98.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TOPORS-G783R Candidate #1",
+        "iupac_name": "NCC(=O)c1ccc(Cl)cc1N1CCCCC1OC(N)=O",
+        "pocket_affinity_score": 0.5633,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TOPORS_G783R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TOPORS_G783R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TOPORS_G783R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TOPORS_G783R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TOPORS_G783R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TOPORS-G783R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TOPORS-G783R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:05:10.764157+00:00"
     }
   ]
 }
