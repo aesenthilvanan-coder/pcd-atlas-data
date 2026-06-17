@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 878,
+  "total_entries": 879,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45409,
-    "queue_remaining": 133188
+    "total_processed": 45410,
+    "queue_remaining": 133187
   },
   "entries": [
     {
@@ -193347,6 +193347,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:33:30.437925+00:00"
+    },
+    {
+      "entry_id": "PCD-SCNN1A-R589Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-R589Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SCNN1A",
+        "uniprot": "",
+        "clinvar_id": "310132",
+        "disease": "Pseudohypoaldosteronism, type IB1, autosomal recessive",
+        "mutation_precursor": "R589Q",
+        "mutation_mature": "R589Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9037480388546495,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 375.5162794775119,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          52.298831939697266,
+          -14.930272102355957,
+          -60.711692810058594
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.3598833865782405,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8898050998565785,
+        "cryptic": true,
+        "pocket_residues": {
+          "R586": "R",
+          "R589": "R",
+          "S590": "S",
+          "R591": "R",
+          "Y592": "Y",
+          "W593": "W",
+          "S594": "S"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P37088|SCNN1A variant R589Q",
+        "fasta_sequence": "MEGNKLEEQDSSPPQSTPGLMKGNKREEQGLGPEPAAPQQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKTAFWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLNSDKLVFPAVTICTLNPYRYPEIKEELEELDRITEQTLFDLYKYSSFTTLVAGSRSRRDLRGTLPHPLQRLRVPPPPHGARRARSVASSLRDNNPQVDWKDWKIGFQLCNQNKSDCFYQTYSSGVDAVREWYRFHYINILSRLPETLPSLEEDTLGNFIFACRFNQVSCNQANYSHFHHPMYGNCYTFNDKNNSNLWMSSMPGINNGLSLMLRAEQNDFIPLLSTVTGARVMVHGQDEPAFMDDGGFNLRPGVETSISMRKETLDRLGGDYGDCTKNGSDVPVENLYPSKYTQQVCIHSCFQESMIKECGCAYIFYPRPQNVEYCDYRKHSSWGYCYYKLQVDFSSDHLGCFTKCRKPCSVTSYQLSAGYSRWPSVTSQEWVFQMLSRQNNYTVNNKRNGVAKVNIFFKELNYKTNSESPSVTMVTLLSNLGSQWSLWFGSSVLSVVEMAELVFDLLVIMFLMLLRRFRSRYWSPGRGGRGAQEVASTLASSPPSHFCPHPMSLSLSQPGPAPSPALTAPPPAYATLGPRPSPGGSAGASSSTCPLGGP",
+        "full_sequence": "MEGNKLEEQDSSPPQSTPGLMKGNKREEQGLGPEPAAPQQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKTAFWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLNSDKLVFPAVTICTLNPYRYPEIKEELEELDRITEQTLFDLYKYSSFTTLVAGSRSRRDLRGTLPHPLQRLRVPPPPHGARRARSVASSLRDNNPQVDWKDWKIGFQLCNQNKSDCFYQTYSSGVDAVREWYRFHYINILSRLPETLPSLEEDTLGNFIFACRFNQVSCNQANYSHFHHPMYGNCYTFNDKNNSNLWMSSMPGINNGLSLMLRAEQNDFIPLLSTVTGARVMVHGQDEPAFMDDGGFNLRPGVETSISMRKETLDRLGGDYGDCTKNGSDVPVENLYPSKYTQQVCIHSCFQESMIKECGCAYIFYPRPQNVEYCDYRKHSSWGYCYYKLQVDFSSDHLGCFTKCRKPCSVTSYQLSAGYSRWPSVTSQEWVFQMLSRQNNYTVNNKRNGVAKVNIFFKELNYKTNSESPSVTMVTLLSNLGSQWSLWFGSSVLSVVEMAELVFDLLVIMFLMLLRRFRSRYWSPGRGGRGAQEVASTLASSPPSHFCPHPMSLSLSQPGPAPSPALTAPPPAYATLGPRPSPGGSAGASSSTCPLGGP",
+        "n_residues": 669,
+        "mutation_pos_1indexed": 589,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "R586-R589-S590-R591-Y592-W593-S594",
+        "pocket_lining_positions_precursor": [
+          586,
+          589,
+          590,
+          591,
+          592,
+          593,
+          594
+        ],
+        "pocket_lining_1letter": "RRSRYWS",
+        "sequence_slice_around_pocket": "IMFLMLLRRFRSRYWSPGRG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_R589Q/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "R586",
+          "R589",
+          "S590",
+          "R591",
+          "Y592",
+          "W593",
+          "S594"
+        ],
+        "values": [
+          [
+            0.0,
+            5.143,
+            6.062,
+            8.663,
+            9.987,
+            10.602,
+            13.196
+          ],
+          [
+            5.143,
+            0.0,
+            3.851,
+            5.454,
+            5.154,
+            6.097,
+            9.243
+          ],
+          [
+            6.062,
+            3.851,
+            0.0,
+            3.88,
+            5.698,
+            5.472,
+            7.251
+          ],
+          [
+            8.663,
+            5.454,
+            3.88,
+            0.0,
+            3.86,
+            5.687,
+            6.484
+          ],
+          [
+            9.987,
+            5.154,
+            5.698,
+            3.86,
+            0.0,
+            3.881,
+            6.053
+          ],
+          [
+            10.602,
+            6.097,
+            5.472,
+            5.687,
+            3.881,
+            0.0,
+            3.831
+          ],
+          [
+            13.196,
+            9.243,
+            7.251,
+            6.484,
+            6.053,
+            3.831,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "composite_score": 0.5401763356549147,
+        "mw": 325.18,
+        "logp": 1.996,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 7,
+        "qed": 0.7503,
+        "sa_score": 2.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 89.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SCNN1A-R589Q Candidate #1",
+        "iupac_name": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5402,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_R589Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_R589Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_R589Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_R589Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_R589Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-R589Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-R589Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:33:57.728898+00:00"
     }
   ]
 }
