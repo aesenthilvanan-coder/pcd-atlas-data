@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 805,
+  "total_entries": 806,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45320,
-    "queue_remaining": 133277
+    "total_processed": 45321,
+    "queue_remaining": 133276
   },
   "entries": [
     {
@@ -176969,6 +176969,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T14:25:06.866209+00:00"
+    },
+    {
+      "entry_id": "PCD-SCNN1A-R249K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-R249K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SCNN1A",
+        "uniprot": "",
+        "clinvar_id": "310149",
+        "disease": "Pseudohypoaldosteronism, type IB1, autosomal recessive",
+        "mutation_precursor": "R249K",
+        "mutation_mature": "R249K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8410081064097978,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 540.9565787463355,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -16.004846572875977,
+          -1.5044209957122803,
+          17.69803237915039
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.112321031105866,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.66088443334858,
+        "cryptic": true,
+        "pocket_residues": {
+          "R249": "R",
+          "R253": "R",
+          "I340": "I",
+          "P341": "P",
+          "L342": "L",
+          "L343": "L",
+          "S344": "S",
+          "T345": "T",
+          "V346": "V"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P37088|SCNN1A variant R249K",
+        "fasta_sequence": "MEGNKLEEQDSSPPQSTPGLMKGNKREEQGLGPEPAAPQQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKTAFWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLNSDKLVFPAVTICTLNPYRYPEIKEELEELDRITEQTLFDLYKYSSFTTLVAGSRSRRDLRGTLPHPLQRLRVPPPPHGARRARSVASSLRDNNPQVDWKDWKIGFQLCNQNKSDCFYQTYSSGVDAVREWYRFHYINILSRLPETLPSLEEDTLGNFIFACRFNQVSCNQANYSHFHHPMYGNCYTFNDKNNSNLWMSSMPGINNGLSLMLRAEQNDFIPLLSTVTGARVMVHGQDEPAFMDDGGFNLRPGVETSISMRKETLDRLGGDYGDCTKNGSDVPVENLYPSKYTQQVCIHSCFQESMIKECGCAYIFYPRPQNVEYCDYRKHSSWGYCYYKLQVDFSSDHLGCFTKCRKPCSVTSYQLSAGYSRWPSVTSQEWVFQMLSRQNNYTVNNKRNGVAKVNIFFKELNYKTNSESPSVTMVTLLSNLGSQWSLWFGSSVLSVVEMAELVFDLLVIMFLMLLRRFRSRYWSPGRGGRGAQEVASTLASSPPSHFCPHPMSLSLSQPGPAPSPALTAPPPAYATLGPRPSPGGSAGASSSTCPLGGP",
+        "full_sequence": "MEGNKLEEQDSSPPQSTPGLMKGNKREEQGLGPEPAAPQQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKTAFWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLNSDKLVFPAVTICTLNPYRYPEIKEELEELDRITEQTLFDLYKYSSFTTLVAGSRSRRDLRGTLPHPLQRLRVPPPPHGARRARSVASSLRDNNPQVDWKDWKIGFQLCNQNKSDCFYQTYSSGVDAVREWYRFHYINILSRLPETLPSLEEDTLGNFIFACRFNQVSCNQANYSHFHHPMYGNCYTFNDKNNSNLWMSSMPGINNGLSLMLRAEQNDFIPLLSTVTGARVMVHGQDEPAFMDDGGFNLRPGVETSISMRKETLDRLGGDYGDCTKNGSDVPVENLYPSKYTQQVCIHSCFQESMIKECGCAYIFYPRPQNVEYCDYRKHSSWGYCYYKLQVDFSSDHLGCFTKCRKPCSVTSYQLSAGYSRWPSVTSQEWVFQMLSRQNNYTVNNKRNGVAKVNIFFKELNYKTNSESPSVTMVTLLSNLGSQWSLWFGSSVLSVVEMAELVFDLLVIMFLMLLRRFRSRYWSPGRGGRGAQEVASTLASSPPSHFCPHPMSLSLSQPGPAPSPALTAPPPAYATLGPRPSPGGSAGASSSTCPLGGP",
+        "n_residues": 669,
+        "mutation_pos_1indexed": 249,
+        "wt_aa": "R",
+        "mut_aa": "K",
+        "pocket_lining_residues": "R249-R253-I340-P341-L342-L343-S344-T345-V346",
+        "pocket_lining_positions_precursor": [
+          249,
+          253,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346
+        ],
+        "pocket_lining_1letter": "RRIPLLSTV",
+        "sequence_slice_around_pocket": "QTYSSGVDAVREWYRFHYIN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_R249K/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "R249",
+          "R253",
+          "I340",
+          "P341",
+          "L342",
+          "L343",
+          "S344",
+          "T345",
+          "V346"
+        ],
+        "values": [
+          [
+            0.0,
+            6.013,
+            10.828,
+            9.506,
+            5.899,
+            6.137,
+            9.067,
+            8.721,
+            12.238
+          ],
+          [
+            6.013,
+            0.0,
+            10.553,
+            11.401,
+            8.242,
+            6.439,
+            10.028,
+            11.734,
+            14.467
+          ],
+          [
+            10.828,
+            10.553,
+            0.0,
+            3.885,
+            5.514,
+            5.672,
+            5.997,
+            8.819,
+            10.838
+          ],
+          [
+            9.506,
+            11.401,
+            3.885,
+            0.0,
+            3.866,
+            5.6,
+            5.211,
+            6.282,
+            8.929
+          ],
+          [
+            5.899,
+            8.242,
+            5.514,
+            3.866,
+            0.0,
+            3.864,
+            5.999,
+            6.755,
+            10.277
+          ],
+          [
+            6.137,
+            6.439,
+            5.672,
+            5.6,
+            3.864,
+            0.0,
+            3.845,
+            6.034,
+            8.815
+          ],
+          [
+            9.067,
+            10.028,
+            5.997,
+            5.211,
+            5.999,
+            3.845,
+            0.0,
+            3.824,
+            5.419
+          ],
+          [
+            8.721,
+            11.734,
+            8.819,
+            6.282,
+            6.755,
+            6.034,
+            3.824,
+            0.0,
+            3.863
+          ],
+          [
+            12.238,
+            14.467,
+            10.838,
+            8.929,
+            10.277,
+            8.815,
+            5.419,
+            3.863,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CC(=O)CCC1OCNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6359486315733286,
+        "mw": 380.16,
+        "logp": 1.638,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.5549,
+        "sa_score": 3.6,
+        "n_heavy_atoms": 28,
+        "tpsa": 126.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SCNN1A-R249K Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CC(=O)CCC1OCNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6359,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_R249K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_R249K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_R249K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_R249K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1A_R249K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-R249K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1A-R249K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T14:25:34.701922+00:00"
     }
   ]
 }
