@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 964,
+  "total_entries": 965,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45502,
-    "queue_remaining": 133095
+    "total_processed": 45506,
+    "queue_remaining": 133091
   },
   "entries": [
     {
@@ -212119,6 +212119,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:45:19.963153+00:00"
+    },
+    {
+      "entry_id": "PCD-TINF2-Q21R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TINF2-Q21R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TINF2",
+        "uniprot": "",
+        "clinvar_id": "312957",
+        "disease": "Revesz syndrome",
+        "mutation_precursor": "Q21R",
+        "mutation_mature": "Q21R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7300460584275236,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 480.6599154703979,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          7.8533220291137695,
+          -6.37761116027832,
+          4.521519184112549
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.2224952442087735,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7256827151987113,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q21": "Q",
+          "G25": "G",
+          "L187": "L",
+          "A188": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9BSI4|TINF2 variant Q21R",
+        "fasta_sequence": "MATPLVAGPAALRFAAAASWQVVRGRCVEHFPRVLEFLRSLRAVAPGLVRYRHHERLCMGLKAKVVVELILQGRPWAQVLKALNHHFPESGPIVRDPKATKQDLRKILEAQETFYQQVKQLSEAPVDLASKLQELEQEYGEPFLAAMEKLLFEYLCQLEKALPTPQAQQLQDVLSWMQPGVSITSSLAWRQYGVDMGWLLPECSVTDSVNLAEPMEQNPPQQQRLALHNPLPKAKPGTHLPQGPSSRTHPEPLAGRHFNLAPLGRRRVQSQWASTRGGHKERPTVMLFPFRNLGSPTQVISKPESKEEHAIYTADLAMGTRAASTGKSKSPCQTLGGRALKENPVDLPATEQKENCLDCYMDPLRLSLLPPRARKPVCPPSLCSSVITIGDLVLDSDEEENGQGEGKESLENYQKTKFDTLIPTLCEYLPPSGHGAIPVSSCDCRDSSRPL",
+        "full_sequence": "MATPLVAGPAALRFAAAASWQVVRGRCVEHFPRVLEFLRSLRAVAPGLVRYRHHERLCMGLKAKVVVELILQGRPWAQVLKALNHHFPESGPIVRDPKATKQDLRKILEAQETFYQQVKQLSEAPVDLASKLQELEQEYGEPFLAAMEKLLFEYLCQLEKALPTPQAQQLQDVLSWMQPGVSITSSLAWRQYGVDMGWLLPECSVTDSVNLAEPMEQNPPQQQRLALHNPLPKAKPGTHLPQGPSSRTHPEPLAGRHFNLAPLGRRRVQSQWASTRGGHKERPTVMLFPFRNLGSPTQVISKPESKEEHAIYTADLAMGTRAASTGKSKSPCQTLGGRALKENPVDLPATEQKENCLDCYMDPLRLSLLPPRARKPVCPPSLCSSVITIGDLVLDSDEEENGQGEGKESLENYQKTKFDTLIPTLCEYLPPSGHGAIPVSSCDCRDSSRPL",
+        "n_residues": 451,
+        "mutation_pos_1indexed": 21,
+        "wt_aa": "Q",
+        "mut_aa": "R",
+        "pocket_lining_residues": "Q21-G25-L187-A188",
+        "pocket_lining_positions_precursor": [
+          21,
+          25,
+          187,
+          188
+        ],
+        "pocket_lining_1letter": "QGLA",
+        "sequence_slice_around_pocket": "ALRFAAAASWQVVRGRCVEH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TINF2_Q21R/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "Q21",
+          "G25",
+          "L187",
+          "A188"
+        ],
+        "values": [
+          [
+            0.0,
+            5.752,
+            9.326,
+            5.887
+          ],
+          [
+            5.752,
+            0.0,
+            12.425,
+            10.185
+          ],
+          [
+            9.326,
+            12.425,
+            0.0,
+            3.851
+          ],
+          [
+            5.887,
+            10.185,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(O)Cc1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.5102924156710881,
+        "mw": 332.26,
+        "logp": 2.136,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.8354,
+        "sa_score": 3.49,
+        "n_heavy_atoms": 24,
+        "tpsa": 65.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TINF2-Q21R Candidate #1",
+        "iupac_name": "NCCC(O)Cc1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5103,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TINF2_Q21R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TINF2_Q21R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TINF2_Q21R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TINF2_Q21R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TINF2_Q21R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TINF2-Q21R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TINF2-Q21R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:46:21.976663+00:00"
     }
   ]
 }
