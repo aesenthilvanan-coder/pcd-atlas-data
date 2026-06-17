@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1370,
+  "total_entries": 1371,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46006,
-    "queue_remaining": 132591
+    "total_processed": 46007,
+    "queue_remaining": 132590
   },
   "entries": [
     {
@@ -303959,6 +303959,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:53:45.622195+00:00"
+    },
+    {
+      "entry_id": "PCD-VSX1-P247R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VSX1-P247R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "VSX1",
+        "uniprot": "",
+        "clinvar_id": "337958",
+        "disease": "Posterior polymorphous corneal dystrophy",
+        "mutation_precursor": "P247R",
+        "mutation_mature": "P247R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.867030044561347,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 410.99129469633345,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          1.4020531177520752,
+          32.19893264770508,
+          -17.682268142700195
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.047338805508231,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6418327872847408,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y238": "Y",
+          "M241": "M",
+          "I246": "I",
+          "P247": "P",
+          "L248": "L",
+          "P249": "P",
+          "D250": "D",
+          "S251": "S",
+          "V252": "V"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NZR4|VSX1 variant P247R",
+        "fasta_sequence": "MTGRDSLSDGRTSSRALVPGGSPRGSRPRGFAITDLLGLEAELPAPAGPGQGSGCEGPAVAPCPGPGLDGSSLARGALPLGLGLLCGFGTQPPAAARAPCLLLADVPFLPPRGPEPAAPLAPSRPPPALGRQKRSDSVSTSDEDSQSEDRNDLKASPTLGKRKKRRHRTVFTAHQLEELEKAFSEAHYPDVYAREMLAVKTELPEDRIQVWFQNRRAKWRKREKRWGGSSVMAEYGLYGAMVRHCIPLPDSVLNSAEGGLLGSCAPWLLGMHKKSMGMIRKPGSEDKLAGLWGSDHFKEGSSQSESGSQRGSDKVSPENGLEDVAIDLSSSARQETKKVHPGAGAQGGSNSTALEGPQPGKVGAT",
+        "full_sequence": "MTGRDSLSDGRTSSRALVPGGSPRGSRPRGFAITDLLGLEAELPAPAGPGQGSGCEGPAVAPCPGPGLDGSSLARGALPLGLGLLCGFGTQPPAAARAPCLLLADVPFLPPRGPEPAAPLAPSRPPPALGRQKRSDSVSTSDEDSQSEDRNDLKASPTLGKRKKRRHRTVFTAHQLEELEKAFSEAHYPDVYAREMLAVKTELPEDRIQVWFQNRRAKWRKREKRWGGSSVMAEYGLYGAMVRHCIPLPDSVLNSAEGGLLGSCAPWLLGMHKKSMGMIRKPGSEDKLAGLWGSDHFKEGSSQSESGSQRGSDKVSPENGLEDVAIDLSSSARQETKKVHPGAGAQGGSNSTALEGPQPGKVGAT",
+        "n_residues": 365,
+        "mutation_pos_1indexed": 247,
+        "wt_aa": "P",
+        "mut_aa": "R",
+        "pocket_lining_residues": "Y238-M241-I246-P247-L248-P249-D250-S251-V252",
+        "pocket_lining_positions_precursor": [
+          238,
+          241,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252
+        ],
+        "pocket_lining_1letter": "YMIPLPDSV",
+        "sequence_slice_around_pocket": "LYGAMVRHCIPLPDSVLNSA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_P247R/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "Y238",
+          "M241",
+          "I246",
+          "P247",
+          "L248",
+          "P249",
+          "D250",
+          "S251",
+          "V252"
+        ],
+        "values": [
+          [
+            0.0,
+            4.909,
+            8.86,
+            9.288,
+            6.846,
+            8.954,
+            11.834,
+            11.314,
+            8.872
+          ],
+          [
+            4.909,
+            0.0,
+            4.711,
+            6.886,
+            6.732,
+            9.756,
+            13.019,
+            13.891,
+            11.679
+          ],
+          [
+            8.86,
+            4.711,
+            0.0,
+            3.87,
+            6.361,
+            9.155,
+            12.152,
+            14.266,
+            12.698
+          ],
+          [
+            9.288,
+            6.886,
+            3.87,
+            0.0,
+            3.821,
+            6.356,
+            8.686,
+            11.305,
+            10.029
+          ],
+          [
+            6.846,
+            6.732,
+            6.361,
+            3.821,
+            0.0,
+            3.85,
+            6.415,
+            8.062,
+            6.434
+          ],
+          [
+            8.954,
+            9.756,
+            9.155,
+            6.356,
+            3.85,
+            0.0,
+            3.814,
+            5.546,
+            6.004
+          ],
+          [
+            11.834,
+            13.019,
+            12.152,
+            8.686,
+            6.415,
+            3.814,
+            0.0,
+            3.864,
+            5.436
+          ],
+          [
+            11.314,
+            13.891,
+            14.266,
+            11.305,
+            8.062,
+            5.546,
+            3.864,
+            0.0,
+            3.884
+          ],
+          [
+            8.872,
+            11.679,
+            12.698,
+            10.029,
+            6.434,
+            6.004,
+            5.436,
+            3.884,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8726016338514812,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "VSX1-P247R Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8726,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_P247R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_P247R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_P247R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_P247R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_P247R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VSX1-P247R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VSX1-P247R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:54:08.947406+00:00"
     }
   ]
 }
