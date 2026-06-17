@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 659,
+  "total_entries": 660,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45154,
-    "queue_remaining": 133443
+    "total_processed": 45155,
+    "queue_remaining": 133442
   },
   "entries": [
     {
@@ -146577,6 +146577,171 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:26:45.646863+00:00"
+    },
+    {
+      "entry_id": "PCD-TGM1-A588T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TGM1-A588T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TGM1",
+        "uniprot": "",
+        "clinvar_id": "312977",
+        "disease": "Autosomal recessive congenital ichthyosis 1",
+        "mutation_precursor": "A588T",
+        "mutation_mature": "A588T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8126349768336212,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 284.675215556858,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          25.682228088378906,
+          -8.421976089477539,
+          -13.46218204498291
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.771503659970064,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7606397433534581,
+        "cryptic": true,
+        "pocket_residues": {
+          "A585": "A",
+          "Q586": "Q",
+          "D587": "D",
+          "A588": "A",
+          "L594": "L",
+          "M595": "M"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P22735|TGM1 variant A588T",
+        "fasta_sequence": "MMDGPRSDVGRWGGNPLQPPTTPSPEPEPEPDGRSRRGGGRSFWARCCGCCSCRNAADDDWGPEPSDSRGRGSSSGTRRPGSRGSDSRRPVSRGSGVNAAGDGTIREGMLVVNGVDLLSSRSDQNRREHHTDEYEYDELIVRRGQPFHMLLLLSRTYESSDRITLELLIGNNPEVGKGTHVIIPVGKGGSGGWKAQVVKASGQNLNLRVHTSPNAIIGKFQFTVRTQSDAGEFQLPFDPRNEIYILFNPWCPEDIVYVDHEDWRQEYVLNESGRIYYGTEAQIGERTWNYGQFDHGVLDACLYILDRRGMPYGGRGDPVNVSRVISAMVNSLDDNGVLIGNWSGDYSRGTNPSAWVGSVEILLSYLRTGYSVPYGQCWVFAGVTTTVLRCLGLATRTVTNFNSAHDTDTSLTMDIYFDENMKPLEHLNHDSVWNFHVWNDCWMKRPDLPSGFDGWQVVDATPQETSSGIFCCGPCSVESIKNGLVYMKYDTPFIFAEVNSDKVYWQRQDDGSFKIVYVEEKAIGTLIVTKAISSNMREDITYLYKHPEGSDAERKAVETAAAHGSKPNVYANRGSAEDVAMQVEAQDAVMGQDLMVSVMLINHSSSRRTVKLHLYLSVTFYTGVSGTIFKETKKEVELAPGASDRVTMPVAYKEYRPHLVDQGAMLLNVSGHVKESGQVLAKQHTFRLRTPDLSLTLLGAAVVGQECEVQIVFKNPLPVTLTNVVFRLEGSGLQRPKILNVGDIGGNETVTLRQSFVPVRPGPRQLIASLDSPQLSQVHGVIQVDVAPAPGDGGFFSDAGGDSHLGETIPMASRGGA",
+        "full_sequence": "MMDGPRSDVGRWGGNPLQPPTTPSPEPEPEPDGRSRRGGGRSFWARCCGCCSCRNAADDDWGPEPSDSRGRGSSSGTRRPGSRGSDSRRPVSRGSGVNAAGDGTIREGMLVVNGVDLLSSRSDQNRREHHTDEYEYDELIVRRGQPFHMLLLLSRTYESSDRITLELLIGNNPEVGKGTHVIIPVGKGGSGGWKAQVVKASGQNLNLRVHTSPNAIIGKFQFTVRTQSDAGEFQLPFDPRNEIYILFNPWCPEDIVYVDHEDWRQEYVLNESGRIYYGTEAQIGERTWNYGQFDHGVLDACLYILDRRGMPYGGRGDPVNVSRVISAMVNSLDDNGVLIGNWSGDYSRGTNPSAWVGSVEILLSYLRTGYSVPYGQCWVFAGVTTTVLRCLGLATRTVTNFNSAHDTDTSLTMDIYFDENMKPLEHLNHDSVWNFHVWNDCWMKRPDLPSGFDGWQVVDATPQETSSGIFCCGPCSVESIKNGLVYMKYDTPFIFAEVNSDKVYWQRQDDGSFKIVYVEEKAIGTLIVTKAISSNMREDITYLYKHPEGSDAERKAVETAAAHGSKPNVYANRGSAEDVAMQVEAQDAVMGQDLMVSVMLINHSSSRRTVKLHLYLSVTFYTGVSGTIFKETKKEVELAPGASDRVTMPVAYKEYRPHLVDQGAMLLNVSGHVKESGQVLAKQHTFRLRTPDLSLTLLGAAVVGQECEVQIVFKNPLPVTLTNVVFRLEGSGLQRPKILNVGDIGGNETVTLRQSFVPVRPGPRQLIASLDSPQLSQVHGVIQVDVAPAPGDGGFFSDAGGDSHLGETIPMASRGGA",
+        "n_residues": 817,
+        "mutation_pos_1indexed": 588,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "A585-Q586-D587-A588-L594-M595",
+        "pocket_lining_positions_precursor": [
+          585,
+          586,
+          587,
+          588,
+          594,
+          595
+        ],
+        "pocket_lining_1letter": "AQDALM",
+        "sequence_slice_around_pocket": "DVAMQVEAQDAVMGQDLMVS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TGM1_A588T/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "A585",
+          "Q586",
+          "D587",
+          "A588",
+          "L594",
+          "M595"
+        ],
+        "values": [
+          [
+            0.0,
+            3.822,
+            6.439,
+            8.706,
+            7.619,
+            6.078
+          ],
+          [
+            3.822,
+            0.0,
+            3.822,
+            6.043,
+            5.793,
+            5.34
+          ],
+          [
+            6.439,
+            3.822,
+            0.0,
+            3.834,
+            7.412,
+            8.592
+          ],
+          [
+            8.706,
+            6.043,
+            3.834,
+            0.0,
+            6.001,
+            8.789
+          ],
+          [
+            7.619,
+            5.793,
+            7.412,
+            6.001,
+            0.0,
+            3.834
+          ],
+          [
+            6.078,
+            5.34,
+            8.592,
+            8.789,
+            3.834,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)CCCc1c[nH]c2ccccc12",
+        "composite_score": 0.8571789399109128,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.09,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TGM1-A588T Candidate #1",
+        "iupac_name": "NCC(=O)CCCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8572,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TGM1_A588T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TGM1_A588T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TGM1_A588T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TGM1_A588T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TGM1_A588T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TGM1-A588T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TGM1-A588T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:27:15.690690+00:00"
     }
   ]
 }
