@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 118,
+  "total_entries": 119,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44522,
-    "queue_remaining": 134075
+    "total_processed": 44523,
+    "queue_remaining": 134074
   },
   "entries": [
     {
@@ -26864,6 +26864,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:23:32.441371+00:00"
+    },
+    {
+      "entry_id": "PCD-PLAU-R79Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PLAU-R79Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PLAU",
+        "uniprot": "",
+        "clinvar_id": "300745",
+        "disease": "Quebec platelet disorder",
+        "mutation_precursor": "R79Q",
+        "mutation_mature": "R79Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9302934491932758,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 558.769252663775,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -22.36266326904297,
+          -6.387485504150391,
+          29.482585906982422
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.5723205477504205,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.704692636804964,
+        "cryptic": true,
+        "pocket_residues": {
+          "D65": "D",
+          "K68": "K",
+          "F77": "F",
+          "Y78": "Y",
+          "R79": "R",
+          "G80": "G"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P00749|PLAU variant R79Q",
+        "fasta_sequence": "MRALLARLLLCVLVVSDSKGSNELHQVPSNCDCLNGGTCVSNKYFSNIHWCNCPKKFGGQHCEIDKSKTCYEGNGHFYRGKASTDTMGRPCLPWNSATVLQQTYHAHRSDALQLGLGKHNYCRNPDNRRRPWCYVQVGLKLLVQECMVHDCADGKKPSSPPEELKFQCGQKTLRPRFKIIGGEFTTIENQPWFAAIYRRHRGGSVTYVCGGSLISPCWVISATHCFIDYPKKEDYIVYLGRSRLNSNTQGEMKFEVENLILHKDYSADTLAHHNDIALLKIRSKEGRCAQPSRTIQTICLPSMYNDPQFGTSCEITGFGKENSTDYLYPEQLKMTVVKLISHRECQQPHYYGSEVTTKMLCAADPQWKTDSCQGDSGGPLVCSLQGRMTLTGIVSWGRGCALKDKPGVYTRVSHFLPWIRSHTKEENGLAL",
+        "full_sequence": "MRALLARLLLCVLVVSDSKGSNELHQVPSNCDCLNGGTCVSNKYFSNIHWCNCPKKFGGQHCEIDKSKTCYEGNGHFYRGKASTDTMGRPCLPWNSATVLQQTYHAHRSDALQLGLGKHNYCRNPDNRRRPWCYVQVGLKLLVQECMVHDCADGKKPSSPPEELKFQCGQKTLRPRFKIIGGEFTTIENQPWFAAIYRRHRGGSVTYVCGGSLISPCWVISATHCFIDYPKKEDYIVYLGRSRLNSNTQGEMKFEVENLILHKDYSADTLAHHNDIALLKIRSKEGRCAQPSRTIQTICLPSMYNDPQFGTSCEITGFGKENSTDYLYPEQLKMTVVKLISHRECQQPHYYGSEVTTKMLCAADPQWKTDSCQGDSGGPLVCSLQGRMTLTGIVSWGRGCALKDKPGVYTRVSHFLPWIRSHTKEENGLAL",
+        "n_residues": 431,
+        "mutation_pos_1indexed": 79,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "D65-K68-F77-Y78-R79-G80",
+        "pocket_lining_positions_precursor": [
+          65,
+          68,
+          77,
+          78,
+          79,
+          80
+        ],
+        "pocket_lining_1letter": "DKFYRG",
+        "sequence_slice_around_pocket": "TCYEGNGHFYRGKASTDTMG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PLAU_R79Q/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "D65",
+          "K68",
+          "F77",
+          "Y78",
+          "R79",
+          "G80"
+        ],
+        "values": [
+          [
+            0.0,
+            5.734,
+            10.394,
+            8.388,
+            5.286,
+            5.058
+          ],
+          [
+            5.734,
+            0.0,
+            10.598,
+            7.704,
+            7.027,
+            4.772
+          ],
+          [
+            10.394,
+            10.598,
+            0.0,
+            3.845,
+            6.23,
+            9.268
+          ],
+          [
+            8.388,
+            7.704,
+            3.845,
+            0.0,
+            3.855,
+            5.821
+          ],
+          [
+            5.286,
+            7.027,
+            6.23,
+            3.855,
+            0.0,
+            3.837
+          ],
+          [
+            5.058,
+            4.772,
+            9.268,
+            5.821,
+            3.837,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "composite_score": 0.7651823010720674,
+        "mw": 361.24,
+        "logp": 2.104,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8409,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PLAU-R79Q Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7652,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PLAU_R79Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PLAU_R79Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PLAU_R79Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PLAU_R79Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PLAU_R79Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PLAU-R79Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PLAU-R79Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:23:55.637325+00:00"
     }
   ]
 }
