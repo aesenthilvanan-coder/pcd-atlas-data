@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 300,
+  "total_entries": 301,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44741,
-    "queue_remaining": 133856
+    "total_processed": 44742,
+    "queue_remaining": 133855
   },
   "entries": [
     {
@@ -65326,6 +65326,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:27:21.640464+00:00"
+    },
+    {
+      "entry_id": "PCD-SPTB-R2079H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPTB-R2079H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SPTB",
+        "uniprot": "",
+        "clinvar_id": "313702",
+        "disease": "not provided",
+        "mutation_precursor": "R2079H",
+        "mutation_mature": "R2079H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7544536778995922,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 492.89061602805634,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -116.92781066894531,
+          -9.55034065246582,
+          111.18646240234375
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.132212957207016,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8072613006090489,
+        "cryptic": true,
+        "pocket_residues": {
+          "T2073": "T",
+          "L2074": "L",
+          "E2075": "E",
+          "L2076": "L",
+          "K2077": "K",
+          "E2078": "E",
+          "R2079": "R",
+          "Q2080": "Q",
+          "I2081": "I"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P11277|SPTB variant R2079H",
+        "fasta_sequence": "MTSATEFENVGNQPPYSRINARWDAPDDELDNDNSSARLFERSRIKALADEREVVQKKTFTKWVNSHLARVSCRITDLYKDLRDGRMLIKLLEVLSGEMLPKPTKGKMRIHCLENVDKALQFLKEQRVHLENMGSHDIVDGNHRLVLGLIWTIILRFQIQDIVVQTQEGRETRSAKDALLLWCQMKTAGYPHVNVTNFTSSWKDGLAFNALIHKHRPDLIDFDKLKDSNARHNLEHAFNVAERQLGIIPLLDPEDVFTENPDEKSIITYVVAFYHYFSKMKVLAVEGKRVGKVIDHAIETEKMIEKYSGLASDLLTWIEQTITVLNSRKFANSLTGVQQQLQAFSTYRTVEKPPKFQEKGNLEVLLFTIQSRMRANNQKVYTPHDGKLVSDINRAWESLEEAEYRRELALRNELIRQEKLEQLARRFDRKAAMRETWLSENQRLVAQDNFGYDLAAVEAAKKKHEAIETDTAAYEERVRALEDLAQELEKENYHDQKRITARKDNILRLWSYLQELLQSRRQRLETTLALQKLFQDMLHSIDWMDEIKAHLLSAEFGKHLLEVEDLLQKHKLMEADIAIQGDKVKAITAATLKFTEGKGYQPCDPQVIQDRISHLEQCFEELSNMAAGRKAQLEQSKRLWKFFWEMDEAESWIKEKEQIYSSLDYGKDLTSVLILQRKHKAFEDELRGLDAHLEQIFQEAHGMVARKQFGHPQIEARIKEVSAQWDQLKDLAAFCKKNLQDAENFFQFQGDADDLKAWLQDAHRLLSGEDVGQDEGATRALGKKHKDFLEELEESRGVMEHLEQQAQGFPEEFRDSPDVTHRLQALRELYQQVVAQADLRQQRLQEALDLYTVFGETDACELWMGEKEKWLAEMEMPDTLEDLEVVQHRFDILDQEMKTLMTQIDGVNLAANSLVESGHPRSREVKQYQDHLNTRWQAFQTLVSERREAVDSALRVHNYCVDCEETSKWITDKTKVVESTKDLGRDLAGIIAIQRKLSGLERDVAAIQARVDALERESQQLMDSHPEQKEDIGQRQKHLEELWQGLQQSLQGQEDLLGEVSQLQAFLQDLDDFQAWLSITQKAVASEDMPESLPEAEQLLQQHAGIKDEIDGHQDSYQRVKESGEKVIQGQTDPEYLLLGQRLEGLDTGWNALGRMWESRSHTLAQCLGFQEFQKDAKQAEAILSNQEYTLAHLEPPDSLEAAEAGIRKFEDFLGSMENNRDKVLSPVDSGNKLVAEGNLYSDKIKEKVQLIEDRHRKNNEKAQEASVLLRDNLELQNFLQNCQELTLWINDKLLTSQDVSYDEARNLHNKWLKHQAFVAELASHEGWLENIDAEGKQLMDEKPQFTALVSQKLEALHRLWDELQATTKEKTQHLSAARSSDLRLQTHADLNKWISAMEDQLRSDDPGKDLTSVNRMLAKLKRVEDQVNVRKEELGELFAQVPSMGEEGGDADLSIEKRFLDLLEPLGRRKKQLESSRAKLQISRDLEDETLWVEERLPLAQSADYGTNLQTVQLFMKKNQTLQNEILGHTPRVEDVLQRGQQLVEAAEIDCQDLEERLGHLQSSWDRLREAAAGRLQRLRDANEAQQYYLDADEAEAWIGEQELYVISDEIPKDEEGAIVMLKRHLRQQRAVEDYGRNIKQLASRAQGLLSAGHPEGEQIIRLQGQVDKHYAGLKDVAEERKRKLENMYHLFQLKRETDDLEQWISEKELVASSPEMGQDFDHVTLLRDKFRDFARETGAIGQERVDNVNAFIERLIDAGHSEAATIAEWKDGLNEMWADLLELIDTRMQLLAASYDLHRYFYTGAEILGLIDEKHRELPEDVGLDASTAESFHRVHTAFERELHLLGVQVQQFQDVATRLQTAYAGEKAEAIQNKEQEVSAAWQALLDACAGRRTQLVDTADKFRFFSMARDLLSWMESIIRQIETQERPRDVSSVELLMKYHQGINAEIETRSKNFSACLELGESLLQRQHQASEEIREKLQQVMSRRKEMNEKWEARWERLRMLLEVCQFSRDASVAEAWLIAQEPYLASGDFGHTVDSVEKLIKRHEAFEKSTASWAERFAALEKPTTLELKERQIAERPAEETGPQEEEGETAGEAPVSHHAATERTSPVSLWSRLSSSWESLQPEPSHPY",
+        "full_sequence": "MTSATEFENVGNQPPYSRINARWDAPDDELDNDNSSARLFERSRIKALADEREVVQKKTFTKWVNSHLARVSCRITDLYKDLRDGRMLIKLLEVLSGEMLPKPTKGKMRIHCLENVDKALQFLKEQRVHLENMGSHDIVDGNHRLVLGLIWTIILRFQIQDIVVQTQEGRETRSAKDALLLWCQMKTAGYPHVNVTNFTSSWKDGLAFNALIHKHRPDLIDFDKLKDSNARHNLEHAFNVAERQLGIIPLLDPEDVFTENPDEKSIITYVVAFYHYFSKMKVLAVEGKRVGKVIDHAIETEKMIEKYSGLASDLLTWIEQTITVLNSRKFANSLTGVQQQLQAFSTYRTVEKPPKFQEKGNLEVLLFTIQSRMRANNQKVYTPHDGKLVSDINRAWESLEEAEYRRELALRNELIRQEKLEQLARRFDRKAAMRETWLSENQRLVAQDNFGYDLAAVEAAKKKHEAIETDTAAYEERVRALEDLAQELEKENYHDQKRITARKDNILRLWSYLQELLQSRRQRLETTLALQKLFQDMLHSIDWMDEIKAHLLSAEFGKHLLEVEDLLQKHKLMEADIAIQGDKVKAITAATLKFTEGKGYQPCDPQVIQDRISHLEQCFEELSNMAAGRKAQLEQSKRLWKFFWEMDEAESWIKEKEQIYSSLDYGKDLTSVLILQRKHKAFEDELRGLDAHLEQIFQEAHGMVARKQFGHPQIEARIKEVSAQWDQLKDLAAFCKKNLQDAENFFQFQGDADDLKAWLQDAHRLLSGEDVGQDEGATRALGKKHKDFLEELEESRGVMEHLEQQAQGFPEEFRDSPDVTHRLQALRELYQQVVAQADLRQQRLQEALDLYTVFGETDACELWMGEKEKWLAEMEMPDTLEDLEVVQHRFDILDQEMKTLMTQIDGVNLAANSLVESGHPRSREVKQYQDHLNTRWQAFQTLVSERREAVDSALRVHNYCVDCEETSKWITDKTKVVESTKDLGRDLAGIIAIQRKLSGLERDVAAIQARVDALERESQQLMDSHPEQKEDIGQRQKHLEELWQGLQQSLQGQEDLLGEVSQLQAFLQDLDDFQAWLSITQKAVASEDMPESLPEAEQLLQQHAGIKDEIDGHQDSYQRVKESGEKVIQGQTDPEYLLLGQRLEGLDTGWNALGRMWESRSHTLAQCLGFQEFQKDAKQAEAILSNQEYTLAHLEPPDSLEAAEAGIRKFEDFLGSMENNRDKVLSPVDSGNKLVAEGNLYSDKIKEKVQLIEDRHRKNNEKAQEASVLLRDNLELQNFLQNCQELTLWINDKLLTSQDVSYDEARNLHNKWLKHQAFVAELASHEGWLENIDAEGKQLMDEKPQFTALVSQKLEALHRLWDELQATTKEKTQHLSAARSSDLRLQTHADLNKWISAMEDQLRSDDPGKDLTSVNRMLAKLKRVEDQVNVRKEELGELFAQVPSMGEEGGDADLSIEKRFLDLLEPLGRRKKQLESSRAKLQISRDLEDETLWVEERLPLAQSADYGTNLQTVQLFMKKNQTLQNEILGHTPRVEDVLQRGQQLVEAAEIDCQDLEERLGHLQSSWDRLREAAAGRLQRLRDANEAQQYYLDADEAEAWIGEQELYVISDEIPKDEEGAIVMLKRHLRQQRAVEDYGRNIKQLASRAQGLLSAGHPEGEQIIRLQGQVDKHYAGLKDVAEERKRKLENMYHLFQLKRETDDLEQWISEKELVASSPEMGQDFDHVTLLRDKFRDFARETGAIGQERVDNVNAFIERLIDAGHSEAATIAEWKDGLNEMWADLLELIDTRMQLLAASYDLHRYFYTGAEILGLIDEKHRELPEDVGLDASTAESFHRVHTAFERELHLLGVQVQQFQDVATRLQTAYAGEKAEAIQNKEQEVSAAWQALLDACAGRRTQLVDTADKFRFFSMARDLLSWMESIIRQIETQERPRDVSSVELLMKYHQGINAEIETRSKNFSACLELGESLLQRQHQASEEIREKLQQVMSRRKEMNEKWEARWERLRMLLEVCQFSRDASVAEAWLIAQEPYLASGDFGHTVDSVEKLIKRHEAFEKSTASWAERFAALEKPTTLELKERQIAERPAEETGPQEEEGETAGEAPVSHHAATERTSPVSLWSRLSSSWESLQPEPSHPY",
+        "n_residues": 2137,
+        "mutation_pos_1indexed": 2079,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "T2073-L2074-E2075-L2076-K2077-E2078-R2079-Q2080-I2081",
+        "pocket_lining_positions_precursor": [
+          2073,
+          2074,
+          2075,
+          2076,
+          2077,
+          2078,
+          2079,
+          2080,
+          2081
+        ],
+        "pocket_lining_1letter": "TLELKERQI",
+        "sequence_slice_around_pocket": "EKPTTLELKERQIAERPAEE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SPTB_R2079H/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "T2073",
+          "L2074",
+          "E2075",
+          "L2076",
+          "K2077",
+          "E2078",
+          "R2079",
+          "Q2080",
+          "I2081"
+        ],
+        "values": [
+          [
+            0.0,
+            3.835,
+            5.421,
+            4.822,
+            6.133,
+            8.463,
+            9.582,
+            10.433,
+            12.26
+          ],
+          [
+            3.835,
+            0.0,
+            3.861,
+            5.413,
+            5.073,
+            6.07,
+            8.526,
+            9.81,
+            10.42
+          ],
+          [
+            5.421,
+            3.861,
+            0.0,
+            3.868,
+            5.404,
+            4.78,
+            5.843,
+            8.408,
+            9.393
+          ],
+          [
+            4.822,
+            5.413,
+            3.868,
+            0.0,
+            3.86,
+            5.454,
+            5.037,
+            6.19,
+            8.602
+          ],
+          [
+            6.133,
+            5.073,
+            5.404,
+            3.86,
+            0.0,
+            3.855,
+            5.531,
+            5.105,
+            6.283
+          ],
+          [
+            8.463,
+            6.07,
+            4.78,
+            5.454,
+            3.855,
+            0.0,
+            3.884,
+            5.395,
+            4.843
+          ],
+          [
+            9.582,
+            8.526,
+            5.843,
+            5.037,
+            5.531,
+            3.884,
+            0.0,
+            3.85,
+            5.296
+          ],
+          [
+            10.433,
+            9.81,
+            8.408,
+            6.19,
+            5.105,
+            5.395,
+            3.85,
+            0.0,
+            3.872
+          ],
+          [
+            12.26,
+            10.42,
+            9.393,
+            8.602,
+            6.283,
+            4.843,
+            5.296,
+            3.872,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1NCNc1nc2ccccc2[nH]1",
+        "composite_score": 0.7872718704240825,
+        "mw": 351.18,
+        "logp": 1.695,
+        "hbd": 4,
+        "hba": 7,
+        "rotatable_bonds": 5,
+        "qed": 0.5176,
+        "sa_score": 3.64,
+        "n_heavy_atoms": 26,
+        "tpsa": 112.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SPTB-R2079H Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1NCNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.7873,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SPTB_R2079H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SPTB_R2079H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SPTB_R2079H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPTB_R2079H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPTB_R2079H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPTB-R2079H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPTB-R2079H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:29:06.879258+00:00"
     }
   ]
 }
