@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 397,
+  "total_entries": 398,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44848,
-    "queue_remaining": 133749
+    "total_processed": 44850,
+    "queue_remaining": 133747
   },
   "entries": [
     {
@@ -87456,6 +87456,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:57:34.749923+00:00"
+    },
+    {
+      "entry_id": "PCD-PSAP-T38S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-T38S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PSAP",
+        "uniprot": "",
+        "clinvar_id": "300534",
+        "disease": "Krabbe disease due to saposin A deficiency",
+        "mutation_precursor": "T38S",
+        "mutation_mature": "T38S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7360109387955086,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 459.67295265583175,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          42.784278869628906,
+          7.636155605316162,
+          29.539974212646484
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.493966114112482,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8962231512052472,
+        "cryptic": true,
+        "pocket_residues": {
+          "E37": "E",
+          "A38": "A",
+          "R39": "R",
+          "A40": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NZJ7|PSAP variant T38S",
+        "fasta_sequence": "MGASDPEVAPWARGGAAGMAGAGAGAGARGGAAAGVEARARDPPPAHRAHPRHPRPAAQPSARRMDGGSGGLGSGDNAPTTEALFVALGAGVTALSHPLLYVKLLIQVGHEPMPPTLGTNVLGRKVLYLPSFFTYAKYIVQVDGKIGLFRGLSPRLMSNALSTVTRGSMKKVFPPDEIEQVSNKDDMKTSLKKVVKETSYEMMMQCVSRMLAHPLHVISMRCMVQFVGREAKYSGVLSSIGKIFKEEGLLGFFVGLIPHLLGDVVFLWGCNLLAHFINAYLVDDSVSDTPGGLGNDQNPGSQFSQALAIRSYTKFVMGIAVSMLTYPFLLVGDLMAVNNCGLQAGLPPYSPVFKSWIHCWKYLSVQGQLFRGSSLLFRRVSSGSCFALE",
+        "full_sequence": "MGASDPEVAPWARGGAAGMAGAGAGAGARGGAAAGVEARARDPPPAHRAHPRHPRPAAQPSARRMDGGSGGLGSGDNAPTTEALFVALGAGVTALSHPLLYVKLLIQVGHEPMPPTLGTNVLGRKVLYLPSFFTYAKYIVQVDGKIGLFRGLSPRLMSNALSTVTRGSMKKVFPPDEIEQVSNKDDMKTSLKKVVKETSYEMMMQCVSRMLAHPLHVISMRCMVQFVGREAKYSGVLSSIGKIFKEEGLLGFFVGLIPHLLGDVVFLWGCNLLAHFINAYLVDDSVSDTPGGLGNDQNPGSQFSQALAIRSYTKFVMGIAVSMLTYPFLLVGDLMAVNNCGLQAGLPPYSPVFKSWIHCWKYLSVQGQLFRGSSLLFRRVSSGSCFALE",
+        "n_residues": 389,
+        "mutation_pos_1indexed": 38,
+        "wt_aa": "T",
+        "mut_aa": "S",
+        "pocket_lining_residues": "E37-A38-R39-A40",
+        "pocket_lining_positions_precursor": [
+          37,
+          38,
+          39,
+          40
+        ],
+        "pocket_lining_1letter": "EARA",
+        "sequence_slice_around_pocket": "ARGGAAAGVEARARDPPPAH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_T38S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "E37",
+          "A38",
+          "R39",
+          "A40"
+        ],
+        "values": [
+          [
+            0.0,
+            3.853,
+            6.429,
+            9.607
+          ],
+          [
+            3.853,
+            0.0,
+            3.859,
+            6.706
+          ],
+          [
+            6.429,
+            3.859,
+            0.0,
+            3.828
+          ],
+          [
+            9.607,
+            6.706,
+            3.828,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CCCC(=O)C2)c1N1CCCCC1",
+        "composite_score": 0.7014228837026862,
+        "mw": 317.21,
+        "logp": 2.314,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9233,
+        "sa_score": 2.64,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PSAP-T38S Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CCCC(=O)C2)c1N1CCCCC1",
+        "pocket_affinity_score": 0.7014,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_T38S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_T38S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_T38S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_T38S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_T38S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-T38S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-T38S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:58:08.664582+00:00"
     }
   ]
 }
