@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1235,
+  "total_entries": 1236,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45836,
-    "queue_remaining": 132761
+    "total_processed": 45837,
+    "queue_remaining": 132760
   },
   "entries": [
     {
@@ -273082,6 +273082,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:55:06.198323+00:00"
+    },
+    {
+      "entry_id": "PCD-LITAF-S15L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LITAF-S15L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LITAF",
+        "uniprot": "",
+        "clinvar_id": "317789",
+        "disease": "Charcot-Marie-Tooth disease type 1C",
+        "mutation_precursor": "S15L",
+        "mutation_mature": "S15L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9440326045035832,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 614.6205287759985,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.038875579833984,
+          -15.367108345031738,
+          -12.69031047821045
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.22023317361598,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6823193145904276,
+        "cryptic": true,
+        "pocket_residues": {
+          "S14": "S",
+          "S15": "S",
+          "A16": "A"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q99732|LITAF variant S15L",
+        "fasta_sequence": "MSVPGPYQAATGPSSAPSAPPSYEETVAVNSYYPTPPAPMPGPTTGLVTGPDGKGMNPPSYYTQPAPIPNNNPITVQTVYVQHPITFLDRPIQMCCPSCNKMIVSQLSYNAGALTWLSCGSLCLLGCIAGCCFIPFCVDALQDVDHYCPNCRALLGTYKRL",
+        "full_sequence": "MSVPGPYQAATGPSSAPSAPPSYEETVAVNSYYPTPPAPMPGPTTGLVTGPDGKGMNPPSYYTQPAPIPNNNPITVQTVYVQHPITFLDRPIQMCCPSCNKMIVSQLSYNAGALTWLSCGSLCLLGCIAGCCFIPFCVDALQDVDHYCPNCRALLGTYKRL",
+        "n_residues": 161,
+        "mutation_pos_1indexed": 15,
+        "wt_aa": "S",
+        "mut_aa": "L",
+        "pocket_lining_residues": "S14-S15-A16",
+        "pocket_lining_positions_precursor": [
+          14,
+          15,
+          16
+        ],
+        "pocket_lining_1letter": "SSA",
+        "sequence_slice_around_pocket": "GPYQAATGPSSAPSAPPSYE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LITAF_S15L/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "S14",
+          "S15",
+          "A16"
+        ],
+        "values": [
+          [
+            0.0,
+            3.802,
+            5.6
+          ],
+          [
+            3.802,
+            0.0,
+            3.781
+          ],
+          [
+            5.6,
+            3.781,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5501160785041784,
+        "mw": 358.24,
+        "logp": 1.913,
+        "hbd": 1,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.802,
+        "sa_score": 3.48,
+        "n_heavy_atoms": 26,
+        "tpsa": 79.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LITAF-S15L Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5501,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LITAF_S15L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LITAF_S15L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LITAF_S15L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LITAF_S15L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LITAF_S15L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LITAF-S15L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LITAF-S15L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:55:28.009619+00:00"
     }
   ]
 }
