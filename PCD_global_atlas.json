@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1064,
+  "total_entries": 1065,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45646,
-    "queue_remaining": 132951
+    "total_processed": 45647,
+    "queue_remaining": 132950
   },
   "entries": [
     {
@@ -234435,6 +234435,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:18:36.958415+00:00"
+    },
+    {
+      "entry_id": "PCD-SERPINA1-V234E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPINA1-V234E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SERPINA1",
+        "uniprot": "",
+        "clinvar_id": "315025",
+        "disease": "Alpha-1-antitrypsin deficiency",
+        "mutation_precursor": "V234E",
+        "mutation_mature": "V234E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8113971531087779,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 502.94143616757856,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          22.432825088500977,
+          -1.9159480333328247,
+          -5.685202598571777
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.3684896304901955,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7519860807464086,
+        "cryptic": true,
+        "pocket_residues": {
+          "D231": "D",
+          "F232": "F",
+          "H233": "H",
+          "V234": "V",
+          "D235": "D",
+          "Q236": "Q",
+          "V237": "V",
+          "T238": "T",
+          "T239": "T",
+          "V240": "V"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P01009|SERPINA1 variant V234E",
+        "fasta_sequence": "MPSSVSWGILLLAGLCCLVPVSLAEDPQGDAAQKTDTSHHDQDHPTFNKITPNLAEFAFSLYRQLAHQSNSTNIFFSPVSIATAFAMLSLGTKADTHDEILEGLNFNLTEIPEAQIHEGFQELLRTLNQPDSQLQLTTGNGLFLSEGLKLVDKFLEDVKKLYHSEAFTVNFGDTEEAKKQINDYVEKGTQGKIVDLVKELDRDTVFALVNYIFFKGKWERPFEVKDTEEEDFHVDQVTTVKVPMMKRLGMFNIQHCKKLSSWVLLMKYLGNATAIFFLPDEGKLQHLENELTHDIITKFLENEDRRSASLHLPKLSITGTYDLKSVLGQLGITKVFSNGADLSGVTEEAPLKLSKAVHKAVLTIDEKGTEAAGAMFLEAIPMSIPPEVKFNKPFVFLMIEQNTKSPLFMGKVVNPTQK",
+        "full_sequence": "MPSSVSWGILLLAGLCCLVPVSLAEDPQGDAAQKTDTSHHDQDHPTFNKITPNLAEFAFSLYRQLAHQSNSTNIFFSPVSIATAFAMLSLGTKADTHDEILEGLNFNLTEIPEAQIHEGFQELLRTLNQPDSQLQLTTGNGLFLSEGLKLVDKFLEDVKKLYHSEAFTVNFGDTEEAKKQINDYVEKGTQGKIVDLVKELDRDTVFALVNYIFFKGKWERPFEVKDTEEEDFHVDQVTTVKVPMMKRLGMFNIQHCKKLSSWVLLMKYLGNATAIFFLPDEGKLQHLENELTHDIITKFLENEDRRSASLHLPKLSITGTYDLKSVLGQLGITKVFSNGADLSGVTEEAPLKLSKAVHKAVLTIDEKGTEAAGAMFLEAIPMSIPPEVKFNKPFVFLMIEQNTKSPLFMGKVVNPTQK",
+        "n_residues": 418,
+        "mutation_pos_1indexed": 234,
+        "wt_aa": "V",
+        "mut_aa": "E",
+        "pocket_lining_residues": "D231-F232-H233-V234-D235-Q236-V237-T238-T239-V240",
+        "pocket_lining_positions_precursor": [
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240
+        ],
+        "pocket_lining_1letter": "DFHVDQVTTV",
+        "sequence_slice_around_pocket": "VKDTEEEDFHVDQVTTVKVP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_V234E/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "D231",
+          "F232",
+          "H233",
+          "V234",
+          "D235",
+          "Q236",
+          "V237",
+          "T238",
+          "T239",
+          "V240"
+        ],
+        "values": [
+          [
+            0.0,
+            3.818,
+            6.382,
+            9.347,
+            11.43,
+            12.046,
+            11.672,
+            9.624,
+            5.94,
+            5.664
+          ],
+          [
+            3.818,
+            0.0,
+            3.838,
+            6.165,
+            8.835,
+            10.441,
+            10.802,
+            8.425,
+            5.412,
+            5.235
+          ],
+          [
+            6.382,
+            3.838,
+            0.0,
+            3.852,
+            5.232,
+            6.652,
+            7.542,
+            5.916,
+            4.555,
+            6.686
+          ],
+          [
+            9.347,
+            6.165,
+            3.852,
+            0.0,
+            3.838,
+            7.208,
+            7.93,
+            5.57,
+            5.854,
+            7.228
+          ],
+          [
+            11.43,
+            8.835,
+            5.232,
+            3.838,
+            0.0,
+            3.88,
+            5.634,
+            5.325,
+            7.327,
+            10.037
+          ],
+          [
+            12.046,
+            10.441,
+            6.652,
+            7.208,
+            3.88,
+            0.0,
+            3.88,
+            6.136,
+            8.266,
+            11.799
+          ],
+          [
+            11.672,
+            10.802,
+            7.542,
+            7.93,
+            5.634,
+            3.88,
+            0.0,
+            3.856,
+            6.754,
+            10.424
+          ],
+          [
+            9.624,
+            8.425,
+            5.916,
+            5.57,
+            5.325,
+            6.136,
+            3.856,
+            0.0,
+            3.835,
+            6.963
+          ],
+          [
+            5.94,
+            5.412,
+            4.555,
+            5.854,
+            7.327,
+            8.266,
+            6.754,
+            3.835,
+            0.0,
+            3.832
+          ],
+          [
+            5.664,
+            5.235,
+            6.686,
+            7.228,
+            10.037,
+            11.799,
+            10.424,
+            6.963,
+            3.832,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccccc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.8326770739589614,
+        "mw": 377.19,
+        "logp": 1.989,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.6094,
+        "sa_score": 3.03,
+        "n_heavy_atoms": 28,
+        "tpsa": 104.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SERPINA1-V234E Candidate #1",
+        "iupac_name": "NC(=O)c1ccccc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8327,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_V234E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_V234E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_V234E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_V234E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_V234E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPINA1-V234E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPINA1-V234E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:19:01.595991+00:00"
     }
   ]
 }
