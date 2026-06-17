@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 361,
+  "total_entries": 362,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44811,
-    "queue_remaining": 133786
+    "total_processed": 44812,
+    "queue_remaining": 133785
   },
   "entries": [
     {
@@ -79458,6 +79458,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:28:35.293376+00:00"
+    },
+    {
+      "entry_id": "PCD-CHST3-E116D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHST3-E116D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CHST3",
+        "uniprot": "",
+        "clinvar_id": "300559",
+        "disease": "Spondyloepiphyseal dysplasia with congenital joint dislocations",
+        "mutation_precursor": "E116D",
+        "mutation_mature": "E116D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7451404422333663,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 407.41078832203516,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -31.997350692749023,
+          -29.943187713623047,
+          26.580543518066406
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.566236058133316,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6543175534299009,
+        "cryptic": true,
+        "pocket_residues": {
+          "E113": "E",
+          "E114": "E",
+          "E115": "E",
+          "E116": "E",
+          "Q117": "Q"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q7LGC8|CHST3 variant E116D",
+        "fasta_sequence": "MEKGLTLPQDCRDFVHSLKMRSKYALFLVFVVIVFVFIEKENKIISRVSDKLKQIPQALADANSTDPALILAENASLLSLSELDSAFSQLQSRLRNLSLQLGVEPAMEAAGEEEEEQRKEEEPPRPAVAGPRRHVLLMATTRTGSSFVGEFFNQQGNIFYLFEPLWHIERTVSFEPGGANAAGSALVYRDVLKQLFLCDLYVLEHFITPLPEDHLTQFMFRRGSSRSLCEDPVCTPFVKKVFEKYHCKNRRCGPLNVTLAAEACRRKEHMALKAVRIRQLEFLQPLAEDPRLDLRVIQLVRDPRAVLASRMVAFAGKYKTWKKWLDDEGQDGLREEEVQRLRGNCESIRLSAELGLRQPAWLRGRYMLVRYEDVARGPLQKAREMYRFAGIPLTPQVEDWIQKNTQAAHDGSGIYSTQKNSSEQFEKWRFSMPFKLAQVVQAACGPAMRLFGYKLARDAAALTNRSVSLLEERGTFWVT",
+        "full_sequence": "MEKGLTLPQDCRDFVHSLKMRSKYALFLVFVVIVFVFIEKENKIISRVSDKLKQIPQALADANSTDPALILAENASLLSLSELDSAFSQLQSRLRNLSLQLGVEPAMEAAGEEEEEQRKEEEPPRPAVAGPRRHVLLMATTRTGSSFVGEFFNQQGNIFYLFEPLWHIERTVSFEPGGANAAGSALVYRDVLKQLFLCDLYVLEHFITPLPEDHLTQFMFRRGSSRSLCEDPVCTPFVKKVFEKYHCKNRRCGPLNVTLAAEACRRKEHMALKAVRIRQLEFLQPLAEDPRLDLRVIQLVRDPRAVLASRMVAFAGKYKTWKKWLDDEGQDGLREEEVQRLRGNCESIRLSAELGLRQPAWLRGRYMLVRYEDVARGPLQKAREMYRFAGIPLTPQVEDWIQKNTQAAHDGSGIYSTQKNSSEQFEKWRFSMPFKLAQVVQAACGPAMRLFGYKLARDAAALTNRSVSLLEERGTFWVT",
+        "n_residues": 479,
+        "mutation_pos_1indexed": 116,
+        "wt_aa": "E",
+        "mut_aa": "D",
+        "pocket_lining_residues": "E113-E114-E115-E116-Q117",
+        "pocket_lining_positions_precursor": [
+          113,
+          114,
+          115,
+          116,
+          117
+        ],
+        "pocket_lining_1letter": "EEEEQ",
+        "sequence_slice_around_pocket": "AMEAAGEEEEEQRKEEEPPR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CHST3_E116D/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "E113",
+          "E114",
+          "E115",
+          "E116",
+          "Q117"
+        ],
+        "values": [
+          [
+            0.0,
+            3.794,
+            6.541,
+            9.95,
+            13.545
+          ],
+          [
+            3.794,
+            0.0,
+            3.76,
+            6.467,
+            10.193
+          ],
+          [
+            6.541,
+            3.76,
+            0.0,
+            3.763,
+            7.127
+          ],
+          [
+            9.95,
+            6.467,
+            3.763,
+            0.0,
+            3.851
+          ],
+          [
+            13.545,
+            10.193,
+            7.127,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CCCCC2N2CCCCC2C(N)=O)c1",
+        "composite_score": 0.6721350513502241,
+        "mw": 346.24,
+        "logp": 1.81,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8493,
+        "sa_score": 3.3,
+        "n_heavy_atoms": 25,
+        "tpsa": 84.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CHST3-E116D Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CCCCC2N2CCCCC2C(N)=O)c1",
+        "pocket_affinity_score": 0.6721,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CHST3_E116D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CHST3_E116D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CHST3_E116D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHST3_E116D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHST3_E116D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHST3-E116D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHST3-E116D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:28:59.008227+00:00"
     }
   ]
 }
