@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 648,
+  "total_entries": 649,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45143,
-    "queue_remaining": 133454
+    "total_processed": 45144,
+    "queue_remaining": 133453
   },
   "entries": [
     {
@@ -144639,6 +144639,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:20:06.149474+00:00"
+    },
+    {
+      "entry_id": "PCD-AIP-E173K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIP-E173K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AIP",
+        "uniprot": "",
+        "clinvar_id": "305729",
+        "disease": "Somatotroph adenoma",
+        "mutation_precursor": "E173K",
+        "mutation_mature": "E173K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7530940019596584,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 527.4609977792909,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.274917602539062,
+          9.633872985839844,
+          23.12191390991211
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.329861353454996,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8444426064515731,
+        "cryptic": true,
+        "pocket_residues": {
+          "L173": "L",
+          "R175": "R",
+          "I176": "I",
+          "W177": "W",
+          "K179": "K",
+          "A180": "A"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NWT8|AIP variant E173K",
+        "fasta_sequence": "MLLGRLTSQLLRAVPWAGGRPPWPVSGVLGSRVCGPLYSTSPAGPGRAASLPRKGAQLELEEMLVPRKMSVSPLESWLTARCFLPRLDTGTAGTVAPPQSYQCPPSQIGEGAEQGDEGVADAPQIQCKNVLKIRRRKMNHHKYRKLVKKTRFLRRKVQEGRLRRKQIKFEKDLRRIWLKAGLKEAPEGWQTPKIYLRGK",
+        "full_sequence": "MLLGRLTSQLLRAVPWAGGRPPWPVSGVLGSRVCGPLYSTSPAGPGRAASLPRKGAQLELEEMLVPRKMSVSPLESWLTARCFLPRLDTGTAGTVAPPQSYQCPPSQIGEGAEQGDEGVADAPQIQCKNVLKIRRRKMNHHKYRKLVKKTRFLRRKVQEGRLRRKQIKFEKDLRRIWLKAGLKEAPEGWQTPKIYLRGK",
+        "n_residues": 199,
+        "mutation_pos_1indexed": 173,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "L173-R175-I176-W177-K179-A180",
+        "pocket_lining_positions_precursor": [
+          173,
+          175,
+          176,
+          177,
+          179,
+          180
+        ],
+        "pocket_lining_1letter": "LRIWKA",
+        "sequence_slice_around_pocket": "RRKQIKFEKDLRRIWLKAGL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_E173K/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "L173",
+          "R175",
+          "I176",
+          "W177",
+          "K179",
+          "A180"
+        ],
+        "values": [
+          [
+            0.0,
+            5.391,
+            5.148,
+            6.497,
+            9.906,
+            10.777
+          ],
+          [
+            5.391,
+            0.0,
+            3.852,
+            5.576,
+            6.067,
+            8.622
+          ],
+          [
+            5.148,
+            3.852,
+            0.0,
+            3.864,
+            5.076,
+            6.197
+          ],
+          [
+            6.497,
+            5.576,
+            3.864,
+            0.0,
+            5.437,
+            5.039
+          ],
+          [
+            9.906,
+            6.067,
+            5.076,
+            5.437,
+            0.0,
+            3.852
+          ],
+          [
+            10.777,
+            8.622,
+            6.197,
+            5.039,
+            3.852,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CC(=O)CCC1CNc1ccncc1N1CCCCC1",
+        "composite_score": 0.59834020753204,
+        "mw": 444.19,
+        "logp": 1.764,
+        "hbd": 2,
+        "hba": 8,
+        "rotatable_bonds": 6,
+        "qed": 0.6913,
+        "sa_score": 3.43,
+        "n_heavy_atoms": 31,
+        "tpsa": 121.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AIP-E173K Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CC(=O)CCC1CNc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.5983,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_E173K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_E173K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_E173K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_E173K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AIP_E173K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIP-E173K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIP-E173K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:20:26.668028+00:00"
     }
   ]
 }
