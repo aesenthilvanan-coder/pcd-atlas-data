@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 636,
+  "total_entries": 637,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45130,
-    "queue_remaining": 133467
+    "total_processed": 45131,
+    "queue_remaining": 133466
   },
   "entries": [
     {
@@ -141091,6 +141091,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:11:01.131402+00:00"
+    },
+    {
+      "entry_id": "PCD-FZD4-G530E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FZD4-G530E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FZD4",
+        "uniprot": "",
+        "clinvar_id": "306402",
+        "disease": "Exudative vitreoretinopathy 1",
+        "mutation_precursor": "G530E",
+        "mutation_mature": "G530E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7498948303845361,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 297.9109935785051,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -59.69497299194336,
+          3.588719367980957,
+          -36.45856857299805
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.69565293152537,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6390338823064609,
+        "cryptic": true,
+        "pocket_residues": {
+          "K528": "K",
+          "P529": "P",
+          "G530": "G",
+          "K531": "K"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9ULV1|FZD4 variant G530E",
+        "fasta_sequence": "MAWRGAGPSVPGAPGGVGLSLGLLLQLLLLLGPARGFGDEEERRCDPIRISMCQNLGYNVTKMPNLVGHELQTDAELQLTTFTPLIQYGCSSQLQFFLCSVYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLKEFGFAWPESLNCSKFPPQNDHNHMCMEGPGDEEVPLPHKTPIQPGEECHSVGTNSDQYIWVKRSLNCVLKCGYDAGLYSRSAKEFTDIWMAVWASLCFISTAFTVLTFLIDSSRFSYPERPIIFLSMCYNIYSIAYIVRLTVGRERISCDFEEAAEPVLIQEGLKNTGCAIIFLLMYFFGMASSIWWVILTLTWFLAAGLKWGHEAIEMHSSYFHIAAWAIPAVKTIVILIMRLVDADELTGLCYVGNQNLDALTGFVVAPLFTYLVIGTLFIAAGLVALFKIRSNLQKDGTKTDKLERLMVKIGVFSVLYTVPATCVIACYFYEISNWALFRYSADDSNMAVEMLKIFMSLLVGITSGMWIWSAKTLHTWQKCSNRLVNSGKVKREKRGNGWVKPGKGSETVV",
+        "full_sequence": "MAWRGAGPSVPGAPGGVGLSLGLLLQLLLLLGPARGFGDEEERRCDPIRISMCQNLGYNVTKMPNLVGHELQTDAELQLTTFTPLIQYGCSSQLQFFLCSVYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLKEFGFAWPESLNCSKFPPQNDHNHMCMEGPGDEEVPLPHKTPIQPGEECHSVGTNSDQYIWVKRSLNCVLKCGYDAGLYSRSAKEFTDIWMAVWASLCFISTAFTVLTFLIDSSRFSYPERPIIFLSMCYNIYSIAYIVRLTVGRERISCDFEEAAEPVLIQEGLKNTGCAIIFLLMYFFGMASSIWWVILTLTWFLAAGLKWGHEAIEMHSSYFHIAAWAIPAVKTIVILIMRLVDADELTGLCYVGNQNLDALTGFVVAPLFTYLVIGTLFIAAGLVALFKIRSNLQKDGTKTDKLERLMVKIGVFSVLYTVPATCVIACYFYEISNWALFRYSADDSNMAVEMLKIFMSLLVGITSGMWIWSAKTLHTWQKCSNRLVNSGKVKREKRGNGWVKPGKGSETVV",
+        "n_residues": 537,
+        "mutation_pos_1indexed": 530,
+        "wt_aa": "G",
+        "mut_aa": "E",
+        "pocket_lining_residues": "K528-P529-G530-K531",
+        "pocket_lining_positions_precursor": [
+          528,
+          529,
+          530,
+          531
+        ],
+        "pocket_lining_1letter": "KPGK",
+        "sequence_slice_around_pocket": "EKRGNGWVKPGKGSETVV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FZD4_G530E/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "K528",
+          "P529",
+          "G530",
+          "K531"
+        ],
+        "values": [
+          [
+            0.0,
+            3.853,
+            6.03,
+            9.33
+          ],
+          [
+            3.853,
+            0.0,
+            3.835,
+            6.505
+          ],
+          [
+            6.03,
+            3.835,
+            0.0,
+            3.833
+          ],
+          [
+            9.33,
+            6.505,
+            3.833,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1N1CCCCC1",
+        "composite_score": 0.5258820220134419,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.82,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FZD4-G530E Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5259,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FZD4_G530E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FZD4_G530E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FZD4_G530E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FZD4_G530E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FZD4_G530E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FZD4-G530E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FZD4-G530E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:11:23.631039+00:00"
     }
   ]
 }
