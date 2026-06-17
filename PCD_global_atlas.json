@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 366,
+  "total_entries": 367,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44816,
-    "queue_remaining": 133781
+    "total_processed": 44817,
+    "queue_remaining": 133780
   },
   "entries": [
     {
@@ -80584,6 +80584,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:31:24.486550+00:00"
+    },
+    {
+      "entry_id": "PCD-FZD4-K506R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FZD4-K506R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FZD4",
+        "uniprot": "",
+        "clinvar_id": "306404",
+        "disease": "Exudative vitreoretinopathy 1",
+        "mutation_precursor": "K506R",
+        "mutation_mature": "K506R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7429827916465056,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 628.261572153951,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -46.171669006347656,
+          -2.2813448905944824,
+          -0.9856951236724854
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.262227339715212,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7117191871910867,
+        "cryptic": true,
+        "pocket_residues": {
+          "K506": "K",
+          "C507": "C",
+          "N509": "N",
+          "R510": "R",
+          "L511": "L",
+          "N513": "N",
+          "S514": "S"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9ULV1|FZD4 variant K506R",
+        "fasta_sequence": "MAWRGAGPSVPGAPGGVGLSLGLLLQLLLLLGPARGFGDEEERRCDPIRISMCQNLGYNVTKMPNLVGHELQTDAELQLTTFTPLIQYGCSSQLQFFLCSVYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLKEFGFAWPESLNCSKFPPQNDHNHMCMEGPGDEEVPLPHKTPIQPGEECHSVGTNSDQYIWVKRSLNCVLKCGYDAGLYSRSAKEFTDIWMAVWASLCFISTAFTVLTFLIDSSRFSYPERPIIFLSMCYNIYSIAYIVRLTVGRERISCDFEEAAEPVLIQEGLKNTGCAIIFLLMYFFGMASSIWWVILTLTWFLAAGLKWGHEAIEMHSSYFHIAAWAIPAVKTIVILIMRLVDADELTGLCYVGNQNLDALTGFVVAPLFTYLVIGTLFIAAGLVALFKIRSNLQKDGTKTDKLERLMVKIGVFSVLYTVPATCVIACYFYEISNWALFRYSADDSNMAVEMLKIFMSLLVGITSGMWIWSAKTLHTWQKCSNRLVNSGKVKREKRGNGWVKPGKGSETVV",
+        "full_sequence": "MAWRGAGPSVPGAPGGVGLSLGLLLQLLLLLGPARGFGDEEERRCDPIRISMCQNLGYNVTKMPNLVGHELQTDAELQLTTFTPLIQYGCSSQLQFFLCSVYVPMCTEKINIPIGPCGGMCLSVKRRCEPVLKEFGFAWPESLNCSKFPPQNDHNHMCMEGPGDEEVPLPHKTPIQPGEECHSVGTNSDQYIWVKRSLNCVLKCGYDAGLYSRSAKEFTDIWMAVWASLCFISTAFTVLTFLIDSSRFSYPERPIIFLSMCYNIYSIAYIVRLTVGRERISCDFEEAAEPVLIQEGLKNTGCAIIFLLMYFFGMASSIWWVILTLTWFLAAGLKWGHEAIEMHSSYFHIAAWAIPAVKTIVILIMRLVDADELTGLCYVGNQNLDALTGFVVAPLFTYLVIGTLFIAAGLVALFKIRSNLQKDGTKTDKLERLMVKIGVFSVLYTVPATCVIACYFYEISNWALFRYSADDSNMAVEMLKIFMSLLVGITSGMWIWSAKTLHTWQKCSNRLVNSGKVKREKRGNGWVKPGKGSETVV",
+        "n_residues": 537,
+        "mutation_pos_1indexed": 506,
+        "wt_aa": "K",
+        "mut_aa": "R",
+        "pocket_lining_residues": "K506-C507-N509-R510-L511-N513-S514",
+        "pocket_lining_positions_precursor": [
+          506,
+          507,
+          509,
+          510,
+          511,
+          513,
+          514
+        ],
+        "pocket_lining_1letter": "KCNRLNS",
+        "sequence_slice_around_pocket": "WSAKTLHTWQKCSNRLVNSG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FZD4_K506R/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "K506",
+          "C507",
+          "N509",
+          "R510",
+          "L511",
+          "N513",
+          "S514"
+        ],
+        "values": [
+          [
+            0.0,
+            3.843,
+            5.191,
+            6.177,
+            8.707,
+            10.523,
+            12.174
+          ],
+          [
+            3.843,
+            0.0,
+            5.525,
+            5.104,
+            6.208,
+            9.874,
+            10.448
+          ],
+          [
+            5.191,
+            5.525,
+            0.0,
+            3.87,
+            5.538,
+            6.082,
+            8.557
+          ],
+          [
+            6.177,
+            5.104,
+            3.87,
+            0.0,
+            3.854,
+            5.101,
+            6.012
+          ],
+          [
+            8.707,
+            6.208,
+            5.538,
+            3.854,
+            0.0,
+            5.48,
+            5.077
+          ],
+          [
+            10.523,
+            9.874,
+            6.082,
+            5.101,
+            5.48,
+            0.0,
+            3.864
+          ],
+          [
+            12.174,
+            10.448,
+            8.557,
+            6.012,
+            5.077,
+            3.864,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCS(=O)(=O)c1ccncc1N1CCCCC1NCCNCc1c[nH]c2ccccc12",
+        "composite_score": 0.4787839590097553,
+        "mw": 442.22,
+        "logp": 1.949,
+        "hbd": 4,
+        "hba": 7,
+        "rotatable_bonds": 9,
+        "qed": 0.3744,
+        "sa_score": 3.47,
+        "n_heavy_atoms": 31,
+        "tpsa": 116.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FZD4-K506R Candidate #1",
+        "iupac_name": "NCS(=O)(=O)c1ccncc1N1CCCCC1NCCNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.4788,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FZD4_K506R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FZD4_K506R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FZD4_K506R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FZD4_K506R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FZD4_K506R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FZD4-K506R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FZD4-K506R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:31:49.000337+00:00"
     }
   ]
 }
