@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1145,
+  "total_entries": 1146,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45742,
-    "queue_remaining": 132855
+    "total_processed": 45743,
+    "queue_remaining": 132854
   },
   "entries": [
     {
@@ -252084,6 +252084,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:52:08.845855+00:00"
+    },
+    {
+      "entry_id": "PCD-PSTPIP1-E352K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSTPIP1-E352K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PSTPIP1",
+        "uniprot": "",
+        "clinvar_id": "317183",
+        "disease": "Pyogenic arthritis-pyoderma gangrenosum-acne syndrome",
+        "mutation_precursor": "E352K",
+        "mutation_mature": "E352K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.732951609912519,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 420.3493974334195,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -16.243471145629883,
+          32.38297653198242,
+          2.0943217277526855
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.811424624451516,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8162648410653045,
+        "cryptic": true,
+        "pocket_residues": {
+          "E352": "E",
+          "I353": "I",
+          "Q354": "Q",
+          "G355": "G",
+          "N356": "N"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43586|PSTPIP1 variant E352K",
+        "fasta_sequence": "MMPQLQFKDAFWCRDFTAHTGYEVLLQRLLDGRKMCKDMEELLRQRAQAEERYGKELVQIARKAGGQTEINSLRASFDSLKQQMENVGSSHIQLALTLREELRSLEEFRERQKEQRKKYEAVMDRVQKSKLSLYKKAMESKKTYEQKCRDADDAEQAFERISANGHQKQVEKSQNKARQCKDSATEAERVYRQSIAQLEKVRAEWEQEHRTTCEAFQLQEFDRLTILRNALWVHSNQLSMQCVKDDELYEEVRLTLEGCSIDADIDSFIQAKSTGTEPPAPVPYQNYYDREVTPLTSSPGIQPSCGMIKRFSGLLHGSPKTTSLAASAASTETLTPTPERNEGVYTAIAVQEIQGNPASPAQEYRALYDYTAQNPDELDLSAGDILEVILEGEDGWWTVERNGQRGFVPGSYLEKL",
+        "full_sequence": "MMPQLQFKDAFWCRDFTAHTGYEVLLQRLLDGRKMCKDMEELLRQRAQAEERYGKELVQIARKAGGQTEINSLRASFDSLKQQMENVGSSHIQLALTLREELRSLEEFRERQKEQRKKYEAVMDRVQKSKLSLYKKAMESKKTYEQKCRDADDAEQAFERISANGHQKQVEKSQNKARQCKDSATEAERVYRQSIAQLEKVRAEWEQEHRTTCEAFQLQEFDRLTILRNALWVHSNQLSMQCVKDDELYEEVRLTLEGCSIDADIDSFIQAKSTGTEPPAPVPYQNYYDREVTPLTSSPGIQPSCGMIKRFSGLLHGSPKTTSLAASAASTETLTPTPERNEGVYTAIAVQEIQGNPASPAQEYRALYDYTAQNPDELDLSAGDILEVILEGEDGWWTVERNGQRGFVPGSYLEKL",
+        "n_residues": 416,
+        "mutation_pos_1indexed": 352,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "E352-I353-Q354-G355-N356",
+        "pocket_lining_positions_precursor": [
+          352,
+          353,
+          354,
+          355,
+          356
+        ],
+        "pocket_lining_1letter": "EIQGN",
+        "sequence_slice_around_pocket": "EGVYTAIAVQEIQGNPASPA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_E352K/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "E352",
+          "I353",
+          "Q354",
+          "G355",
+          "N356"
+        ],
+        "values": [
+          [
+            0.0,
+            3.826,
+            6.24,
+            9.327,
+            12.69
+          ],
+          [
+            3.826,
+            0.0,
+            3.811,
+            6.114,
+            9.812
+          ],
+          [
+            6.24,
+            3.811,
+            0.0,
+            3.847,
+            6.941
+          ],
+          [
+            9.327,
+            6.114,
+            3.847,
+            0.0,
+            3.8
+          ],
+          [
+            12.69,
+            9.812,
+            6.941,
+            3.8,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "composite_score": 0.6908227663964971,
+        "mw": 325.18,
+        "logp": 1.996,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 7,
+        "qed": 0.7503,
+        "sa_score": 2.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 89.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PSTPIP1-E352K Candidate #1",
+        "iupac_name": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.6908,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_E352K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_E352K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_E352K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_E352K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_E352K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSTPIP1-E352K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSTPIP1-E352K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:52:32.045724+00:00"
     }
   ]
 }
