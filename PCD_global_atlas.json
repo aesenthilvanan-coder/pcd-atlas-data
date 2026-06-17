@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 265,
+  "total_entries": 266,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44693,
-    "queue_remaining": 133904
+    "total_processed": 44695,
+    "queue_remaining": 133902
   },
   "entries": [
     {
@@ -58841,6 +58841,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:58:45.748714+00:00"
+    },
+    {
+      "entry_id": "PCD-CYP17A1-R21K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP17A1-R21K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CYP17A1",
+        "uniprot": "",
+        "clinvar_id": "298626",
+        "disease": "not provided",
+        "mutation_precursor": "R21K",
+        "mutation_mature": "R21K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.721639420457175,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 420.5107541282225,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          16.237525939941406,
+          8.86277961730957,
+          -36.43029022216797
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.167978620535392,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8186541918075565,
+        "cryptic": true,
+        "pocket_residues": {
+          "R21": "R",
+          "C22": "C",
+          "P23": "P",
+          "G24": "G",
+          "A25": "A"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P05093|CYP17A1 variant R21K",
+        "fasta_sequence": "MWELVALLLLTLAYLFWPKRRCPGAKYPKSLLSLPLVGSLPFLPRHGHMHNNFFKLQKKYGPIYSVRMGTKTTVIVGHHQLAKEVLIKKGKDFSGRPQMATLDIASNNRKGIAFADSGAHWQLHRRLAMATFALFKDGDQKLEKIICQEISTLCDMLATHNGQSIDISFPVFVAVTNVISLICFNTSYKNGDPELNVIQNYNEGIIDNLSKDSLVDLVPWLKIFPNKTLEKLKSHVKIRNDLLNKILENYKEKFRSDSITNMLDTLMQAKMNSDNGNAGPDQDSELLSDNHILTTIGDIFGAGVETTTSVVKWTLAFLLHNPQVKKKLYEEIDQNVGFSRTPTISDRNRLLLLEATIREVLRLRPVAPMLIPHKANVDSSIGEFAVDKGTEVIINLWALHHNEKEWHQPDQFMPERFLNPAGTQLISPSVSYLPFGAGPRSCIGEILARQELFLIMAWLLQRFDLEVPDDGQLPSLEGIPKVVFLIDSFKVKIKVRQAWREAQAEGST",
+        "full_sequence": "MWELVALLLLTLAYLFWPKRRCPGAKYPKSLLSLPLVGSLPFLPRHGHMHNNFFKLQKKYGPIYSVRMGTKTTVIVGHHQLAKEVLIKKGKDFSGRPQMATLDIASNNRKGIAFADSGAHWQLHRRLAMATFALFKDGDQKLEKIICQEISTLCDMLATHNGQSIDISFPVFVAVTNVISLICFNTSYKNGDPELNVIQNYNEGIIDNLSKDSLVDLVPWLKIFPNKTLEKLKSHVKIRNDLLNKILENYKEKFRSDSITNMLDTLMQAKMNSDNGNAGPDQDSELLSDNHILTTIGDIFGAGVETTTSVVKWTLAFLLHNPQVKKKLYEEIDQNVGFSRTPTISDRNRLLLLEATIREVLRLRPVAPMLIPHKANVDSSIGEFAVDKGTEVIINLWALHHNEKEWHQPDQFMPERFLNPAGTQLISPSVSYLPFGAGPRSCIGEILARQELFLIMAWLLQRFDLEVPDDGQLPSLEGIPKVVFLIDSFKVKIKVRQAWREAQAEGST",
+        "n_residues": 508,
+        "mutation_pos_1indexed": 21,
+        "wt_aa": "R",
+        "mut_aa": "K",
+        "pocket_lining_residues": "R21-C22-P23-G24-A25",
+        "pocket_lining_positions_precursor": [
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "pocket_lining_1letter": "RCPGA",
+        "sequence_slice_around_pocket": "TLAYLFWPKRRCPGAKYPKS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CYP17A1_R21K/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "R21",
+          "C22",
+          "P23",
+          "G24",
+          "A25"
+        ],
+        "values": [
+          [
+            0.0,
+            3.793,
+            5.977,
+            8.414,
+            7.333
+          ],
+          [
+            3.793,
+            0.0,
+            3.87,
+            6.253,
+            5.462
+          ],
+          [
+            5.977,
+            3.87,
+            0.0,
+            3.862,
+            5.696
+          ],
+          [
+            8.414,
+            6.253,
+            3.862,
+            0.0,
+            3.855
+          ],
+          [
+            7.333,
+            5.462,
+            5.696,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.5196858445688288,
+        "mw": 276.18,
+        "logp": 2.016,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 6,
+        "qed": 0.8628,
+        "sa_score": 2.25,
+        "n_heavy_atoms": 20,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CYP17A1-R21K Candidate #1",
+        "iupac_name": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5197,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CYP17A1_R21K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CYP17A1_R21K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CYP17A1_R21K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CYP17A1_R21K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CYP17A1_R21K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP17A1-R21K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP17A1-R21K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:59:21.890871+00:00"
     }
   ]
 }
