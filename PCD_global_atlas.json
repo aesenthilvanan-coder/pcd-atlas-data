@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1071,
+  "total_entries": 1072,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45653,
-    "queue_remaining": 132944
+    "total_processed": 45654,
+    "queue_remaining": 132943
   },
   "entries": [
     {
@@ -236007,6 +236007,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:23:31.117712+00:00"
+    },
+    {
+      "entry_id": "PCD-TMPRSS6-F686L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMPRSS6-F686L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TMPRSS6",
+        "uniprot": "",
+        "clinvar_id": "341581",
+        "disease": "Microcytic anemia",
+        "mutation_precursor": "F686L",
+        "mutation_mature": "F686L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8092201527836652,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 607.5496050482541,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          21.20197296142578,
+          16.873432159423828,
+          -17.74959945678711
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.147578278127558,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7202400563619845,
+        "cryptic": true,
+        "pocket_residues": {
+          "C566": "C",
+          "D567": "D",
+          "C568": "C",
+          "G569": "G",
+          "A608": "A",
+          "D609": "D",
+          "R680": "R",
+          "V684": "V",
+          "R685": "R",
+          "P686": "P",
+          "V687": "V"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8IU80|TMPRSS6 variant F686L",
+        "fasta_sequence": "MLLLFHSKRMPVAEAPQVAGGQGDGGDGEEAEPEGMFKACEDSKRKARGYLRLVPLFVLLALLVLASAGVLLWYFLGYKAEVMVSQVYSGSLRVLNRHFSQDLTRRESSAFRSETAKAQKMLKELITSTRLGTYYNSSSVYSFGEGPLTCFFWFILQIPEHRRLMLSPEVVQALLVEELLSTVNSSAAVPYRAEYEVDPEGLVILEASVKDIAALNSTLGCYRYSYVGQGQVLRLKGPDHLASSCLWHLQGPKDLMLKLRLEWTLAECRDRLAMYDVAGPLEKRLITSVYGCSRQEPVVEVLASGAIMAVVWKKGLHSYYDPFVLSVQPVVFQACEVNLTLDNRLDSQGVLSTPYFPSYYSPQTHCSWHLTVPSLDYGLALWFDAYALRRQKYDLPCTQGQWTIQNRRLCGLRILQPYAERIPVVATAGITINFTSQISLTGPGVRVHYGLYNQSDPCPGEFLCSVNGLCVPACDGVKDCPNGLDERNCVCRATFQCKEDSTCISLPKVCDGQPDCLNGSDEEQCQEGVPCGTFTFQCEDRSCVKKPNPQCDGRPDCRDGSDEEHCDCGLQGPSSRIVGGAVSSEGEWPWQASLQVRGRHICGGALIADRWVITAAHCFQEDSMASTVLWTVFLGKVWQNSRWPGEVSFKVSRLLLHPYHEEDSHDYDVALLQLDHPVVRSAAVRPVCLPARSHFFEPGLHCWITGWGALREGGPISNALQKVDVQLIPQDLCSEVYRYQVTPRMLCAGYRKGKKDACQGDSGGPLVCKALSGRWFLAGLVSWGLGCGRPNYFGVYTRITGVISWIQQVVT",
+        "full_sequence": "MLLLFHSKRMPVAEAPQVAGGQGDGGDGEEAEPEGMFKACEDSKRKARGYLRLVPLFVLLALLVLASAGVLLWYFLGYKAEVMVSQVYSGSLRVLNRHFSQDLTRRESSAFRSETAKAQKMLKELITSTRLGTYYNSSSVYSFGEGPLTCFFWFILQIPEHRRLMLSPEVVQALLVEELLSTVNSSAAVPYRAEYEVDPEGLVILEASVKDIAALNSTLGCYRYSYVGQGQVLRLKGPDHLASSCLWHLQGPKDLMLKLRLEWTLAECRDRLAMYDVAGPLEKRLITSVYGCSRQEPVVEVLASGAIMAVVWKKGLHSYYDPFVLSVQPVVFQACEVNLTLDNRLDSQGVLSTPYFPSYYSPQTHCSWHLTVPSLDYGLALWFDAYALRRQKYDLPCTQGQWTIQNRRLCGLRILQPYAERIPVVATAGITINFTSQISLTGPGVRVHYGLYNQSDPCPGEFLCSVNGLCVPACDGVKDCPNGLDERNCVCRATFQCKEDSTCISLPKVCDGQPDCLNGSDEEQCQEGVPCGTFTFQCEDRSCVKKPNPQCDGRPDCRDGSDEEHCDCGLQGPSSRIVGGAVSSEGEWPWQASLQVRGRHICGGALIADRWVITAAHCFQEDSMASTVLWTVFLGKVWQNSRWPGEVSFKVSRLLLHPYHEEDSHDYDVALLQLDHPVVRSAAVRPVCLPARSHFFEPGLHCWITGWGALREGGPISNALQKVDVQLIPQDLCSEVYRYQVTPRMLCAGYRKGKKDACQGDSGGPLVCKALSGRWFLAGLVSWGLGCGRPNYFGVYTRITGVISWIQQVVT",
+        "n_residues": 811,
+        "mutation_pos_1indexed": 686,
+        "wt_aa": "F",
+        "mut_aa": "L",
+        "pocket_lining_residues": "C566-D567-C568-G569-A608-D609-R680-V684-R685-P686-V687",
+        "pocket_lining_positions_precursor": [
+          566,
+          567,
+          568,
+          569,
+          608,
+          609,
+          680,
+          684,
+          685,
+          686,
+          687
+        ],
+        "pocket_lining_1letter": "CDCGADRVRPV",
+        "sequence_slice_around_pocket": "HPVVRSAAVRPVCLPARSHF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TMPRSS6_F686L/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "C566",
+          "D567",
+          "C568",
+          "G569",
+          "A608",
+          "D609",
+          "R680",
+          "V684",
+          "R685",
+          "P686",
+          "V687"
+        ],
+        "values": [
+          [
+            0.0,
+            3.886,
+            5.489,
+            8.163,
+            11.676,
+            13.516,
+            13.581,
+            15.216,
+            11.478,
+            10.21,
+            10.104
+          ],
+          [
+            3.886,
+            0.0,
+            3.861,
+            7.242,
+            9.833,
+            10.878,
+            9.74,
+            11.677,
+            8.114,
+            7.749,
+            8.868
+          ],
+          [
+            5.489,
+            3.861,
+            0.0,
+            3.843,
+            8.604,
+            10.581,
+            10.309,
+            10.416,
+            6.595,
+            5.098,
+            5.106
+          ],
+          [
+            8.163,
+            7.242,
+            3.843,
+            0.0,
+            11.087,
+            13.284,
+            12.336,
+            10.76,
+            7.484,
+            6.268,
+            4.224
+          ],
+          [
+            11.676,
+            9.833,
+            8.604,
+            11.087,
+            0.0,
+            3.85,
+            10.013,
+            10.789,
+            8.347,
+            5.722,
+            8.138
+          ],
+          [
+            13.516,
+            10.878,
+            10.581,
+            13.284,
+            3.85,
+            0.0,
+            7.82,
+            9.795,
+            8.355,
+            7.425,
+            10.82
+          ],
+          [
+            13.581,
+            9.74,
+            10.309,
+            12.336,
+            10.013,
+            7.82,
+            0.0,
+            5.439,
+            5.513,
+            8.344,
+            11.915
+          ],
+          [
+            15.216,
+            11.677,
+            10.416,
+            10.76,
+            10.789,
+            9.795,
+            5.439,
+            0.0,
+            3.854,
+            7.087,
+            9.854
+          ],
+          [
+            11.478,
+            8.114,
+            6.595,
+            7.484,
+            8.347,
+            8.355,
+            5.513,
+            3.854,
+            0.0,
+            3.831,
+            6.778
+          ],
+          [
+            10.21,
+            7.749,
+            5.098,
+            6.268,
+            5.722,
+            7.425,
+            8.344,
+            7.087,
+            3.831,
+            0.0,
+            3.84
+          ],
+          [
+            10.104,
+            8.868,
+            5.106,
+            4.224,
+            8.138,
+            10.82,
+            11.915,
+            9.854,
+            6.778,
+            3.84,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CC(N)=O)c(N2CC(=O)CCC2CNCc2nc3ccccc3[nH]2)c1",
+        "composite_score": 0.8269114846142595,
+        "mw": 421.21,
+        "logp": 1.927,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.5122,
+        "sa_score": 3.2,
+        "n_heavy_atoms": 31,
+        "tpsa": 113.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TMPRSS6-F686L Candidate #1",
+        "iupac_name": "COc1ccc(CC(N)=O)c(N2CC(=O)CCC2CNCc2nc3ccccc3[nH]2)c1",
+        "pocket_affinity_score": 0.8269,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TMPRSS6_F686L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TMPRSS6_F686L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TMPRSS6_F686L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMPRSS6_F686L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMPRSS6_F686L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMPRSS6-F686L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMPRSS6-F686L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:24:00.658200+00:00"
     }
   ]
 }
