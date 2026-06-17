@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 37,
+  "total_entries": 38,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44419,
-    "queue_remaining": 134178
+    "total_processed": 44420,
+    "queue_remaining": 134177
   },
   "entries": [
     {
@@ -8675,6 +8675,253 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:06:37.887103+00:00"
+    },
+    {
+      "entry_id": "PCD-LRP4-S1315L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LRP4-S1315L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LRP4",
+        "uniprot": "",
+        "clinvar_id": "304864",
+        "disease": "Cenani-Lenz syndactyly syndrome",
+        "mutation_precursor": "S1315L",
+        "mutation_mature": "S1315L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7368379109528546,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 598.5935573966354,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          9.465286254882812,
+          42.650169372558594,
+          -27.945838928222656
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.912069607190672,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6452753591398761,
+        "cryptic": true,
+        "pocket_residues": {
+          "G1135": "G",
+          "R1136": "R",
+          "N1311": "N",
+          "C1313": "C",
+          "G1314": "G",
+          "S1315": "S",
+          "R1316": "R",
+          "N1317": "N",
+          "G1318": "G",
+          "G1319": "G"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O75096|LRP4 variant S1315L",
+        "fasta_sequence": "MRRQWGALLLGALLCAHGLASSPECACGRSHFTCAVSALGECTCIPAQWQCDGDNDCGDHSDEDGCILPTCSPLDFHCDNGKCIRRSWVCDGDNDCEDDSDEQDCPPRECEEDEFPCQNGYCIRSLWHCDGDNDCGDNSDEQCDMRKCSDKEFRCSDGSCIAEHWYCDGDTDCKDGSDEENCPSAVPAPPCNLEEFQCAYGRCILDIYHCDGDDDCGDWSDESDCSSHQPCRSGEFMCDSGLCINAGWRCDGDADCDDQSDERNCTTSMCTAEQFRCHSGRCVRLSWRCDGEDDCADNSDEENCENTGSPQCALDQFLCWNGRCIGQRKLCNGVNDCGDNSDESPQQNCRPRTGEENCNVNNGGCAQKCQMVRGAVQCTCHTGYRLTEDGHTCQDVNECAEEGYCSQGCTNSEGAFQCWCETGYELRPDRRSCKALGPEPVLLFANRIDIRQVLPHRSEYTLLLNNLENAIALDFHHRRELVFWSDVTLDRILRANLNGSNVEEVVSTGLESPGGLAVDWVHDKLYWTDSGTSRIEVANLDGAHRKVLLWQNLEKPRAIALHPMEGTIYWTDWGNTPRIEASSMDGSGRRIIADTHLFWPNGLTIDYAGRRMYWVDAKHHVIERANLDGSHRKAVISQGLPHPFAITVFEDSLYWTDWHTKSINSANKFTGKNQEIIRNKLHFPMDIHTLHPQRQPAGKNRCGDNNGGCTHLCLPSGQNYTCACPTGFRKISSHACAQSLDKFLLFARRMDIRRISFDTEDLSDDVIPLADVRSAVALDWDSRDDHVYWTDVSTDTISRAKWDGTGQEVVVDTSLESPAGLAIDWVTNKLYWTDAGTDRIEVANTDGSMRTVLIWENLDRPRDIVVEPMGGYMYWTDWGASPKIERAGMDASGRQVIISSNLTWPNGLAIDYGSQRLYWADAGMKTIEFAGLDGSKRKVLIGSQLPHPFGLTLYGERIYWTDWQTKSIQSADRLTGLDRETLQENLENLMDIHVFHRRRPPVSTPCAMENGGCSHLCLRSPNPSGFSCTCPTGINLLSDGKTCSPGMNSFLIFARRIDIRMVSLDIPYFADVVVPINITMKNTIAIGVDPQEGKVYWSDSTLHRISRANLDGSQHEDIITTGLQTTDGLAVDAIGRKVYWTDTGTNRIEVGNLDGSMRKVLVWQNLDSPRAIVLYHEMGFMYWTDWGENAKLERSGMDGSDRAVLINNNLGWPNGLTVDKASSQLLWADAHTERIEAADLNGANRHTLVSPVQHPYGLTLLDSYIYWTDWQTRSIHRADKGTGSNVILVRSNLPGLMDMQAVDRAQPLGFNKCGSRNGGCSHLCLPRPSGFSCACPTGIQLKGDGKTCDPSPETYLLFSSRGSIRRISLDTSDHTDVHVPVPELNNVISLDYDSVDGKVYYTDVFLDVIRRADLNGSNMETVIGRGLKTTDGLAVDWVARNLYWTDTGRNTIEASRLDGSCRKVLINNSLDEPRAIAVFPRKGYLFWTDWGHIAKIERANLDGSERKVLINTDLGWPNGLTLDYDTRRIYWVDAHLDRIESADLNGKLRQVLVSHVSHPFALTQQDRWIYWTDWQTKSIQRVDKYSGRNKETVLANVEGLMDIIVVSPQRQTGTNACGVNNGGCTHLCFARASDFVCACPDEPDSRPCSLVPGLVPPAPRATGMSEKSPVLPNTPPTTLYSSTTRTRTSLEEVEGRCSERDARLGLCARSNDAVPAAPGEGLHISYAIGGLLSILLILVVIAALMLYRHKKSKFTDPGMGNLTYSNPSYRTSTQEVKIEAIPKPAMYNQLCYKKEGGPDHNYTKEKIKIVEGICLLSGDDAEWDDLKQLRSSRGGLLRDHVCMKTDTVSIQASSGSLDDTETEQLLQEEQSECSSVHTAATPERRGSLPDTGWKHERKLSSESQV",
+        "full_sequence": "MRRQWGALLLGALLCAHGLASSPECACGRSHFTCAVSALGECTCIPAQWQCDGDNDCGDHSDEDGCILPTCSPLDFHCDNGKCIRRSWVCDGDNDCEDDSDEQDCPPRECEEDEFPCQNGYCIRSLWHCDGDNDCGDNSDEQCDMRKCSDKEFRCSDGSCIAEHWYCDGDTDCKDGSDEENCPSAVPAPPCNLEEFQCAYGRCILDIYHCDGDDDCGDWSDESDCSSHQPCRSGEFMCDSGLCINAGWRCDGDADCDDQSDERNCTTSMCTAEQFRCHSGRCVRLSWRCDGEDDCADNSDEENCENTGSPQCALDQFLCWNGRCIGQRKLCNGVNDCGDNSDESPQQNCRPRTGEENCNVNNGGCAQKCQMVRGAVQCTCHTGYRLTEDGHTCQDVNECAEEGYCSQGCTNSEGAFQCWCETGYELRPDRRSCKALGPEPVLLFANRIDIRQVLPHRSEYTLLLNNLENAIALDFHHRRELVFWSDVTLDRILRANLNGSNVEEVVSTGLESPGGLAVDWVHDKLYWTDSGTSRIEVANLDGAHRKVLLWQNLEKPRAIALHPMEGTIYWTDWGNTPRIEASSMDGSGRRIIADTHLFWPNGLTIDYAGRRMYWVDAKHHVIERANLDGSHRKAVISQGLPHPFAITVFEDSLYWTDWHTKSINSANKFTGKNQEIIRNKLHFPMDIHTLHPQRQPAGKNRCGDNNGGCTHLCLPSGQNYTCACPTGFRKISSHACAQSLDKFLLFARRMDIRRISFDTEDLSDDVIPLADVRSAVALDWDSRDDHVYWTDVSTDTISRAKWDGTGQEVVVDTSLESPAGLAIDWVTNKLYWTDAGTDRIEVANTDGSMRTVLIWENLDRPRDIVVEPMGGYMYWTDWGASPKIERAGMDASGRQVIISSNLTWPNGLAIDYGSQRLYWADAGMKTIEFAGLDGSKRKVLIGSQLPHPFGLTLYGERIYWTDWQTKSIQSADRLTGLDRETLQENLENLMDIHVFHRRRPPVSTPCAMENGGCSHLCLRSPNPSGFSCTCPTGINLLSDGKTCSPGMNSFLIFARRIDIRMVSLDIPYFADVVVPINITMKNTIAIGVDPQEGKVYWSDSTLHRISRANLDGSQHEDIITTGLQTTDGLAVDAIGRKVYWTDTGTNRIEVGNLDGSMRKVLVWQNLDSPRAIVLYHEMGFMYWTDWGENAKLERSGMDGSDRAVLINNNLGWPNGLTVDKASSQLLWADAHTERIEAADLNGANRHTLVSPVQHPYGLTLLDSYIYWTDWQTRSIHRADKGTGSNVILVRSNLPGLMDMQAVDRAQPLGFNKCGSRNGGCSHLCLPRPSGFSCACPTGIQLKGDGKTCDPSPETYLLFSSRGSIRRISLDTSDHTDVHVPVPELNNVISLDYDSVDGKVYYTDVFLDVIRRADLNGSNMETVIGRGLKTTDGLAVDWVARNLYWTDTGRNTIEASRLDGSCRKVLINNSLDEPRAIAVFPRKGYLFWTDWGHIAKIERANLDGSERKVLINTDLGWPNGLTLDYDTRRIYWVDAHLDRIESADLNGKLRQVLVSHVSHPFALTQQDRWIYWTDWQTKSIQRVDKYSGRNKETVLANVEGLMDIIVVSPQRQTGTNACGVNNGGCTHLCFARASDFVCACPDEPDSRPCSLVPGLVPPAPRATGMSEKSPVLPNTPPTTLYSSTTRTRTSLEEVEGRCSERDARLGLCARSNDAVPAAPGEGLHISYAIGGLLSILLILVVIAALMLYRHKKSKFTDPGMGNLTYSNPSYRTSTQEVKIEAIPKPAMYNQLCYKKEGGPDHNYTKEKIKIVEGICLLSGDDAEWDDLKQLRSSRGGLLRDHVCMKTDTVSIQASSGSLDDTETEQLLQEEQSECSSVHTAATPERRGSLPDTGWKHERKLSSESQV",
+        "n_residues": 1905,
+        "mutation_pos_1indexed": 1315,
+        "wt_aa": "S",
+        "mut_aa": "L",
+        "pocket_lining_residues": "G1135-R1136-N1311-C1313-G1314-S1315-R1316-N1317-G1318-G1319",
+        "pocket_lining_positions_precursor": [
+          1135,
+          1136,
+          1311,
+          1313,
+          1314,
+          1315,
+          1316,
+          1317,
+          1318,
+          1319
+        ],
+        "pocket_lining_1letter": "GRNCGSRNGG",
+        "sequence_slice_around_pocket": "AQPLGFNKCGSRNGGCSHLC"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LRP4_S1315L/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "G1135",
+          "R1136",
+          "N1311",
+          "C1313",
+          "G1314",
+          "S1315",
+          "R1316",
+          "N1317",
+          "G1318",
+          "G1319"
+        ],
+        "values": [
+          [
+            0.0,
+            3.866,
+            6.099,
+            7.315,
+            8.761,
+            10.417,
+            10.68,
+            8.156,
+            10.422,
+            13.219
+          ],
+          [
+            3.866,
+            0.0,
+            9.44,
+            10.512,
+            11.466,
+            12.02,
+            11.504,
+            9.485,
+            12.67,
+            14.669
+          ],
+          [
+            6.099,
+            9.44,
+            0.0,
+            5.533,
+            5.252,
+            8.302,
+            10.64,
+            9.219,
+            9.739,
+            13.237
+          ],
+          [
+            7.315,
+            10.512,
+            5.533,
+            0.0,
+            3.868,
+            6.824,
+            7.799,
+            5.411,
+            4.524,
+            8.298
+          ],
+          [
+            8.761,
+            11.466,
+            5.252,
+            3.868,
+            0.0,
+            3.84,
+            6.576,
+            6.274,
+            5.904,
+            8.945
+          ],
+          [
+            10.417,
+            12.02,
+            8.302,
+            6.824,
+            3.84,
+            0.0,
+            3.871,
+            5.876,
+            6.59,
+            8.036
+          ],
+          [
+            10.68,
+            11.504,
+            10.64,
+            7.799,
+            6.576,
+            3.871,
+            0.0,
+            3.849,
+            5.784,
+            5.677
+          ],
+          [
+            8.156,
+            9.485,
+            9.219,
+            5.411,
+            6.274,
+            5.876,
+            3.849,
+            0.0,
+            3.898,
+            5.27
+          ],
+          [
+            10.422,
+            12.67,
+            9.739,
+            4.524,
+            5.904,
+            6.59,
+            5.784,
+            3.898,
+            0.0,
+            3.845
+          ],
+          [
+            13.219,
+            14.669,
+            13.237,
+            8.298,
+            8.945,
+            8.036,
+            5.677,
+            5.27,
+            3.845,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.4926361330873123,
+        "mw": 316.23,
+        "logp": 1.954,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8995,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 23,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LRP4-S1315L Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.4926,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LRP4_S1315L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LRP4_S1315L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LRP4_S1315L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LRP4_S1315L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LRP4_S1315L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LRP4-S1315L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LRP4-S1315L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:08:13.992620+00:00"
     }
   ]
 }
