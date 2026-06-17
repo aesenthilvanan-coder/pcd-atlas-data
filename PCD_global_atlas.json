@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1209,
+  "total_entries": 1210,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45807,
-    "queue_remaining": 132790
+    "total_processed": 45808,
+    "queue_remaining": 132789
   },
   "entries": [
     {
@@ -266936,6 +266936,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:36:20.967114+00:00"
+    },
+    {
+      "entry_id": "PCD-CD19-L132R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CD19-L132R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CD19",
+        "uniprot": "",
+        "clinvar_id": "318801",
+        "disease": "Immunodeficiency, common variable, 3",
+        "mutation_precursor": "L132R",
+        "mutation_mature": "L132R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7938481321873571,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 295.72699668211897,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -7.821532249450684,
+          11.375588417053223,
+          32.470130920410156
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.13859423778841,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7813456776222748,
+        "cryptic": true,
+        "pocket_residues": {
+          "G131": "G",
+          "L132": "L",
+          "G133": "G",
+          "C134": "C",
+          "G135": "G",
+          "L136": "L"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P15391|CD19 variant L132R",
+        "fasta_sequence": "MPPPRLLFFLLFLTPMEVRPEEPLVVKVEEGDNAVLQCLKGTSDGPTQQLTWSRESPLKPFLKLSLGLPGLGIHMRPLAIWLFIFNVSQQMGGFYLCQPGPPSEKAWQPGWTVNVEGSGELFRWNVSDLGGLGCGLKNRSSEGPSSPSGKLMSPKLYVWAKDRPEIWEGEPPCLPPRDSLNQSLSQDLTMAPGSTLWLSCGVPPDSVSRGPLSWTHVHPKGPKSLLSLELKDDRPARDMWVMETGLLLPRATAQDAGKYYCHRGNLTMSFHLEITARPVLWHWLLRTGGWKVSAVTLAYLIFCLCSLVGILHLQRALVLRRKRKRMTDPTRRFFKVTPPPGSGPQNQYGNVLSLPTPTSGLGRAQRWAAGLGGTAPSYGNPSSDVQADGALGSRSPPGVGPEEEEGEGYEEPDSEEDSEFYENDSNLGQDQLSQDGSGYENPEDEPLGPEDEDSFSNAESYENEDEELTQPVARTMDFLSPHGSAWDPSREATSLGSQSYEDMRGILYAAPQLRSIRGQPGPNHEEDADSYENMDNPDGPDPAWGGGGRMGTWSTR",
+        "full_sequence": "MPPPRLLFFLLFLTPMEVRPEEPLVVKVEEGDNAVLQCLKGTSDGPTQQLTWSRESPLKPFLKLSLGLPGLGIHMRPLAIWLFIFNVSQQMGGFYLCQPGPPSEKAWQPGWTVNVEGSGELFRWNVSDLGGLGCGLKNRSSEGPSSPSGKLMSPKLYVWAKDRPEIWEGEPPCLPPRDSLNQSLSQDLTMAPGSTLWLSCGVPPDSVSRGPLSWTHVHPKGPKSLLSLELKDDRPARDMWVMETGLLLPRATAQDAGKYYCHRGNLTMSFHLEITARPVLWHWLLRTGGWKVSAVTLAYLIFCLCSLVGILHLQRALVLRRKRKRMTDPTRRFFKVTPPPGSGPQNQYGNVLSLPTPTSGLGRAQRWAAGLGGTAPSYGNPSSDVQADGALGSRSPPGVGPEEEEGEGYEEPDSEEDSEFYENDSNLGQDQLSQDGSGYENPEDEPLGPEDEDSFSNAESYENEDEELTQPVARTMDFLSPHGSAWDPSREATSLGSQSYEDMRGILYAAPQLRSIRGQPGPNHEEDADSYENMDNPDGPDPAWGGGGRMGTWSTR",
+        "n_residues": 556,
+        "mutation_pos_1indexed": 132,
+        "wt_aa": "L",
+        "mut_aa": "R",
+        "pocket_lining_residues": "G131-L132-G133-C134-G135-L136",
+        "pocket_lining_positions_precursor": [
+          131,
+          132,
+          133,
+          134,
+          135,
+          136
+        ],
+        "pocket_lining_1letter": "GLGCGL",
+        "sequence_slice_around_pocket": "FRWNVSDLGGLGCGLKNRSS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CD19_L132R/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "G131",
+          "L132",
+          "G133",
+          "C134",
+          "G135",
+          "L136"
+        ],
+        "values": [
+          [
+            0.0,
+            3.876,
+            5.638,
+            6.066,
+            7.731,
+            10.106
+          ],
+          [
+            3.876,
+            0.0,
+            3.854,
+            5.648,
+            5.838,
+            7.127
+          ],
+          [
+            5.638,
+            3.854,
+            0.0,
+            3.863,
+            5.684,
+            5.986
+          ],
+          [
+            6.066,
+            5.648,
+            3.863,
+            0.0,
+            3.862,
+            6.046
+          ],
+          [
+            7.731,
+            5.838,
+            5.684,
+            3.862,
+            0.0,
+            3.851
+          ],
+          [
+            10.106,
+            7.127,
+            5.986,
+            6.046,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "composite_score": 0.5374130652411799,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.89,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CD19-L132R Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5374,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CD19_L132R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CD19_L132R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CD19_L132R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CD19_L132R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CD19_L132R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CD19-L132R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CD19-L132R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:36:45.518256+00:00"
     }
   ]
 }
