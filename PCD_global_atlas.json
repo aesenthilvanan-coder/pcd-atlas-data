@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1274,
+  "total_entries": 1275,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45881,
-    "queue_remaining": 132716
+    "total_processed": 45882,
+    "queue_remaining": 132715
   },
   "entries": [
     {
@@ -281970,6 +281970,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:35:28.399298+00:00"
+    },
+    {
+      "entry_id": "PCD-PRKCSH-E210K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRKCSH-E210K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PRKCSH",
+        "uniprot": "",
+        "clinvar_id": "328176",
+        "disease": "Polycystic liver disease 1",
+        "mutation_precursor": "E210K",
+        "mutation_mature": "E210K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8596778291835745,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 546.0047378357948,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -42.30527877807617,
+          0.018897056579589844,
+          68.2722396850586
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.811704833203167,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.795121506783254,
+        "cryptic": true,
+        "pocket_residues": {
+          "A207": "A",
+          "Q208": "Q",
+          "E210": "E",
+          "Q211": "Q",
+          "A214": "A",
+          "Y269": "Y",
+          "D270": "D",
+          "W273": "W",
+          "A274": "A"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P14314|PRKCSH variant E210K",
+        "fasta_sequence": "MLLPLLLLLPMCWAVEVKRPRGVSLTNHHFYDESKPFTCLDGSATIPFDQVNDDYCDCKDGSDEPGTAACPNGSFHCTNTGYKPLYIPSNRVNDGVCDCCDGTDEYNSGVICENTCKEKGRKERESLQQMAEVTREGFRLKKILIEDWKKAREEKQKKLIELQAGKKSLEDQVEMLRTVKEEAEKPEREAKEQHQKLWEEQLAAAKAQQEQELAADAFKELDDDMDGTVSVTELQTHPELDTDGDGALSEAEAQALLSGDTQTDATSFYDRVWAAIRDKYRSEALPTDLPAPSAPDLTEPKEEQPPVPSSPTEEEEEEEEEEEEEAEEEEEEEDSEEAPPPLSPPQPASPAEEDKMPPYDEQTQAFIDAAQEARNKFEEAERSLKDMEESIRNLEQEISFDFGPNGEFAYLYSQCYELTTNEYVYRLCPFKLVSQKPKLGGSPTSLGTWGSWIGPDHDKFSAMKYEQGTGCWQGPNRSTTVRLLCGKETMVTSTTEPSRCEYLMELMTPAACPEPPPEAPTEDDHDEL",
+        "full_sequence": "MLLPLLLLLPMCWAVEVKRPRGVSLTNHHFYDESKPFTCLDGSATIPFDQVNDDYCDCKDGSDEPGTAACPNGSFHCTNTGYKPLYIPSNRVNDGVCDCCDGTDEYNSGVICENTCKEKGRKERESLQQMAEVTREGFRLKKILIEDWKKAREEKQKKLIELQAGKKSLEDQVEMLRTVKEEAEKPEREAKEQHQKLWEEQLAAAKAQQEQELAADAFKELDDDMDGTVSVTELQTHPELDTDGDGALSEAEAQALLSGDTQTDATSFYDRVWAAIRDKYRSEALPTDLPAPSAPDLTEPKEEQPPVPSSPTEEEEEEEEEEEEEAEEEEEEEDSEEAPPPLSPPQPASPAEEDKMPPYDEQTQAFIDAAQEARNKFEEAERSLKDMEESIRNLEQEISFDFGPNGEFAYLYSQCYELTTNEYVYRLCPFKLVSQKPKLGGSPTSLGTWGSWIGPDHDKFSAMKYEQGTGCWQGPNRSTTVRLLCGKETMVTSTTEPSRCEYLMELMTPAACPEPPPEAPTEDDHDEL",
+        "n_residues": 528,
+        "mutation_pos_1indexed": 210,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "A207-Q208-E210-Q211-A214-Y269-D270-W273-A274",
+        "pocket_lining_positions_precursor": [
+          207,
+          208,
+          210,
+          211,
+          214,
+          269,
+          270,
+          273,
+          274
+        ],
+        "pocket_lining_1letter": "AQEQAYDWA",
+        "sequence_slice_around_pocket": "EQLAAAKAQQEQELAADAFK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PRKCSH_E210K/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "A207",
+          "Q208",
+          "E210",
+          "Q211",
+          "A214",
+          "Y269",
+          "D270",
+          "W273",
+          "A274"
+        ],
+        "values": [
+          [
+            0.0,
+            3.861,
+            4.944,
+            6.188,
+            10.427,
+            11.564,
+            12.739,
+            12.748,
+            12.712
+          ],
+          [
+            3.861,
+            0.0,
+            5.362,
+            4.995,
+            9.702,
+            12.015,
+            14.022,
+            13.77,
+            14.72
+          ],
+          [
+            4.944,
+            5.362,
+            0.0,
+            3.871,
+            6.173,
+            9.332,
+            11.649,
+            9.338,
+            10.081
+          ],
+          [
+            6.188,
+            4.995,
+            3.871,
+            0.0,
+            5.006,
+            7.469,
+            10.228,
+            9.335,
+            11.148
+          ],
+          [
+            10.427,
+            9.702,
+            6.173,
+            5.006,
+            0.0,
+            6.239,
+            9.877,
+            6.28,
+            9.236
+          ],
+          [
+            11.564,
+            12.015,
+            9.332,
+            7.469,
+            6.239,
+            0.0,
+            3.844,
+            4.959,
+            7.536
+          ],
+          [
+            12.739,
+            14.022,
+            11.649,
+            10.228,
+            9.877,
+            3.844,
+            0.0,
+            6.743,
+            7.656
+          ],
+          [
+            12.748,
+            13.77,
+            9.338,
+            9.335,
+            6.28,
+            4.959,
+            6.743,
+            0.0,
+            3.849
+          ],
+          [
+            12.712,
+            14.72,
+            10.081,
+            11.148,
+            9.236,
+            7.536,
+            7.656,
+            3.849,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1CNCCc1nc2ccccc2[nH]1",
+        "composite_score": 0.8495181301416658,
+        "mw": 364.2,
+        "logp": 1.91,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.5779,
+        "sa_score": 3.26,
+        "n_heavy_atoms": 27,
+        "tpsa": 99.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PRKCSH-E210K Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1CNCCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8495,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PRKCSH_E210K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PRKCSH_E210K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PRKCSH_E210K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PRKCSH_E210K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PRKCSH_E210K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRKCSH-E210K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRKCSH-E210K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:35:53.125188+00:00"
     }
   ]
 }
