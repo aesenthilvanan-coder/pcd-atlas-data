@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 68,
+  "total_entries": 69,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44467,
-    "queue_remaining": 134130
+    "total_processed": 44468,
+    "queue_remaining": 134129
   },
   "entries": [
     {
@@ -15779,6 +15779,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:35:03.902013+00:00"
+    },
+    {
+      "entry_id": "PCD-TALDO1-Q159R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TALDO1-Q159R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TALDO1",
+        "uniprot": "",
+        "clinvar_id": "306133",
+        "disease": "Deficiency of transaldolase",
+        "mutation_precursor": "Q159R",
+        "mutation_mature": "Q159R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8183516090458333,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 344.73162470424023,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.797209739685059,
+          -17.9504451751709,
+          2.8267619609832764
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.388765119453067,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7321019902606375,
+        "cryptic": true,
+        "pocket_residues": {
+          "K154": "K",
+          "E155": "E",
+          "L156": "L",
+          "E157": "E",
+          "E158": "E",
+          "Q159": "Q",
+          "A181": "A",
+          "G182": "G"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P37837|TALDO1 variant Q159R",
+        "fasta_sequence": "MSSSPVKRQRMESALDQLKQFTTVVADTGDFHAIDEYKPQDATTNPSLILAAAQMPAYQELVEEAIAYGRKLGGSQEDQIKNAIDKLFVLFGAEILKKIPGRVSTEVDARLSFDKDAMVARARRLIELYKEAGISKDRILIKLSSTWEGIQAGKELEEQHGIHCNMTLLFSFAQAVACAEAGVTLISPFVGRILDWHVANTDKKSYEPLEDPGVKSVTKIYNYYKKFSYKTIVMGASFRNTGEIKALAGCDFLTISPKLLGELLQDNAKLVPVLSAKAAQASDLEKIHLDEKSFRWLHNEDQMAVEKLSDGIRKFAADAVKLERMLTERMFNAENGK",
+        "full_sequence": "MSSSPVKRQRMESALDQLKQFTTVVADTGDFHAIDEYKPQDATTNPSLILAAAQMPAYQELVEEAIAYGRKLGGSQEDQIKNAIDKLFVLFGAEILKKIPGRVSTEVDARLSFDKDAMVARARRLIELYKEAGISKDRILIKLSSTWEGIQAGKELEEQHGIHCNMTLLFSFAQAVACAEAGVTLISPFVGRILDWHVANTDKKSYEPLEDPGVKSVTKIYNYYKKFSYKTIVMGASFRNTGEIKALAGCDFLTISPKLLGELLQDNAKLVPVLSAKAAQASDLEKIHLDEKSFRWLHNEDQMAVEKLSDGIRKFAADAVKLERMLTERMFNAENGK",
+        "n_residues": 337,
+        "mutation_pos_1indexed": 159,
+        "wt_aa": "Q",
+        "mut_aa": "R",
+        "pocket_lining_residues": "K154-E155-L156-E157-E158-Q159-A181-G182",
+        "pocket_lining_positions_precursor": [
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          181,
+          182
+        ],
+        "pocket_lining_1letter": "KELEEQAG",
+        "sequence_slice_around_pocket": "GIQAGKELEEQHGIHCNMTL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TALDO1_Q159R/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "K154",
+          "E155",
+          "L156",
+          "E157",
+          "E158",
+          "Q159",
+          "A181",
+          "G182"
+        ],
+        "values": [
+          [
+            0.0,
+            3.84,
+            5.552,
+            5.333,
+            6.011,
+            8.184,
+            4.875,
+            6.279
+          ],
+          [
+            3.84,
+            0.0,
+            3.849,
+            5.565,
+            5.308,
+            5.473,
+            8.532,
+            9.635
+          ],
+          [
+            5.552,
+            3.849,
+            0.0,
+            3.844,
+            5.834,
+            5.724,
+            10.187,
+            10.182
+          ],
+          [
+            5.333,
+            5.565,
+            3.844,
+            0.0,
+            3.863,
+            5.989,
+            8.69,
+            7.401
+          ],
+          [
+            6.011,
+            5.308,
+            5.834,
+            3.863,
+            0.0,
+            3.854,
+            9.025,
+            8.128
+          ],
+          [
+            8.184,
+            5.473,
+            5.724,
+            5.989,
+            3.854,
+            0.0,
+            12.171,
+            11.814
+          ],
+          [
+            4.875,
+            8.532,
+            10.187,
+            8.69,
+            9.025,
+            12.171,
+            0.0,
+            3.859
+          ],
+          [
+            6.279,
+            9.635,
+            10.182,
+            7.401,
+            8.128,
+            11.814,
+            3.859,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CCCCC1",
+        "composite_score": 0.7333710777133835,
+        "mw": 219.17,
+        "logp": 1.963,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8415,
+        "sa_score": 2.19,
+        "n_heavy_atoms": 16,
+        "tpsa": 42.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TALDO1-Q159R Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.7334,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TALDO1_Q159R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TALDO1_Q159R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TALDO1_Q159R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TALDO1_Q159R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TALDO1_Q159R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TALDO1-Q159R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TALDO1-Q159R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:35:25.180204+00:00"
     }
   ]
 }
