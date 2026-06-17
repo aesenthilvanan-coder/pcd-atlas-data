@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 844,
+  "total_entries": 845,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45367,
-    "queue_remaining": 133230
+    "total_processed": 45368,
+    "queue_remaining": 133229
   },
   "entries": [
     {
@@ -186263,6 +186263,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:08:01.591021+00:00"
+    },
+    {
+      "entry_id": "PCD-LIG4-A842D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LIG4-A842D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LIG4",
+        "uniprot": "",
+        "clinvar_id": "310975",
+        "disease": "DNA ligase IV deficiency",
+        "mutation_precursor": "A842D",
+        "mutation_mature": "A842D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7466156172492299,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 427.4523687925945,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          46.92491912841797,
+          -19.15264892578125,
+          -7.0170674324035645
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.635724211448945,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8758804625863114,
+        "cryptic": true,
+        "pocket_residues": {
+          "I840": "I",
+          "K841": "K",
+          "A842": "A",
+          "L843": "L",
+          "E844": "E",
+          "L845": "L",
+          "R846": "R",
+          "F847": "F",
+          "H848": "H",
+          "V894": "V",
+          "T895": "T"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P49917|LIG4 variant A842D",
+        "fasta_sequence": "MAASQTSQTVASHVPFADLCSTLERIQKSKGRAEKIRHFREFLDSWRKFHDALHKNHKDVTDSFYPAMRLILPQLERERMAYGIKETMLAKLYIELLNLPRDGKDALKLLNYRTPTGTHGDAGDFAMIAYFVLKPRCLQKGSLTIQQVNDLLDSIASNNSAKRKDLIKKSLLQLITQSSALEQKWLIRMIIKDLKLGVSQQTIFSVFHNDAAELHNVTTDLEKVCRQLHDPSVGLSDISITLFSAFKPMLAAIADIEHIEKDMKHQSFYIETKLDGERMQMHKDGDVYKYFSRNGYNYTDQFGASPTEGSLTPFIHNAFKADIQICILDGEMMAYNPNTQTFMQKGTKFDIKRMVEDSDLQTCYCVFDVLMVNNKKLGHETLRKRYEILSSIFTPIPGRIEIVQKTQAHTKNEVIDALNEAIDKREEGIMVKQPLSIYKPDKRGEGWLKIKPEYVSGLMDELDILIVGGYWGKGSRGGMMSHFLCAVAEKPPPGEKPSVFHTLSRVGSGCTMKELYDLGLKLAKYWKPFHRKAPPSSILCGTEKPEVYIEPCNSVIVQIKAAEIVPSDMYKTGCTLRFPRIEKIRDDKEWHECMTLDDLEQLRGKASGKLASKHLYIGGDDEPQEKKRKAAPKMKKVIGIIEHLKAPNLTNVNKISNIFEDVEFCVMSGTDSQPKPDLENRIAEFGGYIVQNPGPDTYCVIAGSENIRVKNIILSNKHDVVKPAWLLECFKTKSFVPWQPRFMIHMCPSTKEHFAREYDCYGDSYFIDTDLNQLKEVFSGIKNSNEQTPEEMASLIADLEYRYSWDCSPLSMFRRHTVYLDSYAVINDLSTKNEGTRLAIKALELRFHGAKVVSCLAEGVSHVIIGEDHSRVADFKAFRRTFKRKFKILKESWVTDSIDKCELQEENQYLI",
+        "full_sequence": "MAASQTSQTVASHVPFADLCSTLERIQKSKGRAEKIRHFREFLDSWRKFHDALHKNHKDVTDSFYPAMRLILPQLERERMAYGIKETMLAKLYIELLNLPRDGKDALKLLNYRTPTGTHGDAGDFAMIAYFVLKPRCLQKGSLTIQQVNDLLDSIASNNSAKRKDLIKKSLLQLITQSSALEQKWLIRMIIKDLKLGVSQQTIFSVFHNDAAELHNVTTDLEKVCRQLHDPSVGLSDISITLFSAFKPMLAAIADIEHIEKDMKHQSFYIETKLDGERMQMHKDGDVYKYFSRNGYNYTDQFGASPTEGSLTPFIHNAFKADIQICILDGEMMAYNPNTQTFMQKGTKFDIKRMVEDSDLQTCYCVFDVLMVNNKKLGHETLRKRYEILSSIFTPIPGRIEIVQKTQAHTKNEVIDALNEAIDKREEGIMVKQPLSIYKPDKRGEGWLKIKPEYVSGLMDELDILIVGGYWGKGSRGGMMSHFLCAVAEKPPPGEKPSVFHTLSRVGSGCTMKELYDLGLKLAKYWKPFHRKAPPSSILCGTEKPEVYIEPCNSVIVQIKAAEIVPSDMYKTGCTLRFPRIEKIRDDKEWHECMTLDDLEQLRGKASGKLASKHLYIGGDDEPQEKKRKAAPKMKKVIGIIEHLKAPNLTNVNKISNIFEDVEFCVMSGTDSQPKPDLENRIAEFGGYIVQNPGPDTYCVIAGSENIRVKNIILSNKHDVVKPAWLLECFKTKSFVPWQPRFMIHMCPSTKEHFAREYDCYGDSYFIDTDLNQLKEVFSGIKNSNEQTPEEMASLIADLEYRYSWDCSPLSMFRRHTVYLDSYAVINDLSTKNEGTRLAIKALELRFHGAKVVSCLAEGVSHVIIGEDHSRVADFKAFRRTFKRKFKILKESWVTDSIDKCELQEENQYLI",
+        "n_residues": 911,
+        "mutation_pos_1indexed": 842,
+        "wt_aa": "A",
+        "mut_aa": "D",
+        "pocket_lining_residues": "I840-K841-A842-L843-E844-L845-R846-F847-H848-V894-T895",
+        "pocket_lining_positions_precursor": [
+          840,
+          841,
+          842,
+          843,
+          844,
+          845,
+          846,
+          847,
+          848,
+          894,
+          895
+        ],
+        "pocket_lining_1letter": "IKALELRFHVT",
+        "sequence_slice_around_pocket": "KNEGTRLAIKALELRFHGAK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LIG4_A842D/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "I840",
+          "K841",
+          "A842",
+          "L843",
+          "E844",
+          "L845",
+          "R846",
+          "F847",
+          "H848",
+          "V894",
+          "T895"
+        ],
+        "values": [
+          [
+            0.0,
+            3.861,
+            5.374,
+            5.237,
+            6.373,
+            8.719,
+            10.11,
+            10.703,
+            12.557,
+            10.56,
+            10.528
+          ],
+          [
+            3.861,
+            0.0,
+            3.835,
+            5.428,
+            5.005,
+            6.031,
+            8.627,
+            9.771,
+            10.521,
+            7.048,
+            8.001
+          ],
+          [
+            5.374,
+            3.835,
+            0.0,
+            3.863,
+            5.576,
+            5.206,
+            6.367,
+            8.725,
+            10.09,
+            9.465,
+            11.316
+          ],
+          [
+            5.237,
+            5.428,
+            3.863,
+            0.0,
+            3.841,
+            5.475,
+            5.211,
+            6.126,
+            8.675,
+            10.876,
+            11.927
+          ],
+          [
+            6.373,
+            5.005,
+            5.576,
+            3.841,
+            0.0,
+            3.851,
+            5.523,
+            5.071,
+            6.232,
+            8.01,
+            8.787
+          ],
+          [
+            8.719,
+            6.031,
+            5.206,
+            5.475,
+            3.851,
+            0.0,
+            3.864,
+            5.545,
+            5.237,
+            7.323,
+            9.68
+          ],
+          [
+            10.11,
+            8.627,
+            6.367,
+            5.211,
+            5.523,
+            3.864,
+            0.0,
+            3.833,
+            5.395,
+            11.173,
+            13.279
+          ],
+          [
+            10.703,
+            9.771,
+            8.725,
+            6.126,
+            5.071,
+            5.545,
+            3.833,
+            0.0,
+            3.854,
+            11.698,
+            12.884
+          ],
+          [
+            12.557,
+            10.521,
+            10.09,
+            8.675,
+            6.232,
+            5.237,
+            5.395,
+            3.854,
+            0.0,
+            9.934,
+            11.53
+          ],
+          [
+            10.56,
+            7.048,
+            9.465,
+            10.876,
+            8.01,
+            7.323,
+            11.173,
+            11.698,
+            9.934,
+            0.0,
+            3.85
+          ],
+          [
+            10.528,
+            8.001,
+            11.316,
+            11.927,
+            8.787,
+            9.68,
+            13.279,
+            12.884,
+            11.53,
+            3.85,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8117966875094218,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LIG4-A842D Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8118,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LIG4_A842D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LIG4_A842D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LIG4_A842D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LIG4_A842D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LIG4_A842D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LIG4-A842D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LIG4-A842D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:08:34.599350+00:00"
     }
   ]
 }
