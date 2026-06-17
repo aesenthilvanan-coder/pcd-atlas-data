@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 221,
+  "total_entries": 222,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44633,
-    "queue_remaining": 133964
+    "total_processed": 44634,
+    "queue_remaining": 133963
   },
   "entries": [
     {
@@ -49249,6 +49249,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:20:35.506004+00:00"
+    },
+    {
+      "entry_id": "PCD-GLIS3-H775Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GLIS3-H775Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GLIS3",
+        "uniprot": "",
+        "clinvar_id": "366954",
+        "disease": "Neonatal diabetes mellitus with congenital hypothyroidism",
+        "mutation_precursor": "H775Y",
+        "mutation_mature": "H775Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7916288063755177,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 483.01412671637723,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -31.507610321044922,
+          29.981090545654297,
+          -0.8892403841018677
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.158403686741835,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7298645548481064,
+        "cryptic": true,
+        "pocket_residues": {
+          "V771": "V",
+          "Y772": "Y",
+          "T773": "T",
+          "E774": "E",
+          "G775": "G"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NEA6|GLIS3 variant H775Y",
+        "fasta_sequence": "MMVQRLGLISPPASQVSTACNQISPSLQRAMNAANLNIPPSDTRSLISRESLASTTLSLTESQSASSMKQEWSQGYRALPSLSNHGSQNGLDLGDLLSLPPGTSMSSNSVSNSLPSYLFGTESSHSPYPSPRHSSTRSHSARSKKRALSLSPLSDGIGIDFNTIIRTSPTSLVAYINGSRASPANLSPQPEVYGHFLGVRGSCIPQPRPVPGSQKGVLVAPGGLALPAYGEDGALEHERMQQLEHGGLQPGLVNHMVVQHGLPGPDSQSAGLFKTERLEEFPGSTVDLPPAPPLPPLPPPPGPPPPYHAHAHLHHPELGPHAQQLALPQATLDDDGEMDGIGGKHCCRWIDCSALYDQQEELVRHIEKVHIDQRKGEDFTCFWAGCPRRYKPFNARYKLLIHMRVHSGEKPNKCTFEGCEKAFSRLENLKIHLRSHTGEKPYLCQHPGCQKAFSNSSDRAKHQRTHLDTKPYACQIPGCTKRYTDPSSLRKHVKAHSSKEQQARKKLRSSTELHPDLLTDCLTVQSLQPATSPRDAAAEGTVGRSPGPGPDLYSAPIFSSNYSSRSGTAAGAVPPPHPVSHPSPGHNVQGSPHNPSSQLPPLTAVDAGAERFAPSAPSPHHISPRRVPAPSSILQRTQPPYTQQPSGSHLKSYQPETNSSFQPNGIHVHGFYGQLQKFCPPHYPDSQRIVPPVSSCSVVPSFEDCLVPTSMGQASFDVFHRAFSTHSGITVYDLPSSSSSLFGESLRSGAEDATFLQISTVDRCPSQLSSVYTEG",
+        "full_sequence": "MMVQRLGLISPPASQVSTACNQISPSLQRAMNAANLNIPPSDTRSLISRESLASTTLSLTESQSASSMKQEWSQGYRALPSLSNHGSQNGLDLGDLLSLPPGTSMSSNSVSNSLPSYLFGTESSHSPYPSPRHSSTRSHSARSKKRALSLSPLSDGIGIDFNTIIRTSPTSLVAYINGSRASPANLSPQPEVYGHFLGVRGSCIPQPRPVPGSQKGVLVAPGGLALPAYGEDGALEHERMQQLEHGGLQPGLVNHMVVQHGLPGPDSQSAGLFKTERLEEFPGSTVDLPPAPPLPPLPPPPGPPPPYHAHAHLHHPELGPHAQQLALPQATLDDDGEMDGIGGKHCCRWIDCSALYDQQEELVRHIEKVHIDQRKGEDFTCFWAGCPRRYKPFNARYKLLIHMRVHSGEKPNKCTFEGCEKAFSRLENLKIHLRSHTGEKPYLCQHPGCQKAFSNSSDRAKHQRTHLDTKPYACQIPGCTKRYTDPSSLRKHVKAHSSKEQQARKKLRSSTELHPDLLTDCLTVQSLQPATSPRDAAAEGTVGRSPGPGPDLYSAPIFSSNYSSRSGTAAGAVPPPHPVSHPSPGHNVQGSPHNPSSQLPPLTAVDAGAERFAPSAPSPHHISPRRVPAPSSILQRTQPPYTQQPSGSHLKSYQPETNSSFQPNGIHVHGFYGQLQKFCPPHYPDSQRIVPPVSSCSVVPSFEDCLVPTSMGQASFDVFHRAFSTHSGITVYDLPSSSSSLFGESLRSGAEDATFLQISTVDRCPSQLSSVYTEG",
+        "n_residues": 775,
+        "mutation_pos_1indexed": 775,
+        "wt_aa": "H",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "V771-Y772-T773-E774-G775",
+        "pocket_lining_positions_precursor": [
+          771,
+          772,
+          773,
+          774,
+          775
+        ],
+        "pocket_lining_1letter": "VYTEG",
+        "sequence_slice_around_pocket": "PSQLSSVYTEG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GLIS3_H775Y/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "V771",
+          "Y772",
+          "T773",
+          "E774",
+          "G775"
+        ],
+        "values": [
+          [
+            0.0,
+            3.908,
+            6.5,
+            8.384,
+            10.968
+          ],
+          [
+            3.908,
+            0.0,
+            3.826,
+            6.033,
+            7.872
+          ],
+          [
+            6.5,
+            3.826,
+            0.0,
+            3.85,
+            6.548
+          ],
+          [
+            8.384,
+            6.033,
+            3.85,
+            0.0,
+            3.857
+          ],
+          [
+            10.968,
+            7.872,
+            6.548,
+            3.857,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COC1CC(=O)CC(NC2CCCCC2)N1c1cnccc1N",
+        "composite_score": 0.7147521387379341,
+        "mw": 318.21,
+        "logp": 2.054,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 4,
+        "qed": 0.8843,
+        "sa_score": 3.9,
+        "n_heavy_atoms": 23,
+        "tpsa": 80.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GLIS3-H775Y Candidate #1",
+        "iupac_name": "COC1CC(=O)CC(NC2CCCCC2)N1c1cnccc1N",
+        "pocket_affinity_score": 0.7148,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GLIS3_H775Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GLIS3_H775Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GLIS3_H775Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GLIS3_H775Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GLIS3_H775Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GLIS3-H775Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GLIS3-H775Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:21:02.942155+00:00"
     }
   ]
 }
