@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 895,
+  "total_entries": 896,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45428,
-    "queue_remaining": 133169
+    "total_processed": 45429,
+    "queue_remaining": 133168
   },
   "entries": [
     {
@@ -197180,6 +197180,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:49:07.116497+00:00"
+    },
+    {
+      "entry_id": "PCD-NLRP7-R795H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NLRP7-R795H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NLRP7",
+        "uniprot": "",
+        "clinvar_id": "330160",
+        "disease": "Hydatidiform mole, recurrent, 1",
+        "mutation_precursor": "R795H",
+        "mutation_mature": "R795H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7903505723298483,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 578.2415379578899,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          22.676219940185547,
+          14.325316429138184,
+          -19.682777404785156
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.580018771097655,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8918479814546268,
+        "cryptic": true,
+        "pocket_residues": {
+          "R767": "R",
+          "L768": "L",
+          "F782": "F",
+          "L794": "L",
+          "R795": "R",
+          "L796": "L",
+          "S797": "S",
+          "L823": "L",
+          "S824": "S",
+          "L825": "L"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8WX94|NLRP7 variant R795H",
+        "fasta_sequence": "MTSPQLEWTLQTLLEQLNEDELKSFKSLLWAFPLEDVLQKTPWSEVEEADGKKLAEILVNTSSENWIRNATVNILEEMNLTELCKMAKAEMMEDGQVQEIDNPELGDAEEDSELAKPGEKEGWRNSMEKQSLVWKNTFWQGDIDNFHDDVTLRNQRFIPFLNPRTPRKLTPYTVVLHGPAGVGKTTLAKKCMLDWTDCNLSPTLRYAFYLSCKELSRMGPCSFAELISKDWPELQDDIPSILAQAQRILFVVDGLDELKVPPGALIQDICGDWEKKKPVPVLLGSLLKRKMLPRAALLVTTRPRALRDLQLLAQQPIYVRVEGFLEEDRRAYFLRHFGDEDQAMRAFELMRSNAALFQLGSAPAVCWIVCTTLKLQMEKGEDPVPTCLTRTGLFLRFLCSRFPQGAQLRGALRTLSLLAAQGLWAQMSVFHREDLERLGVQESDLRLFLDGDILRQDRVSKGCYSFIHLSFQQFLTALFYALEKEEGEDRDGHAWDIGDVQKLLSGEERLKNPDLIQVGHFLFGLANEKRAKELEATFGCRMSPDIKQELLQCKAHLHANKPLSVTDLKEVLGCLYESQEEELAKVVVAPFKEISIHLTNTSEVMHCSFSLKHCQDLQKLSLQVAKGVFLENYMDFELDIEFERCTYLTIPNWARQDLRSLRLWTDFCSLFSSNSNLKFLEVKQSFLSDSSVRILCDHVTRSTCHLQKVEIKNVTPDTAYRDFCLAFIGKKTLTHLTLAGHIEWERTMMLMLCDLLRNHKCNLQYLRLGGHCATPEQWAEFFYVLKANQSLKHLRLSANVLLDEGAMLLYKTMTRPKHFLQMLSLENCRLTEASCKDLAAVLVVSKKLTHLCLAKNPIGDTGVKFLCEGLSYPDCKLQTLVLQQCSITKLGCRYLSEALQEACSLTNLDLSINQIARGLWILCQALENPNCNLKHLRLKTYETNLEIKKLLEEVKEKNPKLTIDCNASGATAPPCCDFFC",
+        "full_sequence": "MTSPQLEWTLQTLLEQLNEDELKSFKSLLWAFPLEDVLQKTPWSEVEEADGKKLAEILVNTSSENWIRNATVNILEEMNLTELCKMAKAEMMEDGQVQEIDNPELGDAEEDSELAKPGEKEGWRNSMEKQSLVWKNTFWQGDIDNFHDDVTLRNQRFIPFLNPRTPRKLTPYTVVLHGPAGVGKTTLAKKCMLDWTDCNLSPTLRYAFYLSCKELSRMGPCSFAELISKDWPELQDDIPSILAQAQRILFVVDGLDELKVPPGALIQDICGDWEKKKPVPVLLGSLLKRKMLPRAALLVTTRPRALRDLQLLAQQPIYVRVEGFLEEDRRAYFLRHFGDEDQAMRAFELMRSNAALFQLGSAPAVCWIVCTTLKLQMEKGEDPVPTCLTRTGLFLRFLCSRFPQGAQLRGALRTLSLLAAQGLWAQMSVFHREDLERLGVQESDLRLFLDGDILRQDRVSKGCYSFIHLSFQQFLTALFYALEKEEGEDRDGHAWDIGDVQKLLSGEERLKNPDLIQVGHFLFGLANEKRAKELEATFGCRMSPDIKQELLQCKAHLHANKPLSVTDLKEVLGCLYESQEEELAKVVVAPFKEISIHLTNTSEVMHCSFSLKHCQDLQKLSLQVAKGVFLENYMDFELDIEFERCTYLTIPNWARQDLRSLRLWTDFCSLFSSNSNLKFLEVKQSFLSDSSVRILCDHVTRSTCHLQKVEIKNVTPDTAYRDFCLAFIGKKTLTHLTLAGHIEWERTMMLMLCDLLRNHKCNLQYLRLGGHCATPEQWAEFFYVLKANQSLKHLRLSANVLLDEGAMLLYKTMTRPKHFLQMLSLENCRLTEASCKDLAAVLVVSKKLTHLCLAKNPIGDTGVKFLCEGLSYPDCKLQTLVLQQCSITKLGCRYLSEALQEACSLTNLDLSINQIARGLWILCQALENPNCNLKHLRLKTYETNLEIKKLLEEVKEKNPKLTIDCNASGATAPPCCDFFC",
+        "n_residues": 980,
+        "mutation_pos_1indexed": 795,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "R767-L768-F782-L794-R795-L796-S797-L823-S824-L825",
+        "pocket_lining_positions_precursor": [
+          767,
+          768,
+          782,
+          794,
+          795,
+          796,
+          797,
+          823,
+          824,
+          825
+        ],
+        "pocket_lining_1letter": "RLFLRLSLSL",
+        "sequence_slice_around_pocket": "LKANQSLKHLRLSANVLLDE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP7_R795H/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "R767",
+          "L768",
+          "F782",
+          "L794",
+          "R795",
+          "L796",
+          "S797",
+          "L823",
+          "S824",
+          "L825"
+        ],
+        "values": [
+          [
+            0.0,
+            3.816,
+            14.313,
+            5.973,
+            4.545,
+            6.134,
+            7.949,
+            10.02,
+            9.016,
+            10.588
+          ],
+          [
+            3.816,
+            0.0,
+            13.287,
+            8.204,
+            6.225,
+            5.187,
+            7.114,
+            11.823,
+            10.273,
+            10.449
+          ],
+          [
+            14.313,
+            13.287,
+            0.0,
+            11.467,
+            13.135,
+            11.821,
+            15.403,
+            13.147,
+            14.518,
+            13.709
+          ],
+          [
+            5.973,
+            8.204,
+            11.467,
+            0.0,
+            3.825,
+            6.569,
+            9.357,
+            5.089,
+            6.39,
+            8.754
+          ],
+          [
+            4.545,
+            6.225,
+            13.135,
+            3.825,
+            0.0,
+            3.831,
+            5.717,
+            5.887,
+            4.542,
+            6.491
+          ],
+          [
+            6.134,
+            5.187,
+            11.821,
+            6.569,
+            3.831,
+            0.0,
+            3.841,
+            8.033,
+            5.977,
+            5.339
+          ],
+          [
+            7.949,
+            7.114,
+            15.403,
+            9.357,
+            5.717,
+            3.841,
+            0.0,
+            9.599,
+            6.22,
+            5.089
+          ],
+          [
+            10.02,
+            11.823,
+            13.147,
+            5.089,
+            5.887,
+            8.033,
+            9.599,
+            0.0,
+            3.826,
+            6.609
+          ],
+          [
+            9.016,
+            10.273,
+            14.518,
+            6.39,
+            4.542,
+            5.977,
+            6.22,
+            3.826,
+            0.0,
+            3.831
+          ],
+          [
+            10.588,
+            10.449,
+            13.709,
+            8.754,
+            6.491,
+            5.339,
+            5.089,
+            6.609,
+            3.831,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1OCNCc1c[nH]c2ccccc12",
+        "composite_score": 0.6067449815274738,
+        "mw": 415.17,
+        "logp": 2.291,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.403,
+        "sa_score": 3.41,
+        "n_heavy_atoms": 29,
+        "tpsa": 113.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NLRP7-R795H Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1OCNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6067,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP7_R795H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP7_R795H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP7_R795H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP7_R795H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP7_R795H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NLRP7-R795H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NLRP7-R795H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:49:41.997874+00:00"
     }
   ]
 }
