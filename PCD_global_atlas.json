@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 473,
+  "total_entries": 474,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44931,
-    "queue_remaining": 133666
+    "total_processed": 44932,
+    "queue_remaining": 133665
   },
   "entries": [
     {
@@ -104630,6 +104630,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:59:04.901956+00:00"
+    },
+    {
+      "entry_id": "PCD-COG7-I469V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COG7-I469V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COG7",
+        "uniprot": "",
+        "clinvar_id": "318475",
+        "disease": "COG7 congenital disorder of glycosylation",
+        "mutation_precursor": "I469V",
+        "mutation_mature": "I469V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8508778534696425,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 481.2252289169344,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          29.348350524902344,
+          -0.17809367179870605,
+          -27.689891815185547
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.495142229546807,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6368942851767436,
+        "cryptic": true,
+        "pocket_residues": {
+          "W462": "W",
+          "T463": "T",
+          "A464": "A",
+          "F465": "F",
+          "Q466": "Q",
+          "N467": "N",
+          "S468": "S",
+          "I469": "I",
+          "R470": "R"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P83436|COG7 variant I469V",
+        "fasta_sequence": "MDFSKFLADDFDVKEWINAAFRAGSKEAASGKADGHAATLVMKLQLFIQEVNHAVEETSHQALQNMPKVLRDVEALKQEASFLKEQMILVKEDIKKFEQDTSQSMQVLVEIDQVKSRMQLAAESLQEADKWSTLSADIEETFKTQDIAVISAKLTGMQNSLMMLVDTPDYSEKCVHLEALKNRLEALASPQIVAAFTSQAVDQSKVFVKVFTEIDRMPQLLAYYYKCHKVQLLAAWQELCQSDLSLDRQLTGLYDALLGAWHTQIQWATQVFQKPHEVVMVLLIQTLGALMPSLPSCLSNGVERAGPEQELTRLLEFYDATAHFAKGLEMALLPHLHEHNLVKVTELVDAVYDPYKPYQLKYGDMEESNLLIQMSAVPLEHGEVIDCVQELSHSVNKLFGLASAAVDRCVRFTNGLGTCGLLSALKSLFAKYVSDFTSTLQSIRKKCKLDHIPPNSLFQEDWTAFQNSIRIIATCGELLRHCGDFEQQLANRILSTAGKYLSDSCSPRSLAGFQESILTDKKNSAKNPWQEYNYLQKDNPAEYASLMEILYTLKEKGSSNHNLLAAPRAALTRLNQQAHQLAFDSVFLRIKQQLLLISKMDSWNTAGIGETLTDELPAFSLTPLEYISNIGQYIMSLPLNLEPFVTQEDSALELALHAGKLPFPPEQGDELPELDNMADNWLGSIARATMQTYCDAILQIPELSPHSAKQLATDIDYLINVMDALGLQPSRTLQHIVTLLKTRPEDYRQVSKGLPRRLATTVATMRSVNY",
+        "full_sequence": "MDFSKFLADDFDVKEWINAAFRAGSKEAASGKADGHAATLVMKLQLFIQEVNHAVEETSHQALQNMPKVLRDVEALKQEASFLKEQMILVKEDIKKFEQDTSQSMQVLVEIDQVKSRMQLAAESLQEADKWSTLSADIEETFKTQDIAVISAKLTGMQNSLMMLVDTPDYSEKCVHLEALKNRLEALASPQIVAAFTSQAVDQSKVFVKVFTEIDRMPQLLAYYYKCHKVQLLAAWQELCQSDLSLDRQLTGLYDALLGAWHTQIQWATQVFQKPHEVVMVLLIQTLGALMPSLPSCLSNGVERAGPEQELTRLLEFYDATAHFAKGLEMALLPHLHEHNLVKVTELVDAVYDPYKPYQLKYGDMEESNLLIQMSAVPLEHGEVIDCVQELSHSVNKLFGLASAAVDRCVRFTNGLGTCGLLSALKSLFAKYVSDFTSTLQSIRKKCKLDHIPPNSLFQEDWTAFQNSIRIIATCGELLRHCGDFEQQLANRILSTAGKYLSDSCSPRSLAGFQESILTDKKNSAKNPWQEYNYLQKDNPAEYASLMEILYTLKEKGSSNHNLLAAPRAALTRLNQQAHQLAFDSVFLRIKQQLLLISKMDSWNTAGIGETLTDELPAFSLTPLEYISNIGQYIMSLPLNLEPFVTQEDSALELALHAGKLPFPPEQGDELPELDNMADNWLGSIARATMQTYCDAILQIPELSPHSAKQLATDIDYLINVMDALGLQPSRTLQHIVTLLKTRPEDYRQVSKGLPRRLATTVATMRSVNY",
+        "n_residues": 770,
+        "mutation_pos_1indexed": 469,
+        "wt_aa": "I",
+        "mut_aa": "V",
+        "pocket_lining_residues": "W462-T463-A464-F465-Q466-N467-S468-I469-R470",
+        "pocket_lining_positions_precursor": [
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470
+        ],
+        "pocket_lining_1letter": "WTAFQNSIR",
+        "sequence_slice_around_pocket": "QEDWTAFQNSIRIIATCGEL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COG7_I469V/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "W462",
+          "T463",
+          "A464",
+          "F465",
+          "Q466",
+          "N467",
+          "S468",
+          "I469",
+          "R470"
+        ],
+        "values": [
+          [
+            0.0,
+            3.866,
+            5.64,
+            5.231,
+            6.096,
+            8.592,
+            9.861,
+            10.631,
+            12.416
+          ],
+          [
+            3.866,
+            0.0,
+            3.849,
+            5.461,
+            5.135,
+            6.061,
+            8.488,
+            9.929,
+            10.612
+          ],
+          [
+            5.64,
+            3.849,
+            0.0,
+            3.841,
+            5.629,
+            5.206,
+            6.116,
+            8.764,
+            9.992
+          ],
+          [
+            5.231,
+            5.461,
+            3.841,
+            0.0,
+            3.851,
+            5.445,
+            4.975,
+            6.252,
+            8.717
+          ],
+          [
+            6.096,
+            5.135,
+            5.629,
+            3.851,
+            0.0,
+            3.843,
+            5.432,
+            5.158,
+            6.367
+          ],
+          [
+            8.592,
+            6.061,
+            5.206,
+            5.445,
+            3.843,
+            0.0,
+            3.844,
+            5.485,
+            5.079
+          ],
+          [
+            9.861,
+            8.488,
+            6.116,
+            4.975,
+            5.432,
+            3.844,
+            0.0,
+            3.857,
+            5.416
+          ],
+          [
+            10.631,
+            9.929,
+            8.764,
+            6.252,
+            5.158,
+            5.485,
+            3.857,
+            0.0,
+            3.855
+          ],
+          [
+            12.416,
+            10.612,
+            9.992,
+            8.717,
+            6.367,
+            5.079,
+            5.416,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.652531888557238,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COG7-I469V Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6525,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COG7_I469V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COG7_I469V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COG7_I469V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COG7_I469V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COG7_I469V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COG7-I469V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COG7-I469V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:59:40.574741+00:00"
     }
   ]
 }
