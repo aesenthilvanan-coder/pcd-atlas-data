@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 556,
+  "total_entries": 557,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45029,
-    "queue_remaining": 133568
+    "total_processed": 45030,
+    "queue_remaining": 133567
   },
   "entries": [
     {
@@ -123432,6 +123432,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:00:48.117303+00:00"
+    },
+    {
+      "entry_id": "PCD-FANCA-R232K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCA-R232K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FANCA",
+        "uniprot": "",
+        "clinvar_id": "321365",
+        "disease": "Fanconi anemia complementation group A",
+        "mutation_precursor": "R232K",
+        "mutation_mature": "R232K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9292842095618272,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 334.734272269137,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -2.1166725158691406,
+          -0.7025375366210938,
+          -31.133691787719727
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.89634132624075,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8636688374084772,
+        "cryptic": true,
+        "pocket_residues": {
+          "D229": "D",
+          "V230": "V",
+          "A231": "A",
+          "R232": "R",
+          "A233": "A",
+          "M234": "M",
+          "L235": "L",
+          "S236": "S",
+          "D237": "D",
+          "T306": "T"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15360|FANCA variant R232K",
+        "fasta_sequence": "MSDSWVPNSASGQDPGGRRRAWAELLAGRVKREKYNPERAQKLKESAVRLLRSHQDLNALLLEVEGPLCKKLSLSKVIDCDSSEAYANHSSSFIGSALQDQASRLGVPVGILSAGMVASSVGQICTAPAETSHPVLLTVEQRKKLSSLLEFAQYLLAHSMFSRLSFCQELWKIQSSLLLEAVWHLHVQGIVSLQELLESHPDMHAVGSWLFRNLCCLCEQMEASCQHADVARAMLSDFVQMFVLRGFQKNSDLRRTVEPEKMPQVTVDVLQRMLIFALDALAAGVQEESSTHKIVRCWFGVFSGHTLGSVISTDPLKRFFSHTLTQILTHSPVLKASDAVQMQREWSFARTHPLLTSLYRRLFVMLSAEELVGHLQEVLETQEVHWQRVLSFVSALVVCFPEAQQLLEDWVARLMAQAFESCQLDSMVTAFLVVRQAALEGPSAFLSYADWFKASFGSTRGYHGCSKKALVFLFTFLSELVPFESPRYLQVHILHPPLVPGKYRSLLTDYISLAKTRLADLKVSIENMGLYEDLSSAGDITEPHSQALQDVEKAIMVFEHTGNIPVTVMEASIFRRPYYVSHFLPALLTPRVLPKVPDSRVAFIESLKRADKIPPSLYSTYCQACSAAEEKPEDAALGVRAEPNSAEEPLGQLTAALGELRASMTDPSQRDVISAQVAVISERLRAVLGHNEDDSSVEISKIQLSINTPRLEPREHMAVDLLLTSFCQNLMAASSVAPPERQGPWAALFVRTMCGRVLPAVLTRLCQLLRHQGPSLSAPHVLGLAALAVHLGESRSALPEVDVGPPAPGAGLPVPALFDSLLTCRTRDSLFFCLKFCTAAISYSLCKFSSQSRDTLCSCLSPGLIKKFQFLMFRLFSEARQPLSEEDVASLSWRPLHLPSADWQRAALSLWTHRTFREVLKEEDVHLTYQDWLHLELEIQPEADALSDTERQDFHQWAIHEHFLPESSASGGCDGDLQAACTILVNALMDFHQSSRSYDHSENSDLVFGGRTGNEDIISRLQEMVADLELQQDLIVPLGHTPSQEHFLFEIFRRRLQALTSGWSVAASLQRQRELLMYKRILLRLPSSVLCGSSFQAEQPITARCEQFFHLVNSEMRNFCSHGGALTQDITAHFFRGLLNACLRSRDPSLMVDFILAKCQTKCPLILTSALVWWPSLEPVLLCRWRRHCQSPLPRELQKLQEGRQFASDFLSPEAASPAPNPDWLSAAALHFAIQQVREENIRKQLKKLDCEREELLVFLFFFSLMGLLSSHLTSNSTTDLPKAFHVCAAILECLEKRKISWLALFQLTESDLRLGRLLLRVAPDQHTRLLPFAFYSLLSYFHEDAAIREEAFLHVAVDMYLKLVQLFVAGDTSTVSPPAGRSLELKGQGNPVELITKARLFLLQLIPRCPKKSFSHVAELLADRGDCDPEVSAALQSRQQAAPDADLSQEPHLF",
+        "full_sequence": "MSDSWVPNSASGQDPGGRRRAWAELLAGRVKREKYNPERAQKLKESAVRLLRSHQDLNALLLEVEGPLCKKLSLSKVIDCDSSEAYANHSSSFIGSALQDQASRLGVPVGILSAGMVASSVGQICTAPAETSHPVLLTVEQRKKLSSLLEFAQYLLAHSMFSRLSFCQELWKIQSSLLLEAVWHLHVQGIVSLQELLESHPDMHAVGSWLFRNLCCLCEQMEASCQHADVARAMLSDFVQMFVLRGFQKNSDLRRTVEPEKMPQVTVDVLQRMLIFALDALAAGVQEESSTHKIVRCWFGVFSGHTLGSVISTDPLKRFFSHTLTQILTHSPVLKASDAVQMQREWSFARTHPLLTSLYRRLFVMLSAEELVGHLQEVLETQEVHWQRVLSFVSALVVCFPEAQQLLEDWVARLMAQAFESCQLDSMVTAFLVVRQAALEGPSAFLSYADWFKASFGSTRGYHGCSKKALVFLFTFLSELVPFESPRYLQVHILHPPLVPGKYRSLLTDYISLAKTRLADLKVSIENMGLYEDLSSAGDITEPHSQALQDVEKAIMVFEHTGNIPVTVMEASIFRRPYYVSHFLPALLTPRVLPKVPDSRVAFIESLKRADKIPPSLYSTYCQACSAAEEKPEDAALGVRAEPNSAEEPLGQLTAALGELRASMTDPSQRDVISAQVAVISERLRAVLGHNEDDSSVEISKIQLSINTPRLEPREHMAVDLLLTSFCQNLMAASSVAPPERQGPWAALFVRTMCGRVLPAVLTRLCQLLRHQGPSLSAPHVLGLAALAVHLGESRSALPEVDVGPPAPGAGLPVPALFDSLLTCRTRDSLFFCLKFCTAAISYSLCKFSSQSRDTLCSCLSPGLIKKFQFLMFRLFSEARQPLSEEDVASLSWRPLHLPSADWQRAALSLWTHRTFREVLKEEDVHLTYQDWLHLELEIQPEADALSDTERQDFHQWAIHEHFLPESSASGGCDGDLQAACTILVNALMDFHQSSRSYDHSENSDLVFGGRTGNEDIISRLQEMVADLELQQDLIVPLGHTPSQEHFLFEIFRRRLQALTSGWSVAASLQRQRELLMYKRILLRLPSSVLCGSSFQAEQPITARCEQFFHLVNSEMRNFCSHGGALTQDITAHFFRGLLNACLRSRDPSLMVDFILAKCQTKCPLILTSALVWWPSLEPVLLCRWRRHCQSPLPRELQKLQEGRQFASDFLSPEAASPAPNPDWLSAAALHFAIQQVREENIRKQLKKLDCEREELLVFLFFFSLMGLLSSHLTSNSTTDLPKAFHVCAAILECLEKRKISWLALFQLTESDLRLGRLLLRVAPDQHTRLLPFAFYSLLSYFHEDAAIREEAFLHVAVDMYLKLVQLFVAGDTSTVSPPAGRSLELKGQGNPVELITKARLFLLQLIPRCPKKSFSHVAELLADRGDCDPEVSAALQSRQQAAPDADLSQEPHLF",
+        "n_residues": 1455,
+        "mutation_pos_1indexed": 232,
+        "wt_aa": "R",
+        "mut_aa": "K",
+        "pocket_lining_residues": "D229-V230-A231-R232-A233-M234-L235-S236-D237-T306",
+        "pocket_lining_positions_precursor": [
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          306
+        ],
+        "pocket_lining_1letter": "DVARAMLSDT",
+        "sequence_slice_around_pocket": "EASCQHADVARAMLSDFVQM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FANCA_R232K/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "D229",
+          "V230",
+          "A231",
+          "R232",
+          "A233",
+          "M234",
+          "L235",
+          "S236",
+          "D237",
+          "T306"
+        ],
+        "values": [
+          [
+            0.0,
+            3.853,
+            5.427,
+            4.983,
+            6.09,
+            8.513,
+            9.797,
+            10.32,
+            12.105,
+            12.144
+          ],
+          [
+            3.853,
+            0.0,
+            3.822,
+            5.44,
+            5.067,
+            6.058,
+            8.565,
+            9.755,
+            10.444,
+            13.215
+          ],
+          [
+            5.427,
+            3.822,
+            0.0,
+            3.87,
+            5.524,
+            5.05,
+            6.094,
+            8.491,
+            9.884,
+            12.391
+          ],
+          [
+            4.983,
+            5.44,
+            3.87,
+            0.0,
+            3.842,
+            5.442,
+            5.129,
+            5.978,
+            8.521,
+            8.722
+          ],
+          [
+            6.09,
+            5.067,
+            5.524,
+            3.842,
+            0.0,
+            3.85,
+            5.582,
+            5.074,
+            6.049,
+            8.67
+          ],
+          [
+            8.513,
+            6.058,
+            5.05,
+            5.442,
+            3.85,
+            0.0,
+            3.846,
+            5.465,
+            5.201,
+            10.746
+          ],
+          [
+            9.797,
+            8.565,
+            6.094,
+            5.129,
+            5.582,
+            3.846,
+            0.0,
+            3.838,
+            5.595,
+            8.898
+          ],
+          [
+            10.32,
+            9.755,
+            8.491,
+            5.978,
+            5.074,
+            5.465,
+            3.838,
+            0.0,
+            3.853,
+            5.681
+          ],
+          [
+            12.105,
+            10.444,
+            9.884,
+            8.521,
+            6.049,
+            5.201,
+            5.595,
+            3.853,
+            0.0,
+            8.642
+          ],
+          [
+            12.144,
+            13.215,
+            12.391,
+            8.722,
+            8.67,
+            10.746,
+            8.898,
+            5.681,
+            8.642,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.9136236546255153,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FANCA-R232K Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9136,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FANCA_R232K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FANCA_R232K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FANCA_R232K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCA_R232K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCA_R232K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCA-R232K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCA-R232K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:01:38.037620+00:00"
     }
   ]
 }
