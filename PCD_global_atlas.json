@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 14,
+  "total_entries": 15,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44396,
-    "queue_remaining": 134201
+    "total_processed": 44397,
+    "queue_remaining": 134200
   },
   "entries": [
     {
@@ -3731,6 +3731,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T02:54:12.303849+00:00"
+    },
+    {
+      "entry_id": "PCD-TH-D467G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TH-D467G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TH",
+        "uniprot": "",
+        "clinvar_id": "304067",
+        "disease": "Autosomal recessive DOPA responsive dystonia",
+        "mutation_precursor": "D467G",
+        "mutation_mature": "D467G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7796438582249251,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 323.1393746771594,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.18484878540039,
+          2.3554880619049072,
+          16.88044548034668
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.602792329030402,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7865090252223048,
+        "cryptic": true,
+        "pocket_residues": {
+          "L409": "L",
+          "C410": "C",
+          "K411": "K",
+          "Q412": "Q",
+          "V416": "V",
+          "A442": "A",
+          "F443": "F",
+          "V464": "V",
+          "S465": "S",
+          "E466": "E",
+          "S467": "S"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P07101|TH variant D467G",
+        "fasta_sequence": "MPTPDATTPQAKGFRRAVSELDAKQAEAIMVRGQGAPGPSLTGSPWPGTAAPAASYTPTPRSPRFIGRRQSLIEDARKEREAAVAAAAAAVPSEPGDPLEAVAFEEKEGKAVLNLLFSPRATKPSALSRAVKVFETFEAKIHHLETRPAQRPRAGGPHLEYFVRLEVRRGDLAALLSGVRQVSEDVRSPAGPKVPWFPRKVSELDKCHHLVTKFDPDLDLDHPGFSDQVYRQRRKLIAEIAFQYRHGDPIPRVEYTAEEIATWKEVYTTLKGLYATHACGEHLEAFALLERFSGYREDNIPQLEDVSRFLKERTGFQLRPVAGLLSARDFLASLAFRVFQCTQYIRHASSPMHSPEPDCCHELLGHVPMLADRTFAQFSQDIGLASLGASDEEIEKLSTLYWFTVEFGLCKQNGEVKAYGAGLLSSYGELLHCLSEEPEIRAFDPEAAAVQPYQDQTYQSVYFVSESFSDAKDKLRSYASRIQRPFSVKFDPYTLAIDVLDSPQAVRRSLEGVQDELDTLAHALSAIG",
+        "full_sequence": "MPTPDATTPQAKGFRRAVSELDAKQAEAIMVRGQGAPGPSLTGSPWPGTAAPAASYTPTPRSPRFIGRRQSLIEDARKEREAAVAAAAAAVPSEPGDPLEAVAFEEKEGKAVLNLLFSPRATKPSALSRAVKVFETFEAKIHHLETRPAQRPRAGGPHLEYFVRLEVRRGDLAALLSGVRQVSEDVRSPAGPKVPWFPRKVSELDKCHHLVTKFDPDLDLDHPGFSDQVYRQRRKLIAEIAFQYRHGDPIPRVEYTAEEIATWKEVYTTLKGLYATHACGEHLEAFALLERFSGYREDNIPQLEDVSRFLKERTGFQLRPVAGLLSARDFLASLAFRVFQCTQYIRHASSPMHSPEPDCCHELLGHVPMLADRTFAQFSQDIGLASLGASDEEIEKLSTLYWFTVEFGLCKQNGEVKAYGAGLLSSYGELLHCLSEEPEIRAFDPEAAAVQPYQDQTYQSVYFVSESFSDAKDKLRSYASRIQRPFSVKFDPYTLAIDVLDSPQAVRRSLEGVQDELDTLAHALSAIG",
+        "n_residues": 528,
+        "mutation_pos_1indexed": 467,
+        "wt_aa": "D",
+        "mut_aa": "G",
+        "pocket_lining_residues": "L409-C410-K411-Q412-V416-A442-F443-V464-S465-E466-S467",
+        "pocket_lining_positions_precursor": [
+          409,
+          410,
+          411,
+          412,
+          416,
+          442,
+          443,
+          464,
+          465,
+          466,
+          467
+        ],
+        "pocket_lining_1letter": "LCKQVAFVSES",
+        "sequence_slice_around_pocket": "TYQSVYFVSESFSDAKDKLR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TH_D467G/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "L409",
+          "C410",
+          "K411",
+          "Q412",
+          "V416",
+          "A442",
+          "F443",
+          "V464",
+          "S465",
+          "E466",
+          "S467"
+        ],
+        "values": [
+          [
+            0.0,
+            3.846,
+            7.135,
+            9.826,
+            6.588,
+            9.38,
+            8.895,
+            4.496,
+            6.149,
+            8.91,
+            9.422
+          ],
+          [
+            3.846,
+            0.0,
+            3.823,
+            6.474,
+            5.647,
+            9.45,
+            9.202,
+            5.046,
+            4.623,
+            5.904,
+            6.149
+          ],
+          [
+            7.135,
+            3.823,
+            0.0,
+            3.829,
+            4.657,
+            10.044,
+            10.918,
+            6.888,
+            6.395,
+            5.264,
+            6.513
+          ],
+          [
+            9.826,
+            6.474,
+            3.829,
+            0.0,
+            6.301,
+            13.835,
+            14.535,
+            10.585,
+            9.674,
+            7.954,
+            7.811
+          ],
+          [
+            6.588,
+            5.647,
+            4.657,
+            6.301,
+            0.0,
+            11.28,
+            12.718,
+            7.625,
+            9.2,
+            9.418,
+            10.8
+          ],
+          [
+            9.38,
+            9.45,
+            10.044,
+            13.835,
+            11.28,
+            0.0,
+            3.841,
+            4.922,
+            6.309,
+            7.865,
+            11.031
+          ],
+          [
+            8.895,
+            9.202,
+            10.918,
+            14.535,
+            12.718,
+            3.841,
+            0.0,
+            5.227,
+            5.161,
+            7.866,
+            9.929
+          ],
+          [
+            4.496,
+            5.046,
+            6.888,
+            10.585,
+            7.625,
+            4.922,
+            5.227,
+            0.0,
+            3.821,
+            6.621,
+            8.744
+          ],
+          [
+            6.149,
+            4.623,
+            6.395,
+            9.674,
+            9.2,
+            6.309,
+            5.161,
+            3.821,
+            0.0,
+            3.844,
+            5.3
+          ],
+          [
+            8.91,
+            5.904,
+            5.264,
+            7.954,
+            9.418,
+            7.865,
+            7.866,
+            6.621,
+            3.844,
+            0.0,
+            3.841
+          ],
+          [
+            9.422,
+            6.149,
+            6.513,
+            7.811,
+            10.8,
+            11.031,
+            9.929,
+            8.744,
+            5.3,
+            3.841,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCCc1nc2ccccc2[nH]1",
+        "composite_score": 0.84025911063228,
+        "mw": 231.14,
+        "logp": 1.804,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 6,
+        "qed": 0.7959,
+        "sa_score": 2.22,
+        "n_heavy_atoms": 17,
+        "tpsa": 71.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TH-D467G Candidate #1",
+        "iupac_name": "NCCC(=O)CCCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8403,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TH_D467G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TH_D467G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TH_D467G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TH_D467G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TH_D467G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TH-D467G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TH-D467G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T02:54:34.419211+00:00"
     }
   ]
 }
