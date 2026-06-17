@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 291,
+  "total_entries": 292,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44720,
-    "queue_remaining": 133877
+    "total_processed": 44721,
+    "queue_remaining": 133876
   },
   "entries": [
     {
@@ -63555,6 +63555,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:20:49.226238+00:00"
+    },
+    {
+      "entry_id": "PCD-UROS-V171A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-UROS-V171A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "UROS",
+        "uniprot": "",
+        "clinvar_id": "299189",
+        "disease": "Cutaneous porphyria",
+        "mutation_precursor": "V171A",
+        "mutation_mature": "V171A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7576302593022868,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 620.9231892334338,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          7.68133544921875,
+          0.05812917649745941,
+          9.523553848266602
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.719309125242736,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7079104973102398,
+        "cryptic": true,
+        "pocket_residues": {
+          "F38": "F",
+          "E39": "E",
+          "N145": "N",
+          "Y168": "Y",
+          "Q169": "Q",
+          "T170": "T",
+          "V171": "V",
+          "A172": "A"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P10746|UROS variant V171A",
+        "fasta_sequence": "MKVLLLKDAKEDDCGQDPYIRELGLYGLEATLIPVLSFEFLSLPSFSEKLSHPEDYGGLIFTSPRAVEAAELCLEQNNKTEVWERSLKEKWNAKSVYVVGNATASLVSKIGLDTEGETCGNAEKLAEYICSRESSALPLLFPCGNLKREILPKALKDKGIAMESITVYQTVAHPGIQGNLNSYYSQQGVPASITFFSPSGLTYSLKHIQELSGDNIDQIKFAAIGPTTARALAAQGLPVSCTAESPTPQALATGIRKALQPHGCC",
+        "full_sequence": "MKVLLLKDAKEDDCGQDPYIRELGLYGLEATLIPVLSFEFLSLPSFSEKLSHPEDYGGLIFTSPRAVEAAELCLEQNNKTEVWERSLKEKWNAKSVYVVGNATASLVSKIGLDTEGETCGNAEKLAEYICSRESSALPLLFPCGNLKREILPKALKDKGIAMESITVYQTVAHPGIQGNLNSYYSQQGVPASITFFSPSGLTYSLKHIQELSGDNIDQIKFAAIGPTTARALAAQGLPVSCTAESPTPQALATGIRKALQPHGCC",
+        "n_residues": 265,
+        "mutation_pos_1indexed": 171,
+        "wt_aa": "V",
+        "mut_aa": "A",
+        "pocket_lining_residues": "F38-E39-N145-Y168-Q169-T170-V171-A172",
+        "pocket_lining_positions_precursor": [
+          38,
+          39,
+          145,
+          168,
+          169,
+          170,
+          171,
+          172
+        ],
+        "pocket_lining_1letter": "FENYQTVA",
+        "sequence_slice_around_pocket": "AMESITVYQTVAHPGIQGNL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/UROS_V171A/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "F38",
+          "E39",
+          "N145",
+          "Y168",
+          "Q169",
+          "T170",
+          "V171",
+          "A172"
+        ],
+        "values": [
+          [
+            0.0,
+            3.77,
+            10.256,
+            6.71,
+            5.51,
+            4.492,
+            5.336,
+            7.856
+          ],
+          [
+            3.77,
+            0.0,
+            10.539,
+            5.566,
+            5.599,
+            6.776,
+            7.02,
+            9.861
+          ],
+          [
+            10.256,
+            10.539,
+            0.0,
+            6.693,
+            5.033,
+            7.024,
+            9.78,
+            13.313
+          ],
+          [
+            6.71,
+            5.566,
+            6.693,
+            0.0,
+            3.782,
+            7.0,
+            9.462,
+            13.116
+          ],
+          [
+            5.51,
+            5.599,
+            5.033,
+            3.782,
+            0.0,
+            3.781,
+            6.206,
+            9.983
+          ],
+          [
+            4.492,
+            6.776,
+            7.024,
+            7.0,
+            3.781,
+            0.0,
+            3.836,
+            7.128
+          ],
+          [
+            5.336,
+            7.02,
+            9.78,
+            9.462,
+            6.206,
+            3.836,
+            0.0,
+            3.799
+          ],
+          [
+            7.856,
+            9.861,
+            13.313,
+            13.116,
+            9.983,
+            7.128,
+            3.799,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCS(=O)(=O)c1ccncc1N1CCCCC1CNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.7973063707894907,
+        "mw": 428.2,
+        "logp": 1.839,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 8,
+        "qed": 0.5011,
+        "sa_score": 3.26,
+        "n_heavy_atoms": 30,
+        "tpsa": 117.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "UROS-V171A Candidate #1",
+        "iupac_name": "NCCS(=O)(=O)c1ccncc1N1CCCCC1CNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.7973,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/UROS_V171A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/UROS_V171A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/UROS_V171A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/UROS_V171A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/UROS_V171A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-UROS-V171A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-UROS-V171A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:21:09.669625+00:00"
     }
   ]
 }
