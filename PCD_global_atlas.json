@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 494,
+  "total_entries": 495,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44957,
-    "queue_remaining": 133640
+    "total_processed": 44958,
+    "queue_remaining": 133639
   },
   "entries": [
     {
@@ -109676,6 +109676,229 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:15:06.414280+00:00"
+    },
+    {
+      "entry_id": "PCD-NOD2-A634P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NOD2-A634P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NOD2",
+        "uniprot": "",
+        "clinvar_id": "319455",
+        "disease": "Blau syndrome",
+        "mutation_precursor": "A634P",
+        "mutation_mature": "A634P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8474506683617286,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 463.27632816904696,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.3940911293029785,
+          -0.1296558380126953,
+          -20.317378997802734
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.6376320244697675,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7427851699785,
+        "cryptic": true,
+        "pocket_residues": {
+          "N631": "N",
+          "C632": "C",
+          "G633": "G",
+          "R634": "R",
+          "P668": "P",
+          "H669": "H",
+          "Q672": "Q",
+          "P737": "P",
+          "G738": "G"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9HC29|NOD2 variant A634P",
+        "fasta_sequence": "MGEEGGSASHDEEERASVLLGHSPGCEMCSQEAFQAQRSQLVELLVSGSLEGFESVLDWLLSWEVLSWEDYEGFHLLGQPLSHLARRLLDTVWNKGTWACQKLIAAAQEAQADSQSPKLHGCWDPHSLHPARDLQSHRPAIVRRLHSHVENMLDLAWERGFVSQYECDEIRLPIFTPSQRARRLLDLATVKANGLAAFLLQHVQELPVPLALPLEAATCKKYMAKLRTTVSAQSRFLSTYDGAETLCLEDIYTENVLEVWADVGMAGPPQKSPATLGLEELFSTPGHLNDDADTVLVVGEAGSGKSTLLQRLHLLWAAGQDFQEFLFVFPFSCRQLQCMAKPLSVRTLLFEHCCWPDVGQEDIFQLLLDHPDRVLLTFDGFDEFKFRFTDRERHCSPTDPTSVQTLLFNLLQGNLLKNARKVVTSRPAAVSAFLRKYIRTEFNLKGFSEQGIELYLRKRHHEPGVADRLIRLLQETSALHGLCHLPVFSWMVSKCHQELLLQEGGSPKTTTDMYLLILQHFLLHATPPDSASQGLGPSLLRGRLPTLLHLGRLALWGLGMCCYVFSAQQLQAAQVSPDDISLGFLVRAKGVVPGSTAPLEFLHITFQCFFAAFYLALSADVPPALLRHLFNCGRPGNSPMARLLPTMCIQASEGKDSSVAALLQKAEPHNLQITAAFLAGLLSREHWGLLAECQTSEKALLRRQACARWCLARSLRKHFHSIPPAAPGEAKSVHAMPGFIWLIRSLYEMQEERLARKAARGLNVGHLKLTFCSVGPTECAALAFVLQHLRRPVALQLDYNSVGDIGVEQLLPCLGVCKALYLRDNNISDRGICKLIECALHCEQLQKLALFNNKLTDGCAHSMAKLLACRQNFLALRLGNNYITAAGAQVLAEGLRGNTSLQFLGFWGNRVGDEGAQALAEALGDHQSLRWLSLVGNNIGSVGAQALALMLAKNVMLEELCLEENHLQDEGVCSLAEGLKKNSSLKILKLSNNCITYLGAEALLQALERNDTILEVWLRGNTFSLEEVDKLGCRDTRLLL",
+        "full_sequence": "MGEEGGSASHDEEERASVLLGHSPGCEMCSQEAFQAQRSQLVELLVSGSLEGFESVLDWLLSWEVLSWEDYEGFHLLGQPLSHLARRLLDTVWNKGTWACQKLIAAAQEAQADSQSPKLHGCWDPHSLHPARDLQSHRPAIVRRLHSHVENMLDLAWERGFVSQYECDEIRLPIFTPSQRARRLLDLATVKANGLAAFLLQHVQELPVPLALPLEAATCKKYMAKLRTTVSAQSRFLSTYDGAETLCLEDIYTENVLEVWADVGMAGPPQKSPATLGLEELFSTPGHLNDDADTVLVVGEAGSGKSTLLQRLHLLWAAGQDFQEFLFVFPFSCRQLQCMAKPLSVRTLLFEHCCWPDVGQEDIFQLLLDHPDRVLLTFDGFDEFKFRFTDRERHCSPTDPTSVQTLLFNLLQGNLLKNARKVVTSRPAAVSAFLRKYIRTEFNLKGFSEQGIELYLRKRHHEPGVADRLIRLLQETSALHGLCHLPVFSWMVSKCHQELLLQEGGSPKTTTDMYLLILQHFLLHATPPDSASQGLGPSLLRGRLPTLLHLGRLALWGLGMCCYVFSAQQLQAAQVSPDDISLGFLVRAKGVVPGSTAPLEFLHITFQCFFAAFYLALSADVPPALLRHLFNCGRPGNSPMARLLPTMCIQASEGKDSSVAALLQKAEPHNLQITAAFLAGLLSREHWGLLAECQTSEKALLRRQACARWCLARSLRKHFHSIPPAAPGEAKSVHAMPGFIWLIRSLYEMQEERLARKAARGLNVGHLKLTFCSVGPTECAALAFVLQHLRRPVALQLDYNSVGDIGVEQLLPCLGVCKALYLRDNNISDRGICKLIECALHCEQLQKLALFNNKLTDGCAHSMAKLLACRQNFLALRLGNNYITAAGAQVLAEGLRGNTSLQFLGFWGNRVGDEGAQALAEALGDHQSLRWLSLVGNNIGSVGAQALALMLAKNVMLEELCLEENHLQDEGVCSLAEGLKKNSSLKILKLSNNCITYLGAEALLQALERNDTILEVWLRGNTFSLEEVDKLGCRDTRLLL",
+        "n_residues": 1040,
+        "mutation_pos_1indexed": 634,
+        "wt_aa": "A",
+        "mut_aa": "P",
+        "pocket_lining_residues": "N631-C632-G633-R634-P668-H669-Q672-P737-G738",
+        "pocket_lining_positions_precursor": [
+          631,
+          632,
+          633,
+          634,
+          668,
+          669,
+          672,
+          737,
+          738
+        ],
+        "pocket_lining_1letter": "NCGRPHQPG",
+        "sequence_slice_around_pocket": "ALLRHLFNCGRPGNSPMARL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_A634P/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "N631",
+          "C632",
+          "G633",
+          "R634",
+          "P668",
+          "H669",
+          "Q672",
+          "P737",
+          "G738"
+        ],
+        "values": [
+          [
+            0.0,
+            3.873,
+            5.514,
+            8.394,
+            9.789,
+            12.072,
+            9.507,
+            13.275,
+            9.475
+          ],
+          [
+            3.873,
+            0.0,
+            3.853,
+            6.644,
+            9.155,
+            11.052,
+            9.48,
+            10.044,
+            6.443
+          ],
+          [
+            5.514,
+            3.853,
+            0.0,
+            3.811,
+            9.609,
+            12.438,
+            11.987,
+            12.392,
+            9.349
+          ],
+          [
+            8.394,
+            6.644,
+            3.811,
+            0.0,
+            8.052,
+            11.186,
+            12.256,
+            12.544,
+            10.267
+          ],
+          [
+            9.789,
+            9.155,
+            9.609,
+            8.052,
+            0.0,
+            3.851,
+            6.174,
+            11.376,
+            9.499
+          ],
+          [
+            12.072,
+            11.052,
+            12.438,
+            11.186,
+            3.851,
+            0.0,
+            4.977,
+            10.005,
+            9.039
+          ],
+          [
+            9.507,
+            9.48,
+            11.987,
+            12.256,
+            6.174,
+            4.977,
+            0.0,
+            10.455,
+            8.205
+          ],
+          [
+            13.275,
+            10.044,
+            12.392,
+            12.544,
+            11.376,
+            10.005,
+            10.455,
+            0.0,
+            3.862
+          ],
+          [
+            9.475,
+            6.443,
+            9.349,
+            10.267,
+            9.499,
+            9.039,
+            8.205,
+            3.862,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.5456617951200601,
+        "mw": 276.18,
+        "logp": 2.016,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 6,
+        "qed": 0.8628,
+        "sa_score": 2.25,
+        "n_heavy_atoms": 20,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NOD2-A634P Candidate #1",
+        "iupac_name": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5457,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_A634P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_A634P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_A634P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_A634P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NOD2_A634P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NOD2-A634P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NOD2-A634P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:15:40.206127+00:00"
     }
   ]
 }
