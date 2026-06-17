@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 953,
+  "total_entries": 954,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45491,
-    "queue_remaining": 133106
+    "total_processed": 45492,
+    "queue_remaining": 133105
   },
   "entries": [
     {
@@ -209510,6 +209510,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:37:04.496647+00:00"
+    },
+    {
+      "entry_id": "PCD-SAMHD1-P26L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SAMHD1-P26L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SAMHD1",
+        "uniprot": "",
+        "clinvar_id": "338350",
+        "disease": "Chilblain lupus 2",
+        "mutation_precursor": "P26L",
+        "mutation_mature": "P26L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8234651680424043,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 373.03218527711067,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.267550468444824,
+          -0.5136064291000366,
+          51.55773162841797
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.984023036178727,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6917967981512795,
+        "cryptic": true,
+        "pocket_residues": {
+          "T25": "T",
+          "P26": "P",
+          "S27": "S",
+          "A28": "A",
+          "E29": "E"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y3Z3|SAMHD1 variant P26L",
+        "fasta_sequence": "MQRADSEQPSKRPRCDDSPRTPSNTPSAEADWSPGLELHPDYKTWGPEQVCSFLRRGGFEEPVLLKNIRENEITGALLPCLDESRFENLGVSSLGERKKLLSYIQRLVQIHVDTMKVINDPIHGHIELHPLLVRIIDTPQFQRLRYIKQLGGGYYVFPGASHNRFEHSLGVGYLAGCLVHALGEKQPELQISERDVLCVQIAGLCHDLGHGPFSHMFDGRFIPLARPEVKWTHEQGSVMMFEHLINSNGIKPVMEQYGLIPEEDICFIKEQIVGPLESPVEDSLWPYKGRPENKSFLYEIVSNKRNGIDVDKWDYFARDCHHLGIQNNFDYKRFIKFARVCEVDNELRICARDKEVGNLYDMFHTRNSLHRRAYQHKVGNIIDTMITDAFLKADDYIEITGAGGKKYRISTAIDDMEAYTKLTDNIFLEILYSTDPKLKDAREILKQIEYRNLFKYVGETQPTGQIKIKREDYESLPKEVASAKPKVLLDVKLKAEDFIVDVINMDYGMQEKNPIDHVSFYCKTAPNRAIRITKNQVSQLLPEKFAEQLIRVYCKKVDRKSLYAARQYFVQWCADRNFTKPQDGDVIAPLITPQKKEWNDSTSVQNPTRLREASKSRVQLFKDDPM",
+        "full_sequence": "MQRADSEQPSKRPRCDDSPRTPSNTPSAEADWSPGLELHPDYKTWGPEQVCSFLRRGGFEEPVLLKNIRENEITGALLPCLDESRFENLGVSSLGERKKLLSYIQRLVQIHVDTMKVINDPIHGHIELHPLLVRIIDTPQFQRLRYIKQLGGGYYVFPGASHNRFEHSLGVGYLAGCLVHALGEKQPELQISERDVLCVQIAGLCHDLGHGPFSHMFDGRFIPLARPEVKWTHEQGSVMMFEHLINSNGIKPVMEQYGLIPEEDICFIKEQIVGPLESPVEDSLWPYKGRPENKSFLYEIVSNKRNGIDVDKWDYFARDCHHLGIQNNFDYKRFIKFARVCEVDNELRICARDKEVGNLYDMFHTRNSLHRRAYQHKVGNIIDTMITDAFLKADDYIEITGAGGKKYRISTAIDDMEAYTKLTDNIFLEILYSTDPKLKDAREILKQIEYRNLFKYVGETQPTGQIKIKREDYESLPKEVASAKPKVLLDVKLKAEDFIVDVINMDYGMQEKNPIDHVSFYCKTAPNRAIRITKNQVSQLLPEKFAEQLIRVYCKKVDRKSLYAARQYFVQWCADRNFTKPQDGDVIAPLITPQKKEWNDSTSVQNPTRLREASKSRVQLFKDDPM",
+        "n_residues": 626,
+        "mutation_pos_1indexed": 26,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "T25-P26-S27-A28-E29",
+        "pocket_lining_positions_precursor": [
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "pocket_lining_1letter": "TPSAE",
+        "sequence_slice_around_pocket": "DDSPRTPSNTPSAEADWSPG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_P26L/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "T25",
+          "P26",
+          "S27",
+          "A28",
+          "E29"
+        ],
+        "values": [
+          [
+            0.0,
+            3.574,
+            7.394,
+            10.305,
+            13.252
+          ],
+          [
+            3.574,
+            0.0,
+            3.841,
+            6.989,
+            9.771
+          ],
+          [
+            7.394,
+            3.841,
+            0.0,
+            3.738,
+            5.975
+          ],
+          [
+            10.305,
+            6.989,
+            3.738,
+            0.0,
+            3.804
+          ],
+          [
+            13.252,
+            9.771,
+            5.975,
+            3.804,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)c(C(N)=O)c1N1CCCCC1",
+        "composite_score": 0.7421047538804874,
+        "mw": 263.16,
+        "logp": 1.826,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 4,
+        "qed": 0.8693,
+        "sa_score": 2.31,
+        "n_heavy_atoms": 19,
+        "tpsa": 67.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SAMHD1-P26L Candidate #1",
+        "iupac_name": "CNc1ccc(OC)c(C(N)=O)c1N1CCCCC1",
+        "pocket_affinity_score": 0.7421,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_P26L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_P26L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_P26L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_P26L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_P26L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SAMHD1-P26L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SAMHD1-P26L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:37:30.734130+00:00"
     }
   ]
 }
