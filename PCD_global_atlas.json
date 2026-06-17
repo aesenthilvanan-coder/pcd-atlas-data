@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 631,
+  "total_entries": 632,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45125,
-    "queue_remaining": 133472
+    "total_processed": 45126,
+    "queue_remaining": 133471
   },
   "entries": [
     {
@@ -140024,6 +140024,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:08:58.497787+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC25A15-G189S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC25A15-G189S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC25A15",
+        "uniprot": "",
+        "clinvar_id": "312181",
+        "disease": "Hyperornithinemia-hyperammonemia-homocitrullinuria syndrome",
+        "mutation_precursor": "G189S",
+        "mutation_mature": "G189S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9477922592914327,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 370.2626383657524,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.45194149017334,
+          2.6810483932495117,
+          -16.16571807861328
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.744853060529441,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8478696242844798,
+        "cryptic": true,
+        "pocket_residues": {
+          "F185": "F",
+          "F186": "F",
+          "F187": "F",
+          "F188": "F",
+          "G189": "G",
+          "G190": "G"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y619|SLC25A15 variant G189S",
+        "fasta_sequence": "MKSNPAIQAAIDLTAGAAGGTACVLTGQPFDTMKVKMQTFPDLYRGLTDCCLKTYSQVGFRGFYKGTSPALIANIAENSVLFMCYGFCQQVVRKVAGLDKQAKLSDLQNAAAGSFASAFAALVLCPTELVKCRLQTMYEMETSGKIAKSQNTVWSVIKSILRKDGPLGFYHGLSSTLLREVPGYFFFFGGYELSRSFFASGRSKDELGPVPLMLSGGVGGICLWLAVYPVDCIKSRIQVLSMSGKQAGFIRTFINVVKNEGITALYSGLKPTMIRAFPANGALFLAYEYSRKLMMNQLEAY",
+        "full_sequence": "MKSNPAIQAAIDLTAGAAGGTACVLTGQPFDTMKVKMQTFPDLYRGLTDCCLKTYSQVGFRGFYKGTSPALIANIAENSVLFMCYGFCQQVVRKVAGLDKQAKLSDLQNAAAGSFASAFAALVLCPTELVKCRLQTMYEMETSGKIAKSQNTVWSVIKSILRKDGPLGFYHGLSSTLLREVPGYFFFFGGYELSRSFFASGRSKDELGPVPLMLSGGVGGICLWLAVYPVDCIKSRIQVLSMSGKQAGFIRTFINVVKNEGITALYSGLKPTMIRAFPANGALFLAYEYSRKLMMNQLEAY",
+        "n_residues": 301,
+        "mutation_pos_1indexed": 189,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "F185-F186-F187-F188-G189-G190",
+        "pocket_lining_positions_precursor": [
+          185,
+          186,
+          187,
+          188,
+          189,
+          190
+        ],
+        "pocket_lining_1letter": "FFFFGG",
+        "sequence_slice_around_pocket": "REVPGYFFFFGGYELSRSFF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC25A15_G189S/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "F185",
+          "F186",
+          "F187",
+          "F188",
+          "G189",
+          "G190"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            5.529,
+            5.491,
+            5.988,
+            8.595
+          ],
+          [
+            3.859,
+            0.0,
+            3.84,
+            5.531,
+            4.854,
+            5.905
+          ],
+          [
+            5.529,
+            3.84,
+            0.0,
+            3.809,
+            5.55,
+            5.374
+          ],
+          [
+            5.491,
+            5.531,
+            3.809,
+            0.0,
+            3.841,
+            5.435
+          ],
+          [
+            5.988,
+            4.854,
+            5.55,
+            3.841,
+            0.0,
+            3.846
+          ],
+          [
+            8.595,
+            5.905,
+            5.374,
+            5.435,
+            3.846,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)CCCc1nc2ccccc2[nH]1",
+        "composite_score": 0.709824374192883,
+        "mw": 245.15,
+        "logp": 2.194,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7851,
+        "sa_score": 2.19,
+        "n_heavy_atoms": 18,
+        "tpsa": 71.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC25A15-G189S Candidate #1",
+        "iupac_name": "NCCCC(=O)CCCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.7098,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC25A15_G189S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC25A15_G189S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC25A15_G189S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC25A15_G189S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC25A15_G189S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC25A15-G189S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC25A15-G189S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:09:19.570311+00:00"
     }
   ]
 }
