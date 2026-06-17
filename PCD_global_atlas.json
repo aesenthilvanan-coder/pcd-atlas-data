@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1271,
+  "total_entries": 1272,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45872,
-    "queue_remaining": 132725
+    "total_processed": 45873,
+    "queue_remaining": 132724
   },
   "entries": [
     {
@@ -281273,6 +281273,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:32:23.412432+00:00"
+    },
+    {
+      "entry_id": "PCD-ABAT-R187S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABAT-R187S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ABAT",
+        "uniprot": "",
+        "clinvar_id": "321076",
+        "disease": "Gamma-aminobutyric acid transaminase deficiency",
+        "mutation_precursor": "R187S",
+        "mutation_mature": "R187S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9049166774143219,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 435.2822631126839,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -24.626379013061523,
+          -2.495253086090088,
+          25.94902801513672
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.0733505299245154,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.678166755381791,
+        "cryptic": true,
+        "pocket_residues": {
+          "S181": "S",
+          "K182": "K",
+          "E183": "E",
+          "R184": "R",
+          "G185": "G",
+          "Q186": "Q",
+          "R187": "R",
+          "G188": "G",
+          "F189": "F"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P80404|ABAT variant R187S",
+        "fasta_sequence": "MASMLLAQRLACSFQHSYRLLVPGSRHISQAAAKVDVEFDYDGPLMKTEVPGPRSQELMKQLNIIQNAEAVHFFCNYEESRGNYLVDVDGNRMLDLYSQISSVPIGYSHPALLKLIQQPQNASMFVNRPALGILPPENFVEKLRQSLLSVAPKGMSQLITMACGSCSNENALKTIFMWYRSKERGQRGFSQEELETCMINQAPGCPDYSILSFMGAFHGRTMGCLATTHSKAIHKIDIPSFDWPIAPFPRLKYPLEEFVKENQQEEARCLEEVEDLIVKYRKKKKTVAGIIVEPIQSEGGDNHASDDFFRKLRDIARKHGCAFLVDEVQTGGGCTGKFWAHEHWGLDDPADVMTFSKKMMTGGFFHKEEFRPNAPYRIFNTWLGDPSKNLLLAEVINIIKREDLLNNAAHAGKALLTGLLDLQARYPQFISRVRGRGTFCSFDTPDDSIRNKLILIARNKGVVLGGCGDKSIRFRPTLVFRDHHAHLFLNIFSDILADFK",
+        "full_sequence": "MASMLLAQRLACSFQHSYRLLVPGSRHISQAAAKVDVEFDYDGPLMKTEVPGPRSQELMKQLNIIQNAEAVHFFCNYEESRGNYLVDVDGNRMLDLYSQISSVPIGYSHPALLKLIQQPQNASMFVNRPALGILPPENFVEKLRQSLLSVAPKGMSQLITMACGSCSNENALKTIFMWYRSKERGQRGFSQEELETCMINQAPGCPDYSILSFMGAFHGRTMGCLATTHSKAIHKIDIPSFDWPIAPFPRLKYPLEEFVKENQQEEARCLEEVEDLIVKYRKKKKTVAGIIVEPIQSEGGDNHASDDFFRKLRDIARKHGCAFLVDEVQTGGGCTGKFWAHEHWGLDDPADVMTFSKKMMTGGFFHKEEFRPNAPYRIFNTWLGDPSKNLLLAEVINIIKREDLLNNAAHAGKALLTGLLDLQARYPQFISRVRGRGTFCSFDTPDDSIRNKLILIARNKGVVLGGCGDKSIRFRPTLVFRDHHAHLFLNIFSDILADFK",
+        "n_residues": 500,
+        "mutation_pos_1indexed": 187,
+        "wt_aa": "R",
+        "mut_aa": "S",
+        "pocket_lining_residues": "S181-K182-E183-R184-G185-Q186-R187-G188-F189",
+        "pocket_lining_positions_precursor": [
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189
+        ],
+        "pocket_lining_1letter": "SKERGQRGF",
+        "sequence_slice_around_pocket": "MWYRSKERGQRGFSQEELET"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ABAT_R187S/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "S181",
+          "K182",
+          "E183",
+          "R184",
+          "G185",
+          "Q186",
+          "R187",
+          "G188",
+          "F189"
+        ],
+        "values": [
+          [
+            0.0,
+            3.855,
+            5.547,
+            5.181,
+            5.697,
+            7.789,
+            8.636,
+            9.499,
+            9.776
+          ],
+          [
+            3.855,
+            0.0,
+            3.854,
+            5.656,
+            5.363,
+            8.69,
+            10.222,
+            12.198,
+            12.831
+          ],
+          [
+            5.547,
+            3.854,
+            0.0,
+            3.856,
+            5.789,
+            9.45,
+            9.652,
+            11.766,
+            11.787
+          ],
+          [
+            5.181,
+            5.656,
+            3.856,
+            0.0,
+            3.856,
+            6.578,
+            5.901,
+            8.035,
+            8.476
+          ],
+          [
+            5.697,
+            5.363,
+            5.789,
+            3.856,
+            0.0,
+            3.85,
+            5.558,
+            8.56,
+            10.436
+          ],
+          [
+            7.789,
+            8.69,
+            9.45,
+            6.578,
+            3.85,
+            0.0,
+            3.866,
+            6.666,
+            9.72
+          ],
+          [
+            8.636,
+            10.222,
+            9.652,
+            5.901,
+            5.558,
+            3.866,
+            0.0,
+            3.821,
+            6.681
+          ],
+          [
+            9.499,
+            12.198,
+            11.766,
+            8.035,
+            8.56,
+            6.666,
+            3.821,
+            0.0,
+            3.831
+          ],
+          [
+            9.776,
+            12.831,
+            11.787,
+            8.476,
+            10.436,
+            9.72,
+            6.681,
+            3.831,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccccc1N1C(O)CCCC1N1CCCCC1",
+        "composite_score": 0.7725630131606549,
+        "mw": 303.19,
+        "logp": 1.906,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.8947,
+        "sa_score": 3.29,
+        "n_heavy_atoms": 22,
+        "tpsa": 69.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ABAT-R187S Candidate #1",
+        "iupac_name": "NC(=O)c1ccccc1N1C(O)CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7726,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ABAT_R187S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ABAT_R187S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ABAT_R187S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ABAT_R187S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ABAT_R187S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABAT-R187S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABAT-R187S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:32:47.118445+00:00"
     }
   ]
 }
