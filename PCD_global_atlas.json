@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 460,
+  "total_entries": 461,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44916,
-    "queue_remaining": 133681
+    "total_processed": 44918,
+    "queue_remaining": 133679
   },
   "entries": [
     {
@@ -101831,6 +101831,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:46:30.472975+00:00"
+    },
+    {
+      "entry_id": "PCD-CD3E-D71H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CD3E-D71H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CD3E",
+        "uniprot": "",
+        "clinvar_id": "302662",
+        "disease": "Immunodeficiency 18",
+        "mutation_precursor": "D71H",
+        "mutation_mature": "D71H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9044137692699837,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 592.1817627030867,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          14.31406021118164,
+          -16.01043128967285,
+          -18.15636444091797
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.190667131998365,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6542655588745765,
+        "cryptic": true,
+        "pocket_residues": {
+          "D69": "D",
+          "E70": "E",
+          "D71": "D",
+          "D72": "D",
+          "K73": "K"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P07766|CD3E variant D71H",
+        "fasta_sequence": "MQSGTHWRVLGLCLLSVGVWGQDGNEEMGGITQTPYKVSISGTTVILTCPQYPGSEILWQHNDKNIGGDEDDKNIGSDEDHLSLKEFSELEQSGYYVCYPRGSKPEDANFYLYLRARVCENCMEMDVMSVATIVIVDICITGGLLLLVYYWSKNRKAKAKPVTRGAGAGGRQRGQNKERPPPVPNPDYEPIRKGQRDLYSGLNQRRI",
+        "full_sequence": "MQSGTHWRVLGLCLLSVGVWGQDGNEEMGGITQTPYKVSISGTTVILTCPQYPGSEILWQHNDKNIGGDEDDKNIGSDEDHLSLKEFSELEQSGYYVCYPRGSKPEDANFYLYLRARVCENCMEMDVMSVATIVIVDICITGGLLLLVYYWSKNRKAKAKPVTRGAGAGGRQRGQNKERPPPVPNPDYEPIRKGQRDLYSGLNQRRI",
+        "n_residues": 207,
+        "mutation_pos_1indexed": 71,
+        "wt_aa": "D",
+        "mut_aa": "H",
+        "pocket_lining_residues": "D69-E70-D71-D72-K73",
+        "pocket_lining_positions_precursor": [
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "pocket_lining_1letter": "DEDDK",
+        "sequence_slice_around_pocket": "HNDKNIGGDEDDKNIGSDED"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CD3E_D71H/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "D69",
+          "E70",
+          "D71",
+          "D72",
+          "K73"
+        ],
+        "values": [
+          [
+            0.0,
+            3.852,
+            6.625,
+            8.087,
+            8.44
+          ],
+          [
+            3.852,
+            0.0,
+            3.849,
+            5.461,
+            7.498
+          ],
+          [
+            6.625,
+            3.849,
+            0.0,
+            3.839,
+            6.166
+          ],
+          [
+            8.087,
+            5.461,
+            3.839,
+            0.0,
+            3.839
+          ],
+          [
+            8.44,
+            7.498,
+            6.166,
+            3.839,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COC1CCCC(N2CCCCC2)N1c1cnccc1NCCC(N)=O",
+        "composite_score": 0.7374034202841876,
+        "mw": 361.25,
+        "logp": 2.144,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.7741,
+        "sa_score": 3.65,
+        "n_heavy_atoms": 26,
+        "tpsa": 83.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CD3E-D71H Candidate #1",
+        "iupac_name": "COC1CCCC(N2CCCCC2)N1c1cnccc1NCCC(N)=O",
+        "pocket_affinity_score": 0.7374,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CD3E_D71H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CD3E_D71H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CD3E_D71H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CD3E_D71H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CD3E_D71H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CD3E-D71H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CD3E-D71H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:47:03.754798+00:00"
     }
   ]
 }
