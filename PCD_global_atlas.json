@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1354,
+  "total_entries": 1355,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45984,
-    "queue_remaining": 132613
+    "total_processed": 45987,
+    "queue_remaining": 132610
   },
   "entries": [
     {
@@ -299853,6 +299853,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:43:18.495942+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT9-G96S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT9-G96S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT9",
+        "uniprot": "",
+        "clinvar_id": "323138",
+        "disease": "Palmoplantar keratoderma, epidermolytic",
+        "mutation_precursor": "G96S",
+        "mutation_mature": "G96S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9472600324517728,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 497.310847129878,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -10.325029373168945,
+          -30.408287048339844,
+          -18.528722763061523
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.8187260512731855,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8578036710885291,
+        "cryptic": true,
+        "pocket_residues": {
+          "S94": "S",
+          "R95": "R",
+          "G96": "G",
+          "F97": "F"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P35527|KRT9 variant G96S",
+        "fasta_sequence": "MSCRQFSSSYLSRSGGGGGGGLGSGGSIRSSYSRFSSSGGGGGGGRFSSSSGYGGGSSRVCGRGGGGSFGYSYGGGSGGGFSASSLGGGFGGGSRGFGGASGGGYSSSGGFGGGFGGGSGGGFGGGYGSGFGGFGGFGGGAGGGDGGILTANEKSTMQELNSRLASYLDKVQALEEANNDLENKIQDWYDKKGPAAIQKNYSPYYNTIDDLKDQIVDLTVGNNKTLLDIDNTRMTLDDFRIKFEMEQNLRQGVDADINGLRQVLDNLTMEKSDLEMQYETLQEELMALKKNHKEEMSQLTGQNSGDVNVEINVAPGKDLTKTLNDMRQEYEQLIAKNRKDIENQYETQITQIEHEVSSSGQEVQSSAKEVTQLRHGVQELEIELQSQLSKKAALEKSLEDTKNRYCGQLQMIQEQISNLEAQITDVRQEIECQNQEYSLLLSIKMRLEKEIETYHNLLEGGQEDFESSGAGKIGLGGRGGSGGSYGRGSRGGSGGSYGGGGSGGGYGGGSGSRGGSGGSYGGGSGSGGGSGGGYGGGSGGGHSGGSGGGHSGGSGGNYGGGSGSGGGSGGGYGGGSGSRGGSGGSHGGGSGFGGESGGSYGGGEEASGSGGGYGGGSGKSSHS",
+        "full_sequence": "MSCRQFSSSYLSRSGGGGGGGLGSGGSIRSSYSRFSSSGGGGGGGRFSSSSGYGGGSSRVCGRGGGGSFGYSYGGGSGGGFSASSLGGGFGGGSRGFGGASGGGYSSSGGFGGGFGGGSGGGFGGGYGSGFGGFGGFGGGAGGGDGGILTANEKSTMQELNSRLASYLDKVQALEEANNDLENKIQDWYDKKGPAAIQKNYSPYYNTIDDLKDQIVDLTVGNNKTLLDIDNTRMTLDDFRIKFEMEQNLRQGVDADINGLRQVLDNLTMEKSDLEMQYETLQEELMALKKNHKEEMSQLTGQNSGDVNVEINVAPGKDLTKTLNDMRQEYEQLIAKNRKDIENQYETQITQIEHEVSSSGQEVQSSAKEVTQLRHGVQELEIELQSQLSKKAALEKSLEDTKNRYCGQLQMIQEQISNLEAQITDVRQEIECQNQEYSLLLSIKMRLEKEIETYHNLLEGGQEDFESSGAGKIGLGGRGGSGGSYGRGSRGGSGGSYGGGGSGGGYGGGSGSRGGSGGSYGGGSGSGGGSGGGYGGGSGGGHSGGSGGGHSGGSGGNYGGGSGSGGGSGGGYGGGSGSRGGSGGSHGGGSGFGGESGGSYGGGEEASGSGGGYGGGSGKSSHS",
+        "n_residues": 623,
+        "mutation_pos_1indexed": 96,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "S94-R95-G96-F97",
+        "pocket_lining_positions_precursor": [
+          94,
+          95,
+          96,
+          97
+        ],
+        "pocket_lining_1letter": "SRGF",
+        "sequence_slice_around_pocket": "LGGGFGGGSRGFGGASGGGY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT9_G96S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "S94",
+          "R95",
+          "G96",
+          "F97"
+        ],
+        "values": [
+          [
+            0.0,
+            3.839,
+            5.832,
+            9.01
+          ],
+          [
+            3.839,
+            0.0,
+            3.777,
+            6.844
+          ],
+          [
+            5.832,
+            3.777,
+            0.0,
+            3.769
+          ],
+          [
+            9.01,
+            6.844,
+            3.769,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(OCC(=O)OC2CCCCN2c2cnccc2N)cc1",
+        "composite_score": 0.573628060173358,
+        "mw": 356.18,
+        "logp": 2.061,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.7635,
+        "sa_score": 3.07,
+        "n_heavy_atoms": 26,
+        "tpsa": 103.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT9-G96S Candidate #1",
+        "iupac_name": "NCc1ccc(OCC(=O)OC2CCCCN2c2cnccc2N)cc1",
+        "pocket_affinity_score": 0.5736,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT9_G96S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT9_G96S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT9_G96S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT9_G96S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT9_G96S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT9-G96S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT9-G96S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:44:08.412780+00:00"
     }
   ]
 }
