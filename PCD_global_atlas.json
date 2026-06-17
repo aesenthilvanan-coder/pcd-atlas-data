@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 62,
+  "total_entries": 63,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44458,
-    "queue_remaining": 134139
+    "total_processed": 44462,
+    "queue_remaining": 134135
   },
   "entries": [
     {
@@ -14381,6 +14381,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:31:03.863887+00:00"
+    },
+    {
+      "entry_id": "PCD-DHCR7-G425S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DHCR7-G425S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DHCR7",
+        "uniprot": "",
+        "clinvar_id": "305953",
+        "disease": "Smith-Lemli-Opitz syndrome",
+        "mutation_precursor": "G425S",
+        "mutation_mature": "G425S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8528085402859549,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 603.0185158707695,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -10.726398468017578,
+          11.665201187133789,
+          19.515806198120117
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.0772506003626505,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7435609366516751,
+        "cryptic": true,
+        "pocket_residues": {
+          "H328": "H",
+          "V330": "V",
+          "C422": "C",
+          "G423": "G",
+          "G424": "G",
+          "G425": "G",
+          "H426": "H"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UBM7|DHCR7 variant G425S",
+        "fasta_sequence": "MAAKSQPNIPKAKSLDGVTNDRTASQGQWGRAWEVDWFSLASVIFLLLFAPFIVYYFIMACDQYSCALTGPVVDIVTGHARLSDIWAKTPPITRKAAQLYTLWVTFQVLLYTSLPDFCHKFLPGYVGGIQEGAVTPAGVVNKYQINGLQAWLLTHLLWFANAHLLSWFSPTIIFDNWIPLLWCANILGYAVSTFAMVKGYFFPTSARDCKFTGNFFYNYMMGIEFNPRIGKWFDFKLFFNGRPGIVAWTLINLSFAAKQRELHSHVTNAMVLVNVLQAIYVIDFFWNETWYLKTIDICHDHFGWYLGWGDCVWLPYLYTLQGLYLVYHPVQLSTPHAVGVLLLGLVGYYIFRVANHQKDLFRRTDGRCLIWGRKPKVIECSYTSADGQRHHSKLLVSGFWGVARHFNYVGDLMGSLAYCLACGGGHLLPYFYIIYMAILLTHRCLRDEHRCASKYGRDWERYTAAVPYRLLPGIF",
+        "full_sequence": "MAAKSQPNIPKAKSLDGVTNDRTASQGQWGRAWEVDWFSLASVIFLLLFAPFIVYYFIMACDQYSCALTGPVVDIVTGHARLSDIWAKTPPITRKAAQLYTLWVTFQVLLYTSLPDFCHKFLPGYVGGIQEGAVTPAGVVNKYQINGLQAWLLTHLLWFANAHLLSWFSPTIIFDNWIPLLWCANILGYAVSTFAMVKGYFFPTSARDCKFTGNFFYNYMMGIEFNPRIGKWFDFKLFFNGRPGIVAWTLINLSFAAKQRELHSHVTNAMVLVNVLQAIYVIDFFWNETWYLKTIDICHDHFGWYLGWGDCVWLPYLYTLQGLYLVYHPVQLSTPHAVGVLLLGLVGYYIFRVANHQKDLFRRTDGRCLIWGRKPKVIECSYTSADGQRHHSKLLVSGFWGVARHFNYVGDLMGSLAYCLACGGGHLLPYFYIIYMAILLTHRCLRDEHRCASKYGRDWERYTAAVPYRLLPGIF",
+        "n_residues": 475,
+        "mutation_pos_1indexed": 425,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "H328-V330-C422-G423-G424-G425-H426",
+        "pocket_lining_positions_precursor": [
+          328,
+          330,
+          422,
+          423,
+          424,
+          425,
+          426
+        ],
+        "pocket_lining_1letter": "HVCGGGH",
+        "sequence_slice_around_pocket": "SLAYCLACGGGHLLPYFYII"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_G425S/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "H328",
+          "V330",
+          "C422",
+          "G423",
+          "G424",
+          "G425",
+          "H426"
+        ],
+        "values": [
+          [
+            0.0,
+            5.727,
+            8.308,
+            9.805,
+            11.458,
+            9.381,
+            9.825
+          ],
+          [
+            5.727,
+            0.0,
+            6.407,
+            7.131,
+            10.19,
+            9.815,
+            11.641
+          ],
+          [
+            8.308,
+            6.407,
+            0.0,
+            3.86,
+            6.805,
+            8.0,
+            8.405
+          ],
+          [
+            9.805,
+            7.131,
+            3.86,
+            0.0,
+            3.851,
+            6.03,
+            7.918
+          ],
+          [
+            11.458,
+            10.19,
+            6.805,
+            3.851,
+            0.0,
+            3.855,
+            5.862
+          ],
+          [
+            9.381,
+            9.815,
+            8.0,
+            6.03,
+            3.855,
+            0.0,
+            3.853
+          ],
+          [
+            9.825,
+            11.641,
+            8.405,
+            7.918,
+            5.862,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5384779127204005,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DHCR7-G425S Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5385,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_G425S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_G425S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_G425S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_G425S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_G425S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DHCR7-G425S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DHCR7-G425S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:33:04.384079+00:00"
     }
   ]
 }
