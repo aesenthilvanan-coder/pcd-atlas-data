@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 401,
+  "total_entries": 402,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44854,
-    "queue_remaining": 133743
+    "total_processed": 44855,
+    "queue_remaining": 133742
   },
   "entries": [
     {
@@ -88215,6 +88215,207 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:00:24.878247+00:00"
+    },
+    {
+      "entry_id": "PCD-CDHR1-A328V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDHR1-A328V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CDHR1",
+        "uniprot": "",
+        "clinvar_id": "301231",
+        "disease": "Cone-rod dystrophy 15",
+        "mutation_precursor": "A328V",
+        "mutation_mature": "A328V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9428275490886076,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 627.1245437365411,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          31.494749069213867,
+          14.593031883239746,
+          -40.631492614746094
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.702976028515773,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6309252215900373,
+        "cryptic": true,
+        "pocket_residues": {
+          "N279": "N",
+          "R280": "R",
+          "M325": "M",
+          "S326": "S",
+          "P327": "P",
+          "A328": "A",
+          "G329": "G",
+          "S330": "S"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96JP9|CDHR1 variant A328V",
+        "fasta_sequence": "MRRCRWAALALGLLRLCLAQANFAPHFFDNGVGSTNGNMALFSLPEDTPVGSHVYTLNGTDPEGDPISYHISFDPSTRSVFSVDPTFGNITLVEELDREREDEIEAIISISDGLNLVAEKVVILVTDANDEAPRFIQEPYVALVPEDIPAGSIIFKVHAVDRDTGSGGSVTYFLQNLHSPFAVDRHSGVLRLQAGATLDYERSRTHYITVVAKDGGGRLHGADVVFSATTTVTVNVEDVQDMAPVFVGTPYYGYVYEDTLPGSEVLKVVAMDGDRGKPNRILYSLVNGNDGAFEINETSGAISITQSPAQLQREVYELHVQVTEMSPAGSPAAQATVPVTIRIVDLNNHPPTFYGESGPQNRFELSMNEHPPQGEILRGLKITVNDSDQGANAKFNLQLVGPRGIFRVVPQTVLNEAQVTIIVENSAAIDFEKSKVLTFKLLAVEVNTPEKFSSTADVVIQLLDTNDNVPKFDSLYYVARIPENAPGGSSVVAVTAVDPDTGPWGEVKYSTYGTGADLFLIHPSTGLIYTQPWASLDAEATARYNFYVKAEDMEGKYSVAEVFITLLDVNDHPPQFGKSVQKKTMVLGTPVKIEAIDEDAEEPNNLVDYSITHAEPANVFDINSHTGEIWLKNSIRSLDALHNITPGRDCLWSLEVQAKDRGSPSFSTTALLKIDITDAETLSRSPMAAFLIQTKDNPMKAVGVLAGTMATVVAITVLISTATFWRNKKSNKVLPMRRVLRKRPSPAPRTIRIEWLKSKSTKAATKFMLKEKPPNENCNNNSPESSLLPRAPALPPPPSVAPSTGAAQWTVPTVSGSLTPQPTQPPPKPKTMGSPVQSTLISELKQKFEKKSVHNKAYF",
+        "full_sequence": "MRRCRWAALALGLLRLCLAQANFAPHFFDNGVGSTNGNMALFSLPEDTPVGSHVYTLNGTDPEGDPISYHISFDPSTRSVFSVDPTFGNITLVEELDREREDEIEAIISISDGLNLVAEKVVILVTDANDEAPRFIQEPYVALVPEDIPAGSIIFKVHAVDRDTGSGGSVTYFLQNLHSPFAVDRHSGVLRLQAGATLDYERSRTHYITVVAKDGGGRLHGADVVFSATTTVTVNVEDVQDMAPVFVGTPYYGYVYEDTLPGSEVLKVVAMDGDRGKPNRILYSLVNGNDGAFEINETSGAISITQSPAQLQREVYELHVQVTEMSPAGSPAAQATVPVTIRIVDLNNHPPTFYGESGPQNRFELSMNEHPPQGEILRGLKITVNDSDQGANAKFNLQLVGPRGIFRVVPQTVLNEAQVTIIVENSAAIDFEKSKVLTFKLLAVEVNTPEKFSSTADVVIQLLDTNDNVPKFDSLYYVARIPENAPGGSSVVAVTAVDPDTGPWGEVKYSTYGTGADLFLIHPSTGLIYTQPWASLDAEATARYNFYVKAEDMEGKYSVAEVFITLLDVNDHPPQFGKSVQKKTMVLGTPVKIEAIDEDAEEPNNLVDYSITHAEPANVFDINSHTGEIWLKNSIRSLDALHNITPGRDCLWSLEVQAKDRGSPSFSTTALLKIDITDAETLSRSPMAAFLIQTKDNPMKAVGVLAGTMATVVAITVLISTATFWRNKKSNKVLPMRRVLRKRPSPAPRTIRIEWLKSKSTKAATKFMLKEKPPNENCNNNSPESSLLPRAPALPPPPSVAPSTGAAQWTVPTVSGSLTPQPTQPPPKPKTMGSPVQSTLISELKQKFEKKSVHNKAYF",
+        "n_residues": 859,
+        "mutation_pos_1indexed": 328,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "N279-R280-M325-S326-P327-A328-G329-S330",
+        "pocket_lining_positions_precursor": [
+          279,
+          280,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330
+        ],
+        "pocket_lining_1letter": "NRMSPAGS",
+        "sequence_slice_around_pocket": "LHVQVTEMSPAGSPAAQATV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_A328V/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "N279",
+          "R280",
+          "M325",
+          "S326",
+          "P327",
+          "A328",
+          "G329",
+          "S330"
+        ],
+        "values": [
+          [
+            0.0,
+            3.821,
+            6.246,
+            6.362,
+            7.314,
+            10.679,
+            10.006,
+            11.265
+          ],
+          [
+            3.821,
+            0.0,
+            5.579,
+            7.481,
+            8.302,
+            11.08,
+            9.243,
+            11.02
+          ],
+          [
+            6.246,
+            5.579,
+            0.0,
+            3.792,
+            6.602,
+            7.72,
+            5.317,
+            5.67
+          ],
+          [
+            6.362,
+            7.481,
+            3.792,
+            0.0,
+            3.866,
+            5.276,
+            5.061,
+            5.499
+          ],
+          [
+            7.314,
+            8.302,
+            6.602,
+            3.866,
+            0.0,
+            3.865,
+            5.408,
+            7.702
+          ],
+          [
+            10.679,
+            11.08,
+            7.72,
+            5.276,
+            3.865,
+            0.0,
+            3.861,
+            5.778
+          ],
+          [
+            10.006,
+            9.243,
+            5.317,
+            5.061,
+            5.408,
+            3.861,
+            0.0,
+            3.848
+          ],
+          [
+            11.265,
+            11.02,
+            5.67,
+            5.499,
+            7.702,
+            5.778,
+            3.848,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCc1ccc(OC)c(N2CCCCC2)c1N1CC(=O)CCC1O",
+        "composite_score": 0.5511879257359783,
+        "mw": 361.24,
+        "logp": 1.935,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.8073,
+        "sa_score": 3.35,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CDHR1-A328V Candidate #1",
+        "iupac_name": "CNCCc1ccc(OC)c(N2CCCCC2)c1N1CC(=O)CCC1O",
+        "pocket_affinity_score": 0.5512,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_A328V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_A328V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_A328V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_A328V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDHR1_A328V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDHR1-A328V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDHR1-A328V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:00:54.322736+00:00"
     }
   ]
 }
