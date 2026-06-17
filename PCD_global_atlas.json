@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 870,
+  "total_entries": 871,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45394,
-    "queue_remaining": 133203
+    "total_processed": 45395,
+    "queue_remaining": 133202
   },
   "entries": [
     {
@@ -191401,6 +191401,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:26:57.411282+00:00"
+    },
+    {
+      "entry_id": "PCD-NDE1-R234C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDE1-R234C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NDE1",
+        "uniprot": "",
+        "clinvar_id": "318063",
+        "disease": "Lissencephaly 4",
+        "mutation_precursor": "R234C",
+        "mutation_mature": "R234C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7261354755637515,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 368.6112598004956,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -8.215347290039062,
+          -10.444405555725098,
+          -27.686853408813477
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.4732867784186805,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8605596114380658,
+        "cryptic": true,
+        "pocket_residues": {
+          "R234": "R",
+          "G235": "G",
+          "L236": "L"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NXR1|NDE1 variant R234C",
+        "fasta_sequence": "MEDSGKTFSSEEEEANYWKDLAMTYKQRAENTQEELREFQEGSREYEAELETQLQQIETRNRDLLSENNRLRMELETIKEKFEVQHSEGYRQISALEDDLAQTKAIKDQLQKYIRELEQANDDLERAKRATIMSLEDFEQRLNQAIERNAFLESELDEKENLLESVQRLKDEARDLRQELAVQQKQEKPRTPMPSSVEAERTDTAVQATGSVPSTPIAHRGPSSSLNTPGSFRRGLDDSTGGTPLTPAARISALNIVGDLLRKVGALESKLASCRNLVYDQSPNRTGGPASGRSSKNRDGGERRPSSTSVPLGDKGLDTSCRWLSKSTTRSSSSC",
+        "full_sequence": "MEDSGKTFSSEEEEANYWKDLAMTYKQRAENTQEELREFQEGSREYEAELETQLQQIETRNRDLLSENNRLRMELETIKEKFEVQHSEGYRQISALEDDLAQTKAIKDQLQKYIRELEQANDDLERAKRATIMSLEDFEQRLNQAIERNAFLESELDEKENLLESVQRLKDEARDLRQELAVQQKQEKPRTPMPSSVEAERTDTAVQATGSVPSTPIAHRGPSSSLNTPGSFRRGLDDSTGGTPLTPAARISALNIVGDLLRKVGALESKLASCRNLVYDQSPNRTGGPASGRSSKNRDGGERRPSSTSVPLGDKGLDTSCRWLSKSTTRSSSSC",
+        "n_residues": 335,
+        "mutation_pos_1indexed": 234,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "R234-G235-L236",
+        "pocket_lining_positions_precursor": [
+          234,
+          235,
+          236
+        ],
+        "pocket_lining_1letter": "RGL",
+        "sequence_slice_around_pocket": "SSLNTPGSFRRGLDDSTGGT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NDE1_R234C/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "R234",
+          "G235",
+          "L236"
+        ],
+        "values": [
+          [
+            0.0,
+            3.237,
+            7.036
+          ],
+          [
+            3.237,
+            0.0,
+            3.859
+          ],
+          [
+            7.036,
+            3.859,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)c1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.5215016593249803,
+        "mw": 262.17,
+        "logp": 2.088,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 5,
+        "qed": 0.825,
+        "sa_score": 2.15,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NDE1-R234C Candidate #1",
+        "iupac_name": "CNCC(=O)c1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5215,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NDE1_R234C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NDE1_R234C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NDE1_R234C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDE1_R234C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDE1_R234C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDE1-R234C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDE1-R234C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:27:18.575517+00:00"
     }
   ]
 }
