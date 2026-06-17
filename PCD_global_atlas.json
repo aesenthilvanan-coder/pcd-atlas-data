@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 421,
+  "total_entries": 422,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44874,
-    "queue_remaining": 133723
+    "total_processed": 44875,
+    "queue_remaining": 133722
   },
   "entries": [
     {
@@ -92646,6 +92646,279 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:14:56.444268+00:00"
+    },
+    {
+      "entry_id": "PCD-HPS1-R429H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS1-R429H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HPS1",
+        "uniprot": "",
+        "clinvar_id": "298341",
+        "disease": "Hermansky-Pudlak syndrome 1",
+        "mutation_precursor": "R429H",
+        "mutation_mature": "R429H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8092317710779945,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 607.000415801888,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -18.406328201293945,
+          -15.108133316040039,
+          17.45611572265625
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.173113229276626,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6871257308819999,
+        "cryptic": true,
+        "pocket_residues": {
+          "L398": "L",
+          "M399": "M",
+          "G401": "G",
+          "F402": "F",
+          "L405": "L",
+          "V425": "V",
+          "L428": "L",
+          "R429": "R",
+          "M432": "M",
+          "C471": "C",
+          "L474": "L"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q92902|HPS1 variant R429H",
+        "fasta_sequence": "MKCVLVATEGAEVLFYWTDQEFEESLRLKFGQSENEEEELPALEDQLSTLLAPVIISSMTMLEKLSDTYTCFSTENGNFLYVLHLFGECLFIAINGDHTESEGDLRRKLYVLKYLFEVHFGLVTVDGHLIRKELRPPDLAQRVQLWEHFQSLLWTYSRLREQEQCFAVEALERLIHPQLCELCIEALERHVIQAVNTSPERGGEEALHAFLLVHSKLLAFYSSHSASSLRPADLLALILLVQDLYPSESTAEDDIQPSPRRARSSQNIPVQQAWSPHSTGPTGGSSAETETDSFSLPEEYFTPAPSPGDQSSGSTIWLEGGTPPMDALQIAEDTLQTLVPHCPVPSGPRRIFLDANVKESYCPLVPHTMYCLPLWQGINLVLLTRSPSAPLALVLSQLMDGFSMLEKKLKEGPEPGASLRSQPLVGDLRQRMDKFVKNRGAQEIQSTWLEFKAKAFSKSEPGSSWELLQACGKLKRQLCAIYRLNFLTTAPSRGGPHLPQHLQDQVQRLMREKLTDWKDFLLVKSRRNITMVSYLEDFPGLVHFIYVDRTTGQMVAPSLNCSQKTSSELGKGPLAAFVKTKVWSLIQLARRYLQKGYTTLLFQEGDFYCSYFLWFENDMGYKLQMIEVPVLSDDSVPIGMLGGDYYRKLLRYYSKNRPTEAVRCYELLALHLSVIPTDLLVQQAGQLARRLWEASRIPLL",
+        "full_sequence": "MKCVLVATEGAEVLFYWTDQEFEESLRLKFGQSENEEEELPALEDQLSTLLAPVIISSMTMLEKLSDTYTCFSTENGNFLYVLHLFGECLFIAINGDHTESEGDLRRKLYVLKYLFEVHFGLVTVDGHLIRKELRPPDLAQRVQLWEHFQSLLWTYSRLREQEQCFAVEALERLIHPQLCELCIEALERHVIQAVNTSPERGGEEALHAFLLVHSKLLAFYSSHSASSLRPADLLALILLVQDLYPSESTAEDDIQPSPRRARSSQNIPVQQAWSPHSTGPTGGSSAETETDSFSLPEEYFTPAPSPGDQSSGSTIWLEGGTPPMDALQIAEDTLQTLVPHCPVPSGPRRIFLDANVKESYCPLVPHTMYCLPLWQGINLVLLTRSPSAPLALVLSQLMDGFSMLEKKLKEGPEPGASLRSQPLVGDLRQRMDKFVKNRGAQEIQSTWLEFKAKAFSKSEPGSSWELLQACGKLKRQLCAIYRLNFLTTAPSRGGPHLPQHLQDQVQRLMREKLTDWKDFLLVKSRRNITMVSYLEDFPGLVHFIYVDRTTGQMVAPSLNCSQKTSSELGKGPLAAFVKTKVWSLIQLARRYLQKGYTTLLFQEGDFYCSYFLWFENDMGYKLQMIEVPVLSDDSVPIGMLGGDYYRKLLRYYSKNRPTEAVRCYELLALHLSVIPTDLLVQQAGQLARRLWEASRIPLL",
+        "n_residues": 700,
+        "mutation_pos_1indexed": 429,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "L398-M399-G401-F402-L405-V425-L428-R429-M432-C471-L474",
+        "pocket_lining_positions_precursor": [
+          398,
+          399,
+          401,
+          402,
+          405,
+          425,
+          428,
+          429,
+          432,
+          471,
+          474
+        ],
+        "pocket_lining_1letter": "LMGFLVLRMCL",
+        "sequence_slice_around_pocket": "LRSQPLVGDLRQRMDKFVKN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_R429H/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "L398",
+          "M399",
+          "G401",
+          "F402",
+          "L405",
+          "V425",
+          "L428",
+          "R429",
+          "M432",
+          "C471",
+          "L474"
+        ],
+        "values": [
+          [
+            0.0,
+            3.869,
+            4.972,
+            6.128,
+            10.487,
+            11.049,
+            6.803,
+            9.416,
+            7.178,
+            10.948,
+            9.574
+          ],
+          [
+            3.869,
+            0.0,
+            5.428,
+            5.175,
+            9.746,
+            12.871,
+            9.682,
+            12.38,
+            10.491,
+            9.768,
+            8.84
+          ],
+          [
+            4.972,
+            5.428,
+            0.0,
+            3.841,
+            6.272,
+            8.109,
+            5.999,
+            9.473,
+            9.882,
+            10.214,
+            11.254
+          ],
+          [
+            6.128,
+            5.175,
+            3.841,
+            0.0,
+            4.94,
+            8.952,
+            7.611,
+            9.999,
+            10.195,
+            6.463,
+            8.174
+          ],
+          [
+            10.487,
+            9.746,
+            6.272,
+            4.94,
+            0.0,
+            7.598,
+            9.191,
+            11.375,
+            13.483,
+            8.136,
+            11.881
+          ],
+          [
+            11.049,
+            12.871,
+            8.109,
+            8.952,
+            7.598,
+            0.0,
+            5.088,
+            6.007,
+            10.336,
+            12.105,
+            14.365
+          ],
+          [
+            6.803,
+            9.682,
+            5.999,
+            7.611,
+            9.191,
+            5.088,
+            0.0,
+            3.846,
+            6.034,
+            11.769,
+            12.193
+          ],
+          [
+            9.416,
+            12.38,
+            9.473,
+            9.999,
+            11.375,
+            6.007,
+            3.846,
+            0.0,
+            5.084,
+            12.22,
+            12.324
+          ],
+          [
+            7.178,
+            10.491,
+            9.882,
+            10.195,
+            13.483,
+            10.336,
+            6.034,
+            5.084,
+            0.0,
+            12.282,
+            10.307
+          ],
+          [
+            10.948,
+            9.768,
+            10.214,
+            6.463,
+            8.136,
+            12.105,
+            11.769,
+            12.22,
+            12.282,
+            0.0,
+            5.128
+          ],
+          [
+            9.574,
+            8.84,
+            11.254,
+            8.174,
+            11.881,
+            14.365,
+            12.193,
+            12.324,
+            10.307,
+            5.128,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1OCNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6264904956775391,
+        "mw": 430.18,
+        "logp": 2.072,
+        "hbd": 4,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.4208,
+        "sa_score": 3.41,
+        "n_heavy_atoms": 30,
+        "tpsa": 139.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HPS1-R429H Candidate #1",
+        "iupac_name": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1OCNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6265,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_R429H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_R429H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_R429H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_R429H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_R429H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS1-R429H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS1-R429H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:15:25.363719+00:00"
     }
   ]
 }
