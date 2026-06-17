@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1146,
+  "total_entries": 1147,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45743,
-    "queue_remaining": 132854
+    "total_processed": 45744,
+    "queue_remaining": 132853
   },
   "entries": [
     {
@@ -252232,6 +252232,189 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:52:32.045724+00:00"
+    },
+    {
+      "entry_id": "PCD-SERPINA1-L196S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPINA1-L196S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SERPINA1",
+        "uniprot": "",
+        "clinvar_id": "315026",
+        "disease": "Alpha-1-antitrypsin deficiency",
+        "mutation_precursor": "L196S",
+        "mutation_mature": "L196S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.937429435138565,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 402.0678997274972,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.2029967308044434,
+          -15.592839241027832,
+          5.925151824951172
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.384963656485167,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8674010147499831,
+        "cryptic": true,
+        "pocket_residues": {
+          "N182": "N",
+          "I193": "I",
+          "V194": "V",
+          "D195": "D",
+          "L196": "L",
+          "V197": "V",
+          "K198": "K"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P01009|SERPINA1 variant L196S",
+        "fasta_sequence": "MPSSVSWGILLLAGLCCLVPVSLAEDPQGDAAQKTDTSHHDQDHPTFNKITPNLAEFAFSLYRQLAHQSNSTNIFFSPVSIATAFAMLSLGTKADTHDEILEGLNFNLTEIPEAQIHEGFQELLRTLNQPDSQLQLTTGNGLFLSEGLKLVDKFLEDVKKLYHSEAFTVNFGDTEEAKKQINDYVEKGTQGKIVDLVKELDRDTVFALVNYIFFKGKWERPFEVKDTEEEDFHVDQVTTVKVPMMKRLGMFNIQHCKKLSSWVLLMKYLGNATAIFFLPDEGKLQHLENELTHDIITKFLENEDRRSASLHLPKLSITGTYDLKSVLGQLGITKVFSNGADLSGVTEEAPLKLSKAVHKAVLTIDEKGTEAAGAMFLEAIPMSIPPEVKFNKPFVFLMIEQNTKSPLFMGKVVNPTQK",
+        "full_sequence": "MPSSVSWGILLLAGLCCLVPVSLAEDPQGDAAQKTDTSHHDQDHPTFNKITPNLAEFAFSLYRQLAHQSNSTNIFFSPVSIATAFAMLSLGTKADTHDEILEGLNFNLTEIPEAQIHEGFQELLRTLNQPDSQLQLTTGNGLFLSEGLKLVDKFLEDVKKLYHSEAFTVNFGDTEEAKKQINDYVEKGTQGKIVDLVKELDRDTVFALVNYIFFKGKWERPFEVKDTEEEDFHVDQVTTVKVPMMKRLGMFNIQHCKKLSSWVLLMKYLGNATAIFFLPDEGKLQHLENELTHDIITKFLENEDRRSASLHLPKLSITGTYDLKSVLGQLGITKVFSNGADLSGVTEEAPLKLSKAVHKAVLTIDEKGTEAAGAMFLEAIPMSIPPEVKFNKPFVFLMIEQNTKSPLFMGKVVNPTQK",
+        "n_residues": 418,
+        "mutation_pos_1indexed": 196,
+        "wt_aa": "L",
+        "mut_aa": "S",
+        "pocket_lining_residues": "N182-I193-V194-D195-L196-V197-K198",
+        "pocket_lining_positions_precursor": [
+          182,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198
+        ],
+        "pocket_lining_1letter": "NIVDLVK",
+        "sequence_slice_around_pocket": "EKGTQGKIVDLVKELDRDTV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_L196S/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "N182",
+          "I193",
+          "V194",
+          "D195",
+          "L196",
+          "V197",
+          "K198"
+        ],
+        "values": [
+          [
+            0.0,
+            8.42,
+            6.494,
+            5.449,
+            5.832,
+            6.44,
+            9.015
+          ],
+          [
+            8.42,
+            0.0,
+            3.825,
+            6.949,
+            6.7,
+            10.447,
+            12.537
+          ],
+          [
+            6.494,
+            3.825,
+            0.0,
+            3.842,
+            5.664,
+            8.779,
+            10.148
+          ],
+          [
+            5.449,
+            6.949,
+            3.842,
+            0.0,
+            3.858,
+            5.627,
+            6.405
+          ],
+          [
+            5.832,
+            6.7,
+            5.664,
+            3.858,
+            0.0,
+            3.835,
+            6.373
+          ],
+          [
+            6.44,
+            10.447,
+            8.779,
+            5.627,
+            3.835,
+            0.0,
+            3.832
+          ],
+          [
+            9.015,
+            12.537,
+            10.148,
+            6.405,
+            6.373,
+            3.832,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.9083980824276259,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SERPINA1-L196S Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9084,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_L196S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_L196S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_L196S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_L196S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_L196S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPINA1-L196S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPINA1-L196S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:52:55.703138+00:00"
     }
   ]
 }
