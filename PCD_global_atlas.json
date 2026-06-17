@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 195,
+  "total_entries": 196,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44607,
-    "queue_remaining": 133990
+    "total_processed": 44608,
+    "queue_remaining": 133989
   },
   "entries": [
     {
@@ -43694,6 +43694,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T05:56:47.925721+00:00"
+    },
+    {
+      "entry_id": "PCD-TSFM-G180A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSFM-G180A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TSFM",
+        "uniprot": "",
+        "clinvar_id": "310016",
+        "disease": "Fatal mitochondrial disease due to combined oxidative phosphorylation defect typ",
+        "mutation_precursor": "G180A",
+        "mutation_mature": "G180A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7477420507377438,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 560.0583751180234,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -10.112808227539062,
+          4.204056739807129,
+          16.97071647644043
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.3921016433343185,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7544015274506265,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q87": "Q",
+          "E179": "E",
+          "G180": "G",
+          "S181": "S",
+          "L182": "L",
+          "K183": "K",
+          "D184": "D",
+          "Q185": "Q",
+          "A187": "A",
+          "L188": "L"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P43897|TSFM variant G180A",
+        "fasta_sequence": "MSLLRSLRVFLVARTGSYPAGSLLRQSPQPRHTFYAGPRLSASASSKELLMKLRRKTGYSFVNCKKALETCGGDLKQAEIWLHKEAQKEGWSKAAKLQGRKTKEGLIGLLQEGNTTVLVEVNCETDFVSRNLKFQLLVQQVALGTMMHCQTLKDQPSAYSKGFLNSSELSGLPAGPDREGSLKDQLALAIGKLGENMILKRAAWVKVPSGFYVGSYVHGAMQSPSLHKLVLGKYGALVICETSEQKTNLEDVGRRLGQHVVGMAPLSVGSLDDEPGGEAETKMLSQPYLLDPSITLGQYVQPQGVSVVDFVRFECGEGEEAAETE",
+        "full_sequence": "MSLLRSLRVFLVARTGSYPAGSLLRQSPQPRHTFYAGPRLSASASSKELLMKLRRKTGYSFVNCKKALETCGGDLKQAEIWLHKEAQKEGWSKAAKLQGRKTKEGLIGLLQEGNTTVLVEVNCETDFVSRNLKFQLLVQQVALGTMMHCQTLKDQPSAYSKGFLNSSELSGLPAGPDREGSLKDQLALAIGKLGENMILKRAAWVKVPSGFYVGSYVHGAMQSPSLHKLVLGKYGALVICETSEQKTNLEDVGRRLGQHVVGMAPLSVGSLDDEPGGEAETKMLSQPYLLDPSITLGQYVQPQGVSVVDFVRFECGEGEEAAETE",
+        "n_residues": 325,
+        "mutation_pos_1indexed": 180,
+        "wt_aa": "G",
+        "mut_aa": "A",
+        "pocket_lining_residues": "Q87-E179-G180-S181-L182-K183-D184-Q185-A187-L188",
+        "pocket_lining_positions_precursor": [
+          87,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          187,
+          188
+        ],
+        "pocket_lining_1letter": "QEGSLKDQAL",
+        "sequence_slice_around_pocket": "SGLPAGPDREGSLKDQLALA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TSFM_G180A/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "Q87",
+          "E179",
+          "G180",
+          "S181",
+          "L182",
+          "K183",
+          "D184",
+          "Q185",
+          "A187",
+          "L188"
+        ],
+        "values": [
+          [
+            0.0,
+            10.693,
+            10.37,
+            11.822,
+            12.397,
+            10.783,
+            7.294,
+            8.497,
+            6.976,
+            5.709
+          ],
+          [
+            10.693,
+            0.0,
+            3.824,
+            7.018,
+            9.239,
+            10.818,
+            8.2,
+            8.611,
+            12.621,
+            11.547
+          ],
+          [
+            10.37,
+            3.824,
+            0.0,
+            3.813,
+            6.998,
+            7.889,
+            5.915,
+            7.658,
+            10.967,
+            11.112
+          ],
+          [
+            11.822,
+            7.018,
+            3.813,
+            0.0,
+            3.826,
+            5.093,
+            5.172,
+            6.699,
+            9.983,
+            11.058
+          ],
+          [
+            12.397,
+            9.239,
+            6.998,
+            3.826,
+            0.0,
+            3.866,
+            5.378,
+            4.971,
+            8.64,
+            9.799
+          ],
+          [
+            10.783,
+            10.818,
+            7.889,
+            5.093,
+            3.866,
+            0.0,
+            3.848,
+            5.46,
+            6.247,
+            8.742
+          ],
+          [
+            7.294,
+            8.2,
+            5.915,
+            5.172,
+            5.378,
+            3.848,
+            0.0,
+            3.846,
+            5.131,
+            6.373
+          ],
+          [
+            8.497,
+            8.611,
+            7.658,
+            6.699,
+            4.971,
+            5.46,
+            3.846,
+            0.0,
+            5.445,
+            5.067
+          ],
+          [
+            6.976,
+            12.621,
+            10.967,
+            9.983,
+            8.64,
+            6.247,
+            5.131,
+            5.445,
+            0.0,
+            3.863
+          ],
+          [
+            5.709,
+            11.547,
+            11.112,
+            11.058,
+            9.799,
+            8.742,
+            6.373,
+            5.067,
+            3.863,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.7855450357865356,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TSFM-G180A Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7855,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TSFM_G180A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TSFM_G180A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TSFM_G180A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TSFM_G180A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TSFM_G180A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSFM-G180A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSFM-G180A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T05:57:08.916350+00:00"
     }
   ]
 }
