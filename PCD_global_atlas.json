@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 469,
+  "total_entries": 470,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44927,
-    "queue_remaining": 133670
+    "total_processed": 44928,
+    "queue_remaining": 133669
   },
   "entries": [
     {
@@ -103993,6 +103993,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:54:30.829114+00:00"
+    },
+    {
+      "entry_id": "PCD-SCNN1G-N530S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1G-N530S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SCNN1G",
+        "uniprot": "",
+        "clinvar_id": "318359",
+        "disease": "Liddle syndrome 2",
+        "mutation_precursor": "N530S",
+        "mutation_mature": "N530S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8778747815716551,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 387.6275064967102,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          22.377243041992188,
+          21.610265731811523,
+          -36.8690185546875
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.3722107276301605,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.668762529385165,
+        "cryptic": true,
+        "pocket_residues": {
+          "S529": "S",
+          "N530": "N",
+          "G532": "G",
+          "G533": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P51170|SCNN1G variant N530S",
+        "fasta_sequence": "MAPGEKIKAKIKKNLPVTGPQAPTIKELMRWYCLNTNTHGCRRIVVSRGRLRRLLWIGFTLTAVALILWQCALLVFSFYTVSVSIKVHFRKLDFPAVTICNINPYKYSTVRHLLADLEQETREALKSLYGFPESRKRREAESWNSVSEGKQPRFSHRIPLLIFDQDEKGKARDFFTGRKRKVGGSIIHKASNVMHIESKQVVGFQLCSNDTSDCATYTFSSGINAIQEWYKLHYMNIMAQVPLEKKINMSYSAEELLVTCFFDGVSCDARNFTLFHHPMHGNCYTFNNRENETILSTSMGGSEYGLQVILYINEEEYNPFLVSSTGAKVIIHRQDEYPFVEDVGTEIETAMVTSIGMHLTESFKLSEPYSQCTEDGSDVPIRNIYNAAYSLQICLHSCFQTKMVEKCGCAQYSQPLPPAANYCNYQQHPNWMYCYYQLHRAFVQEELGCQSVCKEACSFKEWTLTTSLAQWPSVVSEKWLLPVLTWDQGRQVNKKLNKTDLAKLLIFYKDLNQRSIMESPANSIEMLLSNFGGQLGLWMSCSVVCVIEIIEVFFIDFFSIIARRQWQKAKEWWAWKQAPPCPEAPRSPQGQDNPALDIDDDLPTFNSALHLPPALGTQVPGTPPPKYNTLRLERAFSNQLTDTQMLDEL",
+        "full_sequence": "MAPGEKIKAKIKKNLPVTGPQAPTIKELMRWYCLNTNTHGCRRIVVSRGRLRRLLWIGFTLTAVALILWQCALLVFSFYTVSVSIKVHFRKLDFPAVTICNINPYKYSTVRHLLADLEQETREALKSLYGFPESRKRREAESWNSVSEGKQPRFSHRIPLLIFDQDEKGKARDFFTGRKRKVGGSIIHKASNVMHIESKQVVGFQLCSNDTSDCATYTFSSGINAIQEWYKLHYMNIMAQVPLEKKINMSYSAEELLVTCFFDGVSCDARNFTLFHHPMHGNCYTFNNRENETILSTSMGGSEYGLQVILYINEEEYNPFLVSSTGAKVIIHRQDEYPFVEDVGTEIETAMVTSIGMHLTESFKLSEPYSQCTEDGSDVPIRNIYNAAYSLQICLHSCFQTKMVEKCGCAQYSQPLPPAANYCNYQQHPNWMYCYYQLHRAFVQEELGCQSVCKEACSFKEWTLTTSLAQWPSVVSEKWLLPVLTWDQGRQVNKKLNKTDLAKLLIFYKDLNQRSIMESPANSIEMLLSNFGGQLGLWMSCSVVCVIEIIEVFFIDFFSIIARRQWQKAKEWWAWKQAPPCPEAPRSPQGQDNPALDIDDDLPTFNSALHLPPALGTQVPGTPPPKYNTLRLERAFSNQLTDTQMLDEL",
+        "n_residues": 649,
+        "mutation_pos_1indexed": 530,
+        "wt_aa": "N",
+        "mut_aa": "S",
+        "pocket_lining_residues": "S529-N530-G532-G533",
+        "pocket_lining_positions_precursor": [
+          529,
+          530,
+          532,
+          533
+        ],
+        "pocket_lining_1letter": "SNGG",
+        "sequence_slice_around_pocket": "PANSIEMLLSNFGGQLGLWM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_N530S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "S529",
+          "N530",
+          "G532",
+          "G533"
+        ],
+        "values": [
+          [
+            0.0,
+            3.851,
+            5.181,
+            6.176
+          ],
+          [
+            3.851,
+            0.0,
+            5.399,
+            4.925
+          ],
+          [
+            5.181,
+            5.399,
+            0.0,
+            3.845
+          ],
+          [
+            6.176,
+            4.925,
+            3.845,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)c1ccc(Cl)cc1N1CCCC(=O)C1",
+        "composite_score": 0.567223911221431,
+        "mw": 280.1,
+        "logp": 2.041,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 4,
+        "qed": 0.8575,
+        "sa_score": 2.48,
+        "n_heavy_atoms": 19,
+        "tpsa": 63.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SCNN1G-N530S Candidate #1",
+        "iupac_name": "NCCC(=O)c1ccc(Cl)cc1N1CCCC(=O)C1",
+        "pocket_affinity_score": 0.5672,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_N530S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_N530S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_N530S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_N530S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_N530S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1G-N530S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1G-N530S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:54:56.649191+00:00"
     }
   ]
 }
