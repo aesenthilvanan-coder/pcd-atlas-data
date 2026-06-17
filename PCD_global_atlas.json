@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1319,
+  "total_entries": 1320,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45936,
-    "queue_remaining": 132661
+    "total_processed": 45937,
+    "queue_remaining": 132660
   },
   "entries": [
     {
@@ -292238,6 +292238,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:17:40.641157+00:00"
+    },
+    {
+      "entry_id": "PCD-CETP-E314K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CETP-E314K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CETP",
+        "uniprot": "",
+        "clinvar_id": "319985",
+        "disease": "Hyperalphalipoproteinemia 1",
+        "mutation_precursor": "E314K",
+        "mutation_mature": "E314K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7508736236367366,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 330.05210243504945,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -15.077865600585938,
+          -5.522686958312988,
+          38.08686447143555
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.054645434545632,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7083641206313382,
+        "cryptic": true,
+        "pocket_residues": {
+          "F309": "F",
+          "K310": "K",
+          "A311": "A",
+          "V312": "V",
+          "L313": "L",
+          "E314": "E",
+          "F318": "F",
+          "N319": "N",
+          "T320": "T",
+          "N321": "N"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P11597|CETP variant E314K",
+        "fasta_sequence": "MLAATVLTLALLGNAHACSKGTSHEAGIVCRITKPALLVLNHETAKVIQTAFQRASYPDITGEKAMMLLGQVKYGLHNIQISHLSIASSQVELVEAKSIDVSIQNVSVVFKGTLKYGYTTAWWLGIDQSIDFEIDSAIDLQINTQLTCDSGRVRTDAPDCYLSFHKLLLHLQGEREPGWIKQLFTNFISFTLKLVLKGQICKEINVISNIMADFVQTRAASILSDGDIGVDISLTGDPVITASYLESHHKGHFIYKNVSEDLPLPTFSPTLLGDSRMLYFWFSERVFHSLAKVAFQDGRLMLSLMGDEFKAVLETWGFNTNQEIFQEVVGGFPSQAQVTVHCLKMPKISCQNKGVVVNSSVMVKFLFPRPDQQHSVAYTFEEDIVTTVQASYSKKKLFLSLLDFQITPKTVSNLTESSSESVQSFLQSMITAVGIPEVMSRLEVVFTALMNSKGVSLFDIINPEIITRDGFLLLQMDFGFPEHLLVDFLQSLS",
+        "full_sequence": "MLAATVLTLALLGNAHACSKGTSHEAGIVCRITKPALLVLNHETAKVIQTAFQRASYPDITGEKAMMLLGQVKYGLHNIQISHLSIASSQVELVEAKSIDVSIQNVSVVFKGTLKYGYTTAWWLGIDQSIDFEIDSAIDLQINTQLTCDSGRVRTDAPDCYLSFHKLLLHLQGEREPGWIKQLFTNFISFTLKLVLKGQICKEINVISNIMADFVQTRAASILSDGDIGVDISLTGDPVITASYLESHHKGHFIYKNVSEDLPLPTFSPTLLGDSRMLYFWFSERVFHSLAKVAFQDGRLMLSLMGDEFKAVLETWGFNTNQEIFQEVVGGFPSQAQVTVHCLKMPKISCQNKGVVVNSSVMVKFLFPRPDQQHSVAYTFEEDIVTTVQASYSKKKLFLSLLDFQITPKTVSNLTESSSESVQSFLQSMITAVGIPEVMSRLEVVFTALMNSKGVSLFDIINPEIITRDGFLLLQMDFGFPEHLLVDFLQSLS",
+        "n_residues": 493,
+        "mutation_pos_1indexed": 314,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "F309-K310-A311-V312-L313-E314-F318-N319-T320-N321",
+        "pocket_lining_positions_precursor": [
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          318,
+          319,
+          320,
+          321
+        ],
+        "pocket_lining_1letter": "FKAVLEFNTN",
+        "sequence_slice_around_pocket": "LMGDEFKAVLETWGFNTNQE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CETP_E314K/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "F309",
+          "K310",
+          "A311",
+          "V312",
+          "L313",
+          "E314",
+          "F318",
+          "N319",
+          "T320",
+          "N321"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            5.517,
+            5.172,
+            6.467,
+            8.83,
+            11.058,
+            10.938,
+            9.689,
+            13.358
+          ],
+          [
+            3.841,
+            0.0,
+            3.852,
+            5.479,
+            5.237,
+            6.331,
+            8.81,
+            7.754,
+            6.71,
+            10.096
+          ],
+          [
+            5.517,
+            3.852,
+            0.0,
+            3.863,
+            5.462,
+            5.008,
+            9.278,
+            9.005,
+            9.463,
+            12.501
+          ],
+          [
+            5.172,
+            5.479,
+            3.863,
+            0.0,
+            3.844,
+            5.471,
+            8.565,
+            9.755,
+            10.442,
+            13.95
+          ],
+          [
+            6.467,
+            5.237,
+            5.462,
+            3.844,
+            0.0,
+            3.856,
+            4.967,
+            6.413,
+            7.419,
+            10.871
+          ],
+          [
+            8.83,
+            6.331,
+            5.008,
+            5.471,
+            3.856,
+            0.0,
+            4.958,
+            5.604,
+            7.965,
+            10.503
+          ],
+          [
+            11.058,
+            8.81,
+            9.278,
+            8.565,
+            4.967,
+            4.958,
+            0.0,
+            3.826,
+            6.732,
+            8.857
+          ],
+          [
+            10.938,
+            7.754,
+            9.005,
+            9.755,
+            6.413,
+            5.604,
+            3.826,
+            0.0,
+            3.853,
+            5.348
+          ],
+          [
+            9.689,
+            6.71,
+            9.463,
+            10.442,
+            7.419,
+            7.965,
+            6.732,
+            3.853,
+            0.0,
+            3.857
+          ],
+          [
+            13.358,
+            10.096,
+            12.501,
+            13.95,
+            10.871,
+            10.503,
+            8.857,
+            5.348,
+            3.857,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8308545582139232,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CETP-E314K Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8309,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CETP_E314K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CETP_E314K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CETP_E314K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CETP_E314K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CETP_E314K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CETP-E314K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CETP-E314K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:18:04.640529+00:00"
     }
   ]
 }
