@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 604,
+  "total_entries": 605,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45089,
-    "queue_remaining": 133508
+    "total_processed": 45091,
+    "queue_remaining": 133506
   },
   "entries": [
     {
@@ -133479,6 +133479,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:43:11.151254+00:00"
+    },
+    {
+      "entry_id": "PCD-TCIRG1-G159E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TCIRG1-G159E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TCIRG1",
+        "uniprot": "",
+        "clinvar_id": "305785",
+        "disease": "Autosomal recessive osteopetrosis 1",
+        "mutation_precursor": "G159E",
+        "mutation_mature": "G159E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8605900285979934,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 475.91886092041,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -115.26573181152344,
+          0.8664650917053223,
+          28.9564151763916
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.408585256711361,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6018018300112242,
+        "cryptic": true,
+        "pocket_residues": {
+          "A157": "A",
+          "P158": "P",
+          "G159": "G",
+          "G160": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13488|TCIRG1 variant G159E",
+        "fasta_sequence": "MGSMFRSEEVALVQLFLPTAAAYTCVSRLGELGLVEFRDLNASVSAFQRRFVVDVRRCEELEKTFTFLQEEVRRAGLVLPPPKGRLPAPPPRDLLRIQEETERLAQELRDVRGNQQALRAQLHQLQLHAAVLRQGHEPQLAAAHTDGASERTPLLQAPGGPHQDLRVNFVAGAVEPHKAPALERLLWRACRGFLIASFRELEQPLEHPVTGEPATWMTFLISYWGEQIGQKIRKITDCFHCHVFPFLQQEEARLGALQQLQQQSQELQEVLGETERFLSQVLGRVLQLLPPGQVQVHKMKAVYLALNQCSVSTTHKCLIAEAWCSVRDLPALQEALRDSSMEEGVSAVAHRIPCRDMPPTLIRTNRFTASFQGIVDAYGVGRYQEVNPAPYTIITFPFLFAVMFGDVGHGLLMFLFALAMVLAENRPAVKAAQNEIWQTFFRGRYLLLLMGLFSIYTGFIYNECFSRATSIFPSGWSVAAMANQSGWSDAFLAQHTMLTLDPNVTGVFLGPYPFGIDPIWSLAANHLSFLNSFKMKMSVILGVVHMAFGVVLGVFNHVHFGQRHRLLLETLPELTFLLGLFGYLVFLVIYKWLCVWAARAASAPSILIHFINMFLFSHSPSNRLLYPRQEVVQATLVVLALAMVPILLLGTPLHLLHRHRRRLRRRPADRQEENKAGLLDLPDASVNGWSSDEEKAGGLDDEEEAELVPSEVLMHQAIHTIEFCLGCVSNTASYLRLWALSLAHAQLSEVLWAMVMRIGLGLGREVGVAAVVLVPIFAAFAVMTVAILLVMEGLSAFLHALRLHWVEFQNKFYSGTGYKLSPFTFAATDD",
+        "full_sequence": "MGSMFRSEEVALVQLFLPTAAAYTCVSRLGELGLVEFRDLNASVSAFQRRFVVDVRRCEELEKTFTFLQEEVRRAGLVLPPPKGRLPAPPPRDLLRIQEETERLAQELRDVRGNQQALRAQLHQLQLHAAVLRQGHEPQLAAAHTDGASERTPLLQAPGGPHQDLRVNFVAGAVEPHKAPALERLLWRACRGFLIASFRELEQPLEHPVTGEPATWMTFLISYWGEQIGQKIRKITDCFHCHVFPFLQQEEARLGALQQLQQQSQELQEVLGETERFLSQVLGRVLQLLPPGQVQVHKMKAVYLALNQCSVSTTHKCLIAEAWCSVRDLPALQEALRDSSMEEGVSAVAHRIPCRDMPPTLIRTNRFTASFQGIVDAYGVGRYQEVNPAPYTIITFPFLFAVMFGDVGHGLLMFLFALAMVLAENRPAVKAAQNEIWQTFFRGRYLLLLMGLFSIYTGFIYNECFSRATSIFPSGWSVAAMANQSGWSDAFLAQHTMLTLDPNVTGVFLGPYPFGIDPIWSLAANHLSFLNSFKMKMSVILGVVHMAFGVVLGVFNHVHFGQRHRLLLETLPELTFLLGLFGYLVFLVIYKWLCVWAARAASAPSILIHFINMFLFSHSPSNRLLYPRQEVVQATLVVLALAMVPILLLGTPLHLLHRHRRRLRRRPADRQEENKAGLLDLPDASVNGWSSDEEKAGGLDDEEEAELVPSEVLMHQAIHTIEFCLGCVSNTASYLRLWALSLAHAQLSEVLWAMVMRIGLGLGREVGVAAVVLVPIFAAFAVMTVAILLVMEGLSAFLHALRLHWVEFQNKFYSGTGYKLSPFTFAATDD",
+        "n_residues": 830,
+        "mutation_pos_1indexed": 159,
+        "wt_aa": "G",
+        "mut_aa": "E",
+        "pocket_lining_residues": "A157-P158-G159-G160",
+        "pocket_lining_positions_precursor": [
+          157,
+          158,
+          159,
+          160
+        ],
+        "pocket_lining_1letter": "APGG",
+        "sequence_slice_around_pocket": "SERTPLLQAPGGPHQDLRVN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TCIRG1_G159E/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A157",
+          "P158",
+          "G159",
+          "G160"
+        ],
+        "values": [
+          [
+            0.0,
+            3.867,
+            6.678,
+            9.487
+          ],
+          [
+            3.867,
+            0.0,
+            3.835,
+            7.103
+          ],
+          [
+            6.678,
+            3.835,
+            0.0,
+            3.872
+          ],
+          [
+            9.487,
+            7.103,
+            3.872,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CCN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.5565286302091725,
+        "mw": 331.23,
+        "logp": 2.178,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.896,
+        "sa_score": 3.16,
+        "n_heavy_atoms": 24,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TCIRG1-G159E Candidate #1",
+        "iupac_name": "COc1ccc(CCN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5565,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TCIRG1_G159E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TCIRG1_G159E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TCIRG1_G159E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TCIRG1_G159E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TCIRG1_G159E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TCIRG1-G159E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TCIRG1-G159E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:43:52.632103+00:00"
     }
   ]
 }
