@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1415,
+  "total_entries": 1416,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46054,
-    "queue_remaining": 132543
+    "total_processed": 46055,
+    "queue_remaining": 132542
   },
   "entries": [
     {
@@ -313237,6 +313237,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:30:53.146218+00:00"
+    },
+    {
+      "entry_id": "PCD-TSEN54-A357V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSEN54-A357V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TSEN54",
+        "uniprot": "",
+        "clinvar_id": "325090",
+        "disease": "Pontoneocerebellar hypoplasia",
+        "mutation_precursor": "A357V",
+        "mutation_mature": "A357V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8432552228709513,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 453.6019173139681,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          21.387184143066406,
+          14.713410377502441,
+          -53.139984130859375
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.383414004678034,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.792116232681938,
+        "cryptic": true,
+        "pocket_residues": {
+          "R350": "R",
+          "R353": "R",
+          "E354": "E",
+          "H355": "H",
+          "H356": "H",
+          "A357": "A",
+          "E358": "E"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q7Z6J9|TSEN54 variant A357V",
+        "fasta_sequence": "MEPEPEPAAVEVPAGRVLSARELFAARSRSQKLPQRSHGPKDFLPDGSAAQAERLRRCREELWQLLAEQRVERLGSLVAAEWRPEEGFVELKSPAGKFWQTMGFSEQGRQRLHPEEALYLLECGSIHLFHQDLPLSIQEAYQLLLTDHTVTFLQYQVFSHLKRLGYVVRRFQPSSVLSPYERQLNLDASVQHLEDGDGKRKRSSSSPRSINKKAKALDNSLQPKSLAASSPPPCSQPSQCPEEKPQESSPMKGPGGPFQLLGSLGPSPGPAREGVGCSWESGRAENGVTGAGKRRWNFEQISFPNMASDSRHTLLRAPAPELLPANVAGRETDAESWCQKLNQRKEKLSRREREHHAEAAQFQEDVNADPEVQRCSSWREYKELLQRRQVQRSQRRAPHLWGQPVTPLLSPGQASSPAVVLQHISVLQTTHLPDGGARLLEKSGGLEIIFDVYQADAVATFRKNNPGKPYARMCISGFDEPVPDLCSLKRLSYQSGDVPLIFALVDHGDISFYSFRDFTLPQDVGH",
+        "full_sequence": "MEPEPEPAAVEVPAGRVLSARELFAARSRSQKLPQRSHGPKDFLPDGSAAQAERLRRCREELWQLLAEQRVERLGSLVAAEWRPEEGFVELKSPAGKFWQTMGFSEQGRQRLHPEEALYLLECGSIHLFHQDLPLSIQEAYQLLLTDHTVTFLQYQVFSHLKRLGYVVRRFQPSSVLSPYERQLNLDASVQHLEDGDGKRKRSSSSPRSINKKAKALDNSLQPKSLAASSPPPCSQPSQCPEEKPQESSPMKGPGGPFQLLGSLGPSPGPAREGVGCSWESGRAENGVTGAGKRRWNFEQISFPNMASDSRHTLLRAPAPELLPANVAGRETDAESWCQKLNQRKEKLSRREREHHAEAAQFQEDVNADPEVQRCSSWREYKELLQRRQVQRSQRRAPHLWGQPVTPLLSPGQASSPAVVLQHISVLQTTHLPDGGARLLEKSGGLEIIFDVYQADAVATFRKNNPGKPYARMCISGFDEPVPDLCSLKRLSYQSGDVPLIFALVDHGDISFYSFRDFTLPQDVGH",
+        "n_residues": 526,
+        "mutation_pos_1indexed": 357,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "R350-R353-E354-H355-H356-A357-E358",
+        "pocket_lining_positions_precursor": [
+          350,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358
+        ],
+        "pocket_lining_1letter": "RREHHAE",
+        "sequence_slice_around_pocket": "KLSRREREHHAEAAQFQEDV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_A357V/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "R350",
+          "R353",
+          "E354",
+          "H355",
+          "H356",
+          "A357",
+          "E358"
+        ],
+        "values": [
+          [
+            0.0,
+            5.193,
+            6.19,
+            8.623,
+            9.819,
+            10.432,
+            12.181
+          ],
+          [
+            5.193,
+            0.0,
+            3.834,
+            5.417,
+            4.938,
+            5.922,
+            8.409
+          ],
+          [
+            6.19,
+            3.834,
+            0.0,
+            3.864,
+            5.511,
+            5.043,
+            6.036
+          ],
+          [
+            8.623,
+            5.417,
+            3.864,
+            0.0,
+            3.858,
+            5.471,
+            5.026
+          ],
+          [
+            9.819,
+            4.938,
+            5.511,
+            3.858,
+            0.0,
+            3.852,
+            5.482
+          ],
+          [
+            10.432,
+            5.922,
+            5.043,
+            5.471,
+            3.852,
+            0.0,
+            3.853
+          ],
+          [
+            12.181,
+            8.409,
+            6.036,
+            5.026,
+            5.482,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)cc1N1C(O)CC(=O)CC1N1CCCCC1",
+        "composite_score": 0.7394109269274145,
+        "mw": 333.21,
+        "logp": 2.037,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 4,
+        "qed": 0.879,
+        "sa_score": 3.64,
+        "n_heavy_atoms": 24,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TSEN54-A357V Candidate #1",
+        "iupac_name": "CNc1ccc(OC)cc1N1C(O)CC(=O)CC1N1CCCCC1",
+        "pocket_affinity_score": 0.7394,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_A357V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_A357V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_A357V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_A357V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_A357V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSEN54-A357V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSEN54-A357V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:31:16.734859+00:00"
     }
   ]
 }
