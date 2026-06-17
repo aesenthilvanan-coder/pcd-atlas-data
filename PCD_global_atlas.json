@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 488,
+  "total_entries": 489,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44951,
-    "queue_remaining": 133646
+    "total_processed": 44952,
+    "queue_remaining": 133645
   },
   "entries": [
     {
@@ -108364,6 +108364,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:11:23.781041+00:00"
+    },
+    {
+      "entry_id": "PCD-APOA1-V10M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-APOA1-V10M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "APOA1",
+        "uniprot": "",
+        "clinvar_id": "302510",
+        "disease": "Familial visceral amyloidosis, Ostertag type",
+        "mutation_precursor": "V10M",
+        "mutation_mature": "V10M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9253450639329582,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 320.4904561702747,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -29.177085876464844,
+          20.441287994384766,
+          18.24958610534668
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.677238858506885,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6662930200575878,
+        "cryptic": true,
+        "pocket_residues": {
+          "A3": "A",
+          "L6": "L",
+          "T7": "T",
+          "L8": "L",
+          "A9": "A",
+          "V10": "V"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P02647|APOA1 variant V10M",
+        "fasta_sequence": "MKAAVLTLAVLFLTGSQARHFWQQDEPPQSPWDRVKDLATVYVDVLKDSGRDYVSQFEGSALGKQLNLKLLDNWDSVTSTFSKLREQLGPVTQEFWDNLEKETEGLRQEMSKDLEEVKAKVQPYLDDFQKKWQEEMELYRQKVEPLRAELQEGARQKLHELQEKLSPLGEEMRDRARAHVDALRTHLAPYSDELRQRLAARLEALKENGGARLAEYHAKATEHLSTLSEKAKPALEDLRQGLLPVLESFKVSFLSALEEYTKKLNTQ",
+        "full_sequence": "MKAAVLTLAVLFLTGSQARHFWQQDEPPQSPWDRVKDLATVYVDVLKDSGRDYVSQFEGSALGKQLNLKLLDNWDSVTSTFSKLREQLGPVTQEFWDNLEKETEGLRQEMSKDLEEVKAKVQPYLDDFQKKWQEEMELYRQKVEPLRAELQEGARQKLHELQEKLSPLGEEMRDRARAHVDALRTHLAPYSDELRQRLAARLEALKENGGARLAEYHAKATEHLSTLSEKAKPALEDLRQGLLPVLESFKVSFLSALEEYTKKLNTQ",
+        "n_residues": 267,
+        "mutation_pos_1indexed": 10,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "A3-L6-T7-L8-A9-V10",
+        "pocket_lining_positions_precursor": [
+          3,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "pocket_lining_1letter": "ALTLAV",
+        "sequence_slice_around_pocket": "MKAAVLTLAVLFLTGSQAR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/APOA1_V10M/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "A3",
+          "L6",
+          "T7",
+          "L8",
+          "A9",
+          "V10"
+        ],
+        "values": [
+          [
+            0.0,
+            5.338,
+            6.463,
+            9.029,
+            10.306,
+            10.878
+          ],
+          [
+            5.338,
+            0.0,
+            3.861,
+            5.534,
+            5.241,
+            6.262
+          ],
+          [
+            6.463,
+            3.861,
+            0.0,
+            3.862,
+            5.567,
+            5.173
+          ],
+          [
+            9.029,
+            5.534,
+            3.862,
+            0.0,
+            3.857,
+            5.489
+          ],
+          [
+            10.306,
+            5.241,
+            5.567,
+            3.857,
+            0.0,
+            3.865
+          ],
+          [
+            10.878,
+            6.262,
+            5.173,
+            5.489,
+            3.865,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.715516591335758,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "APOA1-V10M Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7155,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/APOA1_V10M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/APOA1_V10M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/APOA1_V10M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/APOA1_V10M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/APOA1_V10M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-APOA1-V10M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-APOA1-V10M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:11:44.389672+00:00"
     }
   ]
 }
