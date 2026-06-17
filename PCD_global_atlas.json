@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1147,
+  "total_entries": 1148,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45744,
-    "queue_remaining": 132853
+    "total_processed": 45745,
+    "queue_remaining": 132852
   },
   "entries": [
     {
@@ -252415,6 +252415,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:52:55.703138+00:00"
+    },
+    {
+      "entry_id": "PCD-SERPINA1-S71R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPINA1-S71R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SERPINA1",
+        "uniprot": "",
+        "clinvar_id": "315029",
+        "disease": "Alpha-1-antitrypsin deficiency",
+        "mutation_precursor": "S71R",
+        "mutation_mature": "S71R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9324447599996164,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 601.0455328362533,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          17.945463180541992,
+          6.626783847808838,
+          5.776228427886963
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.9978016642602485,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7952533269395774,
+        "cryptic": true,
+        "pocket_residues": {
+          "A66": "A",
+          "H67": "H",
+          "Q68": "Q",
+          "S69": "S",
+          "N70": "N",
+          "S71": "S",
+          "T72": "T",
+          "V234": "V",
+          "D235": "D"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P01009|SERPINA1 variant S71R",
+        "fasta_sequence": "MPSSVSWGILLLAGLCCLVPVSLAEDPQGDAAQKTDTSHHDQDHPTFNKITPNLAEFAFSLYRQLAHQSNSTNIFFSPVSIATAFAMLSLGTKADTHDEILEGLNFNLTEIPEAQIHEGFQELLRTLNQPDSQLQLTTGNGLFLSEGLKLVDKFLEDVKKLYHSEAFTVNFGDTEEAKKQINDYVEKGTQGKIVDLVKELDRDTVFALVNYIFFKGKWERPFEVKDTEEEDFHVDQVTTVKVPMMKRLGMFNIQHCKKLSSWVLLMKYLGNATAIFFLPDEGKLQHLENELTHDIITKFLENEDRRSASLHLPKLSITGTYDLKSVLGQLGITKVFSNGADLSGVTEEAPLKLSKAVHKAVLTIDEKGTEAAGAMFLEAIPMSIPPEVKFNKPFVFLMIEQNTKSPLFMGKVVNPTQK",
+        "full_sequence": "MPSSVSWGILLLAGLCCLVPVSLAEDPQGDAAQKTDTSHHDQDHPTFNKITPNLAEFAFSLYRQLAHQSNSTNIFFSPVSIATAFAMLSLGTKADTHDEILEGLNFNLTEIPEAQIHEGFQELLRTLNQPDSQLQLTTGNGLFLSEGLKLVDKFLEDVKKLYHSEAFTVNFGDTEEAKKQINDYVEKGTQGKIVDLVKELDRDTVFALVNYIFFKGKWERPFEVKDTEEEDFHVDQVTTVKVPMMKRLGMFNIQHCKKLSSWVLLMKYLGNATAIFFLPDEGKLQHLENELTHDIITKFLENEDRRSASLHLPKLSITGTYDLKSVLGQLGITKVFSNGADLSGVTEEAPLKLSKAVHKAVLTIDEKGTEAAGAMFLEAIPMSIPPEVKFNKPFVFLMIEQNTKSPLFMGKVVNPTQK",
+        "n_residues": 418,
+        "mutation_pos_1indexed": 71,
+        "wt_aa": "S",
+        "mut_aa": "R",
+        "pocket_lining_residues": "A66-H67-Q68-S69-N70-S71-T72-V234-D235",
+        "pocket_lining_positions_precursor": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          234,
+          235
+        ],
+        "pocket_lining_1letter": "AHQSNSTVD",
+        "sequence_slice_around_pocket": "LYRQLAHQSNSTNIFFSPVS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_S71R/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "A66",
+          "H67",
+          "Q68",
+          "S69",
+          "N70",
+          "S71",
+          "T72",
+          "V234",
+          "D235"
+        ],
+        "values": [
+          [
+            0.0,
+            3.849,
+            5.471,
+            5.497,
+            5.813,
+            8.935,
+            8.488,
+            15.674,
+            16.247
+          ],
+          [
+            3.849,
+            0.0,
+            3.873,
+            5.646,
+            6.801,
+            10.31,
+            10.71,
+            17.761,
+            17.693
+          ],
+          [
+            5.471,
+            3.873,
+            0.0,
+            3.852,
+            7.035,
+            9.434,
+            9.201,
+            17.872,
+            18.256
+          ],
+          [
+            5.497,
+            5.646,
+            3.852,
+            0.0,
+            3.828,
+            5.588,
+            5.873,
+            14.136,
+            14.678
+          ],
+          [
+            5.813,
+            6.801,
+            7.035,
+            3.828,
+            0.0,
+            3.872,
+            5.867,
+            11.133,
+            11.297
+          ],
+          [
+            8.935,
+            10.31,
+            9.434,
+            5.588,
+            3.872,
+            0.0,
+            3.852,
+            8.754,
+            9.692
+          ],
+          [
+            8.488,
+            10.71,
+            9.201,
+            5.873,
+            5.867,
+            3.852,
+            0.0,
+            10.525,
+            12.491
+          ],
+          [
+            15.674,
+            17.761,
+            17.872,
+            14.136,
+            11.133,
+            8.754,
+            10.525,
+            0.0,
+            3.838
+          ],
+          [
+            16.247,
+            17.693,
+            18.256,
+            14.678,
+            11.297,
+            9.692,
+            12.491,
+            3.838,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7649339938132815,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SERPINA1-S71R Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7649,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_S71R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_S71R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_S71R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_S71R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SERPINA1_S71R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPINA1-S71R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SERPINA1-S71R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:53:20.530151+00:00"
     }
   ]
 }
