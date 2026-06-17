@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1013,
+  "total_entries": 1014,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45587,
-    "queue_remaining": 133010
+    "total_processed": 45588,
+    "queue_remaining": 133009
   },
   "entries": [
     {
@@ -223388,6 +223388,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T17:31:45.704851+00:00"
+    },
+    {
+      "entry_id": "PCD-RB1-D697E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RB1-D697E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RB1",
+        "uniprot": "",
+        "clinvar_id": "312293",
+        "disease": "Retinoblastoma",
+        "mutation_precursor": "D697E",
+        "mutation_mature": "D697E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8328785628078805,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 397.6047762412706,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          14.597017288208008,
+          10.566640853881836,
+          -13.32908821105957
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.31757368493478,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6126951579263409,
+        "cryptic": true,
+        "pocket_residues": {
+          "M695": "M",
+          "R696": "R",
+          "D697": "D",
+          "R698": "R",
+          "H699": "H",
+          "V742": "V",
+          "L743": "L",
+          "I744": "I",
+          "K745": "K",
+          "E746": "E",
+          "Y749": "Y"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P06400|RB1 variant D697E",
+        "fasta_sequence": "MPPKTPRKTAATAAAAAAEPPAPPPPPPPEEDPEQDSGPEDLPLVRLEFEETEEPDFTALCQKLKIPDHVRERAWLTWEKVSSVDGVLGGYIQKKKELWGICIFIAAVDLDEMSFTFTELQKNIEISVHKFFNLLKEIDTSTKVDNAMSRLLKKYDVLFALFSKLERTCELIYLTQPSSSISTEINSALVLKVSWITFLLAKGEVLQMEDDLVISFQLMLCVLDYFIKLSPPMLLKEPYKTAVIPINGSPRTPRRGQNRSARIAKQLENDTRIIEVLCKEHECNIDEVKNVYFKNFIPFMNSLGLVTSNGLPEVENLSKRYEEIYLKNKDLDARLFLDHDKTLQTDSIDSFETQRTPRKSNLDEEVNVIPPHTPVRTVMNTIQQLMMILNSASDQPSENLISYFNNCTVNPKESILKRVKDIGYIFKEKFAKAVGQGCVEIGSQRYKLGVRLYYRVMESMLKSEEERLSIQNFSKLLNDNIFHMSLLACALEVVMATYSRSTSQNLDSGTDLSFPWILNVLNLKAFDFYKVIESFIKAEGNLTREMIKHLERCEHRIMESLAWLSDSPLFDLIKQSKDREGPTDHLESACPLNLPLQNNHTAADMYLSPVRSPKKKGSTTRVNSTANAETQATSAFQTQKPLKSTSLSLFYKKVYRLAYLRLNTLCERLLSEHPELEHIIWTLFQHTLQNEYELMRDRHLDQIMMCSMYGICKVKNIDLKFKIIVTAYKDLPHAVQETFKRVLIKEEEYDSIIVFYNSVFMQRLKTNILQYASTRPPTLSPIPHIPRSPYKFPSSPLRIPGGNIYISPLKSPYKISEGLPTPTKMTPRSRILVSIGESFGTSEKFQKINQMVCNSDRVLKRSAEGSNPPKPLKKLRFDIEGSDEADGSKHLPGESKFQQKLAEMTSTRTRMQKQKMNDSMDTSNKEEK",
+        "full_sequence": "MPPKTPRKTAATAAAAAAEPPAPPPPPPPEEDPEQDSGPEDLPLVRLEFEETEEPDFTALCQKLKIPDHVRERAWLTWEKVSSVDGVLGGYIQKKKELWGICIFIAAVDLDEMSFTFTELQKNIEISVHKFFNLLKEIDTSTKVDNAMSRLLKKYDVLFALFSKLERTCELIYLTQPSSSISTEINSALVLKVSWITFLLAKGEVLQMEDDLVISFQLMLCVLDYFIKLSPPMLLKEPYKTAVIPINGSPRTPRRGQNRSARIAKQLENDTRIIEVLCKEHECNIDEVKNVYFKNFIPFMNSLGLVTSNGLPEVENLSKRYEEIYLKNKDLDARLFLDHDKTLQTDSIDSFETQRTPRKSNLDEEVNVIPPHTPVRTVMNTIQQLMMILNSASDQPSENLISYFNNCTVNPKESILKRVKDIGYIFKEKFAKAVGQGCVEIGSQRYKLGVRLYYRVMESMLKSEEERLSIQNFSKLLNDNIFHMSLLACALEVVMATYSRSTSQNLDSGTDLSFPWILNVLNLKAFDFYKVIESFIKAEGNLTREMIKHLERCEHRIMESLAWLSDSPLFDLIKQSKDREGPTDHLESACPLNLPLQNNHTAADMYLSPVRSPKKKGSTTRVNSTANAETQATSAFQTQKPLKSTSLSLFYKKVYRLAYLRLNTLCERLLSEHPELEHIIWTLFQHTLQNEYELMRDRHLDQIMMCSMYGICKVKNIDLKFKIIVTAYKDLPHAVQETFKRVLIKEEEYDSIIVFYNSVFMQRLKTNILQYASTRPPTLSPIPHIPRSPYKFPSSPLRIPGGNIYISPLKSPYKISEGLPTPTKMTPRSRILVSIGESFGTSEKFQKINQMVCNSDRVLKRSAEGSNPPKPLKKLRFDIEGSDEADGSKHLPGESKFQQKLAEMTSTRTRMQKQKMNDSMDTSNKEEK",
+        "n_residues": 928,
+        "mutation_pos_1indexed": 697,
+        "wt_aa": "D",
+        "mut_aa": "E",
+        "pocket_lining_residues": "M695-R696-D697-R698-H699-V742-L743-I744-K745-E746-Y749",
+        "pocket_lining_positions_precursor": [
+          695,
+          696,
+          697,
+          698,
+          699,
+          742,
+          743,
+          744,
+          745,
+          746,
+          749
+        ],
+        "pocket_lining_1letter": "MRDRHVLIKEY",
+        "sequence_slice_around_pocket": "TLQNEYELMRDRHLDQIMMC"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RB1_D697E/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "M695",
+          "R696",
+          "D697",
+          "R698",
+          "H699",
+          "V742",
+          "L743",
+          "I744",
+          "K745",
+          "E746",
+          "Y749"
+        ],
+        "values": [
+          [
+            0.0,
+            3.862,
+            6.182,
+            4.922,
+            6.564,
+            11.075,
+            10.032,
+            11.704,
+            12.684,
+            13.253,
+            14.542
+          ],
+          [
+            3.862,
+            0.0,
+            3.837,
+            5.347,
+            8.415,
+            11.309,
+            9.147,
+            10.891,
+            10.766,
+            10.405,
+            13.533
+          ],
+          [
+            6.182,
+            3.837,
+            0.0,
+            3.862,
+            7.164,
+            9.202,
+            7.246,
+            10.079,
+            10.176,
+            9.221,
+            11.136
+          ],
+          [
+            4.922,
+            5.347,
+            3.862,
+            0.0,
+            3.796,
+            7.052,
+            6.566,
+            9.521,
+            11.015,
+            11.294,
+            10.651
+          ],
+          [
+            6.564,
+            8.415,
+            7.164,
+            3.796,
+            0.0,
+            8.207,
+            9.308,
+            12.334,
+            14.436,
+            14.915,
+            12.755
+          ],
+          [
+            11.075,
+            11.309,
+            9.202,
+            7.052,
+            8.207,
+            0.0,
+            3.817,
+            6.339,
+            9.436,
+            10.936,
+            5.178
+          ],
+          [
+            10.032,
+            9.147,
+            7.246,
+            6.566,
+            9.308,
+            3.817,
+            0.0,
+            3.844,
+            5.944,
+            7.222,
+            4.556
+          ],
+          [
+            11.704,
+            10.891,
+            10.079,
+            9.521,
+            12.334,
+            6.339,
+            3.844,
+            0.0,
+            3.851,
+            7.024,
+            5.526
+          ],
+          [
+            12.684,
+            10.766,
+            10.176,
+            11.015,
+            14.436,
+            9.436,
+            5.944,
+            3.851,
+            0.0,
+            3.862,
+            7.349
+          ],
+          [
+            13.253,
+            10.405,
+            9.221,
+            11.294,
+            14.915,
+            10.936,
+            7.222,
+            7.024,
+            3.862,
+            0.0,
+            8.464
+          ],
+          [
+            14.542,
+            13.533,
+            11.136,
+            10.651,
+            12.755,
+            5.178,
+            4.556,
+            5.526,
+            7.349,
+            8.464,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8607928107348158,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RB1-D697E Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8608,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RB1_D697E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RB1_D697E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RB1_D697E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RB1_D697E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RB1_D697E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RB1-D697E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RB1-D697E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T17:32:20.071147+00:00"
     }
   ]
 }
