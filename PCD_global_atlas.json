@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1130,
+  "total_entries": 1131,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45727,
-    "queue_remaining": 132870
+    "total_processed": 45728,
+    "queue_remaining": 132869
   },
   "entries": [
     {
@@ -249332,6 +249332,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:38:13.589254+00:00"
+    },
+    {
+      "entry_id": "PCD-SPG21-A180T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPG21-A180T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SPG21",
+        "uniprot": "",
+        "clinvar_id": "316720",
+        "disease": "Mast syndrome",
+        "mutation_precursor": "A180T",
+        "mutation_mature": "A180T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7689313189780598,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 484.75175633933486,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.8267579078674316,
+          3.481916904449463,
+          -21.807559967041016
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.674530094657596,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6715705309079015,
+        "cryptic": true,
+        "pocket_residues": {
+          "F168": "F",
+          "S169": "S",
+          "S170": "S",
+          "G171": "G",
+          "V173": "V",
+          "M177": "M",
+          "A178": "A",
+          "A180": "A",
+          "I181": "I",
+          "D182": "D"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NZD8|SPG21 variant A180T",
+        "fasta_sequence": "MGEIKVSPDYNWFRGTVPLKKIIVDDDDSKIWSLYDAGPRSIRCPLIFLPPVSGTADVFFRQILALTGWGYRVIALQYPVYWDHLEFCDGFRKLLDHLQLDKVHLFGASLGGFLAQKFAEYTHKSPRVHSLILCNSFSDTSIFNQTWTANSFWLMPAFMLKKIVLGNFSSGPVDPMMADAIDFMVDRLESLGQSELASRLTLNCQNSYVEPHKIRDIPVTIMDVFDQSALSTEAKEEMYKLYPNARRAHLKTGGNFPYLCRSAEVNLYVQIHLLQFHGTKYAAIDPSMVSAEELEVQKGSLGISQEEQ",
+        "full_sequence": "MGEIKVSPDYNWFRGTVPLKKIIVDDDDSKIWSLYDAGPRSIRCPLIFLPPVSGTADVFFRQILALTGWGYRVIALQYPVYWDHLEFCDGFRKLLDHLQLDKVHLFGASLGGFLAQKFAEYTHKSPRVHSLILCNSFSDTSIFNQTWTANSFWLMPAFMLKKIVLGNFSSGPVDPMMADAIDFMVDRLESLGQSELASRLTLNCQNSYVEPHKIRDIPVTIMDVFDQSALSTEAKEEMYKLYPNARRAHLKTGGNFPYLCRSAEVNLYVQIHLLQFHGTKYAAIDPSMVSAEELEVQKGSLGISQEEQ",
+        "n_residues": 308,
+        "mutation_pos_1indexed": 180,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "F168-S169-S170-G171-V173-M177-A178-A180-I181-D182",
+        "pocket_lining_positions_precursor": [
+          168,
+          169,
+          170,
+          171,
+          173,
+          177,
+          178,
+          180,
+          181,
+          182
+        ],
+        "pocket_lining_1letter": "FSSGVMAAID",
+        "sequence_slice_around_pocket": "SGPVDPMMADAIDFMVDRLE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SPG21_A180T/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "F168",
+          "S169",
+          "S170",
+          "G171",
+          "V173",
+          "M177",
+          "A178",
+          "A180",
+          "I181",
+          "D182"
+        ],
+        "values": [
+          [
+            0.0,
+            3.827,
+            6.298,
+            9.714,
+            11.06,
+            10.726,
+            10.445,
+            10.749,
+            7.507,
+            10.358
+          ],
+          [
+            3.827,
+            0.0,
+            3.822,
+            6.513,
+            7.96,
+            9.347,
+            9.314,
+            11.13,
+            8.352,
+            11.405
+          ],
+          [
+            6.298,
+            3.822,
+            0.0,
+            3.827,
+            8.274,
+            11.378,
+            10.252,
+            13.392,
+            10.287,
+            12.406
+          ],
+          [
+            9.714,
+            6.513,
+            3.827,
+            0.0,
+            6.406,
+            11.266,
+            10.021,
+            14.324,
+            11.834,
+            13.642
+          ],
+          [
+            11.06,
+            7.96,
+            8.274,
+            6.406,
+            0.0,
+            6.06,
+            6.126,
+            10.466,
+            9.681,
+            11.84
+          ],
+          [
+            10.726,
+            9.347,
+            11.378,
+            11.266,
+            6.06,
+            0.0,
+            3.846,
+            4.996,
+            6.134,
+            8.62
+          ],
+          [
+            10.445,
+            9.314,
+            10.252,
+            10.021,
+            6.126,
+            3.846,
+            0.0,
+            5.454,
+            5.084,
+            6.173
+          ],
+          [
+            10.749,
+            11.13,
+            13.392,
+            14.324,
+            10.466,
+            4.996,
+            5.454,
+            0.0,
+            3.849,
+            5.512
+          ],
+          [
+            7.507,
+            8.352,
+            10.287,
+            11.834,
+            9.681,
+            6.134,
+            5.084,
+            3.849,
+            0.0,
+            3.871
+          ],
+          [
+            10.358,
+            11.405,
+            12.406,
+            13.642,
+            11.84,
+            8.62,
+            6.173,
+            5.512,
+            3.871,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "composite_score": 0.8064301918525941,
+        "mw": 377.19,
+        "logp": 1.989,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.6094,
+        "sa_score": 3.19,
+        "n_heavy_atoms": 28,
+        "tpsa": 104.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SPG21-A180T Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8064,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SPG21_A180T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SPG21_A180T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SPG21_A180T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPG21_A180T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPG21_A180T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPG21-A180T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPG21-A180T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:38:36.231812+00:00"
     }
   ]
 }
