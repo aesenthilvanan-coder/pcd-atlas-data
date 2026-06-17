@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1358,
+  "total_entries": 1359,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45994,
-    "queue_remaining": 132603
+    "total_processed": 45995,
+    "queue_remaining": 132602
   },
   "entries": [
     {
@@ -300573,6 +300573,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:46:36.369449+00:00"
+    },
+    {
+      "entry_id": "PCD-STXBP2-R529P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STXBP2-R529P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "STXBP2",
+        "uniprot": "",
+        "clinvar_id": "330559",
+        "disease": "Familial hemophagocytic lymphohistiocytosis 5",
+        "mutation_precursor": "R529P",
+        "mutation_mature": "R529P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8731026639768414,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 514.479533522125,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          7.105791091918945,
+          2.4942986965179443,
+          27.595460891723633
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.306575285752829,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7167927196288595,
+        "cryptic": true,
+        "pocket_residues": {
+          "P223": "P",
+          "E224": "E",
+          "A528": "A",
+          "R529": "R",
+          "A530": "A",
+          "G531": "G",
+          "K560": "K"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q15833|STXBP2 variant R529P",
+        "fasta_sequence": "MAPSGLKAVVGEKILSGVIRSVKKDGEWKVLIMDHPSMRILSSCCKMSDILAEGITIVEDINKRREPIPSLEAIYLLSPTEKSVQALIKDFQGTPTFTYKAAHIFFTDTCPEPLFSELGRSRLAKVVKTLKEIHLAFLPYEAQVFSLDAPHSTYNLYCPFRAEERTRQLEVLAQQIATLCATLQEYPAIRYRKGPEDTAQLAHAVLAKLNAFKADTPSLGEGPEKTRSQLLIMDRAADPVSPLLHELTFQAMAYDLLDIEQDTYRYETTGLSEAREKAVLLDEDDDLWVELRHMHIADVSKKVTELLRTFCESKRLTTDKANIKDLSQILKKMPQYQKELNKYSTHLHLADDCMKHFKGSVEKLCSVEQDLAMGSDAEGEKIKDSMKLIVPVLLDAAVPAYDKIRVLLLYILLRNGVSEENLAKLIQHANVQAHSSLIRNLEQLGGTVTNPGGSGTSSRLEPRERMEPTYQLSRWTPVIKDVMEDAVEDRLDRNLWPFVSDPAPTASSQAAVSARFGHWHKNKAGIEARAGPRLIVYVMGGVAMSEMRAAYEVTRATEGKWEVLIGSSHILTPTRFLDDLKALDKKLEDIALP",
+        "full_sequence": "MAPSGLKAVVGEKILSGVIRSVKKDGEWKVLIMDHPSMRILSSCCKMSDILAEGITIVEDINKRREPIPSLEAIYLLSPTEKSVQALIKDFQGTPTFTYKAAHIFFTDTCPEPLFSELGRSRLAKVVKTLKEIHLAFLPYEAQVFSLDAPHSTYNLYCPFRAEERTRQLEVLAQQIATLCATLQEYPAIRYRKGPEDTAQLAHAVLAKLNAFKADTPSLGEGPEKTRSQLLIMDRAADPVSPLLHELTFQAMAYDLLDIEQDTYRYETTGLSEAREKAVLLDEDDDLWVELRHMHIADVSKKVTELLRTFCESKRLTTDKANIKDLSQILKKMPQYQKELNKYSTHLHLADDCMKHFKGSVEKLCSVEQDLAMGSDAEGEKIKDSMKLIVPVLLDAAVPAYDKIRVLLLYILLRNGVSEENLAKLIQHANVQAHSSLIRNLEQLGGTVTNPGGSGTSSRLEPRERMEPTYQLSRWTPVIKDVMEDAVEDRLDRNLWPFVSDPAPTASSQAAVSARFGHWHKNKAGIEARAGPRLIVYVMGGVAMSEMRAAYEVTRATEGKWEVLIGSSHILTPTRFLDDLKALDKKLEDIALP",
+        "n_residues": 593,
+        "mutation_pos_1indexed": 529,
+        "wt_aa": "R",
+        "mut_aa": "P",
+        "pocket_lining_residues": "P223-E224-A528-R529-A530-G531-K560",
+        "pocket_lining_positions_precursor": [
+          223,
+          224,
+          528,
+          529,
+          530,
+          531,
+          560
+        ],
+        "pocket_lining_1letter": "PEARAGK",
+        "sequence_slice_around_pocket": "WHKNKAGIEARAGPRLIVYV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP2_R529P/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "P223",
+          "E224",
+          "A528",
+          "R529",
+          "A530",
+          "G531",
+          "K560"
+        ],
+        "values": [
+          [
+            0.0,
+            3.851,
+            11.403,
+            9.631,
+            7.828,
+            7.753,
+            12.154
+          ],
+          [
+            3.851,
+            0.0,
+            12.771,
+            9.947,
+            7.688,
+            5.722,
+            9.794
+          ],
+          [
+            11.403,
+            12.771,
+            0.0,
+            3.833,
+            6.712,
+            9.873,
+            12.413
+          ],
+          [
+            9.631,
+            9.947,
+            3.833,
+            0.0,
+            3.837,
+            6.235,
+            8.941
+          ],
+          [
+            7.828,
+            7.688,
+            6.712,
+            3.837,
+            0.0,
+            3.914,
+            6.658
+          ],
+          [
+            7.753,
+            5.722,
+            9.873,
+            6.235,
+            3.914,
+            0.0,
+            4.792
+          ],
+          [
+            12.154,
+            9.794,
+            12.413,
+            8.941,
+            6.658,
+            4.792,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7486255101513255,
+        "mw": 319.17,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.924,
+        "sa_score": 3.13,
+        "n_heavy_atoms": 23,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "STXBP2-R529P Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7486,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP2_R529P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP2_R529P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP2_R529P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP2_R529P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP2_R529P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STXBP2-R529P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STXBP2-R529P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:47:01.792663+00:00"
     }
   ]
 }
