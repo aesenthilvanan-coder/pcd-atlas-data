@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 690,
+  "total_entries": 691,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45186,
-    "queue_remaining": 133411
+    "total_processed": 45188,
+    "queue_remaining": 133409
   },
   "entries": [
     {
@@ -152306,6 +152306,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:52:11.875924+00:00"
+    },
+    {
+      "entry_id": "PCD-HPD-M166I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPD-M166I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HPD",
+        "uniprot": "",
+        "clinvar_id": "307484",
+        "disease": "Tyrosinemia type III",
+        "mutation_precursor": "M166I",
+        "mutation_mature": "M166I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7292515831900577,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 374.49022708494056,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.253440856933594,
+          -4.777562618255615,
+          -23.96959114074707
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.6200484373179536,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6288150732014772,
+        "cryptic": true,
+        "pocket_residues": {
+          "E43": "E",
+          "P44": "P",
+          "L45": "L",
+          "A46": "A",
+          "Y47": "Y",
+          "A162": "A",
+          "P163": "P",
+          "A164": "A",
+          "F165": "F",
+          "M166": "M",
+          "D167": "D"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P32754|HPD variant M166I",
+        "fasta_sequence": "MTTYSDKGAKPERGRFLHFHSVTFWVGNAKQATSFYCSKMGFEPLAYRGLETGSREVVSHVIKQGKIVFVLSSALNPWNKEMGDHLVKHGDGVKDIAFEVEDCDYIVQKARERGAKIMREPWVEQDKFGKVKFAVLQTYGDTTHTLVEKMNYIGQFLPGYEAPAFMDPLLPKLPKCSLEMIDHIVGNQPDQEMVSASEWYLKNLQFHRFWSVDDTQVHTEYSSLRSIVVANYEESIKMPINEPAPGKKKSQIQEYVDYNGGAGVQHIALKTEDIITAIRHLRERGLEFLSVPSTYYKQLREKLKTAKIKVKENIDALEELKILVDYDEKGYLLQIFTKPVQDRPTLFLEVIQRHNHQGFGAGNFNSLFKAFEEEQNLRGNLTNMETNGVVPGM",
+        "full_sequence": "MTTYSDKGAKPERGRFLHFHSVTFWVGNAKQATSFYCSKMGFEPLAYRGLETGSREVVSHVIKQGKIVFVLSSALNPWNKEMGDHLVKHGDGVKDIAFEVEDCDYIVQKARERGAKIMREPWVEQDKFGKVKFAVLQTYGDTTHTLVEKMNYIGQFLPGYEAPAFMDPLLPKLPKCSLEMIDHIVGNQPDQEMVSASEWYLKNLQFHRFWSVDDTQVHTEYSSLRSIVVANYEESIKMPINEPAPGKKKSQIQEYVDYNGGAGVQHIALKTEDIITAIRHLRERGLEFLSVPSTYYKQLREKLKTAKIKVKENIDALEELKILVDYDEKGYLLQIFTKPVQDRPTLFLEVIQRHNHQGFGAGNFNSLFKAFEEEQNLRGNLTNMETNGVVPGM",
+        "n_residues": 393,
+        "mutation_pos_1indexed": 166,
+        "wt_aa": "M",
+        "mut_aa": "I",
+        "pocket_lining_residues": "E43-P44-L45-A46-Y47-A162-P163-A164-F165-M166-D167",
+        "pocket_lining_positions_precursor": [
+          43,
+          44,
+          45,
+          46,
+          47,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167
+        ],
+        "pocket_lining_1letter": "EPLAYAPAFMD",
+        "sequence_slice_around_pocket": "FLPGYEAPAFMDPLLPKLPK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HPD_M166I/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "E43",
+          "P44",
+          "L45",
+          "A46",
+          "Y47",
+          "A162",
+          "P163",
+          "A164",
+          "F165",
+          "M166",
+          "D167"
+        ],
+        "values": [
+          [
+            0.0,
+            3.861,
+            6.365,
+            9.597,
+            11.928,
+            11.992,
+            9.507,
+            11.975,
+            10.395,
+            8.209,
+            8.633
+          ],
+          [
+            3.861,
+            0.0,
+            3.854,
+            6.125,
+            8.163,
+            8.531,
+            5.806,
+            8.469,
+            7.763,
+            6.774,
+            8.437
+          ],
+          [
+            6.365,
+            3.854,
+            0.0,
+            3.828,
+            7.298,
+            6.904,
+            5.992,
+            9.604,
+            10.113,
+            9.514,
+            11.946
+          ],
+          [
+            9.597,
+            6.125,
+            3.828,
+            0.0,
+            3.838,
+            4.776,
+            4.566,
+            7.771,
+            9.721,
+            10.536,
+            13.318
+          ],
+          [
+            11.928,
+            8.163,
+            7.298,
+            3.838,
+            0.0,
+            5.856,
+            4.919,
+            6.117,
+            9.142,
+            11.269,
+            13.783
+          ],
+          [
+            11.992,
+            8.531,
+            6.904,
+            4.776,
+            5.856,
+            0.0,
+            3.872,
+            6.54,
+            8.712,
+            9.771,
+            13.342
+          ],
+          [
+            9.507,
+            5.806,
+            5.992,
+            4.566,
+            4.919,
+            3.872,
+            0.0,
+            3.835,
+            5.426,
+            6.815,
+            9.987
+          ],
+          [
+            11.975,
+            8.469,
+            9.604,
+            7.771,
+            6.117,
+            6.54,
+            3.835,
+            0.0,
+            3.86,
+            7.176,
+            9.758
+          ],
+          [
+            10.395,
+            7.763,
+            10.113,
+            9.721,
+            9.142,
+            8.712,
+            5.426,
+            3.86,
+            0.0,
+            3.832,
+            6.068
+          ],
+          [
+            8.209,
+            6.774,
+            9.514,
+            10.536,
+            11.269,
+            9.771,
+            6.815,
+            7.176,
+            3.832,
+            0.0,
+            3.834
+          ],
+          [
+            8.633,
+            8.437,
+            11.946,
+            13.318,
+            13.783,
+            13.342,
+            9.987,
+            9.758,
+            6.068,
+            3.834,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8195499091195423,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HPD-M166I Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8195,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HPD_M166I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HPD_M166I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HPD_M166I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPD_M166I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPD_M166I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPD-M166I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPD-M166I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:53:02.187192+00:00"
     }
   ]
 }
