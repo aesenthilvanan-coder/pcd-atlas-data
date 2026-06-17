@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1260,
+  "total_entries": 1261,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45861,
-    "queue_remaining": 132736
+    "total_processed": 45862,
+    "queue_remaining": 132735
   },
   "entries": [
     {
@@ -278723,6 +278723,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:15:33.926636+00:00"
+    },
+    {
+      "entry_id": "PCD-TNFRSF11A-R181S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFRSF11A-R181S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TNFRSF11A",
+        "uniprot": "",
+        "clinvar_id": "327732",
+        "disease": "Autosomal recessive osteopetrosis 7",
+        "mutation_precursor": "R181S",
+        "mutation_mature": "R181S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9451237182606242,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 345.0644462702439,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          25.454130172729492,
+          15.04916763305664,
+          -22.95464515686035
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.986429719124592,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8595158115339596,
+        "cryptic": true,
+        "pocket_residues": {
+          "C175": "C",
+          "T176": "T",
+          "F177": "F",
+          "L178": "L",
+          "G179": "G",
+          "K180": "K",
+          "R181": "R",
+          "V182": "V",
+          "C194": "C",
+          "S195": "S",
+          "S196": "S"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y6Q6|TNFRSF11A variant R181S",
+        "fasta_sequence": "MAPRARRRRPLFALLLLCALLARLQVALQIAPPCTSEKHYEHLGRCCNKCEPGKYMSSKCTTTSDSVCLPCGPDEYLDSWNEEDKCLLHKVCDTGKALVAVVAGNSTTPRRCACTAGYHWSQDCECCRRNTECAPGLGAQHPLQLNKDTVCKPCLAGYFSDAFSSTDKCRPWTNCTFLGKRVEHHGTEKSDAVCSSSLPARKPPNEPHVYLPGLIILLLFASVALVAAIIFGVCYRKKGKALTANLWHWINEACGRLSGDKESSGDSCVSTHTANFGQQGACEGVLLLTLEEKTFPEDMCYPDQGGVCQGTCVGGGPYAQGEDARMLSLVSKTEIEEDSFRQMPTEDEYMDRPSQPTDQLLFLTEPGSKSTPPFSEPLEVGENDSLSQCFTGTQSTVGSESCNCTEPLCRTDWTPMSSENYLQKEVDSGHCPHWAASPSPNWADVCTGCRNPPGEDCEPLVGSPKRGPLPQCAYGMGLPPEEEASRTEARDQPEDGADGRLPSSARAGAGSGSSPGGQSPASGNVTGNSNSTFISSGQVMNFKGDIIVVYVSQTSQEGAAAAAEPMGRPVQEETLARRDSFAGNGPRFPDPCGGPEGLREPEKASRPVQEQGGAKA",
+        "full_sequence": "MAPRARRRRPLFALLLLCALLARLQVALQIAPPCTSEKHYEHLGRCCNKCEPGKYMSSKCTTTSDSVCLPCGPDEYLDSWNEEDKCLLHKVCDTGKALVAVVAGNSTTPRRCACTAGYHWSQDCECCRRNTECAPGLGAQHPLQLNKDTVCKPCLAGYFSDAFSSTDKCRPWTNCTFLGKRVEHHGTEKSDAVCSSSLPARKPPNEPHVYLPGLIILLLFASVALVAAIIFGVCYRKKGKALTANLWHWINEACGRLSGDKESSGDSCVSTHTANFGQQGACEGVLLLTLEEKTFPEDMCYPDQGGVCQGTCVGGGPYAQGEDARMLSLVSKTEIEEDSFRQMPTEDEYMDRPSQPTDQLLFLTEPGSKSTPPFSEPLEVGENDSLSQCFTGTQSTVGSESCNCTEPLCRTDWTPMSSENYLQKEVDSGHCPHWAASPSPNWADVCTGCRNPPGEDCEPLVGSPKRGPLPQCAYGMGLPPEEEASRTEARDQPEDGADGRLPSSARAGAGSGSSPGGQSPASGNVTGNSNSTFISSGQVMNFKGDIIVVYVSQTSQEGAAAAAEPMGRPVQEETLARRDSFAGNGPRFPDPCGGPEGLREPEKASRPVQEQGGAKA",
+        "n_residues": 616,
+        "mutation_pos_1indexed": 181,
+        "wt_aa": "R",
+        "mut_aa": "S",
+        "pocket_lining_residues": "C175-T176-F177-L178-G179-K180-R181-V182-C194-S195-S196",
+        "pocket_lining_positions_precursor": [
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          194,
+          195,
+          196
+        ],
+        "pocket_lining_1letter": "CTFLGKRVCSS",
+        "sequence_slice_around_pocket": "PWTNCTFLGKRVEHHGTEKS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF11A_R181S/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "C175",
+          "T176",
+          "F177",
+          "L178",
+          "G179",
+          "K180",
+          "R181",
+          "V182",
+          "C194",
+          "S195",
+          "S196"
+        ],
+        "values": [
+          [
+            0.0,
+            3.871,
+            5.415,
+            5.042,
+            6.453,
+            5.077,
+            5.65,
+            5.789,
+            5.415,
+            8.049,
+            9.335
+          ],
+          [
+            3.871,
+            0.0,
+            3.832,
+            5.336,
+            5.063,
+            5.588,
+            6.313,
+            7.864,
+            8.752,
+            10.369,
+            10.607
+          ],
+          [
+            5.415,
+            3.832,
+            0.0,
+            3.855,
+            5.53,
+            7.519,
+            9.529,
+            10.879,
+            10.392,
+            12.346,
+            12.171
+          ],
+          [
+            5.042,
+            5.336,
+            3.855,
+            0.0,
+            3.875,
+            5.342,
+            8.455,
+            10.162,
+            8.254,
+            9.682,
+            9.087
+          ],
+          [
+            6.453,
+            5.063,
+            5.53,
+            3.875,
+            0.0,
+            3.867,
+            7.072,
+            10.036,
+            9.2,
+            9.319,
+            7.768
+          ],
+          [
+            5.077,
+            5.588,
+            7.519,
+            5.342,
+            3.867,
+            0.0,
+            3.824,
+            6.759,
+            5.863,
+            5.621,
+            5.022
+          ],
+          [
+            5.65,
+            6.313,
+            9.529,
+            8.455,
+            7.072,
+            3.824,
+            0.0,
+            3.823,
+            5.666,
+            5.498,
+            6.623
+          ],
+          [
+            5.789,
+            7.864,
+            10.879,
+            10.162,
+            10.036,
+            6.759,
+            3.823,
+            0.0,
+            4.705,
+            6.218,
+            9.005
+          ],
+          [
+            5.415,
+            8.752,
+            10.392,
+            8.254,
+            9.2,
+            5.863,
+            5.666,
+            4.705,
+            0.0,
+            3.848,
+            6.839
+          ],
+          [
+            8.049,
+            10.369,
+            12.346,
+            9.682,
+            9.319,
+            5.621,
+            5.498,
+            6.218,
+            3.848,
+            0.0,
+            3.818
+          ],
+          [
+            9.335,
+            10.607,
+            12.171,
+            9.087,
+            7.768,
+            5.022,
+            6.623,
+            9.005,
+            6.839,
+            3.818,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.7150987724432311,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TNFRSF11A-R181S Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7151,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF11A_R181S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF11A_R181S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF11A_R181S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF11A_R181S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF11A_R181S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFRSF11A-R181S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFRSF11A-R181S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:15:59.768357+00:00"
     }
   ]
 }
