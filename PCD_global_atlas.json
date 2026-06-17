@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 453,
+  "total_entries": 454,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44909,
-    "queue_remaining": 133688
+    "total_processed": 44910,
+    "queue_remaining": 133687
   },
   "entries": [
     {
@@ -100398,6 +100398,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:42:13.185581+00:00"
+    },
+    {
+      "entry_id": "PCD-MMP13-R458C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP13-R458C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MMP13",
+        "uniprot": "",
+        "clinvar_id": "301974",
+        "disease": "Spondyloepimetaphyseal dysplasia, Missouri type",
+        "mutation_precursor": "R458C",
+        "mutation_mature": "R458C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7633625095021749,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 532.5024020805155,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -21.211353302001953,
+          -4.955069541931152,
+          35.354373931884766
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.497253457022158,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7642161796461369,
+        "cryptic": true,
+        "pocket_residues": {
+          "S453": "S",
+          "S456": "S",
+          "N457": "N",
+          "R458": "R",
+          "I459": "I",
+          "V460": "V"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P45452|MMP13 variant R458C",
+        "fasta_sequence": "MHPGVLAAFLFLSWTHCRALPLPSGGDEDDLSEEDLQFAERYLRSYYHPTNLAGILKENAASSMTERLREMQSFFGLEVTGKLDDNTLDVMKKPRCGVPDVGEYNVFPRTLKWSKMNLTYRIVNYTPDMTHSEVEKAFKKAFKVWSDVTPLNFTRLHDGIADIMISFGIKEHGDFYPFDGPSGLLAHAFPPGPNYGGDAHFDDDETWTSSSKGYNLFLVAAHEFGHSLGLDHSKDPGALMFPIYTYTGKSHFMLPDDDVQGIQSLYGPGDEDPNPKHPKTPDKCDPSLSLDAITSLRGETMIFKDRFFWRLHPQQVDAELFLTKSFWPELPNRIDAAYEHPSHDLIFIFRGRKFWALNGYDILEGYPKKISELGLPKEVKKISAAVHFEDTGKTLLFSGNQVWRYDDTNHIMDKDYPRLIEEDFPGIGDKVDAVYEKNGYIYFFNGPIQFEYSIWSNRIVRVMPANSILWC",
+        "full_sequence": "MHPGVLAAFLFLSWTHCRALPLPSGGDEDDLSEEDLQFAERYLRSYYHPTNLAGILKENAASSMTERLREMQSFFGLEVTGKLDDNTLDVMKKPRCGVPDVGEYNVFPRTLKWSKMNLTYRIVNYTPDMTHSEVEKAFKKAFKVWSDVTPLNFTRLHDGIADIMISFGIKEHGDFYPFDGPSGLLAHAFPPGPNYGGDAHFDDDETWTSSSKGYNLFLVAAHEFGHSLGLDHSKDPGALMFPIYTYTGKSHFMLPDDDVQGIQSLYGPGDEDPNPKHPKTPDKCDPSLSLDAITSLRGETMIFKDRFFWRLHPQQVDAELFLTKSFWPELPNRIDAAYEHPSHDLIFIFRGRKFWALNGYDILEGYPKKISELGLPKEVKKISAAVHFEDTGKTLLFSGNQVWRYDDTNHIMDKDYPRLIEEDFPGIGDKVDAVYEKNGYIYFFNGPIQFEYSIWSNRIVRVMPANSILWC",
+        "n_residues": 471,
+        "mutation_pos_1indexed": 458,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "S453-S456-N457-R458-I459-V460",
+        "pocket_lining_positions_precursor": [
+          453,
+          456,
+          457,
+          458,
+          459,
+          460
+        ],
+        "pocket_lining_1letter": "SSNRIV",
+        "sequence_slice_around_pocket": "IQFEYSIWSNRIVRVMPANS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_R458C/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "S453",
+          "S456",
+          "N457",
+          "R458",
+          "I459",
+          "V460"
+        ],
+        "values": [
+          [
+            0.0,
+            5.469,
+            5.676,
+            5.688,
+            6.291,
+            6.463
+          ],
+          [
+            5.469,
+            0.0,
+            3.858,
+            5.55,
+            8.519,
+            8.975
+          ],
+          [
+            5.676,
+            3.858,
+            0.0,
+            3.851,
+            7.301,
+            9.36
+          ],
+          [
+            5.688,
+            5.55,
+            3.851,
+            0.0,
+            3.802,
+            6.3
+          ],
+          [
+            6.291,
+            8.519,
+            7.301,
+            3.802,
+            0.0,
+            3.849
+          ],
+          [
+            6.463,
+            8.975,
+            9.36,
+            6.3,
+            3.849,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "composite_score": 0.51988151249602,
+        "mw": 361.24,
+        "logp": 2.104,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8409,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MMP13-R458C Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5199,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_R458C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_R458C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_R458C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_R458C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_R458C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP13-R458C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP13-R458C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:42:39.630025+00:00"
     }
   ]
 }
