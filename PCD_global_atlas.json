@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 106,
+  "total_entries": 107,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44510,
-    "queue_remaining": 134087
+    "total_processed": 44511,
+    "queue_remaining": 134086
   },
   "entries": [
     {
@@ -24446,6 +24446,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:14:23.666277+00:00"
+    },
+    {
+      "entry_id": "PCD-PSAP-M76K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-M76K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PSAP",
+        "uniprot": "",
+        "clinvar_id": "300529",
+        "disease": "Sphingolipid activator protein 1 deficiency",
+        "mutation_precursor": "M76K",
+        "mutation_mature": "M76K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8409964784087629,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 425.0924616373645,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          29.59052276611328,
+          19.03781509399414,
+          5.036292552947998
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.613944949052562,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8636230041607946,
+        "cryptic": true,
+        "pocket_residues": {
+          "G73": "G",
+          "S74": "S",
+          "G75": "G",
+          "D76": "D",
+          "N77": "N",
+          "A78": "A"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NZJ7|PSAP variant M76K",
+        "fasta_sequence": "MGASDPEVAPWARGGAAGMAGAGAGAGARGGAAAGVEARARDPPPAHRAHPRHPRPAAQPSARRMDGGSGGLGSGDNAPTTEALFVALGAGVTALSHPLLYVKLLIQVGHEPMPPTLGTNVLGRKVLYLPSFFTYAKYIVQVDGKIGLFRGLSPRLMSNALSTVTRGSMKKVFPPDEIEQVSNKDDMKTSLKKVVKETSYEMMMQCVSRMLAHPLHVISMRCMVQFVGREAKYSGVLSSIGKIFKEEGLLGFFVGLIPHLLGDVVFLWGCNLLAHFINAYLVDDSVSDTPGGLGNDQNPGSQFSQALAIRSYTKFVMGIAVSMLTYPFLLVGDLMAVNNCGLQAGLPPYSPVFKSWIHCWKYLSVQGQLFRGSSLLFRRVSSGSCFALE",
+        "full_sequence": "MGASDPEVAPWARGGAAGMAGAGAGAGARGGAAAGVEARARDPPPAHRAHPRHPRPAAQPSARRMDGGSGGLGSGDNAPTTEALFVALGAGVTALSHPLLYVKLLIQVGHEPMPPTLGTNVLGRKVLYLPSFFTYAKYIVQVDGKIGLFRGLSPRLMSNALSTVTRGSMKKVFPPDEIEQVSNKDDMKTSLKKVVKETSYEMMMQCVSRMLAHPLHVISMRCMVQFVGREAKYSGVLSSIGKIFKEEGLLGFFVGLIPHLLGDVVFLWGCNLLAHFINAYLVDDSVSDTPGGLGNDQNPGSQFSQALAIRSYTKFVMGIAVSMLTYPFLLVGDLMAVNNCGLQAGLPPYSPVFKSWIHCWKYLSVQGQLFRGSSLLFRRVSSGSCFALE",
+        "n_residues": 389,
+        "mutation_pos_1indexed": 76,
+        "wt_aa": "M",
+        "mut_aa": "K",
+        "pocket_lining_residues": "G73-S74-G75-D76-N77-A78",
+        "pocket_lining_positions_precursor": [
+          73,
+          74,
+          75,
+          76,
+          77,
+          78
+        ],
+        "pocket_lining_1letter": "GSGDNA",
+        "sequence_slice_around_pocket": "DGGSGGLGSGDNAPTTEALF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_M76K/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "G73",
+          "S74",
+          "G75",
+          "D76",
+          "N77",
+          "A78"
+        ],
+        "values": [
+          [
+            0.0,
+            3.818,
+            5.532,
+            6.839,
+            8.662,
+            11.391
+          ],
+          [
+            3.818,
+            0.0,
+            3.878,
+            6.302,
+            6.944,
+            9.039
+          ],
+          [
+            5.532,
+            3.878,
+            0.0,
+            3.865,
+            5.987,
+            6.977
+          ],
+          [
+            6.839,
+            6.302,
+            3.865,
+            0.0,
+            3.864,
+            5.676
+          ],
+          [
+            8.662,
+            6.944,
+            5.987,
+            3.864,
+            0.0,
+            3.853
+          ],
+          [
+            11.391,
+            9.039,
+            6.977,
+            5.676,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7463166785200521,
+        "mw": 302.21,
+        "logp": 2.025,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.8623,
+        "sa_score": 3.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PSAP-M76K Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7463,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_M76K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_M76K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_M76K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_M76K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_M76K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-M76K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-M76K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:14:44.811504+00:00"
     }
   ]
 }
