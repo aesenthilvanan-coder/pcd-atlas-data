@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 577,
+  "total_entries": 578,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45052,
-    "queue_remaining": 133545
+    "total_processed": 45053,
+    "queue_remaining": 133544
   },
   "entries": [
     {
@@ -128168,6 +128168,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:18:18.396774+00:00"
+    },
+    {
+      "entry_id": "PCD-SCO1-I290V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCO1-I290V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SCO1",
+        "uniprot": "",
+        "clinvar_id": "321791",
+        "disease": "Leigh syndrome",
+        "mutation_precursor": "I290V",
+        "mutation_mature": "I290V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7744774814794971,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 506.97000143709704,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -8.208637237548828,
+          -7.6123433113098145,
+          13.249091148376465
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.1483549432600375,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6760554339107512,
+        "cryptic": true,
+        "pocket_residues": {
+          "L193": "L",
+          "A288": "A",
+          "S289": "S",
+          "I290": "I",
+          "A291": "A",
+          "T292": "T",
+          "H293": "H",
+          "M294": "M",
+          "R295": "R",
+          "P296": "P",
+          "Y297": "Y"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O75880|SCO1 variant I290V",
+        "fasta_sequence": "MAMLVLVPGRVMRPLGGQLWRFLPRGLEFWGPAEGTARVLLRQFCARQAEAWRASGRPGYCLGTRPLSTARPPPPWSQKGPGDSTRPSKPGPVSWKSLAITFAIGGALLAGMKHVKKEKAEKLEKERQRHIGKPLLGGPFSLTTHTGERKTDKDYLGQWLLIYFGFTHCPDVCPEELEKMIQVVDEIDSITTLPDLTPLFISIDPERDTKEAIANYVKEFSPKLVGLTGTREEVDQVARAYRVYYSPGPKDEDEDYIVDHTIIMYLIGPDGEFLDYFGQNKRKGEIAASIATHMRPYRKKS",
+        "full_sequence": "MAMLVLVPGRVMRPLGGQLWRFLPRGLEFWGPAEGTARVLLRQFCARQAEAWRASGRPGYCLGTRPLSTARPPPPWSQKGPGDSTRPSKPGPVSWKSLAITFAIGGALLAGMKHVKKEKAEKLEKERQRHIGKPLLGGPFSLTTHTGERKTDKDYLGQWLLIYFGFTHCPDVCPEELEKMIQVVDEIDSITTLPDLTPLFISIDPERDTKEAIANYVKEFSPKLVGLTGTREEVDQVARAYRVYYSPGPKDEDEDYIVDHTIIMYLIGPDGEFLDYFGQNKRKGEIAASIATHMRPYRKKS",
+        "n_residues": 301,
+        "mutation_pos_1indexed": 290,
+        "wt_aa": "I",
+        "mut_aa": "V",
+        "pocket_lining_residues": "L193-A288-S289-I290-A291-T292-H293-M294-R295-P296-Y297",
+        "pocket_lining_positions_precursor": [
+          193,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297
+        ],
+        "pocket_lining_1letter": "LASIATHMRPY",
+        "sequence_slice_around_pocket": "NKRKGEIAASIATHMRPYRK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SCO1_I290V/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "L193",
+          "A288",
+          "S289",
+          "I290",
+          "A291",
+          "T292",
+          "H293",
+          "M294",
+          "R295",
+          "P296",
+          "Y297"
+        ],
+        "values": [
+          [
+            0.0,
+            11.64,
+            12.637,
+            9.789,
+            7.266,
+            10.166,
+            10.33,
+            6.826,
+            7.337,
+            10.739,
+            10.067
+          ],
+          [
+            11.64,
+            0.0,
+            3.86,
+            5.581,
+            5.141,
+            6.174,
+            8.87,
+            9.93,
+            10.699,
+            13.431,
+            14.857
+          ],
+          [
+            12.637,
+            3.86,
+            0.0,
+            3.859,
+            5.492,
+            5.034,
+            6.49,
+            8.811,
+            10.313,
+            12.134,
+            13.298
+          ],
+          [
+            9.789,
+            5.581,
+            3.859,
+            0.0,
+            3.849,
+            5.379,
+            5.189,
+            6.219,
+            8.846,
+            11.011,
+            11.155
+          ],
+          [
+            7.266,
+            5.141,
+            5.492,
+            3.849,
+            0.0,
+            3.864,
+            5.473,
+            5.008,
+            6.168,
+            9.274,
+            10.116
+          ],
+          [
+            10.166,
+            6.174,
+            5.034,
+            5.379,
+            3.864,
+            0.0,
+            3.858,
+            5.6,
+            5.651,
+            7.459,
+            9.383
+          ],
+          [
+            10.33,
+            8.87,
+            6.49,
+            5.189,
+            5.473,
+            3.858,
+            0.0,
+            3.865,
+            5.836,
+            6.411,
+            6.975
+          ],
+          [
+            6.826,
+            9.93,
+            8.811,
+            6.219,
+            5.008,
+            5.6,
+            3.865,
+            0.0,
+            3.882,
+            5.843,
+            5.312
+          ],
+          [
+            7.337,
+            10.699,
+            10.313,
+            8.846,
+            6.168,
+            5.651,
+            5.836,
+            3.882,
+            0.0,
+            3.888,
+            5.556
+          ],
+          [
+            10.739,
+            13.431,
+            12.134,
+            11.011,
+            9.274,
+            7.459,
+            6.411,
+            5.843,
+            3.888,
+            0.0,
+            3.846
+          ],
+          [
+            10.067,
+            14.857,
+            13.298,
+            11.155,
+            10.116,
+            9.383,
+            6.975,
+            5.312,
+            5.556,
+            3.846,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "composite_score": 0.6204572680189067,
+        "mw": 363.21,
+        "logp": 2.349,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.6257,
+        "sa_score": 3.23,
+        "n_heavy_atoms": 27,
+        "tpsa": 87.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SCO1-I290V Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6205,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SCO1_I290V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SCO1_I290V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SCO1_I290V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCO1_I290V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCO1_I290V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCO1-I290V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCO1-I290V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:18:40.711467+00:00"
     }
   ]
 }
