@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 597,
+  "total_entries": 598,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45073,
-    "queue_remaining": 133524
+    "total_processed": 45078,
+    "queue_remaining": 133519
   },
   "entries": [
     {
@@ -131887,6 +131887,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:31:29.624699+00:00"
+    },
+    {
+      "entry_id": "PCD-BBS1-V582I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BBS1-V582I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BBS1",
+        "uniprot": "",
+        "clinvar_id": "305473",
+        "disease": "Bardet-Biedl syndrome",
+        "mutation_precursor": "V582I",
+        "mutation_mature": "V582I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8017494108454419,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 559.6757521107498,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -43.322959899902344,
+          -5.328059196472168,
+          23.27981948852539
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.676284641097788,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7410921254411338,
+        "cryptic": true,
+        "pocket_residues": {
+          "A490": "A",
+          "V491": "V",
+          "V492": "V",
+          "V582": "V",
+          "N583": "N",
+          "M584": "M",
+          "P585": "P"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NFJ9|BBS1 variant V582I",
+        "fasta_sequence": "MAAASSSDSDACGAESNEANSKWLDAHYDPMANIHTFSACLALADLHGDGEYKLVVGDLGPGGQQPRLKVLKGPLVMTESPLPALPAAAATFLMEQHEPRTPALALASGPCVYVYKNLRPYFKFSLPQLPPNPLEQDLWNQAKEDRIDPLTLKEMLESIRETAEEPLSIQSLRFLQLELSEMEAFVNQHKSNSIKRQTVITTMTTLKKNLADEDAVSCLVLGTENKELLVLDPEAFTILAKMSLPSVPVFLEVSGQFDVEFRLAAACRNGNIYILRRDSKHPKYCIELSAQPVGLIRVHKVLVVGSTQDSLHGFTHKGKKLWTVQMPAAILTMNLLEQHSRGLQAVMAGLANGEVRIYRDKALLNVIHTPDAVTSLCFGRYGREDNTLIMTTRGGGLIIKILKRTAVFVEGGSEVGPPPAQAMKLNVPRKTRLYVDQTLREREAGTAMHRAFQTDLYLLRLRAARAYLQALESSLSPLSTTAREPLKLHAVVQGLGPTFKLTLHLQNTSTTRPVLGLLVCFLYNEALYSLPRAFFKVPLLVPGLNYPLETFVESLSNKGISDIIKVLVLREGQSAPLLSAHVNMPGSEGLAAA",
+        "full_sequence": "MAAASSSDSDACGAESNEANSKWLDAHYDPMANIHTFSACLALADLHGDGEYKLVVGDLGPGGQQPRLKVLKGPLVMTESPLPALPAAAATFLMEQHEPRTPALALASGPCVYVYKNLRPYFKFSLPQLPPNPLEQDLWNQAKEDRIDPLTLKEMLESIRETAEEPLSIQSLRFLQLELSEMEAFVNQHKSNSIKRQTVITTMTTLKKNLADEDAVSCLVLGTENKELLVLDPEAFTILAKMSLPSVPVFLEVSGQFDVEFRLAAACRNGNIYILRRDSKHPKYCIELSAQPVGLIRVHKVLVVGSTQDSLHGFTHKGKKLWTVQMPAAILTMNLLEQHSRGLQAVMAGLANGEVRIYRDKALLNVIHTPDAVTSLCFGRYGREDNTLIMTTRGGGLIIKILKRTAVFVEGGSEVGPPPAQAMKLNVPRKTRLYVDQTLREREAGTAMHRAFQTDLYLLRLRAARAYLQALESSLSPLSTTAREPLKLHAVVQGLGPTFKLTLHLQNTSTTRPVLGLLVCFLYNEALYSLPRAFFKVPLLVPGLNYPLETFVESLSNKGISDIIKVLVLREGQSAPLLSAHVNMPGSEGLAAA",
+        "n_residues": 593,
+        "mutation_pos_1indexed": 582,
+        "wt_aa": "V",
+        "mut_aa": "I",
+        "pocket_lining_residues": "A490-V491-V492-V582-N583-M584-P585",
+        "pocket_lining_positions_precursor": [
+          490,
+          491,
+          492,
+          582,
+          583,
+          584,
+          585
+        ],
+        "pocket_lining_1letter": "AVVVNMP",
+        "sequence_slice_around_pocket": "GQSAPLLSAHVNMPGSEGLA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BBS1_V582I/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "A490",
+          "V491",
+          "V492",
+          "V582",
+          "N583",
+          "M584",
+          "P585"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            6.795,
+            6.828,
+            9.892,
+            10.685,
+            13.051
+          ],
+          [
+            3.841,
+            0.0,
+            3.818,
+            8.095,
+            9.977,
+            9.791,
+            11.158
+          ],
+          [
+            6.795,
+            3.818,
+            0.0,
+            8.053,
+            8.841,
+            7.295,
+            8.161
+          ],
+          [
+            6.828,
+            8.095,
+            8.053,
+            0.0,
+            3.793,
+            5.875,
+            9.172
+          ],
+          [
+            9.892,
+            9.977,
+            8.841,
+            3.793,
+            0.0,
+            3.817,
+            6.428
+          ],
+          [
+            10.685,
+            9.791,
+            7.295,
+            5.875,
+            3.817,
+            0.0,
+            3.846
+          ],
+          [
+            13.051,
+            11.158,
+            8.161,
+            9.172,
+            6.428,
+            3.846,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.6254120945503328,
+        "mw": 414.18,
+        "logp": 1.941,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.4562,
+        "sa_score": 2.99,
+        "n_heavy_atoms": 29,
+        "tpsa": 130.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BBS1-V582I Candidate #1",
+        "iupac_name": "Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6254,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BBS1_V582I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BBS1_V582I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BBS1_V582I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BBS1_V582I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BBS1_V582I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BBS1-V582I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BBS1-V582I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:33:02.439810+00:00"
     }
   ]
 }
