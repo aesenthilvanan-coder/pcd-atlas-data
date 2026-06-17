@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 74,
+  "total_entries": 75,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44473,
-    "queue_remaining": 134124
+    "total_processed": 44474,
+    "queue_remaining": 134123
   },
   "entries": [
     {
@@ -17206,6 +17206,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:44:09.504295+00:00"
+    },
+    {
+      "entry_id": "PCD-ALG8-Y487C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG8-Y487C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ALG8",
+        "uniprot": "",
+        "clinvar_id": "306211",
+        "disease": "ALG8 congenital disorder of glycosylation",
+        "mutation_precursor": "Y487C",
+        "mutation_mature": "Y487C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8740602641883218,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 333.26961825292835,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          27.19738006591797,
+          -4.637203216552734,
+          -2.7693700790405273
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.139507875632355,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8219315841594621,
+        "cryptic": true,
+        "pocket_residues": {
+          "A314": "A",
+          "S315": "S",
+          "M316": "M",
+          "T317": "T",
+          "S318": "S",
+          "G319": "G",
+          "Y487": "Y",
+          "P488": "P",
+          "F489": "F"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9BVK2|ALG8 variant Y487C",
+        "fasta_sequence": "MAALTIATGTGNWFSALALGVTLLKCLLIPTYHSTDFEVHRNWLAITHSLPISQWYYEATSEWTLDYPPFFAWFEYILSHVAKYFDQEMLNVHNLNYSSSRTLLFQRFSVIFMDVLFVYAVRECCKCIDGKKVGKELTEKPKFILSVLLLWNFGLLIVDHIHFQYNGFLFGLMLLSIARLFQKRHMEGAFLFAVLLHFKHIYLYVAPAYGVYLLRSYCFTANKPDGSIRWKSFSFVRVISLGLVVFLVSALSLGPFLALNQLPQVFSRLFPFKRGLCHAYWAPNFWALYNALDKVLSVIGLKLKFLDPNNIPKASMTSGLVQQFQHTVLPSVTPLATLICTLIAILPSIFCLWFKPQGPRGFLRCLTLCALSSFMFGWHVHEKAILLAILPMSLLSVGKAGDASIFLILTTTGHYSLFPLLFTAPELPIKILLMLLFTIYSISSLKTLFRKEKPLFNWMETFYLLGLGPLEVCCEFVFPFTSWKVKYPFIPLLLTSVYCAVGITYAWFKLYVSVLIDSAIGKTKKQ",
+        "full_sequence": "MAALTIATGTGNWFSALALGVTLLKCLLIPTYHSTDFEVHRNWLAITHSLPISQWYYEATSEWTLDYPPFFAWFEYILSHVAKYFDQEMLNVHNLNYSSSRTLLFQRFSVIFMDVLFVYAVRECCKCIDGKKVGKELTEKPKFILSVLLLWNFGLLIVDHIHFQYNGFLFGLMLLSIARLFQKRHMEGAFLFAVLLHFKHIYLYVAPAYGVYLLRSYCFTANKPDGSIRWKSFSFVRVISLGLVVFLVSALSLGPFLALNQLPQVFSRLFPFKRGLCHAYWAPNFWALYNALDKVLSVIGLKLKFLDPNNIPKASMTSGLVQQFQHTVLPSVTPLATLICTLIAILPSIFCLWFKPQGPRGFLRCLTLCALSSFMFGWHVHEKAILLAILPMSLLSVGKAGDASIFLILTTTGHYSLFPLLFTAPELPIKILLMLLFTIYSISSLKTLFRKEKPLFNWMETFYLLGLGPLEVCCEFVFPFTSWKVKYPFIPLLLTSVYCAVGITYAWFKLYVSVLIDSAIGKTKKQ",
+        "n_residues": 526,
+        "mutation_pos_1indexed": 487,
+        "wt_aa": "Y",
+        "mut_aa": "C",
+        "pocket_lining_residues": "A314-S315-M316-T317-S318-G319-Y487-P488-F489",
+        "pocket_lining_positions_precursor": [
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          487,
+          488,
+          489
+        ],
+        "pocket_lining_1letter": "ASMTSGYPF",
+        "sequence_slice_around_pocket": "VFPFTSWKVKYPFIPLLLTS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ALG8_Y487C/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "A314",
+          "S315",
+          "M316",
+          "T317",
+          "S318",
+          "G319",
+          "Y487",
+          "P488",
+          "F489"
+        ],
+        "values": [
+          [
+            0.0,
+            3.842,
+            5.685,
+            6.624,
+            7.502,
+            10.515,
+            12.018,
+            13.544,
+            12.253
+          ],
+          [
+            3.842,
+            0.0,
+            3.871,
+            5.228,
+            4.709,
+            7.145,
+            12.331,
+            12.727,
+            11.25
+          ],
+          [
+            5.685,
+            3.871,
+            0.0,
+            3.855,
+            5.675,
+            6.648,
+            11.771,
+            11.876,
+            9.342
+          ],
+          [
+            6.624,
+            5.228,
+            3.855,
+            0.0,
+            3.866,
+            5.737,
+            8.118,
+            8.094,
+            6.066
+          ],
+          [
+            7.502,
+            4.709,
+            5.675,
+            3.866,
+            0.0,
+            3.853,
+            9.798,
+            9.064,
+            8.219
+          ],
+          [
+            10.515,
+            7.145,
+            6.648,
+            5.737,
+            3.853,
+            0.0,
+            11.883,
+            10.023,
+            8.474
+          ],
+          [
+            12.018,
+            12.331,
+            11.771,
+            8.118,
+            9.798,
+            11.883,
+            0.0,
+            3.874,
+            5.642
+          ],
+          [
+            13.544,
+            12.727,
+            11.876,
+            8.094,
+            9.064,
+            10.023,
+            3.874,
+            0.0,
+            3.868
+          ],
+          [
+            12.253,
+            11.25,
+            9.342,
+            6.066,
+            8.219,
+            8.474,
+            5.642,
+            3.868,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6908598845562528,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ALG8-Y487C Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6909,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ALG8_Y487C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ALG8_Y487C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ALG8_Y487C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALG8_Y487C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALG8_Y487C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG8-Y487C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG8-Y487C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:44:31.835706+00:00"
     }
   ]
 }
