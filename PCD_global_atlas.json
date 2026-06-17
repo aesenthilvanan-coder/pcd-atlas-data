@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1073,
+  "total_entries": 1074,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45655,
-    "queue_remaining": 132942
+    "total_processed": 45656,
+    "queue_remaining": 132941
   },
   "entries": [
     {
@@ -236444,6 +236444,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:24:29.835774+00:00"
+    },
+    {
+      "entry_id": "PCD-SIX1-N193I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SIX1-N193I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SIX1",
+        "uniprot": "",
+        "clinvar_id": "313465",
+        "disease": "Branchiootic syndrome 3",
+        "mutation_precursor": "N193I",
+        "mutation_mature": "N193I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7647614371300293,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 284.2724867877411,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          39.33021926879883,
+          -16.420053482055664,
+          -6.675777912139893
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.2756571115862645,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8432214907592515,
+        "cryptic": true,
+        "pocket_residues": {
+          "N192": "N",
+          "N193": "N",
+          "N194": "N",
+          "S195": "S",
+          "S196": "S",
+          "S197": "S",
+          "N198": "N"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q15475|SIX1 variant N193I",
+        "fasta_sequence": "MSMLPSFGFTQEQVACVCEVLQQGGNLERLGRFLWSLPACDHLHKNESVLKAKAVVAFHRGNFRELYKILESHQFSPHNHPKLQQLWLKAHYVEAEKLRGRPLGAVGKYRVRRKFPLPRTIWDGEETSYCFKEKSRGVLREWYAHNPYPSPREKRELAEATGLTTTQVSNWFKNRRQRDRAAEAKERENTENNNSSSNKQNQLSPLEGGKPLMSSSEEEFSPPQSPDQNSVLLLQGNMGHARSSNYSLPGLTASQPSHGLQTHQHQLQDSLLGPLTSSLVDLGS",
+        "full_sequence": "MSMLPSFGFTQEQVACVCEVLQQGGNLERLGRFLWSLPACDHLHKNESVLKAKAVVAFHRGNFRELYKILESHQFSPHNHPKLQQLWLKAHYVEAEKLRGRPLGAVGKYRVRRKFPLPRTIWDGEETSYCFKEKSRGVLREWYAHNPYPSPREKRELAEATGLTTTQVSNWFKNRRQRDRAAEAKERENTENNNSSSNKQNQLSPLEGGKPLMSSSEEEFSPPQSPDQNSVLLLQGNMGHARSSNYSLPGLTASQPSHGLQTHQHQLQDSLLGPLTSSLVDLGS",
+        "n_residues": 284,
+        "mutation_pos_1indexed": 193,
+        "wt_aa": "N",
+        "mut_aa": "I",
+        "pocket_lining_residues": "N192-N193-N194-S195-S196-S197-N198",
+        "pocket_lining_positions_precursor": [
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198
+        ],
+        "pocket_lining_1letter": "NNNSSSN",
+        "sequence_slice_around_pocket": "EAKERENTENNNSSSNKQNQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SIX1_N193I/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "N192",
+          "N193",
+          "N194",
+          "S195",
+          "S196",
+          "S197",
+          "N198"
+        ],
+        "values": [
+          [
+            0.0,
+            3.848,
+            5.612,
+            5.359,
+            6.813,
+            9.515,
+            11.207
+          ],
+          [
+            3.848,
+            0.0,
+            3.855,
+            5.568,
+            5.534,
+            7.118,
+            9.879
+          ],
+          [
+            5.612,
+            3.855,
+            0.0,
+            3.862,
+            5.471,
+            5.594,
+            7.372
+          ],
+          [
+            5.359,
+            5.568,
+            3.862,
+            0.0,
+            3.864,
+            5.746,
+            6.099
+          ],
+          [
+            6.813,
+            5.534,
+            5.471,
+            3.864,
+            0.0,
+            3.873,
+            5.766
+          ],
+          [
+            9.515,
+            7.118,
+            5.594,
+            5.746,
+            3.873,
+            0.0,
+            3.882
+          ],
+          [
+            11.207,
+            9.879,
+            7.372,
+            6.099,
+            5.766,
+            3.882,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.5253739220305581,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SIX1-N193I Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.5254,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SIX1_N193I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SIX1_N193I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SIX1_N193I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SIX1_N193I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SIX1_N193I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SIX1-N193I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SIX1-N193I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:24:50.968195+00:00"
     }
   ]
 }
