@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1015,
+  "total_entries": 1016,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45589,
-    "queue_remaining": 133008
+    "total_processed": 45590,
+    "queue_remaining": 133007
   },
   "entries": [
     {
@@ -223843,6 +223843,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T17:32:42.261726+00:00"
+    },
+    {
+      "entry_id": "PCD-RIPK4-V415M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RIPK4-V415M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RIPK4",
+        "uniprot": "",
+        "clinvar_id": "340022",
+        "disease": "Bartsocas-Papas syndrome 1",
+        "mutation_precursor": "V415M",
+        "mutation_mature": "V415M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7954500651526938,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 372.7458705673158,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -22.70183753967285,
+          -0.27937793731689453,
+          7.171372413635254
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.037522669534215,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8788203892561969,
+        "cryptic": true,
+        "pocket_residues": {
+          "G414": "G",
+          "S415": "S",
+          "G416": "G",
+          "M525": "M",
+          "E528": "E",
+          "R529": "R",
+          "R530": "R"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P57078|RIPK4 variant V415M",
+        "fasta_sequence": "MEGDGGTPWALALLRTFDAGEFTGWEKVGSGGFGQVYKVRHVHWKTWLAIKCSPSLHVDDRERMELLEEAKKMEMAKFRYILPVYGICREPVGLVMEYMETGSLEKLLASEPLPWDLRFRIIHETAVGMNFLHCMAPPLLHLDLKPANILLDAHYHVKISDFGLAKCNGLSHSHDLSMDGLFGTIAYLPPERIREKSRLFDTKHDVYSFAIVIWGVLTQKKPFADEKNILHIMVKVVKGHRPELPPVCRARPRACSHLIRLMQRCWQGDPRVRPTFQGNGLNGELIRQVLAALLPVTGRWRSPGEGFRLESEVIIRVTCPLSSPQEITSETEDLCEKPDDEVKETAHDLDVKSPPEPRSEVVPARLKRASAPTFDNDYSLSELLSQLDSGVSQAVEGPEELSRSSSESKLPSSGSGKRLSGVSSVDSAFSSRGSLSLSFEREPSTSDLGTTDVQKKKLVDAIVSGDTSKLMKILQPQDVDLALDSGASLLHLAVEAGQEECAKWLLLNNANPNLSNRRGSTPLHMAVERRVRGVVELLLARKISVNAKDEDQWTALHFAAQNGDESSTRLLLEKNASVNEVDFEGRTPMHVACQHGQENIVRILLRRGVDVSLQGKDAWLPLHYAAWQGHLPIVKLLAKQPGVSVNAQTLDGRTPLHLAAQRGHYRVARILIDLCSDVNVCSLLAQTPLHVAAETGHTSTARLLLHRGAGKEAMTSDGYTALHLAARNGHLATVKLLVEEKADVLARGPLNQTALHLAAAHGHSEVVEELVSADVIDLFDEQGLSALHLAAQGRHAQTVETLLRHGAHINLQSLKFQGGHGPAATLLRRSKT",
+        "full_sequence": "MEGDGGTPWALALLRTFDAGEFTGWEKVGSGGFGQVYKVRHVHWKTWLAIKCSPSLHVDDRERMELLEEAKKMEMAKFRYILPVYGICREPVGLVMEYMETGSLEKLLASEPLPWDLRFRIIHETAVGMNFLHCMAPPLLHLDLKPANILLDAHYHVKISDFGLAKCNGLSHSHDLSMDGLFGTIAYLPPERIREKSRLFDTKHDVYSFAIVIWGVLTQKKPFADEKNILHIMVKVVKGHRPELPPVCRARPRACSHLIRLMQRCWQGDPRVRPTFQGNGLNGELIRQVLAALLPVTGRWRSPGEGFRLESEVIIRVTCPLSSPQEITSETEDLCEKPDDEVKETAHDLDVKSPPEPRSEVVPARLKRASAPTFDNDYSLSELLSQLDSGVSQAVEGPEELSRSSSESKLPSSGSGKRLSGVSSVDSAFSSRGSLSLSFEREPSTSDLGTTDVQKKKLVDAIVSGDTSKLMKILQPQDVDLALDSGASLLHLAVEAGQEECAKWLLLNNANPNLSNRRGSTPLHMAVERRVRGVVELLLARKISVNAKDEDQWTALHFAAQNGDESSTRLLLEKNASVNEVDFEGRTPMHVACQHGQENIVRILLRRGVDVSLQGKDAWLPLHYAAWQGHLPIVKLLAKQPGVSVNAQTLDGRTPLHLAAQRGHYRVARILIDLCSDVNVCSLLAQTPLHVAAETGHTSTARLLLHRGAGKEAMTSDGYTALHLAARNGHLATVKLLVEEKADVLARGPLNQTALHLAAAHGHSEVVEELVSADVIDLFDEQGLSALHLAAQGRHAQTVETLLRHGAHINLQSLKFQGGHGPAATLLRRSKT",
+        "n_residues": 832,
+        "mutation_pos_1indexed": 415,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "G414-S415-G416-M525-E528-R529-R530",
+        "pocket_lining_positions_precursor": [
+          414,
+          415,
+          416,
+          525,
+          528,
+          529,
+          530
+        ],
+        "pocket_lining_1letter": "GSGMERR",
+        "sequence_slice_around_pocket": "SSESKLPSSGSGKRLSGVSS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RIPK4_V415M/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "G414",
+          "S415",
+          "G416",
+          "M525",
+          "E528",
+          "R529",
+          "R530"
+        ],
+        "values": [
+          [
+            0.0,
+            3.821,
+            6.311,
+            14.768,
+            12.425,
+            10.448,
+            12.874
+          ],
+          [
+            3.821,
+            0.0,
+            3.822,
+            11.741,
+            9.625,
+            8.451,
+            11.555
+          ],
+          [
+            6.311,
+            3.822,
+            0.0,
+            11.79,
+            8.377,
+            8.486,
+            10.94
+          ],
+          [
+            14.768,
+            11.741,
+            11.79,
+            0.0,
+            5.008,
+            5.997,
+            8.328
+          ],
+          [
+            12.425,
+            9.625,
+            8.377,
+            5.008,
+            0.0,
+            3.864,
+            5.608
+          ],
+          [
+            10.448,
+            8.451,
+            8.486,
+            5.997,
+            3.864,
+            0.0,
+            3.886
+          ],
+          [
+            12.874,
+            11.555,
+            10.94,
+            8.328,
+            5.608,
+            3.886,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)c1ccc(OC)c(N2CCCCC2)c1",
+        "composite_score": 0.7336295727147468,
+        "mw": 262.17,
+        "logp": 2.088,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 5,
+        "qed": 0.825,
+        "sa_score": 2.02,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RIPK4-V415M Candidate #1",
+        "iupac_name": "CNCC(=O)c1ccc(OC)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.7336,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RIPK4_V415M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RIPK4_V415M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RIPK4_V415M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RIPK4_V415M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RIPK4_V415M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RIPK4-V415M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RIPK4-V415M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T17:33:13.069331+00:00"
     }
   ]
 }
