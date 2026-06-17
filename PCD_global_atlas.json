@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 624,
+  "total_entries": 625,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45118,
-    "queue_remaining": 133479
+    "total_processed": 45119,
+    "queue_remaining": 133478
   },
   "entries": [
     {
@@ -138450,6 +138450,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:00:46.945391+00:00"
+    },
+    {
+      "entry_id": "PCD-PNPLA2-H109R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PNPLA2-H109R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PNPLA2",
+        "uniprot": "",
+        "clinvar_id": "306294",
+        "disease": "Neutral lipid storage myopathy",
+        "mutation_precursor": "H109R",
+        "mutation_mature": "H109R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8785988324366563,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 333.0034424915877,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.844437599182129,
+          6.20942497253418,
+          12.463947296142578
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.855325174422304,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7226946823951138,
+        "cryptic": true,
+        "pocket_residues": {
+          "T54": "T",
+          "A55": "A",
+          "L56": "L",
+          "V57": "V",
+          "T58": "T",
+          "G59": "G",
+          "V60": "V",
+          "S106": "S",
+          "H109": "H",
+          "A110": "A"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96AD5|PNPLA2 variant H109R",
+        "fasta_sequence": "MFPREKTWNISFAGCGFLGVYYVGVASCLREHAPFLVANATHIYGASAGALTATALVTGVCLGEAGAKFIEVSKEARKRFLGPLHPSFNLVKIIRSFLLKVLPADSHEHASGRLGISLTRVSDGENVIISHFNSKDELIQANVCSGFIPVYCGLIPPSLQGVRYVDGGISDNLPLYELKNTITVSPFSGESDICPQDSSTNIHELRVTNTSIQFNLRNLYRLSKALFPPEPLVLREMCKQGYRDGLRFLQRNGLLNRPNPLLALPPARPHGPEDKDQAVESAQAEDYSQLPGEDHILEHLPARLNEALLEACVEPTDLLTTLSNMLPVRLATAMMVPYTLPLESALSFTIRLLEWLPDVPEDIRWMKEQTGSICQYLVMRAKRKLGRHLPSRLPEQVELRRVQSLPSVPLSCAAYREALPGWMRNNLSLGDALAKWEECQRQLLLGLFCTNVAFPPEALRMRAPADPAPAPADPASPQHQLAGPAPLLSTPAPEARPVIGALGL",
+        "full_sequence": "MFPREKTWNISFAGCGFLGVYYVGVASCLREHAPFLVANATHIYGASAGALTATALVTGVCLGEAGAKFIEVSKEARKRFLGPLHPSFNLVKIIRSFLLKVLPADSHEHASGRLGISLTRVSDGENVIISHFNSKDELIQANVCSGFIPVYCGLIPPSLQGVRYVDGGISDNLPLYELKNTITVSPFSGESDICPQDSSTNIHELRVTNTSIQFNLRNLYRLSKALFPPEPLVLREMCKQGYRDGLRFLQRNGLLNRPNPLLALPPARPHGPEDKDQAVESAQAEDYSQLPGEDHILEHLPARLNEALLEACVEPTDLLTTLSNMLPVRLATAMMVPYTLPLESALSFTIRLLEWLPDVPEDIRWMKEQTGSICQYLVMRAKRKLGRHLPSRLPEQVELRRVQSLPSVPLSCAAYREALPGWMRNNLSLGDALAKWEECQRQLLLGLFCTNVAFPPEALRMRAPADPAPAPADPASPQHQLAGPAPLLSTPAPEARPVIGALGL",
+        "n_residues": 504,
+        "mutation_pos_1indexed": 109,
+        "wt_aa": "H",
+        "mut_aa": "R",
+        "pocket_lining_residues": "T54-A55-L56-V57-T58-G59-V60-S106-H109-A110",
+        "pocket_lining_positions_precursor": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          106,
+          109,
+          110
+        ],
+        "pocket_lining_1letter": "TALVTGVSHA",
+        "sequence_slice_around_pocket": "LKVLPADSHEHASGRLGISL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PNPLA2_H109R/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "T54",
+          "A55",
+          "L56",
+          "V57",
+          "T58",
+          "G59",
+          "V60",
+          "S106",
+          "H109",
+          "A110"
+        ],
+        "values": [
+          [
+            0.0,
+            3.844,
+            5.5,
+            5.325,
+            5.951,
+            8.283,
+            8.108,
+            8.724,
+            9.533,
+            7.092
+          ],
+          [
+            3.844,
+            0.0,
+            3.862,
+            5.699,
+            5.329,
+            5.774,
+            4.765,
+            9.472,
+            10.752,
+            9.544
+          ],
+          [
+            5.5,
+            3.862,
+            0.0,
+            3.85,
+            5.703,
+            5.39,
+            6.66,
+            10.912,
+            10.279,
+            9.437
+          ],
+          [
+            5.325,
+            5.699,
+            3.85,
+            0.0,
+            3.857,
+            5.679,
+            8.041,
+            8.387,
+            6.611,
+            5.911
+          ],
+          [
+            5.951,
+            5.329,
+            5.703,
+            3.857,
+            0.0,
+            3.853,
+            5.668,
+            5.456,
+            5.929,
+            6.328
+          ],
+          [
+            8.283,
+            5.774,
+            5.39,
+            5.679,
+            3.853,
+            0.0,
+            3.877,
+            8.638,
+            8.974,
+            9.977
+          ],
+          [
+            8.108,
+            4.765,
+            6.66,
+            8.041,
+            5.668,
+            3.877,
+            0.0,
+            9.322,
+            11.458,
+            11.744
+          ],
+          [
+            8.724,
+            9.472,
+            10.912,
+            8.387,
+            5.456,
+            8.638,
+            9.322,
+            0.0,
+            5.329,
+            6.096
+          ],
+          [
+            9.533,
+            10.752,
+            10.279,
+            6.611,
+            5.929,
+            8.974,
+            11.458,
+            5.329,
+            0.0,
+            3.835
+          ],
+          [
+            7.092,
+            9.544,
+            9.437,
+            5.911,
+            6.328,
+            9.977,
+            11.744,
+            6.096,
+            3.835,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6930439013564647,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PNPLA2-H109R Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.693,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PNPLA2_H109R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PNPLA2_H109R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PNPLA2_H109R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PNPLA2_H109R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PNPLA2_H109R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PNPLA2-H109R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PNPLA2-H109R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:01:11.410644+00:00"
     }
   ]
 }
