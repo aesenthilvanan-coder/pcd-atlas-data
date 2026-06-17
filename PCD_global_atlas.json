@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 649,
+  "total_entries": 650,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45144,
-    "queue_remaining": 133453
+    "total_processed": 45145,
+    "queue_remaining": 133452
   },
   "entries": [
     {
@@ -144802,6 +144802,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:20:26.668028+00:00"
+    },
+    {
+      "entry_id": "PCD-RPGRIP1-I17T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RPGRIP1-I17T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RPGRIP1",
+        "uniprot": "",
+        "clinvar_id": "312779",
+        "disease": "Leber congenital amaurosis 6",
+        "mutation_precursor": "I17T",
+        "mutation_mature": "I17T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7306629643099727,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 387.6124690020606,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          16.175151824951172,
+          -37.73197937011719,
+          34.400753021240234
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.499196083158008,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.78700954671057,
+        "cryptic": true,
+        "pocket_residues": {
+          "R15": "R",
+          "D16": "D",
+          "I17": "I",
+          "D18": "D"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96KN7|RPGRIP1 variant I17T",
+        "fasta_sequence": "MSHLVDPTSGDLPVRDIDAIPLVLPASKGKNMKTQPPLSRMNREELEDSFFRLREDHMLVKELSWKQQDEIKRLRTTLLRLTAAGRDLRVAEEAAPLSETARRGQKAGWRQRLSMHQRPQMHRLQGHFHCVGPASPRRAQPRVQVGHRQLHTAGAPVPEKPKRGPRDRLSYTAPPSFKEHATNENRGEVASKPSELVSGSNSIISFSSVISMAKPIGLCMPNSAHIMASNTMQVEEPPKSPEKMWPKDENFEQRSSLECAQKAAELRASIKEKVELIRLKKLLHERNASLVMTKAQLTEVQEAYETLLQKNQGILSAAHEALLKQVNELRAELKEESKKAVSLKSQLEDVSILQMTLKEFQERVEDLEKERKLLNDNYDKLLESMLDSSDSSSQPHWSNELIAEQLQQQVSQLQDQLDAELEDKRKVLLELSREKAQNEDLKLEVTNILQKHKQEVELLQNAATISQPPDRQSEPATHPAVLQENTQIEPSEPKNQEEKKLSQVLNELQVSHAETTLELEKTRDMLILQRKINVCYQEELEAMMTKADNDNRDHKEKLERLTRLLDLKNNRIKQLEGILRSHDLPTSEQLKDVAYGTRPLSLCLETLPAHGDEDKVDISLLHQGENLFELHIHQAFLTSAALAQAGDTQPTTFCTYSFYDFETHCTPLSVGPQPLYDFTSQYVMETDSLFLHYLQEASARLDIHQAMASEHSTLAAGWICFDRVLETVEKVHGLATLIGAGGEEFGVLEYWMRLRFPIKPSLQACNKRKKAQVYLSTDVLGGRKAQEEEFRSESWEPQNELWIEITKCCGLRSRWLGTQPSPYAVYRFFTFSDHDTAIIPASNNPYFRDQARFPVLVTSDLDHYLRREALSIHVFDDEDLEPGSYLGRARVPLLPLAKNESIKGDFNLTDPAEKPNGSIQVQLDWKFPYIPPESFLKPEAQTKGKDTKDSSKISSEEEKASFPSQDQMASPEVPIEAGQYRSKRKPPHGGERKEKEHQVVSYSRRKHGKRIGVQGKNRMEYLSLNILNGNTPEQVNYTEWKFSETNSFIGDGFKNQHEEEEMTLSHSALKQKEPLHPVNDKESSEQGSEVSEAQTTDSDDVIVPPMSQKYPKADSEKMCIEIVSLAFYPEAEVMSDENIKQVYVEYKFYDLPLSETETPVSLRKPRAGEEIHFHFSKVIDLDPQEQQGRRRFLFDMLNGQDPDQGHLKFTVVSDPLDEEKKECEEVGYAYLQLWQILESGRDILEQELDIVSPEDLATPIGRLKVSLQAAAVLHAIYKEMTEDLFS",
+        "full_sequence": "MSHLVDPTSGDLPVRDIDAIPLVLPASKGKNMKTQPPLSRMNREELEDSFFRLREDHMLVKELSWKQQDEIKRLRTTLLRLTAAGRDLRVAEEAAPLSETARRGQKAGWRQRLSMHQRPQMHRLQGHFHCVGPASPRRAQPRVQVGHRQLHTAGAPVPEKPKRGPRDRLSYTAPPSFKEHATNENRGEVASKPSELVSGSNSIISFSSVISMAKPIGLCMPNSAHIMASNTMQVEEPPKSPEKMWPKDENFEQRSSLECAQKAAELRASIKEKVELIRLKKLLHERNASLVMTKAQLTEVQEAYETLLQKNQGILSAAHEALLKQVNELRAELKEESKKAVSLKSQLEDVSILQMTLKEFQERVEDLEKERKLLNDNYDKLLESMLDSSDSSSQPHWSNELIAEQLQQQVSQLQDQLDAELEDKRKVLLELSREKAQNEDLKLEVTNILQKHKQEVELLQNAATISQPPDRQSEPATHPAVLQENTQIEPSEPKNQEEKKLSQVLNELQVSHAETTLELEKTRDMLILQRKINVCYQEELEAMMTKADNDNRDHKEKLERLTRLLDLKNNRIKQLEGILRSHDLPTSEQLKDVAYGTRPLSLCLETLPAHGDEDKVDISLLHQGENLFELHIHQAFLTSAALAQAGDTQPTTFCTYSFYDFETHCTPLSVGPQPLYDFTSQYVMETDSLFLHYLQEASARLDIHQAMASEHSTLAAGWICFDRVLETVEKVHGLATLIGAGGEEFGVLEYWMRLRFPIKPSLQACNKRKKAQVYLSTDVLGGRKAQEEEFRSESWEPQNELWIEITKCCGLRSRWLGTQPSPYAVYRFFTFSDHDTAIIPASNNPYFRDQARFPVLVTSDLDHYLRREALSIHVFDDEDLEPGSYLGRARVPLLPLAKNESIKGDFNLTDPAEKPNGSIQVQLDWKFPYIPPESFLKPEAQTKGKDTKDSSKISSEEEKASFPSQDQMASPEVPIEAGQYRSKRKPPHGGERKEKEHQVVSYSRRKHGKRIGVQGKNRMEYLSLNILNGNTPEQVNYTEWKFSETNSFIGDGFKNQHEEEEMTLSHSALKQKEPLHPVNDKESSEQGSEVSEAQTTDSDDVIVPPMSQKYPKADSEKMCIEIVSLAFYPEAEVMSDENIKQVYVEYKFYDLPLSETETPVSLRKPRAGEEIHFHFSKVIDLDPQEQQGRRRFLFDMLNGQDPDQGHLKFTVVSDPLDEEKKECEEVGYAYLQLWQILESGRDILEQELDIVSPEDLATPIGRLKVSLQAAAVLHAIYKEMTEDLFS",
+        "n_residues": 1286,
+        "mutation_pos_1indexed": 17,
+        "wt_aa": "I",
+        "mut_aa": "T",
+        "pocket_lining_residues": "R15-D16-I17-D18",
+        "pocket_lining_positions_precursor": [
+          15,
+          16,
+          17,
+          18
+        ],
+        "pocket_lining_1letter": "RDID",
+        "sequence_slice_around_pocket": "PTSGDLPVRDIDAIPLVLPA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RPGRIP1_I17T/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "R15",
+          "D16",
+          "I17",
+          "D18"
+        ],
+        "values": [
+          [
+            0.0,
+            3.698,
+            6.401,
+            10.221
+          ],
+          [
+            3.698,
+            0.0,
+            3.495,
+            7.177
+          ],
+          [
+            6.401,
+            3.495,
+            0.0,
+            3.906
+          ],
+          [
+            10.221,
+            7.177,
+            3.906,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.7129548593780908,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RPGRIP1-I17T Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.713,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RPGRIP1_I17T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RPGRIP1_I17T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RPGRIP1_I17T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RPGRIP1_I17T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RPGRIP1_I17T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RPGRIP1-I17T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RPGRIP1-I17T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:21:11.006941+00:00"
     }
   ]
 }
