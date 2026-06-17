@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 534,
+  "total_entries": 535,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44997,
-    "queue_remaining": 133600
+    "total_processed": 44998,
+    "queue_remaining": 133599
   },
   "entries": [
     {
@@ -118045,6 +118045,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:38:31.805767+00:00"
+    },
+    {
+      "entry_id": "PCD-EXT2-S4L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EXT2-S4L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "EXT2",
+        "uniprot": "",
+        "clinvar_id": "304572",
+        "disease": "Exostoses, multiple, type 2",
+        "mutation_precursor": "S4L",
+        "mutation_mature": "S4L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8188207114651908,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 332.8441682321107,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          1.246584177017212,
+          -33.061180114746094,
+          -102.80758666992188
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.515836611902486,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8481691874922447,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "C2": "C",
+          "A3": "A",
+          "S4": "S"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q93063|EXT2 variant S4L",
+        "fasta_sequence": "MCASVKYNIRGPALIPRMKTKHRIYYITLFSIVLLGLIATGMFQFWPHSIESSNDWNVEKRSIRDVPVVRLPADSPIPERGDLSCRMHTCFDVYRCGFNPKNKIKVYIYALKKYVDDFGVSVSNTISREYNELLMAISDSDYYTDDINRACLFVPSIDVLNQNTLRIKETAQAMAQLSRWDRGTNHLLFNMLPGGPPDYNTALDVPRDRALLAGGGFSTWTYRQGYDVSIPVYSPLSAEVDLPEKGPGPRQYFLLSSQVGLHPEYREDLEALQVKHGESVLVLDKCTNLSEGVLSVRKRCHKHQVFDYPQVLQEATFCVVLRGARLGQAVLSDVLQAGCVPVVIADSYILPFSEVLDWKRASVVVPEEKMSDVYSILQSIPQRQIEEMQRQARWFWEAYFQSIKAIALATLQIINDRIYPYAAISYEEWNDPPAVKWGSVSNPLFLPLIPPQSQGFTAIVLTYDRVESLFRVITEVSKVPSLSKLLVVWNNQNKNPPEDSLWPKIRVPLKVVRTAENKLSNRFFPYDEIETEAVLAIDDDIIMLTSDELQFGYEVWREFPDRLVGYPGRLHLWDHEMNKWKYESEWTNEVSMVLTGAAFYHKYFNYLYTYKMPGDIKNWVDAHMNCEDIAMNFLVANVTGKAVIKVTPRKKFKCPECTAIDGLSLDQTHMVERSECINKFASVFGTMPLKVVEHRADPVLYKDDFPEKLKSFPNIGSL",
+        "full_sequence": "MCASVKYNIRGPALIPRMKTKHRIYYITLFSIVLLGLIATGMFQFWPHSIESSNDWNVEKRSIRDVPVVRLPADSPIPERGDLSCRMHTCFDVYRCGFNPKNKIKVYIYALKKYVDDFGVSVSNTISREYNELLMAISDSDYYTDDINRACLFVPSIDVLNQNTLRIKETAQAMAQLSRWDRGTNHLLFNMLPGGPPDYNTALDVPRDRALLAGGGFSTWTYRQGYDVSIPVYSPLSAEVDLPEKGPGPRQYFLLSSQVGLHPEYREDLEALQVKHGESVLVLDKCTNLSEGVLSVRKRCHKHQVFDYPQVLQEATFCVVLRGARLGQAVLSDVLQAGCVPVVIADSYILPFSEVLDWKRASVVVPEEKMSDVYSILQSIPQRQIEEMQRQARWFWEAYFQSIKAIALATLQIINDRIYPYAAISYEEWNDPPAVKWGSVSNPLFLPLIPPQSQGFTAIVLTYDRVESLFRVITEVSKVPSLSKLLVVWNNQNKNPPEDSLWPKIRVPLKVVRTAENKLSNRFFPYDEIETEAVLAIDDDIIMLTSDELQFGYEVWREFPDRLVGYPGRLHLWDHEMNKWKYESEWTNEVSMVLTGAAFYHKYFNYLYTYKMPGDIKNWVDAHMNCEDIAMNFLVANVTGKAVIKVTPRKKFKCPECTAIDGLSLDQTHMVERSECINKFASVFGTMPLKVVEHRADPVLYKDDFPEKLKSFPNIGSL",
+        "n_residues": 718,
+        "mutation_pos_1indexed": 4,
+        "wt_aa": "S",
+        "mut_aa": "L",
+        "pocket_lining_residues": "M1-C2-A3-S4",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "pocket_lining_1letter": "MCAS",
+        "sequence_slice_around_pocket": "MCASVKYNIRGPA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_S4L/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "M1",
+          "C2",
+          "A3",
+          "S4"
+        ],
+        "values": [
+          [
+            0.0,
+            3.842,
+            6.286,
+            9.691
+          ],
+          [
+            3.842,
+            0.0,
+            3.825,
+            6.31
+          ],
+          [
+            6.286,
+            3.825,
+            0.0,
+            3.83
+          ],
+          [
+            9.691,
+            6.31,
+            3.83,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "composite_score": 0.5521879404656038,
+        "mw": 234.17,
+        "logp": 2.187,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8676,
+        "sa_score": 1.95,
+        "n_heavy_atoms": 17,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "EXT2-S4L Candidate #1",
+        "iupac_name": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5522,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_S4L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_S4L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_S4L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_S4L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_S4L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EXT2-S4L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EXT2-S4L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:38:58.402795+00:00"
     }
   ]
 }
