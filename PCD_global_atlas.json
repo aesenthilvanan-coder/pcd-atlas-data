@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 997,
+  "total_entries": 998,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45553,
-    "queue_remaining": 133044
+    "total_processed": 45558,
+    "queue_remaining": 133039
   },
   "entries": [
     {
@@ -219110,6 +219110,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T17:06:53.007622+00:00"
+    },
+    {
+      "entry_id": "PCD-PRPF6-G927R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRPF6-G927R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PRPF6",
+        "uniprot": "",
+        "clinvar_id": "339490",
+        "disease": "Retinitis pigmentosa",
+        "mutation_precursor": "G927R",
+        "mutation_mature": "G927R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.889519780203373,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 624.8362152110428,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -13.285750389099121,
+          9.569034576416016,
+          23.312576293945312
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.483013679140494,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8214252651881411,
+        "cryptic": true,
+        "pocket_residues": {
+          "C901": "C",
+          "E902": "E",
+          "E905": "E",
+          "P906": "P",
+          "K925": "K",
+          "I926": "I",
+          "G927": "G",
+          "D928": "D",
+          "I929": "I",
+          "L930": "L"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O94906|PRPF6 variant G927R",
+        "fasta_sequence": "MNKKKKPFLGMPAPLGYVPGLGRGATGFTTRSDIGPARDANDPVDDRHAPPGKRTVGDQMKKNQAADDDDEDLNDTNYDEFNGYAGSLFSSGPYEKDDEEADAIYAALDKRMDERRKERREQREKEEIEKYRMERPKIQQQFSDLKRKLAEVTEEEWLSIPEVGDARNKRQRNPRYEKLTPVPDSFFAKHLQTGENHTSVDPRQTQFGGLNTPYPGGLNTPYPGGMTPGLMTPGTGELDMRKIGQARNTLMDMRLSQVSDSVSGQTVVDPKGYLTDLNSMIPTHGGDINDIKKARLLLKSVRETNPHHPPAWIASARLEEVTGKLQVARNLIMKGTEMCPKSEDVWLEAARLQPGDTAKAVVAQAVRHLPQSVRIYIRAAELETDIRAKKRVLRKALEHVPNSVRLWKAAVELEEPEDARIMLSRAVECCPTSVELWLALARLETYENARKVLNKARENIPTDRHIWITAAKLEEANGNTQMVEKIIDRAITSLRANGVEINREQWIQDAEECDRAGSVATCQAVMRAVIGIGIEEEDRKHTWMEDADSCVAHNALECARAIYAYALQVFPSKKSVWLRAAYFEKNHGTRESLEALLQRAVAHCPKAEVLWLMGAKSKWLAGDVPAARSILALAFQANPNSEEIWLAAVKLESENDEYERARRLLAKARSSAPTARVFMKSVKLEWVQDNIRAAQDLCEEALRHYEDFPKLWMMKGQIEEQKEMMEKAREAYNQGLKKCPHSTPLWLLLSRLEEKIGQLTRARAILEKSRLKNPKNPGLWLESVRLEYRAGLKNIANTLMAKALQECPNSGILWSEAIFLEARPQRRTKSVDALKKCEHDPHVLLAVAKLFWSQRKITKAREWFHRTVKIDSDLGDAWAFFYKFELQHGTEEQQEEVRKRCESAEPRHGELWCAVSKDIANWQKKIGDILRLVAGRIKNTF",
+        "full_sequence": "MNKKKKPFLGMPAPLGYVPGLGRGATGFTTRSDIGPARDANDPVDDRHAPPGKRTVGDQMKKNQAADDDDEDLNDTNYDEFNGYAGSLFSSGPYEKDDEEADAIYAALDKRMDERRKERREQREKEEIEKYRMERPKIQQQFSDLKRKLAEVTEEEWLSIPEVGDARNKRQRNPRYEKLTPVPDSFFAKHLQTGENHTSVDPRQTQFGGLNTPYPGGLNTPYPGGMTPGLMTPGTGELDMRKIGQARNTLMDMRLSQVSDSVSGQTVVDPKGYLTDLNSMIPTHGGDINDIKKARLLLKSVRETNPHHPPAWIASARLEEVTGKLQVARNLIMKGTEMCPKSEDVWLEAARLQPGDTAKAVVAQAVRHLPQSVRIYIRAAELETDIRAKKRVLRKALEHVPNSVRLWKAAVELEEPEDARIMLSRAVECCPTSVELWLALARLETYENARKVLNKARENIPTDRHIWITAAKLEEANGNTQMVEKIIDRAITSLRANGVEINREQWIQDAEECDRAGSVATCQAVMRAVIGIGIEEEDRKHTWMEDADSCVAHNALECARAIYAYALQVFPSKKSVWLRAAYFEKNHGTRESLEALLQRAVAHCPKAEVLWLMGAKSKWLAGDVPAARSILALAFQANPNSEEIWLAAVKLESENDEYERARRLLAKARSSAPTARVFMKSVKLEWVQDNIRAAQDLCEEALRHYEDFPKLWMMKGQIEEQKEMMEKAREAYNQGLKKCPHSTPLWLLLSRLEEKIGQLTRARAILEKSRLKNPKNPGLWLESVRLEYRAGLKNIANTLMAKALQECPNSGILWSEAIFLEARPQRRTKSVDALKKCEHDPHVLLAVAKLFWSQRKITKAREWFHRTVKIDSDLGDAWAFFYKFELQHGTEEQQEEVRKRCESAEPRHGELWCAVSKDIANWQKKIGDILRLVAGRIKNTF",
+        "n_residues": 941,
+        "mutation_pos_1indexed": 927,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "C901-E902-E905-P906-K925-I926-G927-D928-I929-L930",
+        "pocket_lining_positions_precursor": [
+          901,
+          902,
+          905,
+          906,
+          925,
+          926,
+          927,
+          928,
+          929,
+          930
+        ],
+        "pocket_lining_1letter": "CEEPKIGDIL",
+        "sequence_slice_around_pocket": "KDIANWQKKIGDILRLVAGR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PRPF6_G927R/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "C901",
+          "E902",
+          "E905",
+          "P906",
+          "K925",
+          "I926",
+          "G927",
+          "D928",
+          "I929",
+          "L930"
+        ],
+        "values": [
+          [
+            0.0,
+            3.869,
+            6.311,
+            6.953,
+            11.343,
+            7.877,
+            7.57,
+            11.019,
+            10.407,
+            8.076
+          ],
+          [
+            3.869,
+            0.0,
+            5.668,
+            8.187,
+            9.024,
+            6.363,
+            6.557,
+            10.254,
+            10.406,
+            9.209
+          ],
+          [
+            6.311,
+            5.668,
+            0.0,
+            3.92,
+            10.307,
+            7.397,
+            9.863,
+            12.562,
+            11.004,
+            10.762
+          ],
+          [
+            6.953,
+            8.187,
+            3.92,
+            0.0,
+            11.918,
+            8.522,
+            10.817,
+            12.92,
+            10.405,
+            9.851
+          ],
+          [
+            11.343,
+            9.024,
+            10.307,
+            11.918,
+            0.0,
+            3.808,
+            5.66,
+            5.556,
+            6.5,
+            8.867
+          ],
+          [
+            7.877,
+            6.363,
+            7.397,
+            8.522,
+            3.808,
+            0.0,
+            3.86,
+            5.416,
+            4.941,
+            6.155
+          ],
+          [
+            7.57,
+            6.557,
+            9.863,
+            10.817,
+            5.66,
+            3.86,
+            0.0,
+            3.86,
+            5.482,
+            4.916
+          ],
+          [
+            11.019,
+            10.254,
+            12.562,
+            12.92,
+            5.556,
+            5.416,
+            3.86,
+            0.0,
+            3.837,
+            5.204
+          ],
+          [
+            10.407,
+            10.406,
+            11.004,
+            10.405,
+            6.5,
+            4.941,
+            5.482,
+            3.837,
+            0.0,
+            3.881
+          ],
+          [
+            8.076,
+            9.209,
+            10.762,
+            9.851,
+            8.867,
+            6.155,
+            4.916,
+            5.204,
+            3.881,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCc1ccncc1N1CCCCC1CNc1ncc(F)cn1",
+        "composite_score": 0.8643500180424961,
+        "mw": 330.2,
+        "logp": 1.983,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.843,
+        "sa_score": 3.18,
+        "n_heavy_atoms": 24,
+        "tpsa": 80.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PRPF6-G927R Candidate #1",
+        "iupac_name": "NCCc1ccncc1N1CCCCC1CNc1ncc(F)cn1",
+        "pocket_affinity_score": 0.8644,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PRPF6_G927R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PRPF6_G927R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PRPF6_G927R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PRPF6_G927R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PRPF6_G927R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRPF6-G927R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRPF6-G927R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T17:09:52.579664+00:00"
     }
   ]
 }
