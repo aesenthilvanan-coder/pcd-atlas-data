@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 847,
+  "total_entries": 848,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45370,
-    "queue_remaining": 133227
+    "total_processed": 45372,
+    "queue_remaining": 133225
   },
   "entries": [
     {
@@ -187060,6 +187060,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:09:37.641533+00:00"
+    },
+    {
+      "entry_id": "PCD-LIG4-I167R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LIG4-I167R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LIG4",
+        "uniprot": "",
+        "clinvar_id": "310992",
+        "disease": "DNA ligase IV deficiency",
+        "mutation_precursor": "I167R",
+        "mutation_mature": "I167R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8503259959438034,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 637.7229452091029,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.350836753845215,
+          22.197715759277344,
+          -12.556575775146484
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.093507686453873,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7857899603324116,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y82": "Y",
+          "G83": "G",
+          "I84": "I",
+          "K85": "K",
+          "M88": "M",
+          "N159": "N",
+          "K164": "K",
+          "I167": "I"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P49917|LIG4 variant I167R",
+        "fasta_sequence": "MAASQTSQTVASHVPFADLCSTLERIQKSKGRAEKIRHFREFLDSWRKFHDALHKNHKDVTDSFYPAMRLILPQLERERMAYGIKETMLAKLYIELLNLPRDGKDALKLLNYRTPTGTHGDAGDFAMIAYFVLKPRCLQKGSLTIQQVNDLLDSIASNNSAKRKDLIKKSLLQLITQSSALEQKWLIRMIIKDLKLGVSQQTIFSVFHNDAAELHNVTTDLEKVCRQLHDPSVGLSDISITLFSAFKPMLAAIADIEHIEKDMKHQSFYIETKLDGERMQMHKDGDVYKYFSRNGYNYTDQFGASPTEGSLTPFIHNAFKADIQICILDGEMMAYNPNTQTFMQKGTKFDIKRMVEDSDLQTCYCVFDVLMVNNKKLGHETLRKRYEILSSIFTPIPGRIEIVQKTQAHTKNEVIDALNEAIDKREEGIMVKQPLSIYKPDKRGEGWLKIKPEYVSGLMDELDILIVGGYWGKGSRGGMMSHFLCAVAEKPPPGEKPSVFHTLSRVGSGCTMKELYDLGLKLAKYWKPFHRKAPPSSILCGTEKPEVYIEPCNSVIVQIKAAEIVPSDMYKTGCTLRFPRIEKIRDDKEWHECMTLDDLEQLRGKASGKLASKHLYIGGDDEPQEKKRKAAPKMKKVIGIIEHLKAPNLTNVNKISNIFEDVEFCVMSGTDSQPKPDLENRIAEFGGYIVQNPGPDTYCVIAGSENIRVKNIILSNKHDVVKPAWLLECFKTKSFVPWQPRFMIHMCPSTKEHFAREYDCYGDSYFIDTDLNQLKEVFSGIKNSNEQTPEEMASLIADLEYRYSWDCSPLSMFRRHTVYLDSYAVINDLSTKNEGTRLAIKALELRFHGAKVVSCLAEGVSHVIIGEDHSRVADFKAFRRTFKRKFKILKESWVTDSIDKCELQEENQYLI",
+        "full_sequence": "MAASQTSQTVASHVPFADLCSTLERIQKSKGRAEKIRHFREFLDSWRKFHDALHKNHKDVTDSFYPAMRLILPQLERERMAYGIKETMLAKLYIELLNLPRDGKDALKLLNYRTPTGTHGDAGDFAMIAYFVLKPRCLQKGSLTIQQVNDLLDSIASNNSAKRKDLIKKSLLQLITQSSALEQKWLIRMIIKDLKLGVSQQTIFSVFHNDAAELHNVTTDLEKVCRQLHDPSVGLSDISITLFSAFKPMLAAIADIEHIEKDMKHQSFYIETKLDGERMQMHKDGDVYKYFSRNGYNYTDQFGASPTEGSLTPFIHNAFKADIQICILDGEMMAYNPNTQTFMQKGTKFDIKRMVEDSDLQTCYCVFDVLMVNNKKLGHETLRKRYEILSSIFTPIPGRIEIVQKTQAHTKNEVIDALNEAIDKREEGIMVKQPLSIYKPDKRGEGWLKIKPEYVSGLMDELDILIVGGYWGKGSRGGMMSHFLCAVAEKPPPGEKPSVFHTLSRVGSGCTMKELYDLGLKLAKYWKPFHRKAPPSSILCGTEKPEVYIEPCNSVIVQIKAAEIVPSDMYKTGCTLRFPRIEKIRDDKEWHECMTLDDLEQLRGKASGKLASKHLYIGGDDEPQEKKRKAAPKMKKVIGIIEHLKAPNLTNVNKISNIFEDVEFCVMSGTDSQPKPDLENRIAEFGGYIVQNPGPDTYCVIAGSENIRVKNIILSNKHDVVKPAWLLECFKTKSFVPWQPRFMIHMCPSTKEHFAREYDCYGDSYFIDTDLNQLKEVFSGIKNSNEQTPEEMASLIADLEYRYSWDCSPLSMFRRHTVYLDSYAVINDLSTKNEGTRLAIKALELRFHGAKVVSCLAEGVSHVIIGEDHSRVADFKAFRRTFKRKFKILKESWVTDSIDKCELQEENQYLI",
+        "n_residues": 911,
+        "mutation_pos_1indexed": 167,
+        "wt_aa": "I",
+        "mut_aa": "R",
+        "pocket_lining_residues": "Y82-G83-I84-K85-M88-N159-K164-I167",
+        "pocket_lining_positions_precursor": [
+          82,
+          83,
+          84,
+          85,
+          88,
+          159,
+          164,
+          167
+        ],
+        "pocket_lining_1letter": "YGIKMNKI",
+        "sequence_slice_around_pocket": "SNNSAKRKDLIKKSLLQLIT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LIG4_I167R/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "Y82",
+          "G83",
+          "I84",
+          "K85",
+          "M88",
+          "N159",
+          "K164",
+          "I167"
+        ],
+        "values": [
+          [
+            0.0,
+            3.865,
+            5.271,
+            8.589,
+            11.098,
+            5.965,
+            10.835,
+            8.709
+          ],
+          [
+            3.865,
+            0.0,
+            3.857,
+            6.864,
+            9.049,
+            5.998,
+            9.696,
+            9.389
+          ],
+          [
+            5.271,
+            3.857,
+            0.0,
+            3.852,
+            6.04,
+            8.728,
+            10.496,
+            9.333
+          ],
+          [
+            8.589,
+            6.864,
+            3.852,
+            0.0,
+            5.424,
+            12.405,
+            13.643,
+            12.839
+          ],
+          [
+            11.098,
+            9.049,
+            6.04,
+            5.424,
+            0.0,
+            12.883,
+            11.214,
+            11.205
+          ],
+          [
+            5.965,
+            5.998,
+            8.728,
+            12.405,
+            12.883,
+            0.0,
+            6.846,
+            6.783
+          ],
+          [
+            10.835,
+            9.696,
+            10.496,
+            13.643,
+            11.214,
+            6.846,
+            0.0,
+            5.128
+          ],
+          [
+            8.709,
+            9.389,
+            9.333,
+            12.839,
+            11.205,
+            6.783,
+            5.128,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)c(OCNc2ccc(S(N)(=O)=O)cc2N2CCCC(=O)C2)c1",
+        "composite_score": 0.6594487241363515,
+        "mw": 434.16,
+        "logp": 2.002,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 8,
+        "qed": 0.5393,
+        "sa_score": 2.69,
+        "n_heavy_atoms": 30,
+        "tpsa": 123.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LIG4-I167R Candidate #1",
+        "iupac_name": "CNc1ccc(OC)c(OCNc2ccc(S(N)(=O)=O)cc2N2CCCC(=O)C2)c1",
+        "pocket_affinity_score": 0.6594,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LIG4_I167R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LIG4_I167R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LIG4_I167R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LIG4_I167R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LIG4_I167R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LIG4-I167R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LIG4-I167R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:10:22.690572+00:00"
     }
   ]
 }
