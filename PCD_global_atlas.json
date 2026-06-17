@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1214,
+  "total_entries": 1215,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45815,
-    "queue_remaining": 132782
+    "total_processed": 45816,
+    "queue_remaining": 132781
   },
   "entries": [
     {
@@ -268115,6 +268115,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:39:45.452192+00:00"
+    },
+    {
+      "entry_id": "PCD-MEFV-V469A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MEFV-V469A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MEFV",
+        "uniprot": "",
+        "clinvar_id": "319113",
+        "disease": "Familial Mediterranean fever",
+        "mutation_precursor": "V469A",
+        "mutation_mature": "V469A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9437055215762726,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 330.05463859424134,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.04290771484375,
+          11.52501392364502,
+          13.212892532348633
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.025405264228049,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7426124452238079,
+        "cryptic": true,
+        "pocket_residues": {
+          "R464": "R",
+          "K465": "K",
+          "L466": "L",
+          "E467": "E",
+          "Q468": "Q",
+          "V469": "V",
+          "Y470": "Y",
+          "Y471": "Y",
+          "F472": "F"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15553|MEFV variant V469A",
+        "fasta_sequence": "MAKTPSDHLLSTLEELVPYDFEKFKFKLQNTSVQKEHSRIPRSQIQRARPVKMATLLVTYYGEEYAVQLTLQVLRAINQRLLAEELHRAAIQEYSTQENGTDDSAASSSLGENKPRSLKTPDHPEGNEGNGPRPYGGGAASLRCSQPEAGRGLSRKPLSKRREKASEGLDAQGKPRTRSPALPGGRSPGPCRALEGGQAEVRLRRNASSAGRLQGLAGGAPGQKECRPFEVYLPSGKMRPRSLEVTISTGEKAPANPEILLTLEEKTAANLDSATEPRARPTPDGGASADLKEGPGNPEHSVTGRPPDTAASPRCHAQEGDPVDGTCVRDSCSFPEAVSGHPQASGSRSPGCPRCQDSHERKSPGSLSPQPLPQCKRHLKQVQLLFCEDHDEPICLICSLSQEHQGHRVRPIEEVALEHKKKIQKQLEHLKKLRKSGEEQRSYGEEKAVSFLKQTEALKQRVQRKLEQVYYFLEQQEHFFVASLEDVGQMVGQIRKAYDTRVSQDIALLDALIGELEAKECQSEWELLQDIGDILHRAKTVPVPEKWTTPQEIKQKIQLLHQKSEFVEKSTKYFSETLRSEMEMFNVPELIGAQAHAVNVILDAETAYPNLIFSDDLKSVRLGNKWERLPDGPQRFDSCIIVLGSPSFLSGRRYWEVEVGDKTAWILGACKTSISRKGNMTLSPENGYWVVIMMKENEYQASSVPPTRLLIKEPPKRVGIFVDYRVGSISFYNVTARSHIYTFASCSFSGPLQPIFSPGTRDGGKNTAPLTICPVGGQGPD",
+        "full_sequence": "MAKTPSDHLLSTLEELVPYDFEKFKFKLQNTSVQKEHSRIPRSQIQRARPVKMATLLVTYYGEEYAVQLTLQVLRAINQRLLAEELHRAAIQEYSTQENGTDDSAASSSLGENKPRSLKTPDHPEGNEGNGPRPYGGGAASLRCSQPEAGRGLSRKPLSKRREKASEGLDAQGKPRTRSPALPGGRSPGPCRALEGGQAEVRLRRNASSAGRLQGLAGGAPGQKECRPFEVYLPSGKMRPRSLEVTISTGEKAPANPEILLTLEEKTAANLDSATEPRARPTPDGGASADLKEGPGNPEHSVTGRPPDTAASPRCHAQEGDPVDGTCVRDSCSFPEAVSGHPQASGSRSPGCPRCQDSHERKSPGSLSPQPLPQCKRHLKQVQLLFCEDHDEPICLICSLSQEHQGHRVRPIEEVALEHKKKIQKQLEHLKKLRKSGEEQRSYGEEKAVSFLKQTEALKQRVQRKLEQVYYFLEQQEHFFVASLEDVGQMVGQIRKAYDTRVSQDIALLDALIGELEAKECQSEWELLQDIGDILHRAKTVPVPEKWTTPQEIKQKIQLLHQKSEFVEKSTKYFSETLRSEMEMFNVPELIGAQAHAVNVILDAETAYPNLIFSDDLKSVRLGNKWERLPDGPQRFDSCIIVLGSPSFLSGRRYWEVEVGDKTAWILGACKTSISRKGNMTLSPENGYWVVIMMKENEYQASSVPPTRLLIKEPPKRVGIFVDYRVGSISFYNVTARSHIYTFASCSFSGPLQPIFSPGTRDGGKNTAPLTICPVGGQGPD",
+        "n_residues": 781,
+        "mutation_pos_1indexed": 469,
+        "wt_aa": "V",
+        "mut_aa": "A",
+        "pocket_lining_residues": "R464-K465-L466-E467-Q468-V469-Y470-Y471-F472",
+        "pocket_lining_positions_precursor": [
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472
+        ],
+        "pocket_lining_1letter": "RKLEQVYYF",
+        "sequence_slice_around_pocket": "KQRVQRKLEQVYYFLEQQEH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MEFV_V469A/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "R464",
+          "K465",
+          "L466",
+          "E467",
+          "Q468",
+          "V469",
+          "Y470",
+          "Y471",
+          "F472"
+        ],
+        "values": [
+          [
+            0.0,
+            3.854,
+            5.588,
+            5.004,
+            6.127,
+            8.769,
+            9.924,
+            10.461,
+            12.194
+          ],
+          [
+            3.854,
+            0.0,
+            3.839,
+            5.471,
+            5.106,
+            6.471,
+            8.862,
+            10.108,
+            10.724
+          ],
+          [
+            5.588,
+            3.839,
+            0.0,
+            3.875,
+            5.369,
+            5.045,
+            6.177,
+            8.603,
+            9.766
+          ],
+          [
+            5.004,
+            5.471,
+            3.875,
+            0.0,
+            3.862,
+            5.463,
+            5.144,
+            6.066,
+            8.446
+          ],
+          [
+            6.127,
+            5.106,
+            5.369,
+            3.862,
+            0.0,
+            3.867,
+            5.685,
+            5.383,
+            6.136
+          ],
+          [
+            8.769,
+            6.471,
+            5.045,
+            5.463,
+            3.867,
+            0.0,
+            3.855,
+            5.578,
+            5.082
+          ],
+          [
+            9.924,
+            8.862,
+            6.177,
+            5.144,
+            5.685,
+            3.855,
+            0.0,
+            3.847,
+            5.441
+          ],
+          [
+            10.461,
+            10.108,
+            8.603,
+            6.066,
+            5.383,
+            5.578,
+            3.847,
+            0.0,
+            3.851
+          ],
+          [
+            12.194,
+            10.724,
+            9.766,
+            8.446,
+            6.136,
+            5.082,
+            5.441,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.9223594072863269,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MEFV-V469A Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9224,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MEFV_V469A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MEFV_V469A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MEFV_V469A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MEFV_V469A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MEFV_V469A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MEFV-V469A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MEFV-V469A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:40:13.162082+00:00"
     }
   ]
 }
