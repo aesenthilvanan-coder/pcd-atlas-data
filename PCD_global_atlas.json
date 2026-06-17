@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 129,
+  "total_entries": 130,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44533,
-    "queue_remaining": 134064
+    "total_processed": 44534,
+    "queue_remaining": 134063
   },
   "entries": [
     {
@@ -29203,6 +29203,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:30:57.677141+00:00"
+    },
+    {
+      "entry_id": "PCD-ALAD-V6I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALAD-V6I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ALAD",
+        "uniprot": "",
+        "clinvar_id": "364655",
+        "disease": "Porphobilinogen synthase deficiency",
+        "mutation_precursor": "V6I",
+        "mutation_mature": "V6I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7802736983532517,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 461.1237749455094,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -9.34857177734375,
+          -30.98776626586914,
+          34.27388381958008
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.661622401699614,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7834509552012829,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "Q2": "Q",
+          "P3": "P",
+          "S5": "S",
+          "V6": "V"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P13716|ALAD variant V6I",
+        "fasta_sequence": "MQPQSVLHSGYFHPLLRAWQTATTTLNASNLIYPIFVTDVPDDIQPITSLPGVARYGVKRLEEMLRPLVEEGLRCVLIFGVPSRVPKDERGSAADSEESPAIEAIHLLRKTFPNLLVACDVCLCPYTSHGHCGLLSENGAFRAEESRQRLAEVALAYAKAGCQVVAPSDMMDGRVEAIKEALMAHGLGNRVSVMSYSAKFASCFYGPFRDAAKSSPAFGDRRCYQLPPGARGLALRAVDRDVREGADMLMVKPGMPYLDIVREVKDKHPDLPLAVYHVSGEFAMLWHGAQAGAFDLKAAVLEAMTAFRRAGADIIITYYTPQLLQWLKEE",
+        "full_sequence": "MQPQSVLHSGYFHPLLRAWQTATTTLNASNLIYPIFVTDVPDDIQPITSLPGVARYGVKRLEEMLRPLVEEGLRCVLIFGVPSRVPKDERGSAADSEESPAIEAIHLLRKTFPNLLVACDVCLCPYTSHGHCGLLSENGAFRAEESRQRLAEVALAYAKAGCQVVAPSDMMDGRVEAIKEALMAHGLGNRVSVMSYSAKFASCFYGPFRDAAKSSPAFGDRRCYQLPPGARGLALRAVDRDVREGADMLMVKPGMPYLDIVREVKDKHPDLPLAVYHVSGEFAMLWHGAQAGAFDLKAAVLEAMTAFRRAGADIIITYYTPQLLQWLKEE",
+        "n_residues": 330,
+        "mutation_pos_1indexed": 6,
+        "wt_aa": "V",
+        "mut_aa": "I",
+        "pocket_lining_residues": "M1-Q2-P3-S5-V6",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "pocket_lining_1letter": "MQPSV",
+        "sequence_slice_around_pocket": "MQPQSVLHSGYFHPL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ALAD_V6I/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "M1",
+          "Q2",
+          "P3",
+          "S5",
+          "V6"
+        ],
+        "values": [
+          [
+            0.0,
+            3.851,
+            6.434,
+            6.914,
+            7.785
+          ],
+          [
+            3.851,
+            0.0,
+            3.887,
+            5.649,
+            7.447
+          ],
+          [
+            6.434,
+            3.887,
+            0.0,
+            5.551,
+            5.74
+          ],
+          [
+            6.914,
+            5.649,
+            5.551,
+            0.0,
+            3.874
+          ],
+          [
+            7.785,
+            7.447,
+            5.74,
+            3.874,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "composite_score": 0.5358062503289734,
+        "mw": 325.18,
+        "logp": 1.996,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 7,
+        "qed": 0.7503,
+        "sa_score": 2.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 89.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ALAD-V6I Candidate #1",
+        "iupac_name": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5358,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ALAD_V6I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ALAD_V6I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ALAD_V6I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALAD_V6I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALAD_V6I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALAD-V6I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALAD-V6I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:31:18.681564+00:00"
     }
   ]
 }
