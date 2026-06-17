@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 428,
+  "total_entries": 429,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44881,
-    "queue_remaining": 133716
+    "total_processed": 44882,
+    "queue_remaining": 133715
   },
   "entries": [
     {
@@ -93964,6 +93964,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:19:02.837989+00:00"
+    },
+    {
+      "entry_id": "PCD-MMP13-D317E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP13-D317E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MMP13",
+        "uniprot": "",
+        "clinvar_id": "301982",
+        "disease": "Spondyloepimetaphyseal dysplasia, Missouri type",
+        "mutation_precursor": "D317E",
+        "mutation_mature": "D317E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8465747697657935,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 644.8938829614888,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          2.1897811889648438,
+          -4.910691261291504,
+          16.680503845214844
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.450206712052706,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.86284442589725,
+        "cryptic": true,
+        "pocket_residues": {
+          "C284": "C",
+          "V316": "V",
+          "D317": "D",
+          "L469": "L",
+          "W470": "W",
+          "C471": "C"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P45452|MMP13 variant D317E",
+        "fasta_sequence": "MHPGVLAAFLFLSWTHCRALPLPSGGDEDDLSEEDLQFAERYLRSYYHPTNLAGILKENAASSMTERLREMQSFFGLEVTGKLDDNTLDVMKKPRCGVPDVGEYNVFPRTLKWSKMNLTYRIVNYTPDMTHSEVEKAFKKAFKVWSDVTPLNFTRLHDGIADIMISFGIKEHGDFYPFDGPSGLLAHAFPPGPNYGGDAHFDDDETWTSSSKGYNLFLVAAHEFGHSLGLDHSKDPGALMFPIYTYTGKSHFMLPDDDVQGIQSLYGPGDEDPNPKHPKTPDKCDPSLSLDAITSLRGETMIFKDRFFWRLHPQQVDAELFLTKSFWPELPNRIDAAYEHPSHDLIFIFRGRKFWALNGYDILEGYPKKISELGLPKEVKKISAAVHFEDTGKTLLFSGNQVWRYDDTNHIMDKDYPRLIEEDFPGIGDKVDAVYEKNGYIYFFNGPIQFEYSIWSNRIVRVMPANSILWC",
+        "full_sequence": "MHPGVLAAFLFLSWTHCRALPLPSGGDEDDLSEEDLQFAERYLRSYYHPTNLAGILKENAASSMTERLREMQSFFGLEVTGKLDDNTLDVMKKPRCGVPDVGEYNVFPRTLKWSKMNLTYRIVNYTPDMTHSEVEKAFKKAFKVWSDVTPLNFTRLHDGIADIMISFGIKEHGDFYPFDGPSGLLAHAFPPGPNYGGDAHFDDDETWTSSSKGYNLFLVAAHEFGHSLGLDHSKDPGALMFPIYTYTGKSHFMLPDDDVQGIQSLYGPGDEDPNPKHPKTPDKCDPSLSLDAITSLRGETMIFKDRFFWRLHPQQVDAELFLTKSFWPELPNRIDAAYEHPSHDLIFIFRGRKFWALNGYDILEGYPKKISELGLPKEVKKISAAVHFEDTGKTLLFSGNQVWRYDDTNHIMDKDYPRLIEEDFPGIGDKVDAVYEKNGYIYFFNGPIQFEYSIWSNRIVRVMPANSILWC",
+        "n_residues": 471,
+        "mutation_pos_1indexed": 317,
+        "wt_aa": "D",
+        "mut_aa": "E",
+        "pocket_lining_residues": "C284-V316-D317-L469-W470-C471",
+        "pocket_lining_positions_precursor": [
+          284,
+          316,
+          317,
+          469,
+          470,
+          471
+        ],
+        "pocket_lining_1letter": "CVDLWC",
+        "sequence_slice_around_pocket": "FFWRLHPQQVDAELFLTKSF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_D317E/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "C284",
+          "V316",
+          "D317",
+          "L469",
+          "W470",
+          "C471"
+        ],
+        "values": [
+          [
+            0.0,
+            14.742,
+            11.91,
+            7.547,
+            8.168,
+            5.455
+          ],
+          [
+            14.742,
+            0.0,
+            3.819,
+            9.702,
+            8.693,
+            11.94
+          ],
+          [
+            11.91,
+            3.819,
+            0.0,
+            7.571,
+            7.669,
+            10.353
+          ],
+          [
+            7.547,
+            9.702,
+            7.571,
+            0.0,
+            3.874,
+            5.671
+          ],
+          [
+            8.168,
+            8.693,
+            7.669,
+            3.874,
+            0.0,
+            3.808
+          ],
+          [
+            5.455,
+            11.94,
+            10.353,
+            5.671,
+            3.808,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1OCNc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "composite_score": 0.8458782089650945,
+        "mw": 462.19,
+        "logp": 2.07,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 9,
+        "qed": 0.4876,
+        "sa_score": 2.55,
+        "n_heavy_atoms": 32,
+        "tpsa": 123.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MMP13-D317E Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1OCNc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.8459,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_D317E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_D317E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_D317E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_D317E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_D317E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP13-D317E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP13-D317E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:19:25.985778+00:00"
     }
   ]
 }
