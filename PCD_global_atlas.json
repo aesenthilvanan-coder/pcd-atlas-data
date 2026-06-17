@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1029,
+  "total_entries": 1030,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45603,
-    "queue_remaining": 132994
+    "total_processed": 45604,
+    "queue_remaining": 132993
   },
   "entries": [
     {
@@ -226803,6 +226803,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T17:48:08.356171+00:00"
+    },
+    {
+      "entry_id": "PCD-COL6A1-P265L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL6A1-P265L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COL6A1",
+        "uniprot": "",
+        "clinvar_id": "340309",
+        "disease": "Collagen 6-related myopathy",
+        "mutation_precursor": "P265L",
+        "mutation_mature": "P265L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9217664748610015,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 553.5046479527173,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          33.28896713256836,
+          18.25580596923828,
+          48.88105773925781
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.032558119805343,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7237683393885357,
+        "cryptic": true,
+        "pocket_residues": {
+          "D264": "D",
+          "P265": "P",
+          "G266": "G",
+          "G377": "G",
+          "A378": "A",
+          "D379": "D"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P12109|COL6A1 variant P265L",
+        "fasta_sequence": "MRAARALLPLLLQACWTAAQDEPETPRAVAFQDCPVDLFFVLDTSESVALRLKPYGALVDKVKSFTKRFIDNLRDRYYRCDRNLVWNAGALHYSDEVEIIQGLTRMPGGRDALKSSVDAVKYFGKGTYTDCAIKKGLEQLLVGGSHLKENKYLIVVTDGHPLEGYKEPCGGLEDAVNEAKHLGVKVFSVAITPDHLEPRLSIIATDHTYRRNFTAADWGQSRDAEEAISQTIDTIVDMIKNNVEQVCCSFECQPARGPPGLRGDPGFEGERGKPGLPGEKGEAGDPGRPGDLGPVGYQGMKGEKGSRGEKGSRGPKGYKGEKGKRGIDGVDGVKGEMGYPGLPGCKGSPGFDGIQGPPGPKGDPGAFGLKGEKGEPGADGEAGRPGSSGPSGDEGQPGEPGPPGEKGEAGDEGNPGPDGAPGERGGPGERGPRGTPGTRGPRGDPGEAGPQGDQGREGPVGVPGDPGEAGPIGPKGYRGDEGPPGSEGARGAPGPAGPPGDPGLMGERGEDGPAGNGTEGFPGFPGYPGNRGAPGINGTKGYPGLKGDEGEAGDPGDDNNDIAPRGVKGAKGYRGPEGPQGPPGHQGPPGPDECEILDIIMKMCSCCECKCGPIDLLFVLDSSESIGLQNFEIAKDFVVKVIDRLSRDELVKFEPGQSYAGVVQYSHSQMQEHVSLRSPSIRNVQELKEAIKSLQWMAGGTFTGEALQYTRDQLLPPSPNNRIALVITDGRSDTQRDTTPLNVLCSPGIQVVSVGIKDVFDFIPGSDQLNVISCQGLAPSQGRPGLSLVKENYAELLEDAFLKNVTAQICIDKKCPDYTCPITFSSPADITILLDGSASVGSHNFDTTKRFAKRLAERFLTAGRTDPAHDVRVAVVQYSGTGQQRPERASLQFLQNYTALASAVDAMDFINDATDVNDALGYVTRFYREASSGAAKKRLLLFSDGNSQGATPAAIEKAVQEAQRAGIEIFVVVVGRQVNEPHIRVLVTGKTAEYDVAYGESHLFRVPSYQALLRGVFHQTVSRKVALG",
+        "full_sequence": "MRAARALLPLLLQACWTAAQDEPETPRAVAFQDCPVDLFFVLDTSESVALRLKPYGALVDKVKSFTKRFIDNLRDRYYRCDRNLVWNAGALHYSDEVEIIQGLTRMPGGRDALKSSVDAVKYFGKGTYTDCAIKKGLEQLLVGGSHLKENKYLIVVTDGHPLEGYKEPCGGLEDAVNEAKHLGVKVFSVAITPDHLEPRLSIIATDHTYRRNFTAADWGQSRDAEEAISQTIDTIVDMIKNNVEQVCCSFECQPARGPPGLRGDPGFEGERGKPGLPGEKGEAGDPGRPGDLGPVGYQGMKGEKGSRGEKGSRGPKGYKGEKGKRGIDGVDGVKGEMGYPGLPGCKGSPGFDGIQGPPGPKGDPGAFGLKGEKGEPGADGEAGRPGSSGPSGDEGQPGEPGPPGEKGEAGDEGNPGPDGAPGERGGPGERGPRGTPGTRGPRGDPGEAGPQGDQGREGPVGVPGDPGEAGPIGPKGYRGDEGPPGSEGARGAPGPAGPPGDPGLMGERGEDGPAGNGTEGFPGFPGYPGNRGAPGINGTKGYPGLKGDEGEAGDPGDDNNDIAPRGVKGAKGYRGPEGPQGPPGHQGPPGPDECEILDIIMKMCSCCECKCGPIDLLFVLDSSESIGLQNFEIAKDFVVKVIDRLSRDELVKFEPGQSYAGVVQYSHSQMQEHVSLRSPSIRNVQELKEAIKSLQWMAGGTFTGEALQYTRDQLLPPSPNNRIALVITDGRSDTQRDTTPLNVLCSPGIQVVSVGIKDVFDFIPGSDQLNVISCQGLAPSQGRPGLSLVKENYAELLEDAFLKNVTAQICIDKKCPDYTCPITFSSPADITILLDGSASVGSHNFDTTKRFAKRLAERFLTAGRTDPAHDVRVAVVQYSGTGQQRPERASLQFLQNYTALASAVDAMDFINDATDVNDALGYVTRFYREASSGAAKKRLLLFSDGNSQGATPAAIEKAVQEAQRAGIEIFVVVVGRQVNEPHIRVLVTGKTAEYDVAYGESHLFRVPSYQALLRGVFHQTVSRKVALG",
+        "n_residues": 1028,
+        "mutation_pos_1indexed": 265,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "D264-P265-G266-G377-A378-D379",
+        "pocket_lining_positions_precursor": [
+          264,
+          265,
+          266,
+          377,
+          378,
+          379
+        ],
+        "pocket_lining_1letter": "DPGGAD",
+        "sequence_slice_around_pocket": "ARGPPGLRGDPGFEGERGKP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A1_P265L/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "D264",
+          "P265",
+          "G266",
+          "G377",
+          "A378",
+          "D379"
+        ],
+        "values": [
+          [
+            0.0,
+            4.348,
+            6.147,
+            4.625,
+            8.253,
+            10.576
+          ],
+          [
+            4.348,
+            0.0,
+            3.833,
+            2.295,
+            5.617,
+            8.938
+          ],
+          [
+            6.147,
+            3.833,
+            0.0,
+            6.075,
+            9.154,
+            12.525
+          ],
+          [
+            4.625,
+            2.295,
+            6.075,
+            0.0,
+            3.818,
+            6.789
+          ],
+          [
+            8.253,
+            5.617,
+            9.154,
+            3.818,
+            0.0,
+            3.826
+          ],
+          [
+            10.576,
+            8.938,
+            12.525,
+            6.789,
+            3.826,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC1CC(=O)CC1N1CCCCC1CCCNc1ncnc2[nH]cnc12",
+        "composite_score": 0.7423457508412432,
+        "mw": 385.26,
+        "logp": 2.096,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 8,
+        "qed": 0.5964,
+        "sa_score": 4.14,
+        "n_heavy_atoms": 28,
+        "tpsa": 112.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COL6A1-P265L Candidate #1",
+        "iupac_name": "NCCC1CC(=O)CC1N1CCCCC1CCCNc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.7423,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A1_P265L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A1_P265L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A1_P265L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A1_P265L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A1_P265L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL6A1-P265L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL6A1-P265L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T17:48:44.122134+00:00"
     }
   ]
 }
