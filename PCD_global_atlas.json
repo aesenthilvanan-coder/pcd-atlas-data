@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1323,
+  "total_entries": 1324,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45940,
-    "queue_remaining": 132657
+    "total_processed": 45941,
+    "queue_remaining": 132656
   },
   "entries": [
     {
@@ -293000,6 +293000,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:19:34.651819+00:00"
+    },
+    {
+      "entry_id": "PCD-HSF4-R132C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HSF4-R132C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HSF4",
+        "uniprot": "",
+        "clinvar_id": "320180",
+        "disease": "Cataract 5 multiple types",
+        "mutation_precursor": "R132C",
+        "mutation_mature": "R132C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8063220084483882,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 627.9771177328714,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          22.210575103759766,
+          16.80897331237793,
+          15.040297508239746
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.0648064879959,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7065040464637243,
+        "cryptic": true,
+        "pocket_residues": {
+          "W131": "W",
+          "R132": "R",
+          "P133": "P"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9ULV5|HSF4 variant R132C",
+        "fasta_sequence": "MQEAPAALPTEPGPSPVPAFLGKLWALVGDPGTDHLIRWSPSGTSFLVSDQSRFAKEVLPQYFKHSNMASFVRQLNMYGFRKVVSIEQGGLLRPERDHVEFQHPSFVRGREQLLERVRRKVPALRGDDGRWRPEDLGRLLGEVQALRGVQESTEARLRELRQQNEILWREVVTLRQSHGQQHRVIGKLIQCLFGPLQAGPSNAGGKRKLSLMLDEGSSCPTPAKFNTCPLPGALLQDPYFIQSPLPETNLGLSPHRARGPIISDIPEDSPSPEGTRLSPSSDGRREKGLALLKEEPASPGGDGEAGLALAPNECDFCVTAPPPLPVAVVQAILEGKGSFSPEGPRNAQQPEPGDPREIPDRGPLGLESGDRSPESLLPPMLLQPPQESVEPAGPLDVLGPSLQGREWTLMDLDMELSLMQPLVPERGEPELAVKGLNSPSPGKDPTLGAPLLLDVQAALGGPALGLPGALTIYSTPESRTASYLGPEASPSP",
+        "full_sequence": "MQEAPAALPTEPGPSPVPAFLGKLWALVGDPGTDHLIRWSPSGTSFLVSDQSRFAKEVLPQYFKHSNMASFVRQLNMYGFRKVVSIEQGGLLRPERDHVEFQHPSFVRGREQLLERVRRKVPALRGDDGRWRPEDLGRLLGEVQALRGVQESTEARLRELRQQNEILWREVVTLRQSHGQQHRVIGKLIQCLFGPLQAGPSNAGGKRKLSLMLDEGSSCPTPAKFNTCPLPGALLQDPYFIQSPLPETNLGLSPHRARGPIISDIPEDSPSPEGTRLSPSSDGRREKGLALLKEEPASPGGDGEAGLALAPNECDFCVTAPPPLPVAVVQAILEGKGSFSPEGPRNAQQPEPGDPREIPDRGPLGLESGDRSPESLLPPMLLQPPQESVEPAGPLDVLGPSLQGREWTLMDLDMELSLMQPLVPERGEPELAVKGLNSPSPGKDPTLGAPLLLDVQAALGGPALGLPGALTIYSTPESRTASYLGPEASPSP",
+        "n_residues": 492,
+        "mutation_pos_1indexed": 132,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "W131-R132-P133",
+        "pocket_lining_positions_precursor": [
+          131,
+          132,
+          133
+        ],
+        "pocket_lining_1letter": "WRP",
+        "sequence_slice_around_pocket": "PALRGDDGRWRPEDLGRLLG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HSF4_R132C/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "W131",
+          "R132",
+          "P133"
+        ],
+        "values": [
+          [
+            0.0,
+            3.832,
+            6.284
+          ],
+          [
+            3.832,
+            0.0,
+            3.876
+          ],
+          [
+            6.284,
+            3.876,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)c(CNc2ccc(S(N)(=O)=O)cc2N2CCCC(=O)C2)c1",
+        "composite_score": 0.5170685428637145,
+        "mw": 432.18,
+        "logp": 1.843,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 8,
+        "qed": 0.5832,
+        "sa_score": 2.55,
+        "n_heavy_atoms": 30,
+        "tpsa": 113.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HSF4-R132C Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)c(CNc2ccc(S(N)(=O)=O)cc2N2CCCC(=O)C2)c1",
+        "pocket_affinity_score": 0.5171,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HSF4_R132C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HSF4_R132C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HSF4_R132C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HSF4_R132C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HSF4_R132C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HSF4-R132C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HSF4-R132C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:19:58.013692+00:00"
     }
   ]
 }
