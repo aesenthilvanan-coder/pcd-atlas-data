@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 96,
+  "total_entries": 97,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44498,
-    "queue_remaining": 134099
+    "total_processed": 44499,
+    "queue_remaining": 134098
   },
   "entries": [
     {
@@ -21734,6 +21734,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:02:34.925398+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC29A3-A266V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC29A3-A266V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC29A3",
+        "uniprot": "",
+        "clinvar_id": "300364",
+        "disease": "H syndrome",
+        "mutation_precursor": "A266V",
+        "mutation_mature": "A266V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.732352980282613,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 445.4583920020461,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -24.254135131835938,
+          15.88139533996582,
+          20.740203857421875
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.994438693415251,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7142854624165577,
+        "cryptic": true,
+        "pocket_residues": {
+          "R262": "R",
+          "P263": "P",
+          "L265": "L",
+          "A266": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9BZD2|SLC29A3 variant A266V",
+        "fasta_sequence": "MAVVSEDDFQHSSNSTYRTTSSSLRADQEALLEKLLDRPPPGLQRPEDRFCGTYIIFFSLGIGSLLPWNFFITAKEYWMFKLRNSSSPATGEDPEGSDILNYFESYLAVASTVPSMLCLVANFLLVNRVAVHIRVLASLTVILAIFMVITALVKVDTSSWTRGFFAVTIVCMVILSGASTVFSSSIYGMTGSFPMRNSQALISGGAMGGTVSAVASLVDLAASSDVRNSALAFFLTATVFLVLCMGLYLLLSRLEYARYYMRPVLAAHVFSGEEELPQDSLSAPSVASRFIDSHTPPLRPILKKTASLGFCVTYVFFITSLIYPAICTNIESLNKGSGSLWTTKFFIPLTTFLLYNFADLCGRQLTAWIQVPGPNSKALPGFVLLRTCLIPLFVLCNYQPRVHLKTVVFQSDVYPALLSSLLGLSNGYLSTLALLYGPKIVPRELAEATGVVMSFYVCLGLTLGSACSTLLVHLI",
+        "full_sequence": "MAVVSEDDFQHSSNSTYRTTSSSLRADQEALLEKLLDRPPPGLQRPEDRFCGTYIIFFSLGIGSLLPWNFFITAKEYWMFKLRNSSSPATGEDPEGSDILNYFESYLAVASTVPSMLCLVANFLLVNRVAVHIRVLASLTVILAIFMVITALVKVDTSSWTRGFFAVTIVCMVILSGASTVFSSSIYGMTGSFPMRNSQALISGGAMGGTVSAVASLVDLAASSDVRNSALAFFLTATVFLVLCMGLYLLLSRLEYARYYMRPVLAAHVFSGEEELPQDSLSAPSVASRFIDSHTPPLRPILKKTASLGFCVTYVFFITSLIYPAICTNIESLNKGSGSLWTTKFFIPLTTFLLYNFADLCGRQLTAWIQVPGPNSKALPGFVLLRTCLIPLFVLCNYQPRVHLKTVVFQSDVYPALLSSLLGLSNGYLSTLALLYGPKIVPRELAEATGVVMSFYVCLGLTLGSACSTLLVHLI",
+        "n_residues": 475,
+        "mutation_pos_1indexed": 266,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "R262-P263-L265-A266",
+        "pocket_lining_positions_precursor": [
+          262,
+          263,
+          265,
+          266
+        ],
+        "pocket_lining_1letter": "RPLA",
+        "sequence_slice_around_pocket": "YARYYMRPVLAAHVFSGEEE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC29A3_A266V/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "R262",
+          "P263",
+          "L265",
+          "A266"
+        ],
+        "values": [
+          [
+            0.0,
+            3.86,
+            8.492,
+            7.362
+          ],
+          [
+            3.86,
+            0.0,
+            5.49,
+            6.021
+          ],
+          [
+            8.492,
+            5.49,
+            0.0,
+            3.848
+          ],
+          [
+            7.362,
+            6.021,
+            3.848,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5212281234124411,
+        "mw": 317.21,
+        "logp": 2.135,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9218,
+        "sa_score": 3.11,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC29A3-A266V Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5212,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC29A3_A266V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC29A3_A266V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC29A3_A266V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC29A3_A266V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC29A3_A266V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC29A3-A266V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC29A3-A266V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:02:59.210472+00:00"
     }
   ]
 }
