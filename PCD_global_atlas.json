@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 425,
+  "total_entries": 426,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44878,
-    "queue_remaining": 133719
+    "total_processed": 44879,
+    "queue_remaining": 133718
   },
   "entries": [
     {
@@ -93470,6 +93470,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:17:22.025635+00:00"
+    },
+    {
+      "entry_id": "PCD-MMP20-P379L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP20-P379L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MMP20",
+        "uniprot": "",
+        "clinvar_id": "301937",
+        "disease": "Amelogenesis imperfecta hypomaturation type 2A2",
+        "mutation_precursor": "P379L",
+        "mutation_mature": "P379L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8843238253236644,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 611.4753069315304,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -9.300642967224121,
+          -15.394939422607422,
+          3.785149097442627
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.1348813842257197,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8906564074035793,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y367": "Y",
+          "W368": "W",
+          "I369": "I",
+          "M375": "M",
+          "Q376": "Q",
+          "G377": "G",
+          "P378": "P",
+          "P379": "P",
+          "R380": "R"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O60882|MMP20 variant P379L",
+        "fasta_sequence": "MKVLPASGLAVFLIMALKFSTAAPSLVAASPRTWRNNYRLAQAYLDKYYTNKEGHQIGEMVARGSNSMIRKIKELQAFFGLQVTGKLDQTTMNVIKKPRCGVPDVANYRLFPGEPKWKKNTLTYRISKYTPSMSSVEVDKAVEMALQAWSSAVPLSFVRINSGEADIMISFENGDHGDSYPFDGPRGTLAHAFAPGEGLGGDTHFDNAEKWTMGTNGFNLFTVAAHEFGHALGLAHSTDPSALMYPTYKYKNPYGFHLPKDDVKGIQALYGPRKVFLGKPTLPHAPHHKPSIPDLCDSSSSFDAVTMLGKELLLFKDRIFWRRQVHLRTGIRPSTITSSFPQLMSNVDAAYEVAERGTAYFFKGPHYWITRGFQMQGPPRTIYDFGFPRHVQQIDAAVYLREPQKTLFFVGDEYYSYDERKRKMEKDYPKNTEEEFSGVNGQIDAAVELNGYIYFFSGPKTYKYDTEKEDVVSVVKSSSWIGC",
+        "full_sequence": "MKVLPASGLAVFLIMALKFSTAAPSLVAASPRTWRNNYRLAQAYLDKYYTNKEGHQIGEMVARGSNSMIRKIKELQAFFGLQVTGKLDQTTMNVIKKPRCGVPDVANYRLFPGEPKWKKNTLTYRISKYTPSMSSVEVDKAVEMALQAWSSAVPLSFVRINSGEADIMISFENGDHGDSYPFDGPRGTLAHAFAPGEGLGGDTHFDNAEKWTMGTNGFNLFTVAAHEFGHALGLAHSTDPSALMYPTYKYKNPYGFHLPKDDVKGIQALYGPRKVFLGKPTLPHAPHHKPSIPDLCDSSSSFDAVTMLGKELLLFKDRIFWRRQVHLRTGIRPSTITSSFPQLMSNVDAAYEVAERGTAYFFKGPHYWITRGFQMQGPPRTIYDFGFPRHVQQIDAAVYLREPQKTLFFVGDEYYSYDERKRKMEKDYPKNTEEEFSGVNGQIDAAVELNGYIYFFSGPKTYKYDTEKEDVVSVVKSSSWIGC",
+        "n_residues": 483,
+        "mutation_pos_1indexed": 379,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "Y367-W368-I369-M375-Q376-G377-P378-P379-R380",
+        "pocket_lining_positions_precursor": [
+          367,
+          368,
+          369,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380
+        ],
+        "pocket_lining_1letter": "YWIMQGPPR",
+        "sequence_slice_around_pocket": "ITRGFQMQGPPRTIYDFGFP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MMP20_P379L/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "Y367",
+          "W368",
+          "I369",
+          "M375",
+          "Q376",
+          "G377",
+          "P378",
+          "P379",
+          "R380"
+        ],
+        "values": [
+          [
+            0.0,
+            3.819,
+            6.881,
+            11.063,
+            10.81,
+            10.8,
+            9.042,
+            5.521,
+            5.297
+          ],
+          [
+            3.819,
+            0.0,
+            3.813,
+            7.252,
+            7.281,
+            7.923,
+            7.113,
+            4.923,
+            6.392
+          ],
+          [
+            6.881,
+            3.813,
+            0.0,
+            6.003,
+            5.259,
+            7.457,
+            8.501,
+            7.678,
+            8.471
+          ],
+          [
+            11.063,
+            7.252,
+            6.003,
+            0.0,
+            3.854,
+            6.473,
+            8.359,
+            9.523,
+            12.11
+          ],
+          [
+            10.81,
+            7.281,
+            5.259,
+            3.854,
+            0.0,
+            3.837,
+            6.918,
+            8.626,
+            10.383
+          ],
+          [
+            10.8,
+            7.923,
+            7.457,
+            6.473,
+            3.837,
+            0.0,
+            3.862,
+            6.835,
+            8.776
+          ],
+          [
+            9.042,
+            7.113,
+            8.501,
+            8.359,
+            6.918,
+            3.862,
+            0.0,
+            3.857,
+            6.569
+          ],
+          [
+            5.521,
+            4.923,
+            7.678,
+            9.523,
+            8.626,
+            6.835,
+            3.857,
+            0.0,
+            3.825
+          ],
+          [
+            5.297,
+            6.392,
+            8.471,
+            12.11,
+            10.383,
+            8.776,
+            6.569,
+            3.825,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCc1ccc(O)cc1N1CC(=O)CCC1CCCNc1ncnc2[nH]cnc12",
+        "composite_score": 0.648613257300186,
+        "mw": 409.22,
+        "logp": 1.99,
+        "hbd": 4,
+        "hba": 8,
+        "rotatable_bonds": 8,
+        "qed": 0.4152,
+        "sa_score": 3.6,
+        "n_heavy_atoms": 30,
+        "tpsa": 133.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MMP20-P379L Candidate #1",
+        "iupac_name": "NCCc1ccc(O)cc1N1CC(=O)CCC1CCCNc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.6486,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MMP20_P379L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MMP20_P379L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MMP20_P379L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MMP20_P379L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MMP20_P379L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP20-P379L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP20-P379L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:17:47.014980+00:00"
     }
   ]
 }
