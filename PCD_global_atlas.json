@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 411,
+  "total_entries": 412,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44864,
-    "queue_remaining": 133733
+    "total_processed": 44865,
+    "queue_remaining": 133732
   },
   "entries": [
     {
@@ -90799,6 +90799,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:07:04.996157+00:00"
+    },
+    {
+      "entry_id": "PCD-NR2E3-S137F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NR2E3-S137F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NR2E3",
+        "uniprot": "",
+        "clinvar_id": "317013",
+        "disease": "Enhanced S-cone syndrome",
+        "mutation_precursor": "S137F",
+        "mutation_mature": "S137F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7571897015284741,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 289.1730356483128,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          45.24222183227539,
+          -19.5095157623291,
+          -10.980829238891602
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.958405009939103,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8197938933051401,
+        "cryptic": true,
+        "pocket_residues": {
+          "M135": "M",
+          "E136": "E",
+          "S137": "S",
+          "N138": "N",
+          "T139": "T"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y5X4|NR2E3 variant S137F",
+        "fasta_sequence": "METRPTALMSSTVAAAAPAAGAASRKESPGRWGLGEDPTGVSPSLQCRVCGDSSSGKHYGIYACNGCSGFFKRSVRRRLIYRCQVGAGMCPVDKAHRNQCQACRLKKCLQAGMNQDAVQNERQPRSTAQVHLDSMESNTESRPESLVAPPAPAGRSPRGPTPMSAARALGHHFMASLITAETCAKLEPEDADENIDVTSNDPEFPSSPYSSSSPCGLDSIHETSARLLFMAVKWAKNLPVFSSLPFRDQVILLEEAWSELFLLGAIQWSLPLDSCPLLAPPEASAAGGAQGRLTLASMETRVLQETISRFRALAVDPTEFACMKALVLFKPETRGLKDPEHVEALQDQSQVMLSQHSKAHHPSQPVRFGKLLLLLPSLRFITAERIELLFFRKTIGNTPMEKLLCDMFKN",
+        "full_sequence": "METRPTALMSSTVAAAAPAAGAASRKESPGRWGLGEDPTGVSPSLQCRVCGDSSSGKHYGIYACNGCSGFFKRSVRRRLIYRCQVGAGMCPVDKAHRNQCQACRLKKCLQAGMNQDAVQNERQPRSTAQVHLDSMESNTESRPESLVAPPAPAGRSPRGPTPMSAARALGHHFMASLITAETCAKLEPEDADENIDVTSNDPEFPSSPYSSSSPCGLDSIHETSARLLFMAVKWAKNLPVFSSLPFRDQVILLEEAWSELFLLGAIQWSLPLDSCPLLAPPEASAAGGAQGRLTLASMETRVLQETISRFRALAVDPTEFACMKALVLFKPETRGLKDPEHVEALQDQSQVMLSQHSKAHHPSQPVRFGKLLLLLPSLRFITAERIELLFFRKTIGNTPMEKLLCDMFKN",
+        "n_residues": 410,
+        "mutation_pos_1indexed": 137,
+        "wt_aa": "S",
+        "mut_aa": "F",
+        "pocket_lining_residues": "M135-E136-S137-N138-T139",
+        "pocket_lining_positions_precursor": [
+          135,
+          136,
+          137,
+          138,
+          139
+        ],
+        "pocket_lining_1letter": "MESNT",
+        "sequence_slice_around_pocket": "TAQVHLDSMESNTESRPESL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NR2E3_S137F/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "M135",
+          "E136",
+          "S137",
+          "N138",
+          "T139"
+        ],
+        "values": [
+          [
+            0.0,
+            3.783,
+            6.632,
+            8.332,
+            11.692
+          ],
+          [
+            3.783,
+            0.0,
+            3.806,
+            6.844,
+            9.531
+          ],
+          [
+            6.632,
+            3.806,
+            0.0,
+            3.732,
+            5.76
+          ],
+          [
+            8.332,
+            6.844,
+            3.732,
+            0.0,
+            3.878
+          ],
+          [
+            11.692,
+            9.531,
+            5.76,
+            3.878,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccccc1N1CCCCC1",
+        "composite_score": 0.7124453806714818,
+        "mw": 204.13,
+        "logp": 1.776,
+        "hbd": 1,
+        "hba": 2,
+        "rotatable_bonds": 2,
+        "qed": 0.7977,
+        "sa_score": 1.64,
+        "n_heavy_atoms": 15,
+        "tpsa": 46.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NR2E3-S137F Candidate #1",
+        "iupac_name": "NC(=O)c1ccccc1N1CCCCC1",
+        "pocket_affinity_score": 0.7124,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NR2E3_S137F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NR2E3_S137F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NR2E3_S137F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NR2E3_S137F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NR2E3_S137F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NR2E3-S137F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NR2E3-S137F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:07:25.745373+00:00"
     }
   ]
 }
