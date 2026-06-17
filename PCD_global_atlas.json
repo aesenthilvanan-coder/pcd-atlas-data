@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 55,
+  "total_entries": 56,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44437,
-    "queue_remaining": 134160
+    "total_processed": 44438,
+    "queue_remaining": 134159
   },
   "entries": [
     {
@@ -12701,6 +12701,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:19:05.043387+00:00"
+    },
+    {
+      "entry_id": "PCD-MCM4-R321C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MCM4-R321C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MCM4",
+        "uniprot": "",
+        "clinvar_id": "363227",
+        "disease": "Primary immunodeficiency with natural-killer cell deficiency and adrenal insuffi",
+        "mutation_precursor": "R321C",
+        "mutation_mature": "R321C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8152336613117931,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 388.7429038895834,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          5.603690147399902,
+          7.090445518493652,
+          -44.191959381103516
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.762563545818839,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7322227290537019,
+        "cryptic": true,
+        "pocket_residues": {
+          "P95": "P",
+          "D318": "D",
+          "R319": "R",
+          "G320": "G",
+          "R321": "R"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P33991|MCM4 variant R321C",
+        "fasta_sequence": "MSSPASTPSRRGSRRGRATPAQTPRSEDARSSPSQRRRGEDSTSTGELQPMPTSPGVDLQSPAAQDVLFSSPPQMHSSAIPLDFDVSSPLTYGTPSSRVEGTPRSGVRGTPVRQRPDLGSAQKGLQVDLQSDGAAAEDIVASEQSLGQKLVIWGTDVNVAACKENFQRFLQRFIDPLAKEEENVGIDITEPLYMQRLGEINVIGEPFLNVNCEHIKSFDKNLYRQLISYPQEVIPTFDMAVNEIFFDRYPDSILEHQIQVRPFNALKTKNMRNLNPEDIDQLITISGMVIRTSQLIPEMQEAFFQCQVCAHTTRVEMDRGRIAEPSVCGRCHTTHSMALIHNRSLFSDKQMIKLQESPEDMPAGQTPHTVILFAHNDLVDKVQPGDRVNVTGIYRAVPIRVNPRVSNVKSVYKTHIDVIHYRKTDAKRLHGLDEEAEQKLFSEKRVELLKELSRKPDIYERLASALAPSIYEHEDIKKGILLQLFGGTRKDFSHTGRGKFRAEINILLCGDPGTSKSQLLQYVYNLVPRGQYTSGKGSSAVGLTAYVMKDPETRQLVLQTGALVLSDNGICCIDEFDKMNESTRSVLHEVMEQQTLSIAKAGIICQLNARTSVLAAANPIESQWNPKKTTIENIQLPHTLLSRFDLIFLLLDPQDEAYDRRLAHHLVALYYQSEEQAEEELLDMAVLKDYIAYAHSTIMPRLSEEASQALIEAYVDMRKIGSSRGMVSAYPRQLESLIRLAEAHAKVRLSNKVEAIDVEEAKRLHREALKQSATDPRTGIVDISILTTGMSATSRKRKEELAEALKKLILSKGKTPALKYQQLFEDIRGQSDIAITKDMFEEALRALADDDFLTVTGKTVRLL",
+        "full_sequence": "MSSPASTPSRRGSRRGRATPAQTPRSEDARSSPSQRRRGEDSTSTGELQPMPTSPGVDLQSPAAQDVLFSSPPQMHSSAIPLDFDVSSPLTYGTPSSRVEGTPRSGVRGTPVRQRPDLGSAQKGLQVDLQSDGAAAEDIVASEQSLGQKLVIWGTDVNVAACKENFQRFLQRFIDPLAKEEENVGIDITEPLYMQRLGEINVIGEPFLNVNCEHIKSFDKNLYRQLISYPQEVIPTFDMAVNEIFFDRYPDSILEHQIQVRPFNALKTKNMRNLNPEDIDQLITISGMVIRTSQLIPEMQEAFFQCQVCAHTTRVEMDRGRIAEPSVCGRCHTTHSMALIHNRSLFSDKQMIKLQESPEDMPAGQTPHTVILFAHNDLVDKVQPGDRVNVTGIYRAVPIRVNPRVSNVKSVYKTHIDVIHYRKTDAKRLHGLDEEAEQKLFSEKRVELLKELSRKPDIYERLASALAPSIYEHEDIKKGILLQLFGGTRKDFSHTGRGKFRAEINILLCGDPGTSKSQLLQYVYNLVPRGQYTSGKGSSAVGLTAYVMKDPETRQLVLQTGALVLSDNGICCIDEFDKMNESTRSVLHEVMEQQTLSIAKAGIICQLNARTSVLAAANPIESQWNPKKTTIENIQLPHTLLSRFDLIFLLLDPQDEAYDRRLAHHLVALYYQSEEQAEEELLDMAVLKDYIAYAHSTIMPRLSEEASQALIEAYVDMRKIGSSRGMVSAYPRQLESLIRLAEAHAKVRLSNKVEAIDVEEAKRLHREALKQSATDPRTGIVDISILTTGMSATSRKRKEELAEALKKLILSKGKTPALKYQQLFEDIRGQSDIAITKDMFEEALRALADDDFLTVTGKTVRLL",
+        "n_residues": 863,
+        "mutation_pos_1indexed": 321,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "P95-D318-R319-G320-R321",
+        "pocket_lining_positions_precursor": [
+          95,
+          318,
+          319,
+          320,
+          321
+        ],
+        "pocket_lining_1letter": "PDRGR",
+        "sequence_slice_around_pocket": "HTTRVEMDRGRIAEPSVCGR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MCM4_R321C/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "P95",
+          "D318",
+          "R319",
+          "G320",
+          "R321"
+        ],
+        "values": [
+          [
+            0.0,
+            11.235,
+            7.458,
+            8.748,
+            10.787
+          ],
+          [
+            11.235,
+            0.0,
+            3.894,
+            5.611,
+            5.558
+          ],
+          [
+            7.458,
+            3.894,
+            0.0,
+            3.856,
+            5.69
+          ],
+          [
+            8.748,
+            5.611,
+            3.856,
+            0.0,
+            3.872
+          ],
+          [
+            10.787,
+            5.558,
+            5.69,
+            3.872,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCCCS(=O)(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.7178562551079577,
+        "mw": 311.17,
+        "logp": 1.975,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 7,
+        "qed": 0.7792,
+        "sa_score": 2.42,
+        "n_heavy_atoms": 21,
+        "tpsa": 76.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MCM4-R321C Candidate #1",
+        "iupac_name": "NCCCCCS(=O)(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.7179,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MCM4_R321C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MCM4_R321C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MCM4_R321C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MCM4_R321C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MCM4_R321C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MCM4-R321C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MCM4-R321C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:19:34.044391+00:00"
     }
   ]
 }
