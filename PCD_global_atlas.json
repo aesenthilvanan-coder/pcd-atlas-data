@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1072,
+  "total_entries": 1073,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45654,
-    "queue_remaining": 132943
+    "total_processed": 45655,
+    "queue_remaining": 132942
   },
   "entries": [
     {
@@ -236281,6 +236281,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:24:00.658200+00:00"
+    },
+    {
+      "entry_id": "PCD-PLA2G6-S89Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PLA2G6-S89Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PLA2G6",
+        "uniprot": "",
+        "clinvar_id": "341648",
+        "disease": "PLA2G6-associated neurodegeneration",
+        "mutation_precursor": "S89Y",
+        "mutation_mature": "S89Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9253658540935266,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 443.96706700046394,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          48.16415023803711,
+          15.065587997436523,
+          -33.8995475769043
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.7640072982140156,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6453303430103522,
+        "cryptic": true,
+        "pocket_residues": {
+          "H85": "H",
+          "Q86": "Q",
+          "Y87": "Y",
+          "S88": "S",
+          "S89": "S",
+          "Q90": "Q"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O60733|PLA2G6 variant S89Y",
+        "fasta_sequence": "MQFFGRLVNTFSGVTNLFSNPFRVKEVAVADYTSSDRVREEGQLILFQNTPNRTWDCVLVNPRNSQSGFRLFQLELEADALVNFHQYSSQLLPFYESSPQVLHTEVLQHLTDLIRNHPSWSVAHLAVELGIRECFHHSRIISCANCAENEEGCTPLHLACRKGDGEILVELVQYCHTQMDVTDYKGETVFHYAVQGDNSQVLQLLGRNAVAGLNQVNNQGLTPLHLACQLGKQEMVRVLLLCNARCNIMGPNGYPIHSAMKFSQKGCAEMIISMDSSQIHSKDPRYGASPLHWAKNAEMARMLLKRGCNVNSTSSAGNTALHVAVMRNRFDCAIVLLTHGANADARGEHGNTPLHLAMSKDNVEMIKALIVFGAEVDTPNDFGETPTFLASKIGRLVTRKAILTLLRTVGAEYCFPPIHGVPAEQGSAAPHHPFSLERAQPPPISLNNLELQDLMHISRARKPAFILGSMRDEKRTHDHLLCLDGGGVKGLIIIQLLIAIEKASGVATKDLFDWVAGTSTGGILALAILHSKSMAYMRGMYFRMKDEVFRGSRPYESGPLEEFLKREFGEHTKMTDVRKPKVMLTGTLSDRQPAELHLFRNYDAPETVREPRFNQNVNLRPPAQPSDQLVWRAARSSGAAPTYFRPNGRFLDGGLLANNPTLDAMTEIHEYNQDLIRKGQANKVKKLSIVVSLGTGRSPQVPVTCVDVFRPSNPWELAKTVFGAKELGKMVVDCCTDPDGRAVDRARAWCEMVGIQYFRLNPQLGTDIMLDEVSDTVLVNALWETEVYIYEHREEFQKLIQLLLSP",
+        "full_sequence": "MQFFGRLVNTFSGVTNLFSNPFRVKEVAVADYTSSDRVREEGQLILFQNTPNRTWDCVLVNPRNSQSGFRLFQLELEADALVNFHQYSSQLLPFYESSPQVLHTEVLQHLTDLIRNHPSWSVAHLAVELGIRECFHHSRIISCANCAENEEGCTPLHLACRKGDGEILVELVQYCHTQMDVTDYKGETVFHYAVQGDNSQVLQLLGRNAVAGLNQVNNQGLTPLHLACQLGKQEMVRVLLLCNARCNIMGPNGYPIHSAMKFSQKGCAEMIISMDSSQIHSKDPRYGASPLHWAKNAEMARMLLKRGCNVNSTSSAGNTALHVAVMRNRFDCAIVLLTHGANADARGEHGNTPLHLAMSKDNVEMIKALIVFGAEVDTPNDFGETPTFLASKIGRLVTRKAILTLLRTVGAEYCFPPIHGVPAEQGSAAPHHPFSLERAQPPPISLNNLELQDLMHISRARKPAFILGSMRDEKRTHDHLLCLDGGGVKGLIIIQLLIAIEKASGVATKDLFDWVAGTSTGGILALAILHSKSMAYMRGMYFRMKDEVFRGSRPYESGPLEEFLKREFGEHTKMTDVRKPKVMLTGTLSDRQPAELHLFRNYDAPETVREPRFNQNVNLRPPAQPSDQLVWRAARSSGAAPTYFRPNGRFLDGGLLANNPTLDAMTEIHEYNQDLIRKGQANKVKKLSIVVSLGTGRSPQVPVTCVDVFRPSNPWELAKTVFGAKELGKMVVDCCTDPDGRAVDRARAWCEMVGIQYFRLNPQLGTDIMLDEVSDTVLVNALWETEVYIYEHREEFQKLIQLLLSP",
+        "n_residues": 806,
+        "mutation_pos_1indexed": 89,
+        "wt_aa": "S",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "H85-Q86-Y87-S88-S89-Q90",
+        "pocket_lining_positions_precursor": [
+          85,
+          86,
+          87,
+          88,
+          89,
+          90
+        ],
+        "pocket_lining_1letter": "HQYSSQ",
+        "sequence_slice_around_pocket": "DALVNFHQYSSQLLPFYESS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PLA2G6_S89Y/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "H85",
+          "Q86",
+          "Y87",
+          "S88",
+          "S89",
+          "Q90"
+        ],
+        "values": [
+          [
+            0.0,
+            3.834,
+            5.484,
+            5.177,
+            6.032,
+            8.657
+          ],
+          [
+            3.834,
+            0.0,
+            3.853,
+            5.751,
+            5.401,
+            6.428
+          ],
+          [
+            5.484,
+            3.853,
+            0.0,
+            3.857,
+            5.431,
+            5.266
+          ],
+          [
+            5.177,
+            5.751,
+            3.857,
+            0.0,
+            3.818,
+            5.647
+          ],
+          [
+            6.032,
+            5.401,
+            5.431,
+            3.818,
+            0.0,
+            3.872
+          ],
+          [
+            8.657,
+            6.428,
+            5.266,
+            5.647,
+            3.872,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5798765817746665,
+        "mw": 319.17,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.924,
+        "sa_score": 3.13,
+        "n_heavy_atoms": 23,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PLA2G6-S89Y Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5799,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PLA2G6_S89Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PLA2G6_S89Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PLA2G6_S89Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PLA2G6_S89Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PLA2G6_S89Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PLA2G6-S89Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PLA2G6-S89Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:24:29.835774+00:00"
     }
   ]
 }
