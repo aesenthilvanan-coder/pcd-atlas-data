@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 82,
+  "total_entries": 83,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44481,
-    "queue_remaining": 134116
+    "total_processed": 44482,
+    "queue_remaining": 134115
   },
   "entries": [
     {
@@ -18600,6 +18600,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:47:50.869778+00:00"
+    },
+    {
+      "entry_id": "PCD-GDF6-P257L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GDF6-P257L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GDF6",
+        "uniprot": "",
+        "clinvar_id": "364047",
+        "disease": "Klippel-Feil syndrome 1, autosomal dominant",
+        "mutation_precursor": "P257L",
+        "mutation_mature": "P257L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8621035168400402,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 469.6438760315465,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -22.809093475341797,
+          -7.579799652099609,
+          34.32276153564453
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.204208945358796,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7609115431252352,
+        "cryptic": true,
+        "pocket_residues": {
+          "A236": "A",
+          "W237": "W",
+          "A247": "A",
+          "R250": "R",
+          "Q254": "Q",
+          "P255": "P",
+          "P256": "P",
+          "P257": "P"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q6KF10|GDF6 variant P257L",
+        "fasta_sequence": "MDTPRVLLSAVFLISFLWDLPGFQQASISSSSSSAELGSTKGMRSRKEGKMQRAPRDSDAGREGQEPQPRPQDEPRAQQPRAQEPPGRGPRVVPHEYMLSIYRTYSIAEKLGINASFFQSSKSANTITSFVDRGLDDLSHTPLRRQKYLFDVSMLSDKEELVGAELRLFRQAPSAPWGPPAGPLHVQLFPCLSPLLLDARTLDPQGAPPAGWEVFDVWQGLRHQPWKQLCLELRAAWGELDAGEAEARARGPQQPPPPDLRSLGFGRRVRPPQERALLVVFTRSQRKNLFAEMREQLGSAEAAGPGAGAEGSWPPPSGAPDARPWLPSPGRRRRRTAFASRHGKRHGKKSRLRCSKKPLHVNFKELGWDDWIIAPLEYEAYHCEGVCDFPLRSHLEPTNHAIIQTLMNSMDPGSTPPSCCVPTKLTPISILYIDAGNNVVYKQYEDMVVESCGCR",
+        "full_sequence": "MDTPRVLLSAVFLISFLWDLPGFQQASISSSSSSAELGSTKGMRSRKEGKMQRAPRDSDAGREGQEPQPRPQDEPRAQQPRAQEPPGRGPRVVPHEYMLSIYRTYSIAEKLGINASFFQSSKSANTITSFVDRGLDDLSHTPLRRQKYLFDVSMLSDKEELVGAELRLFRQAPSAPWGPPAGPLHVQLFPCLSPLLLDARTLDPQGAPPAGWEVFDVWQGLRHQPWKQLCLELRAAWGELDAGEAEARARGPQQPPPPDLRSLGFGRRVRPPQERALLVVFTRSQRKNLFAEMREQLGSAEAAGPGAGAEGSWPPPSGAPDARPWLPSPGRRRRRTAFASRHGKRHGKKSRLRCSKKPLHVNFKELGWDDWIIAPLEYEAYHCEGVCDFPLRSHLEPTNHAIIQTLMNSMDPGSTPPSCCVPTKLTPISILYIDAGNNVVYKQYEDMVVESCGCR",
+        "n_residues": 455,
+        "mutation_pos_1indexed": 257,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "A236-W237-A247-R250-Q254-P255-P256-P257",
+        "pocket_lining_positions_precursor": [
+          236,
+          237,
+          247,
+          250,
+          254,
+          255,
+          256,
+          257
+        ],
+        "pocket_lining_1letter": "AWARQPPP",
+        "sequence_slice_around_pocket": "ARARGPQQPPPPDLRSLGFG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GDF6_P257L/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "A236",
+          "W237",
+          "A247",
+          "R250",
+          "Q254",
+          "P255",
+          "P256",
+          "P257"
+        ],
+        "values": [
+          [
+            0.0,
+            3.825,
+            10.24,
+            12.443,
+            10.41,
+            9.783,
+            8.389,
+            5.396
+          ],
+          [
+            3.825,
+            0.0,
+            10.653,
+            11.438,
+            8.143,
+            8.084,
+            8.326,
+            6.447
+          ],
+          [
+            10.24,
+            10.653,
+            0.0,
+            5.605,
+            10.909,
+            13.143,
+            12.375,
+            12.433
+          ],
+          [
+            12.443,
+            11.438,
+            5.605,
+            0.0,
+            7.572,
+            10.758,
+            11.25,
+            12.859
+          ],
+          [
+            10.41,
+            8.143,
+            10.909,
+            7.572,
+            0.0,
+            3.868,
+            6.514,
+            8.784
+          ],
+          [
+            9.783,
+            8.084,
+            13.143,
+            10.758,
+            3.868,
+            0.0,
+            3.844,
+            6.419
+          ],
+          [
+            8.389,
+            8.326,
+            12.375,
+            11.25,
+            6.514,
+            3.844,
+            0.0,
+            3.839
+          ],
+          [
+            5.396,
+            6.447,
+            12.433,
+            12.859,
+            8.784,
+            6.419,
+            3.839,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccccc1N1CCCCC1CCNc1ncnc2[nH]cnc12",
+        "composite_score": 0.640783288294196,
+        "mw": 365.2,
+        "logp": 2.313,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.6178,
+        "sa_score": 3.13,
+        "n_heavy_atoms": 27,
+        "tpsa": 112.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GDF6-P257L Candidate #1",
+        "iupac_name": "NC(=O)c1ccccc1N1CCCCC1CCNc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.6408,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GDF6_P257L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GDF6_P257L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GDF6_P257L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GDF6_P257L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GDF6_P257L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GDF6-P257L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GDF6-P257L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:48:12.809992+00:00"
     }
   ]
 }
