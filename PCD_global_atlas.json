@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1382,
+  "total_entries": 1383,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46018,
-    "queue_remaining": 132579
+    "total_processed": 46019,
+    "queue_remaining": 132578
   },
   "entries": [
     {
@@ -306358,6 +306358,279 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:05:03.163409+00:00"
+    },
+    {
+      "entry_id": "PCD-CHRNE-V301M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNE-V301M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CHRNE",
+        "uniprot": "",
+        "clinvar_id": "323987",
+        "disease": "Congenital myasthenic syndrome",
+        "mutation_precursor": "V301M",
+        "mutation_mature": "V301M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9483863331612546,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 571.996398127281,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.098161697387695,
+          -2.2703158855438232,
+          11.712183952331543
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.902271804710697,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6008466820724253,
+        "cryptic": true,
+        "pocket_residues": {
+          "V301": "V",
+          "P302": "P",
+          "L303": "L",
+          "L304": "L",
+          "G305": "G",
+          "R306": "R",
+          "F307": "F",
+          "L308": "L",
+          "I309": "I",
+          "F310": "F",
+          "I473": "I"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q04844|CHRNE variant V301M",
+        "fasta_sequence": "MARAPLGVLLLLGLLGRGVGKNEELRLYHHLFNNYDPGSRPVREPEDTVTISLKVTLTNLISLNEKEETLTTSVWIGIDWQDYRLNYSKDDFGGIETLRVPSELVWLPEIVLENNIDGQFGVAYDANVLVYEGGSVTWLPPAIYRSVCAVEVTYFPFDWQNCSLIFRSQTYNAEEVEFTFAVDNDGKTINKIDIDTEAYTENGEWAIDFCPGVIRRHHGGATDGPGETDVIYSLIIRRKPLFYVINIIVPCVLISGLVLLAYFLPAQAGGQKCTVSINVLLAQTVFLFLIAQKIPETSLSVPLLGRFLIFVMVVATLIVMNCVIVLNVSQRTPTTHAMSPRLRHVLLELLPRLLGSPPPPEAPRAASPPRRASSVGLLLRAEELILKKPRSELVFEGQRHRQGTWTAAFCQSLGAAAPEVRCCVDAVNFVAESTRDQEATGEEVSDWVRMGNALDNICFWAALVLFSVGSSLIFLGAYFNRVPDLPYAPCIQP",
+        "full_sequence": "MARAPLGVLLLLGLLGRGVGKNEELRLYHHLFNNYDPGSRPVREPEDTVTISLKVTLTNLISLNEKEETLTTSVWIGIDWQDYRLNYSKDDFGGIETLRVPSELVWLPEIVLENNIDGQFGVAYDANVLVYEGGSVTWLPPAIYRSVCAVEVTYFPFDWQNCSLIFRSQTYNAEEVEFTFAVDNDGKTINKIDIDTEAYTENGEWAIDFCPGVIRRHHGGATDGPGETDVIYSLIIRRKPLFYVINIIVPCVLISGLVLLAYFLPAQAGGQKCTVSINVLLAQTVFLFLIAQKIPETSLSVPLLGRFLIFVMVVATLIVMNCVIVLNVSQRTPTTHAMSPRLRHVLLELLPRLLGSPPPPEAPRAASPPRRASSVGLLLRAEELILKKPRSELVFEGQRHRQGTWTAAFCQSLGAAAPEVRCCVDAVNFVAESTRDQEATGEEVSDWVRMGNALDNICFWAALVLFSVGSSLIFLGAYFNRVPDLPYAPCIQP",
+        "n_residues": 493,
+        "mutation_pos_1indexed": 301,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "V301-P302-L303-L304-G305-R306-F307-L308-I309-F310-I473",
+        "pocket_lining_positions_precursor": [
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          473
+        ],
+        "pocket_lining_1letter": "VPLLGRFLIFI",
+        "sequence_slice_around_pocket": "AQKIPETSLSVPLLGRFLIF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_V301M/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "V301",
+          "P302",
+          "L303",
+          "L304",
+          "G305",
+          "R306",
+          "F307",
+          "L308",
+          "I309",
+          "F310",
+          "I473"
+        ],
+        "values": [
+          [
+            0.0,
+            3.861,
+            6.617,
+            8.413,
+            6.332,
+            6.57,
+            10.08,
+            11.008,
+            10.243,
+            12.211,
+            12.65
+          ],
+          [
+            3.861,
+            0.0,
+            3.843,
+            5.391,
+            5.021,
+            6.24,
+            8.607,
+            9.904,
+            10.54,
+            12.207,
+            10.894
+          ],
+          [
+            6.617,
+            3.843,
+            0.0,
+            3.835,
+            5.422,
+            5.026,
+            6.141,
+            8.702,
+            9.899,
+            10.401,
+            7.144
+          ],
+          [
+            8.413,
+            5.391,
+            3.835,
+            0.0,
+            3.859,
+            5.473,
+            4.982,
+            6.249,
+            8.673,
+            9.743,
+            8.711
+          ],
+          [
+            6.332,
+            5.021,
+            5.422,
+            3.859,
+            0.0,
+            3.86,
+            5.385,
+            5.15,
+            6.134,
+            8.459,
+            10.709
+          ],
+          [
+            6.57,
+            6.24,
+            5.026,
+            5.473,
+            3.86,
+            0.0,
+            3.844,
+            5.559,
+            5.188,
+            6.03,
+            8.187
+          ],
+          [
+            10.08,
+            8.607,
+            6.141,
+            4.982,
+            5.385,
+            3.844,
+            0.0,
+            3.83,
+            5.593,
+            5.074,
+            6.847
+          ],
+          [
+            11.008,
+            9.904,
+            8.702,
+            6.249,
+            5.15,
+            5.559,
+            3.83,
+            0.0,
+            3.846,
+            5.32,
+            10.649
+          ],
+          [
+            10.243,
+            10.54,
+            9.899,
+            8.673,
+            6.134,
+            5.188,
+            5.593,
+            3.846,
+            0.0,
+            3.83,
+            11.763
+          ],
+          [
+            12.211,
+            12.207,
+            10.401,
+            9.743,
+            8.459,
+            6.03,
+            5.074,
+            5.32,
+            3.83,
+            0.0,
+            9.723
+          ],
+          [
+            12.65,
+            10.894,
+            7.144,
+            8.711,
+            10.709,
+            8.187,
+            6.847,
+            10.649,
+            11.763,
+            9.723,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CCCCC1NCCNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.6705779513499603,
+        "mw": 379.25,
+        "logp": 2.112,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.448,
+        "sa_score": 3.29,
+        "n_heavy_atoms": 28,
+        "tpsa": 94.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CHRNE-V301M Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CCCCC1NCCNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6706,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_V301M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_V301M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_V301M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_V301M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNE_V301M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNE-V301M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNE-V301M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:05:27.769659+00:00"
     }
   ]
 }
