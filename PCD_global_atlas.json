@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 853,
+  "total_entries": 854,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45377,
-    "queue_remaining": 133220
+    "total_processed": 45378,
+    "queue_remaining": 133219
   },
   "entries": [
     {
@@ -188139,6 +188139,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:14:26.225087+00:00"
+    },
+    {
+      "entry_id": "PCD-COL4A1-P709L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL4A1-P709L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COL4A1",
+        "uniprot": "",
+        "clinvar_id": "311056",
+        "disease": "not provided",
+        "mutation_precursor": "P709L",
+        "mutation_mature": "P709L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9486805688742985,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 304.12752178530957,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          30.912851333618164,
+          16.518661499023438,
+          -42.98717498779297
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.181966917162117,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7033927213054437,
+        "cryptic": true,
+        "pocket_residues": {
+          "D706": "D",
+          "M707": "M",
+          "G708": "G",
+          "P709": "P",
+          "P710": "P"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P02462|COL4A1 variant P709L",
+        "fasta_sequence": "MGPRLSVWLLLLPAALLLHEEHSRAAAKGGCAGSGCGKCDCHGVKGQKGERGLPGLQGVIGFPGMQGPEGPQGPPGQKGDTGEPGLPGTKGTRGPPGASGYPGNPGLPGIPGQDGPPGPPGIPGCNGTKGERGPLGPPGLPGFAGNPGPPGLPGMKGDPGEILGHVPGMLLKGERGFPGIPGTPGPPGLPGLQGPVGPPGFTGPPGPPGPPGPPGEKGQMGLSFQGPKGDKGDQGVSGPPGVPGQAQVQEKGDFATKGEKGQKGEPGFQGMPGVGEKGEPGKPGPRGKPGKDGDKGEKGSPGFPGEPGYPGLIGRQGPQGEKGEAGPPGPPGIVIGTGPLGEKGERGYPGTPGPRGEPGPKGFPGLPGQPGPPGLPVPGQAGAPGFPGERGEKGDRGFPGTSLPGPSGRDGLPGPPGSPGPPGQPGYTNGIVECQPGPPGDQGPPGIPGQPGFIGEIGEKGQKGESCLICDIDGYRGPPGPQGPPGEIGFPGQPGAKGDRGLPGRDGVAGVPGPQGTPGLIGQPGAKGEPGEFYFDLRLKGDKGDPGFPGQPGMPGRAGSPGRDGHPGLPGPKGSPGSVGLKGERGPPGGVGFPGSRGDTGPPGPPGYGPAGPIGDKGQAGFPGGPGSPGLPGPKGEPGKIVPLPGPPGAEGLPGSPGFPGPQGDRGFPGTPGRPGLPGEKGAVGQPGIGFPGPPGPKGVDGLPGDMGPPGTPGRPGFNGLPGNPGVQGQKGEPGVGLPGLKGLPGLPGIPGTPGEKGSIGVPGVPGEHGAIGPPGLQGIRGEPGPPGLPGSVGSPGVPGIGPPGARGPPGGQGPPGLSGPPGIKGEKGFPGFPGLDMPGPKGDKGAQGLPGITGQSGLPGLPGQQGAPGIPGFPGSKGEMGVMGTPGQPGSPGPVGAPGLPGEKGDHGFPGSSGPRGDPGLKGDKGDVGLPGKPGSMDKVDMGSMKGQKGDQGEKGQIGPIGEKGSRGDPGTPGVPGKDGQAGQPGQPGPKGDPGISGTPGAPGLPGPKGSVGGMGLPGTPGEKGVPGIPGPQGSPGLPGDKGAKGEKGQAGPPGIGIPGLRGEKGDQGIAGFPGSPGEKGEKGSIGIPGMPGSPGLKGSPGSVGYPGSPGLPGEKGDKGLPGLDGIPGVKGEAGLPGTPGPTGPAGQKGEPGSDGIPGSAGEKGEPGLPGRGFPGFPGAKGDKGSKGEVGFPGLAGSPGIPGSKGEQGFMGPPGPQGQPGLPGSPGHATEGPKGDRGPQGQPGLPGLPGPMGPPGLPGIDGVKGDKGNPGWPGAPGVPGPKGDPGFQGMPGIGGSPGITGSKGDMGPPGVPGFQGPKGLPGLQGIKGDQGDQGVPGAKGLPGPPGPPGPYDIIKGEPGLPGPEGPPGLKGLQGLPGPKGQQGVTGLVGIPGPPGIPGFDGAPGQKGEMGPAGPTGPRGFPGPPGPDGLPGSMGPPGTPSVDHGFLVTRHSQTIDDPQCPSGTKILYHGYSLLYVQGNERAHGQDLGTAGSCLRKFSTMPFLFCNINNVCNFASRNDYSYWLSTPEPMPMSMAPITGENIRPFISRCAVCEAPAMVMAVHSQTIQIPPCPSGWSSLWIGYSFVMHTSAGAEGSGQALASPGSCLEEFRSAPFIECHGRGTCNYYANAYSFWLATIERSEMFKKPTPSTLKAGELRTHVSRCQVCMRRT",
+        "full_sequence": "MGPRLSVWLLLLPAALLLHEEHSRAAAKGGCAGSGCGKCDCHGVKGQKGERGLPGLQGVIGFPGMQGPEGPQGPPGQKGDTGEPGLPGTKGTRGPPGASGYPGNPGLPGIPGQDGPPGPPGIPGCNGTKGERGPLGPPGLPGFAGNPGPPGLPGMKGDPGEILGHVPGMLLKGERGFPGIPGTPGPPGLPGLQGPVGPPGFTGPPGPPGPPGPPGEKGQMGLSFQGPKGDKGDQGVSGPPGVPGQAQVQEKGDFATKGEKGQKGEPGFQGMPGVGEKGEPGKPGPRGKPGKDGDKGEKGSPGFPGEPGYPGLIGRQGPQGEKGEAGPPGPPGIVIGTGPLGEKGERGYPGTPGPRGEPGPKGFPGLPGQPGPPGLPVPGQAGAPGFPGERGEKGDRGFPGTSLPGPSGRDGLPGPPGSPGPPGQPGYTNGIVECQPGPPGDQGPPGIPGQPGFIGEIGEKGQKGESCLICDIDGYRGPPGPQGPPGEIGFPGQPGAKGDRGLPGRDGVAGVPGPQGTPGLIGQPGAKGEPGEFYFDLRLKGDKGDPGFPGQPGMPGRAGSPGRDGHPGLPGPKGSPGSVGLKGERGPPGGVGFPGSRGDTGPPGPPGYGPAGPIGDKGQAGFPGGPGSPGLPGPKGEPGKIVPLPGPPGAEGLPGSPGFPGPQGDRGFPGTPGRPGLPGEKGAVGQPGIGFPGPPGPKGVDGLPGDMGPPGTPGRPGFNGLPGNPGVQGQKGEPGVGLPGLKGLPGLPGIPGTPGEKGSIGVPGVPGEHGAIGPPGLQGIRGEPGPPGLPGSVGSPGVPGIGPPGARGPPGGQGPPGLSGPPGIKGEKGFPGFPGLDMPGPKGDKGAQGLPGITGQSGLPGLPGQQGAPGIPGFPGSKGEMGVMGTPGQPGSPGPVGAPGLPGEKGDHGFPGSSGPRGDPGLKGDKGDVGLPGKPGSMDKVDMGSMKGQKGDQGEKGQIGPIGEKGSRGDPGTPGVPGKDGQAGQPGQPGPKGDPGISGTPGAPGLPGPKGSVGGMGLPGTPGEKGVPGIPGPQGSPGLPGDKGAKGEKGQAGPPGIGIPGLRGEKGDQGIAGFPGSPGEKGEKGSIGIPGMPGSPGLKGSPGSVGYPGSPGLPGEKGDKGLPGLDGIPGVKGEAGLPGTPGPTGPAGQKGEPGSDGIPGSAGEKGEPGLPGRGFPGFPGAKGDKGSKGEVGFPGLAGSPGIPGSKGEQGFMGPPGPQGQPGLPGSPGHATEGPKGDRGPQGQPGLPGLPGPMGPPGLPGIDGVKGDKGNPGWPGAPGVPGPKGDPGFQGMPGIGGSPGITGSKGDMGPPGVPGFQGPKGLPGLQGIKGDQGDQGVPGAKGLPGPPGPPGPYDIIKGEPGLPGPEGPPGLKGLQGLPGPKGQQGVTGLVGIPGPPGIPGFDGAPGQKGEMGPAGPTGPRGFPGPPGPDGLPGSMGPPGTPSVDHGFLVTRHSQTIDDPQCPSGTKILYHGYSLLYVQGNERAHGQDLGTAGSCLRKFSTMPFLFCNINNVCNFASRNDYSYWLSTPEPMPMSMAPITGENIRPFISRCAVCEAPAMVMAVHSQTIQIPPCPSGWSSLWIGYSFVMHTSAGAEGSGQALASPGSCLEEFRSAPFIECHGRGTCNYYANAYSFWLATIERSEMFKKPTPSTLKAGELRTHVSRCQVCMRRT",
+        "n_residues": 1669,
+        "mutation_pos_1indexed": 709,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "D706-M707-G708-P709-P710",
+        "pocket_lining_positions_precursor": [
+          706,
+          707,
+          708,
+          709,
+          710
+        ],
+        "pocket_lining_1letter": "DMGPP",
+        "sequence_slice_around_pocket": "GVDGLPGDMGPPGTPGRPGF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A1_P709L/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "D706",
+          "M707",
+          "G708",
+          "P709",
+          "P710"
+        ],
+        "values": [
+          [
+            0.0,
+            3.828,
+            6.177,
+            9.506,
+            12.397
+          ],
+          [
+            3.828,
+            0.0,
+            3.838,
+            6.647,
+            8.914
+          ],
+          [
+            6.177,
+            3.838,
+            0.0,
+            3.868,
+            6.736
+          ],
+          [
+            9.506,
+            6.647,
+            3.868,
+            0.0,
+            3.889
+          ],
+          [
+            12.397,
+            8.914,
+            6.736,
+            3.889,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CCCCC1",
+        "composite_score": 0.7950289214925237,
+        "mw": 219.17,
+        "logp": 1.963,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8415,
+        "sa_score": 2.19,
+        "n_heavy_atoms": 16,
+        "tpsa": 42.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COL4A1-P709L Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.795,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A1_P709L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A1_P709L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A1_P709L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A1_P709L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A1_P709L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL4A1-P709L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL4A1-P709L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:15:28.927672+00:00"
     }
   ]
 }
