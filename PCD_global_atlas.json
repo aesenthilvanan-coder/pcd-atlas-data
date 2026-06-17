@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 806,
+  "total_entries": 807,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45321,
-    "queue_remaining": 133276
+    "total_processed": 45322,
+    "queue_remaining": 133275
   },
   "entries": [
     {
@@ -177193,6 +177193,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T14:25:34.701922+00:00"
+    },
+    {
+      "entry_id": "PCD-VDR-V297I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VDR-V297I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "VDR",
+        "uniprot": "",
+        "clinvar_id": "308882",
+        "disease": "Vitamin D-dependent rickets type II with alopecia",
+        "mutation_precursor": "V297I",
+        "mutation_mature": "V297I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9038827494863305,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 364.2846544091372,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          8.799015045166016,
+          -14.258082389831543,
+          -18.11931037902832
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.943163089486096,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6165871449915522,
+        "cryptic": true,
+        "pocket_residues": {
+          "D283": "D",
+          "M284": "M",
+          "S285": "S",
+          "W286": "W",
+          "T287": "T",
+          "K294": "K",
+          "Y295": "Y",
+          "R296": "R",
+          "V297": "V",
+          "S298": "S",
+          "D299": "D"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P11473|VDR variant V297I",
+        "fasta_sequence": "MEAMAASTSLPDPGDFDRNVPRICGVCGDRATGFHFNAMTCEGCKGFFRRSMKRKALFTCPFNGDCRITKDNRRHCQACRLKRCVDIGMMKEFILTDEEVQRKREMILKRKEEEALKDSLRPKLSEEQQRIIAILLDAHHKTYDPTYSDFCQFRPPVRVNDGGGSHPSRPNSRHTPSFSGDSSSSCSDHCITSSDMMDSSSFSNLDLSEEDSDDPSVTLELSQLSMLPHLADLVSYSIQKVIGFAKMIPGFRDLTSEDQIVLLKSSAIEVIMLRSNESFTMDDMSWTCGNQDYKYRVSDVTKAGHSLELIEPLIKFQVGLKKLNLHEEEHVLLMAICIVSPDRPGVQDAALIEAIQDRLSNTLQTYIRCRHPPPGSHLLYAKMIQKLADLRSLNEEHSKQYRCLSFQPECSMKLTPLVLEVFGNEIS",
+        "full_sequence": "MEAMAASTSLPDPGDFDRNVPRICGVCGDRATGFHFNAMTCEGCKGFFRRSMKRKALFTCPFNGDCRITKDNRRHCQACRLKRCVDIGMMKEFILTDEEVQRKREMILKRKEEEALKDSLRPKLSEEQQRIIAILLDAHHKTYDPTYSDFCQFRPPVRVNDGGGSHPSRPNSRHTPSFSGDSSSSCSDHCITSSDMMDSSSFSNLDLSEEDSDDPSVTLELSQLSMLPHLADLVSYSIQKVIGFAKMIPGFRDLTSEDQIVLLKSSAIEVIMLRSNESFTMDDMSWTCGNQDYKYRVSDVTKAGHSLELIEPLIKFQVGLKKLNLHEEEHVLLMAICIVSPDRPGVQDAALIEAIQDRLSNTLQTYIRCRHPPPGSHLLYAKMIQKLADLRSLNEEHSKQYRCLSFQPECSMKLTPLVLEVFGNEIS",
+        "n_residues": 427,
+        "mutation_pos_1indexed": 297,
+        "wt_aa": "V",
+        "mut_aa": "I",
+        "pocket_lining_residues": "D283-M284-S285-W286-T287-K294-Y295-R296-V297-S298-D299",
+        "pocket_lining_positions_precursor": [
+          283,
+          284,
+          285,
+          286,
+          287,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299
+        ],
+        "pocket_lining_1letter": "DMSWTKYRVSD",
+        "sequence_slice_around_pocket": "TCGNQDYKYRVSDVTKAGHS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/VDR_V297I/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "D283",
+          "M284",
+          "S285",
+          "W286",
+          "T287",
+          "K294",
+          "Y295",
+          "R296",
+          "V297",
+          "S298",
+          "D299"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            5.582,
+            9.028,
+            10.532,
+            10.754,
+            10.36,
+            8.226,
+            9.614,
+            11.975,
+            13.37
+          ],
+          [
+            3.859,
+            0.0,
+            3.841,
+            7.228,
+            9.976,
+            10.634,
+            9.176,
+            7.197,
+            7.698,
+            10.981,
+            12.075
+          ],
+          [
+            5.582,
+            3.841,
+            0.0,
+            3.829,
+            6.534,
+            6.924,
+            5.638,
+            4.916,
+            7.002,
+            9.851,
+            9.794
+          ],
+          [
+            9.028,
+            7.228,
+            3.829,
+            0.0,
+            3.833,
+            5.693,
+            5.062,
+            6.833,
+            9.239,
+            11.799,
+            10.457
+          ],
+          [
+            10.532,
+            9.976,
+            6.534,
+            3.833,
+            0.0,
+            4.375,
+            6.374,
+            8.946,
+            12.159,
+            13.993,
+            12.258
+          ],
+          [
+            10.754,
+            10.634,
+            6.924,
+            5.693,
+            4.375,
+            0.0,
+            3.832,
+            6.613,
+            10.287,
+            11.005,
+            9.029
+          ],
+          [
+            10.36,
+            9.176,
+            5.638,
+            5.062,
+            6.374,
+            3.832,
+            0.0,
+            3.827,
+            6.921,
+            7.982,
+            5.887
+          ],
+          [
+            8.226,
+            7.197,
+            4.916,
+            6.833,
+            8.946,
+            6.613,
+            3.827,
+            0.0,
+            3.833,
+            5.244,
+            5.227
+          ],
+          [
+            9.614,
+            7.698,
+            7.002,
+            9.239,
+            12.159,
+            10.287,
+            6.921,
+            3.833,
+            0.0,
+            3.857,
+            5.482
+          ],
+          [
+            11.975,
+            10.981,
+            9.851,
+            11.799,
+            13.993,
+            11.005,
+            7.982,
+            5.244,
+            3.857,
+            0.0,
+            3.842
+          ],
+          [
+            13.37,
+            12.075,
+            9.794,
+            10.457,
+            12.258,
+            9.029,
+            5.887,
+            5.227,
+            5.482,
+            3.842,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.9078961505851532,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "VDR-V297I Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9079,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/VDR_V297I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/VDR_V297I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/VDR_V297I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/VDR_V297I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/VDR_V297I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VDR-V297I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VDR-V297I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T14:25:59.098486+00:00"
     }
   ]
 }
