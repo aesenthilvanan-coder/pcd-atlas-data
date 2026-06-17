@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 81,
+  "total_entries": 82,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44480,
-    "queue_remaining": 134117
+    "total_processed": 44481,
+    "queue_remaining": 134116
   },
   "entries": [
     {
@@ -18466,6 +18466,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:47:24.572339+00:00"
+    },
+    {
+      "entry_id": "PCD-CNGB3-G15R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CNGB3-G15R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CNGB3",
+        "uniprot": "",
+        "clinvar_id": "363888",
+        "disease": "Achromatopsia 3",
+        "mutation_precursor": "G15R",
+        "mutation_mature": "G15R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7309754329997207,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 646.1500830098834,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.029601097106934,
+          41.42359161376953,
+          -38.39241027832031
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.5753960534906115,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7689053005058325,
+        "cryptic": true,
+        "pocket_residues": {
+          "I14": "I",
+          "G15": "G",
+          "E16": "E",
+          "N17": "N"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NQW8|CNGB3 variant G15R",
+        "fasta_sequence": "MFKSLTKVNKVKPIGENNENEQSSRRNEEGSHPSNQSQQTTAQEENKGEEKSLKTKSTPVTSEEPHTNIQDKLSKKNSSGDLTTNPDPQNAAEPTGTVPEQKEMDPGKEGPNSPQNKPPAAPVINEYADAQLHNLVKRMRQRTALYKKKLVEGDLSSPEASPQTAKPTAVPPVKESDDKPTEHYYRLLWFKVKKMPLTEYLKRIKLPNSIDSYTDRLYLLWLLLVTLAYNWNCCFIPLRLVFPYQTADNIHYWLIADIICDIIYLYDMLFIQPRLQFVRGGDIIVDSNELRKHYRTSTKFQLDVASIIPFDICYLFFGFNPMFRANRMLKYTSFFEFNHHLESIMDKAYIYRVIRTTGYLLFILHINACVYYWASNYEGIGTTRWVYDGEGNEYLRCYYWAVRTLITIGGLPEPQTLFEIVFQLLNFFSGVFVFSSLIGQMRDVIGAATANQNYFRACMDDTIAYMNNYSIPKLVQKRVRTWYEYTWDSQRMLDESDLLKTLPTTVQLALAIDVNFSIISKVDLFKGCDTQMIYDMLLRLKSVLYLPGDFVCKKGEIGKEMYIIKHGEVQVLGGPDGTKVLVTLKAGSVFGEISLLAAGGGNRRTANVVAHGFANLLTLDKKTLQEILVHYPDSERILMKKARVLLKQKAKTAEATPPRKDLALLFPPKEETPKLFKTLLGGTGKASLARLLKLKREQAAQKKENSEGGEEEGKENEDKQKENEDKQKENEDKGKENEDKDKGREPEEKPLDRPECTASPIAVEEEPHSVRRTVLPRGTSRQSLIISMAPSAEGGEEVLTIEVKEKAKQ",
+        "full_sequence": "MFKSLTKVNKVKPIGENNENEQSSRRNEEGSHPSNQSQQTTAQEENKGEEKSLKTKSTPVTSEEPHTNIQDKLSKKNSSGDLTTNPDPQNAAEPTGTVPEQKEMDPGKEGPNSPQNKPPAAPVINEYADAQLHNLVKRMRQRTALYKKKLVEGDLSSPEASPQTAKPTAVPPVKESDDKPTEHYYRLLWFKVKKMPLTEYLKRIKLPNSIDSYTDRLYLLWLLLVTLAYNWNCCFIPLRLVFPYQTADNIHYWLIADIICDIIYLYDMLFIQPRLQFVRGGDIIVDSNELRKHYRTSTKFQLDVASIIPFDICYLFFGFNPMFRANRMLKYTSFFEFNHHLESIMDKAYIYRVIRTTGYLLFILHINACVYYWASNYEGIGTTRWVYDGEGNEYLRCYYWAVRTLITIGGLPEPQTLFEIVFQLLNFFSGVFVFSSLIGQMRDVIGAATANQNYFRACMDDTIAYMNNYSIPKLVQKRVRTWYEYTWDSQRMLDESDLLKTLPTTVQLALAIDVNFSIISKVDLFKGCDTQMIYDMLLRLKSVLYLPGDFVCKKGEIGKEMYIIKHGEVQVLGGPDGTKVLVTLKAGSVFGEISLLAAGGGNRRTANVVAHGFANLLTLDKKTLQEILVHYPDSERILMKKARVLLKQKAKTAEATPPRKDLALLFPPKEETPKLFKTLLGGTGKASLARLLKLKREQAAQKKENSEGGEEEGKENEDKQKENEDKQKENEDKGKENEDKDKGREPEEKPLDRPECTASPIAVEEEPHSVRRTVLPRGTSRQSLIISMAPSAEGGEEVLTIEVKEKAKQ",
+        "n_residues": 809,
+        "mutation_pos_1indexed": 15,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "I14-G15-E16-N17",
+        "pocket_lining_positions_precursor": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "pocket_lining_1letter": "IGEN",
+        "sequence_slice_around_pocket": "LTKVNKVKPIGENNENEQSS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB3_G15R/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "I14",
+          "G15",
+          "E16",
+          "N17"
+        ],
+        "values": [
+          [
+            0.0,
+            3.175,
+            7.01,
+            9.928
+          ],
+          [
+            3.175,
+            0.0,
+            3.855,
+            6.902
+          ],
+          [
+            7.01,
+            3.855,
+            0.0,
+            3.715
+          ],
+          [
+            9.928,
+            6.902,
+            3.715,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)c1ccc(OC)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.6678065108796226,
+        "mw": 359.22,
+        "logp": 2.079,
+        "hbd": 1,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.7849,
+        "sa_score": 3.21,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CNGB3-G15R Candidate #1",
+        "iupac_name": "CNCC(=O)c1ccc(OC)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.6678,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB3_G15R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB3_G15R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB3_G15R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB3_G15R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB3_G15R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CNGB3-G15R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CNGB3-G15R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:47:50.869778+00:00"
     }
   ]
 }
