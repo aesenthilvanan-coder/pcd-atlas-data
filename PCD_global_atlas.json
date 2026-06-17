@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1340,
+  "total_entries": 1341,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45958,
-    "queue_remaining": 132639
+    "total_processed": 45960,
+    "queue_remaining": 132637
   },
   "entries": [
     {
@@ -296268,6 +296268,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:29:26.411458+00:00"
+    },
+    {
+      "entry_id": "PCD-MYH14-E1681K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYH14-E1681K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MYH14",
+        "uniprot": "",
+        "clinvar_id": "329946",
+        "disease": "Autosomal dominant nonsyndromic hearing loss 4A",
+        "mutation_precursor": "E1681K",
+        "mutation_mature": "E1681K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8207401848625664,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 356.00363742546926,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          39.29472351074219,
+          51.884910583496094,
+          -39.339385986328125
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.5077443393398204,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6663381324956986,
+        "cryptic": true,
+        "pocket_residues": {
+          "E1677": "E",
+          "V1678": "V",
+          "E1679": "E",
+          "E1680": "E",
+          "T1681": "T",
+          "R1682": "R",
+          "T1683": "T",
+          "S1684": "S",
+          "R1685": "R",
+          "E1686": "E"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q7Z406|MYH14 variant E1681K",
+        "fasta_sequence": "MAAVTMSVPGRKAPPRPGPVPEAAQPFLFTPRGPSAGGGPGSGTSPQVEWTARRLVWVPSELHGFEAAALRDEGEEEAEVELAESGRRLRLPRDQIQRMNPPKFSKAEDMAELTCLNEASVLHNLRERYYSGLIYTYSGLFCVVINPYKQLPIYTEAIVEMYRGKKRHEVPPHVYAVTEGAYRSMLQDREDQSILCTGESGAGKTENTKKVIQYLAHVASSPKGRKEPGVPGELERQLLQANPILEAFGNAKTVKNDNSSRFGKFIRINFDVAGYIVGANIETYLLEKSRAIRQAKDECSFHIFYQLLGGAGEQLKADLLLEPCSHYRFLTNGPSSSPGQERELFQETLESLRVLGFSHEEIISMLRMVSAVLQFGNIALKRERNTDQATMPDNTAAQKLCRLLGLGVTDFSRALLTPRIKVGRDYVQKAQTKEQADFALEALAKATYERLFRWLVLRLNRALDRSPRQGASFLGILDIAGFEIFQLNSFEQLCINYTNEKLQQLFNHTMFVLEQEEYQREGIPWTFLDFGLDLQPCIDLIERPANPPGLLALLDEECWFPKATDKSFVEKVAQEQGGHPKFQRPRHLRDQADFSVLHYAGKVDYKANEWLMKNMDPLNDNVAALLHQSTDRLTAEIWKDVEGIVGLEQVSSLGDGPPGGRPRRGMFRTVGQLYKESLSRLMATLSNTNPSFVRCIVPNHEKRAGKLEPRLVLDQLRCNGVLEGIRICRQGFPNRILFQEFRQRYEILTPNAIPKGFMDGKQACEKMIQALELDPNLYRVGQSKIFFRAGVLAQLEEERDLKVTDIIVSFQAAARGYLARRAFQKRQQQQSALRVMQRNCAAYLKLRHWQWWRLFTKVKPLLQVTRQDEVLQARAQELQKVQELQQQSAREVGELQGRVAQLEEERARLAEQLRAEAELCAEAEETRGRLAARKQELELVVSELEARVGEEEECSRQMQTEKKRLQQHIQELEAHLEAEEGARQKLQLEKVTTEAKMKKFEEDLLLLEDQNSKLSKERKLLEDRLAEFSSQAAEEEEKVKSLNKLRLKYEATIADMEDRLRKEEKGRQELEKLKRRLDGESSELQEQMVEQQQRAEELRAQLGRKEEELQAALARAEDEGGARAQLLKSLREAQAALAEAQEDLESERVARTKAEKQRRDLGEELEALRGELEDTLDSTNAQQELRSKREQEVTELKKTLEEETRIHEAAVQELRQRHGQALGELAEQLEQARRGKGAWEKTRLALEAEVSELRAELSSLQTARQEGEQRRRRLELQLQEVQGRAGDGERARAEAAEKLQRAQAELENVSGALNEAESKTIRLSKELSSTEAQLHDAQELLQEETRAKLALGSRVRAMEAEAAGLREQLEEEAAARERAGRELQTAQAQLSEWRRRQEEEAGALEAGEEARRRAAREAEALTQRLAEKTETVDRLERGRRRLQQELDDATMDLEQQRQLVSTLEKKQRKFDQLLAEEKAAVLRAVEERERAEAEGREREARALSLTRALEEEQEAREELERQNRALRAELEALLSSKDDVGKSVHELERACRVAEQAANDLRAQVTELEDELTAAEDAKLRLEVTVQALKTQHERDLQGRDEAGEERRRQLAKQLRDAEVERDEERKQRTLAVAARKKLEGELEELKAQMASAGQGKEEAVKQLRKMQAQMKELWREVEETRTSREEIFSQNRESEKRLKGLEAEVLRLQEELAASDRARRQAQQDRDEMADEVANGNLSKAAILEEKRQLEGRLGQLEEELEEEQSNSELLNDRYRKLLLQVESLTTELSAERSFSAKAESGRQQLERQIQELRGRLGEEDAGARARHKMTIAALESKLAQAEEQLEQETRERILSGKLVRRAEKRLKEVVLQVEEERRVADQLRDQLEKGNLRVKQLKRQLEEAEEEASRAQAGRRRLQRELEDVTESAESMNREVTTLRNRLRRGPLTFTTRTVRQVFRLEEGVASDEEAEEAQPGSGPSPEPEGSPPAHPQ",
+        "full_sequence": "MAAVTMSVPGRKAPPRPGPVPEAAQPFLFTPRGPSAGGGPGSGTSPQVEWTARRLVWVPSELHGFEAAALRDEGEEEAEVELAESGRRLRLPRDQIQRMNPPKFSKAEDMAELTCLNEASVLHNLRERYYSGLIYTYSGLFCVVINPYKQLPIYTEAIVEMYRGKKRHEVPPHVYAVTEGAYRSMLQDREDQSILCTGESGAGKTENTKKVIQYLAHVASSPKGRKEPGVPGELERQLLQANPILEAFGNAKTVKNDNSSRFGKFIRINFDVAGYIVGANIETYLLEKSRAIRQAKDECSFHIFYQLLGGAGEQLKADLLLEPCSHYRFLTNGPSSSPGQERELFQETLESLRVLGFSHEEIISMLRMVSAVLQFGNIALKRERNTDQATMPDNTAAQKLCRLLGLGVTDFSRALLTPRIKVGRDYVQKAQTKEQADFALEALAKATYERLFRWLVLRLNRALDRSPRQGASFLGILDIAGFEIFQLNSFEQLCINYTNEKLQQLFNHTMFVLEQEEYQREGIPWTFLDFGLDLQPCIDLIERPANPPGLLALLDEECWFPKATDKSFVEKVAQEQGGHPKFQRPRHLRDQADFSVLHYAGKVDYKANEWLMKNMDPLNDNVAALLHQSTDRLTAEIWKDVEGIVGLEQVSSLGDGPPGGRPRRGMFRTVGQLYKESLSRLMATLSNTNPSFVRCIVPNHEKRAGKLEPRLVLDQLRCNGVLEGIRICRQGFPNRILFQEFRQRYEILTPNAIPKGFMDGKQACEKMIQALELDPNLYRVGQSKIFFRAGVLAQLEEERDLKVTDIIVSFQAAARGYLARRAFQKRQQQQSALRVMQRNCAAYLKLRHWQWWRLFTKVKPLLQVTRQDEVLQARAQELQKVQELQQQSAREVGELQGRVAQLEEERARLAEQLRAEAELCAEAEETRGRLAARKQELELVVSELEARVGEEEECSRQMQTEKKRLQQHIQELEAHLEAEEGARQKLQLEKVTTEAKMKKFEEDLLLLEDQNSKLSKERKLLEDRLAEFSSQAAEEEEKVKSLNKLRLKYEATIADMEDRLRKEEKGRQELEKLKRRLDGESSELQEQMVEQQQRAEELRAQLGRKEEELQAALARAEDEGGARAQLLKSLREAQAALAEAQEDLESERVARTKAEKQRRDLGEELEALRGELEDTLDSTNAQQELRSKREQEVTELKKTLEEETRIHEAAVQELRQRHGQALGELAEQLEQARRGKGAWEKTRLALEAEVSELRAELSSLQTARQEGEQRRRRLELQLQEVQGRAGDGERARAEAAEKLQRAQAELENVSGALNEAESKTIRLSKELSSTEAQLHDAQELLQEETRAKLALGSRVRAMEAEAAGLREQLEEEAAARERAGRELQTAQAQLSEWRRRQEEEAGALEAGEEARRRAAREAEALTQRLAEKTETVDRLERGRRRLQQELDDATMDLEQQRQLVSTLEKKQRKFDQLLAEEKAAVLRAVEERERAEAEGREREARALSLTRALEEEQEAREELERQNRALRAELEALLSSKDDVGKSVHELERACRVAEQAANDLRAQVTELEDELTAAEDAKLRLEVTVQALKTQHERDLQGRDEAGEERRRQLAKQLRDAEVERDEERKQRTLAVAARKKLEGELEELKAQMASAGQGKEEAVKQLRKMQAQMKELWREVEETRTSREEIFSQNRESEKRLKGLEAEVLRLQEELAASDRARRQAQQDRDEMADEVANGNLSKAAILEEKRQLEGRLGQLEEELEEEQSNSELLNDRYRKLLLQVESLTTELSAERSFSAKAESGRQQLERQIQELRGRLGEEDAGARARHKMTIAALESKLAQAEEQLEQETRERILSGKLVRRAEKRLKEVVLQVEEERRVADQLRDQLEKGNLRVKQLKRQLEEAEEEASRAQAGRRRLQRELEDVTESAESMNREVTTLRNRLRRGPLTFTTRTVRQVFRLEEGVASDEEAEEAQPGSGPSPEPEGSPPAHPQ",
+        "n_residues": 1995,
+        "mutation_pos_1indexed": 1681,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "E1677-V1678-E1679-E1680-T1681-R1682-T1683-S1684-R1685-E1686",
+        "pocket_lining_positions_precursor": [
+          1677,
+          1678,
+          1679,
+          1680,
+          1681,
+          1682,
+          1683,
+          1684,
+          1685,
+          1686
+        ],
+        "pocket_lining_1letter": "EVEETRTSRE",
+        "sequence_slice_around_pocket": "MKELWREVEETRTSREEIFS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MYH14_E1681K/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "E1677",
+          "V1678",
+          "E1679",
+          "E1680",
+          "T1681",
+          "R1682",
+          "T1683",
+          "S1684",
+          "R1685",
+          "E1686"
+        ],
+        "values": [
+          [
+            0.0,
+            3.873,
+            5.521,
+            5.035,
+            5.848,
+            8.256,
+            9.747,
+            10.172,
+            11.741,
+            13.857
+          ],
+          [
+            3.873,
+            0.0,
+            3.854,
+            5.564,
+            5.212,
+            6.038,
+            8.687,
+            9.932,
+            10.345,
+            12.156
+          ],
+          [
+            5.521,
+            3.854,
+            0.0,
+            3.904,
+            5.69,
+            4.993,
+            6.148,
+            8.565,
+            9.657,
+            10.357
+          ],
+          [
+            5.035,
+            5.564,
+            3.904,
+            0.0,
+            3.865,
+            5.161,
+            5.0,
+            5.85,
+            8.177,
+            9.543
+          ],
+          [
+            5.848,
+            5.212,
+            5.69,
+            3.865,
+            0.0,
+            3.842,
+            5.774,
+            5.22,
+            5.957,
+            8.626
+          ],
+          [
+            8.256,
+            6.038,
+            4.993,
+            5.161,
+            3.842,
+            0.0,
+            3.861,
+            5.485,
+            4.947,
+            6.135
+          ],
+          [
+            9.747,
+            8.687,
+            6.148,
+            5.0,
+            5.774,
+            3.861,
+            0.0,
+            3.854,
+            5.346,
+            4.925
+          ],
+          [
+            10.172,
+            9.932,
+            8.565,
+            5.85,
+            5.22,
+            5.485,
+            3.854,
+            0.0,
+            3.869,
+            5.475
+          ],
+          [
+            11.741,
+            10.345,
+            9.657,
+            8.177,
+            5.957,
+            4.947,
+            5.346,
+            3.869,
+            0.0,
+            3.859
+          ],
+          [
+            13.857,
+            12.156,
+            10.357,
+            9.543,
+            8.626,
+            6.135,
+            4.925,
+            5.475,
+            3.859,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7183708002102283,
+        "mw": 274.22,
+        "logp": 2.343,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.9187,
+        "sa_score": 3.06,
+        "n_heavy_atoms": 20,
+        "tpsa": 45.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MYH14-E1681K Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7184,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MYH14_E1681K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MYH14_E1681K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MYH14_E1681K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MYH14_E1681K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MYH14_E1681K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYH14-E1681K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYH14-E1681K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:31:08.728044+00:00"
     }
   ]
 }
