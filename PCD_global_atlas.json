@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 263,
+  "total_entries": 264,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44691,
-    "queue_remaining": 133906
+    "total_processed": 44692,
+    "queue_remaining": 133905
   },
   "entries": [
     {
@@ -58431,6 +58431,253 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:57:59.352549+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC6A5-F676V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC6A5-F676V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC6A5",
+        "uniprot": "",
+        "clinvar_id": "304031",
+        "disease": "Hyperekplexia 3",
+        "mutation_precursor": "F676V",
+        "mutation_mature": "F676V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8590691236610493,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 571.8283055393653,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -6.880475997924805,
+          18.117679595947266,
+          13.046525955200195
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.783165650666605,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6066903981073819,
+        "cryptic": true,
+        "pocket_residues": {
+          "A238": "A",
+          "L239": "L",
+          "L242": "L",
+          "P243": "P",
+          "F676": "F",
+          "W677": "W",
+          "K678": "K",
+          "V679": "V",
+          "C680": "C",
+          "W681": "W"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y345|SLC6A5 variant F676V",
+        "fasta_sequence": "MDCSAPKEMNKLPANSPEAAAAQGHPDGPCAPRTSPEQELPAAAAPPPPRVPRSASTGAQTFQSADARACEAERPGVGSCKLSSPRAQAASAALRDLREAQGAQASPPPGSSGPGNALHCKIPFLRGPEGDANVSVGKGTLERNNTPVVGWVNMSQSTVVLATDGITSVLPGSVATVATQEDEQGDENKARGNWSSKLDFILSMVGYAVGLGNVWRFPYLAFQNGGGAFLIPYLMMLALAGLPIFFLEVSLGQFASQGPVSVWKAIPALQGCGIAMLIISVLIAIYYNVIICYTLFYLFASFVSVLPWGSCNNPWNTPECKDKTKLLLDSCVISDHPKIQIKNSTFCMTAYPNVTMVNFTSQANKTFVSGSEEYFKYFVLKISAGIEYPGEIRWPLALCLFLAWVIVYASLAKGIKTSGKVVYFTATFPYVVLVILLIRGVTLPGAGAGIWYFITPKWEKLTDATVWKDAATQIFFSLSAAWGGLITLSSYNKFHNNCYRDTLIVTCTNSATSIFAGFVIFSVIGFMANERKVNIENVADQGPGIAFVVYPEALTRLPLSPFWAIIFFLMLLTLGLDTMFATIETIVTSISDEFPKYLRTHKPVFTLGCCICFFIMGFPMITQGGIYMFQLVDTYAASYALVIIAIFELVGISYVYGLQRFCEDIEMMIGFQPNIFWKVCWAFVTPTILTFILCFSFYQWEPMTYGSYRYPNWSMVLGWLMLACSVIWIPIMFVIKMHLAPGRFIERLKLVCSPQPDWGPFLAQHRGERYKNMIDPLGTSSLGLKLPVKDLELGTQC",
+        "full_sequence": "MDCSAPKEMNKLPANSPEAAAAQGHPDGPCAPRTSPEQELPAAAAPPPPRVPRSASTGAQTFQSADARACEAERPGVGSCKLSSPRAQAASAALRDLREAQGAQASPPPGSSGPGNALHCKIPFLRGPEGDANVSVGKGTLERNNTPVVGWVNMSQSTVVLATDGITSVLPGSVATVATQEDEQGDENKARGNWSSKLDFILSMVGYAVGLGNVWRFPYLAFQNGGGAFLIPYLMMLALAGLPIFFLEVSLGQFASQGPVSVWKAIPALQGCGIAMLIISVLIAIYYNVIICYTLFYLFASFVSVLPWGSCNNPWNTPECKDKTKLLLDSCVISDHPKIQIKNSTFCMTAYPNVTMVNFTSQANKTFVSGSEEYFKYFVLKISAGIEYPGEIRWPLALCLFLAWVIVYASLAKGIKTSGKVVYFTATFPYVVLVILLIRGVTLPGAGAGIWYFITPKWEKLTDATVWKDAATQIFFSLSAAWGGLITLSSYNKFHNNCYRDTLIVTCTNSATSIFAGFVIFSVIGFMANERKVNIENVADQGPGIAFVVYPEALTRLPLSPFWAIIFFLMLLTLGLDTMFATIETIVTSISDEFPKYLRTHKPVFTLGCCICFFIMGFPMITQGGIYMFQLVDTYAASYALVIIAIFELVGISYVYGLQRFCEDIEMMIGFQPNIFWKVCWAFVTPTILTFILCFSFYQWEPMTYGSYRYPNWSMVLGWLMLACSVIWIPIMFVIKMHLAPGRFIERLKLVCSPQPDWGPFLAQHRGERYKNMIDPLGTSSLGLKLPVKDLELGTQC",
+        "n_residues": 797,
+        "mutation_pos_1indexed": 676,
+        "wt_aa": "F",
+        "mut_aa": "V",
+        "pocket_lining_residues": "A238-L239-L242-P243-F676-W677-K678-V679-C680-W681",
+        "pocket_lining_positions_precursor": [
+          238,
+          239,
+          242,
+          243,
+          676,
+          677,
+          678,
+          679,
+          680,
+          681
+        ],
+        "pocket_lining_1letter": "ALLPFWKVCW",
+        "sequence_slice_around_pocket": "EMMIGFQPNIFWKVCWAFVT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A5_F676V/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "A238",
+          "L239",
+          "L242",
+          "P243",
+          "F676",
+          "W677",
+          "K678",
+          "V679",
+          "C680",
+          "W681"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            5.576,
+            7.473,
+            10.272,
+            10.291,
+            13.506,
+            12.307,
+            9.331,
+            11.972
+          ],
+          [
+            3.859,
+            0.0,
+            6.838,
+            6.734,
+            9.402,
+            9.253,
+            11.644,
+            9.79,
+            6.523,
+            9.279
+          ],
+          [
+            5.576,
+            6.838,
+            0.0,
+            3.89,
+            11.024,
+            9.089,
+            12.457,
+            12.749,
+            9.452,
+            10.362
+          ],
+          [
+            7.473,
+            6.734,
+            3.89,
+            0.0,
+            9.198,
+            6.432,
+            9.178,
+            9.749,
+            6.467,
+            6.578
+          ],
+          [
+            10.272,
+            9.402,
+            11.024,
+            9.198,
+            0.0,
+            3.864,
+            5.518,
+            5.177,
+            6.087,
+            8.679
+          ],
+          [
+            10.291,
+            9.253,
+            9.089,
+            6.432,
+            3.864,
+            0.0,
+            3.852,
+            5.478,
+            5.051,
+            6.089
+          ],
+          [
+            13.506,
+            11.644,
+            12.457,
+            9.178,
+            5.518,
+            3.852,
+            0.0,
+            3.881,
+            5.62,
+            5.474
+          ],
+          [
+            12.307,
+            9.79,
+            12.749,
+            9.749,
+            5.177,
+            5.478,
+            3.881,
+            0.0,
+            3.854,
+            5.679
+          ],
+          [
+            9.331,
+            6.523,
+            9.452,
+            6.467,
+            6.087,
+            5.051,
+            5.62,
+            3.854,
+            0.0,
+            3.843
+          ],
+          [
+            11.972,
+            9.279,
+            10.362,
+            6.578,
+            8.679,
+            6.089,
+            5.474,
+            5.679,
+            3.843,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CC(=O)CCC1OCNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.6632978632184379,
+        "mw": 402.11,
+        "logp": 1.733,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.711,
+        "sa_score": 3.35,
+        "n_heavy_atoms": 28,
+        "tpsa": 114.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC6A5-F676V Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CC(=O)CCC1OCNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.6633,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A5_F676V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A5_F676V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A5_F676V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A5_F676V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC6A5_F676V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC6A5-F676V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC6A5-F676V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:58:26.060744+00:00"
     }
   ]
 }
