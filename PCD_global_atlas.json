@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1045,
+  "total_entries": 1046,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45624,
-    "queue_remaining": 132973
+    "total_processed": 45628,
+    "queue_remaining": 132969
   },
   "entries": [
     {
@@ -230303,6 +230303,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:03:58.834219+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC7A7-R355Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC7A7-R355Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC7A7",
+        "uniprot": "",
+        "clinvar_id": "312818",
+        "disease": "Lysinuric protein intolerance",
+        "mutation_precursor": "R355Q",
+        "mutation_mature": "R355Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8917376534351635,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 308.5219917386652,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          23.48497200012207,
+          -15.416426658630371,
+          -3.213571071624756
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.4579285037546867,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8387799569906941,
+        "cryptic": true,
+        "pocket_residues": {
+          "C174": "C",
+          "A175": "A",
+          "Y176": "Y",
+          "H352": "H",
+          "V353": "V",
+          "E354": "E",
+          "R355": "R",
+          "F356": "F",
+          "T357": "T",
+          "V359": "V"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UM01|SLC7A7 variant R355Q",
+        "fasta_sequence": "MVDSTEYEVASQPEVETSPLGDGASPGPEQVKLKKEISLLNGVCLIVGNMIGSGIFVSPKGVLIYSASFGLSLVIWAVGGLFSVFGALCYAELGTTIKKSGASYAYILEAFGGFLAFIRLWTSLLIIEPTSQAIIAITFANYMVQPLFPSCFAPYAASRLLAAACICLLTFINCAYVKWGTLVQDIFTYAKVLALIAVIVAGIVRLGQGASTHFENSFEGSSFAVGDIALALYSALFSYSGWDTLNYVTEEIKNPERNLPLSIGISMPIVTIIYILTNVAYYTVLDMRDILASDAVAVTFADQIFGIFNWIIPLSVALSCFGGLNASIVAASRLFFVGSREGHLPDAICMIHVERFTPVPSLLFNGIMALIYLCVEDIFQLINYYSFSYWFFVGLSIVGQLYLRWKEPDRPRPLKLSVFFPIVFCLCTIFLVAVPLYSDTINSLIGIAIALSGLPFYFLIIRVPEHKRPLYLRRIVGSATRYLQVLCMSVAAEMDLEDGGEMPKQRDPKSN",
+        "full_sequence": "MVDSTEYEVASQPEVETSPLGDGASPGPEQVKLKKEISLLNGVCLIVGNMIGSGIFVSPKGVLIYSASFGLSLVIWAVGGLFSVFGALCYAELGTTIKKSGASYAYILEAFGGFLAFIRLWTSLLIIEPTSQAIIAITFANYMVQPLFPSCFAPYAASRLLAAACICLLTFINCAYVKWGTLVQDIFTYAKVLALIAVIVAGIVRLGQGASTHFENSFEGSSFAVGDIALALYSALFSYSGWDTLNYVTEEIKNPERNLPLSIGISMPIVTIIYILTNVAYYTVLDMRDILASDAVAVTFADQIFGIFNWIIPLSVALSCFGGLNASIVAASRLFFVGSREGHLPDAICMIHVERFTPVPSLLFNGIMALIYLCVEDIFQLINYYSFSYWFFVGLSIVGQLYLRWKEPDRPRPLKLSVFFPIVFCLCTIFLVAVPLYSDTINSLIGIAIALSGLPFYFLIIRVPEHKRPLYLRRIVGSATRYLQVLCMSVAAEMDLEDGGEMPKQRDPKSN",
+        "n_residues": 511,
+        "mutation_pos_1indexed": 355,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "C174-A175-Y176-H352-V353-E354-R355-F356-T357-V359",
+        "pocket_lining_positions_precursor": [
+          174,
+          175,
+          176,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          359
+        ],
+        "pocket_lining_1letter": "CAYHVERFTV",
+        "sequence_slice_around_pocket": "PDAICMIHVERFTPVPSLLF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_R355Q/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "C174",
+          "A175",
+          "Y176",
+          "H352",
+          "V353",
+          "E354",
+          "R355",
+          "F356",
+          "T357",
+          "V359"
+        ],
+        "values": [
+          [
+            0.0,
+            3.867,
+            5.994,
+            8.739,
+            11.959,
+            11.275,
+            8.169,
+            9.393,
+            6.282,
+            5.364
+          ],
+          [
+            3.867,
+            0.0,
+            3.879,
+            9.762,
+            12.01,
+            10.119,
+            7.121,
+            9.667,
+            7.836,
+            8.632
+          ],
+          [
+            5.994,
+            3.879,
+            0.0,
+            11.12,
+            13.045,
+            10.843,
+            7.26,
+            9.112,
+            7.706,
+            10.471
+          ],
+          [
+            8.739,
+            9.762,
+            11.12,
+            0.0,
+            3.859,
+            5.835,
+            5.482,
+            5.066,
+            5.29,
+            6.291
+          ],
+          [
+            11.959,
+            12.01,
+            13.045,
+            3.859,
+            0.0,
+            3.853,
+            5.994,
+            5.931,
+            8.164,
+            10.141
+          ],
+          [
+            11.275,
+            10.119,
+            10.843,
+            5.835,
+            3.853,
+            0.0,
+            3.851,
+            5.889,
+            8.407,
+            11.279
+          ],
+          [
+            8.169,
+            7.121,
+            7.26,
+            5.482,
+            5.994,
+            3.851,
+            0.0,
+            3.839,
+            5.379,
+            9.135
+          ],
+          [
+            9.393,
+            9.667,
+            9.112,
+            5.066,
+            5.931,
+            5.889,
+            3.839,
+            0.0,
+            3.866,
+            8.778
+          ],
+          [
+            6.282,
+            7.836,
+            7.706,
+            5.29,
+            8.164,
+            8.407,
+            5.379,
+            3.866,
+            0.0,
+            5.589
+          ],
+          [
+            5.364,
+            8.632,
+            10.471,
+            6.291,
+            10.141,
+            11.279,
+            9.135,
+            8.778,
+            5.589,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)CCCc1c[nH]c2ccccc12",
+        "composite_score": 0.9064798264775623,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.09,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC7A7-R355Q Candidate #1",
+        "iupac_name": "NCC(=O)CCCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9065,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_R355Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_R355Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_R355Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_R355Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC7A7_R355Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC7A7-R355Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC7A7-R355Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:04:59.847333+00:00"
     }
   ]
 }
