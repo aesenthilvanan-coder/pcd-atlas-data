@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 607,
+  "total_entries": 608,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45096,
-    "queue_remaining": 133501
+    "total_processed": 45097,
+    "queue_remaining": 133500
   },
   "entries": [
     {
@@ -134248,6 +134248,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:46:26.895036+00:00"
+    },
+    {
+      "entry_id": "PCD-IGHMBP2-D301N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IGHMBP2-D301N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "IGHMBP2",
+        "uniprot": "",
+        "clinvar_id": "305838",
+        "disease": "Autosomal recessive distal spinal muscular atrophy 1",
+        "mutation_precursor": "D301N",
+        "mutation_mature": "D301N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8143098522607428,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 581.4261563260008,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -2.359813928604126,
+          -4.990006446838379,
+          33.36992645263672
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.057922869290927,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8717416909265439,
+        "cryptic": true,
+        "pocket_residues": {
+          "R56": "R",
+          "T57": "T",
+          "A294": "A",
+          "D295": "D",
+          "I296": "I",
+          "R297": "R",
+          "K298": "K",
+          "D299": "D",
+          "I300": "I",
+          "D301": "D",
+          "Q302": "Q"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P38935|IGHMBP2 variant D301N",
+        "fasta_sequence": "MASAAVESFVTKQLDLLELERDAEVEERRSWQENISLKELQSRGVCLLKLQVSSQRTGLYGRLLVTFEPRRYGSAAALPSNSFTSGDIVGLYDAANEGSQLATGILTRVTQKSVTVAFDESHDFQLSLDRENSYRLLKLANDVTYRRLKKALIALKKYHSGPASSLIEVLFGRSAPSPASEIHPLTFFNTCLDTSQKEAVLFALSQKELAIIHGPPGTGKTTTVVEIILQAVKQGLKVLCCAPSNIAVDNLVERLALCKQRILRLGHPARLLESIQQHSLDAVLARSDSAQIVADIRKDIDQVFVKNKKTQDKREKSNFRNEIKLLRKELKEREEAAMLESLTSANVVLATNTGASADGPLKLLPESYFDVVVIDECAQALEASCWIPLLKARKCILAGDHKQLPPTTVSHKAALAGLSLSLMERLAEEYGARVVRTLTVQYRMHQAIMRWASDTMYLGQLTAHSSVARHLLRDLPGVAATEETGVPLLLVDTAGCGLFELEEEDEQSKGNPGEVRLVSLHIQALVDAGVPARDIAVVSPYNLQVDLLRQSLVHRHPELEIKSVDGFQGREKEAVILSFVRSNRKGEVGFLAEDRRINVAVTRARRHVAVICDSRTVNNHAFLKTLVEYFTQHGEVRTAFEYLDDIVPENYSHENSQGSSHAATKPQGPATSTRTGSQRQEGGQEAAAPARQGRKKPAGKSLASEAPSQPSLNGGSPEGVESQDGVDHFRAMIVEFMASKKMQLEFPPSLNSHDRLRVHQIAEEHGLRHDSSGEGKRRFITVSKRAPRPRAALGPPAGTGGPAPLQPVPPTPAQTEQPPREQRGPDQPDLRTLHLERLQRVRSAQGQPASKEQQASGQQKLPEKKKKKAKGHPATDLPTEEDFEALVSAAVKADNTCGFAKCTAGVTTLGQFCQLCSRRYCLSHHLPEIHGCGERARAHARQRISREGVLYAGSGTKNGSLDPAKRAQLQRRLDKKLSELSNQRTSRRKERGT",
+        "full_sequence": "MASAAVESFVTKQLDLLELERDAEVEERRSWQENISLKELQSRGVCLLKLQVSSQRTGLYGRLLVTFEPRRYGSAAALPSNSFTSGDIVGLYDAANEGSQLATGILTRVTQKSVTVAFDESHDFQLSLDRENSYRLLKLANDVTYRRLKKALIALKKYHSGPASSLIEVLFGRSAPSPASEIHPLTFFNTCLDTSQKEAVLFALSQKELAIIHGPPGTGKTTTVVEIILQAVKQGLKVLCCAPSNIAVDNLVERLALCKQRILRLGHPARLLESIQQHSLDAVLARSDSAQIVADIRKDIDQVFVKNKKTQDKREKSNFRNEIKLLRKELKEREEAAMLESLTSANVVLATNTGASADGPLKLLPESYFDVVVIDECAQALEASCWIPLLKARKCILAGDHKQLPPTTVSHKAALAGLSLSLMERLAEEYGARVVRTLTVQYRMHQAIMRWASDTMYLGQLTAHSSVARHLLRDLPGVAATEETGVPLLLVDTAGCGLFELEEEDEQSKGNPGEVRLVSLHIQALVDAGVPARDIAVVSPYNLQVDLLRQSLVHRHPELEIKSVDGFQGREKEAVILSFVRSNRKGEVGFLAEDRRINVAVTRARRHVAVICDSRTVNNHAFLKTLVEYFTQHGEVRTAFEYLDDIVPENYSHENSQGSSHAATKPQGPATSTRTGSQRQEGGQEAAAPARQGRKKPAGKSLASEAPSQPSLNGGSPEGVESQDGVDHFRAMIVEFMASKKMQLEFPPSLNSHDRLRVHQIAEEHGLRHDSSGEGKRRFITVSKRAPRPRAALGPPAGTGGPAPLQPVPPTPAQTEQPPREQRGPDQPDLRTLHLERLQRVRSAQGQPASKEQQASGQQKLPEKKKKKAKGHPATDLPTEEDFEALVSAAVKADNTCGFAKCTAGVTTLGQFCQLCSRRYCLSHHLPEIHGCGERARAHARQRISREGVLYAGSGTKNGSLDPAKRAQLQRRLDKKLSELSNQRTSRRKERGT",
+        "n_residues": 993,
+        "mutation_pos_1indexed": 301,
+        "wt_aa": "D",
+        "mut_aa": "N",
+        "pocket_lining_residues": "R56-T57-A294-D295-I296-R297-K298-D299-I300-D301-Q302",
+        "pocket_lining_positions_precursor": [
+          56,
+          57,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302
+        ],
+        "pocket_lining_1letter": "RTADIRKDIDQ",
+        "sequence_slice_around_pocket": "QIVADIRKDIDQVFVKNKKT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/IGHMBP2_D301N/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "R56",
+          "T57",
+          "A294",
+          "D295",
+          "I296",
+          "R297",
+          "K298",
+          "D299",
+          "I300",
+          "D301",
+          "Q302"
+        ],
+        "values": [
+          [
+            0.0,
+            3.834,
+            11.04,
+            12.631,
+            12.106,
+            8.25,
+            8.886,
+            11.291,
+            9.258,
+            6.794,
+            10.394
+          ],
+          [
+            3.834,
+            0.0,
+            9.42,
+            10.991,
+            9.534,
+            5.891,
+            8.064,
+            9.795,
+            7.248,
+            6.518,
+            10.375
+          ],
+          [
+            11.04,
+            9.42,
+            0.0,
+            3.854,
+            5.625,
+            5.068,
+            6.25,
+            8.766,
+            9.924,
+            10.387,
+            12.206
+          ],
+          [
+            12.631,
+            10.991,
+            3.854,
+            0.0,
+            3.869,
+            5.312,
+            4.965,
+            6.242,
+            8.681,
+            9.697,
+            10.343
+          ],
+          [
+            12.106,
+            9.534,
+            5.625,
+            3.869,
+            0.0,
+            3.877,
+            5.522,
+            5.088,
+            6.298,
+            8.685,
+            9.802
+          ],
+          [
+            8.25,
+            5.891,
+            5.068,
+            5.312,
+            3.877,
+            0.0,
+            3.875,
+            5.408,
+            5.066,
+            6.105,
+            8.527
+          ],
+          [
+            8.886,
+            8.064,
+            6.25,
+            4.965,
+            5.522,
+            3.875,
+            0.0,
+            3.833,
+            5.491,
+            4.981,
+            5.986
+          ],
+          [
+            11.291,
+            9.795,
+            8.766,
+            6.242,
+            5.088,
+            5.408,
+            3.833,
+            0.0,
+            3.857,
+            5.468,
+            4.984
+          ],
+          [
+            9.258,
+            7.248,
+            9.924,
+            8.681,
+            6.298,
+            5.066,
+            5.491,
+            3.857,
+            0.0,
+            3.877,
+            5.463
+          ],
+          [
+            6.794,
+            6.518,
+            10.387,
+            9.697,
+            8.685,
+            6.105,
+            4.981,
+            5.468,
+            3.877,
+            0.0,
+            3.889
+          ],
+          [
+            10.394,
+            10.375,
+            12.206,
+            10.343,
+            9.802,
+            8.527,
+            5.986,
+            4.984,
+            5.463,
+            3.889,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1CCNc1ncc(F)cn1",
+        "composite_score": 0.8439099495206959,
+        "mw": 375.15,
+        "logp": 1.894,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.7997,
+        "sa_score": 3.26,
+        "n_heavy_atoms": 27,
+        "tpsa": 101.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "IGHMBP2-D301N Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1CCNc1ncc(F)cn1",
+        "pocket_affinity_score": 0.8439,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/IGHMBP2_D301N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/IGHMBP2_D301N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/IGHMBP2_D301N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/IGHMBP2_D301N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/IGHMBP2_D301N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IGHMBP2-D301N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IGHMBP2-D301N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:46:59.699624+00:00"
     }
   ]
 }
