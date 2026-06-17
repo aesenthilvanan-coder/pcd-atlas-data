@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 611,
+  "total_entries": 612,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45100,
-    "queue_remaining": 133497
+    "total_processed": 45101,
+    "queue_remaining": 133496
   },
   "entries": [
     {
@@ -135118,6 +135118,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:49:59.989675+00:00"
+    },
+    {
+      "entry_id": "PCD-DHCR7-F361L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DHCR7-F361L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DHCR7",
+        "uniprot": "",
+        "clinvar_id": "305955",
+        "disease": "Smith-Lemli-Opitz syndrome",
+        "mutation_precursor": "F361L",
+        "mutation_mature": "F361L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9377693683821682,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 371.207880771638,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          3.423288345336914,
+          18.451881408691406,
+          -16.513599395751953
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.4484579826609987,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8157977855836429,
+        "cryptic": true,
+        "pocket_residues": {
+          "N355": "N",
+          "H356": "H",
+          "Q357": "Q",
+          "K358": "K",
+          "D359": "D",
+          "L360": "L",
+          "F361": "F",
+          "R362": "R",
+          "R363": "R",
+          "T364": "T"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UBM7|DHCR7 variant F361L",
+        "fasta_sequence": "MAAKSQPNIPKAKSLDGVTNDRTASQGQWGRAWEVDWFSLASVIFLLLFAPFIVYYFIMACDQYSCALTGPVVDIVTGHARLSDIWAKTPPITRKAAQLYTLWVTFQVLLYTSLPDFCHKFLPGYVGGIQEGAVTPAGVVNKYQINGLQAWLLTHLLWFANAHLLSWFSPTIIFDNWIPLLWCANILGYAVSTFAMVKGYFFPTSARDCKFTGNFFYNYMMGIEFNPRIGKWFDFKLFFNGRPGIVAWTLINLSFAAKQRELHSHVTNAMVLVNVLQAIYVIDFFWNETWYLKTIDICHDHFGWYLGWGDCVWLPYLYTLQGLYLVYHPVQLSTPHAVGVLLLGLVGYYIFRVANHQKDLFRRTDGRCLIWGRKPKVIECSYTSADGQRHHSKLLVSGFWGVARHFNYVGDLMGSLAYCLACGGGHLLPYFYIIYMAILLTHRCLRDEHRCASKYGRDWERYTAAVPYRLLPGIF",
+        "full_sequence": "MAAKSQPNIPKAKSLDGVTNDRTASQGQWGRAWEVDWFSLASVIFLLLFAPFIVYYFIMACDQYSCALTGPVVDIVTGHARLSDIWAKTPPITRKAAQLYTLWVTFQVLLYTSLPDFCHKFLPGYVGGIQEGAVTPAGVVNKYQINGLQAWLLTHLLWFANAHLLSWFSPTIIFDNWIPLLWCANILGYAVSTFAMVKGYFFPTSARDCKFTGNFFYNYMMGIEFNPRIGKWFDFKLFFNGRPGIVAWTLINLSFAAKQRELHSHVTNAMVLVNVLQAIYVIDFFWNETWYLKTIDICHDHFGWYLGWGDCVWLPYLYTLQGLYLVYHPVQLSTPHAVGVLLLGLVGYYIFRVANHQKDLFRRTDGRCLIWGRKPKVIECSYTSADGQRHHSKLLVSGFWGVARHFNYVGDLMGSLAYCLACGGGHLLPYFYIIYMAILLTHRCLRDEHRCASKYGRDWERYTAAVPYRLLPGIF",
+        "n_residues": 475,
+        "mutation_pos_1indexed": 361,
+        "wt_aa": "F",
+        "mut_aa": "L",
+        "pocket_lining_residues": "N355-H356-Q357-K358-D359-L360-F361-R362-R363-T364",
+        "pocket_lining_positions_precursor": [
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364
+        ],
+        "pocket_lining_1letter": "NHQKDLFRRT",
+        "sequence_slice_around_pocket": "FRVANHQKDLFRRTDGRCLI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_F361L/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "N355",
+          "H356",
+          "Q357",
+          "K358",
+          "D359",
+          "L360",
+          "F361",
+          "R362",
+          "R363",
+          "T364"
+        ],
+        "values": [
+          [
+            0.0,
+            3.847,
+            5.488,
+            5.234,
+            6.247,
+            8.657,
+            9.88,
+            10.767,
+            12.348,
+            14.327
+          ],
+          [
+            3.847,
+            0.0,
+            3.87,
+            5.429,
+            4.991,
+            5.893,
+            8.25,
+            9.771,
+            10.358,
+            11.939
+          ],
+          [
+            5.488,
+            3.87,
+            0.0,
+            3.854,
+            5.575,
+            5.283,
+            5.924,
+            8.583,
+            10.043,
+            10.616
+          ],
+          [
+            5.234,
+            5.429,
+            3.854,
+            0.0,
+            3.841,
+            5.669,
+            5.125,
+            6.185,
+            8.694,
+            10.121
+          ],
+          [
+            6.247,
+            4.991,
+            5.575,
+            3.841,
+            0.0,
+            3.86,
+            5.425,
+            5.198,
+            6.123,
+            8.581
+          ],
+          [
+            8.657,
+            5.893,
+            5.283,
+            5.669,
+            3.86,
+            0.0,
+            3.831,
+            5.54,
+            5.208,
+            6.058
+          ],
+          [
+            9.88,
+            8.25,
+            5.924,
+            5.125,
+            5.425,
+            3.831,
+            0.0,
+            3.859,
+            5.701,
+            5.448
+          ],
+          [
+            10.767,
+            9.771,
+            8.583,
+            6.185,
+            5.198,
+            5.54,
+            3.859,
+            0.0,
+            3.861,
+            5.581
+          ],
+          [
+            12.348,
+            10.358,
+            10.043,
+            8.694,
+            6.123,
+            5.208,
+            5.701,
+            3.861,
+            0.0,
+            3.844
+          ],
+          [
+            14.327,
+            11.939,
+            10.616,
+            10.121,
+            8.581,
+            6.058,
+            5.448,
+            5.581,
+            3.844,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.8018810061299732,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DHCR7-F361L Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.8019,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_F361L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_F361L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_F361L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_F361L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DHCR7_F361L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DHCR7-F361L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DHCR7-F361L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:50:24.350065+00:00"
     }
   ]
 }
