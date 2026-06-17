@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 117,
+  "total_entries": 118,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44521,
-    "queue_remaining": 134076
+    "total_processed": 44522,
+    "queue_remaining": 134075
   },
   "entries": [
     {
@@ -26716,6 +26716,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:23:05.964768+00:00"
+    },
+    {
+      "entry_id": "PCD-TCTN2-Q259R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TCTN2-Q259R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TCTN2",
+        "uniprot": "",
+        "clinvar_id": "307553",
+        "disease": "Joubert syndrome 24",
+        "mutation_precursor": "Q259R",
+        "mutation_mature": "Q259R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8195307603446833,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 623.2666775276966,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          22.87993621826172,
+          45.23170852661133,
+          -4.831023693084717
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.7484854790107125,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8777703397946556,
+        "cryptic": true,
+        "pocket_residues": {
+          "S256": "S",
+          "P257": "P",
+          "K258": "K",
+          "Q259": "Q",
+          "D260": "D"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96GX1|TCTN2 variant Q259R",
+        "fasta_sequence": "MGFQPPAALLLRLFLLQGILRLLWGDLAFIPPFIRMSGPAVSASLVGDTEGVTVSLAVLQDEAGILPIPTCGVLNNETEDWSVTVIPGAKVLEVTVRWKRGLDWCSSNETDSFSESPCILQTLLVSASHNSSCSAHLLIQVEIYANSSLTHNASENVTVIPNQVYQPLGPCPCNLTAGACDVRCCCDQECSSNLTTLFRRSCFTGVFGGDVNPPFDQLCSAGTTTRGVPDWFPFLCVQSPLANTPFLGYFYHGAVSPKQDSSFEVYVDTDAKDFADFGYKQGDPIMTVKKAYFTIPQVSLAGQCMQNAPVAFLHNFDVKCVTNLELYQERDGIINAKIKNVALGGIVTPKVIYEEATDLDKFITNTETPLNNGSTPRIVNVEEHYIFKWNNNTISEINVKIFRAEINAHQKGIMTQRFVVKFLSYNSGNEEELSGNPGYQLGKPVRALNINRMNNVTTLHLWQSAGRGLCTSATFKPILFGENVLSGCLLEVGINENCTQLRENAVERLDSLIQATHVAMRGNSDYADLSDGWLEIIRVDAPDPGADPLASSVNGMCLDIPAHLSIRILISDAGAVEGITQQEILGVETRFSSVNWQYQCGLTCEHKADLLPISASVQFIKIPAQLPHPLTRFQINYTEYDCNRNEVCWPQLLYPWTQYYQGELHSQCVAKGLLLLLFLTLALFLSNPWTRICKAYS",
+        "full_sequence": "MGFQPPAALLLRLFLLQGILRLLWGDLAFIPPFIRMSGPAVSASLVGDTEGVTVSLAVLQDEAGILPIPTCGVLNNETEDWSVTVIPGAKVLEVTVRWKRGLDWCSSNETDSFSESPCILQTLLVSASHNSSCSAHLLIQVEIYANSSLTHNASENVTVIPNQVYQPLGPCPCNLTAGACDVRCCCDQECSSNLTTLFRRSCFTGVFGGDVNPPFDQLCSAGTTTRGVPDWFPFLCVQSPLANTPFLGYFYHGAVSPKQDSSFEVYVDTDAKDFADFGYKQGDPIMTVKKAYFTIPQVSLAGQCMQNAPVAFLHNFDVKCVTNLELYQERDGIINAKIKNVALGGIVTPKVIYEEATDLDKFITNTETPLNNGSTPRIVNVEEHYIFKWNNNTISEINVKIFRAEINAHQKGIMTQRFVVKFLSYNSGNEEELSGNPGYQLGKPVRALNINRMNNVTTLHLWQSAGRGLCTSATFKPILFGENVLSGCLLEVGINENCTQLRENAVERLDSLIQATHVAMRGNSDYADLSDGWLEIIRVDAPDPGADPLASSVNGMCLDIPAHLSIRILISDAGAVEGITQQEILGVETRFSSVNWQYQCGLTCEHKADLLPISASVQFIKIPAQLPHPLTRFQINYTEYDCNRNEVCWPQLLYPWTQYYQGELHSQCVAKGLLLLLFLTLALFLSNPWTRICKAYS",
+        "n_residues": 697,
+        "mutation_pos_1indexed": 259,
+        "wt_aa": "Q",
+        "mut_aa": "R",
+        "pocket_lining_residues": "S256-P257-K258-Q259-D260",
+        "pocket_lining_positions_precursor": [
+          256,
+          257,
+          258,
+          259,
+          260
+        ],
+        "pocket_lining_1letter": "SPKQD",
+        "sequence_slice_around_pocket": "YFYHGAVSPKQDSSFEVYVD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TCTN2_Q259R/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "S256",
+          "P257",
+          "K258",
+          "Q259",
+          "D260"
+        ],
+        "values": [
+          [
+            0.0,
+            3.864,
+            6.524,
+            8.648,
+            12.069
+          ],
+          [
+            3.864,
+            0.0,
+            3.855,
+            6.447,
+            9.634
+          ],
+          [
+            6.524,
+            3.855,
+            0.0,
+            3.799,
+            6.132
+          ],
+          [
+            8.648,
+            6.447,
+            3.799,
+            0.0,
+            3.827
+          ],
+          [
+            12.069,
+            9.634,
+            6.132,
+            3.827,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(O)C1CC(=O)CCC1ON1CCCCC1CNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.7030799630938813,
+        "mw": 423.19,
+        "logp": 1.913,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.6184,
+        "sa_score": 4.02,
+        "n_heavy_atoms": 29,
+        "tpsa": 104.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TCTN2-Q259R Candidate #1",
+        "iupac_name": "NCC(O)C1CC(=O)CCC1ON1CCCCC1CNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.7031,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TCTN2_Q259R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TCTN2_Q259R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TCTN2_Q259R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TCTN2_Q259R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TCTN2_Q259R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TCTN2-Q259R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TCTN2-Q259R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:23:32.441371+00:00"
     }
   ]
 }
