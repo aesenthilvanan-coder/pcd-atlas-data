@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1125,
+  "total_entries": 1126,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45722,
-    "queue_remaining": 132875
+    "total_processed": 45723,
+    "queue_remaining": 132874
   },
   "entries": [
     {
@@ -248248,6 +248248,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:35:39.492698+00:00"
+    },
+    {
+      "entry_id": "PCD-SYP-G293S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SYP-G293S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SYP",
+        "uniprot": "",
+        "clinvar_id": "368465",
+        "disease": "History of neurodevelopmental disorder",
+        "mutation_precursor": "G293S",
+        "mutation_mature": "G293S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8607431114240172,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 640.6910780891112,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -13.467290878295898,
+          -34.706634521484375,
+          56.24602508544922
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.162348727498438,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8601127150269496,
+        "cryptic": true,
+        "pocket_residues": {
+          "G290": "G",
+          "P291": "P",
+          "Q292": "Q",
+          "G293": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P08247|SYP variant G293S",
+        "fasta_sequence": "MLLLADMDVVNQLVAGGQFRVVKEPLGFVKVLQWVFAIFAFATCGSYSGELQLSVDCANKTESDLSIEVEFEYPFRLHQVYFDAPTCRGGTTKVFLVGDYSSSAEFFVTVAVFAFLYSMGALATYIFLQNKYRENNKGPMLDFLATAVFAFMWLVSSSAWAKGLSDVKMATDPENIIKEMPVCRQTGNTCKELRDPVTSGLNTSVVFGFLNLVLWVGNLWFVFKETGWAAPFLRAPPGAPEKQPAPGDAYGDAGYGQGPGGYGPQDSYGPQGGYQPDYGQPAGSGGSGYGPQGDYGQQGYGPQGAPTSFSNQM",
+        "full_sequence": "MLLLADMDVVNQLVAGGQFRVVKEPLGFVKVLQWVFAIFAFATCGSYSGELQLSVDCANKTESDLSIEVEFEYPFRLHQVYFDAPTCRGGTTKVFLVGDYSSSAEFFVTVAVFAFLYSMGALATYIFLQNKYRENNKGPMLDFLATAVFAFMWLVSSSAWAKGLSDVKMATDPENIIKEMPVCRQTGNTCKELRDPVTSGLNTSVVFGFLNLVLWVGNLWFVFKETGWAAPFLRAPPGAPEKQPAPGDAYGDAGYGQGPGGYGPQDSYGPQGGYQPDYGQPAGSGGSGYGPQGDYGQQGYGPQGAPTSFSNQM",
+        "n_residues": 313,
+        "mutation_pos_1indexed": 293,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "G290-P291-Q292-G293",
+        "pocket_lining_positions_precursor": [
+          290,
+          291,
+          292,
+          293
+        ],
+        "pocket_lining_1letter": "GPQG",
+        "sequence_slice_around_pocket": "GSGGSGYGPQGDYGQQGYGP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SYP_G293S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "G290",
+          "P291",
+          "Q292",
+          "G293"
+        ],
+        "values": [
+          [
+            0.0,
+            3.913,
+            7.245,
+            10.815
+          ],
+          [
+            3.913,
+            0.0,
+            3.827,
+            7.251
+          ],
+          [
+            7.245,
+            3.827,
+            0.0,
+            3.826
+          ],
+          [
+            10.815,
+            7.251,
+            3.826,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CCN)c(OCNS(=O)(=O)c2ccncc2N2CCCCC2)c1",
+        "composite_score": 0.5285468791165345,
+        "mw": 420.18,
+        "logp": 1.897,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 9,
+        "qed": 0.5968,
+        "sa_score": 2.69,
+        "n_heavy_atoms": 29,
+        "tpsa": 106.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SYP-G293S Candidate #1",
+        "iupac_name": "COc1ccc(CCN)c(OCNS(=O)(=O)c2ccncc2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5285,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SYP_G293S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SYP_G293S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SYP_G293S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SYP_G293S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SYP_G293S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SYP-G293S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SYP-G293S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:36:04.724114+00:00"
     }
   ]
 }
