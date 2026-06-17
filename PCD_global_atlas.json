@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 533,
+  "total_entries": 534,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44996,
-    "queue_remaining": 133601
+    "total_processed": 44997,
+    "queue_remaining": 133600
   },
   "entries": [
     {
@@ -117898,6 +117898,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:38:08.403506+00:00"
+    },
+    {
+      "entry_id": "PCD-MLYCD-G5R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MLYCD-G5R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MLYCD",
+        "uniprot": "",
+        "clinvar_id": "320720",
+        "disease": "Deficiency of malonyl-CoA decarboxylase",
+        "mutation_precursor": "G5R",
+        "mutation_mature": "G5R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7478606196270291,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 550.3914137755729,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          30.182876586914062,
+          34.47314453125,
+          -14.356536865234375
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.30448016931728,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.699146570109546,
+        "cryptic": true,
+        "pocket_residues": {
+          "G5": "G",
+          "P6": "P",
+          "G7": "G",
+          "L8": "L",
+          "T9": "T"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O95822|MLYCD variant G5R",
+        "fasta_sequence": "MRGFGPGLTARRLLPLRLPPRPPGPRLASGQAAGALERAMDELLRRAVPPTPAYELREKTPAPAEGQCADFVSFYGGLAETAQRAELLGRLARGFGVDHGQVAEQSAGVLHLRQQQREAAVLLQAEDRLRYALVPRYRGLFHHISKLDGGVRFLVQLRADLLEAQALKLVEGPDVREMNGVLKGMLSEWFSSGFLNLERVTWHSPCEVLQKISEAEAVHPVKNWMDMKRRVGPYRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETEEKNKITAAIFYSISLTQQGLQGVELGTFLIKRVVKELQREFPHLGVFSSLSPIPGFTKWLLGLLNSQTKEHGRNELFTDSECKEISEITGGPINETLKLLLSSSEWVQSEKLVRALQTPLMRLCAWYLYGEKHRGYALNPVANFHLQNGAVLWRINWMADVSLRGITGSCGLMANYRYFLEETGPNSTSYLGSKIIKASEQVLSLVAQFQKNSKL",
+        "full_sequence": "MRGFGPGLTARRLLPLRLPPRPPGPRLASGQAAGALERAMDELLRRAVPPTPAYELREKTPAPAEGQCADFVSFYGGLAETAQRAELLGRLARGFGVDHGQVAEQSAGVLHLRQQQREAAVLLQAEDRLRYALVPRYRGLFHHISKLDGGVRFLVQLRADLLEAQALKLVEGPDVREMNGVLKGMLSEWFSSGFLNLERVTWHSPCEVLQKISEAEAVHPVKNWMDMKRRVGPYRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETEEKNKITAAIFYSISLTQQGLQGVELGTFLIKRVVKELQREFPHLGVFSSLSPIPGFTKWLLGLLNSQTKEHGRNELFTDSECKEISEITGGPINETLKLLLSSSEWVQSEKLVRALQTPLMRLCAWYLYGEKHRGYALNPVANFHLQNGAVLWRINWMADVSLRGITGSCGLMANYRYFLEETGPNSTSYLGSKIIKASEQVLSLVAQFQKNSKL",
+        "n_residues": 493,
+        "mutation_pos_1indexed": 5,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "G5-P6-G7-L8-T9",
+        "pocket_lining_positions_precursor": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "pocket_lining_1letter": "GPGLT",
+        "sequence_slice_around_pocket": "MRGFGPGLTARRLL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_G5R/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "G5",
+          "P6",
+          "G7",
+          "L8",
+          "T9"
+        ],
+        "values": [
+          [
+            0.0,
+            3.88,
+            6.791,
+            9.831,
+            12.781
+          ],
+          [
+            3.88,
+            0.0,
+            3.835,
+            6.288,
+            9.527
+          ],
+          [
+            6.791,
+            3.835,
+            0.0,
+            3.833,
+            6.071
+          ],
+          [
+            9.831,
+            6.288,
+            3.833,
+            0.0,
+            3.821
+          ],
+          [
+            12.781,
+            9.527,
+            6.071,
+            3.821,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.4988196295570673,
+        "mw": 302.21,
+        "logp": 2.025,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.8623,
+        "sa_score": 3.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MLYCD-G5R Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.4988,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_G5R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_G5R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_G5R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_G5R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MLYCD_G5R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MLYCD-G5R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MLYCD-G5R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:38:31.805767+00:00"
     }
   ]
 }
