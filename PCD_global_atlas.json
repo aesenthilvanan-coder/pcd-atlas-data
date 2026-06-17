@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 136,
+  "total_entries": 137,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44540,
-    "queue_remaining": 134057
+    "total_processed": 44541,
+    "queue_remaining": 134056
   },
   "entries": [
     {
@@ -31412,6 +31412,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:34:48.508976+00:00"
+    },
+    {
+      "entry_id": "PCD-GLE1-D18E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GLE1-D18E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GLE1",
+        "uniprot": "",
+        "clinvar_id": "365131",
+        "disease": "Lethal arthrogryposis-anterior horn cell disease syndrome",
+        "mutation_precursor": "D18E",
+        "mutation_mature": "D18E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8611506609776876,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 514.7081111962491,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          25.435985565185547,
+          21.729833602905273,
+          -60.293128967285156
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.745694940960089,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8149922918139456,
+        "cryptic": true,
+        "pocket_residues": {
+          "S16": "S",
+          "S17": "S",
+          "D18": "D",
+          "K19": "K",
+          "G20": "G",
+          "R21": "R",
+          "L22": "L"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q53GS7|GLE1 variant D18E",
+        "fasta_sequence": "MPSEGRCWETLKALRSSDKGRLCYYRDWLLRREDVLEECMSLPKLSSYSGWVVEHVLPHMQENQPLSETSPSSTSASALDQPSFVPKSPDASSAFSPASPATPNGTKGKDESQHTESMVLQSSRGIKVEGCVRMYELVHRMKGTEGLRLWQEEQERKVQALSEMASEQLKRFDEWKELKQHKEFQDLREVMEKSSREALGHQEKLKAEHRHRAKILNLKLREAEQQRVKQAEQERLRKEEGQIRLRALYALQEEMLQLSQQLDASEQHKALLKVDLAAFQTRGNQLCSLISGIIRASSESSYPTAESQAEAERALREMRDLLMNLGQEITRACEDKRRQDEEEAQVKLQEAQMQQGPEAHKEPPAPSQGPGGKQNEDLQVKVQDITMQWYQQLQDASMQCVLTFEGLTNSKDSQAKKIKMDLQKAATIPVSQISTIAGSKLKEIFDKIHSLLSGKPVQSGGRSVSVTLNPQGLDFVQYKLAEKFVKQGEEEVASHHEAAFPIAVVASGIWELHPRVGDLILAHLHKKCPYSVPFYPTFKEGMALEDYQRMLGYQVKDSKVEQQDNFLKRMSGMIRLYAAIIQLRWPYGNRQEIHPHGLNHGWRWLAQILNMEPLSDVTATLLFDFLEVCGNALMKQYQVQFWKMLILIKEDYFPRIEAITSSGQMGSFIRLKQFLEKCLQHKDIPVPKGFLTSSFWRS",
+        "full_sequence": "MPSEGRCWETLKALRSSDKGRLCYYRDWLLRREDVLEECMSLPKLSSYSGWVVEHVLPHMQENQPLSETSPSSTSASALDQPSFVPKSPDASSAFSPASPATPNGTKGKDESQHTESMVLQSSRGIKVEGCVRMYELVHRMKGTEGLRLWQEEQERKVQALSEMASEQLKRFDEWKELKQHKEFQDLREVMEKSSREALGHQEKLKAEHRHRAKILNLKLREAEQQRVKQAEQERLRKEEGQIRLRALYALQEEMLQLSQQLDASEQHKALLKVDLAAFQTRGNQLCSLISGIIRASSESSYPTAESQAEAERALREMRDLLMNLGQEITRACEDKRRQDEEEAQVKLQEAQMQQGPEAHKEPPAPSQGPGGKQNEDLQVKVQDITMQWYQQLQDASMQCVLTFEGLTNSKDSQAKKIKMDLQKAATIPVSQISTIAGSKLKEIFDKIHSLLSGKPVQSGGRSVSVTLNPQGLDFVQYKLAEKFVKQGEEEVASHHEAAFPIAVVASGIWELHPRVGDLILAHLHKKCPYSVPFYPTFKEGMALEDYQRMLGYQVKDSKVEQQDNFLKRMSGMIRLYAAIIQLRWPYGNRQEIHPHGLNHGWRWLAQILNMEPLSDVTATLLFDFLEVCGNALMKQYQVQFWKMLILIKEDYFPRIEAITSSGQMGSFIRLKQFLEKCLQHKDIPVPKGFLTSSFWRS",
+        "n_residues": 698,
+        "mutation_pos_1indexed": 18,
+        "wt_aa": "D",
+        "mut_aa": "E",
+        "pocket_lining_residues": "S16-S17-D18-K19-G20-R21-L22",
+        "pocket_lining_positions_precursor": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "pocket_lining_1letter": "SSDKGRL",
+        "sequence_slice_around_pocket": "WETLKALRSSDKGRLCYYRD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GLE1_D18E/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "S16",
+          "S17",
+          "D18",
+          "K19",
+          "G20",
+          "R21",
+          "L22"
+        ],
+        "values": [
+          [
+            0.0,
+            3.872,
+            6.717,
+            8.32,
+            6.069,
+            6.794,
+            10.436
+          ],
+          [
+            3.872,
+            0.0,
+            3.847,
+            5.469,
+            5.129,
+            6.526,
+            9.431
+          ],
+          [
+            6.717,
+            3.847,
+            0.0,
+            3.865,
+            5.366,
+            5.112,
+            7.112
+          ],
+          [
+            8.32,
+            5.469,
+            3.865,
+            0.0,
+            3.863,
+            5.54,
+            5.918
+          ],
+          [
+            6.069,
+            5.129,
+            5.366,
+            3.863,
+            0.0,
+            3.882,
+            5.662
+          ],
+          [
+            6.794,
+            6.526,
+            5.112,
+            5.54,
+            3.882,
+            0.0,
+            3.851
+          ],
+          [
+            10.436,
+            9.431,
+            7.112,
+            5.918,
+            5.662,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC1CC(=O)CC1N1CCCCC1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7349063632960781,
+        "mw": 348.29,
+        "logp": 2.155,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 3,
+        "qed": 0.8469,
+        "sa_score": 4.22,
+        "n_heavy_atoms": 25,
+        "tpsa": 52.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GLE1-D18E Candidate #1",
+        "iupac_name": "NC1CC(=O)CC1N1CCCCC1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7349,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GLE1_D18E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GLE1_D18E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GLE1_D18E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GLE1_D18E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GLE1_D18E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GLE1-D18E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GLE1-D18E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:35:16.894229+00:00"
     }
   ]
 }
