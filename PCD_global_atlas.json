@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 283,
+  "total_entries": 284,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44712,
-    "queue_remaining": 133885
+    "total_processed": 44713,
+    "queue_remaining": 133884
   },
   "entries": [
     {
@@ -61840,6 +61840,279 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:10:47.568595+00:00"
+    },
+    {
+      "entry_id": "PCD-EXT2-D82A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EXT2-D82A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "EXT2",
+        "uniprot": "",
+        "clinvar_id": "304575",
+        "disease": "Exostoses, multiple, type 2",
+        "mutation_precursor": "D82A",
+        "mutation_mature": "D82A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8803410119647955,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 507.54457199204313,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.495919704437256,
+          17.492752075195312,
+          -20.95252799987793
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.17707600639512,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6098713990176317,
+        "cryptic": true,
+        "pocket_residues": {
+          "P78": "P",
+          "E79": "E",
+          "R80": "R",
+          "G81": "G",
+          "D82": "D",
+          "L83": "L",
+          "P206": "P",
+          "R207": "R",
+          "D208": "D",
+          "R209": "R",
+          "A210": "A"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q93063|EXT2 variant D82A",
+        "fasta_sequence": "MCASVKYNIRGPALIPRMKTKHRIYYITLFSIVLLGLIATGMFQFWPHSIESSNDWNVEKRSIRDVPVVRLPADSPIPERGDLSCRMHTCFDVYRCGFNPKNKIKVYIYALKKYVDDFGVSVSNTISREYNELLMAISDSDYYTDDINRACLFVPSIDVLNQNTLRIKETAQAMAQLSRWDRGTNHLLFNMLPGGPPDYNTALDVPRDRALLAGGGFSTWTYRQGYDVSIPVYSPLSAEVDLPEKGPGPRQYFLLSSQVGLHPEYREDLEALQVKHGESVLVLDKCTNLSEGVLSVRKRCHKHQVFDYPQVLQEATFCVVLRGARLGQAVLSDVLQAGCVPVVIADSYILPFSEVLDWKRASVVVPEEKMSDVYSILQSIPQRQIEEMQRQARWFWEAYFQSIKAIALATLQIINDRIYPYAAISYEEWNDPPAVKWGSVSNPLFLPLIPPQSQGFTAIVLTYDRVESLFRVITEVSKVPSLSKLLVVWNNQNKNPPEDSLWPKIRVPLKVVRTAENKLSNRFFPYDEIETEAVLAIDDDIIMLTSDELQFGYEVWREFPDRLVGYPGRLHLWDHEMNKWKYESEWTNEVSMVLTGAAFYHKYFNYLYTYKMPGDIKNWVDAHMNCEDIAMNFLVANVTGKAVIKVTPRKKFKCPECTAIDGLSLDQTHMVERSECINKFASVFGTMPLKVVEHRADPVLYKDDFPEKLKSFPNIGSL",
+        "full_sequence": "MCASVKYNIRGPALIPRMKTKHRIYYITLFSIVLLGLIATGMFQFWPHSIESSNDWNVEKRSIRDVPVVRLPADSPIPERGDLSCRMHTCFDVYRCGFNPKNKIKVYIYALKKYVDDFGVSVSNTISREYNELLMAISDSDYYTDDINRACLFVPSIDVLNQNTLRIKETAQAMAQLSRWDRGTNHLLFNMLPGGPPDYNTALDVPRDRALLAGGGFSTWTYRQGYDVSIPVYSPLSAEVDLPEKGPGPRQYFLLSSQVGLHPEYREDLEALQVKHGESVLVLDKCTNLSEGVLSVRKRCHKHQVFDYPQVLQEATFCVVLRGARLGQAVLSDVLQAGCVPVVIADSYILPFSEVLDWKRASVVVPEEKMSDVYSILQSIPQRQIEEMQRQARWFWEAYFQSIKAIALATLQIINDRIYPYAAISYEEWNDPPAVKWGSVSNPLFLPLIPPQSQGFTAIVLTYDRVESLFRVITEVSKVPSLSKLLVVWNNQNKNPPEDSLWPKIRVPLKVVRTAENKLSNRFFPYDEIETEAVLAIDDDIIMLTSDELQFGYEVWREFPDRLVGYPGRLHLWDHEMNKWKYESEWTNEVSMVLTGAAFYHKYFNYLYTYKMPGDIKNWVDAHMNCEDIAMNFLVANVTGKAVIKVTPRKKFKCPECTAIDGLSLDQTHMVERSECINKFASVFGTMPLKVVEHRADPVLYKDDFPEKLKSFPNIGSL",
+        "n_residues": 718,
+        "mutation_pos_1indexed": 82,
+        "wt_aa": "D",
+        "mut_aa": "A",
+        "pocket_lining_residues": "P78-E79-R80-G81-D82-L83-P206-R207-D208-R209-A210",
+        "pocket_lining_positions_precursor": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          206,
+          207,
+          208,
+          209,
+          210
+        ],
+        "pocket_lining_1letter": "PERGDLPRDRA",
+        "sequence_slice_around_pocket": "PADSPIPERGDLSCRMHTCF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_D82A/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "P78",
+          "E79",
+          "R80",
+          "G81",
+          "D82",
+          "L83",
+          "P206",
+          "R207",
+          "D208",
+          "R209",
+          "A210"
+        ],
+        "values": [
+          [
+            0.0,
+            3.801,
+            6.553,
+            8.53,
+            10.762,
+            14.342,
+            5.356,
+            5.399,
+            5.447,
+            9.174,
+            10.072
+          ],
+          [
+            3.801,
+            0.0,
+            3.819,
+            6.436,
+            7.986,
+            11.572,
+            5.566,
+            6.236,
+            4.837,
+            8.529,
+            10.513
+          ],
+          [
+            6.553,
+            3.819,
+            0.0,
+            3.799,
+            6.241,
+            9.059,
+            4.424,
+            5.963,
+            5.645,
+            8.627,
+            10.198
+          ],
+          [
+            8.53,
+            6.436,
+            3.799,
+            0.0,
+            3.832,
+            6.253,
+            5.952,
+            5.446,
+            4.919,
+            6.197,
+            7.58
+          ],
+          [
+            10.762,
+            7.986,
+            6.241,
+            3.832,
+            0.0,
+            3.871,
+            9.511,
+            8.548,
+            6.32,
+            6.14,
+            8.886
+          ],
+          [
+            14.342,
+            11.572,
+            9.059,
+            6.253,
+            3.871,
+            0.0,
+            12.117,
+            11.375,
+            9.858,
+            8.892,
+            10.904
+          ],
+          [
+            5.356,
+            5.566,
+            4.424,
+            5.952,
+            9.511,
+            12.117,
+            0.0,
+            3.818,
+            6.29,
+            9.471,
+            9.426
+          ],
+          [
+            5.399,
+            6.236,
+            5.963,
+            5.446,
+            8.548,
+            11.375,
+            3.818,
+            0.0,
+            3.862,
+            6.312,
+            5.768
+          ],
+          [
+            5.447,
+            4.837,
+            5.645,
+            4.919,
+            6.32,
+            9.858,
+            6.29,
+            3.862,
+            0.0,
+            3.888,
+            5.833
+          ],
+          [
+            9.174,
+            8.529,
+            8.627,
+            6.197,
+            6.14,
+            8.892,
+            9.471,
+            6.312,
+            3.888,
+            0.0,
+            3.854
+          ],
+          [
+            10.072,
+            10.513,
+            10.198,
+            7.58,
+            8.886,
+            10.904,
+            9.426,
+            5.768,
+            5.833,
+            3.854,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7498677844247116,
+        "mw": 316.23,
+        "logp": 1.954,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8995,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 23,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "EXT2-D82A Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7499,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_D82A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_D82A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_D82A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_D82A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_D82A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EXT2-D82A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EXT2-D82A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:11:15.005558+00:00"
     }
   ]
 }
