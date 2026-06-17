@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 914,
+  "total_entries": 915,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45451,
-    "queue_remaining": 133146
+    "total_processed": 45452,
+    "queue_remaining": 133145
   },
   "entries": [
     {
@@ -200952,6 +200952,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:09:18.510952+00:00"
+    },
+    {
+      "entry_id": "PCD-STXBP2-R459W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STXBP2-R459W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "STXBP2",
+        "uniprot": "",
+        "clinvar_id": "330556",
+        "disease": "Familial hemophagocytic lymphohistiocytosis 5",
+        "mutation_precursor": "R459W",
+        "mutation_mature": "R459W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9024378034158547,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 588.8829156320389,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          15.021230697631836,
+          16.774478912353516,
+          -4.649387359619141
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.012505786117649,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8006667905396311,
+        "cryptic": true,
+        "pocket_residues": {
+          "A237": "A",
+          "T456": "T",
+          "S457": "S",
+          "S458": "S",
+          "R459": "R",
+          "L460": "L",
+          "E461": "E"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q15833|STXBP2 variant R459W",
+        "fasta_sequence": "MAPSGLKAVVGEKILSGVIRSVKKDGEWKVLIMDHPSMRILSSCCKMSDILAEGITIVEDINKRREPIPSLEAIYLLSPTEKSVQALIKDFQGTPTFTYKAAHIFFTDTCPEPLFSELGRSRLAKVVKTLKEIHLAFLPYEAQVFSLDAPHSTYNLYCPFRAEERTRQLEVLAQQIATLCATLQEYPAIRYRKGPEDTAQLAHAVLAKLNAFKADTPSLGEGPEKTRSQLLIMDRAADPVSPLLHELTFQAMAYDLLDIEQDTYRYETTGLSEAREKAVLLDEDDDLWVELRHMHIADVSKKVTELLRTFCESKRLTTDKANIKDLSQILKKMPQYQKELNKYSTHLHLADDCMKHFKGSVEKLCSVEQDLAMGSDAEGEKIKDSMKLIVPVLLDAAVPAYDKIRVLLLYILLRNGVSEENLAKLIQHANVQAHSSLIRNLEQLGGTVTNPGGSGTSSRLEPRERMEPTYQLSRWTPVIKDVMEDAVEDRLDRNLWPFVSDPAPTASSQAAVSARFGHWHKNKAGIEARAGPRLIVYVMGGVAMSEMRAAYEVTRATEGKWEVLIGSSHILTPTRFLDDLKALDKKLEDIALP",
+        "full_sequence": "MAPSGLKAVVGEKILSGVIRSVKKDGEWKVLIMDHPSMRILSSCCKMSDILAEGITIVEDINKRREPIPSLEAIYLLSPTEKSVQALIKDFQGTPTFTYKAAHIFFTDTCPEPLFSELGRSRLAKVVKTLKEIHLAFLPYEAQVFSLDAPHSTYNLYCPFRAEERTRQLEVLAQQIATLCATLQEYPAIRYRKGPEDTAQLAHAVLAKLNAFKADTPSLGEGPEKTRSQLLIMDRAADPVSPLLHELTFQAMAYDLLDIEQDTYRYETTGLSEAREKAVLLDEDDDLWVELRHMHIADVSKKVTELLRTFCESKRLTTDKANIKDLSQILKKMPQYQKELNKYSTHLHLADDCMKHFKGSVEKLCSVEQDLAMGSDAEGEKIKDSMKLIVPVLLDAAVPAYDKIRVLLLYILLRNGVSEENLAKLIQHANVQAHSSLIRNLEQLGGTVTNPGGSGTSSRLEPRERMEPTYQLSRWTPVIKDVMEDAVEDRLDRNLWPFVSDPAPTASSQAAVSARFGHWHKNKAGIEARAGPRLIVYVMGGVAMSEMRAAYEVTRATEGKWEVLIGSSHILTPTRFLDDLKALDKKLEDIALP",
+        "n_residues": 593,
+        "mutation_pos_1indexed": 459,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "A237-T456-S457-S458-R459-L460-E461",
+        "pocket_lining_positions_precursor": [
+          237,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461
+        ],
+        "pocket_lining_1letter": "ATSSRLE",
+        "sequence_slice_around_pocket": "TNPGGSGTSSRLEPRERMEP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP2_R459W/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "A237",
+          "T456",
+          "S457",
+          "S458",
+          "R459",
+          "L460",
+          "E461"
+        ],
+        "values": [
+          [
+            0.0,
+            12.126,
+            8.893,
+            6.011,
+            4.507,
+            5.894,
+            9.351
+          ],
+          [
+            12.126,
+            0.0,
+            3.817,
+            6.292,
+            8.865,
+            11.454,
+            12.805
+          ],
+          [
+            8.893,
+            3.817,
+            0.0,
+            3.847,
+            5.287,
+            8.271,
+            9.774
+          ],
+          [
+            6.011,
+            6.292,
+            3.847,
+            0.0,
+            3.867,
+            6.669,
+            9.517
+          ],
+          [
+            4.507,
+            8.865,
+            5.287,
+            3.867,
+            0.0,
+            3.774,
+            6.433
+          ],
+          [
+            5.894,
+            11.454,
+            8.271,
+            6.669,
+            3.774,
+            0.0,
+            3.816
+          ],
+          [
+            9.351,
+            12.805,
+            9.774,
+            9.517,
+            6.433,
+            3.816,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CC(=O)CCC1CNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.7536081457804447,
+        "mw": 386.11,
+        "logp": 1.802,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8147,
+        "sa_score": 2.98,
+        "n_heavy_atoms": 27,
+        "tpsa": 105.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "STXBP2-R459W Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CC(=O)CCC1CNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.7536,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP2_R459W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP2_R459W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP2_R459W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP2_R459W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP2_R459W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STXBP2-R459W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STXBP2-R459W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:09:43.575013+00:00"
     }
   ]
 }
