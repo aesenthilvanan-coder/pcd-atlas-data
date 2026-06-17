@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1413,
+  "total_entries": 1414,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46052,
-    "queue_remaining": 132545
+    "total_processed": 46053,
+    "queue_remaining": 132544
   },
   "entries": [
     {
@@ -312926,6 +312926,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:30:04.525995+00:00"
+    },
+    {
+      "entry_id": "PCD-DNAI2-E511D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAI2-E511D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DNAI2",
+        "uniprot": "",
+        "clinvar_id": "325020",
+        "disease": "Primary ciliary dyskinesia 9",
+        "mutation_precursor": "E511D",
+        "mutation_mature": "E511D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7644154683766572,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 311.4267378982241,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          2.5295639038085938,
+          -26.88038444519043,
+          7.099595546722412
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.633637386181741,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8633922102857766,
+        "cryptic": true,
+        "pocket_residues": {
+          "E397": "E",
+          "E511": "E",
+          "A512": "A",
+          "H514": "H",
+          "R515": "R"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9GZS0|DNAI2 variant E511D",
+        "fasta_sequence": "MEIVYVYVKKRSEFGKQCNFSDRQAELNIDIMPNPELAEQFVERNPVDTGIQCSISMSEHEANSERFEMETRGVNHVEGGWPKDVNPLELEQTIRFRKKVEKDENYVNAIMQLGSIMEHCIKQNNAIDIYEEYFNDEEAMEVMEEDPSAKTINVFRDPQEIKRAATHLSWHPDGNRKLAVAYSCLDFQRAPVGMSSDSYIWDLENPNKPELALKPSSPLVTLEFNPKDSHVLLGGCYNGQIACWDTRKGSLVAELSTIESSHRDPVYGTIWLQSKTGTECFSASTDGQVMWWDIRKMSEPTEVVILDITKKEQLENALGAISLEFESTLPTKFMVGTEQGIVISCNRKAKTSAEKIVCTFPGHHGPIYALQRNPFYPKNFLTVGDWTARIWSEDSRESSIMWTKYHMAYLTDAAWSPVRPTVFFTTRMDGTLDIWDFMFEQCDPTLSLKVCDEALFCLRVQDNGCLIACGSQLGTTTLLEVSPGLSTLQRNEKNVASSMFERETRREKILEARHREMRLKEKGKAEGRDEEQTDEELAVDLEALVSKAEEEFFDIIFAELKKKEADAIKLTPVPQQPSPEEDQVVEEGEEAAGEEGDEEVEEDLA",
+        "full_sequence": "MEIVYVYVKKRSEFGKQCNFSDRQAELNIDIMPNPELAEQFVERNPVDTGIQCSISMSEHEANSERFEMETRGVNHVEGGWPKDVNPLELEQTIRFRKKVEKDENYVNAIMQLGSIMEHCIKQNNAIDIYEEYFNDEEAMEVMEEDPSAKTINVFRDPQEIKRAATHLSWHPDGNRKLAVAYSCLDFQRAPVGMSSDSYIWDLENPNKPELALKPSSPLVTLEFNPKDSHVLLGGCYNGQIACWDTRKGSLVAELSTIESSHRDPVYGTIWLQSKTGTECFSASTDGQVMWWDIRKMSEPTEVVILDITKKEQLENALGAISLEFESTLPTKFMVGTEQGIVISCNRKAKTSAEKIVCTFPGHHGPIYALQRNPFYPKNFLTVGDWTARIWSEDSRESSIMWTKYHMAYLTDAAWSPVRPTVFFTTRMDGTLDIWDFMFEQCDPTLSLKVCDEALFCLRVQDNGCLIACGSQLGTTTLLEVSPGLSTLQRNEKNVASSMFERETRREKILEARHREMRLKEKGKAEGRDEEQTDEELAVDLEALVSKAEEEFFDIIFAELKKKEADAIKLTPVPQQPSPEEDQVVEEGEEAAGEEGDEEVEEDLA",
+        "n_residues": 605,
+        "mutation_pos_1indexed": 511,
+        "wt_aa": "E",
+        "mut_aa": "D",
+        "pocket_lining_residues": "E397-E511-A512-H514-R515",
+        "pocket_lining_positions_precursor": [
+          397,
+          511,
+          512,
+          514,
+          515
+        ],
+        "pocket_lining_1letter": "EEAHR",
+        "sequence_slice_around_pocket": "ERETRREKILEARHREMRLK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DNAI2_E511D/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "E397",
+          "E511",
+          "A512",
+          "H514",
+          "R515"
+        ],
+        "values": [
+          [
+            0.0,
+            7.092,
+            10.456,
+            10.224,
+            10.688
+          ],
+          [
+            7.092,
+            0.0,
+            3.853,
+            5.067,
+            6.121
+          ],
+          [
+            10.456,
+            3.853,
+            0.0,
+            5.53,
+            5.089
+          ],
+          [
+            10.224,
+            5.067,
+            5.53,
+            0.0,
+            3.841
+          ],
+          [
+            10.688,
+            6.121,
+            5.089,
+            3.841,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "composite_score": 0.7209539059894085,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.89,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DNAI2-E511D Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.721,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DNAI2_E511D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DNAI2_E511D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DNAI2_E511D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNAI2_E511D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNAI2_E511D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAI2-E511D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAI2-E511D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:30:28.999203+00:00"
     }
   ]
 }
