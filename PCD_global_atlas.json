@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 20,
+  "total_entries": 21,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44402,
-    "queue_remaining": 134195
+    "total_processed": 44403,
+    "queue_remaining": 134194
   },
   "entries": [
     {
@@ -5148,6 +5148,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T02:56:30.730889+00:00"
+    },
+    {
+      "entry_id": "PCD-FSHB-S20I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FSHB-S20I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FSHB",
+        "uniprot": "",
+        "clinvar_id": "304276",
+        "disease": "Hypogonadotropic hypogonadism 24 without anosmia",
+        "mutation_precursor": "S20I",
+        "mutation_mature": "S20I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8012215901537224,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 454.0535635594966,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          3.1646952629089355,
+          19.016908645629883,
+          -12.38028335571289
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.647596961187112,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6117579193398133,
+        "cryptic": true,
+        "pocket_residues": {
+          "W13": "W",
+          "K14": "K",
+          "A15": "A",
+          "I16": "I",
+          "C17": "C",
+          "C18": "C",
+          "N19": "N",
+          "S20": "S"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P01225|FSHB variant S20I",
+        "fasta_sequence": "MKTLQFFFLFCCWKAICCNSCELTNITIAIEKEECRFCISINTTWCAGYCYTRDLVYKDPARPKIQKTCTFKELVYETVRVPGCAHHADSLYTYPVATQCHCGKCDSDSTDCTVRGLGPSYCSFGEMKE",
+        "full_sequence": "MKTLQFFFLFCCWKAICCNSCELTNITIAIEKEECRFCISINTTWCAGYCYTRDLVYKDPARPKIQKTCTFKELVYETVRVPGCAHHADSLYTYPVATQCHCGKCDSDSTDCTVRGLGPSYCSFGEMKE",
+        "n_residues": 129,
+        "mutation_pos_1indexed": 20,
+        "wt_aa": "S",
+        "mut_aa": "I",
+        "pocket_lining_residues": "W13-K14-A15-I16-C17-C18-N19-S20",
+        "pocket_lining_positions_precursor": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "pocket_lining_1letter": "WKAICCNS",
+        "sequence_slice_around_pocket": "FCCWKAICCNSCELTNITIA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FSHB_S20I/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "W13",
+          "K14",
+          "A15",
+          "I16",
+          "C17",
+          "C18",
+          "N19",
+          "S20"
+        ],
+        "values": [
+          [
+            0.0,
+            3.847,
+            5.531,
+            5.336,
+            6.308,
+            9.019,
+            10.865,
+            11.41
+          ],
+          [
+            3.847,
+            0.0,
+            3.844,
+            5.64,
+            5.633,
+            6.773,
+            9.388,
+            11.092
+          ],
+          [
+            5.531,
+            3.844,
+            0.0,
+            3.861,
+            5.881,
+            6.041,
+            7.092,
+            9.229
+          ],
+          [
+            5.336,
+            5.64,
+            3.861,
+            0.0,
+            3.855,
+            5.74,
+            5.995,
+            6.454
+          ],
+          [
+            6.308,
+            5.633,
+            5.881,
+            3.855,
+            0.0,
+            3.852,
+            5.984,
+            6.25
+          ],
+          [
+            9.019,
+            6.773,
+            6.041,
+            5.74,
+            3.852,
+            0.0,
+            3.874,
+            6.214
+          ],
+          [
+            10.865,
+            9.388,
+            7.092,
+            5.995,
+            5.984,
+            3.874,
+            0.0,
+            3.842
+          ],
+          [
+            11.41,
+            11.092,
+            9.229,
+            6.454,
+            6.25,
+            6.214,
+            3.842,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)c(CCCNCc2ncnc3[nH]cnc23)c1",
+        "composite_score": 0.636987426451568,
+        "mw": 326.19,
+        "logp": 2.126,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.5497,
+        "sa_score": 2.75,
+        "n_heavy_atoms": 24,
+        "tpsa": 87.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FSHB-S20I Candidate #1",
+        "iupac_name": "CNc1ccc(OC)c(CCCNCc2ncnc3[nH]cnc23)c1",
+        "pocket_affinity_score": 0.637,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FSHB_S20I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FSHB_S20I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FSHB_S20I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FSHB_S20I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FSHB_S20I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FSHB-S20I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FSHB-S20I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T02:56:49.270800+00:00"
     }
   ]
 }
