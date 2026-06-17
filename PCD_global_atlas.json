@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1162,
+  "total_entries": 1163,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45759,
-    "queue_remaining": 132838
+    "total_processed": 45760,
+    "queue_remaining": 132837
   },
   "entries": [
     {
@@ -256533,6 +256533,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:04:02.876361+00:00"
+    },
+    {
+      "entry_id": "PCD-RHBDF2-R131C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RHBDF2-R131C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RHBDF2",
+        "uniprot": "",
+        "clinvar_id": "325458",
+        "disease": "Palmoplantar keratoderma-esophageal carcinoma syndrome",
+        "mutation_precursor": "R131C",
+        "mutation_mature": "R131C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7677738970159678,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 419.4411921190483,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          10.448991775512695,
+          49.05366516113281,
+          3.3423163890838623
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.883396132355155,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6252243014707392,
+        "cryptic": true,
+        "pocket_residues": {
+          "G130": "G",
+          "D131": "D",
+          "W132": "W",
+          "E133": "E",
+          "G134": "G"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q6PJF5|RHBDF2 variant R131C",
+        "fasta_sequence": "MASADKNGGSVSSVSSSRLQSRKPPNLSITIPPPEKETQAPGEQDSMLPEGFQNRRLKKSQPRTWAAHTTACPPSFLPKRKNPAYLKSVSLQEPRSRWQESSEKRPGFRRQASLSQSIRKGAAQWFGVSGDWEGQRQQWQRRSLHHCSMRYGRLKASCQRDLELPSQEAPSFQGTESPKPCKMPKIVDPLARGRAFRHPEEMDRPHAPHPPLTPGVLSLTSFTSVRSGYSHLPRRKRMSVAHMSLQAAAALLKGRSVLDATGQRCRVVKRSFAFPSFLEEDVVDGADTFDSSFFSKEEMSSMPDDVFESPPLSASYFRGIPHSASPVSPDGVQIPLKEYGRAPVPGPRRGKRIASKVKHFAFDRKKRHYGLGVVGNWLNRSYRRSISSTVQRQLESFDSHRPYFTYWLTFVHVIITLLVICTYGIAPVGFAQHVTTQLVLRNKGVYESVKYIQQENFWVGPSSIDLIHLGAKFSPCIRKDGQIEQLVLRERDLERDSGCCVQNDHSGCIQTQRKDCSETLATFVKWQDDTGPPMDKSDLGQKRTSGAVCHQDPRTCEEPASSGAHIWPDDITKWPICTEQARSNHTGFLHMDCEIKGRPCCIGTKGSCEITTREYCEFMHGYFHEEATLCSQVHCLDKVCGLLPFLNPEVPDQFYRLWLSLFLHAGVVHCLVSVVFQMTILRDLEKLAGWHRIAIIFILSGITGNLASAIFLPYRAEVGPAGSQFGLLACLFVELFQSWPLLERPWKAFLNLSAIVLFLFICGLLPWIDNIAHIFGFLSGLLLAFAFLPYITFGTSDKYRKRALILVSLLAFAGLFAALVLWLYIYPINWPWIEHLTCFPFTSRFCEKYELDQVLH",
+        "full_sequence": "MASADKNGGSVSSVSSSRLQSRKPPNLSITIPPPEKETQAPGEQDSMLPEGFQNRRLKKSQPRTWAAHTTACPPSFLPKRKNPAYLKSVSLQEPRSRWQESSEKRPGFRRQASLSQSIRKGAAQWFGVSGDWEGQRQQWQRRSLHHCSMRYGRLKASCQRDLELPSQEAPSFQGTESPKPCKMPKIVDPLARGRAFRHPEEMDRPHAPHPPLTPGVLSLTSFTSVRSGYSHLPRRKRMSVAHMSLQAAAALLKGRSVLDATGQRCRVVKRSFAFPSFLEEDVVDGADTFDSSFFSKEEMSSMPDDVFESPPLSASYFRGIPHSASPVSPDGVQIPLKEYGRAPVPGPRRGKRIASKVKHFAFDRKKRHYGLGVVGNWLNRSYRRSISSTVQRQLESFDSHRPYFTYWLTFVHVIITLLVICTYGIAPVGFAQHVTTQLVLRNKGVYESVKYIQQENFWVGPSSIDLIHLGAKFSPCIRKDGQIEQLVLRERDLERDSGCCVQNDHSGCIQTQRKDCSETLATFVKWQDDTGPPMDKSDLGQKRTSGAVCHQDPRTCEEPASSGAHIWPDDITKWPICTEQARSNHTGFLHMDCEIKGRPCCIGTKGSCEITTREYCEFMHGYFHEEATLCSQVHCLDKVCGLLPFLNPEVPDQFYRLWLSLFLHAGVVHCLVSVVFQMTILRDLEKLAGWHRIAIIFILSGITGNLASAIFLPYRAEVGPAGSQFGLLACLFVELFQSWPLLERPWKAFLNLSAIVLFLFICGLLPWIDNIAHIFGFLSGLLLAFAFLPYITFGTSDKYRKRALILVSLLAFAGLFAALVLWLYIYPINWPWIEHLTCFPFTSRFCEKYELDQVLH",
+        "n_residues": 856,
+        "mutation_pos_1indexed": 131,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "G130-D131-W132-E133-G134",
+        "pocket_lining_positions_precursor": [
+          130,
+          131,
+          132,
+          133,
+          134
+        ],
+        "pocket_lining_1letter": "GDWEG",
+        "sequence_slice_around_pocket": "GAAQWFGVSGDWEGQRQQWQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RHBDF2_R131C/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "G130",
+          "D131",
+          "W132",
+          "E133",
+          "G134"
+        ],
+        "values": [
+          [
+            0.0,
+            3.879,
+            5.867,
+            8.864,
+            9.431
+          ],
+          [
+            3.879,
+            0.0,
+            3.823,
+            5.754,
+            5.612
+          ],
+          [
+            5.867,
+            3.823,
+            0.0,
+            3.864,
+            5.522
+          ],
+          [
+            8.864,
+            5.754,
+            3.864,
+            0.0,
+            3.861
+          ],
+          [
+            9.431,
+            5.612,
+            5.522,
+            3.861,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)c1ccc(Cl)cc1N1CCCC(=O)C1",
+        "composite_score": 0.7177621071349795,
+        "mw": 280.1,
+        "logp": 2.041,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 4,
+        "qed": 0.8575,
+        "sa_score": 2.48,
+        "n_heavy_atoms": 19,
+        "tpsa": 63.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RHBDF2-R131C Candidate #1",
+        "iupac_name": "NCCC(=O)c1ccc(Cl)cc1N1CCCC(=O)C1",
+        "pocket_affinity_score": 0.7178,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RHBDF2_R131C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RHBDF2_R131C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RHBDF2_R131C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RHBDF2_R131C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RHBDF2_R131C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RHBDF2-R131C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RHBDF2-R131C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:04:31.810388+00:00"
     }
   ]
 }
