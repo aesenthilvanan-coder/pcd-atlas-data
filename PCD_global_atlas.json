@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 952,
+  "total_entries": 953,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45489,
-    "queue_remaining": 133108
+    "total_processed": 45491,
+    "queue_remaining": 133106
   },
   "entries": [
     {
@@ -209389,6 +209389,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:36:25.862560+00:00"
+    },
+    {
+      "entry_id": "PCD-FTO-A163T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FTO-A163T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FTO",
+        "uniprot": "",
+        "clinvar_id": "319682",
+        "disease": "Lethal polymalformative syndrome, Boissel type",
+        "mutation_precursor": "A163T",
+        "mutation_mature": "A163T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8186085381962642,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 396.0721166664264,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -43.066856384277344,
+          6.4170098304748535,
+          -7.061552047729492
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.460768525394683,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7342027558102667,
+        "cryptic": true,
+        "pocket_residues": {
+          "A159": "A",
+          "K162": "K",
+          "A163": "A"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9C0B1|FTO variant A163T",
+        "fasta_sequence": "MKRTPTAEEREREAKKLRLLEELEDTWLPYLTPKDDEFYQQWQLKYPKLILREASSVSEELHKEVQEAFLTLHKHGCLFRDLVRIQGKDLLTPVSRILIGNPGCTYKYLNTRLFTVPWPVKGSNIKHTEAEIAAACETFLKLNDYLQIETIQALEELAAKEKANEDAVPLCMSADFPRVGMGSSYNGQDEVDIKSRAAYNVTLLNFMDPQKMPYLKEEPYFGMGKMAVSWHHDENLVDRSAVAVYSYSCEGPEEESEDDSHLEGRDPDIWHVGFKISWDIETPGLAIPLHQGDCYFMLDDLNATHQHCVLAGSQPRFSSTHRVAECSTGTLDYILQRCQLALQNVCDDVDNDDVSLKSFEPAVLKQGEEIHNEVEFEWLRQFWFQGNRYRKCTDWWCQPMAQLEALWKKMEGVTNAVLHEVKREGLPVEQRNEILTAILASLTARQNLRREWHARCQSRIARTLPADQKPECRPYWEKDDASMPLPFDLTDIVSELRGQLLEAKP",
+        "full_sequence": "MKRTPTAEEREREAKKLRLLEELEDTWLPYLTPKDDEFYQQWQLKYPKLILREASSVSEELHKEVQEAFLTLHKHGCLFRDLVRIQGKDLLTPVSRILIGNPGCTYKYLNTRLFTVPWPVKGSNIKHTEAEIAAACETFLKLNDYLQIETIQALEELAAKEKANEDAVPLCMSADFPRVGMGSSYNGQDEVDIKSRAAYNVTLLNFMDPQKMPYLKEEPYFGMGKMAVSWHHDENLVDRSAVAVYSYSCEGPEEESEDDSHLEGRDPDIWHVGFKISWDIETPGLAIPLHQGDCYFMLDDLNATHQHCVLAGSQPRFSSTHRVAECSTGTLDYILQRCQLALQNVCDDVDNDDVSLKSFEPAVLKQGEEIHNEVEFEWLRQFWFQGNRYRKCTDWWCQPMAQLEALWKKMEGVTNAVLHEVKREGLPVEQRNEILTAILASLTARQNLRREWHARCQSRIARTLPADQKPECRPYWEKDDASMPLPFDLTDIVSELRGQLLEAKP",
+        "n_residues": 505,
+        "mutation_pos_1indexed": 163,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "A159-K162-A163",
+        "pocket_lining_positions_precursor": [
+          159,
+          162,
+          163
+        ],
+        "pocket_lining_1letter": "AKA",
+        "sequence_slice_around_pocket": "ALEELAAKEKANEDAVPLCM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FTO_A163T/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "A159",
+          "K162",
+          "A163"
+        ],
+        "values": [
+          [
+            0.0,
+            5.283,
+            6.424
+          ],
+          [
+            5.283,
+            0.0,
+            3.83
+          ],
+          [
+            6.424,
+            3.83,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)c1ccc(OC)c(N2CCCCC2)c1",
+        "composite_score": 0.5453698025654475,
+        "mw": 262.17,
+        "logp": 2.088,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 5,
+        "qed": 0.825,
+        "sa_score": 2.02,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FTO-A163T Candidate #1",
+        "iupac_name": "CNCC(=O)c1ccc(OC)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5454,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FTO_A163T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FTO_A163T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FTO_A163T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FTO_A163T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FTO_A163T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FTO-A163T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FTO-A163T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:37:04.496647+00:00"
     }
   ]
 }
