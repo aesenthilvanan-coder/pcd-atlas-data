@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 126,
+  "total_entries": 127,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44530,
-    "queue_remaining": 134067
+    "total_processed": 44531,
+    "queue_remaining": 134066
   },
   "entries": [
     {
@@ -28609,6 +28609,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:27:29.965296+00:00"
+    },
+    {
+      "entry_id": "PCD-MUSK-V508M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MUSK-V508M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MUSK",
+        "uniprot": "",
+        "clinvar_id": "364610",
+        "disease": "Congenital myasthenic syndrome 9",
+        "mutation_precursor": "V508M",
+        "mutation_mature": "V508M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8157743872251292,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 642.5515358801957,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -7.695574760437012,
+          49.749053955078125,
+          -41.708953857421875
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.370522578736856,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7297327076296575,
+        "cryptic": true,
+        "pocket_residues": {
+          "M501": "M",
+          "S502": "S",
+          "S503": "S",
+          "F504": "F",
+          "A505": "A",
+          "I506": "I",
+          "F507": "F",
+          "V508": "V",
+          "L509": "L",
+          "L510": "L"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15146|MUSK variant V508M",
+        "fasta_sequence": "MRELVNIPLVHILTLVAFSGTEKLPKAPVITTPLETVDALVEEVATFMCAVESYPQPEISWTRNKILIKLFDTRYSIRENGQLLTILSVEDSDDGIYCCTANNGVGGAVESCGALQVKMKPKITRPPINVKIIEGLKAVLPCTTMGNPKPSVSWIKGDSPLRENSRIAVLESGSLRIHNVQKEDAGQYRCVAKNSLGTAYSKVVKLEVEVFARILRAPESHNVTFGSFVTLHCTATGIPVPTITWIENGNAVSSGSIQESVKDRVIDSRLQLFITKPGLYTCIATNKHGEKFSTAKAAATISIAEWSKPQKDNKGYCAQYRGEVCNAVLAKDALVFLNTSYADPEEAQELLVHTAWNELKVVSPVCRPAAEALLCNHIFQECSPGVVPTPIPICREYCLAVKELFCAKEWLVMEEKTHRGLYRSEMHLLSVPECSKLPSMHWDPTACARLPHLDYNKENLKTFPPMTSSKPSVDIPNLPSSSSSSFSVSPTYSMTVIISIMSSFAIFVLLTITTLYCCRRRKQWKNKKRESAAVTLTTLPSELLLDRLHPNPMYQRMPLLLNPKLLSLEYPRNNIEYVRDIGEGAFGRVFQARAPGLLPYEPFTMVAVKMLKEEASADMQADFQREAALMAEFDNPNIVKLLGVCAVGKPMCLLFEYMAYGDLNEFLRSMSPHTVCSLSHSDLSMRAQVSSPGPPPLSCAEQLCIARQVAAGMAYLSERKFVHRDLATRNCLVGENMVVKIADFGLSRNIYSADYYKANENDAIPIRWMPPESIFYNRYTTESDVWAYGVVLWEIFSYGLQPYYGMAHEEVIYYVRDGNILSCPENCPVELYNLMRLCWSKLPADRPSFTSIHRILERMCERAEGTVSV",
+        "full_sequence": "MRELVNIPLVHILTLVAFSGTEKLPKAPVITTPLETVDALVEEVATFMCAVESYPQPEISWTRNKILIKLFDTRYSIRENGQLLTILSVEDSDDGIYCCTANNGVGGAVESCGALQVKMKPKITRPPINVKIIEGLKAVLPCTTMGNPKPSVSWIKGDSPLRENSRIAVLESGSLRIHNVQKEDAGQYRCVAKNSLGTAYSKVVKLEVEVFARILRAPESHNVTFGSFVTLHCTATGIPVPTITWIENGNAVSSGSIQESVKDRVIDSRLQLFITKPGLYTCIATNKHGEKFSTAKAAATISIAEWSKPQKDNKGYCAQYRGEVCNAVLAKDALVFLNTSYADPEEAQELLVHTAWNELKVVSPVCRPAAEALLCNHIFQECSPGVVPTPIPICREYCLAVKELFCAKEWLVMEEKTHRGLYRSEMHLLSVPECSKLPSMHWDPTACARLPHLDYNKENLKTFPPMTSSKPSVDIPNLPSSSSSSFSVSPTYSMTVIISIMSSFAIFVLLTITTLYCCRRRKQWKNKKRESAAVTLTTLPSELLLDRLHPNPMYQRMPLLLNPKLLSLEYPRNNIEYVRDIGEGAFGRVFQARAPGLLPYEPFTMVAVKMLKEEASADMQADFQREAALMAEFDNPNIVKLLGVCAVGKPMCLLFEYMAYGDLNEFLRSMSPHTVCSLSHSDLSMRAQVSSPGPPPLSCAEQLCIARQVAAGMAYLSERKFVHRDLATRNCLVGENMVVKIADFGLSRNIYSADYYKANENDAIPIRWMPPESIFYNRYTTESDVWAYGVVLWEIFSYGLQPYYGMAHEEVIYYVRDGNILSCPENCPVELYNLMRLCWSKLPADRPSFTSIHRILERMCERAEGTVSV",
+        "n_residues": 869,
+        "mutation_pos_1indexed": 508,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "M501-S502-S503-F504-A505-I506-F507-V508-L509-L510",
+        "pocket_lining_positions_precursor": [
+          501,
+          502,
+          503,
+          504,
+          505,
+          506,
+          507,
+          508,
+          509,
+          510
+        ],
+        "pocket_lining_1letter": "MSSFAIFVLL",
+        "sequence_slice_around_pocket": "ISIMSSFAIFVLLTITTLYC"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MUSK_V508M/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "M501",
+          "S502",
+          "S503",
+          "F504",
+          "A505",
+          "I506",
+          "F507",
+          "V508",
+          "L509",
+          "L510"
+        ],
+        "values": [
+          [
+            0.0,
+            3.864,
+            5.588,
+            4.783,
+            5.506,
+            8.276,
+            9.136,
+            9.299,
+            11.248,
+            13.28
+          ],
+          [
+            3.864,
+            0.0,
+            3.864,
+            5.41,
+            4.894,
+            6.196,
+            8.45,
+            9.479,
+            10.201,
+            12.001
+          ],
+          [
+            5.588,
+            3.864,
+            0.0,
+            3.858,
+            5.503,
+            5.058,
+            6.01,
+            8.423,
+            9.617,
+            10.192
+          ],
+          [
+            4.783,
+            5.41,
+            3.858,
+            0.0,
+            3.853,
+            5.232,
+            4.54,
+            5.545,
+            8.013,
+            9.121
+          ],
+          [
+            5.506,
+            4.894,
+            5.503,
+            3.853,
+            0.0,
+            3.861,
+            5.458,
+            4.909,
+            5.813,
+            8.314
+          ],
+          [
+            8.276,
+            6.196,
+            5.058,
+            5.232,
+            3.861,
+            0.0,
+            3.868,
+            5.524,
+            4.955,
+            5.917
+          ],
+          [
+            9.136,
+            8.45,
+            6.01,
+            4.54,
+            5.458,
+            3.868,
+            0.0,
+            3.885,
+            5.419,
+            4.895
+          ],
+          [
+            9.299,
+            9.479,
+            8.423,
+            5.545,
+            4.909,
+            5.524,
+            3.885,
+            0.0,
+            3.852,
+            5.47
+          ],
+          [
+            11.248,
+            10.201,
+            9.617,
+            8.013,
+            5.813,
+            4.955,
+            5.419,
+            3.852,
+            0.0,
+            3.861
+          ],
+          [
+            13.28,
+            12.001,
+            10.192,
+            9.121,
+            8.314,
+            5.917,
+            4.895,
+            5.47,
+            3.861,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CC(=O)CCC2NCNC(=O)c2ccncc2N2CCCCC2)c1",
+        "composite_score": 0.6347718935806314,
+        "mw": 466.27,
+        "logp": 2.012,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 8,
+        "qed": 0.5067,
+        "sa_score": 3.54,
+        "n_heavy_atoms": 34,
+        "tpsa": 112.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MUSK-V508M Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CC(=O)CCC2NCNC(=O)c2ccncc2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.6348,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MUSK_V508M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MUSK_V508M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MUSK_V508M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MUSK_V508M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MUSK_V508M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MUSK-V508M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MUSK-V508M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:28:01.215085+00:00"
     }
   ]
 }
