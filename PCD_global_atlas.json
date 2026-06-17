@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1114,
+  "total_entries": 1115,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45711,
-    "queue_remaining": 132886
+    "total_processed": 45712,
+    "queue_remaining": 132885
   },
   "entries": [
     {
@@ -245409,6 +245409,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:26:14.559231+00:00"
+    },
+    {
+      "entry_id": "PCD-ABCD1-E682Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABCD1-E682Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ABCD1",
+        "uniprot": "",
+        "clinvar_id": "368051",
+        "disease": "Adrenoleukodystrophy",
+        "mutation_precursor": "E682Q",
+        "mutation_mature": "E682Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7224714676127976,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 519.4123550822609,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -41.535160064697266,
+          7.042447090148926,
+          26.2572078704834
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.950691469866999,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7693301178201742,
+        "cryptic": true,
+        "pocket_residues": {
+          "H669": "H",
+          "L670": "L",
+          "L671": "L",
+          "Q672": "Q",
+          "K680": "K",
+          "F681": "F",
+          "E682": "E",
+          "K683": "K",
+          "L684": "L",
+          "D685": "D"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P33897|ABCD1 variant E682Q",
+        "fasta_sequence": "MPVLSRPRPWRGNTLKRTAVLLALAAYGAHKVYPLVRQCLAPARGLQAPAGEPTQEASGVAAAKAGMNRVFLQRLLWLLRLLFPRVLCRETGLLALHSAALVSRTFLSVYVARLDGRLARCIVRKDPRAFGWQLLQWLLIALPATFVNSAIRYLEGQLALSFRSRLVAHAYRLYFSQQTYYRVSNMDGRLRNPDQSLTEDVVAFAASVAHLYSNLTKPLLDVAVTSYTLLRAARSRGAGTAWPSAIAGLVVFLTANVLRAFSPKFGELVAEEARRKGELRYMHSRVVANSEEIAFYGGHEVELALLQRSYQDLASQINLILLERLWYVMLEQFLMKYVWSASGLLMVAVPIITATGYSESDAEAVKKAALEKKEEELVSERTEAFTIARNLLTAAADAIERIMSSYKEVTELAGYTARVHEMFQVFEDVQRCHFKRPRELEDAQAGSGTIGRSGVRVEGPLKIRGQVVDVEQGIICENIPIVTPSGEVVVASLNIRVEEGMHLLITGPNGCGKSSLFRILGGLWPTYGGVLYKPPPQRMFYIPQRPYMSVGSLRDQVIYPDSVEDMQRKGYSEQDLEAILDVVHLHHILQREGGWEAMCDWKDVLSGGEKQRIGMARMFYHRPKYALLDECTSAVSIDVEGKIFQAAKDAGIALLSITHRPSLWKYHTHLLQFDGEGGWKFEKLDSAARLSLTEEKQRLEQQLAGIPKMQRRLQELCQILGEAVAPAHVPAPSPQGPGGLQGAST",
+        "full_sequence": "MPVLSRPRPWRGNTLKRTAVLLALAAYGAHKVYPLVRQCLAPARGLQAPAGEPTQEASGVAAAKAGMNRVFLQRLLWLLRLLFPRVLCRETGLLALHSAALVSRTFLSVYVARLDGRLARCIVRKDPRAFGWQLLQWLLIALPATFVNSAIRYLEGQLALSFRSRLVAHAYRLYFSQQTYYRVSNMDGRLRNPDQSLTEDVVAFAASVAHLYSNLTKPLLDVAVTSYTLLRAARSRGAGTAWPSAIAGLVVFLTANVLRAFSPKFGELVAEEARRKGELRYMHSRVVANSEEIAFYGGHEVELALLQRSYQDLASQINLILLERLWYVMLEQFLMKYVWSASGLLMVAVPIITATGYSESDAEAVKKAALEKKEEELVSERTEAFTIARNLLTAAADAIERIMSSYKEVTELAGYTARVHEMFQVFEDVQRCHFKRPRELEDAQAGSGTIGRSGVRVEGPLKIRGQVVDVEQGIICENIPIVTPSGEVVVASLNIRVEEGMHLLITGPNGCGKSSLFRILGGLWPTYGGVLYKPPPQRMFYIPQRPYMSVGSLRDQVIYPDSVEDMQRKGYSEQDLEAILDVVHLHHILQREGGWEAMCDWKDVLSGGEKQRIGMARMFYHRPKYALLDECTSAVSIDVEGKIFQAAKDAGIALLSITHRPSLWKYHTHLLQFDGEGGWKFEKLDSAARLSLTEEKQRLEQQLAGIPKMQRRLQELCQILGEAVAPAHVPAPSPQGPGGLQGAST",
+        "n_residues": 745,
+        "mutation_pos_1indexed": 682,
+        "wt_aa": "E",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "H669-L670-L671-Q672-K680-F681-E682-K683-L684-D685",
+        "pocket_lining_positions_precursor": [
+          669,
+          670,
+          671,
+          672,
+          680,
+          681,
+          682,
+          683,
+          684,
+          685
+        ],
+        "pocket_lining_1letter": "HLLQKFEKLD",
+        "sequence_slice_around_pocket": "QFDGEGGWKFEKLDSAARLS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ABCD1_E682Q/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "H669",
+          "L670",
+          "L671",
+          "Q672",
+          "K680",
+          "F681",
+          "E682",
+          "K683",
+          "L684",
+          "D685"
+        ],
+        "values": [
+          [
+            0.0,
+            3.826,
+            6.924,
+            9.909,
+            10.568,
+            7.412,
+            5.82,
+            4.292,
+            4.507,
+            8.161
+          ],
+          [
+            3.826,
+            0.0,
+            3.805,
+            6.172,
+            7.863,
+            5.77,
+            5.395,
+            6.058,
+            5.393,
+            9.003
+          ],
+          [
+            6.924,
+            3.805,
+            0.0,
+            3.829,
+            5.738,
+            4.614,
+            6.738,
+            8.94,
+            9.073,
+            12.592
+          ],
+          [
+            9.909,
+            6.172,
+            3.829,
+            0.0,
+            5.158,
+            6.539,
+            8.51,
+            11.123,
+            10.637,
+            13.522
+          ],
+          [
+            10.568,
+            7.863,
+            5.738,
+            5.158,
+            0.0,
+            3.83,
+            6.521,
+            10.225,
+            11.392,
+            14.213
+          ],
+          [
+            7.412,
+            5.77,
+            4.614,
+            6.539,
+            3.83,
+            0.0,
+            3.839,
+            7.291,
+            9.165,
+            12.433
+          ],
+          [
+            5.82,
+            5.395,
+            6.738,
+            8.51,
+            6.521,
+            3.839,
+            0.0,
+            3.83,
+            6.209,
+            9.081
+          ],
+          [
+            4.292,
+            6.058,
+            8.94,
+            11.123,
+            10.225,
+            7.291,
+            3.83,
+            0.0,
+            3.823,
+            6.463
+          ],
+          [
+            4.507,
+            5.393,
+            9.073,
+            10.637,
+            11.392,
+            9.165,
+            6.209,
+            3.823,
+            0.0,
+            3.802
+          ],
+          [
+            8.161,
+            9.003,
+            12.592,
+            13.522,
+            14.213,
+            12.433,
+            9.081,
+            6.463,
+            3.802,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CCCCC1CCCNc1ncnc2[nH]cnc12",
+        "composite_score": 0.7822347905361468,
+        "mw": 380.21,
+        "logp": 2.098,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.5359,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 28,
+        "tpsa": 125.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ABCD1-E682Q Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CCCCC1CCCNc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.7822,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ABCD1_E682Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ABCD1_E682Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ABCD1_E682Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ABCD1_E682Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ABCD1_E682Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABCD1-E682Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABCD1-E682Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:26:44.182517+00:00"
     }
   ]
 }
