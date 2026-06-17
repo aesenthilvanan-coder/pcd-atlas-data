@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 737,
+  "total_entries": 738,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45246,
-    "queue_remaining": 133351
+    "total_processed": 45247,
+    "queue_remaining": 133350
   },
   "entries": [
     {
@@ -162943,6 +162943,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:26:56.907304+00:00"
+    },
+    {
+      "entry_id": "PCD-YARS2-K179Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-YARS2-K179Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "YARS2",
+        "uniprot": "",
+        "clinvar_id": "308461",
+        "disease": "Myopathy, lactic acidosis, and sideroblastic anemia 2",
+        "mutation_precursor": "K179Q",
+        "mutation_mature": "K179Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7412643849985949,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 506.7935442137052,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -10.470746994018555,
+          -24.396291732788086,
+          7.47636079788208
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.948045717940772,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6741078927193641,
+        "cryptic": true,
+        "pocket_residues": {
+          "S174": "S",
+          "A175": "A",
+          "W176": "W",
+          "Y177": "Y",
+          "Q178": "Q",
+          "K179": "K",
+          "Q180": "Q"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y2Z4|YARS2 variant K179Q",
+        "fasta_sequence": "MAAPILRSFSWGRWSGTLNLSVLLPLGLRKAHSGAQGLLAAQKARGLFKDFFPETGTKIELPELFDRGTASFPQTIYCGFDPTADSLHVGHLLALLGLFHLQRAGHNVIALVGGATARLGDPSGRTKEREALETERVRANARALRLGLEALAANHQQLFTDGRSWGSFTVLDNSAWYQKQHLVDFLAAVGGHFRMGTLLSRQSVQLRLKSPEGMSLAEFFYQVLQAYDFYYLFQRYGCRVQLGGSDQLGNIMSGYEFINKLTGEDVFGITVPLITSTTGAKLGKSAGNAVWLNRDKTSPFELYQFFVRQPDDSVERYLKLFTFLPLPEIDHIMQLHVKEPERRGPQKRLAAEVTKLVHGREGLDSAKRCTQALYHSSIDALEVMSDQELKELFKEAPFSEFFLDPGTSVLDTCRKANAIPDGPRGYRMITEGGVSINHQQVTNPESVLIVGQHILKNGLSLLKIGKRNFYIIKWLQL",
+        "full_sequence": "MAAPILRSFSWGRWSGTLNLSVLLPLGLRKAHSGAQGLLAAQKARGLFKDFFPETGTKIELPELFDRGTASFPQTIYCGFDPTADSLHVGHLLALLGLFHLQRAGHNVIALVGGATARLGDPSGRTKEREALETERVRANARALRLGLEALAANHQQLFTDGRSWGSFTVLDNSAWYQKQHLVDFLAAVGGHFRMGTLLSRQSVQLRLKSPEGMSLAEFFYQVLQAYDFYYLFQRYGCRVQLGGSDQLGNIMSGYEFINKLTGEDVFGITVPLITSTTGAKLGKSAGNAVWLNRDKTSPFELYQFFVRQPDDSVERYLKLFTFLPLPEIDHIMQLHVKEPERRGPQKRLAAEVTKLVHGREGLDSAKRCTQALYHSSIDALEVMSDQELKELFKEAPFSEFFLDPGTSVLDTCRKANAIPDGPRGYRMITEGGVSINHQQVTNPESVLIVGQHILKNGLSLLKIGKRNFYIIKWLQL",
+        "n_residues": 477,
+        "mutation_pos_1indexed": 179,
+        "wt_aa": "K",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "S174-A175-W176-Y177-Q178-K179-Q180",
+        "pocket_lining_positions_precursor": [
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180
+        ],
+        "pocket_lining_1letter": "SAWYQKQ",
+        "sequence_slice_around_pocket": "TVLDNSAWYQKQHLVDFLAA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/YARS2_K179Q/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "S174",
+          "A175",
+          "W176",
+          "Y177",
+          "Q178",
+          "K179",
+          "Q180"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            5.549,
+            4.946,
+            5.628,
+            8.67,
+            9.638
+          ],
+          [
+            3.859,
+            0.0,
+            3.866,
+            5.862,
+            5.853,
+            7.526,
+            9.528
+          ],
+          [
+            5.549,
+            3.866,
+            0.0,
+            3.843,
+            5.571,
+            5.698,
+            6.59
+          ],
+          [
+            4.946,
+            5.862,
+            3.843,
+            0.0,
+            3.851,
+            5.307,
+            4.858
+          ],
+          [
+            5.628,
+            5.853,
+            5.571,
+            3.851,
+            0.0,
+            3.862,
+            5.725
+          ],
+          [
+            8.67,
+            7.526,
+            5.698,
+            5.307,
+            3.862,
+            0.0,
+            3.83
+          ],
+          [
+            9.638,
+            9.528,
+            6.59,
+            4.858,
+            5.725,
+            3.83,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(N)c(N2CC(=O)CCC2CCNc2ncnc3[nH]cnc23)c1",
+        "composite_score": 0.6085640488217706,
+        "mw": 381.19,
+        "logp": 1.984,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 6,
+        "qed": 0.5542,
+        "sa_score": 3.44,
+        "n_heavy_atoms": 28,
+        "tpsa": 122.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "YARS2-K179Q Candidate #1",
+        "iupac_name": "COc1ccc(N)c(N2CC(=O)CCC2CCNc2ncnc3[nH]cnc23)c1",
+        "pocket_affinity_score": 0.6086,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/YARS2_K179Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/YARS2_K179Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/YARS2_K179Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/YARS2_K179Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/YARS2_K179Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-YARS2-K179Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-YARS2-K179Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:27:20.352482+00:00"
     }
   ]
 }
