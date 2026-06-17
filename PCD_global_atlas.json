@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 766,
+  "total_entries": 767,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45278,
-    "queue_remaining": 133319
+    "total_processed": 45279,
+    "queue_remaining": 133318
   },
   "entries": [
     {
@@ -168208,6 +168208,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:46:28.469775+00:00"
+    },
+    {
+      "entry_id": "PCD-ADAMTS17-Y661H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ADAMTS17-Y661H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ADAMTS17",
+        "uniprot": "",
+        "clinvar_id": "315275",
+        "disease": "Weill-Marchesani 4 syndrome, recessive",
+        "mutation_precursor": "Y661H",
+        "mutation_mature": "Y661H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8650767813973793,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 376.947306177695,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -33.19673538208008,
+          2.4149093627929688,
+          23.414947509765625
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.256148652832692,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8501912632722578,
+        "cryptic": true,
+        "pocket_residues": {
+          "G659": "G",
+          "P660": "P",
+          "Y661": "Y",
+          "E662": "E",
+          "T663": "T",
+          "D664": "D",
+          "K673": "K",
+          "I674": "I"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8TE56|ADAMTS17 variant Y661H",
+        "fasta_sequence": "MCDGALLPPLVLPVLLLLVWGLDPGTAVGDAAADVEVVLPWRVRPDDVHLPPLPAAPGPRRRRRPRTPPAAPRARPGERALLLHLPAFGRDLYLQLRRDLRFLSRGFEVEEAGAARRRGRPAELCFYSGRVLGHPGSLVSLSACGAAGGLVGLIQLGQEQVLIQPLNNSQGPFSGREHLIRRKWSLTPSPSAEAQRPEQLCKVLTEKKKPTWGRPSRDWRERRNAIRLTSEHTVETLVVADADMVQYHGAEAAQRFILTVMNMVYNMFQHQSLGIKINIQVTKLVLLRQRPAKLSIGHHGERSLESFCHWQNEEYGGARYLGNNQVPGGKDDPPLVDAAVFVTRTDFCVHKDEPCDTVGIAYLGGVCSAKRKCVLAEDNGLNLAFTIAHELGHNLGMNHDDDHSSCAGRSHIMSGEWVKGRNPSDLSWSSCSRDDLENFLKSKVSTCLLVTDPRSQHTVRLPHKLPGMHYSANEQCQILFGMNATFCRNMEHLMCAGLWCLVEGDTSCKTKLDPPLDGTECGADKWCRAGECVSKTPIPEHVDGDWSPWGAWSMCSRTCGTGARFRQRKCDNPPPGPGGTHCPGASVEHAVCENLPCPKGLPSFRDQQCQAHDRLSPKKKGLLTAVVVDDKPCELYCSPLGKESPLLVADRVLDGTPCGPYETDLCVHGKCQKIGCDGIIGSAAKEDRCGVCSGDGKTCHLVKGDFSHARGTALKDSGKGSINSDWKIELPGEFQIAGTTVRYVRRGLWEKISAKGPTKLPLHLMVLLFHDQDYGIHYEYTVPVNRTAENQSEPEKPQDSLFIWTHSGWEGCSVQCGGGERRTIVSCTRIVNKTTTLVNDSDCPQASRPEPQVRRCNLHPCQSRWVAGPWSPCSATCEKGFQHREVTCVYQLQNGTHVATRPLYCPGPRPAAVQSCEGQDCLSIWEASEWSQCSASCGKGVWKRTVACTNSQGKCDASTRPRAEEACEDYSGCYEWKTGDWSTCSSTCGKGLQSRVVQCMHKVTGRHGSECPALSKPAPYRQCYQEVCNDRINANTITSPRLAALTYKCTRDQWTVYCRVIREKNLCQDMRWYQRCCQTCRDFYANKMRQPPPNS",
+        "full_sequence": "MCDGALLPPLVLPVLLLLVWGLDPGTAVGDAAADVEVVLPWRVRPDDVHLPPLPAAPGPRRRRRPRTPPAAPRARPGERALLLHLPAFGRDLYLQLRRDLRFLSRGFEVEEAGAARRRGRPAELCFYSGRVLGHPGSLVSLSACGAAGGLVGLIQLGQEQVLIQPLNNSQGPFSGREHLIRRKWSLTPSPSAEAQRPEQLCKVLTEKKKPTWGRPSRDWRERRNAIRLTSEHTVETLVVADADMVQYHGAEAAQRFILTVMNMVYNMFQHQSLGIKINIQVTKLVLLRQRPAKLSIGHHGERSLESFCHWQNEEYGGARYLGNNQVPGGKDDPPLVDAAVFVTRTDFCVHKDEPCDTVGIAYLGGVCSAKRKCVLAEDNGLNLAFTIAHELGHNLGMNHDDDHSSCAGRSHIMSGEWVKGRNPSDLSWSSCSRDDLENFLKSKVSTCLLVTDPRSQHTVRLPHKLPGMHYSANEQCQILFGMNATFCRNMEHLMCAGLWCLVEGDTSCKTKLDPPLDGTECGADKWCRAGECVSKTPIPEHVDGDWSPWGAWSMCSRTCGTGARFRQRKCDNPPPGPGGTHCPGASVEHAVCENLPCPKGLPSFRDQQCQAHDRLSPKKKGLLTAVVVDDKPCELYCSPLGKESPLLVADRVLDGTPCGPYETDLCVHGKCQKIGCDGIIGSAAKEDRCGVCSGDGKTCHLVKGDFSHARGTALKDSGKGSINSDWKIELPGEFQIAGTTVRYVRRGLWEKISAKGPTKLPLHLMVLLFHDQDYGIHYEYTVPVNRTAENQSEPEKPQDSLFIWTHSGWEGCSVQCGGGERRTIVSCTRIVNKTTTLVNDSDCPQASRPEPQVRRCNLHPCQSRWVAGPWSPCSATCEKGFQHREVTCVYQLQNGTHVATRPLYCPGPRPAAVQSCEGQDCLSIWEASEWSQCSASCGKGVWKRTVACTNSQGKCDASTRPRAEEACEDYSGCYEWKTGDWSTCSSTCGKGLQSRVVQCMHKVTGRHGSECPALSKPAPYRQCYQEVCNDRINANTITSPRLAALTYKCTRDQWTVYCRVIREKNLCQDMRWYQRCCQTCRDFYANKMRQPPPNS",
+        "n_residues": 1095,
+        "mutation_pos_1indexed": 661,
+        "wt_aa": "Y",
+        "mut_aa": "H",
+        "pocket_lining_residues": "G659-P660-Y661-E662-T663-D664-K673-I674",
+        "pocket_lining_positions_precursor": [
+          659,
+          660,
+          661,
+          662,
+          663,
+          664,
+          673,
+          674
+        ],
+        "pocket_lining_1letter": "GPYETDKI",
+        "sequence_slice_around_pocket": "RVLDGTPCGPYETDLCVHGK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ADAMTS17_Y661H/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "G659",
+          "P660",
+          "Y661",
+          "E662",
+          "T663",
+          "D664",
+          "K673",
+          "I674"
+        ],
+        "values": [
+          [
+            0.0,
+            3.89,
+            5.451,
+            4.917,
+            5.555,
+            4.335,
+            7.972,
+            10.186
+          ],
+          [
+            3.89,
+            0.0,
+            3.895,
+            5.88,
+            7.408,
+            7.814,
+            11.205,
+            13.2
+          ],
+          [
+            5.451,
+            3.895,
+            0.0,
+            3.879,
+            5.298,
+            7.58,
+            11.309,
+            12.169
+          ],
+          [
+            4.917,
+            5.88,
+            3.879,
+            0.0,
+            3.909,
+            5.705,
+            10.18,
+            10.682
+          ],
+          [
+            5.555,
+            7.408,
+            5.298,
+            3.909,
+            0.0,
+            3.829,
+            7.262,
+            7.174
+          ],
+          [
+            4.335,
+            7.814,
+            7.58,
+            5.705,
+            3.829,
+            0.0,
+            4.63,
+            6.09
+          ],
+          [
+            7.972,
+            11.205,
+            11.309,
+            10.18,
+            7.262,
+            4.63,
+            0.0,
+            3.802
+          ],
+          [
+            10.186,
+            13.2,
+            12.169,
+            10.682,
+            7.174,
+            6.09,
+            3.802,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.7721513695102937,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ADAMTS17-Y661H Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7722,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ADAMTS17_Y661H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ADAMTS17_Y661H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ADAMTS17_Y661H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ADAMTS17_Y661H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ADAMTS17_Y661H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ADAMTS17-Y661H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ADAMTS17-Y661H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:47:05.710698+00:00"
     }
   ]
 }
