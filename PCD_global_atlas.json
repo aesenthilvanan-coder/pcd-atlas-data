@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 862,
+  "total_entries": 863,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45386,
-    "queue_remaining": 133211
+    "total_processed": 45387,
+    "queue_remaining": 133210
   },
   "entries": [
     {
@@ -189867,6 +189867,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:23:06.571513+00:00"
+    },
+    {
+      "entry_id": "PCD-SUOX-T328I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SUOX-T328I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SUOX",
+        "uniprot": "",
+        "clinvar_id": "309839",
+        "disease": "Sulfite oxidase deficiency",
+        "mutation_precursor": "T328I",
+        "mutation_mature": "T328I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7811798103131623,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 586.3682952482859,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          1.808698058128357,
+          7.120463848114014,
+          -24.705780029296875
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.223349725861871,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8548732971824188,
+        "cryptic": true,
+        "pocket_residues": {
+          "S323": "S",
+          "T326": "T",
+          "G327": "G",
+          "T328": "T",
+          "A329": "A"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P51687|SUOX variant T328I",
+        "fasta_sequence": "MLLLHRAVVLRLQQACRLKSIPSRICIQACSTNDSFQPQRPSLTFSGDNSSTQGWRVMGTLLGLGAVLAYQDHRCRAAQESTHIYTKEEVSSHTSPETGIWVTLGSEVFDVTEFVDLHPGGPSKLMLAAGGPLEPFWALYAVHNQSHVRELLAQYKIGELNPEDKVAPTVETSDPYADDPVRHPALKVNSQRPFNAEPPPELLTENYITPNPIFFTRNHLPVPNLDPDTYRLHVVGAPGGQSLSLSLDDLHNFPRYEITVTLQCAGNRRSEMTQVKEVKGLEWRTGAISTARWAGARLCDVLAQAGHQLCETEAHVCFEGLDSDPTGTAYGASIPLARAMDPEAEVLLAYEMNGQPLPRDHGFPVRVVVPGVVGARHVKWLGRVSVQPEESYSHWQRRDYKGFSPSVDWETVDFDSAPSIQELPVQSAITEPRDGETVESGEVTIKGYAWSGGGRAVIRVDVSLDGGLTWQVAKLDGEEQRPRKAWAWRLWQLKAPVPAGQKELNIVCKAVDDGYNVQPDTVAPIWNLRGVLSNAWHRVHVYVSP",
+        "full_sequence": "MLLLHRAVVLRLQQACRLKSIPSRICIQACSTNDSFQPQRPSLTFSGDNSSTQGWRVMGTLLGLGAVLAYQDHRCRAAQESTHIYTKEEVSSHTSPETGIWVTLGSEVFDVTEFVDLHPGGPSKLMLAAGGPLEPFWALYAVHNQSHVRELLAQYKIGELNPEDKVAPTVETSDPYADDPVRHPALKVNSQRPFNAEPPPELLTENYITPNPIFFTRNHLPVPNLDPDTYRLHVVGAPGGQSLSLSLDDLHNFPRYEITVTLQCAGNRRSEMTQVKEVKGLEWRTGAISTARWAGARLCDVLAQAGHQLCETEAHVCFEGLDSDPTGTAYGASIPLARAMDPEAEVLLAYEMNGQPLPRDHGFPVRVVVPGVVGARHVKWLGRVSVQPEESYSHWQRRDYKGFSPSVDWETVDFDSAPSIQELPVQSAITEPRDGETVESGEVTIKGYAWSGGGRAVIRVDVSLDGGLTWQVAKLDGEEQRPRKAWAWRLWQLKAPVPAGQKELNIVCKAVDDGYNVQPDTVAPIWNLRGVLSNAWHRVHVYVSP",
+        "n_residues": 545,
+        "mutation_pos_1indexed": 328,
+        "wt_aa": "T",
+        "mut_aa": "I",
+        "pocket_lining_residues": "S323-T326-G327-T328-A329",
+        "pocket_lining_positions_precursor": [
+          323,
+          326,
+          327,
+          328,
+          329
+        ],
+        "pocket_lining_1letter": "STGTA",
+        "sequence_slice_around_pocket": "FEGLDSDPTGTAYGASIPLA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SUOX_T328I/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "S323",
+          "T326",
+          "G327",
+          "T328",
+          "A329"
+        ],
+        "values": [
+          [
+            0.0,
+            7.626,
+            5.302,
+            5.082,
+            3.945
+          ],
+          [
+            7.626,
+            0.0,
+            3.845,
+            5.475,
+            8.794
+          ],
+          [
+            5.302,
+            3.845,
+            0.0,
+            3.867,
+            6.072
+          ],
+          [
+            5.082,
+            5.475,
+            3.867,
+            0.0,
+            3.834
+          ],
+          [
+            3.945,
+            8.794,
+            6.072,
+            3.834,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1C(O)CCCC1CNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.5126145473174245,
+        "mw": 402.15,
+        "logp": 1.984,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.6374,
+        "sa_score": 3.43,
+        "n_heavy_atoms": 28,
+        "tpsa": 108.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SUOX-T328I Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1C(O)CCCC1CNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.5126,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SUOX_T328I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SUOX_T328I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SUOX_T328I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SUOX_T328I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SUOX_T328I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SUOX-T328I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SUOX-T328I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:23:31.442068+00:00"
     }
   ]
 }
