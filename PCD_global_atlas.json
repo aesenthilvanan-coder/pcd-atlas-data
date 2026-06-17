@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 738,
+  "total_entries": 739,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45247,
-    "queue_remaining": 133350
+    "total_processed": 45248,
+    "queue_remaining": 133349
   },
   "entries": [
     {
@@ -163125,6 +163125,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:27:20.352482+00:00"
+    },
+    {
+      "entry_id": "PCD-AFG3L2-A265T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AFG3L2-A265T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AFG3L2",
+        "uniprot": "",
+        "clinvar_id": "326107",
+        "disease": "Spinocerebellar ataxia type 28",
+        "mutation_precursor": "A265T",
+        "mutation_mature": "A265T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9358004089337832,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 565.6785072502128,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          51.34767532348633,
+          -5.475536346435547,
+          -7.375948905944824
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.076642366801168,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6219638866106145,
+        "cryptic": true,
+        "pocket_residues": {
+          "V261": "V",
+          "L262": "L",
+          "I263": "I",
+          "I264": "I",
+          "A265": "A",
+          "F266": "F",
+          "L268": "L"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y4W6|AFG3L2 variant A265T",
+        "fasta_sequence": "MAHRCLRLWGRGGCWPRGLQQLLVPGGVGPGEQPCLRTLYRFVTTQARASRNSLLTDIIAAYQRFCSRPPKGFEKYFPNGKNGKKASEPKEVMGEKKESKPAATTRSSGGGGGGGGKRGGKKDDSHWWSRFQKGDIPWDDKDFRMFFLWTALFWGGVMFYLLLKRSGREITWKDFVNNYLSKGVVDRLEVVNKRFVRVTFTPGKTPVDGQYVWFNIGSVDTFERNLETLQQELGIEGENRVPVVYIAESDGSFLLSMLPTVLIIAFLLYTIRRGPAGIGRTGRGMGGLFSVGETTAKVLKDEIDVKFKDVAGCEEAKLEIMEFVNFLKNPKQYQDLGAKIPKGAILTGPPGTGKTLLAKATAGEANVPFITVSGSEFLEMFVGVGPARVRDLFALARKNAPCILFIDEIDAVGRKRGRGNFGGQSEQENTLNQLLVEMDGFNTTTNVVILAGTNRPDILDPALLRPGRFDRQIFIGPPDIKGRASIFKVHLRPLKLDSTLEKDKLARKLASLTPGFSGADVANVCNEAALIAARHLSDSINQKHFEQAIERVIGGLEKKTQVLQPEEKKTVAYHEAGHAVAGWYLEHADPLLKVSIIPRGKGLGYAQYLPKEQYLYTKEQLLDRMCMTLGGRVSEEIFFGRITTGAQDDLRKVTQSAYAQIVQFGMNEKVGQISFDLPRQGDMVLEKPYSEATARLIDDEVRILINDAYKRTVALLTEKKADVEKVALLLLEKEVLDKNDMVELLGPRPFAEKSTYEEFVEGTGSLDEDTSLPEGLKDWNKEREKEKEEPPGEKVAN",
+        "full_sequence": "MAHRCLRLWGRGGCWPRGLQQLLVPGGVGPGEQPCLRTLYRFVTTQARASRNSLLTDIIAAYQRFCSRPPKGFEKYFPNGKNGKKASEPKEVMGEKKESKPAATTRSSGGGGGGGGKRGGKKDDSHWWSRFQKGDIPWDDKDFRMFFLWTALFWGGVMFYLLLKRSGREITWKDFVNNYLSKGVVDRLEVVNKRFVRVTFTPGKTPVDGQYVWFNIGSVDTFERNLETLQQELGIEGENRVPVVYIAESDGSFLLSMLPTVLIIAFLLYTIRRGPAGIGRTGRGMGGLFSVGETTAKVLKDEIDVKFKDVAGCEEAKLEIMEFVNFLKNPKQYQDLGAKIPKGAILTGPPGTGKTLLAKATAGEANVPFITVSGSEFLEMFVGVGPARVRDLFALARKNAPCILFIDEIDAVGRKRGRGNFGGQSEQENTLNQLLVEMDGFNTTTNVVILAGTNRPDILDPALLRPGRFDRQIFIGPPDIKGRASIFKVHLRPLKLDSTLEKDKLARKLASLTPGFSGADVANVCNEAALIAARHLSDSINQKHFEQAIERVIGGLEKKTQVLQPEEKKTVAYHEAGHAVAGWYLEHADPLLKVSIIPRGKGLGYAQYLPKEQYLYTKEQLLDRMCMTLGGRVSEEIFFGRITTGAQDDLRKVTQSAYAQIVQFGMNEKVGQISFDLPRQGDMVLEKPYSEATARLIDDEVRILINDAYKRTVALLTEKKADVEKVALLLLEKEVLDKNDMVELLGPRPFAEKSTYEEFVEGTGSLDEDTSLPEGLKDWNKEREKEKEEPPGEKVAN",
+        "n_residues": 797,
+        "mutation_pos_1indexed": 265,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "V261-L262-I263-I264-A265-F266-L268",
+        "pocket_lining_positions_precursor": [
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          268
+        ],
+        "pocket_lining_1letter": "VLIIAFL",
+        "sequence_slice_around_pocket": "LSMLPTVLIIAFLLYTIRRG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_A265T/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "V261",
+          "L262",
+          "I263",
+          "I264",
+          "A265",
+          "F266",
+          "L268"
+        ],
+        "values": [
+          [
+            0.0,
+            3.863,
+            5.563,
+            5.156,
+            6.039,
+            8.514,
+            10.546
+          ],
+          [
+            3.863,
+            0.0,
+            3.871,
+            5.512,
+            5.048,
+            6.004,
+            9.872
+          ],
+          [
+            5.563,
+            3.871,
+            0.0,
+            3.862,
+            5.521,
+            5.034,
+            8.647
+          ],
+          [
+            5.156,
+            5.512,
+            3.862,
+            0.0,
+            3.853,
+            5.437,
+            6.19
+          ],
+          [
+            6.039,
+            5.048,
+            5.521,
+            3.853,
+            0.0,
+            3.861,
+            5.176
+          ],
+          [
+            8.514,
+            6.004,
+            5.034,
+            5.437,
+            3.861,
+            0.0,
+            5.505
+          ],
+          [
+            10.546,
+            9.872,
+            8.647,
+            6.19,
+            5.176,
+            5.505,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2C(OCNc3nc4ccccc4[nH]3)CCC(=O)C2O)c1",
+        "composite_score": 0.6637248545703853,
+        "mw": 411.19,
+        "logp": 1.93,
+        "hbd": 4,
+        "hba": 8,
+        "rotatable_bonds": 7,
+        "qed": 0.4347,
+        "sa_score": 3.85,
+        "n_heavy_atoms": 30,
+        "tpsa": 125.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AFG3L2-A265T Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2C(OCNc3nc4ccccc4[nH]3)CCC(=O)C2O)c1",
+        "pocket_affinity_score": 0.6637,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_A265T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_A265T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_A265T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_A265T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_A265T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AFG3L2-A265T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AFG3L2-A265T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:27:50.707152+00:00"
     }
   ]
 }
