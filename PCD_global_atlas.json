@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 287,
+  "total_entries": 288,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44716,
-    "queue_remaining": 133881
+    "total_processed": 44717,
+    "queue_remaining": 133880
   },
   "entries": [
     {
@@ -62902,6 +62902,229 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:16:08.134982+00:00"
+    },
+    {
+      "entry_id": "PCD-FANCM-R1456C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCM-R1456C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FANCM",
+        "uniprot": "",
+        "clinvar_id": "313218",
+        "disease": "Fanconi anemia",
+        "mutation_precursor": "R1456C",
+        "mutation_mature": "R1456C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8311548095094474,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 488.3820489979428,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          32.23102951049805,
+          -7.544119834899902,
+          59.431705474853516
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.953598428201907,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7912855441620106,
+        "cryptic": true,
+        "pocket_residues": {
+          "K1454": "K",
+          "K1455": "K",
+          "R1456": "R",
+          "R1457": "R",
+          "F1458": "F",
+          "K1496": "K",
+          "V1497": "V",
+          "P1498": "P",
+          "K1499": "K"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8IYD8|FANCM variant R1456C",
+        "fasta_sequence": "MSGRQRTLFQTWGSSISRSSGTPGCSSGTERPQSPGSSKAPLPAAAEAQLESDDDVLLVAAYEAERQLCLENGGFCTSAGALWIYPTNCPVRDYQLHISRAALFCNTLVCLPTGLGKTFIAAVVMYNFYRWFPSGKVVFMAPTKPLVTQQIEACYQVMGIPQSHMAEMTGSTQASTRKEIWCSKRVLFLTPQVMVNDLSRGACPAAEIKCLVIDEAHKALGNYAYCQVVRELVKYTNHFRILALSATPGSDIKAVQQVITNLLIGQIELRSEDSPDILTYSHERKVEKLIVPLGEELAAIQKTYIQILESFARSLIQRNVLMRRDIPNLTKYQIILARDQFRKNPSPNIVGIQQGIIEGEFAICISLYHGYELLQQMGMRSLYFFLCGIMDGTKGMTRSKNELGRNEDFMKLYNHLECMFARTRSTSANGISAIQQGDKNKKFVYSHPKLKKLEEVVIEHFKSWNAENTTEKKRDETRVMIFSSFRDSVQEIAEMLSQHQPIIRVMTFVGHASGKSTKGFTQKEQLEVVKQFRDGGYNTLVSTCVGEEGLDIGEVDLIICFDSQKSPIRLVQRMGRTGRKRQGRIVIILSEGREERIYNQSQSNKRSIYKAISSNRQVLHFYQRSPRMVPDGINPKLHKMFITHGVYEPEKPSRNLQRKSSIFSYRDGMRQSSLKKDWFLSEEEFKLWNRLYRLRDSDEIKEITLPQVQFSSLQNEENKPAQESTTGIHQLSLSEWRLWQDHPLPTHQVDHSDRCRHFIGLMQMIEGMRHEEGECSYELEVESYLQMEDVTSTFIAPRNESNNLASDTFITHKKSSFIKNINQGSSSSVIESDEECAEIVKQTHIKPTKIVSLKKKVSKEIKKDQLKKENNHGIIDSVDNDRNSTVENIFQEDLPNDKRTSDTDEIAATCTINENVIKEPCVLLTECQFTNKSTSSLAGNVLDSGYNSFNDEKSVSSNLFLPFEEELYIVRTDDQFYNCHSLTKEVLANVERFLSYSPPPLSGLSDLEYEIAKGTALENLLFLPCAEHLRSDKCTCLLSHSAVNSQQNLELNSLKCINYPSEKSCLYDIPNDNISDEPSLCDCDVHKHNQNENLVPNNRVQIHRSPAQNLVGENNHDVDNSDLPVLSTDQDESLLLFEDVNTEFDDVSLSPLNSKSESLPVSDKTAISETPLVSQFLISDELLLDNNSELQDQITRDANSFKSRDQRGVQEEKVKNHEDIFDCSRDLFSVTFDLGFCSPDSDDEILEHTSDSNRPLDDLYGRYLEIKEISDANYVSNQALIPRDHSKNFTSGTVIIPSNEDMQNPNYVHLPLSAAKNEELLSPGYSQFSLPVQKKVMSTPLSKSNTLNSFSKIRKEILKTPDSSKEKVNLQRFKEALNSTFDYSEFSLEKSKSSGPMYLHKSCHSVEDGQLLTSNESEDDEIFRRKVKRAKGNVLNSPEDQKNSEVDSPLHAVKKRRFPINRSELSSSDESENFPKPCSQLEDFKVCNGNARRGIKVPKRQSHLKHVARKFLDDEAELSEEDAEYVSSDENDESENEQDSSLLDFLNDETQLSQAINDSEMRAIYMKSLRSPMMNNKYKMIHKTHKNINIFSQIPEQDETYLEDSFCVDEEESCKGQSSEEEVCVDFNLITDDCFANSKKYKTRRAVMLKEMMEQNCAHSKKKLSRIILPDDSSEEENNVNDKRESNIAVNPSTVKKNKQQDHCLNSVPSGSSAQSKVRSTPRVNPLAKQSKQTSLNLKDTISEVSDFKPQNHNEVQSTTPPFTTVDSQKDCRKFPVPQKDGSALEDSSTSGASCSKSRPHLAGTHTSLRLPQEGKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSMFERICVIVEKDREKTGDTSRMFRRTKSYDSLLTTLIGAGIRILFSSCQEETADLLKELSLVEQRKNVGIHVPTVVNSNKSEALQFYLSIPNISYITALNMCHQFSSVKRMANSSLQEISMYAQVTHQKAEEIYRYIHYVFDIQMLPNDLNQDRLKSDI",
+        "full_sequence": "MSGRQRTLFQTWGSSISRSSGTPGCSSGTERPQSPGSSKAPLPAAAEAQLESDDDVLLVAAYEAERQLCLENGGFCTSAGALWIYPTNCPVRDYQLHISRAALFCNTLVCLPTGLGKTFIAAVVMYNFYRWFPSGKVVFMAPTKPLVTQQIEACYQVMGIPQSHMAEMTGSTQASTRKEIWCSKRVLFLTPQVMVNDLSRGACPAAEIKCLVIDEAHKALGNYAYCQVVRELVKYTNHFRILALSATPGSDIKAVQQVITNLLIGQIELRSEDSPDILTYSHERKVEKLIVPLGEELAAIQKTYIQILESFARSLIQRNVLMRRDIPNLTKYQIILARDQFRKNPSPNIVGIQQGIIEGEFAICISLYHGYELLQQMGMRSLYFFLCGIMDGTKGMTRSKNELGRNEDFMKLYNHLECMFARTRSTSANGISAIQQGDKNKKFVYSHPKLKKLEEVVIEHFKSWNAENTTEKKRDETRVMIFSSFRDSVQEIAEMLSQHQPIIRVMTFVGHASGKSTKGFTQKEQLEVVKQFRDGGYNTLVSTCVGEEGLDIGEVDLIICFDSQKSPIRLVQRMGRTGRKRQGRIVIILSEGREERIYNQSQSNKRSIYKAISSNRQVLHFYQRSPRMVPDGINPKLHKMFITHGVYEPEKPSRNLQRKSSIFSYRDGMRQSSLKKDWFLSEEEFKLWNRLYRLRDSDEIKEITLPQVQFSSLQNEENKPAQESTTGIHQLSLSEWRLWQDHPLPTHQVDHSDRCRHFIGLMQMIEGMRHEEGECSYELEVESYLQMEDVTSTFIAPRNESNNLASDTFITHKKSSFIKNINQGSSSSVIESDEECAEIVKQTHIKPTKIVSLKKKVSKEIKKDQLKKENNHGIIDSVDNDRNSTVENIFQEDLPNDKRTSDTDEIAATCTINENVIKEPCVLLTECQFTNKSTSSLAGNVLDSGYNSFNDEKSVSSNLFLPFEEELYIVRTDDQFYNCHSLTKEVLANVERFLSYSPPPLSGLSDLEYEIAKGTALENLLFLPCAEHLRSDKCTCLLSHSAVNSQQNLELNSLKCINYPSEKSCLYDIPNDNISDEPSLCDCDVHKHNQNENLVPNNRVQIHRSPAQNLVGENNHDVDNSDLPVLSTDQDESLLLFEDVNTEFDDVSLSPLNSKSESLPVSDKTAISETPLVSQFLISDELLLDNNSELQDQITRDANSFKSRDQRGVQEEKVKNHEDIFDCSRDLFSVTFDLGFCSPDSDDEILEHTSDSNRPLDDLYGRYLEIKEISDANYVSNQALIPRDHSKNFTSGTVIIPSNEDMQNPNYVHLPLSAAKNEELLSPGYSQFSLPVQKKVMSTPLSKSNTLNSFSKIRKEILKTPDSSKEKVNLQRFKEALNSTFDYSEFSLEKSKSSGPMYLHKSCHSVEDGQLLTSNESEDDEIFRRKVKRAKGNVLNSPEDQKNSEVDSPLHAVKKRRFPINRSELSSSDESENFPKPCSQLEDFKVCNGNARRGIKVPKRQSHLKHVARKFLDDEAELSEEDAEYVSSDENDESENEQDSSLLDFLNDETQLSQAINDSEMRAIYMKSLRSPMMNNKYKMIHKTHKNINIFSQIPEQDETYLEDSFCVDEEESCKGQSSEEEVCVDFNLITDDCFANSKKYKTRRAVMLKEMMEQNCAHSKKKLSRIILPDDSSEEENNVNDKRESNIAVNPSTVKKNKQQDHCLNSVPSGSSAQSKVRSTPRVNPLAKQSKQTSLNLKDTISEVSDFKPQNHNEVQSTTPPFTTVDSQKDCRKFPVPQKDGSALEDSSTSGASCSKSRPHLAGTHTSLRLPQEGKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSMFERICVIVEKDREKTGDTSRMFRRTKSYDSLLTTLIGAGIRILFSSCQEETADLLKELSLVEQRKNVGIHVPTVVNSNKSEALQFYLSIPNISYITALNMCHQFSSVKRMANSSLQEISMYAQVTHQKAEEIYRYIHYVFDIQMLPNDLNQDRLKSDI",
+        "n_residues": 2048,
+        "mutation_pos_1indexed": 1456,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "K1454-K1455-R1456-R1457-F1458-K1496-V1497-P1498-K1499",
+        "pocket_lining_positions_precursor": [
+          1454,
+          1455,
+          1456,
+          1457,
+          1458,
+          1496,
+          1497,
+          1498,
+          1499
+        ],
+        "pocket_lining_1letter": "KKRRFKVPK",
+        "sequence_slice_around_pocket": "VDSPLHAVKKRRFPINRSEL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_R1456C/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "K1454",
+          "K1455",
+          "R1456",
+          "R1457",
+          "F1458",
+          "K1496",
+          "V1497",
+          "P1498",
+          "K1499"
+        ],
+        "values": [
+          [
+            0.0,
+            3.967,
+            7.549,
+            10.892,
+            14.41,
+            9.181,
+            9.31,
+            12.003,
+            12.803
+          ],
+          [
+            3.967,
+            0.0,
+            3.654,
+            6.965,
+            10.563,
+            6.826,
+            6.283,
+            8.971,
+            9.939
+          ],
+          [
+            7.549,
+            3.654,
+            0.0,
+            3.75,
+            7.508,
+            5.902,
+            5.141,
+            7.683,
+            9.069
+          ],
+          [
+            10.892,
+            6.965,
+            3.75,
+            0.0,
+            3.763,
+            6.712,
+            4.65,
+            5.616,
+            7.149
+          ],
+          [
+            14.41,
+            10.563,
+            7.508,
+            3.763,
+            0.0,
+            8.962,
+            6.545,
+            5.517,
+            6.922
+          ],
+          [
+            9.181,
+            6.826,
+            5.902,
+            6.712,
+            8.962,
+            0.0,
+            3.899,
+            7.483,
+            10.779
+          ],
+          [
+            9.31,
+            6.283,
+            5.141,
+            4.65,
+            6.545,
+            3.899,
+            0.0,
+            3.767,
+            6.884
+          ],
+          [
+            12.003,
+            8.971,
+            7.683,
+            5.616,
+            5.517,
+            7.483,
+            3.767,
+            0.0,
+            3.9
+          ],
+          [
+            12.803,
+            9.939,
+            9.069,
+            7.149,
+            6.922,
+            10.779,
+            6.884,
+            3.9,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)c(CNc2ccncc2N2CC(=O)CC(=O)C2)c1",
+        "composite_score": 0.5395437752235311,
+        "mw": 354.17,
+        "logp": 2.092,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.7686,
+        "sa_score": 2.76,
+        "n_heavy_atoms": 26,
+        "tpsa": 83.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FANCM-R1456C Candidate #1",
+        "iupac_name": "CNc1ccc(OC)c(CNc2ccncc2N2CC(=O)CC(=O)C2)c1",
+        "pocket_affinity_score": 0.5395,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_R1456C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_R1456C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_R1456C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_R1456C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FANCM_R1456C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCM-R1456C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FANCM-R1456C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:17:44.066480+00:00"
     }
   ]
 }
