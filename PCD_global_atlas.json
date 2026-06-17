@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1420,
+  "total_entries": 1421,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46059,
-    "queue_remaining": 132538
+    "total_processed": 46060,
+    "queue_remaining": 132537
   },
   "entries": [
     {
@@ -314124,6 +314124,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:34:42.529492+00:00"
+    },
+    {
+      "entry_id": "PCD-COL9A3-Q420E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-Q420E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COL9A3",
+        "uniprot": "",
+        "clinvar_id": "339288",
+        "disease": "not provided",
+        "mutation_precursor": "Q420E",
+        "mutation_mature": "Q420E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8302239949949829,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 409.6289354650713,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -33.08783721923828,
+          16.600847244262695,
+          -29.44736671447754
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.4402045737879225,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.662481015667296,
+        "cryptic": true,
+        "pocket_residues": {
+          "P417": "P",
+          "G418": "G",
+          "P419": "P",
+          "Q420": "Q",
+          "G421": "G",
+          "L422": "L",
+          "R423": "R"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q14050|COL9A3 variant Q420E",
+        "fasta_sequence": "MAGPRACAPLLLLLLLGELLAAAGAQRVGLPGPPGPPGPPGKPGQDGIDGEAGPPGLPGPPGPKGAPGKPGKPGEAGLPGLPGVDGLTGRDGPPGPKGAPGERGSLGPPGPPGLGGKGLPGPPGEAGVSGPPGGIGLRGPPGPSGLPGLPGPPGPPGPPGHPGVLPEGATDLQCPSICPPGPPGPPGMPGFKGPTGYKGEQGEVGKDGEKGDPGPPGPAGLPGSVGLQGPRGLRGLPGPLGPPGDRGPIGFRGPPGIPGAPGKAGDRGERGPEGFRGPKGDLGRPGPKGTPGVAGPSGEPGMPGKDGQNGVPGLDGQKGEAGRNGAPGEKGPNGLPGLPGRAGSKGEKGERGRAGELGEAGPSGEPGVPGDAGMPGERGEAGHRGSAGALGPQGPPGAPGVRGFQGQKGSMGDPGLPGPQGLRGDVGDRGPGGAAGPKGDQGIAGSDGLPGDKGELGPSGLVGPKGESGSRGELGPKGTQGPNGTSGVQGVPGPPGPLGLQGVPGVPGITGKPGVPGKEASEQRIRELCGGMISEQIAQLAAHLRKPLAPGSIGRPGPAGPPGPPGPPGSIGHPGARGPPGYRGPTGELGDPGPRGNQGDRGDKGAAGAGLDGPEGDQGPQGPQGVPGTSKDGQDGAPGEPGPPGDPGLPGAIGAQGTPGICDTSACQGAVLGGVGEKSGSRSS",
+        "full_sequence": "MAGPRACAPLLLLLLLGELLAAAGAQRVGLPGPPGPPGPPGKPGQDGIDGEAGPPGLPGPPGPKGAPGKPGKPGEAGLPGLPGVDGLTGRDGPPGPKGAPGERGSLGPPGPPGLGGKGLPGPPGEAGVSGPPGGIGLRGPPGPSGLPGLPGPPGPPGPPGHPGVLPEGATDLQCPSICPPGPPGPPGMPGFKGPTGYKGEQGEVGKDGEKGDPGPPGPAGLPGSVGLQGPRGLRGLPGPLGPPGDRGPIGFRGPPGIPGAPGKAGDRGERGPEGFRGPKGDLGRPGPKGTPGVAGPSGEPGMPGKDGQNGVPGLDGQKGEAGRNGAPGEKGPNGLPGLPGRAGSKGEKGERGRAGELGEAGPSGEPGVPGDAGMPGERGEAGHRGSAGALGPQGPPGAPGVRGFQGQKGSMGDPGLPGPQGLRGDVGDRGPGGAAGPKGDQGIAGSDGLPGDKGELGPSGLVGPKGESGSRGELGPKGTQGPNGTSGVQGVPGPPGPLGLQGVPGVPGITGKPGVPGKEASEQRIRELCGGMISEQIAQLAAHLRKPLAPGSIGRPGPAGPPGPPGPPGSIGHPGARGPPGYRGPTGELGDPGPRGNQGDRGDKGAAGAGLDGPEGDQGPQGPQGVPGTSKDGQDGAPGEPGPPGDPGLPGAIGAQGTPGICDTSACQGAVLGGVGEKSGSRSS",
+        "n_residues": 684,
+        "mutation_pos_1indexed": 420,
+        "wt_aa": "Q",
+        "mut_aa": "E",
+        "pocket_lining_residues": "P417-G418-P419-Q420-G421-L422-R423",
+        "pocket_lining_positions_precursor": [
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423
+        ],
+        "pocket_lining_1letter": "PGPQGLR",
+        "sequence_slice_around_pocket": "SMGDPGLPGPQGLRGDVGDR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_Q420E/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "P417",
+          "G418",
+          "P419",
+          "Q420",
+          "G421",
+          "L422",
+          "R423"
+        ],
+        "values": [
+          [
+            0.0,
+            3.819,
+            6.288,
+            7.775,
+            10.626,
+            13.774,
+            15.991
+          ],
+          [
+            3.819,
+            0.0,
+            3.848,
+            6.156,
+            7.931,
+            11.134,
+            13.819
+          ],
+          [
+            6.288,
+            3.848,
+            0.0,
+            3.823,
+            5.814,
+            8.134,
+            11.11
+          ],
+          [
+            7.775,
+            6.156,
+            3.823,
+            0.0,
+            3.802,
+            6.354,
+            8.273
+          ],
+          [
+            10.626,
+            7.931,
+            5.814,
+            3.802,
+            0.0,
+            3.822,
+            6.087
+          ],
+          [
+            13.774,
+            11.134,
+            8.134,
+            6.354,
+            3.822,
+            0.0,
+            3.825
+          ],
+          [
+            15.991,
+            13.819,
+            11.11,
+            8.273,
+            6.087,
+            3.825,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCCc1ccc(OC)c(N2CCCC(=O)C2)c1",
+        "composite_score": 0.5505160430815801,
+        "mw": 276.18,
+        "logp": 2.016,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 6,
+        "qed": 0.8072,
+        "sa_score": 2.28,
+        "n_heavy_atoms": 20,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COL9A3-Q420E Candidate #1",
+        "iupac_name": "CNCCCc1ccc(OC)c(N2CCCC(=O)C2)c1",
+        "pocket_affinity_score": 0.5505,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_Q420E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_Q420E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_Q420E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_Q420E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_Q420E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-Q420E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-Q420E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:35:09.302124+00:00"
     }
   ]
 }
