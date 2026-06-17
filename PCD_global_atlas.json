@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 35,
+  "total_entries": 36,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44417,
-    "queue_remaining": 134180
+    "total_processed": 44418,
+    "queue_remaining": 134179
   },
   "entries": [
     {
@@ -8269,6 +8269,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:05:26.008926+00:00"
+    },
+    {
+      "entry_id": "PCD-FGFR1-V248M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGFR1-V248M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FGFR1",
+        "uniprot": "",
+        "clinvar_id": "362899",
+        "disease": "Craniosynostosis syndrome",
+        "mutation_precursor": "V248M",
+        "mutation_mature": "V248M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.841235285080243,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 487.41449292379906,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.4135488271713257,
+          15.485174179077148,
+          2.995135545730591
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.9812354031086294,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7568176987766247,
+        "cryptic": true,
+        "pocket_residues": {
+          "P169": "P",
+          "A170": "A",
+          "P222": "P",
+          "V247": "V",
+          "V248": "V",
+          "E249": "E",
+          "R250": "R"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P11362|FGFR1 variant V248M",
+        "fasta_sequence": "MWSWKCLLFWAVLVTATLCTARPSPTLPEQAQPWGAPVEVESFLVHPGDLLQLRCRLRDDVQSINWLRDGVQLAESNRTRITGEEVEVQDSVPADSGLYACVTSSPSGSDTTYFSVNVSDALPSSEDDDDDDDSSSEEKETDNTKPNRMPVAPYWTSPEKMEKKLHAVPAAKTVKFKCPSSGTPNPTLRWLKNGKEFKPDHRIGGYKVRYATWSIIMDSVVPSDKGNYTCIVENEYGSINHTYQLDVVERSPHRPILQAGLPANKTVALGSNVEFMCKVYSDPQPHIQWLKHIEVNGSKIGPDNLPYVQILKTAGVNTTDKEMEVLHLRNVSFEDAGEYTCLAGNSIGLSHHSAWLTVLEALEERPAVMTSPLYLEIIIYCTGAFLISCMVGSVIVYKMKSGTKKSDFHSQMAVHKLAKSIPLRRQVTVSADSSASMNSGVLLVRPSRLSSSGTPMLAGVSEYELPEDPRWELPRDRLVLGKPLGEGCFGQVVLAEAIGLDKDKPNRVTKVAVKMLKSDATEKDLSDLISEMEMMKMIGKHKNIINLLGACTQDGPLYVIVEYASKGNLREYLQARRPPGLEYCYNPSHNPEEQLSSKDLVSCAYQVARGMEYLASKKCIHRDLAARNVLVTEDNVMKIADFGLARDIHHIDYYKKTTNGRLPVKWMAPEALFDRIYTHQSDVWSFGVLLWEIFTLGGSPYPGVPVEELFKLLKEGHRMDKPSNCTNELYMMMRDCWHAVPSQRPTFKQLVEDLDRIVALTSNQEYLDLSMPLDQYSPSFPDTRSSTCSSGEDSVFSHEPLPEEPCLPRHPAQLANGGLKRR",
+        "full_sequence": "MWSWKCLLFWAVLVTATLCTARPSPTLPEQAQPWGAPVEVESFLVHPGDLLQLRCRLRDDVQSINWLRDGVQLAESNRTRITGEEVEVQDSVPADSGLYACVTSSPSGSDTTYFSVNVSDALPSSEDDDDDDDSSSEEKETDNTKPNRMPVAPYWTSPEKMEKKLHAVPAAKTVKFKCPSSGTPNPTLRWLKNGKEFKPDHRIGGYKVRYATWSIIMDSVVPSDKGNYTCIVENEYGSINHTYQLDVVERSPHRPILQAGLPANKTVALGSNVEFMCKVYSDPQPHIQWLKHIEVNGSKIGPDNLPYVQILKTAGVNTTDKEMEVLHLRNVSFEDAGEYTCLAGNSIGLSHHSAWLTVLEALEERPAVMTSPLYLEIIIYCTGAFLISCMVGSVIVYKMKSGTKKSDFHSQMAVHKLAKSIPLRRQVTVSADSSASMNSGVLLVRPSRLSSSGTPMLAGVSEYELPEDPRWELPRDRLVLGKPLGEGCFGQVVLAEAIGLDKDKPNRVTKVAVKMLKSDATEKDLSDLISEMEMMKMIGKHKNIINLLGACTQDGPLYVIVEYASKGNLREYLQARRPPGLEYCYNPSHNPEEQLSSKDLVSCAYQVARGMEYLASKKCIHRDLAARNVLVTEDNVMKIADFGLARDIHHIDYYKKTTNGRLPVKWMAPEALFDRIYTHQSDVWSFGVLLWEIFTLGGSPYPGVPVEELFKLLKEGHRMDKPSNCTNELYMMMRDCWHAVPSQRPTFKQLVEDLDRIVALTSNQEYLDLSMPLDQYSPSFPDTRSSTCSSGEDSVFSHEPLPEEPCLPRHPAQLANGGLKRR",
+        "n_residues": 822,
+        "mutation_pos_1indexed": 248,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "P169-A170-P222-V247-V248-E249-R250",
+        "pocket_lining_positions_precursor": [
+          169,
+          170,
+          222,
+          247,
+          248,
+          249,
+          250
+        ],
+        "pocket_lining_1letter": "PAPVVER",
+        "sequence_slice_around_pocket": "SINHTYQLDVVERSPHRPIL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FGFR1_V248M/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "P169",
+          "A170",
+          "P222",
+          "V247",
+          "V248",
+          "E249",
+          "R250"
+        ],
+        "values": [
+          [
+            0.0,
+            3.818,
+            8.98,
+            5.575,
+            4.69,
+            5.589,
+            5.22
+          ],
+          [
+            3.818,
+            0.0,
+            6.614,
+            5.772,
+            6.142,
+            5.847,
+            6.246
+          ],
+          [
+            8.98,
+            6.614,
+            0.0,
+            5.303,
+            7.403,
+            8.044,
+            10.949
+          ],
+          [
+            5.575,
+            5.772,
+            5.303,
+            0.0,
+            3.82,
+            6.73,
+            9.143
+          ],
+          [
+            4.69,
+            6.142,
+            7.403,
+            3.82,
+            0.0,
+            3.81,
+            6.368
+          ],
+          [
+            5.589,
+            5.847,
+            8.044,
+            6.73,
+            3.81,
+            0.0,
+            3.853
+          ],
+          [
+            5.22,
+            6.246,
+            10.949,
+            9.143,
+            6.368,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)c(OCCNCCCc2ncnc3[nH]cnc23)c1",
+        "composite_score": 0.8413716175036947,
+        "mw": 356.2,
+        "logp": 2.004,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 10,
+        "qed": 0.4781,
+        "sa_score": 2.71,
+        "n_heavy_atoms": 26,
+        "tpsa": 97.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FGFR1-V248M Candidate #1",
+        "iupac_name": "CNc1ccc(OC)c(OCCNCCCc2ncnc3[nH]cnc23)c1",
+        "pocket_affinity_score": 0.8414,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FGFR1_V248M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FGFR1_V248M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FGFR1_V248M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FGFR1_V248M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FGFR1_V248M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGFR1-V248M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGFR1-V248M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:05:56.016333+00:00"
     }
   ]
 }
