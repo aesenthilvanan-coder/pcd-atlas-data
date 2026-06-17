@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1401,
+  "total_entries": 1402,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46040,
-    "queue_remaining": 132557
+    "total_processed": 46041,
+    "queue_remaining": 132556
   },
   "entries": [
     {
@@ -310591,6 +310591,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:19:52.549620+00:00"
+    },
+    {
+      "entry_id": "PCD-PROKR2-Y113H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PROKR2-Y113H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PROKR2",
+        "uniprot": "",
+        "clinvar_id": "338862",
+        "disease": "Hypogonadotropic hypogonadism 3 with or without anosmia",
+        "mutation_precursor": "Y113H",
+        "mutation_mature": "Y113H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8891732576362539,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 560.4657269907486,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          13.011970520019531,
+          -1.5389072895050049,
+          -10.831361770629883
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.791619286856384,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8067858746085825,
+        "cryptic": true,
+        "pocket_residues": {
+          "E110": "E",
+          "Y113": "Y",
+          "Y114": "Y",
+          "L119": "L",
+          "F207": "F",
+          "C208": "C",
+          "Y316": "Y"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NFJ6|PROKR2 variant Y113H",
+        "fasta_sequence": "MAAQNGNTSFTPNFNPPQDHASSLSFNFSYGDYDLPMDEDEDMTKTRTFFAAKIVIGIALAGIMLVCGIGNFVFIAALTRYKKLRNLTNLLIANLAISDFLVAIICCPFEMDYYVVRQLSWEHGHVLCASVNYLRTVSLYVSTNALLAIAIDRYLAIVHPLKPRMNYQTASFLIALVWMVSILIAIPSAYFATETVLFIVKSQEKIFCGQIWPVDQQLYYKSYFLFIFGVEFVGPVVTMTLCYARISRELWFKAVPGFQTEQIRKRLRCRRKTVLVLMCILTAYVLCWAPFYGFTIVRDFFPTVFVKEKHYLTAFYVVECIAMSNSMINTVCFVTVKNNTMKYFKKMMLLHWRPSQRGSKSSADLDLRTNGVPTTEEVDCIRLK",
+        "full_sequence": "MAAQNGNTSFTPNFNPPQDHASSLSFNFSYGDYDLPMDEDEDMTKTRTFFAAKIVIGIALAGIMLVCGIGNFVFIAALTRYKKLRNLTNLLIANLAISDFLVAIICCPFEMDYYVVRQLSWEHGHVLCASVNYLRTVSLYVSTNALLAIAIDRYLAIVHPLKPRMNYQTASFLIALVWMVSILIAIPSAYFATETVLFIVKSQEKIFCGQIWPVDQQLYYKSYFLFIFGVEFVGPVVTMTLCYARISRELWFKAVPGFQTEQIRKRLRCRRKTVLVLMCILTAYVLCWAPFYGFTIVRDFFPTVFVKEKHYLTAFYVVECIAMSNSMINTVCFVTVKNNTMKYFKKMMLLHWRPSQRGSKSSADLDLRTNGVPTTEEVDCIRLK",
+        "n_residues": 384,
+        "mutation_pos_1indexed": 113,
+        "wt_aa": "Y",
+        "mut_aa": "H",
+        "pocket_lining_residues": "E110-Y113-Y114-L119-F207-C208-Y316",
+        "pocket_lining_positions_precursor": [
+          110,
+          113,
+          114,
+          119,
+          207,
+          208,
+          316
+        ],
+        "pocket_lining_1letter": "EYYLFCY",
+        "sequence_slice_around_pocket": "AIICCPFEMDYYVVRQLSWE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_Y113H/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "E110",
+          "Y113",
+          "Y114",
+          "L119",
+          "F207",
+          "C208",
+          "Y316"
+        ],
+        "values": [
+          [
+            0.0,
+            4.947,
+            5.902,
+            9.417,
+            11.724,
+            10.049,
+            12.808
+          ],
+          [
+            4.947,
+            0.0,
+            3.854,
+            5.365,
+            8.981,
+            8.788,
+            13.516
+          ],
+          [
+            5.902,
+            3.854,
+            0.0,
+            5.02,
+            10.283,
+            10.653,
+            10.33
+          ],
+          [
+            9.417,
+            5.365,
+            5.02,
+            0.0,
+            6.677,
+            8.689,
+            12.043
+          ],
+          [
+            11.724,
+            8.981,
+            10.283,
+            6.677,
+            0.0,
+            3.822,
+            14.67
+          ],
+          [
+            10.049,
+            8.788,
+            10.653,
+            8.689,
+            3.822,
+            0.0,
+            14.986
+          ],
+          [
+            12.808,
+            13.516,
+            10.33,
+            12.043,
+            14.67,
+            14.986,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CC(=O)CCC1CNCCc1c[nH]c2ccccc12",
+        "composite_score": 0.8685056495505628,
+        "mw": 391.2,
+        "logp": 2.032,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 7,
+        "qed": 0.5348,
+        "sa_score": 3.2,
+        "n_heavy_atoms": 29,
+        "tpsa": 104.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PROKR2-Y113H Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CC(=O)CCC1CNCCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8685,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_Y113H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_Y113H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_Y113H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_Y113H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_Y113H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PROKR2-Y113H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PROKR2-Y113H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:20:15.949941+00:00"
     }
   ]
 }
