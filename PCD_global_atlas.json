@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1315,
+  "total_entries": 1316,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45931,
-    "queue_remaining": 132666
+    "total_processed": 45933,
+    "queue_remaining": 132664
   },
   "entries": [
     {
@@ -291315,6 +291315,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:15:20.382151+00:00"
+    },
+    {
+      "entry_id": "PCD-PIGL-G149A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PIGL-G149A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PIGL",
+        "uniprot": "",
+        "clinvar_id": "321988",
+        "disease": "CHIME syndrome",
+        "mutation_precursor": "G149A",
+        "mutation_mature": "G149A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7262317123514033,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 628.259089700159,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          1.9417071342468262,
+          -14.648332595825195,
+          -3.2581214904785156
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.726914030683067,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8005175134702535,
+        "cryptic": true,
+        "pocket_residues": {
+          "A148": "A",
+          "G149": "G",
+          "G150": "G",
+          "G153": "G",
+          "H154": "H",
+          "S155": "S",
+          "I158": "I"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y2B2|PIGL variant G149A",
+        "fasta_sequence": "MEAMWLLCVALAVLAWGFLWVWDSSERMKSREQGGRLGAESRTLLVIAHPDDEAMFFAPTVLGLARLRHWVYLLCFSAGNYYNQGETRKKELLQSCDVLGIPLSSVMIIDNRDFPDDPGMQWDTEHVARVLLQHIEVNGINLVVTFDAGGVSGHSNHIALYAAVRALHSEGKLPKGCSVLTLQSVNVLRKYISLLDLPLSLLHTQDVLFVLNSKEVAQAKKAMSCHRSQLLWFRRLYIIFSRYMRINSLSFL",
+        "full_sequence": "MEAMWLLCVALAVLAWGFLWVWDSSERMKSREQGGRLGAESRTLLVIAHPDDEAMFFAPTVLGLARLRHWVYLLCFSAGNYYNQGETRKKELLQSCDVLGIPLSSVMIIDNRDFPDDPGMQWDTEHVARVLLQHIEVNGINLVVTFDAGGVSGHSNHIALYAAVRALHSEGKLPKGCSVLTLQSVNVLRKYISLLDLPLSLLHTQDVLFVLNSKEVAQAKKAMSCHRSQLLWFRRLYIIFSRYMRINSLSFL",
+        "n_residues": 252,
+        "mutation_pos_1indexed": 149,
+        "wt_aa": "G",
+        "mut_aa": "A",
+        "pocket_lining_residues": "A148-G149-G150-G153-H154-S155-I158",
+        "pocket_lining_positions_precursor": [
+          148,
+          149,
+          150,
+          153,
+          154,
+          155,
+          158
+        ],
+        "pocket_lining_1letter": "AGGGHSI",
+        "sequence_slice_around_pocket": "GINLVVTFDAGGVSGHSNHI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PIGL_G149A/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "A148",
+          "G149",
+          "G150",
+          "G153",
+          "H154",
+          "S155",
+          "I158"
+        ],
+        "values": [
+          [
+            0.0,
+            3.854,
+            5.691,
+            8.217,
+            9.804,
+            9.968,
+            5.576
+          ],
+          [
+            3.854,
+            0.0,
+            3.859,
+            5.273,
+            7.776,
+            9.258,
+            6.485
+          ],
+          [
+            5.691,
+            3.859,
+            0.0,
+            4.872,
+            5.295,
+            7.267,
+            4.929
+          ],
+          [
+            8.217,
+            5.273,
+            4.872,
+            0.0,
+            3.838,
+            6.217,
+            6.996
+          ],
+          [
+            9.804,
+            7.776,
+            5.295,
+            3.838,
+            0.0,
+            3.861,
+            6.293
+          ],
+          [
+            9.968,
+            9.258,
+            7.267,
+            6.217,
+            3.861,
+            0.0,
+            5.137
+          ],
+          [
+            5.576,
+            6.485,
+            4.929,
+            6.996,
+            6.293,
+            5.137,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.4972647201182407,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PIGL-G149A Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.4973,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PIGL_G149A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PIGL_G149A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PIGL_G149A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PIGL_G149A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PIGL_G149A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PIGL-G149A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PIGL-G149A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:15:55.711614+00:00"
     }
   ]
 }
