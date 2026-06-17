@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 898,
+  "total_entries": 899,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45431,
-    "queue_remaining": 133166
+    "total_processed": 45432,
+    "queue_remaining": 133165
   },
   "entries": [
     {
@@ -197682,6 +197682,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:50:32.551916+00:00"
+    },
+    {
+      "entry_id": "PCD-EARS2-G317C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EARS2-G317C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "EARS2",
+        "uniprot": "",
+        "clinvar_id": "318550",
+        "disease": "not provided",
+        "mutation_precursor": "G317C",
+        "mutation_mature": "G317C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7527471607853293,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 395.25617958932787,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.9709255695343018,
+          20.78847885131836,
+          10.774080276489258
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.618358782935766,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8990787200869207,
+        "cryptic": true,
+        "pocket_residues": {
+          "G317": "G",
+          "F318": "F",
+          "A319": "A",
+          "Q333": "Q",
+          "F334": "F",
+          "N335": "N",
+          "L336": "L",
+          "T337": "T",
+          "Q338": "Q"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q5JPH6|EARS2 variant G317C",
+        "fasta_sequence": "MAALLRRLLQRERPSAASGRPVGRREANLGTDAGVAVRVRFAPSPTGFLHLGGLRTALYNYIFAKKYQGSFILRLEDTDQTRVVPGAAENIEDMLEWAGIPPDESPRRGGPAGPYQQSQRLELYAQATEALLKTGAAYPCFCSPQRLELLKKEALRNHQTPRYDNRCRNMSQEQVAQKLAKDPKPAIRFRLEQVVPAFQDLVYGWNRHEVASVEGDPVIMKSDGFPTYHLACVVDDHHMGISHVLRGSEWLVSTAKHLLLYQALGWQPPHFAHLPLLLNRDGSKLSKRQGDVFLEHFAADGFLPDSLLDIITNCGSGFAENQMGRTLPELITQFNLTQVTCHSALLDLEKLPEFNRLHLQRLVSNESQRRQLVGKLQVLVEEAFGCQLQNRDVLNPVYVERILLLRQGHICRLQDLVSPVYSYLWTRPAVGRAQLDAISEKVDVIAKRVLGLLERSSMSLTQDMLNGELKKLSEGLEGTKYSNVMKLLRMALSGQQQGPPVAEMMLALGPKEVRERIQKVVSS",
+        "full_sequence": "MAALLRRLLQRERPSAASGRPVGRREANLGTDAGVAVRVRFAPSPTGFLHLGGLRTALYNYIFAKKYQGSFILRLEDTDQTRVVPGAAENIEDMLEWAGIPPDESPRRGGPAGPYQQSQRLELYAQATEALLKTGAAYPCFCSPQRLELLKKEALRNHQTPRYDNRCRNMSQEQVAQKLAKDPKPAIRFRLEQVVPAFQDLVYGWNRHEVASVEGDPVIMKSDGFPTYHLACVVDDHHMGISHVLRGSEWLVSTAKHLLLYQALGWQPPHFAHLPLLLNRDGSKLSKRQGDVFLEHFAADGFLPDSLLDIITNCGSGFAENQMGRTLPELITQFNLTQVTCHSALLDLEKLPEFNRLHLQRLVSNESQRRQLVGKLQVLVEEAFGCQLQNRDVLNPVYVERILLLRQGHICRLQDLVSPVYSYLWTRPAVGRAQLDAISEKVDVIAKRVLGLLERSSMSLTQDMLNGELKKLSEGLEGTKYSNVMKLLRMALSGQQQGPPVAEMMLALGPKEVRERIQKVVSS",
+        "n_residues": 523,
+        "mutation_pos_1indexed": 317,
+        "wt_aa": "G",
+        "mut_aa": "C",
+        "pocket_lining_residues": "G317-F318-A319-Q333-F334-N335-L336-T337-Q338",
+        "pocket_lining_positions_precursor": [
+          317,
+          318,
+          319,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338
+        ],
+        "pocket_lining_1letter": "GFAQFNLTQ",
+        "sequence_slice_around_pocket": "LLDIITNCGSGFAENQMGRT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/EARS2_G317C/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "G317",
+          "F318",
+          "A319",
+          "Q333",
+          "F334",
+          "N335",
+          "L336",
+          "T337",
+          "Q338"
+        ],
+        "values": [
+          [
+            0.0,
+            3.854,
+            7.007,
+            8.294,
+            5.598,
+            5.006,
+            5.525,
+            6.911,
+            4.383
+          ],
+          [
+            3.854,
+            0.0,
+            3.831,
+            6.382,
+            5.661,
+            6.19,
+            8.51,
+            9.271,
+            6.215
+          ],
+          [
+            7.007,
+            3.831,
+            0.0,
+            8.073,
+            8.638,
+            8.348,
+            10.954,
+            10.442,
+            7.206
+          ],
+          [
+            8.294,
+            6.382,
+            8.073,
+            0.0,
+            3.85,
+            6.425,
+            9.973,
+            11.688,
+            10.43
+          ],
+          [
+            5.598,
+            5.661,
+            8.638,
+            3.85,
+            0.0,
+            3.824,
+            6.591,
+            9.109,
+            8.245
+          ],
+          [
+            5.006,
+            6.19,
+            8.348,
+            6.425,
+            3.824,
+            0.0,
+            3.829,
+            5.455,
+            5.461
+          ],
+          [
+            5.525,
+            8.51,
+            10.954,
+            9.973,
+            6.591,
+            3.829,
+            0.0,
+            3.873,
+            5.379
+          ],
+          [
+            6.911,
+            9.271,
+            10.442,
+            11.688,
+            9.109,
+            5.455,
+            3.873,
+            0.0,
+            3.845
+          ],
+          [
+            4.383,
+            6.215,
+            7.206,
+            10.43,
+            8.245,
+            5.461,
+            5.379,
+            3.845,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6445938819960436,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "EARS2-G317C Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6446,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/EARS2_G317C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/EARS2_G317C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/EARS2_G317C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/EARS2_G317C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/EARS2_G317C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EARS2-G317C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EARS2-G317C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:50:57.458787+00:00"
     }
   ]
 }
