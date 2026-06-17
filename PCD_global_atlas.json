@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 832,
+  "total_entries": 833,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45351,
-    "queue_remaining": 133246
+    "total_processed": 45352,
+    "queue_remaining": 133245
   },
   "entries": [
     {
@@ -182919,6 +182919,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:00:33.057622+00:00"
+    },
+    {
+      "entry_id": "PCD-PSTPIP1-A196T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSTPIP1-A196T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PSTPIP1",
+        "uniprot": "",
+        "clinvar_id": "317177",
+        "disease": "Pyogenic arthritis-pyoderma gangrenosum-acne syndrome",
+        "mutation_precursor": "A196T",
+        "mutation_mature": "A196T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7876612292550975,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 541.8941811009279,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -31.105945587158203,
+          0.44840484857559204,
+          27.624530792236328
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.366221833864776,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6318914103750569,
+        "cryptic": true,
+        "pocket_residues": {
+          "S194": "S",
+          "I195": "I",
+          "A196": "A",
+          "Q197": "Q",
+          "L198": "L",
+          "E199": "E",
+          "K200": "K",
+          "V201": "V",
+          "R202": "R",
+          "A203": "A"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43586|PSTPIP1 variant A196T",
+        "fasta_sequence": "MMPQLQFKDAFWCRDFTAHTGYEVLLQRLLDGRKMCKDMEELLRQRAQAEERYGKELVQIARKAGGQTEINSLRASFDSLKQQMENVGSSHIQLALTLREELRSLEEFRERQKEQRKKYEAVMDRVQKSKLSLYKKAMESKKTYEQKCRDADDAEQAFERISANGHQKQVEKSQNKARQCKDSATEAERVYRQSIAQLEKVRAEWEQEHRTTCEAFQLQEFDRLTILRNALWVHSNQLSMQCVKDDELYEEVRLTLEGCSIDADIDSFIQAKSTGTEPPAPVPYQNYYDREVTPLTSSPGIQPSCGMIKRFSGLLHGSPKTTSLAASAASTETLTPTPERNEGVYTAIAVQEIQGNPASPAQEYRALYDYTAQNPDELDLSAGDILEVILEGEDGWWTVERNGQRGFVPGSYLEKL",
+        "full_sequence": "MMPQLQFKDAFWCRDFTAHTGYEVLLQRLLDGRKMCKDMEELLRQRAQAEERYGKELVQIARKAGGQTEINSLRASFDSLKQQMENVGSSHIQLALTLREELRSLEEFRERQKEQRKKYEAVMDRVQKSKLSLYKKAMESKKTYEQKCRDADDAEQAFERISANGHQKQVEKSQNKARQCKDSATEAERVYRQSIAQLEKVRAEWEQEHRTTCEAFQLQEFDRLTILRNALWVHSNQLSMQCVKDDELYEEVRLTLEGCSIDADIDSFIQAKSTGTEPPAPVPYQNYYDREVTPLTSSPGIQPSCGMIKRFSGLLHGSPKTTSLAASAASTETLTPTPERNEGVYTAIAVQEIQGNPASPAQEYRALYDYTAQNPDELDLSAGDILEVILEGEDGWWTVERNGQRGFVPGSYLEKL",
+        "n_residues": 416,
+        "mutation_pos_1indexed": 196,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "S194-I195-A196-Q197-L198-E199-K200-V201-R202-A203",
+        "pocket_lining_positions_precursor": [
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203
+        ],
+        "pocket_lining_1letter": "SIAQLEKVRA",
+        "sequence_slice_around_pocket": "EAERVYRQSIAQLEKVRAEW"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_A196T/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "S194",
+          "I195",
+          "A196",
+          "Q197",
+          "L198",
+          "E199",
+          "K200",
+          "V201",
+          "R202",
+          "A203"
+        ],
+        "values": [
+          [
+            0.0,
+            3.86,
+            5.488,
+            5.086,
+            6.128,
+            8.702,
+            10.035,
+            10.774,
+            12.175,
+            14.429
+          ],
+          [
+            3.86,
+            0.0,
+            3.849,
+            5.381,
+            4.874,
+            6.118,
+            8.678,
+            9.956,
+            10.226,
+            12.299
+          ],
+          [
+            5.488,
+            3.849,
+            0.0,
+            3.86,
+            5.476,
+            5.203,
+            6.45,
+            8.976,
+            9.94,
+            10.905
+          ],
+          [
+            5.086,
+            5.381,
+            3.86,
+            0.0,
+            3.848,
+            5.52,
+            5.26,
+            6.492,
+            8.687,
+            10.189
+          ],
+          [
+            6.128,
+            4.874,
+            5.476,
+            3.848,
+            0.0,
+            3.849,
+            5.49,
+            5.32,
+            6.059,
+            8.696
+          ],
+          [
+            8.702,
+            6.118,
+            5.203,
+            5.52,
+            3.849,
+            0.0,
+            3.837,
+            5.598,
+            5.02,
+            6.228
+          ],
+          [
+            10.035,
+            8.678,
+            6.45,
+            5.26,
+            5.49,
+            3.837,
+            0.0,
+            3.848,
+            5.483,
+            5.313
+          ],
+          [
+            10.774,
+            9.956,
+            8.976,
+            6.492,
+            5.32,
+            5.598,
+            3.848,
+            0.0,
+            3.863,
+            5.461
+          ],
+          [
+            12.175,
+            10.226,
+            9.94,
+            8.687,
+            6.059,
+            5.02,
+            5.483,
+            3.863,
+            0.0,
+            3.837
+          ],
+          [
+            14.429,
+            12.299,
+            10.905,
+            10.189,
+            8.696,
+            6.228,
+            5.313,
+            5.461,
+            3.837,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCCCc1ccc(OC)c(CC(=O)Nc2ncnc3[nH]cnc23)c1",
+        "composite_score": 0.8183450397653246,
+        "mw": 368.2,
+        "logp": 2.085,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 9,
+        "qed": 0.4996,
+        "sa_score": 2.58,
+        "n_heavy_atoms": 27,
+        "tpsa": 104.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PSTPIP1-A196T Candidate #1",
+        "iupac_name": "CNCCCCc1ccc(OC)c(CC(=O)Nc2ncnc3[nH]cnc23)c1",
+        "pocket_affinity_score": 0.8183,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_A196T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_A196T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_A196T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_A196T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSTPIP1_A196T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSTPIP1-A196T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSTPIP1-A196T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:00:56.628082+00:00"
     }
   ]
 }
