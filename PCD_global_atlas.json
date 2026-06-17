@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 688,
+  "total_entries": 689,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45183,
-    "queue_remaining": 133414
+    "total_processed": 45184,
+    "queue_remaining": 133413
   },
   "entries": [
     {
@@ -152026,6 +152026,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T12:51:19.369068+00:00"
+    },
+    {
+      "entry_id": "PCD-TBX3-S595A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX3-S595A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TBX3",
+        "uniprot": "",
+        "clinvar_id": "307358",
+        "disease": "Ulnar-mammary syndrome",
+        "mutation_precursor": "S595A",
+        "mutation_mature": "S595A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7356682066372501,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 448.53428332817134,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -45.84366989135742,
+          -5.179388523101807,
+          -12.436594009399414
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.391628924879764,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8634001409688498,
+        "cryptic": true,
+        "pocket_residues": {
+          "A593": "A",
+          "M594": "M",
+          "S595": "S",
+          "P596": "P"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15119|TBX3 variant S595A",
+        "fasta_sequence": "MSLSMRDPVIPGTSMAYHPFLPHRAPDFAMSAVLGHQPPFFPALTLPPNGAAALSLPGALAKPIMDQLVGAAETGIPFSSLGPQAHLRPLKTMEPEEEVEDDPKVHLEAKELWDQFHKRGTEMVITKSGRRMFPPFKVRCSGLDKKAKYILLMDIIAADDCRYKFHNSRWMVAGKADPEMPKRMYIHPDSPATGEQWMSKVVTFHKLKLTNNISDKHGFTLAFPSDHATWQGNYSFGTQTILNSMHKYQPRFHIVRANDILKLPYSTFRTYLFPETEFIAVTAYQNDKITQLKIDNNPFAKGFRDTGNGRREKRKQLTLQSMRVFDERHKKENGTSDESSSEQAAFNCFAQASSPAASTVGTSNLKDLCPSEGESDAEAESKEEHGPEACDAAKISTTTSEEPCRDKGSPAVKAHLFAAERPRDSGRLDKASPDSRHSPATISSSTRGLGAEERRSPVREGTAPAKVEEARALPGKEAFAPLTVQTDAAAAHLAQGPLPGLGFAPGLAGQQFFNGHPLFLHPSQFAMGGAFSSMAAAGMGPLLATVSGASTGVSGLDSTAMASAAAAQGLSGASAATLPFHLQQHVLASQGLAMSPFGSLFPYPYTYMAAAAAASSAAASSSVHRHPFLNLNTMRPRLRYSPYSIPVPVPDGSSLLTTALPSMAAAAGPLDGKVAALAASPASVAVDSGSELNSRSSTLSSSSMSLSPKLCAEKEAATSELQSIQRLVSGLEAKPDRSRSASP",
+        "full_sequence": "MSLSMRDPVIPGTSMAYHPFLPHRAPDFAMSAVLGHQPPFFPALTLPPNGAAALSLPGALAKPIMDQLVGAAETGIPFSSLGPQAHLRPLKTMEPEEEVEDDPKVHLEAKELWDQFHKRGTEMVITKSGRRMFPPFKVRCSGLDKKAKYILLMDIIAADDCRYKFHNSRWMVAGKADPEMPKRMYIHPDSPATGEQWMSKVVTFHKLKLTNNISDKHGFTLAFPSDHATWQGNYSFGTQTILNSMHKYQPRFHIVRANDILKLPYSTFRTYLFPETEFIAVTAYQNDKITQLKIDNNPFAKGFRDTGNGRREKRKQLTLQSMRVFDERHKKENGTSDESSSEQAAFNCFAQASSPAASTVGTSNLKDLCPSEGESDAEAESKEEHGPEACDAAKISTTTSEEPCRDKGSPAVKAHLFAAERPRDSGRLDKASPDSRHSPATISSSTRGLGAEERRSPVREGTAPAKVEEARALPGKEAFAPLTVQTDAAAAHLAQGPLPGLGFAPGLAGQQFFNGHPLFLHPSQFAMGGAFSSMAAAGMGPLLATVSGASTGVSGLDSTAMASAAAAQGLSGASAATLPFHLQQHVLASQGLAMSPFGSLFPYPYTYMAAAAAASSAAASSSVHRHPFLNLNTMRPRLRYSPYSIPVPVPDGSSLLTTALPSMAAAAGPLDGKVAALAASPASVAVDSGSELNSRSSTLSSSSMSLSPKLCAEKEAATSELQSIQRLVSGLEAKPDRSRSASP",
+        "n_residues": 743,
+        "mutation_pos_1indexed": 595,
+        "wt_aa": "S",
+        "mut_aa": "A",
+        "pocket_lining_residues": "A593-M594-S595-P596",
+        "pocket_lining_positions_precursor": [
+          593,
+          594,
+          595,
+          596
+        ],
+        "pocket_lining_1letter": "AMSP",
+        "sequence_slice_around_pocket": "HVLASQGLAMSPFGSLFPYP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_S595A/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A593",
+          "M594",
+          "S595",
+          "P596"
+        ],
+        "values": [
+          [
+            0.0,
+            3.844,
+            6.598,
+            9.704
+          ],
+          [
+            3.844,
+            0.0,
+            3.834,
+            6.649
+          ],
+          [
+            6.598,
+            3.834,
+            0.0,
+            3.873
+          ],
+          [
+            9.704,
+            6.649,
+            3.873,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.522858522465478,
+        "mw": 317.21,
+        "logp": 2.135,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9218,
+        "sa_score": 3.14,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TBX3-S595A Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5229,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_S595A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_S595A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_S595A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_S595A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TBX3_S595A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX3-S595A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX3-S595A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T12:51:46.120306+00:00"
     }
   ]
 }
