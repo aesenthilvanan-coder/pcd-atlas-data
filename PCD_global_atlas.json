@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 561,
+  "total_entries": 562,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45034,
-    "queue_remaining": 133563
+    "total_processed": 45035,
+    "queue_remaining": 133562
   },
   "entries": [
     {
@@ -124506,6 +124506,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:04:01.775289+00:00"
+    },
+    {
+      "entry_id": "PCD-RAPSN-S274N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAPSN-S274N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RAPSN",
+        "uniprot": "",
+        "clinvar_id": "304973",
+        "disease": "Congenital myasthenic syndrome 11",
+        "mutation_precursor": "S274N",
+        "mutation_mature": "S274N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7571218938071341,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 344.04681576019817,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -13.981319427490234,
+          18.639867782592773,
+          0.14018554985523224
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.546598299306921,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.89251325119491,
+        "cryptic": true,
+        "pocket_residues": {
+          "S271": "S",
+          "S274": "S",
+          "I275": "I",
+          "E278": "E"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13702|RAPSN variant S274N",
+        "fasta_sequence": "MGQDQTKQQIEKGLQLYQSNQTEKALQVWTKVLEKSSDLMGRFRVLGCLVTAHSEMGRYKEMLKFAVVQIDTARELEDADFLLESYLNLARSNEKLCEFHKTISYCKTCLGLPGTRAGAQLGGQVSLSMGNAFLGLSVFQKALESFEKALRYAHNNDDAMLECRVCCSLGSFYAQVKDYEKALFFPCKAAELVNNYGKGWSLKYRAMSQYHMAVAYRLLGRLGSAMECCEESMKIALQHGDRPLQALCLLCFADIHRSRGDLETAFPRYDSAMSIMTEIGNRLGQVQALLGVAKCWVARKALDKALDAIERAQDLAEEVGNKLSQLKLHCLSESIYRSKGLQRELRAHVVRFHECVEETELYCGLCGESIGEKNSRLQALPCSHIFHLRCLQNNGTRSCPNCRRSSMKPGFV",
+        "full_sequence": "MGQDQTKQQIEKGLQLYQSNQTEKALQVWTKVLEKSSDLMGRFRVLGCLVTAHSEMGRYKEMLKFAVVQIDTARELEDADFLLESYLNLARSNEKLCEFHKTISYCKTCLGLPGTRAGAQLGGQVSLSMGNAFLGLSVFQKALESFEKALRYAHNNDDAMLECRVCCSLGSFYAQVKDYEKALFFPCKAAELVNNYGKGWSLKYRAMSQYHMAVAYRLLGRLGSAMECCEESMKIALQHGDRPLQALCLLCFADIHRSRGDLETAFPRYDSAMSIMTEIGNRLGQVQALLGVAKCWVARKALDKALDAIERAQDLAEEVGNKLSQLKLHCLSESIYRSKGLQRELRAHVVRFHECVEETELYCGLCGESIGEKNSRLQALPCSHIFHLRCLQNNGTRSCPNCRRSSMKPGFV",
+        "n_residues": 412,
+        "mutation_pos_1indexed": 274,
+        "wt_aa": "S",
+        "mut_aa": "N",
+        "pocket_lining_residues": "S271-S274-I275-E278",
+        "pocket_lining_positions_precursor": [
+          271,
+          274,
+          275,
+          278
+        ],
+        "pocket_lining_1letter": "SSIE",
+        "sequence_slice_around_pocket": "TAFPRYDSAMSIMTEIGNRL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RAPSN_S274N/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "S271",
+          "S274",
+          "I275",
+          "E278"
+        ],
+        "values": [
+          [
+            0.0,
+            5.196,
+            6.511,
+            10.824
+          ],
+          [
+            5.196,
+            0.0,
+            3.848,
+            6.279
+          ],
+          [
+            6.511,
+            3.848,
+            0.0,
+            4.915
+          ],
+          [
+            10.824,
+            6.279,
+            4.915,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1N1CCCCC1",
+        "composite_score": 0.7085813061618946,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.82,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RAPSN-S274N Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7086,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RAPSN_S274N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RAPSN_S274N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RAPSN_S274N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RAPSN_S274N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RAPSN_S274N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAPSN-S274N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAPSN-S274N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:04:24.951195+00:00"
     }
   ]
 }
