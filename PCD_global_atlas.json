@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 108,
+  "total_entries": 109,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44512,
-    "queue_remaining": 134085
+    "total_processed": 44513,
+    "queue_remaining": 134084
   },
   "entries": [
     {
@@ -24975,6 +24975,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T04:15:17.284869+00:00"
+    },
+    {
+      "entry_id": "PCD-CHST3-E335K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHST3-E335K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CHST3",
+        "uniprot": "",
+        "clinvar_id": "300565",
+        "disease": "Spondyloepiphyseal dysplasia with congenital joint dislocations",
+        "mutation_precursor": "E335K",
+        "mutation_mature": "E335K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7420426337507154,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 411.66002135281366,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          28.944351196289062,
+          6.203207492828369,
+          -0.3209412097930908
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.2448865970292453,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6445368376265346,
+        "cryptic": true,
+        "pocket_residues": {
+          "R334": "R",
+          "E335": "E",
+          "E336": "E",
+          "E337": "E",
+          "V338": "V",
+          "Q339": "Q"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q7LGC8|CHST3 variant E335K",
+        "fasta_sequence": "MEKGLTLPQDCRDFVHSLKMRSKYALFLVFVVIVFVFIEKENKIISRVSDKLKQIPQALADANSTDPALILAENASLLSLSELDSAFSQLQSRLRNLSLQLGVEPAMEAAGEEEEEQRKEEEPPRPAVAGPRRHVLLMATTRTGSSFVGEFFNQQGNIFYLFEPLWHIERTVSFEPGGANAAGSALVYRDVLKQLFLCDLYVLEHFITPLPEDHLTQFMFRRGSSRSLCEDPVCTPFVKKVFEKYHCKNRRCGPLNVTLAAEACRRKEHMALKAVRIRQLEFLQPLAEDPRLDLRVIQLVRDPRAVLASRMVAFAGKYKTWKKWLDDEGQDGLREEEVQRLRGNCESIRLSAELGLRQPAWLRGRYMLVRYEDVARGPLQKAREMYRFAGIPLTPQVEDWIQKNTQAAHDGSGIYSTQKNSSEQFEKWRFSMPFKLAQVVQAACGPAMRLFGYKLARDAAALTNRSVSLLEERGTFWVT",
+        "full_sequence": "MEKGLTLPQDCRDFVHSLKMRSKYALFLVFVVIVFVFIEKENKIISRVSDKLKQIPQALADANSTDPALILAENASLLSLSELDSAFSQLQSRLRNLSLQLGVEPAMEAAGEEEEEQRKEEEPPRPAVAGPRRHVLLMATTRTGSSFVGEFFNQQGNIFYLFEPLWHIERTVSFEPGGANAAGSALVYRDVLKQLFLCDLYVLEHFITPLPEDHLTQFMFRRGSSRSLCEDPVCTPFVKKVFEKYHCKNRRCGPLNVTLAAEACRRKEHMALKAVRIRQLEFLQPLAEDPRLDLRVIQLVRDPRAVLASRMVAFAGKYKTWKKWLDDEGQDGLREEEVQRLRGNCESIRLSAELGLRQPAWLRGRYMLVRYEDVARGPLQKAREMYRFAGIPLTPQVEDWIQKNTQAAHDGSGIYSTQKNSSEQFEKWRFSMPFKLAQVVQAACGPAMRLFGYKLARDAAALTNRSVSLLEERGTFWVT",
+        "n_residues": 479,
+        "mutation_pos_1indexed": 335,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "R334-E335-E336-E337-V338-Q339",
+        "pocket_lining_positions_precursor": [
+          334,
+          335,
+          336,
+          337,
+          338,
+          339
+        ],
+        "pocket_lining_1letter": "REEEVQ",
+        "sequence_slice_around_pocket": "LDDEGQDGLREEEVQRLRGN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CHST3_E335K/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "R334",
+          "E335",
+          "E336",
+          "E337",
+          "V338",
+          "Q339"
+        ],
+        "values": [
+          [
+            0.0,
+            3.825,
+            5.369,
+            5.466,
+            6.816,
+            8.894
+          ],
+          [
+            3.825,
+            0.0,
+            3.867,
+            5.447,
+            5.091,
+            6.095
+          ],
+          [
+            5.369,
+            3.867,
+            0.0,
+            3.87,
+            5.505,
+            5.006
+          ],
+          [
+            5.466,
+            5.447,
+            3.87,
+            0.0,
+            3.846,
+            5.461
+          ],
+          [
+            6.816,
+            5.091,
+            5.505,
+            3.846,
+            0.0,
+            3.846
+          ],
+          [
+            8.894,
+            6.095,
+            5.006,
+            5.461,
+            3.846,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7155556536323849,
+        "mw": 288.2,
+        "logp": 1.983,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.9236,
+        "sa_score": 3.0,
+        "n_heavy_atoms": 21,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CHST3-E335K Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7156,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CHST3_E335K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CHST3_E335K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CHST3_E335K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHST3_E335K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHST3_E335K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHST3-E335K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHST3-E335K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T04:15:42.690791+00:00"
     }
   ]
 }
