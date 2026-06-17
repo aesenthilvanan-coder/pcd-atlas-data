@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 508,
+  "total_entries": 509,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44971,
-    "queue_remaining": 133626
+    "total_processed": 44972,
+    "queue_remaining": 133625
   },
   "entries": [
     {
@@ -112635,6 +112635,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:23:56.691755+00:00"
+    },
+    {
+      "entry_id": "PCD-TECTA-V1171M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TECTA-V1171M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TECTA",
+        "uniprot": "",
+        "clinvar_id": "303015",
+        "disease": "Autosomal dominant nonsyndromic hearing loss 12",
+        "mutation_precursor": "V1171M",
+        "mutation_mature": "V1171M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8515904267008674,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 649.5671968365253,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          20.137203216552734,
+          -10.786554336547852,
+          -25.629072189331055
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.142929602406251,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8100822950579367,
+        "cryptic": true,
+        "pocket_residues": {
+          "V1171": "V",
+          "H1173": "H",
+          "V1180": "V",
+          "L1181": "L",
+          "V1182": "V",
+          "N1183": "N",
+          "S1184": "S",
+          "E1185": "E",
+          "R1186": "R",
+          "N1474": "N",
+          "G1475": "G"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O75443|TECTA variant V1171M",
+        "fasta_sequence": "MNYSSFLRIWVSFIFALVQHQAQPRELMYPFWQNDTKTPKVDDGSSSEIKLAIPVFFFGVPYRTVYVNNNGVVSFNVLVSQFTPESFPLTDGRAFVAPFWADVHNGIRGEIYYRETMEPAILKRATKDIRKYFKDMATFSATWVFIVTWEEVTFYGGSSTTPVNTFQAVLVSDGSYTFTLFNYYEINWTTGTASGGDPLTGLGGVMAQAGFNGGNLTNFFSLPGSRTPEIVNIQETTNVNVPGRWAFKVDGKEIDPANGCTSRGQFLRRGEVFWDDLNCTVKCRCLDFNNEIYCQEASCSPYEVCEPKGKFFYCSAVETSTCVVFGEPHYHTFDGFLFHFQGSCAYLLARQCLQTSSLPFFSVEAKNEHRRGSAVSWVKELSVEVNGYKILIPKGSYGRVKVNDLVTSLPVTLDLGTVKIYQSGISTAVETDFGLLVTFDGQHYASISVPGSYINSTCGLCGNYNKNPLDDFLRPDGRPAMSVLDLGESWRVYHADWKCDSGCVDNCTQCDAATEALYFGSDYCGFLNKTDGPLWECGTVVDPTAFVHSCVYDLCSVRDNGTLLCQAIQAYALVCQALGIPIGDWRTQTGCVSTVQCPSFSHYSVCTSSCPDTCSDLTASRNCATPCTEGCECNQGFVLSTSQCVPLHKCGCDFDGHYYTMGEFFWATANCTVQCLCEEGGDVYCFNKTCGSGEVCAVEDGYQGCFPKRETVCLLSQNQVLHTFDGASYAFPSEFSYTLLKTCPERPEYLEIDINKKKPDAGPAWLRGLRILVADQEVKIGGIGASEVKLNGQEVELPFFHPSGKLEIYRNKNSTTVESKGVVTVQYSDIGLLYIRLSTTYFNCTGGLCGFYNANASDEFCLPNGKCTDNLAVFLESWTTFEEICNGECGDLLKACNNDSELLKFYRSRSRCGIINDPSNSSFLECHGVVNVTAYYRTCLFRLCQSGGNESELCDSVARYASACKNADVEVGPWRTYDFCPLECPENSHFEECITCTETCETLTLGPICVDSCSEGCQCDEGYALLGSQCVTRSECGCNFEGHQLATNETFWVDLDCQIFCYCSGTDNRVHCETIPCKDDEYCMEEGGLYYCQARTDASCIVSGYGHYLTFDGFPFDFQTSCPLILCTTGSRPSSDSFPKFVVTAKNEDRDPSLALWVKQVDVTVFGYSIVIHRAYKHTVLVNSERLYLPLKLGQGKINIFSFGFHVVVETDFGLKVVYDWKTFLSITVPRSMQNSTYGLCGRYNGNPDDDLEMPMGLLASSVNEFGQSWVKRDTFCQVGCGDRCPSCAKVEGFSKVQQLCSLIPNQNAAFSKCHSKVNPTFFYKNCLFDSCIDGGAVQTACSWLQNYASTCQTQGITVTGWRNYTSCTVTCPPNSHYESCVSVCQPRCAAIRLKSDCSHYCVEGCHCDAGYVLNGKSCILPHSCGCYSDGKYYEPKQLFWNSDCTRRCRCFRRNVIQCDPRQCKSDEECALRNGVRGCFSTKTSYCLAAGGGVFRTFDGAFLRFPANCAFVLSTICQKLPDISFQLIINFDKWSAPNLTIISPVYFYINEEQILINDRNTVKVNGTQVNVPFITGLATKIYSSEGFLVIDTSPDIQIYYNGFNVIKISISERLQNKVCGLCGNFNGDLTDDYVTLRGKPVVSSVVLAQSWKTNGMQKRPLAPSCNELQFSQYAAMCDNVHIQKMQGDGYCLKLTDMKGFFQPCYGLLDPLPFYESCYLDGCYSHKKFQLCGSLAAYGEACRSFGILSTEWIEKENCSGVVEDPCVGADCPNRTCELGNGRELCGCIEPPPYGNNSHDIIDAEVTCKAAQMEVSISKCKLFQLGFEREGVRINDRQCTGIEGEDFISFQINNTKGNCGNIVQSNGTHIMYKNTLWIESANNTGNIITRDRTINVEFSCAYELDIKISLDSVVKPMLSVINLTVPTQEGSFITKMALYKNASYKHPYRQGEVVLTTRDVLYVGVFVVGADATHLILTLNKCYATPTRDSNDKLRYFIIEGGCQNLKDNTIGIEENAVSLTCRFHVTVFKFIGDYDEVHLHCAVSLCDSEKYSCKITCPHNSRIATDYTKEPKEQIISVGPIRRKRLDWCEDNGGCEQICTSRVDGPLCSCVTGTLQEDGKSCRASNSSMELQVWTLLLIMIQISLWHFVYKSGTTS",
+        "full_sequence": "MNYSSFLRIWVSFIFALVQHQAQPRELMYPFWQNDTKTPKVDDGSSSEIKLAIPVFFFGVPYRTVYVNNNGVVSFNVLVSQFTPESFPLTDGRAFVAPFWADVHNGIRGEIYYRETMEPAILKRATKDIRKYFKDMATFSATWVFIVTWEEVTFYGGSSTTPVNTFQAVLVSDGSYTFTLFNYYEINWTTGTASGGDPLTGLGGVMAQAGFNGGNLTNFFSLPGSRTPEIVNIQETTNVNVPGRWAFKVDGKEIDPANGCTSRGQFLRRGEVFWDDLNCTVKCRCLDFNNEIYCQEASCSPYEVCEPKGKFFYCSAVETSTCVVFGEPHYHTFDGFLFHFQGSCAYLLARQCLQTSSLPFFSVEAKNEHRRGSAVSWVKELSVEVNGYKILIPKGSYGRVKVNDLVTSLPVTLDLGTVKIYQSGISTAVETDFGLLVTFDGQHYASISVPGSYINSTCGLCGNYNKNPLDDFLRPDGRPAMSVLDLGESWRVYHADWKCDSGCVDNCTQCDAATEALYFGSDYCGFLNKTDGPLWECGTVVDPTAFVHSCVYDLCSVRDNGTLLCQAIQAYALVCQALGIPIGDWRTQTGCVSTVQCPSFSHYSVCTSSCPDTCSDLTASRNCATPCTEGCECNQGFVLSTSQCVPLHKCGCDFDGHYYTMGEFFWATANCTVQCLCEEGGDVYCFNKTCGSGEVCAVEDGYQGCFPKRETVCLLSQNQVLHTFDGASYAFPSEFSYTLLKTCPERPEYLEIDINKKKPDAGPAWLRGLRILVADQEVKIGGIGASEVKLNGQEVELPFFHPSGKLEIYRNKNSTTVESKGVVTVQYSDIGLLYIRLSTTYFNCTGGLCGFYNANASDEFCLPNGKCTDNLAVFLESWTTFEEICNGECGDLLKACNNDSELLKFYRSRSRCGIINDPSNSSFLECHGVVNVTAYYRTCLFRLCQSGGNESELCDSVARYASACKNADVEVGPWRTYDFCPLECPENSHFEECITCTETCETLTLGPICVDSCSEGCQCDEGYALLGSQCVTRSECGCNFEGHQLATNETFWVDLDCQIFCYCSGTDNRVHCETIPCKDDEYCMEEGGLYYCQARTDASCIVSGYGHYLTFDGFPFDFQTSCPLILCTTGSRPSSDSFPKFVVTAKNEDRDPSLALWVKQVDVTVFGYSIVIHRAYKHTVLVNSERLYLPLKLGQGKINIFSFGFHVVVETDFGLKVVYDWKTFLSITVPRSMQNSTYGLCGRYNGNPDDDLEMPMGLLASSVNEFGQSWVKRDTFCQVGCGDRCPSCAKVEGFSKVQQLCSLIPNQNAAFSKCHSKVNPTFFYKNCLFDSCIDGGAVQTACSWLQNYASTCQTQGITVTGWRNYTSCTVTCPPNSHYESCVSVCQPRCAAIRLKSDCSHYCVEGCHCDAGYVLNGKSCILPHSCGCYSDGKYYEPKQLFWNSDCTRRCRCFRRNVIQCDPRQCKSDEECALRNGVRGCFSTKTSYCLAAGGGVFRTFDGAFLRFPANCAFVLSTICQKLPDISFQLIINFDKWSAPNLTIISPVYFYINEEQILINDRNTVKVNGTQVNVPFITGLATKIYSSEGFLVIDTSPDIQIYYNGFNVIKISISERLQNKVCGLCGNFNGDLTDDYVTLRGKPVVSSVVLAQSWKTNGMQKRPLAPSCNELQFSQYAAMCDNVHIQKMQGDGYCLKLTDMKGFFQPCYGLLDPLPFYESCYLDGCYSHKKFQLCGSLAAYGEACRSFGILSTEWIEKENCSGVVEDPCVGADCPNRTCELGNGRELCGCIEPPPYGNNSHDIIDAEVTCKAAQMEVSISKCKLFQLGFEREGVRINDRQCTGIEGEDFISFQINNTKGNCGNIVQSNGTHIMYKNTLWIESANNTGNIITRDRTINVEFSCAYELDIKISLDSVVKPMLSVINLTVPTQEGSFITKMALYKNASYKHPYRQGEVVLTTRDVLYVGVFVVGADATHLILTLNKCYATPTRDSNDKLRYFIIEGGCQNLKDNTIGIEENAVSLTCRFHVTVFKFIGDYDEVHLHCAVSLCDSEKYSCKITCPHNSRIATDYTKEPKEQIISVGPIRRKRLDWCEDNGGCEQICTSRVDGPLCSCVTGTLQEDGKSCRASNSSMELQVWTLLLIMIQISLWHFVYKSGTTS",
+        "n_residues": 2155,
+        "mutation_pos_1indexed": 1171,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "V1171-H1173-V1180-L1181-V1182-N1183-S1184-E1185-R1186-N1474-G1475",
+        "pocket_lining_positions_precursor": [
+          1171,
+          1173,
+          1180,
+          1181,
+          1182,
+          1183,
+          1184,
+          1185,
+          1186,
+          1474,
+          1475
+        ],
+        "pocket_lining_1letter": "VHVLVNSERNG",
+        "sequence_slice_around_pocket": "VDVTVFGYSIVIHRAYKHTV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TECTA_V1171M/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "V1171",
+          "H1173",
+          "V1180",
+          "L1181",
+          "V1182",
+          "N1183",
+          "S1184",
+          "E1185",
+          "R1186",
+          "N1474",
+          "G1475"
+        ],
+        "values": [
+          [
+            0.0,
+            6.136,
+            5.993,
+            4.92,
+            6.447,
+            8.23,
+            7.87,
+            9.551,
+            9.053,
+            12.641,
+            10.624
+          ],
+          [
+            6.136,
+            0.0,
+            7.042,
+            7.912,
+            11.246,
+            13.392,
+            11.569,
+            12.504,
+            10.331,
+            12.744,
+            11.583
+          ],
+          [
+            5.993,
+            7.042,
+            0.0,
+            3.834,
+            6.344,
+            9.807,
+            9.051,
+            8.089,
+            5.568,
+            12.351,
+            9.273
+          ],
+          [
+            4.92,
+            7.912,
+            3.834,
+            0.0,
+            3.865,
+            6.445,
+            5.234,
+            5.111,
+            4.222,
+            9.692,
+            6.646
+          ],
+          [
+            6.447,
+            11.246,
+            6.344,
+            3.865,
+            0.0,
+            3.846,
+            5.254,
+            5.094,
+            6.301,
+            11.886,
+            8.642
+          ],
+          [
+            8.23,
+            13.392,
+            9.807,
+            6.445,
+            3.846,
+            0.0,
+            3.86,
+            5.519,
+            8.428,
+            11.366,
+            8.861
+          ],
+          [
+            7.87,
+            11.569,
+            9.051,
+            5.234,
+            5.254,
+            3.86,
+            0.0,
+            3.889,
+            6.486,
+            7.568,
+            5.434
+          ],
+          [
+            9.551,
+            12.504,
+            8.089,
+            5.111,
+            5.094,
+            5.519,
+            3.889,
+            0.0,
+            3.837,
+            7.961,
+            4.419
+          ],
+          [
+            9.053,
+            10.331,
+            5.568,
+            4.222,
+            6.301,
+            8.428,
+            6.486,
+            3.837,
+            0.0,
+            8.293,
+            4.575
+          ],
+          [
+            12.641,
+            12.744,
+            12.351,
+            9.692,
+            11.886,
+            11.366,
+            7.568,
+            7.961,
+            8.293,
+            0.0,
+            3.871
+          ],
+          [
+            10.624,
+            11.583,
+            9.273,
+            6.646,
+            8.642,
+            8.861,
+            5.434,
+            4.419,
+            4.575,
+            3.871,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNC(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.8457370519715643,
+        "mw": 472.23,
+        "logp": 2.09,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.548,
+        "sa_score": 3.1,
+        "n_heavy_atoms": 33,
+        "tpsa": 134.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TECTA-V1171M Candidate #1",
+        "iupac_name": "Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNC(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.8457,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TECTA_V1171M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TECTA_V1171M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TECTA_V1171M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TECTA_V1171M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TECTA_V1171M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TECTA-V1171M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TECTA-V1171M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:25:42.553861+00:00"
     }
   ]
 }
