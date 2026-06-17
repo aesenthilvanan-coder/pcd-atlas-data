@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1412,
+  "total_entries": 1413,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46051,
-    "queue_remaining": 132546
+    "total_processed": 46052,
+    "queue_remaining": 132545
   },
   "entries": [
     {
@@ -312651,6 +312651,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:27:59.628401+00:00"
+    },
+    {
+      "entry_id": "PCD-GPR179-G325R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GPR179-G325R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GPR179",
+        "uniprot": "",
+        "clinvar_id": "323027",
+        "disease": "Congenital stationary night blindness 1E",
+        "mutation_precursor": "G325R",
+        "mutation_mature": "G325R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9257547260228682,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 457.0900155359682,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          13.091466903686523,
+          19.3465518951416,
+          -12.557731628417969
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.240289608472683,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8540139298725645,
+        "cryptic": true,
+        "pocket_residues": {
+          "F323": "F",
+          "Y324": "Y",
+          "G325": "G",
+          "A326": "A",
+          "S327": "S",
+          "C356": "C",
+          "L357": "L",
+          "C366": "C",
+          "M367": "M",
+          "D368": "D",
+          "A369": "A"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q6PRD1|GPR179 variant G325R",
+        "fasta_sequence": "MGTRGAVMPPPMWGLLGCCFVCAWALGGPRPIRSLPPLSSQVKPGSVPMQVPLEGAEAALAYLYSGDAQQLSQVNCSERYEARGAGAMPGLPPSLQGAAGTLAQAANFLNMLLQANDIRESSVEEDVEWYQALVRSVAEGDPRVYRALLTFNPPPGASHLQLALQATRTGEETILQDLSGNWVQEENPPGDLDTPALKKRVLTNDLGSLGSPKWPQADGYVGDTQQVRLSPPFLECQEGRLRPGWLITLSATFYGLKPDLSPEVRGQVQMDVDLQSVDINQCASGPGWYSNTHLCDLNSTQCVPLESQGFVLGRYLCRCRPGFYGASPSGGLEESDFQTTGQFGFPEGRSGRLLQCLPCPEGCTSCMDATPCLVEEAAVLRAAVLACQACCMLAIFLSMLVSYRCRRNKRIWASGVVLLETVLFGFLLLYFPVFILYFKPSVFRCIALRWVRLLGFAIVYGTIILKLYRVLQLFLSRTAQRSALLSSGRLLRRLGLLLLPVLGFLAVWTVGALERGIQHAPLVIRGHTPSGRHFYLCHHDRWDYIMVVAELLLLCWGSFLCYATRAVLSAFHEPRYMGIALHNELLLSAAFHTARFVLVPSLHPDWTLLLFFFHTHSTVTTTLALIFIPKFWKLGAPPREEMVDEVCEDELDLQHSGSYLGSSIASAWSEHSLDPGDIRDELKKLYAQLEVHKTKEMAANNPHLPKKRGSSCQGLGRSFMRYLAEFPEALARQHSRDSGSPGHGSLPGSSRRRLLSSSLQEPEGTPALHKSRSTYDQRREQDPPLLDSLLRRKLAKKASRTESRESVEGPPALGFRSASAHNLTVGERLPRARPASLQKSLSVASSREKALLMASQAYLEETYRQAKEREERKKAKAAMASLVRRPSARRLERPRGAPLSAPPSPAKSSSVDSSHTSGRLHEEARRRLPHPPIRHQVSTPILALSGGLGEPRMLSPTSTLAPALLPALAPTPAPALAPVPVSPQSPNLLTYICPWENAELPAKQENVPQEGPSGPERGHHSPAPARARLWRALSVAVEKSRAGENEMDAEDAHHQREANDVDEDRPKIFPKSHSLKAPVQQGSMRSLGLAIKALTRSRSTYREKESVEESPEGQNSGTAGESMGAPSRSPRLGRPKAVSKQAALIPSDDKESLQNQQNAHTSRMLQVCQREGSREQEDRGRRMTQGLGERKAERAGKTGLAMLRQVSRDKNIKQSKETPVGWQELPKAGLQSLGSADHRVAEVCPWEVTESETRQPDSGNKAEICPWETSEGAPESRALRQDPGDSQKKRGEARGKSEPIDVVPMMRKKPERLVREQEAVCPWESADRGGLSPGSAPQDPGRIRDKSEAGDSVEARKVEKPGWEAAGPEAHTPDITKAEPCPWEASEGGEDGKPAQEAVKDLPQEKQKTRKATFWKEQKPGGDLESLCPWESTDFRGPSAVSIQAPGSSECSGSLGSGIAEVCLWEAGDAPAIQKAEICPWELDDNVMGQEMLSLGTGRESLQEKEKASRKGSFGEMGEQTVKAVQKLSQQQESVCPRESTVPGHSSPCLDNSSSKAGSQFLCNGGSRATQVCPQEDLRPEAQEATPAKTEICPWEVNERTREEWTSAQVPRGGESQKDKEKMPGKSEIEDVTAWEKPEGQIQKQEAVGPWESVDPGSFSPQPRPQDTERPQTLLQMSGSVGSKAADICPLDVEENLTAGKAEICPWEVGAGAGEERALGAEAIRKSPNDTGKVSADLGPRERAVTAPEKPQKPTPEWEVACPWGSVGPGACSQHPGTLDADGPKAGFQELDHMGCRPGEVCPWEAQEAATSEKAKICPWEVSEGTTGKGLDQKAGSESAEQREKALEKGRLTSLGEDVSKGMAKLCQQQETICIWENKDLRESPAQAPKISDLPSSMSSEVAEGHSLEATEKGDLRQDPKTGSFPEHITQEKAPAADTEEFTTEDGEKTSHELQSVCPWETTAPADSVSHLDRQRPDQPKASSQRLVSTGGRAADVCPWDVPDAGVYKSDSSAKAETCPWEVTERIPVKGVSRQDGKGDSQEEKGRAPEKSEPKGVPVQKKPEMADFRQQEAVCPWESQDGKGLSPQPAPDASDRSRGSSEAAGSVETRVAEVCLWEVVEAPSAKKAEICPWEAGGGAAEEGEQERESQGQGEMFLQKAGPGGTEEHFSKAAAKPREQEAVCPGEGTGSGGLLPQSGALDPELKVSPKEAGSMGSRMAELCQWEITDPEGNKIKGTMADICPGEETGVPSEESGLLALTATRREFFPTAPEKPLCLLVHGPLDHFFPESKIPCPKVSRPASTFTLEGVRELQGPSGLEPRTSLAPEPSLQEAESQSSSLTEDSGQVAFEAQYEEFTPPTVYPWDWE",
+        "full_sequence": "MGTRGAVMPPPMWGLLGCCFVCAWALGGPRPIRSLPPLSSQVKPGSVPMQVPLEGAEAALAYLYSGDAQQLSQVNCSERYEARGAGAMPGLPPSLQGAAGTLAQAANFLNMLLQANDIRESSVEEDVEWYQALVRSVAEGDPRVYRALLTFNPPPGASHLQLALQATRTGEETILQDLSGNWVQEENPPGDLDTPALKKRVLTNDLGSLGSPKWPQADGYVGDTQQVRLSPPFLECQEGRLRPGWLITLSATFYGLKPDLSPEVRGQVQMDVDLQSVDINQCASGPGWYSNTHLCDLNSTQCVPLESQGFVLGRYLCRCRPGFYGASPSGGLEESDFQTTGQFGFPEGRSGRLLQCLPCPEGCTSCMDATPCLVEEAAVLRAAVLACQACCMLAIFLSMLVSYRCRRNKRIWASGVVLLETVLFGFLLLYFPVFILYFKPSVFRCIALRWVRLLGFAIVYGTIILKLYRVLQLFLSRTAQRSALLSSGRLLRRLGLLLLPVLGFLAVWTVGALERGIQHAPLVIRGHTPSGRHFYLCHHDRWDYIMVVAELLLLCWGSFLCYATRAVLSAFHEPRYMGIALHNELLLSAAFHTARFVLVPSLHPDWTLLLFFFHTHSTVTTTLALIFIPKFWKLGAPPREEMVDEVCEDELDLQHSGSYLGSSIASAWSEHSLDPGDIRDELKKLYAQLEVHKTKEMAANNPHLPKKRGSSCQGLGRSFMRYLAEFPEALARQHSRDSGSPGHGSLPGSSRRRLLSSSLQEPEGTPALHKSRSTYDQRREQDPPLLDSLLRRKLAKKASRTESRESVEGPPALGFRSASAHNLTVGERLPRARPASLQKSLSVASSREKALLMASQAYLEETYRQAKEREERKKAKAAMASLVRRPSARRLERPRGAPLSAPPSPAKSSSVDSSHTSGRLHEEARRRLPHPPIRHQVSTPILALSGGLGEPRMLSPTSTLAPALLPALAPTPAPALAPVPVSPQSPNLLTYICPWENAELPAKQENVPQEGPSGPERGHHSPAPARARLWRALSVAVEKSRAGENEMDAEDAHHQREANDVDEDRPKIFPKSHSLKAPVQQGSMRSLGLAIKALTRSRSTYREKESVEESPEGQNSGTAGESMGAPSRSPRLGRPKAVSKQAALIPSDDKESLQNQQNAHTSRMLQVCQREGSREQEDRGRRMTQGLGERKAERAGKTGLAMLRQVSRDKNIKQSKETPVGWQELPKAGLQSLGSADHRVAEVCPWEVTESETRQPDSGNKAEICPWETSEGAPESRALRQDPGDSQKKRGEARGKSEPIDVVPMMRKKPERLVREQEAVCPWESADRGGLSPGSAPQDPGRIRDKSEAGDSVEARKVEKPGWEAAGPEAHTPDITKAEPCPWEASEGGEDGKPAQEAVKDLPQEKQKTRKATFWKEQKPGGDLESLCPWESTDFRGPSAVSIQAPGSSECSGSLGSGIAEVCLWEAGDAPAIQKAEICPWELDDNVMGQEMLSLGTGRESLQEKEKASRKGSFGEMGEQTVKAVQKLSQQQESVCPRESTVPGHSSPCLDNSSSKAGSQFLCNGGSRATQVCPQEDLRPEAQEATPAKTEICPWEVNERTREEWTSAQVPRGGESQKDKEKMPGKSEIEDVTAWEKPEGQIQKQEAVGPWESVDPGSFSPQPRPQDTERPQTLLQMSGSVGSKAADICPLDVEENLTAGKAEICPWEVGAGAGEERALGAEAIRKSPNDTGKVSADLGPRERAVTAPEKPQKPTPEWEVACPWGSVGPGACSQHPGTLDADGPKAGFQELDHMGCRPGEVCPWEAQEAATSEKAKICPWEVSEGTTGKGLDQKAGSESAEQREKALEKGRLTSLGEDVSKGMAKLCQQQETICIWENKDLRESPAQAPKISDLPSSMSSEVAEGHSLEATEKGDLRQDPKTGSFPEHITQEKAPAADTEEFTTEDGEKTSHELQSVCPWETTAPADSVSHLDRQRPDQPKASSQRLVSTGGRAADVCPWDVPDAGVYKSDSSAKAETCPWEVTERIPVKGVSRQDGKGDSQEEKGRAPEKSEPKGVPVQKKPEMADFRQQEAVCPWESQDGKGLSPQPAPDASDRSRGSSEAAGSVETRVAEVCLWEVVEAPSAKKAEICPWEAGGGAAEEGEQERESQGQGEMFLQKAGPGGTEEHFSKAAAKPREQEAVCPGEGTGSGGLLPQSGALDPELKVSPKEAGSMGSRMAELCQWEITDPEGNKIKGTMADICPGEETGVPSEESGLLALTATRREFFPTAPEKPLCLLVHGPLDHFFPESKIPCPKVSRPASTFTLEGVRELQGPSGLEPRTSLAPEPSLQEAESQSSSLTEDSGQVAFEAQYEEFTPPTVYPWDWE",
+        "n_residues": 2367,
+        "mutation_pos_1indexed": 325,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "F323-Y324-G325-A326-S327-C356-L357-C366-M367-D368-A369",
+        "pocket_lining_positions_precursor": [
+          323,
+          324,
+          325,
+          326,
+          327,
+          356,
+          357,
+          366,
+          367,
+          368,
+          369
+        ],
+        "pocket_lining_1letter": "FYGASCLCMDA",
+        "sequence_slice_around_pocket": "YLCRCRPGFYGASPSGGLEE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GPR179_G325R/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "F323",
+          "Y324",
+          "G325",
+          "A326",
+          "S327",
+          "C356",
+          "L357",
+          "C366",
+          "M367",
+          "D368",
+          "A369"
+        ],
+        "values": [
+          [
+            0.0,
+            3.872,
+            7.202,
+            9.76,
+            12.508,
+            5.747,
+            5.441,
+            6.879,
+            8.329,
+            9.135,
+            9.694
+          ],
+          [
+            3.872,
+            0.0,
+            3.83,
+            6.599,
+            8.802,
+            5.271,
+            5.353,
+            5.901,
+            5.442,
+            6.211,
+            7.896
+          ],
+          [
+            7.202,
+            3.83,
+            0.0,
+            3.818,
+            5.788,
+            4.941,
+            6.324,
+            9.005,
+            6.913,
+            7.154,
+            9.292
+          ],
+          [
+            9.76,
+            6.599,
+            3.818,
+            0.0,
+            3.85,
+            6.574,
+            6.652,
+            11.117,
+            8.766,
+            7.258,
+            8.499
+          ],
+          [
+            12.508,
+            8.802,
+            5.788,
+            3.85,
+            0.0,
+            9.951,
+            10.319,
+            12.094,
+            8.788,
+            7.617,
+            9.855
+          ],
+          [
+            5.747,
+            5.271,
+            4.941,
+            6.574,
+            9.951,
+            0.0,
+            3.84,
+            11.028,
+            10.513,
+            10.42,
+            11.083
+          ],
+          [
+            5.441,
+            5.353,
+            6.324,
+            6.652,
+            10.319,
+            3.84,
+            0.0,
+            9.974,
+            10.058,
+            8.859,
+            8.269
+          ],
+          [
+            6.879,
+            5.901,
+            9.005,
+            11.117,
+            12.094,
+            11.028,
+            9.974,
+            0.0,
+            3.861,
+            5.767,
+            7.535
+          ],
+          [
+            8.329,
+            5.442,
+            6.913,
+            8.766,
+            8.788,
+            10.513,
+            10.058,
+            3.861,
+            0.0,
+            3.856,
+            7.312
+          ],
+          [
+            9.135,
+            6.211,
+            7.154,
+            7.258,
+            7.617,
+            10.42,
+            8.859,
+            5.767,
+            3.856,
+            0.0,
+            3.867
+          ],
+          [
+            9.694,
+            7.896,
+            9.292,
+            8.499,
+            9.855,
+            11.083,
+            8.269,
+            7.535,
+            7.312,
+            3.867,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CC(=O)CCC1CCNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.8666299860896735,
+        "mw": 400.13,
+        "logp": 2.192,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.7727,
+        "sa_score": 3.01,
+        "n_heavy_atoms": 28,
+        "tpsa": 105.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GPR179-G325R Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CC(=O)CCC1CCNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.8666,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GPR179_G325R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GPR179_G325R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GPR179_G325R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GPR179_G325R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GPR179_G325R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GPR179-G325R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GPR179-G325R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:30:04.525995+00:00"
     }
   ]
 }
