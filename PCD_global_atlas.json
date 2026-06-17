@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1348,
+  "total_entries": 1349,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45968,
-    "queue_remaining": 132629
+    "total_processed": 45971,
+    "queue_remaining": 132626
   },
   "entries": [
     {
@@ -298405,6 +298405,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:34:43.997541+00:00"
+    },
+    {
+      "entry_id": "PCD-DNAAF3-G472R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAAF3-G472R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DNAAF3",
+        "uniprot": "",
+        "clinvar_id": "330208",
+        "disease": "Primary ciliary dyskinesia",
+        "mutation_precursor": "G472R",
+        "mutation_mature": "G472R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7766899818935724,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 457.0953251034148,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.356088638305664,
+          28.642824172973633,
+          10.483762741088867
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.029343999699131,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6012201877028394,
+        "cryptic": true,
+        "pocket_residues": {
+          "E470": "E",
+          "P471": "P",
+          "G472": "G",
+          "T473": "T",
+          "P474": "P"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8N9W5|DNAAF3 variant G472R",
+        "fasta_sequence": "MTTPAGSGSGFGSVSWWGLSPALDLQAESPPVDPDSQADTVHSNPELDVLLLGSVDGRHLLRTLSRAKFWPRRRFNFFVLENNLEAVARHMLIFSLALEEPEKMGLQERSETFLEVWGNALLRPPVAAFVRAQADLLAHLVPEPDRLEEQLPWLSLRALKFRERDALEAVFRFWAGGEKGPQAFPMSRLWDSRLRHYLGSRYDARRGVSDWDLRMKLHDRGAQVIHPQEFRRWRDTGVAFELRDSSAYHVPNRTLASGRLLSYRGERVAARGYWGDIATGPFVAFGIEADDESLLRTSNGQPVKTAGEITQHNVTELLRDVAAWGRARATGGDLEEQQHAEGSPEPGTPAAPTPESFTVHFLPLNSAQTLHHKSCYNGRFQLLYVACGMVHLLIPELGACVAPGGNLIVELARYLVDVRQEQLQGFNTRVRELAQAAGFAPQTGARPSETFARFCKSQESALGNTVPAVEPGTPPLDILAQPLEASNPALEGLTQPLQGGTPHCEPCQLPSESPGSLSEVLAQPQGALAPPNCESDSKTGV",
+        "full_sequence": "MTTPAGSGSGFGSVSWWGLSPALDLQAESPPVDPDSQADTVHSNPELDVLLLGSVDGRHLLRTLSRAKFWPRRRFNFFVLENNLEAVARHMLIFSLALEEPEKMGLQERSETFLEVWGNALLRPPVAAFVRAQADLLAHLVPEPDRLEEQLPWLSLRALKFRERDALEAVFRFWAGGEKGPQAFPMSRLWDSRLRHYLGSRYDARRGVSDWDLRMKLHDRGAQVIHPQEFRRWRDTGVAFELRDSSAYHVPNRTLASGRLLSYRGERVAARGYWGDIATGPFVAFGIEADDESLLRTSNGQPVKTAGEITQHNVTELLRDVAAWGRARATGGDLEEQQHAEGSPEPGTPAAPTPESFTVHFLPLNSAQTLHHKSCYNGRFQLLYVACGMVHLLIPELGACVAPGGNLIVELARYLVDVRQEQLQGFNTRVRELAQAAGFAPQTGARPSETFARFCKSQESALGNTVPAVEPGTPPLDILAQPLEASNPALEGLTQPLQGGTPHCEPCQLPSESPGSLSEVLAQPQGALAPPNCESDSKTGV",
+        "n_residues": 541,
+        "mutation_pos_1indexed": 472,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "E470-P471-G472-T473-P474",
+        "pocket_lining_positions_precursor": [
+          470,
+          471,
+          472,
+          473,
+          474
+        ],
+        "pocket_lining_1letter": "EPGTP",
+        "sequence_slice_around_pocket": "LGNTVPAVEPGTPPLDILAQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF3_G472R/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "E470",
+          "P471",
+          "G472",
+          "T473",
+          "P474"
+        ],
+        "values": [
+          [
+            0.0,
+            3.873,
+            6.248,
+            9.423,
+            12.522
+          ],
+          [
+            3.873,
+            0.0,
+            3.844,
+            6.226,
+            9.148
+          ],
+          [
+            6.248,
+            3.844,
+            0.0,
+            3.873,
+            6.503
+          ],
+          [
+            9.423,
+            6.226,
+            3.873,
+            0.0,
+            3.903
+          ],
+          [
+            12.522,
+            9.148,
+            6.503,
+            3.903,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1OCNC(=O)c1ccc(F)cc1",
+        "composite_score": 0.7172194948063515,
+        "mw": 306.08,
+        "logp": 1.83,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 5,
+        "qed": 0.8269,
+        "sa_score": 2.03,
+        "n_heavy_atoms": 22,
+        "tpsa": 81.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DNAAF3-G472R Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1OCNC(=O)c1ccc(F)cc1",
+        "pocket_affinity_score": 0.7172,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF3_G472R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF3_G472R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF3_G472R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF3_G472R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNAAF3_G472R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAAF3-G472R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNAAF3-G472R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:35:32.374094+00:00"
     }
   ]
 }
