@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1057,
+  "total_entries": 1058,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45639,
-    "queue_remaining": 132958
+    "total_processed": 45640,
+    "queue_remaining": 132957
   },
   "entries": [
     {
@@ -233166,6 +233166,189 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T18:12:03.019555+00:00"
+    },
+    {
+      "entry_id": "PCD-FOXN1-S553G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXN1-S553G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FOXN1",
+        "uniprot": "",
+        "clinvar_id": "322434",
+        "disease": "T-cell immunodeficiency, congenital alopecia, and nail dystrophy",
+        "mutation_precursor": "S553G",
+        "mutation_mature": "S553G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8446483982554439,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 571.3951389686954,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -10.874911308288574,
+          -1.561399221420288,
+          27.753154754638672
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.327613360780471,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8314380190903787,
+        "cryptic": true,
+        "pocket_residues": {
+          "K550": "K",
+          "D551": "D",
+          "D552": "D",
+          "S553": "S",
+          "L554": "L",
+          "A555": "A",
+          "L556": "L"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15353|FOXN1 variant S553G",
+        "fasta_sequence": "MVSLPPPQSDVTLPGPTRLEGERQGDLMQAPGLPGSPAPQSKHAGFSCSSFVSDGPPERTPSLPPHSPRIASPGPEQVQGHCPAGPGPGPFRLSPSDKYPGFGFEEAAASSPGRFLKGSHAPFHPYKRPFHEDVFPEAETTLALKGHSFKTPGPLEAFEEIPVDVAEAEAFLPGFSAEAWCNGLPYPSQEHGPQVLGSEVKVKPPVLESGAGMFCYQPPLQHMYCSSQPPFHQYSPGGGSYPIPYLGSSHYQYQRMAPQASTDGHQPLFPKPIYSYSILIFMALKNSKTGSLPVSEIYNFMTEHFPYFKTAPDGWKNSVRHNLSLNKCFEKVENKSGSSSRKGCLWALNPAKIDKMQEELQKWKRKDPIAVRKSMAKPEELDSLIGDKREKLGSPLLGCPPPGLSGSGPIRPLAPPAGLSPPLHSLHPAPGPIPGKNPLQDLLMGHTPSCYGQTYLHLSPGLAPPGPPQPLFPQPDGHLELRAQPGTPQDSPLPAHTPPSHSAKLLAEPSPARTMHDTLLPDGDLGTDLDAINPSLTDFDFQGNLWEQLKDDSLALDPLVLVTSSPTSSSMPPPQPPPHCFPPGPCLTETGSGAGDLAAPGSGGSGALGDLHLTTLYSAFMELEPTPPTAPAGPSVYLSPSSKPVALA",
+        "full_sequence": "MVSLPPPQSDVTLPGPTRLEGERQGDLMQAPGLPGSPAPQSKHAGFSCSSFVSDGPPERTPSLPPHSPRIASPGPEQVQGHCPAGPGPGPFRLSPSDKYPGFGFEEAAASSPGRFLKGSHAPFHPYKRPFHEDVFPEAETTLALKGHSFKTPGPLEAFEEIPVDVAEAEAFLPGFSAEAWCNGLPYPSQEHGPQVLGSEVKVKPPVLESGAGMFCYQPPLQHMYCSSQPPFHQYSPGGGSYPIPYLGSSHYQYQRMAPQASTDGHQPLFPKPIYSYSILIFMALKNSKTGSLPVSEIYNFMTEHFPYFKTAPDGWKNSVRHNLSLNKCFEKVENKSGSSSRKGCLWALNPAKIDKMQEELQKWKRKDPIAVRKSMAKPEELDSLIGDKREKLGSPLLGCPPPGLSGSGPIRPLAPPAGLSPPLHSLHPAPGPIPGKNPLQDLLMGHTPSCYGQTYLHLSPGLAPPGPPQPLFPQPDGHLELRAQPGTPQDSPLPAHTPPSHSAKLLAEPSPARTMHDTLLPDGDLGTDLDAINPSLTDFDFQGNLWEQLKDDSLALDPLVLVTSSPTSSSMPPPQPPPHCFPPGPCLTETGSGAGDLAAPGSGGSGALGDLHLTTLYSAFMELEPTPPTAPAGPSVYLSPSSKPVALA",
+        "n_residues": 648,
+        "mutation_pos_1indexed": 553,
+        "wt_aa": "S",
+        "mut_aa": "G",
+        "pocket_lining_residues": "K550-D551-D552-S553-L554-A555-L556",
+        "pocket_lining_positions_precursor": [
+          550,
+          551,
+          552,
+          553,
+          554,
+          555,
+          556
+        ],
+        "pocket_lining_1letter": "KDDSLAL",
+        "sequence_slice_around_pocket": "GNLWEQLKDDSLALDPLVLV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_S553G/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "K550",
+          "D551",
+          "D552",
+          "S553",
+          "L554",
+          "A555",
+          "L556"
+        ],
+        "values": [
+          [
+            0.0,
+            3.844,
+            5.527,
+            5.156,
+            7.147,
+            9.58,
+            12.186
+          ],
+          [
+            3.844,
+            0.0,
+            3.883,
+            5.288,
+            5.52,
+            6.939,
+            10.308
+          ],
+          [
+            5.527,
+            3.883,
+            0.0,
+            3.891,
+            5.554,
+            5.532,
+            8.351
+          ],
+          [
+            5.156,
+            5.288,
+            3.891,
+            0.0,
+            3.875,
+            5.946,
+            7.475
+          ],
+          [
+            7.147,
+            5.52,
+            5.554,
+            3.875,
+            0.0,
+            3.868,
+            5.809
+          ],
+          [
+            9.58,
+            6.939,
+            5.532,
+            5.946,
+            3.868,
+            0.0,
+            3.846
+          ],
+          [
+            12.186,
+            10.308,
+            8.351,
+            7.475,
+            5.809,
+            3.846,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2C(OCNc3nc4ccccc4[nH]3)CCC(=O)C2O)c1",
+        "composite_score": 0.8275971111712868,
+        "mw": 411.19,
+        "logp": 1.93,
+        "hbd": 4,
+        "hba": 8,
+        "rotatable_bonds": 7,
+        "qed": 0.4347,
+        "sa_score": 3.85,
+        "n_heavy_atoms": 30,
+        "tpsa": 125.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FOXN1-S553G Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2C(OCNc3nc4ccccc4[nH]3)CCC(=O)C2O)c1",
+        "pocket_affinity_score": 0.8276,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_S553G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_S553G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_S553G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_S553G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_S553G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXN1-S553G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXN1-S553G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T18:12:30.987810+00:00"
     }
   ]
 }
