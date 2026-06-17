@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1377,
+  "total_entries": 1378,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46013,
-    "queue_remaining": 132584
+    "total_processed": 46014,
+    "queue_remaining": 132583
   },
   "entries": [
     {
@@ -305260,6 +305260,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:00:37.933627+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC4A11-I108V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC4A11-I108V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC4A11",
+        "uniprot": "",
+        "clinvar_id": "338258",
+        "disease": "Corneal dystrophy",
+        "mutation_precursor": "I108V",
+        "mutation_mature": "I108V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8030310356065077,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 360.6420789860341,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          10.410804748535156,
+          8.344940185546875,
+          -32.125999450683594
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.843680267453112,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7784142711316575,
+        "cryptic": true,
+        "pocket_residues": {
+          "K102": "K",
+          "N103": "N",
+          "F104": "F",
+          "K105": "K",
+          "E106": "E",
+          "E107": "E",
+          "I108": "I",
+          "A110": "A",
+          "L289": "L",
+          "T290": "T",
+          "S293": "S"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NBS3|SLC4A11 variant I108V",
+        "fasta_sequence": "MAAATRRVFHLQPCENSPTMSQNGYFEDSSYYKCDTDDTFEAREEILGDEAFDTANSSIVSGESIRFFVNVNLEMQATNTENEATSGGCVLLHTSRKYLKLKNFKEEIRAHRDLDGFLAQASIVLNETATSLDNVLRTMLRRFARDPDNNEPNCNLDLLMAMLFTDAGAPMRGKVHLLSDTIQGVTATVTGVRYQQSWLCIICTMKALQKRHVCISRLVRPQNWGENSCEVRFVILVLAPPKMKSTKTAMEVARTFATMFSDIAFRQKLLETRTEEEFKEALVHQRQLLTMVSHGPVAPRTKERSTVSLPAHRHPEPPKCKDFVPFGKGIREDIARRFPLYPLDFTDGIIGKNKAVGKYITTTLFLYFACLLPTIAFGSLNDENTDGAIDVQKTIAGQSIGGLLYALFSGQPLVILLTTAPLALYIQVIRVICDDYDLDFNSFYAWTGLWNSFFLALYAFFNLSLVMSLFKRSTEEIIALFISITFVLDAVKGTVKIFWKYYYGHYLDDYHTKRTSSLVSLSGLGASLNASLHTALNASFLASPTELPSATHSGQATAVLSLLIMLGTLWLGYTLYQFKKSPYLHPCVREILSDCALPIAVLAFSLISSHGFREIEMSKFRYNPSESPFAMAQIQSLSLRAVSGAMGLGFLLSMLFFIEQNLVAALVNAPENRLVKGTAYHWDLLLLAIINTGLSLFGLPWIHAAYPHSPLHVRALALVEERVENGHIYDTIVNVKETRLTSLGASVLVGLSLLLLPVPLQWIPKPVLYGLFLYIALTSLDGNQLVQRVALLLKEQTAYPPTHYIRRVPQRKIHYFTGLQVLQLLLLCAFGMSSLPYMKMIFPLIMIAMIPIRYILLPRIIEAKYLDVMDAEHRP",
+        "full_sequence": "MAAATRRVFHLQPCENSPTMSQNGYFEDSSYYKCDTDDTFEAREEILGDEAFDTANSSIVSGESIRFFVNVNLEMQATNTENEATSGGCVLLHTSRKYLKLKNFKEEIRAHRDLDGFLAQASIVLNETATSLDNVLRTMLRRFARDPDNNEPNCNLDLLMAMLFTDAGAPMRGKVHLLSDTIQGVTATVTGVRYQQSWLCIICTMKALQKRHVCISRLVRPQNWGENSCEVRFVILVLAPPKMKSTKTAMEVARTFATMFSDIAFRQKLLETRTEEEFKEALVHQRQLLTMVSHGPVAPRTKERSTVSLPAHRHPEPPKCKDFVPFGKGIREDIARRFPLYPLDFTDGIIGKNKAVGKYITTTLFLYFACLLPTIAFGSLNDENTDGAIDVQKTIAGQSIGGLLYALFSGQPLVILLTTAPLALYIQVIRVICDDYDLDFNSFYAWTGLWNSFFLALYAFFNLSLVMSLFKRSTEEIIALFISITFVLDAVKGTVKIFWKYYYGHYLDDYHTKRTSSLVSLSGLGASLNASLHTALNASFLASPTELPSATHSGQATAVLSLLIMLGTLWLGYTLYQFKKSPYLHPCVREILSDCALPIAVLAFSLISSHGFREIEMSKFRYNPSESPFAMAQIQSLSLRAVSGAMGLGFLLSMLFFIEQNLVAALVNAPENRLVKGTAYHWDLLLLAIINTGLSLFGLPWIHAAYPHSPLHVRALALVEERVENGHIYDTIVNVKETRLTSLGASVLVGLSLLLLPVPLQWIPKPVLYGLFLYIALTSLDGNQLVQRVALLLKEQTAYPPTHYIRRVPQRKIHYFTGLQVLQLLLLCAFGMSSLPYMKMIFPLIMIAMIPIRYILLPRIIEAKYLDVMDAEHRP",
+        "n_residues": 875,
+        "mutation_pos_1indexed": 108,
+        "wt_aa": "I",
+        "mut_aa": "V",
+        "pocket_lining_residues": "K102-N103-F104-K105-E106-E107-I108-A110-L289-T290-S293",
+        "pocket_lining_positions_precursor": [
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          110,
+          289,
+          290,
+          293
+        ],
+        "pocket_lining_1letter": "KNFKEEIALTS",
+        "sequence_slice_around_pocket": "YLKLKNFKEEIRAHRDLDGF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A11_I108V/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "K102",
+          "N103",
+          "F104",
+          "K105",
+          "E106",
+          "E107",
+          "I108",
+          "A110",
+          "L289",
+          "T290",
+          "S293"
+        ],
+        "values": [
+          [
+            0.0,
+            3.838,
+            5.999,
+            8.932,
+            8.89,
+            7.166,
+            10.064,
+            7.243,
+            9.434,
+            10.466,
+            10.401
+          ],
+          [
+            3.838,
+            0.0,
+            3.857,
+            5.486,
+            5.692,
+            5.546,
+            8.738,
+            7.932,
+            7.992,
+            7.906,
+            7.31
+          ],
+          [
+            5.999,
+            3.857,
+            0.0,
+            3.868,
+            5.881,
+            5.414,
+            6.9,
+            6.054,
+            5.868,
+            5.031,
+            7.623
+          ],
+          [
+            8.932,
+            5.486,
+            3.868,
+            0.0,
+            3.843,
+            5.905,
+            7.232,
+            8.992,
+            7.49,
+            4.774,
+            6.478
+          ],
+          [
+            8.89,
+            5.692,
+            5.881,
+            3.843,
+            0.0,
+            3.836,
+            6.2,
+            9.201,
+            10.9,
+            8.579,
+            9.014
+          ],
+          [
+            7.166,
+            5.546,
+            5.414,
+            5.905,
+            3.836,
+            0.0,
+            3.866,
+            5.986,
+            11.273,
+            9.674,
+            11.306
+          ],
+          [
+            10.064,
+            8.738,
+            6.9,
+            7.232,
+            6.2,
+            3.866,
+            0.0,
+            5.509,
+            12.215,
+            10.089,
+            13.486
+          ],
+          [
+            7.243,
+            7.932,
+            6.054,
+            8.992,
+            9.201,
+            5.986,
+            5.509,
+            0.0,
+            10.39,
+            10.066,
+            13.645
+          ],
+          [
+            9.434,
+            7.992,
+            5.868,
+            7.49,
+            10.9,
+            11.273,
+            12.215,
+            10.39,
+            0.0,
+            3.853,
+            6.637
+          ],
+          [
+            10.466,
+            7.906,
+            5.031,
+            4.774,
+            8.579,
+            9.674,
+            10.089,
+            10.066,
+            3.853,
+            0.0,
+            6.24
+          ],
+          [
+            10.401,
+            7.31,
+            7.623,
+            6.478,
+            9.014,
+            11.306,
+            13.486,
+            13.645,
+            6.637,
+            6.24,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.8536469189031214,
+        "mw": 244.12,
+        "logp": 2.049,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 6,
+        "qed": 0.7634,
+        "sa_score": 2.21,
+        "n_heavy_atoms": 18,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC4A11-I108V Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8536,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A11_I108V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A11_I108V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A11_I108V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A11_I108V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A11_I108V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC4A11-I108V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC4A11-I108V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:01:09.163463+00:00"
     }
   ]
 }
