@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 783,
+  "total_entries": 784,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45297,
-    "queue_remaining": 133300
+    "total_processed": 45298,
+    "queue_remaining": 133299
   },
   "entries": [
     {
@@ -172710,6 +172710,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T14:08:54.746723+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT4-V256M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT4-V256M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT4",
+        "uniprot": "",
+        "clinvar_id": "309682",
+        "disease": "White sponge nevus 1",
+        "mutation_precursor": "V256M",
+        "mutation_mature": "V256M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7955353036089775,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 333.7913547257611,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -48.94977951049805,
+          -6.824546813964844,
+          8.796233177185059
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.287878439760894,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6329944156871437,
+        "cryptic": true,
+        "pocket_residues": {
+          "L253": "L",
+          "K255": "K",
+          "V256": "V",
+          "E257": "E",
+          "L258": "L",
+          "E259": "E",
+          "A260": "A",
+          "K261": "K"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P19013|KRT4 variant V256M",
+        "fasta_sequence": "MIARQQCVRGGPRGFSCGSAIVGGGKRGAFSSVSMSGGAGRCSSGGFGSRSLYNLRGNKSISMSVAGSRQGACFGGAGGFGTGGFGGGFGGSFSGKGGPGFPVCPAGGIQEVTINQSLLTPLHVEIDPEIQKVRTEEREQIKLLNNKFASFIDKVQFLEQQNKVLETKWNLLQQQTTTTSSKNLEPLFETYLSVLRKQLDTLGNDKGRLQSELKTMQDSVEDFKTKYEEEINKRTAAENDFVVLKKDVDAAYLNKVELEAKVDSLNDEINFLKVLYDAELSQMQTHVSDTSVVLSMDNNRNLDLDSIIAEVRAQYEEIAQRSKAEAEALYQTKVQQLQISVDQHGDNLKNTKSEIAELNRMIQRLRAEIENIKKQCQTLQVSVADAEQRGENALKDAHSKRVELEAALQQAKEELARMLREYQELMSVKLALDIEIATYRKLLEGEEYRMSGECQSAVSISVVSGSTSTGGISGGLGSGSGFGLSSGFGSGSGSGFGFGGSVSGSSSSKIISTTTLNKRR",
+        "full_sequence": "MIARQQCVRGGPRGFSCGSAIVGGGKRGAFSSVSMSGGAGRCSSGGFGSRSLYNLRGNKSISMSVAGSRQGACFGGAGGFGTGGFGGGFGGSFSGKGGPGFPVCPAGGIQEVTINQSLLTPLHVEIDPEIQKVRTEEREQIKLLNNKFASFIDKVQFLEQQNKVLETKWNLLQQQTTTTSSKNLEPLFETYLSVLRKQLDTLGNDKGRLQSELKTMQDSVEDFKTKYEEEINKRTAAENDFVVLKKDVDAAYLNKVELEAKVDSLNDEINFLKVLYDAELSQMQTHVSDTSVVLSMDNNRNLDLDSIIAEVRAQYEEIAQRSKAEAEALYQTKVQQLQISVDQHGDNLKNTKSEIAELNRMIQRLRAEIENIKKQCQTLQVSVADAEQRGENALKDAHSKRVELEAALQQAKEELARMLREYQELMSVKLALDIEIATYRKLLEGEEYRMSGECQSAVSISVVSGSTSTGGISGGLGSGSGFGLSSGFGSGSGSGFGFGGSVSGSSSSKIISTTTLNKRR",
+        "n_residues": 520,
+        "mutation_pos_1indexed": 256,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "L253-K255-V256-E257-L258-E259-A260-K261",
+        "pocket_lining_positions_precursor": [
+          253,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261
+        ],
+        "pocket_lining_1letter": "LKVELEAK",
+        "sequence_slice_around_pocket": "KDVDAAYLNKVELEAKVDSL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_V256M/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "L253",
+          "K255",
+          "V256",
+          "E257",
+          "L258",
+          "E259",
+          "A260",
+          "K261"
+        ],
+        "values": [
+          [
+            0.0,
+            5.41,
+            5.112,
+            6.146,
+            8.62,
+            9.782,
+            10.545,
+            12.371
+          ],
+          [
+            5.41,
+            0.0,
+            3.86,
+            5.471,
+            5.103,
+            6.112,
+            8.636,
+            9.806
+          ],
+          [
+            5.112,
+            3.86,
+            0.0,
+            3.856,
+            5.451,
+            4.968,
+            6.157,
+            8.639
+          ],
+          [
+            6.146,
+            5.471,
+            3.856,
+            0.0,
+            3.852,
+            5.502,
+            5.122,
+            6.298
+          ],
+          [
+            8.62,
+            5.103,
+            5.451,
+            3.852,
+            0.0,
+            3.859,
+            5.397,
+            4.954
+          ],
+          [
+            9.782,
+            6.112,
+            4.968,
+            5.502,
+            3.859,
+            0.0,
+            3.858,
+            5.445
+          ],
+          [
+            10.545,
+            8.636,
+            6.157,
+            5.122,
+            5.397,
+            3.858,
+            0.0,
+            3.875
+          ],
+          [
+            12.371,
+            9.806,
+            8.639,
+            6.298,
+            4.954,
+            5.445,
+            3.875,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8506369731840748,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT4-V256M Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8506,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_V256M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_V256M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_V256M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_V256M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT4_V256M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT4-V256M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT4-V256M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T14:09:18.380397+00:00"
     }
   ]
 }
