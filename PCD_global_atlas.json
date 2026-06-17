@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 154,
+  "total_entries": 155,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44558,
-    "queue_remaining": 134039
+    "total_processed": 44559,
+    "queue_remaining": 134038
   },
   "entries": [
     {
@@ -35328,6 +35328,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T05:05:00.454396+00:00"
+    },
+    {
+      "entry_id": "PCD-VDR-A350T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VDR-A350T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "VDR",
+        "uniprot": "",
+        "clinvar_id": "308878",
+        "disease": "Vitamin D-dependent rickets type II with alopecia",
+        "mutation_precursor": "A350T",
+        "mutation_mature": "A350T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7906124580132066,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 298.0978071965008,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          14.696782112121582,
+          13.845860481262207,
+          7.639884948730469
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.59652208640781,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6698957629739827,
+        "cryptic": true,
+        "pocket_residues": {
+          "P341": "P",
+          "A349": "A",
+          "A350": "A",
+          "L351": "L",
+          "I352": "I",
+          "E353": "E",
+          "A354": "A",
+          "Q356": "Q",
+          "D357": "D"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P11473|VDR variant A350T",
+        "fasta_sequence": "MEAMAASTSLPDPGDFDRNVPRICGVCGDRATGFHFNAMTCEGCKGFFRRSMKRKALFTCPFNGDCRITKDNRRHCQACRLKRCVDIGMMKEFILTDEEVQRKREMILKRKEEEALKDSLRPKLSEEQQRIIAILLDAHHKTYDPTYSDFCQFRPPVRVNDGGGSHPSRPNSRHTPSFSGDSSSSCSDHCITSSDMMDSSSFSNLDLSEEDSDDPSVTLELSQLSMLPHLADLVSYSIQKVIGFAKMIPGFRDLTSEDQIVLLKSSAIEVIMLRSNESFTMDDMSWTCGNQDYKYRVSDVTKAGHSLELIEPLIKFQVGLKKLNLHEEEHVLLMAICIVSPDRPGVQDAALIEAIQDRLSNTLQTYIRCRHPPPGSHLLYAKMIQKLADLRSLNEEHSKQYRCLSFQPECSMKLTPLVLEVFGNEIS",
+        "full_sequence": "MEAMAASTSLPDPGDFDRNVPRICGVCGDRATGFHFNAMTCEGCKGFFRRSMKRKALFTCPFNGDCRITKDNRRHCQACRLKRCVDIGMMKEFILTDEEVQRKREMILKRKEEEALKDSLRPKLSEEQQRIIAILLDAHHKTYDPTYSDFCQFRPPVRVNDGGGSHPSRPNSRHTPSFSGDSSSSCSDHCITSSDMMDSSSFSNLDLSEEDSDDPSVTLELSQLSMLPHLADLVSYSIQKVIGFAKMIPGFRDLTSEDQIVLLKSSAIEVIMLRSNESFTMDDMSWTCGNQDYKYRVSDVTKAGHSLELIEPLIKFQVGLKKLNLHEEEHVLLMAICIVSPDRPGVQDAALIEAIQDRLSNTLQTYIRCRHPPPGSHLLYAKMIQKLADLRSLNEEHSKQYRCLSFQPECSMKLTPLVLEVFGNEIS",
+        "n_residues": 427,
+        "mutation_pos_1indexed": 350,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "P341-A349-A350-L351-I352-E353-A354-Q356-D357",
+        "pocket_lining_positions_precursor": [
+          341,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          356,
+          357
+        ],
+        "pocket_lining_1letter": "PAALIEAQD",
+        "sequence_slice_around_pocket": "SPDRPGVQDAALIEAIQDRL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/VDR_A350T/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "P341",
+          "A349",
+          "A350",
+          "L351",
+          "I352",
+          "E353",
+          "A354",
+          "Q356",
+          "D357"
+        ],
+        "values": [
+          [
+            0.0,
+            4.726,
+            7.268,
+            8.245,
+            5.295,
+            5.419,
+            9.084,
+            7.893,
+            10.331
+          ],
+          [
+            4.726,
+            0.0,
+            3.859,
+            5.673,
+            5.162,
+            6.0,
+            8.628,
+            10.227,
+            11.917
+          ],
+          [
+            7.268,
+            3.859,
+            0.0,
+            3.84,
+            5.476,
+            5.055,
+            6.206,
+            9.757,
+            10.331
+          ],
+          [
+            8.245,
+            5.673,
+            3.84,
+            0.0,
+            3.851,
+            5.47,
+            5.079,
+            8.711,
+            9.887
+          ],
+          [
+            5.295,
+            5.162,
+            5.476,
+            3.851,
+            0.0,
+            3.855,
+            5.424,
+            6.123,
+            8.555
+          ],
+          [
+            5.419,
+            6.0,
+            5.055,
+            5.47,
+            3.855,
+            0.0,
+            3.852,
+            4.91,
+            5.917
+          ],
+          [
+            9.084,
+            8.628,
+            6.206,
+            5.079,
+            5.424,
+            3.852,
+            0.0,
+            5.527,
+            5.136
+          ],
+          [
+            7.893,
+            10.227,
+            9.757,
+            8.711,
+            6.123,
+            4.91,
+            5.527,
+            0.0,
+            3.851
+          ],
+          [
+            10.331,
+            11.917,
+            10.331,
+            9.887,
+            8.555,
+            5.917,
+            5.136,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8531918006463484,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "VDR-A350T Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8532,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/VDR_A350T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/VDR_A350T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/VDR_A350T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/VDR_A350T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/VDR_A350T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VDR-A350T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VDR-A350T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T05:05:21.651626+00:00"
     }
   ]
 }
