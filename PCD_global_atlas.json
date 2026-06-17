@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 26,
+  "total_entries": 27,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44408,
-    "queue_remaining": 134189
+    "total_processed": 44409,
+    "queue_remaining": 134188
   },
   "entries": [
     {
@@ -6108,6 +6108,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T02:58:43.822814+00:00"
+    },
+    {
+      "entry_id": "PCD-EXT2-R322H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EXT2-R322H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "EXT2",
+        "uniprot": "",
+        "clinvar_id": "304583",
+        "disease": "Exostoses, multiple, type 2",
+        "mutation_precursor": "R322H",
+        "mutation_mature": "R322H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7916005992765123,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 459.91907942134566,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          19.96011734008789,
+          12.358491897583008,
+          0.7320270538330078
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.0988395389381957,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8838262404476998,
+        "cryptic": true,
+        "pocket_residues": {
+          "V320": "V",
+          "L321": "L",
+          "R322": "R",
+          "G323": "G",
+          "L326": "L",
+          "V343": "V",
+          "I344": "I",
+          "A345": "A",
+          "D346": "D",
+          "Y348": "Y",
+          "E367": "E"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q93063|EXT2 variant R322H",
+        "fasta_sequence": "MCASVKYNIRGPALIPRMKTKHRIYYITLFSIVLLGLIATGMFQFWPHSIESSNDWNVEKRSIRDVPVVRLPADSPIPERGDLSCRMHTCFDVYRCGFNPKNKIKVYIYALKKYVDDFGVSVSNTISREYNELLMAISDSDYYTDDINRACLFVPSIDVLNQNTLRIKETAQAMAQLSRWDRGTNHLLFNMLPGGPPDYNTALDVPRDRALLAGGGFSTWTYRQGYDVSIPVYSPLSAEVDLPEKGPGPRQYFLLSSQVGLHPEYREDLEALQVKHGESVLVLDKCTNLSEGVLSVRKRCHKHQVFDYPQVLQEATFCVVLRGARLGQAVLSDVLQAGCVPVVIADSYILPFSEVLDWKRASVVVPEEKMSDVYSILQSIPQRQIEEMQRQARWFWEAYFQSIKAIALATLQIINDRIYPYAAISYEEWNDPPAVKWGSVSNPLFLPLIPPQSQGFTAIVLTYDRVESLFRVITEVSKVPSLSKLLVVWNNQNKNPPEDSLWPKIRVPLKVVRTAENKLSNRFFPYDEIETEAVLAIDDDIIMLTSDELQFGYEVWREFPDRLVGYPGRLHLWDHEMNKWKYESEWTNEVSMVLTGAAFYHKYFNYLYTYKMPGDIKNWVDAHMNCEDIAMNFLVANVTGKAVIKVTPRKKFKCPECTAIDGLSLDQTHMVERSECINKFASVFGTMPLKVVEHRADPVLYKDDFPEKLKSFPNIGSL",
+        "full_sequence": "MCASVKYNIRGPALIPRMKTKHRIYYITLFSIVLLGLIATGMFQFWPHSIESSNDWNVEKRSIRDVPVVRLPADSPIPERGDLSCRMHTCFDVYRCGFNPKNKIKVYIYALKKYVDDFGVSVSNTISREYNELLMAISDSDYYTDDINRACLFVPSIDVLNQNTLRIKETAQAMAQLSRWDRGTNHLLFNMLPGGPPDYNTALDVPRDRALLAGGGFSTWTYRQGYDVSIPVYSPLSAEVDLPEKGPGPRQYFLLSSQVGLHPEYREDLEALQVKHGESVLVLDKCTNLSEGVLSVRKRCHKHQVFDYPQVLQEATFCVVLRGARLGQAVLSDVLQAGCVPVVIADSYILPFSEVLDWKRASVVVPEEKMSDVYSILQSIPQRQIEEMQRQARWFWEAYFQSIKAIALATLQIINDRIYPYAAISYEEWNDPPAVKWGSVSNPLFLPLIPPQSQGFTAIVLTYDRVESLFRVITEVSKVPSLSKLLVVWNNQNKNPPEDSLWPKIRVPLKVVRTAENKLSNRFFPYDEIETEAVLAIDDDIIMLTSDELQFGYEVWREFPDRLVGYPGRLHLWDHEMNKWKYESEWTNEVSMVLTGAAFYHKYFNYLYTYKMPGDIKNWVDAHMNCEDIAMNFLVANVTGKAVIKVTPRKKFKCPECTAIDGLSLDQTHMVERSECINKFASVFGTMPLKVVEHRADPVLYKDDFPEKLKSFPNIGSL",
+        "n_residues": 718,
+        "mutation_pos_1indexed": 322,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "V320-L321-R322-G323-L326-V343-I344-A345-D346-Y348-E367",
+        "pocket_lining_positions_precursor": [
+          320,
+          321,
+          322,
+          323,
+          326,
+          343,
+          344,
+          345,
+          346,
+          348,
+          367
+        ],
+        "pocket_lining_1letter": "VLRGLVIADYE",
+        "sequence_slice_around_pocket": "LQEATFCVVLRGARLGQAVL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_R322H/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "V320",
+          "L321",
+          "R322",
+          "G323",
+          "L326",
+          "V343",
+          "I344",
+          "A345",
+          "D346",
+          "Y348",
+          "E367"
+        ],
+        "values": [
+          [
+            0.0,
+            3.83,
+            6.908,
+            8.864,
+            9.75,
+            4.673,
+            5.972,
+            7.551,
+            11.25,
+            10.964,
+            11.076
+          ],
+          [
+            3.83,
+            0.0,
+            3.79,
+            6.325,
+            8.473,
+            6.054,
+            4.673,
+            5.573,
+            9.261,
+            10.297,
+            8.504
+          ],
+          [
+            6.908,
+            3.79,
+            0.0,
+            3.825,
+            5.652,
+            8.203,
+            6.255,
+            4.531,
+            7.633,
+            8.469,
+            8.609
+          ],
+          [
+            8.864,
+            6.325,
+            3.825,
+            0.0,
+            5.763,
+            11.393,
+            9.94,
+            8.201,
+            10.958,
+            10.799,
+            12.11
+          ],
+          [
+            9.75,
+            8.473,
+            5.652,
+            5.763,
+            0.0,
+            10.517,
+            10.078,
+            7.003,
+            8.837,
+            6.096,
+            12.812
+          ],
+          [
+            4.673,
+            6.054,
+            8.203,
+            11.393,
+            10.517,
+            0.0,
+            3.834,
+            5.937,
+            8.704,
+            8.945,
+            9.064
+          ],
+          [
+            5.972,
+            4.673,
+            6.255,
+            9.94,
+            10.078,
+            3.834,
+            0.0,
+            3.815,
+            6.54,
+            8.941,
+            5.436
+          ],
+          [
+            7.551,
+            5.573,
+            4.531,
+            8.201,
+            7.003,
+            5.937,
+            3.815,
+            0.0,
+            3.804,
+            5.796,
+            6.267
+          ],
+          [
+            11.25,
+            9.261,
+            7.633,
+            10.958,
+            8.837,
+            8.704,
+            6.54,
+            3.804,
+            0.0,
+            5.584,
+            6.244
+          ],
+          [
+            10.964,
+            10.297,
+            8.469,
+            10.799,
+            6.096,
+            8.945,
+            8.941,
+            5.796,
+            5.584,
+            0.0,
+            11.274
+          ],
+          [
+            11.076,
+            8.504,
+            8.609,
+            12.11,
+            12.812,
+            9.064,
+            5.436,
+            6.267,
+            6.244,
+            11.274,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CCCCC1OCNCc1ccncc1",
+        "composite_score": 0.8266072161073159,
+        "mw": 327.21,
+        "logp": 2.016,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.5984,
+        "sa_score": 3.38,
+        "n_heavy_atoms": 24,
+        "tpsa": 76.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "EXT2-R322H Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CCCCC1OCNCc1ccncc1",
+        "pocket_affinity_score": 0.8266,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_R322H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_R322H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_R322H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_R322H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/EXT2_R322H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EXT2-R322H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EXT2-R322H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T02:59:09.280804+00:00"
     }
   ]
 }
