@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1167,
+  "total_entries": 1168,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45764,
-    "queue_remaining": 132833
+    "total_processed": 45765,
+    "queue_remaining": 132832
   },
   "entries": [
     {
@@ -257200,6 +257200,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:06:17.490341+00:00"
+    },
+    {
+      "entry_id": "PCD-SEPTIN9-R237Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SEPTIN9-R237Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SEPTIN9",
+        "uniprot": "",
+        "clinvar_id": "325548",
+        "disease": "Amyotrophic neuralgia",
+        "mutation_precursor": "R237Q",
+        "mutation_mature": "R237Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8839288035332237,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 433.605383123433,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -61.613128662109375,
+          -29.677234649658203,
+          17.315704345703125
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.720066577966915,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7169900685224376,
+        "cryptic": true,
+        "pocket_residues": {
+          "A234": "A",
+          "T235": "T",
+          "P236": "P",
+          "R237": "R"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UHD8|SEPTIN9 variant R237Q",
+        "fasta_sequence": "MKKSYSGGTRTSSGRLRRLGDSSGPALKRSFEVEEVETPNSTPPRRVQTPLLRATVASSTQKFQDLGVKNSEPSARHVDSLSQRSPKASLRRVELSGPKAAEPVSRRTELSIDISSKQVENAGAIGPSRFGLKRAEVLGHKTPEPAPRRTEITIVKPQESAHRRMEPPASKVPEVPTAPATDAAPKRVEIQMPKPAEAPTAPSPAQTLENSEPAPVSQLQSRLEPKPQPPVAEATPRSQEATEAAPSCVGDMADTPRDAGLKQAPASRNEKAPVDFGYVGIDSILEQMRRKAMKQGFEFNIMVVGQSGLGKSTLINTLFKSKISRKSVQPTSEERIPKTIEIKSITHDIEEKGVRMKLTVIDTPGFGDHINNENCWQPIMKFINDQYEKYLQEEVNINRKKRIPDTRVHCCLYFIPATGHSLRPLDIEFMKRLSKVVNIVPVIAKADTLTLEERVHFKQRITADLLSNGIDVYPQKEFDEDSEDRLVNEKFREMIPFAVVGSDHEYQVNGKRILGRKTKWGTIEVENTTHCEFAYLRDLLIRTHMQNIKDITSSIHFEAYRVKRLNEGSSAMANGMEEKEPEAPEM",
+        "full_sequence": "MKKSYSGGTRTSSGRLRRLGDSSGPALKRSFEVEEVETPNSTPPRRVQTPLLRATVASSTQKFQDLGVKNSEPSARHVDSLSQRSPKASLRRVELSGPKAAEPVSRRTELSIDISSKQVENAGAIGPSRFGLKRAEVLGHKTPEPAPRRTEITIVKPQESAHRRMEPPASKVPEVPTAPATDAAPKRVEIQMPKPAEAPTAPSPAQTLENSEPAPVSQLQSRLEPKPQPPVAEATPRSQEATEAAPSCVGDMADTPRDAGLKQAPASRNEKAPVDFGYVGIDSILEQMRRKAMKQGFEFNIMVVGQSGLGKSTLINTLFKSKISRKSVQPTSEERIPKTIEIKSITHDIEEKGVRMKLTVIDTPGFGDHINNENCWQPIMKFINDQYEKYLQEEVNINRKKRIPDTRVHCCLYFIPATGHSLRPLDIEFMKRLSKVVNIVPVIAKADTLTLEERVHFKQRITADLLSNGIDVYPQKEFDEDSEDRLVNEKFREMIPFAVVGSDHEYQVNGKRILGRKTKWGTIEVENTTHCEFAYLRDLLIRTHMQNIKDITSSIHFEAYRVKRLNEGSSAMANGMEEKEPEAPEM",
+        "n_residues": 586,
+        "mutation_pos_1indexed": 237,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "A234-T235-P236-R237",
+        "pocket_lining_positions_precursor": [
+          234,
+          235,
+          236,
+          237
+        ],
+        "pocket_lining_1letter": "ATPR",
+        "sequence_slice_around_pocket": "PQPPVAEATPRSQEATEAAP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SEPTIN9_R237Q/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A234",
+          "T235",
+          "P236",
+          "R237"
+        ],
+        "values": [
+          [
+            0.0,
+            3.3,
+            7.064,
+            10.874
+          ],
+          [
+            3.3,
+            0.0,
+            3.93,
+            7.623
+          ],
+          [
+            7.064,
+            3.93,
+            0.0,
+            3.912
+          ],
+          [
+            10.874,
+            7.623,
+            3.912,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCc1ccc(OC)c(N2CCCCC2OC(N)=O)c1",
+        "composite_score": 0.5605823827747595,
+        "mw": 307.19,
+        "logp": 1.869,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.8388,
+        "sa_score": 3.04,
+        "n_heavy_atoms": 22,
+        "tpsa": 76.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SEPTIN9-R237Q Candidate #1",
+        "iupac_name": "CNCCc1ccc(OC)c(N2CCCCC2OC(N)=O)c1",
+        "pocket_affinity_score": 0.5606,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SEPTIN9_R237Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SEPTIN9_R237Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SEPTIN9_R237Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SEPTIN9_R237Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SEPTIN9_R237Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SEPTIN9-R237Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SEPTIN9-R237Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:06:42.529016+00:00"
     }
   ]
 }
