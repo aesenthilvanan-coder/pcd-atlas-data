@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 202,
+  "total_entries": 203,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44614,
-    "queue_remaining": 133983
+    "total_processed": 44615,
+    "queue_remaining": 133982
   },
   "entries": [
     {
@@ -45229,6 +45229,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:00:51.600861+00:00"
+    },
+    {
+      "entry_id": "PCD-APOA1-A39V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-APOA1-A39V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "APOA1",
+        "uniprot": "",
+        "clinvar_id": "302509",
+        "disease": "Hypoalphalipoproteinemia, primary, 1",
+        "mutation_precursor": "A39V",
+        "mutation_mature": "A39V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8660531590926666,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 627.5807729029098,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -28.176376342773438,
+          4.805639743804932,
+          -2.7473063468933105
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.768410884285293,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8287357064244593,
+        "cryptic": true,
+        "pocket_residues": {
+          "K36": "K",
+          "A39": "A",
+          "T40": "T",
+          "V43": "V"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P02647|APOA1 variant A39V",
+        "fasta_sequence": "MKAAVLTLAVLFLTGSQARHFWQQDEPPQSPWDRVKDLATVYVDVLKDSGRDYVSQFEGSALGKQLNLKLLDNWDSVTSTFSKLREQLGPVTQEFWDNLEKETEGLRQEMSKDLEEVKAKVQPYLDDFQKKWQEEMELYRQKVEPLRAELQEGARQKLHELQEKLSPLGEEMRDRARAHVDALRTHLAPYSDELRQRLAARLEALKENGGARLAEYHAKATEHLSTLSEKAKPALEDLRQGLLPVLESFKVSFLSALEEYTKKLNTQ",
+        "full_sequence": "MKAAVLTLAVLFLTGSQARHFWQQDEPPQSPWDRVKDLATVYVDVLKDSGRDYVSQFEGSALGKQLNLKLLDNWDSVTSTFSKLREQLGPVTQEFWDNLEKETEGLRQEMSKDLEEVKAKVQPYLDDFQKKWQEEMELYRQKVEPLRAELQEGARQKLHELQEKLSPLGEEMRDRARAHVDALRTHLAPYSDELRQRLAARLEALKENGGARLAEYHAKATEHLSTLSEKAKPALEDLRQGLLPVLESFKVSFLSALEEYTKKLNTQ",
+        "n_residues": 267,
+        "mutation_pos_1indexed": 39,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "K36-A39-T40-V43",
+        "pocket_lining_positions_precursor": [
+          36,
+          39,
+          40,
+          43
+        ],
+        "pocket_lining_1letter": "KATV",
+        "sequence_slice_around_pocket": "QSPWDRVKDLATVYVDVLKD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/APOA1_A39V/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "K36",
+          "A39",
+          "T40",
+          "V43"
+        ],
+        "values": [
+          [
+            0.0,
+            5.014,
+            6.018,
+            10.299
+          ],
+          [
+            5.014,
+            0.0,
+            3.853,
+            6.019
+          ],
+          [
+            6.018,
+            3.853,
+            0.0,
+            5.113
+          ],
+          [
+            10.299,
+            6.019,
+            5.113,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)c(OCNc2ccc(S(N)(=O)=O)cc2N2CCCC(=O)C2)c1",
+        "composite_score": 0.5366298273358792,
+        "mw": 434.16,
+        "logp": 2.002,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 8,
+        "qed": 0.5393,
+        "sa_score": 2.69,
+        "n_heavy_atoms": 30,
+        "tpsa": 123.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "APOA1-A39V Candidate #1",
+        "iupac_name": "CNc1ccc(OC)c(OCNc2ccc(S(N)(=O)=O)cc2N2CCCC(=O)C2)c1",
+        "pocket_affinity_score": 0.5366,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/APOA1_A39V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/APOA1_A39V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/APOA1_A39V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/APOA1_A39V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/APOA1_A39V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-APOA1-A39V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-APOA1-A39V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:01:11.190447+00:00"
     }
   ]
 }
