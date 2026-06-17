@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 338,
+  "total_entries": 339,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44786,
-    "queue_remaining": 133811
+    "total_processed": 44787,
+    "queue_remaining": 133810
   },
   "entries": [
     {
@@ -73681,6 +73681,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:05:31.040197+00:00"
+    },
+    {
+      "entry_id": "PCD-NDUFV1-R359C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFV1-R359C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NDUFV1",
+        "uniprot": "",
+        "clinvar_id": "305753",
+        "disease": "Leigh syndrome",
+        "mutation_precursor": "R359C",
+        "mutation_mature": "R359C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9410400527003149,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 336.0915405828947,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -18.015701293945312,
+          -10.268072128295898,
+          24.257659912109375
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.7995018670430705,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7309322321248372,
+        "cryptic": true,
+        "pocket_residues": {
+          "N313": "N",
+          "L315": "L",
+          "R359": "R"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P49821|NDUFV1 variant R359C",
+        "fasta_sequence": "MLATRRLLGWSLPARVSVRFSGDTTAPKKTSFGSLKDEDRIFTNLYGRHDWRLKGSLSRGDWYKTKEILLKGPDWILGEIKTSGLRGRGGAGFPTGLKWSFMNKPSDGRPKYLVVNADEGEPGTCKDREILRHDPHKLLEGCLVGGRAMGARAAYIYIRGEFYNEASNLQVAIREAYEAGLIGKNACGSGYDFDVFVVRGAGAYICGEETALIESIEGKQGKPRLKPPFPADVGVFGCPTTVANVETVAVSPTICRRGGTWFAGFGRERNSGTKLFNISGHVNHPCTVEEEMSVPLKELIEKHAGGVTGGWDNLLAVIPGGSSTPLIPKSVCETVLMDFDALVQAQTGLGTAAVIVMDRSTDIVKAIARLIEFYKHESCGQCTPCREGVDWMNKVMARFVRGDARPAEIDSLWEISKQIEGHTICALGDGAAWPVQGLIRHFRPELEERMQRFAQQHQARQAAS",
+        "full_sequence": "MLATRRLLGWSLPARVSVRFSGDTTAPKKTSFGSLKDEDRIFTNLYGRHDWRLKGSLSRGDWYKTKEILLKGPDWILGEIKTSGLRGRGGAGFPTGLKWSFMNKPSDGRPKYLVVNADEGEPGTCKDREILRHDPHKLLEGCLVGGRAMGARAAYIYIRGEFYNEASNLQVAIREAYEAGLIGKNACGSGYDFDVFVVRGAGAYICGEETALIESIEGKQGKPRLKPPFPADVGVFGCPTTVANVETVAVSPTICRRGGTWFAGFGRERNSGTKLFNISGHVNHPCTVEEEMSVPLKELIEKHAGGVTGGWDNLLAVIPGGSSTPLIPKSVCETVLMDFDALVQAQTGLGTAAVIVMDRSTDIVKAIARLIEFYKHESCGQCTPCREGVDWMNKVMARFVRGDARPAEIDSLWEISKQIEGHTICALGDGAAWPVQGLIRHFRPELEERMQRFAQQHQARQAAS",
+        "n_residues": 464,
+        "mutation_pos_1indexed": 359,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "N313-L315-R359",
+        "pocket_lining_positions_precursor": [
+          313,
+          315,
+          359
+        ],
+        "pocket_lining_1letter": "NLR",
+        "sequence_slice_around_pocket": "LGTAAVIVMDRSTDIVKAIA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFV1_R359C/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "N313",
+          "L315",
+          "R359"
+        ],
+        "values": [
+          [
+            0.0,
+            6.498,
+            5.613
+          ],
+          [
+            6.498,
+            0.0,
+            4.851
+          ],
+          [
+            5.613,
+            4.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "composite_score": 0.5893570409715602,
+        "mw": 234.17,
+        "logp": 2.187,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8676,
+        "sa_score": 1.95,
+        "n_heavy_atoms": 17,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NDUFV1-R359C Candidate #1",
+        "iupac_name": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5894,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFV1_R359C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFV1_R359C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFV1_R359C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFV1_R359C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFV1_R359C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFV1-R359C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFV1-R359C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:05:51.857106+00:00"
     }
   ]
 }
