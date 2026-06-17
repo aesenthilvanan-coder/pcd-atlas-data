@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 621,
+  "total_entries": 622,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45112,
-    "queue_remaining": 133485
+    "total_processed": 45113,
+    "queue_remaining": 133484
   },
   "entries": [
     {
@@ -137613,6 +137613,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:57:21.157899+00:00"
+    },
+    {
+      "entry_id": "PCD-MYO7A-A601T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYO7A-A601T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MYO7A",
+        "uniprot": "",
+        "clinvar_id": "306170",
+        "disease": "Usher syndrome type 1",
+        "mutation_precursor": "A601T",
+        "mutation_mature": "A601T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.866121871855389,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 616.0289818572581,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          50.808128356933594,
+          15.441882133483887,
+          -16.797443389892578
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.317986835172588,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8179904311597443,
+        "cryptic": true,
+        "pocket_residues": {
+          "G575": "G",
+          "I578": "I",
+          "Q579": "Q",
+          "H582": "H",
+          "V597": "V",
+          "A598": "A",
+          "M599": "M",
+          "G600": "G",
+          "A601": "A"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13402|MYO7A variant A601T",
+        "fasta_sequence": "MVILQQGDHVWMDLRLGQEFDVPIGAVVKLCDSGQVQVVDDEDNEHWISPQNATHIKPMHPTSVHGVEDMIRLGDLNEAGILRNLLIRYRDHLIYTYTGSILVAVNPYQLLSIYSPEHIRQYTNKKIGEMPPHIFAIADNCYFNMKRNSRDQCCIISGESGAGKTESTKLILQFLAAISGQHSWIEQQVLEATPILEAFGNAKTIRNDNSSRFGKYIDIHFNKRGAIEGAKIEQYLLEKSRVCRQALDERNYHVFYCMLEGMSEDQKKKLGLGQASDYNYLAMGNCITCEGRVDSQEYANIRSAMKVLMFTDTENWEISKLLAAILHLGNLQYEARTFENLDACEVLFSPSLATAASLLEVNPPDLMSCLTSRTLITRGETVSTPLSREQALDVRDAFVKGIYGRLFVWIVDKINAAIYKPPSQDVKNSRRSIGLLDIFGFENFAVNSFEQLCINFANEHLQQFFVRHVFKLEQEEYDLESIDWLHIEFTDNQDALDMIANKPMNIISLIDEESKFPKGTDTTMLHKLNSQHKLNANYIPPKNNHETQFGINHFAGIVYYETQGFLEKNRDTLHGDIIQLVHSSRNKFIKQIFQADVAMGAETRKRSPTLSSQFKRSLELLMRTLGACQPFFVRCIKPNEFKKPMLFDRHLCVRQLRYSGMMETIRIRRAGYPIRYSFVEFVERYRVLLPGVKPAYKQGDLRGTCQRMAEAVLGTHDDWQIGKTKIFLKDHHDMLLEVERDKAITDRVILLQKVIRGFKDRSNFLKLKNAATLIQRHWRGHNCRKNYGLMRLGFLRLQALHRSRKLHQQYRLARQRIIQFQARCRAYLVRKAFRHRLWAVLTVQAYARGMIARRLHQRLRAEYLWRLEAEKMRLAEEEKLRKEMSAKKAKEEAERKHQERLAQLAREDAERELKEKEAARRKKELLEQMERARHEPVNHSDMVDKMFGFLGTSGGLPGQEGQAPSGFEDLERGRREMVEEDLDAALPLPDEDEEDLSEYKFAKFAATYFQGTTTHSYTRRPLKQPLLYHDDEGDQLAALAVWITILRFMGDLPEPKYHTAMSDGSEKIPVMTKIYETLGKKTYKRELQALQGEGEAQLPEGQKKSSVRHKLVHLTLKKKSKLTEEVTKRLHDGESTVQGNSMLEDRPTSNLEKLHFIIGNGILRPALRDEIYCQISKQLTHNPSKSSYARGWILVSLCVGCFAPSEKFVKYLRNFIHGGPPGYAPYCEERLRRTFVNGTRTQPPSWLELQATKSKKPIMLPVTFMDGTTKTLLTDSATTAKELCNALADKISLKDRFGFSLYIALFDKVSSLGSGSDHVMDAISQCEQYAKEQGAQERNAPWRLFFRKEVFTPWHSPSEDNVATNLIYQQVVRGVKFGEYRCEKEDDLAELASQQYFVDYGSEMILERLLNLVPTYIPDREITPLKTLEKWAQLAIAAHKKGIYAQRRTDAQKVKEDVVSYARFKWPLLFSRFYEAYKFSGPSLPKNDVIVAVNWTGVYFVDEQEQVLLELSFPEIMAVSSSRECRVWLSLGCSDLGCAAPHSGWAGLTPAGPCSPCWSCRGAKTTAPSFTLATIKGDEYTFTSSNAEDIRDLVVTFLEGLRKRSKYVVALQDNPNPAGEESGFLSFAKGDLIILDHDTGEQVMNSGWANGINERTKQRGDFPTDSVYVMPTVTMPPREIVALVTMTPDQRQDVVRLLQLRTAEPEVRAKPYTLEEFSYDYFRPPPKHTLSRVMVSKARGKDRLWSHTREPLKQALLKKLLGSEELSQEACLAFIAVLKYMGDYPSKRTRSVNELTDQIFEGPLKAEPLKDEAYVQILKQLTDNHIRYSEERGWELLWLCTGLFPPSNILLPHVQRFLQSRKHCPLAIDCLQRLQKALRNGSRKYPPHLVEVEAIQHKTTQIFHKVYFPDDTDEAFEVESSTKAKDFCQNIATRLLLKSSEGFSLFVKIADKVLSVPENDFFFDFVRHLTDWIKKARPIKDGIVPSLTYQVFFMKKLWTTTVPGKDPMADSIFHYYQELPKYLRGYHKCTREEVLQLGALIYRVKFEEDKSYFPSIPKLLRELVPQDLIRQVSPDDWKRSIVAYFNKHAGKSKEEAKLAFLKLIFKWPTFGSAFFEVKQTTEPNFPEILLIAINKYGVSLIDPKTKDILTTHPFTKISNWSSGNTYFHITIGNLVRGSKLLCETSLGYKMDDLLTSYISQMLTAMSKQRGSRSGK",
+        "full_sequence": "MVILQQGDHVWMDLRLGQEFDVPIGAVVKLCDSGQVQVVDDEDNEHWISPQNATHIKPMHPTSVHGVEDMIRLGDLNEAGILRNLLIRYRDHLIYTYTGSILVAVNPYQLLSIYSPEHIRQYTNKKIGEMPPHIFAIADNCYFNMKRNSRDQCCIISGESGAGKTESTKLILQFLAAISGQHSWIEQQVLEATPILEAFGNAKTIRNDNSSRFGKYIDIHFNKRGAIEGAKIEQYLLEKSRVCRQALDERNYHVFYCMLEGMSEDQKKKLGLGQASDYNYLAMGNCITCEGRVDSQEYANIRSAMKVLMFTDTENWEISKLLAAILHLGNLQYEARTFENLDACEVLFSPSLATAASLLEVNPPDLMSCLTSRTLITRGETVSTPLSREQALDVRDAFVKGIYGRLFVWIVDKINAAIYKPPSQDVKNSRRSIGLLDIFGFENFAVNSFEQLCINFANEHLQQFFVRHVFKLEQEEYDLESIDWLHIEFTDNQDALDMIANKPMNIISLIDEESKFPKGTDTTMLHKLNSQHKLNANYIPPKNNHETQFGINHFAGIVYYETQGFLEKNRDTLHGDIIQLVHSSRNKFIKQIFQADVAMGAETRKRSPTLSSQFKRSLELLMRTLGACQPFFVRCIKPNEFKKPMLFDRHLCVRQLRYSGMMETIRIRRAGYPIRYSFVEFVERYRVLLPGVKPAYKQGDLRGTCQRMAEAVLGTHDDWQIGKTKIFLKDHHDMLLEVERDKAITDRVILLQKVIRGFKDRSNFLKLKNAATLIQRHWRGHNCRKNYGLMRLGFLRLQALHRSRKLHQQYRLARQRIIQFQARCRAYLVRKAFRHRLWAVLTVQAYARGMIARRLHQRLRAEYLWRLEAEKMRLAEEEKLRKEMSAKKAKEEAERKHQERLAQLAREDAERELKEKEAARRKKELLEQMERARHEPVNHSDMVDKMFGFLGTSGGLPGQEGQAPSGFEDLERGRREMVEEDLDAALPLPDEDEEDLSEYKFAKFAATYFQGTTTHSYTRRPLKQPLLYHDDEGDQLAALAVWITILRFMGDLPEPKYHTAMSDGSEKIPVMTKIYETLGKKTYKRELQALQGEGEAQLPEGQKKSSVRHKLVHLTLKKKSKLTEEVTKRLHDGESTVQGNSMLEDRPTSNLEKLHFIIGNGILRPALRDEIYCQISKQLTHNPSKSSYARGWILVSLCVGCFAPSEKFVKYLRNFIHGGPPGYAPYCEERLRRTFVNGTRTQPPSWLELQATKSKKPIMLPVTFMDGTTKTLLTDSATTAKELCNALADKISLKDRFGFSLYIALFDKVSSLGSGSDHVMDAISQCEQYAKEQGAQERNAPWRLFFRKEVFTPWHSPSEDNVATNLIYQQVVRGVKFGEYRCEKEDDLAELASQQYFVDYGSEMILERLLNLVPTYIPDREITPLKTLEKWAQLAIAAHKKGIYAQRRTDAQKVKEDVVSYARFKWPLLFSRFYEAYKFSGPSLPKNDVIVAVNWTGVYFVDEQEQVLLELSFPEIMAVSSSRECRVWLSLGCSDLGCAAPHSGWAGLTPAGPCSPCWSCRGAKTTAPSFTLATIKGDEYTFTSSNAEDIRDLVVTFLEGLRKRSKYVVALQDNPNPAGEESGFLSFAKGDLIILDHDTGEQVMNSGWANGINERTKQRGDFPTDSVYVMPTVTMPPREIVALVTMTPDQRQDVVRLLQLRTAEPEVRAKPYTLEEFSYDYFRPPPKHTLSRVMVSKARGKDRLWSHTREPLKQALLKKLLGSEELSQEACLAFIAVLKYMGDYPSKRTRSVNELTDQIFEGPLKAEPLKDEAYVQILKQLTDNHIRYSEERGWELLWLCTGLFPPSNILLPHVQRFLQSRKHCPLAIDCLQRLQKALRNGSRKYPPHLVEVEAIQHKTTQIFHKVYFPDDTDEAFEVESSTKAKDFCQNIATRLLLKSSEGFSLFVKIADKVLSVPENDFFFDFVRHLTDWIKKARPIKDGIVPSLTYQVFFMKKLWTTTVPGKDPMADSIFHYYQELPKYLRGYHKCTREEVLQLGALIYRVKFEEDKSYFPSIPKLLRELVPQDLIRQVSPDDWKRSIVAYFNKHAGKSKEEAKLAFLKLIFKWPTFGSAFFEVKQTTEPNFPEILLIAINKYGVSLIDPKTKDILTTHPFTKISNWSSGNTYFHITIGNLVRGSKLLCETSLGYKMDDLLTSYISQMLTAMSKQRGSRSGK",
+        "n_residues": 2215,
+        "mutation_pos_1indexed": 601,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "G575-I578-Q579-H582-V597-A598-M599-G600-A601",
+        "pocket_lining_positions_precursor": [
+          575,
+          578,
+          579,
+          582,
+          597,
+          598,
+          599,
+          600,
+          601
+        ],
+        "pocket_lining_1letter": "GIQHVAMGA",
+        "sequence_slice_around_pocket": "QIFQADVAMGAETRKRSPTL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MYO7A_A601T/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "G575",
+          "I578",
+          "Q579",
+          "H582",
+          "V597",
+          "A598",
+          "M599",
+          "G600",
+          "A601"
+        ],
+        "values": [
+          [
+            0.0,
+            5.324,
+            6.265,
+            10.558,
+            9.829,
+            12.543,
+            10.72,
+            10.219,
+            8.182
+          ],
+          [
+            5.324,
+            0.0,
+            3.855,
+            6.182,
+            6.794,
+            10.46,
+            10.187,
+            10.955,
+            10.758
+          ],
+          [
+            6.265,
+            3.855,
+            0.0,
+            4.807,
+            8.1,
+            11.589,
+            11.783,
+            11.457,
+            11.046
+          ],
+          [
+            10.558,
+            6.182,
+            4.807,
+            0.0,
+            7.274,
+            10.692,
+            12.396,
+            12.849,
+            13.786
+          ],
+          [
+            9.829,
+            6.794,
+            8.1,
+            7.274,
+            0.0,
+            3.855,
+            5.443,
+            7.23,
+            9.471
+          ],
+          [
+            12.543,
+            10.46,
+            11.589,
+            10.692,
+            3.855,
+            0.0,
+            3.874,
+            6.083,
+            9.493
+          ],
+          [
+            10.72,
+            10.187,
+            11.783,
+            12.396,
+            5.443,
+            3.874,
+            0.0,
+            3.835,
+            6.701
+          ],
+          [
+            10.219,
+            10.955,
+            11.457,
+            12.849,
+            7.23,
+            6.083,
+            3.835,
+            0.0,
+            3.835
+          ],
+          [
+            8.182,
+            10.758,
+            11.046,
+            13.786,
+            9.471,
+            9.493,
+            6.701,
+            3.835,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6488667492603699,
+        "mw": 414.18,
+        "logp": 2.14,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.4888,
+        "sa_score": 3.05,
+        "n_heavy_atoms": 29,
+        "tpsa": 130.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MYO7A-A601T Candidate #1",
+        "iupac_name": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6489,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MYO7A_A601T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MYO7A_A601T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MYO7A_A601T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MYO7A_A601T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MYO7A_A601T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYO7A-A601T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYO7A-A601T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:59:22.459675+00:00"
     }
   ]
 }
