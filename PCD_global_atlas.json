@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 226,
+  "total_entries": 227,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44638,
-    "queue_remaining": 133959
+    "total_processed": 44639,
+    "queue_remaining": 133958
   },
   "entries": [
     {
@@ -50072,6 +50072,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:25:40.185629+00:00"
+    },
+    {
+      "entry_id": "PCD-TECTA-R1186W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TECTA-R1186W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TECTA",
+        "uniprot": "",
+        "clinvar_id": "303016",
+        "disease": "Autosomal recessive nonsyndromic hearing loss 21",
+        "mutation_precursor": "R1186W",
+        "mutation_mature": "R1186W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8673507650239607,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 403.35149383747137,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          13.92431354522705,
+          -4.0242600440979,
+          -25.130720138549805
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.6977724323162366,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7588784268678064,
+        "cryptic": true,
+        "pocket_residues": {
+          "T1179": "T",
+          "V1180": "V",
+          "L1181": "L",
+          "E1185": "E",
+          "R1186": "R",
+          "L1187": "L",
+          "Y1188": "Y",
+          "G1475": "G",
+          "V1476": "V",
+          "M1697": "M"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O75443|TECTA variant R1186W",
+        "fasta_sequence": "MNYSSFLRIWVSFIFALVQHQAQPRELMYPFWQNDTKTPKVDDGSSSEIKLAIPVFFFGVPYRTVYVNNNGVVSFNVLVSQFTPESFPLTDGRAFVAPFWADVHNGIRGEIYYRETMEPAILKRATKDIRKYFKDMATFSATWVFIVTWEEVTFYGGSSTTPVNTFQAVLVSDGSYTFTLFNYYEINWTTGTASGGDPLTGLGGVMAQAGFNGGNLTNFFSLPGSRTPEIVNIQETTNVNVPGRWAFKVDGKEIDPANGCTSRGQFLRRGEVFWDDLNCTVKCRCLDFNNEIYCQEASCSPYEVCEPKGKFFYCSAVETSTCVVFGEPHYHTFDGFLFHFQGSCAYLLARQCLQTSSLPFFSVEAKNEHRRGSAVSWVKELSVEVNGYKILIPKGSYGRVKVNDLVTSLPVTLDLGTVKIYQSGISTAVETDFGLLVTFDGQHYASISVPGSYINSTCGLCGNYNKNPLDDFLRPDGRPAMSVLDLGESWRVYHADWKCDSGCVDNCTQCDAATEALYFGSDYCGFLNKTDGPLWECGTVVDPTAFVHSCVYDLCSVRDNGTLLCQAIQAYALVCQALGIPIGDWRTQTGCVSTVQCPSFSHYSVCTSSCPDTCSDLTASRNCATPCTEGCECNQGFVLSTSQCVPLHKCGCDFDGHYYTMGEFFWATANCTVQCLCEEGGDVYCFNKTCGSGEVCAVEDGYQGCFPKRETVCLLSQNQVLHTFDGASYAFPSEFSYTLLKTCPERPEYLEIDINKKKPDAGPAWLRGLRILVADQEVKIGGIGASEVKLNGQEVELPFFHPSGKLEIYRNKNSTTVESKGVVTVQYSDIGLLYIRLSTTYFNCTGGLCGFYNANASDEFCLPNGKCTDNLAVFLESWTTFEEICNGECGDLLKACNNDSELLKFYRSRSRCGIINDPSNSSFLECHGVVNVTAYYRTCLFRLCQSGGNESELCDSVARYASACKNADVEVGPWRTYDFCPLECPENSHFEECITCTETCETLTLGPICVDSCSEGCQCDEGYALLGSQCVTRSECGCNFEGHQLATNETFWVDLDCQIFCYCSGTDNRVHCETIPCKDDEYCMEEGGLYYCQARTDASCIVSGYGHYLTFDGFPFDFQTSCPLILCTTGSRPSSDSFPKFVVTAKNEDRDPSLALWVKQVDVTVFGYSIVIHRAYKHTVLVNSERLYLPLKLGQGKINIFSFGFHVVVETDFGLKVVYDWKTFLSITVPRSMQNSTYGLCGRYNGNPDDDLEMPMGLLASSVNEFGQSWVKRDTFCQVGCGDRCPSCAKVEGFSKVQQLCSLIPNQNAAFSKCHSKVNPTFFYKNCLFDSCIDGGAVQTACSWLQNYASTCQTQGITVTGWRNYTSCTVTCPPNSHYESCVSVCQPRCAAIRLKSDCSHYCVEGCHCDAGYVLNGKSCILPHSCGCYSDGKYYEPKQLFWNSDCTRRCRCFRRNVIQCDPRQCKSDEECALRNGVRGCFSTKTSYCLAAGGGVFRTFDGAFLRFPANCAFVLSTICQKLPDISFQLIINFDKWSAPNLTIISPVYFYINEEQILINDRNTVKVNGTQVNVPFITGLATKIYSSEGFLVIDTSPDIQIYYNGFNVIKISISERLQNKVCGLCGNFNGDLTDDYVTLRGKPVVSSVVLAQSWKTNGMQKRPLAPSCNELQFSQYAAMCDNVHIQKMQGDGYCLKLTDMKGFFQPCYGLLDPLPFYESCYLDGCYSHKKFQLCGSLAAYGEACRSFGILSTEWIEKENCSGVVEDPCVGADCPNRTCELGNGRELCGCIEPPPYGNNSHDIIDAEVTCKAAQMEVSISKCKLFQLGFEREGVRINDRQCTGIEGEDFISFQINNTKGNCGNIVQSNGTHIMYKNTLWIESANNTGNIITRDRTINVEFSCAYELDIKISLDSVVKPMLSVINLTVPTQEGSFITKMALYKNASYKHPYRQGEVVLTTRDVLYVGVFVVGADATHLILTLNKCYATPTRDSNDKLRYFIIEGGCQNLKDNTIGIEENAVSLTCRFHVTVFKFIGDYDEVHLHCAVSLCDSEKYSCKITCPHNSRIATDYTKEPKEQIISVGPIRRKRLDWCEDNGGCEQICTSRVDGPLCSCVTGTLQEDGKSCRASNSSMELQVWTLLLIMIQISLWHFVYKSGTTS",
+        "full_sequence": "MNYSSFLRIWVSFIFALVQHQAQPRELMYPFWQNDTKTPKVDDGSSSEIKLAIPVFFFGVPYRTVYVNNNGVVSFNVLVSQFTPESFPLTDGRAFVAPFWADVHNGIRGEIYYRETMEPAILKRATKDIRKYFKDMATFSATWVFIVTWEEVTFYGGSSTTPVNTFQAVLVSDGSYTFTLFNYYEINWTTGTASGGDPLTGLGGVMAQAGFNGGNLTNFFSLPGSRTPEIVNIQETTNVNVPGRWAFKVDGKEIDPANGCTSRGQFLRRGEVFWDDLNCTVKCRCLDFNNEIYCQEASCSPYEVCEPKGKFFYCSAVETSTCVVFGEPHYHTFDGFLFHFQGSCAYLLARQCLQTSSLPFFSVEAKNEHRRGSAVSWVKELSVEVNGYKILIPKGSYGRVKVNDLVTSLPVTLDLGTVKIYQSGISTAVETDFGLLVTFDGQHYASISVPGSYINSTCGLCGNYNKNPLDDFLRPDGRPAMSVLDLGESWRVYHADWKCDSGCVDNCTQCDAATEALYFGSDYCGFLNKTDGPLWECGTVVDPTAFVHSCVYDLCSVRDNGTLLCQAIQAYALVCQALGIPIGDWRTQTGCVSTVQCPSFSHYSVCTSSCPDTCSDLTASRNCATPCTEGCECNQGFVLSTSQCVPLHKCGCDFDGHYYTMGEFFWATANCTVQCLCEEGGDVYCFNKTCGSGEVCAVEDGYQGCFPKRETVCLLSQNQVLHTFDGASYAFPSEFSYTLLKTCPERPEYLEIDINKKKPDAGPAWLRGLRILVADQEVKIGGIGASEVKLNGQEVELPFFHPSGKLEIYRNKNSTTVESKGVVTVQYSDIGLLYIRLSTTYFNCTGGLCGFYNANASDEFCLPNGKCTDNLAVFLESWTTFEEICNGECGDLLKACNNDSELLKFYRSRSRCGIINDPSNSSFLECHGVVNVTAYYRTCLFRLCQSGGNESELCDSVARYASACKNADVEVGPWRTYDFCPLECPENSHFEECITCTETCETLTLGPICVDSCSEGCQCDEGYALLGSQCVTRSECGCNFEGHQLATNETFWVDLDCQIFCYCSGTDNRVHCETIPCKDDEYCMEEGGLYYCQARTDASCIVSGYGHYLTFDGFPFDFQTSCPLILCTTGSRPSSDSFPKFVVTAKNEDRDPSLALWVKQVDVTVFGYSIVIHRAYKHTVLVNSERLYLPLKLGQGKINIFSFGFHVVVETDFGLKVVYDWKTFLSITVPRSMQNSTYGLCGRYNGNPDDDLEMPMGLLASSVNEFGQSWVKRDTFCQVGCGDRCPSCAKVEGFSKVQQLCSLIPNQNAAFSKCHSKVNPTFFYKNCLFDSCIDGGAVQTACSWLQNYASTCQTQGITVTGWRNYTSCTVTCPPNSHYESCVSVCQPRCAAIRLKSDCSHYCVEGCHCDAGYVLNGKSCILPHSCGCYSDGKYYEPKQLFWNSDCTRRCRCFRRNVIQCDPRQCKSDEECALRNGVRGCFSTKTSYCLAAGGGVFRTFDGAFLRFPANCAFVLSTICQKLPDISFQLIINFDKWSAPNLTIISPVYFYINEEQILINDRNTVKVNGTQVNVPFITGLATKIYSSEGFLVIDTSPDIQIYYNGFNVIKISISERLQNKVCGLCGNFNGDLTDDYVTLRGKPVVSSVVLAQSWKTNGMQKRPLAPSCNELQFSQYAAMCDNVHIQKMQGDGYCLKLTDMKGFFQPCYGLLDPLPFYESCYLDGCYSHKKFQLCGSLAAYGEACRSFGILSTEWIEKENCSGVVEDPCVGADCPNRTCELGNGRELCGCIEPPPYGNNSHDIIDAEVTCKAAQMEVSISKCKLFQLGFEREGVRINDRQCTGIEGEDFISFQINNTKGNCGNIVQSNGTHIMYKNTLWIESANNTGNIITRDRTINVEFSCAYELDIKISLDSVVKPMLSVINLTVPTQEGSFITKMALYKNASYKHPYRQGEVVLTTRDVLYVGVFVVGADATHLILTLNKCYATPTRDSNDKLRYFIIEGGCQNLKDNTIGIEENAVSLTCRFHVTVFKFIGDYDEVHLHCAVSLCDSEKYSCKITCPHNSRIATDYTKEPKEQIISVGPIRRKRLDWCEDNGGCEQICTSRVDGPLCSCVTGTLQEDGKSCRASNSSMELQVWTLLLIMIQISLWHFVYKSGTTS",
+        "n_residues": 2155,
+        "mutation_pos_1indexed": 1186,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "T1179-V1180-L1181-E1185-R1186-L1187-Y1188-G1475-V1476-M1697",
+        "pocket_lining_positions_precursor": [
+          1179,
+          1180,
+          1181,
+          1185,
+          1186,
+          1187,
+          1188,
+          1475,
+          1476,
+          1697
+        ],
+        "pocket_lining_1letter": "TVLERLYGVM",
+        "sequence_slice_around_pocket": "YKHTVLVNSERLYLPLKLGQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TECTA_R1186W/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "T1179",
+          "V1180",
+          "L1181",
+          "E1185",
+          "R1186",
+          "L1187",
+          "Y1188",
+          "G1475",
+          "V1476",
+          "M1697"
+        ],
+        "values": [
+          [
+            0.0,
+            3.848,
+            7.052,
+            10.135,
+            6.591,
+            5.466,
+            4.464,
+            10.4,
+            12.18,
+            8.526
+          ],
+          [
+            3.848,
+            0.0,
+            3.834,
+            8.089,
+            5.568,
+            5.505,
+            6.558,
+            9.273,
+            11.827,
+            11.133
+          ],
+          [
+            7.052,
+            3.834,
+            0.0,
+            5.111,
+            4.222,
+            6.253,
+            9.005,
+            6.646,
+            9.709,
+            12.005
+          ],
+          [
+            10.135,
+            8.089,
+            5.111,
+            0.0,
+            3.837,
+            6.445,
+            10.257,
+            4.419,
+            6.014,
+            11.863
+          ],
+          [
+            6.591,
+            5.568,
+            4.222,
+            3.837,
+            0.0,
+            3.82,
+            7.166,
+            4.575,
+            6.337,
+            8.623
+          ],
+          [
+            5.466,
+            5.505,
+            6.253,
+            6.445,
+            3.82,
+            0.0,
+            3.848,
+            8.253,
+            8.943,
+            8.831
+          ],
+          [
+            4.464,
+            6.558,
+            9.005,
+            10.257,
+            7.166,
+            3.848,
+            0.0,
+            11.496,
+            12.032,
+            8.676
+          ],
+          [
+            10.4,
+            9.273,
+            6.646,
+            4.419,
+            4.575,
+            8.253,
+            11.496,
+            0.0,
+            3.876,
+            9.778
+          ],
+          [
+            12.18,
+            11.827,
+            9.709,
+            6.014,
+            6.337,
+            8.943,
+            12.032,
+            3.876,
+            0.0,
+            9.223
+          ],
+          [
+            8.526,
+            11.133,
+            12.005,
+            11.863,
+            8.623,
+            8.831,
+            8.676,
+            9.778,
+            9.223,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8751316831307171,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TECTA-R1186W Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8751,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TECTA_R1186W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TECTA_R1186W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TECTA_R1186W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TECTA_R1186W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TECTA_R1186W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TECTA-R1186W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TECTA-R1186W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:27:24.600314+00:00"
     }
   ]
 }
