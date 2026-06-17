@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1367,
+  "total_entries": 1368,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46003,
-    "queue_remaining": 132594
+    "total_processed": 46004,
+    "queue_remaining": 132593
   },
   "entries": [
     {
@@ -302979,6 +302979,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:52:10.402295+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC4A1-I877T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC4A1-I877T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC4A1",
+        "uniprot": "",
+        "clinvar_id": "323501",
+        "disease": "Hemolytic anemia",
+        "mutation_precursor": "I877T",
+        "mutation_mature": "I877T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7444307972820308,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 304.5307766456838,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          14.775754928588867,
+          14.858659744262695,
+          17.899085998535156
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.848663372495615,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8966733276144659,
+        "cryptic": true,
+        "pocket_residues": {
+          "V872": "V",
+          "L873": "L",
+          "L874": "L",
+          "P875": "P",
+          "L876": "L",
+          "I877": "I",
+          "F878": "F",
+          "R879": "R",
+          "N880": "N"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P02730|SLC4A1 variant I877T",
+        "fasta_sequence": "MEELQDDYEDMMEENLEQEEYEDPDIPESQMEEPAAHDTEATATDYHTTSHPGTHKVYVELQELVMDEKNQELRWMEAARWVQLEENLGENGAWGRPHLSHLTFWSLLELRRVFTKGTVLLDLQETSLAGVANQLLDRFIFEDQIRPQDREELLRALLLKHSHAGELEALGGVKPAVLTRSGDPSQPLLPQHSSLETQLFCEQGDGGTEGHSPSGILEKIPPDSEATLVLVGRADFLEQPVLGFVRLQEAAELEAVELPVPIRFLFVLLGPEAPHIDYTQLGRAAATLMSERVFRIDAYMAQSRGELLHSLEGFLDCSLVLPPTDAPSEQALLSLVPVQRELLRRRYQSSPAKPDSSFYKGLDLNGGPDDPLQQTGQLFGGLVRDIRRRYPYYLSDITDAFSPQVLAAVIFIYFAALSPAITFGGLLGEKTRNQMGVSELLISTAVQGILFALLGAQPLLVVGFSGPLLVFEEAFFSFCETNGLEYIVGRVWIGFWLILLVVLVVAFEGSFLVRFISRYTQEIFSFLISLIFIYETFSKLIKIFQDHPLQKTYNYNVLMVPKPQGPLPNTALLSLVLMAGTFFFAMMLRKFKNSSYFPGKLRRVIGDFGVPISILIMVLVDFFIQDTYTQKLSVPDGFKVSNSSARGWVIHPLGLRSEFPIWMMFASALPALLVFILIFLESQITTLIVSKPERKMVKGSGFHLDLLLVVGMGGVAALFGMPWLSATTVRSVTHANALTVMGKASTPGAAAQIQEVKEQRISGLLVAVLVGLSILMEPILSRIPLAVLFGIFLYMGVTSLSGIQLFDRILLLFKPPKYHPDVPYVKRVKTWRMHLFTGIQIICLAVLWVVKSTPASLALPFVLILTVPLRRVLLPLIFRNVELQCLDADDAKATFDEEEGRDEYDEVAMPV",
+        "full_sequence": "MEELQDDYEDMMEENLEQEEYEDPDIPESQMEEPAAHDTEATATDYHTTSHPGTHKVYVELQELVMDEKNQELRWMEAARWVQLEENLGENGAWGRPHLSHLTFWSLLELRRVFTKGTVLLDLQETSLAGVANQLLDRFIFEDQIRPQDREELLRALLLKHSHAGELEALGGVKPAVLTRSGDPSQPLLPQHSSLETQLFCEQGDGGTEGHSPSGILEKIPPDSEATLVLVGRADFLEQPVLGFVRLQEAAELEAVELPVPIRFLFVLLGPEAPHIDYTQLGRAAATLMSERVFRIDAYMAQSRGELLHSLEGFLDCSLVLPPTDAPSEQALLSLVPVQRELLRRRYQSSPAKPDSSFYKGLDLNGGPDDPLQQTGQLFGGLVRDIRRRYPYYLSDITDAFSPQVLAAVIFIYFAALSPAITFGGLLGEKTRNQMGVSELLISTAVQGILFALLGAQPLLVVGFSGPLLVFEEAFFSFCETNGLEYIVGRVWIGFWLILLVVLVVAFEGSFLVRFISRYTQEIFSFLISLIFIYETFSKLIKIFQDHPLQKTYNYNVLMVPKPQGPLPNTALLSLVLMAGTFFFAMMLRKFKNSSYFPGKLRRVIGDFGVPISILIMVLVDFFIQDTYTQKLSVPDGFKVSNSSARGWVIHPLGLRSEFPIWMMFASALPALLVFILIFLESQITTLIVSKPERKMVKGSGFHLDLLLVVGMGGVAALFGMPWLSATTVRSVTHANALTVMGKASTPGAAAQIQEVKEQRISGLLVAVLVGLSILMEPILSRIPLAVLFGIFLYMGVTSLSGIQLFDRILLLFKPPKYHPDVPYVKRVKTWRMHLFTGIQIICLAVLWVVKSTPASLALPFVLILTVPLRRVLLPLIFRNVELQCLDADDAKATFDEEEGRDEYDEVAMPV",
+        "n_residues": 911,
+        "mutation_pos_1indexed": 877,
+        "wt_aa": "I",
+        "mut_aa": "T",
+        "pocket_lining_residues": "V872-L873-L874-P875-L876-I877-F878-R879-N880",
+        "pocket_lining_positions_precursor": [
+          872,
+          873,
+          874,
+          875,
+          876,
+          877,
+          878,
+          879,
+          880
+        ],
+        "pocket_lining_1letter": "VLLPLIFRN",
+        "sequence_slice_around_pocket": "VPLRRVLLPLIFRNVELQCL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A1_I877T/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "V872",
+          "L873",
+          "L874",
+          "P875",
+          "L876",
+          "I877",
+          "F878",
+          "R879",
+          "N880"
+        ],
+        "values": [
+          [
+            0.0,
+            3.837,
+            5.958,
+            6.039,
+            7.22,
+            9.797,
+            10.76,
+            12.222,
+            11.516
+          ],
+          [
+            3.837,
+            0.0,
+            3.857,
+            5.71,
+            5.531,
+            7.149,
+            9.103,
+            11.616,
+            12.042
+          ],
+          [
+            5.958,
+            3.857,
+            0.0,
+            3.898,
+            5.301,
+            5.224,
+            5.89,
+            8.691,
+            9.271
+          ],
+          [
+            6.039,
+            5.71,
+            3.898,
+            0.0,
+            3.856,
+            5.442,
+            5.085,
+            6.247,
+            6.505
+          ],
+          [
+            7.22,
+            5.531,
+            5.301,
+            3.856,
+            0.0,
+            3.864,
+            6.031,
+            7.855,
+            9.483
+          ],
+          [
+            9.797,
+            7.149,
+            5.224,
+            5.442,
+            3.864,
+            0.0,
+            3.874,
+            7.098,
+            9.71
+          ],
+          [
+            10.76,
+            9.103,
+            5.89,
+            5.085,
+            6.031,
+            3.874,
+            0.0,
+            3.84,
+            6.515
+          ],
+          [
+            12.222,
+            11.616,
+            8.691,
+            6.247,
+            7.855,
+            7.098,
+            3.84,
+            0.0,
+            3.851
+          ],
+          [
+            11.516,
+            12.042,
+            9.271,
+            6.505,
+            9.483,
+            9.71,
+            6.515,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.651261944887901,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC4A1-I877T Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6513,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A1_I877T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A1_I877T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A1_I877T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A1_I877T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A1_I877T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC4A1-I877T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC4A1-I877T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:52:41.479846+00:00"
     }
   ]
 }
