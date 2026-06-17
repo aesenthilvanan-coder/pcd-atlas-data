@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1334,
+  "total_entries": 1335,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45952,
-    "queue_remaining": 132645
+    "total_processed": 45953,
+    "queue_remaining": 132644
   },
   "entries": [
     {
@@ -295179,6 +295179,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:24:32.124322+00:00"
+    },
+    {
+      "entry_id": "PCD-FOXN1-A166V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXN1-A166V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FOXN1",
+        "uniprot": "",
+        "clinvar_id": "322417",
+        "disease": "T-cell immunodeficiency, congenital alopecia, and nail dystrophy",
+        "mutation_precursor": "A166V",
+        "mutation_mature": "A166V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7846320832219926,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 344.5998167409838,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -6.897395610809326,
+          -33.16481018066406,
+          -16.827617645263672
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.254989541943237,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8137676705453306,
+        "cryptic": true,
+        "pocket_residues": {
+          "D164": "D",
+          "V165": "V",
+          "A166": "A",
+          "E167": "E"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15353|FOXN1 variant A166V",
+        "fasta_sequence": "MVSLPPPQSDVTLPGPTRLEGERQGDLMQAPGLPGSPAPQSKHAGFSCSSFVSDGPPERTPSLPPHSPRIASPGPEQVQGHCPAGPGPGPFRLSPSDKYPGFGFEEAAASSPGRFLKGSHAPFHPYKRPFHEDVFPEAETTLALKGHSFKTPGPLEAFEEIPVDVAEAEAFLPGFSAEAWCNGLPYPSQEHGPQVLGSEVKVKPPVLESGAGMFCYQPPLQHMYCSSQPPFHQYSPGGGSYPIPYLGSSHYQYQRMAPQASTDGHQPLFPKPIYSYSILIFMALKNSKTGSLPVSEIYNFMTEHFPYFKTAPDGWKNSVRHNLSLNKCFEKVENKSGSSSRKGCLWALNPAKIDKMQEELQKWKRKDPIAVRKSMAKPEELDSLIGDKREKLGSPLLGCPPPGLSGSGPIRPLAPPAGLSPPLHSLHPAPGPIPGKNPLQDLLMGHTPSCYGQTYLHLSPGLAPPGPPQPLFPQPDGHLELRAQPGTPQDSPLPAHTPPSHSAKLLAEPSPARTMHDTLLPDGDLGTDLDAINPSLTDFDFQGNLWEQLKDDSLALDPLVLVTSSPTSSSMPPPQPPPHCFPPGPCLTETGSGAGDLAAPGSGGSGALGDLHLTTLYSAFMELEPTPPTAPAGPSVYLSPSSKPVALA",
+        "full_sequence": "MVSLPPPQSDVTLPGPTRLEGERQGDLMQAPGLPGSPAPQSKHAGFSCSSFVSDGPPERTPSLPPHSPRIASPGPEQVQGHCPAGPGPGPFRLSPSDKYPGFGFEEAAASSPGRFLKGSHAPFHPYKRPFHEDVFPEAETTLALKGHSFKTPGPLEAFEEIPVDVAEAEAFLPGFSAEAWCNGLPYPSQEHGPQVLGSEVKVKPPVLESGAGMFCYQPPLQHMYCSSQPPFHQYSPGGGSYPIPYLGSSHYQYQRMAPQASTDGHQPLFPKPIYSYSILIFMALKNSKTGSLPVSEIYNFMTEHFPYFKTAPDGWKNSVRHNLSLNKCFEKVENKSGSSSRKGCLWALNPAKIDKMQEELQKWKRKDPIAVRKSMAKPEELDSLIGDKREKLGSPLLGCPPPGLSGSGPIRPLAPPAGLSPPLHSLHPAPGPIPGKNPLQDLLMGHTPSCYGQTYLHLSPGLAPPGPPQPLFPQPDGHLELRAQPGTPQDSPLPAHTPPSHSAKLLAEPSPARTMHDTLLPDGDLGTDLDAINPSLTDFDFQGNLWEQLKDDSLALDPLVLVTSSPTSSSMPPPQPPPHCFPPGPCLTETGSGAGDLAAPGSGGSGALGDLHLTTLYSAFMELEPTPPTAPAGPSVYLSPSSKPVALA",
+        "n_residues": 648,
+        "mutation_pos_1indexed": 166,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "D164-V165-A166-E167",
+        "pocket_lining_positions_precursor": [
+          164,
+          165,
+          166,
+          167
+        ],
+        "pocket_lining_1letter": "DVAE",
+        "sequence_slice_around_pocket": "EAFEEIPVDVAEAEAFLPGF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_A166V/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "D164",
+          "V165",
+          "A166",
+          "E167"
+        ],
+        "values": [
+          [
+            0.0,
+            3.825,
+            6.152,
+            9.497
+          ],
+          [
+            3.825,
+            0.0,
+            3.745,
+            6.286
+          ],
+          [
+            6.152,
+            3.745,
+            0.0,
+            3.769
+          ],
+          [
+            9.497,
+            6.286,
+            3.769,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)C1CCCCC1ON1CCCCC1",
+        "composite_score": 0.7052810957122103,
+        "mw": 254.2,
+        "logp": 1.881,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 5,
+        "qed": 0.8136,
+        "sa_score": 3.69,
+        "n_heavy_atoms": 18,
+        "tpsa": 55.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FOXN1-A166V Candidate #1",
+        "iupac_name": "NCCC(=O)C1CCCCC1ON1CCCCC1",
+        "pocket_affinity_score": 0.7053,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_A166V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_A166V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_A166V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_A166V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXN1_A166V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXN1-A166V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXN1-A166V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:24:57.215133+00:00"
     }
   ]
 }
