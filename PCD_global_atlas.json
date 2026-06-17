@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 440,
+  "total_entries": 441,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44896,
-    "queue_remaining": 133701
+    "total_processed": 44897,
+    "queue_remaining": 133700
   },
   "entries": [
     {
@@ -96982,6 +96982,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:32:59.246074+00:00"
+    },
+    {
+      "entry_id": "PCD-HPS1-P41L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS1-P41L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HPS1",
+        "uniprot": "",
+        "clinvar_id": "298355",
+        "disease": "Hermansky-Pudlak syndrome 1",
+        "mutation_precursor": "P41L",
+        "mutation_mature": "P41L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9222043515269736,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 573.5141601099211,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -33.59748840332031,
+          27.475780487060547,
+          -2.8136157989501953
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.167669419086539,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8127460214135515,
+        "cryptic": true,
+        "pocket_residues": {
+          "F30": "F",
+          "G31": "G",
+          "S33": "S",
+          "E38": "E",
+          "E39": "E",
+          "L40": "L",
+          "P41": "P",
+          "A42": "A"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q92902|HPS1 variant P41L",
+        "fasta_sequence": "MKCVLVATEGAEVLFYWTDQEFEESLRLKFGQSENEEEELPALEDQLSTLLAPVIISSMTMLEKLSDTYTCFSTENGNFLYVLHLFGECLFIAINGDHTESEGDLRRKLYVLKYLFEVHFGLVTVDGHLIRKELRPPDLAQRVQLWEHFQSLLWTYSRLREQEQCFAVEALERLIHPQLCELCIEALERHVIQAVNTSPERGGEEALHAFLLVHSKLLAFYSSHSASSLRPADLLALILLVQDLYPSESTAEDDIQPSPRRARSSQNIPVQQAWSPHSTGPTGGSSAETETDSFSLPEEYFTPAPSPGDQSSGSTIWLEGGTPPMDALQIAEDTLQTLVPHCPVPSGPRRIFLDANVKESYCPLVPHTMYCLPLWQGINLVLLTRSPSAPLALVLSQLMDGFSMLEKKLKEGPEPGASLRSQPLVGDLRQRMDKFVKNRGAQEIQSTWLEFKAKAFSKSEPGSSWELLQACGKLKRQLCAIYRLNFLTTAPSRGGPHLPQHLQDQVQRLMREKLTDWKDFLLVKSRRNITMVSYLEDFPGLVHFIYVDRTTGQMVAPSLNCSQKTSSELGKGPLAAFVKTKVWSLIQLARRYLQKGYTTLLFQEGDFYCSYFLWFENDMGYKLQMIEVPVLSDDSVPIGMLGGDYYRKLLRYYSKNRPTEAVRCYELLALHLSVIPTDLLVQQAGQLARRLWEASRIPLL",
+        "full_sequence": "MKCVLVATEGAEVLFYWTDQEFEESLRLKFGQSENEEEELPALEDQLSTLLAPVIISSMTMLEKLSDTYTCFSTENGNFLYVLHLFGECLFIAINGDHTESEGDLRRKLYVLKYLFEVHFGLVTVDGHLIRKELRPPDLAQRVQLWEHFQSLLWTYSRLREQEQCFAVEALERLIHPQLCELCIEALERHVIQAVNTSPERGGEEALHAFLLVHSKLLAFYSSHSASSLRPADLLALILLVQDLYPSESTAEDDIQPSPRRARSSQNIPVQQAWSPHSTGPTGGSSAETETDSFSLPEEYFTPAPSPGDQSSGSTIWLEGGTPPMDALQIAEDTLQTLVPHCPVPSGPRRIFLDANVKESYCPLVPHTMYCLPLWQGINLVLLTRSPSAPLALVLSQLMDGFSMLEKKLKEGPEPGASLRSQPLVGDLRQRMDKFVKNRGAQEIQSTWLEFKAKAFSKSEPGSSWELLQACGKLKRQLCAIYRLNFLTTAPSRGGPHLPQHLQDQVQRLMREKLTDWKDFLLVKSRRNITMVSYLEDFPGLVHFIYVDRTTGQMVAPSLNCSQKTSSELGKGPLAAFVKTKVWSLIQLARRYLQKGYTTLLFQEGDFYCSYFLWFENDMGYKLQMIEVPVLSDDSVPIGMLGGDYYRKLLRYYSKNRPTEAVRCYELLALHLSVIPTDLLVQQAGQLARRLWEASRIPLL",
+        "n_residues": 700,
+        "mutation_pos_1indexed": 41,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "F30-G31-S33-E38-E39-L40-P41-A42",
+        "pocket_lining_positions_precursor": [
+          30,
+          31,
+          33,
+          38,
+          39,
+          40,
+          41,
+          42
+        ],
+        "pocket_lining_1letter": "FGSEELPA",
+        "sequence_slice_around_pocket": "GQSENEEEELPALEDQLSTL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_P41L/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "F30",
+          "G31",
+          "S33",
+          "E38",
+          "E39",
+          "L40",
+          "P41",
+          "A42"
+        ],
+        "values": [
+          [
+            0.0,
+            3.88,
+            6.918,
+            10.956,
+            10.562,
+            7.269,
+            8.068,
+            10.386
+          ],
+          [
+            3.88,
+            0.0,
+            5.484,
+            9.285,
+            9.172,
+            6.692,
+            9.221,
+            11.648
+          ],
+          [
+            6.918,
+            5.484,
+            0.0,
+            8.194,
+            10.24,
+            9.222,
+            11.394,
+            14.809
+          ],
+          [
+            10.956,
+            9.285,
+            8.194,
+            0.0,
+            3.852,
+            6.306,
+            8.777,
+            11.983
+          ],
+          [
+            10.562,
+            9.172,
+            10.24,
+            3.852,
+            0.0,
+            3.844,
+            6.449,
+            8.872
+          ],
+          [
+            7.269,
+            6.692,
+            9.222,
+            6.306,
+            3.844,
+            0.0,
+            3.874,
+            6.455
+          ],
+          [
+            8.068,
+            9.221,
+            11.394,
+            8.777,
+            6.449,
+            3.874,
+            0.0,
+            3.828
+          ],
+          [
+            10.386,
+            11.648,
+            14.809,
+            11.983,
+            8.872,
+            6.455,
+            3.828,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1NCCNCc1c[nH]c2ccccc12",
+        "composite_score": 0.8681547755061999,
+        "mw": 378.22,
+        "logp": 2.02,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.4696,
+        "sa_score": 3.4,
+        "n_heavy_atoms": 28,
+        "tpsa": 99.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HPS1-P41L Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1NCCNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8682,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_P41L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_P41L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_P41L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_P41L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS1_P41L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS1-P41L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS1-P41L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:33:25.438408+00:00"
     }
   ]
 }
