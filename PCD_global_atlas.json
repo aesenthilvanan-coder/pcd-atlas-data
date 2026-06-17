@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1204,
+  "total_entries": 1205,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45802,
-    "queue_remaining": 132795
+    "total_processed": 45803,
+    "queue_remaining": 132794
   },
   "entries": [
     {
@@ -265918,6 +265918,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T20:33:53.825413+00:00"
+    },
+    {
+      "entry_id": "PCD-KBTBD13-D76E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KBTBD13-D76E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KBTBD13",
+        "uniprot": "",
+        "clinvar_id": "316735",
+        "disease": "Nemaline myopathy 6",
+        "mutation_precursor": "D76E",
+        "mutation_mature": "D76E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9043570129270043,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 429.67511151509274,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -23.27159309387207,
+          10.6622896194458,
+          17.88156509399414
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.049827877442249,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8780037620219179,
+        "cryptic": true,
+        "pocket_residues": {
+          "G56": "G",
+          "G57": "G",
+          "A74": "A",
+          "E75": "E",
+          "D76": "D",
+          "E77": "E",
+          "L78": "L",
+          "L79": "L",
+          "Q80": "Q"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|C9JR72|KBTBD13 variant D76E",
+        "fasta_sequence": "MARGPQTLVQVWVGGQLFQADRALLVEHCGFFRGLFRSGMRETRAAEVRLGVLSAGGFRATLQVLRGDRPALAAEDELLQAVECAAFLQAPALARFLEHNLTSDNCALLCDAAAAFGLRDVFHSAALFICDGERELAAELALPEARAYVAALRPSSYAAVSTHTPAPGFLEDASRTLCYLDEEEDAWRTLAALPLEASTLLAGVATLGNKLYIVGGVRGASKEVVELGFCYDPDGGTWHEFPSPHQPRYDTALAGFDGRLYAIGGEFQRTPISSVERYDPAAGCWSFVADLPQPAAGVPCAQACGRLFVCLWRPADTTAVVEYAVRTDAWLPVAELRRPQSYGHCMVAHRDSLYVVRNGPSDDFLHCAIDCLNLATGQWTALPGQFVNSKGALFTAVVRGDTVYTVNRMFTLLYAIEGGTWRLLREKAGFPRPGSLQTFLLRLPPGAPGPVTSTTAEL",
+        "full_sequence": "MARGPQTLVQVWVGGQLFQADRALLVEHCGFFRGLFRSGMRETRAAEVRLGVLSAGGFRATLQVLRGDRPALAAEDELLQAVECAAFLQAPALARFLEHNLTSDNCALLCDAAAAFGLRDVFHSAALFICDGERELAAELALPEARAYVAALRPSSYAAVSTHTPAPGFLEDASRTLCYLDEEEDAWRTLAALPLEASTLLAGVATLGNKLYIVGGVRGASKEVVELGFCYDPDGGTWHEFPSPHQPRYDTALAGFDGRLYAIGGEFQRTPISSVERYDPAAGCWSFVADLPQPAAGVPCAQACGRLFVCLWRPADTTAVVEYAVRTDAWLPVAELRRPQSYGHCMVAHRDSLYVVRNGPSDDFLHCAIDCLNLATGQWTALPGQFVNSKGALFTAVVRGDTVYTVNRMFTLLYAIEGGTWRLLREKAGFPRPGSLQTFLLRLPPGAPGPVTSTTAEL",
+        "n_residues": 458,
+        "mutation_pos_1indexed": 76,
+        "wt_aa": "D",
+        "mut_aa": "E",
+        "pocket_lining_residues": "G56-G57-A74-E75-D76-E77-L78-L79-Q80",
+        "pocket_lining_positions_precursor": [
+          56,
+          57,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ],
+        "pocket_lining_1letter": "GGAEDELLQ",
+        "sequence_slice_around_pocket": "RGDRPALAAEDELLQAVECA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KBTBD13_D76E/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "G56",
+          "G57",
+          "A74",
+          "E75",
+          "D76",
+          "E77",
+          "L78",
+          "L79",
+          "Q80"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            11.071,
+            11.891,
+            8.963,
+            6.546,
+            9.438,
+            9.911,
+            6.579
+          ],
+          [
+            3.841,
+            0.0,
+            11.751,
+            11.685,
+            9.154,
+            6.564,
+            7.872,
+            7.99,
+            4.469
+          ],
+          [
+            11.071,
+            11.751,
+            0.0,
+            3.847,
+            5.453,
+            5.261,
+            6.504,
+            8.845,
+            9.998
+          ],
+          [
+            11.891,
+            11.685,
+            3.847,
+            0.0,
+            3.843,
+            5.526,
+            5.198,
+            6.233,
+            8.604
+          ],
+          [
+            8.963,
+            9.154,
+            5.453,
+            3.843,
+            0.0,
+            3.861,
+            5.459,
+            5.11,
+            6.027
+          ],
+          [
+            6.546,
+            6.564,
+            5.261,
+            5.526,
+            3.861,
+            0.0,
+            3.854,
+            5.58,
+            5.095
+          ],
+          [
+            9.438,
+            7.872,
+            6.504,
+            5.198,
+            5.459,
+            3.854,
+            0.0,
+            3.842,
+            5.442
+          ],
+          [
+            9.911,
+            7.99,
+            8.845,
+            6.233,
+            5.11,
+            5.58,
+            3.842,
+            0.0,
+            3.845
+          ],
+          [
+            6.579,
+            4.469,
+            9.998,
+            8.604,
+            6.027,
+            5.095,
+            5.442,
+            3.845,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.8521177921533608,
+        "mw": 288.2,
+        "logp": 1.983,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.9236,
+        "sa_score": 3.0,
+        "n_heavy_atoms": 21,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KBTBD13-D76E Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.8521,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KBTBD13_D76E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KBTBD13_D76E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KBTBD13_D76E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KBTBD13_D76E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KBTBD13_D76E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KBTBD13-D76E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KBTBD13-D76E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T20:34:17.564026+00:00"
     }
   ]
 }
