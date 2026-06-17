@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1414,
+  "total_entries": 1415,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46053,
-    "queue_remaining": 132544
+    "total_processed": 46054,
+    "queue_remaining": 132543
   },
   "entries": [
     {
@@ -313073,6 +313073,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:30:28.999203+00:00"
+    },
+    {
+      "entry_id": "PCD-KRT13-G256S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT13-G256S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRT13",
+        "uniprot": "",
+        "clinvar_id": "323089",
+        "disease": "White sponge nevus 2",
+        "mutation_precursor": "G256S",
+        "mutation_mature": "G256S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9019918460962347,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 594.500035813116,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -80.24625396728516,
+          -13.291472434997559,
+          65.30296325683594
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.771478850268901,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7091899791923397,
+        "cryptic": true,
+        "pocket_residues": {
+          "V254": "V",
+          "V255": "V",
+          "G256": "G",
+          "Q257": "Q",
+          "V258": "V",
+          "N259": "N"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P13646|KRT13 variant G256S",
+        "fasta_sequence": "MSLRLQSSSASYGGGFGGGSCQLGGGRGVSTCSTRFVSGGSAGGYGGGVSCGFGGGAGSGFGGGYGGGLGGGYGGGLGGGFGGGFAGGFVDFGACDGGLLTGNEKITMQNLNDRLASYLEKVRALEEANADLEVKIRDWHLKQSPASPERDYSPYYKTIEELRDKILTATIENNRVILEIDNARLAADDFRLKYENELALRQSVEADINGLRRVLDELTLSKTDLEMQIESLNEELAYMKKNHEEEMKEFSNQVVGQVNVEMDATPGIDLTRVLAEMREQYEAMAERNRRDAEEWFHTKSAELNKEVSTNTAMIQTSKTEITELRRTLQGLEIELQSQLSMKAGLENTVAETECRYALQLQQIQGLISSIEAQLSELRSEMECQNQEYKMLLDIKTRLEQEIATYRSLLEGQDAKMIGFPSSAGSVSPRSTSVTTTSSASVTTTSNASGRRTSDVRRP",
+        "full_sequence": "MSLRLQSSSASYGGGFGGGSCQLGGGRGVSTCSTRFVSGGSAGGYGGGVSCGFGGGAGSGFGGGYGGGLGGGYGGGLGGGFGGGFAGGFVDFGACDGGLLTGNEKITMQNLNDRLASYLEKVRALEEANADLEVKIRDWHLKQSPASPERDYSPYYKTIEELRDKILTATIENNRVILEIDNARLAADDFRLKYENELALRQSVEADINGLRRVLDELTLSKTDLEMQIESLNEELAYMKKNHEEEMKEFSNQVVGQVNVEMDATPGIDLTRVLAEMREQYEAMAERNRRDAEEWFHTKSAELNKEVSTNTAMIQTSKTEITELRRTLQGLEIELQSQLSMKAGLENTVAETECRYALQLQQIQGLISSIEAQLSELRSEMECQNQEYKMLLDIKTRLEQEIATYRSLLEGQDAKMIGFPSSAGSVSPRSTSVTTTSSASVTTTSNASGRRTSDVRRP",
+        "n_residues": 458,
+        "mutation_pos_1indexed": 256,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "V254-V255-G256-Q257-V258-N259",
+        "pocket_lining_positions_precursor": [
+          254,
+          255,
+          256,
+          257,
+          258,
+          259
+        ],
+        "pocket_lining_1letter": "VVGQVN",
+        "sequence_slice_around_pocket": "EMKEFSNQVVGQVNVEMDAT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRT13_G256S/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "V254",
+          "V255",
+          "G256",
+          "Q257",
+          "V258",
+          "N259"
+        ],
+        "values": [
+          [
+            0.0,
+            3.868,
+            4.933,
+            6.465,
+            8.286,
+            11.151
+          ],
+          [
+            3.868,
+            0.0,
+            3.786,
+            5.619,
+            8.481,
+            11.336
+          ],
+          [
+            4.933,
+            3.786,
+            0.0,
+            3.778,
+            5.244,
+            8.615
+          ],
+          [
+            6.465,
+            5.619,
+            3.778,
+            0.0,
+            3.799,
+            5.821
+          ],
+          [
+            8.286,
+            8.481,
+            5.244,
+            3.799,
+            0.0,
+            3.727
+          ],
+          [
+            11.151,
+            11.336,
+            8.615,
+            5.821,
+            3.727,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(OCCC2CCCCN2c2cnccc2S(N)(=O)=O)cc1",
+        "composite_score": 0.6897977132023352,
+        "mw": 390.17,
+        "logp": 2.016,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.748,
+        "sa_score": 2.93,
+        "n_heavy_atoms": 27,
+        "tpsa": 111.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRT13-G256S Candidate #1",
+        "iupac_name": "NCc1ccc(OCCC2CCCCN2c2cnccc2S(N)(=O)=O)cc1",
+        "pocket_affinity_score": 0.6898,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRT13_G256S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRT13_G256S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRT13_G256S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT13_G256S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRT13_G256S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT13-G256S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRT13-G256S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:30:53.146218+00:00"
     }
   ]
 }
