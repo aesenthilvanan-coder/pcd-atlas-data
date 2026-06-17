@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 594,
+  "total_entries": 595,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45069,
-    "queue_remaining": 133528
+    "total_processed": 45070,
+    "queue_remaining": 133527
   },
   "entries": [
     {
@@ -131342,6 +131342,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:30:14.968703+00:00"
+    },
+    {
+      "entry_id": "PCD-FLCN-P326L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FLCN-P326L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FLCN",
+        "uniprot": "",
+        "clinvar_id": "322065",
+        "disease": "Birt-Hogg-Dube syndrome",
+        "mutation_precursor": "P326L",
+        "mutation_mature": "P326L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8339258949162685,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 311.66537460787816,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -39.73883056640625,
+          -41.52207565307617,
+          25.707372665405273
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.099001457758136,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8629403868130413,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q324": "Q",
+          "G325": "G",
+          "P326": "P",
+          "A327": "A",
+          "E328": "E",
+          "S329": "S"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NFG4|FLCN variant P326L",
+        "fasta_sequence": "MNAIVALCHFCELHGPRTLFCTEVLHAPLPQGDGNEDSPGQGEQAEEEEGGIQMNSRMRAHSPAEGASVESSSPGPKKSDMCEGCRSLAAGHPGYISHDKETSIKYVSHQHPSHPQLFSIVRQACVRSLSCEVCPGREGPIFFGDEQHGFVFSHTFFIKDSLARGFQRWYSIITIMMDRIYLINSWPFLLGKVRGIIDELQGKALKVFEAEQFGCPQRAQRMNTAFTPFLHQRNGNAARSLTSLTSDDNLWACLHTSFAWLLKACGSRLTEKLLEGAPTEDTLVQMEKLADLEEESESWDNSEAEEEEKAPVLPESTEGRELTQGPAESSSLSGCGSWQPRKLPVFKSLRHMRQVLGAPSFRMLAWHVLMGNQVIWKSRDVDLVQSAFEVLRTMLPVGCVRIIPYSSQYEEAYRCNFLGLSPHVQIPPHVLSSEFAVIVEVHAAARSTLHPVGCEDDQSLSKYEFVVTSGSPVAADRVGPTILNKIEAALTNQNLSVDVVDQCLVCLKEEWMNKVKVLFKFTKVDSRPKEDTQKLLSILGASEEDNVKLLKFWMTGLSKTYKSHLMSTVRSPTASESRN",
+        "full_sequence": "MNAIVALCHFCELHGPRTLFCTEVLHAPLPQGDGNEDSPGQGEQAEEEEGGIQMNSRMRAHSPAEGASVESSSPGPKKSDMCEGCRSLAAGHPGYISHDKETSIKYVSHQHPSHPQLFSIVRQACVRSLSCEVCPGREGPIFFGDEQHGFVFSHTFFIKDSLARGFQRWYSIITIMMDRIYLINSWPFLLGKVRGIIDELQGKALKVFEAEQFGCPQRAQRMNTAFTPFLHQRNGNAARSLTSLTSDDNLWACLHTSFAWLLKACGSRLTEKLLEGAPTEDTLVQMEKLADLEEESESWDNSEAEEEEKAPVLPESTEGRELTQGPAESSSLSGCGSWQPRKLPVFKSLRHMRQVLGAPSFRMLAWHVLMGNQVIWKSRDVDLVQSAFEVLRTMLPVGCVRIIPYSSQYEEAYRCNFLGLSPHVQIPPHVLSSEFAVIVEVHAAARSTLHPVGCEDDQSLSKYEFVVTSGSPVAADRVGPTILNKIEAALTNQNLSVDVVDQCLVCLKEEWMNKVKVLFKFTKVDSRPKEDTQKLLSILGASEEDNVKLLKFWMTGLSKTYKSHLMSTVRSPTASESRN",
+        "n_residues": 579,
+        "mutation_pos_1indexed": 326,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "Q324-G325-P326-A327-E328-S329",
+        "pocket_lining_positions_precursor": [
+          324,
+          325,
+          326,
+          327,
+          328,
+          329
+        ],
+        "pocket_lining_1letter": "QGPAES",
+        "sequence_slice_around_pocket": "STEGRELTQGPAESSSLSGC"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_P326L/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "Q324",
+          "G325",
+          "P326",
+          "A327",
+          "E328",
+          "S329"
+        ],
+        "values": [
+          [
+            0.0,
+            3.803,
+            6.545,
+            8.409,
+            11.424,
+            14.2
+          ],
+          [
+            3.803,
+            0.0,
+            3.735,
+            6.821,
+            8.866,
+            12.205
+          ],
+          [
+            6.545,
+            3.735,
+            0.0,
+            3.746,
+            5.46,
+            8.79
+          ],
+          [
+            8.409,
+            6.821,
+            3.746,
+            0.0,
+            3.789,
+            5.871
+          ],
+          [
+            11.424,
+            8.866,
+            5.46,
+            3.789,
+            0.0,
+            3.752
+          ],
+          [
+            14.2,
+            12.205,
+            8.79,
+            5.871,
+            3.752,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CCCCC1",
+        "composite_score": 0.7495994427654031,
+        "mw": 222.12,
+        "logp": 1.915,
+        "hbd": 1,
+        "hba": 2,
+        "rotatable_bonds": 2,
+        "qed": 0.8305,
+        "sa_score": 1.86,
+        "n_heavy_atoms": 16,
+        "tpsa": 46.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FLCN-P326L Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7496,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_P326L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_P326L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_P326L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_P326L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FLCN_P326L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FLCN-P326L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FLCN-P326L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:30:37.210924+00:00"
     }
   ]
 }
