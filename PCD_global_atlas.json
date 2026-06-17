@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 708,
+  "total_entries": 709,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45217,
-    "queue_remaining": 133380
+    "total_processed": 45218,
+    "queue_remaining": 133379
   },
   "entries": [
     {
@@ -156844,6 +156844,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:08:06.356831+00:00"
+    },
+    {
+      "entry_id": "PCD-RDH12-T221I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RDH12-T221I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RDH12",
+        "uniprot": "",
+        "clinvar_id": "313841",
+        "disease": "Leber congenital amaurosis 13",
+        "mutation_precursor": "T221I",
+        "mutation_mature": "T221I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8007770979249932,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 567.0795876446565,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          1.290360689163208,
+          -9.879438400268555,
+          20.660829544067383
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.7966548187694165,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8809052657282475,
+        "cryptic": true,
+        "pocket_residues": {
+          "K163": "K",
+          "A166": "A",
+          "Q219": "Q",
+          "G220": "G",
+          "T221": "T",
+          "G222": "G",
+          "V223": "V"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96NR8|RDH12 variant T221I",
+        "fasta_sequence": "MLVTLGLLTSFFSFLYMVAPSIRKFFAGGVCRTNVQLPGKVVVITGANTGIGKETARELASRGARVYIACRDVLKGESAASEIRVDTKNSQVLVRKLDLSDTKSIRAFAEGFLAEEKQLHILINNAGVMMCPYSKTADGFETHLGVNHLGHFLLTYLLLERLKVSAPARVVNVSSVAHHIGKIPFHDLQSEKRYSRGFAYCHSKLANVLFTRELAKRLQGTGVTTYAVHPGVVRSELVRHSSLLCLLWRLFSPFVKTAREGAQTSLHCALAEGLEPLSGKYFSDCKRTWVSPRARNNKTAERLWNVSCELLGIRWE",
+        "full_sequence": "MLVTLGLLTSFFSFLYMVAPSIRKFFAGGVCRTNVQLPGKVVVITGANTGIGKETARELASRGARVYIACRDVLKGESAASEIRVDTKNSQVLVRKLDLSDTKSIRAFAEGFLAEEKQLHILINNAGVMMCPYSKTADGFETHLGVNHLGHFLLTYLLLERLKVSAPARVVNVSSVAHHIGKIPFHDLQSEKRYSRGFAYCHSKLANVLFTRELAKRLQGTGVTTYAVHPGVVRSELVRHSSLLCLLWRLFSPFVKTAREGAQTSLHCALAEGLEPLSGKYFSDCKRTWVSPRARNNKTAERLWNVSCELLGIRWE",
+        "n_residues": 316,
+        "mutation_pos_1indexed": 221,
+        "wt_aa": "T",
+        "mut_aa": "I",
+        "pocket_lining_residues": "K163-A166-Q219-G220-T221-G222-V223",
+        "pocket_lining_positions_precursor": [
+          163,
+          166,
+          219,
+          220,
+          221,
+          222,
+          223
+        ],
+        "pocket_lining_1letter": "KAQGTGV",
+        "sequence_slice_around_pocket": "TRELAKRLQGTGVTTYAVHP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RDH12_T221I/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "K163",
+          "A166",
+          "Q219",
+          "G220",
+          "T221",
+          "G222",
+          "V223"
+        ],
+        "values": [
+          [
+            0.0,
+            5.192,
+            10.771,
+            9.794,
+            5.922,
+            6.789,
+            6.072
+          ],
+          [
+            5.192,
+            0.0,
+            11.93,
+            10.363,
+            7.225,
+            5.15,
+            5.846
+          ],
+          [
+            10.771,
+            11.93,
+            0.0,
+            3.846,
+            5.609,
+            7.21,
+            7.601
+          ],
+          [
+            9.794,
+            10.363,
+            3.846,
+            0.0,
+            3.874,
+            5.763,
+            7.956
+          ],
+          [
+            5.922,
+            7.225,
+            5.609,
+            3.874,
+            0.0,
+            3.852,
+            5.387
+          ],
+          [
+            6.789,
+            5.15,
+            7.21,
+            5.763,
+            3.852,
+            0.0,
+            3.868
+          ],
+          [
+            6.072,
+            5.846,
+            7.601,
+            7.956,
+            5.387,
+            3.868,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)c1ccc(OC)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.5206104630078164,
+        "mw": 359.22,
+        "logp": 2.079,
+        "hbd": 1,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.7849,
+        "sa_score": 3.21,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RDH12-T221I Candidate #1",
+        "iupac_name": "CNCC(=O)c1ccc(OC)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5206,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RDH12_T221I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RDH12_T221I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RDH12_T221I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RDH12_T221I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RDH12_T221I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RDH12-T221I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RDH12-T221I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:08:28.042538+00:00"
     }
   ]
 }
