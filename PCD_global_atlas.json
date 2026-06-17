@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 615,
+  "total_entries": 616,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45105,
-    "queue_remaining": 133492
+    "total_processed": 45106,
+    "queue_remaining": 133491
   },
   "entries": [
     {
@@ -135954,6 +135954,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T11:51:49.756602+00:00"
+    },
+    {
+      "entry_id": "PCD-CBLIF-P304S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBLIF-P304S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CBLIF",
+        "uniprot": "",
+        "clinvar_id": "305032",
+        "disease": "Hereditary intrinsic factor deficiency",
+        "mutation_precursor": "P304S",
+        "mutation_mature": "P304S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9050419054225266,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 599.6857758092259,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          3.4609127044677734,
+          -14.004920959472656,
+          -17.2888126373291
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.617425607703693,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8811185222932968,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q259": "Q",
+          "G260": "G",
+          "N301": "N",
+          "P302": "P",
+          "G303": "G",
+          "P304": "P",
+          "G305": "G"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P27352|CBLIF variant P304S",
+        "fasta_sequence": "MAWFALYLLSLLWATAGTSTQTQSSCSVPSAQEPLVNGIQVLMENSVTSSAYPNPSILIAMNLAGAYNLKAQKLLTYQLMSSDNNDLTIGQLGLTIMALTSSCRDPGDKVSILQRQMENWAPSSPNAEASAFYGPSLAILALCQKNSEATLPIAVRFAKTLLANSSPFNVDTGAMATLALTCMYNKIPVGSEEGYRSLFGQVLKDIVEKISMKIKDNGIIGDIYSTGLAMQALSVTPEPSKKEWNCKKTTDMILNEIKQGKFHNPMSIAQILPSLKGKTYLDVPQVTCSPDHEVQPTLPSNPGPGPTSASNITVIYTINNQLRGVELLFNETINVSVKSGSVLLVVLEEAQRKNPMFKFETTMTSWGLVVSSINNIAENVNHKTYWQFLSGVTPLNEGVADYIPFNHEHITANFTQY",
+        "full_sequence": "MAWFALYLLSLLWATAGTSTQTQSSCSVPSAQEPLVNGIQVLMENSVTSSAYPNPSILIAMNLAGAYNLKAQKLLTYQLMSSDNNDLTIGQLGLTIMALTSSCRDPGDKVSILQRQMENWAPSSPNAEASAFYGPSLAILALCQKNSEATLPIAVRFAKTLLANSSPFNVDTGAMATLALTCMYNKIPVGSEEGYRSLFGQVLKDIVEKISMKIKDNGIIGDIYSTGLAMQALSVTPEPSKKEWNCKKTTDMILNEIKQGKFHNPMSIAQILPSLKGKTYLDVPQVTCSPDHEVQPTLPSNPGPGPTSASNITVIYTINNQLRGVELLFNETINVSVKSGSVLLVVLEEAQRKNPMFKFETTMTSWGLVVSSINNIAENVNHKTYWQFLSGVTPLNEGVADYIPFNHEHITANFTQY",
+        "n_residues": 417,
+        "mutation_pos_1indexed": 304,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "Q259-G260-N301-P302-G303-P304-G305",
+        "pocket_lining_positions_precursor": [
+          259,
+          260,
+          301,
+          302,
+          303,
+          304,
+          305
+        ],
+        "pocket_lining_1letter": "QGNPGPG",
+        "sequence_slice_around_pocket": "VQPTLPSNPGPGPTSASNIT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_P304S/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "Q259",
+          "G260",
+          "N301",
+          "P302",
+          "G303",
+          "P304",
+          "G305"
+        ],
+        "values": [
+          [
+            0.0,
+            3.871,
+            11.264,
+            11.464,
+            12.029,
+            10.672,
+            12.459
+          ],
+          [
+            3.871,
+            0.0,
+            9.817,
+            10.343,
+            9.976,
+            8.998,
+            11.807
+          ],
+          [
+            11.264,
+            9.817,
+            0.0,
+            3.827,
+            6.108,
+            8.95,
+            10.627
+          ],
+          [
+            11.464,
+            10.343,
+            3.827,
+            0.0,
+            3.79,
+            6.277,
+            7.059
+          ],
+          [
+            12.029,
+            9.976,
+            6.108,
+            3.79,
+            0.0,
+            3.837,
+            6.021
+          ],
+          [
+            10.672,
+            8.998,
+            8.95,
+            6.277,
+            3.837,
+            0.0,
+            3.821
+          ],
+          [
+            12.459,
+            11.807,
+            10.627,
+            7.059,
+            6.021,
+            3.821,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)c1ccc(Cl)cc1OCC(OC)Oc1ccc(CC(N)=O)cc1",
+        "composite_score": 0.541278918792668,
+        "mw": 392.11,
+        "logp": 2.158,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 9,
+        "qed": 0.6368,
+        "sa_score": 2.77,
+        "n_heavy_atoms": 27,
+        "tpsa": 99.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CBLIF-P304S Candidate #1",
+        "iupac_name": "CNC(=O)c1ccc(Cl)cc1OCC(OC)Oc1ccc(CC(N)=O)cc1",
+        "pocket_affinity_score": 0.5413,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_P304S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_P304S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_P304S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_P304S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CBLIF_P304S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBLIF-P304S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBLIF-P304S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T11:52:12.756425+00:00"
     }
   ]
 }
