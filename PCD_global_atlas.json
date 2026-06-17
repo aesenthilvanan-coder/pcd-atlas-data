@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 948,
+  "total_entries": 949,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45485,
-    "queue_remaining": 133112
+    "total_processed": 45486,
+    "queue_remaining": 133111
   },
   "entries": [
     {
@@ -208499,6 +208499,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:33:20.264027+00:00"
+    },
+    {
+      "entry_id": "PCD-COL4A2-P365L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL4A2-P365L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COL4A2",
+        "uniprot": "",
+        "clinvar_id": "311118",
+        "disease": "Brain small vessel disease 2A, autosomal dominant",
+        "mutation_precursor": "P365L",
+        "mutation_mature": "P365L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7814484453779883,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 636.0739582937009,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -28.04922866821289,
+          -4.7297868728637695,
+          -67.81774139404297
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.116731620231734,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8572582574827814,
+        "cryptic": true,
+        "pocket_residues": {
+          "G363": "G",
+          "D364": "D",
+          "P365": "P",
+          "G366": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P08572|COL4A2 variant P365L",
+        "fasta_sequence": "MGRDQRAVAGPALRRWLLLGTVTVGFLAQSVLAGVKKFDVPCGGRDCSGGCQCYPEKGGRGQPGPVGPQGYNGPPGLQGFPGLQGRKGDKGERGAPGVTGPKGDVGARGVSGFPGADGIPGHPGQGGPRGRPGYDGCNGTQGDSGPQGPPGSEGFTGPPGPQGPKGQKGEPYALPKEERDRYRGEPGEPGLVGFQGPPGRPGHVGQMGPVGAPGRPGPPGPPGPKGQQGNRGLGFYGVKGEKGDVGQPGPNGIPSDTLHPIIAPTGVTFHPDQYKGEKGSEGEPGIRGISLKGEEGIMGFPGLRGYPGLSGEKGSPGQKGSRGLDGYQGPDGPRGPKGEAGDPGPPGLPAYSPHPSLAKGARGDPGFPGAQGEPGSQGEPGDPGLPGPPGLSIGDGDQRRGLPGEMGPKGFIGDPGIPALYGGPPGPDGKRGPPGPPGLPGPPGPDGFLFGLKGAKGRAGFPGLPGSPGARGPKGWKGDAGECRCTEGDEAIKGLPGLPGPKGFAGINGEPGRKGDRGDPGQHGLPGFPGLKGVPGNIGAPGPKGAKGDSRTITTKGERGQPGVPGVPGMKGDDGSPGRDGLDGFPGLPGPPGDGIKGPPGDPGYPGIPGTKGTPGEMGPPGLGLPGLKGQRGFPGDAGLPGPPGFLGPPGPAGTPGQIDCDTDVKRAVGGDRQEAIQPGCIGGPKGLPGLPGPPGPTGAKGLRGIPGFAGADGGPGPRGLPGDAGREGFPGPPGFIGPRGSKGAVGLPGPDGSPGPIGLPGPDGPPGERGLPGEVLGAQPGPRGDAGVPGQPGLKGLPGDRGPPGFRGSQGMPGMPGLKGQPGLPGPSGQPGLYGPPGLHGFPGAPGQEGPLGLPGIPGREGLPGDRGDPGDTGAPGPVGMKGLSGDRGDAGFTGEQGHPGSPGFKGIDGMPGTPGLKGDRGSPGMDGFQGMPGLKGRPGFPGSKGEAGFFGIPGLKGLAGEPGFKGSRGDPGPPGPPPVILPGMKDIKGEKGDEGPMGLKGYLGAKGIQGMPGIPGLSGIPGLPGRPGHIKGVKGDIGVPGIPGLPGFPGVAGPPGITGFPGFIGSRGDKGAPGRAGLYGEIGATGDFGDIGDTINLPGRPGLKGERGTTGIPGLKGFFGEKGTEGDIGFPGITGVTGVQGPPGLKGQTGFPGLTGPPGSQGELGRIGLPGGKGDDGWPGAPGLPGFPGLRGIRGLHGLPGTKGFPGSPGSDIHGDPGFPGPPGERGDPGEANTLPGPVGVPGQKGDQGAPGERGPPGSPGLQGFPGITPPSNISGAPGDKGAPGIFGLKGYRGPPGPPGSAALPGSKGDTGNPGAPGTPGTKGWAGDSGPQGRPGVFGLPGEKGPRGEQGFMGNTGPTGAVGDRGPKGPKGDPGFPGAPGTVGAPGIAGIPQKIAVQPGTVGPQGRRGPPGAPGEMGPQGPPGEPGFRGAPGKAGPQGRGGVSAVPGFRGDEGPIGHQGPIGQEGAPGRPGSPGLPGMPGRSVSIGYLLVKHSQTDQEPMCPVGMNKLWSGYSLLYFEGQEKAHNQDLGLAGSCLARFSTMPFLYCNPGDVCYYASRNDKSYWLSTTAPLPMMPVAEDEIKPYISRCSVCEAPAIAIAVHSQDVSIPHCPAGWRSLWIGYSFLMHTAAGDEGGGQSLVSPGSCLEDFRATPFIECNGGRGTCHYYANKYSFWLTTIPEQSFQGSPSADTLKAGLIRTHISRCQVCMKNL",
+        "full_sequence": "MGRDQRAVAGPALRRWLLLGTVTVGFLAQSVLAGVKKFDVPCGGRDCSGGCQCYPEKGGRGQPGPVGPQGYNGPPGLQGFPGLQGRKGDKGERGAPGVTGPKGDVGARGVSGFPGADGIPGHPGQGGPRGRPGYDGCNGTQGDSGPQGPPGSEGFTGPPGPQGPKGQKGEPYALPKEERDRYRGEPGEPGLVGFQGPPGRPGHVGQMGPVGAPGRPGPPGPPGPKGQQGNRGLGFYGVKGEKGDVGQPGPNGIPSDTLHPIIAPTGVTFHPDQYKGEKGSEGEPGIRGISLKGEEGIMGFPGLRGYPGLSGEKGSPGQKGSRGLDGYQGPDGPRGPKGEAGDPGPPGLPAYSPHPSLAKGARGDPGFPGAQGEPGSQGEPGDPGLPGPPGLSIGDGDQRRGLPGEMGPKGFIGDPGIPALYGGPPGPDGKRGPPGPPGLPGPPGPDGFLFGLKGAKGRAGFPGLPGSPGARGPKGWKGDAGECRCTEGDEAIKGLPGLPGPKGFAGINGEPGRKGDRGDPGQHGLPGFPGLKGVPGNIGAPGPKGAKGDSRTITTKGERGQPGVPGVPGMKGDDGSPGRDGLDGFPGLPGPPGDGIKGPPGDPGYPGIPGTKGTPGEMGPPGLGLPGLKGQRGFPGDAGLPGPPGFLGPPGPAGTPGQIDCDTDVKRAVGGDRQEAIQPGCIGGPKGLPGLPGPPGPTGAKGLRGIPGFAGADGGPGPRGLPGDAGREGFPGPPGFIGPRGSKGAVGLPGPDGSPGPIGLPGPDGPPGERGLPGEVLGAQPGPRGDAGVPGQPGLKGLPGDRGPPGFRGSQGMPGMPGLKGQPGLPGPSGQPGLYGPPGLHGFPGAPGQEGPLGLPGIPGREGLPGDRGDPGDTGAPGPVGMKGLSGDRGDAGFTGEQGHPGSPGFKGIDGMPGTPGLKGDRGSPGMDGFQGMPGLKGRPGFPGSKGEAGFFGIPGLKGLAGEPGFKGSRGDPGPPGPPPVILPGMKDIKGEKGDEGPMGLKGYLGAKGIQGMPGIPGLSGIPGLPGRPGHIKGVKGDIGVPGIPGLPGFPGVAGPPGITGFPGFIGSRGDKGAPGRAGLYGEIGATGDFGDIGDTINLPGRPGLKGERGTTGIPGLKGFFGEKGTEGDIGFPGITGVTGVQGPPGLKGQTGFPGLTGPPGSQGELGRIGLPGGKGDDGWPGAPGLPGFPGLRGIRGLHGLPGTKGFPGSPGSDIHGDPGFPGPPGERGDPGEANTLPGPVGVPGQKGDQGAPGERGPPGSPGLQGFPGITPPSNISGAPGDKGAPGIFGLKGYRGPPGPPGSAALPGSKGDTGNPGAPGTPGTKGWAGDSGPQGRPGVFGLPGEKGPRGEQGFMGNTGPTGAVGDRGPKGPKGDPGFPGAPGTVGAPGIAGIPQKIAVQPGTVGPQGRRGPPGAPGEMGPQGPPGEPGFRGAPGKAGPQGRGGVSAVPGFRGDEGPIGHQGPIGQEGAPGRPGSPGLPGMPGRSVSIGYLLVKHSQTDQEPMCPVGMNKLWSGYSLLYFEGQEKAHNQDLGLAGSCLARFSTMPFLYCNPGDVCYYASRNDKSYWLSTTAPLPMMPVAEDEIKPYISRCSVCEAPAIAIAVHSQDVSIPHCPAGWRSLWIGYSFLMHTAAGDEGGGQSLVSPGSCLEDFRATPFIECNGGRGTCHYYANKYSFWLTTIPEQSFQGSPSADTLKAGLIRTHISRCQVCMKNL",
+        "n_residues": 1712,
+        "mutation_pos_1indexed": 365,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "G363-D364-P365-G366",
+        "pocket_lining_positions_precursor": [
+          363,
+          364,
+          365,
+          366
+        ],
+        "pocket_lining_1letter": "GDPG",
+        "sequence_slice_around_pocket": "PSLAKGARGDPGFPGAQGEP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A2_P365L/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "G363",
+          "D364",
+          "P365",
+          "G366"
+        ],
+        "values": [
+          [
+            0.0,
+            3.879,
+            6.996,
+            10.615
+          ],
+          [
+            3.879,
+            0.0,
+            3.243,
+            7.013
+          ],
+          [
+            6.996,
+            3.243,
+            0.0,
+            3.896
+          ],
+          [
+            10.615,
+            7.013,
+            3.896,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCc1ccc(OCC(=O)CC2CCCCN2c2cc(S(N)(=O)=O)ccc2N)cc1",
+        "composite_score": 0.6859895191296631,
+        "mw": 446.2,
+        "logp": 1.815,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 9,
+        "qed": 0.4987,
+        "sa_score": 3.01,
+        "n_heavy_atoms": 31,
+        "tpsa": 141.7,
+        "lipinski": true,
+        "veber": false,
+        "pains": false,
+        "common_name": "COL4A2-P365L Candidate #1",
+        "iupac_name": "NCCc1ccc(OCC(=O)CC2CCCCN2c2cc(S(N)(=O)=O)ccc2N)cc1",
+        "pocket_affinity_score": 0.686,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A2_P365L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A2_P365L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A2_P365L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A2_P365L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A2_P365L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL4A2-P365L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL4A2-P365L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:34:28.071044+00:00"
     }
   ]
 }
