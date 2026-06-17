@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 459,
+  "total_entries": 460,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44915,
-    "queue_remaining": 133682
+    "total_processed": 44916,
+    "queue_remaining": 133681
   },
   "entries": [
     {
@@ -101684,6 +101684,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:46:08.523464+00:00"
+    },
+    {
+      "entry_id": "PCD-MMP13-R18W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP13-R18W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MMP13",
+        "uniprot": "",
+        "clinvar_id": "301992",
+        "disease": "Spondyloepimetaphyseal dysplasia, Missouri type",
+        "mutation_precursor": "R18W",
+        "mutation_mature": "R18W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7988274402702172,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 381.94086556973537,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -21.66179847717285,
+          -47.56003952026367,
+          16.84292984008789
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.593731408167509,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7339979222887186,
+        "cryptic": true,
+        "pocket_residues": {
+          "T15": "T",
+          "H16": "H",
+          "C17": "C",
+          "R18": "R",
+          "A19": "A"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P45452|MMP13 variant R18W",
+        "fasta_sequence": "MHPGVLAAFLFLSWTHCRALPLPSGGDEDDLSEEDLQFAERYLRSYYHPTNLAGILKENAASSMTERLREMQSFFGLEVTGKLDDNTLDVMKKPRCGVPDVGEYNVFPRTLKWSKMNLTYRIVNYTPDMTHSEVEKAFKKAFKVWSDVTPLNFTRLHDGIADIMISFGIKEHGDFYPFDGPSGLLAHAFPPGPNYGGDAHFDDDETWTSSSKGYNLFLVAAHEFGHSLGLDHSKDPGALMFPIYTYTGKSHFMLPDDDVQGIQSLYGPGDEDPNPKHPKTPDKCDPSLSLDAITSLRGETMIFKDRFFWRLHPQQVDAELFLTKSFWPELPNRIDAAYEHPSHDLIFIFRGRKFWALNGYDILEGYPKKISELGLPKEVKKISAAVHFEDTGKTLLFSGNQVWRYDDTNHIMDKDYPRLIEEDFPGIGDKVDAVYEKNGYIYFFNGPIQFEYSIWSNRIVRVMPANSILWC",
+        "full_sequence": "MHPGVLAAFLFLSWTHCRALPLPSGGDEDDLSEEDLQFAERYLRSYYHPTNLAGILKENAASSMTERLREMQSFFGLEVTGKLDDNTLDVMKKPRCGVPDVGEYNVFPRTLKWSKMNLTYRIVNYTPDMTHSEVEKAFKKAFKVWSDVTPLNFTRLHDGIADIMISFGIKEHGDFYPFDGPSGLLAHAFPPGPNYGGDAHFDDDETWTSSSKGYNLFLVAAHEFGHSLGLDHSKDPGALMFPIYTYTGKSHFMLPDDDVQGIQSLYGPGDEDPNPKHPKTPDKCDPSLSLDAITSLRGETMIFKDRFFWRLHPQQVDAELFLTKSFWPELPNRIDAAYEHPSHDLIFIFRGRKFWALNGYDILEGYPKKISELGLPKEVKKISAAVHFEDTGKTLLFSGNQVWRYDDTNHIMDKDYPRLIEEDFPGIGDKVDAVYEKNGYIYFFNGPIQFEYSIWSNRIVRVMPANSILWC",
+        "n_residues": 471,
+        "mutation_pos_1indexed": 18,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "T15-H16-C17-R18-A19",
+        "pocket_lining_positions_precursor": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "pocket_lining_1letter": "THCRA",
+        "sequence_slice_around_pocket": "AFLFLSWTHCRALPLPSGGD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_R18W/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "T15",
+          "H16",
+          "C17",
+          "R18",
+          "A19"
+        ],
+        "values": [
+          [
+            0.0,
+            3.814,
+            6.3,
+            9.073,
+            11.771
+          ],
+          [
+            3.814,
+            0.0,
+            3.815,
+            5.978,
+            9.104
+          ],
+          [
+            6.3,
+            3.815,
+            0.0,
+            3.772,
+            5.726
+          ],
+          [
+            9.073,
+            5.978,
+            3.772,
+            0.0,
+            3.763
+          ],
+          [
+            11.771,
+            9.104,
+            5.726,
+            3.763,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)c1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.5430090145415852,
+        "mw": 262.17,
+        "logp": 2.088,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 5,
+        "qed": 0.825,
+        "sa_score": 2.15,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MMP13-R18W Candidate #1",
+        "iupac_name": "CNCC(=O)c1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.543,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_R18W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_R18W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_R18W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_R18W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MMP13_R18W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP13-R18W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MMP13-R18W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:46:30.472975+00:00"
     }
   ]
 }
