@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 930,
+  "total_entries": 931,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45467,
-    "queue_remaining": 133130
+    "total_processed": 45468,
+    "queue_remaining": 133129
   },
   "entries": [
     {
@@ -204982,6 +204982,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:20:27.437115+00:00"
+    },
+    {
+      "entry_id": "PCD-IDH3B-G378S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IDH3B-G378S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "IDH3B",
+        "uniprot": "",
+        "clinvar_id": "338011",
+        "disease": "Retinitis pigmentosa",
+        "mutation_precursor": "G378S",
+        "mutation_mature": "G378S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8859550649418882,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 371.92816662606214,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -24.201875686645508,
+          11.74072551727295,
+          -25.807390213012695
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.857396464168565,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7277901456596289,
+        "cryptic": true,
+        "pocket_residues": {
+          "G378": "G",
+          "H379": "H",
+          "L380": "L"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43837|IDH3B variant G378S",
+        "fasta_sequence": "MAALSGVRWLTRALVSAGNPGAWRGLSTSAAAHAASRSQAEDVRVEGSFPVTMLPGDGVGPELMHAVKEVFKAAAVPVEFQEHHLSEVQNMASEEKLEQVLSSMKENKVAIIGKIHTPMEYKGELASYDMRLRRKLDLFANVVHVKSLPGYMTRHNNLDLVIIREQTEGEYSSLEHESARGVIECLKIVTRAKSQRIAKFAFDYATKKGRGKVTAVHKANIMKLGDGLFLQCCEEVAELYPKIKFETMIIDNCCMQLVQNPYQFDVLVMPNLYGNIIDNLAAGLVGGAGVVPGESYSAEYAVFETGARHPFAQAVGRNIANPTAMLLSASNMLRHLNLEYHSSMIADAVKKVIKVGKVRTRDMGGYSTTTDFIKSVIGHLQTKGS",
+        "full_sequence": "MAALSGVRWLTRALVSAGNPGAWRGLSTSAAAHAASRSQAEDVRVEGSFPVTMLPGDGVGPELMHAVKEVFKAAAVPVEFQEHHLSEVQNMASEEKLEQVLSSMKENKVAIIGKIHTPMEYKGELASYDMRLRRKLDLFANVVHVKSLPGYMTRHNNLDLVIIREQTEGEYSSLEHESARGVIECLKIVTRAKSQRIAKFAFDYATKKGRGKVTAVHKANIMKLGDGLFLQCCEEVAELYPKIKFETMIIDNCCMQLVQNPYQFDVLVMPNLYGNIIDNLAAGLVGGAGVVPGESYSAEYAVFETGARHPFAQAVGRNIANPTAMLLSASNMLRHLNLEYHSSMIADAVKKVIKVGKVRTRDMGGYSTTTDFIKSVIGHLQTKGS",
+        "n_residues": 385,
+        "mutation_pos_1indexed": 378,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "G378-H379-L380",
+        "pocket_lining_positions_precursor": [
+          378,
+          379,
+          380
+        ],
+        "pocket_lining_1letter": "GHL",
+        "sequence_slice_around_pocket": "TTTDFIKSVIGHLQTKGS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/IDH3B_G378S/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "G378",
+          "H379",
+          "L380"
+        ],
+        "values": [
+          [
+            0.0,
+            3.865,
+            5.732
+          ],
+          [
+            3.865,
+            0.0,
+            3.853
+          ],
+          [
+            5.732,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.5826904865410256,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "IDH3B-G378S Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5827,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/IDH3B_G378S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/IDH3B_G378S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/IDH3B_G378S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/IDH3B_G378S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/IDH3B_G378S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IDH3B-G378S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IDH3B-G378S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:20:50.955802+00:00"
     }
   ]
 }
