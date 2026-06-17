@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 489,
+  "total_entries": 490,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44952,
-    "queue_remaining": 133645
+    "total_processed": 44953,
+    "queue_remaining": 133644
   },
   "entries": [
     {
@@ -108528,6 +108528,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T10:11:44.389672+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC5A2-E591D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A2-E591D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC5A2",
+        "uniprot": "",
+        "clinvar_id": "319073",
+        "disease": "Familial renal glucosuria",
+        "mutation_precursor": "E591D",
+        "mutation_mature": "E591D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.765973502489369,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 561.7279057999992,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -57.43642044067383,
+          6.415169715881348,
+          11.075806617736816
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.623770131432024,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6251497970362458,
+        "cryptic": true,
+        "pocket_residues": {
+          "C589": "C",
+          "P590": "P",
+          "E591": "E",
+          "S592": "S"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P31639|SLC5A2 variant E591D",
+        "fasta_sequence": "MEEHTEAGSAPEMGAQKALIDNPADILVIAAYFLLVIGVGLWSMCRTNRGTVGGYFLAGRSMVWWPVGASLFASNIGSGHFVGLAGTGAASGLAVAGFEWNALFVVLLLGWLFAPVYLTAGVITMPQYLRKRFGGRRIRLYLSVLSLFLYIFTKISVDMFSGAVFIQQALGWNIYASVIALLGITMIYTVTGGLAALMYTDTVQTFVILGGACILMGYAFHEVGGYSGLFDKYLGAATSLTVSEDPAVGNISSFCYRPRPDSYHLLRHPVTGDLPWPALLLGLTIVSGWYWCSDQVIVQRCLAGKSLTHIKAGCILCGYLKLTPMFLMVMPGMISRILYPDEVACVVPEVCRRVCGTEVGCSNIAYPRLVVKLMPNGLRGLMLAVMLAALMSSLASIFNSSSTLFTMDIYTRLRPRAGDRELLLVGRLWVVFIVVVSVAWLPVVQAAQGGQLFDYIQAVSSYLAPPVSAVFVLALFVPRVNEQGAFWGLIGGLLMGLARLIPEFSFGSGSCVQPSACPAFLCGVHYLYFAIVLFFCSGLLTLTVSLCTAPIPRKHLHRLVFSLRHSKEEREDLDADEQQGSSLPVQNGCPESAMEMNEPQAPAPSLFRQCLLWFCGMSRGGVGSPPPLTQEEAAAAARRLEDISEDPSWARVVNLNALLMMAVAVFLWGFYA",
+        "full_sequence": "MEEHTEAGSAPEMGAQKALIDNPADILVIAAYFLLVIGVGLWSMCRTNRGTVGGYFLAGRSMVWWPVGASLFASNIGSGHFVGLAGTGAASGLAVAGFEWNALFVVLLLGWLFAPVYLTAGVITMPQYLRKRFGGRRIRLYLSVLSLFLYIFTKISVDMFSGAVFIQQALGWNIYASVIALLGITMIYTVTGGLAALMYTDTVQTFVILGGACILMGYAFHEVGGYSGLFDKYLGAATSLTVSEDPAVGNISSFCYRPRPDSYHLLRHPVTGDLPWPALLLGLTIVSGWYWCSDQVIVQRCLAGKSLTHIKAGCILCGYLKLTPMFLMVMPGMISRILYPDEVACVVPEVCRRVCGTEVGCSNIAYPRLVVKLMPNGLRGLMLAVMLAALMSSLASIFNSSSTLFTMDIYTRLRPRAGDRELLLVGRLWVVFIVVVSVAWLPVVQAAQGGQLFDYIQAVSSYLAPPVSAVFVLALFVPRVNEQGAFWGLIGGLLMGLARLIPEFSFGSGSCVQPSACPAFLCGVHYLYFAIVLFFCSGLLTLTVSLCTAPIPRKHLHRLVFSLRHSKEEREDLDADEQQGSSLPVQNGCPESAMEMNEPQAPAPSLFRQCLLWFCGMSRGGVGSPPPLTQEEAAAAARRLEDISEDPSWARVVNLNALLMMAVAVFLWGFYA",
+        "n_residues": 672,
+        "mutation_pos_1indexed": 591,
+        "wt_aa": "E",
+        "mut_aa": "D",
+        "pocket_lining_residues": "C589-P590-E591-S592",
+        "pocket_lining_positions_precursor": [
+          589,
+          590,
+          591,
+          592
+        ],
+        "pocket_lining_1letter": "CPES",
+        "sequence_slice_around_pocket": "SSLPVQNGCPESAMEMNEPQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_E591D/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "C589",
+          "P590",
+          "E591",
+          "S592"
+        ],
+        "values": [
+          [
+            0.0,
+            3.847,
+            5.84,
+            9.104
+          ],
+          [
+            3.847,
+            0.0,
+            3.793,
+            5.843
+          ],
+          [
+            5.84,
+            3.793,
+            0.0,
+            3.777
+          ],
+          [
+            9.104,
+            5.843,
+            3.777,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7069536554869914,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC5A2-E591D Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.707,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_E591D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_E591D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_E591D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_E591D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A2_E591D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A2-E591D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A2-E591D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T10:12:09.212898+00:00"
     }
   ]
 }
