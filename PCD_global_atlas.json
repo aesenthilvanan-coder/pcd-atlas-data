@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 955,
+  "total_entries": 956,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45493,
-    "queue_remaining": 133104
+    "total_processed": 45494,
+    "queue_remaining": 133103
   },
   "entries": [
     {
@@ -209822,6 +209822,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:38:14.052830+00:00"
+    },
+    {
+      "entry_id": "PCD-ANG-A122V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ANG-A122V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ANG",
+        "uniprot": "",
+        "clinvar_id": "312776",
+        "disease": "Amyotrophic lateral sclerosis type 9",
+        "mutation_precursor": "A122V",
+        "mutation_mature": "A122V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8584959364498473,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 390.142999474998,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          10.878755569458008,
+          3.4776740074157715,
+          1.8014285564422607
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.853881132200327,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6717747172988674,
+        "cryptic": true,
+        "pocket_residues": {
+          "R45": "R",
+          "D46": "D",
+          "T121": "T",
+          "A122": "A",
+          "G123": "G"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P03950|ANG variant A122V",
+        "fasta_sequence": "MVMGLGVLLLVFVLGLGLTPPTLAQDNSRYTHFLTQHYDAKPQGRDDRYCESIMRRRGLTSPCKDINTFIHGNKRSIKAICENKNGNPHRENLRISKSSFQVTTCKLHGGSPWPPCQYRATAGFRNVVVACENGLPVHLDQSIFRRP",
+        "full_sequence": "MVMGLGVLLLVFVLGLGLTPPTLAQDNSRYTHFLTQHYDAKPQGRDDRYCESIMRRRGLTSPCKDINTFIHGNKRSIKAICENKNGNPHRENLRISKSSFQVTTCKLHGGSPWPPCQYRATAGFRNVVVACENGLPVHLDQSIFRRP",
+        "n_residues": 147,
+        "mutation_pos_1indexed": 122,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "R45-D46-T121-A122-G123",
+        "pocket_lining_positions_precursor": [
+          45,
+          46,
+          121,
+          122,
+          123
+        ],
+        "pocket_lining_1letter": "RDTAG",
+        "sequence_slice_around_pocket": "PWPPCQYRATAGFRNVVVAC"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ANG_A122V/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "R45",
+          "D46",
+          "T121",
+          "A122",
+          "G123"
+        ],
+        "values": [
+          [
+            0.0,
+            3.861,
+            7.857,
+            6.48,
+            9.846
+          ],
+          [
+            3.861,
+            0.0,
+            7.523,
+            7.852,
+            11.657
+          ],
+          [
+            7.857,
+            7.523,
+            0.0,
+            3.793,
+            6.486
+          ],
+          [
+            6.48,
+            7.852,
+            3.793,
+            0.0,
+            3.828
+          ],
+          [
+            9.846,
+            11.657,
+            6.486,
+            3.828,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.7647426976812912,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ANG-A122V Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7647,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ANG_A122V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ANG_A122V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ANG_A122V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ANG_A122V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ANG_A122V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ANG-A122V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ANG-A122V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:38:38.507158+00:00"
     }
   ]
 }
