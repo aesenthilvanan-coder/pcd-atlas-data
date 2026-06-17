@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 972,
+  "total_entries": 973,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45519,
-    "queue_remaining": 133078
+    "total_processed": 45520,
+    "queue_remaining": 133077
   },
   "entries": [
     {
@@ -213623,6 +213623,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:52:24.301256+00:00"
+    },
+    {
+      "entry_id": "PCD-CPAP-P219L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CPAP-P219L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CPAP",
+        "uniprot": "",
+        "clinvar_id": "311629",
+        "disease": "Microcephaly 6, primary, autosomal recessive",
+        "mutation_precursor": "P219L",
+        "mutation_mature": "P219L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9141460970577447,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 573.4696288192719,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -13.086483001708984,
+          41.63987350463867,
+          -0.7310810089111328
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.752825944937358,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7080785645591552,
+        "cryptic": true,
+        "pocket_residues": {
+          "C217": "C",
+          "F218": "F",
+          "P219": "P"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9HC77|CPAP variant P219L",
+        "fasta_sequence": "MFLMPTSSELNSGQNFLTQWMTNPSRAGVILNRGFPILEADKEKRAAVDISTSFPIKGTHFSDSFSFINEEDSLLEEQKLESNNPYKPQSDKSETHTAFPCIKKGPQVAACHSAPGHQEENKNDFIPDLASEFKEGAYKDPLFKKLEQLKEVQQKKQEQLKRQQLEQLQRLMEEQEKLLTMVSGQCTLPGLSLLPDDQSQKHRSPGNTTTGERATCCFPSYVYPDPTQEETYPSNILSHEQSNFCRTAHGDFVLTSKRASPNLFSEAQYQEAPVEKNNLKEENRNHPTGESILCWEKVTEQIQEANDKNLQKHDDSSEVANIEERPIKAAIGERKQTFEDYLEEQIQLEEQELKQKQLKEAEGPLPIKAKPKQPFLKRGEGLARFTNAKSKFQKGKESKLVTNQSTSEDQPLFKMDRQQLQRKTALKNKELCADNPILKKDSKARTKSGSVTLSQKPKMLKCSNRKSLSPSGLKIQTGKKCDGQFRDQIKFENKVTSNNKENVTECPKPCDTGCTGWNKTQGKDRLPLSTGPASRLAAKSPIRETMKESESSLDVSLQKKLETWEREKEKENLELDEFLFLEQAADEISFSSNSSFVLKILERDQQICKGHRMSSTPVKAVPQKTNPADPISHCNRSEDLDHTAREKESECEVAPKQLHSLSSADELREQPCKIRKAVQKSTSENQTEWNARDDEGVPNSDSSTDSEEQLDVTIKPSTEDRERGISSREDSPQVCDDKGPFKDTRTQEDKRRDVDLDLSDKDYSSDESIMESIKHKVSEPSRSSSLSLSKMDFDDERTWTDLEENLCNHDVVLGNESTYGTPQTCYPNNEIGILDKTIKRKIAPVKRGEDLSKSRRSRSPPTSELMMKFFPSLKPKPKSDSHLGNELKLNISQDQPPGDNARSQVLREKIIELETEIEKFKAENASLAKLRIERESALEKLRKEIADFEQQKAKELARIEEFKKEEMRKLQKERKVFEKYTTAARTFPDKKEREEIQTLKQQIADLREDLKRKETKWSSTHSRLRSQIQMLVRENTDLREEIKVMERFRLDAWKRAEAIESSLEVEKKDKLANTSVRFQNSQISSGTQVEKYKKNYLPMQGNPPRRSKSAPPRDLGNLDKGQAASPREPLEPLNFPDPEYKEEEEDQDIQGEISHPDGKVEKVYKNGCRVILFPNGTRKEVSADGKTITVTFFNGDVKQVMPDQRVIYYYAAAQTTHTTYPEGLEVLHFSSGQIEKHYPDGRKEITFPDQTVKNLFPDGQEESIFPDGTIVRVQRDGNKLIEFNNGQRELHTAQFKRREYPDGTVKTVYANGHQETKYRSGRIRVKDKEGNVLMDTEL",
+        "full_sequence": "MFLMPTSSELNSGQNFLTQWMTNPSRAGVILNRGFPILEADKEKRAAVDISTSFPIKGTHFSDSFSFINEEDSLLEEQKLESNNPYKPQSDKSETHTAFPCIKKGPQVAACHSAPGHQEENKNDFIPDLASEFKEGAYKDPLFKKLEQLKEVQQKKQEQLKRQQLEQLQRLMEEQEKLLTMVSGQCTLPGLSLLPDDQSQKHRSPGNTTTGERATCCFPSYVYPDPTQEETYPSNILSHEQSNFCRTAHGDFVLTSKRASPNLFSEAQYQEAPVEKNNLKEENRNHPTGESILCWEKVTEQIQEANDKNLQKHDDSSEVANIEERPIKAAIGERKQTFEDYLEEQIQLEEQELKQKQLKEAEGPLPIKAKPKQPFLKRGEGLARFTNAKSKFQKGKESKLVTNQSTSEDQPLFKMDRQQLQRKTALKNKELCADNPILKKDSKARTKSGSVTLSQKPKMLKCSNRKSLSPSGLKIQTGKKCDGQFRDQIKFENKVTSNNKENVTECPKPCDTGCTGWNKTQGKDRLPLSTGPASRLAAKSPIRETMKESESSLDVSLQKKLETWEREKEKENLELDEFLFLEQAADEISFSSNSSFVLKILERDQQICKGHRMSSTPVKAVPQKTNPADPISHCNRSEDLDHTAREKESECEVAPKQLHSLSSADELREQPCKIRKAVQKSTSENQTEWNARDDEGVPNSDSSTDSEEQLDVTIKPSTEDRERGISSREDSPQVCDDKGPFKDTRTQEDKRRDVDLDLSDKDYSSDESIMESIKHKVSEPSRSSSLSLSKMDFDDERTWTDLEENLCNHDVVLGNESTYGTPQTCYPNNEIGILDKTIKRKIAPVKRGEDLSKSRRSRSPPTSELMMKFFPSLKPKPKSDSHLGNELKLNISQDQPPGDNARSQVLREKIIELETEIEKFKAENASLAKLRIERESALEKLRKEIADFEQQKAKELARIEEFKKEEMRKLQKERKVFEKYTTAARTFPDKKEREEIQTLKQQIADLREDLKRKETKWSSTHSRLRSQIQMLVRENTDLREEIKVMERFRLDAWKRAEAIESSLEVEKKDKLANTSVRFQNSQISSGTQVEKYKKNYLPMQGNPPRRSKSAPPRDLGNLDKGQAASPREPLEPLNFPDPEYKEEEEDQDIQGEISHPDGKVEKVYKNGCRVILFPNGTRKEVSADGKTITVTFFNGDVKQVMPDQRVIYYYAAAQTTHTTYPEGLEVLHFSSGQIEKHYPDGRKEITFPDQTVKNLFPDGQEESIFPDGTIVRVQRDGNKLIEFNNGQRELHTAQFKRREYPDGTVKTVYANGHQETKYRSGRIRVKDKEGNVLMDTEL",
+        "n_residues": 1338,
+        "mutation_pos_1indexed": 219,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "C217-F218-P219",
+        "pocket_lining_positions_precursor": [
+          217,
+          218,
+          219
+        ],
+        "pocket_lining_1letter": "CFP",
+        "sequence_slice_around_pocket": "TTGERATCCFPSYVYPDPTQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_P219L/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "C217",
+          "F218",
+          "P219"
+        ],
+        "values": [
+          [
+            0.0,
+            3.796,
+            6.207
+          ],
+          [
+            3.796,
+            0.0,
+            3.87
+          ],
+          [
+            6.207,
+            3.87,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)c1ccc(OC)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.5519382042610349,
+        "mw": 359.22,
+        "logp": 2.079,
+        "hbd": 1,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.7849,
+        "sa_score": 3.21,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CPAP-P219L Candidate #1",
+        "iupac_name": "CNCC(=O)c1ccc(OC)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5519,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_P219L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_P219L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_P219L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_P219L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CPAP_P219L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CPAP-P219L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CPAP-P219L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:53:12.970742+00:00"
     }
   ]
 }
