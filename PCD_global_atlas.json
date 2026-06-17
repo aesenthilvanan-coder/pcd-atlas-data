@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1335,
+  "total_entries": 1336,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45953,
-    "queue_remaining": 132644
+    "total_processed": 45954,
+    "queue_remaining": 132643
   },
   "entries": [
     {
@@ -295312,6 +295312,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T22:24:57.215133+00:00"
+    },
+    {
+      "entry_id": "PCD-UNC119-Q170R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-UNC119-Q170R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "UNC119",
+        "uniprot": "",
+        "clinvar_id": "322463",
+        "disease": "Cone-rod dystrophy",
+        "mutation_precursor": "Q170R",
+        "mutation_mature": "Q170R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9094365778720573,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 517.1551086310615,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          14.356168746948242,
+          0.6679062247276306,
+          0.08756136894226074
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.7339437988570565,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8109434567972281,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q69": "Q",
+          "R70": "R",
+          "Y166": "Y",
+          "F167": "F",
+          "R168": "R",
+          "N169": "N",
+          "Q170": "Q",
+          "L171": "L"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13432|UNC119 variant Q170R",
+        "fasta_sequence": "MKVKKGGGGAGTATESAPGPSGQSVAPIPQPPAESESGSESEPDAGPGPRPGPLQRKQPIGPEDVLGLQRITGDYLCSPEENIYKIDFVRFKIRDMDSGTVLFEIKKPPVSERLPINRRDLDPNAGRFVRYQFTPAFLRLRQVGATVEFTVGDKPVNNFRMIERHYFRNQLLKSFDFHFGFCIPSSKNTCEHIYDFPPLSEELISEMIRHPYETQSDSFYFVDDRLVMHNKADYSYSGTP",
+        "full_sequence": "MKVKKGGGGAGTATESAPGPSGQSVAPIPQPPAESESGSESEPDAGPGPRPGPLQRKQPIGPEDVLGLQRITGDYLCSPEENIYKIDFVRFKIRDMDSGTVLFEIKKPPVSERLPINRRDLDPNAGRFVRYQFTPAFLRLRQVGATVEFTVGDKPVNNFRMIERHYFRNQLLKSFDFHFGFCIPSSKNTCEHIYDFPPLSEELISEMIRHPYETQSDSFYFVDDRLVMHNKADYSYSGTP",
+        "n_residues": 240,
+        "mutation_pos_1indexed": 170,
+        "wt_aa": "Q",
+        "mut_aa": "R",
+        "pocket_lining_residues": "Q69-R70-Y166-F167-R168-N169-Q170-L171",
+        "pocket_lining_positions_precursor": [
+          69,
+          70,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171
+        ],
+        "pocket_lining_1letter": "QRYFRNQL",
+        "sequence_slice_around_pocket": "RMIERHYFRNQLLKSFDFHF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/UNC119_Q170R/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "Q69",
+          "R70",
+          "Y166",
+          "F167",
+          "R168",
+          "N169",
+          "Q170",
+          "L171"
+        ],
+        "values": [
+          [
+            0.0,
+            3.862,
+            8.251,
+            10.658,
+            10.588,
+            6.843,
+            6.72,
+            5.88
+          ],
+          [
+            3.862,
+            0.0,
+            6.913,
+            9.041,
+            8.346,
+            4.677,
+            6.657,
+            6.858
+          ],
+          [
+            8.251,
+            6.913,
+            0.0,
+            3.8,
+            6.345,
+            5.534,
+            5.226,
+            4.45
+          ],
+          [
+            10.658,
+            9.041,
+            3.8,
+            0.0,
+            3.866,
+            5.521,
+            5.24,
+            6.654
+          ],
+          [
+            10.588,
+            8.346,
+            6.345,
+            3.866,
+            0.0,
+            3.869,
+            5.553,
+            8.485
+          ],
+          [
+            6.843,
+            4.677,
+            5.534,
+            5.521,
+            3.869,
+            0.0,
+            3.851,
+            6.383
+          ],
+          [
+            6.72,
+            6.657,
+            5.226,
+            5.24,
+            5.553,
+            3.851,
+            0.0,
+            3.836
+          ],
+          [
+            5.88,
+            6.858,
+            4.45,
+            6.654,
+            8.485,
+            6.383,
+            3.836,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(N)c(N2CC(=O)CCC2CCNc2ncnc3[nH]cnc23)c1",
+        "composite_score": 0.6704225525061338,
+        "mw": 381.19,
+        "logp": 1.984,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 6,
+        "qed": 0.5542,
+        "sa_score": 3.44,
+        "n_heavy_atoms": 28,
+        "tpsa": 122.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "UNC119-Q170R Candidate #1",
+        "iupac_name": "COc1ccc(N)c(N2CC(=O)CCC2CCNc2ncnc3[nH]cnc23)c1",
+        "pocket_affinity_score": 0.6704,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/UNC119_Q170R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/UNC119_Q170R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/UNC119_Q170R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/UNC119_Q170R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/UNC119_Q170R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-UNC119-Q170R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-UNC119-Q170R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T22:25:19.646869+00:00"
     }
   ]
 }
