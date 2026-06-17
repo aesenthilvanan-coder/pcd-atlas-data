@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 861,
+  "total_entries": 862,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45385,
-    "queue_remaining": 133212
+    "total_processed": 45386,
+    "queue_remaining": 133211
   },
   "entries": [
     {
@@ -189685,6 +189685,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:22:42.954920+00:00"
+    },
+    {
+      "entry_id": "PCD-BCKDHA-Q53H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BCKDHA-Q53H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BCKDHA",
+        "uniprot": "",
+        "clinvar_id": "329359",
+        "disease": "Maple syrup urine disease",
+        "mutation_precursor": "Q53H",
+        "mutation_mature": "Q53H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9396703858265721,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 471.12083522860456,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          7.881086349487305,
+          20.682954788208008,
+          -44.71770477294922
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.327365330738892,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.68390162186415,
+        "cryptic": true,
+        "pocket_residues": {
+          "L48": "L",
+          "D49": "D",
+          "D50": "D",
+          "K51": "K",
+          "P52": "P",
+          "Q53": "Q",
+          "F54": "F"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P12694|BCKDHA variant Q53H",
+        "fasta_sequence": "MAVAIAAARVWRLNRGLSQAALLLLRQPGARGLARSHPPRQQQQFSSLDDKPQFPGASAEFIDKLEFIQPNVISGIPIYRVMDRQGQIINPSEDPHLPKEKVLKLYKSMTLLNTMDRILYESQRQGRISFYMTNYGEEGTHVGSAAALDNTDLVFGQYREAGVLMYRDYPLELFMAQCYGNISDLGKGRQMPVHYGCKERHFVTISSPLATQIPQAVGAAYAAKRANANRVVICYFGEGAASEGDAHAGFNFAATLECPIIFFCRNNGYAISTPTSEQYRGDGIAARGPGYGIMSIRVDGNDVFAVYNATKEARRRAVAENQPFLIEAMTYRIGHHSTSDDSSAYRSVDEVNYWDKQDHPISRLRHYLLSQGWWDEEQEKAWRKQSRRKVMEAFEQAERKPKPNPNLLFSDVYQEMPAQLRKQQESLARHLQTYGEHYPLDHFDK",
+        "full_sequence": "MAVAIAAARVWRLNRGLSQAALLLLRQPGARGLARSHPPRQQQQFSSLDDKPQFPGASAEFIDKLEFIQPNVISGIPIYRVMDRQGQIINPSEDPHLPKEKVLKLYKSMTLLNTMDRILYESQRQGRISFYMTNYGEEGTHVGSAAALDNTDLVFGQYREAGVLMYRDYPLELFMAQCYGNISDLGKGRQMPVHYGCKERHFVTISSPLATQIPQAVGAAYAAKRANANRVVICYFGEGAASEGDAHAGFNFAATLECPIIFFCRNNGYAISTPTSEQYRGDGIAARGPGYGIMSIRVDGNDVFAVYNATKEARRRAVAENQPFLIEAMTYRIGHHSTSDDSSAYRSVDEVNYWDKQDHPISRLRHYLLSQGWWDEEQEKAWRKQSRRKVMEAFEQAERKPKPNPNLLFSDVYQEMPAQLRKQQESLARHLQTYGEHYPLDHFDK",
+        "n_residues": 445,
+        "mutation_pos_1indexed": 53,
+        "wt_aa": "Q",
+        "mut_aa": "H",
+        "pocket_lining_residues": "L48-D49-D50-K51-P52-Q53-F54",
+        "pocket_lining_positions_precursor": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54
+        ],
+        "pocket_lining_1letter": "LDDKPQF",
+        "sequence_slice_around_pocket": "QQFSSLDDKPQFPGASAEFI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BCKDHA_Q53H/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "L48",
+          "D49",
+          "D50",
+          "K51",
+          "P52",
+          "Q53",
+          "F54"
+        ],
+        "values": [
+          [
+            0.0,
+            3.854,
+            5.393,
+            5.336,
+            8.499,
+            9.206,
+            12.977
+          ],
+          [
+            3.854,
+            0.0,
+            3.857,
+            5.573,
+            7.984,
+            8.243,
+            11.9
+          ],
+          [
+            5.393,
+            3.857,
+            0.0,
+            3.894,
+            6.863,
+            8.83,
+            11.976
+          ],
+          [
+            5.336,
+            5.573,
+            3.894,
+            0.0,
+            3.873,
+            6.493,
+            9.527
+          ],
+          [
+            8.499,
+            7.984,
+            6.863,
+            3.873,
+            0.0,
+            3.861,
+            5.887
+          ],
+          [
+            9.206,
+            8.243,
+            8.83,
+            6.493,
+            3.861,
+            0.0,
+            3.85
+          ],
+          [
+            12.977,
+            11.9,
+            11.976,
+            9.527,
+            5.887,
+            3.85,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CCN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.7840494412621205,
+        "mw": 331.23,
+        "logp": 2.178,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.896,
+        "sa_score": 3.16,
+        "n_heavy_atoms": 24,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BCKDHA-Q53H Candidate #1",
+        "iupac_name": "COc1ccc(CCN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.784,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BCKDHA_Q53H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BCKDHA_Q53H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BCKDHA_Q53H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BCKDHA_Q53H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BCKDHA_Q53H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BCKDHA-Q53H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BCKDHA-Q53H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:23:06.571513+00:00"
     }
   ]
 }
