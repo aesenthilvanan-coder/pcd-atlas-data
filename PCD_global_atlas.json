@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1141,
+  "total_entries": 1142,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45738,
-    "queue_remaining": 132859
+    "total_processed": 45739,
+    "queue_remaining": 132858
   },
   "entries": [
     {
@@ -251446,6 +251446,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T19:50:18.611423+00:00"
+    },
+    {
+      "entry_id": "PCD-POLG2-R225Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-POLG2-R225Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "POLG2",
+        "uniprot": "",
+        "clinvar_id": "324559",
+        "disease": "Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal",
+        "mutation_precursor": "R225Q",
+        "mutation_mature": "R225Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7469964076867478,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 563.0154703782852,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.231373310089111,
+          -24.730531692504883,
+          -14.695833206176758
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.876590219191848,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8284027219627577,
+        "cryptic": true,
+        "pocket_residues": {
+          "F219": "F",
+          "D220": "D",
+          "T221": "T",
+          "K222": "K",
+          "Q223": "Q",
+          "I224": "I",
+          "R225": "R",
+          "N226": "N",
+          "G227": "G"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UHN1|POLG2 variant R225Q",
+        "fasta_sequence": "MRSRVAVRACHKVCRCLLSGFGGRVDAGQPELLTERSSPKGGHVKSHAELEGNGEHPEAPGSGEGSEALLEICQRRHFLSGSKQQLSRDSLLSGCHPGFGPLGVELRKNLAAEWWTSVVVFREQVFPVDALHHKPGPLLPGDSAFRLVSAETLREILQDKELSKEQLVAFLENVLKTSGKLRENLLHGALEHYVNCLDLVNKRLPYGLAQIGVCFHPVFDTKQIRNGVKSIGEKTEASLVWFTPPRTSNQWLDFWLRHRLQWWRKFAMSPSNFSSSDCQDEEGRKGNKLYYNFPWGKELIETLWNLGDHELLHMYPGNVSKLHGRDGRKNVVPCVLSVNGDLDRGMLAYLYDSFQLTENSFTRKKNLHRKVLKLHPCLAPIKVALDVGRGPTLELRQVCQGLFNELLENGISVWPGYLETMQSSLEQLYSKYDEMSILFTVLVTETTLENGLIHLRSRDTTMKEMMHISKLKDFLIKYISSAKNV",
+        "full_sequence": "MRSRVAVRACHKVCRCLLSGFGGRVDAGQPELLTERSSPKGGHVKSHAELEGNGEHPEAPGSGEGSEALLEICQRRHFLSGSKQQLSRDSLLSGCHPGFGPLGVELRKNLAAEWWTSVVVFREQVFPVDALHHKPGPLLPGDSAFRLVSAETLREILQDKELSKEQLVAFLENVLKTSGKLRENLLHGALEHYVNCLDLVNKRLPYGLAQIGVCFHPVFDTKQIRNGVKSIGEKTEASLVWFTPPRTSNQWLDFWLRHRLQWWRKFAMSPSNFSSSDCQDEEGRKGNKLYYNFPWGKELIETLWNLGDHELLHMYPGNVSKLHGRDGRKNVVPCVLSVNGDLDRGMLAYLYDSFQLTENSFTRKKNLHRKVLKLHPCLAPIKVALDVGRGPTLELRQVCQGLFNELLENGISVWPGYLETMQSSLEQLYSKYDEMSILFTVLVTETTLENGLIHLRSRDTTMKEMMHISKLKDFLIKYISSAKNV",
+        "n_residues": 485,
+        "mutation_pos_1indexed": 225,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "F219-D220-T221-K222-Q223-I224-R225-N226-G227",
+        "pocket_lining_positions_precursor": [
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227
+        ],
+        "pocket_lining_1letter": "FDTKQIRNG",
+        "sequence_slice_around_pocket": "FHPVFDTKQIRNGVKSIGEK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/POLG2_R225Q/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "F219",
+          "D220",
+          "T221",
+          "K222",
+          "Q223",
+          "I224",
+          "R225",
+          "N226",
+          "G227"
+        ],
+        "values": [
+          [
+            0.0,
+            3.822,
+            6.206,
+            9.043,
+            9.82,
+            8.941,
+            9.063,
+            7.547,
+            6.494
+          ],
+          [
+            3.822,
+            0.0,
+            3.83,
+            5.555,
+            6.764,
+            7.289,
+            8.253,
+            8.37,
+            7.23
+          ],
+          [
+            6.206,
+            3.83,
+            0.0,
+            3.85,
+            6.367,
+            7.036,
+            6.618,
+            8.109,
+            8.669
+          ],
+          [
+            9.043,
+            5.555,
+            3.85,
+            0.0,
+            3.866,
+            6.546,
+            7.553,
+            10.023,
+            9.975
+          ],
+          [
+            9.82,
+            6.764,
+            6.367,
+            3.866,
+            0.0,
+            3.865,
+            6.575,
+            8.94,
+            8.237
+          ],
+          [
+            8.941,
+            7.289,
+            7.036,
+            6.546,
+            3.865,
+            0.0,
+            3.837,
+            5.543,
+            5.255
+          ],
+          [
+            9.063,
+            8.253,
+            6.618,
+            7.553,
+            6.575,
+            3.837,
+            0.0,
+            3.89,
+            6.294
+          ],
+          [
+            7.547,
+            8.37,
+            8.109,
+            10.023,
+            8.94,
+            5.543,
+            3.89,
+            0.0,
+            3.889
+          ],
+          [
+            6.494,
+            7.23,
+            8.669,
+            9.975,
+            8.237,
+            5.255,
+            6.294,
+            3.889,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.688214042500466,
+        "mw": 319.17,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.924,
+        "sa_score": 3.13,
+        "n_heavy_atoms": 23,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "POLG2-R225Q Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.6882,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/POLG2_R225Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/POLG2_R225Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/POLG2_R225Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/POLG2_R225Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/POLG2_R225Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-POLG2-R225Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-POLG2-R225Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T19:50:43.207860+00:00"
     }
   ]
 }
