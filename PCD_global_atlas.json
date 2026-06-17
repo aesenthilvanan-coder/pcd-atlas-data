@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 46,
+  "total_entries": 47,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44428,
-    "queue_remaining": 134169
+    "total_processed": 44429,
+    "queue_remaining": 134168
   },
   "entries": [
     {
@@ -10731,6 +10731,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:15:22.851204+00:00"
+    },
+    {
+      "entry_id": "PCD-BEST1-A357V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BEST1-A357V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BEST1",
+        "uniprot": "",
+        "clinvar_id": "305125",
+        "disease": "not provided",
+        "mutation_precursor": "A357V",
+        "mutation_mature": "A357V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7874301518374717,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 614.0174932353428,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -32.44906997680664,
+          25.820194244384766,
+          -7.120842456817627
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.452834961607883,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7560724123939009,
+        "cryptic": true,
+        "pocket_residues": {
+          "A352": "A",
+          "Q353": "Q",
+          "F354": "F",
+          "R355": "R",
+          "R356": "R",
+          "A357": "A",
+          "S358": "S"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O76090|BEST1 variant A357V",
+        "fasta_sequence": "MTITYTSQVANARLGSFSRLLLCWRGSIYKLLYGEFLIFLLCYYIIRFIYRLALTEEQQLMFEKLTLYCDSYIQLIPISFVLGFYVTLVVTRWWNQYENLPWPDRLMSLVSGFVEGKDEQGRLLRRTLIRYANLGNVLILRSVSTAVYKRFPSAQHLVQAGFMTPAEHKQLEKLSLPHNMFWVPWVWFANLSMKAWLGGRIRDPILLQSLLNEMNTLRTQCGHLYAYDWISIPLVYTQVVTVAVYSFFLTCLVGRQFLNPAKAYPGHELDLVVPVFTFLQFFFYVGWLKVAEQLINPFGEDDDDFETNWIVDRNLQVSLLAVDEMHQDLPRMEPDMYWNKPEPQPPYTAASAQFRRASFMGSTFNISLNKEEMEFQPNQEDEEDAHAGIIGRFLGLQSHDHHPPRANSRTKLLWPKRESLLHEGLPKNHKAAKQNVRGQEDNKAWKLKAVDAFKSAPLYQRPGYYSAPQTPLSPTPMFFPLEPSAPSKLHSVTGIDTKDKSLKTVSSGAKKSFELLSESDGALMEHPEVSQVRRKTVEFNLTDMPEIPENHLKEPLEQSPTNIHTTLKDHMDPYWALENRDEAHS",
+        "full_sequence": "MTITYTSQVANARLGSFSRLLLCWRGSIYKLLYGEFLIFLLCYYIIRFIYRLALTEEQQLMFEKLTLYCDSYIQLIPISFVLGFYVTLVVTRWWNQYENLPWPDRLMSLVSGFVEGKDEQGRLLRRTLIRYANLGNVLILRSVSTAVYKRFPSAQHLVQAGFMTPAEHKQLEKLSLPHNMFWVPWVWFANLSMKAWLGGRIRDPILLQSLLNEMNTLRTQCGHLYAYDWISIPLVYTQVVTVAVYSFFLTCLVGRQFLNPAKAYPGHELDLVVPVFTFLQFFFYVGWLKVAEQLINPFGEDDDDFETNWIVDRNLQVSLLAVDEMHQDLPRMEPDMYWNKPEPQPPYTAASAQFRRASFMGSTFNISLNKEEMEFQPNQEDEEDAHAGIIGRFLGLQSHDHHPPRANSRTKLLWPKRESLLHEGLPKNHKAAKQNVRGQEDNKAWKLKAVDAFKSAPLYQRPGYYSAPQTPLSPTPMFFPLEPSAPSKLHSVTGIDTKDKSLKTVSSGAKKSFELLSESDGALMEHPEVSQVRRKTVEFNLTDMPEIPENHLKEPLEQSPTNIHTTLKDHMDPYWALENRDEAHS",
+        "n_residues": 585,
+        "mutation_pos_1indexed": 357,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "A352-Q353-F354-R355-R356-A357-S358",
+        "pocket_lining_positions_precursor": [
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358
+        ],
+        "pocket_lining_1letter": "AQFRRAS",
+        "sequence_slice_around_pocket": "YTAASAQFRRASFMGSTFNI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BEST1_A357V/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "A352",
+          "Q353",
+          "F354",
+          "R355",
+          "R356",
+          "A357",
+          "S358"
+        ],
+        "values": [
+          [
+            0.0,
+            3.875,
+            5.391,
+            5.507,
+            9.094,
+            12.258,
+            14.84
+          ],
+          [
+            3.875,
+            0.0,
+            3.861,
+            5.542,
+            7.926,
+            11.412,
+            14.256
+          ],
+          [
+            5.391,
+            3.861,
+            0.0,
+            3.836,
+            5.975,
+            9.748,
+            11.784
+          ],
+          [
+            5.507,
+            5.542,
+            3.836,
+            0.0,
+            3.839,
+            7.041,
+            9.369
+          ],
+          [
+            9.094,
+            7.926,
+            5.975,
+            3.839,
+            0.0,
+            3.789,
+            6.38
+          ],
+          [
+            12.258,
+            11.412,
+            9.748,
+            7.041,
+            3.789,
+            0.0,
+            3.823
+          ],
+          [
+            14.84,
+            14.256,
+            11.784,
+            9.369,
+            6.38,
+            3.823,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.615899323464399,
+        "mw": 392.23,
+        "logp": 2.177,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.5433,
+        "sa_score": 3.32,
+        "n_heavy_atoms": 29,
+        "tpsa": 99.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BEST1-A357V Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6159,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BEST1_A357V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BEST1_A357V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BEST1_A357V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BEST1_A357V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BEST1_A357V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BEST1-A357V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BEST1-A357V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:15:47.244983+00:00"
     }
   ]
 }
