@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1262,
+  "total_entries": 1263,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45863,
-    "queue_remaining": 132734
+    "total_processed": 45864,
+    "queue_remaining": 132733
   },
   "entries": [
     {
@@ -279145,6 +279145,253 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T21:25:42.160214+00:00"
+    },
+    {
+      "entry_id": "PCD-SCNN1G-R180W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1G-R180W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SCNN1G",
+        "uniprot": "",
+        "clinvar_id": "318350",
+        "disease": "Pseudohypoaldosteronism, type IB1, autosomal recessive",
+        "mutation_precursor": "R180W",
+        "mutation_mature": "R180W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9178056098093118,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 325.82280624053925,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -38.77760696411133,
+          13.944968223571777,
+          15.670382499694824
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.297692241151477,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8495108192356835,
+        "cryptic": true,
+        "pocket_residues": {
+          "E167": "E",
+          "K168": "K",
+          "G169": "G",
+          "K170": "K",
+          "A171": "A",
+          "K179": "K",
+          "R180": "R",
+          "K181": "K",
+          "V182": "V",
+          "G183": "G"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P51170|SCNN1G variant R180W",
+        "fasta_sequence": "MAPGEKIKAKIKKNLPVTGPQAPTIKELMRWYCLNTNTHGCRRIVVSRGRLRRLLWIGFTLTAVALILWQCALLVFSFYTVSVSIKVHFRKLDFPAVTICNINPYKYSTVRHLLADLEQETREALKSLYGFPESRKRREAESWNSVSEGKQPRFSHRIPLLIFDQDEKGKARDFFTGRKRKVGGSIIHKASNVMHIESKQVVGFQLCSNDTSDCATYTFSSGINAIQEWYKLHYMNIMAQVPLEKKINMSYSAEELLVTCFFDGVSCDARNFTLFHHPMHGNCYTFNNRENETILSTSMGGSEYGLQVILYINEEEYNPFLVSSTGAKVIIHRQDEYPFVEDVGTEIETAMVTSIGMHLTESFKLSEPYSQCTEDGSDVPIRNIYNAAYSLQICLHSCFQTKMVEKCGCAQYSQPLPPAANYCNYQQHPNWMYCYYQLHRAFVQEELGCQSVCKEACSFKEWTLTTSLAQWPSVVSEKWLLPVLTWDQGRQVNKKLNKTDLAKLLIFYKDLNQRSIMESPANSIEMLLSNFGGQLGLWMSCSVVCVIEIIEVFFIDFFSIIARRQWQKAKEWWAWKQAPPCPEAPRSPQGQDNPALDIDDDLPTFNSALHLPPALGTQVPGTPPPKYNTLRLERAFSNQLTDTQMLDEL",
+        "full_sequence": "MAPGEKIKAKIKKNLPVTGPQAPTIKELMRWYCLNTNTHGCRRIVVSRGRLRRLLWIGFTLTAVALILWQCALLVFSFYTVSVSIKVHFRKLDFPAVTICNINPYKYSTVRHLLADLEQETREALKSLYGFPESRKRREAESWNSVSEGKQPRFSHRIPLLIFDQDEKGKARDFFTGRKRKVGGSIIHKASNVMHIESKQVVGFQLCSNDTSDCATYTFSSGINAIQEWYKLHYMNIMAQVPLEKKINMSYSAEELLVTCFFDGVSCDARNFTLFHHPMHGNCYTFNNRENETILSTSMGGSEYGLQVILYINEEEYNPFLVSSTGAKVIIHRQDEYPFVEDVGTEIETAMVTSIGMHLTESFKLSEPYSQCTEDGSDVPIRNIYNAAYSLQICLHSCFQTKMVEKCGCAQYSQPLPPAANYCNYQQHPNWMYCYYQLHRAFVQEELGCQSVCKEACSFKEWTLTTSLAQWPSVVSEKWLLPVLTWDQGRQVNKKLNKTDLAKLLIFYKDLNQRSIMESPANSIEMLLSNFGGQLGLWMSCSVVCVIEIIEVFFIDFFSIIARRQWQKAKEWWAWKQAPPCPEAPRSPQGQDNPALDIDDDLPTFNSALHLPPALGTQVPGTPPPKYNTLRLERAFSNQLTDTQMLDEL",
+        "n_residues": 649,
+        "mutation_pos_1indexed": 180,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "E167-K168-G169-K170-A171-K179-R180-K181-V182-G183",
+        "pocket_lining_positions_precursor": [
+          167,
+          168,
+          169,
+          170,
+          171,
+          179,
+          180,
+          181,
+          182,
+          183
+        ],
+        "pocket_lining_1letter": "EKGKAKRKVG",
+        "sequence_slice_around_pocket": "KARDFFTGRKRKVGGSIIHK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_R180W/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "E167",
+          "K168",
+          "G169",
+          "K170",
+          "A171",
+          "K179",
+          "R180",
+          "K181",
+          "V182",
+          "G183"
+        ],
+        "values": [
+          [
+            0.0,
+            3.875,
+            6.289,
+            5.638,
+            7.812,
+            10.7,
+            11.16,
+            9.938,
+            10.688,
+            13.244
+          ],
+          [
+            3.875,
+            0.0,
+            3.853,
+            5.809,
+            8.564,
+            12.298,
+            11.492,
+            9.238,
+            8.974,
+            10.698
+          ],
+          [
+            6.289,
+            3.853,
+            0.0,
+            3.854,
+            6.68,
+            10.373,
+            8.558,
+            5.936,
+            5.148,
+            7.06
+          ],
+          [
+            5.638,
+            5.809,
+            3.854,
+            0.0,
+            3.797,
+            6.688,
+            5.792,
+            4.636,
+            5.663,
+            8.873
+          ],
+          [
+            7.812,
+            8.564,
+            6.68,
+            3.797,
+            0.0,
+            5.702,
+            5.33,
+            6.428,
+            6.576,
+            10.358
+          ],
+          [
+            10.7,
+            12.298,
+            10.373,
+            6.688,
+            5.702,
+            0.0,
+            3.851,
+            6.806,
+            9.314,
+            12.692
+          ],
+          [
+            11.16,
+            11.492,
+            8.558,
+            5.792,
+            5.33,
+            3.851,
+            0.0,
+            3.813,
+            5.977,
+            9.122
+          ],
+          [
+            9.938,
+            9.238,
+            5.936,
+            4.636,
+            6.428,
+            6.806,
+            3.813,
+            0.0,
+            3.823,
+            6.274
+          ],
+          [
+            10.688,
+            8.974,
+            5.148,
+            5.663,
+            6.576,
+            9.314,
+            5.977,
+            3.823,
+            0.0,
+            3.811
+          ],
+          [
+            13.244,
+            10.698,
+            7.06,
+            8.873,
+            10.358,
+            12.692,
+            9.122,
+            6.274,
+            3.811,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)cc1N1CCCC(=O)C1",
+        "composite_score": 0.781494577223002,
+        "mw": 234.14,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.8671,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 17,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SCNN1G-R180W Candidate #1",
+        "iupac_name": "CNc1ccc(OC)cc1N1CCCC(=O)C1",
+        "pocket_affinity_score": 0.7815,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_R180W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_R180W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_R180W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_R180W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCNN1G_R180W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1G-R180W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCNN1G-R180W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T21:26:47.144974+00:00"
     }
   ]
 }
