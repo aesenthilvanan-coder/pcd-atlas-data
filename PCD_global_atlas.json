@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 718,
+  "total_entries": 719,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45227,
-    "queue_remaining": 133370
+    "total_processed": 45228,
+    "queue_remaining": 133369
   },
   "entries": [
     {
@@ -158880,6 +158880,155 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T13:12:35.511039+00:00"
+    },
+    {
+      "entry_id": "PCD-CCDC40-A487T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CCDC40-A487T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CCDC40",
+        "uniprot": "",
+        "clinvar_id": "325730",
+        "disease": "Primary ciliary dyskinesia",
+        "mutation_precursor": "A487T",
+        "mutation_mature": "A487T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8814054955341968,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 547.0784648035757,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -125.06634521484375,
+          -17.566835403442383,
+          60.98738479614258
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.1294759620058334,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7755657337130687,
+        "cryptic": true,
+        "pocket_residues": {
+          "A487": "A",
+          "I488": "I",
+          "S489": "S",
+          "V490": "V",
+          "E491": "E"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q4G0X9|CCDC40 variant A487T",
+        "fasta_sequence": "MAEPGGAAGRSHPEDGSASEGEKEGNNESHMVSPPEKDDGQKGEEAVGSTEHPEEVTTQAEAAIEEGEVETEGEAAVEGEEEAVSYGDAESEEEYYYTETSSPEGQISAADTTYPYFSPPQELPGEEAYDSVSGEAGLQGFQQEATGPPESRERRVTSPEPSHGVLGPSEQMGQVTSGPAVGRLTGSTEEPQGQVLPMGVQHRFRLSHGSDIESSDLEEFVSQEPVIPPGVPDAHPREGDLPVFQDQIQQPSTEEGAMAERVESEGSDEEAEDEGSQLVVLDPDHPLMVRFQAALKNYLNRQIEKLKLDLQELVVATKQSRAQRQELGVNLYEVQQHLVHLQKLLEKSHDRHAMASSERRQKEEELQAARALYTKTCAAANEERKKLAALQTEMENLALHLFYMQNIDQDMRDDIRVMTQVVKKAETERIRAEIEKKKQDLYVDQLTTRAQQLEEDIALFEAQYLAQAEDTRILRKAVSEACTEIDAISVEKRRIMQQWASSLVGMKHRDEAHRAVLEALRGCQHQAKSTDGEIEAYKKSIMKEEEKNEKLASILNRTETEATLLQKLTTQCLTKQVALQSQFNTYRLTLQDTEDALSQDQLEQMILTEELQAIRQAIQGELELRRKTDAAIREKLQEHMTSNKTTKYFNQLILRLQKEKTNMMTHLSKINGDIAQTTLDITHTSSRLDAHQKTLVELDQDVKKVNELITNSQSEISRRTILIERKQGLINFLNKQLERMVSELGGEEVGPLELEIKRLSKLIDEHDGKAVQAQVTWLRLQQEMVKVTQEQEEQLASLDASKKELHIMEQKKLRVESKIEQEKKEQKEIEHHMKDLDNDLKKLNMLMNKNRCSSEELEQNNRVTENEFVRSLKASERETIKMQDKLNQLSEEKATLLNQLVEAEHQIMLWEKKIQLAKEMRSSVDSEIGQTEIRAMKGEIHRMKVRLGQLLKQQEKMIRAMELAVARRETVTTQAEGQRKMDRKALTRTDFHHKQLELRRKIRDVRKATDECTKTVLELEETQRNVSSSLLEKQEKLSVIQADFDTLEADLTRLGALKRQNLSEIVALQTRLKHLQAVKEGRYVFLFRSKQSLVLERQRLDKRLALIATILDRVRDEYPQFQEALHKVSQMIANKLESPGPS",
+        "full_sequence": "MAEPGGAAGRSHPEDGSASEGEKEGNNESHMVSPPEKDDGQKGEEAVGSTEHPEEVTTQAEAAIEEGEVETEGEAAVEGEEEAVSYGDAESEEEYYYTETSSPEGQISAADTTYPYFSPPQELPGEEAYDSVSGEAGLQGFQQEATGPPESRERRVTSPEPSHGVLGPSEQMGQVTSGPAVGRLTGSTEEPQGQVLPMGVQHRFRLSHGSDIESSDLEEFVSQEPVIPPGVPDAHPREGDLPVFQDQIQQPSTEEGAMAERVESEGSDEEAEDEGSQLVVLDPDHPLMVRFQAALKNYLNRQIEKLKLDLQELVVATKQSRAQRQELGVNLYEVQQHLVHLQKLLEKSHDRHAMASSERRQKEEELQAARALYTKTCAAANEERKKLAALQTEMENLALHLFYMQNIDQDMRDDIRVMTQVVKKAETERIRAEIEKKKQDLYVDQLTTRAQQLEEDIALFEAQYLAQAEDTRILRKAVSEACTEIDAISVEKRRIMQQWASSLVGMKHRDEAHRAVLEALRGCQHQAKSTDGEIEAYKKSIMKEEEKNEKLASILNRTETEATLLQKLTTQCLTKQVALQSQFNTYRLTLQDTEDALSQDQLEQMILTEELQAIRQAIQGELELRRKTDAAIREKLQEHMTSNKTTKYFNQLILRLQKEKTNMMTHLSKINGDIAQTTLDITHTSSRLDAHQKTLVELDQDVKKVNELITNSQSEISRRTILIERKQGLINFLNKQLERMVSELGGEEVGPLELEIKRLSKLIDEHDGKAVQAQVTWLRLQQEMVKVTQEQEEQLASLDASKKELHIMEQKKLRVESKIEQEKKEQKEIEHHMKDLDNDLKKLNMLMNKNRCSSEELEQNNRVTENEFVRSLKASERETIKMQDKLNQLSEEKATLLNQLVEAEHQIMLWEKKIQLAKEMRSSVDSEIGQTEIRAMKGEIHRMKVRLGQLLKQQEKMIRAMELAVARRETVTTQAEGQRKMDRKALTRTDFHHKQLELRRKIRDVRKATDECTKTVLELEETQRNVSSSLLEKQEKLSVIQADFDTLEADLTRLGALKRQNLSEIVALQTRLKHLQAVKEGRYVFLFRSKQSLVLERQRLDKRLALIATILDRVRDEYPQFQEALHKVSQMIANKLESPGPS",
+        "n_residues": 1142,
+        "mutation_pos_1indexed": 487,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "A487-I488-S489-V490-E491",
+        "pocket_lining_positions_precursor": [
+          487,
+          488,
+          489,
+          490,
+          491
+        ],
+        "pocket_lining_1letter": "AISVE",
+        "sequence_slice_around_pocket": "AVSEACTEIDAISVEKRRIM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CCDC40_A487T/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "A487",
+          "I488",
+          "S489",
+          "V490",
+          "E491"
+        ],
+        "values": [
+          [
+            0.0,
+            3.858,
+            5.325,
+            5.442,
+            6.675
+          ],
+          [
+            3.858,
+            0.0,
+            3.889,
+            5.465,
+            5.102
+          ],
+          [
+            5.325,
+            3.889,
+            0.0,
+            3.861,
+            5.655
+          ],
+          [
+            5.442,
+            5.465,
+            3.861,
+            0.0,
+            3.834
+          ],
+          [
+            6.675,
+            5.102,
+            5.655,
+            3.834,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(Cl)cc1CC(=O)Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "composite_score": 0.846372390907029,
+        "mw": 450.11,
+        "logp": 2.258,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.6197,
+        "sa_score": 2.31,
+        "n_heavy_atoms": 30,
+        "tpsa": 135.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CCDC40-A487T Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(Cl)cc1CC(=O)Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.8464,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CCDC40_A487T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CCDC40_A487T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CCDC40_A487T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CCDC40_A487T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CCDC40_A487T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CCDC40-A487T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CCDC40-A487T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T13:13:16.211664+00:00"
     }
   ]
 }
