@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 232,
+  "total_entries": 233,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44644,
-    "queue_remaining": 133953
+    "total_processed": 44645,
+    "queue_remaining": 133952
   },
   "entries": [
     {
@@ -51603,6 +51603,189 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T06:32:24.632072+00:00"
+    },
+    {
+      "entry_id": "PCD-TMC1-A235S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMC1-A235S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TMC1",
+        "uniprot": "",
+        "clinvar_id": "367254",
+        "disease": "Autosomal recessive nonsyndromic hearing loss 7",
+        "mutation_precursor": "A235S",
+        "mutation_mature": "A235S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9170783610572367,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 451.1536980126698,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.460805892944336,
+          -16.944026947021484,
+          31.800899505615234
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.984543983209765,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8018569221425009,
+        "cryptic": true,
+        "pocket_residues": {
+          "E233": "E",
+          "E234": "E",
+          "A235": "A",
+          "S236": "S",
+          "A237": "A",
+          "A238": "A",
+          "N239": "N"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8TDI8|TMC1 variant A235S",
+        "fasta_sequence": "MSPKKVQIKVEEKEDETEESSSEEEEEVEDKLPRRESLRPKRKRTRDVINEDDPEPEPEDEETRKAREKERRRRLKRGAEEEEIDEEELERLKAELDEKRQIIATVKCKPWKMEKKIEVLKEAKKFVSENEGALGKGKGKRWFAFKMMMAKKWAKFLRDFENFKAACVPWENKIKAIESQFGSSVASYFLFLRWMYGVNMVLFILTFSLIMLPEYLWGLPYGSLPRKTVPRAEEASAANFGVLYDFNGLAQYSVLFYGYYDNKRTIGWMNFRLPLSYFLVGIMCIGYSFLVVLKAMTKNIGDDGGGDDNTFNFSWKVFTSWDYLIGNPETADNKFNSITMNFKEAITEEKAAQVEENVHLIRFLRFLANFFVFLTLGGSGYLIFWAVKRSQEFAQQDPDTLGWWEKNEMNMVMSLLGMFCPTLFDLFAELEDYHPLIALKWLLGRIFALLLGNLYVFILALMDEINNKIEEEKLVKANITLWEANMIKAYNASFSENSTGPPFFVHPADVPRGPCWETMVGQEFVRLTVSDVLTTYVTILIGDFLRACFVRFCNYCWCWDLEYGYPSYTEFDISGNVLALIFNQGMIWMGSFFAPSLPGINILRLHTSMYFQCWAVMCCNVPEARVFKASRSNNFYLGMLLLILFLSTMPVLYMIVSLPPSFDCGPFSGKNRMFEVIGETLEHDFPSWMAKILRQLSNPGLVIAVILVMVLAIYYLNATAKGQKAANLDLKKKMKMQALENKMRNKKMAAARAAAAAGRQ",
+        "full_sequence": "MSPKKVQIKVEEKEDETEESSSEEEEEVEDKLPRRESLRPKRKRTRDVINEDDPEPEPEDEETRKAREKERRRRLKRGAEEEEIDEEELERLKAELDEKRQIIATVKCKPWKMEKKIEVLKEAKKFVSENEGALGKGKGKRWFAFKMMMAKKWAKFLRDFENFKAACVPWENKIKAIESQFGSSVASYFLFLRWMYGVNMVLFILTFSLIMLPEYLWGLPYGSLPRKTVPRAEEASAANFGVLYDFNGLAQYSVLFYGYYDNKRTIGWMNFRLPLSYFLVGIMCIGYSFLVVLKAMTKNIGDDGGGDDNTFNFSWKVFTSWDYLIGNPETADNKFNSITMNFKEAITEEKAAQVEENVHLIRFLRFLANFFVFLTLGGSGYLIFWAVKRSQEFAQQDPDTLGWWEKNEMNMVMSLLGMFCPTLFDLFAELEDYHPLIALKWLLGRIFALLLGNLYVFILALMDEINNKIEEEKLVKANITLWEANMIKAYNASFSENSTGPPFFVHPADVPRGPCWETMVGQEFVRLTVSDVLTTYVTILIGDFLRACFVRFCNYCWCWDLEYGYPSYTEFDISGNVLALIFNQGMIWMGSFFAPSLPGINILRLHTSMYFQCWAVMCCNVPEARVFKASRSNNFYLGMLLLILFLSTMPVLYMIVSLPPSFDCGPFSGKNRMFEVIGETLEHDFPSWMAKILRQLSNPGLVIAVILVMVLAIYYLNATAKGQKAANLDLKKKMKMQALENKMRNKKMAAARAAAAAGRQ",
+        "n_residues": 760,
+        "mutation_pos_1indexed": 235,
+        "wt_aa": "A",
+        "mut_aa": "S",
+        "pocket_lining_residues": "E233-E234-A235-S236-A237-A238-N239",
+        "pocket_lining_positions_precursor": [
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239
+        ],
+        "pocket_lining_1letter": "EEASAAN",
+        "sequence_slice_around_pocket": "PRKTVPRAEEASAANFGVLY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TMC1_A235S/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "E233",
+          "E234",
+          "A235",
+          "S236",
+          "A237",
+          "A238",
+          "N239"
+        ],
+        "values": [
+          [
+            0.0,
+            3.875,
+            5.525,
+            5.343,
+            5.631,
+            9.209,
+            10.273
+          ],
+          [
+            3.875,
+            0.0,
+            3.854,
+            5.647,
+            5.167,
+            7.702,
+            9.899
+          ],
+          [
+            5.525,
+            3.854,
+            0.0,
+            3.87,
+            5.829,
+            7.188,
+            8.254
+          ],
+          [
+            5.343,
+            5.647,
+            3.87,
+            0.0,
+            3.855,
+            5.635,
+            5.422
+          ],
+          [
+            5.631,
+            5.167,
+            5.829,
+            3.855,
+            0.0,
+            3.868,
+            5.705
+          ],
+          [
+            9.209,
+            7.702,
+            7.188,
+            5.635,
+            3.868,
+            0.0,
+            3.854
+          ],
+          [
+            10.273,
+            9.899,
+            8.254,
+            5.422,
+            5.705,
+            3.854,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.8591966929776285,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TMC1-A235S Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8592,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TMC1_A235S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TMC1_A235S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TMC1_A235S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMC1_A235S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMC1_A235S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMC1-A235S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMC1-A235S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T06:32:52.506039+00:00"
     }
   ]
 }
