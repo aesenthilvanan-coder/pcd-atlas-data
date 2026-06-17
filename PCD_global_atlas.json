@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 396,
+  "total_entries": 397,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44847,
-    "queue_remaining": 133750
+    "total_processed": 44848,
+    "queue_remaining": 133749
   },
   "entries": [
     {
@@ -87232,6 +87232,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T08:57:13.670524+00:00"
+    },
+    {
+      "entry_id": "PCD-PSAP-R186H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-R186H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PSAP",
+        "uniprot": "",
+        "clinvar_id": "300525",
+        "disease": "Combined PSAP deficiency",
+        "mutation_precursor": "R186H",
+        "mutation_mature": "R186H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8682662393682834,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 429.6451392314773,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          25.462722778320312,
+          -9.482327461242676,
+          -16.302824020385742
+        ],
+        "dist_mutation_to_pocket_angstrom": 8.098952441191454,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7541115435559039,
+        "cryptic": true,
+        "pocket_residues": {
+          "M187": "M",
+          "K188": "K",
+          "T189": "T",
+          "S190": "S",
+          "L191": "L",
+          "K192": "K",
+          "K193": "K",
+          "V194": "V",
+          "V195": "V"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NZJ7|PSAP variant R186H",
+        "fasta_sequence": "MGASDPEVAPWARGGAAGMAGAGAGAGARGGAAAGVEARARDPPPAHRAHPRHPRPAAQPSARRMDGGSGGLGSGDNAPTTEALFVALGAGVTALSHPLLYVKLLIQVGHEPMPPTLGTNVLGRKVLYLPSFFTYAKYIVQVDGKIGLFRGLSPRLMSNALSTVTRGSMKKVFPPDEIEQVSNKDDMKTSLKKVVKETSYEMMMQCVSRMLAHPLHVISMRCMVQFVGREAKYSGVLSSIGKIFKEEGLLGFFVGLIPHLLGDVVFLWGCNLLAHFINAYLVDDSVSDTPGGLGNDQNPGSQFSQALAIRSYTKFVMGIAVSMLTYPFLLVGDLMAVNNCGLQAGLPPYSPVFKSWIHCWKYLSVQGQLFRGSSLLFRRVSSGSCFALE",
+        "full_sequence": "MGASDPEVAPWARGGAAGMAGAGAGAGARGGAAAGVEARARDPPPAHRAHPRHPRPAAQPSARRMDGGSGGLGSGDNAPTTEALFVALGAGVTALSHPLLYVKLLIQVGHEPMPPTLGTNVLGRKVLYLPSFFTYAKYIVQVDGKIGLFRGLSPRLMSNALSTVTRGSMKKVFPPDEIEQVSNKDDMKTSLKKVVKETSYEMMMQCVSRMLAHPLHVISMRCMVQFVGREAKYSGVLSSIGKIFKEEGLLGFFVGLIPHLLGDVVFLWGCNLLAHFINAYLVDDSVSDTPGGLGNDQNPGSQFSQALAIRSYTKFVMGIAVSMLTYPFLLVGDLMAVNNCGLQAGLPPYSPVFKSWIHCWKYLSVQGQLFRGSSLLFRRVSSGSCFALE",
+        "n_residues": 389,
+        "mutation_pos_1indexed": 186,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "M187-K188-T189-S190-L191-K192-K193-V194-V195",
+        "pocket_lining_positions_precursor": [
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195
+        ],
+        "pocket_lining_1letter": "MKTSLKKVV",
+        "sequence_slice_around_pocket": "DEIEQVSNKDDMKTSLKKVV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_R186H/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "M187",
+          "K188",
+          "T189",
+          "S190",
+          "L191",
+          "K192",
+          "K193",
+          "V194",
+          "V195"
+        ],
+        "values": [
+          [
+            0.0,
+            3.863,
+            5.551,
+            5.041,
+            6.145,
+            8.629,
+            9.781,
+            10.475,
+            12.188
+          ],
+          [
+            3.863,
+            0.0,
+            3.833,
+            5.439,
+            5.151,
+            6.141,
+            8.531,
+            9.883,
+            10.479
+          ],
+          [
+            5.551,
+            3.833,
+            0.0,
+            3.853,
+            5.527,
+            5.101,
+            6.065,
+            8.63,
+            9.842
+          ],
+          [
+            5.041,
+            5.439,
+            3.853,
+            0.0,
+            3.851,
+            5.537,
+            5.055,
+            6.179,
+            8.617
+          ],
+          [
+            6.145,
+            5.151,
+            5.527,
+            3.851,
+            0.0,
+            3.867,
+            5.394,
+            5.063,
+            6.071
+          ],
+          [
+            8.629,
+            6.141,
+            5.101,
+            5.537,
+            3.867,
+            0.0,
+            3.844,
+            5.539,
+            5.082
+          ],
+          [
+            9.781,
+            8.531,
+            6.065,
+            5.055,
+            5.394,
+            3.844,
+            0.0,
+            3.851,
+            5.497
+          ],
+          [
+            10.475,
+            9.883,
+            8.63,
+            6.179,
+            5.063,
+            5.539,
+            3.851,
+            0.0,
+            3.851
+          ],
+          [
+            12.188,
+            10.479,
+            9.842,
+            8.617,
+            6.071,
+            5.082,
+            5.497,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "composite_score": 0.6687172551008621,
+        "mw": 260.15,
+        "logp": 1.904,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7992,
+        "sa_score": 2.9,
+        "n_heavy_atoms": 19,
+        "tpsa": 54.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PSAP-R186H Candidate #1",
+        "iupac_name": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "pocket_affinity_score": 0.6687,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_R186H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_R186H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_R186H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_R186H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PSAP_R186H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-R186H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PSAP-R186H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T08:57:34.749923+00:00"
     }
   ]
 }
