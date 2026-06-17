@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 280,
+  "total_entries": 281,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44709,
-    "queue_remaining": 133888
+    "total_processed": 44710,
+    "queue_remaining": 133887
   },
   "entries": [
     {
@@ -61374,6 +61374,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T07:09:28.606102+00:00"
+    },
+    {
+      "entry_id": "PCD-BAG3-P545R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BAG3-P545R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BAG3",
+        "uniprot": "",
+        "clinvar_id": "298963",
+        "disease": "Myofibrillar myopathy 6",
+        "mutation_precursor": "P545R",
+        "mutation_mature": "P545R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.805279398489304,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 551.1029381685919,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -64.30113983154297,
+          -1.2386387586593628,
+          45.475616455078125
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.030389605404846,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7162097326837603,
+        "cryptic": true,
+        "pocket_residues": {
+          "E543": "E",
+          "D544": "D",
+          "P545": "P"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O95817|BAG3 variant P545R",
+        "fasta_sequence": "MSAATHSPMMQVASGNGDRDPLPPGWEIKIDPQTGWPFFVDHNSRTTTWNDPRVPSEGPKETPSSANGPSREGSRLPPAREGHPVYPQLRPGYIPIPVLHEGAENRQVHPFHVYPQPGMQRFRTEAAAAAPQRSQSPLRGMPETTQPDKQCGQVAAAAAAQPPASHGPERSQSPAASDCSSSSSSASLPSSGRSSLGSHQLPRGYISIPVIHEQNVTRPAAQPSFHQAQKTHYPAQQGEYQTHQPVYHKIQGDDWEPRPLRAASPFRSSVQGASSREGSPARSSTPLHSPSPIRVHTVVDRPQQPMTHRETAPVSQPENKPESKPGPVGPELPPGHIPIQVIRKEVDSKPVSQKPPPPSEKVEVKVPPAPVPCPPPSPGPSAVPSSPKSVATEERAAPSTAPAEATPPKPGEAEAPPKHPGVLKVEAILEKVQGLEQAVDNFEGKKTDKKYLMIEEYLTKELLALDSVDPEGRADVRQARRDGVRKVQTILEKLEQKAIDVPGQVQVYELQPSNLEADQPLQAIMEMGAVAADKGKKNAGNAEDPHTETQQPEATAAATSNPSSMTDTPGNPAAP",
+        "full_sequence": "MSAATHSPMMQVASGNGDRDPLPPGWEIKIDPQTGWPFFVDHNSRTTTWNDPRVPSEGPKETPSSANGPSREGSRLPPAREGHPVYPQLRPGYIPIPVLHEGAENRQVHPFHVYPQPGMQRFRTEAAAAAPQRSQSPLRGMPETTQPDKQCGQVAAAAAAQPPASHGPERSQSPAASDCSSSSSSASLPSSGRSSLGSHQLPRGYISIPVIHEQNVTRPAAQPSFHQAQKTHYPAQQGEYQTHQPVYHKIQGDDWEPRPLRAASPFRSSVQGASSREGSPARSSTPLHSPSPIRVHTVVDRPQQPMTHRETAPVSQPENKPESKPGPVGPELPPGHIPIQVIRKEVDSKPVSQKPPPPSEKVEVKVPPAPVPCPPPSPGPSAVPSSPKSVATEERAAPSTAPAEATPPKPGEAEAPPKHPGVLKVEAILEKVQGLEQAVDNFEGKKTDKKYLMIEEYLTKELLALDSVDPEGRADVRQARRDGVRKVQTILEKLEQKAIDVPGQVQVYELQPSNLEADQPLQAIMEMGAVAADKGKKNAGNAEDPHTETQQPEATAAATSNPSSMTDTPGNPAAP",
+        "n_residues": 575,
+        "mutation_pos_1indexed": 545,
+        "wt_aa": "P",
+        "mut_aa": "R",
+        "pocket_lining_residues": "E543-D544-P545",
+        "pocket_lining_positions_precursor": [
+          543,
+          544,
+          545
+        ],
+        "pocket_lining_1letter": "EDP",
+        "sequence_slice_around_pocket": "GKKNAGNAEDPHTETQQPEA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_P545R/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "E543",
+          "D544",
+          "P545"
+        ],
+        "values": [
+          [
+            0.0,
+            3.921,
+            7.234
+          ],
+          [
+            3.921,
+            0.0,
+            3.425
+          ],
+          [
+            7.234,
+            3.425,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "composite_score": 0.7173290256332715,
+        "mw": 360.25,
+        "logp": 2.071,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.8126,
+        "sa_score": 3.31,
+        "n_heavy_atoms": 26,
+        "tpsa": 70.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BAG3-P545R Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "pocket_affinity_score": 0.7173,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_P545R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_P545R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_P545R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_P545R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_P545R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BAG3-P545R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BAG3-P545R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T07:09:52.500106+00:00"
     }
   ]
 }
