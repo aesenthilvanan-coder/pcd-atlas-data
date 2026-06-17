@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1386,
+  "total_entries": 1387,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46022,
-    "queue_remaining": 132575
+    "total_processed": 46025,
+    "queue_remaining": 132572
   },
   "entries": [
     {
@@ -307200,6 +307200,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T23:07:57.441449+00:00"
+    },
+    {
+      "entry_id": "PCD-MKS1-T441M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MKS1-T441M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MKS1",
+        "uniprot": "",
+        "clinvar_id": "324159",
+        "disease": "Meckel syndrome, type 1",
+        "mutation_precursor": "T441M",
+        "mutation_mature": "T441M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9422665117107355,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 557.5381466134452,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -58.92631530761719,
+          -2.5842838287353516,
+          19.538795471191406
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.036382555511813,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6467576420459841,
+        "cryptic": true,
+        "pocket_residues": {
+          "L439": "L",
+          "G440": "G",
+          "T441": "T",
+          "V442": "V"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NXB0|MKS1 variant T441M",
+        "fasta_sequence": "MAETVWSTDTGEAVYRSRDPVRNLRLRVHLQRITSSNFLHYQPAAELGKDLIDLATFRPQPTASGHRPEEDEEEEIVIGWQEKLFSQFEVDLYQNETACQSPLDYQYRQEILKLENSGGKKNRRIFTYTDSDRYTNLEEHCQRMTTAASEVPSFLVERMANVRRRRQDRRGMEGGILKSRIVTWEPSEEFVRNNHVINTPLQTMHIMADLGPYKKLGYKKYEHVLCTLKVDSNGVITVKPDFTGLKGPYRIETEGEKQELWKYTIDNVSPHAQPEEEERERRVFKDLYGRHKEYLSSLVGTDFEMTVPGALRLFVNGEVVSAQGYEYDNLYVHFFVELPTAHWSSPAFQQLSGVTQTCTTKSLAMDKVAHFSYPFTFEAFFLHEDESSDALPEWPVLYCEVLSLDFWQRYRVEGYGAVVLPATPGSHTLTVSTWRPVELGTVAELRRFFIGGSLELEDLSYVRIPGSFKGERLSRFGLRTETTGTVTFRLHCLQQSRAFMESSSLQKRMRSVLDRLEGFSQQSSIHNVLEAFRRARRRMQEARESLPQDLVSPSGTLVS",
+        "full_sequence": "MAETVWSTDTGEAVYRSRDPVRNLRLRVHLQRITSSNFLHYQPAAELGKDLIDLATFRPQPTASGHRPEEDEEEEIVIGWQEKLFSQFEVDLYQNETACQSPLDYQYRQEILKLENSGGKKNRRIFTYTDSDRYTNLEEHCQRMTTAASEVPSFLVERMANVRRRRQDRRGMEGGILKSRIVTWEPSEEFVRNNHVINTPLQTMHIMADLGPYKKLGYKKYEHVLCTLKVDSNGVITVKPDFTGLKGPYRIETEGEKQELWKYTIDNVSPHAQPEEEERERRVFKDLYGRHKEYLSSLVGTDFEMTVPGALRLFVNGEVVSAQGYEYDNLYVHFFVELPTAHWSSPAFQQLSGVTQTCTTKSLAMDKVAHFSYPFTFEAFFLHEDESSDALPEWPVLYCEVLSLDFWQRYRVEGYGAVVLPATPGSHTLTVSTWRPVELGTVAELRRFFIGGSLELEDLSYVRIPGSFKGERLSRFGLRTETTGTVTFRLHCLQQSRAFMESSSLQKRMRSVLDRLEGFSQQSSIHNVLEAFRRARRRMQEARESLPQDLVSPSGTLVS",
+        "n_residues": 559,
+        "mutation_pos_1indexed": 441,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "L439-G440-T441-V442",
+        "pocket_lining_positions_precursor": [
+          439,
+          440,
+          441,
+          442
+        ],
+        "pocket_lining_1letter": "LGTV",
+        "sequence_slice_around_pocket": "VSTWRPVELGTVAELRRFFI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MKS1_T441M/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "L439",
+          "G440",
+          "T441",
+          "V442"
+        ],
+        "values": [
+          [
+            0.0,
+            3.803,
+            7.267,
+            8.353
+          ],
+          [
+            3.803,
+            0.0,
+            3.819,
+            5.325
+          ],
+          [
+            7.267,
+            3.819,
+            0.0,
+            3.857
+          ],
+          [
+            8.353,
+            5.325,
+            3.857,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(Cl)cc1CC(=O)NS(=O)(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.5552274747990104,
+        "mw": 436.1,
+        "logp": 1.872,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.7122,
+        "sa_score": 2.55,
+        "n_heavy_atoms": 29,
+        "tpsa": 122.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MKS1-T441M Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(Cl)cc1CC(=O)NS(=O)(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.5552,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MKS1_T441M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MKS1_T441M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MKS1_T441M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MKS1_T441M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MKS1_T441M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MKS1-T441M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MKS1-T441M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T23:08:46.496992+00:00"
     }
   ]
 }
