@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 461,
+  "total_entries": 462,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44918,
-    "queue_remaining": 133679
+    "total_processed": 44919,
+    "queue_remaining": 133678
   },
   "entries": [
     {
@@ -101978,6 +101978,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T09:47:03.754798+00:00"
+    },
+    {
+      "entry_id": "PCD-UMOD-T62P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-UMOD-T62P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "UMOD",
+        "uniprot": "",
+        "clinvar_id": "318297",
+        "disease": "not provided",
+        "mutation_precursor": "T62P",
+        "mutation_mature": "T62P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7432576129876273,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 311.2985349126795,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          50.35122299194336,
+          65.20066833496094,
+          -35.14435577392578
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.142068738502003,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8452640983133575,
+        "cryptic": true,
+        "pocket_residues": {
+          "S27": "S",
+          "A29": "A",
+          "E34": "E",
+          "C35": "C",
+          "H36": "H",
+          "C50": "C",
+          "D59": "D",
+          "G60": "G",
+          "L61": "L",
+          "T62": "T"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P07911|UMOD variant T62P",
+        "fasta_sequence": "MGQPSLTWMLMVVVASWFITTAATDTSEARWCSECHSNATCTEDEAVTTCTCQEGFTGDGLTCVDLDECAIPGAHNCSANSSCVNTPGSFSCVCPEGFRLSPGLGCTDVDECAEPGLSHCHALATCVNVVGSYLCVCPAGYRGDGWHCECSPGSCGPGLDCVPEGDALVCADPCQAHRTLDEYWRSTEYGEGYACDTDLRGWYRFVGQGGARMAETCVPVLRCNTAAPMWLNGTHPSSDEGIVSRKACAHWSGHCCLWDASVQVKACAGGYYVYNLTAPPECHLAYCTDPSSVEGTCEECSIDEDCKSNNGRWHCQCKQDFNITDISLLEHRLECGANDMKVSLGKCQLKSLGFDKVFMYLSDSRCSGFNDRDNRDWVSVVTPARDGPCGTVLTRNETHATYSNTLYLADEIIIRDLNIKINFACSYPLDMKVSLKTALQPMVSALNIRVGGTGMFTVRMALFQTPSYTQPYQGSSVTLSTEAFLYVGTMLDGGDLSRFALLMTNCYATPSSNATDPLKYFIIQDRCPHTRDSTIQVVENGESSQGRFSVQMFRFAGNYDLVYLHCEVYLCDTMNEKCKPTCSGTRFRSGSVIDQSRVLNLGPITRKGVQATVSRAFSSLGLLKVWLPLLLSATLTLTFQ",
+        "full_sequence": "MGQPSLTWMLMVVVASWFITTAATDTSEARWCSECHSNATCTEDEAVTTCTCQEGFTGDGLTCVDLDECAIPGAHNCSANSSCVNTPGSFSCVCPEGFRLSPGLGCTDVDECAEPGLSHCHALATCVNVVGSYLCVCPAGYRGDGWHCECSPGSCGPGLDCVPEGDALVCADPCQAHRTLDEYWRSTEYGEGYACDTDLRGWYRFVGQGGARMAETCVPVLRCNTAAPMWLNGTHPSSDEGIVSRKACAHWSGHCCLWDASVQVKACAGGYYVYNLTAPPECHLAYCTDPSSVEGTCEECSIDEDCKSNNGRWHCQCKQDFNITDISLLEHRLECGANDMKVSLGKCQLKSLGFDKVFMYLSDSRCSGFNDRDNRDWVSVVTPARDGPCGTVLTRNETHATYSNTLYLADEIIIRDLNIKINFACSYPLDMKVSLKTALQPMVSALNIRVGGTGMFTVRMALFQTPSYTQPYQGSSVTLSTEAFLYVGTMLDGGDLSRFALLMTNCYATPSSNATDPLKYFIIQDRCPHTRDSTIQVVENGESSQGRFSVQMFRFAGNYDLVYLHCEVYLCDTMNEKCKPTCSGTRFRSGSVIDQSRVLNLGPITRKGVQATVSRAFSSLGLLKVWLPLLLSATLTLTFQ",
+        "n_residues": 640,
+        "mutation_pos_1indexed": 62,
+        "wt_aa": "T",
+        "mut_aa": "P",
+        "pocket_lining_residues": "S27-A29-E34-C35-H36-C50-D59-G60-L61-T62",
+        "pocket_lining_positions_precursor": [
+          27,
+          29,
+          34,
+          35,
+          36,
+          50,
+          59,
+          60,
+          61,
+          62
+        ],
+        "pocket_lining_1letter": "SAECHCDGLT",
+        "sequence_slice_around_pocket": "CQEGFTGDGLTCVDLDECAI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/UMOD_T62P/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "S27",
+          "A29",
+          "E34",
+          "C35",
+          "H36",
+          "C50",
+          "D59",
+          "G60",
+          "L61",
+          "T62"
+        ],
+        "values": [
+          [
+            0.0,
+            6.296,
+            10.405,
+            10.683,
+            12.575,
+            9.915,
+            7.829,
+            9.327,
+            8.052,
+            10.371
+          ],
+          [
+            6.296,
+            0.0,
+            6.074,
+            7.164,
+            10.54,
+            7.289,
+            10.12,
+            9.0,
+            7.666,
+            11.403
+          ],
+          [
+            10.405,
+            6.074,
+            0.0,
+            3.869,
+            6.676,
+            8.406,
+            11.412,
+            8.943,
+            6.384,
+            9.59
+          ],
+          [
+            10.683,
+            7.164,
+            3.869,
+            0.0,
+            3.837,
+            5.556,
+            9.041,
+            5.779,
+            4.525,
+            7.591
+          ],
+          [
+            12.575,
+            10.54,
+            6.676,
+            3.837,
+            0.0,
+            7.754,
+            8.947,
+            5.835,
+            4.661,
+            5.536
+          ],
+          [
+            9.915,
+            7.289,
+            8.406,
+            5.556,
+            7.754,
+            0.0,
+            7.202,
+            4.394,
+            6.558,
+            9.473
+          ],
+          [
+            7.829,
+            10.12,
+            11.412,
+            9.041,
+            8.947,
+            7.202,
+            0.0,
+            3.866,
+            5.504,
+            5.832
+          ],
+          [
+            9.327,
+            9.0,
+            8.943,
+            5.779,
+            5.835,
+            4.394,
+            3.866,
+            0.0,
+            3.881,
+            5.451
+          ],
+          [
+            8.052,
+            7.666,
+            6.384,
+            4.525,
+            4.661,
+            6.558,
+            5.504,
+            3.881,
+            0.0,
+            3.848
+          ],
+          [
+            10.371,
+            11.403,
+            9.59,
+            7.591,
+            5.536,
+            9.473,
+            5.832,
+            5.451,
+            3.848,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CCCCC1",
+        "composite_score": 0.7123827991864234,
+        "mw": 222.12,
+        "logp": 1.915,
+        "hbd": 1,
+        "hba": 2,
+        "rotatable_bonds": 2,
+        "qed": 0.8305,
+        "sa_score": 1.86,
+        "n_heavy_atoms": 16,
+        "tpsa": 46.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "UMOD-T62P Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7124,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/UMOD_T62P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/UMOD_T62P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/UMOD_T62P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/UMOD_T62P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/UMOD_T62P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-UMOD-T62P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-UMOD-T62P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T09:47:27.384150+00:00"
     }
   ]
 }
