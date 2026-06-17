@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 48,
+  "total_entries": 49,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44430,
-    "queue_remaining": 134167
+    "total_processed": 44431,
+    "queue_remaining": 134166
   },
   "entries": [
     {
@@ -11061,6 +11061,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:16:10.032187+00:00"
+    },
+    {
+      "entry_id": "PCD-BSCL2-R42C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BSCL2-R42C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BSCL2",
+        "uniprot": "",
+        "clinvar_id": "305185",
+        "disease": "Neuronopathy, distal hereditary motor, type 5A",
+        "mutation_precursor": "R42C",
+        "mutation_mature": "R42C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7729062171822241,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 519.5493869269917,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -27.50794219970703,
+          9.228528022766113,
+          23.30044174194336
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.6714918182522918,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.678449228887267,
+        "cryptic": true,
+        "pocket_residues": {
+          "C36": "C",
+          "T37": "T",
+          "I38": "I",
+          "L39": "L",
+          "L40": "L",
+          "L41": "L",
+          "L42": "L",
+          "W43": "W",
+          "V44": "V",
+          "S45": "S"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96G97|BSCL2 variant R42C",
+        "fasta_sequence": "MVNDPPVPALLWAQEVGQVLAGRARRLLLQFGVLFCTILLLLWVSVFLYGSFYYSYMPTVSHLSPVHFYYRTDCDSSTTSLCSFPVANVSLTKGGRDRVLMYGQPYRVTLELELPESPVNQDLGMFLVTISCYTRGGRIISTSSRSVMLHYRSDLLQMLDTLVFSSLLLFGFAEQKQLLEVELYADYRENSYVPTTGAIIEIHSKRIQLYGAYLRIHAHFTGLRYLLYNFPMTCAFIGVASNFTFLSVIVLFSYMQWVWGGIWPRHRFSLQVNIRKRDNSRKEVQRRISAHQPGPEGQEESTPQSDVTEDGESPEDPSGTEGQLSEEEKPDQQPLSGEEELEPEASDGSGSWEDAALLTEANLPAPAPASASAPVLETLGSSEPAGGALRQRPTCSSS",
+        "full_sequence": "MVNDPPVPALLWAQEVGQVLAGRARRLLLQFGVLFCTILLLLWVSVFLYGSFYYSYMPTVSHLSPVHFYYRTDCDSSTTSLCSFPVANVSLTKGGRDRVLMYGQPYRVTLELELPESPVNQDLGMFLVTISCYTRGGRIISTSSRSVMLHYRSDLLQMLDTLVFSSLLLFGFAEQKQLLEVELYADYRENSYVPTTGAIIEIHSKRIQLYGAYLRIHAHFTGLRYLLYNFPMTCAFIGVASNFTFLSVIVLFSYMQWVWGGIWPRHRFSLQVNIRKRDNSRKEVQRRISAHQPGPEGQEESTPQSDVTEDGESPEDPSGTEGQLSEEEKPDQQPLSGEEELEPEASDGSGSWEDAALLTEANLPAPAPASASAPVLETLGSSEPAGGALRQRPTCSSS",
+        "n_residues": 398,
+        "mutation_pos_1indexed": 42,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "C36-T37-I38-L39-L40-L41-L42-W43-V44-S45",
+        "pocket_lining_positions_precursor": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45
+        ],
+        "pocket_lining_1letter": "CTILLLLWVS",
+        "sequence_slice_around_pocket": "GVLFCTILLLLWVSVFLYGS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_R42C/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "C36",
+          "T37",
+          "I38",
+          "L39",
+          "L40",
+          "L41",
+          "L42",
+          "W43",
+          "V44",
+          "S45"
+        ],
+        "values": [
+          [
+            0.0,
+            3.862,
+            5.534,
+            5.122,
+            6.104,
+            8.555,
+            9.824,
+            10.421,
+            12.177,
+            13.981
+          ],
+          [
+            3.862,
+            0.0,
+            3.857,
+            5.493,
+            5.079,
+            6.04,
+            8.52,
+            9.785,
+            10.442,
+            11.97
+          ],
+          [
+            5.534,
+            3.857,
+            0.0,
+            3.847,
+            5.493,
+            5.037,
+            6.042,
+            8.527,
+            9.858,
+            10.243
+          ],
+          [
+            5.122,
+            5.493,
+            3.847,
+            0.0,
+            3.846,
+            5.471,
+            5.051,
+            6.055,
+            8.584,
+            9.665
+          ],
+          [
+            6.104,
+            5.079,
+            5.493,
+            3.846,
+            0.0,
+            3.845,
+            5.463,
+            5.046,
+            6.096,
+            8.421
+          ],
+          [
+            8.555,
+            6.04,
+            5.037,
+            5.471,
+            3.845,
+            0.0,
+            3.833,
+            5.496,
+            5.169,
+            5.96
+          ],
+          [
+            9.824,
+            8.52,
+            6.042,
+            5.051,
+            5.463,
+            3.833,
+            0.0,
+            3.845,
+            5.545,
+            4.947
+          ],
+          [
+            10.421,
+            9.785,
+            8.527,
+            6.055,
+            5.046,
+            5.496,
+            3.845,
+            0.0,
+            3.855,
+            5.419
+          ],
+          [
+            12.177,
+            10.442,
+            9.858,
+            8.584,
+            6.096,
+            5.169,
+            5.545,
+            3.855,
+            0.0,
+            3.855
+          ],
+          [
+            13.981,
+            11.97,
+            10.243,
+            9.665,
+            8.421,
+            5.96,
+            4.947,
+            5.419,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1NCCNCc1c[nH]c2ccccc12",
+        "composite_score": 0.6169549964959816,
+        "mw": 378.22,
+        "logp": 2.02,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.4696,
+        "sa_score": 3.4,
+        "n_heavy_atoms": 28,
+        "tpsa": 99.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BSCL2-R42C Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1NCCNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.617,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_R42C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_R42C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_R42C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_R42C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BSCL2_R42C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BSCL2-R42C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BSCL2-R42C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:16:31.687298+00:00"
     }
   ]
 }
