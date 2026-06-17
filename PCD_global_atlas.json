@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 896,
+  "total_entries": 897,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45429,
-    "queue_remaining": 133168
+    "total_processed": 45430,
+    "queue_remaining": 133167
   },
   "entries": [
     {
@@ -197428,6 +197428,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T15:49:41.997874+00:00"
+    },
+    {
+      "entry_id": "PCD-RFXAP-P26R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RFXAP-P26R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RFXAP",
+        "uniprot": "",
+        "clinvar_id": "311783",
+        "disease": "MHC class II deficiency",
+        "mutation_precursor": "P26R",
+        "mutation_mature": "P26R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7675205069316339,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 317.7376746132981,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -46.70347213745117,
+          6.7934184074401855,
+          -2.106734275817871
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.403207475138987,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7636475418891209,
+        "cryptic": true,
+        "pocket_residues": {
+          "A25": "A",
+          "P26": "P",
+          "A27": "A",
+          "A28": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O00287|RFXAP variant P26R",
+        "fasta_sequence": "MEAQGVAEGAGPGAASGVPHPAALAPAAAPTLAPASVAAAASQFTLLVMQPCAGQDEAAAPGGSVGAGKPVRYLCEGAGDGEEEAGEDEADLLDTSDPPGGGESAASLEDLEDEETHSGGEGSSGGARRRGSGGGSMSKTCTYEGCSETTSQVAKQRKPWMCKKHRNKMYKDKYKKKKSDQALNCGGTASTGSAGNVKLEESADNILSIVKQRTGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM",
+        "full_sequence": "MEAQGVAEGAGPGAASGVPHPAALAPAAAPTLAPASVAAAASQFTLLVMQPCAGQDEAAAPGGSVGAGKPVRYLCEGAGDGEEEAGEDEADLLDTSDPPGGGESAASLEDLEDEETHSGGEGSSGGARRRGSGGGSMSKTCTYEGCSETTSQVAKQRKPWMCKKHRNKMYKDKYKKKKSDQALNCGGTASTGSAGNVKLEESADNILSIVKQRTGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM",
+        "n_residues": 272,
+        "mutation_pos_1indexed": 26,
+        "wt_aa": "P",
+        "mut_aa": "R",
+        "pocket_lining_residues": "A25-P26-A27-A28",
+        "pocket_lining_positions_precursor": [
+          25,
+          26,
+          27,
+          28
+        ],
+        "pocket_lining_1letter": "APAA",
+        "sequence_slice_around_pocket": "SGVPHPAALAPAAAPTLAPA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RFXAP_P26R/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A25",
+          "P26",
+          "A27",
+          "A28"
+        ],
+        "values": [
+          [
+            0.0,
+            3.875,
+            6.709,
+            10.0
+          ],
+          [
+            3.875,
+            0.0,
+            3.843,
+            6.936
+          ],
+          [
+            6.709,
+            3.843,
+            0.0,
+            3.839
+          ],
+          [
+            10.0,
+            6.936,
+            3.839,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(Cc1c[nH]c2ccccc12)OC",
+        "composite_score": 0.651543626179918,
+        "mw": 218.14,
+        "logp": 1.945,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8045,
+        "sa_score": 2.76,
+        "n_heavy_atoms": 16,
+        "tpsa": 37.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RFXAP-P26R Candidate #1",
+        "iupac_name": "CNCC(Cc1c[nH]c2ccccc12)OC",
+        "pocket_affinity_score": 0.6515,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RFXAP_P26R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RFXAP_P26R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RFXAP_P26R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RFXAP_P26R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RFXAP_P26R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RFXAP-P26R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RFXAP-P26R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T15:50:04.240149+00:00"
     }
   ]
 }
