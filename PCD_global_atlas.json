@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 823,
+  "total_entries": 824,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45342,
-    "queue_remaining": 133255
+    "total_processed": 45343,
+    "queue_remaining": 133254
   },
   "entries": [
     {
@@ -181379,6 +181379,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T14:42:46.151359+00:00"
+    },
+    {
+      "entry_id": "PCD-AICDA-G100A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AICDA-G100A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AICDA",
+        "uniprot": "",
+        "clinvar_id": "310581",
+        "disease": "not specified",
+        "mutation_precursor": "G100A",
+        "mutation_mature": "G100A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7342224588708669,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 377.354467422988,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -13.755175590515137,
+          -10.521013259887695,
+          6.622233867645264
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.2801431648578525,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7516091766139822,
+        "cryptic": true,
+        "pocket_residues": {
+          "I65": "I",
+          "S66": "S",
+          "W68": "W",
+          "L70": "L",
+          "F97": "F",
+          "L98": "L",
+          "G100": "G",
+          "N101": "N"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9GZX7|AICDA variant G100A",
+        "fasta_sequence": "MDSLLMNRRKFLYQFKNVRWAKGRRETYLCYVVKRRDSATSFSLDFGYLRNKNGCHVELLFLRYISDWDLDPGRCYRVTWFTSWSPCYDCARHVADFLRGNPNLSLRIFTARLYFCEDRKAEPEGLRRLHRAGVQIAIMTFKDYFYCWNTFVENHERTFKAWEGLHENSVRLSRQLRRILLPLYEVDDLRDAFRTLGL",
+        "full_sequence": "MDSLLMNRRKFLYQFKNVRWAKGRRETYLCYVVKRRDSATSFSLDFGYLRNKNGCHVELLFLRYISDWDLDPGRCYRVTWFTSWSPCYDCARHVADFLRGNPNLSLRIFTARLYFCEDRKAEPEGLRRLHRAGVQIAIMTFKDYFYCWNTFVENHERTFKAWEGLHENSVRLSRQLRRILLPLYEVDDLRDAFRTLGL",
+        "n_residues": 198,
+        "mutation_pos_1indexed": 100,
+        "wt_aa": "G",
+        "mut_aa": "A",
+        "pocket_lining_residues": "I65-S66-W68-L70-F97-L98-G100-N101",
+        "pocket_lining_positions_precursor": [
+          65,
+          66,
+          68,
+          70,
+          97,
+          98,
+          100,
+          101
+        ],
+        "pocket_lining_1letter": "ISWLFLGN",
+        "sequence_slice_around_pocket": "CARHVADFLRGNPNLSLRIF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AICDA_G100A/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "I65",
+          "S66",
+          "W68",
+          "L70",
+          "F97",
+          "L98",
+          "G100",
+          "N101"
+        ],
+        "values": [
+          [
+            0.0,
+            3.87,
+            5.287,
+            8.768,
+            10.353,
+            11.374,
+            12.736,
+            10.833
+          ],
+          [
+            3.87,
+            0.0,
+            5.354,
+            8.57,
+            9.112,
+            10.979,
+            10.76,
+            9.747
+          ],
+          [
+            5.287,
+            5.354,
+            0.0,
+            5.601,
+            13.474,
+            14.212,
+            13.958,
+            11.787
+          ],
+          [
+            8.768,
+            8.57,
+            5.601,
+            0.0,
+            13.391,
+            12.845,
+            12.079,
+            9.125
+          ],
+          [
+            10.353,
+            9.112,
+            13.474,
+            13.391,
+            0.0,
+            3.854,
+            5.301,
+            6.411
+          ],
+          [
+            11.374,
+            10.979,
+            14.212,
+            12.845,
+            3.854,
+            0.0,
+            5.348,
+            4.833
+          ],
+          [
+            12.736,
+            10.76,
+            13.958,
+            12.079,
+            5.301,
+            5.348,
+            0.0,
+            3.863
+          ],
+          [
+            10.833,
+            9.747,
+            11.787,
+            9.125,
+            6.411,
+            4.833,
+            3.863,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6388402550731376,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AICDA-G100A Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6388,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AICDA_G100A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AICDA_G100A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AICDA_G100A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AICDA_G100A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AICDA_G100A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AICDA-G100A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AICDA-G100A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T14:43:07.723725+00:00"
     }
   ]
 }
