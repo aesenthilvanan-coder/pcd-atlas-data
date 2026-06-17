@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 76,
+  "total_entries": 77,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 44475,
-    "queue_remaining": 134122
+    "total_processed": 44476,
+    "queue_remaining": 134121
   },
   "entries": [
     {
@@ -17563,6 +17563,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T03:44:56.030603+00:00"
+    },
+    {
+      "entry_id": "PCD-CNGB3-P750S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CNGB3-P750S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CNGB3",
+        "uniprot": "",
+        "clinvar_id": "363868",
+        "disease": "Achromatopsia 3",
+        "mutation_precursor": "P750S",
+        "mutation_mature": "P750S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7564476558206157,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 579.1375801062408,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -23.603515625,
+          -40.47300338745117,
+          -10.933853149414062
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.9841966307019865,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6366937037000344,
+        "cryptic": true,
+        "pocket_residues": {
+          "K749": "K",
+          "P750": "P",
+          "L751": "L",
+          "D752": "D"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NQW8|CNGB3 variant P750S",
+        "fasta_sequence": "MFKSLTKVNKVKPIGENNENEQSSRRNEEGSHPSNQSQQTTAQEENKGEEKSLKTKSTPVTSEEPHTNIQDKLSKKNSSGDLTTNPDPQNAAEPTGTVPEQKEMDPGKEGPNSPQNKPPAAPVINEYADAQLHNLVKRMRQRTALYKKKLVEGDLSSPEASPQTAKPTAVPPVKESDDKPTEHYYRLLWFKVKKMPLTEYLKRIKLPNSIDSYTDRLYLLWLLLVTLAYNWNCCFIPLRLVFPYQTADNIHYWLIADIICDIIYLYDMLFIQPRLQFVRGGDIIVDSNELRKHYRTSTKFQLDVASIIPFDICYLFFGFNPMFRANRMLKYTSFFEFNHHLESIMDKAYIYRVIRTTGYLLFILHINACVYYWASNYEGIGTTRWVYDGEGNEYLRCYYWAVRTLITIGGLPEPQTLFEIVFQLLNFFSGVFVFSSLIGQMRDVIGAATANQNYFRACMDDTIAYMNNYSIPKLVQKRVRTWYEYTWDSQRMLDESDLLKTLPTTVQLALAIDVNFSIISKVDLFKGCDTQMIYDMLLRLKSVLYLPGDFVCKKGEIGKEMYIIKHGEVQVLGGPDGTKVLVTLKAGSVFGEISLLAAGGGNRRTANVVAHGFANLLTLDKKTLQEILVHYPDSERILMKKARVLLKQKAKTAEATPPRKDLALLFPPKEETPKLFKTLLGGTGKASLARLLKLKREQAAQKKENSEGGEEEGKENEDKQKENEDKQKENEDKGKENEDKDKGREPEEKPLDRPECTASPIAVEEEPHSVRRTVLPRGTSRQSLIISMAPSAEGGEEVLTIEVKEKAKQ",
+        "full_sequence": "MFKSLTKVNKVKPIGENNENEQSSRRNEEGSHPSNQSQQTTAQEENKGEEKSLKTKSTPVTSEEPHTNIQDKLSKKNSSGDLTTNPDPQNAAEPTGTVPEQKEMDPGKEGPNSPQNKPPAAPVINEYADAQLHNLVKRMRQRTALYKKKLVEGDLSSPEASPQTAKPTAVPPVKESDDKPTEHYYRLLWFKVKKMPLTEYLKRIKLPNSIDSYTDRLYLLWLLLVTLAYNWNCCFIPLRLVFPYQTADNIHYWLIADIICDIIYLYDMLFIQPRLQFVRGGDIIVDSNELRKHYRTSTKFQLDVASIIPFDICYLFFGFNPMFRANRMLKYTSFFEFNHHLESIMDKAYIYRVIRTTGYLLFILHINACVYYWASNYEGIGTTRWVYDGEGNEYLRCYYWAVRTLITIGGLPEPQTLFEIVFQLLNFFSGVFVFSSLIGQMRDVIGAATANQNYFRACMDDTIAYMNNYSIPKLVQKRVRTWYEYTWDSQRMLDESDLLKTLPTTVQLALAIDVNFSIISKVDLFKGCDTQMIYDMLLRLKSVLYLPGDFVCKKGEIGKEMYIIKHGEVQVLGGPDGTKVLVTLKAGSVFGEISLLAAGGGNRRTANVVAHGFANLLTLDKKTLQEILVHYPDSERILMKKARVLLKQKAKTAEATPPRKDLALLFPPKEETPKLFKTLLGGTGKASLARLLKLKREQAAQKKENSEGGEEEGKENEDKQKENEDKQKENEDKGKENEDKDKGREPEEKPLDRPECTASPIAVEEEPHSVRRTVLPRGTSRQSLIISMAPSAEGGEEVLTIEVKEKAKQ",
+        "n_residues": 809,
+        "mutation_pos_1indexed": 750,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "K749-P750-L751-D752",
+        "pocket_lining_positions_precursor": [
+          749,
+          750,
+          751,
+          752
+        ],
+        "pocket_lining_1letter": "KPLD",
+        "sequence_slice_around_pocket": "KDKGREPEEKPLDRPECTAS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB3_P750S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "K749",
+          "P750",
+          "L751",
+          "D752"
+        ],
+        "values": [
+          [
+            0.0,
+            3.847,
+            7.354,
+            10.006
+          ],
+          [
+            3.847,
+            0.0,
+            3.828,
+            7.088
+          ],
+          [
+            7.354,
+            3.828,
+            0.0,
+            3.6
+          ],
+          [
+            10.006,
+            7.088,
+            3.6,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.6814825626139125,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CNGB3-P750S Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.6815,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB3_P750S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB3_P750S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB3_P750S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB3_P750S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CNGB3_P750S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CNGB3-P750S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CNGB3-P750S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T03:45:23.820400+00:00"
     }
   ]
 }
