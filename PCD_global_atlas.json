@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 971,
+  "total_entries": 972,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 45518,
-    "queue_remaining": 133079
+    "total_processed": 45519,
+    "queue_remaining": 133078
   },
   "entries": [
     {
@@ -213490,6 +213490,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-17T16:51:51.005080+00:00"
+    },
+    {
+      "entry_id": "PCD-CDH3-R393K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDH3-R393K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CDH3",
+        "uniprot": "",
+        "clinvar_id": "320235",
+        "disease": "EEM syndrome",
+        "mutation_precursor": "R393K",
+        "mutation_mature": "R393K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7369608558459648,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 441.2460627775587,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          14.410324096679688,
+          7.818255424499512,
+          -11.856668472290039
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.720941549602339,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7872085312115724,
+        "cryptic": true,
+        "pocket_residues": {
+          "D375": "D",
+          "H376": "H",
+          "R393": "R",
+          "K394": "K"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P22223|CDH3 variant R393K",
+        "fasta_sequence": "MGLPRGPLASLLLLQVCWLQCAASEPCRAVFREAEVTLEAGGAEQEPGQALGKVFMGCPGQEPALFSTDNDDFTVRNGETVQERRSLKERNPLKIFPSKRILRRHKRDWVVAPISVPENGKGPFPQRLNQLKSNKDRDTKIFYSITGPGADSPPEGVFAVEKETGWLLLNKPLDREEIAKYELFGHAVSENGASVEDPMNISIIVTDQNDHKPKFTQDTFRGSVLEGVLPGTSVMQVTATDEDDAIYTYNGVVAYSIHSQEPKDPHDLMFTIHRSTGTISVISSGLDREKVPEYTLTIQATDMDGDGSTTTAVAVVEILDANDNAPMFDPQKYEAHVPENAVGHEVQRLTVTDLDAPNSPAWRATYLIMGGDDGDHFTITTHPESNQGILTTRKGLDFEAKNQHTLYVEVTNEAPFVLKLPTSTATIVVHVEDVNEAPVFVPPSKVVEVQEGIPTGEPVCVYTAEDPDKENQKISYRILRDPAGWLAMDPDSGQVTAVGTLDREDEQFVRNNIYEVMVLAMDNGSPPTTGTGTLLLTLIDVNDHGPVPEPRQITICNQSPVRQVLNITDKDLSPHTSPFQAQLTDDSDIYWTAEVNEEGDTVVLSLKKFLKQDTYDVHLSLSDHGNKEQLTVIRATVCDCHGHVETCPGPWKGGFILPVLGAVLALLFLLLVLLLLVRKKRKIKEPLLLPEDDTRDNVFYYGEEGGGEEDQDYDITQLHRGLEARPEVVLRNDVAPTIIPTPMYRPRPANPDEIGNFIIENLKAANTDPTAPPYDTLLVFDYEGSGSDAASLSSLTSSASDQDQDYDYLNEWGSRFKKLADMYGGGEDD",
+        "full_sequence": "MGLPRGPLASLLLLQVCWLQCAASEPCRAVFREAEVTLEAGGAEQEPGQALGKVFMGCPGQEPALFSTDNDDFTVRNGETVQERRSLKERNPLKIFPSKRILRRHKRDWVVAPISVPENGKGPFPQRLNQLKSNKDRDTKIFYSITGPGADSPPEGVFAVEKETGWLLLNKPLDREEIAKYELFGHAVSENGASVEDPMNISIIVTDQNDHKPKFTQDTFRGSVLEGVLPGTSVMQVTATDEDDAIYTYNGVVAYSIHSQEPKDPHDLMFTIHRSTGTISVISSGLDREKVPEYTLTIQATDMDGDGSTTTAVAVVEILDANDNAPMFDPQKYEAHVPENAVGHEVQRLTVTDLDAPNSPAWRATYLIMGGDDGDHFTITTHPESNQGILTTRKGLDFEAKNQHTLYVEVTNEAPFVLKLPTSTATIVVHVEDVNEAPVFVPPSKVVEVQEGIPTGEPVCVYTAEDPDKENQKISYRILRDPAGWLAMDPDSGQVTAVGTLDREDEQFVRNNIYEVMVLAMDNGSPPTTGTGTLLLTLIDVNDHGPVPEPRQITICNQSPVRQVLNITDKDLSPHTSPFQAQLTDDSDIYWTAEVNEEGDTVVLSLKKFLKQDTYDVHLSLSDHGNKEQLTVIRATVCDCHGHVETCPGPWKGGFILPVLGAVLALLFLLLVLLLLVRKKRKIKEPLLLPEDDTRDNVFYYGEEGGGEEDQDYDITQLHRGLEARPEVVLRNDVAPTIIPTPMYRPRPANPDEIGNFIIENLKAANTDPTAPPYDTLLVFDYEGSGSDAASLSSLTSSASDQDQDYDYLNEWGSRFKKLADMYGGGEDD",
+        "n_residues": 829,
+        "mutation_pos_1indexed": 393,
+        "wt_aa": "R",
+        "mut_aa": "K",
+        "pocket_lining_residues": "D375-H376-R393-K394",
+        "pocket_lining_positions_precursor": [
+          375,
+          376,
+          393,
+          394
+        ],
+        "pocket_lining_1letter": "DHRK",
+        "sequence_slice_around_pocket": "PESNQGILTTRKGLDFEAKN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CDH3_R393K/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "D375",
+          "H376",
+          "R393",
+          "K394"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            7.17,
+            7.465
+          ],
+          [
+            3.841,
+            0.0,
+            5.125,
+            4.808
+          ],
+          [
+            7.17,
+            5.125,
+            0.0,
+            3.86
+          ],
+          [
+            7.465,
+            4.808,
+            3.86,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.7009477279623153,
+        "mw": 276.18,
+        "logp": 2.016,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 6,
+        "qed": 0.8628,
+        "sa_score": 2.25,
+        "n_heavy_atoms": 20,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CDH3-R393K Candidate #1",
+        "iupac_name": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7009,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CDH3_R393K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CDH3_R393K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CDH3_R393K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDH3_R393K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDH3_R393K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDH3-R393K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDH3-R393K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-17T16:52:24.301256+00:00"
     }
   ]
 }
