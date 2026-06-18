@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2157,
+  "total_entries": 2158,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46877,
-    "queue_remaining": 131720
+    "total_processed": 46878,
+    "queue_remaining": 131719
   },
   "entries": [
     {
@@ -494922,6 +494922,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T08:23:54.628995+00:00"
+    },
+    {
+      "entry_id": "PCD-KRAS-K5N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRAS-K5N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KRAS",
+        "uniprot": "",
+        "clinvar_id": "372705",
+        "disease": "not provided",
+        "mutation_precursor": "K5N",
+        "mutation_mature": "K5N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9175101284859163,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 353.5631179410889,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -14.457229614257812,
+          5.530717372894287,
+          11.549400329589844
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.821206996293765,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6336003431106232,
+        "cryptic": true,
+        "pocket_residues": {
+          "T2": "T",
+          "E3": "E",
+          "Y4": "Y",
+          "K5": "K",
+          "E76": "E"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P01116|KRAS variant K5N",
+        "fasta_sequence": "MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM",
+        "full_sequence": "MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQRVEDAFYTLVREIRQYRLKKISKEEKTPGCVKIKKCIIM",
+        "n_residues": 189,
+        "mutation_pos_1indexed": 5,
+        "wt_aa": "K",
+        "mut_aa": "N",
+        "pocket_lining_residues": "T2-E3-Y4-K5-E76",
+        "pocket_lining_positions_precursor": [
+          2,
+          3,
+          4,
+          5,
+          76
+        ],
+        "pocket_lining_1letter": "TEYKE",
+        "sequence_slice_around_pocket": "MTEYKLVVVGAGGV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KRAS_K5N/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "T2",
+          "E3",
+          "Y4",
+          "K5",
+          "E76"
+        ],
+        "values": [
+          [
+            0.0,
+            3.844,
+            6.725,
+            10.164,
+            12.394
+          ],
+          [
+            3.844,
+            0.0,
+            3.84,
+            6.643,
+            9.861
+          ],
+          [
+            6.725,
+            3.84,
+            0.0,
+            3.843,
+            6.696
+          ],
+          [
+            10.164,
+            6.643,
+            3.843,
+            0.0,
+            5.202
+          ],
+          [
+            12.394,
+            9.861,
+            6.696,
+            5.202,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.7862561656140463,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KRAS-K5N Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7863,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KRAS_K5N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KRAS_K5N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KRAS_K5N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRAS_K5N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KRAS_K5N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRAS-K5N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KRAS-K5N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T08:24:43.605430+00:00"
     }
   ]
 }
