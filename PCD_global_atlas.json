@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1870,
+  "total_entries": 1871,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46554,
-    "queue_remaining": 132043
+    "total_processed": 46555,
+    "queue_remaining": 132042
   },
   "entries": [
     {
@@ -422228,6 +422228,229 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:40:31.537245+00:00"
+    },
+    {
+      "entry_id": "PCD-RNASEH1-V142I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RNASEH1-V142I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RNASEH1",
+        "uniprot": "",
+        "clinvar_id": "372197",
+        "disease": "Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal",
+        "mutation_precursor": "V142I",
+        "mutation_mature": "V142I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7860774207094842,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 615.4004705241675,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -7.461259365081787,
+          -3.3896520137786865,
+          8.63182544708252
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.858143561613063,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8144319373879654,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y135": "Y",
+          "M136": "M",
+          "V141": "V",
+          "V142": "V",
+          "Y143": "Y",
+          "V206": "V",
+          "L207": "L",
+          "Y208": "Y",
+          "M259": "M"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O60930|RNASEH1 variant V142I",
+        "fasta_sequence": "MSWLLFLAHRVALAALPCRRGSRGFGMFYAVRRGRKTGVFLTWNECRAQVDRFPAARFKKFATEDEAWAFVRKSASPEVSEGHENQHGQESEAKASKRLREPLDGDGHESAEPYAKHMKPSVEPAPPVSRDTFSYMGDFVVVYTDGCCSSNGRRRPRAGIGVYWGPGHPLNVGIRLPGRQTNQRAEIHAACKAIEQAKTQNINKLVLYTDSMFTINGITNWVQGWKKNGWKTSAGKEVINKEDFVALERLTQGMDIQWMHVPGHSGFIGNEEADRLAREGAKQSED",
+        "full_sequence": "MSWLLFLAHRVALAALPCRRGSRGFGMFYAVRRGRKTGVFLTWNECRAQVDRFPAARFKKFATEDEAWAFVRKSASPEVSEGHENQHGQESEAKASKRLREPLDGDGHESAEPYAKHMKPSVEPAPPVSRDTFSYMGDFVVVYTDGCCSSNGRRRPRAGIGVYWGPGHPLNVGIRLPGRQTNQRAEIHAACKAIEQAKTQNINKLVLYTDSMFTINGITNWVQGWKKNGWKTSAGKEVINKEDFVALERLTQGMDIQWMHVPGHSGFIGNEEADRLAREGAKQSED",
+        "n_residues": 286,
+        "mutation_pos_1indexed": 142,
+        "wt_aa": "V",
+        "mut_aa": "I",
+        "pocket_lining_residues": "Y135-M136-V141-V142-Y143-V206-L207-Y208-M259",
+        "pocket_lining_positions_precursor": [
+          135,
+          136,
+          141,
+          142,
+          143,
+          206,
+          207,
+          208,
+          259
+        ],
+        "pocket_lining_1letter": "YMVVYVLYM",
+        "sequence_slice_around_pocket": "TFSYMGDFVVVYTDGCCSSN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH1_V142I/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "Y135",
+          "M136",
+          "V141",
+          "V142",
+          "Y143",
+          "V206",
+          "L207",
+          "Y208",
+          "M259"
+        ],
+        "values": [
+          [
+            0.0,
+            3.832,
+            5.409,
+            9.054,
+            12.14,
+            8.387,
+            11.209,
+            12.497,
+            13.823
+          ],
+          [
+            3.832,
+            0.0,
+            6.526,
+            10.253,
+            12.802,
+            7.405,
+            10.738,
+            11.755,
+            11.781
+          ],
+          [
+            5.409,
+            6.526,
+            0.0,
+            3.827,
+            7.044,
+            4.779,
+            6.251,
+            7.662,
+            10.081
+          ],
+          [
+            9.054,
+            10.253,
+            3.827,
+            0.0,
+            3.821,
+            6.224,
+            5.131,
+            6.135,
+            9.993
+          ],
+          [
+            12.14,
+            12.802,
+            7.044,
+            3.821,
+            0.0,
+            8.414,
+            5.896,
+            4.628,
+            9.355
+          ],
+          [
+            8.387,
+            7.405,
+            4.779,
+            6.224,
+            8.414,
+            0.0,
+            3.81,
+            6.426,
+            6.825
+          ],
+          [
+            11.209,
+            10.738,
+            6.251,
+            5.131,
+            5.896,
+            3.81,
+            0.0,
+            3.809,
+            5.895
+          ],
+          [
+            12.497,
+            11.755,
+            7.662,
+            6.135,
+            4.628,
+            6.426,
+            3.809,
+            0.0,
+            4.758
+          ],
+          [
+            13.823,
+            11.781,
+            10.081,
+            9.993,
+            9.355,
+            6.825,
+            5.895,
+            4.758,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1OCNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6239695479737901,
+        "mw": 402.15,
+        "logp": 2.008,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.5384,
+        "sa_score": 3.48,
+        "n_heavy_atoms": 28,
+        "tpsa": 126.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RNASEH1-V142I Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1OCNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.624,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH1_V142I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH1_V142I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH1_V142I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH1_V142I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH1_V142I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RNASEH1-V142I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RNASEH1-V142I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:40:56.645277+00:00"
     }
   ]
 }
