@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2331,
+  "total_entries": 2332,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47068,
-    "queue_remaining": 131529
+    "total_processed": 47069,
+    "queue_remaining": 131528
   },
   "entries": [
     {
@@ -540410,6 +540410,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:53:16.337427+00:00"
+    },
+    {
+      "entry_id": "PCD-PORCN-F417S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PORCN-F417S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PORCN",
+        "uniprot": "",
+        "clinvar_id": "372731",
+        "disease": "not provided",
+        "mutation_precursor": "F417S",
+        "mutation_mature": "F417S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.907236713552879,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 313.21816502957836,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -10.593512535095215,
+          -6.959829330444336,
+          -14.449878692626953
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.253195959038312,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6607356388097126,
+        "cryptic": true,
+        "pocket_residues": {
+          "S344": "S",
+          "F417": "F",
+          "T425": "T",
+          "E426": "E",
+          "E427": "E",
+          "Q428": "Q",
+          "G429": "G",
+          "Y430": "Y"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9H237|PORCN variant F417S",
+        "fasta_sequence": "MATFSRQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLACRLLWRLGLPSYLKHASTVAGGFFSLYHFFQLHMVWVVLLSLLCYLVLFLCRHSSHRGVFLSVTILIYLLMGEMHMVDTVTWHKMRGAQMIVAMKAVSLGFDLDRGEVGTVPSPVEFMGYLYFVGTIVFGPWISFHSYLQAVQGRPLSCRWLQKVARSLALALLCLVLSTCVGPYLFPYFIPLNGDRLLRNKKRKARGTMVRWLRAYESAVSFHFSNYFVGFLSEATATLAGAGFTEEKDHLEWDLTVSKPLNVELPRSMVEVVTSWNLPMSYWLNNYVFKNALRLGTFSAVLVTYAASALLHGFSFHLAAVLLSLAFITYVEHVLRKRLARILSACVLSKRCPPDCSHQHRLGLGVRALNLLFGALAIFHLAYLGSLFDVDVDDTTEEQGYGMAYTVHKWSELSWASHWVTFGCWIFYRLIG",
+        "full_sequence": "MATFSRQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLACRLLWRLGLPSYLKHASTVAGGFFSLYHFFQLHMVWVVLLSLLCYLVLFLCRHSSHRGVFLSVTILIYLLMGEMHMVDTVTWHKMRGAQMIVAMKAVSLGFDLDRGEVGTVPSPVEFMGYLYFVGTIVFGPWISFHSYLQAVQGRPLSCRWLQKVARSLALALLCLVLSTCVGPYLFPYFIPLNGDRLLRNKKRKARGTMVRWLRAYESAVSFHFSNYFVGFLSEATATLAGAGFTEEKDHLEWDLTVSKPLNVELPRSMVEVVTSWNLPMSYWLNNYVFKNALRLGTFSAVLVTYAASALLHGFSFHLAAVLLSLAFITYVEHVLRKRLARILSACVLSKRCPPDCSHQHRLGLGVRALNLLFGALAIFHLAYLGSLFDVDVDDTTEEQGYGMAYTVHKWSELSWASHWVTFGCWIFYRLIG",
+        "n_residues": 461,
+        "mutation_pos_1indexed": 417,
+        "wt_aa": "F",
+        "mut_aa": "S",
+        "pocket_lining_residues": "S344-F417-T425-E426-E427-Q428-G429-Y430",
+        "pocket_lining_positions_precursor": [
+          344,
+          417,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430
+        ],
+        "pocket_lining_1letter": "SFTEEQGY",
+        "sequence_slice_around_pocket": "IFHLAYLGSLFDVDVDDTTE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PORCN_F417S/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "S344",
+          "F417",
+          "T425",
+          "E426",
+          "E427",
+          "Q428",
+          "G429",
+          "Y430"
+        ],
+        "values": [
+          [
+            0.0,
+            12.403,
+            12.356,
+            11.222,
+            11.628,
+            9.871,
+            6.863,
+            7.329
+          ],
+          [
+            12.403,
+            0.0,
+            11.207,
+            8.852,
+            12.272,
+            13.508,
+            10.47,
+            9.0
+          ],
+          [
+            12.356,
+            11.207,
+            0.0,
+            3.828,
+            5.465,
+            5.201,
+            5.665,
+            6.244
+          ],
+          [
+            11.222,
+            8.852,
+            3.828,
+            0.0,
+            3.864,
+            5.662,
+            4.995,
+            6.445
+          ],
+          [
+            11.628,
+            12.272,
+            5.465,
+            3.864,
+            0.0,
+            3.856,
+            5.517,
+            8.614
+          ],
+          [
+            9.871,
+            13.508,
+            5.201,
+            5.662,
+            3.856,
+            0.0,
+            3.857,
+            7.031
+          ],
+          [
+            6.863,
+            10.47,
+            5.665,
+            4.995,
+            5.517,
+            3.857,
+            0.0,
+            3.823
+          ],
+          [
+            7.329,
+            9.0,
+            6.244,
+            6.445,
+            8.614,
+            7.031,
+            3.823,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "composite_score": 0.7801380032879017,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.89,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PORCN-F417S Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.7801,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PORCN_F417S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PORCN_F417S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PORCN_F417S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PORCN_F417S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PORCN_F417S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PORCN-F417S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PORCN-F417S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:53:43.267928+00:00"
     }
   ]
 }
