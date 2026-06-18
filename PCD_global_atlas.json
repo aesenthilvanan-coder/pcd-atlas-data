@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1521,
+  "total_entries": 1522,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46171,
-    "queue_remaining": 132426
+    "total_processed": 46173,
+    "queue_remaining": 132424
   },
   "entries": [
     {
@@ -336582,6 +336582,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:51:01.497399+00:00"
+    },
+    {
+      "entry_id": "PCD-FECH-Q285R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FECH-Q285R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FECH",
+        "uniprot": "",
+        "clinvar_id": "327428",
+        "disease": "Protoporphyria, erythropoietic, 1",
+        "mutation_precursor": "Q285R",
+        "mutation_mature": "Q285R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8536935317847022,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 323.5184343720297,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -15.972993850708008,
+          -14.338233947753906,
+          -5.179177761077881
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.574378298614173,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6041835118693862,
+        "cryptic": true,
+        "pocket_residues": {
+          "V284": "V",
+          "Q285": "Q",
+          "K286": "K",
+          "M288": "M",
+          "E289": "E"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P22830|FECH variant Q285R",
+        "fasta_sequence": "MRSLGANMAAALRAAGVLLRDPLASSSWRVCQPWRWKSGAAAAAVTTETAQHAQGAKPQVQPQKRKPKTGILMLNMGGPETLGDVHDFLLRLFLDRDLMTLPIQNKLAPFIAKRRTPKIQEQYRRIGGGSPIKIWTSKQGEGMVKLLDELSPNTAPHKYYIGFRYVHPLTEEAIEEMERDGLERAIAFTQYPQYSCSTTGSSLNAIYRYYNQVGRKPTMKWSTIDRWPTHHLLIQCFADHILKELDHFPLEKRSEVVILFSAHSLPMSVVNRGDPYPQEVSATVQKVMERLEYCNPYRLVWQSKVGPMPWLGPQTDESIKGLCERGRKNILLVPIAFTSDHIETLYELDIEYSQVLAKECGVENIRRAESLNGNPLFSKALADLVHSHIQSNELCSKQLTLSCPLCVNPVCRETKSFFTSQQL",
+        "full_sequence": "MRSLGANMAAALRAAGVLLRDPLASSSWRVCQPWRWKSGAAAAAVTTETAQHAQGAKPQVQPQKRKPKTGILMLNMGGPETLGDVHDFLLRLFLDRDLMTLPIQNKLAPFIAKRRTPKIQEQYRRIGGGSPIKIWTSKQGEGMVKLLDELSPNTAPHKYYIGFRYVHPLTEEAIEEMERDGLERAIAFTQYPQYSCSTTGSSLNAIYRYYNQVGRKPTMKWSTIDRWPTHHLLIQCFADHILKELDHFPLEKRSEVVILFSAHSLPMSVVNRGDPYPQEVSATVQKVMERLEYCNPYRLVWQSKVGPMPWLGPQTDESIKGLCERGRKNILLVPIAFTSDHIETLYELDIEYSQVLAKECGVENIRRAESLNGNPLFSKALADLVHSHIQSNELCSKQLTLSCPLCVNPVCRETKSFFTSQQL",
+        "n_residues": 423,
+        "mutation_pos_1indexed": 285,
+        "wt_aa": "Q",
+        "mut_aa": "R",
+        "pocket_lining_residues": "V284-Q285-K286-M288-E289",
+        "pocket_lining_positions_precursor": [
+          284,
+          285,
+          286,
+          288,
+          289
+        ],
+        "pocket_lining_1letter": "VQKME",
+        "sequence_slice_around_pocket": "PYPQEVSATVQKVMERLEYC"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_Q285R/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "V284",
+          "Q285",
+          "K286",
+          "M288",
+          "E289"
+        ],
+        "values": [
+          [
+            0.0,
+            3.828,
+            5.533,
+            6.195,
+            8.603
+          ],
+          [
+            3.828,
+            0.0,
+            3.852,
+            5.194,
+            6.136
+          ],
+          [
+            5.533,
+            3.852,
+            0.0,
+            5.473,
+            4.992
+          ],
+          [
+            6.195,
+            5.194,
+            5.473,
+            0.0,
+            3.855
+          ],
+          [
+            8.603,
+            6.136,
+            4.992,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CCCCC1",
+        "composite_score": 0.7575290384577935,
+        "mw": 222.12,
+        "logp": 1.915,
+        "hbd": 1,
+        "hba": 2,
+        "rotatable_bonds": 2,
+        "qed": 0.8305,
+        "sa_score": 1.86,
+        "n_heavy_atoms": 16,
+        "tpsa": 46.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FECH-Q285R Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7575,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_Q285R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_Q285R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_Q285R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_Q285R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FECH_Q285R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FECH-Q285R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FECH-Q285R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:51:35.942946+00:00"
     }
   ]
 }
