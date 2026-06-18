@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1864,
+  "total_entries": 1865,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46548,
-    "queue_remaining": 132049
+    "total_processed": 46549,
+    "queue_remaining": 132048
   },
   "entries": [
     {
@@ -420708,6 +420708,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:38:05.868519+00:00"
+    },
+    {
+      "entry_id": "PCD-KCNN4-V282M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNN4-V282M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KCNN4",
+        "uniprot": "",
+        "clinvar_id": "372185",
+        "disease": "Dehydrated hereditary stomatocytosis 2",
+        "mutation_precursor": "V282M",
+        "mutation_mature": "V282M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.948072226298734,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 599.7544692285908,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          5.109813690185547,
+          -3.257256507873535,
+          15.331344604492188
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.205574041648228,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8460984116343568,
+        "cryptic": true,
+        "pocket_residues": {
+          "T278": "T",
+          "A279": "A",
+          "L281": "L",
+          "V282": "V",
+          "A283": "A",
+          "V285": "V",
+          "A286": "A"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15554|KCNN4 variant V282M",
+        "fasta_sequence": "MGGDLVLGLGALRRRKRLLEQEKSLAGWALVLAGTGIGLMVLHAEMLWFGGCSWALYLFLVKCTISISTFLLLCLIVAFHAKEVQLFMTDNGLRDWRVALTGRQAAQIVLELVVCGLHPAPVRGPPCVQDLGAPLTSPQPWPGFLGQGEALLSLAMLLRLYLVPRAVLLRSGVLLNASYRSIGALNQVRFRHWFVAKLYMNTHPGRLLLGLTLGLWLTTAWVLSVAERQAVNATGHLSDTLWLIPITFLTIGYGDVVPGTMWGKIVCLCTGVMGVCCTALLVAVVARKLEFNKAEKHVHNFMMDIQYTKEMKESAARVLQEAWMFYKHTRRKESHAARRHQRKLLAAINAFRQVRLKHRKLREQVNSMVDISKMHMILYDLQQNLSSSHRALEKQIDTLAGKLDALTELLSTALGPRQLPEPSQQSK",
+        "full_sequence": "MGGDLVLGLGALRRRKRLLEQEKSLAGWALVLAGTGIGLMVLHAEMLWFGGCSWALYLFLVKCTISISTFLLLCLIVAFHAKEVQLFMTDNGLRDWRVALTGRQAAQIVLELVVCGLHPAPVRGPPCVQDLGAPLTSPQPWPGFLGQGEALLSLAMLLRLYLVPRAVLLRSGVLLNASYRSIGALNQVRFRHWFVAKLYMNTHPGRLLLGLTLGLWLTTAWVLSVAERQAVNATGHLSDTLWLIPITFLTIGYGDVVPGTMWGKIVCLCTGVMGVCCTALLVAVVARKLEFNKAEKHVHNFMMDIQYTKEMKESAARVLQEAWMFYKHTRRKESHAARRHQRKLLAAINAFRQVRLKHRKLREQVNSMVDISKMHMILYDLQQNLSSSHRALEKQIDTLAGKLDALTELLSTALGPRQLPEPSQQSK",
+        "n_residues": 427,
+        "mutation_pos_1indexed": 282,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "T278-A279-L281-V282-A283-V285-A286",
+        "pocket_lining_positions_precursor": [
+          278,
+          279,
+          281,
+          282,
+          283,
+          285,
+          286
+        ],
+        "pocket_lining_1letter": "TALVAVA",
+        "sequence_slice_around_pocket": "VMGVCCTALLVAVVARKLEF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KCNN4_V282M/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "T278",
+          "A279",
+          "L281",
+          "V282",
+          "A283",
+          "V285",
+          "A286"
+        ],
+        "values": [
+          [
+            0.0,
+            3.846,
+            4.912,
+            6.228,
+            8.589,
+            10.431,
+            12.18
+          ],
+          [
+            3.846,
+            0.0,
+            5.469,
+            5.25,
+            6.24,
+            9.988,
+            10.604
+          ],
+          [
+            4.912,
+            5.469,
+            0.0,
+            3.835,
+            5.465,
+            6.107,
+            8.538
+          ],
+          [
+            6.228,
+            5.25,
+            3.835,
+            0.0,
+            3.847,
+            5.081,
+            5.994
+          ],
+          [
+            8.589,
+            6.24,
+            5.465,
+            3.847,
+            0.0,
+            5.586,
+            5.194
+          ],
+          [
+            10.431,
+            9.988,
+            6.107,
+            5.081,
+            5.586,
+            0.0,
+            3.847
+          ],
+          [
+            12.18,
+            10.604,
+            8.538,
+            5.994,
+            5.194,
+            3.847,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CCCCC1CCNc1ncnc2[nH]cnc12",
+        "composite_score": 0.6728762351561447,
+        "mw": 352.21,
+        "logp": 2.068,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.6229,
+        "sa_score": 3.39,
+        "n_heavy_atoms": 26,
+        "tpsa": 108.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KCNN4-V282M Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CCCCC1CCNc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.6729,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KCNN4_V282M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KCNN4_V282M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KCNN4_V282M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNN4_V282M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNN4_V282M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNN4-V282M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNN4-V282M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:38:31.334846+00:00"
     }
   ]
 }
