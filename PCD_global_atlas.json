@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2113,
+  "total_entries": 2114,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46825,
-    "queue_remaining": 131772
+    "total_processed": 46826,
+    "queue_remaining": 131771
   },
   "entries": [
     {
@@ -484077,6 +484077,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:52:27.869525+00:00"
+    },
+    {
+      "entry_id": "PCD-TPM2-Q93H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TPM2-Q93H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TPM2",
+        "uniprot": "",
+        "clinvar_id": "372795",
+        "disease": "not provided",
+        "mutation_precursor": "Q93H",
+        "mutation_mature": "Q93H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8829902545440826,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 620.1066461624666,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -54.22377395629883,
+          -15.845307350158691,
+          50.20098114013672
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.087845553352683,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6277622772799617,
+        "cryptic": true,
+        "pocket_residues": {
+          "N89": "N",
+          "R90": "R",
+          "R91": "R",
+          "I92": "I",
+          "Q93": "Q",
+          "L94": "L",
+          "V95": "V",
+          "E96": "E",
+          "E97": "E"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P07951|TPM2 variant Q93H",
+        "fasta_sequence": "MDAIKKKMQMLKLDKENAIDRAEQAEADKKQAEDRCKQLEEEQQALQKKLKGTEDEVEKYSESVKEAQEKLEQAEKKATDAEADVASLNRRIQLVEEELDRAQERLATALQKLEEAEKAADESERGMKVIENRAMKDEEKMELQEMQLKEAKHIAEDSDRKYEEVARKLVILEGELERSEERAEVAESKCGDLEEELKIVTNNLKSLEAQADKYSTKEDKYEEEIKLLEEKLKEAETRAEFAERSVAKLEKTIDDLEDEVYAQKMKYKAISEELDNALNDITSL",
+        "full_sequence": "MDAIKKKMQMLKLDKENAIDRAEQAEADKKQAEDRCKQLEEEQQALQKKLKGTEDEVEKYSESVKEAQEKLEQAEKKATDAEADVASLNRRIQLVEEELDRAQERLATALQKLEEAEKAADESERGMKVIENRAMKDEEKMELQEMQLKEAKHIAEDSDRKYEEVARKLVILEGELERSEERAEVAESKCGDLEEELKIVTNNLKSLEAQADKYSTKEDKYEEEIKLLEEKLKEAETRAEFAERSVAKLEKTIDDLEDEVYAQKMKYKAISEELDNALNDITSL",
+        "n_residues": 284,
+        "mutation_pos_1indexed": 93,
+        "wt_aa": "Q",
+        "mut_aa": "H",
+        "pocket_lining_residues": "N89-R90-R91-I92-Q93-L94-V95-E96-E97",
+        "pocket_lining_positions_precursor": [
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97
+        ],
+        "pocket_lining_1letter": "NRRIQLVEE",
+        "sequence_slice_around_pocket": "ADVASLNRRIQLVEEELDRA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TPM2_Q93H/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "N89",
+          "R90",
+          "R91",
+          "I92",
+          "Q93",
+          "L94",
+          "V95",
+          "E96",
+          "E97"
+        ],
+        "values": [
+          [
+            0.0,
+            3.855,
+            5.387,
+            5.06,
+            6.369,
+            8.777,
+            9.947,
+            10.582,
+            12.507
+          ],
+          [
+            3.855,
+            0.0,
+            3.841,
+            5.522,
+            5.244,
+            6.361,
+            8.794,
+            9.998,
+            10.799
+          ],
+          [
+            5.387,
+            3.841,
+            0.0,
+            3.856,
+            5.459,
+            5.121,
+            6.203,
+            8.606,
+            9.958
+          ],
+          [
+            5.06,
+            5.522,
+            3.856,
+            0.0,
+            3.847,
+            5.528,
+            5.168,
+            6.108,
+            8.667
+          ],
+          [
+            6.369,
+            5.244,
+            5.459,
+            3.847,
+            0.0,
+            3.845,
+            5.5,
+            5.069,
+            6.193
+          ],
+          [
+            8.777,
+            6.361,
+            5.121,
+            5.528,
+            3.845,
+            0.0,
+            3.852,
+            5.509,
+            5.191
+          ],
+          [
+            9.947,
+            8.794,
+            6.203,
+            5.168,
+            5.5,
+            3.852,
+            0.0,
+            3.857,
+            5.487
+          ],
+          [
+            10.582,
+            9.998,
+            8.606,
+            6.108,
+            5.069,
+            5.509,
+            3.857,
+            0.0,
+            3.855
+          ],
+          [
+            12.507,
+            10.799,
+            9.958,
+            8.667,
+            6.193,
+            5.191,
+            5.487,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CC(=O)CCC1CCNc1ccncc1N1CCCCC1",
+        "composite_score": 0.8607235999822151,
+        "mw": 458.21,
+        "logp": 2.154,
+        "hbd": 2,
+        "hba": 8,
+        "rotatable_bonds": 7,
+        "qed": 0.6473,
+        "sa_score": 3.45,
+        "n_heavy_atoms": 32,
+        "tpsa": 121.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TPM2-Q93H Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CC(=O)CCC1CCNc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.8607,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TPM2_Q93H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TPM2_Q93H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TPM2_Q93H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TPM2_Q93H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TPM2_Q93H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TPM2-Q93H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TPM2-Q93H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:52:53.633959+00:00"
     }
   ]
 }
