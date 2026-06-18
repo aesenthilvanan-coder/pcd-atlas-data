@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2019,
+  "total_entries": 2020,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46723,
-    "queue_remaining": 131874
+    "total_processed": 46724,
+    "queue_remaining": 131873
   },
   "entries": [
     {
@@ -460398,6 +460398,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:40:05.177595+00:00"
+    },
+    {
+      "entry_id": "PCD-TUBB2A-N414H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TUBB2A-N414H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TUBB2A",
+        "uniprot": "",
+        "clinvar_id": "372880",
+        "disease": "not provided",
+        "mutation_precursor": "N414H",
+        "mutation_mature": "N414H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7694108569375039,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 557.3130377460565,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          20.38999366760254,
+          -3.4369635581970215,
+          0.8779506683349609
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.006453504834915,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6948967505793585,
+        "cryptic": true,
+        "pocket_residues": {
+          "H190": "H",
+          "V193": "V",
+          "E194": "E",
+          "R262": "R",
+          "N414": "N",
+          "M415": "M",
+          "D417": "D",
+          "L418": "L"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13885|TUBB2A variant N414H",
+        "fasta_sequence": "MREIVHIQAGQCGNQIGAKFWEVISDEHGIDPTGSYHGDSDLQLERINVYYNEAAGNKYVPRAILVDLEPGTMDSVRSGPFGQIFRPDNFVFGQSGAGNNWAKGHYTEGAELVDSVLDVVRKESESCDCLQGFQLTHSLGGGTGSGMGTLLISKIREEYPDRIMNTFSVMPSPKVSDTVVEPYNATLSVHQLVENTDETYSIDNEALYDICFRTLKLTTPTYGDLNHLVSATMSGVTTCLRFPGQLNADLRKLAVNMVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQMFDSKNMMAACDPRHGRYLTVAAIFRGRMSMKEVDEQMLNVQNKNSSYFVEWIPNNVKTAVCDIPPRGLKMSATFIGNSTAIQELFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQDATADEQGEFEEEEGEDEA",
+        "full_sequence": "MREIVHIQAGQCGNQIGAKFWEVISDEHGIDPTGSYHGDSDLQLERINVYYNEAAGNKYVPRAILVDLEPGTMDSVRSGPFGQIFRPDNFVFGQSGAGNNWAKGHYTEGAELVDSVLDVVRKESESCDCLQGFQLTHSLGGGTGSGMGTLLISKIREEYPDRIMNTFSVMPSPKVSDTVVEPYNATLSVHQLVENTDETYSIDNEALYDICFRTLKLTTPTYGDLNHLVSATMSGVTTCLRFPGQLNADLRKLAVNMVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQMFDSKNMMAACDPRHGRYLTVAAIFRGRMSMKEVDEQMLNVQNKNSSYFVEWIPNNVKTAVCDIPPRGLKMSATFIGNSTAIQELFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQDATADEQGEFEEEEGEDEA",
+        "n_residues": 445,
+        "mutation_pos_1indexed": 414,
+        "wt_aa": "N",
+        "mut_aa": "H",
+        "pocket_lining_residues": "H190-V193-E194-R262-N414-M415-D417-L418",
+        "pocket_lining_positions_precursor": [
+          190,
+          193,
+          194,
+          262,
+          414,
+          415,
+          417,
+          418
+        ],
+        "pocket_lining_1letter": "HVERNMDL",
+        "sequence_slice_around_pocket": "DEMEFTEAESNMNDLVSEYQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB2A_N414H/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "H190",
+          "V193",
+          "E194",
+          "R262",
+          "N414",
+          "M415",
+          "D417",
+          "L418"
+        ],
+        "values": [
+          [
+            0.0,
+            5.476,
+            6.857,
+            10.721,
+            6.248,
+            6.387,
+            10.483,
+            9.383
+          ],
+          [
+            5.476,
+            0.0,
+            3.837,
+            5.871,
+            8.356,
+            8.39,
+            10.682,
+            8.192
+          ],
+          [
+            6.857,
+            3.837,
+            0.0,
+            7.492,
+            9.598,
+            10.955,
+            12.507,
+            10.828
+          ],
+          [
+            10.721,
+            5.871,
+            7.492,
+            0.0,
+            10.537,
+            10.597,
+            10.153,
+            7.218
+          ],
+          [
+            6.248,
+            8.356,
+            9.598,
+            10.537,
+            0.0,
+            3.851,
+            5.005,
+            6.141
+          ],
+          [
+            6.387,
+            8.39,
+            10.955,
+            10.597,
+            3.851,
+            0.0,
+            5.445,
+            5.031
+          ],
+          [
+            10.483,
+            10.682,
+            12.507,
+            10.153,
+            5.005,
+            5.445,
+            0.0,
+            3.857
+          ],
+          [
+            9.383,
+            8.192,
+            10.828,
+            7.218,
+            6.141,
+            5.031,
+            3.857,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CC(=O)CCC1CCNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.8052028897843303,
+        "mw": 378.22,
+        "logp": 2.134,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.5448,
+        "sa_score": 3.3,
+        "n_heavy_atoms": 28,
+        "tpsa": 99.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TUBB2A-N414H Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CC(=O)CCC1CCNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8052,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB2A_N414H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB2A_N414H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB2A_N414H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB2A_N414H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB2A_N414H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TUBB2A-N414H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TUBB2A-N414H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:40:30.564564+00:00"
     }
   ]
 }
