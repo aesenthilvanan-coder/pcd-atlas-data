@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1805,
+  "total_entries": 1806,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46481,
-    "queue_remaining": 132116
+    "total_processed": 46482,
+    "queue_remaining": 132115
   },
   "entries": [
     {
@@ -404456,6 +404456,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:05:16.673206+00:00"
+    },
+    {
+      "entry_id": "PCD-PMM2-P69S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PMM2-P69S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PMM2",
+        "uniprot": "",
+        "clinvar_id": "371307",
+        "disease": "PMM2-congenital disorder of glycosylation",
+        "mutation_precursor": "P69S",
+        "mutation_mature": "P69S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8447550314604021,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 571.9211075976675,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.247254848480225,
+          -2.258800983428955,
+          6.594370365142822
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.716109270289682,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8003515566838278,
+        "cryptic": true,
+        "pocket_residues": {
+          "G45": "G",
+          "G46": "G",
+          "S47": "S",
+          "D48": "D",
+          "F49": "F",
+          "E50": "E",
+          "K51": "K",
+          "V52": "V",
+          "P69": "P",
+          "E70": "E",
+          "V74": "V"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15305|PMM2 variant P69S",
+        "fasta_sequence": "MAAPGPALCLFDVDGTLTAPRQKITKEMDDFLQKLRQKIKIGVVGGSDFEKVQEQLGNDVVEKYDYVFPENGLVAYKDGKLLCRQNIQSHLGEALIQDLINYCLSYIAKIKLPKKRGTFIEFRNGMLNVSPIGRSCSQEERIEFYELDKKENIRQKFVADLRKEFAGKGLTFSIGGQISFDVFPDGWDKRYCLRHVENDGYKTIYFFGDKTMPGGNDHEIFTDPRTMGYSVTAPEDTRRICELLFS",
+        "full_sequence": "MAAPGPALCLFDVDGTLTAPRQKITKEMDDFLQKLRQKIKIGVVGGSDFEKVQEQLGNDVVEKYDYVFPENGLVAYKDGKLLCRQNIQSHLGEALIQDLINYCLSYIAKIKLPKKRGTFIEFRNGMLNVSPIGRSCSQEERIEFYELDKKENIRQKFVADLRKEFAGKGLTFSIGGQISFDVFPDGWDKRYCLRHVENDGYKTIYFFGDKTMPGGNDHEIFTDPRTMGYSVTAPEDTRRICELLFS",
+        "n_residues": 246,
+        "mutation_pos_1indexed": 69,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "G45-G46-S47-D48-F49-E50-K51-V52-P69-E70-V74",
+        "pocket_lining_positions_precursor": [
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          69,
+          70,
+          74
+        ],
+        "pocket_lining_1letter": "GGSDFEKVPEV",
+        "sequence_slice_around_pocket": "DVVEKYDYVFPENGLVAYKD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PMM2_P69S/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "G45",
+          "G46",
+          "S47",
+          "D48",
+          "F49",
+          "E50",
+          "K51",
+          "V52",
+          "P69",
+          "E70",
+          "V74"
+        ],
+        "values": [
+          [
+            0.0,
+            3.824,
+            5.451,
+            7.937,
+            9.01,
+            11.53,
+            9.471,
+            7.664,
+            5.208,
+            5.933,
+            10.212
+          ],
+          [
+            3.824,
+            0.0,
+            3.854,
+            6.883,
+            9.47,
+            11.709,
+            9.674,
+            9.325,
+            6.128,
+            4.378,
+            10.274
+          ],
+          [
+            5.451,
+            3.854,
+            0.0,
+            3.832,
+            6.729,
+            8.163,
+            6.044,
+            6.692,
+            5.803,
+            5.258,
+            10.254
+          ],
+          [
+            7.937,
+            6.883,
+            3.832,
+            0.0,
+            3.832,
+            5.563,
+            5.464,
+            6.454,
+            5.257,
+            5.484,
+            8.284
+          ],
+          [
+            9.01,
+            9.47,
+            6.729,
+            3.832,
+            0.0,
+            3.843,
+            5.461,
+            4.945,
+            5.261,
+            7.601,
+            7.832
+          ],
+          [
+            11.53,
+            11.709,
+            8.163,
+            5.563,
+            3.843,
+            0.0,
+            3.849,
+            5.411,
+            8.838,
+            10.695,
+            11.49
+          ],
+          [
+            9.471,
+            9.674,
+            6.044,
+            5.464,
+            5.461,
+            3.849,
+            0.0,
+            3.833,
+            8.642,
+            10.16,
+            12.779
+          ],
+          [
+            7.664,
+            9.325,
+            6.692,
+            6.454,
+            4.945,
+            5.411,
+            3.833,
+            0.0,
+            6.911,
+            9.625,
+            11.49
+          ],
+          [
+            5.208,
+            6.128,
+            5.803,
+            5.257,
+            5.261,
+            8.838,
+            8.642,
+            6.911,
+            0.0,
+            3.834,
+            5.455
+          ],
+          [
+            5.933,
+            4.378,
+            5.258,
+            5.484,
+            7.601,
+            10.695,
+            10.16,
+            9.625,
+            3.834,
+            0.0,
+            6.121
+          ],
+          [
+            10.212,
+            10.274,
+            10.254,
+            8.284,
+            7.832,
+            11.49,
+            12.779,
+            11.49,
+            5.455,
+            6.121,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1OCNCc1c[nH]c2ccccc12",
+        "composite_score": 0.8173134926497524,
+        "mw": 415.17,
+        "logp": 2.291,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.403,
+        "sa_score": 3.41,
+        "n_heavy_atoms": 29,
+        "tpsa": 113.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PMM2-P69S Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1OCNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8173,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PMM2_P69S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PMM2_P69S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PMM2_P69S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PMM2_P69S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PMM2_P69S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PMM2-P69S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PMM2-P69S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:05:41.585848+00:00"
     }
   ]
 }
