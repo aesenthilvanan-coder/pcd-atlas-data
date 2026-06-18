@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2496,
+  "total_entries": 2497,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47269,
-    "queue_remaining": 131328
+    "total_processed": 47270,
+    "queue_remaining": 131327
   },
   "entries": [
     {
@@ -584533,6 +584533,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T14:23:39.405414+00:00"
+    },
+    {
+      "entry_id": "PCD-SGCE-I131V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SGCE-I131V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SGCE",
+        "uniprot": "",
+        "clinvar_id": "374642",
+        "disease": "not provided",
+        "mutation_precursor": "I131V",
+        "mutation_mature": "I131V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9001514192257719,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 463.81321486784316,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.799408912658691,
+          -22.489965438842773,
+          9.7496919631958
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.074670924579462,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.867732437954013,
+        "cryptic": true,
+        "pocket_residues": {
+          "E130": "E",
+          "I131": "I",
+          "T132": "T",
+          "A133": "A",
+          "T141": "T",
+          "A142": "A",
+          "R143": "R",
+          "H144": "H"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43556|SGCE variant I131V",
+        "fasta_sequence": "MQLPRWWELGDPCAWTGQGRGTRRMSPATTGTFLLTVYSIFSKVHSDRNVYPSAGVLFVHVLEREYFKGEFPPYPKPGEISNDPITFNTNLMGYPDRPGWLRYIQRTPYSDGVLYGSPTAENVGKPTIIEITAYNRRTFETARHNLIINIMSAEDFPLPYQAEFFIKNMNVEEMLASEVLGDFLGAVKNVWQPERLNAINITSALDRGGRVPLPINDLKEGVYVMVGADVPFSSCLREVENPQNQLRCSQEMEPVITCDKKFRTQFYIDWCKISLVDKTKQVSTYQEVIRGEGILPDGGEYKPPSDSLKSRDYYTDFLITLAVPSAVALVLFLILAYIMCCRREGVEKRNMQTPDIQLVHHSAIQKSTKELRDMSKNREIAWPLSTLPVFHPVTGEIIPPLHTDNYDSTNMPLMQTQQNLPHQTQIPQQQTTGKWYP",
+        "full_sequence": "MQLPRWWELGDPCAWTGQGRGTRRMSPATTGTFLLTVYSIFSKVHSDRNVYPSAGVLFVHVLEREYFKGEFPPYPKPGEISNDPITFNTNLMGYPDRPGWLRYIQRTPYSDGVLYGSPTAENVGKPTIIEITAYNRRTFETARHNLIINIMSAEDFPLPYQAEFFIKNMNVEEMLASEVLGDFLGAVKNVWQPERLNAINITSALDRGGRVPLPINDLKEGVYVMVGADVPFSSCLREVENPQNQLRCSQEMEPVITCDKKFRTQFYIDWCKISLVDKTKQVSTYQEVIRGEGILPDGGEYKPPSDSLKSRDYYTDFLITLAVPSAVALVLFLILAYIMCCRREGVEKRNMQTPDIQLVHHSAIQKSTKELRDMSKNREIAWPLSTLPVFHPVTGEIIPPLHTDNYDSTNMPLMQTQQNLPHQTQIPQQQTTGKWYP",
+        "n_residues": 437,
+        "mutation_pos_1indexed": 131,
+        "wt_aa": "I",
+        "mut_aa": "V",
+        "pocket_lining_residues": "E130-I131-T132-A133-T141-A142-R143-H144",
+        "pocket_lining_positions_precursor": [
+          130,
+          131,
+          132,
+          133,
+          141,
+          142,
+          143,
+          144
+        ],
+        "pocket_lining_1letter": "EITATARH",
+        "sequence_slice_around_pocket": "ENVGKPTIIEITAYNRRTFE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SGCE_I131V/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "E130",
+          "I131",
+          "T132",
+          "A133",
+          "T141",
+          "A142",
+          "R143",
+          "H144"
+        ],
+        "values": [
+          [
+            0.0,
+            3.839,
+            6.413,
+            9.795,
+            12.301,
+            10.43,
+            6.959,
+            6.004
+          ],
+          [
+            3.839,
+            0.0,
+            3.82,
+            6.367,
+            10.079,
+            8.184,
+            5.651,
+            5.124
+          ],
+          [
+            6.413,
+            3.82,
+            0.0,
+            3.805,
+            6.551,
+            5.733,
+            4.591,
+            6.598
+          ],
+          [
+            9.795,
+            6.367,
+            3.805,
+            0.0,
+            5.59,
+            5.153,
+            6.344,
+            8.271
+          ],
+          [
+            12.301,
+            10.079,
+            6.551,
+            5.59,
+            0.0,
+            3.805,
+            6.711,
+            10.241
+          ],
+          [
+            10.43,
+            8.184,
+            5.733,
+            5.153,
+            3.805,
+            0.0,
+            3.845,
+            6.915
+          ],
+          [
+            6.959,
+            5.651,
+            4.591,
+            6.344,
+            6.711,
+            3.845,
+            0.0,
+            3.803
+          ],
+          [
+            6.004,
+            5.124,
+            6.598,
+            8.271,
+            10.241,
+            6.915,
+            3.803,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.873519078116067,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SGCE-I131V Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8735,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SGCE_I131V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SGCE_I131V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SGCE_I131V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SGCE_I131V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SGCE_I131V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SGCE-I131V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SGCE-I131V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T14:24:07.082164+00:00"
     }
   ]
 }
