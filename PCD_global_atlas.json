@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1919,
+  "total_entries": 1920,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46603,
-    "queue_remaining": 131994
+    "total_processed": 46604,
+    "queue_remaining": 131993
   },
   "entries": [
     {
@@ -435696,6 +435696,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:04:22.744693+00:00"
+    },
+    {
+      "entry_id": "PCD-TMEM240-G66R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMEM240-G66R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TMEM240",
+        "uniprot": "",
+        "clinvar_id": "372833",
+        "disease": "not provided",
+        "mutation_precursor": "G66R",
+        "mutation_mature": "G66R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8412130561405766,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 642.0669044460702,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          15.252975463867188,
+          4.9129319190979,
+          -36.434913635253906
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.61084041189145,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7011041876106543,
+        "cryptic": true,
+        "pocket_residues": {
+          "G66": "G",
+          "D67": "D",
+          "D72": "D"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q5SV17|TMEM240 variant G66R",
+        "fasta_sequence": "MSMSANTMIFMILGASVVMAIACLMDMNALLDRFHNYILPHLRGEDRVCHCNCGRHHIHYVIPYDGDQSVVDASENYFVTDSVTKQEIDLMLGLLLGFCISWFLVWMDGVLHCAVRAWRAGRRYDGSWTWLPKLCSLRELGRRPHRPFEEAAGNMVHVKQKLYHNGHPSPRHL",
+        "full_sequence": "MSMSANTMIFMILGASVVMAIACLMDMNALLDRFHNYILPHLRGEDRVCHCNCGRHHIHYVIPYDGDQSVVDASENYFVTDSVTKQEIDLMLGLLLGFCISWFLVWMDGVLHCAVRAWRAGRRYDGSWTWLPKLCSLRELGRRPHRPFEEAAGNMVHVKQKLYHNGHPSPRHL",
+        "n_residues": 173,
+        "mutation_pos_1indexed": 66,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "G66-D67-D72",
+        "pocket_lining_positions_precursor": [
+          66,
+          67,
+          72
+        ],
+        "pocket_lining_1letter": "GDD",
+        "sequence_slice_around_pocket": "HHIHYVIPYDGDQSVVDASE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM240_G66R/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "G66",
+          "D67",
+          "D72"
+        ],
+        "values": [
+          [
+            0.0,
+            3.839,
+            11.806
+          ],
+          [
+            3.839,
+            0.0,
+            9.446
+          ],
+          [
+            11.806,
+            9.446,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7085121521956083,
+        "mw": 316.23,
+        "logp": 1.954,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8995,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 23,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TMEM240-G66R Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7085,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM240_G66R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM240_G66R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM240_G66R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM240_G66R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM240_G66R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMEM240-G66R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMEM240-G66R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:04:46.912127+00:00"
     }
   ]
 }
