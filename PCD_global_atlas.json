@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2423,
+  "total_entries": 2424,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47184,
-    "queue_remaining": 131413
+    "total_processed": 47185,
+    "queue_remaining": 131412
   },
   "entries": [
     {
@@ -566340,6 +566340,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:13:36.103186+00:00"
+    },
+    {
+      "entry_id": "PCD-NDP-A105V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDP-A105V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NDP",
+        "uniprot": "",
+        "clinvar_id": "374014",
+        "disease": "Persistent hyperplastic primary vitreous;High myopia;Short lingual frenulum;Nyst",
+        "mutation_precursor": "A105V",
+        "mutation_mature": "A105V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7653158864022968,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 362.5871992037064,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -11.543326377868652,
+          5.058920383453369,
+          9.684582710266113
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.319442537731874,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6656552319604646,
+        "cryptic": true,
+        "pocket_residues": {
+          "K102": "K",
+          "L103": "L",
+          "K104": "K",
+          "A105": "A",
+          "L106": "L",
+          "A118": "A",
+          "T119": "T",
+          "Y120": "Y",
+          "R121": "R",
+          "Y122": "Y"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q00604|NDP variant A105V",
+        "fasta_sequence": "MRKHVLAASFSMLSLLVIMGDTDSKTDSSFIMDSDPRRCMRHHYVDSISHPLYKCSSKMVLLARCEGHCSQASRSEPLVSFSTVLKQPFRSSCHCCRPQTSKLKALRLRCSGGMRLTATYRYILSCHCEECNS",
+        "full_sequence": "MRKHVLAASFSMLSLLVIMGDTDSKTDSSFIMDSDPRRCMRHHYVDSISHPLYKCSSKMVLLARCEGHCSQASRSEPLVSFSTVLKQPFRSSCHCCRPQTSKLKALRLRCSGGMRLTATYRYILSCHCEECNS",
+        "n_residues": 133,
+        "mutation_pos_1indexed": 105,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "K102-L103-K104-A105-L106-A118-T119-Y120-R121-Y122",
+        "pocket_lining_positions_precursor": [
+          102,
+          103,
+          104,
+          105,
+          106,
+          118,
+          119,
+          120,
+          121,
+          122
+        ],
+        "pocket_lining_1letter": "KLKALATYRY",
+        "sequence_slice_around_pocket": "CCRPQTSKLKALRLRCSGGM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NDP_A105V/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "K102",
+          "L103",
+          "K104",
+          "A105",
+          "L106",
+          "A118",
+          "T119",
+          "Y120",
+          "R121",
+          "Y122"
+        ],
+        "values": [
+          [
+            0.0,
+            3.817,
+            6.291,
+            10.02,
+            13.077,
+            14.084,
+            10.598,
+            8.471,
+            5.531,
+            5.131
+          ],
+          [
+            3.817,
+            0.0,
+            3.848,
+            6.979,
+            10.439,
+            10.797,
+            7.189,
+            6.013,
+            4.653,
+            6.323
+          ],
+          [
+            6.291,
+            3.848,
+            0.0,
+            3.808,
+            6.856,
+            8.489,
+            5.756,
+            5.458,
+            5.972,
+            6.685
+          ],
+          [
+            10.02,
+            6.979,
+            3.808,
+            0.0,
+            3.834,
+            5.756,
+            4.507,
+            6.549,
+            8.792,
+            10.019
+          ],
+          [
+            13.077,
+            10.439,
+            6.856,
+            3.834,
+            0.0,
+            5.151,
+            6.344,
+            8.365,
+            11.188,
+            11.873
+          ],
+          [
+            14.084,
+            10.797,
+            8.489,
+            5.756,
+            5.151,
+            0.0,
+            3.846,
+            6.877,
+            10.611,
+            12.702
+          ],
+          [
+            10.598,
+            7.189,
+            5.756,
+            4.507,
+            6.344,
+            3.846,
+            0.0,
+            3.818,
+            7.216,
+            9.814
+          ],
+          [
+            8.471,
+            6.013,
+            5.458,
+            6.549,
+            8.365,
+            6.877,
+            3.818,
+            0.0,
+            3.835,
+            6.54
+          ],
+          [
+            5.531,
+            4.653,
+            5.972,
+            8.792,
+            11.188,
+            10.611,
+            7.216,
+            3.835,
+            0.0,
+            3.81
+          ],
+          [
+            5.131,
+            6.323,
+            6.685,
+            10.019,
+            11.873,
+            12.702,
+            9.814,
+            6.54,
+            3.81,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6558327629200129,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NDP-A105V Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6558,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NDP_A105V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NDP_A105V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NDP_A105V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDP_A105V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDP_A105V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDP-A105V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDP-A105V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:14:03.847854+00:00"
     }
   ]
 }
