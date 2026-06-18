@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1460,
+  "total_entries": 1461,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46100,
-    "queue_remaining": 132497
+    "total_processed": 46101,
+    "queue_remaining": 132496
   },
   "entries": [
     {
@@ -323541,6 +323541,171 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:01:54.525908+00:00"
+    },
+    {
+      "entry_id": "PCD-AXIN2-M210T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AXIN2-M210T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AXIN2",
+        "uniprot": "",
+        "clinvar_id": "324682",
+        "disease": "Oligodontia-cancer predisposition syndrome",
+        "mutation_precursor": "M210T",
+        "mutation_mature": "M210T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7805109396831916,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 512.3169556798538,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.029107093811035,
+          4.622762203216553,
+          -3.3289995193481445
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.654658793408795,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8662694296535626,
+        "cryptic": true,
+        "pocket_residues": {
+          "D90": "D",
+          "N206": "N",
+          "T207": "T",
+          "A208": "A",
+          "Y209": "Y",
+          "M210": "M"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y2T1|AXIN2 variant M210T",
+        "fasta_sequence": "MSSAMLVTCLPDPSSSFREDAPRPPVPGEEGETPPCQPGVGKGQVTKPMPVSSNTRRNEDGLGEPEGRASPDSPLTRWTKSLHSLLGDQDGAYLFRTFLEREKCVDTLDFWFACNGFRQMNLKDTKTLRVAKAIYKRYIENNSIVSKQLKPATKTYIRDGIKKQQIDSIMFDQAQTEIQSVMEENAYQMFLTSDIYLEYVRSGGENTAYMSNGGLGSLKVVCGYLPTLNEEEEWTCADFKCKLSPTVVGLSSKTLRATASVRSTETVDSGYRSFKRSDPVNPYHIGSGYVFAPATSANDSEISSDALTDDSMSMTDSSVDGIPPYRVGSKKQLQREMHRSVKANGQVSLPHFPRTHRLPKEMTPVEPATFAAELISRLEKLKLELESRHSLEERLQQIREDEEREGSELTLNSREGAPTQHPLSLLPSGSYEEDPQTILDDHLSRVLKTPGCQSPGVGRYSPRSRSPDHHHHHHSQYHSLLPPGGKLPPAAASPGACPLLGGKGFVTKQTTKHVHHHYIHHHAVPKTKEEIEAEATQRVHCFCPGGSEYYCYSKCKSHSKAPETMPSEQFGGSRGSTLPKRNGKGTEPGLALPAREGGAPGGAGALQLPREEGDRSQDVWQWMLESERQSKPKPHSAQSTKKAYPLESARSSPGERASRHHLWGGNSGHPRTTPRAHLFTQDPAMPPLTPPNTLAQLEEACRRLAEVSKPPKQRCCVASQQRDRNHSATVQTGATPFSNPSLAPEDHKEPKKLAGVHALQASELVVTYFFCGEEIPYRRMLKAQSLTLGHFKEQLSKKGNYRYYFKKASDEFACGAVFEEIWEDETVLPMYEGRILGKVERID",
+        "full_sequence": "MSSAMLVTCLPDPSSSFREDAPRPPVPGEEGETPPCQPGVGKGQVTKPMPVSSNTRRNEDGLGEPEGRASPDSPLTRWTKSLHSLLGDQDGAYLFRTFLEREKCVDTLDFWFACNGFRQMNLKDTKTLRVAKAIYKRYIENNSIVSKQLKPATKTYIRDGIKKQQIDSIMFDQAQTEIQSVMEENAYQMFLTSDIYLEYVRSGGENTAYMSNGGLGSLKVVCGYLPTLNEEEEWTCADFKCKLSPTVVGLSSKTLRATASVRSTETVDSGYRSFKRSDPVNPYHIGSGYVFAPATSANDSEISSDALTDDSMSMTDSSVDGIPPYRVGSKKQLQREMHRSVKANGQVSLPHFPRTHRLPKEMTPVEPATFAAELISRLEKLKLELESRHSLEERLQQIREDEEREGSELTLNSREGAPTQHPLSLLPSGSYEEDPQTILDDHLSRVLKTPGCQSPGVGRYSPRSRSPDHHHHHHSQYHSLLPPGGKLPPAAASPGACPLLGGKGFVTKQTTKHVHHHYIHHHAVPKTKEEIEAEATQRVHCFCPGGSEYYCYSKCKSHSKAPETMPSEQFGGSRGSTLPKRNGKGTEPGLALPAREGGAPGGAGALQLPREEGDRSQDVWQWMLESERQSKPKPHSAQSTKKAYPLESARSSPGERASRHHLWGGNSGHPRTTPRAHLFTQDPAMPPLTPPNTLAQLEEACRRLAEVSKPPKQRCCVASQQRDRNHSATVQTGATPFSNPSLAPEDHKEPKKLAGVHALQASELVVTYFFCGEEIPYRRMLKAQSLTLGHFKEQLSKKGNYRYYFKKASDEFACGAVFEEIWEDETVLPMYEGRILGKVERID",
+        "n_residues": 843,
+        "mutation_pos_1indexed": 210,
+        "wt_aa": "M",
+        "mut_aa": "T",
+        "pocket_lining_residues": "D90-N206-T207-A208-Y209-M210",
+        "pocket_lining_positions_precursor": [
+          90,
+          206,
+          207,
+          208,
+          209,
+          210
+        ],
+        "pocket_lining_1letter": "DNTAYM",
+        "sequence_slice_around_pocket": "VRSGGENTAYMSNGGLGSLK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AXIN2_M210T/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "D90",
+          "N206",
+          "T207",
+          "A208",
+          "Y209",
+          "M210"
+        ],
+        "values": [
+          [
+            0.0,
+            7.275,
+            10.577,
+            9.712,
+            8.952,
+            12.65
+          ],
+          [
+            7.275,
+            0.0,
+            3.856,
+            5.516,
+            6.113,
+            8.122
+          ],
+          [
+            10.577,
+            3.856,
+            0.0,
+            3.852,
+            5.57,
+            5.74
+          ],
+          [
+            9.712,
+            5.516,
+            3.852,
+            0.0,
+            3.883,
+            5.274
+          ],
+          [
+            8.952,
+            6.113,
+            5.57,
+            3.883,
+            0.0,
+            3.869
+          ],
+          [
+            12.65,
+            8.122,
+            5.74,
+            5.274,
+            3.869,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1CC(=O)CCC1CNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.8083819025868157,
+        "mw": 387.13,
+        "logp": 2.472,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.7321,
+        "sa_score": 2.96,
+        "n_heavy_atoms": 27,
+        "tpsa": 95.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AXIN2-M210T Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1CC(=O)CCC1CNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.8084,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AXIN2_M210T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AXIN2_M210T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AXIN2_M210T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AXIN2_M210T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AXIN2_M210T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AXIN2-M210T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AXIN2-M210T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:02:29.631851+00:00"
     }
   ]
 }
