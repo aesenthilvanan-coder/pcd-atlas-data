@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1924,
+  "total_entries": 1925,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46610,
-    "queue_remaining": 131987
+    "total_processed": 46611,
+    "queue_remaining": 131986
   },
   "entries": [
     {
@@ -436688,6 +436688,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:07:29.698232+00:00"
+    },
+    {
+      "entry_id": "PCD-ACADM-T247A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACADM-T247A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ACADM",
+        "uniprot": "",
+        "clinvar_id": "373420",
+        "disease": "not provided",
+        "mutation_precursor": "T247A",
+        "mutation_mature": "T247A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9104340689026201,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 351.690949271363,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.02332448959350586,
+          14.186230659484863,
+          -1.0579113960266113
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.230485481448347,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6188847421391778,
+        "cryptic": true,
+        "pocket_residues": {
+          "M190": "M",
+          "W191": "W",
+          "I192": "I",
+          "T193": "T",
+          "E237": "E",
+          "N239": "N",
+          "D246": "D",
+          "T247": "T",
+          "R248": "R",
+          "G249": "G"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P11310|ACADM variant T247A",
+        "fasta_sequence": "MAAGFGRCCRVLRSISRFHWRSQHTKANRQREPGLGFSFEFTEQQKEFQATARKFAREEIIPVAAEYDKTGEYPVPLIRRAWELGLMNTHIPENCGGLGLGTFDACLISEELAYGCTGVQTAIEGNSLGQMPIIIAGNDQQKKKYLGRMTEEPLMCAYCVTEPGAGSDVAGIKTKAEKKGDEYIINGQKMWITNGGKANWYFLLARSDPDPKAPANKAFTGFIVEADTPGIQIGRKELNMGQRCSDTRGIVFEDVKVPKENVLIGDGAGFKVAMGAFDKTRPVVAAGAVGLAQRALDEATKYALERKTFGKLLVEHQAISFMLAEMAMKVELARMSYQRAAWEVDSGRRNTYYASIAKAFAGDIANQLATDAVQILGGNGFNTEYPVEKLMRDAKIYQIYEGTSQIQRLIVAREHIDKYKN",
+        "full_sequence": "MAAGFGRCCRVLRSISRFHWRSQHTKANRQREPGLGFSFEFTEQQKEFQATARKFAREEIIPVAAEYDKTGEYPVPLIRRAWELGLMNTHIPENCGGLGLGTFDACLISEELAYGCTGVQTAIEGNSLGQMPIIIAGNDQQKKKYLGRMTEEPLMCAYCVTEPGAGSDVAGIKTKAEKKGDEYIINGQKMWITNGGKANWYFLLARSDPDPKAPANKAFTGFIVEADTPGIQIGRKELNMGQRCSDTRGIVFEDVKVPKENVLIGDGAGFKVAMGAFDKTRPVVAAGAVGLAQRALDEATKYALERKTFGKLLVEHQAISFMLAEMAMKVELARMSYQRAAWEVDSGRRNTYYASIAKAFAGDIANQLATDAVQILGGNGFNTEYPVEKLMRDAKIYQIYEGTSQIQRLIVAREHIDKYKN",
+        "n_residues": 421,
+        "mutation_pos_1indexed": 247,
+        "wt_aa": "T",
+        "mut_aa": "A",
+        "pocket_lining_residues": "M190-W191-I192-T193-E237-N239-D246-T247-R248-G249",
+        "pocket_lining_positions_precursor": [
+          190,
+          191,
+          192,
+          193,
+          237,
+          239,
+          246,
+          247,
+          248,
+          249
+        ],
+        "pocket_lining_1letter": "MWITENDTRG",
+        "sequence_slice_around_pocket": "ELNMGQRCSDTRGIVFEDVK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ACADM_T247A/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "M190",
+          "W191",
+          "I192",
+          "T193",
+          "E237",
+          "N239",
+          "D246",
+          "T247",
+          "R248",
+          "G249"
+        ],
+        "values": [
+          [
+            0.0,
+            3.829,
+            5.571,
+            9.187,
+            9.884,
+            13.041,
+            12.006,
+            8.356,
+            6.258,
+            4.168
+          ],
+          [
+            3.829,
+            0.0,
+            3.835,
+            6.365,
+            8.099,
+            10.119,
+            9.266,
+            5.514,
+            5.301,
+            5.805
+          ],
+          [
+            5.571,
+            3.835,
+            0.0,
+            3.833,
+            9.813,
+            12.466,
+            7.966,
+            5.165,
+            5.217,
+            6.328
+          ],
+          [
+            9.187,
+            6.365,
+            3.833,
+            0.0,
+            10.233,
+            11.85,
+            5.653,
+            4.504,
+            6.856,
+            9.392
+          ],
+          [
+            9.884,
+            8.099,
+            9.813,
+            10.233,
+            0.0,
+            6.127,
+            7.748,
+            5.779,
+            5.707,
+            8.049
+          ],
+          [
+            13.041,
+            10.119,
+            12.466,
+            11.85,
+            6.127,
+            0.0,
+            10.02,
+            8.545,
+            10.505,
+            12.91
+          ],
+          [
+            12.006,
+            9.266,
+            7.966,
+            5.653,
+            7.748,
+            10.02,
+            0.0,
+            3.853,
+            6.697,
+            10.41
+          ],
+          [
+            8.356,
+            5.514,
+            5.165,
+            4.504,
+            5.779,
+            8.545,
+            3.853,
+            0.0,
+            3.835,
+            7.334
+          ],
+          [
+            6.258,
+            5.301,
+            5.217,
+            6.856,
+            5.707,
+            10.505,
+            6.697,
+            3.835,
+            0.0,
+            3.764
+          ],
+          [
+            4.168,
+            5.805,
+            6.328,
+            9.392,
+            8.049,
+            12.91,
+            10.41,
+            7.334,
+            3.764,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.9058263120646908,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ACADM-T247A Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9058,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ACADM_T247A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ACADM_T247A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ACADM_T247A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACADM_T247A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACADM_T247A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACADM-T247A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACADM-T247A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:07:55.692746+00:00"
     }
   ]
 }
