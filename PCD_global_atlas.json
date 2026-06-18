@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1829,
+  "total_entries": 1830,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46505,
-    "queue_remaining": 132092
+    "total_processed": 46506,
+    "queue_remaining": 132091
   },
   "entries": [
     {
@@ -411959,6 +411959,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:18:14.707998+00:00"
+    },
+    {
+      "entry_id": "PCD-GCDH-P248L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GCDH-P248L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GCDH",
+        "uniprot": "",
+        "clinvar_id": "370244",
+        "disease": "not provided",
+        "mutation_precursor": "P248L",
+        "mutation_mature": "P248L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8498303746320579,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 563.2273889491022,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          20.35443115234375,
+          -2.728250741958618,
+          5.841501235961914
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.263342732562104,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8416542793296461,
+        "cryptic": true,
+        "pocket_residues": {
+          "P248": "P",
+          "R249": "R",
+          "I250": "I"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q92947|GCDH variant P248L",
+        "fasta_sequence": "MALRGVSVRLLSRGPGLHVLRTWVSSAAQTEKGGRTQSQLAKSSRPEFDWQDPLVLEEQLTTDEILIRDTFRTYCQERLMPRILLANRNEVFHREIISEMGELGVLGPTIKGYGCAGVSSVAYGLLARELERVDSGYRSAMSVQSSLVMHPIYAYGSEEQRQKYLPQLAKGELLGCFGLTEPNSGSDPSSMETRAHYNSSNKSYTLNGTKTWITNSPMADLFVVWARCEDGCIRGFLLEKGMRGLSAPRIQGKFSLRASATGMIIMDGVEVPEENVLPGASSLGGPFGCLNNARYGIAWGVLGASEFCLHTARQYALDRMQFGVPLARNQLIQKKLADMLTEITLGLHACLQLGRLKDQDKAAPEMVSLLKRNNCGKALDIARQARDMLGGNGISDEYHVIRHAMNLEAVNTYEGTHDIHALILGRAITGIQAFTASK",
+        "full_sequence": "MALRGVSVRLLSRGPGLHVLRTWVSSAAQTEKGGRTQSQLAKSSRPEFDWQDPLVLEEQLTTDEILIRDTFRTYCQERLMPRILLANRNEVFHREIISEMGELGVLGPTIKGYGCAGVSSVAYGLLARELERVDSGYRSAMSVQSSLVMHPIYAYGSEEQRQKYLPQLAKGELLGCFGLTEPNSGSDPSSMETRAHYNSSNKSYTLNGTKTWITNSPMADLFVVWARCEDGCIRGFLLEKGMRGLSAPRIQGKFSLRASATGMIIMDGVEVPEENVLPGASSLGGPFGCLNNARYGIAWGVLGASEFCLHTARQYALDRMQFGVPLARNQLIQKKLADMLTEITLGLHACLQLGRLKDQDKAAPEMVSLLKRNNCGKALDIARQARDMLGGNGISDEYHVIRHAMNLEAVNTYEGTHDIHALILGRAITGIQAFTASK",
+        "n_residues": 438,
+        "mutation_pos_1indexed": 248,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "P248-R249-I250",
+        "pocket_lining_positions_precursor": [
+          248,
+          249,
+          250
+        ],
+        "pocket_lining_1letter": "PRI",
+        "sequence_slice_around_pocket": "LEKGMRGLSAPRIQGKFSLR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GCDH_P248L/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "P248",
+          "R249",
+          "I250"
+        ],
+        "values": [
+          [
+            0.0,
+            3.833,
+            6.678
+          ],
+          [
+            3.833,
+            0.0,
+            3.846
+          ],
+          [
+            6.678,
+            3.846,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(N)cc1CC(=O)NC(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.5429416840900577,
+        "mw": 368.18,
+        "logp": 2.162,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.7851,
+        "sa_score": 2.35,
+        "n_heavy_atoms": 27,
+        "tpsa": 97.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GCDH-P248L Candidate #1",
+        "iupac_name": "COc1ccc(N)cc1CC(=O)NC(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.5429,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GCDH_P248L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GCDH_P248L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GCDH_P248L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GCDH_P248L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GCDH_P248L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GCDH-P248L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GCDH-P248L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:18:39.823875+00:00"
     }
   ]
 }
