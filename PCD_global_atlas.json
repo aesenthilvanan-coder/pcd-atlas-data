@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2400,
+  "total_entries": 2401,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47156,
-    "queue_remaining": 131441
+    "total_processed": 47157,
+    "queue_remaining": 131440
   },
   "entries": [
     {
@@ -560665,6 +560665,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T12:51:40.437072+00:00"
+    },
+    {
+      "entry_id": "PCD-GFAP-Y349S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GFAP-Y349S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GFAP",
+        "uniprot": "",
+        "clinvar_id": "374003",
+        "disease": "Scoliosis",
+        "mutation_precursor": "Y349S",
+        "mutation_mature": "Y349S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7715347364596773,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 638.1372340834994,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          61.0994987487793,
+          7.146716117858887,
+          -29.79034423828125
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.232591490597932,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6238589342759536,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y349": "Y",
+          "Q350": "Q",
+          "D351": "D",
+          "L352": "L",
+          "L353": "L",
+          "N354": "N",
+          "V355": "V",
+          "K356": "K",
+          "L357": "L"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P14136|GFAP variant Y349S",
+        "fasta_sequence": "MERRRITSAARRSYVSSGEMMVGGLAPGRRLGPGTRLSLARMPPPLPTRVDFSLAGALNAGFKETRASERAEMMELNDRFASYIEKVRFLEQQNKALAAELNQLRAKEPTKLADVYQAELRELRLRLDQLTANSARLEVERDNLAQDLATVRQKLQDETNLRLEAENNLAAYRQEADEATLARLDLERKIESLEEEIRFLRKIHEEEVRELQEQLARQQVHVELDVAKPDLTAALKEIRTQYEAMASSNMHEAEEWYRSKFADLTDAAARNAELLRQAKHEANDYRRQLQSLTCDLESLRGTNESLERQMREQEERHVREAASYQEALARLEEEGQSLKDEMARHLQEYQDLLNVKLALDIEIATYRKLLEGEENRITIPVQTFSNLQIRETSLDTKSVSEGHLKRNIVVKTVEMRDGEVIKESKQEHKDVM",
+        "full_sequence": "MERRRITSAARRSYVSSGEMMVGGLAPGRRLGPGTRLSLARMPPPLPTRVDFSLAGALNAGFKETRASERAEMMELNDRFASYIEKVRFLEQQNKALAAELNQLRAKEPTKLADVYQAELRELRLRLDQLTANSARLEVERDNLAQDLATVRQKLQDETNLRLEAENNLAAYRQEADEATLARLDLERKIESLEEEIRFLRKIHEEEVRELQEQLARQQVHVELDVAKPDLTAALKEIRTQYEAMASSNMHEAEEWYRSKFADLTDAAARNAELLRQAKHEANDYRRQLQSLTCDLESLRGTNESLERQMREQEERHVREAASYQEALARLEEEGQSLKDEMARHLQEYQDLLNVKLALDIEIATYRKLLEGEENRITIPVQTFSNLQIRETSLDTKSVSEGHLKRNIVVKTVEMRDGEVIKESKQEHKDVM",
+        "n_residues": 432,
+        "mutation_pos_1indexed": 349,
+        "wt_aa": "Y",
+        "mut_aa": "S",
+        "pocket_lining_residues": "Y349-Q350-D351-L352-L353-N354-V355-K356-L357",
+        "pocket_lining_positions_precursor": [
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357
+        ],
+        "pocket_lining_1letter": "YQDLLNVKL",
+        "sequence_slice_around_pocket": "KDEMARHLQEYQDLLNVKLA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_Y349S/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "Y349",
+          "Q350",
+          "D351",
+          "L352",
+          "L353",
+          "N354",
+          "V355",
+          "K356",
+          "L357"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            5.473,
+            5.026,
+            6.122,
+            8.627,
+            9.863,
+            10.37,
+            12.312
+          ],
+          [
+            3.841,
+            0.0,
+            3.843,
+            5.437,
+            5.02,
+            6.21,
+            8.737,
+            9.769,
+            10.566
+          ],
+          [
+            5.473,
+            3.843,
+            0.0,
+            3.852,
+            5.45,
+            5.044,
+            6.315,
+            8.669,
+            9.94
+          ],
+          [
+            5.026,
+            5.437,
+            3.852,
+            0.0,
+            3.846,
+            5.41,
+            5.085,
+            6.155,
+            8.691
+          ],
+          [
+            6.122,
+            5.02,
+            5.45,
+            3.846,
+            0.0,
+            3.847,
+            5.486,
+            4.985,
+            6.222
+          ],
+          [
+            8.627,
+            6.21,
+            5.044,
+            5.41,
+            3.847,
+            0.0,
+            3.87,
+            5.443,
+            5.168
+          ],
+          [
+            9.863,
+            8.737,
+            6.315,
+            5.085,
+            5.486,
+            3.87,
+            0.0,
+            3.851,
+            5.493
+          ],
+          [
+            10.37,
+            9.769,
+            8.669,
+            6.155,
+            4.985,
+            5.443,
+            3.851,
+            0.0,
+            3.842
+          ],
+          [
+            12.312,
+            10.566,
+            9.94,
+            8.691,
+            6.222,
+            5.168,
+            5.493,
+            3.842,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1NCCNCc1c[nH]c2ccccc12",
+        "composite_score": 0.7920556360263707,
+        "mw": 456.23,
+        "logp": 1.97,
+        "hbd": 5,
+        "hba": 6,
+        "rotatable_bonds": 9,
+        "qed": 0.3132,
+        "sa_score": 3.24,
+        "n_heavy_atoms": 32,
+        "tpsa": 129.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GFAP-Y349S Candidate #1",
+        "iupac_name": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1NCCNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7921,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_Y349S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_Y349S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_Y349S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_Y349S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_Y349S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GFAP-Y349S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GFAP-Y349S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T12:52:09.823990+00:00"
     }
   ]
 }
