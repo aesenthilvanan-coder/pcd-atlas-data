@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1809,
+  "total_entries": 1810,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46485,
-    "queue_remaining": 132112
+    "total_processed": 46486,
+    "queue_remaining": 132111
   },
   "entries": [
     {
@@ -405697,6 +405697,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:06:54.366639+00:00"
+    },
+    {
+      "entry_id": "PCD-ASPA-M1T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ASPA-M1T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ASPA",
+        "uniprot": "",
+        "clinvar_id": "370934",
+        "disease": "Spongy degeneration of central nervous system",
+        "mutation_precursor": "M1T",
+        "mutation_mature": "M1T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8029235919160417,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 537.6660696462553,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -17.841249465942383,
+          -35.9039421081543,
+          10.357531547546387
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.105295082574023,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7818834859531616,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "T2": "T",
+          "S3": "S"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P45381|ASPA variant M1T",
+        "fasta_sequence": "MTSCHIAEEHIQKVAIFGGTHGNELTGVFLVKHWLENGAEIQRTGLEVKPFITNPRAVKKCTRYIDCDLNRIFDLENLGKKMSEDLPYEVRRAQEINHLFGPKDSEDSYDIIFDLHNTTSNMGCTLILEDSRNNFLIQMFHYIKTSLAPLPCYVYLIEHPSLKYATTRSIAKYPVGIEVGPQPQGVLRADILDQMRKMIKHALDFIHHFNEGKEFPPCAIEVYKIIEKVDYPRDENGEIAAIIHPNLQDQDWKPLHPGDPMFLTLDGKTIPLGGDCTVYPVFVNEAAYYEKKEAFAKTTKLTLNAKSIRCCLH",
+        "full_sequence": "MTSCHIAEEHIQKVAIFGGTHGNELTGVFLVKHWLENGAEIQRTGLEVKPFITNPRAVKKCTRYIDCDLNRIFDLENLGKKMSEDLPYEVRRAQEINHLFGPKDSEDSYDIIFDLHNTTSNMGCTLILEDSRNNFLIQMFHYIKTSLAPLPCYVYLIEHPSLKYATTRSIAKYPVGIEVGPQPQGVLRADILDQMRKMIKHALDFIHHFNEGKEFPPCAIEVYKIIEKVDYPRDENGEIAAIIHPNLQDQDWKPLHPGDPMFLTLDGKTIPLGGDCTVYPVFVNEAAYYEKKEAFAKTTKLTLNAKSIRCCLH",
+        "n_residues": 313,
+        "mutation_pos_1indexed": 1,
+        "wt_aa": "M",
+        "mut_aa": "T",
+        "pocket_lining_residues": "M1-T2-S3",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3
+        ],
+        "pocket_lining_1letter": "MTS",
+        "sequence_slice_around_pocket": "MTSCHIAEEH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ASPA_M1T/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "M1",
+          "T2",
+          "S3"
+        ],
+        "values": [
+          [
+            0.0,
+            3.816,
+            6.002
+          ],
+          [
+            3.816,
+            0.0,
+            3.832
+          ],
+          [
+            6.002,
+            3.832,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)c1ccc(OC)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.5279251253765758,
+        "mw": 359.22,
+        "logp": 2.079,
+        "hbd": 1,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.7849,
+        "sa_score": 3.21,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ASPA-M1T Candidate #1",
+        "iupac_name": "CNCC(=O)c1ccc(OC)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5279,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ASPA_M1T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ASPA_M1T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ASPA_M1T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ASPA_M1T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ASPA_M1T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ASPA-M1T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ASPA-M1T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:07:17.977015+00:00"
     }
   ]
 }
