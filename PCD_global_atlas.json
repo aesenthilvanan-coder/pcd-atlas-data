@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1589,
+  "total_entries": 1590,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46243,
-    "queue_remaining": 132354
+    "total_processed": 46244,
+    "queue_remaining": 132353
   },
   "entries": [
     {
@@ -351207,6 +351207,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:34:56.310643+00:00"
+    },
+    {
+      "entry_id": "PCD-ITGB2-D283N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ITGB2-D283N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ITGB2",
+        "uniprot": "",
+        "clinvar_id": "340164",
+        "disease": "Leukocyte adhesion deficiency 1",
+        "mutation_precursor": "D283N",
+        "mutation_mature": "D283N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9246954618004537,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 455.22236649635903,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -13.854742050170898,
+          18.658395767211914,
+          -14.40150260925293
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.245100051440007,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8062088386630049,
+        "cryptic": true,
+        "pocket_residues": {
+          "P281": "P",
+          "N282": "N",
+          "D283": "D",
+          "G284": "G",
+          "P302": "P",
+          "Q306": "Q"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P05107|ITGB2 variant D283N",
+        "fasta_sequence": "MLGLRPPLLALVGLLSLGCVLSQECTKFKVSSCRECIESGPGCTWCQKLNFTGPGDPDSIRCDTRPQLLMRGCAADDIMDPTSLAETQEDHNGGQKQLSPQKVTLYLRPGQAAAFNVTFRRAKGYPIDLYYLMDLSYSMLDDLRNVKKLGGDLLRALNEITESGRIGFGSFVDKTVLPFVNTHPDKLRNPCPNKEKECQPPFAFRHVLKLTNNSNQFQTEVGKQLISGNLDAPEGGLDAMMQVAACPEEIGWRNVTRLLVFATDDGFHFAGDGKLGAILTPNDGRCHLEDNLYKRSNEFDYPSVGQLAHKLAENNIQPIFAVTSRMVKTYEKLTEIIPKSAVGELSEDSSNVVHLIKNAYNKLSSRVFLDHNALPDTLKVTYDSFCSNGVTHRNQPRGDCDGVQINVPITFQVKVTATECIQEQSFVIRALGFTDIVTVQVLPQCECRCRDQSRDRSLCHGKGFLECGICRCDTGYIGKNCECQTQGRSSQELEGSCRKDNNSIICSGLGDCVCGQCLCHTSDVPGKLIYGQYCECDTINCERYNGQVCGGPGRGLCFCGKCRCHPGFEGSACQCERTTEGCLNPRRVECSGRGRCRCNVCECHSGYQLPLCQECPGCPSPCGKYISCAECLKFEKGPFGKNCSAACPGLQLSNNPVKGRTCKERDSEGCWVAYTLEQQDGMDRYLIYVDESRECVAGPNIAAIVGGTVAGIVLIGILLLVIWKALIHLSDLREYRRFEKEKLKSQWNNDNPLFKSATTTVMNPKFAES",
+        "full_sequence": "MLGLRPPLLALVGLLSLGCVLSQECTKFKVSSCRECIESGPGCTWCQKLNFTGPGDPDSIRCDTRPQLLMRGCAADDIMDPTSLAETQEDHNGGQKQLSPQKVTLYLRPGQAAAFNVTFRRAKGYPIDLYYLMDLSYSMLDDLRNVKKLGGDLLRALNEITESGRIGFGSFVDKTVLPFVNTHPDKLRNPCPNKEKECQPPFAFRHVLKLTNNSNQFQTEVGKQLISGNLDAPEGGLDAMMQVAACPEEIGWRNVTRLLVFATDDGFHFAGDGKLGAILTPNDGRCHLEDNLYKRSNEFDYPSVGQLAHKLAENNIQPIFAVTSRMVKTYEKLTEIIPKSAVGELSEDSSNVVHLIKNAYNKLSSRVFLDHNALPDTLKVTYDSFCSNGVTHRNQPRGDCDGVQINVPITFQVKVTATECIQEQSFVIRALGFTDIVTVQVLPQCECRCRDQSRDRSLCHGKGFLECGICRCDTGYIGKNCECQTQGRSSQELEGSCRKDNNSIICSGLGDCVCGQCLCHTSDVPGKLIYGQYCECDTINCERYNGQVCGGPGRGLCFCGKCRCHPGFEGSACQCERTTEGCLNPRRVECSGRGRCRCNVCECHSGYQLPLCQECPGCPSPCGKYISCAECLKFEKGPFGKNCSAACPGLQLSNNPVKGRTCKERDSEGCWVAYTLEQQDGMDRYLIYVDESRECVAGPNIAAIVGGTVAGIVLIGILLLVIWKALIHLSDLREYRRFEKEKLKSQWNNDNPLFKSATTTVMNPKFAES",
+        "n_residues": 769,
+        "mutation_pos_1indexed": 283,
+        "wt_aa": "D",
+        "mut_aa": "N",
+        "pocket_lining_residues": "P281-N282-D283-G284-P302-Q306",
+        "pocket_lining_positions_precursor": [
+          281,
+          282,
+          283,
+          284,
+          302,
+          306
+        ],
+        "pocket_lining_1letter": "PNDGPQ",
+        "sequence_slice_around_pocket": "GKLGAILTPNDGRCHLEDNL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ITGB2_D283N/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "P281",
+          "N282",
+          "D283",
+          "G284",
+          "P302",
+          "Q306"
+        ],
+        "values": [
+          [
+            0.0,
+            3.82,
+            6.247,
+            9.062,
+            7.283,
+            10.477
+          ],
+          [
+            3.82,
+            0.0,
+            3.863,
+            5.712,
+            5.291,
+            8.708
+          ],
+          [
+            6.247,
+            3.863,
+            0.0,
+            3.874,
+            8.213,
+            9.203
+          ],
+          [
+            9.062,
+            5.712,
+            3.874,
+            0.0,
+            7.597,
+            7.407
+          ],
+          [
+            7.283,
+            5.291,
+            8.213,
+            7.597,
+            0.0,
+            6.329
+          ],
+          [
+            10.477,
+            8.708,
+            9.203,
+            7.407,
+            6.329,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.785433166691081,
+        "mw": 319.17,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.924,
+        "sa_score": 3.13,
+        "n_heavy_atoms": 23,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ITGB2-D283N Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7854,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ITGB2_D283N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ITGB2_D283N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ITGB2_D283N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ITGB2_D283N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ITGB2_D283N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ITGB2-D283N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ITGB2-D283N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:35:24.924850+00:00"
     }
   ]
 }
