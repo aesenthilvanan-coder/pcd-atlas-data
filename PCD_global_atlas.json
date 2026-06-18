@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1953,
+  "total_entries": 1954,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46642,
-    "queue_remaining": 131955
+    "total_processed": 46643,
+    "queue_remaining": 131954
   },
   "entries": [
     {
@@ -443505,6 +443505,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:38:06.366270+00:00"
+    },
+    {
+      "entry_id": "PCD-SRD5A2-G34R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SRD5A2-G34R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SRD5A2",
+        "uniprot": "",
+        "clinvar_id": "372518",
+        "disease": "not provided",
+        "mutation_precursor": "G34R",
+        "mutation_mature": "G34R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8187190881879665,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 604.4738346059913,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -18.553483963012695,
+          6.108504295349121,
+          8.181715965270996
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.0917789076060904,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6030100716682325,
+        "cryptic": true,
+        "pocket_residues": {
+          "G32": "G",
+          "Y33": "Y",
+          "G34": "G",
+          "K35": "K",
+          "H36": "H",
+          "T37": "T",
+          "R105": "R"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P31213|SRD5A2 variant G34R",
+        "fasta_sequence": "MQVQCQQSPVLAGSATLVALGALALYVAKPSGYGKHTESLKPAATRLPARAAWFLQELPSFAVPAGILARQPLSLFGPPGTVLLGLFCLHYFHRTFVYSLLNRGRPYPAILILRGTAFCTGNGVLQGYYLIYCAEYPDGWYTDIRFSLGVFLFILGMGINIHSDYILRQLRKPGEISYRIPQGGLFTYVSGANFLGEIIEWIGYALATWSLPALAFAFFSLCFLGLRAFHHHRFYLKMFEDYPKSRKALIPFIF",
+        "full_sequence": "MQVQCQQSPVLAGSATLVALGALALYVAKPSGYGKHTESLKPAATRLPARAAWFLQELPSFAVPAGILARQPLSLFGPPGTVLLGLFCLHYFHRTFVYSLLNRGRPYPAILILRGTAFCTGNGVLQGYYLIYCAEYPDGWYTDIRFSLGVFLFILGMGINIHSDYILRQLRKPGEISYRIPQGGLFTYVSGANFLGEIIEWIGYALATWSLPALAFAFFSLCFLGLRAFHHHRFYLKMFEDYPKSRKALIPFIF",
+        "n_residues": 254,
+        "mutation_pos_1indexed": 34,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "G32-Y33-G34-K35-H36-T37-R105",
+        "pocket_lining_positions_precursor": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          105
+        ],
+        "pocket_lining_1letter": "GYGKHTR",
+        "sequence_slice_around_pocket": "ALYVAKPSGYGKHTESLKPA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SRD5A2_G34R/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "G32",
+          "Y33",
+          "G34",
+          "K35",
+          "H36",
+          "T37",
+          "R105"
+        ],
+        "values": [
+          [
+            0.0,
+            3.867,
+            6.988,
+            8.176,
+            5.627,
+            4.7,
+            12.125
+          ],
+          [
+            3.867,
+            0.0,
+            3.851,
+            6.635,
+            6.096,
+            5.097,
+            8.728
+          ],
+          [
+            6.988,
+            3.851,
+            0.0,
+            3.877,
+            5.704,
+            5.882,
+            6.8
+          ],
+          [
+            8.176,
+            6.635,
+            3.877,
+            0.0,
+            3.823,
+            5.875,
+            9.221
+          ],
+          [
+            5.627,
+            6.096,
+            5.704,
+            3.823,
+            0.0,
+            3.832,
+            11.486
+          ],
+          [
+            4.7,
+            5.097,
+            5.882,
+            5.875,
+            3.832,
+            0.0,
+            9.88
+          ],
+          [
+            12.125,
+            8.728,
+            6.8,
+            9.221,
+            11.486,
+            9.88,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(Cl)cc1NCNC1CC(=O)CC1N1CCCCC1",
+        "composite_score": 0.5090092616118213,
+        "mw": 364.17,
+        "logp": 1.984,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.6717,
+        "sa_score": 3.57,
+        "n_heavy_atoms": 25,
+        "tpsa": 87.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SRD5A2-G34R Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(Cl)cc1NCNC1CC(=O)CC1N1CCCCC1",
+        "pocket_affinity_score": 0.509,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SRD5A2_G34R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SRD5A2_G34R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SRD5A2_G34R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SRD5A2_G34R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SRD5A2_G34R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SRD5A2-G34R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SRD5A2-G34R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:38:31.124398+00:00"
     }
   ]
 }
