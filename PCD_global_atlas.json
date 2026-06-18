@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1854,
+  "total_entries": 1855,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46538,
-    "queue_remaining": 132059
+    "total_processed": 46539,
+    "queue_remaining": 132058
   },
   "entries": [
     {
@@ -417235,6 +417235,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:33:51.983516+00:00"
+    },
+    {
+      "entry_id": "PCD-SPARC-R166H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPARC-R166H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SPARC",
+        "uniprot": "",
+        "clinvar_id": "372140",
+        "disease": "Osteogenesis imperfecta type 17",
+        "mutation_precursor": "R166H",
+        "mutation_mature": "R166H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7339495968387458,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 453.03254654632576,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -16.638687133789062,
+          10.329111099243164,
+          4.932898998260498
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.388882650668323,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8638803514401604,
+        "cryptic": true,
+        "pocket_residues": {
+          "R166": "R",
+          "M167": "M",
+          "D169": "D",
+          "W170": "W",
+          "N173": "N",
+          "A208": "A",
+          "G209": "G",
+          "D210": "D",
+          "H211": "H",
+          "P261": "P"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P09486|SPARC variant R166H",
+        "fasta_sequence": "MRAWIFFLLCLAGRALAAPQQEALPDETEVVEETVAEVTEVSVGANPVQVEVGEFDDGAEETEEEVVAENPCQNHHCKHGKVCELDENNTPMCVCQDPTSCPAPIGEFEKVCSNDNKTFDSSCHFFATKCTLEGTKKGHKLHLDYIGPCKYIPPCLDSELTEFPLRMRDWLKNVLVTLYERDEDNNLLTEKQKLRVKKIHENEKRLEAGDHPVELLARDFEKNYNMYIFPVHWQFGQLDQHPIDGYLSHTELAPLRAPLIPMEHCTTRFFETCDLDNDKYIALDEWAGCFGIKQKDIDKDLVI",
+        "full_sequence": "MRAWIFFLLCLAGRALAAPQQEALPDETEVVEETVAEVTEVSVGANPVQVEVGEFDDGAEETEEEVVAENPCQNHHCKHGKVCELDENNTPMCVCQDPTSCPAPIGEFEKVCSNDNKTFDSSCHFFATKCTLEGTKKGHKLHLDYIGPCKYIPPCLDSELTEFPLRMRDWLKNVLVTLYERDEDNNLLTEKQKLRVKKIHENEKRLEAGDHPVELLARDFEKNYNMYIFPVHWQFGQLDQHPIDGYLSHTELAPLRAPLIPMEHCTTRFFETCDLDNDKYIALDEWAGCFGIKQKDIDKDLVI",
+        "n_residues": 303,
+        "mutation_pos_1indexed": 166,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "R166-M167-D169-W170-N173-A208-G209-D210-H211-P261",
+        "pocket_lining_positions_precursor": [
+          166,
+          167,
+          169,
+          170,
+          173,
+          208,
+          209,
+          210,
+          211,
+          261
+        ],
+        "pocket_lining_1letter": "RMDWNAGDHP",
+        "sequence_slice_around_pocket": "LDSELTEFPLRMRDWLKNVL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SPARC_R166H/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "R166",
+          "M167",
+          "D169",
+          "W170",
+          "N173",
+          "A208",
+          "G209",
+          "D210",
+          "H211",
+          "P261"
+        ],
+        "values": [
+          [
+            0.0,
+            3.842,
+            5.371,
+            6.143,
+            10.641,
+            10.954,
+            10.508,
+            9.257,
+            8.662,
+            6.301
+          ],
+          [
+            3.842,
+            0.0,
+            5.51,
+            4.989,
+            9.848,
+            12.18,
+            12.678,
+            12.177,
+            12.084,
+            6.391
+          ],
+          [
+            5.371,
+            5.51,
+            0.0,
+            3.834,
+            6.187,
+            7.95,
+            9.404,
+            10.194,
+            9.453,
+            9.69
+          ],
+          [
+            6.143,
+            4.989,
+            3.834,
+            0.0,
+            5.12,
+            7.948,
+            9.388,
+            10.281,
+            10.929,
+            7.501
+          ],
+          [
+            10.641,
+            9.848,
+            6.187,
+            5.12,
+            0.0,
+            6.028,
+            9.279,
+            11.856,
+            12.513,
+            12.168
+          ],
+          [
+            10.954,
+            12.18,
+            7.95,
+            7.948,
+            6.028,
+            0.0,
+            3.852,
+            7.365,
+            8.302,
+            12.639
+          ],
+          [
+            10.508,
+            12.678,
+            9.404,
+            9.388,
+            9.279,
+            3.852,
+            0.0,
+            3.83,
+            5.71,
+            11.694
+          ],
+          [
+            9.257,
+            12.177,
+            10.194,
+            10.281,
+            11.856,
+            7.365,
+            3.83,
+            0.0,
+            3.823,
+            10.188
+          ],
+          [
+            8.662,
+            12.084,
+            9.453,
+            10.929,
+            12.513,
+            8.302,
+            5.71,
+            3.823,
+            0.0,
+            11.787
+          ],
+          [
+            6.301,
+            6.391,
+            9.69,
+            7.501,
+            12.168,
+            12.639,
+            11.694,
+            10.188,
+            11.787,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCc1ccncc1CC(=O)NCc1c[nH]c2ccccc12",
+        "composite_score": 0.8096895991050342,
+        "mw": 308.16,
+        "logp": 1.923,
+        "hbd": 3,
+        "hba": 3,
+        "rotatable_bonds": 6,
+        "qed": 0.6503,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 23,
+        "tpsa": 83.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SPARC-R166H Candidate #1",
+        "iupac_name": "NCCc1ccncc1CC(=O)NCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8097,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SPARC_R166H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SPARC_R166H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SPARC_R166H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPARC_R166H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPARC_R166H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPARC-R166H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPARC-R166H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:34:17.053190+00:00"
     }
   ]
 }
