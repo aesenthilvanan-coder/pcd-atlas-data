@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1559,
+  "total_entries": 1560,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46213,
-    "queue_remaining": 132384
+    "total_processed": 46214,
+    "queue_remaining": 132383
   },
   "entries": [
     {
@@ -344876,6 +344876,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:16:49.885571+00:00"
+    },
+    {
+      "entry_id": "PCD-SAMHD1-Q465K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SAMHD1-Q465K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SAMHD1",
+        "uniprot": "",
+        "clinvar_id": "338343",
+        "disease": "Chilblain lupus 2",
+        "mutation_precursor": "Q465K",
+        "mutation_mature": "Q465K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7866041283592572,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 528.6995837977377,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -15.421342849731445,
+          -7.812231063842773,
+          -31.90297508239746
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.040831901440468,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7210414928157876,
+        "cryptic": true,
+        "pocket_residues": {
+          "G464": "G",
+          "Q465": "Q",
+          "I466": "I"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y3Z3|SAMHD1 variant Q465K",
+        "fasta_sequence": "MQRADSEQPSKRPRCDDSPRTPSNTPSAEADWSPGLELHPDYKTWGPEQVCSFLRRGGFEEPVLLKNIRENEITGALLPCLDESRFENLGVSSLGERKKLLSYIQRLVQIHVDTMKVINDPIHGHIELHPLLVRIIDTPQFQRLRYIKQLGGGYYVFPGASHNRFEHSLGVGYLAGCLVHALGEKQPELQISERDVLCVQIAGLCHDLGHGPFSHMFDGRFIPLARPEVKWTHEQGSVMMFEHLINSNGIKPVMEQYGLIPEEDICFIKEQIVGPLESPVEDSLWPYKGRPENKSFLYEIVSNKRNGIDVDKWDYFARDCHHLGIQNNFDYKRFIKFARVCEVDNELRICARDKEVGNLYDMFHTRNSLHRRAYQHKVGNIIDTMITDAFLKADDYIEITGAGGKKYRISTAIDDMEAYTKLTDNIFLEILYSTDPKLKDAREILKQIEYRNLFKYVGETQPTGQIKIKREDYESLPKEVASAKPKVLLDVKLKAEDFIVDVINMDYGMQEKNPIDHVSFYCKTAPNRAIRITKNQVSQLLPEKFAEQLIRVYCKKVDRKSLYAARQYFVQWCADRNFTKPQDGDVIAPLITPQKKEWNDSTSVQNPTRLREASKSRVQLFKDDPM",
+        "full_sequence": "MQRADSEQPSKRPRCDDSPRTPSNTPSAEADWSPGLELHPDYKTWGPEQVCSFLRRGGFEEPVLLKNIRENEITGALLPCLDESRFENLGVSSLGERKKLLSYIQRLVQIHVDTMKVINDPIHGHIELHPLLVRIIDTPQFQRLRYIKQLGGGYYVFPGASHNRFEHSLGVGYLAGCLVHALGEKQPELQISERDVLCVQIAGLCHDLGHGPFSHMFDGRFIPLARPEVKWTHEQGSVMMFEHLINSNGIKPVMEQYGLIPEEDICFIKEQIVGPLESPVEDSLWPYKGRPENKSFLYEIVSNKRNGIDVDKWDYFARDCHHLGIQNNFDYKRFIKFARVCEVDNELRICARDKEVGNLYDMFHTRNSLHRRAYQHKVGNIIDTMITDAFLKADDYIEITGAGGKKYRISTAIDDMEAYTKLTDNIFLEILYSTDPKLKDAREILKQIEYRNLFKYVGETQPTGQIKIKREDYESLPKEVASAKPKVLLDVKLKAEDFIVDVINMDYGMQEKNPIDHVSFYCKTAPNRAIRITKNQVSQLLPEKFAEQLIRVYCKKVDRKSLYAARQYFVQWCADRNFTKPQDGDVIAPLITPQKKEWNDSTSVQNPTRLREASKSRVQLFKDDPM",
+        "n_residues": 626,
+        "mutation_pos_1indexed": 465,
+        "wt_aa": "Q",
+        "mut_aa": "K",
+        "pocket_lining_residues": "G464-Q465-I466",
+        "pocket_lining_positions_precursor": [
+          464,
+          465,
+          466
+        ],
+        "pocket_lining_1letter": "GQI",
+        "sequence_slice_around_pocket": "KYVGETQPTGQIKIKREDYE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_Q465K/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "G464",
+          "Q465",
+          "I466"
+        ],
+        "values": [
+          [
+            0.0,
+            3.862,
+            5.667
+          ],
+          [
+            3.862,
+            0.0,
+            3.854
+          ],
+          [
+            5.667,
+            3.854,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COC1CC(=O)CC(NC2CCCCC2)N1c1cnccc1CCN",
+        "composite_score": 0.5196786944477688,
+        "mw": 346.24,
+        "logp": 1.973,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.8197,
+        "sa_score": 3.92,
+        "n_heavy_atoms": 25,
+        "tpsa": 80.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SAMHD1-Q465K Candidate #1",
+        "iupac_name": "COC1CC(=O)CC(NC2CCCCC2)N1c1cnccc1CCN",
+        "pocket_affinity_score": 0.5197,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_Q465K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_Q465K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_Q465K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_Q465K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SAMHD1_Q465K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SAMHD1-Q465K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SAMHD1-Q465K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:17:17.924321+00:00"
     }
   ]
 }
