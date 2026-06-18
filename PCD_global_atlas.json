@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1614,
+  "total_entries": 1615,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46273,
-    "queue_remaining": 132324
+    "total_processed": 46274,
+    "queue_remaining": 132323
   },
   "entries": [
     {
@@ -357033,6 +357033,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:51:23.324094+00:00"
+    },
+    {
+      "entry_id": "PCD-HPS4-E583K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS4-E583K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HPS4",
+        "uniprot": "",
+        "clinvar_id": "341001",
+        "disease": "Hermansky-Pudlak syndrome 4",
+        "mutation_precursor": "E583K",
+        "mutation_mature": "E583K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8139575620359263,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 398.6592901940029,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -25.412439346313477,
+          -13.989482879638672,
+          5.610367298126221
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.316345909057753,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7383368930123086,
+        "cryptic": true,
+        "pocket_residues": {
+          "V548": "V",
+          "L576": "L",
+          "A577": "A",
+          "S578": "S",
+          "L579": "L",
+          "N580": "N",
+          "G581": "G",
+          "L582": "L",
+          "E583": "E",
+          "V584": "V"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NQG7|HPS4 variant E583K",
+        "fasta_sequence": "MATSTSTEAKSASWWNYFFLYDGSKVKEEGDPTRAGICYFYPSQTLLDQQELLCGQIAGVVRCVSDISDSPPTLVRLRKLKFAIKVDGDYLWVLGCAVELPDVSCKRFLDQLVGFFNFYNGPVSLAYENCSQEELSTEWDTFIEQILKNTSDLHKIFNSLWNLDQTKVEPLLLLKAARILQTCQRSPHILAGCILYKGLIVSTQLPPSLTAKVLLHRTAPQEQRLPTGEDAPQEHGAALPPNVQIIPVFVTKEEAISLHEFPVEQMTRSLASPAGLQDGSAQHHPKGGSTSALKENATGHVESMAWTTPDPTSPDEACPDGRKENGCLSGHDLESIRPAGLHNSARGEVLGLSSSLGKELVFLQEELDLSEIHIPEAQEVEMASGHFAFLHVPVPDGRAPYCKASLSASSSLEPTPPEDTAISSLRPPSAPEMLTQHGAQEQLEDHPGHSSQAPIPRADPLPRRTRRPLLLPRLDPGQRGNKLPTGEQGLDEDVDGVCESHAAPGLECSSGSANCQGAGPSADGISSRLTPAESCMGLVRMNLYTHCVKGLVLSLLAEEPLLGDSAAIEEVYHSSLASLNGLEVHLKETLPRDEAASTSSTYNFTHYDRIQSLLMANLPQVATPQDRRFLQAVSLMHSEFAQLPALYEMTVRNASTAVYACCNPIQETYFQQLAPAARSSGFPNPQDGAFSLSGKAKQKLLKHGVNLL",
+        "full_sequence": "MATSTSTEAKSASWWNYFFLYDGSKVKEEGDPTRAGICYFYPSQTLLDQQELLCGQIAGVVRCVSDISDSPPTLVRLRKLKFAIKVDGDYLWVLGCAVELPDVSCKRFLDQLVGFFNFYNGPVSLAYENCSQEELSTEWDTFIEQILKNTSDLHKIFNSLWNLDQTKVEPLLLLKAARILQTCQRSPHILAGCILYKGLIVSTQLPPSLTAKVLLHRTAPQEQRLPTGEDAPQEHGAALPPNVQIIPVFVTKEEAISLHEFPVEQMTRSLASPAGLQDGSAQHHPKGGSTSALKENATGHVESMAWTTPDPTSPDEACPDGRKENGCLSGHDLESIRPAGLHNSARGEVLGLSSSLGKELVFLQEELDLSEIHIPEAQEVEMASGHFAFLHVPVPDGRAPYCKASLSASSSLEPTPPEDTAISSLRPPSAPEMLTQHGAQEQLEDHPGHSSQAPIPRADPLPRRTRRPLLLPRLDPGQRGNKLPTGEQGLDEDVDGVCESHAAPGLECSSGSANCQGAGPSADGISSRLTPAESCMGLVRMNLYTHCVKGLVLSLLAEEPLLGDSAAIEEVYHSSLASLNGLEVHLKETLPRDEAASTSSTYNFTHYDRIQSLLMANLPQVATPQDRRFLQAVSLMHSEFAQLPALYEMTVRNASTAVYACCNPIQETYFQQLAPAARSSGFPNPQDGAFSLSGKAKQKLLKHGVNLL",
+        "n_residues": 708,
+        "mutation_pos_1indexed": 583,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "V548-L576-A577-S578-L579-N580-G581-L582-E583-V584",
+        "pocket_lining_positions_precursor": [
+          548,
+          576,
+          577,
+          578,
+          579,
+          580,
+          581,
+          582,
+          583,
+          584
+        ],
+        "pocket_lining_1letter": "VLASLNGLEV",
+        "sequence_slice_around_pocket": "HSSLASLNGLEVHLKETLPR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_E583K/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "V548",
+          "L576",
+          "A577",
+          "S578",
+          "L579",
+          "N580",
+          "G581",
+          "L582",
+          "E583",
+          "V584"
+        ],
+        "values": [
+          [
+            0.0,
+            8.102,
+            10.178,
+            10.593,
+            7.064,
+            6.755,
+            10.305,
+            9.898,
+            7.623,
+            10.344
+          ],
+          [
+            8.102,
+            0.0,
+            3.856,
+            5.576,
+            5.186,
+            6.2,
+            8.643,
+            9.847,
+            10.582,
+            12.552
+          ],
+          [
+            10.178,
+            3.856,
+            0.0,
+            3.846,
+            5.558,
+            5.286,
+            6.242,
+            8.656,
+            10.116,
+            11.033
+          ],
+          [
+            10.593,
+            5.576,
+            3.846,
+            0.0,
+            3.855,
+            5.538,
+            5.083,
+            6.07,
+            8.671,
+            10.131
+          ],
+          [
+            7.064,
+            5.186,
+            5.558,
+            3.855,
+            0.0,
+            3.847,
+            5.43,
+            4.96,
+            6.09,
+            8.697
+          ],
+          [
+            6.755,
+            6.2,
+            5.286,
+            5.538,
+            3.847,
+            0.0,
+            3.836,
+            5.454,
+            5.211,
+            6.399
+          ],
+          [
+            10.305,
+            8.643,
+            6.242,
+            5.083,
+            5.43,
+            3.836,
+            0.0,
+            3.867,
+            5.653,
+            5.454
+          ],
+          [
+            9.898,
+            9.847,
+            8.656,
+            6.07,
+            4.96,
+            5.454,
+            3.867,
+            0.0,
+            3.863,
+            5.538
+          ],
+          [
+            7.623,
+            10.582,
+            10.116,
+            8.671,
+            6.09,
+            5.211,
+            5.653,
+            3.863,
+            0.0,
+            3.844
+          ],
+          [
+            10.344,
+            12.552,
+            11.033,
+            10.131,
+            8.697,
+            6.399,
+            5.454,
+            5.538,
+            3.844,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.8244447754392312,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HPS4-E583K Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8244,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_E583K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_E583K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_E583K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_E583K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_E583K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS4-E583K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS4-E583K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:51:50.358511+00:00"
     }
   ]
 }
