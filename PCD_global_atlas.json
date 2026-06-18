@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2204,
+  "total_entries": 2205,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46932,
-    "queue_remaining": 131665
+    "total_processed": 46933,
+    "queue_remaining": 131664
   },
   "entries": [
     {
@@ -507121,6 +507121,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T09:19:40.729424+00:00"
+    },
+    {
+      "entry_id": "PCD-SPRED1-R24Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPRED1-R24Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SPRED1",
+        "uniprot": "",
+        "clinvar_id": "373025",
+        "disease": "not provided",
+        "mutation_precursor": "R24Q",
+        "mutation_mature": "R24Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8208106422233298,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 599.0723142429531,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.21834659576416,
+          -18.550392150878906,
+          6.143237113952637
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.51437733521382,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7987539788725073,
+        "cryptic": true,
+        "pocket_residues": {
+          "T23": "T",
+          "R24": "R",
+          "D25": "D",
+          "D26": "D",
+          "D96": "D",
+          "K97": "K",
+          "K98": "K",
+          "F99": "F"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q7Z699|SPRED1 variant R24Q",
+        "fasta_sequence": "MSEETATSDNDNSYARVRAVVMTRDDSSGGWLPLGGSGLSSVTVFKVPHQEENGCADFFIRGERLRDKMVVLECMLKKDLIYNKVTPTFHHWKIDDKKFGLTFQSPADARAFDRGIRRAIEDISQGCPESKNEAEGADDLQANEEDSSSSLVKDHLFQQETVVTSEPYRSSNIRPSPFEDLNARRVYMQSQANQITFGQPGLDIQSRSMEYVQRQISKECGSLKSQNRVPLKSIRHVSFQDEDEIVRINPRDILIRRYADYRHPDMWKNDLERDDADSSIQFSKPDSKKSDYLYSCGDETKLSSPKDSVVFKTQPSSLKIKKSKRRKEDGERSRCVYCQERFNHEENVRGKCQDAPDPIKRCIYQVSCMLCAESMLYHCMSDSEGDFSDPCSCDTSDDKFCLRWLALVALSFIVPCMCCYVPLRMCHRCGEACGCCGGKHKAAG",
+        "full_sequence": "MSEETATSDNDNSYARVRAVVMTRDDSSGGWLPLGGSGLSSVTVFKVPHQEENGCADFFIRGERLRDKMVVLECMLKKDLIYNKVTPTFHHWKIDDKKFGLTFQSPADARAFDRGIRRAIEDISQGCPESKNEAEGADDLQANEEDSSSSLVKDHLFQQETVVTSEPYRSSNIRPSPFEDLNARRVYMQSQANQITFGQPGLDIQSRSMEYVQRQISKECGSLKSQNRVPLKSIRHVSFQDEDEIVRINPRDILIRRYADYRHPDMWKNDLERDDADSSIQFSKPDSKKSDYLYSCGDETKLSSPKDSVVFKTQPSSLKIKKSKRRKEDGERSRCVYCQERFNHEENVRGKCQDAPDPIKRCIYQVSCMLCAESMLYHCMSDSEGDFSDPCSCDTSDDKFCLRWLALVALSFIVPCMCCYVPLRMCHRCGEACGCCGGKHKAAG",
+        "n_residues": 444,
+        "mutation_pos_1indexed": 24,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "T23-R24-D25-D26-D96-K97-K98-F99",
+        "pocket_lining_positions_precursor": [
+          23,
+          24,
+          25,
+          26,
+          96,
+          97,
+          98,
+          99
+        ],
+        "pocket_lining_1letter": "TRDDDKKF",
+        "sequence_slice_around_pocket": "YARVRAVVMTRDDSSGGWLP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SPRED1_R24Q/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "T23",
+          "R24",
+          "D25",
+          "D26",
+          "D96",
+          "K97",
+          "K98",
+          "F99"
+        ],
+        "values": [
+          [
+            0.0,
+            3.839,
+            6.563,
+            9.607,
+            11.357,
+            7.782,
+            5.615,
+            4.598
+          ],
+          [
+            3.839,
+            0.0,
+            3.788,
+            6.066,
+            10.367,
+            7.655,
+            5.449,
+            6.747
+          ],
+          [
+            6.563,
+            3.788,
+            0.0,
+            3.825,
+            10.234,
+            8.137,
+            7.635,
+            9.706
+          ],
+          [
+            9.607,
+            6.066,
+            3.825,
+            0.0,
+            9.798,
+            9.112,
+            8.756,
+            11.761
+          ],
+          [
+            11.357,
+            10.367,
+            10.234,
+            9.798,
+            0.0,
+            3.86,
+            6.583,
+            9.818
+          ],
+          [
+            7.782,
+            7.655,
+            8.137,
+            9.112,
+            3.86,
+            0.0,
+            3.833,
+            6.513
+          ],
+          [
+            5.615,
+            5.449,
+            7.635,
+            8.756,
+            6.583,
+            3.833,
+            0.0,
+            3.832
+          ],
+          [
+            4.598,
+            6.747,
+            9.706,
+            11.761,
+            9.818,
+            6.513,
+            3.832,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7075568858268381,
+        "mw": 316.23,
+        "logp": 1.954,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8995,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 23,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SPRED1-R24Q Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7076,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SPRED1_R24Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SPRED1_R24Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SPRED1_R24Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPRED1_R24Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPRED1_R24Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPRED1-R24Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPRED1-R24Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T09:20:11.376487+00:00"
     }
   ]
 }
