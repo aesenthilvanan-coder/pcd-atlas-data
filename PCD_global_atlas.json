@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1495,
+  "total_entries": 1496,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46144,
-    "queue_remaining": 132453
+    "total_processed": 46145,
+    "queue_remaining": 132452
   },
   "entries": [
     {
@@ -330829,6 +330829,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:29:18.776149+00:00"
+    },
+    {
+      "entry_id": "PCD-ALG12-A19T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG12-A19T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ALG12",
+        "uniprot": "",
+        "clinvar_id": "342061",
+        "disease": "ALG12-congenital disorder of glycosylation",
+        "mutation_precursor": "A19T",
+        "mutation_mature": "A19T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8126194320938604,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 309.1180119687276,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -7.944242477416992,
+          -12.90157699584961,
+          -8.45522689819336
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.105902022966688,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8906562383231695,
+        "cryptic": true,
+        "pocket_residues": {
+          "A19": "A",
+          "V20": "V",
+          "T22": "T",
+          "V23": "V",
+          "V26": "V"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9BV10|ALG12 variant A19T",
+        "fasta_sequence": "MAGKGSSGRRPLLLGLLVAVATVHLVICPYTKVEESFNLQATHDLLYHWQDLEQYDHLEFPGVVPRTFLGPVVIAVFSSPAVYVLSLLEMSKFYSQLIVRGVLGLGVIFGLWTLQKEVRRHFGAMVATMFCWVTAMQFHLMFYCTRTLPNVLALPVVLLALAAWLRHEWARFIWLSAFAIIVFRVELCLFLGLLLLLALGNRKVSVVRALRHAVPAGILCLGLTVAVDSYFWRQLTWPEGKVLWYNTVLNKSSNWGTSPLLWYFYSALPRGLGCSLLFIPLGLVDRRTHAPTVLALGFMALYSLLPHKELRFIIYAFPMLNITAARGCSYLLNNYKKSWLYKAGSLLVIGHLVVNAAYSATALYVSHFNYPGGVAMQRLHQLVPPQTDVLLHIDVAAAQTGVSRFLQVNSAWRYDKREDVQPGTGMLAYTHILMEAAPGLLALYRDTHRVLASVVGTTGVSLNLTQLPPFNVHLQTKLVLLERLPRPS",
+        "full_sequence": "MAGKGSSGRRPLLLGLLVAVATVHLVICPYTKVEESFNLQATHDLLYHWQDLEQYDHLEFPGVVPRTFLGPVVIAVFSSPAVYVLSLLEMSKFYSQLIVRGVLGLGVIFGLWTLQKEVRRHFGAMVATMFCWVTAMQFHLMFYCTRTLPNVLALPVVLLALAAWLRHEWARFIWLSAFAIIVFRVELCLFLGLLLLLALGNRKVSVVRALRHAVPAGILCLGLTVAVDSYFWRQLTWPEGKVLWYNTVLNKSSNWGTSPLLWYFYSALPRGLGCSLLFIPLGLVDRRTHAPTVLALGFMALYSLLPHKELRFIIYAFPMLNITAARGCSYLLNNYKKSWLYKAGSLLVIGHLVVNAAYSATALYVSHFNYPGGVAMQRLHQLVPPQTDVLLHIDVAAAQTGVSRFLQVNSAWRYDKREDVQPGTGMLAYTHILMEAAPGLLALYRDTHRVLASVVGTTGVSLNLTQLPPFNVHLQTKLVLLERLPRPS",
+        "n_residues": 488,
+        "mutation_pos_1indexed": 19,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "A19-V20-T22-V23-V26",
+        "pocket_lining_positions_precursor": [
+          19,
+          20,
+          22,
+          23,
+          26
+        ],
+        "pocket_lining_1letter": "AVTVV",
+        "sequence_slice_around_pocket": "RRPLLLGLLVAVATVHLVIC"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ALG12_A19T/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "A19",
+          "V20",
+          "T22",
+          "V23",
+          "V26"
+        ],
+        "values": [
+          [
+            0.0,
+            3.845,
+            5.079,
+            6.161,
+            10.439
+          ],
+          [
+            3.845,
+            0.0,
+            5.442,
+            5.113,
+            10.042
+          ],
+          [
+            5.079,
+            5.442,
+            0.0,
+            3.859,
+            6.056
+          ],
+          [
+            6.161,
+            5.113,
+            3.859,
+            0.0,
+            5.272
+          ],
+          [
+            10.439,
+            10.042,
+            6.056,
+            5.272,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6784426067551662,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ALG12-A19T Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6784,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ALG12_A19T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ALG12_A19T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ALG12_A19T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALG12_A19T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALG12_A19T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG12-A19T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG12-A19T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:29:43.121643+00:00"
     }
   ]
 }
