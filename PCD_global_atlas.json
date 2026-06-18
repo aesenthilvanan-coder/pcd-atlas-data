@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1714,
+  "total_entries": 1715,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46385,
-    "queue_remaining": 132212
+    "total_processed": 46386,
+    "queue_remaining": 132211
   },
   "entries": [
     {
@@ -381177,6 +381177,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:08:39.902143+00:00"
+    },
+    {
+      "entry_id": "PCD-LDLR-S470G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LDLR-S470G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LDLR",
+        "uniprot": "",
+        "clinvar_id": "369856",
+        "disease": "Hypercholesterolemia, familial, 1",
+        "mutation_precursor": "S470G",
+        "mutation_mature": "S470G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7284952220902414,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 308.8015508218774,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -21.05105209350586,
+          0.8902014493942261,
+          17.157373428344727
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.2497346780808773,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.796993837897816,
+        "cryptic": true,
+        "pocket_residues": {
+          "M450": "M",
+          "I451": "I",
+          "T467": "T",
+          "V468": "V",
+          "I469": "I",
+          "S470": "S",
+          "R471": "R",
+          "G505": "G"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P01130|LDLR variant S470G",
+        "fasta_sequence": "MGPWGWKLRWTVALLLAAAGTAVGDRCERNEFQCQDGKCISYKWVCDGSAECQDGSDESQETCLSVTCKSGDFSCGGRVNRCIPQFWRCDGQVDCDNGSDEQGCPPKTCSQDEFRCHDGKCISRQFVCDSDRDCLDGSDEASCPVLTCGPASFQCNSSTCIPQLWACDNDPDCEDGSDEWPQRCRGLYVFQGDSSPCSAFEFHCLSGECIHSSWRCDGGPDCKDKSDEENCAVATCRPDEFQCSDGNCIHGSRQCDREYDCKDMSDEVGCVNVTLCEGPNKFKCHSGECITLDKVCNMARDCRDWSDEPIKECGTNECLDNNGGCSHVCNDLKIGYECLCPDGFQLVAQRRCEDIDECQDPDTCSQLCVNLEGGYKCQCEEGFQLDPHTKACKAVGSIAYLFFTNRHEVRKMTLDRSEYTSLIPNLRNVVALDTEVASNRIYWSDLSQRMICSTQLDRAHGVSSYDTVISRDIQAPDGLAVDWIHSNIYWTDSVLGTVSVADTKGVKRKTLFRENGSKPRAIVVDPVHGFMYWTDWGTPAKIKKGGLNGVDIYSLVTENIQWPNGITLDLLSGRLYWVDSKLHSISSIDVNGGNRKTILEDEKRLAHPFSLAVFEDKVFWTDIINEAIFSANRLTGSDVNLLAENLLSPEDMVLFHNLTQPRGVNWCERTTLSNGGCQYLCLPAPQINPHSPKFTCACPDGMLLARDMRSCLTEAEAAVATQETSTVRLKVSSTAVRTQHTTTRPVPDTSRLPGATPGLTTVEIVTMSHQALGDVAGRGNEKKPSSVRALSIVLPIVLLVFLCLGVFLLWKNWRLKNINSINFDNPVYQKTTEDEVHICHNQDGYSYPSRQMVSLEDDVA",
+        "full_sequence": "MGPWGWKLRWTVALLLAAAGTAVGDRCERNEFQCQDGKCISYKWVCDGSAECQDGSDESQETCLSVTCKSGDFSCGGRVNRCIPQFWRCDGQVDCDNGSDEQGCPPKTCSQDEFRCHDGKCISRQFVCDSDRDCLDGSDEASCPVLTCGPASFQCNSSTCIPQLWACDNDPDCEDGSDEWPQRCRGLYVFQGDSSPCSAFEFHCLSGECIHSSWRCDGGPDCKDKSDEENCAVATCRPDEFQCSDGNCIHGSRQCDREYDCKDMSDEVGCVNVTLCEGPNKFKCHSGECITLDKVCNMARDCRDWSDEPIKECGTNECLDNNGGCSHVCNDLKIGYECLCPDGFQLVAQRRCEDIDECQDPDTCSQLCVNLEGGYKCQCEEGFQLDPHTKACKAVGSIAYLFFTNRHEVRKMTLDRSEYTSLIPNLRNVVALDTEVASNRIYWSDLSQRMICSTQLDRAHGVSSYDTVISRDIQAPDGLAVDWIHSNIYWTDSVLGTVSVADTKGVKRKTLFRENGSKPRAIVVDPVHGFMYWTDWGTPAKIKKGGLNGVDIYSLVTENIQWPNGITLDLLSGRLYWVDSKLHSISSIDVNGGNRKTILEDEKRLAHPFSLAVFEDKVFWTDIINEAIFSANRLTGSDVNLLAENLLSPEDMVLFHNLTQPRGVNWCERTTLSNGGCQYLCLPAPQINPHSPKFTCACPDGMLLARDMRSCLTEAEAAVATQETSTVRLKVSSTAVRTQHTTTRPVPDTSRLPGATPGLTTVEIVTMSHQALGDVAGRGNEKKPSSVRALSIVLPIVLLVFLCLGVFLLWKNWRLKNINSINFDNPVYQKTTEDEVHICHNQDGYSYPSRQMVSLEDDVA",
+        "n_residues": 860,
+        "mutation_pos_1indexed": 470,
+        "wt_aa": "S",
+        "mut_aa": "G",
+        "pocket_lining_residues": "M450-I451-T467-V468-I469-S470-R471-G505",
+        "pocket_lining_positions_precursor": [
+          450,
+          451,
+          467,
+          468,
+          469,
+          470,
+          471,
+          505
+        ],
+        "pocket_lining_1letter": "MITVISRG",
+        "sequence_slice_around_pocket": "HGVSSYDTVISRDIQAPDGL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_S470G/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "M450",
+          "I451",
+          "T467",
+          "V468",
+          "I469",
+          "S470",
+          "R471",
+          "G505"
+        ],
+        "values": [
+          [
+            0.0,
+            3.804,
+            7.088,
+            7.455,
+            5.504,
+            4.639,
+            7.451,
+            10.814
+          ],
+          [
+            3.804,
+            0.0,
+            6.325,
+            5.489,
+            5.049,
+            6.745,
+            9.538,
+            8.969
+          ],
+          [
+            7.088,
+            6.325,
+            0.0,
+            3.85,
+            5.953,
+            6.93,
+            10.574,
+            7.818
+          ],
+          [
+            7.455,
+            5.489,
+            3.85,
+            0.0,
+            3.85,
+            6.855,
+            9.674,
+            4.392
+          ],
+          [
+            5.504,
+            5.049,
+            5.953,
+            3.85,
+            0.0,
+            3.845,
+            6.015,
+            5.581
+          ],
+          [
+            4.639,
+            6.745,
+            6.93,
+            6.855,
+            3.845,
+            0.0,
+            3.856,
+            8.909
+          ],
+          [
+            7.451,
+            9.538,
+            10.574,
+            9.674,
+            6.015,
+            3.856,
+            0.0,
+            10.276
+          ],
+          [
+            10.814,
+            8.969,
+            7.818,
+            4.392,
+            5.581,
+            8.909,
+            10.276,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6467144943946903,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LDLR-S470G Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6467,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_S470G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_S470G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_S470G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_S470G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_S470G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LDLR-S470G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LDLR-S470G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:11:55.753432+00:00"
     }
   ]
 }
