@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2200,
+  "total_entries": 2201,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46927,
-    "queue_remaining": 131670
+    "total_processed": 46928,
+    "queue_remaining": 131669
   },
   "entries": [
     {
@@ -506483,6 +506483,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T09:12:26.408461+00:00"
+    },
+    {
+      "entry_id": "PCD-XYLT1-R141W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-XYLT1-R141W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "XYLT1",
+        "uniprot": "",
+        "clinvar_id": "373449",
+        "disease": "not specified",
+        "mutation_precursor": "R141W",
+        "mutation_mature": "R141W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7810993017233941,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 314.1457905614729,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -17.986225128173828,
+          11.770819664001465,
+          -28.10272979736328
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.779921935080047,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6243684087992636,
+        "cryptic": true,
+        "pocket_residues": {
+          "R141": "R",
+          "P142": "P",
+          "D796": "D",
+          "I797": "I",
+          "L798": "L"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q86Y38|XYLT1 variant R141W",
+        "fasta_sequence": "MVAAPCARRLARRSHSALLAALTVLLLQTLVVWNFSSLDSGAGERRGGAAVGGGEQPPPAPAPRRERRDLPAEPAAARGGGGGGGGGGGGRGPQARARGGGPGEPRGQQPASRGALPARALDPHPSPLITLETQDGYFSHRPKEKVRTDSNNENSVPKDFENVDNSNFAPRTQKQKHQPELAKKPPSRQKELLKRKLEQQEKGKGHTFPGKGPGEVLPPGDRAAANSSHGKDVSRPPHARKTGGSSPETKYDQPPKCDISGKEAISALSRAKSKHCRQEIGETYCRHKLGLLMPEKVTRFCPLEGKANKNVQWDEDSVEYMPANPVRIAFVLVVHGRASRQLQRMFKAIYHKDHFYYIHVDKRSNYLHRQVLQVSRQYSNVRVTPWRMATIWGGASLLSTYLQSMRDLLEMTDWPWDFFINLSAADYPIRTNDQLVAFLSRYRDMNFLKSHGRDNARFIRKQGLDRLFLECDAHMWRLGDRRIPEGIAVDGGSDWFLLNRRFVEYVTFSTDDLVTKMKQFYSYTLLPAESFFHTVLENSPHCDTMVDNNLRITNWNRKLGCKCQYKHIVDWCGCSPNDFKPQDFHRFQQTARPTFFARKFEAVVNQEIIGQLDYYLYGNYPAGTPGLRSYWENVYDEPDGIHSLSDVTLTLYHSFARLGLRRAETSLHTDGENSCRYYPMGHPASVHLYFLADRFQGFLIKHHATNLAVSKLETLETWVMPKKVFKIASPPSDFGRLQFSEVGTDWDAKERLFRNFGGLLGPMDEPVGMQKWGKGPNVTVTVIWVDPVNVIAATYDILIESTAEFTHYKPPLNLPLRPGVWTVKILHHWVPVAETKFLVAPLTFSNRQPIKPEEALKLHNGPLRNAYMEQSFQSLNPVLSLPINPAQVEQARRNAASTGTALEGWLDSLVGGMWTAMDICATGPTACPVMQTCSQTAWSSFSPDPKSELGAVKPDGRLR",
+        "full_sequence": "MVAAPCARRLARRSHSALLAALTVLLLQTLVVWNFSSLDSGAGERRGGAAVGGGEQPPPAPAPRRERRDLPAEPAAARGGGGGGGGGGGGRGPQARARGGGPGEPRGQQPASRGALPARALDPHPSPLITLETQDGYFSHRPKEKVRTDSNNENSVPKDFENVDNSNFAPRTQKQKHQPELAKKPPSRQKELLKRKLEQQEKGKGHTFPGKGPGEVLPPGDRAAANSSHGKDVSRPPHARKTGGSSPETKYDQPPKCDISGKEAISALSRAKSKHCRQEIGETYCRHKLGLLMPEKVTRFCPLEGKANKNVQWDEDSVEYMPANPVRIAFVLVVHGRASRQLQRMFKAIYHKDHFYYIHVDKRSNYLHRQVLQVSRQYSNVRVTPWRMATIWGGASLLSTYLQSMRDLLEMTDWPWDFFINLSAADYPIRTNDQLVAFLSRYRDMNFLKSHGRDNARFIRKQGLDRLFLECDAHMWRLGDRRIPEGIAVDGGSDWFLLNRRFVEYVTFSTDDLVTKMKQFYSYTLLPAESFFHTVLENSPHCDTMVDNNLRITNWNRKLGCKCQYKHIVDWCGCSPNDFKPQDFHRFQQTARPTFFARKFEAVVNQEIIGQLDYYLYGNYPAGTPGLRSYWENVYDEPDGIHSLSDVTLTLYHSFARLGLRRAETSLHTDGENSCRYYPMGHPASVHLYFLADRFQGFLIKHHATNLAVSKLETLETWVMPKKVFKIASPPSDFGRLQFSEVGTDWDAKERLFRNFGGLLGPMDEPVGMQKWGKGPNVTVTVIWVDPVNVIAATYDILIESTAEFTHYKPPLNLPLRPGVWTVKILHHWVPVAETKFLVAPLTFSNRQPIKPEEALKLHNGPLRNAYMEQSFQSLNPVLSLPINPAQVEQARRNAASTGTALEGWLDSLVGGMWTAMDICATGPTACPVMQTCSQTAWSSFSPDPKSELGAVKPDGRLR",
+        "n_residues": 959,
+        "mutation_pos_1indexed": 141,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "R141-P142-D796-I797-L798",
+        "pocket_lining_positions_precursor": [
+          141,
+          142,
+          796,
+          797,
+          798
+        ],
+        "pocket_lining_1letter": "RPDIL",
+        "sequence_slice_around_pocket": "LETQDGYFSHRPKEKVRTDS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/XYLT1_R141W/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "R141",
+          "P142",
+          "D796",
+          "I797",
+          "L798"
+        ],
+        "values": [
+          [
+            0.0,
+            3.826,
+            9.394,
+            9.631,
+            10.877
+          ],
+          [
+            3.826,
+            0.0,
+            11.647,
+            11.832,
+            13.646
+          ],
+          [
+            9.394,
+            11.647,
+            0.0,
+            3.842,
+            6.842
+          ],
+          [
+            9.631,
+            11.832,
+            3.842,
+            0.0,
+            3.821
+          ],
+          [
+            10.877,
+            13.646,
+            6.842,
+            3.821,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CCCCC1",
+        "composite_score": 0.730159263309043,
+        "mw": 219.17,
+        "logp": 1.963,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8415,
+        "sa_score": 2.19,
+        "n_heavy_atoms": 16,
+        "tpsa": 42.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "XYLT1-R141W Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.7302,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/XYLT1_R141W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/XYLT1_R141W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/XYLT1_R141W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/XYLT1_R141W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/XYLT1_R141W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-XYLT1-R141W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-XYLT1-R141W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T09:13:16.690436+00:00"
     }
   ]
 }
