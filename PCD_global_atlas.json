@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1582,
+  "total_entries": 1583,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46236,
-    "queue_remaining": 132361
+    "total_processed": 46237,
+    "queue_remaining": 132360
   },
   "entries": [
     {
@@ -349800,6 +349800,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:31:56.988679+00:00"
+    },
+    {
+      "entry_id": "PCD-SEC23B-F400L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SEC23B-F400L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SEC23B",
+        "uniprot": "",
+        "clinvar_id": "337792",
+        "disease": "Congenital dyserythropoietic anemia, type II",
+        "mutation_precursor": "F400L",
+        "mutation_mature": "F400L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7363271742365803,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 578.6729077669559,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.921064853668213,
+          -21.0263729095459,
+          -2.184093713760376
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.2531918027394084,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8967658697153766,
+        "cryptic": true,
+        "pocket_residues": {
+          "S156": "S",
+          "L157": "L",
+          "L158": "L",
+          "P159": "P",
+          "F392": "F",
+          "T393": "T",
+          "K394": "K",
+          "G398": "G",
+          "D399": "D",
+          "F400": "F"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q15437|SEC23B variant F400L",
+        "fasta_sequence": "MATYLEFIQQNEERDGVRFSWNVWPSSRLEATRMVVPLACLLTPLKERPDLPPVQYEPVLCSRPTCKAVLNPLCQVDYRAKLWACNFCFQRNQFPPAYGGISEVNQPAELMPQFSTIEYVIQRGAQSPLIFLYVVDTCLEEDDLQALKESLQMSLSLLPPDALVGLITFGRMVQVHELSCEGISKSYVFRGTKDLTAKQIQDMLGLTKPAMPMQQARPAQPQEHPFASSRFLQPVHKIDMNLTDLLGELQRDPWPVTQGKRPLRSTGVALSIAVGLLEGTFPNTGARIMLFTGGPPTQGPGMVVGDELKIPIRSWHDIEKDNARFMKKATKHYEMLANRTAANGHCIDIYACALDQTGLLEMKCCANLTGGYMVMGDSFNTSLFKQTFQRIFTKDFNGDFRMAFGATLDVKTSRELKIAGAIGPCVSLNVKGPCVSENELGVGGTSQWKICGLDPTSTLGIYFEVVNQHNTPIPQGGRGAIQFVTHYQHSSTQRRIRVTTIARNWADVQSQLRHIEAAFDQEAAAVLMARLGVFRAESEEGPDVLRWLDRQLIRLCQKFGQYNKEDPTSFRLSDSFSLYPQFMFHLRRSPFLQVFNNSPDESSYYRHHFARQDLTQSLIMIQPILYSYSFHGPPEPVLLDSSSILADRILLMDTFFQIVIYLGETIAQWRKAGYQDMPEYENFKHLLQAPLDDAQEILQARFPMPRYINTEHGGSQARFLLSKVNPSQTHNNLYAWGQETGAPILTDDVSLQVFMDHLKKLAVSSAC",
+        "full_sequence": "MATYLEFIQQNEERDGVRFSWNVWPSSRLEATRMVVPLACLLTPLKERPDLPPVQYEPVLCSRPTCKAVLNPLCQVDYRAKLWACNFCFQRNQFPPAYGGISEVNQPAELMPQFSTIEYVIQRGAQSPLIFLYVVDTCLEEDDLQALKESLQMSLSLLPPDALVGLITFGRMVQVHELSCEGISKSYVFRGTKDLTAKQIQDMLGLTKPAMPMQQARPAQPQEHPFASSRFLQPVHKIDMNLTDLLGELQRDPWPVTQGKRPLRSTGVALSIAVGLLEGTFPNTGARIMLFTGGPPTQGPGMVVGDELKIPIRSWHDIEKDNARFMKKATKHYEMLANRTAANGHCIDIYACALDQTGLLEMKCCANLTGGYMVMGDSFNTSLFKQTFQRIFTKDFNGDFRMAFGATLDVKTSRELKIAGAIGPCVSLNVKGPCVSENELGVGGTSQWKICGLDPTSTLGIYFEVVNQHNTPIPQGGRGAIQFVTHYQHSSTQRRIRVTTIARNWADVQSQLRHIEAAFDQEAAAVLMARLGVFRAESEEGPDVLRWLDRQLIRLCQKFGQYNKEDPTSFRLSDSFSLYPQFMFHLRRSPFLQVFNNSPDESSYYRHHFARQDLTQSLIMIQPILYSYSFHGPPEPVLLDSSSILADRILLMDTFFQIVIYLGETIAQWRKAGYQDMPEYENFKHLLQAPLDDAQEILQARFPMPRYINTEHGGSQARFLLSKVNPSQTHNNLYAWGQETGAPILTDDVSLQVFMDHLKKLAVSSAC",
+        "n_residues": 767,
+        "mutation_pos_1indexed": 400,
+        "wt_aa": "F",
+        "mut_aa": "L",
+        "pocket_lining_residues": "S156-L157-L158-P159-F392-T393-K394-G398-D399-F400",
+        "pocket_lining_positions_precursor": [
+          156,
+          157,
+          158,
+          159,
+          392,
+          393,
+          394,
+          398,
+          399,
+          400
+        ],
+        "pocket_lining_1letter": "SLLPFTKGDF",
+        "sequence_slice_around_pocket": "RIFTKDFNGDFRMAFGATLD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SEC23B_F400L/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "S156",
+          "L157",
+          "L158",
+          "P159",
+          "F392",
+          "T393",
+          "K394",
+          "G398",
+          "D399",
+          "F400"
+        ],
+        "values": [
+          [
+            0.0,
+            3.86,
+            5.673,
+            8.172,
+            10.083,
+            12.408,
+            13.111,
+            13.82,
+            14.181,
+            13.469
+          ],
+          [
+            3.86,
+            0.0,
+            3.847,
+            6.781,
+            6.449,
+            8.703,
+            9.419,
+            10.784,
+            10.79,
+            9.722
+          ],
+          [
+            5.673,
+            3.847,
+            0.0,
+            3.845,
+            7.511,
+            10.347,
+            10.468,
+            11.122,
+            10.115,
+            9.201
+          ],
+          [
+            8.172,
+            6.781,
+            3.845,
+            0.0,
+            10.073,
+            12.133,
+            11.007,
+            9.943,
+            8.973,
+            9.446
+          ],
+          [
+            10.083,
+            6.449,
+            7.511,
+            10.073,
+            0.0,
+            3.868,
+            6.363,
+            10.367,
+            9.064,
+            6.01
+          ],
+          [
+            12.408,
+            8.703,
+            10.347,
+            12.133,
+            3.868,
+            0.0,
+            3.821,
+            8.773,
+            8.24,
+            5.733
+          ],
+          [
+            13.111,
+            9.419,
+            10.468,
+            11.007,
+            6.363,
+            3.821,
+            0.0,
+            5.115,
+            5.057,
+            4.297
+          ],
+          [
+            13.82,
+            10.784,
+            11.122,
+            9.943,
+            10.367,
+            8.773,
+            5.115,
+            0.0,
+            3.857,
+            6.763
+          ],
+          [
+            14.181,
+            10.79,
+            10.115,
+            8.973,
+            9.064,
+            8.24,
+            5.057,
+            3.857,
+            0.0,
+            3.846
+          ],
+          [
+            13.469,
+            9.722,
+            9.201,
+            9.446,
+            6.01,
+            5.733,
+            4.297,
+            6.763,
+            3.846,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.7895371573925588,
+        "mw": 414.18,
+        "logp": 1.941,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.4562,
+        "sa_score": 2.99,
+        "n_heavy_atoms": 29,
+        "tpsa": 130.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SEC23B-F400L Candidate #1",
+        "iupac_name": "Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.7895,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SEC23B_F400L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SEC23B_F400L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SEC23B_F400L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SEC23B_F400L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SEC23B_F400L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SEC23B-F400L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SEC23B-F400L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:32:25.891773+00:00"
     }
   ]
 }
