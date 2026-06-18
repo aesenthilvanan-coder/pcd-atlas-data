@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1605,
+  "total_entries": 1606,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46264,
-    "queue_remaining": 132333
+    "total_processed": 46265,
+    "queue_remaining": 132332
   },
   "entries": [
     {
@@ -355109,6 +355109,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:47:27.908657+00:00"
+    },
+    {
+      "entry_id": "PCD-IL17RA-R271H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL17RA-R271H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "IL17RA",
+        "uniprot": "",
+        "clinvar_id": "340580",
+        "disease": "Immunodeficiency 51",
+        "mutation_precursor": "R271H",
+        "mutation_mature": "R271H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7256971773449393,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 288.7977901619923,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -26.10199546813965,
+          -9.933666229248047,
+          36.87411880493164
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.0367394083061505,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7547983708289528,
+        "cryptic": true,
+        "pocket_residues": {
+          "R271": "R",
+          "N272": "N",
+          "L273": "L"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96F46|IL17RA variant R271H",
+        "fasta_sequence": "MGAARSPPSAVPGPLLGLLLLLLGVLAPGGASLRLLDHRALVCSQPGLNCTVKNSTCLDDSWIHPRNLTPSSPKDLQIQLHFAHTQQGDLFPVAHIEWTLQTDASILYLEGAELSVLQLNTNERLCVRFEFLSKLRHHHRRWRFTFSHFVVDPDQEYEVTVHHLPKPIPDGDPNHQSKNFLVPDCEHARMKVTTPCMSSGSLWDPNITVETLEAHQLRVSFTLWNESTHYQILLTSFPHMENHSCFEHMHHIPAPRPEEFHQRSNVTLTLRNLKGCCRHQVQIQPFFSSCLNDCLRHSATVSCPEMPDTPEPIPDYMPLWVYWFITGISILLVGSVILLIVCMTWRLAGPGSEKYSDDTKYTDGLPAADLIPPPLKPRKVWIIYSADHPLYVDVVLKFAQFLLTACGTEVALDLLEEQAISEAGVMTWVGRQKQEMVESNSKIIVLCSRGTRAKWQALLGRGAPVRLRCDHGKPVGDLFTAAMNMILPDFKRPACFGTYVVCYFSEVSCDGDVPDLFGAAPRYPLMDRFEEVYFRIQDLEMFQPGRMHRVGELSGDNYLRSPGGRQLRAALDRFRDWQVRCPDWFECENLYSADDQDAPSLDEEVFEEPLLPPGTGIVKRAPLVREPGSQACLAIDPLVGEEGGAAVAKLEPHLQPRGQPAPQPLHTLVLAAEEGALVAAVEPGPLADGAAVRLALAGEGEACPLLGSPGAGRNSVLFLPVDPEDSPLGSSTPMASPDLLPEDVREHLEGLMLSLFEQSLSCQAQGGCSRPAMVLTDPHTPYEEEQRQSVQSDQGYISRSSPQPPEGLTEMEEEEEEEQDPGKPALPLSPEDLESLRSLQRQLLFRQLQKNSGWDTMGSESEGPSA",
+        "full_sequence": "MGAARSPPSAVPGPLLGLLLLLLGVLAPGGASLRLLDHRALVCSQPGLNCTVKNSTCLDDSWIHPRNLTPSSPKDLQIQLHFAHTQQGDLFPVAHIEWTLQTDASILYLEGAELSVLQLNTNERLCVRFEFLSKLRHHHRRWRFTFSHFVVDPDQEYEVTVHHLPKPIPDGDPNHQSKNFLVPDCEHARMKVTTPCMSSGSLWDPNITVETLEAHQLRVSFTLWNESTHYQILLTSFPHMENHSCFEHMHHIPAPRPEEFHQRSNVTLTLRNLKGCCRHQVQIQPFFSSCLNDCLRHSATVSCPEMPDTPEPIPDYMPLWVYWFITGISILLVGSVILLIVCMTWRLAGPGSEKYSDDTKYTDGLPAADLIPPPLKPRKVWIIYSADHPLYVDVVLKFAQFLLTACGTEVALDLLEEQAISEAGVMTWVGRQKQEMVESNSKIIVLCSRGTRAKWQALLGRGAPVRLRCDHGKPVGDLFTAAMNMILPDFKRPACFGTYVVCYFSEVSCDGDVPDLFGAAPRYPLMDRFEEVYFRIQDLEMFQPGRMHRVGELSGDNYLRSPGGRQLRAALDRFRDWQVRCPDWFECENLYSADDQDAPSLDEEVFEEPLLPPGTGIVKRAPLVREPGSQACLAIDPLVGEEGGAAVAKLEPHLQPRGQPAPQPLHTLVLAAEEGALVAAVEPGPLADGAAVRLALAGEGEACPLLGSPGAGRNSVLFLPVDPEDSPLGSSTPMASPDLLPEDVREHLEGLMLSLFEQSLSCQAQGGCSRPAMVLTDPHTPYEEEQRQSVQSDQGYISRSSPQPPEGLTEMEEEEEEEQDPGKPALPLSPEDLESLRSLQRQLLFRQLQKNSGWDTMGSESEGPSA",
+        "n_residues": 866,
+        "mutation_pos_1indexed": 271,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "R271-N272-L273",
+        "pocket_lining_positions_precursor": [
+          271,
+          272,
+          273
+        ],
+        "pocket_lining_1letter": "RNL",
+        "sequence_slice_around_pocket": "HQRSNVTLTLRNLKGCCRHQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_R271H/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "R271",
+          "N272",
+          "L273"
+        ],
+        "values": [
+          [
+            0.0,
+            3.832,
+            5.677
+          ],
+          [
+            3.832,
+            0.0,
+            3.854
+          ],
+          [
+            5.677,
+            3.854,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1CCCCC1",
+        "composite_score": 0.514416660104429,
+        "mw": 206.14,
+        "logp": 1.841,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 2,
+        "qed": 0.7759,
+        "sa_score": 2.05,
+        "n_heavy_atoms": 15,
+        "tpsa": 49.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "IL17RA-R271H Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5144,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_R271H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_R271H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_R271H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_R271H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_R271H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL17RA-R271H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL17RA-R271H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:47:56.900363+00:00"
     }
   ]
 }
