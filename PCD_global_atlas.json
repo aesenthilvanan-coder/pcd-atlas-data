@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2110,
+  "total_entries": 2111,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46822,
-    "queue_remaining": 131775
+    "total_processed": 46823,
+    "queue_remaining": 131774
   },
   "entries": [
     {
@@ -483195,6 +483195,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:50:52.368612+00:00"
+    },
+    {
+      "entry_id": "PCD-IGF2-C33R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IGF2-C33R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "IGF2",
+        "uniprot": "",
+        "clinvar_id": "372980",
+        "disease": "not provided",
+        "mutation_precursor": "C33R",
+        "mutation_mature": "C33R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7937304528657111,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 512.5517385899782,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          3.916212797164917,
+          -2.694045066833496,
+          -3.058924674987793
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.4513207134285135,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7360698194537053,
+        "cryptic": true,
+        "pocket_residues": {
+          "L32": "L",
+          "C33": "C",
+          "G34": "G",
+          "G35": "G",
+          "E36": "E",
+          "L37": "L",
+          "V38": "V"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P01344|IGF2 variant C33R",
+        "fasta_sequence": "MGIPMGKSMLVLLTFLAFASCCIAAYRPSETLCGGELVDTLQFVCGDRGFYFSRPASRVSRRSRGIVEECCFRSCDLALLETYCATPAKSERDVSTPPTVLPDNFPRYPVGKFFQYDTWKQSTQRLRRGLPALLRARRGHVLAKELEAFREAKRHRPLIALPTQDPAHGGAPPEMASNRK",
+        "full_sequence": "MGIPMGKSMLVLLTFLAFASCCIAAYRPSETLCGGELVDTLQFVCGDRGFYFSRPASRVSRRSRGIVEECCFRSCDLALLETYCATPAKSERDVSTPPTVLPDNFPRYPVGKFFQYDTWKQSTQRLRRGLPALLRARRGHVLAKELEAFREAKRHRPLIALPTQDPAHGGAPPEMASNRK",
+        "n_residues": 180,
+        "mutation_pos_1indexed": 33,
+        "wt_aa": "C",
+        "mut_aa": "R",
+        "pocket_lining_residues": "L32-C33-G34-G35-E36-L37-V38",
+        "pocket_lining_positions_precursor": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "pocket_lining_1letter": "LCGGELV",
+        "sequence_slice_around_pocket": "IAAYRPSETLCGGELVDTLQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/IGF2_C33R/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "L32",
+          "C33",
+          "G34",
+          "G35",
+          "E36",
+          "L37",
+          "V38"
+        ],
+        "values": [
+          [
+            0.0,
+            3.853,
+            6.186,
+            7.871,
+            5.79,
+            5.224,
+            8.872
+          ],
+          [
+            3.853,
+            0.0,
+            3.812,
+            7.114,
+            7.055,
+            6.681,
+            9.372
+          ],
+          [
+            6.186,
+            3.812,
+            0.0,
+            3.826,
+            5.648,
+            6.088,
+            7.246
+          ],
+          [
+            7.871,
+            7.114,
+            3.826,
+            0.0,
+            3.857,
+            5.572,
+            5.146
+          ],
+          [
+            5.79,
+            7.055,
+            5.648,
+            3.857,
+            0.0,
+            3.854,
+            5.339
+          ],
+          [
+            5.224,
+            6.681,
+            6.088,
+            5.572,
+            3.854,
+            0.0,
+            3.84
+          ],
+          [
+            8.872,
+            9.372,
+            7.246,
+            5.146,
+            5.339,
+            3.84,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CC(=O)CCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.8296004239932172,
+        "mw": 350.19,
+        "logp": 2.067,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.6513,
+        "sa_score": 3.32,
+        "n_heavy_atoms": 26,
+        "tpsa": 99.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "IGF2-C33R Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CC(=O)CCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8296,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/IGF2_C33R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/IGF2_C33R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/IGF2_C33R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/IGF2_C33R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/IGF2_C33R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IGF2-C33R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IGF2-C33R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:51:17.004244+00:00"
     }
   ]
 }
