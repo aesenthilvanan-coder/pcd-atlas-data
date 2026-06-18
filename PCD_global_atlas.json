@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2167,
+  "total_entries": 2168,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46888,
-    "queue_remaining": 131709
+    "total_processed": 46889,
+    "queue_remaining": 131708
   },
   "entries": [
     {
@@ -497324,6 +497324,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T08:37:39.350566+00:00"
+    },
+    {
+      "entry_id": "PCD-AAAS-A167E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AAAS-A167E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AAAS",
+        "uniprot": "",
+        "clinvar_id": "373167",
+        "disease": "not provided",
+        "mutation_precursor": "A167E",
+        "mutation_mature": "A167E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8044697566877393,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 379.6763364626617,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.054746150970459,
+          13.714072227478027,
+          3.549837350845337
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.066391795244584,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6843390279238963,
+        "cryptic": true,
+        "pocket_residues": {
+          "F157": "F",
+          "A158": "A",
+          "W159": "W",
+          "H160": "H",
+          "K165": "K",
+          "F166": "F",
+          "A167": "A",
+          "V168": "V",
+          "V177": "V",
+          "Y178": "Y",
+          "N179": "N"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NRG9|AAAS variant A167E",
+        "fasta_sequence": "MCSLGLFPPPPPRGQVTLYEHNNELVTGSSYESPPPDFRGQWINLPVLQLTKDPLKTPGRLDHGTRTAFIHHREQVWKRCINIWRDVGLFGVLNEIANSEEEVFEWVKTASGWALALCRWASSLHGSLFPHLSLRSEDLIAEFAQVTNWSSCCLRVFAWHPHTNKFAVALLDDSVRVYNASSTIVPSLKHRLQRNVASLAWKPLSASVLAVACQSCILIWTLDPTSLSTRPSSGCAQVLSHPGHTPVTSLAWAPSGGRLLSASPVDAAIRVWDVSTETCVPLPWFRGGGVTNLLWSPDGSKILATTPSAVFRVWEAQMWTCERWPTLSGRCQTGCWSPDGSRLLFTVLGEPLIYSLSFPERCGEGKGCVGGAKSATIVADLSETTIQTPDGEERLGGEAHSMVWDPSGERLAVLMKGKPRVQDGKPVILLFRTRNSPVFELLPCGIIQGEPGAQPQLITFHPSFNKGALLSVGWSTGRIAHIPLYFVNAQFPRFSPVLGRAQEPPAGGGGSIHDLPLFTETSPTSAPWDPLPGPPPVLPHSPHSHL",
+        "full_sequence": "MCSLGLFPPPPPRGQVTLYEHNNELVTGSSYESPPPDFRGQWINLPVLQLTKDPLKTPGRLDHGTRTAFIHHREQVWKRCINIWRDVGLFGVLNEIANSEEEVFEWVKTASGWALALCRWASSLHGSLFPHLSLRSEDLIAEFAQVTNWSSCCLRVFAWHPHTNKFAVALLDDSVRVYNASSTIVPSLKHRLQRNVASLAWKPLSASVLAVACQSCILIWTLDPTSLSTRPSSGCAQVLSHPGHTPVTSLAWAPSGGRLLSASPVDAAIRVWDVSTETCVPLPWFRGGGVTNLLWSPDGSKILATTPSAVFRVWEAQMWTCERWPTLSGRCQTGCWSPDGSRLLFTVLGEPLIYSLSFPERCGEGKGCVGGAKSATIVADLSETTIQTPDGEERLGGEAHSMVWDPSGERLAVLMKGKPRVQDGKPVILLFRTRNSPVFELLPCGIIQGEPGAQPQLITFHPSFNKGALLSVGWSTGRIAHIPLYFVNAQFPRFSPVLGRAQEPPAGGGGSIHDLPLFTETSPTSAPWDPLPGPPPVLPHSPHSHL",
+        "n_residues": 546,
+        "mutation_pos_1indexed": 167,
+        "wt_aa": "A",
+        "mut_aa": "E",
+        "pocket_lining_residues": "F157-A158-W159-H160-K165-F166-A167-V168-V177-Y178-N179",
+        "pocket_lining_positions_precursor": [
+          157,
+          158,
+          159,
+          160,
+          165,
+          166,
+          167,
+          168,
+          177,
+          178,
+          179
+        ],
+        "pocket_lining_1letter": "FAWHKFAVVYN",
+        "sequence_slice_around_pocket": "FAWHPHTNKFAVALLDDSVR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AAAS_A167E/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "F157",
+          "A158",
+          "W159",
+          "H160",
+          "K165",
+          "F166",
+          "A167",
+          "V168",
+          "V177",
+          "Y178",
+          "N179"
+        ],
+        "values": [
+          [
+            0.0,
+            3.849,
+            6.977,
+            10.15,
+            10.997,
+            7.25,
+            5.822,
+            4.652,
+            9.869,
+            10.788,
+            13.319
+          ],
+          [
+            3.849,
+            0.0,
+            3.825,
+            6.568,
+            8.773,
+            5.523,
+            5.167,
+            6.581,
+            9.433,
+            10.397,
+            12.075
+          ],
+          [
+            6.977,
+            3.825,
+            0.0,
+            3.783,
+            6.189,
+            4.292,
+            6.487,
+            8.972,
+            9.744,
+            9.618,
+            10.085
+          ],
+          [
+            10.15,
+            6.568,
+            3.783,
+            0.0,
+            5.382,
+            5.551,
+            7.805,
+            11.205,
+            10.007,
+            10.165,
+            9.7
+          ],
+          [
+            10.997,
+            8.773,
+            6.189,
+            5.382,
+            0.0,
+            3.801,
+            7.071,
+            10.3,
+            7.096,
+            5.66,
+            4.345
+          ],
+          [
+            7.25,
+            5.523,
+            4.292,
+            5.551,
+            3.801,
+            0.0,
+            3.801,
+            6.761,
+            5.752,
+            5.373,
+            6.553
+          ],
+          [
+            5.822,
+            5.167,
+            6.487,
+            7.805,
+            7.071,
+            3.801,
+            0.0,
+            3.814,
+            4.376,
+            6.273,
+            8.899
+          ],
+          [
+            4.652,
+            6.581,
+            8.972,
+            11.205,
+            10.3,
+            6.761,
+            3.814,
+            0.0,
+            6.343,
+            7.978,
+            11.344
+          ],
+          [
+            9.869,
+            9.433,
+            9.744,
+            10.007,
+            7.096,
+            5.752,
+            4.376,
+            6.343,
+            0.0,
+            3.8,
+            6.783
+          ],
+          [
+            10.788,
+            10.397,
+            9.618,
+            10.165,
+            5.66,
+            5.373,
+            6.273,
+            7.978,
+            3.8,
+            0.0,
+            3.808
+          ],
+          [
+            13.319,
+            12.075,
+            10.085,
+            9.7,
+            4.345,
+            6.553,
+            8.899,
+            11.344,
+            6.783,
+            3.808,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.663908650475199,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AAAS-A167E Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6639,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AAAS_A167E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AAAS_A167E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AAAS_A167E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AAAS_A167E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AAAS_A167E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AAAS-A167E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AAAS-A167E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T08:38:05.674529+00:00"
     }
   ]
 }
