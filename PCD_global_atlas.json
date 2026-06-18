@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1599,
+  "total_entries": 1600,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46253,
-    "queue_remaining": 132344
+    "total_processed": 46254,
+    "queue_remaining": 132343
   },
   "entries": [
     {
@@ -353557,6 +353557,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:43:13.791116+00:00"
+    },
+    {
+      "entry_id": "PCD-GDF5-N56K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GDF5-N56K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GDF5",
+        "uniprot": "",
+        "clinvar_id": "338323",
+        "disease": "Multiple synostoses syndrome 2",
+        "mutation_precursor": "N56K",
+        "mutation_mature": "N56K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8881281708961949,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 372.3361865249981,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -26.89276885986328,
+          -19.09018898010254,
+          -6.430644512176514
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.390286920602775,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7208882854920681,
+        "cryptic": true,
+        "pocket_residues": {
+          "A54": "A",
+          "R55": "R",
+          "N56": "N",
+          "V57": "V",
+          "F58": "F"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P43026|GDF5 variant N56K",
+        "fasta_sequence": "MRLPKLLTFLLWYLAWLDLEFICTVLGAPDLGQRPQGTRPGLAKAEAKERPPLARNVFRPGGHSYGGGATNANARAKGGTGQTGGLTQPKKDEPKKLPPRPGGPEPKPGHPPQTRQATARTVTPKGQLPGGKAPPKAGSVPSSFLLKKAREPGPPREPKEPFRPPPITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALEKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR",
+        "full_sequence": "MRLPKLLTFLLWYLAWLDLEFICTVLGAPDLGQRPQGTRPGLAKAEAKERPPLARNVFRPGGHSYGGGATNANARAKGGTGQTGGLTQPKKDEPKKLPPRPGGPEPKPGHPPQTRQATARTVTPKGQLPGGKAPPKAGSVPSSFLLKKAREPGPPREPKEPFRPPPITPHEYMLSLYRTLSDADRKGGNSSVKLEAGLANTITSFIDKGQDDRGPVVRKQRYVFDISALEKDGLLGAELRILRKKPSDTAKPAAPGGGRAAQLKLSSCPSGRQPAALLDVRSVPGLDGSGWEVFDIWKLFRNFKNSAQLCLELEAWERGRAVDLRGLGFDRAARQVHEKALFLVFGRTKKRDLFFNEIKARSGQDDKTVYEYLFSQRRKRRAPLATRQGKRPSKNLKARCSRKALHVNFKDMGWDDWIIAPLEYEAFHCEGLCEFPLRSHLEPTNHAVIQTLMNSMDPESTPPTCCVPTRLSPISILFIDSANNVVYKQYEDMVVESCGCR",
+        "n_residues": 501,
+        "mutation_pos_1indexed": 56,
+        "wt_aa": "N",
+        "mut_aa": "K",
+        "pocket_lining_residues": "A54-R55-N56-V57-F58",
+        "pocket_lining_positions_precursor": [
+          54,
+          55,
+          56,
+          57,
+          58
+        ],
+        "pocket_lining_1letter": "ARNVF",
+        "sequence_slice_around_pocket": "EAKERPPLARNVFRPGGHSY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GDF5_N56K/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "A54",
+          "R55",
+          "N56",
+          "V57",
+          "F58"
+        ],
+        "values": [
+          [
+            0.0,
+            3.755,
+            6.781,
+            9.844,
+            12.968
+          ],
+          [
+            3.755,
+            0.0,
+            3.733,
+            6.206,
+            9.496
+          ],
+          [
+            6.781,
+            3.733,
+            0.0,
+            3.823,
+            6.27
+          ],
+          [
+            9.844,
+            6.206,
+            3.823,
+            0.0,
+            3.829
+          ],
+          [
+            12.968,
+            9.496,
+            6.27,
+            3.829,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6974000766247519,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GDF5-N56K Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6974,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GDF5_N56K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GDF5_N56K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GDF5_N56K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GDF5_N56K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GDF5_N56K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GDF5-N56K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GDF5-N56K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:43:42.087811+00:00"
     }
   ]
 }
