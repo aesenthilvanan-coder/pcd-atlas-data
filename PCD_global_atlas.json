@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2456,
+  "total_entries": 2457,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47219,
-    "queue_remaining": 131378
+    "total_processed": 47220,
+    "queue_remaining": 131377
   },
   "entries": [
     {
@@ -574235,6 +574235,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:45:01.927171+00:00"
+    },
+    {
+      "entry_id": "PCD-GFAP-E72G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GFAP-E72G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GFAP",
+        "uniprot": "",
+        "clinvar_id": "374303",
+        "disease": "Alexander disease",
+        "mutation_precursor": "E72G",
+        "mutation_mature": "E72G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7322812995171084,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 470.54323232735453,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          78.07843780517578,
+          -21.124046325683594,
+          -77.02487182617188
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.4268742254911,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.851594488464335,
+        "cryptic": true,
+        "pocket_residues": {
+          "S68": "S",
+          "E69": "E",
+          "R70": "R",
+          "A71": "A",
+          "E72": "E",
+          "M73": "M"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P14136|GFAP variant E72G",
+        "fasta_sequence": "MERRRITSAARRSYVSSGEMMVGGLAPGRRLGPGTRLSLARMPPPLPTRVDFSLAGALNAGFKETRASERAEMMELNDRFASYIEKVRFLEQQNKALAAELNQLRAKEPTKLADVYQAELRELRLRLDQLTANSARLEVERDNLAQDLATVRQKLQDETNLRLEAENNLAAYRQEADEATLARLDLERKIESLEEEIRFLRKIHEEEVRELQEQLARQQVHVELDVAKPDLTAALKEIRTQYEAMASSNMHEAEEWYRSKFADLTDAAARNAELLRQAKHEANDYRRQLQSLTCDLESLRGTNESLERQMREQEERHVREAASYQEALARLEEEGQSLKDEMARHLQEYQDLLNVKLALDIEIATYRKLLEGEENRITIPVQTFSNLQIRETSLDTKSVSEGHLKRNIVVKTVEMRDGEVIKESKQEHKDVM",
+        "full_sequence": "MERRRITSAARRSYVSSGEMMVGGLAPGRRLGPGTRLSLARMPPPLPTRVDFSLAGALNAGFKETRASERAEMMELNDRFASYIEKVRFLEQQNKALAAELNQLRAKEPTKLADVYQAELRELRLRLDQLTANSARLEVERDNLAQDLATVRQKLQDETNLRLEAENNLAAYRQEADEATLARLDLERKIESLEEEIRFLRKIHEEEVRELQEQLARQQVHVELDVAKPDLTAALKEIRTQYEAMASSNMHEAEEWYRSKFADLTDAAARNAELLRQAKHEANDYRRQLQSLTCDLESLRGTNESLERQMREQEERHVREAASYQEALARLEEEGQSLKDEMARHLQEYQDLLNVKLALDIEIATYRKLLEGEENRITIPVQTFSNLQIRETSLDTKSVSEGHLKRNIVVKTVEMRDGEVIKESKQEHKDVM",
+        "n_residues": 432,
+        "mutation_pos_1indexed": 72,
+        "wt_aa": "E",
+        "mut_aa": "G",
+        "pocket_lining_residues": "S68-E69-R70-A71-E72-M73",
+        "pocket_lining_positions_precursor": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "pocket_lining_1letter": "SERAEM",
+        "sequence_slice_around_pocket": "FKETRASERAEMMELNDRFA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_E72G/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "S68",
+          "E69",
+          "R70",
+          "A71",
+          "E72",
+          "M73"
+        ],
+        "values": [
+          [
+            0.0,
+            3.866,
+            5.394,
+            4.977,
+            6.109,
+            8.494
+          ],
+          [
+            3.866,
+            0.0,
+            3.85,
+            5.468,
+            5.054,
+            6.023
+          ],
+          [
+            5.394,
+            3.85,
+            0.0,
+            3.828,
+            5.479,
+            4.989
+          ],
+          [
+            4.977,
+            5.468,
+            3.828,
+            0.0,
+            3.868,
+            5.456
+          ],
+          [
+            6.109,
+            5.054,
+            5.479,
+            3.868,
+            0.0,
+            3.848
+          ],
+          [
+            8.494,
+            6.023,
+            4.989,
+            5.456,
+            3.848,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "composite_score": 0.7025600655911692,
+        "mw": 325.18,
+        "logp": 1.996,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 7,
+        "qed": 0.7503,
+        "sa_score": 2.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 89.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GFAP-E72G Candidate #1",
+        "iupac_name": "NCCCCCc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7026,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_E72G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_E72G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_E72G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_E72G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GFAP_E72G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GFAP-E72G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GFAP-E72G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:45:28.300645+00:00"
     }
   ]
 }
