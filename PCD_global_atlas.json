@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2230,
+  "total_entries": 2231,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46964,
-    "queue_remaining": 131633
+    "total_processed": 46965,
+    "queue_remaining": 131632
   },
   "entries": [
     {
@@ -513359,6 +513359,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T09:49:14.382300+00:00"
+    },
+    {
+      "entry_id": "PCD-TGIF1-R90H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TGIF1-R90H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TGIF1",
+        "uniprot": "",
+        "clinvar_id": "372529",
+        "disease": "not provided",
+        "mutation_precursor": "R90H",
+        "mutation_mature": "R90H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9344380975332907,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 449.6733152904578,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          16.38394546508789,
+          -23.0336971282959,
+          -30.281408309936523
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.139988442272828,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8304197265770116,
+        "cryptic": true,
+        "pocket_residues": {
+          "P89": "P",
+          "Q90": "Q",
+          "P91": "P",
+          "R92": "R"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q15583|TGIF1 variant R90H",
+        "fasta_sequence": "MVLAQSRVSAGVGSPHCSGSGGGGSDSFPWPASHPGNPQCSFSTAFLASPRLSRGTLAYLPPAPWSSLATPSALLGSSCAPPPPPARCPQPRALSPELGTKAGPRRPHRWELPRSPSQGAQGPAPRRRLLETMKGIVAASGSETEDEDSMDIPLDLSSSAGSGKRRRRGNLPKESVQILRDWLYEHRYNAYPSEQEKALLSQQTHLSTLQVCNWFINARRRLLPDMLRKDGKDPNQFTISRRGAKISETSSVESVMGIKNFMPALEETPFHSCTAGPNPTLGRPLSPKPSSPGSVLARPSVICHTTVTALKDVPFSLCQSVGVGQNTDIQQIAAKNFTDTSLMYPEDTCKSGPSTNTQSGLFNTPPPTPPDLNQDFSGFQLLVDVALKRAAEMELQAKLTA",
+        "full_sequence": "MVLAQSRVSAGVGSPHCSGSGGGGSDSFPWPASHPGNPQCSFSTAFLASPRLSRGTLAYLPPAPWSSLATPSALLGSSCAPPPPPARCPQPRALSPELGTKAGPRRPHRWELPRSPSQGAQGPAPRRRLLETMKGIVAASGSETEDEDSMDIPLDLSSSAGSGKRRRRGNLPKESVQILRDWLYEHRYNAYPSEQEKALLSQQTHLSTLQVCNWFINARRRLLPDMLRKDGKDPNQFTISRRGAKISETSSVESVMGIKNFMPALEETPFHSCTAGPNPTLGRPLSPKPSSPGSVLARPSVICHTTVTALKDVPFSLCQSVGVGQNTDIQQIAAKNFTDTSLMYPEDTCKSGPSTNTQSGLFNTPPPTPPDLNQDFSGFQLLVDVALKRAAEMELQAKLTA",
+        "n_residues": 401,
+        "mutation_pos_1indexed": 90,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "P89-Q90-P91-R92",
+        "pocket_lining_positions_precursor": [
+          89,
+          90,
+          91,
+          92
+        ],
+        "pocket_lining_1letter": "PQPR",
+        "sequence_slice_around_pocket": "APPPPPARCPQPRALSPELG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TGIF1_R90H/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "P89",
+          "Q90",
+          "P91",
+          "R92"
+        ],
+        "values": [
+          [
+            0.0,
+            3.843,
+            6.527,
+            9.536
+          ],
+          [
+            3.843,
+            0.0,
+            3.866,
+            6.423
+          ],
+          [
+            6.527,
+            3.866,
+            0.0,
+            3.862
+          ],
+          [
+            9.536,
+            6.423,
+            3.862,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.5831079182337304,
+        "mw": 317.21,
+        "logp": 2.135,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9218,
+        "sa_score": 3.14,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TGIF1-R90H Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5831,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TGIF1_R90H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TGIF1_R90H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TGIF1_R90H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TGIF1_R90H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TGIF1_R90H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TGIF1-R90H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TGIF1-R90H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T09:49:54.179480+00:00"
     }
   ]
 }
