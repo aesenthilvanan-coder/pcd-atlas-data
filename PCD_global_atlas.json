@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2308,
+  "total_entries": 2309,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47044,
-    "queue_remaining": 131553
+    "total_processed": 47045,
+    "queue_remaining": 131552
   },
   "entries": [
     {
@@ -533515,6 +533515,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:28:01.723835+00:00"
+    },
+    {
+      "entry_id": "PCD-GATA1-G208R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GATA1-G208R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GATA1",
+        "uniprot": "",
+        "clinvar_id": "372762",
+        "disease": "not provided",
+        "mutation_precursor": "G208R",
+        "mutation_mature": "G208R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9489624929991697,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 430.9855068800276,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -0.9496345520019531,
+          3.762101411819458,
+          -11.083550453186035
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.200590240829151,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8970994857367928,
+        "cryptic": true,
+        "pocket_residues": {
+          "E203": "E",
+          "C204": "C",
+          "V205": "V",
+          "N206": "N",
+          "C207": "C",
+          "G208": "G",
+          "A209": "A",
+          "K245": "K",
+          "K246": "K",
+          "R247": "R",
+          "L248": "L"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P15976|GATA1 variant G208R",
+        "fasta_sequence": "MEFPGLGSLGTSEPLPQFVDPALVSSTPESGVFFPSGPEGLDAAASSTAPSTATAAAAALAYYRDAEAYRHSPVFQVYPLLNCMEGIPGGSPYAGWAYGKTGLYPASTVCPTREDSPPQAVEDLDGKGSTSFLETLKTERLSPDLLTLGPALPSSLPVPNSAYGGPDFSSTFFSPTGSPLNSAAYSSPKLRGTLPLPPCEARECVNCGATATPLWRRDRTGHYLCNACGLYHKMNGQNRPLIRPKKRLIVSKRAGTQCTNCQTTTTTLWRRNASGDPVCNACGLYYKLHQVNRPLTMRKDGIQTRNRKASGKGKKKRGSSLGGTGAAEGPAGGFMVVAGGSGSGNCGEVASGLTLGPPGTAHLYQGLGPVVLSGPVSHLMPFPGPLLGSPTGSFPTGPMPPTTSTTVVAPLSS",
+        "full_sequence": "MEFPGLGSLGTSEPLPQFVDPALVSSTPESGVFFPSGPEGLDAAASSTAPSTATAAAAALAYYRDAEAYRHSPVFQVYPLLNCMEGIPGGSPYAGWAYGKTGLYPASTVCPTREDSPPQAVEDLDGKGSTSFLETLKTERLSPDLLTLGPALPSSLPVPNSAYGGPDFSSTFFSPTGSPLNSAAYSSPKLRGTLPLPPCEARECVNCGATATPLWRRDRTGHYLCNACGLYHKMNGQNRPLIRPKKRLIVSKRAGTQCTNCQTTTTTLWRRNASGDPVCNACGLYYKLHQVNRPLTMRKDGIQTRNRKASGKGKKKRGSSLGGTGAAEGPAGGFMVVAGGSGSGNCGEVASGLTLGPPGTAHLYQGLGPVVLSGPVSHLMPFPGPLLGSPTGSFPTGPMPPTTSTTVVAPLSS",
+        "n_residues": 413,
+        "mutation_pos_1indexed": 208,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "E203-C204-V205-N206-C207-G208-A209-K245-K246-R247-L248",
+        "pocket_lining_positions_precursor": [
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          245,
+          246,
+          247,
+          248
+        ],
+        "pocket_lining_1letter": "ECVNCGAKKRL",
+        "sequence_slice_around_pocket": "PCEARECVNCGATATPLWRR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GATA1_G208R/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "E203",
+          "C204",
+          "V205",
+          "N206",
+          "C207",
+          "G208",
+          "A209",
+          "K245",
+          "K246",
+          "R247",
+          "L248"
+        ],
+        "values": [
+          [
+            0.0,
+            3.807,
+            6.034,
+            8.578,
+            8.089,
+            5.196,
+            5.468,
+            11.347,
+            12.408,
+            11.752,
+            12.807
+          ],
+          [
+            3.807,
+            0.0,
+            3.858,
+            5.428,
+            5.598,
+            4.707,
+            5.261,
+            10.422,
+            12.617,
+            12.36,
+            14.392
+          ],
+          [
+            6.034,
+            3.858,
+            0.0,
+            3.843,
+            6.154,
+            5.87,
+            8.301,
+            9.843,
+            12.235,
+            11.127,
+            13.508
+          ],
+          [
+            8.578,
+            5.428,
+            3.843,
+            0.0,
+            3.863,
+            6.059,
+            8.373,
+            8.155,
+            11.45,
+            11.265,
+            14.372
+          ],
+          [
+            8.089,
+            5.598,
+            6.154,
+            3.863,
+            0.0,
+            3.873,
+            5.614,
+            5.966,
+            9.175,
+            10.122,
+            13.121
+          ],
+          [
+            5.196,
+            4.707,
+            5.87,
+            6.059,
+            3.873,
+            0.0,
+            3.835,
+            6.325,
+            8.034,
+            8.384,
+            10.561
+          ],
+          [
+            5.468,
+            5.261,
+            8.301,
+            8.373,
+            5.614,
+            3.835,
+            0.0,
+            9.091,
+            10.536,
+            11.637,
+            13.309
+          ],
+          [
+            11.347,
+            10.422,
+            9.843,
+            8.155,
+            5.966,
+            6.325,
+            9.091,
+            0.0,
+            3.863,
+            5.719,
+            9.124
+          ],
+          [
+            12.408,
+            12.617,
+            12.235,
+            11.45,
+            9.175,
+            8.034,
+            10.536,
+            3.863,
+            0.0,
+            3.809,
+            6.202
+          ],
+          [
+            11.752,
+            12.36,
+            11.127,
+            11.265,
+            10.122,
+            8.384,
+            11.637,
+            5.719,
+            3.809,
+            0.0,
+            3.767
+          ],
+          [
+            12.807,
+            14.392,
+            13.508,
+            14.372,
+            13.121,
+            10.561,
+            13.309,
+            9.124,
+            6.202,
+            3.767,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.904810233649006,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GATA1-G208R Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9048,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GATA1_G208R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GATA1_G208R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GATA1_G208R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GATA1_G208R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GATA1_G208R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GATA1-G208R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GATA1-G208R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:28:30.423311+00:00"
     }
   ]
 }
