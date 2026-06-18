@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2267,
+  "total_entries": 2268,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47002,
-    "queue_remaining": 131595
+    "total_processed": 47003,
+    "queue_remaining": 131594
   },
   "entries": [
     {
@@ -523383,6 +523383,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T10:53:58.211355+00:00"
+    },
+    {
+      "entry_id": "PCD-SMARCB1-R374Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMARCB1-R374Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SMARCB1",
+        "uniprot": "",
+        "clinvar_id": "372511",
+        "disease": "not provided",
+        "mutation_precursor": "R374Q",
+        "mutation_mature": "R374Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8142763429608373,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 289.69186618008644,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.995152950286865,
+          -13.47201919555664,
+          21.462343215942383
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.241083105935552,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8761341550720328,
+        "cryptic": true,
+        "pocket_residues": {
+          "R370": "R",
+          "N371": "N",
+          "T372": "T",
+          "R373": "R",
+          "R374": "R",
+          "M375": "M",
+          "R376": "R",
+          "R377": "R",
+          "L378": "L",
+          "A379": "A"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q12824|SMARCB1 variant R374Q",
+        "fasta_sequence": "MMMMALSKTFGQKPVKFQLEDDGEFYMIGSEVGNYLRMFRGSLYKRYPSLWRRLATVEERKKIVASSHGKKTKPNTKDHGYTTLATSVTLLKASEVEEILDGNDEKYKAVSISTEPPTYLREQKAKRNSQWVPTLPNSSHHLDAVPCSTTINRNRMGRDKKRTFPLCFDDHDPAVIHENASQPEVLVPIRLDMEIDGQKLRDAFTWNMNEKLMTPEMFSEILCDDLDLNPLTFVPAIASAIRQQIESYPTDSILEDQSDQRVIIKLNIHVGNISLVDQFEWDMSEKENSPEKFALKLCSELGLGGEFVTTIAYSIRGQLSWHQKTYAFSENPLPTVEIAIRNTGDADQWCPLLETLTDAEMEKKIRDQDRNTRRMRRLANTAPAW",
+        "full_sequence": "MMMMALSKTFGQKPVKFQLEDDGEFYMIGSEVGNYLRMFRGSLYKRYPSLWRRLATVEERKKIVASSHGKKTKPNTKDHGYTTLATSVTLLKASEVEEILDGNDEKYKAVSISTEPPTYLREQKAKRNSQWVPTLPNSSHHLDAVPCSTTINRNRMGRDKKRTFPLCFDDHDPAVIHENASQPEVLVPIRLDMEIDGQKLRDAFTWNMNEKLMTPEMFSEILCDDLDLNPLTFVPAIASAIRQQIESYPTDSILEDQSDQRVIIKLNIHVGNISLVDQFEWDMSEKENSPEKFALKLCSELGLGGEFVTTIAYSIRGQLSWHQKTYAFSENPLPTVEIAIRNTGDADQWCPLLETLTDAEMEKKIRDQDRNTRRMRRLANTAPAW",
+        "n_residues": 385,
+        "mutation_pos_1indexed": 374,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "R370-N371-T372-R373-R374-M375-R376-R377-L378-A379",
+        "pocket_lining_positions_precursor": [
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379
+        ],
+        "pocket_lining_1letter": "RNTRRMRRLA",
+        "sequence_slice_around_pocket": "KIRDQDRNTRRMRRLANTAP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SMARCB1_R374Q/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "R370",
+          "N371",
+          "T372",
+          "R373",
+          "R374",
+          "M375",
+          "R376",
+          "R377",
+          "L378",
+          "A379"
+        ],
+        "values": [
+          [
+            0.0,
+            3.851,
+            5.496,
+            5.202,
+            6.21,
+            8.79,
+            10.036,
+            10.666,
+            12.487,
+            14.455
+          ],
+          [
+            3.851,
+            0.0,
+            3.856,
+            5.461,
+            4.941,
+            6.197,
+            8.653,
+            9.809,
+            10.526,
+            12.351
+          ],
+          [
+            5.496,
+            3.856,
+            0.0,
+            3.846,
+            5.428,
+            5.21,
+            6.229,
+            8.655,
+            9.945,
+            10.639
+          ],
+          [
+            5.202,
+            5.461,
+            3.846,
+            0.0,
+            3.846,
+            5.557,
+            5.158,
+            6.208,
+            8.731,
+            9.993
+          ],
+          [
+            6.21,
+            4.941,
+            5.428,
+            3.846,
+            0.0,
+            3.858,
+            5.559,
+            5.152,
+            6.315,
+            8.798
+          ],
+          [
+            8.79,
+            6.197,
+            5.21,
+            5.557,
+            3.858,
+            0.0,
+            3.868,
+            5.39,
+            5.029,
+            6.19
+          ],
+          [
+            10.036,
+            8.653,
+            6.229,
+            5.158,
+            5.559,
+            3.868,
+            0.0,
+            3.854,
+            5.495,
+            5.136
+          ],
+          [
+            10.666,
+            9.809,
+            8.655,
+            6.208,
+            5.152,
+            5.39,
+            3.854,
+            0.0,
+            3.843,
+            5.524
+          ],
+          [
+            12.487,
+            10.526,
+            9.945,
+            8.731,
+            6.315,
+            5.029,
+            5.495,
+            3.843,
+            0.0,
+            3.855
+          ],
+          [
+            14.455,
+            12.351,
+            10.639,
+            9.993,
+            8.798,
+            6.19,
+            5.136,
+            5.524,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.6711599360768588,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SMARCB1-R374Q Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6712,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SMARCB1_R374Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SMARCB1_R374Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SMARCB1_R374Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SMARCB1_R374Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SMARCB1_R374Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMARCB1-R374Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMARCB1-R374Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T10:54:23.337761+00:00"
     }
   ]
 }
