@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1729,
+  "total_entries": 1730,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46401,
-    "queue_remaining": 132196
+    "total_processed": 46402,
+    "queue_remaining": 132195
   },
   "entries": [
     {
@@ -384880,6 +384880,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:20:39.178185+00:00"
+    },
+    {
+      "entry_id": "PCD-AIFM1-Q479R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIFM1-Q479R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AIFM1",
+        "uniprot": "",
+        "clinvar_id": "369972",
+        "disease": "Severe X-linked mitochondrial encephalomyopathy",
+        "mutation_precursor": "Q479R",
+        "mutation_mature": "Q479R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7890992596164313,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 578.9545920873726,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -8.429780006408691,
+          11.169136047363281,
+          -14.729924201965332
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.848098223629668,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.74316983733193,
+        "cryptic": true,
+        "pocket_residues": {
+          "H457": "H",
+          "V460": "V",
+          "S461": "S",
+          "L464": "L",
+          "Y476": "Y",
+          "W477": "W",
+          "H478": "H",
+          "Q479": "Q",
+          "S480": "S",
+          "E535": "E"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O95831|AIFM1 variant Q479R",
+        "fasta_sequence": "MFRCGGLAAGALKQKLVPLVRTVCVRSPRQRNRLPGNLFQRWHVPLELQMTRQMASSGASGGKIDNSVLVLIVGLSTVGAGAYAYKTMKEDEKRYNERISGLGLTPEQKQKKAALSASEGEEVPQDKAPSHVPFLLIGGGTAAFAAARSIRARDPGARVLIVSEDPELPYMRPPLSKELWFSDDPNVTKTLRFKQWNGKERSIYFQPPSFYVSAQDLPHIENGGVAVLTGKKVVQLDVRDNMVKLNDGSQITYEKCLIATGGTPRSLSAIDRAGAEVKSRTTLFRKIGDFRSLEKISREVKSITIIGGGFLGSELACALGRKARALGTEVIQLFPEKGNMGKILPEYLSNWTMEKVRREGVKVMPNAIVQSVGVSSGKLLIKLKDGRKVETDHIVAAVGLEPNVELAKTGGLEIDSDFGGFRVNAELQARSNIWVAGDAACFYDIKLGRRRVEHHDHAVVSGRLAGENMTGAAKPYWHQSMFWSDLGPDVGYEAIGLVDSSLPTVGVFAKATAQDNPKSATEQSGTGIRSESETESEASEITIPPSTPAVPQAPVQGEDYGKGVIFYLRDKVVVGIVLWNIFNRMPIARKIIKDGEQHEDLNEVAKLFNIHED",
+        "full_sequence": "MFRCGGLAAGALKQKLVPLVRTVCVRSPRQRNRLPGNLFQRWHVPLELQMTRQMASSGASGGKIDNSVLVLIVGLSTVGAGAYAYKTMKEDEKRYNERISGLGLTPEQKQKKAALSASEGEEVPQDKAPSHVPFLLIGGGTAAFAAARSIRARDPGARVLIVSEDPELPYMRPPLSKELWFSDDPNVTKTLRFKQWNGKERSIYFQPPSFYVSAQDLPHIENGGVAVLTGKKVVQLDVRDNMVKLNDGSQITYEKCLIATGGTPRSLSAIDRAGAEVKSRTTLFRKIGDFRSLEKISREVKSITIIGGGFLGSELACALGRKARALGTEVIQLFPEKGNMGKILPEYLSNWTMEKVRREGVKVMPNAIVQSVGVSSGKLLIKLKDGRKVETDHIVAAVGLEPNVELAKTGGLEIDSDFGGFRVNAELQARSNIWVAGDAACFYDIKLGRRRVEHHDHAVVSGRLAGENMTGAAKPYWHQSMFWSDLGPDVGYEAIGLVDSSLPTVGVFAKATAQDNPKSATEQSGTGIRSESETESEASEITIPPSTPAVPQAPVQGEDYGKGVIFYLRDKVVVGIVLWNIFNRMPIARKIIKDGEQHEDLNEVAKLFNIHED",
+        "n_residues": 613,
+        "mutation_pos_1indexed": 479,
+        "wt_aa": "Q",
+        "mut_aa": "R",
+        "pocket_lining_residues": "H457-V460-S461-L464-Y476-W477-H478-Q479-S480-E535",
+        "pocket_lining_positions_precursor": [
+          457,
+          460,
+          461,
+          464,
+          476,
+          477,
+          478,
+          479,
+          480,
+          535
+        ],
+        "pocket_lining_1letter": "HVSLYWHQSE",
+        "sequence_slice_around_pocket": "MTGAAKPYWHQSMFWSDLGP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AIFM1_Q479R/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "H457",
+          "V460",
+          "S461",
+          "L464",
+          "Y476",
+          "W477",
+          "H478",
+          "Q479",
+          "S480",
+          "E535"
+        ],
+        "values": [
+          [
+            0.0,
+            5.266,
+            5.603,
+            10.225,
+            10.008,
+            10.97,
+            8.15,
+            8.209,
+            5.206,
+            10.032
+          ],
+          [
+            5.266,
+            0.0,
+            3.858,
+            6.046,
+            8.592,
+            10.069,
+            7.585,
+            9.674,
+            8.204,
+            8.227
+          ],
+          [
+            5.603,
+            3.858,
+            0.0,
+            5.029,
+            7.046,
+            9.712,
+            8.362,
+            10.596,
+            9.322,
+            11.644
+          ],
+          [
+            10.225,
+            6.046,
+            5.029,
+            0.0,
+            7.272,
+            10.237,
+            9.922,
+            13.259,
+            13.024,
+            12.604
+          ],
+          [
+            10.008,
+            8.592,
+            7.046,
+            7.272,
+            0.0,
+            3.857,
+            5.683,
+            8.845,
+            10.259,
+            12.511
+          ],
+          [
+            10.97,
+            10.069,
+            9.712,
+            10.237,
+            3.857,
+            0.0,
+            3.816,
+            6.587,
+            9.282,
+            11.193
+          ],
+          [
+            8.15,
+            7.585,
+            8.362,
+            9.922,
+            5.683,
+            3.816,
+            0.0,
+            3.837,
+            5.981,
+            7.833
+          ],
+          [
+            8.209,
+            9.674,
+            10.596,
+            13.259,
+            8.845,
+            6.587,
+            3.837,
+            0.0,
+            3.821,
+            8.387
+          ],
+          [
+            5.206,
+            8.204,
+            9.322,
+            13.024,
+            10.259,
+            9.282,
+            5.981,
+            3.821,
+            0.0,
+            8.288
+          ],
+          [
+            10.032,
+            8.227,
+            11.644,
+            12.604,
+            12.511,
+            11.193,
+            7.833,
+            8.387,
+            8.288,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1CC(=O)CCC1OCNCc1c[nH]c2ccccc12",
+        "composite_score": 0.7966277859998683,
+        "mw": 407.2,
+        "logp": 1.964,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 8,
+        "qed": 0.2971,
+        "sa_score": 3.66,
+        "n_heavy_atoms": 30,
+        "tpsa": 113.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AIFM1-Q479R Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1CC(=O)CCC1OCNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7966,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AIFM1_Q479R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AIFM1_Q479R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AIFM1_Q479R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AIFM1_Q479R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AIFM1_Q479R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIFM1-Q479R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIFM1-Q479R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:21:09.513352+00:00"
     }
   ]
 }
