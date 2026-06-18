@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1462,
+  "total_entries": 1463,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46104,
-    "queue_remaining": 132493
+    "total_processed": 46109,
+    "queue_remaining": 132488
   },
   "entries": [
     {
@@ -323871,6 +323871,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:03:18.952919+00:00"
+    },
+    {
+      "entry_id": "PCD-IL17RA-T51M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL17RA-T51M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "IL17RA",
+        "uniprot": "",
+        "clinvar_id": "340565",
+        "disease": "Immunodeficiency 51",
+        "mutation_precursor": "T51M",
+        "mutation_mature": "T51M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7302479899286285,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 566.9810602780719,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          20.621217727661133,
+          12.249245643615723,
+          -9.991823196411133
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.34698863391867,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8882565571428492,
+        "cryptic": true,
+        "pocket_residues": {
+          "A40": "A",
+          "L41": "L",
+          "V42": "V",
+          "T51": "T",
+          "V52": "V",
+          "K53": "K",
+          "N54": "N",
+          "V127": "V",
+          "R128": "R",
+          "F129": "F"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96F46|IL17RA variant T51M",
+        "fasta_sequence": "MGAARSPPSAVPGPLLGLLLLLLGVLAPGGASLRLLDHRALVCSQPGLNCTVKNSTCLDDSWIHPRNLTPSSPKDLQIQLHFAHTQQGDLFPVAHIEWTLQTDASILYLEGAELSVLQLNTNERLCVRFEFLSKLRHHHRRWRFTFSHFVVDPDQEYEVTVHHLPKPIPDGDPNHQSKNFLVPDCEHARMKVTTPCMSSGSLWDPNITVETLEAHQLRVSFTLWNESTHYQILLTSFPHMENHSCFEHMHHIPAPRPEEFHQRSNVTLTLRNLKGCCRHQVQIQPFFSSCLNDCLRHSATVSCPEMPDTPEPIPDYMPLWVYWFITGISILLVGSVILLIVCMTWRLAGPGSEKYSDDTKYTDGLPAADLIPPPLKPRKVWIIYSADHPLYVDVVLKFAQFLLTACGTEVALDLLEEQAISEAGVMTWVGRQKQEMVESNSKIIVLCSRGTRAKWQALLGRGAPVRLRCDHGKPVGDLFTAAMNMILPDFKRPACFGTYVVCYFSEVSCDGDVPDLFGAAPRYPLMDRFEEVYFRIQDLEMFQPGRMHRVGELSGDNYLRSPGGRQLRAALDRFRDWQVRCPDWFECENLYSADDQDAPSLDEEVFEEPLLPPGTGIVKRAPLVREPGSQACLAIDPLVGEEGGAAVAKLEPHLQPRGQPAPQPLHTLVLAAEEGALVAAVEPGPLADGAAVRLALAGEGEACPLLGSPGAGRNSVLFLPVDPEDSPLGSSTPMASPDLLPEDVREHLEGLMLSLFEQSLSCQAQGGCSRPAMVLTDPHTPYEEEQRQSVQSDQGYISRSSPQPPEGLTEMEEEEEEEQDPGKPALPLSPEDLESLRSLQRQLLFRQLQKNSGWDTMGSESEGPSA",
+        "full_sequence": "MGAARSPPSAVPGPLLGLLLLLLGVLAPGGASLRLLDHRALVCSQPGLNCTVKNSTCLDDSWIHPRNLTPSSPKDLQIQLHFAHTQQGDLFPVAHIEWTLQTDASILYLEGAELSVLQLNTNERLCVRFEFLSKLRHHHRRWRFTFSHFVVDPDQEYEVTVHHLPKPIPDGDPNHQSKNFLVPDCEHARMKVTTPCMSSGSLWDPNITVETLEAHQLRVSFTLWNESTHYQILLTSFPHMENHSCFEHMHHIPAPRPEEFHQRSNVTLTLRNLKGCCRHQVQIQPFFSSCLNDCLRHSATVSCPEMPDTPEPIPDYMPLWVYWFITGISILLVGSVILLIVCMTWRLAGPGSEKYSDDTKYTDGLPAADLIPPPLKPRKVWIIYSADHPLYVDVVLKFAQFLLTACGTEVALDLLEEQAISEAGVMTWVGRQKQEMVESNSKIIVLCSRGTRAKWQALLGRGAPVRLRCDHGKPVGDLFTAAMNMILPDFKRPACFGTYVVCYFSEVSCDGDVPDLFGAAPRYPLMDRFEEVYFRIQDLEMFQPGRMHRVGELSGDNYLRSPGGRQLRAALDRFRDWQVRCPDWFECENLYSADDQDAPSLDEEVFEEPLLPPGTGIVKRAPLVREPGSQACLAIDPLVGEEGGAAVAKLEPHLQPRGQPAPQPLHTLVLAAEEGALVAAVEPGPLADGAAVRLALAGEGEACPLLGSPGAGRNSVLFLPVDPEDSPLGSSTPMASPDLLPEDVREHLEGLMLSLFEQSLSCQAQGGCSRPAMVLTDPHTPYEEEQRQSVQSDQGYISRSSPQPPEGLTEMEEEEEEEQDPGKPALPLSPEDLESLRSLQRQLLFRQLQKNSGWDTMGSESEGPSA",
+        "n_residues": 866,
+        "mutation_pos_1indexed": 51,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "A40-L41-V42-T51-V52-K53-N54-V127-R128-F129",
+        "pocket_lining_positions_precursor": [
+          40,
+          41,
+          42,
+          51,
+          52,
+          53,
+          54,
+          127,
+          128,
+          129
+        ],
+        "pocket_lining_1letter": "ALVTVKNVRF",
+        "sequence_slice_around_pocket": "LVCSQPGLNCTVKNSTCLDD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_T51M/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "A40",
+          "L41",
+          "V42",
+          "T51",
+          "V52",
+          "K53",
+          "N54",
+          "V127",
+          "R128",
+          "F129"
+        ],
+        "values": [
+          [
+            0.0,
+            3.84,
+            6.3,
+            8.951,
+            8.215,
+            9.5,
+            11.312,
+            12.726,
+            13.345,
+            12.658
+          ],
+          [
+            3.84,
+            0.0,
+            3.86,
+            7.27,
+            5.848,
+            8.223,
+            10.112,
+            10.183,
+            10.775,
+            9.757
+          ],
+          [
+            6.3,
+            3.86,
+            0.0,
+            6.129,
+            6.596,
+            10.019,
+            12.707,
+            12.133,
+            11.69,
+            9.405
+          ],
+          [
+            8.951,
+            7.27,
+            6.129,
+            0.0,
+            3.833,
+            6.606,
+            10.282,
+            10.369,
+            8.267,
+            5.835
+          ],
+          [
+            8.215,
+            5.848,
+            6.596,
+            3.833,
+            0.0,
+            3.846,
+            6.945,
+            6.754,
+            5.598,
+            4.598
+          ],
+          [
+            9.5,
+            8.223,
+            10.019,
+            6.606,
+            3.846,
+            0.0,
+            3.811,
+            5.853,
+            5.17,
+            6.526
+          ],
+          [
+            11.312,
+            10.112,
+            12.707,
+            10.282,
+            6.945,
+            3.811,
+            0.0,
+            4.55,
+            6.007,
+            8.871
+          ],
+          [
+            12.726,
+            10.183,
+            12.133,
+            10.369,
+            6.754,
+            5.853,
+            4.55,
+            0.0,
+            3.828,
+            6.774
+          ],
+          [
+            13.345,
+            10.775,
+            11.69,
+            8.267,
+            5.598,
+            5.17,
+            6.007,
+            3.828,
+            0.0,
+            3.805
+          ],
+          [
+            12.658,
+            9.757,
+            9.405,
+            5.835,
+            4.598,
+            6.526,
+            8.871,
+            6.774,
+            3.805,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1CC(=O)CCC1OCNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.5958029591699802,
+        "mw": 395.2,
+        "logp": 1.986,
+        "hbd": 4,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.357,
+        "sa_score": 3.57,
+        "n_heavy_atoms": 29,
+        "tpsa": 116.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "IL17RA-T51M Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1CC(=O)CCC1OCNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.5958,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_T51M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_T51M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_T51M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_T51M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/IL17RA_T51M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL17RA-T51M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL17RA-T51M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:04:43.358408+00:00"
     }
   ]
 }
