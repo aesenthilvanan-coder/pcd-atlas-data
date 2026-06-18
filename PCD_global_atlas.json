@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1710,
+  "total_entries": 1711,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46381,
-    "queue_remaining": 132216
+    "total_processed": 46382,
+    "queue_remaining": 132215
   },
   "entries": [
     {
@@ -380191,6 +380191,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:05:31.496604+00:00"
+    },
+    {
+      "entry_id": "PCD-LDLR-C143S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LDLR-C143S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LDLR",
+        "uniprot": "",
+        "clinvar_id": "369851",
+        "disease": "Hypercholesterolemia, familial, 1",
+        "mutation_precursor": "C143S",
+        "mutation_mature": "C143S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8814978405369964,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 375.5866095967103,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -42.53179168701172,
+          -11.22641372680664,
+          14.466779708862305
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.595882372167046,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8583672733709383,
+        "cryptic": true,
+        "pocket_residues": {
+          "V127": "V",
+          "C128": "C",
+          "D129": "D",
+          "D139": "D",
+          "E140": "E",
+          "A141": "A",
+          "S142": "S",
+          "C143": "C",
+          "P144": "P"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P01130|LDLR variant C143S",
+        "fasta_sequence": "MGPWGWKLRWTVALLLAAAGTAVGDRCERNEFQCQDGKCISYKWVCDGSAECQDGSDESQETCLSVTCKSGDFSCGGRVNRCIPQFWRCDGQVDCDNGSDEQGCPPKTCSQDEFRCHDGKCISRQFVCDSDRDCLDGSDEASCPVLTCGPASFQCNSSTCIPQLWACDNDPDCEDGSDEWPQRCRGLYVFQGDSSPCSAFEFHCLSGECIHSSWRCDGGPDCKDKSDEENCAVATCRPDEFQCSDGNCIHGSRQCDREYDCKDMSDEVGCVNVTLCEGPNKFKCHSGECITLDKVCNMARDCRDWSDEPIKECGTNECLDNNGGCSHVCNDLKIGYECLCPDGFQLVAQRRCEDIDECQDPDTCSQLCVNLEGGYKCQCEEGFQLDPHTKACKAVGSIAYLFFTNRHEVRKMTLDRSEYTSLIPNLRNVVALDTEVASNRIYWSDLSQRMICSTQLDRAHGVSSYDTVISRDIQAPDGLAVDWIHSNIYWTDSVLGTVSVADTKGVKRKTLFRENGSKPRAIVVDPVHGFMYWTDWGTPAKIKKGGLNGVDIYSLVTENIQWPNGITLDLLSGRLYWVDSKLHSISSIDVNGGNRKTILEDEKRLAHPFSLAVFEDKVFWTDIINEAIFSANRLTGSDVNLLAENLLSPEDMVLFHNLTQPRGVNWCERTTLSNGGCQYLCLPAPQINPHSPKFTCACPDGMLLARDMRSCLTEAEAAVATQETSTVRLKVSSTAVRTQHTTTRPVPDTSRLPGATPGLTTVEIVTMSHQALGDVAGRGNEKKPSSVRALSIVLPIVLLVFLCLGVFLLWKNWRLKNINSINFDNPVYQKTTEDEVHICHNQDGYSYPSRQMVSLEDDVA",
+        "full_sequence": "MGPWGWKLRWTVALLLAAAGTAVGDRCERNEFQCQDGKCISYKWVCDGSAECQDGSDESQETCLSVTCKSGDFSCGGRVNRCIPQFWRCDGQVDCDNGSDEQGCPPKTCSQDEFRCHDGKCISRQFVCDSDRDCLDGSDEASCPVLTCGPASFQCNSSTCIPQLWACDNDPDCEDGSDEWPQRCRGLYVFQGDSSPCSAFEFHCLSGECIHSSWRCDGGPDCKDKSDEENCAVATCRPDEFQCSDGNCIHGSRQCDREYDCKDMSDEVGCVNVTLCEGPNKFKCHSGECITLDKVCNMARDCRDWSDEPIKECGTNECLDNNGGCSHVCNDLKIGYECLCPDGFQLVAQRRCEDIDECQDPDTCSQLCVNLEGGYKCQCEEGFQLDPHTKACKAVGSIAYLFFTNRHEVRKMTLDRSEYTSLIPNLRNVVALDTEVASNRIYWSDLSQRMICSTQLDRAHGVSSYDTVISRDIQAPDGLAVDWIHSNIYWTDSVLGTVSVADTKGVKRKTLFRENGSKPRAIVVDPVHGFMYWTDWGTPAKIKKGGLNGVDIYSLVTENIQWPNGITLDLLSGRLYWVDSKLHSISSIDVNGGNRKTILEDEKRLAHPFSLAVFEDKVFWTDIINEAIFSANRLTGSDVNLLAENLLSPEDMVLFHNLTQPRGVNWCERTTLSNGGCQYLCLPAPQINPHSPKFTCACPDGMLLARDMRSCLTEAEAAVATQETSTVRLKVSSTAVRTQHTTTRPVPDTSRLPGATPGLTTVEIVTMSHQALGDVAGRGNEKKPSSVRALSIVLPIVLLVFLCLGVFLLWKNWRLKNINSINFDNPVYQKTTEDEVHICHNQDGYSYPSRQMVSLEDDVA",
+        "n_residues": 860,
+        "mutation_pos_1indexed": 143,
+        "wt_aa": "C",
+        "mut_aa": "S",
+        "pocket_lining_residues": "V127-C128-D129-D139-E140-A141-S142-C143-P144",
+        "pocket_lining_positions_precursor": [
+          127,
+          128,
+          129,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144
+        ],
+        "pocket_lining_1letter": "VCDDEASCP",
+        "sequence_slice_around_pocket": "DCLDGSDEASCPVLTCGPAS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_C143S/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "V127",
+          "C128",
+          "D129",
+          "D139",
+          "E140",
+          "A141",
+          "S142",
+          "C143",
+          "P144"
+        ],
+        "values": [
+          [
+            0.0,
+            3.814,
+            5.632,
+            4.894,
+            6.438,
+            9.348,
+            9.047,
+            7.739,
+            10.761
+          ],
+          [
+            3.814,
+            0.0,
+            3.822,
+            6.208,
+            5.19,
+            8.32,
+            8.01,
+            5.487,
+            8.256
+          ],
+          [
+            5.632,
+            3.822,
+            0.0,
+            8.448,
+            7.515,
+            11.21,
+            11.639,
+            9.067,
+            11.422
+          ],
+          [
+            4.894,
+            6.208,
+            8.448,
+            0.0,
+            3.833,
+            5.796,
+            7.063,
+            7.752,
+            11.522
+          ],
+          [
+            6.438,
+            5.19,
+            7.515,
+            3.833,
+            0.0,
+            3.864,
+            5.876,
+            5.832,
+            9.54
+          ],
+          [
+            9.348,
+            8.32,
+            11.21,
+            5.796,
+            3.864,
+            0.0,
+            3.882,
+            6.086,
+            9.38
+          ],
+          [
+            9.047,
+            8.01,
+            11.639,
+            7.063,
+            5.876,
+            3.882,
+            0.0,
+            3.811,
+            6.503
+          ],
+          [
+            7.739,
+            5.487,
+            9.067,
+            7.752,
+            5.832,
+            6.086,
+            3.811,
+            0.0,
+            3.822
+          ],
+          [
+            10.761,
+            8.256,
+            11.422,
+            11.522,
+            9.54,
+            9.38,
+            6.503,
+            3.822,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7504387127573883,
+        "mw": 274.22,
+        "logp": 2.343,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.9187,
+        "sa_score": 3.06,
+        "n_heavy_atoms": 20,
+        "tpsa": 45.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LDLR-C143S Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7504,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_C143S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_C143S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_C143S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_C143S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_C143S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LDLR-C143S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LDLR-C143S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:06:28.025258+00:00"
     }
   ]
 }
