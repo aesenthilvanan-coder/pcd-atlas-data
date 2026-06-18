@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2379,
+  "total_entries": 2380,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47121,
-    "queue_remaining": 131476
+    "total_processed": 47122,
+    "queue_remaining": 131475
   },
   "entries": [
     {
@@ -554730,6 +554730,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T12:27:46.153460+00:00"
+    },
+    {
+      "entry_id": "PCD-SOX5-P302S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SOX5-P302S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SOX5",
+        "uniprot": "",
+        "clinvar_id": "374147",
+        "disease": "Severe global developmental delay;Generalized hypotonia;Epileptic encephalopathy",
+        "mutation_precursor": "P302S",
+        "mutation_mature": "P302S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7441031310287208,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 413.81180757721603,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          61.667510986328125,
+          46.847686767578125,
+          -4.732893943786621
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.439487800209625,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6488658959633348,
+        "cryptic": true,
+        "pocket_residues": {
+          "P302": "P",
+          "G303": "G",
+          "F304": "F",
+          "S305": "S"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P35711|SOX5 variant P302S",
+        "fasta_sequence": "MLTDPDLPQEFERMSSKRPASPYGEADGEVAMVTSRQKVEEEESDGLPAFHLPLHVSFPNKPHSEEFQPVSLLTQETCGHRTPTSQHNTMEVDGNKVMSSFAPHNSSTSPQKAEEGGRQSGESLSSTALGTPERRKGSLADVVDTLKQRKMEELIKNEPEETPSIEKLLSKDWKDKLLAMGSGNFGEIKGTPESLAEKERQLMGMINQLTSLREQLLAAHDEQKKLAASQIEKQRQQMELAKQQQEQIARQQQQLLQQQHKINLLQQQIQVQGQLPPLMIPVFPPDQRTLAAAAQQGFLLPPGFSYKAGCSDPYPVQLIPTTMAAAAAATPGLGPLQLQQLYAAQLAAMQVSPGGKLPGIPQGNLGAAVSPTSIHTDKSTNSPPPKSKDEVAQPLNLSAKPKTSDGKSPTSPTSPHMPALRINSGAGPLKASVPAALASPSARVSTIGYLNDHDAVTKAIQEARQMKEQLRREQQVLDGKVAVVNSLGLNNCRTEKEKTTLESLTQQLAVKQNEEGKFSHAMMDFNLSGDSDGSAGVSESRIYRESRGRGSNEPHIKRPMNAFMVWAKDERRKILQAFPDMHNSNISKILGSRWKAMTNLEKQPYYEEQARLSKQHLEKYPDYKYKPRPKRTCLVDGKKLRIGEYKAIMRNRRQEMRQYFNVGQQAQIPIATAGVVYPGAIAMAGMPSPHLPSEHSSVSSSPEPGMPVIQSTYGVKGEEPHIKEEIQAEDINGEIYDEYDEEEDDPDVDYGSDSENHIAGQAN",
+        "full_sequence": "MLTDPDLPQEFERMSSKRPASPYGEADGEVAMVTSRQKVEEEESDGLPAFHLPLHVSFPNKPHSEEFQPVSLLTQETCGHRTPTSQHNTMEVDGNKVMSSFAPHNSSTSPQKAEEGGRQSGESLSSTALGTPERRKGSLADVVDTLKQRKMEELIKNEPEETPSIEKLLSKDWKDKLLAMGSGNFGEIKGTPESLAEKERQLMGMINQLTSLREQLLAAHDEQKKLAASQIEKQRQQMELAKQQQEQIARQQQQLLQQQHKINLLQQQIQVQGQLPPLMIPVFPPDQRTLAAAAQQGFLLPPGFSYKAGCSDPYPVQLIPTTMAAAAAATPGLGPLQLQQLYAAQLAAMQVSPGGKLPGIPQGNLGAAVSPTSIHTDKSTNSPPPKSKDEVAQPLNLSAKPKTSDGKSPTSPTSPHMPALRINSGAGPLKASVPAALASPSARVSTIGYLNDHDAVTKAIQEARQMKEQLRREQQVLDGKVAVVNSLGLNNCRTEKEKTTLESLTQQLAVKQNEEGKFSHAMMDFNLSGDSDGSAGVSESRIYRESRGRGSNEPHIKRPMNAFMVWAKDERRKILQAFPDMHNSNISKILGSRWKAMTNLEKQPYYEEQARLSKQHLEKYPDYKYKPRPKRTCLVDGKKLRIGEYKAIMRNRRQEMRQYFNVGQQAQIPIATAGVVYPGAIAMAGMPSPHLPSEHSSVSSSPEPGMPVIQSTYGVKGEEPHIKEEIQAEDINGEIYDEYDEEEDDPDVDYGSDSENHIAGQAN",
+        "n_residues": 763,
+        "mutation_pos_1indexed": 302,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "P302-G303-F304-S305",
+        "pocket_lining_positions_precursor": [
+          302,
+          303,
+          304,
+          305
+        ],
+        "pocket_lining_1letter": "PGFS",
+        "sequence_slice_around_pocket": "AAAQQGFLLPPGFSYKAGCS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SOX5_P302S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "P302",
+          "G303",
+          "F304",
+          "S305"
+        ],
+        "values": [
+          [
+            0.0,
+            3.88,
+            7.547,
+            10.029
+          ],
+          [
+            3.88,
+            0.0,
+            3.893,
+            6.748
+          ],
+          [
+            7.547,
+            3.893,
+            0.0,
+            3.387
+          ],
+          [
+            10.029,
+            6.748,
+            3.387,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.5326208776005238,
+        "mw": 288.2,
+        "logp": 1.983,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.9236,
+        "sa_score": 3.0,
+        "n_heavy_atoms": 21,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SOX5-P302S Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5326,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SOX5_P302S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SOX5_P302S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SOX5_P302S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SOX5_P302S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SOX5_P302S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SOX5-P302S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SOX5-P302S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T12:28:17.921503+00:00"
     }
   ]
 }
