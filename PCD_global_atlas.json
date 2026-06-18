@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1745,
+  "total_entries": 1746,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46417,
-    "queue_remaining": 132180
+    "total_processed": 46418,
+    "queue_remaining": 132179
   },
   "entries": [
     {
@@ -388967,6 +388967,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:28:26.092583+00:00"
+    },
+    {
+      "entry_id": "PCD-MUTYH-A7V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MUTYH-A7V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MUTYH",
+        "uniprot": "",
+        "clinvar_id": "371682",
+        "disease": "Familial adenomatous polyposis 2",
+        "mutation_precursor": "A7V",
+        "mutation_mature": "A7V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8356436754874552,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 444.65839182231963,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -20.936466217041016,
+          22.5611515045166,
+          41.32553482055664
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.7620534074832985,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7549605985727491,
+        "cryptic": true,
+        "pocket_residues": {
+          "R7": "R",
+          "L8": "L",
+          "S9": "S"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UIF7|MUTYH variant A7V",
+        "fasta_sequence": "MTPLVSRLSRLWAIMRKPRAAVGSGHRKQAASQEGRQKHAKNNSQAKPSACDGMIAECPGAPAGLARQPEEVVLQASVSSYHLFRDVAEVTAFRGSLLSWYDQEKRDLPWRRRAEDEMDLDRRAYAVWVSEVMLQQTQVATVINYYTGWMQKWPTLQDLASASLEEVNQLWAGLGYYSRGRRLQEGARKVVEELGGHMPRTAETLQQLLPGVGRYTAGAIASIAFGQATGVVDGNVARVLCRVRAIGADPSSTLVSQQLWGLAQQLVDPARPGDFNQAAMELGATVCTPQRPLCSQCPVESLCRARQRVEQEQLLASGSLSGSPDVEECAPNTGQCHLCLPPSEPWDQTLGVVNFPRKASRKPPREESSATCVLEQPGALGAQILLVQRPNSGLLAGLWEFPSVTWEPSEQLQRKALLQELQRWAGPLPATHLRHLGEVVHTFSHIKLTYQVYGLALEGQTPVTTVPPGARWLTQEEFHTAAVSTAMKKVFRVYQGQQPGTCMGSKRSQVSSPCSRKKPRMGQQVLDNFFRSHISTDAHSLNSAAQ",
+        "full_sequence": "MTPLVSRLSRLWAIMRKPRAAVGSGHRKQAASQEGRQKHAKNNSQAKPSACDGMIAECPGAPAGLARQPEEVVLQASVSSYHLFRDVAEVTAFRGSLLSWYDQEKRDLPWRRRAEDEMDLDRRAYAVWVSEVMLQQTQVATVINYYTGWMQKWPTLQDLASASLEEVNQLWAGLGYYSRGRRLQEGARKVVEELGGHMPRTAETLQQLLPGVGRYTAGAIASIAFGQATGVVDGNVARVLCRVRAIGADPSSTLVSQQLWGLAQQLVDPARPGDFNQAAMELGATVCTPQRPLCSQCPVESLCRARQRVEQEQLLASGSLSGSPDVEECAPNTGQCHLCLPPSEPWDQTLGVVNFPRKASRKPPREESSATCVLEQPGALGAQILLVQRPNSGLLAGLWEFPSVTWEPSEQLQRKALLQELQRWAGPLPATHLRHLGEVVHTFSHIKLTYQVYGLALEGQTPVTTVPPGARWLTQEEFHTAAVSTAMKKVFRVYQGQQPGTCMGSKRSQVSSPCSRKKPRMGQQVLDNFFRSHISTDAHSLNSAAQ",
+        "n_residues": 546,
+        "mutation_pos_1indexed": 7,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "R7-L8-S9",
+        "pocket_lining_positions_precursor": [
+          7,
+          8,
+          9
+        ],
+        "pocket_lining_1letter": "RLS",
+        "sequence_slice_around_pocket": "MTPLVSRLSRLWAIMR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MUTYH_A7V/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "R7",
+          "L8",
+          "S9"
+        ],
+        "values": [
+          [
+            0.0,
+            3.751,
+            6.443
+          ],
+          [
+            3.751,
+            0.0,
+            3.265
+          ],
+          [
+            6.443,
+            3.265,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.549550670294869,
+        "mw": 302.21,
+        "logp": 2.025,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.8623,
+        "sa_score": 3.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MUTYH-A7V Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5496,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MUTYH_A7V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MUTYH_A7V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MUTYH_A7V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MUTYH_A7V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MUTYH_A7V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MUTYH-A7V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MUTYH-A7V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:28:52.163115+00:00"
     }
   ]
 }
