@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2405,
+  "total_entries": 2406,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47161,
-    "queue_remaining": 131436
+    "total_processed": 47162,
+    "queue_remaining": 131435
   },
   "entries": [
     {
@@ -562008,6 +562008,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T12:55:52.795822+00:00"
+    },
+    {
+      "entry_id": "PCD-ACADVL-R453Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACADVL-R453Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ACADVL",
+        "uniprot": "",
+        "clinvar_id": "374123",
+        "disease": "Myopathy;Rhabdomyolysis",
+        "mutation_precursor": "R453Q",
+        "mutation_mature": "R453Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9139247914457762,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 481.24179123841856,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          3.9062023162841797,
+          18.791162490844727,
+          4.180022716522217
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.3946066041561456,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8313042297398038,
+        "cryptic": true,
+        "pocket_residues": {
+          "M300": "M",
+          "G301": "G",
+          "E449": "E",
+          "R450": "R",
+          "V451": "V",
+          "L452": "L",
+          "R453": "R",
+          "D454": "D"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P49748|ACADVL variant R453Q",
+        "fasta_sequence": "MQAARMAASLGRQLLRLGGGSSRLTALLGQPRPGPARRPYAGGAAQLALDKSDSHPSDALTRKKPAKAESKSFAVGMFKGQLTTDQVFPYPSVLNEEQTQFLKELVEPVSRFFEEVNDPAKNDALEMVEETTWQGLKELGAFGLQVPSELGGVGLCNTQYARLVEIVGMHDLGVGITLGAHQSIGFKGILLFGTKAQKEKYLPKLASGETVAAFCLTEPSSGSDAASIRTSAVPSPCGKYYTLNGSKLWISNGGLADIFTVFAKTPVTDPATGAVKEKITAFVVERGFGGITHGPPEKKMGIKASNTAEVFFDGVRVPSENVLGEVGSGFKVAMHILNNGRFGMAAALAGTMRGIIAKAVDHATNRTQFGEKIHNFGLIQEKLARMVMLQYVTESMAYMVSANMDQGATDFQIEAAISKIFGSEAAWKVTDECIQIMGGMGFMKEPGVERVLRDLRIFRIFEGTNDILRLFVALQGCMDKGKELSGLGSALKNPFGNAGLLLGEAGKQLRRRAGLGSGLSLSGLVHPELSRSGELAVRALEQFATVVEAKLIKHKKGIVNEQFLLQRLADGAIDLYAMVVVLSRASRSLSEGHPTAQHEKMLCDTWCIEAAARIREGMAALQSDPWQQELYRNFKSISKALVERGGVVTSNPLGF",
+        "full_sequence": "MQAARMAASLGRQLLRLGGGSSRLTALLGQPRPGPARRPYAGGAAQLALDKSDSHPSDALTRKKPAKAESKSFAVGMFKGQLTTDQVFPYPSVLNEEQTQFLKELVEPVSRFFEEVNDPAKNDALEMVEETTWQGLKELGAFGLQVPSELGGVGLCNTQYARLVEIVGMHDLGVGITLGAHQSIGFKGILLFGTKAQKEKYLPKLASGETVAAFCLTEPSSGSDAASIRTSAVPSPCGKYYTLNGSKLWISNGGLADIFTVFAKTPVTDPATGAVKEKITAFVVERGFGGITHGPPEKKMGIKASNTAEVFFDGVRVPSENVLGEVGSGFKVAMHILNNGRFGMAAALAGTMRGIIAKAVDHATNRTQFGEKIHNFGLIQEKLARMVMLQYVTESMAYMVSANMDQGATDFQIEAAISKIFGSEAAWKVTDECIQIMGGMGFMKEPGVERVLRDLRIFRIFEGTNDILRLFVALQGCMDKGKELSGLGSALKNPFGNAGLLLGEAGKQLRRRAGLGSGLSLSGLVHPELSRSGELAVRALEQFATVVEAKLIKHKKGIVNEQFLLQRLADGAIDLYAMVVVLSRASRSLSEGHPTAQHEKMLCDTWCIEAAARIREGMAALQSDPWQQELYRNFKSISKALVERGGVVTSNPLGF",
+        "n_residues": 655,
+        "mutation_pos_1indexed": 453,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "M300-G301-E449-R450-V451-L452-R453-D454",
+        "pocket_lining_positions_precursor": [
+          300,
+          301,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454
+        ],
+        "pocket_lining_1letter": "MGERVLRD",
+        "sequence_slice_around_pocket": "MKEPGVERVLRDLRIFRIFE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ACADVL_R453Q/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "M300",
+          "G301",
+          "E449",
+          "R450",
+          "V451",
+          "L452",
+          "R453",
+          "D454"
+        ],
+        "values": [
+          [
+            0.0,
+            3.862,
+            10.831,
+            9.039,
+            10.624,
+            9.641,
+            5.793,
+            7.262
+          ],
+          [
+            3.862,
+            0.0,
+            9.63,
+            6.834,
+            7.764,
+            7.962,
+            4.486,
+            4.072
+          ],
+          [
+            10.831,
+            9.63,
+            0.0,
+            3.864,
+            5.501,
+            5.04,
+            6.265,
+            8.667
+          ],
+          [
+            9.039,
+            6.834,
+            3.864,
+            0.0,
+            3.829,
+            5.424,
+            5.083,
+            6.191
+          ],
+          [
+            10.624,
+            7.764,
+            5.501,
+            3.829,
+            0.0,
+            3.858,
+            5.442,
+            4.936
+          ],
+          [
+            9.641,
+            7.962,
+            5.04,
+            5.424,
+            3.858,
+            0.0,
+            3.867,
+            5.417
+          ],
+          [
+            5.793,
+            4.486,
+            6.265,
+            5.083,
+            5.442,
+            3.867,
+            0.0,
+            3.847
+          ],
+          [
+            7.262,
+            4.072,
+            8.667,
+            6.191,
+            4.936,
+            5.417,
+            3.847,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CCCCC1CCNCc1ncnc2[nH]cnc12",
+        "composite_score": 0.8705616635946167,
+        "mw": 352.21,
+        "logp": 1.869,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.5811,
+        "sa_score": 3.5,
+        "n_heavy_atoms": 26,
+        "tpsa": 108.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ACADVL-R453Q Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CCCCC1CCNCc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.8706,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ACADVL_R453Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ACADVL_R453Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ACADVL_R453Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACADVL_R453Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACADVL_R453Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACADVL-R453Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACADVL-R453Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T12:56:22.882094+00:00"
     }
   ]
 }
