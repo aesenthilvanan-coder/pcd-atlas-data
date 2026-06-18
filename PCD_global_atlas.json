@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2003,
+  "total_entries": 2004,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46698,
-    "queue_remaining": 131899
+    "total_processed": 46699,
+    "queue_remaining": 131898
   },
   "entries": [
     {
@@ -456479,6 +456479,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:17:21.070461+00:00"
+    },
+    {
+      "entry_id": "PCD-ANO10-M1T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ANO10-M1T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ANO10",
+        "uniprot": "",
+        "clinvar_id": "373298",
+        "disease": "not provided",
+        "mutation_precursor": "M1T",
+        "mutation_mature": "M1T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9270175365456914,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 564.646901372322,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -21.156219482421875,
+          -25.52347183227539,
+          26.703102111816406
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.719039346848672,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7130144520093181,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "K2": "K",
+          "V3": "V"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NW15|ANO10 variant M1T",
+        "fasta_sequence": "MKVTLSALDTSESSFTPLVVIELAQDVKEETKEWLKNRIIAKKKDGGAQLLFRPLLNKYEQETLENQNLYLVGASKIRMLLGAEAVGLVKECNDNTMRAFTYRTRQNFKGFDDNNDDFLTMAECQFIIKHELENLRAKDEKMIPGYPQAKLYPGKSLLRRLLTSGIVIQVFPLHDSEALKKLEDTWYTRFALKYQPIDSIRGYFGETIALYFGFLEYFTFALIPMAVIGLPYYLFVWEDYDKYVIFASFNLIWSTVILELWKRGCANMTYRWGTLLMKRKFEEPRPGFHGVLGINSITGKEEPLYPSYKRQLRIYLVSLPFVCLCLYFSLYVMMIYFDMEVWALGLHENSGSEWTSVLLYVPSIIYAIVIEIMNRLYRYAAEFLTSWENHRLESAYQNHLILKVLVFNFLNCFASLFYIAFVLKDMKLLRQSLATLLITSQILNQIMESFLPYWLQRKHGVRVKRKVQALKADIDATLYEQVILEKEMGTYLGTFDDYLELFLQFGYVSLFSCVYPLAAAFAVLNNFTEVNSDALKMCRVFKRPFSEPSANIGVWQLAFETMSVISVVTNCALIGMSPQVNAVFPESKADLILIVVAVEHALLALKFILAFAIPDKPRHIQMKLARLEFESLEALKQQQMKLVTENLKEEPMESGKEKAT",
+        "full_sequence": "MKVTLSALDTSESSFTPLVVIELAQDVKEETKEWLKNRIIAKKKDGGAQLLFRPLLNKYEQETLENQNLYLVGASKIRMLLGAEAVGLVKECNDNTMRAFTYRTRQNFKGFDDNNDDFLTMAECQFIIKHELENLRAKDEKMIPGYPQAKLYPGKSLLRRLLTSGIVIQVFPLHDSEALKKLEDTWYTRFALKYQPIDSIRGYFGETIALYFGFLEYFTFALIPMAVIGLPYYLFVWEDYDKYVIFASFNLIWSTVILELWKRGCANMTYRWGTLLMKRKFEEPRPGFHGVLGINSITGKEEPLYPSYKRQLRIYLVSLPFVCLCLYFSLYVMMIYFDMEVWALGLHENSGSEWTSVLLYVPSIIYAIVIEIMNRLYRYAAEFLTSWENHRLESAYQNHLILKVLVFNFLNCFASLFYIAFVLKDMKLLRQSLATLLITSQILNQIMESFLPYWLQRKHGVRVKRKVQALKADIDATLYEQVILEKEMGTYLGTFDDYLELFLQFGYVSLFSCVYPLAAAFAVLNNFTEVNSDALKMCRVFKRPFSEPSANIGVWQLAFETMSVISVVTNCALIGMSPQVNAVFPESKADLILIVVAVEHALLALKFILAFAIPDKPRHIQMKLARLEFESLEALKQQQMKLVTENLKEEPMESGKEKAT",
+        "n_residues": 660,
+        "mutation_pos_1indexed": 1,
+        "wt_aa": "M",
+        "mut_aa": "T",
+        "pocket_lining_residues": "M1-K2-V3",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3
+        ],
+        "pocket_lining_1letter": "MKV",
+        "sequence_slice_around_pocket": "MKVTLSALDT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ANO10_M1T/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "M1",
+          "K2",
+          "V3"
+        ],
+        "values": [
+          [
+            0.0,
+            3.85,
+            6.031
+          ],
+          [
+            3.85,
+            0.0,
+            3.843
+          ],
+          [
+            6.031,
+            3.843,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5564567840975635,
+        "mw": 319.17,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.924,
+        "sa_score": 3.13,
+        "n_heavy_atoms": 23,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ANO10-M1T Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5565,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ANO10_M1T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ANO10_M1T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ANO10_M1T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ANO10_M1T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ANO10_M1T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ANO10-M1T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ANO10-M1T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:17:50.528079+00:00"
     }
   ]
 }
