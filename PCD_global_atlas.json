@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1486,
+  "total_entries": 1487,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46132,
-    "queue_remaining": 132465
+    "total_processed": 46133,
+    "queue_remaining": 132464
   },
   "entries": [
     {
@@ -329048,6 +329048,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:22:15.065329+00:00"
+    },
+    {
+      "entry_id": "PCD-NDUFV2-A6G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFV2-A6G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NDUFV2",
+        "uniprot": "",
+        "clinvar_id": "327876",
+        "disease": "Mitochondrial complex I deficiency, nuclear type 1",
+        "mutation_precursor": "A6G",
+        "mutation_mature": "A6G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9129728768994191,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 578.3421206499321,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          45.8237419128418,
+          -7.865622520446777,
+          -38.76481628417969
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.420381083459308,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7325850905500466,
+        "cryptic": true,
+        "pocket_residues": {
+          "F3": "F",
+          "S4": "S",
+          "A5": "A",
+          "A6": "A",
+          "L7": "L"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P19404|NDUFV2 variant A6G",
+        "fasta_sequence": "MFFSAALRARAAGLTAHWGRHVRNLHKTVMQNGAGGALFVHRDTPENNPDTPFDFTPENYKRIEAIVKNYPEGHKAAAVLPVLDLAQRQNGWLPISAMNKVAEVLQVPPMRVYEVATFYTMYNRKPVGKYHIQVCTTTPCMLRNSDSILEAIQKKLGIKVGETTPDKLFTLIEVECLGACVNAPMVQINDNYYEDLTAKDIEEIIDELKAGKIPKPGPRSGRFSCEPAGGLTSLTEPPKGPGFGVQAGL",
+        "full_sequence": "MFFSAALRARAAGLTAHWGRHVRNLHKTVMQNGAGGALFVHRDTPENNPDTPFDFTPENYKRIEAIVKNYPEGHKAAAVLPVLDLAQRQNGWLPISAMNKVAEVLQVPPMRVYEVATFYTMYNRKPVGKYHIQVCTTTPCMLRNSDSILEAIQKKLGIKVGETTPDKLFTLIEVECLGACVNAPMVQINDNYYEDLTAKDIEEIIDELKAGKIPKPGPRSGRFSCEPAGGLTSLTEPPKGPGFGVQAGL",
+        "n_residues": 249,
+        "mutation_pos_1indexed": 6,
+        "wt_aa": "A",
+        "mut_aa": "G",
+        "pocket_lining_residues": "F3-S4-A5-A6-L7",
+        "pocket_lining_positions_precursor": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "pocket_lining_1letter": "FSAAL",
+        "sequence_slice_around_pocket": "MFFSAALRARAAGLT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFV2_A6G/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "F3",
+          "S4",
+          "A5",
+          "A6",
+          "L7"
+        ],
+        "values": [
+          [
+            0.0,
+            3.35,
+            7.238,
+            10.241,
+            13.542
+          ],
+          [
+            3.35,
+            0.0,
+            3.9,
+            7.024,
+            10.227
+          ],
+          [
+            7.238,
+            3.9,
+            0.0,
+            3.372,
+            6.366
+          ],
+          [
+            10.241,
+            7.024,
+            3.372,
+            0.0,
+            3.581
+          ],
+          [
+            13.542,
+            10.227,
+            6.366,
+            3.581,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.6724932736160888,
+        "mw": 436.13,
+        "logp": 2.235,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.6412,
+        "sa_score": 2.77,
+        "n_heavy_atoms": 29,
+        "tpsa": 118.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NDUFV2-A6G Candidate #1",
+        "iupac_name": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.6725,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFV2_A6G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFV2_A6G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFV2_A6G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFV2_A6G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFV2_A6G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFV2-A6G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFV2-A6G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:22:37.411028+00:00"
     }
   ]
 }
