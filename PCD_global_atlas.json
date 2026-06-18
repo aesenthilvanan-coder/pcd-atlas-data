@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1701,
+  "total_entries": 1702,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46367,
-    "queue_remaining": 132230
+    "total_processed": 46368,
+    "queue_remaining": 132229
   },
   "entries": [
     {
@@ -378009,6 +378009,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:59:28.924760+00:00"
+    },
+    {
+      "entry_id": "PCD-KCNQ2-R201H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNQ2-R201H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KCNQ2",
+        "uniprot": "",
+        "clinvar_id": "369753",
+        "disease": "Severe intellectual deficiency",
+        "mutation_precursor": "R201H",
+        "mutation_mature": "R201H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8063189180458442,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 608.5114061657878,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -27.3426456451416,
+          -3.0383071899414062,
+          4.637721061706543
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.8628805113822446,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8379456923412728,
+        "cryptic": true,
+        "pocket_residues": {
+          "L107": "L",
+          "S110": "S",
+          "V111": "V",
+          "S199": "S",
+          "L200": "L",
+          "R201": "R",
+          "F202": "F",
+          "L203": "L",
+          "Q204": "Q",
+          "I205": "I"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43526|KCNQ2 variant R201H",
+        "fasta_sequence": "MVQKSRNGGVYPGPSGEKKLKVGFVGLDPGAPDSTRDGALLIAGSEAPKRGSILSKPRAGGAGAGKPPKRNAFYRKLQNFLYNVLERPRGWAFIYHAYVFLLVFSCLVLSVFSTIKEYEKSSEGALYILEIVTIVVFGVEYFVRIWAAGCCCRYRGWRGRLKFARKPFCVIDIMVLIASIAVLAAGSQGNVFATSALRSLRFLQILRMIRMDRRGGTWKLLGSVVYAHSKELVTAWYIGFLCLILASFLVYLAEKGENDHFDTYADALWWGLITLTTIGYGDKYPQTWNGRLLAATFTLIGVSFFALPAGILGSGFALKVQEQHRQKHFEKRRNPAAGLIQSAWRFYATNLSRTDLHSTWQYYERTVTVPMYSSQTQTYGASRLIPPLNQLELLRNLKSKSGLAFRKDPPPEPSPSKGSPCRGPLCGCCPGRSSQKVSLKDRVFSSPRGVAAKGKGSPQAQTVRRSPSADQSLEDSPSKVPKSWSFGDRSRARQAFRIKGAASRQNSEEASLPGEDIVDDKSCPCEFVTEDLTPGLKVSIRAVCVMRFLVSKRKFKESLRPYDVMDVIEQYSAGHLDMLSRIKSLQSRVDQIVGRGPAITDKDRTKGPAEAELPEDPSMMGRLGKVEKQVLSMEKKLDFLVNIYMQRMGIPPTETEAYFGAKEPEPAPPYHSPEDSREHVDRHGCIVKIVRSSSSTGQKNFSAPPAAPPVQCPPSTSWQPQSHPRQGHGTSPVGDHGSLVRIPPPPAHERSLSAYGGGNRASMEFLRQEDTPGCRPPEGNLRDSDTSISIPSVDHEELERSFSGFSISQSKENLDALNSCYAAVAPCAKVRPYIAEGESDTDSDLCTPCGPPPRSATGEGPFGDVGWAGPRK",
+        "full_sequence": "MVQKSRNGGVYPGPSGEKKLKVGFVGLDPGAPDSTRDGALLIAGSEAPKRGSILSKPRAGGAGAGKPPKRNAFYRKLQNFLYNVLERPRGWAFIYHAYVFLLVFSCLVLSVFSTIKEYEKSSEGALYILEIVTIVVFGVEYFVRIWAAGCCCRYRGWRGRLKFARKPFCVIDIMVLIASIAVLAAGSQGNVFATSALRSLRFLQILRMIRMDRRGGTWKLLGSVVYAHSKELVTAWYIGFLCLILASFLVYLAEKGENDHFDTYADALWWGLITLTTIGYGDKYPQTWNGRLLAATFTLIGVSFFALPAGILGSGFALKVQEQHRQKHFEKRRNPAAGLIQSAWRFYATNLSRTDLHSTWQYYERTVTVPMYSSQTQTYGASRLIPPLNQLELLRNLKSKSGLAFRKDPPPEPSPSKGSPCRGPLCGCCPGRSSQKVSLKDRVFSSPRGVAAKGKGSPQAQTVRRSPSADQSLEDSPSKVPKSWSFGDRSRARQAFRIKGAASRQNSEEASLPGEDIVDDKSCPCEFVTEDLTPGLKVSIRAVCVMRFLVSKRKFKESLRPYDVMDVIEQYSAGHLDMLSRIKSLQSRVDQIVGRGPAITDKDRTKGPAEAELPEDPSMMGRLGKVEKQVLSMEKKLDFLVNIYMQRMGIPPTETEAYFGAKEPEPAPPYHSPEDSREHVDRHGCIVKIVRSSSSTGQKNFSAPPAAPPVQCPPSTSWQPQSHPRQGHGTSPVGDHGSLVRIPPPPAHERSLSAYGGGNRASMEFLRQEDTPGCRPPEGNLRDSDTSISIPSVDHEELERSFSGFSISQSKENLDALNSCYAAVAPCAKVRPYIAEGESDTDSDLCTPCGPPPRSATGEGPFGDVGWAGPRK",
+        "n_residues": 872,
+        "mutation_pos_1indexed": 201,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "L107-S110-V111-S199-L200-R201-F202-L203-Q204-I205",
+        "pocket_lining_positions_precursor": [
+          107,
+          110,
+          111,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205
+        ],
+        "pocket_lining_1letter": "LSVSLRFLQI",
+        "sequence_slice_around_pocket": "VFATSALRSLRFLQILRMIR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_R201H/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "L107",
+          "S110",
+          "V111",
+          "S199",
+          "L200",
+          "R201",
+          "F202",
+          "L203",
+          "Q204",
+          "I205"
+        ],
+        "values": [
+          [
+            0.0,
+            4.854,
+            6.413,
+            13.029,
+            11.955,
+            8.278,
+            8.825,
+            9.884,
+            6.526,
+            7.007
+          ],
+          [
+            4.854,
+            0.0,
+            3.871,
+            10.533,
+            10.427,
+            6.62,
+            8.569,
+            10.682,
+            8.372,
+            9.818
+          ],
+          [
+            6.413,
+            3.871,
+            0.0,
+            12.053,
+            12.888,
+            9.239,
+            10.033,
+            12.928,
+            10.939,
+            11.139
+          ],
+          [
+            13.029,
+            10.533,
+            12.053,
+            0.0,
+            3.856,
+            5.252,
+            5.891,
+            8.014,
+            10.032,
+            11.456
+          ],
+          [
+            11.955,
+            10.427,
+            12.888,
+            3.856,
+            0.0,
+            3.879,
+            5.158,
+            5.294,
+            7.495,
+            9.76
+          ],
+          [
+            8.278,
+            6.62,
+            9.239,
+            5.252,
+            3.879,
+            0.0,
+            3.861,
+            5.352,
+            5.453,
+            7.811
+          ],
+          [
+            8.825,
+            8.569,
+            10.033,
+            5.891,
+            5.158,
+            3.861,
+            0.0,
+            3.878,
+            5.285,
+            5.617
+          ],
+          [
+            9.884,
+            10.682,
+            12.928,
+            8.014,
+            5.294,
+            5.352,
+            3.878,
+            0.0,
+            3.856,
+            5.231
+          ],
+          [
+            6.526,
+            8.372,
+            10.939,
+            10.032,
+            7.495,
+            5.453,
+            5.285,
+            3.856,
+            0.0,
+            3.876
+          ],
+          [
+            7.007,
+            9.818,
+            11.139,
+            11.456,
+            9.76,
+            7.811,
+            5.617,
+            5.231,
+            3.876,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1OCNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.6285516358712335,
+        "mw": 452.13,
+        "logp": 2.167,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.5521,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 30,
+        "tpsa": 127.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KCNQ2-R201H Candidate #1",
+        "iupac_name": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1OCNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.6286,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_R201H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_R201H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_R201H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_R201H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_R201H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNQ2-R201H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNQ2-R201H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:59:58.920544+00:00"
     }
   ]
 }
