@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1954,
+  "total_entries": 1955,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46643,
-    "queue_remaining": 131954
+    "total_processed": 46644,
+    "queue_remaining": 131953
   },
   "entries": [
     {
@@ -443686,6 +443686,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:38:31.124398+00:00"
+    },
+    {
+      "entry_id": "PCD-P3H1-M1V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-P3H1-M1V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "P3H1",
+        "uniprot": "",
+        "clinvar_id": "373010",
+        "disease": "not provided",
+        "mutation_precursor": "M1V",
+        "mutation_mature": "M1V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8743455087881274,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 579.1780059025759,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -55.53955078125,
+          10.005451202392578,
+          4.02841854095459
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.273788301761921,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7718345306006578,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "A2": "A",
+          "V3": "V",
+          "R4": "R",
+          "A5": "A"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q32P28|P3H1 variant M1V",
+        "fasta_sequence": "MAVRALKLLTTLLAVVAAASQAEVESEAGWGMVTPDLLFAEGTAAYARGDWPGVVLSMERALRSRAALRALRLRCRTQCAADFPWELDPDWSPSPAQASGAAALRDLSFFGGLLRRAACLRRCLGPPAAHSLSEEMELEFRKRSPYNYLQVAYFKINKLEKAVAAAHTFFVGNPEHMEMQQNLDYYQTMSGVKEADFKDLETQPHMQEFRLGVRLYSEEQPQEAVPHLEAALQEYFVAYEECRALCEGPYDYDGYNYLEYNADLFQAITDHYIQVLNCKQNCVTELASHPSREKPFEDFLPSHYNYLQFAYYNIGNYTQAVECAKTYLLFFPNDEVMNQNLAYYAAMLGEEHTRSIGPRESAKEYRQRSLLEKELLFFAYDVFGIPFVDPDSWTPEEVIPKRLQEKQKSERETAVRISQEIGNLMKEIETLVEEKTKESLDVSRLTREGGPLLYEGISLTMNSKLLNGSQRVVMDGVISDHECQELQRLTNVAATSGDGYRGQTSPHTPNEKFYGVTVFKALKLGQEGKVPLQSAHLYYNVTEKVRRIMESYFRLDTPLYFSYSHLVCRTAIEEVQAERKDDSHPVHVDNCILNAETLVCVKEPPAYTFRDYSAILYLNGDFDGGNFYFTELDAKTVTAEVQPQCGRAVGFSSGTENPHGVKAVTRGQRCAIALWFTLDPRHSERDRVQADDLVKMLFSPEEMDLSQEQPLDAQQGPPEPAQESLSGSESKPKDEL",
+        "full_sequence": "MAVRALKLLTTLLAVVAAASQAEVESEAGWGMVTPDLLFAEGTAAYARGDWPGVVLSMERALRSRAALRALRLRCRTQCAADFPWELDPDWSPSPAQASGAAALRDLSFFGGLLRRAACLRRCLGPPAAHSLSEEMELEFRKRSPYNYLQVAYFKINKLEKAVAAAHTFFVGNPEHMEMQQNLDYYQTMSGVKEADFKDLETQPHMQEFRLGVRLYSEEQPQEAVPHLEAALQEYFVAYEECRALCEGPYDYDGYNYLEYNADLFQAITDHYIQVLNCKQNCVTELASHPSREKPFEDFLPSHYNYLQFAYYNIGNYTQAVECAKTYLLFFPNDEVMNQNLAYYAAMLGEEHTRSIGPRESAKEYRQRSLLEKELLFFAYDVFGIPFVDPDSWTPEEVIPKRLQEKQKSERETAVRISQEIGNLMKEIETLVEEKTKESLDVSRLTREGGPLLYEGISLTMNSKLLNGSQRVVMDGVISDHECQELQRLTNVAATSGDGYRGQTSPHTPNEKFYGVTVFKALKLGQEGKVPLQSAHLYYNVTEKVRRIMESYFRLDTPLYFSYSHLVCRTAIEEVQAERKDDSHPVHVDNCILNAETLVCVKEPPAYTFRDYSAILYLNGDFDGGNFYFTELDAKTVTAEVQPQCGRAVGFSSGTENPHGVKAVTRGQRCAIALWFTLDPRHSERDRVQADDLVKMLFSPEEMDLSQEQPLDAQQGPPEPAQESLSGSESKPKDEL",
+        "n_residues": 736,
+        "mutation_pos_1indexed": 1,
+        "wt_aa": "M",
+        "mut_aa": "V",
+        "pocket_lining_residues": "M1-A2-V3-R4-A5",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "pocket_lining_1letter": "MAVRA",
+        "sequence_slice_around_pocket": "MAVRALKLLT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/P3H1_M1V/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "M1",
+          "A2",
+          "V3",
+          "R4",
+          "A5"
+        ],
+        "values": [
+          [
+            0.0,
+            3.885,
+            5.683,
+            5.495,
+            6.43
+          ],
+          [
+            3.885,
+            0.0,
+            3.888,
+            5.518,
+            5.064
+          ],
+          [
+            5.683,
+            3.888,
+            0.0,
+            3.862,
+            5.499
+          ],
+          [
+            5.495,
+            5.518,
+            3.862,
+            0.0,
+            3.842
+          ],
+          [
+            6.43,
+            5.064,
+            5.499,
+            3.842,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CC(=O)CCC1CNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.6790842954637105,
+        "mw": 386.11,
+        "logp": 1.802,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8147,
+        "sa_score": 2.98,
+        "n_heavy_atoms": 27,
+        "tpsa": 105.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "P3H1-M1V Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CC(=O)CCC1CNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.6791,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/P3H1_M1V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/P3H1_M1V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/P3H1_M1V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/P3H1_M1V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/P3H1_M1V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-P3H1-M1V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-P3H1-M1V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:39:01.545451+00:00"
     }
   ]
 }
