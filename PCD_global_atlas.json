@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1901,
+  "total_entries": 1902,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46585,
-    "queue_remaining": 132012
+    "total_processed": 46586,
+    "queue_remaining": 132011
   },
   "entries": [
     {
@@ -432080,6 +432080,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:53:51.661177+00:00"
+    },
+    {
+      "entry_id": "PCD-MFSD2A-S339L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MFSD2A-S339L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MFSD2A",
+        "uniprot": "",
+        "clinvar_id": "372262",
+        "disease": "Microcephaly 15, primary, autosomal recessive",
+        "mutation_precursor": "S339L",
+        "mutation_mature": "S339L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8536378951158309,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 648.1424288466501,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          16.096899032592773,
+          14.501790046691895,
+          -21.327024459838867
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.251190814053789,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7904773459166161,
+        "cryptic": true,
+        "pocket_residues": {
+          "T333": "T",
+          "G337": "G",
+          "F338": "F",
+          "R339": "R",
+          "N340": "N",
+          "C473": "C"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NA29|MFSD2A variant S339L",
+        "fasta_sequence": "MAKGEGAESGSAAGLLPTSILQSTERPAQVKKEPKKKKQQLSVCNKLCYALGGAPYQVTGCALGFFLQIYLLDVAQKDEEVVFCFSSFQVGPFSASIILFVGRAWDAITDPLVGLCISKSPWTCLGRLMPWIIFSTPLAVIAYFLIWFVPDFPHGQTYWYLLFYCLFETMVTCFHVPYSALTMFISTEQTERDSATAYRMTVEVLGTVLGTAIQGQIVGQADTPCFQDLNSSTVASQSANHTHGTTSHRETQKAYLLAAGVIVCIYIICAVILILGVREQREPYEAQQSEPIAYFRGLRLVMSHGPYIKLITGFLFTSLAFMLVEGNFVLFCTYTLGFRNEFQNLLLAIMLSATLTIPIWQWFLTRFGKKTAVYVGISSAVPFLILVALMESNLIITYAVAVAAGISVAAAFLLPWSMLPDVIDDFHLKQPHFHGTEPIFFSFYVFFTKFASGVSLGISTLSLDFAGYQTRGCSQPERVKFTLNMLVTMAPIVLILLGLLLFKMYPIDEERRRQNKKALQALRDEASSSGCSETDSTELASIL",
+        "full_sequence": "MAKGEGAESGSAAGLLPTSILQSTERPAQVKKEPKKKKQQLSVCNKLCYALGGAPYQVTGCALGFFLQIYLLDVAQKDEEVVFCFSSFQVGPFSASIILFVGRAWDAITDPLVGLCISKSPWTCLGRLMPWIIFSTPLAVIAYFLIWFVPDFPHGQTYWYLLFYCLFETMVTCFHVPYSALTMFISTEQTERDSATAYRMTVEVLGTVLGTAIQGQIVGQADTPCFQDLNSSTVASQSANHTHGTTSHRETQKAYLLAAGVIVCIYIICAVILILGVREQREPYEAQQSEPIAYFRGLRLVMSHGPYIKLITGFLFTSLAFMLVEGNFVLFCTYTLGFRNEFQNLLLAIMLSATLTIPIWQWFLTRFGKKTAVYVGISSAVPFLILVALMESNLIITYAVAVAAGISVAAAFLLPWSMLPDVIDDFHLKQPHFHGTEPIFFSFYVFFTKFASGVSLGISTLSLDFAGYQTRGCSQPERVKFTLNMLVTMAPIVLILLGLLLFKMYPIDEERRRQNKKALQALRDEASSSGCSETDSTELASIL",
+        "n_residues": 543,
+        "mutation_pos_1indexed": 339,
+        "wt_aa": "S",
+        "mut_aa": "L",
+        "pocket_lining_residues": "T333-G337-F338-R339-N340-C473",
+        "pocket_lining_positions_precursor": [
+          333,
+          337,
+          338,
+          339,
+          340,
+          473
+        ],
+        "pocket_lining_1letter": "TGFRNC",
+        "sequence_slice_around_pocket": "VLFCTYTLGFRNEFQNLLLA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MFSD2A_S339L/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "T333",
+          "G337",
+          "F338",
+          "R339",
+          "N340",
+          "C473"
+        ],
+        "values": [
+          [
+            0.0,
+            5.007,
+            5.139,
+            4.368,
+            8.029,
+            9.472
+          ],
+          [
+            5.007,
+            0.0,
+            3.866,
+            5.93,
+            8.867,
+            10.516
+          ],
+          [
+            5.139,
+            3.866,
+            0.0,
+            3.872,
+            5.67,
+            12.259
+          ],
+          [
+            4.368,
+            5.93,
+            3.872,
+            0.0,
+            3.856,
+            9.953
+          ],
+          [
+            8.029,
+            8.867,
+            5.67,
+            3.856,
+            0.0,
+            12.878
+          ],
+          [
+            9.472,
+            10.516,
+            12.259,
+            9.953,
+            12.878,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC1C(O)CCC1N1CCCCC1CNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.5178666784572974,
+        "mw": 365.19,
+        "logp": 2.022,
+        "hbd": 3,
+        "hba": 4,
+        "rotatable_bonds": 5,
+        "qed": 0.7456,
+        "sa_score": 3.54,
+        "n_heavy_atoms": 25,
+        "tpsa": 78.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MFSD2A-S339L Candidate #1",
+        "iupac_name": "NCC1C(O)CCC1N1CCCCC1CNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.5179,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MFSD2A_S339L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MFSD2A_S339L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MFSD2A_S339L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MFSD2A_S339L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MFSD2A_S339L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MFSD2A-S339L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MFSD2A-S339L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:54:18.222163+00:00"
     }
   ]
 }
