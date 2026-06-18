@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2259,
+  "total_entries": 2260,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46994,
-    "queue_remaining": 131603
+    "total_processed": 46995,
+    "queue_remaining": 131602
   },
   "entries": [
     {
@@ -520965,6 +520965,279 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T10:49:21.451181+00:00"
+    },
+    {
+      "entry_id": "PCD-HNF4A-R63Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HNF4A-R63Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HNF4A",
+        "uniprot": "",
+        "clinvar_id": "372382",
+        "disease": "not provided",
+        "mutation_precursor": "R63Q",
+        "mutation_mature": "R63Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9147316338394469,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 476.46186234301075,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          25.87099838256836,
+          18.07077980041504,
+          -51.764381408691406
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.587938448045175,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6743643996319454,
+        "cryptic": true,
+        "pocket_residues": {
+          "C60": "C",
+          "A61": "A",
+          "I62": "I",
+          "C63": "C",
+          "G64": "G",
+          "V104": "V",
+          "R116": "R",
+          "K119": "K",
+          "C120": "C",
+          "R122": "R",
+          "A123": "A"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P41235|HNF4A variant R63Q",
+        "fasta_sequence": "MRLSKTLVDMDMADYSAALDPAYTTLEFENVQVLTMGNDTSPSEGTNLNAPNSLGVSALCAICGDRATGKHYGASSCDGCKGFFRRSVRKNHMYSCRFSRQCVVDKDKRNQCRYCRLKKCFRAGMKKEAVQNERDRISTRRSSYEDSSLPSINALLQAEVLSRQITSPVSGINGDIRAKKIASIADVCESMKEQLLVLVEWAKYIPAFCELPLDDQVALLRAHAGEHLLLGATKRSMVFKDVLLLGNDYIVPRHCPELAEMSRVSIRILDELVLPFQELQIDDNEYAYLKAIIFFDPDAKGLSDPGKIKRLRSQVQVSLEDYINDRQYDSRGRFGELLLLLPTLQSITWQMIEQIQFIKLFGMAKIDNLLQEMLLGGSPSDAPHAHHPLHPHLMQEHMGTNVIVANTMPTHLSNGQMCEWPRPRGQAATPETPQPSPPGGSGSEPYKLLPGAVATIVKPLSAIPQPTITKQEVI",
+        "full_sequence": "MRLSKTLVDMDMADYSAALDPAYTTLEFENVQVLTMGNDTSPSEGTNLNAPNSLGVSALCAICGDRATGKHYGASSCDGCKGFFRRSVRKNHMYSCRFSRQCVVDKDKRNQCRYCRLKKCFRAGMKKEAVQNERDRISTRRSSYEDSSLPSINALLQAEVLSRQITSPVSGINGDIRAKKIASIADVCESMKEQLLVLVEWAKYIPAFCELPLDDQVALLRAHAGEHLLLGATKRSMVFKDVLLLGNDYIVPRHCPELAEMSRVSIRILDELVLPFQELQIDDNEYAYLKAIIFFDPDAKGLSDPGKIKRLRSQVQVSLEDYINDRQYDSRGRFGELLLLLPTLQSITWQMIEQIQFIKLFGMAKIDNLLQEMLLGGSPSDAPHAHHPLHPHLMQEHMGTNVIVANTMPTHLSNGQMCEWPRPRGQAATPETPQPSPPGGSGSEPYKLLPGAVATIVKPLSAIPQPTITKQEVI",
+        "n_residues": 474,
+        "mutation_pos_1indexed": 63,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "C60-A61-I62-C63-G64-V104-R116-K119-C120-R122-A123",
+        "pocket_lining_positions_precursor": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          104,
+          116,
+          119,
+          120,
+          122,
+          123
+        ],
+        "pocket_lining_1letter": "CAICGVRKCRA",
+        "sequence_slice_around_pocket": "SLGVSALCAICGDRATGKHY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HNF4A_R63Q/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "C60",
+          "A61",
+          "I62",
+          "C63",
+          "G64",
+          "V104",
+          "R116",
+          "K119",
+          "C120",
+          "R122",
+          "A123"
+        ],
+        "values": [
+          [
+            0.0,
+            3.85,
+            5.384,
+            5.744,
+            4.762,
+            10.907,
+            12.271,
+            11.168,
+            10.113,
+            12.581,
+            9.232
+          ],
+          [
+            3.85,
+            0.0,
+            3.879,
+            6.184,
+            6.079,
+            10.149,
+            11.121,
+            8.592,
+            8.152,
+            9.216,
+            5.938
+          ],
+          [
+            5.384,
+            3.879,
+            0.0,
+            3.85,
+            6.204,
+            6.918,
+            7.362,
+            5.964,
+            5.969,
+            8.559,
+            6.415
+          ],
+          [
+            5.744,
+            6.184,
+            3.85,
+            0.0,
+            3.86,
+            5.321,
+            8.348,
+            8.777,
+            9.319,
+            12.138,
+            10.203
+          ],
+          [
+            4.762,
+            6.079,
+            6.204,
+            3.86,
+            0.0,
+            8.401,
+            12.139,
+            11.747,
+            12.143,
+            14.158,
+            11.589
+          ],
+          [
+            10.907,
+            10.149,
+            6.918,
+            5.321,
+            8.401,
+            0.0,
+            6.224,
+            7.963,
+            10.2,
+            12.371,
+            12.072
+          ],
+          [
+            12.271,
+            11.121,
+            7.362,
+            8.348,
+            12.139,
+            6.224,
+            0.0,
+            5.042,
+            6.245,
+            9.782,
+            10.366
+          ],
+          [
+            11.168,
+            8.592,
+            5.964,
+            8.777,
+            11.747,
+            7.963,
+            5.042,
+            0.0,
+            3.86,
+            4.889,
+            6.016
+          ],
+          [
+            10.113,
+            8.152,
+            5.969,
+            9.319,
+            12.143,
+            10.2,
+            6.245,
+            3.86,
+            0.0,
+            5.512,
+            5.179
+          ],
+          [
+            12.581,
+            9.216,
+            8.559,
+            12.138,
+            14.158,
+            12.371,
+            9.782,
+            4.889,
+            5.512,
+            0.0,
+            3.847
+          ],
+          [
+            9.232,
+            5.938,
+            6.415,
+            10.203,
+            11.589,
+            12.072,
+            10.366,
+            6.016,
+            5.179,
+            3.847,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1OCNc1nc2ccccc2[nH]1",
+        "composite_score": 0.648912780050027,
+        "mw": 402.15,
+        "logp": 2.008,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.5384,
+        "sa_score": 3.48,
+        "n_heavy_atoms": 28,
+        "tpsa": 126.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HNF4A-R63Q Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1OCNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6489,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HNF4A_R63Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HNF4A_R63Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HNF4A_R63Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HNF4A_R63Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HNF4A_R63Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HNF4A-R63Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HNF4A-R63Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T10:49:55.979015+00:00"
     }
   ]
 }
