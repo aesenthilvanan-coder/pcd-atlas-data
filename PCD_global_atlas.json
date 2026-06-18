@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2154,
+  "total_entries": 2155,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46872,
-    "queue_remaining": 131725
+    "total_processed": 46874,
+    "queue_remaining": 131723
   },
   "entries": [
     {
@@ -494216,6 +494216,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T08:21:37.012657+00:00"
+    },
+    {
+      "entry_id": "PCD-TBX5-R237P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX5-R237P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TBX5",
+        "uniprot": "",
+        "clinvar_id": "372783",
+        "disease": "not provided",
+        "mutation_precursor": "R237P",
+        "mutation_mature": "R237P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8611250329335421,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 430.565560035595,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.243739128112793,
+          1.055880069732666,
+          -24.714513778686523
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.410302552044818,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7944760616991927,
+        "cryptic": true,
+        "pocket_residues": {
+          "T223": "T",
+          "Q224": "Q",
+          "L225": "L",
+          "K226": "K",
+          "I227": "I",
+          "E228": "E",
+          "N229": "N",
+          "F236": "F",
+          "R237": "R",
+          "G238": "G"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q99593|TBX5 variant R237P",
+        "fasta_sequence": "MADADEGFGLAHTPLEPDAKDLPCDSKPESALGAPSKSPSSPQAAFTQQGMEGIKVFLHERELWLKFHEVGTEMIITKAGRRMFPSYKVKVTGLNPKTKYILLMDIVPADDHRYKFADNKWSVTGKAEPAMPGRLYVHPDSPATGAHWMRQLVSFQKLKLTNNHLDPFGHIILNSMHKYQPRLHIVKADENNGFGSKNTAFCTHVFPETAFIAVTSYQNHKITQLKIENNPFAKGFRGSDDMELHRMSRMQSKEYPVVPRSTVRQKVASNHSPFSSESRALSTSSNLGSQYQCENGVSGPSQDLLPPPNPYPLPQEHSQIYHCTKRKEEECSTTDHPYKKPYMETSPSEEDSFYRSSYPQQQGLGASYRTESAQRQACMYASSAPPSEPVPSLEDISCNTWPSMPSYSSCTVTTVQPMDRLPYQHFSAHFTSGPLVPRLAGMANHGSPQLGEGMFQHQTSVAHQPVVRQCGPQTGLQSPGTLQPPEFLYSHGVPRTLSPHQYHSVHGVGMVPEWSDNS",
+        "full_sequence": "MADADEGFGLAHTPLEPDAKDLPCDSKPESALGAPSKSPSSPQAAFTQQGMEGIKVFLHERELWLKFHEVGTEMIITKAGRRMFPSYKVKVTGLNPKTKYILLMDIVPADDHRYKFADNKWSVTGKAEPAMPGRLYVHPDSPATGAHWMRQLVSFQKLKLTNNHLDPFGHIILNSMHKYQPRLHIVKADENNGFGSKNTAFCTHVFPETAFIAVTSYQNHKITQLKIENNPFAKGFRGSDDMELHRMSRMQSKEYPVVPRSTVRQKVASNHSPFSSESRALSTSSNLGSQYQCENGVSGPSQDLLPPPNPYPLPQEHSQIYHCTKRKEEECSTTDHPYKKPYMETSPSEEDSFYRSSYPQQQGLGASYRTESAQRQACMYASSAPPSEPVPSLEDISCNTWPSMPSYSSCTVTTVQPMDRLPYQHFSAHFTSGPLVPRLAGMANHGSPQLGEGMFQHQTSVAHQPVVRQCGPQTGLQSPGTLQPPEFLYSHGVPRTLSPHQYHSVHGVGMVPEWSDNS",
+        "n_residues": 518,
+        "mutation_pos_1indexed": 237,
+        "wt_aa": "R",
+        "mut_aa": "P",
+        "pocket_lining_residues": "T223-Q224-L225-K226-I227-E228-N229-F236-R237-G238",
+        "pocket_lining_positions_precursor": [
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          236,
+          237,
+          238
+        ],
+        "pocket_lining_1letter": "TQLKIENFRG",
+        "sequence_slice_around_pocket": "IENNPFAKGFRGSDDMELHR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TBX5_R237P/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "T223",
+          "Q224",
+          "L225",
+          "K226",
+          "I227",
+          "E228",
+          "N229",
+          "F236",
+          "R237",
+          "G238"
+        ],
+        "values": [
+          [
+            0.0,
+            3.87,
+            5.64,
+            5.224,
+            6.236,
+            8.73,
+            10.106,
+            10.214,
+            11.002,
+            13.134
+          ],
+          [
+            3.87,
+            0.0,
+            3.861,
+            5.408,
+            5.065,
+            6.119,
+            8.547,
+            9.159,
+            8.602,
+            10.413
+          ],
+          [
+            5.64,
+            3.861,
+            0.0,
+            3.869,
+            5.613,
+            5.188,
+            5.988,
+            11.36,
+            10.338,
+            12.778
+          ],
+          [
+            5.224,
+            5.408,
+            3.869,
+            0.0,
+            3.873,
+            5.476,
+            5.26,
+            9.897,
+            9.962,
+            13.144
+          ],
+          [
+            6.236,
+            5.065,
+            5.613,
+            3.873,
+            0.0,
+            3.865,
+            5.828,
+            6.198,
+            6.173,
+            9.51
+          ],
+          [
+            8.73,
+            6.119,
+            5.188,
+            5.476,
+            3.865,
+            0.0,
+            3.833,
+            8.434,
+            6.438,
+            9.458
+          ],
+          [
+            10.106,
+            8.547,
+            5.988,
+            5.26,
+            5.828,
+            3.833,
+            0.0,
+            11.132,
+            9.742,
+            13.081
+          ],
+          [
+            10.214,
+            9.159,
+            11.36,
+            9.897,
+            6.198,
+            8.434,
+            11.132,
+            0.0,
+            3.876,
+            6.244
+          ],
+          [
+            11.002,
+            8.602,
+            10.338,
+            9.962,
+            6.173,
+            6.438,
+            9.742,
+            3.876,
+            0.0,
+            3.842
+          ],
+          [
+            13.134,
+            10.413,
+            12.778,
+            13.144,
+            9.51,
+            9.458,
+            13.081,
+            6.244,
+            3.842,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8641479826575504,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TBX5-R237P Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8641,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TBX5_R237P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TBX5_R237P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TBX5_R237P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TBX5_R237P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TBX5_R237P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX5-R237P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBX5-R237P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T08:22:17.507484+00:00"
     }
   ]
 }
