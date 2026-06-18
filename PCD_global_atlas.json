@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1948,
+  "total_entries": 1949,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46636,
-    "queue_remaining": 131961
+    "total_processed": 46637,
+    "queue_remaining": 131960
   },
   "entries": [
     {
@@ -442331,6 +442331,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:33:52.604623+00:00"
+    },
+    {
+      "entry_id": "PCD-TMEM237-R33C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMEM237-R33C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TMEM237",
+        "uniprot": "",
+        "clinvar_id": "373720",
+        "disease": "not specified",
+        "mutation_precursor": "R33C",
+        "mutation_mature": "R33C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7629913282065678,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 586.2112629810878,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -3.841712474822998,
+          -20.587135314941406,
+          -62.93840026855469
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.783336608815763,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7513006328507845,
+        "cryptic": true,
+        "pocket_residues": {
+          "P30": "P",
+          "L31": "L",
+          "S32": "S",
+          "R33": "R",
+          "P34": "P"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96Q45|TMEM237 variant R33C",
+        "fasta_sequence": "MRTDSGARLEEGHLRPPRALPPVPSQDDIPLSRPKKKKPRTKNTPASASLEGLAQTAGRRPSEGNEPSTKELKEHPEAPVQRRQKKTRLPLELETSSTQKKSSSSSLLRNENGIDAEPAEEAVIQKPRRKTKKTQPAELQYANELGVEDEDIITDEQTTVEQQSVFTAPTGISQPVGKVFVEKSRRFQAADRSELIKTTENIDVSMDVKPSWTTRDVALTVHRAFRMIGLFSHGFLAGCAVWNIVVIYVLAGDQLSNLSNLLQQYKTLAYPFQSLLYLLLALSTISAFDRIDFAKISVAIRNFLALDPTALASFLYFTALILSLSQQMTSDRIHLYTPSSVNGSLWEAGIEEQILQPWIVVNLVVALLVGLSWLFLSYRPGMDLSEELMFSSEVEEYPDKEKEIKASS",
+        "full_sequence": "MRTDSGARLEEGHLRPPRALPPVPSQDDIPLSRPKKKKPRTKNTPASASLEGLAQTAGRRPSEGNEPSTKELKEHPEAPVQRRQKKTRLPLELETSSTQKKSSSSSLLRNENGIDAEPAEEAVIQKPRRKTKKTQPAELQYANELGVEDEDIITDEQTTVEQQSVFTAPTGISQPVGKVFVEKSRRFQAADRSELIKTTENIDVSMDVKPSWTTRDVALTVHRAFRMIGLFSHGFLAGCAVWNIVVIYVLAGDQLSNLSNLLQQYKTLAYPFQSLLYLLLALSTISAFDRIDFAKISVAIRNFLALDPTALASFLYFTALILSLSQQMTSDRIHLYTPSSVNGSLWEAGIEEQILQPWIVVNLVVALLVGLSWLFLSYRPGMDLSEELMFSSEVEEYPDKEKEIKASS",
+        "n_residues": 408,
+        "mutation_pos_1indexed": 33,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "P30-L31-S32-R33-P34",
+        "pocket_lining_positions_precursor": [
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "pocket_lining_1letter": "PLSRP",
+        "sequence_slice_around_pocket": "VPSQDDIPLSRPKKKKPRTK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM237_R33C/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "P30",
+          "L31",
+          "S32",
+          "R33",
+          "P34"
+        ],
+        "values": [
+          [
+            0.0,
+            3.866,
+            6.385,
+            9.492,
+            12.592
+          ],
+          [
+            3.866,
+            0.0,
+            3.869,
+            6.042,
+            9.582
+          ],
+          [
+            6.385,
+            3.869,
+            0.0,
+            3.882,
+            6.399
+          ],
+          [
+            9.492,
+            6.042,
+            3.882,
+            0.0,
+            3.886
+          ],
+          [
+            12.592,
+            9.582,
+            6.399,
+            3.886,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "composite_score": 0.5080318849739781,
+        "mw": 361.24,
+        "logp": 2.104,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8409,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TMEM237-R33C Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.508,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM237_R33C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM237_R33C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM237_R33C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM237_R33C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMEM237_R33C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMEM237-R33C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMEM237-R33C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:34:19.081797+00:00"
     }
   ]
 }
