@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1812,
+  "total_entries": 1813,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46488,
-    "queue_remaining": 132109
+    "total_processed": 46489,
+    "queue_remaining": 132108
   },
   "entries": [
     {
@@ -406394,6 +406394,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:08:10.945985+00:00"
+    },
+    {
+      "entry_id": "PCD-G6PC1-Q54P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-G6PC1-Q54P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "G6PC1",
+        "uniprot": "",
+        "clinvar_id": "371101",
+        "disease": "Glycogen storage disease due to glucose-6-phosphatase deficiency type IA",
+        "mutation_precursor": "Q54P",
+        "mutation_mature": "Q54P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8344205496837076,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 363.9655397721988,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -9.079927444458008,
+          -0.9960136413574219,
+          18.095563888549805
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.0731144838675353,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7737867341620059,
+        "cryptic": true,
+        "pocket_residues": {
+          "W50": "W",
+          "F51": "F",
+          "H52": "H",
+          "L53": "L",
+          "Q54": "Q",
+          "E55": "E",
+          "A56": "A",
+          "V57": "V",
+          "G58": "G",
+          "I59": "I"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P35575|G6PC1 variant Q54P",
+        "fasta_sequence": "MEEGMNVLHDFGIQSTHYLQVNYQDSQDWFILVSVIADLRNAFYVLFPIWFHLQEAVGIKLLWVAVIGDWLNLVFKWILFGQRPYWWVLDTDYYSNTSVPLIKQFPVTCETGPGSPSGHAMGTAGVYYVMVTSTLSIFQGKIKPTYRFRCLNVILWLGFWAVQLNVCLSRIYLAAHFPHQVVAGVLSGIAVAETFSHIHSIYNASLKKYFLITFFLFSFAIGFYLLLKGLGVDLLWTLEKAQRWCEQPEWVHIDTTPFASLLKNLGTLFGLGLALNSSMYRESCKGKLSKWLPFRLSSIVASLVLLHVFDSLKPPSQVELVFYVLSFCKSAVVPLASVSVIPYCLAQVLGQPHKKSL",
+        "full_sequence": "MEEGMNVLHDFGIQSTHYLQVNYQDSQDWFILVSVIADLRNAFYVLFPIWFHLQEAVGIKLLWVAVIGDWLNLVFKWILFGQRPYWWVLDTDYYSNTSVPLIKQFPVTCETGPGSPSGHAMGTAGVYYVMVTSTLSIFQGKIKPTYRFRCLNVILWLGFWAVQLNVCLSRIYLAAHFPHQVVAGVLSGIAVAETFSHIHSIYNASLKKYFLITFFLFSFAIGFYLLLKGLGVDLLWTLEKAQRWCEQPEWVHIDTTPFASLLKNLGTLFGLGLALNSSMYRESCKGKLSKWLPFRLSSIVASLVLLHVFDSLKPPSQVELVFYVLSFCKSAVVPLASVSVIPYCLAQVLGQPHKKSL",
+        "n_residues": 357,
+        "mutation_pos_1indexed": 54,
+        "wt_aa": "Q",
+        "mut_aa": "P",
+        "pocket_lining_residues": "W50-F51-H52-L53-Q54-E55-A56-V57-G58-I59",
+        "pocket_lining_positions_precursor": [
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ],
+        "pocket_lining_1letter": "WFHLQEAVGI",
+        "sequence_slice_around_pocket": "YVLFPIWFHLQEAVGIKLLW"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/G6PC1_Q54P/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "W50",
+          "F51",
+          "H52",
+          "L53",
+          "Q54",
+          "E55",
+          "A56",
+          "V57",
+          "G58",
+          "I59"
+        ],
+        "values": [
+          [
+            0.0,
+            3.822,
+            5.55,
+            4.99,
+            5.655,
+            6.781,
+            8.43,
+            5.961,
+            4.743,
+            8.578
+          ],
+          [
+            3.822,
+            0.0,
+            3.843,
+            5.575,
+            5.212,
+            4.211,
+            7.055,
+            6.377,
+            3.984,
+            6.88
+          ],
+          [
+            5.55,
+            3.843,
+            0.0,
+            3.848,
+            5.575,
+            6.044,
+            9.584,
+            9.301,
+            7.739,
+            10.545
+          ],
+          [
+            4.99,
+            5.575,
+            3.848,
+            0.0,
+            3.847,
+            6.694,
+            9.255,
+            8.299,
+            8.285,
+            11.48
+          ],
+          [
+            5.655,
+            5.212,
+            5.575,
+            3.847,
+            0.0,
+            3.86,
+            5.638,
+            5.576,
+            6.609,
+            8.959
+          ],
+          [
+            6.781,
+            4.211,
+            6.044,
+            6.694,
+            3.86,
+            0.0,
+            3.844,
+            5.508,
+            5.165,
+            6.189
+          ],
+          [
+            8.43,
+            7.055,
+            9.584,
+            9.255,
+            5.638,
+            3.844,
+            0.0,
+            3.862,
+            5.544,
+            5.144
+          ],
+          [
+            5.961,
+            6.377,
+            9.301,
+            8.299,
+            5.576,
+            5.508,
+            3.862,
+            0.0,
+            3.836,
+            5.454
+          ],
+          [
+            4.743,
+            3.984,
+            7.739,
+            8.285,
+            6.609,
+            5.165,
+            5.544,
+            3.836,
+            0.0,
+            3.858
+          ],
+          [
+            8.578,
+            6.88,
+            10.545,
+            11.48,
+            8.959,
+            6.189,
+            5.144,
+            5.454,
+            3.858,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8696806948494352,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "G6PC1-Q54P Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8697,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/G6PC1_Q54P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/G6PC1_Q54P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/G6PC1_Q54P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/G6PC1_Q54P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/G6PC1_Q54P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-G6PC1-Q54P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-G6PC1-Q54P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:08:35.001105+00:00"
     }
   ]
 }
