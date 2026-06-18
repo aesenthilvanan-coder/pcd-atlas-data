@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2051,
+  "total_entries": 2052,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46757,
-    "queue_remaining": 131840
+    "total_processed": 46758,
+    "queue_remaining": 131839
   },
   "entries": [
     {
@@ -468350,6 +468350,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:02:49.199078+00:00"
+    },
+    {
+      "entry_id": "PCD-HEXB-G473S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HEXB-G473S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HEXB",
+        "uniprot": "",
+        "clinvar_id": "372685",
+        "disease": "not provided",
+        "mutation_precursor": "G473S",
+        "mutation_mature": "G473S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9459227699665588,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 288.9497090720923,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -25.203927993774414,
+          19.321260452270508,
+          -6.33391809463501
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.315678047342669,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8549857984049204,
+        "cryptic": true,
+        "pocket_residues": {
+          "E431": "E",
+          "L433": "L",
+          "S434": "S",
+          "R435": "R",
+          "T437": "T",
+          "A438": "A",
+          "F471": "F",
+          "G472": "G",
+          "G473": "G",
+          "T474": "T"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P07686|HEXB variant G473S",
+        "fasta_sequence": "MELCGLGLPRPPMLLALLLATLLAAMLALLTQVALVVQVAEAARAPSVSAKPGPALWPLPLLVKMTPNLLHLAPENFYISHSPNSTAGPSCTLLEEAFRRYHGYIFGFYKWHHEPAEFQAKTQVQQLLVSITLQSECDAFPNISSDESYTLLVKEPVAVLKANRVWGALRGLETFSQLVYQDSYGTFTINESTIIDSPRFSHRGILIDTSRHYLPVKIILKTLDAMAFNKFNVLHWHIVDDQSFPYQSITFPELSNKGSYSLSHVYTPNDVRMVIEYARLRGIRVLPEFDTPGHTLSWGKGQKDLLTPCYSRQNKLDSFGPINPTLNTTYSFLTTFFKEISEVFPDQFIHLGGDEVEFKCWESNPKIQDFMRQKGFGTDFKKLESFYIQKVLDIIATINKGSIVWQEVFDDKAKLAPGTIVEVWKDSAYPEELSRVTASGFPVILSAPWYLDLISYGQDWRKYYKVEPLDFGGTQKQKQLFIGGEACLWGEYVDATNLTPRLWPRASAVGERLWSSKDVRDMDDAYDRLTRHRCRMVERGIAAQPLYAGYCNHENM",
+        "full_sequence": "MELCGLGLPRPPMLLALLLATLLAAMLALLTQVALVVQVAEAARAPSVSAKPGPALWPLPLLVKMTPNLLHLAPENFYISHSPNSTAGPSCTLLEEAFRRYHGYIFGFYKWHHEPAEFQAKTQVQQLLVSITLQSECDAFPNISSDESYTLLVKEPVAVLKANRVWGALRGLETFSQLVYQDSYGTFTINESTIIDSPRFSHRGILIDTSRHYLPVKIILKTLDAMAFNKFNVLHWHIVDDQSFPYQSITFPELSNKGSYSLSHVYTPNDVRMVIEYARLRGIRVLPEFDTPGHTLSWGKGQKDLLTPCYSRQNKLDSFGPINPTLNTTYSFLTTFFKEISEVFPDQFIHLGGDEVEFKCWESNPKIQDFMRQKGFGTDFKKLESFYIQKVLDIIATINKGSIVWQEVFDDKAKLAPGTIVEVWKDSAYPEELSRVTASGFPVILSAPWYLDLISYGQDWRKYYKVEPLDFGGTQKQKQLFIGGEACLWGEYVDATNLTPRLWPRASAVGERLWSSKDVRDMDDAYDRLTRHRCRMVERGIAAQPLYAGYCNHENM",
+        "n_residues": 556,
+        "mutation_pos_1indexed": 473,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "E431-L433-S434-R435-T437-A438-F471-G472-G473-T474",
+        "pocket_lining_positions_precursor": [
+          431,
+          433,
+          434,
+          435,
+          437,
+          438,
+          471,
+          472,
+          473,
+          474
+        ],
+        "pocket_lining_1letter": "ELSRTAFGGT",
+        "sequence_slice_around_pocket": "YYKVEPLDFGGTQKQKQLFI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HEXB_G473S/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "E431",
+          "L433",
+          "S434",
+          "R435",
+          "T437",
+          "A438",
+          "F471",
+          "G472",
+          "G473",
+          "T474"
+        ],
+        "values": [
+          [
+            0.0,
+            5.427,
+            4.879,
+            6.233,
+            9.953,
+            10.315,
+            6.771,
+            7.277,
+            9.666,
+            13.436
+          ],
+          [
+            5.427,
+            0.0,
+            3.856,
+            5.564,
+            6.049,
+            8.327,
+            6.843,
+            8.218,
+            8.757,
+            11.817
+          ],
+          [
+            4.879,
+            3.856,
+            0.0,
+            3.871,
+            5.498,
+            5.936,
+            6.24,
+            5.631,
+            5.966,
+            9.342
+          ],
+          [
+            6.233,
+            5.564,
+            3.871,
+            0.0,
+            5.577,
+            5.045,
+            10.016,
+            9.126,
+            9.012,
+            11.869
+          ],
+          [
+            9.953,
+            6.049,
+            5.498,
+            5.577,
+            0.0,
+            3.862,
+            10.277,
+            9.798,
+            7.824,
+            9.282
+          ],
+          [
+            10.315,
+            8.327,
+            5.936,
+            5.045,
+            3.862,
+            0.0,
+            11.397,
+            9.601,
+            7.448,
+            8.774
+          ],
+          [
+            6.771,
+            6.843,
+            6.24,
+            10.016,
+            10.277,
+            11.397,
+            0.0,
+            3.844,
+            6.375,
+            9.634
+          ],
+          [
+            7.277,
+            8.218,
+            5.631,
+            9.126,
+            9.798,
+            9.601,
+            3.844,
+            0.0,
+            3.836,
+            7.393
+          ],
+          [
+            9.666,
+            8.757,
+            5.966,
+            9.012,
+            7.824,
+            7.448,
+            6.375,
+            3.836,
+            0.0,
+            3.827
+          ],
+          [
+            13.436,
+            11.817,
+            9.342,
+            11.869,
+            9.282,
+            8.774,
+            9.634,
+            7.393,
+            3.827,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)CCCc1c[nH]c2ccccc12",
+        "composite_score": 0.9225511310169119,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.09,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HEXB-G473S Candidate #1",
+        "iupac_name": "NCC(=O)CCCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9226,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HEXB_G473S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HEXB_G473S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HEXB_G473S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HEXB_G473S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HEXB_G473S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HEXB-G473S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HEXB-G473S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:03:15.793112+00:00"
     }
   ]
 }
