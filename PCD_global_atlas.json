@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1579,
+  "total_entries": 1580,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46233,
-    "queue_remaining": 132364
+    "total_processed": 46234,
+    "queue_remaining": 132363
   },
   "entries": [
     {
@@ -349055,6 +349055,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:30:10.103546+00:00"
+    },
+    {
+      "entry_id": "PCD-MCOLN1-V341I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MCOLN1-V341I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MCOLN1",
+        "uniprot": "",
+        "clinvar_id": "330499",
+        "disease": "Mucolipidosis type IV",
+        "mutation_precursor": "V341I",
+        "mutation_mature": "V341I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8218106681324528,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 332.5296453724075,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -38.298057556152344,
+          18.252521514892578,
+          29.289554595947266
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.6286616509715703,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8465604169719007,
+        "cryptic": true,
+        "pocket_residues": {
+          "M334": "M",
+          "W335": "W",
+          "G339": "G",
+          "R340": "R",
+          "V341": "V",
+          "I342": "I",
+          "S343": "S"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9GZU1|MCOLN1 variant V341I",
+        "fasta_sequence": "MTAPAGPRGSETERLLTPNPGYGTQAGPSPAPPTPPEEEDLRRRLKYFFMSPCDKFRAKGRKPCKLMLQVVKILVVTVQLILFGLSNQLAVTFREENTIAFRHLFLLGYSDGADDTFAAYTREQLYQAIFHAVDQYLALPDVSLGRYAYVRGGGDPWTNGSGLALCQRYYHRGHVDPANDTFDIDPMVVTDCIQVDPPERPPPPPSDDLTLLESSSSYKNLTLKFHKLVNVTIHFRLKTINLQSLINNEIPDCYTFSVLITFDNKAHSGRIPISLETQAHIQECKHPSVFQHGDNSFRLLFDVVVILTCSLSFLLCARSLLRGFLLQNEFVGFMWRQRGRVISLWERLEFVNGWYILLVTSDVLTISGTIMKIGIEAKNLASYDVCSILLGTSTLLVWVGVIRYLTFFHNYNILIATLRVALPSVMRFCCCVAVIYLGYCFCGWIVLGPYHVKFRSLSMVSECLFSLINGDDMFVTFAAMQAQQGRSSLVWLFSQLYLYSFISLFIYMVLSLFIALITGAYDTIKHPGGAGAEESELQAYIAQCQDSPTSGKFRRGSGSACSLLCCCGRDPSEEHSLLVN",
+        "full_sequence": "MTAPAGPRGSETERLLTPNPGYGTQAGPSPAPPTPPEEEDLRRRLKYFFMSPCDKFRAKGRKPCKLMLQVVKILVVTVQLILFGLSNQLAVTFREENTIAFRHLFLLGYSDGADDTFAAYTREQLYQAIFHAVDQYLALPDVSLGRYAYVRGGGDPWTNGSGLALCQRYYHRGHVDPANDTFDIDPMVVTDCIQVDPPERPPPPPSDDLTLLESSSSYKNLTLKFHKLVNVTIHFRLKTINLQSLINNEIPDCYTFSVLITFDNKAHSGRIPISLETQAHIQECKHPSVFQHGDNSFRLLFDVVVILTCSLSFLLCARSLLRGFLLQNEFVGFMWRQRGRVISLWERLEFVNGWYILLVTSDVLTISGTIMKIGIEAKNLASYDVCSILLGTSTLLVWVGVIRYLTFFHNYNILIATLRVALPSVMRFCCCVAVIYLGYCFCGWIVLGPYHVKFRSLSMVSECLFSLINGDDMFVTFAAMQAQQGRSSLVWLFSQLYLYSFISLFIYMVLSLFIALITGAYDTIKHPGGAGAEESELQAYIAQCQDSPTSGKFRRGSGSACSLLCCCGRDPSEEHSLLVN",
+        "n_residues": 580,
+        "mutation_pos_1indexed": 341,
+        "wt_aa": "V",
+        "mut_aa": "I",
+        "pocket_lining_residues": "M334-W335-G339-R340-V341-I342-S343",
+        "pocket_lining_positions_precursor": [
+          334,
+          335,
+          339,
+          340,
+          341,
+          342,
+          343
+        ],
+        "pocket_lining_1letter": "MWGRVIS",
+        "sequence_slice_around_pocket": "VGFMWRQRGRVISLWERLEF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MCOLN1_V341I/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "M334",
+          "W335",
+          "G339",
+          "R340",
+          "V341",
+          "I342",
+          "S343"
+        ],
+        "values": [
+          [
+            0.0,
+            3.823,
+            6.432,
+            5.769,
+            7.275,
+            7.434,
+            11.248
+          ],
+          [
+            3.823,
+            0.0,
+            4.518,
+            5.08,
+            6.138,
+            7.996,
+            11.646
+          ],
+          [
+            6.432,
+            4.518,
+            0.0,
+            3.859,
+            6.89,
+            9.71,
+            12.964
+          ],
+          [
+            5.769,
+            5.08,
+            3.859,
+            0.0,
+            3.81,
+            6.221,
+            9.29
+          ],
+          [
+            7.275,
+            6.138,
+            6.89,
+            3.81,
+            0.0,
+            3.822,
+            6.384
+          ],
+          [
+            7.434,
+            7.996,
+            9.71,
+            6.221,
+            3.822,
+            0.0,
+            3.833
+          ],
+          [
+            11.248,
+            11.646,
+            12.964,
+            9.29,
+            6.384,
+            3.833,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6722743813977005,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MCOLN1-V341I Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6723,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MCOLN1_V341I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MCOLN1_V341I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MCOLN1_V341I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MCOLN1_V341I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MCOLN1_V341I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MCOLN1-V341I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MCOLN1-V341I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:30:35.400849+00:00"
     }
   ]
 }
