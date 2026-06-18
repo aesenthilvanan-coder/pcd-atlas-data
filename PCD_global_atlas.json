@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2210,
+  "total_entries": 2211,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46939,
-    "queue_remaining": 131658
+    "total_processed": 46941,
+    "queue_remaining": 131656
   },
   "entries": [
     {
@@ -508568,6 +508568,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T09:32:47.808342+00:00"
+    },
+    {
+      "entry_id": "PCD-TSEN54-S174N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSEN54-S174N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TSEN54",
+        "uniprot": "",
+        "clinvar_id": "372660",
+        "disease": "not provided",
+        "mutation_precursor": "S174N",
+        "mutation_mature": "S174N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9298868151094555,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 299.1621949061339,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          8.869181632995605,
+          -18.19134521484375,
+          -0.09805233031511307
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.7327170737124247,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7789116785478875,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q172": "Q",
+          "P173": "P",
+          "S174": "S",
+          "S175": "S",
+          "V176": "V"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q7Z6J9|TSEN54 variant S174N",
+        "fasta_sequence": "MEPEPEPAAVEVPAGRVLSARELFAARSRSQKLPQRSHGPKDFLPDGSAAQAERLRRCREELWQLLAEQRVERLGSLVAAEWRPEEGFVELKSPAGKFWQTMGFSEQGRQRLHPEEALYLLECGSIHLFHQDLPLSIQEAYQLLLTDHTVTFLQYQVFSHLKRLGYVVRRFQPSSVLSPYERQLNLDASVQHLEDGDGKRKRSSSSPRSINKKAKALDNSLQPKSLAASSPPPCSQPSQCPEEKPQESSPMKGPGGPFQLLGSLGPSPGPAREGVGCSWESGRAENGVTGAGKRRWNFEQISFPNMASDSRHTLLRAPAPELLPANVAGRETDAESWCQKLNQRKEKLSRREREHHAEAAQFQEDVNADPEVQRCSSWREYKELLQRRQVQRSQRRAPHLWGQPVTPLLSPGQASSPAVVLQHISVLQTTHLPDGGARLLEKSGGLEIIFDVYQADAVATFRKNNPGKPYARMCISGFDEPVPDLCSLKRLSYQSGDVPLIFALVDHGDISFYSFRDFTLPQDVGH",
+        "full_sequence": "MEPEPEPAAVEVPAGRVLSARELFAARSRSQKLPQRSHGPKDFLPDGSAAQAERLRRCREELWQLLAEQRVERLGSLVAAEWRPEEGFVELKSPAGKFWQTMGFSEQGRQRLHPEEALYLLECGSIHLFHQDLPLSIQEAYQLLLTDHTVTFLQYQVFSHLKRLGYVVRRFQPSSVLSPYERQLNLDASVQHLEDGDGKRKRSSSSPRSINKKAKALDNSLQPKSLAASSPPPCSQPSQCPEEKPQESSPMKGPGGPFQLLGSLGPSPGPAREGVGCSWESGRAENGVTGAGKRRWNFEQISFPNMASDSRHTLLRAPAPELLPANVAGRETDAESWCQKLNQRKEKLSRREREHHAEAAQFQEDVNADPEVQRCSSWREYKELLQRRQVQRSQRRAPHLWGQPVTPLLSPGQASSPAVVLQHISVLQTTHLPDGGARLLEKSGGLEIIFDVYQADAVATFRKNNPGKPYARMCISGFDEPVPDLCSLKRLSYQSGDVPLIFALVDHGDISFYSFRDFTLPQDVGH",
+        "n_residues": 526,
+        "mutation_pos_1indexed": 174,
+        "wt_aa": "S",
+        "mut_aa": "N",
+        "pocket_lining_residues": "Q172-P173-S174-S175-V176",
+        "pocket_lining_positions_precursor": [
+          172,
+          173,
+          174,
+          175,
+          176
+        ],
+        "pocket_lining_1letter": "QPSSV",
+        "sequence_slice_around_pocket": "LGYVVRRFQPSSVLSPYERQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_S174N/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "Q172",
+          "P173",
+          "S174",
+          "S175",
+          "V176"
+        ],
+        "values": [
+          [
+            0.0,
+            3.864,
+            5.349,
+            5.447,
+            7.718
+          ],
+          [
+            3.864,
+            0.0,
+            3.873,
+            5.438,
+            5.768
+          ],
+          [
+            5.349,
+            3.873,
+            0.0,
+            3.863,
+            5.297
+          ],
+          [
+            5.447,
+            5.438,
+            3.863,
+            0.0,
+            3.841
+          ],
+          [
+            7.718,
+            5.768,
+            5.297,
+            3.841,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(N)cc1N1CCCCC1",
+        "composite_score": 0.5712188707539111,
+        "mw": 206.14,
+        "logp": 2.268,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 2,
+        "qed": 0.7543,
+        "sa_score": 1.77,
+        "n_heavy_atoms": 15,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TSEN54-S174N Candidate #1",
+        "iupac_name": "COc1ccc(N)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5712,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_S174N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_S174N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_S174N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_S174N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TSEN54_S174N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSEN54-S174N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TSEN54-S174N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T09:33:28.983906+00:00"
     }
   ]
 }
