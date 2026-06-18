@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1892,
+  "total_entries": 1893,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46576,
-    "queue_remaining": 132021
+    "total_processed": 46577,
+    "queue_remaining": 132020
   },
   "entries": [
     {
@@ -429744,6 +429744,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:50:00.208348+00:00"
+    },
+    {
+      "entry_id": "PCD-ACAD9-H563D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACAD9-H563D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ACAD9",
+        "uniprot": "",
+        "clinvar_id": "372250",
+        "disease": "Acyl-CoA dehydrogenase 9 deficiency",
+        "mutation_precursor": "H563D",
+        "mutation_mature": "H563D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7665119204014776,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 349.60901409964345,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          25.74938201904297,
+          -1.3519229888916016,
+          -18.009937286376953
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.344435972262236,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8569614934599334,
+        "cryptic": true,
+        "pocket_residues": {
+          "D562": "D",
+          "H563": "H",
+          "L566": "L"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9H845|ACAD9 variant H563D",
+        "fasta_sequence": "MSGCGLFLRTTAAARACRGLVVSTANRRLLRTSPPVRAFAKELFLGKIKKKEVFPFPEVSQDELNEINQFLGPVEKFFTEEVDSRKIDQEGKIPDETLEKLKSLGLFGLQVPEEYGGLGFSNTMYSRLGEIISMDGSITVTLAAHQAIGLKGIILAGTEEQKAKYLPKLASGEHIAAFCLTEPASGSDAASIRSRATLSEDKKHYILNGSKVWITNGGLANIFTVFAKTEVVDSDGSVKDKITAFIVERDFGGVTNGKPEDKLGIRGSNTCEVHFENTKIPVENILGEVGDGFKVAMNILNSGRFSMGSVVAGLLKRLIEMTAEYACTRKQFNKRLSEFGLIQEKFALMAQKAYVMESMTYLTAGMLDQPGFPDCSIEAAMVKVFSSEAAWQCVSEALQILGGLGYTRDYPYERILRDTRILLIFEGTNEILRMYIALTGLQHAGRILTTRIHELKQAKVSTVMDTVGRRLRDSLGRTVDLGLTGNHGVVHPSLADSANKFEENTYCFGRTVETLLLRFGKTIMEEQLVLKRVANILINLYGMTAVLSRASRSIRIGLRNHDHEVLLANTFCVEAYLQNLFSLSQLDKYAPENLDEQIKKVSQQILEKRAYICAHPLDRTC",
+        "full_sequence": "MSGCGLFLRTTAAARACRGLVVSTANRRLLRTSPPVRAFAKELFLGKIKKKEVFPFPEVSQDELNEINQFLGPVEKFFTEEVDSRKIDQEGKIPDETLEKLKSLGLFGLQVPEEYGGLGFSNTMYSRLGEIISMDGSITVTLAAHQAIGLKGIILAGTEEQKAKYLPKLASGEHIAAFCLTEPASGSDAASIRSRATLSEDKKHYILNGSKVWITNGGLANIFTVFAKTEVVDSDGSVKDKITAFIVERDFGGVTNGKPEDKLGIRGSNTCEVHFENTKIPVENILGEVGDGFKVAMNILNSGRFSMGSVVAGLLKRLIEMTAEYACTRKQFNKRLSEFGLIQEKFALMAQKAYVMESMTYLTAGMLDQPGFPDCSIEAAMVKVFSSEAAWQCVSEALQILGGLGYTRDYPYERILRDTRILLIFEGTNEILRMYIALTGLQHAGRILTTRIHELKQAKVSTVMDTVGRRLRDSLGRTVDLGLTGNHGVVHPSLADSANKFEENTYCFGRTVETLLLRFGKTIMEEQLVLKRVANILINLYGMTAVLSRASRSIRIGLRNHDHEVLLANTFCVEAYLQNLFSLSQLDKYAPENLDEQIKKVSQQILEKRAYICAHPLDRTC",
+        "n_residues": 621,
+        "mutation_pos_1indexed": 563,
+        "wt_aa": "H",
+        "mut_aa": "D",
+        "pocket_lining_residues": "D562-H563-L566",
+        "pocket_lining_positions_precursor": [
+          562,
+          563,
+          566
+        ],
+        "pocket_lining_1letter": "DHL",
+        "sequence_slice_around_pocket": "SIRIGLRNHDHEVLLANTFC"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ACAD9_H563D/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "D562",
+          "H563",
+          "L566"
+        ],
+        "values": [
+          [
+            0.0,
+            3.83,
+            6.249
+          ],
+          [
+            3.83,
+            0.0,
+            4.931
+          ],
+          [
+            6.249,
+            4.931,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)cc1N1CCCC(=O)C1",
+        "composite_score": 0.7176311464558609,
+        "mw": 234.14,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.8671,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 17,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ACAD9-H563D Candidate #1",
+        "iupac_name": "CNc1ccc(OC)cc1N1CCCC(=O)C1",
+        "pocket_affinity_score": 0.7176,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ACAD9_H563D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ACAD9_H563D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ACAD9_H563D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACAD9_H563D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACAD9_H563D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACAD9-H563D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACAD9-H563D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:50:27.410367+00:00"
     }
   ]
 }
