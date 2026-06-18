@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2055,
+  "total_entries": 2056,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46762,
-    "queue_remaining": 131835
+    "total_processed": 46763,
+    "queue_remaining": 131834
   },
   "entries": [
     {
@@ -469248,6 +469248,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:04:50.276941+00:00"
+    },
+    {
+      "entry_id": "PCD-NEFL-N98K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NEFL-N98K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NEFL",
+        "uniprot": "",
+        "clinvar_id": "372433",
+        "disease": "not provided",
+        "mutation_precursor": "N98K",
+        "mutation_mature": "N98K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8022793194856997,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 336.07781848327977,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          101.60872650146484,
+          26.122955322265625,
+          -41.23358917236328
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.6516578489375995,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6221343082585005,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q93": "Q",
+          "L94": "L",
+          "Q95": "Q",
+          "D96": "D",
+          "L97": "L",
+          "N98": "N",
+          "D99": "D",
+          "R100": "R",
+          "F101": "F"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P07196|NEFL variant N98K",
+        "fasta_sequence": "MSSFSYEPYYSTSYKRRYVETPRVHISSVRSGYSTARSAYSSYSAPVSSSLSVRRSYSSSSGSLMPSLENLDLSQVAAISNDLKSIRTQEKAQLQDLNDRFASFIERVHELEQQNKVLEAELLVLRQKHSEPSRFRALYEQEIRDLRLAAEDATNEKQALQGEREGLEETLRNLQARYEEEVLSREDAEGRLMEARKGADEAALARAELEKRIDSLMDEISFLKKVHEEEIAELQAQIQYAQISVEMDVTKPDLSAALKDIRAQYEKLAAKNMQNAEEWFKSRFTVLTESAAKNTDAVRAAKDEVSESRRLLKAKTLEIEACRGMNEALEKQLQELEDKQNADISAMQDTINKLENELRTTKSEMARYLKEYQDLLNVKMALDIEIAAYRKLLEGEETRLSFTSVGSITSGYSQSSQVFGRSAYGGLQTSSYLMSTRSFPSYYTSHVQEEQIEVEETIEAAKAEEAKDEPPSEGEAEEEEKDKEEAEEEEAAEEEEAAKEESEEAKEEEEGGEGEEGEETKEAEEEEKKVEGAGEEQAAKKKD",
+        "full_sequence": "MSSFSYEPYYSTSYKRRYVETPRVHISSVRSGYSTARSAYSSYSAPVSSSLSVRRSYSSSSGSLMPSLENLDLSQVAAISNDLKSIRTQEKAQLQDLNDRFASFIERVHELEQQNKVLEAELLVLRQKHSEPSRFRALYEQEIRDLRLAAEDATNEKQALQGEREGLEETLRNLQARYEEEVLSREDAEGRLMEARKGADEAALARAELEKRIDSLMDEISFLKKVHEEEIAELQAQIQYAQISVEMDVTKPDLSAALKDIRAQYEKLAAKNMQNAEEWFKSRFTVLTESAAKNTDAVRAAKDEVSESRRLLKAKTLEIEACRGMNEALEKQLQELEDKQNADISAMQDTINKLENELRTTKSEMARYLKEYQDLLNVKMALDIEIAAYRKLLEGEETRLSFTSVGSITSGYSQSSQVFGRSAYGGLQTSSYLMSTRSFPSYYTSHVQEEQIEVEETIEAAKAEEAKDEPPSEGEAEEEEKDKEEAEEEEAAEEEEAAKEESEEAKEEEEGGEGEEGEETKEAEEEEKKVEGAGEEQAAKKKD",
+        "n_residues": 543,
+        "mutation_pos_1indexed": 98,
+        "wt_aa": "N",
+        "mut_aa": "K",
+        "pocket_lining_residues": "Q93-L94-Q95-D96-L97-N98-D99-R100-F101",
+        "pocket_lining_positions_precursor": [
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ],
+        "pocket_lining_1letter": "QLQDLNDRF",
+        "sequence_slice_around_pocket": "TQEKAQLQDLNDRFASFIER"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NEFL_N98K/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "Q93",
+          "L94",
+          "Q95",
+          "D96",
+          "L97",
+          "N98",
+          "D99",
+          "R100",
+          "F101"
+        ],
+        "values": [
+          [
+            0.0,
+            3.851,
+            5.377,
+            5.09,
+            5.973,
+            8.448,
+            9.807,
+            10.457,
+            12.032
+          ],
+          [
+            3.851,
+            0.0,
+            3.835,
+            5.568,
+            4.902,
+            5.948,
+            8.549,
+            9.697,
+            10.093
+          ],
+          [
+            5.377,
+            3.835,
+            0.0,
+            3.87,
+            5.345,
+            4.931,
+            6.076,
+            8.506,
+            9.541
+          ],
+          [
+            5.09,
+            5.568,
+            3.87,
+            0.0,
+            3.842,
+            5.466,
+            5.102,
+            6.164,
+            8.549
+          ],
+          [
+            5.973,
+            4.902,
+            5.345,
+            3.842,
+            0.0,
+            3.858,
+            5.571,
+            5.106,
+            6.117
+          ],
+          [
+            8.448,
+            5.948,
+            4.931,
+            5.466,
+            3.858,
+            0.0,
+            3.849,
+            5.354,
+            4.839
+          ],
+          [
+            9.807,
+            8.549,
+            6.076,
+            5.102,
+            5.571,
+            3.849,
+            0.0,
+            3.863,
+            5.436
+          ],
+          [
+            10.457,
+            9.697,
+            8.506,
+            6.164,
+            5.106,
+            5.354,
+            3.863,
+            0.0,
+            3.839
+          ],
+          [
+            12.032,
+            10.093,
+            9.541,
+            8.549,
+            6.117,
+            4.839,
+            5.436,
+            3.839,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8529813256244096,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NEFL-N98K Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.853,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NEFL_N98K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NEFL_N98K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NEFL_N98K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NEFL_N98K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NEFL_N98K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NEFL-N98K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NEFL-N98K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:05:16.974523+00:00"
     }
   ]
 }
