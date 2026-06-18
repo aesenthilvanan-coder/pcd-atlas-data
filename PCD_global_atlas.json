@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2136,
+  "total_entries": 2137,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46852,
-    "queue_remaining": 131745
+    "total_processed": 46853,
+    "queue_remaining": 131744
   },
   "entries": [
     {
@@ -489532,6 +489532,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T08:09:24.135801+00:00"
+    },
+    {
+      "entry_id": "PCD-RNASEH2B-L138F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RNASEH2B-L138F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RNASEH2B",
+        "uniprot": "",
+        "clinvar_id": "372780",
+        "disease": "not provided",
+        "mutation_precursor": "L138F",
+        "mutation_mature": "L138F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7271658019458952,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 290.6657995288541,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.595986366271973,
+          5.894264221191406,
+          4.1392316818237305
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.833359182156902,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7206146590808393,
+        "cryptic": true,
+        "pocket_residues": {
+          "D92": "D",
+          "P93": "P",
+          "L94": "L",
+          "F95": "F",
+          "L96": "L",
+          "L97": "L",
+          "L98": "L",
+          "L134": "L",
+          "L137": "L",
+          "L138": "L"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q5TBB1|RNASEH2B variant L138F",
+        "fasta_sequence": "MAAGVDCGDGVGARQHVFLVSEYLKDASKKMKNGLMFVKLVNPCSGEGAIYLFNMCLQQLFEVKVFKEKHHSWFINQSVQSGGLLHFATPVDPLFLLLHYLIKADKEGKFQPLDQVVVDNVFPNCILLLKLPGLEKLLHHVTEEKGNPEIDNKKYYKYSKEKTLKWLEKKVNQTVAALKTNNVNVSSRVQSTAFFSGDQASTDKEEDYIRYAHGLISDYIPKELSDDLSKYLKLPEPSASLPNPPSKKIKLSDEPVEAKEDYTKFNTKDLKTEKKNSKMTAAQKALAKVDKSGMKSIDTFFGVKNKKKIGKV",
+        "full_sequence": "MAAGVDCGDGVGARQHVFLVSEYLKDASKKMKNGLMFVKLVNPCSGEGAIYLFNMCLQQLFEVKVFKEKHHSWFINQSVQSGGLLHFATPVDPLFLLLHYLIKADKEGKFQPLDQVVVDNVFPNCILLLKLPGLEKLLHHVTEEKGNPEIDNKKYYKYSKEKTLKWLEKKVNQTVAALKTNNVNVSSRVQSTAFFSGDQASTDKEEDYIRYAHGLISDYIPKELSDDLSKYLKLPEPSASLPNPPSKKIKLSDEPVEAKEDYTKFNTKDLKTEKKNSKMTAAQKALAKVDKSGMKSIDTFFGVKNKKKIGKV",
+        "n_residues": 312,
+        "mutation_pos_1indexed": 138,
+        "wt_aa": "L",
+        "mut_aa": "F",
+        "pocket_lining_residues": "D92-P93-L94-F95-L96-L97-L98-L134-L137-L138",
+        "pocket_lining_positions_precursor": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          134,
+          137,
+          138
+        ],
+        "pocket_lining_1letter": "DPLFLLLLLL",
+        "sequence_slice_around_pocket": "LLKLPGLEKLLHHVTEEKGN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH2B_L138F/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "D92",
+          "P93",
+          "L94",
+          "F95",
+          "L96",
+          "L97",
+          "L98",
+          "L134",
+          "L137",
+          "L138"
+        ],
+        "values": [
+          [
+            0.0,
+            3.87,
+            5.436,
+            6.177,
+            7.878,
+            9.515,
+            10.683,
+            11.465,
+            9.692,
+            12.035
+          ],
+          [
+            3.87,
+            0.0,
+            3.844,
+            5.419,
+            5.32,
+            6.411,
+            8.707,
+            9.114,
+            8.65,
+            10.214
+          ],
+          [
+            5.436,
+            3.844,
+            0.0,
+            3.863,
+            5.432,
+            4.951,
+            5.995,
+            8.816,
+            6.718,
+            7.519
+          ],
+          [
+            6.177,
+            5.419,
+            3.863,
+            0.0,
+            3.85,
+            5.523,
+            5.071,
+            12.514,
+            10.469,
+            10.782
+          ],
+          [
+            7.878,
+            5.32,
+            5.432,
+            3.85,
+            0.0,
+            3.84,
+            5.395,
+            12.142,
+            11.666,
+            11.532
+          ],
+          [
+            9.515,
+            6.411,
+            4.951,
+            5.523,
+            3.84,
+            0.0,
+            3.84,
+            9.787,
+            9.511,
+            8.41
+          ],
+          [
+            10.683,
+            8.707,
+            5.995,
+            5.071,
+            5.395,
+            3.84,
+            0.0,
+            12.471,
+            10.768,
+            9.23
+          ],
+          [
+            11.465,
+            9.114,
+            8.816,
+            12.514,
+            12.142,
+            9.787,
+            12.471,
+            0.0,
+            5.056,
+            6.099
+          ],
+          [
+            9.692,
+            8.65,
+            6.718,
+            10.469,
+            11.666,
+            9.511,
+            10.768,
+            5.056,
+            0.0,
+            3.843
+          ],
+          [
+            12.035,
+            10.214,
+            7.519,
+            10.782,
+            11.532,
+            8.41,
+            9.23,
+            6.099,
+            3.843,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.819854718865647,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RNASEH2B-L138F Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8199,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH2B_L138F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH2B_L138F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH2B_L138F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH2B_L138F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH2B_L138F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RNASEH2B-L138F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RNASEH2B-L138F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T08:10:06.778503+00:00"
     }
   ]
 }
