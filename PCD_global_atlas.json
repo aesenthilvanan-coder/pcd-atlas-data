@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1511,
+  "total_entries": 1512,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46160,
-    "queue_remaining": 132437
+    "total_processed": 46161,
+    "queue_remaining": 132436
   },
   "entries": [
     {
@@ -334568,6 +334568,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:43:21.250429+00:00"
+    },
+    {
+      "entry_id": "PCD-DYM-R623Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DYM-R623Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DYM",
+        "uniprot": "",
+        "clinvar_id": "326894",
+        "disease": "not provided",
+        "mutation_precursor": "R623Q",
+        "mutation_mature": "R623Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7895991241342915,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 373.7112489240751,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -9.77349853515625,
+          -14.233233451843262,
+          30.460168838500977
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.268255839036875,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8018727620303341,
+        "cryptic": true,
+        "pocket_residues": {
+          "E537": "E",
+          "N540": "N",
+          "I576": "I",
+          "K620": "K",
+          "K621": "K",
+          "F622": "F",
+          "P623": "P",
+          "E624": "E"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q7RTS9|DYM variant R623Q",
+        "fasta_sequence": "MGSNSSRIGDLPKNEYLKKLSGTESISENDPFWNQLLSFSFPAPTSSSELKLLEEATISVCRSLVENNPRTGNLGALIKVFLSRTKELKLSAECQNHIFIWQTHNALFIICCLLKVFICQMSEEELQLHFTYEEKSPGNYSSDSEDLLEELLCCLMQLITDIPLLDITYEISVEAISTMVVFLSCQLFHKEVLRQSISHKYLMRGPCLPYTSKLVKTLLYNFIRQEKPPPPGAHVFPQQSDGGGLLYGLASGVATGLWTVFTLGGVGSKAAASPELSSPLANQSLLLLLVLANLTDASDAPNPYRQAIMSFKNTQDSSPFPSSIPHAFQINFNSLYTALCEQQTSDQATLLLYTLLHQNSNIRTYMLARTDMENLVLPILEILYHVEERNSHHVYMALIILLILTEDDGFNRSIHEVILKNITWYSERVLTEISLGSLLILVVIRTIQYNMTRTRDKYLHTNCLAALANMSAQFRSLHQYAAQRIISLFSLLSKKHNKVLEQATQSLRGSLSSNDVPLPDYAQDLNVIEEVIRMMLEIINSCLTNSLHHNPNLVYALLYKRDLFEQFRTHPSFQDIMQNIDLVISFFSSRLLQAGAELSVERVLEIIKQGVVALPKDRLKKFPELKFKYVEEEQPEEFFIPYVWSLVYNSAVGLYWNPQDIQLFTMDSD",
+        "full_sequence": "MGSNSSRIGDLPKNEYLKKLSGTESISENDPFWNQLLSFSFPAPTSSSELKLLEEATISVCRSLVENNPRTGNLGALIKVFLSRTKELKLSAECQNHIFIWQTHNALFIICCLLKVFICQMSEEELQLHFTYEEKSPGNYSSDSEDLLEELLCCLMQLITDIPLLDITYEISVEAISTMVVFLSCQLFHKEVLRQSISHKYLMRGPCLPYTSKLVKTLLYNFIRQEKPPPPGAHVFPQQSDGGGLLYGLASGVATGLWTVFTLGGVGSKAAASPELSSPLANQSLLLLLVLANLTDASDAPNPYRQAIMSFKNTQDSSPFPSSIPHAFQINFNSLYTALCEQQTSDQATLLLYTLLHQNSNIRTYMLARTDMENLVLPILEILYHVEERNSHHVYMALIILLILTEDDGFNRSIHEVILKNITWYSERVLTEISLGSLLILVVIRTIQYNMTRTRDKYLHTNCLAALANMSAQFRSLHQYAAQRIISLFSLLSKKHNKVLEQATQSLRGSLSSNDVPLPDYAQDLNVIEEVIRMMLEIINSCLTNSLHHNPNLVYALLYKRDLFEQFRTHPSFQDIMQNIDLVISFFSSRLLQAGAELSVERVLEIIKQGVVALPKDRLKKFPELKFKYVEEEQPEEFFIPYVWSLVYNSAVGLYWNPQDIQLFTMDSD",
+        "n_residues": 669,
+        "mutation_pos_1indexed": 623,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "E537-N540-I576-K620-K621-F622-P623-E624",
+        "pocket_lining_positions_precursor": [
+          537,
+          540,
+          576,
+          620,
+          621,
+          622,
+          623,
+          624
+        ],
+        "pocket_lining_1letter": "ENIKKFPE",
+        "sequence_slice_around_pocket": "ALPKDRLKKFPELKFKYVEE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DYM_R623Q/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "E537",
+          "N540",
+          "I576",
+          "K620",
+          "K621",
+          "F622",
+          "P623",
+          "E624"
+        ],
+        "values": [
+          [
+            0.0,
+            4.889,
+            7.135,
+            11.688,
+            10.874,
+            8.068,
+            9.178,
+            9.425
+          ],
+          [
+            4.889,
+            0.0,
+            7.637,
+            9.069,
+            8.921,
+            7.845,
+            10.276,
+            10.289
+          ],
+          [
+            7.135,
+            7.637,
+            0.0,
+            8.663,
+            9.959,
+            8.277,
+            11.118,
+            13.38
+          ],
+          [
+            11.688,
+            9.069,
+            8.663,
+            0.0,
+            3.813,
+            6.331,
+            9.988,
+            12.106
+          ],
+          [
+            10.874,
+            8.921,
+            9.959,
+            3.813,
+            0.0,
+            3.806,
+            6.801,
+            8.678
+          ],
+          [
+            8.068,
+            7.845,
+            8.277,
+            6.331,
+            3.806,
+            0.0,
+            3.843,
+            6.396
+          ],
+          [
+            9.178,
+            10.276,
+            11.118,
+            9.988,
+            6.801,
+            3.843,
+            0.0,
+            3.807
+          ],
+          [
+            9.425,
+            10.289,
+            13.38,
+            12.106,
+            8.678,
+            6.396,
+            3.807,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7130822427965041,
+        "mw": 274.22,
+        "logp": 2.343,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.9187,
+        "sa_score": 3.06,
+        "n_heavy_atoms": 20,
+        "tpsa": 45.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DYM-R623Q Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7131,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DYM_R623Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DYM_R623Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DYM_R623Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DYM_R623Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DYM_R623Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DYM-R623Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DYM-R623Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:43:49.230980+00:00"
     }
   ]
 }
