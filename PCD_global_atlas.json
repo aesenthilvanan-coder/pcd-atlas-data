@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1633,
+  "total_entries": 1634,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46292,
-    "queue_remaining": 132305
+    "total_processed": 46293,
+    "queue_remaining": 132304
   },
   "entries": [
     {
@@ -360651,6 +360651,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:08:30.703636+00:00"
+    },
+    {
+      "entry_id": "PCD-CRYAA-L52F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CRYAA-L52F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CRYAA",
+        "uniprot": "",
+        "clinvar_id": "340096",
+        "disease": "Cataract 9 multiple types",
+        "mutation_precursor": "L52F",
+        "mutation_mature": "L52F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7290675560289989,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 463.8684854346049,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          7.414383888244629,
+          14.373100280761719,
+          5.133923530578613
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.978492015889414,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.641892608784893,
+        "cryptic": true,
+        "pocket_residues": {
+          "F23": "F",
+          "D24": "D",
+          "S51": "S",
+          "L52": "L",
+          "R54": "R",
+          "T55": "T",
+          "V56": "V",
+          "S59": "S"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P02489|CRYAA variant L52F",
+        "fasta_sequence": "MDVTIQHPWFKRTLGPFYPSRLFDQFFGEGLFEYDLLPFLSSTISPYYRQSLFRTVLDSGISEVRSDRDKFVIFLDVKHFSPEDLTVKVQDDFVEIHGKHNERQDDHGYISREFHRRYRLPSNVDQSALSCSLSADGMLTFCGPKIQTGLDATHAERAIPVSREEKPTSAPSS",
+        "full_sequence": "MDVTIQHPWFKRTLGPFYPSRLFDQFFGEGLFEYDLLPFLSSTISPYYRQSLFRTVLDSGISEVRSDRDKFVIFLDVKHFSPEDLTVKVQDDFVEIHGKHNERQDDHGYISREFHRRYRLPSNVDQSALSCSLSADGMLTFCGPKIQTGLDATHAERAIPVSREEKPTSAPSS",
+        "n_residues": 173,
+        "mutation_pos_1indexed": 52,
+        "wt_aa": "L",
+        "mut_aa": "F",
+        "pocket_lining_residues": "F23-D24-S51-L52-R54-T55-V56-S59",
+        "pocket_lining_positions_precursor": [
+          23,
+          24,
+          51,
+          52,
+          54,
+          55,
+          56,
+          59
+        ],
+        "pocket_lining_1letter": "FDSLRTVS",
+        "sequence_slice_around_pocket": "STISPYYRQSLFRTVLDSGI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CRYAA_L52F/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "F23",
+          "D24",
+          "S51",
+          "L52",
+          "R54",
+          "T55",
+          "V56",
+          "S59"
+        ],
+        "values": [
+          [
+            0.0,
+            3.836,
+            9.915,
+            12.225,
+            10.878,
+            10.541,
+            7.45,
+            6.171
+          ],
+          [
+            3.836,
+            0.0,
+            8.391,
+            11.37,
+            9.108,
+            10.018,
+            8.084,
+            4.656
+          ],
+          [
+            9.915,
+            8.391,
+            0.0,
+            3.863,
+            5.898,
+            8.131,
+            8.826,
+            9.253
+          ],
+          [
+            12.225,
+            11.37,
+            3.863,
+            0.0,
+            5.845,
+            7.108,
+            8.786,
+            11.001
+          ],
+          [
+            10.878,
+            9.108,
+            5.898,
+            5.845,
+            0.0,
+            3.795,
+            6.409,
+            6.844
+          ],
+          [
+            10.541,
+            10.018,
+            8.131,
+            7.108,
+            3.795,
+            0.0,
+            3.832,
+            6.86
+          ],
+          [
+            7.45,
+            8.084,
+            8.826,
+            8.786,
+            6.409,
+            3.832,
+            0.0,
+            5.358
+          ],
+          [
+            6.171,
+            4.656,
+            9.253,
+            11.001,
+            6.844,
+            6.86,
+            5.358,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CCCCC1CCNc1ncnc2[nH]cnc12",
+        "composite_score": 0.7918994532601275,
+        "mw": 338.2,
+        "logp": 2.191,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 5,
+        "qed": 0.654,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 25,
+        "tpsa": 108.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CRYAA-L52F Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CCCCC1CCNc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.7919,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CRYAA_L52F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CRYAA_L52F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CRYAA_L52F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CRYAA_L52F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CRYAA_L52F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CRYAA-L52F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CRYAA-L52F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:08:57.909387+00:00"
     }
   ]
 }
