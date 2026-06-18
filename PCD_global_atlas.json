@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1513,
+  "total_entries": 1514,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46162,
-    "queue_remaining": 132435
+    "total_processed": 46163,
+    "queue_remaining": 132434
   },
   "entries": [
     {
@@ -334952,6 +334952,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:44:20.054712+00:00"
+    },
+    {
+      "entry_id": "PCD-FRMD7-C153Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FRMD7-C153Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FRMD7",
+        "uniprot": "",
+        "clinvar_id": "367910",
+        "disease": "Nystagmus 1, congenital, X-linked",
+        "mutation_precursor": "C153Y",
+        "mutation_mature": "C153Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7765845651468173,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 315.93507305972196,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          11.29825210571289,
+          24.58106803894043,
+          -10.204079627990723
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.482974882775878,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8571759007285795,
+        "cryptic": true,
+        "pocket_residues": {
+          "N150": "N",
+          "Q151": "Q",
+          "D152": "D",
+          "C153": "C",
+          "L154": "L"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q6ZUT3|FRMD7 variant C153Y",
+        "fasta_sequence": "MLHLKVQFLDDSQKIFVVDQKSSGKALFNLSCSHLNLAEKEYFGLEFCSHSGNNVWLELLKPITKQVKNPKEIVFKFMVKFFPVDPGHLREELTRYLFTLQIKKDLALGRLPCSDNCTALMVSHILQSELGDFHEETDRKHLAQTRYLPNQDCLEGKIMHFHQKHIGRSPAESDILLLDIARKLDMYGIRPHPASDGEGMQIHLAVAHMGVLVLRGNTKINTFNWAKIRKLSFKRKHFLIKLHANILVLCKDTLEFTMASRDACKAFWKTCVEYHAFFRLSEEPKSKPKTLLCSKGSSFRYSGRTQRQLLEYGRKGRLKSLPFERKHYPSQYHERQCRSSPDLLSDVSKQVEDLRLAYGGGYYQNVNGVHASEPVLESRRRNSALEVTFATELEHSKPEADPTLLHQSQSSSSFPFIYMDPVFNTEPNPNPDPRDIFSERSSLSSFQTSCKFSGNHMSIYSGLTSKVRPAKQLTYTDVPYIPCTGQQVGIMPPQVFFYVDKPPQVPRWSPIRAEERTSPHSYVEPTAMKPAERSPRNIRMKSFQQDLQVLQEAIARTSGRSNINVGLEEEDPNLEDAFVCNIQEQTPKRSQSQSDMKTIRFPFGSEFRPLGPCPALSHKADLFTDMFAEQELPAVLMDQSTAERYVASESSDSESEILKPDYYALYGKEIRSPMARIRLSSGSLQLDEEDEDAYFNTPTAEDRTSLKPCNYFLA",
+        "full_sequence": "MLHLKVQFLDDSQKIFVVDQKSSGKALFNLSCSHLNLAEKEYFGLEFCSHSGNNVWLELLKPITKQVKNPKEIVFKFMVKFFPVDPGHLREELTRYLFTLQIKKDLALGRLPCSDNCTALMVSHILQSELGDFHEETDRKHLAQTRYLPNQDCLEGKIMHFHQKHIGRSPAESDILLLDIARKLDMYGIRPHPASDGEGMQIHLAVAHMGVLVLRGNTKINTFNWAKIRKLSFKRKHFLIKLHANILVLCKDTLEFTMASRDACKAFWKTCVEYHAFFRLSEEPKSKPKTLLCSKGSSFRYSGRTQRQLLEYGRKGRLKSLPFERKHYPSQYHERQCRSSPDLLSDVSKQVEDLRLAYGGGYYQNVNGVHASEPVLESRRRNSALEVTFATELEHSKPEADPTLLHQSQSSSSFPFIYMDPVFNTEPNPNPDPRDIFSERSSLSSFQTSCKFSGNHMSIYSGLTSKVRPAKQLTYTDVPYIPCTGQQVGIMPPQVFFYVDKPPQVPRWSPIRAEERTSPHSYVEPTAMKPAERSPRNIRMKSFQQDLQVLQEAIARTSGRSNINVGLEEEDPNLEDAFVCNIQEQTPKRSQSQSDMKTIRFPFGSEFRPLGPCPALSHKADLFTDMFAEQELPAVLMDQSTAERYVASESSDSESEILKPDYYALYGKEIRSPMARIRLSSGSLQLDEEDEDAYFNTPTAEDRTSLKPCNYFLA",
+        "n_residues": 714,
+        "mutation_pos_1indexed": 153,
+        "wt_aa": "C",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "N150-Q151-D152-C153-L154",
+        "pocket_lining_positions_precursor": [
+          150,
+          151,
+          152,
+          153,
+          154
+        ],
+        "pocket_lining_1letter": "NQDCL",
+        "sequence_slice_around_pocket": "AQTRYLPNQDCLEGKIMHFH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FRMD7_C153Y/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "N150",
+          "Q151",
+          "D152",
+          "C153",
+          "L154"
+        ],
+        "values": [
+          [
+            0.0,
+            3.858,
+            5.796,
+            5.992,
+            7.175
+          ],
+          [
+            3.858,
+            0.0,
+            3.872,
+            5.478,
+            5.199
+          ],
+          [
+            5.796,
+            3.872,
+            0.0,
+            3.858,
+            5.504
+          ],
+          [
+            5.992,
+            5.478,
+            3.858,
+            0.0,
+            3.866
+          ],
+          [
+            7.175,
+            5.199,
+            5.504,
+            3.866,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "composite_score": 0.7266451336312608,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.89,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FRMD7-C153Y Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.7266,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FRMD7_C153Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FRMD7_C153Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FRMD7_C153Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FRMD7_C153Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FRMD7_C153Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FRMD7-C153Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FRMD7-C153Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:44:47.987537+00:00"
     }
   ]
 }
