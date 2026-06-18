@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2459,
+  "total_entries": 2460,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47222,
-    "queue_remaining": 131375
+    "total_processed": 47223,
+    "queue_remaining": 131374
   },
   "entries": [
     {
@@ -574756,6 +574756,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:46:24.867468+00:00"
+    },
+    {
+      "entry_id": "PCD-SOX10-R106G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SOX10-R106G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SOX10",
+        "uniprot": "",
+        "clinvar_id": "374266",
+        "disease": "Waardenburg syndrome type 2E",
+        "mutation_precursor": "R106G",
+        "mutation_mature": "R106G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8867961284717737,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 616.5490249805916,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.24599289894104004,
+          16.144227981567383,
+          -7.021317481994629
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.9746547639189105,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7951400799848195,
+        "cryptic": true,
+        "pocket_residues": {
+          "H103": "H",
+          "V104": "V",
+          "K105": "K",
+          "R106": "R",
+          "P107": "P"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P56693|SOX10 variant R106G",
+        "fasta_sequence": "MAEEQDLSEVELSPVGSEEPRCLSPGSAPSLGPDGGGGGSGLRASPGPGELGKVKKEQQDGEADDDKFPVCIREAVSQVLSGYDWTLVPMPVRVNGASKSKPHVKRPMNAFMVWAQAARRKLADQYPHLHNAELSKTLGKLWRLLNESDKRPFIEEAERLRMQHKKDHPDYKYQPRRRKNGKAAQGEAECPGGEAEQGGTAAIQAHYKSAHLDHRHPGEGSPMSDGNPEHPSGQSHGPPTPPTTPKTELQSGKADPKRDGRSMGEGGKPHIDFGNVDIGEISHEVMSNMETFDVAELDQYLPPNGHPGHVSSYSAAGYGLGSALAVASGHSAWISKPPGVALPTVSPPGVDAKAQVKTETAGPQGPPHYTDQPSTSQIAYTSLSLPHYGSAFPSISRPQFDYSDHQPSGPYYGHSGQASGLYSAFSYMGPSQRPLYTAISDPSPSGPQSHSPTHWEQPVYTTLSRP",
+        "full_sequence": "MAEEQDLSEVELSPVGSEEPRCLSPGSAPSLGPDGGGGGSGLRASPGPGELGKVKKEQQDGEADDDKFPVCIREAVSQVLSGYDWTLVPMPVRVNGASKSKPHVKRPMNAFMVWAQAARRKLADQYPHLHNAELSKTLGKLWRLLNESDKRPFIEEAERLRMQHKKDHPDYKYQPRRRKNGKAAQGEAECPGGEAEQGGTAAIQAHYKSAHLDHRHPGEGSPMSDGNPEHPSGQSHGPPTPPTTPKTELQSGKADPKRDGRSMGEGGKPHIDFGNVDIGEISHEVMSNMETFDVAELDQYLPPNGHPGHVSSYSAAGYGLGSALAVASGHSAWISKPPGVALPTVSPPGVDAKAQVKTETAGPQGPPHYTDQPSTSQIAYTSLSLPHYGSAFPSISRPQFDYSDHQPSGPYYGHSGQASGLYSAFSYMGPSQRPLYTAISDPSPSGPQSHSPTHWEQPVYTTLSRP",
+        "n_residues": 466,
+        "mutation_pos_1indexed": 106,
+        "wt_aa": "R",
+        "mut_aa": "G",
+        "pocket_lining_residues": "H103-V104-K105-R106-P107",
+        "pocket_lining_positions_precursor": [
+          103,
+          104,
+          105,
+          106,
+          107
+        ],
+        "pocket_lining_1letter": "HVKRP",
+        "sequence_slice_around_pocket": "GASKSKPHVKRPMNAFMVWA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SOX10_R106G/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "H103",
+          "V104",
+          "K105",
+          "R106",
+          "P107"
+        ],
+        "values": [
+          [
+            0.0,
+            3.81,
+            6.079,
+            9.47,
+            12.408
+          ],
+          [
+            3.81,
+            0.0,
+            3.843,
+            6.626,
+            9.11
+          ],
+          [
+            6.079,
+            3.843,
+            0.0,
+            3.851,
+            6.598
+          ],
+          [
+            9.47,
+            6.626,
+            3.851,
+            0.0,
+            3.856
+          ],
+          [
+            12.408,
+            9.11,
+            6.598,
+            3.856,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1CCOc1ccc(CN)cc1",
+        "composite_score": 0.5357027339283914,
+        "mw": 328.18,
+        "logp": 2.064,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 8,
+        "qed": 0.7778,
+        "sa_score": 2.08,
+        "n_heavy_atoms": 24,
+        "tpsa": 73.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SOX10-R106G Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1CCOc1ccc(CN)cc1",
+        "pocket_affinity_score": 0.5357,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SOX10_R106G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SOX10_R106G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SOX10_R106G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SOX10_R106G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SOX10_R106G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SOX10-R106G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SOX10-R106G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:46:52.426028+00:00"
     }
   ]
 }
