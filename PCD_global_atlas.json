@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2074,
+  "total_entries": 2075,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46782,
-    "queue_remaining": 131815
+    "total_processed": 46784,
+    "queue_remaining": 131813
   },
   "entries": [
     {
@@ -474190,6 +474190,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:21:20.523198+00:00"
+    },
+    {
+      "entry_id": "PCD-SHOC2-M173V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SHOC2-M173V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SHOC2",
+        "uniprot": "",
+        "clinvar_id": "373090",
+        "disease": "not provided",
+        "mutation_precursor": "M173V",
+        "mutation_mature": "M173V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9094272459887732,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 640.5088024196925,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -22.187789916992188,
+          2.7935447692871094,
+          22.07282257080078
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.5388946891076065,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8763304180871094,
+        "cryptic": true,
+        "pocket_residues": {
+          "L151": "L",
+          "M173": "M",
+          "L174": "L",
+          "D175": "D",
+          "L176": "L",
+          "V188": "V",
+          "L194": "L",
+          "T196": "T",
+          "L197": "L",
+          "Y198": "Y",
+          "L199": "L"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UQ13|SHOC2 variant M173V",
+        "fasta_sequence": "MSSSLGKEKDSKEKDPKVPSAKEREKEAKASGGFGKESKEKEPKTKGKDAKDGKKDSSAAQPGVAFSVDNTIKRPNPAPGTRKKSSNAEVIKELNKCREENSMRLDLSKRSIHILPSSIKELTQLTELYLYSNKLQSLPAEVGCLVNLMTLALSENSLTSLPDSLDNLKKLRMLDLRHNKLREIPSVVYRLDSLTTLYLRFNRITTVEKDIKNLSKLSMLSIRENKIKQLPAEIGELCNLITLDVAHNQLEHLPKEIGNCTQITNLDLQHNELLDLPDTIGNLSSLSRLGLRYNRLSAIPRSLAKCSALEELNLENNNISTLPESLLSSLVKLNSLTLARNCFQLYPVGGPSQFSTIYSLNMEHNRINKIPFGIFSRAKVLSKLNMKDNQLTSLPLDFGTWTSMVELNLATNQLTKIPEDVSGLVSLEVLILSNNLLKKLPHGLGNLRKLRELDLEENKLESLPNEIAYLKDLQKLVLTNNQLTTLPRGIGHLTNLTHLGLGENLLTHLPEEIGTLENLEELYLNDNPNLHSLPFELALCSKLSIMSIENCPLSHLPPQIVAGGPSFIIQFLKMQGPYRAMV",
+        "full_sequence": "MSSSLGKEKDSKEKDPKVPSAKEREKEAKASGGFGKESKEKEPKTKGKDAKDGKKDSSAAQPGVAFSVDNTIKRPNPAPGTRKKSSNAEVIKELNKCREENSMRLDLSKRSIHILPSSIKELTQLTELYLYSNKLQSLPAEVGCLVNLMTLALSENSLTSLPDSLDNLKKLRMLDLRHNKLREIPSVVYRLDSLTTLYLRFNRITTVEKDIKNLSKLSMLSIRENKIKQLPAEIGELCNLITLDVAHNQLEHLPKEIGNCTQITNLDLQHNELLDLPDTIGNLSSLSRLGLRYNRLSAIPRSLAKCSALEELNLENNNISTLPESLLSSLVKLNSLTLARNCFQLYPVGGPSQFSTIYSLNMEHNRINKIPFGIFSRAKVLSKLNMKDNQLTSLPLDFGTWTSMVELNLATNQLTKIPEDVSGLVSLEVLILSNNLLKKLPHGLGNLRKLRELDLEENKLESLPNEIAYLKDLQKLVLTNNQLTTLPRGIGHLTNLTHLGLGENLLTHLPEEIGTLENLEELYLNDNPNLHSLPFELALCSKLSIMSIENCPLSHLPPQIVAGGPSFIIQFLKMQGPYRAMV",
+        "n_residues": 582,
+        "mutation_pos_1indexed": 173,
+        "wt_aa": "M",
+        "mut_aa": "V",
+        "pocket_lining_residues": "L151-M173-L174-D175-L176-V188-L194-T196-L197-Y198-L199",
+        "pocket_lining_positions_precursor": [
+          151,
+          173,
+          174,
+          175,
+          176,
+          188,
+          194,
+          196,
+          197,
+          198,
+          199
+        ],
+        "pocket_lining_1letter": "LMLDLVLTLYL",
+        "sequence_slice_around_pocket": "DSLDNLKKLRMLDLRHNKLR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SHOC2_M173V/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "L151",
+          "M173",
+          "L174",
+          "D175",
+          "L176",
+          "V188",
+          "L194",
+          "T196",
+          "L197",
+          "Y198",
+          "L199"
+        ],
+        "values": [
+          [
+            0.0,
+            6.218,
+            5.075,
+            6.343,
+            8.722,
+            12.062,
+            10.729,
+            10.513,
+            10.137,
+            10.656,
+            12.673
+          ],
+          [
+            6.218,
+            0.0,
+            3.823,
+            6.538,
+            9.937,
+            11.174,
+            5.947,
+            4.695,
+            6.096,
+            8.216,
+            11.445
+          ],
+          [
+            5.075,
+            3.823,
+            0.0,
+            3.828,
+            6.462,
+            8.843,
+            7.376,
+            6.356,
+            5.14,
+            6.398,
+            8.72
+          ],
+          [
+            6.343,
+            6.538,
+            3.828,
+            0.0,
+            3.845,
+            11.16,
+            10.816,
+            8.029,
+            6.072,
+            4.723,
+            6.708
+          ],
+          [
+            8.722,
+            9.937,
+            6.462,
+            3.845,
+            0.0,
+            10.62,
+            13.08,
+            10.866,
+            7.815,
+            5.687,
+            5.052
+          ],
+          [
+            12.062,
+            11.174,
+            8.843,
+            11.16,
+            10.62,
+            0.0,
+            8.841,
+            11.499,
+            9.132,
+            11.274,
+            11.054
+          ],
+          [
+            10.729,
+            5.947,
+            7.376,
+            10.816,
+            13.08,
+            8.841,
+            0.0,
+            5.724,
+            7.03,
+            10.737,
+            13.229
+          ],
+          [
+            10.513,
+            4.695,
+            6.356,
+            8.029,
+            10.866,
+            11.499,
+            5.724,
+            0.0,
+            3.834,
+            6.707,
+            10.148
+          ],
+          [
+            10.137,
+            6.096,
+            5.14,
+            6.072,
+            7.815,
+            9.132,
+            7.03,
+            3.834,
+            0.0,
+            3.831,
+            6.595
+          ],
+          [
+            10.656,
+            8.216,
+            6.398,
+            4.723,
+            5.687,
+            11.274,
+            10.737,
+            6.707,
+            3.831,
+            0.0,
+            3.851
+          ],
+          [
+            12.673,
+            11.445,
+            8.72,
+            6.708,
+            5.052,
+            11.054,
+            13.229,
+            10.148,
+            6.595,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)c1ccc(OC)c(C(OC)C(=O)Nc2ccncc2N2CCCC(=O)C2)c1",
+        "composite_score": 0.8790545558154395,
+        "mw": 440.21,
+        "logp": 1.988,
+        "hbd": 2,
+        "hba": 8,
+        "rotatable_bonds": 9,
+        "qed": 0.57,
+        "sa_score": 3.29,
+        "n_heavy_atoms": 32,
+        "tpsa": 109.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SHOC2-M173V Candidate #1",
+        "iupac_name": "CNCC(=O)c1ccc(OC)c(C(OC)C(=O)Nc2ccncc2N2CCCC(=O)C2)c1",
+        "pocket_affinity_score": 0.8791,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SHOC2_M173V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SHOC2_M173V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SHOC2_M173V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SHOC2_M173V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SHOC2_M173V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SHOC2-M173V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SHOC2-M173V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:22:03.316048+00:00"
     }
   ]
 }
