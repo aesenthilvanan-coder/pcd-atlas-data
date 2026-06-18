@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2345,
+  "total_entries": 2346,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47085,
-    "queue_remaining": 131512
+    "total_processed": 47086,
+    "queue_remaining": 131511
   },
   "entries": [
     {
@@ -544443,6 +544443,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T12:02:27.927497+00:00"
+    },
+    {
+      "entry_id": "PCD-ABCA4-C230S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABCA4-C230S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ABCA4",
+        "uniprot": "",
+        "clinvar_id": "373916",
+        "disease": "Macular degeneration;Retinal atrophy;Central scotoma;Visual impairment",
+        "mutation_precursor": "C230S",
+        "mutation_mature": "C230S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7537002518094605,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 297.93205904058397,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          59.75023651123047,
+          -39.90079116821289,
+          -114.01921081542969
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.4458703367038086,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7145940285929722,
+        "cryptic": true,
+        "pocket_residues": {
+          "K201": "K",
+          "A204": "A",
+          "C205": "C",
+          "R226": "R",
+          "Y227": "Y",
+          "A228": "A",
+          "L229": "L",
+          "C230": "C",
+          "S231": "S",
+          "L232": "L",
+          "S233": "S"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P78363|ABCA4 variant C230S",
+        "fasta_sequence": "MGFVRQIQLLLWKNWTLRKRQKIRFVVELVWPLSLFLVLIWLRNANPLYSHHECHFPNKAMPSAGMLPWLQGIFCNVNNPCFQSPTPGESPGIVSNYNNSILARVYRDFQELLMNAPESQHLGRIWTELHILSQFMDTLRTHPERIAGRGIRIRDILKDEETLTLFLIKNIGLSDSVVYLLINSQVRPEQFAHGVPDLALKDIACSEALLERFIIFSQRRGAKTVRYALCSLSQGTLQWIEDTLYANVDFFKLFRVLPTLLDSRSQGINLRSWGGILSDMSPRIQEFIHRPSMQDLLWVTRPLMQNGGPETFTKLMGILSDLLCGYPEGGGSRVLSFNWYEDNNYKAFLGIDSTRKDPIYSYDRRTTSFCNALIQSLESNPLTKIAWRAAKPLLMGKILYTPDSPAARRILKNANSTFEELEHVRKLVKAWEEVGPQIWYFFDNSTQMNMIRDTLGNPTVKDFLNRQLGEEGITAEAILNFLYKGPRESQADDMANFDWRDIFNITDRTLRLVNQYLECLVLDKFESYNDETQLTQRALSLLEENMFWAGVVFPDMYPWTSSLPPHVKYKIRMDIDVVEKTNKIKDRYWDSGPRADPVEDFRYIWGGFAYLQDMVEQGITRSQVQAEAPVGIYLQQMPYPCFVDDSFMIILNRCFPIFMVLAWIYSVSMTVKSIVLEKELRLKETLKNQGVSNAVIWCTWFLDSFSIMSMSIFLLTIFIMHGRILHYSDPFILFLFLLAFSTATIMLCFLLSTFFSKASLAAACSGVIYFTLYLPHILCFAWQDRMTAELKKAVSLLSPVAFGFGTEYLVRFEEQGLGLQWSNIGNSPTEGDEFSFLLSMQMMLLDAAVYGLLAWYLDQVFPGDYGTPLPWYFLLQESYWLGGEGCSTREERALEKTEPLTEETEDPEHPEGIHDSFFEREHPGWVPGVCVKNLVKIFEPCGRPAVDRLNITFYENQITAFLGHNGAGKTTTLSILTGLLPPTSGTVLVGGRDIETSLDAVRQSLGMCPQHNILFHHLTVAEHMLFYAQLKGKSQEEAQLEMEAMLEDTGLHHKRNEEAQDLSGGMQRKLSVAIAFVGDAKVVILDEPTSGVDPYSRRSIWDLLLKYRSGRTIIMSTHHMDEADLLGDRIAIIAQGRLYCSGTPLFLKNCFGTGLYLTLVRKMKNIQSQRKGSEGTCSCSSKGFSTTCPAHVDDLTPEQVLDGDVNELMDVVLHHVPEAKLVECIGQELIFLLPNKNFKHRAYASLFRELEETLADLGLSSFGISDTPLEEIFLKVTEDSDSGPLFAGGAQQKRENVNPRHPCLGPREKAGQTPQDSNVCSPGAPAAHPEGQPPPEPECPGPQLNTGTQLVLQHVQALLVKRFQHTIRSHKDFLAQIVLPATFVFLALMLSIVIPPFGEYPALTLHPWIYGQQYTFFSMDEPGSEQFTVLADVLLNKPGFGNRCLKEGWLPEYPCGNSTPWKTPSVSPNITQLFQKQKWTQVNPSPSCRCSTREKLTMLPECPEGAGGLPPPQRTQRSTEILQDLTDRNISDFLVKTYPALIRSSLKSKFWVNEQRYGGISIGGKLPVVPITGEALVGFLSDLGRIMNVSGGPITREASKEIPDFLKHLETEDNIKVWFNNKGWHALVSFLNVAHNAILRASLPKDRSPEEYGITVISQPLNLTKEQLSEITVLTTSVDAVVAICVIFSMSFVPASFVLYLIQERVNKSKHLQFISGVSPTTYWVTNFLWDIMNYSVSAGLVVGIFIGFQKKAYTSPENLPALVALLLLYGWAVIPMMYPASFLFDVPSTAYVALSCANLFIGINSSAITFILELFENNRTLLRFNAVLRKLLIVFPHFCLGRGLIDLALSQAVTDVYARFGEEHSANPFHWDLIGKNLFAMVVEGVVYFLLTLLVQRHFFLSQWIAEPTKEPIVDEDDDVAEERQRIITGGNKTDILRLHELTKIYPGTSSPAVDRLCVGVRPGECFGLLGVNGAGKTTTFKMLTGDTTVTSGDATVAGKSILTNISEVHQNMGYCPQFDAIDELLTGREHLYLYARLRGVPAEEIEKVANWSIKSLGLTVYADCLAGTYSGGNKRKLSTAIALIGCPPLVLLDEPTTGMDPQARRMLWNVIVSIIREGRAVVLTSHSMEECEALCTRLAIMVKGAFRCMGTIQHLKSKFGDGYIVTMKIKSPKDDLLPDLNPVEQFFQGNFPGSVQRERHYNMLQFQVSSSSLARIFQLLLSHKDSLLIEEYSVTQTTLDQVFVNFAKQQTESHDLPLHPRAAGASRQAQD",
+        "full_sequence": "MGFVRQIQLLLWKNWTLRKRQKIRFVVELVWPLSLFLVLIWLRNANPLYSHHECHFPNKAMPSAGMLPWLQGIFCNVNNPCFQSPTPGESPGIVSNYNNSILARVYRDFQELLMNAPESQHLGRIWTELHILSQFMDTLRTHPERIAGRGIRIRDILKDEETLTLFLIKNIGLSDSVVYLLINSQVRPEQFAHGVPDLALKDIACSEALLERFIIFSQRRGAKTVRYALCSLSQGTLQWIEDTLYANVDFFKLFRVLPTLLDSRSQGINLRSWGGILSDMSPRIQEFIHRPSMQDLLWVTRPLMQNGGPETFTKLMGILSDLLCGYPEGGGSRVLSFNWYEDNNYKAFLGIDSTRKDPIYSYDRRTTSFCNALIQSLESNPLTKIAWRAAKPLLMGKILYTPDSPAARRILKNANSTFEELEHVRKLVKAWEEVGPQIWYFFDNSTQMNMIRDTLGNPTVKDFLNRQLGEEGITAEAILNFLYKGPRESQADDMANFDWRDIFNITDRTLRLVNQYLECLVLDKFESYNDETQLTQRALSLLEENMFWAGVVFPDMYPWTSSLPPHVKYKIRMDIDVVEKTNKIKDRYWDSGPRADPVEDFRYIWGGFAYLQDMVEQGITRSQVQAEAPVGIYLQQMPYPCFVDDSFMIILNRCFPIFMVLAWIYSVSMTVKSIVLEKELRLKETLKNQGVSNAVIWCTWFLDSFSIMSMSIFLLTIFIMHGRILHYSDPFILFLFLLAFSTATIMLCFLLSTFFSKASLAAACSGVIYFTLYLPHILCFAWQDRMTAELKKAVSLLSPVAFGFGTEYLVRFEEQGLGLQWSNIGNSPTEGDEFSFLLSMQMMLLDAAVYGLLAWYLDQVFPGDYGTPLPWYFLLQESYWLGGEGCSTREERALEKTEPLTEETEDPEHPEGIHDSFFEREHPGWVPGVCVKNLVKIFEPCGRPAVDRLNITFYENQITAFLGHNGAGKTTTLSILTGLLPPTSGTVLVGGRDIETSLDAVRQSLGMCPQHNILFHHLTVAEHMLFYAQLKGKSQEEAQLEMEAMLEDTGLHHKRNEEAQDLSGGMQRKLSVAIAFVGDAKVVILDEPTSGVDPYSRRSIWDLLLKYRSGRTIIMSTHHMDEADLLGDRIAIIAQGRLYCSGTPLFLKNCFGTGLYLTLVRKMKNIQSQRKGSEGTCSCSSKGFSTTCPAHVDDLTPEQVLDGDVNELMDVVLHHVPEAKLVECIGQELIFLLPNKNFKHRAYASLFRELEETLADLGLSSFGISDTPLEEIFLKVTEDSDSGPLFAGGAQQKRENVNPRHPCLGPREKAGQTPQDSNVCSPGAPAAHPEGQPPPEPECPGPQLNTGTQLVLQHVQALLVKRFQHTIRSHKDFLAQIVLPATFVFLALMLSIVIPPFGEYPALTLHPWIYGQQYTFFSMDEPGSEQFTVLADVLLNKPGFGNRCLKEGWLPEYPCGNSTPWKTPSVSPNITQLFQKQKWTQVNPSPSCRCSTREKLTMLPECPEGAGGLPPPQRTQRSTEILQDLTDRNISDFLVKTYPALIRSSLKSKFWVNEQRYGGISIGGKLPVVPITGEALVGFLSDLGRIMNVSGGPITREASKEIPDFLKHLETEDNIKVWFNNKGWHALVSFLNVAHNAILRASLPKDRSPEEYGITVISQPLNLTKEQLSEITVLTTSVDAVVAICVIFSMSFVPASFVLYLIQERVNKSKHLQFISGVSPTTYWVTNFLWDIMNYSVSAGLVVGIFIGFQKKAYTSPENLPALVALLLLYGWAVIPMMYPASFLFDVPSTAYVALSCANLFIGINSSAITFILELFENNRTLLRFNAVLRKLLIVFPHFCLGRGLIDLALSQAVTDVYARFGEEHSANPFHWDLIGKNLFAMVVEGVVYFLLTLLVQRHFFLSQWIAEPTKEPIVDEDDDVAEERQRIITGGNKTDILRLHELTKIYPGTSSPAVDRLCVGVRPGECFGLLGVNGAGKTTTFKMLTGDTTVTSGDATVAGKSILTNISEVHQNMGYCPQFDAIDELLTGREHLYLYARLRGVPAEEIEKVANWSIKSLGLTVYADCLAGTYSGGNKRKLSTAIALIGCPPLVLLDEPTTGMDPQARRMLWNVIVSIIREGRAVVLTSHSMEECEALCTRLAIMVKGAFRCMGTIQHLKSKFGDGYIVTMKIKSPKDDLLPDLNPVEQFFQGNFPGSVQRERHYNMLQFQVSSSSLARIFQLLLSHKDSLLIEEYSVTQTTLDQVFVNFAKQQTESHDLPLHPRAAGASRQAQD",
+        "n_residues": 2273,
+        "mutation_pos_1indexed": 230,
+        "wt_aa": "C",
+        "mut_aa": "S",
+        "pocket_lining_residues": "K201-A204-C205-R226-Y227-A228-L229-C230-S231-L232-S233",
+        "pocket_lining_positions_precursor": [
+          201,
+          204,
+          205,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233
+        ],
+        "pocket_lining_1letter": "KACRYALCSLS",
+        "sequence_slice_around_pocket": "RGAKTVRYALCSLSQGTLQW"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ABCA4_C230S/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "K201",
+          "A204",
+          "C205",
+          "R226",
+          "Y227",
+          "A228",
+          "L229",
+          "C230",
+          "S231",
+          "L232",
+          "S233"
+        ],
+        "values": [
+          [
+            0.0,
+            4.908,
+            5.947,
+            9.674,
+            11.311,
+            11.144,
+            7.56,
+            6.48,
+            9.303,
+            8.139,
+            8.102
+          ],
+          [
+            4.908,
+            0.0,
+            3.869,
+            5.567,
+            8.43,
+            8.91,
+            5.9,
+            5.689,
+            9.405,
+            9.527,
+            11.25
+          ],
+          [
+            5.947,
+            3.869,
+            0.0,
+            5.754,
+            7.431,
+            9.235,
+            7.169,
+            4.705,
+            8.394,
+            9.744,
+            11.345
+          ],
+          [
+            9.674,
+            5.567,
+            5.754,
+            0.0,
+            3.844,
+            5.52,
+            5.325,
+            5.621,
+            8.318,
+            10.113,
+            13.191
+          ],
+          [
+            11.311,
+            8.43,
+            7.431,
+            3.844,
+            0.0,
+            3.834,
+            5.779,
+            5.312,
+            6.221,
+            9.12,
+            12.523
+          ],
+          [
+            11.144,
+            8.91,
+            9.235,
+            5.52,
+            3.834,
+            0.0,
+            3.856,
+            5.666,
+            5.459,
+            7.093,
+            10.877
+          ],
+          [
+            7.56,
+            5.9,
+            7.169,
+            5.325,
+            5.779,
+            3.856,
+            0.0,
+            3.851,
+            5.38,
+            5.379,
+            8.637
+          ],
+          [
+            6.48,
+            5.689,
+            4.705,
+            5.621,
+            5.312,
+            5.666,
+            3.851,
+            0.0,
+            3.854,
+            5.452,
+            7.988
+          ],
+          [
+            9.303,
+            9.405,
+            8.394,
+            8.318,
+            6.221,
+            5.459,
+            5.38,
+            3.854,
+            0.0,
+            3.865,
+            6.877
+          ],
+          [
+            8.139,
+            9.527,
+            9.744,
+            10.113,
+            9.12,
+            7.093,
+            5.379,
+            5.452,
+            3.865,
+            0.0,
+            3.829
+          ],
+          [
+            8.102,
+            11.25,
+            11.345,
+            13.191,
+            12.523,
+            10.877,
+            8.637,
+            7.988,
+            6.877,
+            3.829,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6517690807403295,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ABCA4-C230S Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6518,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ABCA4_C230S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ABCA4_C230S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ABCA4_C230S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ABCA4_C230S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ABCA4_C230S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABCA4-C230S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABCA4-C230S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T12:04:30.906250+00:00"
     }
   ]
 }
