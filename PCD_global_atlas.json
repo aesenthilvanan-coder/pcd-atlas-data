@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2312,
+  "total_entries": 2313,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47049,
-    "queue_remaining": 131548
+    "total_processed": 47050,
+    "queue_remaining": 131547
   },
   "entries": [
     {
@@ -534626,6 +534626,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:30:20.815545+00:00"
+    },
+    {
+      "entry_id": "PCD-EDA-R276L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EDA-R276L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "EDA",
+        "uniprot": "",
+        "clinvar_id": "372359",
+        "disease": "not provided",
+        "mutation_precursor": "R276L",
+        "mutation_mature": "R276L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7571894726329519,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 298.39884244130087,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -15.87940788269043,
+          -7.439912796020508,
+          -3.499473810195923
+        ],
+        "dist_mutation_to_pocket_angstrom": 0.8674010746662337,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8706263881010411,
+        "cryptic": true,
+        "pocket_residues": {
+          "V251": "V",
+          "H252": "H",
+          "L253": "L",
+          "Q254": "Q",
+          "W274": "W",
+          "S275": "S",
+          "R276": "R",
+          "I277": "I",
+          "T278": "T",
+          "M279": "M"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q92838|EDA variant R276L",
+        "fasta_sequence": "MGYPEVERRELLPAAAPRERGSQGCGCGGAPARAGEGNSCLLFLGFFGLSLALHLLTLCCYLELRSELRRERGAESRLGGSGTPGTSGTLSSLGGLDPDSPITSHLGQPSPKQQPLEPGEAALHSDSQDGHQMALLNFFFPDEKPYSEEESRRVRRNKRSKSNEGADGPVKNKKKGKKAGPPGPNGPPGPPGPPGPQGPPGIPGIPGIPGTTVMGPPGPPGPPGPQGPPGLQGPSGAADKAGTRENQPAVVHLQGQGSAIQVKNDLSGGVLNDWSRITMNPKVFKLHPRSGELEVLVDGTYFIYSQVEVYYINFTDFASYEVVVDEKPFLQCTRSIETGKTNYNTCYTAGVCLLKARQKIAVKMVHADISINMSKHTTFFGAIRLGEAPAS",
+        "full_sequence": "MGYPEVERRELLPAAAPRERGSQGCGCGGAPARAGEGNSCLLFLGFFGLSLALHLLTLCCYLELRSELRRERGAESRLGGSGTPGTSGTLSSLGGLDPDSPITSHLGQPSPKQQPLEPGEAALHSDSQDGHQMALLNFFFPDEKPYSEEESRRVRRNKRSKSNEGADGPVKNKKKGKKAGPPGPNGPPGPPGPPGPQGPPGIPGIPGIPGTTVMGPPGPPGPPGPQGPPGLQGPSGAADKAGTRENQPAVVHLQGQGSAIQVKNDLSGGVLNDWSRITMNPKVFKLHPRSGELEVLVDGTYFIYSQVEVYYINFTDFASYEVVVDEKPFLQCTRSIETGKTNYNTCYTAGVCLLKARQKIAVKMVHADISINMSKHTTFFGAIRLGEAPAS",
+        "n_residues": 391,
+        "mutation_pos_1indexed": 276,
+        "wt_aa": "R",
+        "mut_aa": "L",
+        "pocket_lining_residues": "V251-H252-L253-Q254-W274-S275-R276-I277-T278-M279",
+        "pocket_lining_positions_precursor": [
+          251,
+          252,
+          253,
+          254,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279
+        ],
+        "pocket_lining_1letter": "VHLQWSRITM",
+        "sequence_slice_around_pocket": "LSGGVLNDWSRITMNPKVFK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/EDA_R276L/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "V251",
+          "H252",
+          "L253",
+          "Q254",
+          "W274",
+          "S275",
+          "R276",
+          "I277",
+          "T278",
+          "M279"
+        ],
+        "values": [
+          [
+            0.0,
+            3.823,
+            6.513,
+            10.06,
+            11.555,
+            10.852,
+            7.934,
+            8.477,
+            5.451,
+            4.165
+          ],
+          [
+            3.823,
+            0.0,
+            3.824,
+            6.669,
+            9.598,
+            8.779,
+            6.937,
+            7.028,
+            5.276,
+            6.355
+          ],
+          [
+            6.513,
+            3.824,
+            0.0,
+            3.836,
+            5.803,
+            5.527,
+            5.011,
+            6.573,
+            6.847,
+            7.763
+          ],
+          [
+            10.06,
+            6.669,
+            3.836,
+            0.0,
+            5.597,
+            5.115,
+            6.836,
+            7.524,
+            9.15,
+            11.061
+          ],
+          [
+            11.555,
+            9.598,
+            5.803,
+            5.597,
+            0.0,
+            3.824,
+            6.335,
+            9.304,
+            11.235,
+            11.615
+          ],
+          [
+            10.852,
+            8.779,
+            5.527,
+            5.115,
+            3.824,
+            0.0,
+            3.851,
+            5.997,
+            8.79,
+            9.997
+          ],
+          [
+            7.934,
+            6.937,
+            5.011,
+            6.836,
+            6.335,
+            3.851,
+            0.0,
+            3.855,
+            5.624,
+            6.26
+          ],
+          [
+            8.477,
+            7.028,
+            6.573,
+            7.524,
+            9.304,
+            5.997,
+            3.855,
+            0.0,
+            3.858,
+            6.645
+          ],
+          [
+            5.451,
+            5.276,
+            6.847,
+            9.15,
+            11.235,
+            8.79,
+            5.624,
+            3.858,
+            0.0,
+            3.849
+          ],
+          [
+            4.165,
+            6.355,
+            7.763,
+            11.061,
+            11.615,
+            9.997,
+            6.26,
+            6.645,
+            3.849,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6532795062058155,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "EDA-R276L Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6533,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/EDA_R276L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/EDA_R276L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/EDA_R276L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/EDA_R276L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/EDA_R276L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EDA-R276L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EDA-R276L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:30:47.458031+00:00"
     }
   ]
 }
