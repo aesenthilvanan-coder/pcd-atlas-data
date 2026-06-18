@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1831,
+  "total_entries": 1832,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46507,
-    "queue_remaining": 132090
+    "total_processed": 46508,
+    "queue_remaining": 132089
   },
   "entries": [
     {
@@ -412262,6 +412262,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:19:04.587446+00:00"
+    },
+    {
+      "entry_id": "PCD-CBS-R336H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBS-R336H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CBS",
+        "uniprot": "",
+        "clinvar_id": "371147",
+        "disease": "Classic homocystinuria",
+        "mutation_precursor": "R336H",
+        "mutation_mature": "R336H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8572160515375833,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 462.49252641248097,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.155831336975098,
+          3.368673801422119,
+          8.762299537658691
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.507025028417588,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8315661120609649,
+        "cryptic": true,
+        "pocket_residues": {
+          "T333": "T",
+          "F334": "F",
+          "A335": "A",
+          "R336": "R",
+          "M337": "M",
+          "L338": "L",
+          "I339": "I",
+          "A340": "A",
+          "L386": "L"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P35520|CBS variant R336H",
+        "fasta_sequence": "MPSETPQAEVGPTGCPHRSGPHSAKGSLEKGSPEDKEAKEPLWIRPDAPSRCTWQLGRPASESPHHHTAPAKSPKILPDILKKIGDTPMVRINKIGKKFGLKCELLAKCEFFNAGGSVKDRISLRMIEDAERDGTLKPGDTIIEPTSGNTGIGLALAAAVRGYRCIIVMPEKMSSEKVDVLRALGAEIVRTPTNARFDSPESHVGVAWRLKNEIPNSHILDQYRNASNPLAHYDTTADEILQQCDGKLDMLVASVGTGGTITGIARKLKEKCPGCRIIGVDPEGSILAEPEELNQTEQTTYEVEGIGYDFIPTVLDRTVVDKWFKSNDEEAFTFARMLIAQEGLLCGGSAGSTVAVAVKAAQELQEGQRCVVILPDSVRNYMTKFLSDRWMLQKGFLKEEDLTEKKPWWWHLRVQELGLSAPLTVLPTITCGHTIEILREKGFDQAPVVDEAGVILGMVTLGNMLSSLLAGKVQPSDQVGKVIYKQFKQIRLTDTLGRLSHILEMDHFALVVHEQIQYHSTGKSSQRQMVFGVVTAIDLLNFVAAQERDQK",
+        "full_sequence": "MPSETPQAEVGPTGCPHRSGPHSAKGSLEKGSPEDKEAKEPLWIRPDAPSRCTWQLGRPASESPHHHTAPAKSPKILPDILKKIGDTPMVRINKIGKKFGLKCELLAKCEFFNAGGSVKDRISLRMIEDAERDGTLKPGDTIIEPTSGNTGIGLALAAAVRGYRCIIVMPEKMSSEKVDVLRALGAEIVRTPTNARFDSPESHVGVAWRLKNEIPNSHILDQYRNASNPLAHYDTTADEILQQCDGKLDMLVASVGTGGTITGIARKLKEKCPGCRIIGVDPEGSILAEPEELNQTEQTTYEVEGIGYDFIPTVLDRTVVDKWFKSNDEEAFTFARMLIAQEGLLCGGSAGSTVAVAVKAAQELQEGQRCVVILPDSVRNYMTKFLSDRWMLQKGFLKEEDLTEKKPWWWHLRVQELGLSAPLTVLPTITCGHTIEILREKGFDQAPVVDEAGVILGMVTLGNMLSSLLAGKVQPSDQVGKVIYKQFKQIRLTDTLGRLSHILEMDHFALVVHEQIQYHSTGKSSQRQMVFGVVTAIDLLNFVAAQERDQK",
+        "n_residues": 551,
+        "mutation_pos_1indexed": 336,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "T333-F334-A335-R336-M337-L338-I339-A340-L386",
+        "pocket_lining_positions_precursor": [
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          386
+        ],
+        "pocket_lining_1letter": "TFARMLIAL",
+        "sequence_slice_around_pocket": "SNDEEAFTFARMLIAQEGLL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CBS_R336H/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "T333",
+          "F334",
+          "A335",
+          "R336",
+          "M337",
+          "L338",
+          "I339",
+          "A340",
+          "L386"
+        ],
+        "values": [
+          [
+            0.0,
+            3.846,
+            5.596,
+            5.348,
+            6.142,
+            8.811,
+            10.148,
+            10.478,
+            10.107
+          ],
+          [
+            3.846,
+            0.0,
+            3.855,
+            5.395,
+            4.688,
+            6.068,
+            8.615,
+            9.608,
+            11.583
+          ],
+          [
+            5.596,
+            3.855,
+            0.0,
+            3.856,
+            5.386,
+            5.187,
+            6.52,
+            8.806,
+            8.808
+          ],
+          [
+            5.348,
+            5.395,
+            3.856,
+            0.0,
+            3.843,
+            5.509,
+            5.152,
+            6.107,
+            7.118
+          ],
+          [
+            6.142,
+            4.688,
+            5.386,
+            3.843,
+            0.0,
+            3.872,
+            5.401,
+            5.088,
+            10.895
+          ],
+          [
+            8.811,
+            6.068,
+            5.187,
+            5.509,
+            3.872,
+            0.0,
+            3.838,
+            5.718,
+            11.692
+          ],
+          [
+            10.148,
+            8.615,
+            6.52,
+            5.152,
+            5.401,
+            3.838,
+            0.0,
+            3.838,
+            9.517
+          ],
+          [
+            10.478,
+            9.608,
+            8.806,
+            6.107,
+            5.088,
+            5.718,
+            3.838,
+            0.0,
+            10.929
+          ],
+          [
+            10.107,
+            11.583,
+            8.808,
+            7.118,
+            10.895,
+            11.692,
+            9.517,
+            10.929,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6590898124977022,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CBS-R336H Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6591,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CBS_R336H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CBS_R336H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CBS_R336H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CBS_R336H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CBS_R336H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBS-R336H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBS-R336H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:19:30.491662+00:00"
     }
   ]
 }
