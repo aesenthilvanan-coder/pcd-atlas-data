@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2183,
+  "total_entries": 2184,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46906,
-    "queue_remaining": 131691
+    "total_processed": 46908,
+    "queue_remaining": 131689
   },
   "entries": [
     {
@@ -501945,6 +501945,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T08:51:27.380673+00:00"
+    },
+    {
+      "entry_id": "PCD-IVD-M1L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IVD-M1L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "IVD",
+        "uniprot": "",
+        "clinvar_id": "372664",
+        "disease": "not provided",
+        "mutation_precursor": "M1L",
+        "mutation_mature": "M1L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8230154272697611,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 538.8511694783243,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -29.91693687438965,
+          -46.013916015625,
+          78.30862426757812
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.232763964969396,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6038352223185904,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "A2": "A",
+          "E3": "E"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P26440|IVD variant M1L",
+        "fasta_sequence": "MAEMATATRLLGWRVASWRLRPPLAGFVSQRAHSLLPVDDAINGLSEEQRQLRQTMAKFLQEHLAPKAQEIDRSNEFKNLREFWKQLGNLGVLGITAPVQYGGSGLGYLEHVLVMEEISRASGAVGLSYGAHSNLCINQLVRNGNEAQKEKYLPKLISGEYIGALAMSEPNAGSDVVSMKLKAEKKGNHYILNGNKFWITNGPDADVLIVYAKTDLAAVPASRGITAFIVEKGMPGFSTSKKLDKLGMRGSNTCELIFEDCKIPAANILGHENKGVYVLMSGLDLERLVLAGGPLGLMQAVLDHTIPYLHVREAFGQKIGHFQLMQGKMADMYTRLMACRQYVYNVAKACDEGHCTAKDCAGVILYSAECATQVALDGIQCFGGNGYINDFPMGRFLRDAKLYEIGAGTSEVRRLVIGRAFNADFH",
+        "full_sequence": "MAEMATATRLLGWRVASWRLRPPLAGFVSQRAHSLLPVDDAINGLSEEQRQLRQTMAKFLQEHLAPKAQEIDRSNEFKNLREFWKQLGNLGVLGITAPVQYGGSGLGYLEHVLVMEEISRASGAVGLSYGAHSNLCINQLVRNGNEAQKEKYLPKLISGEYIGALAMSEPNAGSDVVSMKLKAEKKGNHYILNGNKFWITNGPDADVLIVYAKTDLAAVPASRGITAFIVEKGMPGFSTSKKLDKLGMRGSNTCELIFEDCKIPAANILGHENKGVYVLMSGLDLERLVLAGGPLGLMQAVLDHTIPYLHVREAFGQKIGHFQLMQGKMADMYTRLMACRQYVYNVAKACDEGHCTAKDCAGVILYSAECATQVALDGIQCFGGNGYINDFPMGRFLRDAKLYEIGAGTSEVRRLVIGRAFNADFH",
+        "n_residues": 426,
+        "mutation_pos_1indexed": 1,
+        "wt_aa": "M",
+        "mut_aa": "L",
+        "pocket_lining_residues": "M1-A2-E3",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3
+        ],
+        "pocket_lining_1letter": "MAE",
+        "sequence_slice_around_pocket": "MAEMATATRL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/IVD_M1L/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "M1",
+          "A2",
+          "E3"
+        ],
+        "values": [
+          [
+            0.0,
+            3.868,
+            6.958
+          ],
+          [
+            3.868,
+            0.0,
+            3.467
+          ],
+          [
+            6.958,
+            3.467,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "composite_score": 0.7273240929641419,
+        "mw": 361.24,
+        "logp": 2.104,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8409,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "IVD-M1L Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7273,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/IVD_M1L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/IVD_M1L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/IVD_M1L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/IVD_M1L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/IVD_M1L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IVD-M1L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IVD-M1L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T08:52:06.180666+00:00"
     }
   ]
 }
