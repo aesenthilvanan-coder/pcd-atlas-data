@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2222,
+  "total_entries": 2223,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46952,
-    "queue_remaining": 131645
+    "total_processed": 46956,
+    "queue_remaining": 131641
   },
   "entries": [
     {
@@ -511744,6 +511744,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T09:40:01.025018+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC13A5-P444S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC13A5-P444S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC13A5",
+        "uniprot": "",
+        "clinvar_id": "373627",
+        "disease": "not specified",
+        "mutation_precursor": "P444S",
+        "mutation_mature": "P444S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8021915769060716,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 287.3309513246736,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          3.8080151081085205,
+          -15.458273887634277,
+          -26.354894638061523
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.58699655343228,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6018927387689849,
+        "cryptic": true,
+        "pocket_residues": {
+          "A442": "A",
+          "V443": "V",
+          "P444": "P",
+          "A447": "A"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q86YT5|SLC13A5 variant P444S",
+        "fasta_sequence": "MASALSYVSKFKSFVILFVTPLLLLPLVILMPAKFVRCAYVIILMAIYWCTEVIPLAVTSLMPVLLFPLFQILDSRQVCVQYMKDTNMLFLGGLIVAVAVERWNLHKRIALRTLLWVGAKPARLMLGFMGVTALLSMWISNTATTAMMVPIVEAILQQMEATSAATEAGLELVDKGKAKELPGSQVIFEGPTLGQQEDQERKRLCKAMTLCICYAASIGGTATLTGTGPNVVLLGQMNELFPDSKDLVNFASWFAFAFPNMLVMLLFAWLWLQFVYMRFNFKKSWGCGLESKKNEKAALKVLQEEYRKLGPLSFAEINVLICFFLLVILWFSRDPGFMPGWLTVAWVEGETKYVSDATVAIFVATLLFIVPSQKPKFNFRSQTEEERKTPFYPPPLLDWKVTQEKVPWGIVLLLGGGFALAKGSEASGLSVWMGKQMEPLHAVPPAAITLILSLLVAVFTECTSNVATTTLFLPIFASMSRSIGLNPLYIMLPCTLSASFAFMLPVATPPNAIVFTYGHLKVADMVKTGVIMNIIGVFCVFLAVNTWGRAIFDLDHFPDWANVTHIET",
+        "full_sequence": "MASALSYVSKFKSFVILFVTPLLLLPLVILMPAKFVRCAYVIILMAIYWCTEVIPLAVTSLMPVLLFPLFQILDSRQVCVQYMKDTNMLFLGGLIVAVAVERWNLHKRIALRTLLWVGAKPARLMLGFMGVTALLSMWISNTATTAMMVPIVEAILQQMEATSAATEAGLELVDKGKAKELPGSQVIFEGPTLGQQEDQERKRLCKAMTLCICYAASIGGTATLTGTGPNVVLLGQMNELFPDSKDLVNFASWFAFAFPNMLVMLLFAWLWLQFVYMRFNFKKSWGCGLESKKNEKAALKVLQEEYRKLGPLSFAEINVLICFFLLVILWFSRDPGFMPGWLTVAWVEGETKYVSDATVAIFVATLLFIVPSQKPKFNFRSQTEEERKTPFYPPPLLDWKVTQEKVPWGIVLLLGGGFALAKGSEASGLSVWMGKQMEPLHAVPPAAITLILSLLVAVFTECTSNVATTTLFLPIFASMSRSIGLNPLYIMLPCTLSASFAFMLPVATPPNAIVFTYGHLKVADMVKTGVIMNIIGVFCVFLAVNTWGRAIFDLDHFPDWANVTHIET",
+        "n_residues": 568,
+        "mutation_pos_1indexed": 444,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "A442-V443-P444-A447",
+        "pocket_lining_positions_precursor": [
+          442,
+          443,
+          444,
+          447
+        ],
+        "pocket_lining_1letter": "AVPA",
+        "sequence_slice_around_pocket": "GKQMEPLHAVPPAAITLILS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC13A5_P444S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A442",
+          "V443",
+          "P444",
+          "A447"
+        ],
+        "values": [
+          [
+            0.0,
+            3.866,
+            6.702,
+            10.661
+          ],
+          [
+            3.866,
+            0.0,
+            3.854,
+            6.815
+          ],
+          [
+            6.702,
+            3.854,
+            0.0,
+            5.397
+          ],
+          [
+            10.661,
+            6.815,
+            5.397,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.6664805611552503,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC13A5-P444S Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6665,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC13A5_P444S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC13A5_P444S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC13A5_P444S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC13A5_P444S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC13A5_P444S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC13A5-P444S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC13A5-P444S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T09:41:21.612325+00:00"
     }
   ]
 }
