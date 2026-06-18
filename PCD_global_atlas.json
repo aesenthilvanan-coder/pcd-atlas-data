@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1739,
+  "total_entries": 1740,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46411,
-    "queue_remaining": 132186
+    "total_processed": 46412,
+    "queue_remaining": 132185
   },
   "entries": [
     {
@@ -387786,6 +387786,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:25:58.091986+00:00"
+    },
+    {
+      "entry_id": "PCD-CTSK-L9P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CTSK-L9P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CTSK",
+        "uniprot": "",
+        "clinvar_id": "371412",
+        "disease": "Pyknodysostosis",
+        "mutation_precursor": "L9P",
+        "mutation_mature": "L9P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9143901158010505,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 433.4225919373671,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -20.63654136657715,
+          -15.036063194274902,
+          42.39058303833008
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.8212798610626524,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6829955095706708,
+        "cryptic": true,
+        "pocket_residues": {
+          "L7": "L",
+          "L8": "L",
+          "L9": "L",
+          "P10": "P",
+          "V11": "V"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P43235|CTSK variant L9P",
+        "fasta_sequence": "MWGLKVLLLPVVSFALYPEEILDTHWELWKKTHRKQYNNKVDEISRRLIWEKNLKYISIHNLEASLGVHTYELAMNHLGDMTSEEVVQKMTGLKVPLSHSRSNDTLYIPEWEGRAPDSVDYRKKGYVTPVKNQGQCGSCWAFSSVGALEGQLKKKTGKLLNLSPQNLVDCVSENDGCGGGYMTNAFQYVQKNRGIDSEDAYPYVGQEESCMYNPTGKAAKCRGYREIPEGNEKALKRAVARVGPVSVAIDASLTSFQFYSKGVYYDESCNSDNLNHAVLAVGYGIQKGNKHWIIKNSWGENWGNKGYILMARNKNNACGIANLASFPKM",
+        "full_sequence": "MWGLKVLLLPVVSFALYPEEILDTHWELWKKTHRKQYNNKVDEISRRLIWEKNLKYISIHNLEASLGVHTYELAMNHLGDMTSEEVVQKMTGLKVPLSHSRSNDTLYIPEWEGRAPDSVDYRKKGYVTPVKNQGQCGSCWAFSSVGALEGQLKKKTGKLLNLSPQNLVDCVSENDGCGGGYMTNAFQYVQKNRGIDSEDAYPYVGQEESCMYNPTGKAAKCRGYREIPEGNEKALKRAVARVGPVSVAIDASLTSFQFYSKGVYYDESCNSDNLNHAVLAVGYGIQKGNKHWIIKNSWGENWGNKGYILMARNKNNACGIANLASFPKM",
+        "n_residues": 329,
+        "mutation_pos_1indexed": 9,
+        "wt_aa": "L",
+        "mut_aa": "P",
+        "pocket_lining_residues": "L7-L8-L9-P10-V11",
+        "pocket_lining_positions_precursor": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "pocket_lining_1letter": "LLLPV",
+        "sequence_slice_around_pocket": "MWGLKVLLLPVVSFALYP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CTSK_L9P/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "L7",
+          "L8",
+          "L9",
+          "P10",
+          "V11"
+        ],
+        "values": [
+          [
+            0.0,
+            3.825,
+            6.088,
+            9.389,
+            12.27
+          ],
+          [
+            3.825,
+            0.0,
+            3.836,
+            6.378,
+            8.972
+          ],
+          [
+            6.088,
+            3.836,
+            0.0,
+            3.861,
+            6.439
+          ],
+          [
+            9.389,
+            6.378,
+            3.861,
+            0.0,
+            3.828
+          ],
+          [
+            12.27,
+            8.972,
+            6.439,
+            3.828,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6870581868239725,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CTSK-L9P Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6871,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CTSK_L9P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CTSK_L9P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CTSK_L9P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CTSK_L9P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CTSK_L9P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CTSK-L9P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CTSK-L9P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:26:21.568038+00:00"
     }
   ]
 }
