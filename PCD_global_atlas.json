@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2135,
+  "total_entries": 2136,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46849,
-    "queue_remaining": 131748
+    "total_processed": 46851,
+    "queue_remaining": 131746
   },
   "entries": [
     {
@@ -489329,6 +489329,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T08:08:43.236648+00:00"
+    },
+    {
+      "entry_id": "PCD-FOXRED1-R136W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXRED1-R136W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FOXRED1",
+        "uniprot": "",
+        "clinvar_id": "372745",
+        "disease": "not provided",
+        "mutation_precursor": "R136W",
+        "mutation_mature": "R136W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7948356836765962,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 285.80040335556254,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          11.311530113220215,
+          -6.316103935241699,
+          16.3172664642334
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.675397991537646,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8779027340229434,
+        "cryptic": true,
+        "pocket_residues": {
+          "S133": "S",
+          "F134": "F",
+          "L135": "L",
+          "R136": "R",
+          "N137": "N",
+          "I138": "I",
+          "N139": "N",
+          "E140": "E"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96CU9|FOXRED1 variant R136W",
+        "fasta_sequence": "MIRRVLPHGMGRGLLTRRPGTRRGGFSLDWDGKVSEIKKKIKSILPGRSCDLLQDTSHLPPEHSDVVIVGGGVLGLSVAYWLKKLESRRGAIRVLVVERDHTYSQASTGLSVGGICQQFSLPENIQLSLFSASFLRNINEYLAVVDAPPLDLRFNPSGYLLLASEKDAAAMESNVKVQRQEGAKVSLMSPDQLRNKFPWINTEGVALASYGMEDEGWFDPWCLLQGLRRKVQSLGVLFCQGEVTRFVSSSQRMLTTDDKAVVLKRIHEVHVKMDRSLEYQPVECAIVINAAGAWSAQIAALAGVGEGPPGTLQGTKLPVEPRKRYVYVWHCPQGPGLETPLVADTSGAYFRREGLGSNYLGGRSPTEQEEPDPANLEVDHDFFQDKVWPHLALRVPAFETLKVQSAWAGYYDYNTFDQNGVVGPHPLVVNMYFATGFSGHGLQQAPGIGRAVAEMVLKGRFQTIDLSPFLFTRFYLGEKIQENNII",
+        "full_sequence": "MIRRVLPHGMGRGLLTRRPGTRRGGFSLDWDGKVSEIKKKIKSILPGRSCDLLQDTSHLPPEHSDVVIVGGGVLGLSVAYWLKKLESRRGAIRVLVVERDHTYSQASTGLSVGGICQQFSLPENIQLSLFSASFLRNINEYLAVVDAPPLDLRFNPSGYLLLASEKDAAAMESNVKVQRQEGAKVSLMSPDQLRNKFPWINTEGVALASYGMEDEGWFDPWCLLQGLRRKVQSLGVLFCQGEVTRFVSSSQRMLTTDDKAVVLKRIHEVHVKMDRSLEYQPVECAIVINAAGAWSAQIAALAGVGEGPPGTLQGTKLPVEPRKRYVYVWHCPQGPGLETPLVADTSGAYFRREGLGSNYLGGRSPTEQEEPDPANLEVDHDFFQDKVWPHLALRVPAFETLKVQSAWAGYYDYNTFDQNGVVGPHPLVVNMYFATGFSGHGLQQAPGIGRAVAEMVLKGRFQTIDLSPFLFTRFYLGEKIQENNII",
+        "n_residues": 486,
+        "mutation_pos_1indexed": 136,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "S133-F134-L135-R136-N137-I138-N139-E140",
+        "pocket_lining_positions_precursor": [
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140
+        ],
+        "pocket_lining_1letter": "SFLRNINE",
+        "sequence_slice_around_pocket": "QLSLFSASFLRNINEYLAVV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FOXRED1_R136W/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "S133",
+          "F134",
+          "L135",
+          "R136",
+          "N137",
+          "I138",
+          "N139",
+          "E140"
+        ],
+        "values": [
+          [
+            0.0,
+            3.845,
+            5.589,
+            5.123,
+            6.207,
+            8.275,
+            11.446,
+            10.831
+          ],
+          [
+            3.845,
+            0.0,
+            3.86,
+            5.576,
+            5.242,
+            5.573,
+            9.022,
+            8.616
+          ],
+          [
+            5.589,
+            3.86,
+            0.0,
+            3.859,
+            5.353,
+            4.615,
+            8.356,
+            9.572
+          ],
+          [
+            5.123,
+            5.576,
+            3.859,
+            0.0,
+            3.839,
+            5.688,
+            8.411,
+            9.31
+          ],
+          [
+            6.207,
+            5.242,
+            5.353,
+            3.839,
+            0.0,
+            3.864,
+            5.659,
+            5.57
+          ],
+          [
+            8.275,
+            5.573,
+            4.615,
+            5.688,
+            3.864,
+            0.0,
+            3.842,
+            5.518
+          ],
+          [
+            11.446,
+            9.022,
+            8.356,
+            8.411,
+            5.659,
+            3.842,
+            0.0,
+            3.866
+          ],
+          [
+            10.831,
+            8.616,
+            9.572,
+            9.31,
+            5.57,
+            5.518,
+            3.866,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.8514935752124178,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FOXRED1-R136W Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8515,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FOXRED1_R136W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FOXRED1_R136W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FOXRED1_R136W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXRED1_R136W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXRED1_R136W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXRED1-R136W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXRED1-R136W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T08:09:24.135801+00:00"
     }
   ]
 }
