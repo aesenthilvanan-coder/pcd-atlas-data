@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2216,
+  "total_entries": 2217,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46946,
-    "queue_remaining": 131651
+    "total_processed": 46947,
+    "queue_remaining": 131650
   },
   "entries": [
     {
@@ -510255,6 +510255,189 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T09:36:03.053955+00:00"
+    },
+    {
+      "entry_id": "PCD-WWOX-K284R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-WWOX-K284R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "WWOX",
+        "uniprot": "",
+        "clinvar_id": "373531",
+        "disease": "not specified",
+        "mutation_precursor": "K284R",
+        "mutation_mature": "K284R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7614399364371697,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 343.13076358656,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          13.89533519744873,
+          5.482514381408691,
+          -23.62374496459961
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.8749493744533905,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6482825921853012,
+        "cryptic": true,
+        "pocket_residues": {
+          "W218": "W",
+          "T283": "T",
+          "K284": "K",
+          "N285": "N",
+          "D286": "D",
+          "Y287": "Y",
+          "W288": "W"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NZC7|WWOX variant K284R",
+        "fasta_sequence": "MAALRYAGLDDTDSEDELPPGWEERTTKDGWVYYANHTEEKTQWEHPKTGKRKRVAGDLPYGWEQETDENGQVFFVDHINKRTTYLDPRLAFTVDDNPTKPTTRQRYDGSTTAMEILQGRDFTGKVVVVTGANSGIGFETAKSFALHGAHVILACRNMARASEAVSRILEEWHKAKVEAMTLDLALLRSVQHFAEAFKAKNVPLHVLVCNAATFALPWSLTKDGLETTFQVNHLGHFYLVQLLQDVLCRSAPARVIVVSSESHRFTDINDSLGKLDFSRLSPTKNDYWAMLAYNRSKLCNILFSNELHRRLSPRGVTSNAVHPGNMMYSNIHRSWWVYTLLFTLARPFTKSMQQGAATTVYCAAVPELEGLGGMYFNNCCRCMPSPEAQSEETARTLWALSERLIQERLGSQSG",
+        "full_sequence": "MAALRYAGLDDTDSEDELPPGWEERTTKDGWVYYANHTEEKTQWEHPKTGKRKRVAGDLPYGWEQETDENGQVFFVDHINKRTTYLDPRLAFTVDDNPTKPTTRQRYDGSTTAMEILQGRDFTGKVVVVTGANSGIGFETAKSFALHGAHVILACRNMARASEAVSRILEEWHKAKVEAMTLDLALLRSVQHFAEAFKAKNVPLHVLVCNAATFALPWSLTKDGLETTFQVNHLGHFYLVQLLQDVLCRSAPARVIVVSSESHRFTDINDSLGKLDFSRLSPTKNDYWAMLAYNRSKLCNILFSNELHRRLSPRGVTSNAVHPGNMMYSNIHRSWWVYTLLFTLARPFTKSMQQGAATTVYCAAVPELEGLGGMYFNNCCRCMPSPEAQSEETARTLWALSERLIQERLGSQSG",
+        "n_residues": 414,
+        "mutation_pos_1indexed": 284,
+        "wt_aa": "K",
+        "mut_aa": "R",
+        "pocket_lining_residues": "W218-T283-K284-N285-D286-Y287-W288",
+        "pocket_lining_positions_precursor": [
+          218,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288
+        ],
+        "pocket_lining_1letter": "WTKNDYW",
+        "sequence_slice_around_pocket": "KLDFSRLSPTKNDYWAMLAY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/WWOX_K284R/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "W218",
+          "T283",
+          "K284",
+          "N285",
+          "D286",
+          "Y287",
+          "W288"
+        ],
+        "values": [
+          [
+            0.0,
+            8.311,
+            6.078,
+            9.194,
+            9.652,
+            6.492,
+            7.99
+          ],
+          [
+            8.311,
+            0.0,
+            3.836,
+            5.468,
+            5.374,
+            6.064,
+            9.82
+          ],
+          [
+            6.078,
+            3.836,
+            0.0,
+            3.851,
+            5.659,
+            5.237,
+            8.674
+          ],
+          [
+            9.194,
+            5.468,
+            3.851,
+            0.0,
+            3.854,
+            5.659,
+            8.634
+          ],
+          [
+            9.652,
+            5.374,
+            5.659,
+            3.854,
+            0.0,
+            3.839,
+            6.613
+          ],
+          [
+            6.492,
+            6.064,
+            5.237,
+            5.659,
+            3.839,
+            0.0,
+            3.777
+          ],
+          [
+            7.99,
+            9.82,
+            8.674,
+            8.634,
+            6.613,
+            3.777,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8317254538651334,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "WWOX-K284R Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8317,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/WWOX_K284R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/WWOX_K284R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/WWOX_K284R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/WWOX_K284R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/WWOX_K284R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-WWOX-K284R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-WWOX-K284R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T09:36:29.964065+00:00"
     }
   ]
 }
