@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1663,
+  "total_entries": 1664,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46324,
-    "queue_remaining": 132273
+    "total_processed": 46325,
+    "queue_remaining": 132272
   },
   "entries": [
     {
@@ -368339,6 +368339,189 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:27:20.490057+00:00"
+    },
+    {
+      "entry_id": "PCD-FRMD7-Q548P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FRMD7-Q548P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FRMD7",
+        "uniprot": "",
+        "clinvar_id": "367907",
+        "disease": "not provided",
+        "mutation_precursor": "Q548P",
+        "mutation_mature": "Q548P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.904776064185995,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 398.61751687045705,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.248922348022461,
+          24.00628662109375,
+          -6.2087225914001465
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.914232279331885,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7747117800374311,
+        "cryptic": true,
+        "pocket_residues": {
+          "L547": "L",
+          "Q548": "Q",
+          "V549": "V",
+          "L550": "L",
+          "Q551": "Q",
+          "E552": "E",
+          "A555": "A"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q6ZUT3|FRMD7 variant Q548P",
+        "fasta_sequence": "MLHLKVQFLDDSQKIFVVDQKSSGKALFNLSCSHLNLAEKEYFGLEFCSHSGNNVWLELLKPITKQVKNPKEIVFKFMVKFFPVDPGHLREELTRYLFTLQIKKDLALGRLPCSDNCTALMVSHILQSELGDFHEETDRKHLAQTRYLPNQDCLEGKIMHFHQKHIGRSPAESDILLLDIARKLDMYGIRPHPASDGEGMQIHLAVAHMGVLVLRGNTKINTFNWAKIRKLSFKRKHFLIKLHANILVLCKDTLEFTMASRDACKAFWKTCVEYHAFFRLSEEPKSKPKTLLCSKGSSFRYSGRTQRQLLEYGRKGRLKSLPFERKHYPSQYHERQCRSSPDLLSDVSKQVEDLRLAYGGGYYQNVNGVHASEPVLESRRRNSALEVTFATELEHSKPEADPTLLHQSQSSSSFPFIYMDPVFNTEPNPNPDPRDIFSERSSLSSFQTSCKFSGNHMSIYSGLTSKVRPAKQLTYTDVPYIPCTGQQVGIMPPQVFFYVDKPPQVPRWSPIRAEERTSPHSYVEPTAMKPAERSPRNIRMKSFQQDLQVLQEAIARTSGRSNINVGLEEEDPNLEDAFVCNIQEQTPKRSQSQSDMKTIRFPFGSEFRPLGPCPALSHKADLFTDMFAEQELPAVLMDQSTAERYVASESSDSESEILKPDYYALYGKEIRSPMARIRLSSGSLQLDEEDEDAYFNTPTAEDRTSLKPCNYFLA",
+        "full_sequence": "MLHLKVQFLDDSQKIFVVDQKSSGKALFNLSCSHLNLAEKEYFGLEFCSHSGNNVWLELLKPITKQVKNPKEIVFKFMVKFFPVDPGHLREELTRYLFTLQIKKDLALGRLPCSDNCTALMVSHILQSELGDFHEETDRKHLAQTRYLPNQDCLEGKIMHFHQKHIGRSPAESDILLLDIARKLDMYGIRPHPASDGEGMQIHLAVAHMGVLVLRGNTKINTFNWAKIRKLSFKRKHFLIKLHANILVLCKDTLEFTMASRDACKAFWKTCVEYHAFFRLSEEPKSKPKTLLCSKGSSFRYSGRTQRQLLEYGRKGRLKSLPFERKHYPSQYHERQCRSSPDLLSDVSKQVEDLRLAYGGGYYQNVNGVHASEPVLESRRRNSALEVTFATELEHSKPEADPTLLHQSQSSSSFPFIYMDPVFNTEPNPNPDPRDIFSERSSLSSFQTSCKFSGNHMSIYSGLTSKVRPAKQLTYTDVPYIPCTGQQVGIMPPQVFFYVDKPPQVPRWSPIRAEERTSPHSYVEPTAMKPAERSPRNIRMKSFQQDLQVLQEAIARTSGRSNINVGLEEEDPNLEDAFVCNIQEQTPKRSQSQSDMKTIRFPFGSEFRPLGPCPALSHKADLFTDMFAEQELPAVLMDQSTAERYVASESSDSESEILKPDYYALYGKEIRSPMARIRLSSGSLQLDEEDEDAYFNTPTAEDRTSLKPCNYFLA",
+        "n_residues": 714,
+        "mutation_pos_1indexed": 548,
+        "wt_aa": "Q",
+        "mut_aa": "P",
+        "pocket_lining_residues": "L547-Q548-V549-L550-Q551-E552-A555",
+        "pocket_lining_positions_precursor": [
+          547,
+          548,
+          549,
+          550,
+          551,
+          552,
+          555
+        ],
+        "pocket_lining_1letter": "LQVLQEA",
+        "sequence_slice_around_pocket": "IRMKSFQQDLQVLQEAIART"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FRMD7_Q548P/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "L547",
+          "Q548",
+          "V549",
+          "L550",
+          "Q551",
+          "E552",
+          "A555"
+        ],
+        "values": [
+          [
+            0.0,
+            3.852,
+            5.57,
+            5.158,
+            6.273,
+            8.819,
+            12.78
+          ],
+          [
+            3.852,
+            0.0,
+            3.863,
+            5.379,
+            4.977,
+            6.219,
+            10.694
+          ],
+          [
+            5.57,
+            3.863,
+            0.0,
+            3.856,
+            5.492,
+            5.189,
+            9.853
+          ],
+          [
+            5.158,
+            5.379,
+            3.856,
+            0.0,
+            3.856,
+            5.532,
+            8.868
+          ],
+          [
+            6.273,
+            4.977,
+            5.492,
+            3.856,
+            0.0,
+            3.855,
+            6.629
+          ],
+          [
+            8.819,
+            6.219,
+            5.189,
+            5.532,
+            3.855,
+            0.0,
+            4.89
+          ],
+          [
+            12.78,
+            10.694,
+            9.853,
+            8.868,
+            6.629,
+            4.89,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8942221166121967,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FRMD7-Q548P Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8942,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FRMD7_Q548P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FRMD7_Q548P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FRMD7_Q548P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FRMD7_Q548P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FRMD7_Q548P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FRMD7-Q548P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FRMD7-Q548P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:27:51.101007+00:00"
     }
   ]
 }
