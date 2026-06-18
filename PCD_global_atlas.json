@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1555,
+  "total_entries": 1556,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46206,
-    "queue_remaining": 132391
+    "total_processed": 46207,
+    "queue_remaining": 132390
   },
   "entries": [
     {
@@ -343993,6 +343993,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:13:58.322708+00:00"
+    },
+    {
+      "entry_id": "PCD-RAX2-K26Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAX2-K26Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RAX2",
+        "uniprot": "",
+        "clinvar_id": "328971",
+        "disease": "Age related macular degeneration 6",
+        "mutation_precursor": "K26Q",
+        "mutation_mature": "K26Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8208033980248108,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 582.1056784114172,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -3.338789224624634,
+          -4.118149280548096,
+          23.48643684387207
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.620818066647929,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6861435863543766,
+        "cryptic": true,
+        "pocket_residues": {
+          "K25": "K",
+          "K26": "K",
+          "H27": "H",
+          "R28": "R",
+          "R29": "R"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96IS3|RAX2 variant K26Q",
+        "fasta_sequence": "MFLSPGEGPATEGGGLGPGEEAPKKKHRRNRTTFTTYQLHQLERAFEASHYPDVYSREELAAKVHLPEVRVQVWFQNRRAKWRRQERLESGSGAVAAPRLPEAPALPFARPPAMSLPLEPWLGPGPPAVPGLPRLLGPGPGLQASFGPHAFAPTFADGFALEEASLRLLAKEHAQALDRAWPPA",
+        "full_sequence": "MFLSPGEGPATEGGGLGPGEEAPKKKHRRNRTTFTTYQLHQLERAFEASHYPDVYSREELAAKVHLPEVRVQVWFQNRRAKWRRQERLESGSGAVAAPRLPEAPALPFARPPAMSLPLEPWLGPGPPAVPGLPRLLGPGPGLQASFGPHAFAPTFADGFALEEASLRLLAKEHAQALDRAWPPA",
+        "n_residues": 184,
+        "mutation_pos_1indexed": 26,
+        "wt_aa": "K",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "K25-K26-H27-R28-R29",
+        "pocket_lining_positions_precursor": [
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "pocket_lining_1letter": "KKHRR",
+        "sequence_slice_around_pocket": "LGPGEEAPKKKHRRNRTTFT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RAX2_K26Q/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "K25",
+          "K26",
+          "H27",
+          "R28",
+          "R29"
+        ],
+        "values": [
+          [
+            0.0,
+            3.848,
+            6.136,
+            8.77,
+            12.035
+          ],
+          [
+            3.848,
+            0.0,
+            3.825,
+            6.066,
+            8.943
+          ],
+          [
+            6.136,
+            3.825,
+            0.0,
+            3.834,
+            6.16
+          ],
+          [
+            8.77,
+            6.066,
+            3.834,
+            0.0,
+            3.858
+          ],
+          [
+            12.035,
+            8.943,
+            6.16,
+            3.858,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.5148172340749277,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RAX2-K26Q Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5148,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RAX2_K26Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RAX2_K26Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RAX2_K26Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RAX2_K26Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RAX2_K26Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAX2-K26Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAX2-K26Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:14:22.171405+00:00"
     }
   ]
 }
