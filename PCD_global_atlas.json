@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2441,
+  "total_entries": 2442,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47202,
-    "queue_remaining": 131395
+    "total_processed": 47203,
+    "queue_remaining": 131394
   },
   "entries": [
     {
@@ -570697,6 +570697,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:27:24.854128+00:00"
+    },
+    {
+      "entry_id": "PCD-TPO-R665Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TPO-R665Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TPO",
+        "uniprot": "",
+        "clinvar_id": "374344",
+        "disease": "Deficiency of iodide peroxidase",
+        "mutation_precursor": "R665Q",
+        "mutation_mature": "R665Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7727760373788138,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 586.7076925131072,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -11.683273315429688,
+          -3.419093608856201,
+          -15.808170318603516
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.986086601137562,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7451045960792462,
+        "cryptic": true,
+        "pocket_residues": {
+          "P469": "P",
+          "Y470": "Y",
+          "E471": "E",
+          "G472": "G",
+          "Y473": "Y",
+          "R665": "R",
+          "D666": "D",
+          "W671": "W",
+          "W672": "W",
+          "E673": "E",
+          "N674": "N"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P07202|TPO variant R665Q",
+        "fasta_sequence": "MRALAVLSVTLVMACTEAFFPFISRGKELLWGKPEESRVSSVLEESKRLVDTAMYATMQRNLKKRGILSPAQLLSFSKLPEPTSGVIARAAEIMETSIQAMKRKVNLKTQQSQHPTDALSEDLLSIIANMSGCLPYMLPPKCPNTCLANKYRPITGACNNRDHPRWGASNTALARWLPPVYEDGFSQPRGWNPGFLYNGFPLPPVREVTRHVIQVSNEVVTDDDRYSDLLMAWGQYIDHDIAFTPQSTSKAAFGGGADCQMTCENQNPCFPIQLPEEARPAAGTACLPFYRSSAACGTGDQGALFGNLSTANPRQQMNGLTSFLDASTVYGSSPALERQLRNWTSAEGLLRVHARLRDSGRAYLPFVPPRAPAACAPEPGIPGETRGPCFLAGDGRASEVPSLTALHTLWLREHNRLAAALKALNAHWSADAVYQEARKVVGALHQIITLRDYIPRILGPEAFQQYVGPYEGYDSTANPTVSNVFSTAAFRFGHATIHPLVRRLDASFQEHPDLPGLWLHQAFFSPWTLLRGGGLDPLIRGLLARPAKLQVQDQLMNEELTERLFVLSNSSTLDLASINLQRGRDHGLPGYNEWREFCGLPRLETPADLSTAIASRSVADKILDLYKHPDNIDVWLGGLAENFLPRARTGPLFACLIGKQMKALRDGDWFWWENSHVFTDAQRRELEKHSLSRVICDNTGLTRVPMDAFQVGKFPEDFESCDSITGMNLEAWRETFPQDDKCGFPESVENGDFVHCEESGRRVLVYSCRHGYELQGREQLTCTQEGWDFQPPLCKDVNECADGAHPPCHASARCRNTKGGFQCLCADPYELGDDGRTCVDSGRLPRVTWISMSLAALLIGGFAGLTSTVICRWTRTGTKSTLPISETGGGTPELRCGKHQAVGTSPQRAAAQDSEQESAGMEGRDTHRLPRAL",
+        "full_sequence": "MRALAVLSVTLVMACTEAFFPFISRGKELLWGKPEESRVSSVLEESKRLVDTAMYATMQRNLKKRGILSPAQLLSFSKLPEPTSGVIARAAEIMETSIQAMKRKVNLKTQQSQHPTDALSEDLLSIIANMSGCLPYMLPPKCPNTCLANKYRPITGACNNRDHPRWGASNTALARWLPPVYEDGFSQPRGWNPGFLYNGFPLPPVREVTRHVIQVSNEVVTDDDRYSDLLMAWGQYIDHDIAFTPQSTSKAAFGGGADCQMTCENQNPCFPIQLPEEARPAAGTACLPFYRSSAACGTGDQGALFGNLSTANPRQQMNGLTSFLDASTVYGSSPALERQLRNWTSAEGLLRVHARLRDSGRAYLPFVPPRAPAACAPEPGIPGETRGPCFLAGDGRASEVPSLTALHTLWLREHNRLAAALKALNAHWSADAVYQEARKVVGALHQIITLRDYIPRILGPEAFQQYVGPYEGYDSTANPTVSNVFSTAAFRFGHATIHPLVRRLDASFQEHPDLPGLWLHQAFFSPWTLLRGGGLDPLIRGLLARPAKLQVQDQLMNEELTERLFVLSNSSTLDLASINLQRGRDHGLPGYNEWREFCGLPRLETPADLSTAIASRSVADKILDLYKHPDNIDVWLGGLAENFLPRARTGPLFACLIGKQMKALRDGDWFWWENSHVFTDAQRRELEKHSLSRVICDNTGLTRVPMDAFQVGKFPEDFESCDSITGMNLEAWRETFPQDDKCGFPESVENGDFVHCEESGRRVLVYSCRHGYELQGREQLTCTQEGWDFQPPLCKDVNECADGAHPPCHASARCRNTKGGFQCLCADPYELGDDGRTCVDSGRLPRVTWISMSLAALLIGGFAGLTSTVICRWTRTGTKSTLPISETGGGTPELRCGKHQAVGTSPQRAAAQDSEQESAGMEGRDTHRLPRAL",
+        "n_residues": 933,
+        "mutation_pos_1indexed": 665,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "P469-Y470-E471-G472-Y473-R665-D666-W671-W672-E673-N674",
+        "pocket_lining_positions_precursor": [
+          469,
+          470,
+          471,
+          472,
+          473,
+          665,
+          666,
+          671,
+          672,
+          673,
+          674
+        ],
+        "pocket_lining_1letter": "PYEGYRDWWEN",
+        "sequence_slice_around_pocket": "CLIGKQMKALRDGDWFWWEN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TPO_R665Q/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "P469",
+          "Y470",
+          "E471",
+          "G472",
+          "Y473",
+          "R665",
+          "D666",
+          "W671",
+          "W672",
+          "E673",
+          "N674"
+        ],
+        "values": [
+          [
+            0.0,
+            3.836,
+            6.347,
+            9.364,
+            12.028,
+            10.346,
+            10.087,
+            13.21,
+            13.526,
+            10.861,
+            12.726
+          ],
+          [
+            3.836,
+            0.0,
+            3.855,
+            5.791,
+            8.375,
+            7.898,
+            7.161,
+            9.902,
+            10.611,
+            7.879,
+            9.12
+          ],
+          [
+            6.347,
+            3.855,
+            0.0,
+            3.861,
+            7.13,
+            9.998,
+            7.745,
+            11.483,
+            12.567,
+            9.469,
+            9.301
+          ],
+          [
+            9.364,
+            5.791,
+            3.861,
+            0.0,
+            3.82,
+            9.014,
+            6.525,
+            8.918,
+            10.427,
+            7.775,
+            6.259
+          ],
+          [
+            12.028,
+            8.375,
+            7.13,
+            3.82,
+            0.0,
+            7.9,
+            5.0,
+            7.801,
+            10.493,
+            9.143,
+            6.737
+          ],
+          [
+            10.346,
+            7.898,
+            9.998,
+            9.014,
+            7.9,
+            0.0,
+            3.814,
+            6.34,
+            9.184,
+            9.474,
+            9.903
+          ],
+          [
+            10.087,
+            7.161,
+            7.745,
+            6.525,
+            5.0,
+            3.814,
+            0.0,
+            7.718,
+            10.812,
+            10.1,
+            9.415
+          ],
+          [
+            13.21,
+            9.902,
+            11.483,
+            8.918,
+            7.801,
+            6.34,
+            7.718,
+            0.0,
+            3.851,
+            5.696,
+            5.505
+          ],
+          [
+            13.526,
+            10.611,
+            12.567,
+            10.427,
+            10.493,
+            9.184,
+            10.812,
+            3.851,
+            0.0,
+            3.883,
+            5.531
+          ],
+          [
+            10.861,
+            7.879,
+            9.469,
+            7.775,
+            9.143,
+            9.474,
+            10.1,
+            5.696,
+            3.883,
+            0.0,
+            3.852
+          ],
+          [
+            12.726,
+            9.12,
+            9.301,
+            6.259,
+            6.737,
+            9.903,
+            9.415,
+            5.505,
+            5.531,
+            3.852,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1CCNc1ncc(F)cn1",
+        "composite_score": 0.825116267560206,
+        "mw": 415.2,
+        "logp": 1.953,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 8,
+        "qed": 0.6803,
+        "sa_score": 3.32,
+        "n_heavy_atoms": 30,
+        "tpsa": 96.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TPO-R665Q Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1CCNc1ncc(F)cn1",
+        "pocket_affinity_score": 0.8251,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TPO_R665Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TPO_R665Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TPO_R665Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TPO_R665Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TPO_R665Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TPO-R665Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TPO-R665Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:27:59.816344+00:00"
     }
   ]
 }
