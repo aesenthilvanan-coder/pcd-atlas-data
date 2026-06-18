@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1841,
+  "total_entries": 1842,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46520,
-    "queue_remaining": 132077
+    "total_processed": 46521,
+    "queue_remaining": 132076
   },
   "entries": [
     {
@@ -414626,6 +414626,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:24:35.873203+00:00"
+    },
+    {
+      "entry_id": "PCD-SDHA-E472K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SDHA-E472K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SDHA",
+        "uniprot": "",
+        "clinvar_id": "371838",
+        "disease": "Pheochromocytoma/paraganglioma syndrome 5",
+        "mutation_precursor": "E472K",
+        "mutation_mature": "E472K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9205096535363751,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 619.1548091264145,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          21.28455352783203,
+          -0.5479352474212646,
+          -2.74843692779541
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.062168794327435,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8171055394903336,
+        "cryptic": true,
+        "pocket_residues": {
+          "L80": "L",
+          "A83": "A",
+          "A468": "A",
+          "L469": "L",
+          "S470": "S",
+          "I471": "I",
+          "E472": "E",
+          "E473": "E",
+          "S474": "S",
+          "C475": "C",
+          "R476": "R"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P31040|SDHA variant E472K",
+        "fasta_sequence": "MSGVRGLSRLLSARRLALAKAWPTVLQTGTRGFHFTVDGNKRASAKVSDSISAQYPVVDHEFDAVVVGAGGAGLRAAFGLSEAGFNTACVTKLFPTRSHTVAAQGGINAALGNMEEDNWRWHFYDTVKGSDWLGDQDAIHYMTEQAPAAVVELENYGMPFSRTEDGKIYQRAFGGQSLKFGKGGQAHRCCCVADRTGHSLLHTLYGRSLRYDTSYFVEYFALDLLMENGECRGVIALCIEDGSIHRIRAKNTVVATGGYGRTYFSCTSAHTSTGDGTAMITRAGLPCQDLEFVQFHPTGIYGAGCLITEGCRGEGGILINSQGERFMERYAPVAKDLASRDVVSRSMTLEIREGRGCGPEKDHVYLQLHHLPPEQLATRLPGISETAMIFAGVDVTKEPIPVLPTVHYNMGGIPTNYKGQVLRHVNGQDQIVPGLYACGEAACASVHGANRLGANSLLDLVVFGRACALSIEESCRPGDKVPPIKPNAGEESVMNLDKLRFADGSIRTSELRLSMQKSMQNHAAVFRVGSVLQEGCGKISKLYGDLKHLKTFDRGMVWNTDLVETLELQNLMLCALQTIYGAEARKESRGAHAREDYKVRIDEYDYSKPIQGQQKKPFEEHWRKHTLSYVDVGTGKVTLEYRPVIDKTLNEADCATVPPAIRSY",
+        "full_sequence": "MSGVRGLSRLLSARRLALAKAWPTVLQTGTRGFHFTVDGNKRASAKVSDSISAQYPVVDHEFDAVVVGAGGAGLRAAFGLSEAGFNTACVTKLFPTRSHTVAAQGGINAALGNMEEDNWRWHFYDTVKGSDWLGDQDAIHYMTEQAPAAVVELENYGMPFSRTEDGKIYQRAFGGQSLKFGKGGQAHRCCCVADRTGHSLLHTLYGRSLRYDTSYFVEYFALDLLMENGECRGVIALCIEDGSIHRIRAKNTVVATGGYGRTYFSCTSAHTSTGDGTAMITRAGLPCQDLEFVQFHPTGIYGAGCLITEGCRGEGGILINSQGERFMERYAPVAKDLASRDVVSRSMTLEIREGRGCGPEKDHVYLQLHHLPPEQLATRLPGISETAMIFAGVDVTKEPIPVLPTVHYNMGGIPTNYKGQVLRHVNGQDQIVPGLYACGEAACASVHGANRLGANSLLDLVVFGRACALSIEESCRPGDKVPPIKPNAGEESVMNLDKLRFADGSIRTSELRLSMQKSMQNHAAVFRVGSVLQEGCGKISKLYGDLKHLKTFDRGMVWNTDLVETLELQNLMLCALQTIYGAEARKESRGAHAREDYKVRIDEYDYSKPIQGQQKKPFEEHWRKHTLSYVDVGTGKVTLEYRPVIDKTLNEADCATVPPAIRSY",
+        "n_residues": 664,
+        "mutation_pos_1indexed": 472,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "L80-A83-A468-L469-S470-I471-E472-E473-S474-C475-R476",
+        "pocket_lining_positions_precursor": [
+          80,
+          83,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476
+        ],
+        "pocket_lining_1letter": "LAALSIEESCR",
+        "sequence_slice_around_pocket": "VFGRACALSIEESCRPGDKV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SDHA_E472K/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "L80",
+          "A83",
+          "A468",
+          "L469",
+          "S470",
+          "I471",
+          "E472",
+          "E473",
+          "S474",
+          "C475",
+          "R476"
+        ],
+        "values": [
+          [
+            0.0,
+            5.095,
+            5.059,
+            7.796,
+            9.9,
+            7.821,
+            7.619,
+            11.322,
+            12.336,
+            10.899,
+            10.566
+          ],
+          [
+            5.095,
+            0.0,
+            7.823,
+            8.195,
+            10.953,
+            9.249,
+            6.714,
+            10.218,
+            12.099,
+            10.603,
+            9.1
+          ],
+          [
+            5.059,
+            7.823,
+            0.0,
+            3.863,
+            5.569,
+            5.211,
+            6.219,
+            8.721,
+            10.106,
+            10.317,
+            11.596
+          ],
+          [
+            7.796,
+            8.195,
+            3.863,
+            0.0,
+            3.867,
+            5.44,
+            4.922,
+            6.101,
+            8.706,
+            9.962,
+            11.438
+          ],
+          [
+            9.9,
+            10.953,
+            5.569,
+            3.867,
+            0.0,
+            3.857,
+            5.443,
+            5.022,
+            6.302,
+            8.516,
+            11.179
+          ],
+          [
+            7.821,
+            9.249,
+            5.211,
+            5.44,
+            3.857,
+            0.0,
+            3.876,
+            5.465,
+            5.206,
+            5.619,
+            8.108
+          ],
+          [
+            7.619,
+            6.714,
+            6.219,
+            4.922,
+            5.443,
+            3.876,
+            0.0,
+            3.876,
+            5.582,
+            5.561,
+            6.574
+          ],
+          [
+            11.322,
+            10.218,
+            8.721,
+            6.101,
+            5.022,
+            5.465,
+            3.876,
+            0.0,
+            3.87,
+            6.254,
+            8.349
+          ],
+          [
+            12.336,
+            12.099,
+            10.106,
+            8.706,
+            6.302,
+            5.206,
+            5.582,
+            3.87,
+            0.0,
+            3.863,
+            7.272
+          ],
+          [
+            10.899,
+            10.603,
+            10.317,
+            9.962,
+            8.516,
+            5.619,
+            5.561,
+            6.254,
+            3.863,
+            0.0,
+            3.846
+          ],
+          [
+            10.566,
+            9.1,
+            11.596,
+            11.438,
+            11.179,
+            8.108,
+            6.574,
+            8.349,
+            7.272,
+            3.846,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CC(=O)CCC1CCNCc1c[nH]c2ccccc12",
+        "composite_score": 0.8746204143181708,
+        "mw": 427.17,
+        "logp": 1.928,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.4955,
+        "sa_score": 3.3,
+        "n_heavy_atoms": 30,
+        "tpsa": 121.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SDHA-E472K Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CC(=O)CCC1CCNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8746,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SDHA_E472K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SDHA_E472K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SDHA_E472K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SDHA_E472K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SDHA_E472K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SDHA-E472K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SDHA-E472K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:25:03.905128+00:00"
     }
   ]
 }
