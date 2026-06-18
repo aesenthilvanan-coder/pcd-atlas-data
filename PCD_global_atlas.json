@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1852,
+  "total_entries": 1853,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46532,
-    "queue_remaining": 132065
+    "total_processed": 46536,
+    "queue_remaining": 132061
   },
   "entries": [
     {
@@ -416769,6 +416769,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:32:06.714964+00:00"
+    },
+    {
+      "entry_id": "PCD-GAL-A39E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GAL-A39E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GAL",
+        "uniprot": "",
+        "clinvar_id": "372128",
+        "disease": "Familial temporal lobe epilepsy 8",
+        "mutation_precursor": "A39E",
+        "mutation_mature": "A39E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9237774206897209,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 541.8784032197286,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.342318058013916,
+          -12.313396453857422,
+          11.619569778442383
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.4439585911003794,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7430551082247079,
+        "cryptic": true,
+        "pocket_residues": {
+          "H37": "H",
+          "H38": "H",
+          "I39": "I",
+          "A40": "A",
+          "E41": "E",
+          "C43": "C"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8N6F7|GAL variant A39E",
+        "fasta_sequence": "MGNSLLRENRRQQNTQEMPWNVRMQSPKQRTSRCWDHHIAEGCFCLPWKKILIFEKRQDSQNENERMSSTPIQDNVDQTYSEELCYTLINHRVLCTRPSGNSAEEYYENVPCKAERPRESLGGTETEYSLLHMPSTDPRHARSPEDEYELLMPHRISSHFLQQPRPLMAPSETQFSHL",
+        "full_sequence": "MGNSLLRENRRQQNTQEMPWNVRMQSPKQRTSRCWDHHIAEGCFCLPWKKILIFEKRQDSQNENERMSSTPIQDNVDQTYSEELCYTLINHRVLCTRPSGNSAEEYYENVPCKAERPRESLGGTETEYSLLHMPSTDPRHARSPEDEYELLMPHRISSHFLQQPRPLMAPSETQFSHL",
+        "n_residues": 178,
+        "mutation_pos_1indexed": 39,
+        "wt_aa": "A",
+        "mut_aa": "E",
+        "pocket_lining_residues": "H37-H38-I39-A40-E41-C43",
+        "pocket_lining_positions_precursor": [
+          37,
+          38,
+          39,
+          40,
+          41,
+          43
+        ],
+        "pocket_lining_1letter": "HHIAEC",
+        "sequence_slice_around_pocket": "QRTSRCWDHHIAEGCFCLPW"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GAL_A39E/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "H37",
+          "H38",
+          "I39",
+          "A40",
+          "E41",
+          "C43"
+        ],
+        "values": [
+          [
+            0.0,
+            3.8,
+            6.082,
+            9.179,
+            12.314,
+            12.138
+          ],
+          [
+            3.8,
+            0.0,
+            3.8,
+            5.915,
+            9.332,
+            10.153
+          ],
+          [
+            6.082,
+            3.8,
+            0.0,
+            3.807,
+            6.278,
+            7.379
+          ],
+          [
+            9.179,
+            5.915,
+            3.807,
+            0.0,
+            3.85,
+            5.849
+          ],
+          [
+            12.314,
+            9.332,
+            6.278,
+            3.85,
+            0.0,
+            5.855
+          ],
+          [
+            12.138,
+            10.153,
+            7.379,
+            5.849,
+            5.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(N)cc1CCNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.7625294112800463,
+        "mw": 390.17,
+        "logp": 2.184,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.7035,
+        "sa_score": 2.41,
+        "n_heavy_atoms": 27,
+        "tpsa": 97.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GAL-A39E Candidate #1",
+        "iupac_name": "COc1ccc(N)cc1CCNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.7625,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GAL_A39E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GAL_A39E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GAL_A39E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GAL_A39E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GAL_A39E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GAL-A39E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GAL-A39E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:33:13.541586+00:00"
     }
   ]
 }
