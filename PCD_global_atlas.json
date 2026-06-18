@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2237,
+  "total_entries": 2238,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46971,
-    "queue_remaining": 131626
+    "total_processed": 46972,
+    "queue_remaining": 131625
   },
   "entries": [
     {
@@ -514747,6 +514747,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T10:03:46.629748+00:00"
+    },
+    {
+      "entry_id": "PCD-LDLR-G592R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LDLR-G592R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LDLR",
+        "uniprot": "",
+        "clinvar_id": "373769",
+        "disease": "Hypercholesterolemia, familial, 1",
+        "mutation_precursor": "G592R",
+        "mutation_mature": "G592R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7784885880558067,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 397.40801182579185,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.6433091163635254,
+          11.338987350463867,
+          -13.255494117736816
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.895588839372627,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8912522521049663,
+        "cryptic": true,
+        "pocket_residues": {
+          "G573": "G",
+          "R574": "R",
+          "L575": "L",
+          "I588": "I",
+          "D589": "D",
+          "V590": "V",
+          "N591": "N",
+          "G592": "G",
+          "G593": "G",
+          "N594": "N",
+          "R595": "R"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P01130|LDLR variant G592R",
+        "fasta_sequence": "MGPWGWKLRWTVALLLAAAGTAVGDRCERNEFQCQDGKCISYKWVCDGSAECQDGSDESQETCLSVTCKSGDFSCGGRVNRCIPQFWRCDGQVDCDNGSDEQGCPPKTCSQDEFRCHDGKCISRQFVCDSDRDCLDGSDEASCPVLTCGPASFQCNSSTCIPQLWACDNDPDCEDGSDEWPQRCRGLYVFQGDSSPCSAFEFHCLSGECIHSSWRCDGGPDCKDKSDEENCAVATCRPDEFQCSDGNCIHGSRQCDREYDCKDMSDEVGCVNVTLCEGPNKFKCHSGECITLDKVCNMARDCRDWSDEPIKECGTNECLDNNGGCSHVCNDLKIGYECLCPDGFQLVAQRRCEDIDECQDPDTCSQLCVNLEGGYKCQCEEGFQLDPHTKACKAVGSIAYLFFTNRHEVRKMTLDRSEYTSLIPNLRNVVALDTEVASNRIYWSDLSQRMICSTQLDRAHGVSSYDTVISRDIQAPDGLAVDWIHSNIYWTDSVLGTVSVADTKGVKRKTLFRENGSKPRAIVVDPVHGFMYWTDWGTPAKIKKGGLNGVDIYSLVTENIQWPNGITLDLLSGRLYWVDSKLHSISSIDVNGGNRKTILEDEKRLAHPFSLAVFEDKVFWTDIINEAIFSANRLTGSDVNLLAENLLSPEDMVLFHNLTQPRGVNWCERTTLSNGGCQYLCLPAPQINPHSPKFTCACPDGMLLARDMRSCLTEAEAAVATQETSTVRLKVSSTAVRTQHTTTRPVPDTSRLPGATPGLTTVEIVTMSHQALGDVAGRGNEKKPSSVRALSIVLPIVLLVFLCLGVFLLWKNWRLKNINSINFDNPVYQKTTEDEVHICHNQDGYSYPSRQMVSLEDDVA",
+        "full_sequence": "MGPWGWKLRWTVALLLAAAGTAVGDRCERNEFQCQDGKCISYKWVCDGSAECQDGSDESQETCLSVTCKSGDFSCGGRVNRCIPQFWRCDGQVDCDNGSDEQGCPPKTCSQDEFRCHDGKCISRQFVCDSDRDCLDGSDEASCPVLTCGPASFQCNSSTCIPQLWACDNDPDCEDGSDEWPQRCRGLYVFQGDSSPCSAFEFHCLSGECIHSSWRCDGGPDCKDKSDEENCAVATCRPDEFQCSDGNCIHGSRQCDREYDCKDMSDEVGCVNVTLCEGPNKFKCHSGECITLDKVCNMARDCRDWSDEPIKECGTNECLDNNGGCSHVCNDLKIGYECLCPDGFQLVAQRRCEDIDECQDPDTCSQLCVNLEGGYKCQCEEGFQLDPHTKACKAVGSIAYLFFTNRHEVRKMTLDRSEYTSLIPNLRNVVALDTEVASNRIYWSDLSQRMICSTQLDRAHGVSSYDTVISRDIQAPDGLAVDWIHSNIYWTDSVLGTVSVADTKGVKRKTLFRENGSKPRAIVVDPVHGFMYWTDWGTPAKIKKGGLNGVDIYSLVTENIQWPNGITLDLLSGRLYWVDSKLHSISSIDVNGGNRKTILEDEKRLAHPFSLAVFEDKVFWTDIINEAIFSANRLTGSDVNLLAENLLSPEDMVLFHNLTQPRGVNWCERTTLSNGGCQYLCLPAPQINPHSPKFTCACPDGMLLARDMRSCLTEAEAAVATQETSTVRLKVSSTAVRTQHTTTRPVPDTSRLPGATPGLTTVEIVTMSHQALGDVAGRGNEKKPSSVRALSIVLPIVLLVFLCLGVFLLWKNWRLKNINSINFDNPVYQKTTEDEVHICHNQDGYSYPSRQMVSLEDDVA",
+        "n_residues": 860,
+        "mutation_pos_1indexed": 592,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "G573-R574-L575-I588-D589-V590-N591-G592-G593-N594-R595",
+        "pocket_lining_positions_precursor": [
+          573,
+          574,
+          575,
+          588,
+          589,
+          590,
+          591,
+          592,
+          593,
+          594,
+          595
+        ],
+        "pocket_lining_1letter": "GRLIDVNGGNR",
+        "sequence_slice_around_pocket": "LHSISSIDVNGGNRKTILED"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_G592R/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "G573",
+          "R574",
+          "L575",
+          "I588",
+          "D589",
+          "V590",
+          "N591",
+          "G592",
+          "G593",
+          "N594",
+          "R595"
+        ],
+        "values": [
+          [
+            0.0,
+            3.851,
+            6.976,
+            8.916,
+            6.103,
+            5.71,
+            8.614,
+            10.635,
+            10.954,
+            11.555,
+            12.592
+          ],
+          [
+            3.851,
+            0.0,
+            3.823,
+            5.699,
+            4.378,
+            5.559,
+            8.787,
+            9.314,
+            9.609,
+            9.448,
+            9.586
+          ],
+          [
+            6.976,
+            3.823,
+            0.0,
+            5.277,
+            6.007,
+            6.307,
+            9.76,
+            9.305,
+            10.66,
+            10.668,
+            9.389
+          ],
+          [
+            8.916,
+            5.699,
+            5.277,
+            0.0,
+            3.814,
+            6.544,
+            8.079,
+            6.091,
+            6.255,
+            5.707,
+            4.238
+          ],
+          [
+            6.103,
+            4.378,
+            6.007,
+            3.814,
+            0.0,
+            3.878,
+            5.36,
+            5.333,
+            5.295,
+            6.095,
+            6.88
+          ],
+          [
+            5.71,
+            5.559,
+            6.307,
+            6.544,
+            3.878,
+            0.0,
+            3.871,
+            5.586,
+            7.506,
+            9.582,
+            9.983
+          ],
+          [
+            8.614,
+            8.787,
+            9.76,
+            8.079,
+            5.36,
+            3.871,
+            0.0,
+            3.887,
+            5.687,
+            8.971,
+            10.119
+          ],
+          [
+            10.635,
+            9.314,
+            9.305,
+            6.091,
+            5.333,
+            5.586,
+            3.887,
+            0.0,
+            3.858,
+            7.0,
+            7.106
+          ],
+          [
+            10.954,
+            9.609,
+            10.66,
+            6.255,
+            5.295,
+            7.506,
+            5.687,
+            3.858,
+            0.0,
+            3.839,
+            5.791
+          ],
+          [
+            11.555,
+            9.448,
+            10.668,
+            5.707,
+            6.095,
+            9.582,
+            8.971,
+            7.0,
+            3.839,
+            0.0,
+            3.829
+          ],
+          [
+            12.592,
+            9.586,
+            9.389,
+            4.238,
+            6.88,
+            9.983,
+            10.119,
+            7.106,
+            5.791,
+            3.829,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8353103635584441,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LDLR-G592R Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8353,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_G592R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_G592R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_G592R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_G592R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_G592R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LDLR-G592R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LDLR-G592R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T10:04:37.412044+00:00"
     }
   ]
 }
