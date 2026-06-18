@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1751,
+  "total_entries": 1752,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46423,
-    "queue_remaining": 132174
+    "total_processed": 46424,
+    "queue_remaining": 132173
   },
   "entries": [
     {
@@ -389792,6 +389792,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:33:05.006817+00:00"
+    },
+    {
+      "entry_id": "PCD-HADHA-M1V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HADHA-M1V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HADHA",
+        "uniprot": "",
+        "clinvar_id": "371639",
+        "disease": "Long chain 3-hydroxyacyl-CoA dehydrogenase deficiency",
+        "mutation_precursor": "M1V",
+        "mutation_mature": "M1V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9342956367621796,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 451.3870066596836,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          11.427933692932129,
+          -48.76189041137695,
+          20.947866439819336
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.3570229559780156,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8324452163932675,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "V2": "V",
+          "A3": "A"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P40939|HADHA variant M1V",
+        "fasta_sequence": "MVACRAIGILSRFSAFRILRSRGYICRNFTGSSALLTRTHINYGVKGDVAVVRINSPNSKVNTLSKELHSEFSEVMNEIWASDQIRSAVLISSKPGCFIAGADINMLAACKTLQEVTQLSQEAQRIVEKLEKSTKPIVAAINGSCLGGGLEVAISCQYRIATKDRKTVLGTPEVLLGALPGAGGTQRLPKMVGVPAALDMMLTGRSIRADRAKKMGLVDQLVEPLGPGLKPPEERTIEYLEEVAITFAKGLADKKISPKRDKGLVEKLTAYAMTIPFVRQQVYKKVEEKVRKQTKGLYPAPLKIIDVVKTGIEQGSDAGYLCESQKFGELVMTKESKALMGLYHGQVLCKKNKFGAPQKDVKHLAILGAGLMGAGIAQVSVDKGLKTILKDATLTALDRGQQQVFKGLNDKVKKKALTSFERDSIFSNLTGQLDYQGFEKADMVIEAVFEDLSLKHRVLKEVEAVIPDHCIFASNTSALPISEIAAVSKRPEKVIGMHYFSPVDKMQLLEIITTEKTSKDTSASAVAVGLKQGKVIIVVKDGPGFYTTRCLAPMMSEVIRILQEGVDPKKLDSLTTSFGFPVGAATLVDEVGVDVAKHVAEDLGKVFGERFGGGNPELLTQMVSKGFLGRKSGKGFYIYQEGVKRKDLNSDMDSILASLKLPPKSEVSSDEDIQFRLVTRFVNEAVMCLQEGILATPAEGDIGAVFGLGFPPCLGGPFRFVDLYGAQKIVDRLKKYEAAYGKQFTPCQLLADHANSPNKKFYQ",
+        "full_sequence": "MVACRAIGILSRFSAFRILRSRGYICRNFTGSSALLTRTHINYGVKGDVAVVRINSPNSKVNTLSKELHSEFSEVMNEIWASDQIRSAVLISSKPGCFIAGADINMLAACKTLQEVTQLSQEAQRIVEKLEKSTKPIVAAINGSCLGGGLEVAISCQYRIATKDRKTVLGTPEVLLGALPGAGGTQRLPKMVGVPAALDMMLTGRSIRADRAKKMGLVDQLVEPLGPGLKPPEERTIEYLEEVAITFAKGLADKKISPKRDKGLVEKLTAYAMTIPFVRQQVYKKVEEKVRKQTKGLYPAPLKIIDVVKTGIEQGSDAGYLCESQKFGELVMTKESKALMGLYHGQVLCKKNKFGAPQKDVKHLAILGAGLMGAGIAQVSVDKGLKTILKDATLTALDRGQQQVFKGLNDKVKKKALTSFERDSIFSNLTGQLDYQGFEKADMVIEAVFEDLSLKHRVLKEVEAVIPDHCIFASNTSALPISEIAAVSKRPEKVIGMHYFSPVDKMQLLEIITTEKTSKDTSASAVAVGLKQGKVIIVVKDGPGFYTTRCLAPMMSEVIRILQEGVDPKKLDSLTTSFGFPVGAATLVDEVGVDVAKHVAEDLGKVFGERFGGGNPELLTQMVSKGFLGRKSGKGFYIYQEGVKRKDLNSDMDSILASLKLPPKSEVSSDEDIQFRLVTRFVNEAVMCLQEGILATPAEGDIGAVFGLGFPPCLGGPFRFVDLYGAQKIVDRLKKYEAAYGKQFTPCQLLADHANSPNKKFYQ",
+        "n_residues": 763,
+        "mutation_pos_1indexed": 1,
+        "wt_aa": "M",
+        "mut_aa": "V",
+        "pocket_lining_residues": "M1-V2-A3",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3
+        ],
+        "pocket_lining_1letter": "MVA",
+        "sequence_slice_around_pocket": "MVACRAIGIL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HADHA_M1V/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "M1",
+          "V2",
+          "A3"
+        ],
+        "values": [
+          [
+            0.0,
+            3.881,
+            6.891
+          ],
+          [
+            3.881,
+            0.0,
+            3.362
+          ],
+          [
+            6.891,
+            3.362,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6945295270317587,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HADHA-M1V Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6945,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HADHA_M1V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HADHA_M1V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HADHA_M1V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HADHA_M1V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HADHA_M1V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HADHA-M1V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HADHA-M1V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:33:36.473647+00:00"
     }
   ]
 }
