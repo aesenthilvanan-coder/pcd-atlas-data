@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2476,
+  "total_entries": 2477,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47241,
-    "queue_remaining": 131356
+    "total_processed": 47243,
+    "queue_remaining": 131354
   },
   "entries": [
     {
@@ -579424,6 +579424,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T14:02:00.130462+00:00"
+    },
+    {
+      "entry_id": "PCD-LMOD3-L550F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LMOD3-L550F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LMOD3",
+        "uniprot": "",
+        "clinvar_id": "374498",
+        "disease": "not provided",
+        "mutation_precursor": "L550F",
+        "mutation_mature": "L550F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.910543862864716,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 519.2808106384059,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -45.954376220703125,
+          -23.79112434387207,
+          14.882250785827637
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.6452699326013316,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7893463891545182,
+        "cryptic": true,
+        "pocket_residues": {
+          "V547": "V",
+          "Y549": "Y",
+          "L550": "L",
+          "K551": "K",
+          "P552": "P",
+          "V553": "V"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q0VAK6|LMOD3 variant L550F",
+        "fasta_sequence": "MSEHSRNSDQEELLDEEINEDEILANLSAEELKELQSEMEVMAPDPSLPVGMIQKDQTDKPPTGNFNHKSLVDYMYWEKASRRMLEEERVPVTFVKSEEKTQEEHEEIEKRNKNMAQYLKEKLNNEIVANKRESKGSSNIQETDEEDEEEEDDDDDDEGEDDGEESEETNREEEGKAKEQIRNCENNCQQVTDKAFKEQRDRPEAQEQSEKKISKLDPKKLALDTSFLKVSTRPSGNQTDLDGSLRRVRKNDPDMKELNLNNIENIPKEMLLDFVNAMKKNKHIKTFSLANVGADENVAFALANMLRENRSITTLNIESNFITGKGIVAIMRCLQFNETLTELRFHNQRHMLGHHAEMEIARLLKANNTLLKMGYHFELPGPRMVVTNLLTRNQDKQRQKRQEEQKQQQLKEQKKLIAMLENGLGLPPGMWELLGGPKPDSRMQEFFQPPPPRPPNPQNVPFSQRSEMMKKPSQAPKYRTDPDSFRVVKLKRIQRKSRMPEAREPPEKTNLKDVIKTLKPVPRNRPPPLVEITPRDQLLNDIRHSSVAYLKPVQLPKELA",
+        "full_sequence": "MSEHSRNSDQEELLDEEINEDEILANLSAEELKELQSEMEVMAPDPSLPVGMIQKDQTDKPPTGNFNHKSLVDYMYWEKASRRMLEEERVPVTFVKSEEKTQEEHEEIEKRNKNMAQYLKEKLNNEIVANKRESKGSSNIQETDEEDEEEEDDDDDDEGEDDGEESEETNREEEGKAKEQIRNCENNCQQVTDKAFKEQRDRPEAQEQSEKKISKLDPKKLALDTSFLKVSTRPSGNQTDLDGSLRRVRKNDPDMKELNLNNIENIPKEMLLDFVNAMKKNKHIKTFSLANVGADENVAFALANMLRENRSITTLNIESNFITGKGIVAIMRCLQFNETLTELRFHNQRHMLGHHAEMEIARLLKANNTLLKMGYHFELPGPRMVVTNLLTRNQDKQRQKRQEEQKQQQLKEQKKLIAMLENGLGLPPGMWELLGGPKPDSRMQEFFQPPPPRPPNPQNVPFSQRSEMMKKPSQAPKYRTDPDSFRVVKLKRIQRKSRMPEAREPPEKTNLKDVIKTLKPVPRNRPPPLVEITPRDQLLNDIRHSSVAYLKPVQLPKELA",
+        "n_residues": 560,
+        "mutation_pos_1indexed": 550,
+        "wt_aa": "L",
+        "mut_aa": "F",
+        "pocket_lining_residues": "V547-Y549-L550-K551-P552-V553",
+        "pocket_lining_positions_precursor": [
+          547,
+          549,
+          550,
+          551,
+          552,
+          553
+        ],
+        "pocket_lining_1letter": "VYLKPV",
+        "sequence_slice_around_pocket": "NDIRHSSVAYLKPVQLPKEL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LMOD3_L550F/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "V547",
+          "Y549",
+          "L550",
+          "K551",
+          "P552",
+          "V553"
+        ],
+        "values": [
+          [
+            0.0,
+            5.436,
+            5.484,
+            8.268,
+            10.565,
+            11.996
+          ],
+          [
+            5.436,
+            0.0,
+            3.847,
+            5.82,
+            9.299,
+            11.635
+          ],
+          [
+            5.484,
+            3.847,
+            0.0,
+            3.833,
+            6.185,
+            8.934
+          ],
+          [
+            8.268,
+            5.82,
+            3.833,
+            0.0,
+            3.827,
+            6.196
+          ],
+          [
+            10.565,
+            9.299,
+            6.185,
+            3.827,
+            0.0,
+            3.835
+          ],
+          [
+            11.996,
+            11.635,
+            8.934,
+            6.196,
+            3.835,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6759109833793405,
+        "mw": 386.15,
+        "logp": 2.076,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.618,
+        "sa_score": 3.11,
+        "n_heavy_atoms": 27,
+        "tpsa": 117.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LMOD3-L550F Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6759,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LMOD3_L550F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LMOD3_L550F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LMOD3_L550F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LMOD3_L550F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LMOD3_L550F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LMOD3-L550F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LMOD3-L550F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T14:02:43.502607+00:00"
     }
   ]
 }
