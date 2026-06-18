@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1618,
+  "total_entries": 1619,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46277,
-    "queue_remaining": 132320
+    "total_processed": 46278,
+    "queue_remaining": 132319
   },
   "entries": [
     {
@@ -357685,6 +357685,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:53:10.108199+00:00"
+    },
+    {
+      "entry_id": "PCD-COL9A3-P222L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-P222L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COL9A3",
+        "uniprot": "",
+        "clinvar_id": "1326652",
+        "disease": "not provided",
+        "mutation_precursor": "P222L",
+        "mutation_mature": "P222L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8867427919908911,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 535.1657870137919,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          45.83646774291992,
+          -18.453845977783203,
+          -35.666568756103516
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.7186135622161505,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6419850411513244,
+        "cryptic": true,
+        "pocket_residues": {
+          "L221": "L",
+          "P222": "P",
+          "G223": "G",
+          "S224": "S",
+          "V225": "V",
+          "G226": "G"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q14050|COL9A3 variant P222L",
+        "fasta_sequence": "MAGPRACAPLLLLLLLGELLAAAGAQRVGLPGPPGPPGPPGKPGQDGIDGEAGPPGLPGPPGPKGAPGKPGKPGEAGLPGLPGVDGLTGRDGPPGPKGAPGERGSLGPPGPPGLGGKGLPGPPGEAGVSGPPGGIGLRGPPGPSGLPGLPGPPGPPGPPGHPGVLPEGATDLQCPSICPPGPPGPPGMPGFKGPTGYKGEQGEVGKDGEKGDPGPPGPAGLPGSVGLQGPRGLRGLPGPLGPPGDRGPIGFRGPPGIPGAPGKAGDRGERGPEGFRGPKGDLGRPGPKGTPGVAGPSGEPGMPGKDGQNGVPGLDGQKGEAGRNGAPGEKGPNGLPGLPGRAGSKGEKGERGRAGELGEAGPSGEPGVPGDAGMPGERGEAGHRGSAGALGPQGPPGAPGVRGFQGQKGSMGDPGLPGPQGLRGDVGDRGPGGAAGPKGDQGIAGSDGLPGDKGELGPSGLVGPKGESGSRGELGPKGTQGPNGTSGVQGVPGPPGPLGLQGVPGVPGITGKPGVPGKEASEQRIRELCGGMISEQIAQLAAHLRKPLAPGSIGRPGPAGPPGPPGPPGSIGHPGARGPPGYRGPTGELGDPGPRGNQGDRGDKGAAGAGLDGPEGDQGPQGPQGVPGTSKDGQDGAPGEPGPPGDPGLPGAIGAQGTPGICDTSACQGAVLGGVGEKSGSRSS",
+        "full_sequence": "MAGPRACAPLLLLLLLGELLAAAGAQRVGLPGPPGPPGPPGKPGQDGIDGEAGPPGLPGPPGPKGAPGKPGKPGEAGLPGLPGVDGLTGRDGPPGPKGAPGERGSLGPPGPPGLGGKGLPGPPGEAGVSGPPGGIGLRGPPGPSGLPGLPGPPGPPGPPGHPGVLPEGATDLQCPSICPPGPPGPPGMPGFKGPTGYKGEQGEVGKDGEKGDPGPPGPAGLPGSVGLQGPRGLRGLPGPLGPPGDRGPIGFRGPPGIPGAPGKAGDRGERGPEGFRGPKGDLGRPGPKGTPGVAGPSGEPGMPGKDGQNGVPGLDGQKGEAGRNGAPGEKGPNGLPGLPGRAGSKGEKGERGRAGELGEAGPSGEPGVPGDAGMPGERGEAGHRGSAGALGPQGPPGAPGVRGFQGQKGSMGDPGLPGPQGLRGDVGDRGPGGAAGPKGDQGIAGSDGLPGDKGELGPSGLVGPKGESGSRGELGPKGTQGPNGTSGVQGVPGPPGPLGLQGVPGVPGITGKPGVPGKEASEQRIRELCGGMISEQIAQLAAHLRKPLAPGSIGRPGPAGPPGPPGPPGSIGHPGARGPPGYRGPTGELGDPGPRGNQGDRGDKGAAGAGLDGPEGDQGPQGPQGVPGTSKDGQDGAPGEPGPPGDPGLPGAIGAQGTPGICDTSACQGAVLGGVGEKSGSRSS",
+        "n_residues": 684,
+        "mutation_pos_1indexed": 222,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "L221-P222-G223-S224-V225-G226",
+        "pocket_lining_positions_precursor": [
+          221,
+          222,
+          223,
+          224,
+          225,
+          226
+        ],
+        "pocket_lining_1letter": "LPGSVG",
+        "sequence_slice_around_pocket": "DPGPPGPAGLPGSVGLQGPR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_P222L/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "L221",
+          "P222",
+          "G223",
+          "S224",
+          "V225",
+          "G226"
+        ],
+        "values": [
+          [
+            0.0,
+            3.867,
+            6.171,
+            8.325,
+            11.708,
+            14.251
+          ],
+          [
+            3.867,
+            0.0,
+            3.821,
+            6.223,
+            8.834,
+            11.932
+          ],
+          [
+            6.171,
+            3.821,
+            0.0,
+            3.826,
+            6.146,
+            8.61
+          ],
+          [
+            8.325,
+            6.223,
+            3.826,
+            0.0,
+            3.841,
+            6.248
+          ],
+          [
+            11.708,
+            8.834,
+            6.146,
+            3.841,
+            0.0,
+            3.809
+          ],
+          [
+            14.251,
+            11.932,
+            8.61,
+            6.248,
+            3.809,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5511215295192904,
+        "mw": 319.17,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.924,
+        "sa_score": 3.13,
+        "n_heavy_atoms": 23,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COL9A3-P222L Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5511,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_P222L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_P222L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_P222L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_P222L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_P222L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-P222L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-P222L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:53:36.933593+00:00"
     }
   ]
 }
