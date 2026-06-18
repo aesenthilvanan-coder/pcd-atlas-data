@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1493,
+  "total_entries": 1494,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46141,
-    "queue_remaining": 132456
+    "total_processed": 46143,
+    "queue_remaining": 132454
   },
   "entries": [
     {
@@ -330374,6 +330374,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:28:18.128073+00:00"
+    },
+    {
+      "entry_id": "PCD-EPOR-V72A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EPOR-V72A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "EPOR",
+        "uniprot": "",
+        "clinvar_id": "328153",
+        "disease": "Primary familial polycythemia due to EPO receptor mutation",
+        "mutation_precursor": "V72A",
+        "mutation_mature": "V72A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8696077635566273,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 548.0724860081278,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          20.265830993652344,
+          15.789262771606445,
+          -20.40127944946289
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.749435005598413,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6665799523017892,
+        "cryptic": true,
+        "pocket_residues": {
+          "G71": "G",
+          "V72": "V",
+          "G73": "G",
+          "P74": "P",
+          "G75": "G",
+          "N76": "N",
+          "Y77": "Y"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P19235|EPOR variant V72A",
+        "fasta_sequence": "MDHLGASLWPQVGSLCLLLAGAAWAPPPNLPDPKFESKAALLAARGPEELLCFTERLEDLVCFWEEAASAGVGPGNYSFSYQLEDEPWKLCRLHQAPTARGAVRFWCSLPTADTSSFVPLELRVTAASGAPRYHRVIHINEVVLLDAPVGLVARLADESGHVVLRWLPPPETPMTSHIRYEVDVSAGNGAGSVQRVEILEGRTECVLSNLRGRTRYTFAVRARMAEPSFGGFWSAWSEPVSLLTPSDLDPLILTLSLILVVILVLLTVLALLSHRRALKQKIWPGIPSPESEFEGLFTTHKGNFQLWLYQNDGCLWWSPCTPFTEDPPASLEVLSERCWGTMQAVEPGTDDEGPLLEPVGSEHAQDTYLVLDKWLLPRNPPSEDLPGPGGSVDIVAMDEGSEASSCSSALASKPSPEGASAASFEYTILDPSSQLLRPWTLCPELPPTPPHLKYLYLVVSDSGISTDYSSGDSQGAQGGLSDGPYSNPYENSLIPAAEPLPPSYVACS",
+        "full_sequence": "MDHLGASLWPQVGSLCLLLAGAAWAPPPNLPDPKFESKAALLAARGPEELLCFTERLEDLVCFWEEAASAGVGPGNYSFSYQLEDEPWKLCRLHQAPTARGAVRFWCSLPTADTSSFVPLELRVTAASGAPRYHRVIHINEVVLLDAPVGLVARLADESGHVVLRWLPPPETPMTSHIRYEVDVSAGNGAGSVQRVEILEGRTECVLSNLRGRTRYTFAVRARMAEPSFGGFWSAWSEPVSLLTPSDLDPLILTLSLILVVILVLLTVLALLSHRRALKQKIWPGIPSPESEFEGLFTTHKGNFQLWLYQNDGCLWWSPCTPFTEDPPASLEVLSERCWGTMQAVEPGTDDEGPLLEPVGSEHAQDTYLVLDKWLLPRNPPSEDLPGPGGSVDIVAMDEGSEASSCSSALASKPSPEGASAASFEYTILDPSSQLLRPWTLCPELPPTPPHLKYLYLVVSDSGISTDYSSGDSQGAQGGLSDGPYSNPYENSLIPAAEPLPPSYVACS",
+        "n_residues": 508,
+        "mutation_pos_1indexed": 72,
+        "wt_aa": "V",
+        "mut_aa": "A",
+        "pocket_lining_residues": "G71-V72-G73-P74-G75-N76-Y77",
+        "pocket_lining_positions_precursor": [
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ],
+        "pocket_lining_1letter": "GVGPGNY",
+        "sequence_slice_around_pocket": "CFWEEAASAGVGPGNYSFSY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/EPOR_V72A/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "G71",
+          "V72",
+          "G73",
+          "P74",
+          "G75",
+          "N76",
+          "Y77"
+        ],
+        "values": [
+          [
+            0.0,
+            3.862,
+            6.047,
+            9.802,
+            9.868,
+            8.83,
+            12.149
+          ],
+          [
+            3.862,
+            0.0,
+            3.828,
+            7.125,
+            8.028,
+            6.382,
+            9.0
+          ],
+          [
+            6.047,
+            3.828,
+            0.0,
+            3.864,
+            5.422,
+            5.73,
+            7.861
+          ],
+          [
+            9.802,
+            7.125,
+            3.864,
+            0.0,
+            3.867,
+            5.454,
+            5.745
+          ],
+          [
+            9.868,
+            8.028,
+            5.422,
+            3.867,
+            0.0,
+            3.863,
+            5.435
+          ],
+          [
+            8.83,
+            6.382,
+            5.73,
+            5.454,
+            3.863,
+            0.0,
+            3.848
+          ],
+          [
+            12.149,
+            9.0,
+            7.861,
+            5.745,
+            5.435,
+            3.848,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1C(CCNC(=O)c2ccc(Cl)cc2)CCC(=O)C1O",
+        "composite_score": 0.5479138507860878,
+        "mw": 388.13,
+        "logp": 1.994,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.7224,
+        "sa_score": 3.4,
+        "n_heavy_atoms": 27,
+        "tpsa": 108.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "EPOR-V72A Candidate #1",
+        "iupac_name": "Nc1ccncc1N1C(CCNC(=O)c2ccc(Cl)cc2)CCC(=O)C1O",
+        "pocket_affinity_score": 0.5479,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/EPOR_V72A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/EPOR_V72A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/EPOR_V72A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/EPOR_V72A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/EPOR_V72A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EPOR-V72A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EPOR-V72A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:28:54.554460+00:00"
     }
   ]
 }
