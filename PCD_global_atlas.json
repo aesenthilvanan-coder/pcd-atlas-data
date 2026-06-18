@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1608,
+  "total_entries": 1609,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46267,
-    "queue_remaining": 132330
+    "total_processed": 46268,
+    "queue_remaining": 132329
   },
   "entries": [
     {
@@ -355613,6 +355613,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:48:52.167530+00:00"
+    },
+    {
+      "entry_id": "PCD-DPM1-R14W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DPM1-R14W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DPM1",
+        "uniprot": "",
+        "clinvar_id": "338758",
+        "disease": "not specified",
+        "mutation_precursor": "R14W",
+        "mutation_mature": "R14W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.783242922337494,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 524.2426334183516,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -0.3916940689086914,
+          38.472877502441406,
+          27.201963424682617
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.701792190767657,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.641392557541456,
+        "cryptic": true,
+        "pocket_residues": {
+          "S13": "S",
+          "R14": "R",
+          "R15": "R",
+          "E16": "E",
+          "L17": "L"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O60762|DPM1 variant R14W",
+        "fasta_sequence": "MASLEVSRSPRRSRRELEVRSPRQNKYSVLLPTYNERENLPLIVWLLVKSFSESGINYEIIIIDDGSPDGTRDVAEQLEKIYGSDRILLRPREKKLGLGTAYIHGMKHATGNYIIIMDADLSHHPKFIPEFIRKQKEGNFDIVSGTRYKGNGGVYGWDLKRKIISRGANFLTQILLRPGASDLTGSFRLYRKEVLEKLIEKCVSKGYVFQMEMIVRARQLNYTIGEVPISFVDRVYGESKLGGNEIVSFLKGLLTLFATT",
+        "full_sequence": "MASLEVSRSPRRSRRELEVRSPRQNKYSVLLPTYNERENLPLIVWLLVKSFSESGINYEIIIIDDGSPDGTRDVAEQLEKIYGSDRILLRPREKKLGLGTAYIHGMKHATGNYIIIMDADLSHHPKFIPEFIRKQKEGNFDIVSGTRYKGNGGVYGWDLKRKIISRGANFLTQILLRPGASDLTGSFRLYRKEVLEKLIEKCVSKGYVFQMEMIVRARQLNYTIGEVPISFVDRVYGESKLGGNEIVSFLKGLLTLFATT",
+        "n_residues": 260,
+        "mutation_pos_1indexed": 14,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "S13-R14-R15-E16-L17",
+        "pocket_lining_positions_precursor": [
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "pocket_lining_1letter": "SRREL",
+        "sequence_slice_around_pocket": "LEVSRSPRRSRRELEVRSPR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DPM1_R14W/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "S13",
+          "R14",
+          "R15",
+          "E16",
+          "L17"
+        ],
+        "values": [
+          [
+            0.0,
+            3.811,
+            5.933,
+            8.658,
+            11.746
+          ],
+          [
+            3.811,
+            0.0,
+            3.809,
+            5.816,
+            8.633
+          ],
+          [
+            5.933,
+            3.809,
+            0.0,
+            3.801,
+            6.044
+          ],
+          [
+            8.658,
+            5.816,
+            3.801,
+            0.0,
+            3.797
+          ],
+          [
+            11.746,
+            8.633,
+            6.044,
+            3.797,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCc1ccc(OC)c(N2CCCCC2)c1N1CC(=O)CCC1O",
+        "composite_score": 0.7147518739358936,
+        "mw": 361.24,
+        "logp": 1.935,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.8073,
+        "sa_score": 3.35,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DPM1-R14W Candidate #1",
+        "iupac_name": "CNCCc1ccc(OC)c(N2CCCCC2)c1N1CC(=O)CCC1O",
+        "pocket_affinity_score": 0.7148,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DPM1_R14W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DPM1_R14W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DPM1_R14W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DPM1_R14W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DPM1_R14W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DPM1-R14W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DPM1-R14W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:49:14.565813+00:00"
     }
   ]
 }
