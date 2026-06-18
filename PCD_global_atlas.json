@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1465,
+  "total_entries": 1466,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46111,
-    "queue_remaining": 132486
+    "total_processed": 46112,
+    "queue_remaining": 132485
   },
   "entries": [
     {
@@ -324454,6 +324454,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:05:39.565752+00:00"
+    },
+    {
+      "entry_id": "PCD-DYM-F642L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DYM-F642L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DYM",
+        "uniprot": "",
+        "clinvar_id": "326892",
+        "disease": "not provided",
+        "mutation_precursor": "F642L",
+        "mutation_mature": "F642L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8420963806045156,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 448.5698367245503,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.4135870933532715,
+          -8.06040096282959,
+          -0.049784183502197266
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.436925002112943,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8158428380855169,
+        "cryptic": true,
+        "pocket_residues": {
+          "L350": "L",
+          "N390": "N",
+          "S391": "S",
+          "H392": "H",
+          "H393": "H",
+          "V394": "V",
+          "Y395": "Y",
+          "M396": "M",
+          "F638": "F",
+          "F639": "F",
+          "Y642": "Y"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q7RTS9|DYM variant F642L",
+        "fasta_sequence": "MGSNSSRIGDLPKNEYLKKLSGTESISENDPFWNQLLSFSFPAPTSSSELKLLEEATISVCRSLVENNPRTGNLGALIKVFLSRTKELKLSAECQNHIFIWQTHNALFIICCLLKVFICQMSEEELQLHFTYEEKSPGNYSSDSEDLLEELLCCLMQLITDIPLLDITYEISVEAISTMVVFLSCQLFHKEVLRQSISHKYLMRGPCLPYTSKLVKTLLYNFIRQEKPPPPGAHVFPQQSDGGGLLYGLASGVATGLWTVFTLGGVGSKAAASPELSSPLANQSLLLLLVLANLTDASDAPNPYRQAIMSFKNTQDSSPFPSSIPHAFQINFNSLYTALCEQQTSDQATLLLYTLLHQNSNIRTYMLARTDMENLVLPILEILYHVEERNSHHVYMALIILLILTEDDGFNRSIHEVILKNITWYSERVLTEISLGSLLILVVIRTIQYNMTRTRDKYLHTNCLAALANMSAQFRSLHQYAAQRIISLFSLLSKKHNKVLEQATQSLRGSLSSNDVPLPDYAQDLNVIEEVIRMMLEIINSCLTNSLHHNPNLVYALLYKRDLFEQFRTHPSFQDIMQNIDLVISFFSSRLLQAGAELSVERVLEIIKQGVVALPKDRLKKFPELKFKYVEEEQPEEFFIPYVWSLVYNSAVGLYWNPQDIQLFTMDSD",
+        "full_sequence": "MGSNSSRIGDLPKNEYLKKLSGTESISENDPFWNQLLSFSFPAPTSSSELKLLEEATISVCRSLVENNPRTGNLGALIKVFLSRTKELKLSAECQNHIFIWQTHNALFIICCLLKVFICQMSEEELQLHFTYEEKSPGNYSSDSEDLLEELLCCLMQLITDIPLLDITYEISVEAISTMVVFLSCQLFHKEVLRQSISHKYLMRGPCLPYTSKLVKTLLYNFIRQEKPPPPGAHVFPQQSDGGGLLYGLASGVATGLWTVFTLGGVGSKAAASPELSSPLANQSLLLLLVLANLTDASDAPNPYRQAIMSFKNTQDSSPFPSSIPHAFQINFNSLYTALCEQQTSDQATLLLYTLLHQNSNIRTYMLARTDMENLVLPILEILYHVEERNSHHVYMALIILLILTEDDGFNRSIHEVILKNITWYSERVLTEISLGSLLILVVIRTIQYNMTRTRDKYLHTNCLAALANMSAQFRSLHQYAAQRIISLFSLLSKKHNKVLEQATQSLRGSLSSNDVPLPDYAQDLNVIEEVIRMMLEIINSCLTNSLHHNPNLVYALLYKRDLFEQFRTHPSFQDIMQNIDLVISFFSSRLLQAGAELSVERVLEIIKQGVVALPKDRLKKFPELKFKYVEEEQPEEFFIPYVWSLVYNSAVGLYWNPQDIQLFTMDSD",
+        "n_residues": 669,
+        "mutation_pos_1indexed": 642,
+        "wt_aa": "F",
+        "mut_aa": "L",
+        "pocket_lining_residues": "L350-N390-S391-H392-H393-V394-Y395-M396-F638-F639-Y642",
+        "pocket_lining_positions_precursor": [
+          350,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          638,
+          639,
+          642
+        ],
+        "pocket_lining_1letter": "LNSHHVYMFFY",
+        "sequence_slice_around_pocket": "EEQPEEFFIPYVWSLVYNSA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DYM_F642L/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "L350",
+          "N390",
+          "S391",
+          "H392",
+          "H393",
+          "V394",
+          "Y395",
+          "M396",
+          "F638",
+          "F639",
+          "Y642"
+        ],
+        "values": [
+          [
+            0.0,
+            12.641,
+            13.026,
+            9.681,
+            8.084,
+            10.816,
+            10.157,
+            6.677,
+            12.233,
+            9.298,
+            9.83
+          ],
+          [
+            12.641,
+            0.0,
+            3.871,
+            5.455,
+            5.203,
+            6.483,
+            8.881,
+            10.216,
+            14.206,
+            14.141,
+            10.768
+          ],
+          [
+            13.026,
+            3.871,
+            0.0,
+            3.844,
+            5.47,
+            5.073,
+            6.317,
+            8.876,
+            12.691,
+            13.4,
+            11.051
+          ],
+          [
+            9.681,
+            5.455,
+            3.844,
+            0.0,
+            3.845,
+            5.362,
+            5.003,
+            6.302,
+            9.639,
+            9.793,
+            8.016
+          ],
+          [
+            8.084,
+            5.203,
+            5.47,
+            3.845,
+            0.0,
+            3.843,
+            5.468,
+            5.293,
+            12.574,
+            11.706,
+            9.849
+          ],
+          [
+            10.816,
+            6.483,
+            5.073,
+            5.362,
+            3.843,
+            0.0,
+            3.849,
+            5.621,
+            14.447,
+            14.263,
+            12.985
+          ],
+          [
+            10.157,
+            8.881,
+            6.317,
+            5.003,
+            5.468,
+            3.849,
+            0.0,
+            3.836,
+            11.944,
+            12.119,
+            12.07
+          ],
+          [
+            6.677,
+            10.216,
+            8.876,
+            6.302,
+            5.293,
+            5.621,
+            3.836,
+            0.0,
+            11.868,
+            10.867,
+            11.371
+          ],
+          [
+            12.233,
+            14.206,
+            12.691,
+            9.639,
+            12.574,
+            14.447,
+            11.944,
+            11.868,
+            0.0,
+            3.827,
+            6.256
+          ],
+          [
+            9.298,
+            14.141,
+            13.4,
+            9.793,
+            11.706,
+            14.263,
+            12.119,
+            10.867,
+            3.827,
+            0.0,
+            4.941
+          ],
+          [
+            9.83,
+            10.768,
+            11.051,
+            8.016,
+            9.849,
+            12.985,
+            12.07,
+            11.371,
+            6.256,
+            4.941,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6571432521986419,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DYM-F642L Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6571,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DYM_F642L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DYM_F642L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DYM_F642L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DYM_F642L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DYM_F642L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DYM-F642L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DYM-F642L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:06:08.315633+00:00"
     }
   ]
 }
