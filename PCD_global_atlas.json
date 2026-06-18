@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2092,
+  "total_entries": 2093,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46801,
-    "queue_remaining": 131796
+    "total_processed": 46802,
+    "queue_remaining": 131795
   },
   "entries": [
     {
@@ -478317,6 +478317,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:32:33.404294+00:00"
+    },
+    {
+      "entry_id": "PCD-ALDH18A1-C161Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALDH18A1-C161Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ALDH18A1",
+        "uniprot": "",
+        "clinvar_id": "373670",
+        "disease": "not provided",
+        "mutation_precursor": "C161Y",
+        "mutation_mature": "C161Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9042426899155585,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 317.3669382431345,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          51.32874298095703,
+          -17.96250343322754,
+          -14.518009185791016
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.6078455269715715,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8372217534948246,
+        "cryptic": true,
+        "pocket_residues": {
+          "L127": "L",
+          "L156": "L",
+          "E157": "E",
+          "R159": "R",
+          "A160": "A",
+          "C161": "C",
+          "A162": "A",
+          "A163": "A",
+          "A164": "A"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P54886|ALDH18A1 variant C161Y",
+        "fasta_sequence": "MLSQVYRCGFQPFNQHLLPWVKCTTVFRSHCIQPSVIRHVRSWSNIPFITVPLSRTHGKSFAHRSELKHAKRIVVKLGSAVVTRGDECGLALGRLASIVEQVSVLQNQGREMMLVTSGAVAFGKQRLRHEILLSQSVRQALHSGQNQLKEMAIPVLEARACAAAGQSGLMALYEAMFTQYSICAAQILVTNLDFHDEQKRRNLNGTLHELLRMNIVPIVNTNDAVVPPAEPNSDLQGVNVISVKDNDSLAARLAVEMKTDLLIVLSDVEGLFDSPPGSDDAKLIDIFYPGDQQSVTFGTKSRVGMGGMEAKVKAALWALQGGTSVVIANGTHPKVSGHVITDIVEGKKVGTFFSEVKPAGPTVEQQGEMARSGGRMLATLEPEQRAEIIHHLADLLTDQRDEILLANKKDLEEAEGRLAAPLLKRLSLSTSKLNSLAIGLRQIAASSQDSVGRVLRRTRIAKNLELEQVTVPIGVLLVIFESRPDCLPQVAALAIASGNGLLLKGGKEAAHSNRILHLLTQEALSIHGVKEAVQLVNTREEVEDLCRLDKMIDLIIPRGSSQLVRDIQKAAKGIPVMGHSEGICHMYVDSEASVDKVTRLVRDSKCEYPAACNALETLLIHRDLLRTPLFDQIIDMLRVEQVKIHAGPKFASYLTFSPSEVKSLRTEYGDLELCIEVVDNVQDAIDHIHKYGSSHTDVIVTEDENTAEFFLQHVDSACVFWNASTRFSDGYRFGLGAEVGISTSRIHARGPVGLEGLLTTKWLLRGKDHVVSDFSEHGSLKYLHENLPIPQRNTN",
+        "full_sequence": "MLSQVYRCGFQPFNQHLLPWVKCTTVFRSHCIQPSVIRHVRSWSNIPFITVPLSRTHGKSFAHRSELKHAKRIVVKLGSAVVTRGDECGLALGRLASIVEQVSVLQNQGREMMLVTSGAVAFGKQRLRHEILLSQSVRQALHSGQNQLKEMAIPVLEARACAAAGQSGLMALYEAMFTQYSICAAQILVTNLDFHDEQKRRNLNGTLHELLRMNIVPIVNTNDAVVPPAEPNSDLQGVNVISVKDNDSLAARLAVEMKTDLLIVLSDVEGLFDSPPGSDDAKLIDIFYPGDQQSVTFGTKSRVGMGGMEAKVKAALWALQGGTSVVIANGTHPKVSGHVITDIVEGKKVGTFFSEVKPAGPTVEQQGEMARSGGRMLATLEPEQRAEIIHHLADLLTDQRDEILLANKKDLEEAEGRLAAPLLKRLSLSTSKLNSLAIGLRQIAASSQDSVGRVLRRTRIAKNLELEQVTVPIGVLLVIFESRPDCLPQVAALAIASGNGLLLKGGKEAAHSNRILHLLTQEALSIHGVKEAVQLVNTREEVEDLCRLDKMIDLIIPRGSSQLVRDIQKAAKGIPVMGHSEGICHMYVDSEASVDKVTRLVRDSKCEYPAACNALETLLIHRDLLRTPLFDQIIDMLRVEQVKIHAGPKFASYLTFSPSEVKSLRTEYGDLELCIEVVDNVQDAIDHIHKYGSSHTDVIVTEDENTAEFFLQHVDSACVFWNASTRFSDGYRFGLGAEVGISTSRIHARGPVGLEGLLTTKWLLRGKDHVVSDFSEHGSLKYLHENLPIPQRNTN",
+        "n_residues": 795,
+        "mutation_pos_1indexed": 161,
+        "wt_aa": "C",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "L127-L156-E157-R159-A160-C161-A162-A163-A164",
+        "pocket_lining_positions_precursor": [
+          127,
+          156,
+          157,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164
+        ],
+        "pocket_lining_1letter": "LLERACAAA",
+        "sequence_slice_around_pocket": "MAIPVLEARACAAAGQSGLM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ALDH18A1_C161Y/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "L127",
+          "L156",
+          "E157",
+          "R159",
+          "A160",
+          "C161",
+          "A162",
+          "A163",
+          "A164"
+        ],
+        "values": [
+          [
+            0.0,
+            7.966,
+            10.211,
+            11.744,
+            8.64,
+            6.927,
+            10.247,
+            10.328,
+            7.28
+          ],
+          [
+            7.966,
+            0.0,
+            3.798,
+            8.622,
+            7.356,
+            6.863,
+            10.284,
+            11.86,
+            11.27
+          ],
+          [
+            10.211,
+            3.798,
+            0.0,
+            5.565,
+            5.546,
+            6.375,
+            8.788,
+            10.35,
+            11.027
+          ],
+          [
+            11.744,
+            8.622,
+            5.565,
+            0.0,
+            3.825,
+            5.345,
+            4.999,
+            6.316,
+            8.747
+          ],
+          [
+            8.64,
+            7.356,
+            5.546,
+            3.825,
+            0.0,
+            3.84,
+            5.465,
+            5.223,
+            6.269
+          ],
+          [
+            6.927,
+            6.863,
+            6.375,
+            5.345,
+            3.84,
+            0.0,
+            3.837,
+            5.524,
+            5.278
+          ],
+          [
+            10.247,
+            10.284,
+            8.788,
+            4.999,
+            5.465,
+            3.837,
+            0.0,
+            3.85,
+            5.668
+          ],
+          [
+            10.328,
+            11.86,
+            10.35,
+            6.316,
+            5.223,
+            5.524,
+            3.85,
+            0.0,
+            3.851
+          ],
+          [
+            7.28,
+            11.27,
+            11.027,
+            8.747,
+            6.269,
+            5.278,
+            5.668,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.908973921652678,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ALDH18A1-C161Y Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.909,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ALDH18A1_C161Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ALDH18A1_C161Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ALDH18A1_C161Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALDH18A1_C161Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALDH18A1_C161Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALDH18A1-C161Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALDH18A1-C161Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:33:04.667954+00:00"
     }
   ]
 }
