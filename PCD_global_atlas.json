@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1540,
+  "total_entries": 1541,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46191,
-    "queue_remaining": 132406
+    "total_processed": 46192,
+    "queue_remaining": 132405
   },
   "entries": [
     {
@@ -340914,6 +340914,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:03:37.129626+00:00"
+    },
+    {
+      "entry_id": "PCD-EPOR-P380L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EPOR-P380L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "EPOR",
+        "uniprot": "",
+        "clinvar_id": "328142",
+        "disease": "Primary familial polycythemia due to EPO receptor mutation",
+        "mutation_precursor": "P380L",
+        "mutation_mature": "P380L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9143052699200759,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 649.122484094729,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -59.68383026123047,
+          -21.937360763549805,
+          68.74705505371094
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.4582227204111895,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8203811325390121,
+        "cryptic": true,
+        "pocket_residues": {
+          "N379": "N",
+          "P380": "P",
+          "P381": "P",
+          "S382": "S",
+          "E383": "E"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P19235|EPOR variant P380L",
+        "fasta_sequence": "MDHLGASLWPQVGSLCLLLAGAAWAPPPNLPDPKFESKAALLAARGPEELLCFTERLEDLVCFWEEAASAGVGPGNYSFSYQLEDEPWKLCRLHQAPTARGAVRFWCSLPTADTSSFVPLELRVTAASGAPRYHRVIHINEVVLLDAPVGLVARLADESGHVVLRWLPPPETPMTSHIRYEVDVSAGNGAGSVQRVEILEGRTECVLSNLRGRTRYTFAVRARMAEPSFGGFWSAWSEPVSLLTPSDLDPLILTLSLILVVILVLLTVLALLSHRRALKQKIWPGIPSPESEFEGLFTTHKGNFQLWLYQNDGCLWWSPCTPFTEDPPASLEVLSERCWGTMQAVEPGTDDEGPLLEPVGSEHAQDTYLVLDKWLLPRNPPSEDLPGPGGSVDIVAMDEGSEASSCSSALASKPSPEGASAASFEYTILDPSSQLLRPWTLCPELPPTPPHLKYLYLVVSDSGISTDYSSGDSQGAQGGLSDGPYSNPYENSLIPAAEPLPPSYVACS",
+        "full_sequence": "MDHLGASLWPQVGSLCLLLAGAAWAPPPNLPDPKFESKAALLAARGPEELLCFTERLEDLVCFWEEAASAGVGPGNYSFSYQLEDEPWKLCRLHQAPTARGAVRFWCSLPTADTSSFVPLELRVTAASGAPRYHRVIHINEVVLLDAPVGLVARLADESGHVVLRWLPPPETPMTSHIRYEVDVSAGNGAGSVQRVEILEGRTECVLSNLRGRTRYTFAVRARMAEPSFGGFWSAWSEPVSLLTPSDLDPLILTLSLILVVILVLLTVLALLSHRRALKQKIWPGIPSPESEFEGLFTTHKGNFQLWLYQNDGCLWWSPCTPFTEDPPASLEVLSERCWGTMQAVEPGTDDEGPLLEPVGSEHAQDTYLVLDKWLLPRNPPSEDLPGPGGSVDIVAMDEGSEASSCSSALASKPSPEGASAASFEYTILDPSSQLLRPWTLCPELPPTPPHLKYLYLVVSDSGISTDYSSGDSQGAQGGLSDGPYSNPYENSLIPAAEPLPPSYVACS",
+        "n_residues": 508,
+        "mutation_pos_1indexed": 380,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "N379-P380-P381-S382-E383",
+        "pocket_lining_positions_precursor": [
+          379,
+          380,
+          381,
+          382,
+          383
+        ],
+        "pocket_lining_1letter": "NPPSE",
+        "sequence_slice_around_pocket": "VLDKWLLPRNPPSEDLPGPG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/EPOR_P380L/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "N379",
+          "P380",
+          "P381",
+          "S382",
+          "E383"
+        ],
+        "values": [
+          [
+            0.0,
+            3.869,
+            6.576,
+            9.444,
+            12.981
+          ],
+          [
+            3.869,
+            0.0,
+            3.871,
+            6.787,
+            10.124
+          ],
+          [
+            6.576,
+            3.871,
+            0.0,
+            3.837,
+            6.656
+          ],
+          [
+            9.444,
+            6.787,
+            3.837,
+            0.0,
+            3.855
+          ],
+          [
+            12.981,
+            10.124,
+            6.656,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1OCNc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "composite_score": 0.7355500287167961,
+        "mw": 420.18,
+        "logp": 2.24,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 8,
+        "qed": 0.5602,
+        "sa_score": 2.43,
+        "n_heavy_atoms": 29,
+        "tpsa": 119.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "EPOR-P380L Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1OCNc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7356,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/EPOR_P380L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/EPOR_P380L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/EPOR_P380L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/EPOR_P380L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/EPOR_P380L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EPOR-P380L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EPOR-P380L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:04:02.211619+00:00"
     }
   ]
 }
