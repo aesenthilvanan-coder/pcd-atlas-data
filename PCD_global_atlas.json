@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1769,
+  "total_entries": 1770,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46444,
-    "queue_remaining": 132153
+    "total_processed": 46445,
+    "queue_remaining": 132152
   },
   "entries": [
     {
@@ -395047,6 +395047,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:42:22.248846+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC26A4-S532I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC26A4-S532I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC26A4",
+        "uniprot": "",
+        "clinvar_id": "370114",
+        "disease": "Pendred syndrome",
+        "mutation_precursor": "S532I",
+        "mutation_mature": "S532I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.805050762893953,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 463.9021653168444,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          19.887943267822266,
+          -3.592674970626831,
+          -25.559486389160156
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.077405182549462,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6389839331837253,
+        "cryptic": true,
+        "pocket_residues": {
+          "S517": "S",
+          "W518": "W",
+          "N519": "N",
+          "K531": "K",
+          "S532": "S",
+          "R549": "R",
+          "S551": "S"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43511|SLC26A4 variant S532I",
+        "fasta_sequence": "MAAPGGRSEPPQLPEYSCSYMVSRPVYSELAFQQQHERRLQERKTLRESLAKCCSCSRKRAFGVLKTLVPILEWLPKYRVKEWLLSDVISGVSTGLVATLQGMAYALLAAVPVGYGLYSAFFPILTYFIFGTSRHISVGPFPVVSLMVGSVVLSMAPDEHFLVSSSNGTVLNTTMIDTAARDTARVLIASALTLLVGIIQLIFGGLQIGFIVRYLADPLVGGFTTAAAFQVLVSQLKIVLNVSTKNYNGVLSIIYTLVEIFQNIGDTNLADFTAGLLTIVVCMAVKELNDRFRHKIPVPIPIEVIVTIIATAISYGANLEKNYNAGIVKSIPRGFLPPELPPVSLFSEMLAASFSIAVVAYAIAVSVGKVYATKYDYTIDGNQEFIAFGISNIFSGFFSCFVATTALSRTAVQESTGGKTQVAGIISAAIVMIAILALGKLLEPLQKSVLAAVVIANLKGMFMQLCDIPRLWRQNKIDAVIWVFTCIVSIILGLDLGLLAGLIFGLLTVVLRVQFPSWNGLGSIPSTDIYKSTKNYKNIEEPQGVKILRFSSPIFYGNVDGFKKCIKSTVGFDAIRVYNKRLKALRKIQKLIKSGQLRATKNGIISDAVSTNNAFEPDEDIEDLEELDIPTKEIEIQVDWNSELPVKVNVPKVPIHSLVLDCGAISFLDVVGVRSLRVIVKEFQRIDVNVYFASLQDYVIEKLEQCGFFDDNIRKDTFFLTVHDAILYLQNQVKSQEGQGSILETITLIQDCKDTLELIETELTEEELDVQDEAMRTLAS",
+        "full_sequence": "MAAPGGRSEPPQLPEYSCSYMVSRPVYSELAFQQQHERRLQERKTLRESLAKCCSCSRKRAFGVLKTLVPILEWLPKYRVKEWLLSDVISGVSTGLVATLQGMAYALLAAVPVGYGLYSAFFPILTYFIFGTSRHISVGPFPVVSLMVGSVVLSMAPDEHFLVSSSNGTVLNTTMIDTAARDTARVLIASALTLLVGIIQLIFGGLQIGFIVRYLADPLVGGFTTAAAFQVLVSQLKIVLNVSTKNYNGVLSIIYTLVEIFQNIGDTNLADFTAGLLTIVVCMAVKELNDRFRHKIPVPIPIEVIVTIIATAISYGANLEKNYNAGIVKSIPRGFLPPELPPVSLFSEMLAASFSIAVVAYAIAVSVGKVYATKYDYTIDGNQEFIAFGISNIFSGFFSCFVATTALSRTAVQESTGGKTQVAGIISAAIVMIAILALGKLLEPLQKSVLAAVVIANLKGMFMQLCDIPRLWRQNKIDAVIWVFTCIVSIILGLDLGLLAGLIFGLLTVVLRVQFPSWNGLGSIPSTDIYKSTKNYKNIEEPQGVKILRFSSPIFYGNVDGFKKCIKSTVGFDAIRVYNKRLKALRKIQKLIKSGQLRATKNGIISDAVSTNNAFEPDEDIEDLEELDIPTKEIEIQVDWNSELPVKVNVPKVPIHSLVLDCGAISFLDVVGVRSLRVIVKEFQRIDVNVYFASLQDYVIEKLEQCGFFDDNIRKDTFFLTVHDAILYLQNQVKSQEGQGSILETITLIQDCKDTLELIETELTEEELDVQDEAMRTLAS",
+        "n_residues": 780,
+        "mutation_pos_1indexed": 532,
+        "wt_aa": "S",
+        "mut_aa": "I",
+        "pocket_lining_residues": "S517-W518-N519-K531-S532-R549-S551",
+        "pocket_lining_positions_precursor": [
+          517,
+          518,
+          519,
+          531,
+          532,
+          549,
+          551
+        ],
+        "pocket_lining_1letter": "SWNKSRS",
+        "sequence_slice_around_pocket": "GSIPSTDIYKSTKNYKNIEE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC26A4_S532I/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "S517",
+          "W518",
+          "N519",
+          "K531",
+          "S532",
+          "R549",
+          "S551"
+        ],
+        "values": [
+          [
+            0.0,
+            3.833,
+            6.928,
+            13.895,
+            11.383,
+            8.813,
+            5.798
+          ],
+          [
+            3.833,
+            0.0,
+            3.819,
+            11.824,
+            9.245,
+            5.801,
+            6.0
+          ],
+          [
+            6.928,
+            3.819,
+            0.0,
+            8.591,
+            5.715,
+            5.394,
+            8.335
+          ],
+          [
+            13.895,
+            11.824,
+            8.591,
+            0.0,
+            3.823,
+            9.547,
+            13.107
+          ],
+          [
+            11.383,
+            9.245,
+            5.715,
+            3.823,
+            0.0,
+            8.712,
+            12.065
+          ],
+          [
+            8.813,
+            5.801,
+            5.394,
+            9.547,
+            8.712,
+            0.0,
+            6.309
+          ],
+          [
+            5.798,
+            6.0,
+            8.335,
+            13.107,
+            12.065,
+            6.309,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.5420194491807042,
+        "mw": 317.21,
+        "logp": 2.135,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9218,
+        "sa_score": 3.14,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC26A4-S532I Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.542,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC26A4_S532I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC26A4_S532I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC26A4_S532I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC26A4_S532I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC26A4_S532I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC26A4-S532I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC26A4-S532I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:42:55.240401+00:00"
     }
   ]
 }
