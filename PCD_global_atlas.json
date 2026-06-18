@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2417,
+  "total_entries": 2418,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47178,
-    "queue_remaining": 131419
+    "total_processed": 47179,
+    "queue_remaining": 131418
   },
   "entries": [
     {
@@ -564941,6 +564941,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:09:34.109085+00:00"
+    },
+    {
+      "entry_id": "PCD-PANK2-R247W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PANK2-R247W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PANK2",
+        "uniprot": "",
+        "clinvar_id": "374127",
+        "disease": "Neurodegeneration",
+        "mutation_precursor": "R247W",
+        "mutation_mature": "R247W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7476839947832944,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 520.5589741278308,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -28.842435836791992,
+          -4.798371315002441,
+          4.10164737701416
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.27427303820329,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8855547811033279,
+        "cryptic": true,
+        "pocket_residues": {
+          "S247": "S",
+          "I248": "I",
+          "R249": "R",
+          "K250": "K",
+          "Y251": "Y",
+          "L252": "L",
+          "T253": "T",
+          "S254": "S",
+          "N255": "N"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9BZ23|PANK2 variant R247W",
+        "fasta_sequence": "MRRLGPFHPRVHWAAPPSLSSGLHRLLFLRGTRIPSSTTLSPPRHDSLSLDGGTVNPPRVREPTGREAFGPSPASSDWLPARWRNGRGGRPRARLCSGWTAAEEARRNPTLGGLLGRQRLLLRMGGGRLGAPMERHGRASATSVSSAGEQAAGDPEGRRQEPLRRRASSASVPAVGASAEGTRRDRLGSYSGPTSVSRQRVESLRKKRPLFPWFGLDIGGTLVKLVYFEPKDITAEEEEEEVESLKSIRKYLTSNVAYGSTGIRDVHLELKDLTLCGRKGNLHFIRFPTHDMPAFIQMGRDKNFSSLHTVFCATGGGAYKFEQDFLTIGDLQLCKLDELDCLIKGILYIDSVGFNGRSQCYYFENPADSEKCQKLPFDLKNPYPLLLVNIGSGVSILAVYSKDNYKRVTGTSLGGGTFFGLCCLLTGCTTFEEALEMASRGDSTKVDKLVRDIYGGDYERFGLPGWAVASSFGNMMSKEKREAVSKEDLARATLITITNNIGSIARMCALNENINQVVFVGNFLRINTIAMRLLAYALDYWSKGQLKALFSEHEGYFGAVGALLELLKIP",
+        "full_sequence": "MRRLGPFHPRVHWAAPPSLSSGLHRLLFLRGTRIPSSTTLSPPRHDSLSLDGGTVNPPRVREPTGREAFGPSPASSDWLPARWRNGRGGRPRARLCSGWTAAEEARRNPTLGGLLGRQRLLLRMGGGRLGAPMERHGRASATSVSSAGEQAAGDPEGRRQEPLRRRASSASVPAVGASAEGTRRDRLGSYSGPTSVSRQRVESLRKKRPLFPWFGLDIGGTLVKLVYFEPKDITAEEEEEEVESLKSIRKYLTSNVAYGSTGIRDVHLELKDLTLCGRKGNLHFIRFPTHDMPAFIQMGRDKNFSSLHTVFCATGGGAYKFEQDFLTIGDLQLCKLDELDCLIKGILYIDSVGFNGRSQCYYFENPADSEKCQKLPFDLKNPYPLLLVNIGSGVSILAVYSKDNYKRVTGTSLGGGTFFGLCCLLTGCTTFEEALEMASRGDSTKVDKLVRDIYGGDYERFGLPGWAVASSFGNMMSKEKREAVSKEDLARATLITITNNIGSIARMCALNENINQVVFVGNFLRINTIAMRLLAYALDYWSKGQLKALFSEHEGYFGAVGALLELLKIP",
+        "n_residues": 570,
+        "mutation_pos_1indexed": 247,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "S247-I248-R249-K250-Y251-L252-T253-S254-N255",
+        "pocket_lining_positions_precursor": [
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255
+        ],
+        "pocket_lining_1letter": "SIRKYLTSN",
+        "sequence_slice_around_pocket": "EEEEEVESLKSIRKYLTSNV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PANK2_R247W/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "S247",
+          "I248",
+          "R249",
+          "K250",
+          "Y251",
+          "L252",
+          "T253",
+          "S254",
+          "N255"
+        ],
+        "values": [
+          [
+            0.0,
+            3.872,
+            5.577,
+            5.186,
+            6.008,
+            8.704,
+            10.026,
+            10.433,
+            12.03
+          ],
+          [
+            3.872,
+            0.0,
+            3.875,
+            5.504,
+            4.979,
+            6.186,
+            8.583,
+            10.048,
+            10.838
+          ],
+          [
+            5.577,
+            3.875,
+            0.0,
+            3.84,
+            5.486,
+            5.32,
+            6.062,
+            8.407,
+            10.169
+          ],
+          [
+            5.186,
+            5.504,
+            3.84,
+            0.0,
+            3.85,
+            5.589,
+            5.239,
+            5.707,
+            8.197
+          ],
+          [
+            6.008,
+            4.979,
+            5.486,
+            3.85,
+            0.0,
+            3.866,
+            5.757,
+            5.69,
+            6.16
+          ],
+          [
+            8.704,
+            6.186,
+            5.32,
+            5.589,
+            3.866,
+            0.0,
+            3.857,
+            5.939,
+            5.764
+          ],
+          [
+            10.026,
+            8.583,
+            6.062,
+            5.239,
+            5.757,
+            3.857,
+            0.0,
+            3.864,
+            5.687
+          ],
+          [
+            10.433,
+            10.048,
+            8.407,
+            5.707,
+            5.69,
+            5.939,
+            3.864,
+            0.0,
+            3.863
+          ],
+          [
+            12.03,
+            10.838,
+            10.169,
+            8.197,
+            6.16,
+            5.764,
+            5.687,
+            3.863,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(N)c(N2CC(=O)CCC2CCNc2ncnc3[nH]cnc23)c1",
+        "composite_score": 0.6145320871085881,
+        "mw": 381.19,
+        "logp": 1.984,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 6,
+        "qed": 0.5542,
+        "sa_score": 3.44,
+        "n_heavy_atoms": 28,
+        "tpsa": 122.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PANK2-R247W Candidate #1",
+        "iupac_name": "COc1ccc(N)c(N2CC(=O)CCC2CCNc2ncnc3[nH]cnc23)c1",
+        "pocket_affinity_score": 0.6145,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PANK2_R247W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PANK2_R247W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PANK2_R247W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PANK2_R247W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PANK2_R247W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PANK2-R247W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PANK2-R247W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:10:02.115485+00:00"
     }
   ]
 }
