@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2189,
+  "total_entries": 2190,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46913,
-    "queue_remaining": 131684
+    "total_processed": 46914,
+    "queue_remaining": 131683
   },
   "entries": [
     {
@@ -503763,6 +503763,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T09:00:20.216372+00:00"
+    },
+    {
+      "entry_id": "PCD-FOXG1-F215L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXG1-F215L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FOXG1",
+        "uniprot": "",
+        "clinvar_id": "373043",
+        "disease": "not provided",
+        "mutation_precursor": "F215L",
+        "mutation_mature": "F215L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7976858899094906,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 513.4379669645783,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -6.372880935668945,
+          -2.3235998153686523,
+          9.950849533081055
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.724507918993681,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8304092322389609,
+        "cryptic": true,
+        "pocket_residues": {
+          "L189": "L",
+          "F210": "F",
+          "I211": "I",
+          "M212": "M",
+          "K213": "K",
+          "N214": "N",
+          "F215": "F",
+          "P216": "P",
+          "Y217": "Y",
+          "Y218": "Y"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P55316|FOXG1 variant F215L",
+        "fasta_sequence": "MLDMGDRKEVKMIPKSSFSINSLVPEAVQNDNHHASHGHHNSHHPQHHHHHHHHHHHPPPPAPQPPPPPQQQQPPPPPPPAPQPPQTRGAPAADDDKGPQQLLLPPPPPPPPAAALDGAKADGLGGKGEPGGGPGELAPVGPDEKEKGAGAGGEEKKGAGEGGKDGEGGKEGEKKNGKYEKPPFSYNALIMMAIRQSPEKRLTLNGIYEFIMKNFPYYRENKQGWQNSIRHNLSLNKCFVKVPRHYDDPGKGNYWMLDPSSDDVFIGGTTGKLRRRSTTSRAKLAFKRGARLTSTGLTFMDRAGSLYWPMSPFLSLHHPRASSTLSYNGTTSAYPSHPMPYSSVLTQNSLGNNHSFSTANGLSVDRLVNGEIPYATHHLTAAALAASVPCGLSVPCSGTYSLNPCSVNLLAGQTSYFFPHVPHPSMTSQSSTSMSARAASSSTSPQAPSTLPCESLRPSLPSFTTGLSGGLSDYFTHQNQGSSSNPLIH",
+        "full_sequence": "MLDMGDRKEVKMIPKSSFSINSLVPEAVQNDNHHASHGHHNSHHPQHHHHHHHHHHHPPPPAPQPPPPPQQQQPPPPPPPAPQPPQTRGAPAADDDKGPQQLLLPPPPPPPPAAALDGAKADGLGGKGEPGGGPGELAPVGPDEKEKGAGAGGEEKKGAGEGGKDGEGGKEGEKKNGKYEKPPFSYNALIMMAIRQSPEKRLTLNGIYEFIMKNFPYYRENKQGWQNSIRHNLSLNKCFVKVPRHYDDPGKGNYWMLDPSSDDVFIGGTTGKLRRRSTTSRAKLAFKRGARLTSTGLTFMDRAGSLYWPMSPFLSLHHPRASSTLSYNGTTSAYPSHPMPYSSVLTQNSLGNNHSFSTANGLSVDRLVNGEIPYATHHLTAAALAASVPCGLSVPCSGTYSLNPCSVNLLAGQTSYFFPHVPHPSMTSQSSTSMSARAASSSTSPQAPSTLPCESLRPSLPSFTTGLSGGLSDYFTHQNQGSSSNPLIH",
+        "n_residues": 489,
+        "mutation_pos_1indexed": 215,
+        "wt_aa": "F",
+        "mut_aa": "L",
+        "pocket_lining_residues": "L189-F210-I211-M212-K213-N214-F215-P216-Y217-Y218",
+        "pocket_lining_positions_precursor": [
+          189,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218
+        ],
+        "pocket_lining_1letter": "LFIMKNFPYY",
+        "sequence_slice_around_pocket": "NGIYEFIMKNFPYYRENKQG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FOXG1_F215L/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "L189",
+          "F210",
+          "I211",
+          "M212",
+          "K213",
+          "N214",
+          "F215",
+          "P216",
+          "Y217",
+          "Y218"
+        ],
+        "values": [
+          [
+            0.0,
+            8.833,
+            7.006,
+            10.728,
+            11.821,
+            9.794,
+            9.637,
+            13.079,
+            12.831,
+            11.22
+          ],
+          [
+            8.833,
+            0.0,
+            3.847,
+            5.659,
+            5.233,
+            6.274,
+            8.336,
+            10.334,
+            12.357,
+            10.207
+          ],
+          [
+            7.006,
+            3.847,
+            0.0,
+            3.876,
+            5.513,
+            5.483,
+            5.635,
+            7.892,
+            9.029,
+            6.798
+          ],
+          [
+            10.728,
+            5.659,
+            3.876,
+            0.0,
+            3.867,
+            5.798,
+            5.365,
+            5.482,
+            7.463,
+            5.415
+          ],
+          [
+            11.821,
+            5.233,
+            5.513,
+            3.867,
+            0.0,
+            3.843,
+            5.843,
+            6.46,
+            9.674,
+            8.81
+          ],
+          [
+            9.794,
+            6.274,
+            5.483,
+            5.798,
+            3.843,
+            0.0,
+            3.852,
+            6.46,
+            9.125,
+            9.114
+          ],
+          [
+            9.637,
+            8.336,
+            5.635,
+            5.365,
+            5.843,
+            3.852,
+            0.0,
+            3.874,
+            5.449,
+            6.102
+          ],
+          [
+            13.079,
+            10.334,
+            7.892,
+            5.482,
+            6.46,
+            6.46,
+            3.874,
+            0.0,
+            3.872,
+            5.392
+          ],
+          [
+            12.831,
+            12.357,
+            9.029,
+            7.463,
+            9.674,
+            9.125,
+            5.449,
+            3.872,
+            0.0,
+            3.856
+          ],
+          [
+            11.22,
+            10.207,
+            6.798,
+            5.415,
+            8.81,
+            9.114,
+            6.102,
+            5.392,
+            3.856,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.627296782911963,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FOXG1-F215L Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6273,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FOXG1_F215L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FOXG1_F215L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FOXG1_F215L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXG1_F215L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXG1_F215L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXG1-F215L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXG1-F215L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T09:00:53.320128+00:00"
     }
   ]
 }
