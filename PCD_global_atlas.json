@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2269,
+  "total_entries": 2270,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47004,
-    "queue_remaining": 131593
+    "total_processed": 47005,
+    "queue_remaining": 131592
   },
   "entries": [
     {
@@ -523964,6 +523964,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T10:54:56.259727+00:00"
+    },
+    {
+      "entry_id": "PCD-COL6A1-A378P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL6A1-A378P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COL6A1",
+        "uniprot": "",
+        "clinvar_id": "372826",
+        "disease": "not provided",
+        "mutation_precursor": "A378P",
+        "mutation_mature": "A378P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8379361346976225,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 477.24300773689157,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          34.286659240722656,
+          16.437509536743164,
+          54.98715591430664
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.5695778379032297,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7387754924664772,
+        "cryptic": true,
+        "pocket_residues": {
+          "G377": "G",
+          "A378": "A",
+          "D379": "D",
+          "G380": "G",
+          "E381": "E"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P12109|COL6A1 variant A378P",
+        "fasta_sequence": "MRAARALLPLLLQACWTAAQDEPETPRAVAFQDCPVDLFFVLDTSESVALRLKPYGALVDKVKSFTKRFIDNLRDRYYRCDRNLVWNAGALHYSDEVEIIQGLTRMPGGRDALKSSVDAVKYFGKGTYTDCAIKKGLEQLLVGGSHLKENKYLIVVTDGHPLEGYKEPCGGLEDAVNEAKHLGVKVFSVAITPDHLEPRLSIIATDHTYRRNFTAADWGQSRDAEEAISQTIDTIVDMIKNNVEQVCCSFECQPARGPPGLRGDPGFEGERGKPGLPGEKGEAGDPGRPGDLGPVGYQGMKGEKGSRGEKGSRGPKGYKGEKGKRGIDGVDGVKGEMGYPGLPGCKGSPGFDGIQGPPGPKGDPGAFGLKGEKGEPGADGEAGRPGSSGPSGDEGQPGEPGPPGEKGEAGDEGNPGPDGAPGERGGPGERGPRGTPGTRGPRGDPGEAGPQGDQGREGPVGVPGDPGEAGPIGPKGYRGDEGPPGSEGARGAPGPAGPPGDPGLMGERGEDGPAGNGTEGFPGFPGYPGNRGAPGINGTKGYPGLKGDEGEAGDPGDDNNDIAPRGVKGAKGYRGPEGPQGPPGHQGPPGPDECEILDIIMKMCSCCECKCGPIDLLFVLDSSESIGLQNFEIAKDFVVKVIDRLSRDELVKFEPGQSYAGVVQYSHSQMQEHVSLRSPSIRNVQELKEAIKSLQWMAGGTFTGEALQYTRDQLLPPSPNNRIALVITDGRSDTQRDTTPLNVLCSPGIQVVSVGIKDVFDFIPGSDQLNVISCQGLAPSQGRPGLSLVKENYAELLEDAFLKNVTAQICIDKKCPDYTCPITFSSPADITILLDGSASVGSHNFDTTKRFAKRLAERFLTAGRTDPAHDVRVAVVQYSGTGQQRPERASLQFLQNYTALASAVDAMDFINDATDVNDALGYVTRFYREASSGAAKKRLLLFSDGNSQGATPAAIEKAVQEAQRAGIEIFVVVVGRQVNEPHIRVLVTGKTAEYDVAYGESHLFRVPSYQALLRGVFHQTVSRKVALG",
+        "full_sequence": "MRAARALLPLLLQACWTAAQDEPETPRAVAFQDCPVDLFFVLDTSESVALRLKPYGALVDKVKSFTKRFIDNLRDRYYRCDRNLVWNAGALHYSDEVEIIQGLTRMPGGRDALKSSVDAVKYFGKGTYTDCAIKKGLEQLLVGGSHLKENKYLIVVTDGHPLEGYKEPCGGLEDAVNEAKHLGVKVFSVAITPDHLEPRLSIIATDHTYRRNFTAADWGQSRDAEEAISQTIDTIVDMIKNNVEQVCCSFECQPARGPPGLRGDPGFEGERGKPGLPGEKGEAGDPGRPGDLGPVGYQGMKGEKGSRGEKGSRGPKGYKGEKGKRGIDGVDGVKGEMGYPGLPGCKGSPGFDGIQGPPGPKGDPGAFGLKGEKGEPGADGEAGRPGSSGPSGDEGQPGEPGPPGEKGEAGDEGNPGPDGAPGERGGPGERGPRGTPGTRGPRGDPGEAGPQGDQGREGPVGVPGDPGEAGPIGPKGYRGDEGPPGSEGARGAPGPAGPPGDPGLMGERGEDGPAGNGTEGFPGFPGYPGNRGAPGINGTKGYPGLKGDEGEAGDPGDDNNDIAPRGVKGAKGYRGPEGPQGPPGHQGPPGPDECEILDIIMKMCSCCECKCGPIDLLFVLDSSESIGLQNFEIAKDFVVKVIDRLSRDELVKFEPGQSYAGVVQYSHSQMQEHVSLRSPSIRNVQELKEAIKSLQWMAGGTFTGEALQYTRDQLLPPSPNNRIALVITDGRSDTQRDTTPLNVLCSPGIQVVSVGIKDVFDFIPGSDQLNVISCQGLAPSQGRPGLSLVKENYAELLEDAFLKNVTAQICIDKKCPDYTCPITFSSPADITILLDGSASVGSHNFDTTKRFAKRLAERFLTAGRTDPAHDVRVAVVQYSGTGQQRPERASLQFLQNYTALASAVDAMDFINDATDVNDALGYVTRFYREASSGAAKKRLLLFSDGNSQGATPAAIEKAVQEAQRAGIEIFVVVVGRQVNEPHIRVLVTGKTAEYDVAYGESHLFRVPSYQALLRGVFHQTVSRKVALG",
+        "n_residues": 1028,
+        "mutation_pos_1indexed": 378,
+        "wt_aa": "A",
+        "mut_aa": "P",
+        "pocket_lining_residues": "G377-A378-D379-G380-E381",
+        "pocket_lining_positions_precursor": [
+          377,
+          378,
+          379,
+          380,
+          381
+        ],
+        "pocket_lining_1letter": "GADGE",
+        "sequence_slice_around_pocket": "GLKGEKGEPGADGEAGRPGS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A1_A378P/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "G377",
+          "A378",
+          "D379",
+          "G380",
+          "E381"
+        ],
+        "values": [
+          [
+            0.0,
+            3.818,
+            6.789,
+            9.453,
+            13.185
+          ],
+          [
+            3.818,
+            0.0,
+            3.826,
+            6.536,
+            9.955
+          ],
+          [
+            6.789,
+            3.826,
+            0.0,
+            3.841,
+            7.018
+          ],
+          [
+            9.453,
+            6.536,
+            3.841,
+            0.0,
+            3.836
+          ],
+          [
+            13.185,
+            9.955,
+            7.018,
+            3.836,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7407470928952837,
+        "mw": 316.23,
+        "logp": 1.954,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8995,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 23,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COL6A1-A378P Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7407,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A1_A378P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A1_A378P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A1_A378P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A1_A378P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A1_A378P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL6A1-A378P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL6A1-A378P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T10:55:32.377632+00:00"
     }
   ]
 }
