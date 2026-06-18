@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2357,
+  "total_entries": 2358,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47098,
-    "queue_remaining": 131499
+    "total_processed": 47100,
+    "queue_remaining": 131497
   },
   "entries": [
     {
@@ -547900,6 +547900,279 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T12:13:20.847490+00:00"
+    },
+    {
+      "entry_id": "PCD-GJA1-M147T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GJA1-M147T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GJA1",
+        "uniprot": "",
+        "clinvar_id": "374068",
+        "disease": "Cutaneous finger syndactyly;Intellectual disability;Anteverted nares;Bilateral m",
+        "mutation_precursor": "M147T",
+        "mutation_mature": "M147T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7212647535913924,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 546.072857338195,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.569902420043945,
+          -0.9954440593719482,
+          18.410655975341797
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.339514128991324,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8340490567568212,
+        "cryptic": true,
+        "pocket_residues": {
+          "K136": "K",
+          "Y137": "Y",
+          "G138": "G",
+          "I139": "I",
+          "M147": "M",
+          "R148": "R",
+          "G149": "G",
+          "G150": "G",
+          "L151": "L",
+          "L152": "L",
+          "R153": "R"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P17302|GJA1 variant M147T",
+        "fasta_sequence": "MGDWSALGKLLDKVQAYSTAGGKVWLSVLFIFRILLLGTAVESAWGDEQSAFRCNTQQPGCENVCYDKSFPISHVRFWVLQIIFVSVPTLLYLAHVFYVMRKEEKLNKKEEELKVAQTDGVNVDMHLKQIEIKKFKYGIEEHGKVKMRGGLLRTYIISILFKSIFEVAFLLIQWYIYGFSLSAVYTCKRDPCPHQVDCFLSRPTEKTIFIIFMLVVSLVSLALNIIELFYVFFKGVKDRVKGKSDPYHATSGALSPAKDCGSQKYAYFNGCSSPTAPLSPMSPPGYKLVTGDRNNSSCRNYNKQASEQNWANYSAEQNRMGQAGSTISNSHAQPFDFPDDNQNSKKLAAGHELQPLAIVDQRPSSRASSRASSRPRPDDLEI",
+        "full_sequence": "MGDWSALGKLLDKVQAYSTAGGKVWLSVLFIFRILLLGTAVESAWGDEQSAFRCNTQQPGCENVCYDKSFPISHVRFWVLQIIFVSVPTLLYLAHVFYVMRKEEKLNKKEEELKVAQTDGVNVDMHLKQIEIKKFKYGIEEHGKVKMRGGLLRTYIISILFKSIFEVAFLLIQWYIYGFSLSAVYTCKRDPCPHQVDCFLSRPTEKTIFIIFMLVVSLVSLALNIIELFYVFFKGVKDRVKGKSDPYHATSGALSPAKDCGSQKYAYFNGCSSPTAPLSPMSPPGYKLVTGDRNNSSCRNYNKQASEQNWANYSAEQNRMGQAGSTISNSHAQPFDFPDDNQNSKKLAAGHELQPLAIVDQRPSSRASSRASSRPRPDDLEI",
+        "n_residues": 382,
+        "mutation_pos_1indexed": 147,
+        "wt_aa": "M",
+        "mut_aa": "T",
+        "pocket_lining_residues": "K136-Y137-G138-I139-M147-R148-G149-G150-L151-L152-R153",
+        "pocket_lining_positions_precursor": [
+          136,
+          137,
+          138,
+          139,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153
+        ],
+        "pocket_lining_1letter": "KYGIMRGGLLR",
+        "sequence_slice_around_pocket": "YGIEEHGKVKMRGGLLRTYI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GJA1_M147T/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "K136",
+          "Y137",
+          "G138",
+          "I139",
+          "M147",
+          "R148",
+          "G149",
+          "G150",
+          "L151",
+          "L152",
+          "R153"
+        ],
+        "values": [
+          [
+            0.0,
+            3.869,
+            5.42,
+            8.746,
+            12.209,
+            9.771,
+            7.664,
+            7.432,
+            9.657,
+            12.125,
+            12.499
+          ],
+          [
+            3.869,
+            0.0,
+            3.813,
+            6.348,
+            10.339,
+            9.1,
+            7.951,
+            7.074,
+            7.692,
+            10.858,
+            11.941
+          ],
+          [
+            5.42,
+            3.813,
+            0.0,
+            3.847,
+            7.41,
+            5.946,
+            6.113,
+            7.077,
+            7.242,
+            9.369,
+            11.374
+          ],
+          [
+            8.746,
+            6.348,
+            3.847,
+            0.0,
+            7.425,
+            7.588,
+            9.271,
+            10.369,
+            9.315,
+            11.26,
+            14.028
+          ],
+          [
+            12.209,
+            10.339,
+            7.41,
+            7.425,
+            0.0,
+            3.866,
+            7.039,
+            8.696,
+            6.518,
+            5.757,
+            9.498
+          ],
+          [
+            9.771,
+            9.1,
+            5.946,
+            7.588,
+            3.866,
+            0.0,
+            3.834,
+            6.829,
+            6.566,
+            5.781,
+            8.567
+          ],
+          [
+            7.664,
+            7.951,
+            6.113,
+            9.271,
+            7.039,
+            3.834,
+            0.0,
+            3.844,
+            5.732,
+            5.653,
+            6.64
+          ],
+          [
+            7.432,
+            7.074,
+            7.077,
+            10.369,
+            8.696,
+            6.829,
+            3.844,
+            0.0,
+            3.844,
+            5.514,
+            5.107
+          ],
+          [
+            9.657,
+            7.692,
+            7.242,
+            9.315,
+            6.518,
+            6.566,
+            5.732,
+            3.844,
+            0.0,
+            3.845,
+            5.411
+          ],
+          [
+            12.125,
+            10.858,
+            9.369,
+            11.26,
+            5.757,
+            5.781,
+            5.653,
+            5.514,
+            3.845,
+            0.0,
+            3.848
+          ],
+          [
+            12.499,
+            11.941,
+            11.374,
+            14.028,
+            9.498,
+            8.567,
+            6.64,
+            5.107,
+            5.411,
+            3.848,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CC(=O)CCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6076176101418698,
+        "mw": 350.19,
+        "logp": 2.067,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.6513,
+        "sa_score": 3.32,
+        "n_heavy_atoms": 26,
+        "tpsa": 99.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GJA1-M147T Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CC(=O)CCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6076,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GJA1_M147T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GJA1_M147T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GJA1_M147T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GJA1_M147T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GJA1_M147T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GJA1-M147T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GJA1-M147T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T12:14:02.792861+00:00"
     }
   ]
 }
