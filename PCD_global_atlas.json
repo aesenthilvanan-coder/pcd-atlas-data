@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1485,
+  "total_entries": 1486,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46131,
-    "queue_remaining": 132466
+    "total_processed": 46132,
+    "queue_remaining": 132465
   },
   "entries": [
     {
@@ -328774,6 +328774,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:21:54.007953+00:00"
+    },
+    {
+      "entry_id": "PCD-PYCR1-T59M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PYCR1-T59M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PYCR1",
+        "uniprot": "",
+        "clinvar_id": "325913",
+        "disease": "Cutis laxa",
+        "mutation_precursor": "T59M",
+        "mutation_mature": "T59M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8058385574297903,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 320.0094163757475,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -14.443212509155273,
+          8.374763488769531,
+          20.049043655395508
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.774304467981073,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7452217477405859,
+        "cryptic": true,
+        "pocket_residues": {
+          "H55": "H",
+          "N56": "N",
+          "K57": "K",
+          "E58": "E",
+          "T59": "T",
+          "V60": "V",
+          "Q61": "Q",
+          "H62": "H",
+          "S63": "S",
+          "I82": "I",
+          "D85": "D"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P32322|PYCR1 variant T59M",
+        "fasta_sequence": "MSVGFIGAGQLAFALAKGFTAAGVLAAHKIMASSPDMDLATVSALRKMGVKLTPHNKETVQHSDVLFLAVKPHIIPFILDEIGADIEDRHIVVSCAAGVTISSIEKKLSAFRPAPRVIRCMTNTPVVVREGATVYATGTHAQVEDGRLMEQLLSSVGFCTEVEEDLIDAVTGLSGSGPAYAFTALDALADGGVKMGLPRRLAVRLGAQALLGAAKMLLHSEQHPGQLKDNVSSPGGATIHALHVLESGGFRSLLINAVEASCIRTRELQSMADQEQVSPAAIKKTILDKVKLDSPAGTALSPSGHTKLLPRSLAPAGKD",
+        "full_sequence": "MSVGFIGAGQLAFALAKGFTAAGVLAAHKIMASSPDMDLATVSALRKMGVKLTPHNKETVQHSDVLFLAVKPHIIPFILDEIGADIEDRHIVVSCAAGVTISSIEKKLSAFRPAPRVIRCMTNTPVVVREGATVYATGTHAQVEDGRLMEQLLSSVGFCTEVEEDLIDAVTGLSGSGPAYAFTALDALADGGVKMGLPRRLAVRLGAQALLGAAKMLLHSEQHPGQLKDNVSSPGGATIHALHVLESGGFRSLLINAVEASCIRTRELQSMADQEQVSPAAIKKTILDKVKLDSPAGTALSPSGHTKLLPRSLAPAGKD",
+        "n_residues": 319,
+        "mutation_pos_1indexed": 59,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "H55-N56-K57-E58-T59-V60-Q61-H62-S63-I82-D85",
+        "pocket_lining_positions_precursor": [
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          82,
+          85
+        ],
+        "pocket_lining_1letter": "HNKETVQHSID",
+        "sequence_slice_around_pocket": "GVKLTPHNKETVQHSDVLFL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PYCR1_T59M/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "H55",
+          "N56",
+          "K57",
+          "E58",
+          "T59",
+          "V60",
+          "Q61",
+          "H62",
+          "S63",
+          "I82",
+          "D85"
+        ],
+        "values": [
+          [
+            0.0,
+            3.846,
+            5.464,
+            5.625,
+            6.947,
+            9.189,
+            10.452,
+            11.348,
+            13.103,
+            10.035,
+            12.292
+          ],
+          [
+            3.846,
+            0.0,
+            3.86,
+            5.542,
+            5.189,
+            6.45,
+            8.908,
+            10.153,
+            10.884,
+            7.072,
+            9.914
+          ],
+          [
+            5.464,
+            3.86,
+            0.0,
+            3.851,
+            5.402,
+            5.084,
+            6.292,
+            8.737,
+            10.094,
+            5.971,
+            6.89
+          ],
+          [
+            5.625,
+            5.542,
+            3.851,
+            0.0,
+            3.845,
+            5.451,
+            5.137,
+            6.19,
+            8.679,
+            9.637,
+            9.392
+          ],
+          [
+            6.947,
+            5.189,
+            5.402,
+            3.845,
+            0.0,
+            3.851,
+            5.555,
+            5.258,
+            6.202,
+            9.65,
+            10.116
+          ],
+          [
+            9.189,
+            6.45,
+            5.084,
+            5.451,
+            3.851,
+            0.0,
+            3.844,
+            5.591,
+            5.388,
+            7.391,
+            6.823
+          ],
+          [
+            10.452,
+            8.908,
+            6.292,
+            5.137,
+            5.555,
+            3.844,
+            0.0,
+            3.866,
+            5.68,
+            9.783,
+            7.212
+          ],
+          [
+            11.348,
+            10.153,
+            8.737,
+            6.19,
+            5.258,
+            5.591,
+            3.866,
+            0.0,
+            3.834,
+            12.767,
+            10.912
+          ],
+          [
+            13.103,
+            10.884,
+            10.094,
+            8.679,
+            6.202,
+            5.388,
+            5.68,
+            3.834,
+            0.0,
+            12.539,
+            11.072
+          ],
+          [
+            10.035,
+            7.072,
+            5.971,
+            9.637,
+            9.65,
+            7.391,
+            9.783,
+            12.767,
+            12.539,
+            0.0,
+            5.298
+          ],
+          [
+            12.292,
+            9.914,
+            6.89,
+            9.392,
+            10.116,
+            6.823,
+            7.212,
+            10.912,
+            11.072,
+            5.298,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CCCCC1",
+        "composite_score": 0.7378276413737657,
+        "mw": 219.17,
+        "logp": 1.963,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8415,
+        "sa_score": 2.19,
+        "n_heavy_atoms": 16,
+        "tpsa": 42.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PYCR1-T59M Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.7378,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PYCR1_T59M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PYCR1_T59M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PYCR1_T59M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PYCR1_T59M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PYCR1_T59M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PYCR1-T59M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PYCR1-T59M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:22:15.065329+00:00"
     }
   ]
 }
