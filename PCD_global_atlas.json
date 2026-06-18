@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2361,
+  "total_entries": 2362,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47103,
-    "queue_remaining": 131494
+    "total_processed": 47104,
+    "queue_remaining": 131493
   },
   "entries": [
     {
@@ -549095,6 +549095,207 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T12:16:20.394771+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC26A4-C565G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC26A4-C565G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC26A4",
+        "uniprot": "",
+        "clinvar_id": "373978",
+        "disease": "Hearing impairment",
+        "mutation_precursor": "C565G",
+        "mutation_mature": "C565G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7782905789734642,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 327.7921925018055,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          32.243896484375,
+          -12.537294387817383,
+          -18.16585922241211
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.623884578950467,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6695798123397181,
+        "cryptic": true,
+        "pocket_residues": {
+          "G561": "G",
+          "K563": "K",
+          "K564": "K",
+          "C565": "C",
+          "I566": "I",
+          "K567": "K",
+          "S568": "S",
+          "T569": "T"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43511|SLC26A4 variant C565G",
+        "fasta_sequence": "MAAPGGRSEPPQLPEYSCSYMVSRPVYSELAFQQQHERRLQERKTLRESLAKCCSCSRKRAFGVLKTLVPILEWLPKYRVKEWLLSDVISGVSTGLVATLQGMAYALLAAVPVGYGLYSAFFPILTYFIFGTSRHISVGPFPVVSLMVGSVVLSMAPDEHFLVSSSNGTVLNTTMIDTAARDTARVLIASALTLLVGIIQLIFGGLQIGFIVRYLADPLVGGFTTAAAFQVLVSQLKIVLNVSTKNYNGVLSIIYTLVEIFQNIGDTNLADFTAGLLTIVVCMAVKELNDRFRHKIPVPIPIEVIVTIIATAISYGANLEKNYNAGIVKSIPRGFLPPELPPVSLFSEMLAASFSIAVVAYAIAVSVGKVYATKYDYTIDGNQEFIAFGISNIFSGFFSCFVATTALSRTAVQESTGGKTQVAGIISAAIVMIAILALGKLLEPLQKSVLAAVVIANLKGMFMQLCDIPRLWRQNKIDAVIWVFTCIVSIILGLDLGLLAGLIFGLLTVVLRVQFPSWNGLGSIPSTDIYKSTKNYKNIEEPQGVKILRFSSPIFYGNVDGFKKCIKSTVGFDAIRVYNKRLKALRKIQKLIKSGQLRATKNGIISDAVSTNNAFEPDEDIEDLEELDIPTKEIEIQVDWNSELPVKVNVPKVPIHSLVLDCGAISFLDVVGVRSLRVIVKEFQRIDVNVYFASLQDYVIEKLEQCGFFDDNIRKDTFFLTVHDAILYLQNQVKSQEGQGSILETITLIQDCKDTLELIETELTEEELDVQDEAMRTLAS",
+        "full_sequence": "MAAPGGRSEPPQLPEYSCSYMVSRPVYSELAFQQQHERRLQERKTLRESLAKCCSCSRKRAFGVLKTLVPILEWLPKYRVKEWLLSDVISGVSTGLVATLQGMAYALLAAVPVGYGLYSAFFPILTYFIFGTSRHISVGPFPVVSLMVGSVVLSMAPDEHFLVSSSNGTVLNTTMIDTAARDTARVLIASALTLLVGIIQLIFGGLQIGFIVRYLADPLVGGFTTAAAFQVLVSQLKIVLNVSTKNYNGVLSIIYTLVEIFQNIGDTNLADFTAGLLTIVVCMAVKELNDRFRHKIPVPIPIEVIVTIIATAISYGANLEKNYNAGIVKSIPRGFLPPELPPVSLFSEMLAASFSIAVVAYAIAVSVGKVYATKYDYTIDGNQEFIAFGISNIFSGFFSCFVATTALSRTAVQESTGGKTQVAGIISAAIVMIAILALGKLLEPLQKSVLAAVVIANLKGMFMQLCDIPRLWRQNKIDAVIWVFTCIVSIILGLDLGLLAGLIFGLLTVVLRVQFPSWNGLGSIPSTDIYKSTKNYKNIEEPQGVKILRFSSPIFYGNVDGFKKCIKSTVGFDAIRVYNKRLKALRKIQKLIKSGQLRATKNGIISDAVSTNNAFEPDEDIEDLEELDIPTKEIEIQVDWNSELPVKVNVPKVPIHSLVLDCGAISFLDVVGVRSLRVIVKEFQRIDVNVYFASLQDYVIEKLEQCGFFDDNIRKDTFFLTVHDAILYLQNQVKSQEGQGSILETITLIQDCKDTLELIETELTEEELDVQDEAMRTLAS",
+        "n_residues": 780,
+        "mutation_pos_1indexed": 565,
+        "wt_aa": "C",
+        "mut_aa": "G",
+        "pocket_lining_residues": "G561-K563-K564-C565-I566-K567-S568-T569",
+        "pocket_lining_positions_precursor": [
+          561,
+          563,
+          564,
+          565,
+          566,
+          567,
+          568,
+          569
+        ],
+        "pocket_lining_1letter": "GKKCIKST",
+        "sequence_slice_around_pocket": "FYGNVDGFKKCIKSTVGFDA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC26A4_C565G/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "G561",
+          "K563",
+          "K564",
+          "C565",
+          "I566",
+          "K567",
+          "S568",
+          "T569"
+        ],
+        "values": [
+          [
+            0.0,
+            5.525,
+            5.118,
+            6.132,
+            8.755,
+            9.886,
+            10.388,
+            12.261
+          ],
+          [
+            5.525,
+            0.0,
+            3.859,
+            5.435,
+            5.189,
+            6.24,
+            8.629,
+            9.96
+          ],
+          [
+            5.118,
+            3.859,
+            0.0,
+            3.853,
+            5.492,
+            5.033,
+            6.047,
+            8.598
+          ],
+          [
+            6.132,
+            5.435,
+            3.853,
+            0.0,
+            3.847,
+            5.501,
+            5.079,
+            6.153
+          ],
+          [
+            8.755,
+            5.189,
+            5.492,
+            3.847,
+            0.0,
+            3.854,
+            5.451,
+            5.11
+          ],
+          [
+            9.886,
+            6.24,
+            5.033,
+            5.501,
+            3.854,
+            0.0,
+            3.845,
+            5.559
+          ],
+          [
+            10.388,
+            8.629,
+            6.047,
+            5.079,
+            5.451,
+            3.845,
+            0.0,
+            3.867
+          ],
+          [
+            12.261,
+            9.96,
+            8.598,
+            6.153,
+            5.11,
+            5.559,
+            3.867,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "composite_score": 0.5378171524949564,
+        "mw": 234.17,
+        "logp": 2.187,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8676,
+        "sa_score": 1.95,
+        "n_heavy_atoms": 17,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC26A4-C565G Candidate #1",
+        "iupac_name": "COc1ccc(CCN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5378,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC26A4_C565G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC26A4_C565G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC26A4_C565G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC26A4_C565G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC26A4_C565G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC26A4-C565G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC26A4-C565G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T12:16:53.791990+00:00"
     }
   ]
 }
