@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2227,
+  "total_entries": 2228,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46961,
-    "queue_remaining": 131636
+    "total_processed": 46962,
+    "queue_remaining": 131635
   },
   "entries": [
     {
@@ -512739,6 +512739,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T09:47:00.792338+00:00"
+    },
+    {
+      "entry_id": "PCD-DSC2-S794L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DSC2-S794L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DSC2",
+        "uniprot": "",
+        "clinvar_id": "373169",
+        "disease": "not specified",
+        "mutation_precursor": "S794L",
+        "mutation_mature": "S794L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8302453969203039,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 596.6584577297159,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.9990544319152832,
+          -22.945850372314453,
+          -50.92484664916992
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.38376619362073,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8563561982917097,
+        "cryptic": true,
+        "pocket_residues": {
+          "S794": "S",
+          "E795": "E",
+          "S796": "S",
+          "C797": "C"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q02487|DSC2 variant S794L",
+        "fasta_sequence": "MEAARPSGSWNGALCRLLLLTLAILIFASDACKNVTLHVPSKLDAEKLVGRVNLKECFTAANLIHSSDPDFQILEDGSVYTTNTILLSSEKRSFTILLSNTENQEKKKIFVFLEHQTKVLKKRHTKEKVLRRAKRRWAPIPCSMLENSLGPFPLFLQQVQSDTAQNYTIYYSIRGPGVDQEPRNLFYVERDTGNLYCTRPVDREQYESFEIIAFATTPDGYTPELPLPLIIKIEDENDNYPIFTEETYTFTIFENCRVGTTVGQVCATDKDEPDTMHTRLKYSIIGQVPPSPTLFSMHPTTGVITTTSSQLDRELIDKYQLKIKVQDMDGQYFGLQTTSTCIINIDDVNDHLPTFTRTSYVTSVEENTVDVEILRVTVEDKDLVNTANWRANYTILKGNENGNFKIVTDAKTNEGVLCVVKPLNYEEKQQMILQIGVVNEAPFSREASPRSAMSTATVTVNVEDQDEGPECNPPIQTVRMKENAEVGTTSNGYKAYDPETRSSSGIRYKKLTDPTGWVTIDENTGSIKVFRSLDREAETIKNGIYNITVLASDQGGRTCTGTLGIILQDVNDNSPFIPKKTVIICKPTMSSAEIVAVDPDEPIHGPPFDFSLESSTSEVQRMWRLKAINDTAARLSYQNDPPFGSYVVPITVRDRLGMSSVTSLDVTLCDCITENDCTHRVDPRIGGGGVQLGKWAILAILLGIALLFCILFTLVCGASGTSKQPKVIPDDLAQQNLIVSNTEAPGDDKVYSANGFTTQTVGASAQGVCGTVGSGIKNGGQETIEMVKGGHQTSESCRGAGHHHTLDSCRGGHTEVDNCRYTYSEWHSFTQPRLGEKVYLCNQDENHKHAQDYVLTYNYEGRGSVAGSVGCCSERQEEDGLEFLDNLEPKFRTLAEACMKR",
+        "full_sequence": "MEAARPSGSWNGALCRLLLLTLAILIFASDACKNVTLHVPSKLDAEKLVGRVNLKECFTAANLIHSSDPDFQILEDGSVYTTNTILLSSEKRSFTILLSNTENQEKKKIFVFLEHQTKVLKKRHTKEKVLRRAKRRWAPIPCSMLENSLGPFPLFLQQVQSDTAQNYTIYYSIRGPGVDQEPRNLFYVERDTGNLYCTRPVDREQYESFEIIAFATTPDGYTPELPLPLIIKIEDENDNYPIFTEETYTFTIFENCRVGTTVGQVCATDKDEPDTMHTRLKYSIIGQVPPSPTLFSMHPTTGVITTTSSQLDRELIDKYQLKIKVQDMDGQYFGLQTTSTCIINIDDVNDHLPTFTRTSYVTSVEENTVDVEILRVTVEDKDLVNTANWRANYTILKGNENGNFKIVTDAKTNEGVLCVVKPLNYEEKQQMILQIGVVNEAPFSREASPRSAMSTATVTVNVEDQDEGPECNPPIQTVRMKENAEVGTTSNGYKAYDPETRSSSGIRYKKLTDPTGWVTIDENTGSIKVFRSLDREAETIKNGIYNITVLASDQGGRTCTGTLGIILQDVNDNSPFIPKKTVIICKPTMSSAEIVAVDPDEPIHGPPFDFSLESSTSEVQRMWRLKAINDTAARLSYQNDPPFGSYVVPITVRDRLGMSSVTSLDVTLCDCITENDCTHRVDPRIGGGGVQLGKWAILAILLGIALLFCILFTLVCGASGTSKQPKVIPDDLAQQNLIVSNTEAPGDDKVYSANGFTTQTVGASAQGVCGTVGSGIKNGGQETIEMVKGGHQTSESCRGAGHHHTLDSCRGGHTEVDNCRYTYSEWHSFTQPRLGEKVYLCNQDENHKHAQDYVLTYNYEGRGSVAGSVGCCSERQEEDGLEFLDNLEPKFRTLAEACMKR",
+        "n_residues": 901,
+        "mutation_pos_1indexed": 794,
+        "wt_aa": "S",
+        "mut_aa": "L",
+        "pocket_lining_residues": "S794-E795-S796-C797",
+        "pocket_lining_positions_precursor": [
+          794,
+          795,
+          796,
+          797
+        ],
+        "pocket_lining_1letter": "SESC",
+        "sequence_slice_around_pocket": "IEMVKGGHQTSESCRGAGHH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DSC2_S794L/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "S794",
+          "E795",
+          "S796",
+          "C797"
+        ],
+        "values": [
+          [
+            0.0,
+            3.428,
+            6.919,
+            10.392
+          ],
+          [
+            3.428,
+            0.0,
+            3.884,
+            7.228
+          ],
+          [
+            6.919,
+            3.884,
+            0.0,
+            3.697
+          ],
+          [
+            10.392,
+            7.228,
+            3.697,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7061576526336376,
+        "mw": 302.21,
+        "logp": 2.025,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.8623,
+        "sa_score": 3.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DSC2-S794L Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7062,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DSC2_S794L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DSC2_S794L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DSC2_S794L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DSC2_S794L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DSC2_S794L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DSC2-S794L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DSC2-S794L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T09:47:49.305718+00:00"
     }
   ]
 }
