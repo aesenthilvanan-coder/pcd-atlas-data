@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1775,
+  "total_entries": 1776,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46450,
-    "queue_remaining": 132147
+    "total_processed": 46451,
+    "queue_remaining": 132146
   },
   "entries": [
     {
@@ -396101,6 +396101,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:46:26.324596+00:00"
+    },
+    {
+      "entry_id": "PCD-ASS1-M1I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ASS1-M1I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ASS1",
+        "uniprot": "",
+        "clinvar_id": "371044",
+        "disease": "Citrullinemia type I",
+        "mutation_precursor": "M1I",
+        "mutation_mature": "M1I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8366254081173401,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 579.2949527078625,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -36.32514572143555,
+          -10.089399337768555,
+          24.012989044189453
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.219016762705491,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8200897091624744,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "S2": "S",
+          "S3": "S",
+          "E26": "E",
+          "G28": "G"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P00966|ASS1 variant M1I",
+        "fasta_sequence": "MSSKGSVVLAYSGGLDTSCILVWLKEQGYDVIAYLANIGQKEDFEEARKKALKLGAKKVFIEDVSREFVEEFIWPAIQSSALYEDRYLLGTSLARPCIARKQVEIAQREGAKYVSHGATGKGNDQVRFELSCYSLAPQIKVIAPWRMPEFYNRFKGRNDLMEYAKQHGIPIPVTPKNPWSMDENLMHISYEAGILENPKNQAPPGLYTKTQDPAKAPNTPDILEIEFKKGVPVKVTNVKDGTTHQTSLELFMYLNEVAGKHGVGRIDIVENRFIGMKSRGIYETPAGTILYHAHLDIEAFTMDREVRKIKQGLGLKFAELVYTGFWHSPECEFVRHCIAKSQERVEGKVQVSVLKGQVYILGRESPLSLYNEELVSMNVQGDYEPTDATGFININSLRLKEYHRLQSKVTAK",
+        "full_sequence": "MSSKGSVVLAYSGGLDTSCILVWLKEQGYDVIAYLANIGQKEDFEEARKKALKLGAKKVFIEDVSREFVEEFIWPAIQSSALYEDRYLLGTSLARPCIARKQVEIAQREGAKYVSHGATGKGNDQVRFELSCYSLAPQIKVIAPWRMPEFYNRFKGRNDLMEYAKQHGIPIPVTPKNPWSMDENLMHISYEAGILENPKNQAPPGLYTKTQDPAKAPNTPDILEIEFKKGVPVKVTNVKDGTTHQTSLELFMYLNEVAGKHGVGRIDIVENRFIGMKSRGIYETPAGTILYHAHLDIEAFTMDREVRKIKQGLGLKFAELVYTGFWHSPECEFVRHCIAKSQERVEGKVQVSVLKGQVYILGRESPLSLYNEELVSMNVQGDYEPTDATGFININSLRLKEYHRLQSKVTAK",
+        "n_residues": 412,
+        "mutation_pos_1indexed": 1,
+        "wt_aa": "M",
+        "mut_aa": "I",
+        "pocket_lining_residues": "M1-S2-S3-E26-G28",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3,
+          26,
+          28
+        ],
+        "pocket_lining_1letter": "MSSEG",
+        "sequence_slice_around_pocket": "MSSKGSVVLA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ASS1_M1I/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "M1",
+          "S2",
+          "S3",
+          "E26",
+          "G28"
+        ],
+        "values": [
+          [
+            0.0,
+            3.825,
+            6.233,
+            10.527,
+            7.258
+          ],
+          [
+            3.825,
+            0.0,
+            3.837,
+            12.279,
+            7.707
+          ],
+          [
+            6.233,
+            3.837,
+            0.0,
+            10.538,
+            5.517
+          ],
+          [
+            10.527,
+            12.279,
+            10.538,
+            0.0,
+            5.299
+          ],
+          [
+            7.258,
+            7.707,
+            5.517,
+            5.299,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "composite_score": 0.721503013912091,
+        "mw": 374.27,
+        "logp": 2.113,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 7,
+        "qed": 0.7649,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 27,
+        "tpsa": 70.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ASS1-M1I Candidate #1",
+        "iupac_name": "CNCCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "pocket_affinity_score": 0.7215,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ASS1_M1I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ASS1_M1I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ASS1_M1I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ASS1_M1I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ASS1_M1I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ASS1-M1I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ASS1-M1I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:46:52.044651+00:00"
     }
   ]
 }
