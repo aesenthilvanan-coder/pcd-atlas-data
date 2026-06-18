@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1592,
+  "total_entries": 1593,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46246,
-    "queue_remaining": 132351
+    "total_processed": 46247,
+    "queue_remaining": 132350
   },
   "entries": [
     {
@@ -351837,6 +351837,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:37:05.527974+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC4A11-A298V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC4A11-A298V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC4A11",
+        "uniprot": "",
+        "clinvar_id": "338251",
+        "disease": "Corneal dystrophy",
+        "mutation_precursor": "A298V",
+        "mutation_mature": "A298V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9282951165791726,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 573.5350584773045,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -2.5875749588012695,
+          19.234764099121094,
+          -31.151214599609375
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.8686480593653854,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6793747192494443,
+        "cryptic": true,
+        "pocket_residues": {
+          "P296": "P",
+          "V297": "V",
+          "A298": "A",
+          "P299": "P",
+          "R300": "R"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NBS3|SLC4A11 variant A298V",
+        "fasta_sequence": "MAAATRRVFHLQPCENSPTMSQNGYFEDSSYYKCDTDDTFEAREEILGDEAFDTANSSIVSGESIRFFVNVNLEMQATNTENEATSGGCVLLHTSRKYLKLKNFKEEIRAHRDLDGFLAQASIVLNETATSLDNVLRTMLRRFARDPDNNEPNCNLDLLMAMLFTDAGAPMRGKVHLLSDTIQGVTATVTGVRYQQSWLCIICTMKALQKRHVCISRLVRPQNWGENSCEVRFVILVLAPPKMKSTKTAMEVARTFATMFSDIAFRQKLLETRTEEEFKEALVHQRQLLTMVSHGPVAPRTKERSTVSLPAHRHPEPPKCKDFVPFGKGIREDIARRFPLYPLDFTDGIIGKNKAVGKYITTTLFLYFACLLPTIAFGSLNDENTDGAIDVQKTIAGQSIGGLLYALFSGQPLVILLTTAPLALYIQVIRVICDDYDLDFNSFYAWTGLWNSFFLALYAFFNLSLVMSLFKRSTEEIIALFISITFVLDAVKGTVKIFWKYYYGHYLDDYHTKRTSSLVSLSGLGASLNASLHTALNASFLASPTELPSATHSGQATAVLSLLIMLGTLWLGYTLYQFKKSPYLHPCVREILSDCALPIAVLAFSLISSHGFREIEMSKFRYNPSESPFAMAQIQSLSLRAVSGAMGLGFLLSMLFFIEQNLVAALVNAPENRLVKGTAYHWDLLLLAIINTGLSLFGLPWIHAAYPHSPLHVRALALVEERVENGHIYDTIVNVKETRLTSLGASVLVGLSLLLLPVPLQWIPKPVLYGLFLYIALTSLDGNQLVQRVALLLKEQTAYPPTHYIRRVPQRKIHYFTGLQVLQLLLLCAFGMSSLPYMKMIFPLIMIAMIPIRYILLPRIIEAKYLDVMDAEHRP",
+        "full_sequence": "MAAATRRVFHLQPCENSPTMSQNGYFEDSSYYKCDTDDTFEAREEILGDEAFDTANSSIVSGESIRFFVNVNLEMQATNTENEATSGGCVLLHTSRKYLKLKNFKEEIRAHRDLDGFLAQASIVLNETATSLDNVLRTMLRRFARDPDNNEPNCNLDLLMAMLFTDAGAPMRGKVHLLSDTIQGVTATVTGVRYQQSWLCIICTMKALQKRHVCISRLVRPQNWGENSCEVRFVILVLAPPKMKSTKTAMEVARTFATMFSDIAFRQKLLETRTEEEFKEALVHQRQLLTMVSHGPVAPRTKERSTVSLPAHRHPEPPKCKDFVPFGKGIREDIARRFPLYPLDFTDGIIGKNKAVGKYITTTLFLYFACLLPTIAFGSLNDENTDGAIDVQKTIAGQSIGGLLYALFSGQPLVILLTTAPLALYIQVIRVICDDYDLDFNSFYAWTGLWNSFFLALYAFFNLSLVMSLFKRSTEEIIALFISITFVLDAVKGTVKIFWKYYYGHYLDDYHTKRTSSLVSLSGLGASLNASLHTALNASFLASPTELPSATHSGQATAVLSLLIMLGTLWLGYTLYQFKKSPYLHPCVREILSDCALPIAVLAFSLISSHGFREIEMSKFRYNPSESPFAMAQIQSLSLRAVSGAMGLGFLLSMLFFIEQNLVAALVNAPENRLVKGTAYHWDLLLLAIINTGLSLFGLPWIHAAYPHSPLHVRALALVEERVENGHIYDTIVNVKETRLTSLGASVLVGLSLLLLPVPLQWIPKPVLYGLFLYIALTSLDGNQLVQRVALLLKEQTAYPPTHYIRRVPQRKIHYFTGLQVLQLLLLCAFGMSSLPYMKMIFPLIMIAMIPIRYILLPRIIEAKYLDVMDAEHRP",
+        "n_residues": 875,
+        "mutation_pos_1indexed": 298,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "P296-V297-A298-P299-R300",
+        "pocket_lining_positions_precursor": [
+          296,
+          297,
+          298,
+          299,
+          300
+        ],
+        "pocket_lining_1letter": "PVAPR",
+        "sequence_slice_around_pocket": "LLTMVSHGPVAPRTKERSTV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A11_A298V/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "P296",
+          "V297",
+          "A298",
+          "P299",
+          "R300"
+        ],
+        "values": [
+          [
+            0.0,
+            3.794,
+            5.528,
+            8.668,
+            11.322
+          ],
+          [
+            3.794,
+            0.0,
+            3.816,
+            6.294,
+            8.122
+          ],
+          [
+            5.528,
+            3.816,
+            0.0,
+            3.866,
+            6.303
+          ],
+          [
+            8.668,
+            6.294,
+            3.866,
+            0.0,
+            3.845
+          ],
+          [
+            11.322,
+            8.122,
+            6.303,
+            3.845,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1CC(=O)NCC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.5615245310567273,
+        "mw": 388.12,
+        "logp": 2.179,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 8,
+        "qed": 0.6787,
+        "sa_score": 2.15,
+        "n_heavy_atoms": 27,
+        "tpsa": 84.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC4A11-A298V Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1CC(=O)NCC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.5615,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A11_A298V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A11_A298V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A11_A298V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A11_A298V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC4A11_A298V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC4A11-A298V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC4A11-A298V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:37:36.326395+00:00"
     }
   ]
 }
