@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1607,
+  "total_entries": 1608,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46266,
-    "queue_remaining": 132331
+    "total_processed": 46267,
+    "queue_remaining": 132330
   },
   "entries": [
     {
@@ -355411,6 +355411,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:48:27.434958+00:00"
+    },
+    {
+      "entry_id": "PCD-CTSA-V346M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CTSA-V346M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CTSA",
+        "uniprot": "",
+        "clinvar_id": "338536",
+        "disease": "Combined deficiency of sialidase AND beta galactosidase",
+        "mutation_precursor": "V346M",
+        "mutation_mature": "V346M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.900722384164978,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 622.5156388898882,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          5.1679792404174805,
+          -16.017868041992188,
+          15.976982116699219
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.875083322498275,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6618957132777548,
+        "cryptic": true,
+        "pocket_residues": {
+          "P39": "P",
+          "G40": "G",
+          "V108": "V",
+          "Y340": "Y",
+          "N343": "N",
+          "P344": "P",
+          "Y345": "Y",
+          "V346": "V"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P10619|CTSA variant V346M",
+        "fasta_sequence": "MIRAAPPPLFLLLLLLLLLVSWASRGEAAPDQDEIQRLPGLAKQPSFRQYSGYLKGSGSKHLHYWFVESQKDPENSPVVLWLNGGPGCSSLDGLLTEHGPFLVQPDGVTLEYNPYSWNLIANVLYLESPAGVGFSYSDDKFYATNDTEVAQSNFEALQDFFRLFPEYKNNKLFLTGESYAGIYIPTLAVLVMQDPSMNLQGLAVGNGLSSYEQNDNSLVYFAYYHGLLGNRLWSSLQTHCCSQNKCNFYDNKDLECVTNLQEVARIVGNSGLNIYNLYAPCAGGVPSHFRYEKDTVVVQDLGNIFTRLPLKRMWHQALLRSGDKVRMDPPCTNTTAASTYLNNPYVRKALNIPEQLPQWDMCNFLVNLQYRRLYRSMNSQYLKLLSSQKYQILLYNGDVDMACNFMGDEWFVDSLNQKMEVQRRPWLVKYGDSGEQIAGFVKEFSHIAFLTIKGAGHMVPTDKPLAAFTMFSRFLNKQPY",
+        "full_sequence": "MIRAAPPPLFLLLLLLLLLVSWASRGEAAPDQDEIQRLPGLAKQPSFRQYSGYLKGSGSKHLHYWFVESQKDPENSPVVLWLNGGPGCSSLDGLLTEHGPFLVQPDGVTLEYNPYSWNLIANVLYLESPAGVGFSYSDDKFYATNDTEVAQSNFEALQDFFRLFPEYKNNKLFLTGESYAGIYIPTLAVLVMQDPSMNLQGLAVGNGLSSYEQNDNSLVYFAYYHGLLGNRLWSSLQTHCCSQNKCNFYDNKDLECVTNLQEVARIVGNSGLNIYNLYAPCAGGVPSHFRYEKDTVVVQDLGNIFTRLPLKRMWHQALLRSGDKVRMDPPCTNTTAASTYLNNPYVRKALNIPEQLPQWDMCNFLVNLQYRRLYRSMNSQYLKLLSSQKYQILLYNGDVDMACNFMGDEWFVDSLNQKMEVQRRPWLVKYGDSGEQIAGFVKEFSHIAFLTIKGAGHMVPTDKPLAAFTMFSRFLNKQPY",
+        "n_residues": 480,
+        "mutation_pos_1indexed": 346,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "P39-G40-V108-Y340-N343-P344-Y345-V346",
+        "pocket_lining_positions_precursor": [
+          39,
+          40,
+          108,
+          340,
+          343,
+          344,
+          345,
+          346
+        ],
+        "pocket_lining_1letter": "PGVYNPYV",
+        "sequence_slice_around_pocket": "AASTYLNNPYVRKALNIPEQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CTSA_V346M/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "P39",
+          "G40",
+          "V108",
+          "Y340",
+          "N343",
+          "P344",
+          "Y345",
+          "V346"
+        ],
+        "values": [
+          [
+            0.0,
+            3.848,
+            7.771,
+            8.802,
+            9.074,
+            10.112,
+            6.934,
+            5.909
+          ],
+          [
+            3.848,
+            0.0,
+            5.439,
+            8.416,
+            10.514,
+            12.622,
+            10.06,
+            8.669
+          ],
+          [
+            7.771,
+            5.439,
+            0.0,
+            5.454,
+            8.623,
+            11.934,
+            10.941,
+            9.627
+          ],
+          [
+            8.802,
+            8.416,
+            5.454,
+            0.0,
+            5.511,
+            9.156,
+            9.406,
+            7.027
+          ],
+          [
+            9.074,
+            10.514,
+            8.623,
+            5.511,
+            0.0,
+            3.888,
+            5.509,
+            5.226
+          ],
+          [
+            10.112,
+            12.622,
+            11.934,
+            9.156,
+            3.888,
+            0.0,
+            3.851,
+            5.52
+          ],
+          [
+            6.934,
+            10.06,
+            10.941,
+            9.406,
+            5.509,
+            3.851,
+            0.0,
+            3.853
+          ],
+          [
+            5.909,
+            8.669,
+            9.627,
+            7.027,
+            5.226,
+            5.52,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CCCCC1CCNc1ncnc2[nH]cnc12",
+        "composite_score": 0.6521485285432993,
+        "mw": 352.21,
+        "logp": 2.068,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.6229,
+        "sa_score": 3.39,
+        "n_heavy_atoms": 26,
+        "tpsa": 108.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CTSA-V346M Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CCCCC1CCNc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.6521,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CTSA_V346M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CTSA_V346M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CTSA_V346M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CTSA_V346M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CTSA_V346M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CTSA-V346M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CTSA-V346M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:48:52.167530+00:00"
     }
   ]
 }
