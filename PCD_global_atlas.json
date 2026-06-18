@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1910,
+  "total_entries": 1911,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46594,
-    "queue_remaining": 132003
+    "total_processed": 46595,
+    "queue_remaining": 132002
   },
   "entries": [
     {
@@ -434271,6 +434271,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:58:04.999673+00:00"
+    },
+    {
+      "entry_id": "PCD-NRAS-Q61H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NRAS-Q61H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NRAS",
+        "uniprot": "",
+        "clinvar_id": "373003",
+        "disease": "not provided",
+        "mutation_precursor": "Q61H",
+        "mutation_mature": "Q61H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9328494492182364,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 573.4082660822601,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.2486705780029297,
+          -8.22103500366211,
+          -15.29404067993164
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.269978763881638,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7472233150737216,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q61": "Q",
+          "E62": "E",
+          "E63": "E",
+          "S65": "S"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P01111|NRAS variant Q61H",
+        "fasta_sequence": "MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNSKSFADINLYREQIKRVKDSDDVPMVLVGNKCDLPTRTVDTKQAHELAKSYGIPFIETSAKTRQGVEDAFYTLVREIRQYRMKKLNSSDDGTQGCMGLPCVVM",
+        "full_sequence": "MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNSKSFADINLYREQIKRVKDSDDVPMVLVGNKCDLPTRTVDTKQAHELAKSYGIPFIETSAKTRQGVEDAFYTLVREIRQYRMKKLNSSDDGTQGCMGLPCVVM",
+        "n_residues": 189,
+        "mutation_pos_1indexed": 61,
+        "wt_aa": "Q",
+        "mut_aa": "H",
+        "pocket_lining_residues": "Q61-E62-E63-S65",
+        "pocket_lining_positions_precursor": [
+          61,
+          62,
+          63,
+          65
+        ],
+        "pocket_lining_1letter": "QEES",
+        "sequence_slice_around_pocket": "CLLDILDTAGQEEYSAMRDQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NRAS_Q61H/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "Q61",
+          "E62",
+          "E63",
+          "S65"
+        ],
+        "values": [
+          [
+            0.0,
+            3.836,
+            5.638,
+            7.549
+          ],
+          [
+            3.836,
+            0.0,
+            3.857,
+            5.446
+          ],
+          [
+            5.638,
+            3.857,
+            0.0,
+            5.624
+          ],
+          [
+            7.549,
+            5.446,
+            5.624,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7593014315691097,
+        "mw": 319.17,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.924,
+        "sa_score": 3.13,
+        "n_heavy_atoms": 23,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NRAS-Q61H Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7593,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NRAS_Q61H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NRAS_Q61H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NRAS_Q61H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NRAS_Q61H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NRAS_Q61H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NRAS-Q61H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NRAS-Q61H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:58:29.122405+00:00"
     }
   ]
 }
