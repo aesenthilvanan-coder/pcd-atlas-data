@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1905,
+  "total_entries": 1906,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46589,
-    "queue_remaining": 132008
+    "total_processed": 46590,
+    "queue_remaining": 132007
   },
   "entries": [
     {
@@ -433128,6 +433128,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:55:50.970157+00:00"
+    },
+    {
+      "entry_id": "PCD-PYROXD1-Q372H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PYROXD1-Q372H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PYROXD1",
+        "uniprot": "",
+        "clinvar_id": "372279",
+        "disease": "Myofibrillar myopathy 8",
+        "mutation_precursor": "Q372H",
+        "mutation_mature": "Q372H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8958658937728226,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 520.5536031904154,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -2.159170627593994,
+          -11.393989562988281,
+          -1.8509563207626343
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.715038364419129,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6697567716607759,
+        "cryptic": true,
+        "pocket_residues": {
+          "V369": "V",
+          "W370": "W",
+          "Q371": "Q",
+          "Q372": "Q",
+          "M373": "M",
+          "K424": "K",
+          "Q428": "Q",
+          "G429": "G"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8WU10|PYROXD1 variant Q372H",
+        "fasta_sequence": "MEAARPPPTAGKFVVVGGGIAGVTCAEQLATHFPSEDILLVTASPVIKAVTNFKQISKILEEFDVEEQSSTMLGKRFPNIKVIESGVKQLKSEEHCIVTEDGNQHVYKKLCLCAGAKPKLICEGNPYVLGIRDTDSAQEFQKQLTKAKRIMIIGNGGIALELVYEIEGCEVIWAIKDKAIGNTFFDAGAAEFLTSKLIAEKSEAKIAHKRTRYTTEGRKKEARSKSKADNVGSALGPDWHEGLNLKGTKEFSHKIHLETMCEVKKIYLQDEFRILKKKSFTFPRDHKSVTADTEMWPVYVELTNEKIYGCDFIVSATGVTPNVEPFLHGNSFDLGEDGGLKVDDHMHTSLPDIYAAGDICTTSWQLSPVWQQMRLWTQARQMGWYAAKCMAAASSGDSIDMDFSFELFAHVTKFFNYKVVLLGKYNAQGLGSDHELMLRCTKGREYIKVVMQNGRMMGAVLIGETDLEETFENLILNQMNLSSYGEDLLDPNIDIEDYFD",
+        "full_sequence": "MEAARPPPTAGKFVVVGGGIAGVTCAEQLATHFPSEDILLVTASPVIKAVTNFKQISKILEEFDVEEQSSTMLGKRFPNIKVIESGVKQLKSEEHCIVTEDGNQHVYKKLCLCAGAKPKLICEGNPYVLGIRDTDSAQEFQKQLTKAKRIMIIGNGGIALELVYEIEGCEVIWAIKDKAIGNTFFDAGAAEFLTSKLIAEKSEAKIAHKRTRYTTEGRKKEARSKSKADNVGSALGPDWHEGLNLKGTKEFSHKIHLETMCEVKKIYLQDEFRILKKKSFTFPRDHKSVTADTEMWPVYVELTNEKIYGCDFIVSATGVTPNVEPFLHGNSFDLGEDGGLKVDDHMHTSLPDIYAAGDICTTSWQLSPVWQQMRLWTQARQMGWYAAKCMAAASSGDSIDMDFSFELFAHVTKFFNYKVVLLGKYNAQGLGSDHELMLRCTKGREYIKVVMQNGRMMGAVLIGETDLEETFENLILNQMNLSSYGEDLLDPNIDIEDYFD",
+        "n_residues": 500,
+        "mutation_pos_1indexed": 372,
+        "wt_aa": "Q",
+        "mut_aa": "H",
+        "pocket_lining_residues": "V369-W370-Q371-Q372-M373-K424-Q428-G429",
+        "pocket_lining_positions_precursor": [
+          369,
+          370,
+          371,
+          372,
+          373,
+          424,
+          428,
+          429
+        ],
+        "pocket_lining_1letter": "VWQQMKQG",
+        "sequence_slice_around_pocket": "TSWQLSPVWQQMRLWTQARQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PYROXD1_Q372H/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "V369",
+          "W370",
+          "Q371",
+          "Q372",
+          "M373",
+          "K424",
+          "Q428",
+          "G429"
+        ],
+        "values": [
+          [
+            0.0,
+            3.831,
+            6.853,
+            10.525,
+            12.821,
+            5.505,
+            9.081,
+            9.739
+          ],
+          [
+            3.831,
+            0.0,
+            3.825,
+            7.058,
+            9.704,
+            7.301,
+            9.973,
+            10.785
+          ],
+          [
+            6.853,
+            3.825,
+            0.0,
+            3.802,
+            6.529,
+            8.026,
+            8.833,
+            9.793
+          ],
+          [
+            10.525,
+            7.058,
+            3.802,
+            0.0,
+            3.825,
+            11.35,
+            11.531,
+            12.564
+          ],
+          [
+            12.821,
+            9.704,
+            6.529,
+            3.825,
+            0.0,
+            12.217,
+            12.233,
+            14.107
+          ],
+          [
+            5.505,
+            7.301,
+            8.026,
+            11.35,
+            12.217,
+            0.0,
+            5.325,
+            7.865
+          ],
+          [
+            9.081,
+            9.973,
+            8.833,
+            11.531,
+            12.233,
+            5.325,
+            0.0,
+            3.816
+          ],
+          [
+            9.739,
+            10.785,
+            9.793,
+            12.564,
+            14.107,
+            7.865,
+            3.816,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(N)c(N2CC(=O)CCC2CCNc2ncnc3[nH]cnc23)c1",
+        "composite_score": 0.6666352417565433,
+        "mw": 381.19,
+        "logp": 1.984,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 6,
+        "qed": 0.5542,
+        "sa_score": 3.44,
+        "n_heavy_atoms": 28,
+        "tpsa": 122.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PYROXD1-Q372H Candidate #1",
+        "iupac_name": "COc1ccc(N)c(N2CC(=O)CCC2CCNc2ncnc3[nH]cnc23)c1",
+        "pocket_affinity_score": 0.6666,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PYROXD1_Q372H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PYROXD1_Q372H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PYROXD1_Q372H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PYROXD1_Q372H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PYROXD1_Q372H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PYROXD1-Q372H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PYROXD1-Q372H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:56:16.994697+00:00"
     }
   ]
 }
