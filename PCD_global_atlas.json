@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2430,
+  "total_entries": 2431,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47191,
-    "queue_remaining": 131406
+    "total_processed": 47192,
+    "queue_remaining": 131405
   },
   "entries": [
     {
@@ -568238,6 +568238,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:18:06.324519+00:00"
+    },
+    {
+      "entry_id": "PCD-KLF7-D264N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KLF7-D264N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KLF7",
+        "uniprot": "",
+        "clinvar_id": "374233",
+        "disease": "intellectual deficiency",
+        "mutation_precursor": "D264N",
+        "mutation_mature": "D264N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9334057185336291,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 325.11317755599674,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -7.821953773498535,
+          12.140514373779297,
+          9.190269470214844
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.629845433382967,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8318804103917304,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y249": "Y",
+          "F260": "F",
+          "R262": "R",
+          "S263": "S",
+          "D264": "D",
+          "E265": "E",
+          "L266": "L",
+          "T267": "T"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O75840|KLF7 variant D264N",
+        "fasta_sequence": "MDVLASYSIFQELQLVHDTGYFSALPSLEETWQQTCLELERYLQTEPRRISETFGEDLDCFLHASPPPCIEESFRRLDPLLLPVEAAICEKSSAVDILLSRDKLLSETCLSLQPASSSLDSYTAVNQAQLNAVTSLTPPSSPELSRHLVKTSQTLSAVDGTVTLKLVAKKAALSSVKVGGVATAAAAVTAAGAVKSGQSDSDQGGLGAEACPENKKRVHRCQFNGCRKVYTKSSHLKAHQRTHTGEKPYKCSWEGCEWRFARSDELTRHYRKHTGAKPFKCNHCDRCFSRSDHLALHMKRHI",
+        "full_sequence": "MDVLASYSIFQELQLVHDTGYFSALPSLEETWQQTCLELERYLQTEPRRISETFGEDLDCFLHASPPPCIEESFRRLDPLLLPVEAAICEKSSAVDILLSRDKLLSETCLSLQPASSSLDSYTAVNQAQLNAVTSLTPPSSPELSRHLVKTSQTLSAVDGTVTLKLVAKKAALSSVKVGGVATAAAAVTAAGAVKSGQSDSDQGGLGAEACPENKKRVHRCQFNGCRKVYTKSSHLKAHQRTHTGEKPYKCSWEGCEWRFARSDELTRHYRKHTGAKPFKCNHCDRCFSRSDHLALHMKRHI",
+        "n_residues": 302,
+        "mutation_pos_1indexed": 264,
+        "wt_aa": "D",
+        "mut_aa": "N",
+        "pocket_lining_residues": "Y249-F260-R262-S263-D264-E265-L266-T267",
+        "pocket_lining_positions_precursor": [
+          249,
+          260,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267
+        ],
+        "pocket_lining_1letter": "YFRSDELT",
+        "sequence_slice_around_pocket": "EGCEWRFARSDELTRHYRKH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KLF7_D264N/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "Y249",
+          "F260",
+          "R262",
+          "S263",
+          "D264",
+          "E265",
+          "L266",
+          "T267"
+        ],
+        "values": [
+          [
+            0.0,
+            4.967,
+            6.553,
+            6.16,
+            9.447,
+            8.687,
+            6.57,
+            9.647
+          ],
+          [
+            4.967,
+            0.0,
+            5.439,
+            7.046,
+            8.731,
+            6.174,
+            5.854,
+            9.631
+          ],
+          [
+            6.553,
+            5.439,
+            0.0,
+            3.819,
+            5.592,
+            5.414,
+            6.701,
+            8.995
+          ],
+          [
+            6.16,
+            7.046,
+            3.819,
+            0.0,
+            3.842,
+            5.427,
+            5.078,
+            6.243
+          ],
+          [
+            9.447,
+            8.731,
+            5.592,
+            3.842,
+            0.0,
+            3.854,
+            5.332,
+            4.886
+          ],
+          [
+            8.687,
+            6.174,
+            5.414,
+            5.427,
+            3.854,
+            0.0,
+            3.851,
+            5.531
+          ],
+          [
+            6.57,
+            5.854,
+            6.701,
+            5.078,
+            5.332,
+            3.851,
+            0.0,
+            3.864
+          ],
+          [
+            9.647,
+            9.631,
+            8.995,
+            6.243,
+            4.886,
+            5.531,
+            3.864,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.9195334892472506,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KLF7-D264N Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9195,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KLF7_D264N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KLF7_D264N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KLF7_D264N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KLF7_D264N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KLF7_D264N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KLF7-D264N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KLF7-D264N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:18:31.867461+00:00"
     }
   ]
 }
