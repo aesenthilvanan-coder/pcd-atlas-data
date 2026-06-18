@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1666,
+  "total_entries": 1667,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46329,
-    "queue_remaining": 132268
+    "total_processed": 46330,
+    "queue_remaining": 132267
   },
   "entries": [
     {
@@ -369158,6 +369158,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:29:59.375948+00:00"
+    },
+    {
+      "entry_id": "PCD-ALAS2-H523Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALAS2-H523Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ALAS2",
+        "uniprot": "",
+        "clinvar_id": "368592",
+        "disease": "X-linked sideroblastic anemia 1",
+        "mutation_precursor": "H523Y",
+        "mutation_mature": "H523Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7265787161355061,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 451.52908700011994,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          13.955558776855469,
+          -5.772314071655273,
+          -5.911593914031982
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.7540466948947735,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7954262246249734,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y175": "Y",
+          "P176": "P",
+          "L200": "L",
+          "G201": "G",
+          "M202": "M",
+          "S521": "S",
+          "P522": "P",
+          "H523": "H",
+          "H524": "H"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P22557|ALAS2 variant H523Y",
+        "fasta_sequence": "MVTAAMLLQCCPVLARGPTSLLGKVVKTHQFLFGIGRCPILATQGPNCSQIHLKATKAGGDSPSWAKGHCPFMLSELQDGKSKIVQKAAPEVQEDVKAFKTDLPSSLVSVSLRKPFSGPQEQEQISGKVTHLIQNNMPGNYVFSYDQFFRDKIMEKKQDHTYRVFKTVNRWADAYPFAQHFSEASVASKDVSVWCSNDYLGMSRHPQVLQATQETLQRHGAGAGGTRNISGTSKFHVELEQELAELHQKDSALLFSSCFVANDSTLFTLAKILPGCEIYSDAGNHASMIQGIRNSGAAKFVFRHNDPDHLKKLLEKSNPKIPKIVAFETVHSMDGAICPLEELCDVSHQYGALTFVDEVHAVGLYGSRGAGIGERDGIMHKIDIISGTLGKAFGCVGGYIASTRDLVDMVRSYAAGFIFTTSLPPMVLSGALESVRLLKGEEGQALRRAHQRNVKHMRQLLMDRGLPVIPCPSHIIPIRVGNAALNSKLCDLLLSKHGIYVQAINYPTVPRGEELLRLAPSPHHSPQMMEDFVEKLLLAWTAVGLPLQDVSVAACNFCRRPVHFELMSEWERSYFGNMGPQYVTTYA",
+        "full_sequence": "MVTAAMLLQCCPVLARGPTSLLGKVVKTHQFLFGIGRCPILATQGPNCSQIHLKATKAGGDSPSWAKGHCPFMLSELQDGKSKIVQKAAPEVQEDVKAFKTDLPSSLVSVSLRKPFSGPQEQEQISGKVTHLIQNNMPGNYVFSYDQFFRDKIMEKKQDHTYRVFKTVNRWADAYPFAQHFSEASVASKDVSVWCSNDYLGMSRHPQVLQATQETLQRHGAGAGGTRNISGTSKFHVELEQELAELHQKDSALLFSSCFVANDSTLFTLAKILPGCEIYSDAGNHASMIQGIRNSGAAKFVFRHNDPDHLKKLLEKSNPKIPKIVAFETVHSMDGAICPLEELCDVSHQYGALTFVDEVHAVGLYGSRGAGIGERDGIMHKIDIISGTLGKAFGCVGGYIASTRDLVDMVRSYAAGFIFTTSLPPMVLSGALESVRLLKGEEGQALRRAHQRNVKHMRQLLMDRGLPVIPCPSHIIPIRVGNAALNSKLCDLLLSKHGIYVQAINYPTVPRGEELLRLAPSPHHSPQMMEDFVEKLLLAWTAVGLPLQDVSVAACNFCRRPVHFELMSEWERSYFGNMGPQYVTTYA",
+        "n_residues": 587,
+        "mutation_pos_1indexed": 523,
+        "wt_aa": "H",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "Y175-P176-L200-G201-M202-S521-P522-H523-H524",
+        "pocket_lining_positions_precursor": [
+          175,
+          176,
+          200,
+          201,
+          202,
+          521,
+          522,
+          523,
+          524
+        ],
+        "pocket_lining_1letter": "YPLGMSPHH",
+        "sequence_slice_around_pocket": "EELLRLAPSPHHSPQMMEDF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ALAS2_H523Y/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "Y175",
+          "P176",
+          "L200",
+          "G201",
+          "M202",
+          "S521",
+          "P522",
+          "H523",
+          "H524"
+        ],
+        "values": [
+          [
+            0.0,
+            3.095,
+            9.957,
+            6.866,
+            9.926,
+            9.743,
+            10.418,
+            7.259,
+            8.73
+          ],
+          [
+            3.095,
+            0.0,
+            9.864,
+            7.569,
+            11.135,
+            8.165,
+            9.735,
+            6.811,
+            6.976
+          ],
+          [
+            9.957,
+            9.864,
+            0.0,
+            3.859,
+            5.49,
+            5.687,
+            6.231,
+            7.668,
+            10.109
+          ],
+          [
+            6.866,
+            7.569,
+            3.859,
+            0.0,
+            3.852,
+            7.387,
+            8.06,
+            7.555,
+            10.245
+          ],
+          [
+            9.926,
+            11.135,
+            5.49,
+            3.852,
+            0.0,
+            10.63,
+            10.908,
+            10.988,
+            13.97
+          ],
+          [
+            9.743,
+            8.165,
+            5.687,
+            7.387,
+            10.63,
+            0.0,
+            3.875,
+            5.253,
+            5.492
+          ],
+          [
+            10.418,
+            9.735,
+            6.231,
+            8.06,
+            10.908,
+            3.875,
+            0.0,
+            3.857,
+            5.76
+          ],
+          [
+            7.259,
+            6.811,
+            7.668,
+            7.555,
+            10.988,
+            5.253,
+            3.857,
+            0.0,
+            3.846
+          ],
+          [
+            8.73,
+            6.976,
+            10.109,
+            10.245,
+            13.97,
+            5.492,
+            5.76,
+            3.846,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.5923855854620612,
+        "mw": 317.21,
+        "logp": 2.135,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9218,
+        "sa_score": 3.14,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ALAS2-H523Y Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5924,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ALAS2_H523Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ALAS2_H523Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ALAS2_H523Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALAS2_H523Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALAS2_H523Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALAS2-H523Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALAS2-H523Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:30:43.495892+00:00"
     }
   ]
 }
