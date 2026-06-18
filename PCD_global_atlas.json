@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2492,
+  "total_entries": 2493,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47264,
-    "queue_remaining": 131333
+    "total_processed": 47265,
+    "queue_remaining": 131332
   },
   "entries": [
     {
@@ -583542,6 +583542,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T14:19:26.690060+00:00"
+    },
+    {
+      "entry_id": "PCD-DNM2-I486V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNM2-I486V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DNM2",
+        "uniprot": "",
+        "clinvar_id": "374611",
+        "disease": "not provided",
+        "mutation_precursor": "I486V",
+        "mutation_mature": "I486V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.876425171281169,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 474.9103563662671,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          54.615360260009766,
+          2.0616679191589355,
+          -35.443416595458984
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.9025166991176174,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7512445738216622,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y485": "Y",
+          "I486": "I",
+          "N487": "N",
+          "T488": "T",
+          "N489": "N",
+          "H490": "H"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P50570|DNM2 variant I486V",
+        "fasta_sequence": "MGNRGMEELIPLVNKLQDAFSSIGQSCHLDLPQIAVVGGQSAGKSSVLENFVGRDFLPRGSGIVTRRPLILQLIFSKTEHAEFLHCKSKKFTDFDEVRQEIEAETDRVTGTNKGISPVPINLRVYSPHVLNLTLIDLPGITKVPVGDQPPDIEYQIKDMILQFISRESSLILAVTPANMDLANSDALKLAKEVDPQGLRTIGVITKLDLMDEGTDARDVLENKLLPLRRGYIGVVNRSQKDIEGKKDIRAALAAERKFFLSHPAYRHMADRMGTPHLQKTLNQQLTNHIRESLPALRSKLQSQLLSLEKEVEEYKNFRPDDPTRKTKALLQMVQQFGVDFEKRIEGSGDQVDTLELSGGARINRIFHERFPFELVKMEFDEKDLRREISYAIKNIHGVRTGLFTPDLAFEAIVKKQVVKLKEPCLKCVDLVIQELINTVRQCTSKLSSYPRLREETERIVTTYIREREGRTKDQILLLIDIEQSYINTNHEDFIGFANAQQRSTQLNKKRAIPNQGEILVIRRGWLTINNISLMKGGSKEYWFVLTAESLSWYKDEEEKEKKYMLPLDNLKIRDVEKGFMSNKHVFAIFNTEQRNVYKDLRQIELACDSQEDVDSWKASFLRAGVYPEKDQAENEDGAQENTFSMDPQLERQVETIRNLVDSYVAIINKSIRDLMPKTIMHLMINNTKAFIHHELLAYLYSSADQSSLMEESADQAQRRDDMLRMYHALKEALNIIGDISTSTVSTPVPPPVDDTWLQSASSHSPTPQRRPVSSIHPPGRPPAVRGPTPGPPLIPVPVGAAASFSAPPIPSRPGPQSVFANSDLFPAPPQIPSRPVRIPPGIPPGVPSRRPPAAPSRPTIIRPAEPSLLD",
+        "full_sequence": "MGNRGMEELIPLVNKLQDAFSSIGQSCHLDLPQIAVVGGQSAGKSSVLENFVGRDFLPRGSGIVTRRPLILQLIFSKTEHAEFLHCKSKKFTDFDEVRQEIEAETDRVTGTNKGISPVPINLRVYSPHVLNLTLIDLPGITKVPVGDQPPDIEYQIKDMILQFISRESSLILAVTPANMDLANSDALKLAKEVDPQGLRTIGVITKLDLMDEGTDARDVLENKLLPLRRGYIGVVNRSQKDIEGKKDIRAALAAERKFFLSHPAYRHMADRMGTPHLQKTLNQQLTNHIRESLPALRSKLQSQLLSLEKEVEEYKNFRPDDPTRKTKALLQMVQQFGVDFEKRIEGSGDQVDTLELSGGARINRIFHERFPFELVKMEFDEKDLRREISYAIKNIHGVRTGLFTPDLAFEAIVKKQVVKLKEPCLKCVDLVIQELINTVRQCTSKLSSYPRLREETERIVTTYIREREGRTKDQILLLIDIEQSYINTNHEDFIGFANAQQRSTQLNKKRAIPNQGEILVIRRGWLTINNISLMKGGSKEYWFVLTAESLSWYKDEEEKEKKYMLPLDNLKIRDVEKGFMSNKHVFAIFNTEQRNVYKDLRQIELACDSQEDVDSWKASFLRAGVYPEKDQAENEDGAQENTFSMDPQLERQVETIRNLVDSYVAIINKSIRDLMPKTIMHLMINNTKAFIHHELLAYLYSSADQSSLMEESADQAQRRDDMLRMYHALKEALNIIGDISTSTVSTPVPPPVDDTWLQSASSHSPTPQRRPVSSIHPPGRPPAVRGPTPGPPLIPVPVGAAASFSAPPIPSRPGPQSVFANSDLFPAPPQIPSRPVRIPPGIPPGVPSRRPPAAPSRPTIIRPAEPSLLD",
+        "n_residues": 870,
+        "mutation_pos_1indexed": 486,
+        "wt_aa": "I",
+        "mut_aa": "V",
+        "pocket_lining_residues": "Y485-I486-N487-T488-N489-H490",
+        "pocket_lining_positions_precursor": [
+          485,
+          486,
+          487,
+          488,
+          489,
+          490
+        ],
+        "pocket_lining_1letter": "YINTNH",
+        "sequence_slice_around_pocket": "LLLIDIEQSYINTNHEDFIG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DNM2_I486V/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "Y485",
+          "I486",
+          "N487",
+          "T488",
+          "N489",
+          "H490"
+        ],
+        "values": [
+          [
+            0.0,
+            3.834,
+            6.11,
+            9.195,
+            11.197,
+            11.54
+          ],
+          [
+            3.834,
+            0.0,
+            3.831,
+            5.997,
+            8.832,
+            9.136
+          ],
+          [
+            6.11,
+            3.831,
+            0.0,
+            3.85,
+            5.356,
+            5.65
+          ],
+          [
+            9.195,
+            5.997,
+            3.85,
+            0.0,
+            3.873,
+            5.504
+          ],
+          [
+            11.197,
+            8.832,
+            5.356,
+            3.873,
+            0.0,
+            3.852
+          ],
+          [
+            11.54,
+            9.136,
+            5.65,
+            5.504,
+            3.852,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CCN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.5615622778437297,
+        "mw": 331.23,
+        "logp": 2.178,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.896,
+        "sa_score": 3.16,
+        "n_heavy_atoms": 24,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DNM2-I486V Candidate #1",
+        "iupac_name": "COc1ccc(CCN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5616,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DNM2_I486V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DNM2_I486V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DNM2_I486V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNM2_I486V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNM2_I486V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNM2-I486V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNM2-I486V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T14:20:02.191795+00:00"
     }
   ]
 }
