@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1474,
+  "total_entries": 1475,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46120,
-    "queue_remaining": 132477
+    "total_processed": 46121,
+    "queue_remaining": 132476
   },
   "entries": [
     {
@@ -326368,6 +326368,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:11:14.558157+00:00"
+    },
+    {
+      "entry_id": "PCD-ATP8B1-A571T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATP8B1-A571T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ATP8B1",
+        "uniprot": "",
+        "clinvar_id": "327485",
+        "disease": "Progressive familial intrahepatic cholestasis type 1",
+        "mutation_precursor": "A571T",
+        "mutation_mature": "A571T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7470206086024499,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 323.07050800529197,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -25.503278732299805,
+          13.715937614440918,
+          35.07065963745117
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.4052342667345874,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8850005523458117,
+        "cryptic": true,
+        "pocket_residues": {
+          "V539": "V",
+          "F569": "F",
+          "L570": "L",
+          "A571": "A",
+          "R572": "R",
+          "T573": "T",
+          "T576": "T",
+          "I577": "I",
+          "T578": "T",
+          "I579": "I",
+          "T587": "T"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43520|ATP8B1 variant A571T",
+        "fasta_sequence": "MSTERDSETTFDEDSQPNDEVVPYSDDETEDELDDQGSAVEPEQNRVNREAEENREPFRKECTWQVKANDRKYHEQPHFMNTKFLCIKESKYANNAIKTYKYNAFTFIPMNLFEQFKRAANLYFLALLILQAVPQISTLAWYTTLVPLLVVLGVTAIKDLVDDVARHKMDKEINNRTCEVIKDGRFKVAKWKEIQVGDVIRLKKNDFVPADILLLSSSEPNSLCYVETAELDGETNLKFKMSLEITDQYLQREDTLATFDGFIECEEPNNRLDKFTGTLFWRNTSFPLDADKILLRGCVIRNTDFCHGLVIFAGADTKIMKNSGKTRFKRTKIDYLMNYMVYTIFVVLILLSAGLAIGHAYWEAQVGNSSWYLYDGEDDTPSYRGFLIFWGYIIVLNTMVPISLYVSVEVIRLGQSHFINWDLQMYYAEKDTPAKARTTTLNEQLGQIHYIFSDKTGTLTQNIMTFKKCCINGQIYGDHRDASQHNHNKIEQVDFSWNTYADGKLAFYDHYLIEQIQSGKEPEVRQFFFLLAVCHTVMVDRTDGQLNYQAASPDEGALVNAARNFGFAFLARTQNTITISELGTERTYNVLAILDFNSDRKRMSIIVRTPEGNIKLYCKGADTVIYERLHRMNPTKQETQDALDIFANETLRTLCLCYKEIEEKEFTEWNKKFMAASVASTNRDEALDKVYEEIEKDLILLGATAIEDKLQDGVPETISKLAKADIKIWVLTGDKKETAENIGFACELLTEDTTICYGEDINSLLHARMENQRNRGGVYAKFAPPVQESFFPPGGNRALIITGSWLNEILLEKKTKRNKILKLKFPRTEEERRMRTQSKRRLEAKKEQRQKNFVDLACECSAVICCRVTPKQKAMVVDLVKRYKKAITLAIGDGANDVNMIKTAHIGVGISGQEGMQAVMSSDYSFAQFRYLQRLLLVHGRWSYIRMCKFLRYFFYKNFAFTLVHFWYSFFNGYSAQTAYEDWFITLYNVLYTSLPVLLMGLLDQDVSDKLSLRFPGLYIVGQRDLLFNYKRFFVSLLHGVLTSMILFFIPLGAYLQTVGQDGEAPSDYQSFAVTIASALVITVNFQIGLDTSYWTFVNAFSIFGSIALYFGIMFDFHSAGIHVLFPSAFQFTGTASNALRQPYIWLTIILAVAVCLLPVVAIRFLSMTIWPSESDKIQKHRKRLKAEEQWQRRQQVFRRGVSTRRSAYAFSHQRGYADLISSGRSIRKKRSPLDAIVADGTAEYRRTGDS",
+        "full_sequence": "MSTERDSETTFDEDSQPNDEVVPYSDDETEDELDDQGSAVEPEQNRVNREAEENREPFRKECTWQVKANDRKYHEQPHFMNTKFLCIKESKYANNAIKTYKYNAFTFIPMNLFEQFKRAANLYFLALLILQAVPQISTLAWYTTLVPLLVVLGVTAIKDLVDDVARHKMDKEINNRTCEVIKDGRFKVAKWKEIQVGDVIRLKKNDFVPADILLLSSSEPNSLCYVETAELDGETNLKFKMSLEITDQYLQREDTLATFDGFIECEEPNNRLDKFTGTLFWRNTSFPLDADKILLRGCVIRNTDFCHGLVIFAGADTKIMKNSGKTRFKRTKIDYLMNYMVYTIFVVLILLSAGLAIGHAYWEAQVGNSSWYLYDGEDDTPSYRGFLIFWGYIIVLNTMVPISLYVSVEVIRLGQSHFINWDLQMYYAEKDTPAKARTTTLNEQLGQIHYIFSDKTGTLTQNIMTFKKCCINGQIYGDHRDASQHNHNKIEQVDFSWNTYADGKLAFYDHYLIEQIQSGKEPEVRQFFFLLAVCHTVMVDRTDGQLNYQAASPDEGALVNAARNFGFAFLARTQNTITISELGTERTYNVLAILDFNSDRKRMSIIVRTPEGNIKLYCKGADTVIYERLHRMNPTKQETQDALDIFANETLRTLCLCYKEIEEKEFTEWNKKFMAASVASTNRDEALDKVYEEIEKDLILLGATAIEDKLQDGVPETISKLAKADIKIWVLTGDKKETAENIGFACELLTEDTTICYGEDINSLLHARMENQRNRGGVYAKFAPPVQESFFPPGGNRALIITGSWLNEILLEKKTKRNKILKLKFPRTEEERRMRTQSKRRLEAKKEQRQKNFVDLACECSAVICCRVTPKQKAMVVDLVKRYKKAITLAIGDGANDVNMIKTAHIGVGISGQEGMQAVMSSDYSFAQFRYLQRLLLVHGRWSYIRMCKFLRYFFYKNFAFTLVHFWYSFFNGYSAQTAYEDWFITLYNVLYTSLPVLLMGLLDQDVSDKLSLRFPGLYIVGQRDLLFNYKRFFVSLLHGVLTSMILFFIPLGAYLQTVGQDGEAPSDYQSFAVTIASALVITVNFQIGLDTSYWTFVNAFSIFGSIALYFGIMFDFHSAGIHVLFPSAFQFTGTASNALRQPYIWLTIILAVAVCLLPVVAIRFLSMTIWPSESDKIQKHRKRLKAEEQWQRRQQVFRRGVSTRRSAYAFSHQRGYADLISSGRSIRKKRSPLDAIVADGTAEYRRTGDS",
+        "n_residues": 1251,
+        "mutation_pos_1indexed": 571,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "V539-F569-L570-A571-R572-T573-T576-I577-T578-I579-T587",
+        "pocket_lining_positions_precursor": [
+          539,
+          569,
+          570,
+          571,
+          572,
+          573,
+          576,
+          577,
+          578,
+          579,
+          587
+        ],
+        "pocket_lining_1letter": "VFLARTTITIT",
+        "sequence_slice_around_pocket": "AARNFGFAFLARTQNTITIS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ATP8B1_A571T/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "V539",
+          "F569",
+          "L570",
+          "A571",
+          "R572",
+          "T573",
+          "T576",
+          "I577",
+          "T578",
+          "I579",
+          "T587"
+        ],
+        "values": [
+          [
+            0.0,
+            7.709,
+            6.867,
+            6.597,
+            8.269,
+            11.366,
+            14.022,
+            11.406,
+            11.068,
+            11.321,
+            15.264
+          ],
+          [
+            7.709,
+            0.0,
+            3.86,
+            6.307,
+            8.361,
+            12.107,
+            11.734,
+            7.984,
+            6.474,
+            4.489,
+            10.287
+          ],
+          [
+            6.867,
+            3.86,
+            0.0,
+            3.83,
+            7.272,
+            10.81,
+            11.218,
+            8.02,
+            5.606,
+            5.202,
+            9.642
+          ],
+          [
+            6.597,
+            6.307,
+            3.83,
+            0.0,
+            3.837,
+            7.129,
+            8.551,
+            6.154,
+            5.153,
+            7.083,
+            9.055
+          ],
+          [
+            8.269,
+            8.361,
+            7.272,
+            3.837,
+            0.0,
+            3.809,
+            5.875,
+            4.475,
+            6.083,
+            8.871,
+            9.121
+          ],
+          [
+            11.366,
+            12.107,
+            10.81,
+            7.129,
+            3.809,
+            0.0,
+            5.012,
+            6.27,
+            8.589,
+            11.988,
+            10.268
+          ],
+          [
+            14.022,
+            11.734,
+            11.218,
+            8.551,
+            5.875,
+            5.012,
+            0.0,
+            3.814,
+            6.698,
+            10.077,
+            6.582
+          ],
+          [
+            11.406,
+            7.984,
+            8.02,
+            6.154,
+            4.475,
+            6.27,
+            3.814,
+            0.0,
+            3.832,
+            6.644,
+            5.658
+          ],
+          [
+            11.068,
+            6.474,
+            5.606,
+            5.153,
+            6.083,
+            8.589,
+            6.698,
+            3.832,
+            0.0,
+            3.822,
+            4.245
+          ],
+          [
+            11.321,
+            4.489,
+            5.202,
+            7.083,
+            8.871,
+            11.988,
+            10.077,
+            6.644,
+            3.822,
+            0.0,
+            6.456
+          ],
+          [
+            15.264,
+            10.287,
+            9.642,
+            9.055,
+            9.121,
+            10.268,
+            6.582,
+            5.658,
+            4.245,
+            6.456,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6478596689372715,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ATP8B1-A571T Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6479,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ATP8B1_A571T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ATP8B1_A571T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ATP8B1_A571T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ATP8B1_A571T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ATP8B1_A571T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATP8B1-A571T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATP8B1-A571T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:11:57.039265+00:00"
     }
   ]
 }
