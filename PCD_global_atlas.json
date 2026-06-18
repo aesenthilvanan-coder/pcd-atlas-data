@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2102,
+  "total_entries": 2103,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46813,
-    "queue_remaining": 131784
+    "total_processed": 46815,
+    "queue_remaining": 131782
   },
   "entries": [
     {
@@ -481442,6 +481442,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:39:11.900529+00:00"
+    },
+    {
+      "entry_id": "PCD-HMBS-D178N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HMBS-D178N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HMBS",
+        "uniprot": "",
+        "clinvar_id": "372379",
+        "disease": "not provided",
+        "mutation_precursor": "D178N",
+        "mutation_mature": "D178N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7882440122913879,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 354.9770075291998,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          11.651840209960938,
+          20.003849029541016,
+          -6.609418869018555
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.722255517955091,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6850959865717675,
+        "cryptic": true,
+        "pocket_residues": {
+          "V124": "V",
+          "F125": "F",
+          "H126": "H",
+          "P127": "P",
+          "R173": "R",
+          "L174": "L",
+          "R175": "R",
+          "K176": "K",
+          "L177": "L",
+          "D178": "D",
+          "R201": "R"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P08397|HMBS variant D178N",
+        "fasta_sequence": "MSGNGNAAATAEENSPKMRVIRVGTRKSQLARIQTDSVVATLKASYPGLQFEIIAMSTTGDKILDTALSKIGEKSLFTKELEHALEKNEVDLVVHSLKDLPTVLPPGFTIGAICKRENPHDAVVFHPKFVGKTLETLPEKSVVGTSSLRRAAQLQRKFPHLEFRSIRGNLNTRLRKLDEQQEFSAIILATAGLQRMGWHNRVGQILHPEECMYAVGQGALGVEVRAKDQDILDLVGVLHDPETLLRCIAERAFLRHLEGGCSVPVAVHTAMKDGQLYLTGGVWSLDGSDSIQETMQATIHVPAQHEDGPEDDPQLVGITARNIPRGPQLAAQNLGISLANLLLSKGAKNILDVARQLNDAH",
+        "full_sequence": "MSGNGNAAATAEENSPKMRVIRVGTRKSQLARIQTDSVVATLKASYPGLQFEIIAMSTTGDKILDTALSKIGEKSLFTKELEHALEKNEVDLVVHSLKDLPTVLPPGFTIGAICKRENPHDAVVFHPKFVGKTLETLPEKSVVGTSSLRRAAQLQRKFPHLEFRSIRGNLNTRLRKLDEQQEFSAIILATAGLQRMGWHNRVGQILHPEECMYAVGQGALGVEVRAKDQDILDLVGVLHDPETLLRCIAERAFLRHLEGGCSVPVAVHTAMKDGQLYLTGGVWSLDGSDSIQETMQATIHVPAQHEDGPEDDPQLVGITARNIPRGPQLAAQNLGISLANLLLSKGAKNILDVARQLNDAH",
+        "n_residues": 361,
+        "mutation_pos_1indexed": 178,
+        "wt_aa": "D",
+        "mut_aa": "N",
+        "pocket_lining_residues": "V124-F125-H126-P127-R173-L174-R175-K176-L177-D178-R201",
+        "pocket_lining_positions_precursor": [
+          124,
+          125,
+          126,
+          127,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          201
+        ],
+        "pocket_lining_1letter": "VFHPRLRKLDR",
+        "sequence_slice_around_pocket": "GNLNTRLRKLDEQQEFSAII"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HMBS_D178N/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "V124",
+          "F125",
+          "H126",
+          "P127",
+          "R173",
+          "L174",
+          "R175",
+          "K176",
+          "L177",
+          "D178",
+          "R201"
+        ],
+        "values": [
+          [
+            0.0,
+            3.816,
+            6.78,
+            9.063,
+            10.148,
+            8.249,
+            11.465,
+            11.644,
+            8.439,
+            9.935,
+            5.838
+          ],
+          [
+            3.816,
+            0.0,
+            3.79,
+            6.261,
+            11.705,
+            9.588,
+            11.847,
+            11.557,
+            7.799,
+            8.719,
+            7.72
+          ],
+          [
+            6.78,
+            3.79,
+            0.0,
+            3.899,
+            11.188,
+            8.888,
+            9.925,
+            9.485,
+            5.773,
+            5.716,
+            9.518
+          ],
+          [
+            9.063,
+            6.261,
+            3.899,
+            0.0,
+            13.766,
+            10.732,
+            11.213,
+            11.778,
+            8.55,
+            6.597,
+            9.503
+          ],
+          [
+            10.148,
+            11.705,
+            11.188,
+            13.766,
+            0.0,
+            3.822,
+            5.404,
+            5.034,
+            6.185,
+            8.659,
+            12.467
+          ],
+          [
+            8.249,
+            9.588,
+            8.888,
+            10.732,
+            3.822,
+            0.0,
+            3.831,
+            5.506,
+            5.101,
+            6.197,
+            9.341
+          ],
+          [
+            11.465,
+            11.847,
+            9.925,
+            11.213,
+            5.404,
+            3.831,
+            0.0,
+            3.858,
+            5.376,
+            5.076,
+            12.212
+          ],
+          [
+            11.644,
+            11.557,
+            9.485,
+            11.778,
+            5.034,
+            5.506,
+            3.858,
+            0.0,
+            3.821,
+            5.594,
+            14.069
+          ],
+          [
+            8.439,
+            7.799,
+            5.773,
+            8.55,
+            6.185,
+            5.101,
+            5.376,
+            3.821,
+            0.0,
+            3.839,
+            11.413
+          ],
+          [
+            9.935,
+            8.719,
+            5.716,
+            6.597,
+            8.659,
+            6.197,
+            5.076,
+            5.594,
+            3.839,
+            0.0,
+            11.131
+          ],
+          [
+            5.838,
+            7.72,
+            9.518,
+            9.503,
+            12.467,
+            9.341,
+            12.212,
+            14.069,
+            11.413,
+            11.131,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8491921092058354,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HMBS-D178N Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8492,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HMBS_D178N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HMBS_D178N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HMBS_D178N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HMBS_D178N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HMBS_D178N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HMBS-D178N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HMBS-D178N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:39:52.734250+00:00"
     }
   ]
 }
