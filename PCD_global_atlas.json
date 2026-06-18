@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2119,
+  "total_entries": 2120,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46831,
-    "queue_remaining": 131766
+    "total_processed": 46832,
+    "queue_remaining": 131765
   },
   "entries": [
     {
@@ -485718,6 +485718,279 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:55:50.187066+00:00"
+    },
+    {
+      "entry_id": "PCD-SHOC2-I112T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SHOC2-I112T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SHOC2",
+        "uniprot": "",
+        "clinvar_id": "372672",
+        "disease": "not specified",
+        "mutation_precursor": "I112T",
+        "mutation_mature": "I112T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8591984467353286,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 489.3165301174493,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -9.88911247253418,
+          15.458261489868164,
+          34.96842956542969
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.3511738340072155,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7477385259538497,
+        "cryptic": true,
+        "pocket_residues": {
+          "K84": "K",
+          "S85": "S",
+          "S86": "S",
+          "N87": "N",
+          "R110": "R",
+          "S111": "S",
+          "I112": "I",
+          "H113": "H",
+          "I114": "I",
+          "N133": "N",
+          "K134": "K"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UQ13|SHOC2 variant I112T",
+        "fasta_sequence": "MSSSLGKEKDSKEKDPKVPSAKEREKEAKASGGFGKESKEKEPKTKGKDAKDGKKDSSAAQPGVAFSVDNTIKRPNPAPGTRKKSSNAEVIKELNKCREENSMRLDLSKRSIHILPSSIKELTQLTELYLYSNKLQSLPAEVGCLVNLMTLALSENSLTSLPDSLDNLKKLRMLDLRHNKLREIPSVVYRLDSLTTLYLRFNRITTVEKDIKNLSKLSMLSIRENKIKQLPAEIGELCNLITLDVAHNQLEHLPKEIGNCTQITNLDLQHNELLDLPDTIGNLSSLSRLGLRYNRLSAIPRSLAKCSALEELNLENNNISTLPESLLSSLVKLNSLTLARNCFQLYPVGGPSQFSTIYSLNMEHNRINKIPFGIFSRAKVLSKLNMKDNQLTSLPLDFGTWTSMVELNLATNQLTKIPEDVSGLVSLEVLILSNNLLKKLPHGLGNLRKLRELDLEENKLESLPNEIAYLKDLQKLVLTNNQLTTLPRGIGHLTNLTHLGLGENLLTHLPEEIGTLENLEELYLNDNPNLHSLPFELALCSKLSIMSIENCPLSHLPPQIVAGGPSFIIQFLKMQGPYRAMV",
+        "full_sequence": "MSSSLGKEKDSKEKDPKVPSAKEREKEAKASGGFGKESKEKEPKTKGKDAKDGKKDSSAAQPGVAFSVDNTIKRPNPAPGTRKKSSNAEVIKELNKCREENSMRLDLSKRSIHILPSSIKELTQLTELYLYSNKLQSLPAEVGCLVNLMTLALSENSLTSLPDSLDNLKKLRMLDLRHNKLREIPSVVYRLDSLTTLYLRFNRITTVEKDIKNLSKLSMLSIRENKIKQLPAEIGELCNLITLDVAHNQLEHLPKEIGNCTQITNLDLQHNELLDLPDTIGNLSSLSRLGLRYNRLSAIPRSLAKCSALEELNLENNNISTLPESLLSSLVKLNSLTLARNCFQLYPVGGPSQFSTIYSLNMEHNRINKIPFGIFSRAKVLSKLNMKDNQLTSLPLDFGTWTSMVELNLATNQLTKIPEDVSGLVSLEVLILSNNLLKKLPHGLGNLRKLRELDLEENKLESLPNEIAYLKDLQKLVLTNNQLTTLPRGIGHLTNLTHLGLGENLLTHLPEEIGTLENLEELYLNDNPNLHSLPFELALCSKLSIMSIENCPLSHLPPQIVAGGPSFIIQFLKMQGPYRAMV",
+        "n_residues": 582,
+        "mutation_pos_1indexed": 112,
+        "wt_aa": "I",
+        "mut_aa": "T",
+        "pocket_lining_residues": "K84-S85-S86-N87-R110-S111-I112-H113-I114-N133-K134",
+        "pocket_lining_positions_precursor": [
+          84,
+          85,
+          86,
+          87,
+          110,
+          111,
+          112,
+          113,
+          114,
+          133,
+          134
+        ],
+        "pocket_lining_1letter": "KSSNRSIHINK",
+        "sequence_slice_around_pocket": "SMRLDLSKRSIHILPSSIKE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SHOC2_I112T/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "K84",
+          "S85",
+          "S86",
+          "N87",
+          "R110",
+          "S111",
+          "I112",
+          "H113",
+          "I114",
+          "N133",
+          "K134"
+        ],
+        "values": [
+          [
+            0.0,
+            3.806,
+            6.164,
+            9.449,
+            6.517,
+            5.878,
+            7.88,
+            10.05,
+            12.684,
+            10.464,
+            10.94
+          ],
+          [
+            3.806,
+            0.0,
+            3.803,
+            6.522,
+            5.427,
+            6.191,
+            6.452,
+            9.276,
+            10.878,
+            10.156,
+            11.094
+          ],
+          [
+            6.164,
+            3.803,
+            0.0,
+            3.847,
+            8.908,
+            8.903,
+            7.922,
+            9.563,
+            10.368,
+            12.673,
+            12.731
+          ],
+          [
+            9.449,
+            6.522,
+            3.847,
+            0.0,
+            10.295,
+            10.254,
+            7.773,
+            8.762,
+            8.094,
+            12.95,
+            12.756
+          ],
+          [
+            6.517,
+            5.427,
+            8.908,
+            10.295,
+            0.0,
+            3.863,
+            5.4,
+            9.082,
+            11.073,
+            6.07,
+            8.647
+          ],
+          [
+            5.878,
+            6.191,
+            8.903,
+            10.254,
+            3.863,
+            0.0,
+            3.857,
+            6.41,
+            9.442,
+            4.613,
+            5.595
+          ],
+          [
+            7.88,
+            6.452,
+            7.922,
+            7.773,
+            5.4,
+            3.857,
+            0.0,
+            3.841,
+            5.832,
+            5.236,
+            5.457
+          ],
+          [
+            10.05,
+            9.276,
+            9.563,
+            8.762,
+            9.082,
+            6.41,
+            3.841,
+            0.0,
+            3.855,
+            6.97,
+            4.736
+          ],
+          [
+            12.684,
+            10.878,
+            10.368,
+            8.094,
+            11.073,
+            9.442,
+            5.832,
+            3.855,
+            0.0,
+            9.345,
+            7.801
+          ],
+          [
+            10.464,
+            10.156,
+            12.673,
+            12.95,
+            6.07,
+            4.613,
+            5.236,
+            6.97,
+            9.345,
+            0.0,
+            3.872
+          ],
+          [
+            10.94,
+            11.094,
+            12.731,
+            12.756,
+            8.647,
+            5.595,
+            5.457,
+            4.736,
+            7.801,
+            3.872,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(N)cc1C(O)CNc1ccncc1N1CCCC(=O)C1",
+        "composite_score": 0.539515633791172,
+        "mw": 356.18,
+        "logp": 1.987,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.6805,
+        "sa_score": 3.11,
+        "n_heavy_atoms": 26,
+        "tpsa": 100.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SHOC2-I112T Candidate #1",
+        "iupac_name": "COc1ccc(N)cc1C(O)CNc1ccncc1N1CCCC(=O)C1",
+        "pocket_affinity_score": 0.5395,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SHOC2_I112T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SHOC2_I112T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SHOC2_I112T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SHOC2_I112T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SHOC2_I112T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SHOC2-I112T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SHOC2-I112T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:56:17.041855+00:00"
     }
   ]
 }
