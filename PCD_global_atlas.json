@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2088,
+  "total_entries": 2089,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46797,
-    "queue_remaining": 131800
+    "total_processed": 46798,
+    "queue_remaining": 131799
   },
   "entries": [
     {
@@ -477149,6 +477149,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:30:33.120908+00:00"
+    },
+    {
+      "entry_id": "PCD-BAG3-T5A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BAG3-T5A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BAG3",
+        "uniprot": "",
+        "clinvar_id": "373252",
+        "disease": "not specified",
+        "mutation_precursor": "T5A",
+        "mutation_mature": "T5A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8349752631940593,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 513.532161933745,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          3.5909342765808105,
+          41.7988166809082,
+          18.552705764770508
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.336729351535612,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8103794877328028,
+        "cryptic": true,
+        "pocket_residues": {
+          "A3": "A",
+          "A4": "A",
+          "T5": "T",
+          "H6": "H"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O95817|BAG3 variant T5A",
+        "fasta_sequence": "MSAATHSPMMQVASGNGDRDPLPPGWEIKIDPQTGWPFFVDHNSRTTTWNDPRVPSEGPKETPSSANGPSREGSRLPPAREGHPVYPQLRPGYIPIPVLHEGAENRQVHPFHVYPQPGMQRFRTEAAAAAPQRSQSPLRGMPETTQPDKQCGQVAAAAAAQPPASHGPERSQSPAASDCSSSSSSASLPSSGRSSLGSHQLPRGYISIPVIHEQNVTRPAAQPSFHQAQKTHYPAQQGEYQTHQPVYHKIQGDDWEPRPLRAASPFRSSVQGASSREGSPARSSTPLHSPSPIRVHTVVDRPQQPMTHRETAPVSQPENKPESKPGPVGPELPPGHIPIQVIRKEVDSKPVSQKPPPPSEKVEVKVPPAPVPCPPPSPGPSAVPSSPKSVATEERAAPSTAPAEATPPKPGEAEAPPKHPGVLKVEAILEKVQGLEQAVDNFEGKKTDKKYLMIEEYLTKELLALDSVDPEGRADVRQARRDGVRKVQTILEKLEQKAIDVPGQVQVYELQPSNLEADQPLQAIMEMGAVAADKGKKNAGNAEDPHTETQQPEATAAATSNPSSMTDTPGNPAAP",
+        "full_sequence": "MSAATHSPMMQVASGNGDRDPLPPGWEIKIDPQTGWPFFVDHNSRTTTWNDPRVPSEGPKETPSSANGPSREGSRLPPAREGHPVYPQLRPGYIPIPVLHEGAENRQVHPFHVYPQPGMQRFRTEAAAAAPQRSQSPLRGMPETTQPDKQCGQVAAAAAAQPPASHGPERSQSPAASDCSSSSSSASLPSSGRSSLGSHQLPRGYISIPVIHEQNVTRPAAQPSFHQAQKTHYPAQQGEYQTHQPVYHKIQGDDWEPRPLRAASPFRSSVQGASSREGSPARSSTPLHSPSPIRVHTVVDRPQQPMTHRETAPVSQPENKPESKPGPVGPELPPGHIPIQVIRKEVDSKPVSQKPPPPSEKVEVKVPPAPVPCPPPSPGPSAVPSSPKSVATEERAAPSTAPAEATPPKPGEAEAPPKHPGVLKVEAILEKVQGLEQAVDNFEGKKTDKKYLMIEEYLTKELLALDSVDPEGRADVRQARRDGVRKVQTILEKLEQKAIDVPGQVQVYELQPSNLEADQPLQAIMEMGAVAADKGKKNAGNAEDPHTETQQPEATAAATSNPSSMTDTPGNPAAP",
+        "n_residues": 575,
+        "mutation_pos_1indexed": 5,
+        "wt_aa": "T",
+        "mut_aa": "A",
+        "pocket_lining_residues": "A3-A4-T5-H6",
+        "pocket_lining_positions_precursor": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "pocket_lining_1letter": "AATH",
+        "sequence_slice_around_pocket": "MSAATHSPMMQVAS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_T5A/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A3",
+          "A4",
+          "T5",
+          "H6"
+        ],
+        "values": [
+          [
+            0.0,
+            3.814,
+            5.827,
+            8.691
+          ],
+          [
+            3.814,
+            0.0,
+            3.843,
+            5.535
+          ],
+          [
+            5.827,
+            3.843,
+            0.0,
+            3.801
+          ],
+          [
+            8.691,
+            5.535,
+            3.801,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1NCC(=O)NC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.5420581378871522,
+        "mw": 347.1,
+        "logp": 2.176,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.7443,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 24,
+        "tpsa": 93.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BAG3-T5A Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1NCC(=O)NC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.5421,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_T5A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_T5A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_T5A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_T5A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BAG3_T5A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BAG3-T5A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BAG3-T5A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:30:59.992066+00:00"
     }
   ]
 }
