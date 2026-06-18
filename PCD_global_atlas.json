@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2298,
+  "total_entries": 2299,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47033,
-    "queue_remaining": 131564
+    "total_processed": 47034,
+    "queue_remaining": 131563
   },
   "entries": [
     {
@@ -530885,6 +530885,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:19:46.077975+00:00"
+    },
+    {
+      "entry_id": "PCD-PHEX-C733Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PHEX-C733Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PHEX",
+        "uniprot": "",
+        "clinvar_id": "372778",
+        "disease": "not provided",
+        "mutation_precursor": "C733Y",
+        "mutation_mature": "C733Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8041949269385673,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 463.23957652355347,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          17.850929260253906,
+          16.068464279174805,
+          -21.292268753051758
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.046422389045946,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7614153244003916,
+        "cryptic": true,
+        "pocket_residues": {
+          "P76": "P",
+          "C77": "C",
+          "Q682": "Q",
+          "F727": "F",
+          "Q728": "Q",
+          "K729": "K",
+          "A730": "A",
+          "F731": "F",
+          "N732": "N",
+          "C733": "C"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P78562|PHEX variant C733Y",
+        "fasta_sequence": "MEAETGSSVETGKKANRGTRIALVVFVGGTLVLGTILFLVSQGLLSLQAKQEYCLKPECIEAAAAILSKVNLSVDPCDNFFRFACDGWISNNPIPEDMPSYGVYPWLRHNVDLKLKELLEKSISRRRDTEAIQKAKILYSSCMNEKAIEKADAKPLLHILRHSPFRWPVLESNIGPEGVWSERKFSLLQTLATFRGQYSNSVFIRLYVSPDDKASNEHILKLDQATLSLAVREDYLDNSTEAKSYRDALYKFMVDTAVLLGANSSRAEHDMKSVLRLEIKIAEIMIPHENRTSEAMYNKMNISELSAMIPQFDWLGYIKKVIDTRLYPHLKDISPSENVVVRVPQYFKDLFRILGSERKKTIANYLVWRMVYSRIPNLSRRFQYRWLEFSRVIQGTTTLLPQWDKCVNFIESALPYVVGKMFVDVYFQEDKKEMMEELVEGVRWAFIDMLEKENEWMDAGTKRKAKEKARAVLAKVGYPEFIMNDTHVNEDLKAIKFSEADYFGNVLQTRKYLAQSDFFWLRKAVPKTEWFTNPTTVNAFYSASTNQIRFPAGELQKPFFWGTEYPRSLSYGAIGVIVGHEFTHGFDNNGRKYDKNGNLDPWWSTESEEKFKEKTKCMINQYSNYYWKKAGLNVKGKRTLGENIADNGGLREAFRAYRKWINDRRQGLEEPLLPGITFTNNQLFFLSYAHVRCNSYRPEAAREQVQIGAHSPPQFRVNGAISNFEEFQKAFNCPPNSTMNRGMDSCRLW",
+        "full_sequence": "MEAETGSSVETGKKANRGTRIALVVFVGGTLVLGTILFLVSQGLLSLQAKQEYCLKPECIEAAAAILSKVNLSVDPCDNFFRFACDGWISNNPIPEDMPSYGVYPWLRHNVDLKLKELLEKSISRRRDTEAIQKAKILYSSCMNEKAIEKADAKPLLHILRHSPFRWPVLESNIGPEGVWSERKFSLLQTLATFRGQYSNSVFIRLYVSPDDKASNEHILKLDQATLSLAVREDYLDNSTEAKSYRDALYKFMVDTAVLLGANSSRAEHDMKSVLRLEIKIAEIMIPHENRTSEAMYNKMNISELSAMIPQFDWLGYIKKVIDTRLYPHLKDISPSENVVVRVPQYFKDLFRILGSERKKTIANYLVWRMVYSRIPNLSRRFQYRWLEFSRVIQGTTTLLPQWDKCVNFIESALPYVVGKMFVDVYFQEDKKEMMEELVEGVRWAFIDMLEKENEWMDAGTKRKAKEKARAVLAKVGYPEFIMNDTHVNEDLKAIKFSEADYFGNVLQTRKYLAQSDFFWLRKAVPKTEWFTNPTTVNAFYSASTNQIRFPAGELQKPFFWGTEYPRSLSYGAIGVIVGHEFTHGFDNNGRKYDKNGNLDPWWSTESEEKFKEKTKCMINQYSNYYWKKAGLNVKGKRTLGENIADNGGLREAFRAYRKWINDRRQGLEEPLLPGITFTNNQLFFLSYAHVRCNSYRPEAAREQVQIGAHSPPQFRVNGAISNFEEFQKAFNCPPNSTMNRGMDSCRLW",
+        "n_residues": 749,
+        "mutation_pos_1indexed": 733,
+        "wt_aa": "C",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "P76-C77-Q682-F727-Q728-K729-A730-F731-N732-C733",
+        "pocket_lining_positions_precursor": [
+          76,
+          77,
+          682,
+          727,
+          728,
+          729,
+          730,
+          731,
+          732,
+          733
+        ],
+        "pocket_lining_1letter": "PCQFQKAFNC",
+        "sequence_slice_around_pocket": "NFEEFQKAFNCPPNSTMNRG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_C733Y/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "P76",
+          "C77",
+          "Q682",
+          "F727",
+          "Q728",
+          "K729",
+          "A730",
+          "F731",
+          "N732",
+          "C733"
+        ],
+        "values": [
+          [
+            0.0,
+            3.865,
+            10.214,
+            9.9,
+            9.829,
+            11.994,
+            10.33,
+            7.114,
+            9.546,
+            8.026
+          ],
+          [
+            3.865,
+            0.0,
+            12.138,
+            9.237,
+            7.899,
+            10.744,
+            10.385,
+            7.132,
+            8.146,
+            5.295
+          ],
+          [
+            10.214,
+            12.138,
+            0.0,
+            7.698,
+            10.208,
+            9.509,
+            5.72,
+            6.997,
+            10.544,
+            12.132
+          ],
+          [
+            9.9,
+            9.237,
+            7.698,
+            0.0,
+            3.841,
+            5.341,
+            4.884,
+            6.202,
+            8.087,
+            8.006
+          ],
+          [
+            9.829,
+            7.899,
+            10.208,
+            3.841,
+            0.0,
+            3.865,
+            5.646,
+            5.579,
+            5.527,
+            4.872
+          ],
+          [
+            11.994,
+            10.744,
+            9.509,
+            5.341,
+            3.865,
+            0.0,
+            3.854,
+            5.591,
+            4.954,
+            6.844
+          ],
+          [
+            10.33,
+            10.385,
+            5.72,
+            4.884,
+            5.646,
+            3.854,
+            0.0,
+            3.877,
+            5.868,
+            8.05
+          ],
+          [
+            7.114,
+            7.132,
+            6.997,
+            6.202,
+            5.579,
+            5.591,
+            3.877,
+            0.0,
+            3.889,
+            5.416
+          ],
+          [
+            9.546,
+            8.146,
+            10.544,
+            8.087,
+            5.527,
+            4.954,
+            5.868,
+            3.889,
+            0.0,
+            3.847
+          ],
+          [
+            8.026,
+            5.295,
+            12.132,
+            8.006,
+            4.872,
+            6.844,
+            8.05,
+            5.416,
+            3.847,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6400996531228306,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PHEX-C733Y Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6401,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_C733Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_C733Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_C733Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_C733Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_C733Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PHEX-C733Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PHEX-C733Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:20:19.443585+00:00"
     }
   ]
 }
