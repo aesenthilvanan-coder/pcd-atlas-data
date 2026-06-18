@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1918,
+  "total_entries": 1919,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46602,
-    "queue_remaining": 131995
+    "total_processed": 46603,
+    "queue_remaining": 131994
   },
   "entries": [
     {
@@ -435472,6 +435472,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:03:54.376993+00:00"
+    },
+    {
+      "entry_id": "PCD-COQ8A-R299W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COQ8A-R299W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COQ8A",
+        "uniprot": "",
+        "clinvar_id": "372655",
+        "disease": "not provided",
+        "mutation_precursor": "R299W",
+        "mutation_mature": "R299W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7979929104957276,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 432.0435693519119,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.709152221679688,
+          8.441411972045898,
+          -14.734260559082031
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.787153065045695,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7111973622115029,
+        "cryptic": true,
+        "pocket_residues": {
+          "H292": "H",
+          "L293": "L",
+          "A294": "A",
+          "K295": "K",
+          "I296": "I",
+          "F297": "F",
+          "E298": "E",
+          "R299": "R",
+          "V300": "V"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NI60|COQ8A variant R299W",
+        "fasta_sequence": "MAAILGDTIMVAKGLVKLTQAAVETHLQHLGIGGELIMAARALQSTAVEQIGMFLGKVQGQDKHEEYFAENFGGPEGEFHFSVPHAAGASTDFSSASAPDQSAPPSLGHAHSEGPAPAYVASGPFREAGFPGQASSPLGRANGRLFANPRDSFSAMGFQRRFFHQDQSPVGGLTAEDIEKARQAKARPENKQHKQTLSEHARERKVPVTRIGRLANFGGLAVGLGFGALAEVAKKSLRSEDPSGKKAVLGSSPFLSEANAERIVRTLCKVRGAALKLGQMLSIQDDAFINPHLAKIFERVRQSADFMPLKQMMKTLNNDLGPNWRDKLEYFEERPFAAASIGQVHLARMKGGREVAMKIQYPGVAQSINSDVNNLMAVLNMSNMLPEGLFPEHLIDVLRRELALECDYQREAACARKFRDLLKGHPFFYVPEIVDELCSPHVLTTELVSGFPLDQAEGLSQEIRNEICYNILVLCLRELFEFHFMQTDPNWSNFFYDPQQHKVALLDFGATREYDRSFTDLYIQIIRAAADRDRETVRAKSIEMKFLTGYEVKVMEDAHLDAILILGEAFASDEPFDFGTQSTTEKIHNLIPVMLRHRLVPPPEETYSLHRKMGGSFLICSKLKARFPCKAMFEEAYSNYCKRQAQQ",
+        "full_sequence": "MAAILGDTIMVAKGLVKLTQAAVETHLQHLGIGGELIMAARALQSTAVEQIGMFLGKVQGQDKHEEYFAENFGGPEGEFHFSVPHAAGASTDFSSASAPDQSAPPSLGHAHSEGPAPAYVASGPFREAGFPGQASSPLGRANGRLFANPRDSFSAMGFQRRFFHQDQSPVGGLTAEDIEKARQAKARPENKQHKQTLSEHARERKVPVTRIGRLANFGGLAVGLGFGALAEVAKKSLRSEDPSGKKAVLGSSPFLSEANAERIVRTLCKVRGAALKLGQMLSIQDDAFINPHLAKIFERVRQSADFMPLKQMMKTLNNDLGPNWRDKLEYFEERPFAAASIGQVHLARMKGGREVAMKIQYPGVAQSINSDVNNLMAVLNMSNMLPEGLFPEHLIDVLRRELALECDYQREAACARKFRDLLKGHPFFYVPEIVDELCSPHVLTTELVSGFPLDQAEGLSQEIRNEICYNILVLCLRELFEFHFMQTDPNWSNFFYDPQQHKVALLDFGATREYDRSFTDLYIQIIRAAADRDRETVRAKSIEMKFLTGYEVKVMEDAHLDAILILGEAFASDEPFDFGTQSTTEKIHNLIPVMLRHRLVPPPEETYSLHRKMGGSFLICSKLKARFPCKAMFEEAYSNYCKRQAQQ",
+        "n_residues": 647,
+        "mutation_pos_1indexed": 299,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "H292-L293-A294-K295-I296-F297-E298-R299-V300",
+        "pocket_lining_positions_precursor": [
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300
+        ],
+        "pocket_lining_1letter": "HLAKIFERV",
+        "sequence_slice_around_pocket": "INPHLAKIFERVRQSADFMP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COQ8A_R299W/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "H292",
+          "L293",
+          "A294",
+          "K295",
+          "I296",
+          "F297",
+          "E298",
+          "R299",
+          "V300"
+        ],
+        "values": [
+          [
+            0.0,
+            3.876,
+            5.437,
+            5.176,
+            6.049,
+            8.745,
+            9.856,
+            10.479,
+            12.179
+          ],
+          [
+            3.876,
+            0.0,
+            3.827,
+            5.499,
+            4.792,
+            6.136,
+            8.46,
+            9.692,
+            10.256
+          ],
+          [
+            5.437,
+            3.827,
+            0.0,
+            3.858,
+            5.338,
+            5.281,
+            6.066,
+            8.521,
+            9.764
+          ],
+          [
+            5.176,
+            5.499,
+            3.858,
+            0.0,
+            3.848,
+            5.628,
+            5.056,
+            6.028,
+            8.517
+          ],
+          [
+            6.049,
+            4.792,
+            5.338,
+            3.848,
+            0.0,
+            3.842,
+            5.532,
+            5.21,
+            6.161
+          ],
+          [
+            8.745,
+            6.136,
+            5.281,
+            5.628,
+            3.842,
+            0.0,
+            3.83,
+            5.38,
+            4.831
+          ],
+          [
+            9.856,
+            8.46,
+            6.066,
+            5.056,
+            5.532,
+            3.83,
+            0.0,
+            3.849,
+            5.454
+          ],
+          [
+            10.479,
+            9.692,
+            8.521,
+            6.028,
+            5.21,
+            5.38,
+            3.849,
+            0.0,
+            3.859
+          ],
+          [
+            12.179,
+            10.256,
+            9.764,
+            8.517,
+            6.161,
+            4.831,
+            5.454,
+            3.859,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.83931023081686,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COQ8A-R299W Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8393,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COQ8A_R299W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COQ8A_R299W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COQ8A_R299W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COQ8A_R299W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COQ8A_R299W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COQ8A-R299W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COQ8A-R299W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:04:22.744693+00:00"
     }
   ]
 }
