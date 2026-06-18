@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2497,
+  "total_entries": 2498,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47270,
-    "queue_remaining": 131327
+    "total_processed": 47271,
+    "queue_remaining": 131326
   },
   "entries": [
     {
@@ -584736,6 +584736,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T14:24:07.082164+00:00"
+    },
+    {
+      "entry_id": "PCD-KCNT1-L386F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNT1-L386F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KCNT1",
+        "uniprot": "",
+        "clinvar_id": "374645",
+        "disease": "not provided",
+        "mutation_precursor": "L386F",
+        "mutation_mature": "L386F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9478769637703923,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 339.96088435626046,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          8.609078407287598,
+          8.098743438720703,
+          -2.7622666358947754
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.527747264110882,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7824782010402576,
+        "cryptic": true,
+        "pocket_residues": {
+          "E352": "E",
+          "K353": "K",
+          "H354": "H",
+          "V355": "V",
+          "D382": "D",
+          "Y383": "Y",
+          "Y384": "Y",
+          "V385": "V",
+          "V386": "V",
+          "R409": "R",
+          "V410": "V"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q5JUK3|KCNT1 variant L386F",
+        "fasta_sequence": "MARAKLPRSPSEGKAGPGGAPAGAAAPEEPHGLSPLLPARGGGSVGSDVGQRLPVEDFSLDSSLSQVQVEFYVNENTFKERLKLFFIKNQRSSLRIRLFNFSLKLLTCLLYIVRVLLDDPALGIGCWGCPKQNYSFNDSSSEINWAPILWVERKMTLWAIQVIVAIISFLETMLLIYLSYKGNIWEQIFRVSFVLEMINTLPFIITIFWPPLRNLFIPVFLNCWLAKHALENMINDFHRAILRTQSAMFNQVLILFCTLLCLVFTGTCGIQHLERAGENLSLLTSFYFCIVTFSTVGYGDVTPKIWPSQLLVVIMICVALVVLPLQFEELVYLWMERQKSGGNYSRHRAQTEKHVVLCVSSLKIDLLMDFLNEFYAHPRLQDYYVVILCPTEMDVQVRRVLQIPLWSQRVIYLQGSALKDQDLMRAKMDNGEACFILSSRNEVDRTAADHQTILRAWAVKDFAPNCPLYVQILKPENKFHVKFADHVVCEEECKYAMLALNCICPATSTLITLLVHTSRGQEGQESPEQWQRMYGRCSGNEVYHIRMGDSKFFREYEGKSFTYAAFHAHKKYGVCLIGLKREDNKSILLNPGPRHILAASDTCFYINITKEENSAFIFKQEEKRKKRAFSGQGLHEGPARLPVHSIIASMGTVAMDLQGTEHRPTQSGGGGGGSKLALPTENGSGSRRPSIAPVLELADSSALLPCDLLSDQSEDEVTPSDDEGLSVVEYVKGYPPNSPYIGSSPTLCHLLPVKAPFCCLRLDKGCKHNSYEDAKAYGFKNKLIIVSAETAGNGLYNFIVPLRAYYRSRKELNPIVLLLDNKPDHHFLEAICCFPMVYYMEGSVDNLDSLLQCGIIYADNLVVVDKESTMSAEEDYMADAKTIVNVQTMFRLFPSLSITTELTHPSNMRFMQFRAKDSYSLALSKLEKRERENGSNLAFMFRLPFAAGRVFSISMLDTLLYQSFVKDYMITITRLLLGLDTTPGSGYLCAMKITEGDLWIRTYGRLFQKLCSSSAEIPIGIYRTESHVFSTSESQISVNVEDCEDTREVKGPWGSRAGTGGSSQGRHTGGGDPAEHPLLRRKSLQWARRLSRKAPKQAGRAAAAEWISQQRLSLYRRSERQELSELVKNRMKHLGLPTTGYEDVANLTASDVMNRVNLGYLQDEMNDHQNTLSYVLINPPPDTRLEPSDIVYLIRSDPLAHVASSSQSRKSSCSHKLSSCNPETRDETQL",
+        "full_sequence": "MARAKLPRSPSEGKAGPGGAPAGAAAPEEPHGLSPLLPARGGGSVGSDVGQRLPVEDFSLDSSLSQVQVEFYVNENTFKERLKLFFIKNQRSSLRIRLFNFSLKLLTCLLYIVRVLLDDPALGIGCWGCPKQNYSFNDSSSEINWAPILWVERKMTLWAIQVIVAIISFLETMLLIYLSYKGNIWEQIFRVSFVLEMINTLPFIITIFWPPLRNLFIPVFLNCWLAKHALENMINDFHRAILRTQSAMFNQVLILFCTLLCLVFTGTCGIQHLERAGENLSLLTSFYFCIVTFSTVGYGDVTPKIWPSQLLVVIMICVALVVLPLQFEELVYLWMERQKSGGNYSRHRAQTEKHVVLCVSSLKIDLLMDFLNEFYAHPRLQDYYVVILCPTEMDVQVRRVLQIPLWSQRVIYLQGSALKDQDLMRAKMDNGEACFILSSRNEVDRTAADHQTILRAWAVKDFAPNCPLYVQILKPENKFHVKFADHVVCEEECKYAMLALNCICPATSTLITLLVHTSRGQEGQESPEQWQRMYGRCSGNEVYHIRMGDSKFFREYEGKSFTYAAFHAHKKYGVCLIGLKREDNKSILLNPGPRHILAASDTCFYINITKEENSAFIFKQEEKRKKRAFSGQGLHEGPARLPVHSIIASMGTVAMDLQGTEHRPTQSGGGGGGSKLALPTENGSGSRRPSIAPVLELADSSALLPCDLLSDQSEDEVTPSDDEGLSVVEYVKGYPPNSPYIGSSPTLCHLLPVKAPFCCLRLDKGCKHNSYEDAKAYGFKNKLIIVSAETAGNGLYNFIVPLRAYYRSRKELNPIVLLLDNKPDHHFLEAICCFPMVYYMEGSVDNLDSLLQCGIIYADNLVVVDKESTMSAEEDYMADAKTIVNVQTMFRLFPSLSITTELTHPSNMRFMQFRAKDSYSLALSKLEKRERENGSNLAFMFRLPFAAGRVFSISMLDTLLYQSFVKDYMITITRLLLGLDTTPGSGYLCAMKITEGDLWIRTYGRLFQKLCSSSAEIPIGIYRTESHVFSTSESQISVNVEDCEDTREVKGPWGSRAGTGGSSQGRHTGGGDPAEHPLLRRKSLQWARRLSRKAPKQAGRAAAAEWISQQRLSLYRRSERQELSELVKNRMKHLGLPTTGYEDVANLTASDVMNRVNLGYLQDEMNDHQNTLSYVLINPPPDTRLEPSDIVYLIRSDPLAHVASSSQSRKSSCSHKLSSCNPETRDETQL",
+        "n_residues": 1230,
+        "mutation_pos_1indexed": 386,
+        "wt_aa": "L",
+        "mut_aa": "F",
+        "pocket_lining_residues": "E352-K353-H354-V355-D382-Y383-Y384-V385-V386-R409-V410",
+        "pocket_lining_positions_precursor": [
+          352,
+          353,
+          354,
+          355,
+          382,
+          383,
+          384,
+          385,
+          386,
+          409,
+          410
+        ],
+        "pocket_lining_1letter": "EKHVDYYVVRV",
+        "sequence_slice_around_pocket": "AHPRLQDYYVVILCPTEMDV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KCNT1_L386F/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "E352",
+          "K353",
+          "H354",
+          "V355",
+          "D382",
+          "Y383",
+          "Y384",
+          "V385",
+          "V386",
+          "R409",
+          "V410"
+        ],
+        "values": [
+          [
+            0.0,
+            3.837,
+            6.5,
+            10.266,
+            7.756,
+            7.025,
+            7.439,
+            10.887,
+            11.941,
+            10.729,
+            12.733
+          ],
+          [
+            3.837,
+            0.0,
+            3.83,
+            7.144,
+            7.469,
+            5.266,
+            6.33,
+            9.073,
+            10.509,
+            10.771,
+            12.197
+          ],
+          [
+            6.5,
+            3.83,
+            0.0,
+            3.802,
+            8.937,
+            5.438,
+            4.487,
+            5.883,
+            6.87,
+            9.393,
+            9.655
+          ],
+          [
+            10.266,
+            7.144,
+            3.802,
+            0.0,
+            11.112,
+            7.246,
+            6.238,
+            5.13,
+            6.067,
+            10.629,
+            9.822
+          ],
+          [
+            7.756,
+            7.469,
+            8.937,
+            11.112,
+            0.0,
+            3.875,
+            6.797,
+            9.976,
+            13.099,
+            7.91,
+            11.083
+          ],
+          [
+            7.025,
+            5.266,
+            5.438,
+            7.246,
+            3.875,
+            0.0,
+            3.818,
+            6.642,
+            9.723,
+            7.017,
+            9.059
+          ],
+          [
+            7.439,
+            6.33,
+            4.487,
+            6.238,
+            6.797,
+            3.818,
+            0.0,
+            3.843,
+            6.338,
+            4.929,
+            5.931
+          ],
+          [
+            10.887,
+            9.073,
+            5.883,
+            5.13,
+            9.976,
+            6.642,
+            3.843,
+            0.0,
+            3.84,
+            6.225,
+            4.752
+          ],
+          [
+            11.941,
+            10.509,
+            6.87,
+            6.067,
+            13.099,
+            9.723,
+            6.338,
+            3.84,
+            0.0,
+            8.565,
+            6.032
+          ],
+          [
+            10.729,
+            10.771,
+            9.393,
+            10.629,
+            7.91,
+            7.017,
+            4.929,
+            6.225,
+            8.565,
+            0.0,
+            3.842
+          ],
+          [
+            12.733,
+            12.197,
+            9.655,
+            9.822,
+            11.083,
+            9.059,
+            5.931,
+            4.752,
+            6.032,
+            3.842,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.9232693072431912,
+        "mw": 244.12,
+        "logp": 2.049,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 6,
+        "qed": 0.7634,
+        "sa_score": 2.21,
+        "n_heavy_atoms": 18,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KCNT1-L386F Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.9233,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KCNT1_L386F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KCNT1_L386F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KCNT1_L386F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNT1_L386F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNT1_L386F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNT1-L386F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNT1-L386F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T14:24:50.489012+00:00"
     }
   ]
 }
