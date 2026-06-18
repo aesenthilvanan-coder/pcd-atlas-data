@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1937,
+  "total_entries": 1938,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46625,
-    "queue_remaining": 131972
+    "total_processed": 46626,
+    "queue_remaining": 131971
   },
   "entries": [
     {
@@ -439526,6 +439526,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:21:56.283494+00:00"
+    },
+    {
+      "entry_id": "PCD-SCN2A-S1621P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCN2A-S1621P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SCN2A",
+        "uniprot": "",
+        "clinvar_id": "372556",
+        "disease": "not provided",
+        "mutation_precursor": "S1621P",
+        "mutation_mature": "S1621P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8412119636141461,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 408.4062748486831,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          29.587453842163086,
+          -15.112716674804688,
+          4.24432373046875
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.166093742732798,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8066419933350767,
+        "cryptic": true,
+        "pocket_residues": {
+          "A1612": "A",
+          "I1615": "I",
+          "E1616": "E",
+          "Y1618": "Y",
+          "F1619": "F",
+          "V1620": "V",
+          "S1621": "S",
+          "P1622": "P",
+          "T1623": "T",
+          "L1624": "L",
+          "F1625": "F"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q99250|SCN2A variant S1621P",
+        "fasta_sequence": "MAQSVLVPPGPDSFRFFTRESLAAIEQRIAEEKAKRPKQERKDEDDENGPKPNSDLEAGKSLPFIYGDIPPEMVSVPLEDLDPYYINKKTFIVLNKGKAISRFSATPALYILTPFNPIRKLAIKILVHSLFNMLIMCTILTNCVFMTMSNPPDWTKNVEYTFTGIYTFESLIKILARGFCLEDFTFLRDPWNWLDFTVITFAYVTEFVDLGNVSALRTFRVLRALKTISVIPGLKTIVGALIQSVKKLSDVMILTVFCLSVFALIGLQLFMGNLRNKCLQWPPDNSSFEINITSFFNNSLDGNGTTFNRTVSIFNWDEYIEDKSHFYFLEGQNDALLCGNSSDAGQCPEGYICVKAGRNPNYGYTSFDTFSWAFLSLFRLMTQDFWENLYQLTLRAAGKTYMIFFVLVIFLGSFYLINLILAVVAMAYEEQNQATLEEAEQKEAEFQQMLEQLKKQQEEAQAAAAAASAESRDFSGAGGIGVFSESSSVASKLSSKSEKELKNRRKKKKQKEQSGEEEKNDRVRKSESEDSIRRKGFRFSLEGSRLTYEKRFSSPHQSLLSIRGSLFSPRRNSRASLFSFRGRAKDIGSENDFADDEHSTFEDNDSRRDSLFVPHRHGERRHSNVSQASRASRVLPILPMNGKMHSAVDCNGVVSLVGGPSTLTSAGQLLPEGTTTETEIRKRRSSSYHVSMDLLEDPTSRQRAMSIASILTNTMEELEESRQKCPPCWYKFANMCLIWDCCKPWLKVKHLVNLVVMDPFVDLAITICIVLNTLFMAMEHYPMTEQFSSVLSVGNLVFTGIFTAEMFLKIIAMDPYYYFQEGWNIFDGFIVSLSLMELGLANVEGLSVLRSFRLLRVFKLAKSWPTLNMLIKIIGNSVGALGNLTLVLAIIVFIFAVVGMQLFGKSYKECVCKISNDCELPRWHMHDFFHSFLIVFRVLCGEWIETMWDCMEVAGQTMCLTVFMMVMVIGNLVVLNLFLALLLSSFSSDNLAATDDDNEMNNLQIAVGRMQKGIDFVKRKIREFIQKAFVRKQKALDEIKPLEDLNNKKDSCISNHTTIEIGKDLNYLKDGNGTTSGIGSSVEKYVVDESDYMSFINNPSLTVTVPIAVGESDFENLNTEEFSSESDMEESKEKLNATSSSEGSTVDIGAPAEGEQPEVEPEESLEPEACFTEDCVRKFKCCQISIEEGKGKLWWNLRKTCYKIVEHNWFETFIVFMILLSSGALAFEDIYIEQRKTIKTMLEYADKVFTYIFILEMLLKWVAYGFQVYFTNAWCWLDFLIVDVSLVSLTANALGYSELGAIKSLRTLRALRPLRALSRFEGMRVVVNALLGAIPSIMNVLLVCLIFWLIFSIMGVNLFAGKFYHCINYTTGEMFDVSVVNNYSECKALIESNQTARWKNVKVNFDNVGLGYLSLLQVATFKGWMDIMYAAVDSRNVELQPKYEDNLYMYLYFVIFIIFGSFFTLNLFIGVIIDNFNQQKKKFGGQDIFMTEEQKKYYNAMKKLGSKKPQKPIPRPANKFQGMVFDFVTKQVFDISIMILICLNMVTMMVETDDQSQEMTNILYWINLVFIVLFTGECVLKLISLRYYYFTIGWNIFDFVVVILSIVGMFLAELIEKYFVSPTLFRVIRLARIGRILRLIKGAKGIRTLLFALMMSLPALFNIGLLLFLVMFIYAIFGMSNFAYVKREVGIDDMFNFETFGNSMICLFQITTSAGWDGLLAPILNSGPPDCDPDKDHPGSSVKGDCGNPSVGIFFFVSYIIISFLVVVNMYIAVILENFSVATEESAEPLSEDDFEMFYEVWEKFDPDATQFIEFAKLSDFADALDPPLLIAKPNKVQLIAMDLPMVSGDRIHCLDILFAFTKRVLGESGEMDALRIQMEERFMASNPSKVSYEPITTTLKRKQEEVSAIIIQRAYRRYLLKQKVKKVSSIYKKDKGKECDGTPIKEDTLIDKLNENSTPEKTDMTPSTTSPPSYDSVTKPEKEKFEKDKSEKEDKGKDIRESKK",
+        "full_sequence": "MAQSVLVPPGPDSFRFFTRESLAAIEQRIAEEKAKRPKQERKDEDDENGPKPNSDLEAGKSLPFIYGDIPPEMVSVPLEDLDPYYINKKTFIVLNKGKAISRFSATPALYILTPFNPIRKLAIKILVHSLFNMLIMCTILTNCVFMTMSNPPDWTKNVEYTFTGIYTFESLIKILARGFCLEDFTFLRDPWNWLDFTVITFAYVTEFVDLGNVSALRTFRVLRALKTISVIPGLKTIVGALIQSVKKLSDVMILTVFCLSVFALIGLQLFMGNLRNKCLQWPPDNSSFEINITSFFNNSLDGNGTTFNRTVSIFNWDEYIEDKSHFYFLEGQNDALLCGNSSDAGQCPEGYICVKAGRNPNYGYTSFDTFSWAFLSLFRLMTQDFWENLYQLTLRAAGKTYMIFFVLVIFLGSFYLINLILAVVAMAYEEQNQATLEEAEQKEAEFQQMLEQLKKQQEEAQAAAAAASAESRDFSGAGGIGVFSESSSVASKLSSKSEKELKNRRKKKKQKEQSGEEEKNDRVRKSESEDSIRRKGFRFSLEGSRLTYEKRFSSPHQSLLSIRGSLFSPRRNSRASLFSFRGRAKDIGSENDFADDEHSTFEDNDSRRDSLFVPHRHGERRHSNVSQASRASRVLPILPMNGKMHSAVDCNGVVSLVGGPSTLTSAGQLLPEGTTTETEIRKRRSSSYHVSMDLLEDPTSRQRAMSIASILTNTMEELEESRQKCPPCWYKFANMCLIWDCCKPWLKVKHLVNLVVMDPFVDLAITICIVLNTLFMAMEHYPMTEQFSSVLSVGNLVFTGIFTAEMFLKIIAMDPYYYFQEGWNIFDGFIVSLSLMELGLANVEGLSVLRSFRLLRVFKLAKSWPTLNMLIKIIGNSVGALGNLTLVLAIIVFIFAVVGMQLFGKSYKECVCKISNDCELPRWHMHDFFHSFLIVFRVLCGEWIETMWDCMEVAGQTMCLTVFMMVMVIGNLVVLNLFLALLLSSFSSDNLAATDDDNEMNNLQIAVGRMQKGIDFVKRKIREFIQKAFVRKQKALDEIKPLEDLNNKKDSCISNHTTIEIGKDLNYLKDGNGTTSGIGSSVEKYVVDESDYMSFINNPSLTVTVPIAVGESDFENLNTEEFSSESDMEESKEKLNATSSSEGSTVDIGAPAEGEQPEVEPEESLEPEACFTEDCVRKFKCCQISIEEGKGKLWWNLRKTCYKIVEHNWFETFIVFMILLSSGALAFEDIYIEQRKTIKTMLEYADKVFTYIFILEMLLKWVAYGFQVYFTNAWCWLDFLIVDVSLVSLTANALGYSELGAIKSLRTLRALRPLRALSRFEGMRVVVNALLGAIPSIMNVLLVCLIFWLIFSIMGVNLFAGKFYHCINYTTGEMFDVSVVNNYSECKALIESNQTARWKNVKVNFDNVGLGYLSLLQVATFKGWMDIMYAAVDSRNVELQPKYEDNLYMYLYFVIFIIFGSFFTLNLFIGVIIDNFNQQKKKFGGQDIFMTEEQKKYYNAMKKLGSKKPQKPIPRPANKFQGMVFDFVTKQVFDISIMILICLNMVTMMVETDDQSQEMTNILYWINLVFIVLFTGECVLKLISLRYYYFTIGWNIFDFVVVILSIVGMFLAELIEKYFVSPTLFRVIRLARIGRILRLIKGAKGIRTLLFALMMSLPALFNIGLLLFLVMFIYAIFGMSNFAYVKREVGIDDMFNFETFGNSMICLFQITTSAGWDGLLAPILNSGPPDCDPDKDHPGSSVKGDCGNPSVGIFFFVSYIIISFLVVVNMYIAVILENFSVATEESAEPLSEDDFEMFYEVWEKFDPDATQFIEFAKLSDFADALDPPLLIAKPNKVQLIAMDLPMVSGDRIHCLDILFAFTKRVLGESGEMDALRIQMEERFMASNPSKVSYEPITTTLKRKQEEVSAIIIQRAYRRYLLKQKVKKVSSIYKKDKGKECDGTPIKEDTLIDKLNENSTPEKTDMTPSTTSPPSYDSVTKPEKEKFEKDKSEKEDKGKDIRESKK",
+        "n_residues": 2005,
+        "mutation_pos_1indexed": 1621,
+        "wt_aa": "S",
+        "mut_aa": "P",
+        "pocket_lining_residues": "A1612-I1615-E1616-Y1618-F1619-V1620-S1621-P1622-T1623-L1624-F1625",
+        "pocket_lining_positions_precursor": [
+          1612,
+          1615,
+          1616,
+          1618,
+          1619,
+          1620,
+          1621,
+          1622,
+          1623,
+          1624,
+          1625
+        ],
+        "pocket_lining_1letter": "AIEYFVSPTLF",
+        "sequence_slice_around_pocket": "LAELIEKYFVSPTLFRVIRL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SCN2A_S1621P/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "A1612",
+          "I1615",
+          "E1616",
+          "Y1618",
+          "F1619",
+          "V1620",
+          "S1621",
+          "P1622",
+          "T1623",
+          "L1624",
+          "F1625"
+        ],
+        "values": [
+          [
+            0.0,
+            5.572,
+            6.695,
+            10.142,
+            11.249,
+            10.117,
+            11.517,
+            9.715,
+            12.194,
+            10.602,
+            7.638
+          ],
+          [
+            5.572,
+            0.0,
+            3.917,
+            4.579,
+            6.246,
+            6.109,
+            8.998,
+            9.156,
+            11.901,
+            10.266,
+            9.126
+          ],
+          [
+            6.695,
+            3.917,
+            0.0,
+            6.079,
+            6.794,
+            8.213,
+            10.271,
+            9.89,
+            13.412,
+            12.767,
+            11.109
+          ],
+          [
+            10.142,
+            4.579,
+            6.079,
+            0.0,
+            4.033,
+            5.89,
+            9.598,
+            11.342,
+            13.845,
+            12.393,
+            12.492
+          ],
+          [
+            11.249,
+            6.246,
+            6.794,
+            4.033,
+            0.0,
+            3.939,
+            6.623,
+            8.918,
+            11.492,
+            11.04,
+            11.593
+          ],
+          [
+            10.117,
+            6.109,
+            8.213,
+            5.89,
+            3.939,
+            0.0,
+            3.995,
+            6.583,
+            8.284,
+            7.247,
+            8.433
+          ],
+          [
+            11.517,
+            8.998,
+            10.271,
+            9.598,
+            6.623,
+            3.995,
+            0.0,
+            3.892,
+            5.126,
+            5.938,
+            7.475
+          ],
+          [
+            9.715,
+            9.156,
+            9.89,
+            11.342,
+            8.918,
+            6.583,
+            3.892,
+            0.0,
+            3.907,
+            5.62,
+            5.157
+          ],
+          [
+            12.194,
+            11.901,
+            13.412,
+            13.845,
+            11.492,
+            8.284,
+            5.126,
+            3.907,
+            0.0,
+            3.814,
+            5.323
+          ],
+          [
+            10.602,
+            10.266,
+            12.767,
+            12.393,
+            11.04,
+            7.247,
+            5.938,
+            5.62,
+            3.814,
+            0.0,
+            3.901
+          ],
+          [
+            7.638,
+            9.126,
+            11.109,
+            12.492,
+            11.593,
+            8.433,
+            7.475,
+            5.157,
+            5.323,
+            3.901,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8613191818287858,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SCN2A-S1621P Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8613,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SCN2A_S1621P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SCN2A_S1621P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SCN2A_S1621P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCN2A_S1621P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SCN2A_S1621P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCN2A-S1621P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SCN2A-S1621P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:23:28.738626+00:00"
     }
   ]
 }
