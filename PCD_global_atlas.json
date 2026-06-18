@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1719,
+  "total_entries": 1720,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46390,
-    "queue_remaining": 132207
+    "total_processed": 46391,
+    "queue_remaining": 132206
   },
   "entries": [
     {
@@ -382129,6 +382129,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:14:46.031823+00:00"
+    },
+    {
+      "entry_id": "PCD-FOXL2-H104R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXL2-H104R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FOXL2",
+        "uniprot": "",
+        "clinvar_id": "369902",
+        "disease": "Blepharophimosis, ptosis, and epicanthus inversus syndrome",
+        "mutation_precursor": "H104R",
+        "mutation_mature": "H104R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8257505679333698,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 318.00198353318257,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -13.118545532226562,
+          -1.9100295305252075,
+          -1.6749513149261475
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.679344951198932,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7355246300111523,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y59": "Y",
+          "W98": "W",
+          "N100": "N",
+          "S101": "S",
+          "I102": "I",
+          "R103": "R",
+          "H104": "H",
+          "N105": "N"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P58012|FOXL2 variant H104R",
+        "fasta_sequence": "MMASYPEPEDAAGALLAPETGRTVKEPEGPPPSPGKGGGGGGGTAPEKPDPAQKPPYSYVALIAMAIRESAEKRLTLSGIYQYIIAKFPFYEKNKKGWQNSIRHNLSLNECFIKVPREGGGERKGNYWTLDPACEDMFEKGNYRRRRRMKRPFRPPPAHFQPGKGLFGAGGAAGGCGVAGAGADGYGYLAPPKYLQSGFLNNSWPLPQPPSPMPYASCQMAAAAAAAAAAAAAAGPGSPGAAAVVKGLAGPAASYGPYTRVQSMALPPGVVNSYNGLGGPPAAPPPPPHPHPHPHAHHLHAAAAPPPAPPHHGAAAPPPGQLSPASPATAAPPAPAPTSAPGLQFACARQPELAMMHCSYWDHDSKTGALHSRLDL",
+        "full_sequence": "MMASYPEPEDAAGALLAPETGRTVKEPEGPPPSPGKGGGGGGGTAPEKPDPAQKPPYSYVALIAMAIRESAEKRLTLSGIYQYIIAKFPFYEKNKKGWQNSIRHNLSLNECFIKVPREGGGERKGNYWTLDPACEDMFEKGNYRRRRRMKRPFRPPPAHFQPGKGLFGAGGAAGGCGVAGAGADGYGYLAPPKYLQSGFLNNSWPLPQPPSPMPYASCQMAAAAAAAAAAAAAAGPGSPGAAAVVKGLAGPAASYGPYTRVQSMALPPGVVNSYNGLGGPPAAPPPPPHPHPHPHAHHLHAAAAPPPAPPHHGAAAPPPGQLSPASPATAAPPAPAPTSAPGLQFACARQPELAMMHCSYWDHDSKTGALHSRLDL",
+        "n_residues": 376,
+        "mutation_pos_1indexed": 104,
+        "wt_aa": "H",
+        "mut_aa": "R",
+        "pocket_lining_residues": "Y59-W98-N100-S101-I102-R103-H104-N105",
+        "pocket_lining_positions_precursor": [
+          59,
+          98,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105
+        ],
+        "pocket_lining_1letter": "YWNSIRHN",
+        "sequence_slice_around_pocket": "NKKGWQNSIRHNLSLNECFI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_H104R/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "Y59",
+          "W98",
+          "N100",
+          "S101",
+          "I102",
+          "R103",
+          "H104",
+          "N105"
+        ],
+        "values": [
+          [
+            0.0,
+            8.694,
+            10.782,
+            7.402,
+            6.415,
+            9.902,
+            9.758,
+            7.004
+          ],
+          [
+            8.694,
+            0.0,
+            5.328,
+            4.819,
+            6.257,
+            8.739,
+            9.816,
+            10.427
+          ],
+          [
+            10.782,
+            5.328,
+            0.0,
+            3.814,
+            5.452,
+            5.158,
+            6.252,
+            8.653
+          ],
+          [
+            7.402,
+            4.819,
+            3.814,
+            0.0,
+            3.84,
+            5.526,
+            5.214,
+            6.169
+          ],
+          [
+            6.415,
+            6.257,
+            5.452,
+            3.84,
+            0.0,
+            3.857,
+            5.514,
+            5.116
+          ],
+          [
+            9.902,
+            8.739,
+            5.158,
+            5.526,
+            3.857,
+            0.0,
+            3.822,
+            5.519
+          ],
+          [
+            9.758,
+            9.816,
+            6.252,
+            5.214,
+            5.514,
+            3.822,
+            0.0,
+            3.863
+          ],
+          [
+            7.004,
+            10.427,
+            8.653,
+            6.169,
+            5.116,
+            5.519,
+            3.863,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6791414122494932,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FOXL2-H104R Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6791,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_H104R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_H104R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_H104R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_H104R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_H104R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXL2-H104R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXL2-H104R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:15:10.309817+00:00"
     }
   ]
 }
