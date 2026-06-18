@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2174,
+  "total_entries": 2175,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46896,
-    "queue_remaining": 131701
+    "total_processed": 46897,
+    "queue_remaining": 131700
   },
   "entries": [
     {
@@ -499527,6 +499527,207 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T08:44:58.356022+00:00"
+    },
+    {
+      "entry_id": "PCD-CLCN7-Y715C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLCN7-Y715C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CLCN7",
+        "uniprot": "",
+        "clinvar_id": "372326",
+        "disease": "not provided",
+        "mutation_precursor": "Y715C",
+        "mutation_mature": "Y715C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9250562483639895,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 363.5687455646696,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -32.21174621582031,
+          2.1334376335144043,
+          4.000453948974609
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.846931506834763,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8699743538662045,
+        "cryptic": true,
+        "pocket_residues": {
+          "R265": "R",
+          "D272": "D",
+          "R712": "R",
+          "D713": "D",
+          "A714": "A",
+          "Y715": "Y",
+          "P716": "P",
+          "R717": "R"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P51798|CLCN7 variant Y715C",
+        "fasta_sequence": "MANVSKKVSWSGRDRDDEEAAPLLRRTARPGGGTPLLNGAGPGAARQSPRSALFRVGHMSSVELDDELLDPDMDPPHPFPKEIPHNEKLLSLKYESLDYDNSENQLFLEEERRINHTAFRTVEIKRWVICALIGILTGLVACFIDIVVENLAGLKYRVIKGNIDKFTEKGGLSFSLLLWATLNAAFVLVGSVIVAFIEPVAAGSGIPQIKCFLNGVKIPHVVRLKTLVIKVSGVILSVVGGLAVGKEGPMIHSGSVIAAGISQGRSTSLKRDFKIFEYFRRDTEKRDFVSAGAAAGVSAAFGAPVGGVLFSLEEGASFWNQFLTWRIFFASMISTFTLNFVLSIYHGNMWDLSSPGLINFGRFDSEKMAYTIHEIPVFIAMGVVGGVLGAVFNALNYWLTMFRIRYIHRPCLQVIEAVLVAAVTATVAFVLIYSSRDCQPLQGGSMSYPLQLFCADGEYNSMAAAFFNTPEKSVVSLFHDPPGSYNPLTLGLFTLVYFFLACWTYGLTVSAGVFIPSLLIGAAWGRLFGISLSYLTGAAIWADPGKYALMGAAAQLGGIVRMTLSLTVIMMEATSNVTYGFPIMLVLMTAKIVGDVFIEGLYDMHIQLQSVPFLHWEAPVTSHSLTAREVMSTPVTCLRRREKVGVIVDVLSDTASNHNGFPVVEHADDTQPARLQGLILRSQLIVLLKHKVFVERSNLGLVQRRLRLKDFRDAYPRFPPIQSIHVSQDERECTMDLSEFMNPSPYTVPQEASLPRVFKLFRALGLRHLVVVDNRNQVVGLVTRKDLARYRLGKRGLEELSLAQT",
+        "full_sequence": "MANVSKKVSWSGRDRDDEEAAPLLRRTARPGGGTPLLNGAGPGAARQSPRSALFRVGHMSSVELDDELLDPDMDPPHPFPKEIPHNEKLLSLKYESLDYDNSENQLFLEEERRINHTAFRTVEIKRWVICALIGILTGLVACFIDIVVENLAGLKYRVIKGNIDKFTEKGGLSFSLLLWATLNAAFVLVGSVIVAFIEPVAAGSGIPQIKCFLNGVKIPHVVRLKTLVIKVSGVILSVVGGLAVGKEGPMIHSGSVIAAGISQGRSTSLKRDFKIFEYFRRDTEKRDFVSAGAAAGVSAAFGAPVGGVLFSLEEGASFWNQFLTWRIFFASMISTFTLNFVLSIYHGNMWDLSSPGLINFGRFDSEKMAYTIHEIPVFIAMGVVGGVLGAVFNALNYWLTMFRIRYIHRPCLQVIEAVLVAAVTATVAFVLIYSSRDCQPLQGGSMSYPLQLFCADGEYNSMAAAFFNTPEKSVVSLFHDPPGSYNPLTLGLFTLVYFFLACWTYGLTVSAGVFIPSLLIGAAWGRLFGISLSYLTGAAIWADPGKYALMGAAAQLGGIVRMTLSLTVIMMEATSNVTYGFPIMLVLMTAKIVGDVFIEGLYDMHIQLQSVPFLHWEAPVTSHSLTAREVMSTPVTCLRRREKVGVIVDVLSDTASNHNGFPVVEHADDTQPARLQGLILRSQLIVLLKHKVFVERSNLGLVQRRLRLKDFRDAYPRFPPIQSIHVSQDERECTMDLSEFMNPSPYTVPQEASLPRVFKLFRALGLRHLVVVDNRNQVVGLVTRKDLARYRLGKRGLEELSLAQT",
+        "n_residues": 805,
+        "mutation_pos_1indexed": 715,
+        "wt_aa": "Y",
+        "mut_aa": "C",
+        "pocket_lining_residues": "R265-D272-R712-D713-A714-Y715-P716-R717",
+        "pocket_lining_positions_precursor": [
+          265,
+          272,
+          712,
+          713,
+          714,
+          715,
+          716,
+          717
+        ],
+        "pocket_lining_1letter": "RDRDAYPR",
+        "sequence_slice_around_pocket": "RLRLKDFRDAYPRFPPIQSI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN7_Y715C/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "R265",
+          "D272",
+          "R712",
+          "D713",
+          "A714",
+          "Y715",
+          "P716",
+          "R717"
+        ],
+        "values": [
+          [
+            0.0,
+            4.436,
+            11.155,
+            9.787,
+            11.082,
+            9.454,
+            9.103,
+            10.915
+          ],
+          [
+            4.436,
+            0.0,
+            12.044,
+            9.462,
+            11.335,
+            11.208,
+            11.658,
+            12.485
+          ],
+          [
+            11.155,
+            12.044,
+            0.0,
+            3.853,
+            5.432,
+            5.089,
+            7.974,
+            10.083
+          ],
+          [
+            9.787,
+            9.462,
+            3.853,
+            0.0,
+            3.853,
+            5.466,
+            8.218,
+            9.2
+          ],
+          [
+            11.082,
+            11.335,
+            5.432,
+            3.853,
+            0.0,
+            3.861,
+            6.319,
+            6.14
+          ],
+          [
+            9.454,
+            11.208,
+            5.089,
+            5.466,
+            3.861,
+            0.0,
+            3.069,
+            5.196
+          ],
+          [
+            9.103,
+            11.658,
+            7.974,
+            8.218,
+            6.319,
+            3.069,
+            0.0,
+            3.875
+          ],
+          [
+            10.915,
+            12.485,
+            10.083,
+            9.2,
+            6.14,
+            5.196,
+            3.875,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)c1ccc(O)cc1N1CCCCC1",
+        "composite_score": 0.7791615268124509,
+        "mw": 248.15,
+        "logp": 1.914,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 4,
+        "qed": 0.7988,
+        "sa_score": 2.23,
+        "n_heavy_atoms": 18,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CLCN7-Y715C Candidate #1",
+        "iupac_name": "NCCC(=O)c1ccc(O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7792,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN7_Y715C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN7_Y715C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN7_Y715C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN7_Y715C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CLCN7_Y715C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLCN7-Y715C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLCN7-Y715C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T08:45:28.366230+00:00"
     }
   ]
 }
