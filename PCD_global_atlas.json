@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2290,
+  "total_entries": 2291,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47025,
-    "queue_remaining": 131572
+    "total_processed": 47026,
+    "queue_remaining": 131571
   },
   "entries": [
     {
@@ -528672,6 +528672,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:14:40.640032+00:00"
+    },
+    {
+      "entry_id": "PCD-RPS19-M1I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RPS19-M1I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RPS19",
+        "uniprot": "",
+        "clinvar_id": "372494",
+        "disease": "not provided",
+        "mutation_precursor": "M1I",
+        "mutation_mature": "M1I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7434766273975618,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 634.3465199255387,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -11.859825134277344,
+          -12.125932693481445,
+          22.930105209350586
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.5149340656738466,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8555419227279599,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "P2": "P",
+          "G3": "G"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P39019|RPS19 variant M1I",
+        "fasta_sequence": "MPGVTVKDVNQQEFVRALAAFLKKSGKLKVPEWVDTVKLAKHKELAPYDENWFYTRAASTARHLYLRGGAGVGSMTKIYGGRQRNGVMPSHFSRGSKSVARRVLQALEGLKMVEKDQDGGRKLTPQGQRDLDRIAGQVAAANKKH",
+        "full_sequence": "MPGVTVKDVNQQEFVRALAAFLKKSGKLKVPEWVDTVKLAKHKELAPYDENWFYTRAASTARHLYLRGGAGVGSMTKIYGGRQRNGVMPSHFSRGSKSVARRVLQALEGLKMVEKDQDGGRKLTPQGQRDLDRIAGQVAAANKKH",
+        "n_residues": 145,
+        "mutation_pos_1indexed": 1,
+        "wt_aa": "M",
+        "mut_aa": "I",
+        "pocket_lining_residues": "M1-P2-G3",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3
+        ],
+        "pocket_lining_1letter": "MPG",
+        "sequence_slice_around_pocket": "MPGVTVKDVN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RPS19_M1I/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "M1",
+          "P2",
+          "G3"
+        ],
+        "values": [
+          [
+            0.0,
+            3.839,
+            6.107
+          ],
+          [
+            3.839,
+            0.0,
+            3.84
+          ],
+          [
+            6.107,
+            3.84,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1CCNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.4994668692729236,
+        "mw": 458.21,
+        "logp": 1.956,
+        "hbd": 2,
+        "hba": 8,
+        "rotatable_bonds": 7,
+        "qed": 0.6457,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 32,
+        "tpsa": 121.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RPS19-M1I Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1CCNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.4995,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RPS19_M1I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RPS19_M1I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RPS19_M1I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RPS19_M1I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RPS19_M1I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RPS19-M1I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RPS19-M1I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:15:04.959653+00:00"
     }
   ]
 }
