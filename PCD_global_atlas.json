@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2455,
+  "total_entries": 2456,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47218,
-    "queue_remaining": 131379
+    "total_processed": 47219,
+    "queue_remaining": 131378
   },
   "entries": [
     {
@@ -574071,6 +574071,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:44:35.682146+00:00"
+    },
+    {
+      "entry_id": "PCD-TUBB3-E328K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TUBB3-E328K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TUBB3",
+        "uniprot": "",
+        "clinvar_id": "374309",
+        "disease": "Complex cortical dysplasia with other brain malformations 1",
+        "mutation_precursor": "E328K",
+        "mutation_mature": "E328K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.83891554312339,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 381.169149754002,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.076929092407227,
+          -26.656145095825195,
+          9.487714767456055
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.103938217373302,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6162896049515245,
+        "cryptic": true,
+        "pocket_residues": {
+          "P287": "P",
+          "E325": "E",
+          "E328": "E",
+          "Q329": "Q",
+          "A332": "A",
+          "I333": "I"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13509|TUBB3 variant E328K",
+        "fasta_sequence": "MREIVHIQAGQCGNQIGAKFWEVISDEHGIDPSGNYVGDSDLQLERISVYYNEASSHKYVPRAILVDLEPGTMDSVRSGAFGHLFRPDNFIFGQSGAGNNWAKGHYTEGAELVDSVLDVVRKECENCDCLQGFQLTHSLGGGTGSGMGTLLISKVREEYPDRIMNTFSVVPSPKVSDTVVEPYNATLSIHQLVENTDETYCIDNEALYDICFRTLKLATPTYGDLNHLVSATMSGVTTSLRFPGQLNADLRKLAVNMVPFPRLHFFMPGFAPLTARGSQQYRALTVPELTQQMFDAKNMMAACDPRHGRYLTVATVFRGRMSMKEVDEQMLAIQSKNSSYFVEWIPNNVKVAVCDIPPRGLKMSSTFIGNSTAIQELFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQDATAEEEGEMYEDDEEESEAQGPK",
+        "full_sequence": "MREIVHIQAGQCGNQIGAKFWEVISDEHGIDPSGNYVGDSDLQLERISVYYNEASSHKYVPRAILVDLEPGTMDSVRSGAFGHLFRPDNFIFGQSGAGNNWAKGHYTEGAELVDSVLDVVRKECENCDCLQGFQLTHSLGGGTGSGMGTLLISKVREEYPDRIMNTFSVVPSPKVSDTVVEPYNATLSIHQLVENTDETYCIDNEALYDICFRTLKLATPTYGDLNHLVSATMSGVTTSLRFPGQLNADLRKLAVNMVPFPRLHFFMPGFAPLTARGSQQYRALTVPELTQQMFDAKNMMAACDPRHGRYLTVATVFRGRMSMKEVDEQMLAIQSKNSSYFVEWIPNNVKVAVCDIPPRGLKMSSTFIGNSTAIQELFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQDATAEEEGEMYEDDEEESEAQGPK",
+        "n_residues": 450,
+        "mutation_pos_1indexed": 328,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "P287-E325-E328-Q329-A332-I333",
+        "pocket_lining_positions_precursor": [
+          287,
+          325,
+          328,
+          329,
+          332,
+          333
+        ],
+        "pocket_lining_1letter": "PEEQAI",
+        "sequence_slice_around_pocket": "RGRMSMKEVDEQMLAIQSKN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB3_E328K/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "P287",
+          "E325",
+          "E328",
+          "Q329",
+          "A332",
+          "I333"
+        ],
+        "values": [
+          [
+            0.0,
+            8.383,
+            9.321,
+            6.064,
+            9.654,
+            9.267
+          ],
+          [
+            8.383,
+            0.0,
+            5.128,
+            6.159,
+            10.503,
+            12.321
+          ],
+          [
+            9.321,
+            5.128,
+            0.0,
+            3.859,
+            6.139,
+            8.789
+          ],
+          [
+            6.064,
+            6.159,
+            3.859,
+            0.0,
+            4.979,
+            6.182
+          ],
+          [
+            9.654,
+            10.503,
+            6.139,
+            4.979,
+            0.0,
+            3.861
+          ],
+          [
+            9.267,
+            12.321,
+            8.789,
+            6.182,
+            3.861,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)c1ccc(O)cc1N1CCCCC1",
+        "composite_score": 0.7380867231763634,
+        "mw": 248.15,
+        "logp": 1.914,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 4,
+        "qed": 0.7988,
+        "sa_score": 2.23,
+        "n_heavy_atoms": 18,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TUBB3-E328K Candidate #1",
+        "iupac_name": "NCCC(=O)c1ccc(O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7381,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB3_E328K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB3_E328K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB3_E328K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB3_E328K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB3_E328K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TUBB3-E328K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TUBB3-E328K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:45:01.927171+00:00"
     }
   ]
 }
