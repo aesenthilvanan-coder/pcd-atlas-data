@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1886,
+  "total_entries": 1887,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46570,
-    "queue_remaining": 132027
+    "total_processed": 46571,
+    "queue_remaining": 132026
   },
   "entries": [
     {
@@ -427552,6 +427552,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:47:24.169475+00:00"
+    },
+    {
+      "entry_id": "PCD-DCPS-T316M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DCPS-T316M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DCPS",
+        "uniprot": "",
+        "clinvar_id": "372235",
+        "disease": "Al-Raqad syndrome",
+        "mutation_precursor": "T316M",
+        "mutation_mature": "T316M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9329953361474307,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 620.3578560264741,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -16.421966552734375,
+          13.186541557312012,
+          11.24434757232666
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.8182660218838707,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8960971958157198,
+        "cryptic": true,
+        "pocket_residues": {
+          "I151": "I",
+          "R152": "R",
+          "E153": "E",
+          "T154": "T",
+          "G155": "G",
+          "R315": "R",
+          "T316": "T",
+          "L317": "L",
+          "T318": "T"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96C86|DCPS variant T316M",
+        "fasta_sequence": "MADAAPQLGKRKRELDVEEAHAASTEEKEAGVGNGTCAPVRLPFSGFRLQKVLRESARDKIIFLHGKVNEASGDGDGEDAVVILEKTPFQVEQVAQLLTGSPELQLQFSNDIYSTYHLFPPRQLNDVKTTVVYPATEKHLQKYLRQDLRLIRETGDDYRNITLPHLESQSLSIQWVYNILDKKAEADRIVFENPDPSDGFVLIPDLKWNQQQLDDLYLIAICHRRGIRSLRDLTPEHLPLLRNILHQGQEAILQRYRMKGDHLRVYLHYLPSYYHLHVHFTALGFEAPGSGVERAHLLAEVIENLECDPRHYQQRTLTFALRADDPLLKLLQEAQQS",
+        "full_sequence": "MADAAPQLGKRKRELDVEEAHAASTEEKEAGVGNGTCAPVRLPFSGFRLQKVLRESARDKIIFLHGKVNEASGDGDGEDAVVILEKTPFQVEQVAQLLTGSPELQLQFSNDIYSTYHLFPPRQLNDVKTTVVYPATEKHLQKYLRQDLRLIRETGDDYRNITLPHLESQSLSIQWVYNILDKKAEADRIVFENPDPSDGFVLIPDLKWNQQQLDDLYLIAICHRRGIRSLRDLTPEHLPLLRNILHQGQEAILQRYRMKGDHLRVYLHYLPSYYHLHVHFTALGFEAPGSGVERAHLLAEVIENLECDPRHYQQRTLTFALRADDPLLKLLQEAQQS",
+        "n_residues": 337,
+        "mutation_pos_1indexed": 316,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "I151-R152-E153-T154-G155-R315-T316-L317-T318",
+        "pocket_lining_positions_precursor": [
+          151,
+          152,
+          153,
+          154,
+          155,
+          315,
+          316,
+          317,
+          318
+        ],
+        "pocket_lining_1letter": "IRETGRTLT",
+        "sequence_slice_around_pocket": "ECDPRHYQQRTLTFALRADD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DCPS_T316M/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "I151",
+          "R152",
+          "E153",
+          "T154",
+          "G155",
+          "R315",
+          "T316",
+          "L317",
+          "T318"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            6.138,
+            9.673,
+            12.855,
+            13.573,
+            9.819,
+            8.408,
+            5.777
+          ],
+          [
+            3.859,
+            0.0,
+            3.823,
+            6.514,
+            9.942,
+            10.018,
+            6.196,
+            5.826,
+            4.445
+          ],
+          [
+            6.138,
+            3.823,
+            0.0,
+            3.854,
+            6.727,
+            8.632,
+            5.37,
+            5.381,
+            6.218
+          ],
+          [
+            9.673,
+            6.514,
+            3.854,
+            0.0,
+            3.837,
+            6.348,
+            4.233,
+            6.59,
+            8.813
+          ],
+          [
+            12.855,
+            9.942,
+            6.727,
+            3.837,
+            0.0,
+            5.85,
+            6.033,
+            8.016,
+            11.202
+          ],
+          [
+            13.573,
+            10.018,
+            8.632,
+            6.348,
+            5.85,
+            0.0,
+            3.828,
+            6.333,
+            9.789
+          ],
+          [
+            9.819,
+            6.196,
+            5.37,
+            4.233,
+            6.033,
+            3.828,
+            0.0,
+            3.836,
+            6.591
+          ],
+          [
+            8.408,
+            5.826,
+            5.381,
+            6.59,
+            8.016,
+            6.333,
+            3.836,
+            0.0,
+            3.848
+          ],
+          [
+            5.777,
+            4.445,
+            6.218,
+            8.813,
+            11.202,
+            9.789,
+            6.591,
+            3.848,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccc(S(N)(=O)=O)cc1N1CC(=O)CCC1CNc1ccncc1N1CCCCC1",
+        "composite_score": 0.7460251386980881,
+        "mw": 458.21,
+        "logp": 1.951,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 6,
+        "qed": 0.5592,
+        "sa_score": 3.33,
+        "n_heavy_atoms": 32,
+        "tpsa": 134.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DCPS-T316M Candidate #1",
+        "iupac_name": "Nc1ccc(S(N)(=O)=O)cc1N1CC(=O)CCC1CNc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.746,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DCPS_T316M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DCPS_T316M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DCPS_T316M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DCPS_T316M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DCPS_T316M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DCPS-T316M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DCPS-T316M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:47:49.291377+00:00"
     }
   ]
 }
