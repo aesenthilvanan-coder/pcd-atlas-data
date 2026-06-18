@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1782,
+  "total_entries": 1783,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46457,
-    "queue_remaining": 132140
+    "total_processed": 46458,
+    "queue_remaining": 132139
   },
   "entries": [
     {
@@ -398293,6 +398293,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:51:02.818678+00:00"
+    },
+    {
+      "entry_id": "PCD-SMPD1-P186L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMPD1-P186L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SMPD1",
+        "uniprot": "",
+        "clinvar_id": "371341",
+        "disease": "Niemann-Pick disease, type B",
+        "mutation_precursor": "P186L",
+        "mutation_mature": "P186L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9037145261249392,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 564.714064959912,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -18.152265548706055,
+          15.989847183227539,
+          15.20311450958252
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.560052978095098,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8149158004355914,
+        "cryptic": true,
+        "pocket_residues": {
+          "K185": "K",
+          "P186": "P",
+          "P187": "P",
+          "P188": "P",
+          "K189": "K",
+          "E416": "E",
+          "R447": "R",
+          "Y448": "Y",
+          "E449": "E",
+          "N450": "N",
+          "T451": "T"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P17405|SMPD1 variant P186L",
+        "fasta_sequence": "MPRYGASLRQSCPRSGREQGQDGTAGAPGLLWMGLVLALALALALALALSDSRVLWAPAEAHPLSPQGHPARLHRIVPRLRDVFGWGNLTCPICKGLFTAINLGLKKEPNVARVGSVAIKLCNLLKIAPPAVCQSIVHLFEDDMVEVWRRSVLSPSEACGLLLGSTCGHWDIFSSWNISLPTVPKPPPKPPSPPAPGAPVSRILFLTDLHWDHDYLEGTDPDCADPLCCRRGSGLPPASRPGAGYWGEYSKCDLPLRTLESLLSGLGPAGPFDMVYWTGDIPAHDVWHQTRQDQLRALTTVTALVRKFLGPVPVYPAVGNHESTPVNSFPPPFIEGNHSSRWLYEAMAKAWEPWLPAEALRTLRIGGFYALSPYPGLRLISLNMNFCSRENFWLLINSTDPAGQLQWLVGELQAAEDRGDKVHIIGHIPPGHCLKSWSWNYYRIVARYENTLAAQFFGHTHVDEFEVFYDEETLSRPLAVAFLAPSATTYIGLNPGYRVYQIDGNYSGSSHVVLDHETYILNLTQANIPGAIPHWQLLYRARETYGLPNTLPTAWHNLVYRMRGDMQLFQTFWFLYHKGHPPSEPCGTPCRLATLCAQLSARADSPALCRHLMPDGSLPEAQSLWPRPLFC",
+        "full_sequence": "MPRYGASLRQSCPRSGREQGQDGTAGAPGLLWMGLVLALALALALALALSDSRVLWAPAEAHPLSPQGHPARLHRIVPRLRDVFGWGNLTCPICKGLFTAINLGLKKEPNVARVGSVAIKLCNLLKIAPPAVCQSIVHLFEDDMVEVWRRSVLSPSEACGLLLGSTCGHWDIFSSWNISLPTVPKPPPKPPSPPAPGAPVSRILFLTDLHWDHDYLEGTDPDCADPLCCRRGSGLPPASRPGAGYWGEYSKCDLPLRTLESLLSGLGPAGPFDMVYWTGDIPAHDVWHQTRQDQLRALTTVTALVRKFLGPVPVYPAVGNHESTPVNSFPPPFIEGNHSSRWLYEAMAKAWEPWLPAEALRTLRIGGFYALSPYPGLRLISLNMNFCSRENFWLLINSTDPAGQLQWLVGELQAAEDRGDKVHIIGHIPPGHCLKSWSWNYYRIVARYENTLAAQFFGHTHVDEFEVFYDEETLSRPLAVAFLAPSATTYIGLNPGYRVYQIDGNYSGSSHVVLDHETYILNLTQANIPGAIPHWQLLYRARETYGLPNTLPTAWHNLVYRMRGDMQLFQTFWFLYHKGHPPSEPCGTPCRLATLCAQLSARADSPALCRHLMPDGSLPEAQSLWPRPLFC",
+        "n_residues": 631,
+        "mutation_pos_1indexed": 186,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "K185-P186-P187-P188-K189-E416-R447-Y448-E449-N450-T451",
+        "pocket_lining_positions_precursor": [
+          185,
+          186,
+          187,
+          188,
+          189,
+          416,
+          447,
+          448,
+          449,
+          450,
+          451
+        ],
+        "pocket_lining_1letter": "KPPPKERYENT",
+        "sequence_slice_around_pocket": "WNISLPTVPKPPPKPPSPPA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_P186L/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "K185",
+          "P186",
+          "P187",
+          "P188",
+          "K189",
+          "E416",
+          "R447",
+          "Y448",
+          "E449",
+          "N450",
+          "T451"
+        ],
+        "values": [
+          [
+            0.0,
+            3.863,
+            6.587,
+            8.38,
+            11.197,
+            9.836,
+            6.311,
+            7.604,
+            9.305,
+            9.279,
+            10.716
+          ],
+          [
+            3.863,
+            0.0,
+            3.858,
+            6.346,
+            8.313,
+            9.333,
+            8.713,
+            8.636,
+            9.257,
+            7.795,
+            9.898
+          ],
+          [
+            6.587,
+            3.858,
+            0.0,
+            3.872,
+            6.231,
+            12.477,
+            10.269,
+            10.49,
+            9.678,
+            8.396,
+            11.588
+          ],
+          [
+            8.38,
+            6.346,
+            3.872,
+            0.0,
+            3.849,
+            12.746,
+            9.48,
+            9.229,
+            7.1,
+            6.32,
+            10.077
+          ],
+          [
+            11.197,
+            8.313,
+            6.231,
+            3.849,
+            0.0,
+            12.821,
+            12.24,
+            10.856,
+            8.329,
+            6.088,
+            9.72
+          ],
+          [
+            9.836,
+            9.333,
+            12.477,
+            12.746,
+            12.821,
+            0.0,
+            10.53,
+            7.667,
+            10.03,
+            8.078,
+            5.743
+          ],
+          [
+            6.311,
+            8.713,
+            10.269,
+            9.48,
+            12.24,
+            10.53,
+            0.0,
+            3.851,
+            5.866,
+            8.314,
+            9.032
+          ],
+          [
+            7.604,
+            8.636,
+            10.49,
+            9.229,
+            10.856,
+            7.667,
+            3.851,
+            0.0,
+            3.871,
+            5.533,
+            5.264
+          ],
+          [
+            9.305,
+            9.257,
+            9.678,
+            7.1,
+            8.329,
+            10.03,
+            5.866,
+            3.871,
+            0.0,
+            3.865,
+            5.602
+          ],
+          [
+            9.279,
+            7.795,
+            8.396,
+            6.32,
+            6.088,
+            8.078,
+            8.314,
+            5.533,
+            3.865,
+            0.0,
+            3.866
+          ],
+          [
+            10.716,
+            9.898,
+            11.588,
+            10.077,
+            9.72,
+            5.743,
+            9.032,
+            5.264,
+            5.602,
+            3.866,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(Cc1ccncc1N1C(O)CCCC1N1CCCCC1)OC",
+        "composite_score": 0.7454693051986584,
+        "mw": 362.27,
+        "logp": 1.979,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.7734,
+        "sa_score": 4.06,
+        "n_heavy_atoms": 26,
+        "tpsa": 60.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SMPD1-P186L Candidate #1",
+        "iupac_name": "CNCC(Cc1ccncc1N1C(O)CCCC1N1CCCCC1)OC",
+        "pocket_affinity_score": 0.7455,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_P186L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_P186L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_P186L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_P186L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_P186L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMPD1-P186L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMPD1-P186L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:51:33.057854+00:00"
     }
   ]
 }
