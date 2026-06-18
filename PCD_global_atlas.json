@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1757,
+  "total_entries": 1758,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46429,
-    "queue_remaining": 132168
+    "total_processed": 46430,
+    "queue_remaining": 132167
   },
   "entries": [
     {
@@ -391353,6 +391353,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:35:45.623405+00:00"
+    },
+    {
+      "entry_id": "PCD-GBE1-Y329C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GBE1-Y329C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GBE1",
+        "uniprot": "",
+        "clinvar_id": "371439",
+        "disease": "Glycogen storage disease, type IV",
+        "mutation_precursor": "Y329C",
+        "mutation_mature": "Y329C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8612395184691876,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 499.3777346979729,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          25.77757453918457,
+          11.892661094665527,
+          -6.9045538902282715
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.096566544431431,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.644115540013083,
+        "cryptic": true,
+        "pocket_residues": {
+          "A328": "A",
+          "Y329": "Y",
+          "S330": "S",
+          "S331": "S",
+          "W332": "W",
+          "E333": "E",
+          "I334": "I",
+          "L335": "L",
+          "R336": "R"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q04446|GBE1 variant Y329C",
+        "fasta_sequence": "MAAPMTPAARPEDYEAALNAALADVPELARLLEIDPYLKPYAVDFQRRYKQFSQILKNIGENEGGIDKFSRGYESFGVHRCADGGLYCKEWAPGAEGVFLTGDFNGWNPFSYPYKKLDYGKWELYIPPKQNKSVLVPHGSKLKVVITSKSGEILYRISPWAKYVVREGDNVNYDWIHWDPEHSYEFKHSRPKKPRSLRIYESHVGISSHEGKVASYKHFTCNVLPRIKGLGYNCIQLMAIMEHAYYASFGYQITSFFAASSRYGTPEELQELVDTAHSMGIIVLLDVVHSHASKNSADGLNMFDGTDSCYFHSGPRGTHDLWDSRLFAYSSWEILRFLLSNIRWWLEEYRFDGFRFDGVTSMLYHHHGVGQGFSGDYSEYFGLQVDEDALTYLMLANHLVHTLCPDSITIAEDVSGMPALCSPISQGGGGFDYRLAMAIPDKWIQLLKEFKDEDWNMGDIVYTLTNRRYLEKCIAYAESHDQALVGDKSLAFWLMDAEMYTNMSVLTPFTPVIDRGIQLHKMIRLITHGLGGEGYLNFMGNEFGHPEWLDFPRKGNNESYHYARRQFHLTDDDLLRYKFLNNFDRDMNRLEERYGWLAAPQAYVSEKHEGNKIIAFERAGLLFIFNFHPSKSYTDYRVGTALPGKFKIVLDSDAAEYGGHQRLDHSTDFFSEAFEHNGRPYSLLVYIPSRVALILQNVDLPN",
+        "full_sequence": "MAAPMTPAARPEDYEAALNAALADVPELARLLEIDPYLKPYAVDFQRRYKQFSQILKNIGENEGGIDKFSRGYESFGVHRCADGGLYCKEWAPGAEGVFLTGDFNGWNPFSYPYKKLDYGKWELYIPPKQNKSVLVPHGSKLKVVITSKSGEILYRISPWAKYVVREGDNVNYDWIHWDPEHSYEFKHSRPKKPRSLRIYESHVGISSHEGKVASYKHFTCNVLPRIKGLGYNCIQLMAIMEHAYYASFGYQITSFFAASSRYGTPEELQELVDTAHSMGIIVLLDVVHSHASKNSADGLNMFDGTDSCYFHSGPRGTHDLWDSRLFAYSSWEILRFLLSNIRWWLEEYRFDGFRFDGVTSMLYHHHGVGQGFSGDYSEYFGLQVDEDALTYLMLANHLVHTLCPDSITIAEDVSGMPALCSPISQGGGGFDYRLAMAIPDKWIQLLKEFKDEDWNMGDIVYTLTNRRYLEKCIAYAESHDQALVGDKSLAFWLMDAEMYTNMSVLTPFTPVIDRGIQLHKMIRLITHGLGGEGYLNFMGNEFGHPEWLDFPRKGNNESYHYARRQFHLTDDDLLRYKFLNNFDRDMNRLEERYGWLAAPQAYVSEKHEGNKIIAFERAGLLFIFNFHPSKSYTDYRVGTALPGKFKIVLDSDAAEYGGHQRLDHSTDFFSEAFEHNGRPYSLLVYIPSRVALILQNVDLPN",
+        "n_residues": 702,
+        "mutation_pos_1indexed": 329,
+        "wt_aa": "Y",
+        "mut_aa": "C",
+        "pocket_lining_residues": "A328-Y329-S330-S331-W332-E333-I334-L335-R336",
+        "pocket_lining_positions_precursor": [
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336
+        ],
+        "pocket_lining_1letter": "AYSSWEILR",
+        "sequence_slice_around_pocket": "HDLWDSRLFAYSSWEILRFL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GBE1_Y329C/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "A328",
+          "Y329",
+          "S330",
+          "S331",
+          "W332",
+          "E333",
+          "I334",
+          "L335",
+          "R336"
+        ],
+        "values": [
+          [
+            0.0,
+            3.869,
+            5.553,
+            5.691,
+            9.115,
+            9.487,
+            6.766,
+            8.865,
+            11.794
+          ],
+          [
+            3.869,
+            0.0,
+            3.875,
+            5.469,
+            7.9,
+            9.031,
+            6.029,
+            6.342,
+            9.958
+          ],
+          [
+            5.553,
+            3.875,
+            0.0,
+            3.853,
+            6.468,
+            9.011,
+            7.512,
+            7.392,
+            10.769
+          ],
+          [
+            5.691,
+            5.469,
+            3.853,
+            0.0,
+            3.831,
+            5.707,
+            5.285,
+            6.447,
+            8.785
+          ],
+          [
+            9.115,
+            7.9,
+            6.468,
+            3.831,
+            0.0,
+            3.829,
+            5.425,
+            5.187,
+            6.268
+          ],
+          [
+            9.487,
+            9.031,
+            9.011,
+            5.707,
+            3.829,
+            0.0,
+            3.862,
+            5.403,
+            4.737
+          ],
+          [
+            6.766,
+            6.029,
+            7.512,
+            5.285,
+            5.425,
+            3.862,
+            0.0,
+            3.809,
+            5.255
+          ],
+          [
+            8.865,
+            6.342,
+            7.392,
+            6.447,
+            5.187,
+            5.403,
+            3.809,
+            0.0,
+            3.858
+          ],
+          [
+            11.794,
+            9.958,
+            10.769,
+            8.785,
+            6.268,
+            4.737,
+            5.255,
+            3.858,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CC(=O)CCC2CCNc2ncnc3[nH]cnc23)c1",
+        "composite_score": 0.8319937398937718,
+        "mw": 395.21,
+        "logp": 1.86,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 7,
+        "qed": 0.5541,
+        "sa_score": 3.48,
+        "n_heavy_atoms": 29,
+        "tpsa": 122.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GBE1-Y329C Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CC(=O)CCC2CCNc2ncnc3[nH]cnc23)c1",
+        "pocket_affinity_score": 0.832,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GBE1_Y329C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GBE1_Y329C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GBE1_Y329C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GBE1_Y329C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GBE1_Y329C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GBE1-Y329C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GBE1-Y329C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:36:15.087033+00:00"
     }
   ]
 }
