@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1542,
+  "total_entries": 1543,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46193,
-    "queue_remaining": 132404
+    "total_processed": 46194,
+    "queue_remaining": 132403
   },
   "entries": [
     {
@@ -341210,6 +341210,189 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:04:26.120932+00:00"
+    },
+    {
+      "entry_id": "PCD-RNASEH2A-I253T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RNASEH2A-I253T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RNASEH2A",
+        "uniprot": "",
+        "clinvar_id": "328295",
+        "disease": "Aicardi-Goutieres syndrome 4",
+        "mutation_precursor": "I253T",
+        "mutation_mature": "I253T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7716764924031561,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 537.0774618497785,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          10.268499374389648,
+          3.7310051918029785,
+          -27.470945358276367
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.6168629906570733,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7045595587485123,
+        "cryptic": true,
+        "pocket_residues": {
+          "D251": "D",
+          "V252": "V",
+          "I253": "I",
+          "W254": "W",
+          "E255": "E",
+          "D256": "D",
+          "S257": "S"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O75792|RNASEH2A variant I253T",
+        "fasta_sequence": "MDLSELERDNTGRCRLSSPVPAVCRKEPCVLGVDEAGRGPVLGPMVYAICYCPLPRLADLEALKVADSKTLLESERERLFAKMEDTDFVGWALDVLSPNLISTSMLGRVKYNLNSLSHDTATGLIQYALDQGVNVTQVFVDTVGMPETYQARLQQSFPGIEVTVKAKADALYPVVSAASICAKVARDQAVKKWQFVEKLQDLDTDYGSGYPNDPKTKAWLKEHVEPVFGFPQFVRFSWRTAQTILEKEAEDVIWEDSASENQEGLRKITSYFLNEGSQARPRSSHRYFLERGLESATSL",
+        "full_sequence": "MDLSELERDNTGRCRLSSPVPAVCRKEPCVLGVDEAGRGPVLGPMVYAICYCPLPRLADLEALKVADSKTLLESERERLFAKMEDTDFVGWALDVLSPNLISTSMLGRVKYNLNSLSHDTATGLIQYALDQGVNVTQVFVDTVGMPETYQARLQQSFPGIEVTVKAKADALYPVVSAASICAKVARDQAVKKWQFVEKLQDLDTDYGSGYPNDPKTKAWLKEHVEPVFGFPQFVRFSWRTAQTILEKEAEDVIWEDSASENQEGLRKITSYFLNEGSQARPRSSHRYFLERGLESATSL",
+        "n_residues": 299,
+        "mutation_pos_1indexed": 253,
+        "wt_aa": "I",
+        "mut_aa": "T",
+        "pocket_lining_residues": "D251-V252-I253-W254-E255-D256-S257",
+        "pocket_lining_positions_precursor": [
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257
+        ],
+        "pocket_lining_1letter": "DVIWEDS",
+        "sequence_slice_around_pocket": "TILEKEAEDVIWEDSASENQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH2A_I253T/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "D251",
+          "V252",
+          "I253",
+          "W254",
+          "E255",
+          "D256",
+          "S257"
+        ],
+        "values": [
+          [
+            0.0,
+            3.853,
+            6.7,
+            9.894,
+            13.438,
+            14.48,
+            11.712
+          ],
+          [
+            3.853,
+            0.0,
+            3.839,
+            6.373,
+            9.998,
+            11.447,
+            9.363
+          ],
+          [
+            6.7,
+            3.839,
+            0.0,
+            3.842,
+            6.852,
+            8.337,
+            6.149
+          ],
+          [
+            9.894,
+            6.373,
+            3.842,
+            0.0,
+            3.868,
+            5.478,
+            5.107
+          ],
+          [
+            13.438,
+            9.998,
+            6.852,
+            3.868,
+            0.0,
+            3.862,
+            5.588
+          ],
+          [
+            14.48,
+            11.447,
+            8.337,
+            5.478,
+            3.862,
+            0.0,
+            3.823
+          ],
+          [
+            11.712,
+            9.363,
+            6.149,
+            5.107,
+            5.588,
+            3.823,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CCCCC1CNCc1ncc(F)cn1",
+        "composite_score": 0.8263118803687809,
+        "mw": 358.23,
+        "logp": 2.051,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.7518,
+        "sa_score": 3.28,
+        "n_heavy_atoms": 26,
+        "tpsa": 80.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RNASEH2A-I253T Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CCCCC1CNCc1ncc(F)cn1",
+        "pocket_affinity_score": 0.8263,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH2A_I253T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH2A_I253T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH2A_I253T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH2A_I253T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RNASEH2A_I253T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RNASEH2A-I253T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RNASEH2A-I253T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:04:48.378486+00:00"
     }
   ]
 }
