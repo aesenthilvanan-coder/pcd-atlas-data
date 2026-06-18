@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2095,
+  "total_entries": 2096,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46804,
-    "queue_remaining": 131793
+    "total_processed": 46806,
+    "queue_remaining": 131791
   },
   "entries": [
     {
@@ -479339,6 +479339,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:33:56.800246+00:00"
+    },
+    {
+      "entry_id": "PCD-MAT1A-I322F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MAT1A-I322F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MAT1A",
+        "uniprot": "",
+        "clinvar_id": "372407",
+        "disease": "not provided",
+        "mutation_precursor": "I322F",
+        "mutation_mature": "I322F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7280291219114234,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 464.82500391119385,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          3.793078899383545,
+          -12.887091636657715,
+          -24.68692398071289
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.9101359725263,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6976861527616018,
+        "cryptic": true,
+        "pocket_residues": {
+          "D116": "D",
+          "I117": "I",
+          "A118": "A",
+          "Q119": "Q",
+          "C120": "C",
+          "V121": "V",
+          "I322": "I",
+          "G323": "G"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q00266|MAT1A variant I322F",
+        "fasta_sequence": "MNGPVDGLCDHSLSEGVFMFTSESVGEGHPDKICDQISDAVLDAHLKQDPNAKVACETVCKTGMVLLCGEITSMAMVDYQRVVRDTIKHIGYDDSAKGFDFKTCNVLVALEQQSPDIAQCVHLDRNEEDVGAGDQGLMFGYATDETEECMPLTIILAHKLNARMADLRRSGLLPWLRPDSKTQVTVQYMQDNGAVIPVRIHTIVISVQHNEDITLEEMRRALKEQVIRAVVPAKYLDEDTVYHLQPSGRFVIGGPQGDAGVTGRKIIVDTYGGWGAHGGGAFSGKDYTKVDRSAAYAARWVAKSLVKAGLCRRVLVQVSYAIGVAEPLSISIFTYGTSQKTERELLDVVHKNFDLRPGVIVRDLDLKKPIYQKTACYGHFGRSEFPWEVPRKLVF",
+        "full_sequence": "MNGPVDGLCDHSLSEGVFMFTSESVGEGHPDKICDQISDAVLDAHLKQDPNAKVACETVCKTGMVLLCGEITSMAMVDYQRVVRDTIKHIGYDDSAKGFDFKTCNVLVALEQQSPDIAQCVHLDRNEEDVGAGDQGLMFGYATDETEECMPLTIILAHKLNARMADLRRSGLLPWLRPDSKTQVTVQYMQDNGAVIPVRIHTIVISVQHNEDITLEEMRRALKEQVIRAVVPAKYLDEDTVYHLQPSGRFVIGGPQGDAGVTGRKIIVDTYGGWGAHGGGAFSGKDYTKVDRSAAYAARWVAKSLVKAGLCRRVLVQVSYAIGVAEPLSISIFTYGTSQKTERELLDVVHKNFDLRPGVIVRDLDLKKPIYQKTACYGHFGRSEFPWEVPRKLVF",
+        "n_residues": 395,
+        "mutation_pos_1indexed": 322,
+        "wt_aa": "I",
+        "mut_aa": "F",
+        "pocket_lining_residues": "D116-I117-A118-Q119-C120-V121-I322-G323",
+        "pocket_lining_positions_precursor": [
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          322,
+          323
+        ],
+        "pocket_lining_1letter": "DIAQCVIG",
+        "sequence_slice_around_pocket": "RRVLVQVSYAIGVAEPLSIS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MAT1A_I322F/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "D116",
+          "I117",
+          "A118",
+          "Q119",
+          "C120",
+          "V121",
+          "I322",
+          "G323"
+        ],
+        "values": [
+          [
+            0.0,
+            3.853,
+            5.557,
+            5.546,
+            6.928,
+            8.869,
+            11.127,
+            10.646
+          ],
+          [
+            3.853,
+            0.0,
+            3.835,
+            5.669,
+            5.749,
+            6.088,
+            8.333,
+            8.215
+          ],
+          [
+            5.557,
+            3.835,
+            0.0,
+            3.864,
+            5.683,
+            5.248,
+            10.478,
+            9.11
+          ],
+          [
+            5.546,
+            5.669,
+            3.864,
+            0.0,
+            3.841,
+            5.787,
+            10.934,
+            8.644
+          ],
+          [
+            6.928,
+            5.749,
+            5.683,
+            3.841,
+            0.0,
+            3.856,
+            7.581,
+            4.953
+          ],
+          [
+            8.869,
+            6.088,
+            5.248,
+            5.787,
+            3.856,
+            0.0,
+            6.954,
+            4.596
+          ],
+          [
+            11.127,
+            8.333,
+            10.478,
+            10.934,
+            7.581,
+            6.954,
+            0.0,
+            3.842
+          ],
+          [
+            10.646,
+            8.215,
+            9.11,
+            8.644,
+            4.953,
+            4.596,
+            3.842,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.7988494091963496,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MAT1A-I322F Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7988,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MAT1A_I322F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MAT1A_I322F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MAT1A_I322F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MAT1A_I322F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MAT1A_I322F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MAT1A-I322F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MAT1A-I322F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:34:36.243298+00:00"
     }
   ]
 }
