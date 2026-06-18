@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2155,
+  "total_entries": 2156,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46874,
-    "queue_remaining": 131723
+    "total_processed": 46875,
+    "queue_remaining": 131722
   },
   "entries": [
     {
@@ -494465,6 +494465,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T08:22:17.507484+00:00"
+    },
+    {
+      "entry_id": "PCD-PTPN11-N58S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PTPN11-N58S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PTPN11",
+        "uniprot": "",
+        "clinvar_id": "372483",
+        "disease": "not provided",
+        "mutation_precursor": "N58S",
+        "mutation_mature": "N58S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8393864469716801,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 397.3873327844217,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -14.37742805480957,
+          0.12450122833251953,
+          -6.098459243774414
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.345267557771129,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6148635839902987,
+        "cryptic": true,
+        "pocket_residues": {
+          "G39": "G",
+          "D40": "D",
+          "N58": "N",
+          "T59": "T",
+          "G60": "G",
+          "G427": "G",
+          "Q506": "Q",
+          "T507": "T",
+          "E508": "E",
+          "A509": "A",
+          "Q510": "Q"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q06124|PTPN11 variant N58S",
+        "fasta_sequence": "MTSRRWFHPNITGVEAENLLLTRGVDGSFLARPSKSNPGDFTLSVRRNGAVTHIKIQNTGDYYDLYGGEKFATLAELVQYYMEHHGQLKEKNGDVIELKYPLNCADPTSERWFHGHLSGKEAEKLLTEKGKHGSFLVRESQSHPGDFVLSVRTGDDKGESNDGKSKVTHVMIRCQELKYDVGGGERFDSLTDLVEHYKKNPMVETLGTVLQLKQPLNTTRINAAEIESRVRELSKLAETTDKVKQGFWEEFETLQQQECKLLYSRKEGQRQENKNKNRYKNILPFDHTRVVLHDGDPNEPVSDYINANIIMPEFETKCNNSKPKKSYIATQGCLQNTVNDFWRMVFQENSRVIVMTTKEVERGKSKCVKYWPDEYALKEYGVMRVRNVKESAAHDYTLRELKLSKVGQGNTERTVWQYHFRTWPDHGVPSDPGGVLDFLEEVHHKQESIMDAGPVVVHCSAGIGRTGTFIVIDILIDIIREKGVDCDIDVPKTIQMVRSQRSGMVQTEAQYRFIYMAVQHYIETLQRRIEEEQKSKRKGHEYTNIKYSLADQTSGDQSPLPPCTPTPPCAEMREDSARVYENVGLMQQQKSFR",
+        "full_sequence": "MTSRRWFHPNITGVEAENLLLTRGVDGSFLARPSKSNPGDFTLSVRRNGAVTHIKIQNTGDYYDLYGGEKFATLAELVQYYMEHHGQLKEKNGDVIELKYPLNCADPTSERWFHGHLSGKEAEKLLTEKGKHGSFLVRESQSHPGDFVLSVRTGDDKGESNDGKSKVTHVMIRCQELKYDVGGGERFDSLTDLVEHYKKNPMVETLGTVLQLKQPLNTTRINAAEIESRVRELSKLAETTDKVKQGFWEEFETLQQQECKLLYSRKEGQRQENKNKNRYKNILPFDHTRVVLHDGDPNEPVSDYINANIIMPEFETKCNNSKPKKSYIATQGCLQNTVNDFWRMVFQENSRVIVMTTKEVERGKSKCVKYWPDEYALKEYGVMRVRNVKESAAHDYTLRELKLSKVGQGNTERTVWQYHFRTWPDHGVPSDPGGVLDFLEEVHHKQESIMDAGPVVVHCSAGIGRTGTFIVIDILIDIIREKGVDCDIDVPKTIQMVRSQRSGMVQTEAQYRFIYMAVQHYIETLQRRIEEEQKSKRKGHEYTNIKYSLADQTSGDQSPLPPCTPTPPCAEMREDSARVYENVGLMQQQKSFR",
+        "n_residues": 593,
+        "mutation_pos_1indexed": 58,
+        "wt_aa": "N",
+        "mut_aa": "S",
+        "pocket_lining_residues": "G39-D40-N58-T59-G60-G427-Q506-T507-E508-A509-Q510",
+        "pocket_lining_positions_precursor": [
+          39,
+          40,
+          58,
+          59,
+          60,
+          427,
+          506,
+          507,
+          508,
+          509,
+          510
+        ],
+        "pocket_lining_1letter": "GDNTGGQTEAQ",
+        "sequence_slice_around_pocket": "NGAVTHIKIQNTGDYYDLYG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PTPN11_N58S/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "G39",
+          "D40",
+          "N58",
+          "T59",
+          "G60",
+          "G427",
+          "Q506",
+          "T507",
+          "E508",
+          "A509",
+          "Q510"
+        ],
+        "values": [
+          [
+            0.0,
+            3.849,
+            6.841,
+            7.812,
+            9.607,
+            9.763,
+            10.548,
+            7.473,
+            7.648,
+            8.429,
+            11.212
+          ],
+          [
+            3.849,
+            0.0,
+            5.822,
+            8.153,
+            10.584,
+            12.108,
+            11.535,
+            9.496,
+            10.676,
+            11.812,
+            14.011
+          ],
+          [
+            6.841,
+            5.822,
+            0.0,
+            3.82,
+            5.673,
+            9.412,
+            7.597,
+            7.142,
+            10.171,
+            10.694,
+            11.397
+          ],
+          [
+            7.812,
+            8.153,
+            3.82,
+            0.0,
+            3.835,
+            6.125,
+            8.23,
+            7.409,
+            10.26,
+            9.363,
+            9.986
+          ],
+          [
+            9.607,
+            10.584,
+            5.673,
+            3.835,
+            0.0,
+            5.97,
+            5.313,
+            5.582,
+            8.944,
+            8.15,
+            7.321
+          ],
+          [
+            9.763,
+            12.108,
+            9.412,
+            6.125,
+            5.97,
+            0.0,
+            10.023,
+            8.12,
+            9.321,
+            6.279,
+            7.11
+          ],
+          [
+            10.548,
+            11.535,
+            7.597,
+            8.23,
+            5.313,
+            10.023,
+            0.0,
+            3.855,
+            7.274,
+            8.594,
+            6.887
+          ],
+          [
+            7.473,
+            9.496,
+            7.142,
+            7.409,
+            5.582,
+            8.12,
+            3.855,
+            0.0,
+            3.832,
+            5.315,
+            5.278
+          ],
+          [
+            7.648,
+            10.676,
+            10.171,
+            10.26,
+            8.944,
+            9.321,
+            7.274,
+            3.832,
+            0.0,
+            3.856,
+            5.394
+          ],
+          [
+            8.429,
+            11.812,
+            10.694,
+            9.363,
+            8.15,
+            6.279,
+            8.594,
+            5.315,
+            3.856,
+            0.0,
+            3.862
+          ],
+          [
+            11.212,
+            14.011,
+            11.397,
+            9.986,
+            7.321,
+            7.11,
+            6.887,
+            5.278,
+            5.394,
+            3.862,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.7558957163195381,
+        "mw": 276.18,
+        "logp": 2.016,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 6,
+        "qed": 0.8628,
+        "sa_score": 2.25,
+        "n_heavy_atoms": 20,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PTPN11-N58S Candidate #1",
+        "iupac_name": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7559,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PTPN11_N58S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PTPN11_N58S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PTPN11_N58S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PTPN11_N58S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PTPN11_N58S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PTPN11-N58S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PTPN11-N58S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T08:22:45.535431+00:00"
     }
   ]
 }
