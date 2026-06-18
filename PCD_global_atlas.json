@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2120,
+  "total_entries": 2121,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46832,
-    "queue_remaining": 131765
+    "total_processed": 46834,
+    "queue_remaining": 131763
   },
   "entries": [
     {
@@ -485991,6 +485991,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:56:17.041855+00:00"
+    },
+    {
+      "entry_id": "PCD-MYBPC3-G1206D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYBPC3-G1206D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MYBPC3",
+        "uniprot": "",
+        "clinvar_id": "372421",
+        "disease": "not provided",
+        "mutation_precursor": "G1206D",
+        "mutation_mature": "G1206D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8142769893191901,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 408.05567150229433,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -60.489280700683594,
+          -5.155131816864014,
+          24.835187911987305
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.095416424244136,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6876496754146197,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y1119": "Y",
+          "R1120": "R",
+          "F1177": "F",
+          "S1178": "S",
+          "E1179": "E",
+          "A1180": "A",
+          "R1205": "R",
+          "G1206": "G",
+          "S1207": "S"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q14896|MYBPC3 variant G1206D",
+        "fasta_sequence": "MPEPGKKPVSAFSKKPRSVEVAAGSPAVFEAETERAGVKVRWQRGGSDISASNKYGLATEGTRHTLTVREVGPADQGSYAVIAGSSKVKFDLKVIEAEKAEPMLAPAPAPAEATGAPGEAPAPAAELGESAPSPKGSSSAALNGPTPGAPDDPIGLFVMRPQDGEVTVGGSITFSARVAGASLLKPPVVKWFKGKWVDLSSKVGQHLQLHDSYDRASKVYLFELHITDAQPAFTGSYRCEVSTKDKFDCSNFNLTVHEAMGTGDLDLLSAFRRTSLAGGGRRISDSHEDTGILDFSSLLKKRDSFRTPRDSKLEAPAEEDVWEILRQAPPSEYERIAFQYGVTDLRGMLKRLKGMRRDEKKSTAFQKKLEPAYQVSKGHKIRLTVELADHDAEVKWLKNGQEIQMSGSKYIFESIGAKRTLTISQCSLADDAAYQCVVGGEKCSTELFVKEPPVLITRPLEDQLVMVGQRVEFECEVSEEGAQVKWLKDGVELTREETFKYRFKKDGQRHHLIINEAMLEDAGHYALCTSGGQALAELIVQEKKLEVYQSIADLMVGAKDQAVFKCEVSDENVRGVWLKNGKELVPDSRIKVSHIGRVHKLTIDDVTPADEADYSFVPEGFACNLSAKLHFMEVKIDFVPRQEPPKIHLDCPGRIPDTIVVVAGNKLRLDVPISGDPAPTVIWQKAITQGNKAPARPAPDAPEDTGDSDEWVFDKKLLCETEGRVRVETTKDRSIFTVEGAEKEDEGVYTVTVKNPVGEDQVNLTVKVIDVPDAPAAPKISNVGEDSCTVQWEPPAYDGGQPILGYILERKKKKSYRWMRLNFDLIQELSHEARRMIEGVVYEMRVYAVNAIGMSRPSPASQPFMPIGPPSEPTHLAVEDVSDTTVSLKWRPPERVGAGGLDGYSVEYCPEGCSEWVAALQGLTEHTSILVKDLPTGARLLFRVRAHNMAGPGAPVTTTEPVTVQEILQRPRLQLPRHLRQTIQKKVGEPVNLLIPFQGKPRPQVTWTKEGQPLAGEEVSIRNSPTDTILFIRAARRVHSGTYQVTVRIENMEDKATLVLQVVDKPSPPQDLRVTDAWGLNVALEWKPPQDVGNTELWGYTVQKADKKTMEWFTVLEHYRRTHCVVPELIIGNGYYFRVFSQNMVGFSDRAATTKEPVFIPRPGITYEPPNYKALDFSEAPSFTQPLVNRSVIAGYTAMLCCAVRGSPKPKISWFKNGLDLGEDARFRMFSKQGVLTLEIRKPCPFDGGIYVCRATNLQGEARCECRLEVRVPQ",
+        "full_sequence": "MPEPGKKPVSAFSKKPRSVEVAAGSPAVFEAETERAGVKVRWQRGGSDISASNKYGLATEGTRHTLTVREVGPADQGSYAVIAGSSKVKFDLKVIEAEKAEPMLAPAPAPAEATGAPGEAPAPAAELGESAPSPKGSSSAALNGPTPGAPDDPIGLFVMRPQDGEVTVGGSITFSARVAGASLLKPPVVKWFKGKWVDLSSKVGQHLQLHDSYDRASKVYLFELHITDAQPAFTGSYRCEVSTKDKFDCSNFNLTVHEAMGTGDLDLLSAFRRTSLAGGGRRISDSHEDTGILDFSSLLKKRDSFRTPRDSKLEAPAEEDVWEILRQAPPSEYERIAFQYGVTDLRGMLKRLKGMRRDEKKSTAFQKKLEPAYQVSKGHKIRLTVELADHDAEVKWLKNGQEIQMSGSKYIFESIGAKRTLTISQCSLADDAAYQCVVGGEKCSTELFVKEPPVLITRPLEDQLVMVGQRVEFECEVSEEGAQVKWLKDGVELTREETFKYRFKKDGQRHHLIINEAMLEDAGHYALCTSGGQALAELIVQEKKLEVYQSIADLMVGAKDQAVFKCEVSDENVRGVWLKNGKELVPDSRIKVSHIGRVHKLTIDDVTPADEADYSFVPEGFACNLSAKLHFMEVKIDFVPRQEPPKIHLDCPGRIPDTIVVVAGNKLRLDVPISGDPAPTVIWQKAITQGNKAPARPAPDAPEDTGDSDEWVFDKKLLCETEGRVRVETTKDRSIFTVEGAEKEDEGVYTVTVKNPVGEDQVNLTVKVIDVPDAPAAPKISNVGEDSCTVQWEPPAYDGGQPILGYILERKKKKSYRWMRLNFDLIQELSHEARRMIEGVVYEMRVYAVNAIGMSRPSPASQPFMPIGPPSEPTHLAVEDVSDTTVSLKWRPPERVGAGGLDGYSVEYCPEGCSEWVAALQGLTEHTSILVKDLPTGARLLFRVRAHNMAGPGAPVTTTEPVTVQEILQRPRLQLPRHLRQTIQKKVGEPVNLLIPFQGKPRPQVTWTKEGQPLAGEEVSIRNSPTDTILFIRAARRVHSGTYQVTVRIENMEDKATLVLQVVDKPSPPQDLRVTDAWGLNVALEWKPPQDVGNTELWGYTVQKADKKTMEWFTVLEHYRRTHCVVPELIIGNGYYFRVFSQNMVGFSDRAATTKEPVFIPRPGITYEPPNYKALDFSEAPSFTQPLVNRSVIAGYTAMLCCAVRGSPKPKISWFKNGLDLGEDARFRMFSKQGVLTLEIRKPCPFDGGIYVCRATNLQGEARCECRLEVRVPQ",
+        "n_residues": 1274,
+        "mutation_pos_1indexed": 1206,
+        "wt_aa": "G",
+        "mut_aa": "D",
+        "pocket_lining_residues": "Y1119-R1120-F1177-S1178-E1179-A1180-R1205-G1206-S1207",
+        "pocket_lining_positions_precursor": [
+          1119,
+          1120,
+          1177,
+          1178,
+          1179,
+          1180,
+          1205,
+          1206,
+          1207
+        ],
+        "pocket_lining_1letter": "YRFSEARGS",
+        "sequence_slice_around_pocket": "YTAMLCCAVRGSPKPKISWF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MYBPC3_G1206D/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "Y1119",
+          "R1120",
+          "F1177",
+          "S1178",
+          "E1179",
+          "A1180",
+          "R1205",
+          "G1206",
+          "S1207"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            9.743,
+            10.506,
+            9.672,
+            12.617,
+            8.017,
+            8.674,
+            8.884
+          ],
+          [
+            3.859,
+            0.0,
+            10.894,
+            12.442,
+            11.213,
+            14.236,
+            10.472,
+            11.344,
+            11.824
+          ],
+          [
+            9.743,
+            10.894,
+            0.0,
+            3.792,
+            6.097,
+            9.639,
+            12.328,
+            9.544,
+            7.004
+          ],
+          [
+            10.506,
+            12.442,
+            3.792,
+            0.0,
+            3.823,
+            6.628,
+            10.438,
+            6.975,
+            4.282
+          ],
+          [
+            9.672,
+            11.213,
+            6.097,
+            3.823,
+            0.0,
+            3.818,
+            7.956,
+            4.939,
+            4.772
+          ],
+          [
+            12.617,
+            14.236,
+            9.639,
+            6.628,
+            3.818,
+            0.0,
+            8.274,
+            5.453,
+            6.664
+          ],
+          [
+            8.017,
+            10.472,
+            12.328,
+            10.438,
+            7.956,
+            8.274,
+            0.0,
+            3.824,
+            7.22
+          ],
+          [
+            8.674,
+            11.344,
+            9.544,
+            6.975,
+            4.939,
+            5.453,
+            3.824,
+            0.0,
+            3.823
+          ],
+          [
+            8.884,
+            11.824,
+            7.004,
+            4.282,
+            4.772,
+            6.664,
+            7.22,
+            3.823,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8488245628173136,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MYBPC3-G1206D Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8488,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MYBPC3_G1206D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MYBPC3_G1206D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MYBPC3_G1206D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MYBPC3_G1206D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MYBPC3_G1206D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYBPC3-G1206D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYBPC3-G1206D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:57:15.934024+00:00"
     }
   ]
 }
