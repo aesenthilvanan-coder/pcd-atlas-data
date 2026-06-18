@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1601,
+  "total_entries": 1602,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46255,
-    "queue_remaining": 132342
+    "total_processed": 46256,
+    "queue_remaining": 132341
   },
   "entries": [
     {
@@ -354070,6 +354070,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:44:08.405428+00:00"
+    },
+    {
+      "entry_id": "PCD-FTCD-G191S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FTCD-G191S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FTCD",
+        "uniprot": "",
+        "clinvar_id": "1385667",
+        "disease": "Glutamate formiminotransferase deficiency",
+        "mutation_precursor": "G191S",
+        "mutation_mature": "G191S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7757418454563829,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 539.3555828356239,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          27.851303100585938,
+          -18.24796485900879,
+          -5.794319152832031
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.961575506694154,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7976265412449389,
+        "cryptic": true,
+        "pocket_residues": {
+          "G191": "G",
+          "T192": "T",
+          "K193": "K",
+          "E194": "E",
+          "Q195": "Q",
+          "A196": "A",
+          "R198": "R",
+          "L260": "L"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O95954|FTCD variant G191S",
+        "fasta_sequence": "MSQLVECVPNFSEGKNQEVIDAISGAITQTPGCVLLDVDAGPSTNRTVYTFVGPPECVVEGALNAARVASRLIDMSRHQGEHPRMGALDVCPFIPVRGVSVDECVLCAQAFGQRLAEELDVPVYLYGEAARMDSRRTLPAIRAGEYEALPKKLQQADWAPDFGPSSFVPSWGATATGARKFLIAFNINLLGTKEQAHRIALNLREQGRGKDQPGRLKKVQGIGWYLDEKNLAQVSTNLLDFEVTALHTVYEETCREAQELSLPVVGSQLVGLVPLKALLDAAAFYCEKENLFILEEEQRIRLVVSRLGLDSLCPFSPKERIIEYLVPERGPERGLGSKSLRAFVGEVGARSAAPGGGSVAAAAAAMGAALGSMVGLMTYGRRQFQSLDTTMRRLIPPFREASAKLTTLVDADAEAFTAYLEAMRLPKNTPEEKDRRTAALQEGLRRAVSVPLTLAETVASLWPALQELARCGNLACRSDLQVAAKALEMGVFGAYFNVLINLRDITDEAFKDQIHHRVSSLLQEAKTQAALVLDCLETRQE",
+        "full_sequence": "MSQLVECVPNFSEGKNQEVIDAISGAITQTPGCVLLDVDAGPSTNRTVYTFVGPPECVVEGALNAARVASRLIDMSRHQGEHPRMGALDVCPFIPVRGVSVDECVLCAQAFGQRLAEELDVPVYLYGEAARMDSRRTLPAIRAGEYEALPKKLQQADWAPDFGPSSFVPSWGATATGARKFLIAFNINLLGTKEQAHRIALNLREQGRGKDQPGRLKKVQGIGWYLDEKNLAQVSTNLLDFEVTALHTVYEETCREAQELSLPVVGSQLVGLVPLKALLDAAAFYCEKENLFILEEEQRIRLVVSRLGLDSLCPFSPKERIIEYLVPERGPERGLGSKSLRAFVGEVGARSAAPGGGSVAAAAAAMGAALGSMVGLMTYGRRQFQSLDTTMRRLIPPFREASAKLTTLVDADAEAFTAYLEAMRLPKNTPEEKDRRTAALQEGLRRAVSVPLTLAETVASLWPALQELARCGNLACRSDLQVAAKALEMGVFGAYFNVLINLRDITDEAFKDQIHHRVSSLLQEAKTQAALVLDCLETRQE",
+        "n_residues": 541,
+        "mutation_pos_1indexed": 191,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "G191-T192-K193-E194-Q195-A196-R198-L260",
+        "pocket_lining_positions_precursor": [
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          198,
+          260
+        ],
+        "pocket_lining_1letter": "GTKEQARL",
+        "sequence_slice_around_pocket": "FLIAFNINLLGTKEQAHRIA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FTCD_G191S/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "G191",
+          "T192",
+          "K193",
+          "E194",
+          "Q195",
+          "A196",
+          "R198",
+          "L260"
+        ],
+        "values": [
+          [
+            0.0,
+            3.828,
+            6.932,
+            8.433,
+            6.51,
+            7.279,
+            11.277,
+            9.72
+          ],
+          [
+            3.828,
+            0.0,
+            3.832,
+            5.37,
+            5.259,
+            6.437,
+            9.889,
+            11.391
+          ],
+          [
+            6.932,
+            3.832,
+            0.0,
+            3.857,
+            5.424,
+            4.998,
+            8.432,
+            13.125
+          ],
+          [
+            8.433,
+            5.37,
+            3.857,
+            0.0,
+            3.83,
+            5.507,
+            6.002,
+            11.733
+          ],
+          [
+            6.51,
+            5.259,
+            5.424,
+            3.83,
+            0.0,
+            3.836,
+            4.977,
+            8.087
+          ],
+          [
+            7.279,
+            6.437,
+            4.998,
+            5.507,
+            3.836,
+            0.0,
+            5.448,
+            10.0
+          ],
+          [
+            11.277,
+            9.889,
+            8.432,
+            6.002,
+            4.977,
+            5.448,
+            0.0,
+            9.762
+          ],
+          [
+            9.72,
+            11.391,
+            13.125,
+            11.733,
+            8.087,
+            10.0,
+            9.762,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COC1CCCC(N2CCCCC2)N1c1cnccc1NCCC(N)=O",
+        "composite_score": 0.6989482372547933,
+        "mw": 361.25,
+        "logp": 2.144,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.7741,
+        "sa_score": 3.65,
+        "n_heavy_atoms": 26,
+        "tpsa": 83.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FTCD-G191S Candidate #1",
+        "iupac_name": "COC1CCCC(N2CCCCC2)N1c1cnccc1NCCC(N)=O",
+        "pocket_affinity_score": 0.6989,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FTCD_G191S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FTCD_G191S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FTCD_G191S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FTCD_G191S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FTCD_G191S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FTCD-G191S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FTCD-G191S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:44:46.533123+00:00"
     }
   ]
 }
