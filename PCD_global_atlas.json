@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1957,
+  "total_entries": 1958,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46646,
-    "queue_remaining": 131951
+    "total_processed": 46647,
+    "queue_remaining": 131950
   },
   "entries": [
     {
@@ -444600,6 +444600,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:40:56.899327+00:00"
+    },
+    {
+      "entry_id": "PCD-MUTYH-N210S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MUTYH-N210S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MUTYH",
+        "uniprot": "",
+        "clinvar_id": "372416",
+        "disease": "not provided",
+        "mutation_precursor": "N210S",
+        "mutation_mature": "N210S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.780409348397724,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 301.30700833624326,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.872714638710022,
+          11.267626762390137,
+          5.0570573806762695
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.690659857396725,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.751104471028001,
+        "cryptic": true,
+        "pocket_residues": {
+          "R179": "R",
+          "R182": "R",
+          "L183": "L",
+          "Q206": "Q",
+          "L209": "L",
+          "P210": "P",
+          "G211": "G",
+          "V212": "V",
+          "G213": "G"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UIF7|MUTYH variant N210S",
+        "fasta_sequence": "MTPLVSRLSRLWAIMRKPRAAVGSGHRKQAASQEGRQKHAKNNSQAKPSACDGMIAECPGAPAGLARQPEEVVLQASVSSYHLFRDVAEVTAFRGSLLSWYDQEKRDLPWRRRAEDEMDLDRRAYAVWVSEVMLQQTQVATVINYYTGWMQKWPTLQDLASASLEEVNQLWAGLGYYSRGRRLQEGARKVVEELGGHMPRTAETLQQLLPGVGRYTAGAIASIAFGQATGVVDGNVARVLCRVRAIGADPSSTLVSQQLWGLAQQLVDPARPGDFNQAAMELGATVCTPQRPLCSQCPVESLCRARQRVEQEQLLASGSLSGSPDVEECAPNTGQCHLCLPPSEPWDQTLGVVNFPRKASRKPPREESSATCVLEQPGALGAQILLVQRPNSGLLAGLWEFPSVTWEPSEQLQRKALLQELQRWAGPLPATHLRHLGEVVHTFSHIKLTYQVYGLALEGQTPVTTVPPGARWLTQEEFHTAAVSTAMKKVFRVYQGQQPGTCMGSKRSQVSSPCSRKKPRMGQQVLDNFFRSHISTDAHSLNSAAQ",
+        "full_sequence": "MTPLVSRLSRLWAIMRKPRAAVGSGHRKQAASQEGRQKHAKNNSQAKPSACDGMIAECPGAPAGLARQPEEVVLQASVSSYHLFRDVAEVTAFRGSLLSWYDQEKRDLPWRRRAEDEMDLDRRAYAVWVSEVMLQQTQVATVINYYTGWMQKWPTLQDLASASLEEVNQLWAGLGYYSRGRRLQEGARKVVEELGGHMPRTAETLQQLLPGVGRYTAGAIASIAFGQATGVVDGNVARVLCRVRAIGADPSSTLVSQQLWGLAQQLVDPARPGDFNQAAMELGATVCTPQRPLCSQCPVESLCRARQRVEQEQLLASGSLSGSPDVEECAPNTGQCHLCLPPSEPWDQTLGVVNFPRKASRKPPREESSATCVLEQPGALGAQILLVQRPNSGLLAGLWEFPSVTWEPSEQLQRKALLQELQRWAGPLPATHLRHLGEVVHTFSHIKLTYQVYGLALEGQTPVTTVPPGARWLTQEEFHTAAVSTAMKKVFRVYQGQQPGTCMGSKRSQVSSPCSRKKPRMGQQVLDNFFRSHISTDAHSLNSAAQ",
+        "n_residues": 546,
+        "mutation_pos_1indexed": 210,
+        "wt_aa": "N",
+        "mut_aa": "S",
+        "pocket_lining_residues": "R179-R182-L183-Q206-L209-P210-G211-V212-G213",
+        "pocket_lining_positions_precursor": [
+          179,
+          182,
+          183,
+          206,
+          209,
+          210,
+          211,
+          212,
+          213
+        ],
+        "pocket_lining_1letter": "RRLQLPGVG",
+        "sequence_slice_around_pocket": "RTAETLQQLLPGVGRYTAGA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MUTYH_N210S/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "R179",
+          "R182",
+          "L183",
+          "Q206",
+          "L209",
+          "P210",
+          "G211",
+          "V212",
+          "G213"
+        ],
+        "values": [
+          [
+            0.0,
+            5.208,
+            6.091,
+            14.993,
+            12.282,
+            9.776,
+            7.531,
+            9.772,
+            11.922
+          ],
+          [
+            5.208,
+            0.0,
+            3.832,
+            13.065,
+            8.729,
+            5.997,
+            5.983,
+            8.742,
+            11.862
+          ],
+          [
+            6.091,
+            3.832,
+            0.0,
+            12.875,
+            8.539,
+            7.439,
+            7.477,
+            8.623,
+            12.158
+          ],
+          [
+            14.993,
+            13.065,
+            12.875,
+            0.0,
+            5.959,
+            8.015,
+            8.177,
+            5.305,
+            5.58
+          ],
+          [
+            12.282,
+            8.729,
+            8.539,
+            5.959,
+            0.0,
+            3.873,
+            6.412,
+            5.625,
+            8.752
+          ],
+          [
+            9.776,
+            5.997,
+            7.439,
+            8.015,
+            3.873,
+            0.0,
+            3.834,
+            5.638,
+            8.594
+          ],
+          [
+            7.531,
+            5.983,
+            7.477,
+            8.177,
+            6.412,
+            3.834,
+            0.0,
+            3.861,
+            6.162
+          ],
+          [
+            9.772,
+            8.742,
+            8.623,
+            5.305,
+            5.625,
+            5.638,
+            3.861,
+            0.0,
+            3.829
+          ],
+          [
+            11.922,
+            11.862,
+            12.158,
+            5.58,
+            8.752,
+            8.594,
+            6.162,
+            3.829,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.663245612677325,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MUTYH-N210S Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6632,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MUTYH_N210S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MUTYH_N210S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MUTYH_N210S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MUTYH_N210S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MUTYH_N210S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MUTYH-N210S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MUTYH-N210S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:41:23.195875+00:00"
     }
   ]
 }
