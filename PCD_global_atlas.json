@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1512,
+  "total_entries": 1513,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46161,
-    "queue_remaining": 132436
+    "total_processed": 46162,
+    "queue_remaining": 132435
   },
   "entries": [
     {
@@ -334770,6 +334770,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:43:49.230980+00:00"
+    },
+    {
+      "entry_id": "PCD-COMP-D530E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COMP-D530E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COMP",
+        "uniprot": "",
+        "clinvar_id": "328615",
+        "disease": "Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome",
+        "mutation_precursor": "D530E",
+        "mutation_mature": "D530E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7270463879371301,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 596.5681500735158,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          14.586090087890625,
+          -3.239004611968994,
+          5.147161960601807
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.303971572602173,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7717021041941812,
+        "cryptic": true,
+        "pocket_residues": {
+          "L528": "L",
+          "T529": "T",
+          "D530": "D",
+          "N555": "N",
+          "Q556": "Q",
+          "G557": "G",
+          "R558": "R"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P49747|COMP variant D530E",
+        "fasta_sequence": "MVPDTACVLLLTLAALGASGQGQSPLGSDLGPQMLRELQETNAALQDVRELLRQQVREITFLKNTVMECDACGMQQSVRTGLPSVRPLLHCAPGFCFPGVACIQTESGARCGPCPAGFTGNGSHCTDVNECNAHPCFPRVRCINTSPGFRCEACPPGYSGPTHQGVGLAFAKANKQVCTDINECETGQHNCVPNSVCINTRGSFQCGPCQPGFVGDQASGCQRRAQRFCPDGSPSECHEHADCVLERDGSRSCVCAVGWAGNGILCGRDTDLDGFPDEKLRCPERQCRKDNCVTVPNSGQEDVDRDGIGDACDPDADGDGVPNEKDNCPLVRNPDQRNTDEDKWGDACDNCRSQKNDDQKDTDQDGRGDACDDDIDGDRIRNQADNCPRVPNSDQKDSDGDGIGDACDNCPQKSNPDQADVDHDFVGDACDSDQDQDGDGHQDSRDNCPTVPNSAQEDSDHDGQGDACDDDDDNDGVPDSRDNCRLVPNPGQEDADRDGVGDVCQDDFDADKVVDKIDVCPENAEVTLTDFRAFQTVVLDPEGDAQIDPNWVVLNQGREIVQTMNSDPGLAVGYTAFNGVDFEGTFHVNTVTDDDYAGFIFGYQDSSSFYVVMWKQMEQTYWQANPFRAVAEPGIQLKAVKSSTGPGEQLRNALWHTGDTESQVRLLWKDPRNVGWKDKKSYRWFLQHRPQVGYIRVRFYEGPELVADSNVVLDTTMRGGRLGVFCFSQENIIWANLRYRCNDTIPEDYETHQLRQA",
+        "full_sequence": "MVPDTACVLLLTLAALGASGQGQSPLGSDLGPQMLRELQETNAALQDVRELLRQQVREITFLKNTVMECDACGMQQSVRTGLPSVRPLLHCAPGFCFPGVACIQTESGARCGPCPAGFTGNGSHCTDVNECNAHPCFPRVRCINTSPGFRCEACPPGYSGPTHQGVGLAFAKANKQVCTDINECETGQHNCVPNSVCINTRGSFQCGPCQPGFVGDQASGCQRRAQRFCPDGSPSECHEHADCVLERDGSRSCVCAVGWAGNGILCGRDTDLDGFPDEKLRCPERQCRKDNCVTVPNSGQEDVDRDGIGDACDPDADGDGVPNEKDNCPLVRNPDQRNTDEDKWGDACDNCRSQKNDDQKDTDQDGRGDACDDDIDGDRIRNQADNCPRVPNSDQKDSDGDGIGDACDNCPQKSNPDQADVDHDFVGDACDSDQDQDGDGHQDSRDNCPTVPNSAQEDSDHDGQGDACDDDDDNDGVPDSRDNCRLVPNPGQEDADRDGVGDVCQDDFDADKVVDKIDVCPENAEVTLTDFRAFQTVVLDPEGDAQIDPNWVVLNQGREIVQTMNSDPGLAVGYTAFNGVDFEGTFHVNTVTDDDYAGFIFGYQDSSSFYVVMWKQMEQTYWQANPFRAVAEPGIQLKAVKSSTGPGEQLRNALWHTGDTESQVRLLWKDPRNVGWKDKKSYRWFLQHRPQVGYIRVRFYEGPELVADSNVVLDTTMRGGRLGVFCFSQENIIWANLRYRCNDTIPEDYETHQLRQA",
+        "n_residues": 757,
+        "mutation_pos_1indexed": 530,
+        "wt_aa": "D",
+        "mut_aa": "E",
+        "pocket_lining_residues": "L528-T529-D530-N555-Q556-G557-R558",
+        "pocket_lining_positions_precursor": [
+          528,
+          529,
+          530,
+          555,
+          556,
+          557,
+          558
+        ],
+        "pocket_lining_1letter": "LTDNQGR",
+        "sequence_slice_around_pocket": "CPENAEVTLTDFRAFQTVVL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COMP_D530E/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "L528",
+          "T529",
+          "D530",
+          "N555",
+          "Q556",
+          "G557",
+          "R558"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            6.22,
+            12.442,
+            10.083,
+            9.717,
+            9.761
+          ],
+          [
+            3.841,
+            0.0,
+            3.851,
+            10.408,
+            8.561,
+            6.986,
+            6.589
+          ],
+          [
+            6.22,
+            3.851,
+            0.0,
+            9.241,
+            6.562,
+            4.427,
+            6.223
+          ],
+          [
+            12.442,
+            10.408,
+            9.241,
+            0.0,
+            3.864,
+            5.594,
+            5.233
+          ],
+          [
+            10.083,
+            8.561,
+            6.562,
+            3.864,
+            0.0,
+            3.855,
+            5.746
+          ],
+          [
+            9.717,
+            6.986,
+            4.427,
+            5.594,
+            3.855,
+            0.0,
+            3.861
+          ],
+          [
+            9.761,
+            6.589,
+            6.223,
+            5.233,
+            5.746,
+            3.861,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.6844596416300592,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COMP-D530E Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.6845,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COMP_D530E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COMP_D530E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COMP_D530E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COMP_D530E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COMP_D530E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COMP-D530E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COMP-D530E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:44:20.054712+00:00"
     }
   ]
 }
