@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1981,
+  "total_entries": 1982,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46674,
-    "queue_remaining": 131923
+    "total_processed": 46675,
+    "queue_remaining": 131922
   },
   "entries": [
     {
@@ -450392,6 +450392,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:01:18.087434+00:00"
+    },
+    {
+      "entry_id": "PCD-RAF1-T145P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAF1-T145P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RAF1",
+        "uniprot": "",
+        "clinvar_id": "373032",
+        "disease": "not provided",
+        "mutation_precursor": "T145P",
+        "mutation_mature": "T145P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8454678425146356,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 574.0940489355189,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -6.886837005615234,
+          17.653518676757812,
+          -21.84800148010254
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.518058229382543,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8655683604677676,
+        "cryptic": true,
+        "pocket_residues": {
+          "T145": "T",
+          "F146": "F",
+          "L147": "L",
+          "K148": "K",
+          "L149": "L",
+          "A150": "A",
+          "L160": "L",
+          "L608": "L"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P04049|RAF1 variant T145P",
+        "fasta_sequence": "MEHIQGAWKTISNGFGFKDAVFDGSSCISPTIVQQFGYQRRASDDGKLTDPSKTSNTIRVFLPNKQRTVVNVRNGMSLHDCLMKALKVRGLQPECCAVFRLLHEHKGKKARLDWNTDAASLIGEELQVDFLDHVPLTTHNFARKTFLKLAFCDICQKFLLNGFRCQTCGYKFHEHCSTKVPTMCVDWSNIRQLLLFPNSTIGDSGVPALPSLTMRRMRESVSRMPVSSQHRYSTPHAFTFNTSSPSSEGSLSQRQRSTSTPNVHMVSTTLPVDSRMIEDAIRSHSESASPSALSSSPNNLSPTGWSQPKTPVPAQRERAPVSGTQEKNKIRPRGQRDSSYYWEIEASEVMLSTRIGSGSFGTVYKGKWHGDVAVKILKVVDPTPEQFQAFRNEVAVLRKTRHVNILLFMGYMTKDNLAIVTQWCEGSSLYKHLHVQETKFQMFQLIDIARQTAQGMDYLHAKNIIHRDMKSNNIFLHEGLTVKIGDFGLATVKSRWSGSQQVEQPTGSVLWMAPEVIRMQDNNPFSFQSDVYSYGIVLYELMTGELPYSHINNRDQIIFMVGRGYASPDLSKLYKNCPKAMKRLVADCVKKVKEERPLFPQILSSIELLQHSLPKINRSASEPSLHRAAHTEDINACTLTTSPRLPVF",
+        "full_sequence": "MEHIQGAWKTISNGFGFKDAVFDGSSCISPTIVQQFGYQRRASDDGKLTDPSKTSNTIRVFLPNKQRTVVNVRNGMSLHDCLMKALKVRGLQPECCAVFRLLHEHKGKKARLDWNTDAASLIGEELQVDFLDHVPLTTHNFARKTFLKLAFCDICQKFLLNGFRCQTCGYKFHEHCSTKVPTMCVDWSNIRQLLLFPNSTIGDSGVPALPSLTMRRMRESVSRMPVSSQHRYSTPHAFTFNTSSPSSEGSLSQRQRSTSTPNVHMVSTTLPVDSRMIEDAIRSHSESASPSALSSSPNNLSPTGWSQPKTPVPAQRERAPVSGTQEKNKIRPRGQRDSSYYWEIEASEVMLSTRIGSGSFGTVYKGKWHGDVAVKILKVVDPTPEQFQAFRNEVAVLRKTRHVNILLFMGYMTKDNLAIVTQWCEGSSLYKHLHVQETKFQMFQLIDIARQTAQGMDYLHAKNIIHRDMKSNNIFLHEGLTVKIGDFGLATVKSRWSGSQQVEQPTGSVLWMAPEVIRMQDNNPFSFQSDVYSYGIVLYELMTGELPYSHINNRDQIIFMVGRGYASPDLSKLYKNCPKAMKRLVADCVKKVKEERPLFPQILSSIELLQHSLPKINRSASEPSLHRAAHTEDINACTLTTSPRLPVF",
+        "n_residues": 648,
+        "mutation_pos_1indexed": 145,
+        "wt_aa": "T",
+        "mut_aa": "P",
+        "pocket_lining_residues": "T145-F146-L147-K148-L149-A150-L160-L608",
+        "pocket_lining_positions_precursor": [
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          160,
+          608
+        ],
+        "pocket_lining_1letter": "TFLKLALL",
+        "sequence_slice_around_pocket": "PLTTHNFARKTFLKLAFCDI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RAF1_T145P/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "T145",
+          "F146",
+          "L147",
+          "K148",
+          "L149",
+          "A150",
+          "L160",
+          "L608"
+        ],
+        "values": [
+          [
+            0.0,
+            3.836,
+            6.297,
+            9.009,
+            10.623,
+            9.845,
+            5.741,
+            13.695
+          ],
+          [
+            3.836,
+            0.0,
+            3.85,
+            5.364,
+            6.968,
+            6.602,
+            5.075,
+            10.335
+          ],
+          [
+            6.297,
+            3.85,
+            0.0,
+            3.877,
+            6.886,
+            8.47,
+            7.093,
+            10.928
+          ],
+          [
+            9.009,
+            5.364,
+            3.877,
+            0.0,
+            3.834,
+            6.242,
+            8.294,
+            7.932
+          ],
+          [
+            10.623,
+            6.968,
+            6.886,
+            3.834,
+            0.0,
+            3.829,
+            7.831,
+            8.31
+          ],
+          [
+            9.845,
+            6.602,
+            8.47,
+            6.242,
+            3.829,
+            0.0,
+            7.125,
+            8.029
+          ],
+          [
+            5.741,
+            5.075,
+            7.093,
+            8.294,
+            7.831,
+            7.125,
+            0.0,
+            13.869
+          ],
+          [
+            13.695,
+            10.335,
+            10.928,
+            7.932,
+            8.31,
+            8.029,
+            13.869,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.6446812162633723,
+        "mw": 392.23,
+        "logp": 2.177,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.5433,
+        "sa_score": 3.32,
+        "n_heavy_atoms": 29,
+        "tpsa": 99.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RAF1-T145P Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6447,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RAF1_T145P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RAF1_T145P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RAF1_T145P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RAF1_T145P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RAF1_T145P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAF1-T145P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAF1-T145P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:01:46.232789+00:00"
     }
   ]
 }
