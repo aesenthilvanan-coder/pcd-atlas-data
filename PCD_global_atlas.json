@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2138,
+  "total_entries": 2139,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46854,
-    "queue_remaining": 131743
+    "total_processed": 46855,
+    "queue_remaining": 131742
   },
   "entries": [
     {
@@ -489944,6 +489944,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T08:10:32.820343+00:00"
+    },
+    {
+      "entry_id": "PCD-ACAD8-A320T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACAD8-A320T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ACAD8",
+        "uniprot": "",
+        "clinvar_id": "372297",
+        "disease": "not provided",
+        "mutation_precursor": "A320T",
+        "mutation_mature": "A320T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7871106233753224,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 460.27902201088426,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          16.982547760009766,
+          2.497065782546997,
+          -16.756444931030273
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.8001928598941355,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7420861747871096,
+        "cryptic": true,
+        "pocket_residues": {
+          "V292": "V",
+          "I293": "I",
+          "T295": "T",
+          "R296": "R",
+          "Q316": "Q",
+          "T318": "T",
+          "L319": "L",
+          "A320": "A",
+          "M322": "M",
+          "A323": "A"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UKU7|ACAD8 variant A320T",
+        "fasta_sequence": "MLWSGCRRFGARLGCLPGGLRVLVQTGHRSLTSCIDPSMGLNEEQKEFQKVAFDFAAREMAPNMAEWDQKELFPVDVMRKAAQLGFGGVYIQTDVGGSGLSRLDTSVIFEALATGCTSTTAYISIHNMCAWMIDSFGNEEQRHKFCPPLCTMEKFASYCLTEPGSGSDAASLLTSAKKQGDHYILNGSKAFISGAGESDIYVVMCRTGGPGPKGISCIVVEKGTPGLSFGKKEKKVGWNSQPTRAVIFEDCAVPVANRIGSEGQGFLIAVRGLNGGRINIASCSLGAAHASVILTRDHLNVRKQFGEPLASNQYLQFTLADMATRLVAARLMVRNAAVALQEERKDAVALCSMAKLFATDECFAICNQALQMHGGYGYLKDYAVQQYVRDSRVHQILEGSNEVMRILISRSLLQE",
+        "full_sequence": "MLWSGCRRFGARLGCLPGGLRVLVQTGHRSLTSCIDPSMGLNEEQKEFQKVAFDFAAREMAPNMAEWDQKELFPVDVMRKAAQLGFGGVYIQTDVGGSGLSRLDTSVIFEALATGCTSTTAYISIHNMCAWMIDSFGNEEQRHKFCPPLCTMEKFASYCLTEPGSGSDAASLLTSAKKQGDHYILNGSKAFISGAGESDIYVVMCRTGGPGPKGISCIVVEKGTPGLSFGKKEKKVGWNSQPTRAVIFEDCAVPVANRIGSEGQGFLIAVRGLNGGRINIASCSLGAAHASVILTRDHLNVRKQFGEPLASNQYLQFTLADMATRLVAARLMVRNAAVALQEERKDAVALCSMAKLFATDECFAICNQALQMHGGYGYLKDYAVQQYVRDSRVHQILEGSNEVMRILISRSLLQE",
+        "n_residues": 415,
+        "mutation_pos_1indexed": 320,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "V292-I293-T295-R296-Q316-T318-L319-A320-M322-A323",
+        "pocket_lining_positions_precursor": [
+          292,
+          293,
+          295,
+          296,
+          316,
+          318,
+          319,
+          320,
+          322,
+          323
+        ],
+        "pocket_lining_1letter": "VITRQTLAMA",
+        "sequence_slice_around_pocket": "ASNQYLQFTLADMATRLVAA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ACAD8_A320T/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "V292",
+          "I293",
+          "T295",
+          "R296",
+          "Q316",
+          "T318",
+          "L319",
+          "A320",
+          "M322",
+          "A323"
+        ],
+        "values": [
+          [
+            0.0,
+            3.861,
+            5.068,
+            6.041,
+            11.941,
+            10.422,
+            7.475,
+            9.839,
+            6.906,
+            6.931
+          ],
+          [
+            3.861,
+            0.0,
+            5.452,
+            5.155,
+            13.52,
+            13.362,
+            9.99,
+            12.256,
+            10.461,
+            9.554
+          ],
+          [
+            5.068,
+            5.452,
+            0.0,
+            3.857,
+            10.579,
+            10.264,
+            7.831,
+            11.338,
+            9.8,
+            10.632
+          ],
+          [
+            6.041,
+            5.155,
+            3.857,
+            0.0,
+            9.291,
+            10.68,
+            7.401,
+            10.181,
+            10.316,
+            9.916
+          ],
+          [
+            11.941,
+            13.52,
+            10.579,
+            9.291,
+            0.0,
+            5.54,
+            5.14,
+            6.219,
+            9.889,
+            10.602
+          ],
+          [
+            10.422,
+            13.362,
+            10.264,
+            10.68,
+            5.54,
+            0.0,
+            3.852,
+            5.463,
+            6.21,
+            8.747
+          ],
+          [
+            7.475,
+            9.99,
+            7.831,
+            7.401,
+            5.14,
+            3.852,
+            0.0,
+            3.861,
+            4.998,
+            6.17
+          ],
+          [
+            9.839,
+            12.256,
+            11.338,
+            10.181,
+            6.219,
+            5.463,
+            3.861,
+            0.0,
+            5.48,
+            5.246
+          ],
+          [
+            6.906,
+            10.461,
+            9.8,
+            10.316,
+            9.889,
+            6.21,
+            4.998,
+            5.48,
+            0.0,
+            3.849
+          ],
+          [
+            6.931,
+            9.554,
+            10.632,
+            9.916,
+            10.602,
+            8.747,
+            6.17,
+            5.246,
+            3.849,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6347247090798678,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ACAD8-A320T Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6347,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ACAD8_A320T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ACAD8_A320T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ACAD8_A320T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACAD8_A320T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACAD8_A320T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACAD8-A320T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACAD8-A320T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T08:10:58.944928+00:00"
     }
   ]
 }
