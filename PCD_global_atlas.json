@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1718,
+  "total_entries": 1719,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46389,
-    "queue_remaining": 132208
+    "total_processed": 46390,
+    "queue_remaining": 132207
   },
   "entries": [
     {
@@ -381948,6 +381948,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:14:19.164485+00:00"
+    },
+    {
+      "entry_id": "PCD-FOXL2-L106F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXL2-L106F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FOXL2",
+        "uniprot": "",
+        "clinvar_id": "369905",
+        "disease": "Blepharophimosis, ptosis, and epicanthus inversus syndrome",
+        "mutation_precursor": "L106F",
+        "mutation_mature": "L106F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9098949436476431,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 603.8426451933813,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.661269664764404,
+          -0.6614605188369751,
+          -10.600627899169922
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.389270287770402,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.825370789417918,
+        "cryptic": true,
+        "pocket_residues": {
+          "R103": "R",
+          "H104": "H",
+          "N105": "N",
+          "L106": "L",
+          "S107": "S",
+          "L108": "L",
+          "N109": "N"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P58012|FOXL2 variant L106F",
+        "fasta_sequence": "MMASYPEPEDAAGALLAPETGRTVKEPEGPPPSPGKGGGGGGGTAPEKPDPAQKPPYSYVALIAMAIRESAEKRLTLSGIYQYIIAKFPFYEKNKKGWQNSIRHNLSLNECFIKVPREGGGERKGNYWTLDPACEDMFEKGNYRRRRRMKRPFRPPPAHFQPGKGLFGAGGAAGGCGVAGAGADGYGYLAPPKYLQSGFLNNSWPLPQPPSPMPYASCQMAAAAAAAAAAAAAAGPGSPGAAAVVKGLAGPAASYGPYTRVQSMALPPGVVNSYNGLGGPPAAPPPPPHPHPHPHAHHLHAAAAPPPAPPHHGAAAPPPGQLSPASPATAAPPAPAPTSAPGLQFACARQPELAMMHCSYWDHDSKTGALHSRLDL",
+        "full_sequence": "MMASYPEPEDAAGALLAPETGRTVKEPEGPPPSPGKGGGGGGGTAPEKPDPAQKPPYSYVALIAMAIRESAEKRLTLSGIYQYIIAKFPFYEKNKKGWQNSIRHNLSLNECFIKVPREGGGERKGNYWTLDPACEDMFEKGNYRRRRRMKRPFRPPPAHFQPGKGLFGAGGAAGGCGVAGAGADGYGYLAPPKYLQSGFLNNSWPLPQPPSPMPYASCQMAAAAAAAAAAAAAAGPGSPGAAAVVKGLAGPAASYGPYTRVQSMALPPGVVNSYNGLGGPPAAPPPPPHPHPHPHAHHLHAAAAPPPAPPHHGAAAPPPGQLSPASPATAAPPAPAPTSAPGLQFACARQPELAMMHCSYWDHDSKTGALHSRLDL",
+        "n_residues": 376,
+        "mutation_pos_1indexed": 106,
+        "wt_aa": "L",
+        "mut_aa": "F",
+        "pocket_lining_residues": "R103-H104-N105-L106-S107-L108-N109",
+        "pocket_lining_positions_precursor": [
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109
+        ],
+        "pocket_lining_1letter": "RHNLSLN",
+        "sequence_slice_around_pocket": "KGWQNSIRHNLSLNECFIKV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_L106F/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "R103",
+          "H104",
+          "N105",
+          "L106",
+          "S107",
+          "L108",
+          "N109"
+        ],
+        "values": [
+          [
+            0.0,
+            3.822,
+            5.519,
+            5.377,
+            6.694,
+            8.753,
+            10.679
+          ],
+          [
+            3.822,
+            0.0,
+            3.863,
+            5.585,
+            5.409,
+            5.962,
+            8.694
+          ],
+          [
+            5.519,
+            3.863,
+            0.0,
+            3.838,
+            5.459,
+            5.013,
+            6.002
+          ],
+          [
+            5.377,
+            5.585,
+            3.838,
+            0.0,
+            3.847,
+            5.789,
+            6.138
+          ],
+          [
+            6.694,
+            5.409,
+            5.459,
+            3.847,
+            0.0,
+            3.853,
+            5.982
+          ],
+          [
+            8.753,
+            5.962,
+            5.013,
+            5.789,
+            3.853,
+            0.0,
+            3.834
+          ],
+          [
+            10.679,
+            8.694,
+            6.002,
+            6.138,
+            5.982,
+            3.834,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(O)C(=O)c1ccccc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.5388943586455268,
+        "mw": 331.23,
+        "logp": 1.991,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8077,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 24,
+        "tpsa": 69.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FOXL2-L106F Candidate #1",
+        "iupac_name": "NCC(O)C(=O)c1ccccc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5389,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_L106F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_L106F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_L106F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_L106F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_L106F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXL2-L106F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXL2-L106F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:14:46.031823+00:00"
     }
   ]
 }
