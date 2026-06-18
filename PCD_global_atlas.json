@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1958,
+  "total_entries": 1959,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46647,
-    "queue_remaining": 131950
+    "total_processed": 46648,
+    "queue_remaining": 131949
   },
   "entries": [
     {
@@ -444824,6 +444824,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:41:23.195875+00:00"
+    },
+    {
+      "entry_id": "PCD-POMGNT1-S233F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-POMGNT1-S233F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "POMGNT1",
+        "uniprot": "",
+        "clinvar_id": "373719",
+        "disease": "not specified",
+        "mutation_precursor": "S233F",
+        "mutation_mature": "S233F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7256290593679553,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 480.95806458640607,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -9.641355514526367,
+          13.352897644042969,
+          -44.20309066772461
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.9316639101608644,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6691406787470282,
+        "cryptic": true,
+        "pocket_residues": {
+          "S228": "S",
+          "P229": "P",
+          "A230": "A",
+          "S232": "S",
+          "S233": "S",
+          "W234": "W",
+          "G235": "G",
+          "D236": "D"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8WZA1|POMGNT1 variant S233F",
+        "fasta_sequence": "MDDWKPSPLIKPFGARKKRSWYLTWKYKLTNQRALRRFCQTGAVLFLLVTVIVNIKLILDTRRAISEANEDPEPEQDYDEALGRLEPPRRRGSGPRRVLDVEVYSSRSKVYVAVDGTTVLEDEAREQGRGIHVIVLNQATGHVMAKRVFDTYSPHEDEAMVLFLNMVAPGRVLICTVKDEGSFHLKDTAKALLRSLGSQAGPALGWRDTWAFVGRKGGPVFGEKHSKSPALSSWGDPVLLKTDVPLSSAEEAECHWADTELNRRRRRFCSKVEGYGSVCSCKDPTPIEFSPDPLPDNKVLNVPVAVIAGNRPNYLYRMLRSLLSAQGVSPQMITVFIDGYYEEPMDVVALFGLRGIQHTPISIKNARVSQHYKASLTATFNLFPEAKFAVVLEEDLDIAVDFFSFLSQSIHLLEEDDSLYCISAWNDQGYEHTAEDPALLYRVETMPGLGWVLRRSLYKEELEPKWPTPEKLWDWDMWMRMPEQRRGRECIIPDVSRSYHFGIVGLNMNGYFHEAYFKKHKFNTVPGVQLRNVDSLKKEAYEVEVHRLLSEAEVLDHSKNPCEDSFLPDTEGHTYVAFIRMEKDDDFTTWTQLAKCLHIWDLDVRGNHRGLWRLFRKKNHFLMVGVPASPYSVKKPPSVTPIFLEPPPKEEGAPGAPEQT",
+        "full_sequence": "MDDWKPSPLIKPFGARKKRSWYLTWKYKLTNQRALRRFCQTGAVLFLLVTVIVNIKLILDTRRAISEANEDPEPEQDYDEALGRLEPPRRRGSGPRRVLDVEVYSSRSKVYVAVDGTTVLEDEAREQGRGIHVIVLNQATGHVMAKRVFDTYSPHEDEAMVLFLNMVAPGRVLICTVKDEGSFHLKDTAKALLRSLGSQAGPALGWRDTWAFVGRKGGPVFGEKHSKSPALSSWGDPVLLKTDVPLSSAEEAECHWADTELNRRRRRFCSKVEGYGSVCSCKDPTPIEFSPDPLPDNKVLNVPVAVIAGNRPNYLYRMLRSLLSAQGVSPQMITVFIDGYYEEPMDVVALFGLRGIQHTPISIKNARVSQHYKASLTATFNLFPEAKFAVVLEEDLDIAVDFFSFLSQSIHLLEEDDSLYCISAWNDQGYEHTAEDPALLYRVETMPGLGWVLRRSLYKEELEPKWPTPEKLWDWDMWMRMPEQRRGRECIIPDVSRSYHFGIVGLNMNGYFHEAYFKKHKFNTVPGVQLRNVDSLKKEAYEVEVHRLLSEAEVLDHSKNPCEDSFLPDTEGHTYVAFIRMEKDDDFTTWTQLAKCLHIWDLDVRGNHRGLWRLFRKKNHFLMVGVPASPYSVKKPPSVTPIFLEPPPKEEGAPGAPEQT",
+        "n_residues": 660,
+        "mutation_pos_1indexed": 233,
+        "wt_aa": "S",
+        "mut_aa": "F",
+        "pocket_lining_residues": "S228-P229-A230-S232-S233-W234-G235-D236",
+        "pocket_lining_positions_precursor": [
+          228,
+          229,
+          230,
+          232,
+          233,
+          234,
+          235,
+          236
+        ],
+        "pocket_lining_1letter": "SPASSWGD",
+        "sequence_slice_around_pocket": "EKHSKSPALSSWGDPVLLKT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/POMGNT1_S233F/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "S228",
+          "P229",
+          "A230",
+          "S232",
+          "S233",
+          "W234",
+          "G235",
+          "D236"
+        ],
+        "values": [
+          [
+            0.0,
+            3.878,
+            5.554,
+            8.523,
+            5.951,
+            4.624,
+            3.866,
+            7.272
+          ],
+          [
+            3.878,
+            0.0,
+            3.866,
+            8.472,
+            6.555,
+            7.218,
+            6.815,
+            9.075
+          ],
+          [
+            5.554,
+            3.866,
+            0.0,
+            5.395,
+            5.328,
+            7.499,
+            8.847,
+            11.637
+          ],
+          [
+            8.523,
+            8.472,
+            5.395,
+            0.0,
+            3.871,
+            7.21,
+            10.435,
+            12.992
+          ],
+          [
+            5.951,
+            6.555,
+            5.328,
+            3.871,
+            0.0,
+            3.829,
+            6.925,
+            9.153
+          ],
+          [
+            4.624,
+            7.218,
+            7.499,
+            7.21,
+            3.829,
+            0.0,
+            3.817,
+            6.473
+          ],
+          [
+            3.866,
+            6.815,
+            8.847,
+            10.435,
+            6.925,
+            3.817,
+            0.0,
+            3.823
+          ],
+          [
+            7.272,
+            9.075,
+            11.637,
+            12.992,
+            9.153,
+            6.473,
+            3.823,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.6948784914472365,
+        "mw": 317.21,
+        "logp": 2.135,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9218,
+        "sa_score": 3.14,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "POMGNT1-S233F Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.6949,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/POMGNT1_S233F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/POMGNT1_S233F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/POMGNT1_S233F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/POMGNT1_S233F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/POMGNT1_S233F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-POMGNT1-S233F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-POMGNT1-S233F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:41:51.154760+00:00"
     }
   ]
 }
