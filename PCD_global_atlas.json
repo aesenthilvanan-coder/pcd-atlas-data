@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2233,
+  "total_entries": 2234,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46967,
-    "queue_remaining": 131630
+    "total_processed": 46968,
+    "queue_remaining": 131629
   },
   "entries": [
     {
@@ -513904,6 +513904,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T09:54:32.488876+00:00"
+    },
+    {
+      "entry_id": "PCD-MC4R-C271R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MC4R-C271R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MC4R",
+        "uniprot": "",
+        "clinvar_id": "372803",
+        "disease": "not provided",
+        "mutation_precursor": "C271R",
+        "mutation_mature": "C271R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8000677428081931,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 375.1220545514069,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.8575722575187683,
+          11.484816551208496,
+          -21.493431091308594
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.3851585052857387,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8200921047830922,
+        "cryptic": true,
+        "pocket_residues": {
+          "I266": "I",
+          "F267": "F",
+          "Y268": "Y",
+          "I269": "I",
+          "S270": "S",
+          "C271": "C",
+          "P272": "P",
+          "Q273": "Q",
+          "N274": "N",
+          "C277": "C",
+          "V278": "V"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P32245|MC4R variant C271R",
+        "fasta_sequence": "MVNSTHRGMHTSLHLWNRSSYRLHSNASESLGKGYSDGGCYEQLFVSPEVFVTLGVISLLENILVIVAIAKNKNLHSPMYFFICSLAVADMLVSVSNGSETIVITLLNSTDTDAQSFTVNIDNVIDSVICSSLLASICSLLSIAVDRYFTIFYALQYHNIMTVKRVGIIISCIWAACTVSGILFIIYSDSSAVIICLITMFFTMLALMASLYVHMFLMARLHIKRIAVLPGTGAIRQGANMKGAITLTILIGVFVVCWAPFFLHLIFYISCPQNPYCVCFMSHFNLYLILIMCNSIIDPLIYALRSQELRKTFKEIICCYPLGGLCDLSSRY",
+        "full_sequence": "MVNSTHRGMHTSLHLWNRSSYRLHSNASESLGKGYSDGGCYEQLFVSPEVFVTLGVISLLENILVIVAIAKNKNLHSPMYFFICSLAVADMLVSVSNGSETIVITLLNSTDTDAQSFTVNIDNVIDSVICSSLLASICSLLSIAVDRYFTIFYALQYHNIMTVKRVGIIISCIWAACTVSGILFIIYSDSSAVIICLITMFFTMLALMASLYVHMFLMARLHIKRIAVLPGTGAIRQGANMKGAITLTILIGVFVVCWAPFFLHLIFYISCPQNPYCVCFMSHFNLYLILIMCNSIIDPLIYALRSQELRKTFKEIICCYPLGGLCDLSSRY",
+        "n_residues": 332,
+        "mutation_pos_1indexed": 271,
+        "wt_aa": "C",
+        "mut_aa": "R",
+        "pocket_lining_residues": "I266-F267-Y268-I269-S270-C271-P272-Q273-N274-C277-V278",
+        "pocket_lining_positions_precursor": [
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          277,
+          278
+        ],
+        "pocket_lining_1letter": "IFYISCPQNCV",
+        "sequence_slice_around_pocket": "FFLHLIFYISCPQNPYCVCF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MC4R_C271R/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "I266",
+          "F267",
+          "Y268",
+          "I269",
+          "S270",
+          "C271",
+          "P272",
+          "Q273",
+          "N274",
+          "C277",
+          "V278"
+        ],
+        "values": [
+          [
+            0.0,
+            3.848,
+            5.491,
+            5.491,
+            5.956,
+            8.285,
+            9.645,
+            13.08,
+            12.681,
+            9.493,
+            11.788
+          ],
+          [
+            3.848,
+            0.0,
+            3.835,
+            5.398,
+            4.943,
+            5.339,
+            6.551,
+            9.643,
+            8.993,
+            5.765,
+            8.15
+          ],
+          [
+            5.491,
+            3.835,
+            0.0,
+            3.846,
+            5.905,
+            6.194,
+            5.21,
+            9.015,
+            9.889,
+            7.545,
+            8.196
+          ],
+          [
+            5.491,
+            5.398,
+            3.846,
+            0.0,
+            3.828,
+            6.095,
+            6.423,
+            10.042,
+            11.127,
+            10.027,
+            11.315
+          ],
+          [
+            5.956,
+            4.943,
+            5.905,
+            3.828,
+            0.0,
+            3.848,
+            6.47,
+            9.182,
+            9.21,
+            8.784,
+            11.087
+          ],
+          [
+            8.285,
+            5.339,
+            6.194,
+            6.095,
+            3.848,
+            0.0,
+            3.881,
+            5.636,
+            5.404,
+            6.165,
+            8.148
+          ],
+          [
+            9.645,
+            6.551,
+            5.21,
+            6.423,
+            6.47,
+            3.881,
+            0.0,
+            3.881,
+            5.838,
+            6.539,
+            6.474
+          ],
+          [
+            13.08,
+            9.643,
+            9.015,
+            10.042,
+            9.182,
+            5.636,
+            3.881,
+            0.0,
+            3.841,
+            7.394,
+            6.789
+          ],
+          [
+            12.681,
+            8.993,
+            9.889,
+            11.127,
+            9.21,
+            5.404,
+            5.838,
+            3.841,
+            0.0,
+            5.3,
+            6.181
+          ],
+          [
+            9.493,
+            5.765,
+            7.545,
+            10.027,
+            8.784,
+            6.165,
+            6.539,
+            7.394,
+            5.3,
+            0.0,
+            3.855
+          ],
+          [
+            11.788,
+            8.15,
+            8.196,
+            11.315,
+            11.087,
+            8.148,
+            6.474,
+            6.789,
+            6.181,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.663881015135693,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MC4R-C271R Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6639,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MC4R_C271R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MC4R_C271R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MC4R_C271R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MC4R_C271R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MC4R_C271R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MC4R-C271R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MC4R-C271R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T09:55:05.666512+00:00"
     }
   ]
 }
