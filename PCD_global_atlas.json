@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2043,
+  "total_entries": 2044,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46749,
-    "queue_remaining": 131848
+    "total_processed": 46750,
+    "queue_remaining": 131847
   },
   "entries": [
     {
@@ -466121,6 +466121,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:55:25.834897+00:00"
+    },
+    {
+      "entry_id": "PCD-NKX2-5-A119E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NKX2-5-A119E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NKX2-5",
+        "uniprot": "",
+        "clinvar_id": "372743",
+        "disease": "not specified",
+        "mutation_precursor": "A119E",
+        "mutation_mature": "A119E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7816925923400966,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 470.9196727681112,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          16.7276668548584,
+          10.853595733642578,
+          21.49040985107422
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.09800925259602,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7885219564784887,
+        "cryptic": true,
+        "pocket_residues": {
+          "E112": "E",
+          "L113": "L",
+          "C114": "C",
+          "A115": "A",
+          "L116": "L",
+          "Q117": "Q",
+          "K118": "K",
+          "A119": "A",
+          "V120": "V",
+          "E121": "E"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P52952|NKX2-5 variant A119E",
+        "fasta_sequence": "MFPSPALTPTPFSVKDILNLEQQQRSLAAAGELSARLEATLAPSSCMLAAFKPEAYAGPEAAAPGLPELRAELGRAPSPAKCASAFPAAPAFYPRAYSDPDPAKDPRAEKKELCALQKAVELEKTEADNAERPRARRRRKPRVLFSQAQVYELERRFKQQRYLSAPERDQLASVLKLTSTQVKIWFQNRRYKCKRQRQDQTLELVGLPPPPPPPARRIAVPVLVRDGKPCLGDSAPYAPAYGVGLNPYGYNAYPAYPGYGGAACSPGYSCTAAYPAGPSPAQPATAAANNNFVNFGVGDLNAVQSPGIPQSNSGVSTLHGIRAW",
+        "full_sequence": "MFPSPALTPTPFSVKDILNLEQQQRSLAAAGELSARLEATLAPSSCMLAAFKPEAYAGPEAAAPGLPELRAELGRAPSPAKCASAFPAAPAFYPRAYSDPDPAKDPRAEKKELCALQKAVELEKTEADNAERPRARRRRKPRVLFSQAQVYELERRFKQQRYLSAPERDQLASVLKLTSTQVKIWFQNRRYKCKRQRQDQTLELVGLPPPPPPPARRIAVPVLVRDGKPCLGDSAPYAPAYGVGLNPYGYNAYPAYPGYGGAACSPGYSCTAAYPAGPSPAQPATAAANNNFVNFGVGDLNAVQSPGIPQSNSGVSTLHGIRAW",
+        "n_residues": 324,
+        "mutation_pos_1indexed": 119,
+        "wt_aa": "A",
+        "mut_aa": "E",
+        "pocket_lining_residues": "E112-L113-C114-A115-L116-Q117-K118-A119-V120-E121",
+        "pocket_lining_positions_precursor": [
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121
+        ],
+        "pocket_lining_1letter": "ELCALQKAVE",
+        "sequence_slice_around_pocket": "EKKELCALQKAVELEKTEAD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NKX2-5_A119E/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "E112",
+          "L113",
+          "C114",
+          "A115",
+          "L116",
+          "Q117",
+          "K118",
+          "A119",
+          "V120",
+          "E121"
+        ],
+        "values": [
+          [
+            0.0,
+            3.865,
+            5.441,
+            5.108,
+            6.176,
+            8.623,
+            9.907,
+            10.515,
+            12.511,
+            14.577
+          ],
+          [
+            3.865,
+            0.0,
+            3.865,
+            5.564,
+            5.337,
+            6.253,
+            8.775,
+            10.03,
+            10.922,
+            12.838
+          ],
+          [
+            5.441,
+            3.865,
+            0.0,
+            3.865,
+            5.706,
+            5.364,
+            6.479,
+            8.949,
+            10.406,
+            11.218
+          ],
+          [
+            5.108,
+            5.564,
+            3.865,
+            0.0,
+            3.869,
+            5.504,
+            5.12,
+            6.307,
+            8.932,
+            10.192
+          ],
+          [
+            6.176,
+            5.337,
+            5.706,
+            3.869,
+            0.0,
+            3.844,
+            5.342,
+            4.952,
+            6.355,
+            8.862
+          ],
+          [
+            8.623,
+            6.253,
+            5.364,
+            5.504,
+            3.844,
+            0.0,
+            3.874,
+            5.537,
+            5.361,
+            6.642
+          ],
+          [
+            9.907,
+            8.775,
+            6.479,
+            5.12,
+            5.342,
+            3.874,
+            0.0,
+            3.853,
+            5.543,
+            5.309
+          ],
+          [
+            10.515,
+            10.03,
+            8.949,
+            6.307,
+            4.952,
+            5.537,
+            3.853,
+            0.0,
+            3.877,
+            5.54
+          ],
+          [
+            12.511,
+            10.922,
+            10.406,
+            8.932,
+            6.355,
+            5.361,
+            5.543,
+            3.877,
+            0.0,
+            3.873
+          ],
+          [
+            14.577,
+            12.838,
+            11.218,
+            10.192,
+            8.862,
+            6.642,
+            5.309,
+            5.54,
+            3.873,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1CCCNc1ncnc2[nH]cnc12",
+        "composite_score": 0.7942533402518426,
+        "mw": 366.19,
+        "logp": 1.76,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 6,
+        "qed": 0.5635,
+        "sa_score": 3.62,
+        "n_heavy_atoms": 27,
+        "tpsa": 125.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NKX2-5-A119E Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1CCCNc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.7943,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NKX2-5_A119E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NKX2-5_A119E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NKX2-5_A119E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NKX2-5_A119E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NKX2-5_A119E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NKX2-5-A119E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NKX2-5-A119E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:55:51.193238+00:00"
     }
   ]
 }
