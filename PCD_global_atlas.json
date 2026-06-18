@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2248,
+  "total_entries": 2249,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46983,
-    "queue_remaining": 131614
+    "total_processed": 46984,
+    "queue_remaining": 131613
   },
   "entries": [
     {
@@ -518144,6 +518144,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T10:40:57.459394+00:00"
+    },
+    {
+      "entry_id": "PCD-TRPV3-G568D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRPV3-G568D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TRPV3",
+        "uniprot": "",
+        "clinvar_id": "372610",
+        "disease": "not provided",
+        "mutation_precursor": "G568D",
+        "mutation_mature": "G568D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7910136192711876,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 503.434855540631,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          15.424242973327637,
+          -4.506763458251953,
+          -10.081854820251465
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.939806668410524,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7202690084793139,
+        "cryptic": true,
+        "pocket_residues": {
+          "T566": "T",
+          "R567": "R",
+          "G568": "G",
+          "F569": "F",
+          "Q570": "Q",
+          "S571": "S",
+          "M572": "M",
+          "G573": "G",
+          "W692": "W",
+          "R696": "R"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NET8|TRPV3 variant G568D",
+        "fasta_sequence": "MKAHPKEMVPLMGKRVAAPSGNPAILPEKRPAEITPTKKSAHFFLEIEGFEPNPTVAKTSPPVFSKPMDSNIRQCISGNCDDMDSPQSPQDDVTETPSNPNSPSAQLAKEEQRRKKRRLKKRIFAAVSEGCVEELVELLVELQELCRRRHDEDVPDFLMHKLTASDTGKTCLMKALLNINPNTKEIVRILLAFAEENDILGRFINAEYTEEAYEGQTALNIAIERRQGDIAALLIAAGADVNAHAKGAFFNPKYQHEGFYFGETPLALAACTNQPEIVQLLMEHEQTDITSRDSRGNNILHALVTVAEDFKTQNDFVKRMYDMILLRSGNWELETTRNNDGLTPLQLAAKMGKAEILKYILSREIKEKRLRSLSRKFTDWAYGPVSSSLYDLTNVDTTTDNSVLEITVYNTNIDNRHEMLTLEPLHTLLHMKWKKFAKHMFFLSFCFYFFYNITLTLVSYYRPREEEAIPHPLALTHKMGWLQLLGRMFVLIWAMCISVKEGIAIFLLRPSDLQSILSDAWFHFVFFIQAVLVILSVFLYLFAYKEYLACLVLAMALGWANMLYYTRGFQSMGMYSVMIQKVILHDVLKFLFVYIVFLLGFGVALASLIEKCPKDNKDCSSYGSFSDAVLELFKLTIGLGDLNIQQNSKYPILFLFLLITYVILTFVLLLNMLIALMGETVENVSKESERIWRLQRARTILEFEKMLPEWLRSRFRMGELCKVAEDDFRLCLRINEVKWTEWKTHVSFLNEDPGPVRRTDFNKIQDSSRNNSKTTLNAFEEVEEFPETSV",
+        "full_sequence": "MKAHPKEMVPLMGKRVAAPSGNPAILPEKRPAEITPTKKSAHFFLEIEGFEPNPTVAKTSPPVFSKPMDSNIRQCISGNCDDMDSPQSPQDDVTETPSNPNSPSAQLAKEEQRRKKRRLKKRIFAAVSEGCVEELVELLVELQELCRRRHDEDVPDFLMHKLTASDTGKTCLMKALLNINPNTKEIVRILLAFAEENDILGRFINAEYTEEAYEGQTALNIAIERRQGDIAALLIAAGADVNAHAKGAFFNPKYQHEGFYFGETPLALAACTNQPEIVQLLMEHEQTDITSRDSRGNNILHALVTVAEDFKTQNDFVKRMYDMILLRSGNWELETTRNNDGLTPLQLAAKMGKAEILKYILSREIKEKRLRSLSRKFTDWAYGPVSSSLYDLTNVDTTTDNSVLEITVYNTNIDNRHEMLTLEPLHTLLHMKWKKFAKHMFFLSFCFYFFYNITLTLVSYYRPREEEAIPHPLALTHKMGWLQLLGRMFVLIWAMCISVKEGIAIFLLRPSDLQSILSDAWFHFVFFIQAVLVILSVFLYLFAYKEYLACLVLAMALGWANMLYYTRGFQSMGMYSVMIQKVILHDVLKFLFVYIVFLLGFGVALASLIEKCPKDNKDCSSYGSFSDAVLELFKLTIGLGDLNIQQNSKYPILFLFLLITYVILTFVLLLNMLIALMGETVENVSKESERIWRLQRARTILEFEKMLPEWLRSRFRMGELCKVAEDDFRLCLRINEVKWTEWKTHVSFLNEDPGPVRRTDFNKIQDSSRNNSKTTLNAFEEVEEFPETSV",
+        "n_residues": 790,
+        "mutation_pos_1indexed": 568,
+        "wt_aa": "G",
+        "mut_aa": "D",
+        "pocket_lining_residues": "T566-R567-G568-F569-Q570-S571-M572-G573-W692-R696",
+        "pocket_lining_positions_precursor": [
+          566,
+          567,
+          568,
+          569,
+          570,
+          571,
+          572,
+          573,
+          692,
+          696
+        ],
+        "pocket_lining_1letter": "TRGFQSMGWR",
+        "sequence_slice_around_pocket": "GWANMLYYTRGFQSMGMYSV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV3_G568D/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "T566",
+          "R567",
+          "G568",
+          "F569",
+          "Q570",
+          "S571",
+          "M572",
+          "G573",
+          "W692",
+          "R696"
+        ],
+        "values": [
+          [
+            0.0,
+            3.881,
+            5.478,
+            5.878,
+            8.292,
+            8.461,
+            5.172,
+            5.148,
+            10.094,
+            10.418
+          ],
+          [
+            3.881,
+            0.0,
+            3.867,
+            5.563,
+            7.185,
+            8.857,
+            6.693,
+            4.191,
+            6.901,
+            6.607
+          ],
+          [
+            5.478,
+            3.867,
+            0.0,
+            3.866,
+            6.822,
+            9.265,
+            8.008,
+            6.683,
+            8.904,
+            6.873
+          ],
+          [
+            5.878,
+            5.563,
+            3.866,
+            0.0,
+            3.847,
+            5.804,
+            5.575,
+            5.619,
+            8.999,
+            9.249
+          ],
+          [
+            8.292,
+            7.185,
+            6.822,
+            3.847,
+            0.0,
+            3.854,
+            5.744,
+            5.176,
+            7.201,
+            9.554
+          ],
+          [
+            8.461,
+            8.857,
+            9.265,
+            5.804,
+            3.854,
+            0.0,
+            3.844,
+            5.583,
+            9.446,
+            12.816
+          ],
+          [
+            5.172,
+            6.693,
+            8.008,
+            5.575,
+            5.744,
+            3.844,
+            0.0,
+            3.853,
+            9.503,
+            12.259
+          ],
+          [
+            5.148,
+            4.191,
+            6.683,
+            5.619,
+            5.176,
+            5.583,
+            3.853,
+            0.0,
+            5.883,
+            8.942
+          ],
+          [
+            10.094,
+            6.901,
+            8.904,
+            8.999,
+            7.201,
+            9.446,
+            9.503,
+            5.883,
+            0.0,
+            6.095
+          ],
+          [
+            10.418,
+            6.607,
+            6.873,
+            9.249,
+            9.554,
+            12.816,
+            12.259,
+            8.942,
+            6.095,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1CCCCC1CCNCc1ncnc2[nH]cnc12",
+        "composite_score": 0.6148007654701299,
+        "mw": 381.23,
+        "logp": 2.056,
+        "hbd": 4,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.4629,
+        "sa_score": 3.47,
+        "n_heavy_atoms": 28,
+        "tpsa": 116.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TRPV3-G568D Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1CCCCC1CCNCc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.6148,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV3_G568D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV3_G568D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV3_G568D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV3_G568D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRPV3_G568D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRPV3-G568D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRPV3-G568D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T10:41:59.586889+00:00"
     }
   ]
 }
