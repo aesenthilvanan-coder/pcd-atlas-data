@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1526,
+  "total_entries": 1527,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46177,
-    "queue_remaining": 132420
+    "total_processed": 46178,
+    "queue_remaining": 132419
   },
   "entries": [
     {
@@ -337330,6 +337330,229 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:54:45.037965+00:00"
+    },
+    {
+      "entry_id": "PCD-ABCB7-G498R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABCB7-G498R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ABCB7",
+        "uniprot": "",
+        "clinvar_id": "368656",
+        "disease": "X-linked sideroblastic anemia with ataxia",
+        "mutation_precursor": "G498R",
+        "mutation_mature": "G498R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9012751950430957,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 319.84684716496497,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -26.551982879638672,
+          -10.551977157592773,
+          33.36830520629883
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.0481208106410964,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8704083225991451,
+        "cryptic": true,
+        "pocket_residues": {
+          "P467": "P",
+          "Q468": "Q",
+          "A497": "A",
+          "G498": "G",
+          "K499": "K",
+          "K656": "K",
+          "H657": "H",
+          "R658": "R",
+          "T659": "T"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O75027|ABCB7 variant G498R",
+        "fasta_sequence": "MALLAMHSWRWAAAAAAFEKRRHSAILIRPLVSVSGSGPQWRPHQLGALGTARAYQIPESLKSITWQRLGKGNSGQFLDAAKALQVWPLIEKRTCWHGHAGGGLHTDPKEGLKDVDTRKIIKAMLSYVWPKDRPDLRARVAISLGFLGGAKAMNIVVPFMFKYAVDSLNQMSGNMLNLSDAPNTVATMATAVLIGYGVSRAGAAFFNEVRNAVFGKVAQNSIRRIAKNVFLHLHNLDLGFHLSRQTGALSKAIDRGTRGISFVLSALVFNLLPIMFEVMLVSGVLYYKCGAQFALVTLGTLGTYTAFTVAVTRWRTRFRIEMNKADNDAGNAAIDSLLNYETVKYFNNERYEAQRYDGFLKTYETASLKSTSTLAMLNFGQSAIFSVGLTAIMVLASQGIVAGTLTVGDLVMVNGLLFQLSLPLNFLGTVYRETRQALIDMNTLFTLLKVDTQIKDKVMASPLQITPQTATVAFDNVHFEYIEGQKVLSGISFEVPAGKKVAIVGGSGSGKSTIVRLLFRFYEPQKGSIYLAGQNIQDVSLESLRRAVGVVPQDAVLFHNTIYYNLLYGNISASPEEVYAVAKLAGLHDAILRMPHGYDTQVGERGLKLSGGEKQRVAIARAILKDPPVILYDEATSSLDSITEETILGAMKDVVKHRTSIFIAHRLSTVVDADEIIVLDQGKVAERGTHHGLLANPHSIYSEMWHTQSSRVQNHDNPKWEAKKENISKEEERKKLQEEIVNSVKGCGNCSC",
+        "full_sequence": "MALLAMHSWRWAAAAAAFEKRRHSAILIRPLVSVSGSGPQWRPHQLGALGTARAYQIPESLKSITWQRLGKGNSGQFLDAAKALQVWPLIEKRTCWHGHAGGGLHTDPKEGLKDVDTRKIIKAMLSYVWPKDRPDLRARVAISLGFLGGAKAMNIVVPFMFKYAVDSLNQMSGNMLNLSDAPNTVATMATAVLIGYGVSRAGAAFFNEVRNAVFGKVAQNSIRRIAKNVFLHLHNLDLGFHLSRQTGALSKAIDRGTRGISFVLSALVFNLLPIMFEVMLVSGVLYYKCGAQFALVTLGTLGTYTAFTVAVTRWRTRFRIEMNKADNDAGNAAIDSLLNYETVKYFNNERYEAQRYDGFLKTYETASLKSTSTLAMLNFGQSAIFSVGLTAIMVLASQGIVAGTLTVGDLVMVNGLLFQLSLPLNFLGTVYRETRQALIDMNTLFTLLKVDTQIKDKVMASPLQITPQTATVAFDNVHFEYIEGQKVLSGISFEVPAGKKVAIVGGSGSGKSTIVRLLFRFYEPQKGSIYLAGQNIQDVSLESLRRAVGVVPQDAVLFHNTIYYNLLYGNISASPEEVYAVAKLAGLHDAILRMPHGYDTQVGERGLKLSGGEKQRVAIARAILKDPPVILYDEATSSLDSITEETILGAMKDVVKHRTSIFIAHRLSTVVDADEIIVLDQGKVAERGTHHGLLANPHSIYSEMWHTQSSRVQNHDNPKWEAKKENISKEEERKKLQEEIVNSVKGCGNCSC",
+        "n_residues": 752,
+        "mutation_pos_1indexed": 498,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "P467-Q468-A497-G498-K499-K656-H657-R658-T659",
+        "pocket_lining_positions_precursor": [
+          467,
+          468,
+          497,
+          498,
+          499,
+          656,
+          657,
+          658,
+          659
+        ],
+        "pocket_lining_1letter": "PQAGKKHRT",
+        "sequence_slice_around_pocket": "LSGISFEVPAGKKVAIVGGS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ABCB7_G498R/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "P467",
+          "Q468",
+          "A497",
+          "G498",
+          "K499",
+          "K656",
+          "H657",
+          "R658",
+          "T659"
+        ],
+        "values": [
+          [
+            0.0,
+            3.871,
+            6.808,
+            6.734,
+            10.418,
+            10.876,
+            7.189,
+            6.103,
+            7.236
+          ],
+          [
+            3.871,
+            0.0,
+            5.678,
+            6.658,
+            10.154,
+            12.141,
+            8.742,
+            8.429,
+            8.693
+          ],
+          [
+            6.808,
+            5.678,
+            0.0,
+            3.855,
+            5.585,
+            11.155,
+            9.047,
+            7.316,
+            5.199
+          ],
+          [
+            6.734,
+            6.658,
+            3.855,
+            0.0,
+            3.87,
+            7.315,
+            5.615,
+            4.643,
+            4.066
+          ],
+          [
+            10.418,
+            10.154,
+            5.585,
+            3.87,
+            0.0,
+            8.262,
+            8.295,
+            7.068,
+            5.112
+          ],
+          [
+            10.876,
+            12.141,
+            11.155,
+            7.315,
+            8.262,
+            0.0,
+            3.868,
+            6.027,
+            8.535
+          ],
+          [
+            7.189,
+            8.742,
+            9.047,
+            5.615,
+            8.295,
+            3.868,
+            0.0,
+            3.847,
+            7.116
+          ],
+          [
+            6.103,
+            8.429,
+            7.316,
+            4.643,
+            7.068,
+            6.027,
+            3.847,
+            0.0,
+            3.794
+          ],
+          [
+            7.236,
+            8.693,
+            5.199,
+            4.066,
+            5.112,
+            8.535,
+            7.116,
+            3.794,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CCCCC1",
+        "composite_score": 0.5772580617683886,
+        "mw": 219.17,
+        "logp": 1.963,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8415,
+        "sa_score": 2.19,
+        "n_heavy_atoms": 16,
+        "tpsa": 42.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ABCB7-G498R Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.5773,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ABCB7_G498R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ABCB7_G498R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ABCB7_G498R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ABCB7_G498R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ABCB7_G498R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABCB7-G498R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABCB7-G498R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:55:14.689073+00:00"
     }
   ]
 }
