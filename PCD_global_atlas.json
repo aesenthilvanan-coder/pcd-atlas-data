@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1779,
+  "total_entries": 1780,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46454,
-    "queue_remaining": 132143
+    "total_processed": 46455,
+    "queue_remaining": 132142
   },
   "entries": [
     {
@@ -397253,6 +397253,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:48:16.337600+00:00"
+    },
+    {
+      "entry_id": "PCD-GNE-V421A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GNE-V421A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GNE",
+        "uniprot": "",
+        "clinvar_id": "370270",
+        "disease": "GNE myopathy",
+        "mutation_precursor": "V421A",
+        "mutation_mature": "V421A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8139553015562809,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 306.45536650794537,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.5371289253234863,
+          -1.465624451637268,
+          39.35643005371094
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.350132388581729,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.623615997387982,
+        "cryptic": true,
+        "pocket_residues": {
+          "V421": "V",
+          "K432": "K",
+          "K433": "K",
+          "Y434": "Y",
+          "T435": "T",
+          "M452": "M",
+          "E455": "E",
+          "A456": "A"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y223|GNE variant V421A",
+        "fasta_sequence": "MEKNGNNRKLRVCVATCNRADYSKLAPIMFGIKTEPEFFELDVVVLGSHLIDDYGNTYRMIEQDDFDINTRLHTIVRGEDEAAMVESVGLALVKLPDVLNRLKPDIMIVHGDRFDALALATSAALMNIRILHIEGGEVSGTIDDSIRHAITKLAHYHVCCTRSAEQHLISMCEDHDRILLAGCPSYDKLLSAKNKDYMSIIRMWLGDDVKSKDYIVALQHPVTTDIKHSIKMFELTLDALISFNKRTLVLFPNIDAGSKEMVRVMRKKGIEHHPNFRAVKHVPFDQFIQLVAHAGCMIGNSSCGVREVGAFGTPVINLGTRQIGRETGENVLHVRDADTQDKILQALHLQFGKQYPCSKIYGDGNAVPRILKFLKSIDLQEPLQKKFCFPPVKENISQDIDHILETLSALAVDLGGTNLRVAIVSMKGEIVKKYTQFNPKTYEERINLILQMCVEAAAEAVKLNCRILGVGISTGGRVNPREGIVLHSTKLIQEWNSVDLRTPLSDTLHLPVWVDNDGNCAALAERKFGQGKGLENFVTLITGTGIGGGIIHQHELIHGSSFCAAELGHLVVSLDGPDCSCGSHGCIEAYASGMALQREAKKLHDEDLLLVEGMSVPKDEAVGALHLIQAAKLGNAKAQSILRTAGTALGLGVVNILHTMNPSLVILSGVLASHYIHIVKDVIRQQALSSVQDVDVVVSDLVDPALLGAASMVLDYTTRRIY",
+        "full_sequence": "MEKNGNNRKLRVCVATCNRADYSKLAPIMFGIKTEPEFFELDVVVLGSHLIDDYGNTYRMIEQDDFDINTRLHTIVRGEDEAAMVESVGLALVKLPDVLNRLKPDIMIVHGDRFDALALATSAALMNIRILHIEGGEVSGTIDDSIRHAITKLAHYHVCCTRSAEQHLISMCEDHDRILLAGCPSYDKLLSAKNKDYMSIIRMWLGDDVKSKDYIVALQHPVTTDIKHSIKMFELTLDALISFNKRTLVLFPNIDAGSKEMVRVMRKKGIEHHPNFRAVKHVPFDQFIQLVAHAGCMIGNSSCGVREVGAFGTPVINLGTRQIGRETGENVLHVRDADTQDKILQALHLQFGKQYPCSKIYGDGNAVPRILKFLKSIDLQEPLQKKFCFPPVKENISQDIDHILETLSALAVDLGGTNLRVAIVSMKGEIVKKYTQFNPKTYEERINLILQMCVEAAAEAVKLNCRILGVGISTGGRVNPREGIVLHSTKLIQEWNSVDLRTPLSDTLHLPVWVDNDGNCAALAERKFGQGKGLENFVTLITGTGIGGGIIHQHELIHGSSFCAAELGHLVVSLDGPDCSCGSHGCIEAYASGMALQREAKKLHDEDLLLVEGMSVPKDEAVGALHLIQAAKLGNAKAQSILRTAGTALGLGVVNILHTMNPSLVILSGVLASHYIHIVKDVIRQQALSSVQDVDVVVSDLVDPALLGAASMVLDYTTRRIY",
+        "n_residues": 722,
+        "mutation_pos_1indexed": 421,
+        "wt_aa": "V",
+        "mut_aa": "A",
+        "pocket_lining_residues": "V421-K432-K433-Y434-T435-M452-E455-A456",
+        "pocket_lining_positions_precursor": [
+          421,
+          432,
+          433,
+          434,
+          435,
+          452,
+          455,
+          456
+        ],
+        "pocket_lining_1letter": "VKKYTMEA",
+        "sequence_slice_around_pocket": "AVDLGGTNLRVAIVSMKGEI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GNE_V421A/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "V421",
+          "K432",
+          "K433",
+          "Y434",
+          "T435",
+          "M452",
+          "E455",
+          "A456"
+        ],
+        "values": [
+          [
+            0.0,
+            8.457,
+            5.805,
+            5.155,
+            6.656,
+            6.516,
+            9.596,
+            7.369
+          ],
+          [
+            8.457,
+            0.0,
+            3.836,
+            6.99,
+            10.337,
+            11.902,
+            11.337,
+            8.217
+          ],
+          [
+            5.805,
+            3.836,
+            0.0,
+            3.814,
+            6.663,
+            10.07,
+            11.146,
+            8.482
+          ],
+          [
+            5.155,
+            6.99,
+            3.814,
+            0.0,
+            3.823,
+            7.497,
+            9.549,
+            8.092
+          ],
+          [
+            6.656,
+            10.337,
+            6.663,
+            3.823,
+            0.0,
+            9.013,
+            12.352,
+            11.434
+          ],
+          [
+            6.516,
+            11.902,
+            10.07,
+            7.497,
+            9.013,
+            0.0,
+            5.139,
+            6.041
+          ],
+          [
+            9.596,
+            11.337,
+            11.146,
+            9.549,
+            12.352,
+            5.139,
+            0.0,
+            3.839
+          ],
+          [
+            7.369,
+            8.217,
+            8.482,
+            8.092,
+            11.434,
+            6.041,
+            3.839,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8685496143575685,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GNE-V421A Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8685,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GNE_V421A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GNE_V421A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GNE_V421A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GNE_V421A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GNE_V421A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GNE-V421A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GNE-V421A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:48:47.342222+00:00"
     }
   ]
 }
