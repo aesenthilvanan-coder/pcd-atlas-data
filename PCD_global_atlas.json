@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2294,
+  "total_entries": 2295,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47029,
-    "queue_remaining": 131568
+    "total_processed": 47030,
+    "queue_remaining": 131567
   },
   "entries": [
     {
@@ -529603,6 +529603,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:17:44.621786+00:00"
+    },
+    {
+      "entry_id": "PCD-RS1-C223Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RS1-C223Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RS1",
+        "uniprot": "",
+        "clinvar_id": "372497",
+        "disease": "not provided",
+        "mutation_precursor": "C223Y",
+        "mutation_mature": "C223Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.914002415299817,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 528.0493007977301,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -30.467845916748047,
+          7.246152877807617,
+          2.40923810005188
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.819892426188941,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6209154172487498,
+        "cryptic": true,
+        "pocket_residues": {
+          "C42": "C",
+          "G44": "G",
+          "V220": "V",
+          "S221": "S",
+          "K222": "K",
+          "C223": "C",
+          "A224": "A"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15537|RS1 variant C223Y",
+        "fasta_sequence": "MSRKIEGFLLLLLFGYEATLGLSSTEDEGEDPWYQKACKCDCQGGPNALWSAGATSLDCIPECPYHKPLGFESGEVTPDQITCSNPEQYVGWYSSWTANKARLNSQGFGCAWLSKFQDSSQWLQIDLKEIKVISGILTQGRCDIDEWMTKYSVQYRTDERLNWIYYKDQTGNNRVFYGNSDRTSTVQNLLRPPIISRFIRLIPLGWHVRIAIRMELLECVSKCA",
+        "full_sequence": "MSRKIEGFLLLLLFGYEATLGLSSTEDEGEDPWYQKACKCDCQGGPNALWSAGATSLDCIPECPYHKPLGFESGEVTPDQITCSNPEQYVGWYSSWTANKARLNSQGFGCAWLSKFQDSSQWLQIDLKEIKVISGILTQGRCDIDEWMTKYSVQYRTDERLNWIYYKDQTGNNRVFYGNSDRTSTVQNLLRPPIISRFIRLIPLGWHVRIAIRMELLECVSKCA",
+        "n_residues": 224,
+        "mutation_pos_1indexed": 223,
+        "wt_aa": "C",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "C42-G44-V220-S221-K222-C223-A224",
+        "pocket_lining_positions_precursor": [
+          42,
+          44,
+          220,
+          221,
+          222,
+          223,
+          224
+        ],
+        "pocket_lining_1letter": "CGVSKCA",
+        "sequence_slice_around_pocket": "RMELLECVSKCA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RS1_C223Y/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "C42",
+          "G44",
+          "V220",
+          "S221",
+          "K222",
+          "C223",
+          "A224"
+        ],
+        "values": [
+          [
+            0.0,
+            5.73,
+            15.186,
+            11.443,
+            10.044,
+            7.707,
+            10.532
+          ],
+          [
+            5.73,
+            0.0,
+            18.617,
+            15.046,
+            13.764,
+            10.335,
+            11.732
+          ],
+          [
+            15.186,
+            18.617,
+            0.0,
+            3.803,
+            6.208,
+            8.72,
+            9.89
+          ],
+          [
+            11.443,
+            15.046,
+            3.803,
+            0.0,
+            3.829,
+            5.631,
+            7.998
+          ],
+          [
+            10.044,
+            13.764,
+            6.208,
+            3.829,
+            0.0,
+            3.806,
+            5.818
+          ],
+          [
+            7.707,
+            10.335,
+            8.72,
+            5.631,
+            3.806,
+            0.0,
+            3.831
+          ],
+          [
+            10.532,
+            11.732,
+            9.89,
+            7.998,
+            5.818,
+            3.831,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCc1ccc(OC)c(N2CCCCC2)c1N1CC(=O)CCC1O",
+        "composite_score": 0.565173411713624,
+        "mw": 361.24,
+        "logp": 1.935,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.8073,
+        "sa_score": 3.35,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RS1-C223Y Candidate #1",
+        "iupac_name": "CNCCc1ccc(OC)c(N2CCCCC2)c1N1CC(=O)CCC1O",
+        "pocket_affinity_score": 0.5652,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RS1_C223Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RS1_C223Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RS1_C223Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RS1_C223Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RS1_C223Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RS1-C223Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RS1-C223Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:18:09.152250+00:00"
     }
   ]
 }
