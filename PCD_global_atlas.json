@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1631,
+  "total_entries": 1632,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46290,
-    "queue_remaining": 132307
+    "total_processed": 46291,
+    "queue_remaining": 132306
   },
   "entries": [
     {
@@ -360168,6 +360168,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:07:25.396789+00:00"
+    },
+    {
+      "entry_id": "PCD-TNFRSF13C-P21R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFRSF13C-P21R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TNFRSF13C",
+        "uniprot": "",
+        "clinvar_id": "341883",
+        "disease": "Immunodeficiency, common variable, 4",
+        "mutation_precursor": "P21R",
+        "mutation_mature": "P21R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8042458784699908,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 599.4207178201414,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          3.3167529106140137,
+          21.553293228149414,
+          -22.36699867248535
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.186127171069071,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6188218356010654,
+        "cryptic": true,
+        "pocket_residues": {
+          "P21": "P",
+          "A22": "A",
+          "E23": "E",
+          "C24": "C",
+          "A34": "A",
+          "C35": "C",
+          "G36": "G"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96RJ3|TNFRSF13C variant P21R",
+        "fasta_sequence": "MRRGPRSLRGRDAPAPTPCVPAECFDLLVRHCVACGLLRTPRPKPAGASSPAPRTALQPQESVGAGAGEAALPLPGLLFGAPALLGLALVLALVLVGLVSWRRRQRRLRGASSAEAPDGDKDAPEPLDKVIILSPGISDATAPAWPPPGEDPGTTPPGHSVPVPATELGSTELVTTKTAGPEQQ",
+        "full_sequence": "MRRGPRSLRGRDAPAPTPCVPAECFDLLVRHCVACGLLRTPRPKPAGASSPAPRTALQPQESVGAGAGEAALPLPGLLFGAPALLGLALVLALVLVGLVSWRRRQRRLRGASSAEAPDGDKDAPEPLDKVIILSPGISDATAPAWPPPGEDPGTTPPGHSVPVPATELGSTELVTTKTAGPEQQ",
+        "n_residues": 184,
+        "mutation_pos_1indexed": 21,
+        "wt_aa": "P",
+        "mut_aa": "R",
+        "pocket_lining_residues": "P21-A22-E23-C24-A34-C35-G36",
+        "pocket_lining_positions_precursor": [
+          21,
+          22,
+          23,
+          24,
+          34,
+          35,
+          36
+        ],
+        "pocket_lining_1letter": "PAECACG",
+        "sequence_slice_around_pocket": "RDAPAPTPCVPAECFDLLVR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13C_P21R/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "P21",
+          "A22",
+          "E23",
+          "C24",
+          "A34",
+          "C35",
+          "G36"
+        ],
+        "values": [
+          [
+            0.0,
+            3.874,
+            5.61,
+            7.773,
+            9.489,
+            9.043,
+            12.068
+          ],
+          [
+            3.874,
+            0.0,
+            3.868,
+            7.039,
+            6.28,
+            6.44,
+            8.836
+          ],
+          [
+            5.61,
+            3.868,
+            0.0,
+            3.808,
+            4.437,
+            5.045,
+            8.369
+          ],
+          [
+            7.773,
+            7.039,
+            3.808,
+            0.0,
+            6.03,
+            4.827,
+            8.604
+          ],
+          [
+            9.489,
+            6.28,
+            4.437,
+            6.03,
+            0.0,
+            3.859,
+            5.355
+          ],
+          [
+            9.043,
+            6.44,
+            5.045,
+            4.827,
+            3.859,
+            0.0,
+            3.854
+          ],
+          [
+            12.068,
+            8.836,
+            8.369,
+            8.604,
+            5.355,
+            3.854,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CC(=O)CCC1CNC1CCCC1N1CCCCC1",
+        "composite_score": 0.7069317089401347,
+        "mw": 385.28,
+        "logp": 2.075,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.7809,
+        "sa_score": 3.85,
+        "n_heavy_atoms": 28,
+        "tpsa": 74.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TNFRSF13C-P21R Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CC(=O)CCC1CNC1CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7069,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13C_P21R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13C_P21R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13C_P21R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13C_P21R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13C_P21R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFRSF13C-P21R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFRSF13C-P21R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:07:58.166090+00:00"
     }
   ]
 }
