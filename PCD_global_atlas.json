@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1893,
+  "total_entries": 1894,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46577,
-    "queue_remaining": 132020
+    "total_processed": 46578,
+    "queue_remaining": 132019
   },
   "entries": [
     {
@@ -429865,6 +429865,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:50:27.410367+00:00"
+    },
+    {
+      "entry_id": "PCD-NDUFAF5-G250V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFAF5-G250V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NDUFAF5",
+        "uniprot": "",
+        "clinvar_id": "372253",
+        "disease": "Mitochondrial complex I deficiency, nuclear type 16",
+        "mutation_precursor": "G250V",
+        "mutation_mature": "G250V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8044399637742642,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 427.8222987859635,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          20.321529388427734,
+          17.18098258972168,
+          -5.427315711975098
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.3521068503069,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8641165132746561,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y248": "Y",
+          "P249": "P",
+          "G250": "G",
+          "M251": "M",
+          "Y286": "Y",
+          "R287": "R",
+          "R291": "R",
+          "G295": "G",
+          "S296": "S",
+          "V297": "V"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q5TEU4|NDUFAF5 variant G250V",
+        "fasta_sequence": "MLRPAGLWRLCRRPWAARVPAENLGRREVTSGVSPRGSTSPRTLNIFDRDLKRKQKNWAARQPEPTKFDYLKEEVGSRIADRVYDIPRNFPLALDLGCGRGYIAQYLNKETIGKFFQADIAENALKNSSETEIPTVSVLADEEFLPFKENTFDLVVSSLSLHWVNDLPRALEQIHYILKPDGVFIGAMFGGDTLYELRCSLQLAETEREGGFSPHISPFTAVNDLGHLLGRAGFNTLTVDTDEIQVNYPGMFELMEDLQGMGESNCAWNRKALLHRDTMLAAAAVYREMYRNEDGSVPATYQIYYMIGWKYHESQARPAERGSATVSFGELGKINNLMPPGKKSQ",
+        "full_sequence": "MLRPAGLWRLCRRPWAARVPAENLGRREVTSGVSPRGSTSPRTLNIFDRDLKRKQKNWAARQPEPTKFDYLKEEVGSRIADRVYDIPRNFPLALDLGCGRGYIAQYLNKETIGKFFQADIAENALKNSSETEIPTVSVLADEEFLPFKENTFDLVVSSLSLHWVNDLPRALEQIHYILKPDGVFIGAMFGGDTLYELRCSLQLAETEREGGFSPHISPFTAVNDLGHLLGRAGFNTLTVDTDEIQVNYPGMFELMEDLQGMGESNCAWNRKALLHRDTMLAAAAVYREMYRNEDGSVPATYQIYYMIGWKYHESQARPAERGSATVSFGELGKINNLMPPGKKSQ",
+        "n_residues": 345,
+        "mutation_pos_1indexed": 250,
+        "wt_aa": "G",
+        "mut_aa": "V",
+        "pocket_lining_residues": "Y248-P249-G250-M251-Y286-R287-R291-G295-S296-V297",
+        "pocket_lining_positions_precursor": [
+          248,
+          249,
+          250,
+          251,
+          286,
+          287,
+          291,
+          295,
+          296,
+          297
+        ],
+        "pocket_lining_1letter": "YPGMYRRGSV",
+        "sequence_slice_around_pocket": "DTDEIQVNYPGMFELMEDLQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF5_G250V/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "Y248",
+          "P249",
+          "G250",
+          "M251",
+          "Y286",
+          "R287",
+          "R291",
+          "G295",
+          "S296",
+          "V297"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            5.3,
+            7.279,
+            11.309,
+            10.612,
+            9.788,
+            9.091,
+            5.373,
+            5.305
+          ],
+          [
+            3.859,
+            0.0,
+            3.831,
+            7.351,
+            11.312,
+            9.612,
+            9.553,
+            7.261,
+            4.706,
+            6.254
+          ],
+          [
+            5.3,
+            3.831,
+            0.0,
+            3.81,
+            8.253,
+            7.318,
+            8.988,
+            8.673,
+            6.349,
+            5.73
+          ],
+          [
+            7.279,
+            7.351,
+            3.81,
+            0.0,
+            7.126,
+            8.029,
+            10.628,
+            11.912,
+            9.392,
+            7.267
+          ],
+          [
+            11.309,
+            11.312,
+            8.253,
+            7.126,
+            0.0,
+            3.82,
+            7.248,
+            11.34,
+            10.241,
+            7.276
+          ],
+          [
+            10.612,
+            9.612,
+            7.318,
+            8.029,
+            3.82,
+            0.0,
+            4.928,
+            8.065,
+            7.983,
+            6.313
+          ],
+          [
+            9.788,
+            9.553,
+            8.988,
+            10.628,
+            7.248,
+            4.928,
+            0.0,
+            5.645,
+            5.726,
+            4.774
+          ],
+          [
+            9.091,
+            7.261,
+            8.673,
+            11.912,
+            11.34,
+            8.065,
+            5.645,
+            0.0,
+            3.855,
+            6.761
+          ],
+          [
+            5.373,
+            4.706,
+            6.349,
+            9.392,
+            10.241,
+            7.983,
+            5.726,
+            3.855,
+            0.0,
+            3.84
+          ],
+          [
+            5.305,
+            6.254,
+            5.73,
+            7.267,
+            7.276,
+            6.313,
+            4.774,
+            6.761,
+            3.84,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1OCNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6464736115279961,
+        "mw": 300.1,
+        "logp": 2.249,
+        "hbd": 3,
+        "hba": 4,
+        "rotatable_bonds": 5,
+        "qed": 0.63,
+        "sa_score": 2.37,
+        "n_heavy_atoms": 22,
+        "tpsa": 93.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NDUFAF5-G250V Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1OCNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6465,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF5_G250V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF5_G250V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF5_G250V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF5_G250V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF5_G250V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFAF5-G250V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFAF5-G250V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:50:55.721195+00:00"
     }
   ]
 }
