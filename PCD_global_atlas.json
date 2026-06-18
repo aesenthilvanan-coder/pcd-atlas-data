@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2371,
+  "total_entries": 2372,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47113,
-    "queue_remaining": 131484
+    "total_processed": 47114,
+    "queue_remaining": 131483
   },
   "entries": [
     {
@@ -552700,6 +552700,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T12:22:35.178555+00:00"
+    },
+    {
+      "entry_id": "PCD-ENTPD1-V9M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ENTPD1-V9M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ENTPD1",
+        "uniprot": "",
+        "clinvar_id": "374088",
+        "disease": "Global developmental delay;Microcephaly;Polymicrogyria",
+        "mutation_precursor": "V9M",
+        "mutation_mature": "V9M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8370821859920672,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 535.9897129759495,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -78.18008422851562,
+          9.536459922790527,
+          47.83173751831055
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.811362470419404,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8975205788810644,
+        "cryptic": true,
+        "pocket_residues": {
+          "T4": "T",
+          "K5": "K",
+          "E6": "E",
+          "S7": "S",
+          "N8": "N",
+          "V9": "V",
+          "T11": "T",
+          "F12": "F"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P49961|ENTPD1 variant V9M",
+        "fasta_sequence": "MEDTKESNVKTFCSKNILAILGFSSIIAVIALLAVGLTQNKALPENVKYGIVLDAGSSHTSLYIYKWPAEKENDTGVVHQVEECRVKGPGISKFVQKVNEIGIYLTDCMERAREVIPRSQHQETPVYLGATAGMRLLRMESEELADRVLDVVERSLSNYPFDFQGARIITGQEEGAYGWITINYLLGKFSQKTRWFSIVPYETNNQETFGALDLGGASTQVTFVPQNQTIESPDNALQFRLYGKDYNVYTHSFLCYGKDQALWQKLAKDIQVASNEILRDPCFHPGYKKVVNVSDLYKTPCTKRFEMTLPFQQFEIQGIGNYQQCHQSILELFNTSYCPYSQCAFNGIFLPPLQGDFGAFSAFYFVMKFLNLTSEKVSQEKVTEMMKKFCAQPWEEIKTSYAGVKEKYLSEYCFSGTYILSLLLQGYHFTADSWEHIHFIGKIQGSDAGWTLGYMLNLTNMIPAEQPLSTPLSHSTYVFLMVLFSLVLFTVAIIGLLIFHKPSYFWKDMV",
+        "full_sequence": "MEDTKESNVKTFCSKNILAILGFSSIIAVIALLAVGLTQNKALPENVKYGIVLDAGSSHTSLYIYKWPAEKENDTGVVHQVEECRVKGPGISKFVQKVNEIGIYLTDCMERAREVIPRSQHQETPVYLGATAGMRLLRMESEELADRVLDVVERSLSNYPFDFQGARIITGQEEGAYGWITINYLLGKFSQKTRWFSIVPYETNNQETFGALDLGGASTQVTFVPQNQTIESPDNALQFRLYGKDYNVYTHSFLCYGKDQALWQKLAKDIQVASNEILRDPCFHPGYKKVVNVSDLYKTPCTKRFEMTLPFQQFEIQGIGNYQQCHQSILELFNTSYCPYSQCAFNGIFLPPLQGDFGAFSAFYFVMKFLNLTSEKVSQEKVTEMMKKFCAQPWEEIKTSYAGVKEKYLSEYCFSGTYILSLLLQGYHFTADSWEHIHFIGKIQGSDAGWTLGYMLNLTNMIPAEQPLSTPLSHSTYVFLMVLFSLVLFTVAIIGLLIFHKPSYFWKDMV",
+        "n_residues": 510,
+        "mutation_pos_1indexed": 9,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "T4-K5-E6-S7-N8-V9-T11-F12",
+        "pocket_lining_positions_precursor": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12
+        ],
+        "pocket_lining_1letter": "TKESNVTF",
+        "sequence_slice_around_pocket": "MEDTKESNVKTFCSKNIL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ENTPD1_V9M/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "T4",
+          "K5",
+          "E6",
+          "S7",
+          "N8",
+          "V9",
+          "T11",
+          "F12"
+        ],
+        "values": [
+          [
+            0.0,
+            3.853,
+            5.53,
+            5.318,
+            6.265,
+            8.735,
+            10.793,
+            12.164
+          ],
+          [
+            3.853,
+            0.0,
+            3.847,
+            5.671,
+            5.301,
+            6.25,
+            10.147,
+            10.449
+          ],
+          [
+            5.53,
+            3.847,
+            0.0,
+            3.861,
+            5.46,
+            5.13,
+            8.65,
+            9.734
+          ],
+          [
+            5.318,
+            5.671,
+            3.861,
+            0.0,
+            3.834,
+            5.574,
+            6.185,
+            8.475
+          ],
+          [
+            6.265,
+            5.301,
+            5.46,
+            3.834,
+            0.0,
+            3.884,
+            5.212,
+            5.92
+          ],
+          [
+            8.735,
+            6.25,
+            5.13,
+            5.574,
+            3.884,
+            0.0,
+            5.592,
+            4.978
+          ],
+          [
+            10.793,
+            10.147,
+            8.65,
+            6.185,
+            5.212,
+            5.592,
+            0.0,
+            3.863
+          ],
+          [
+            12.164,
+            10.449,
+            9.734,
+            8.475,
+            5.92,
+            4.978,
+            3.863,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCC(=O)CCc1ccc(OC)c(N2CCCCC2)c1C(N)=O",
+        "composite_score": 0.7251808415733719,
+        "mw": 347.22,
+        "logp": 1.896,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 9,
+        "qed": 0.7126,
+        "sa_score": 2.54,
+        "n_heavy_atoms": 25,
+        "tpsa": 84.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ENTPD1-V9M Candidate #1",
+        "iupac_name": "CNCCC(=O)CCc1ccc(OC)c(N2CCCCC2)c1C(N)=O",
+        "pocket_affinity_score": 0.7252,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ENTPD1_V9M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ENTPD1_V9M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ENTPD1_V9M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ENTPD1_V9M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ENTPD1_V9M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ENTPD1-V9M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ENTPD1-V9M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T12:23:03.431680+00:00"
     }
   ]
 }
