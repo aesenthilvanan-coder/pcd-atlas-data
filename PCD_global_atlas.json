@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1615,
+  "total_entries": 1616,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46274,
-    "queue_remaining": 132323
+    "total_processed": 46275,
+    "queue_remaining": 132322
   },
   "entries": [
     {
@@ -357282,6 +357282,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:51:50.358511+00:00"
+    },
+    {
+      "entry_id": "PCD-HPS4-C515R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS4-C515R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HPS4",
+        "uniprot": "",
+        "clinvar_id": "341006",
+        "disease": "not provided",
+        "mutation_precursor": "C515R",
+        "mutation_mature": "C515R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.85583668090363,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 314.2244173722745,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          57.82865524291992,
+          -8.216621398925781,
+          33.977012634277344
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.91012739322716,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7436676338065391,
+        "cryptic": true,
+        "pocket_residues": {
+          "A513": "A",
+          "N514": "N",
+          "C515": "C"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NQG7|HPS4 variant C515R",
+        "fasta_sequence": "MATSTSTEAKSASWWNYFFLYDGSKVKEEGDPTRAGICYFYPSQTLLDQQELLCGQIAGVVRCVSDISDSPPTLVRLRKLKFAIKVDGDYLWVLGCAVELPDVSCKRFLDQLVGFFNFYNGPVSLAYENCSQEELSTEWDTFIEQILKNTSDLHKIFNSLWNLDQTKVEPLLLLKAARILQTCQRSPHILAGCILYKGLIVSTQLPPSLTAKVLLHRTAPQEQRLPTGEDAPQEHGAALPPNVQIIPVFVTKEEAISLHEFPVEQMTRSLASPAGLQDGSAQHHPKGGSTSALKENATGHVESMAWTTPDPTSPDEACPDGRKENGCLSGHDLESIRPAGLHNSARGEVLGLSSSLGKELVFLQEELDLSEIHIPEAQEVEMASGHFAFLHVPVPDGRAPYCKASLSASSSLEPTPPEDTAISSLRPPSAPEMLTQHGAQEQLEDHPGHSSQAPIPRADPLPRRTRRPLLLPRLDPGQRGNKLPTGEQGLDEDVDGVCESHAAPGLECSSGSANCQGAGPSADGISSRLTPAESCMGLVRMNLYTHCVKGLVLSLLAEEPLLGDSAAIEEVYHSSLASLNGLEVHLKETLPRDEAASTSSTYNFTHYDRIQSLLMANLPQVATPQDRRFLQAVSLMHSEFAQLPALYEMTVRNASTAVYACCNPIQETYFQQLAPAARSSGFPNPQDGAFSLSGKAKQKLLKHGVNLL",
+        "full_sequence": "MATSTSTEAKSASWWNYFFLYDGSKVKEEGDPTRAGICYFYPSQTLLDQQELLCGQIAGVVRCVSDISDSPPTLVRLRKLKFAIKVDGDYLWVLGCAVELPDVSCKRFLDQLVGFFNFYNGPVSLAYENCSQEELSTEWDTFIEQILKNTSDLHKIFNSLWNLDQTKVEPLLLLKAARILQTCQRSPHILAGCILYKGLIVSTQLPPSLTAKVLLHRTAPQEQRLPTGEDAPQEHGAALPPNVQIIPVFVTKEEAISLHEFPVEQMTRSLASPAGLQDGSAQHHPKGGSTSALKENATGHVESMAWTTPDPTSPDEACPDGRKENGCLSGHDLESIRPAGLHNSARGEVLGLSSSLGKELVFLQEELDLSEIHIPEAQEVEMASGHFAFLHVPVPDGRAPYCKASLSASSSLEPTPPEDTAISSLRPPSAPEMLTQHGAQEQLEDHPGHSSQAPIPRADPLPRRTRRPLLLPRLDPGQRGNKLPTGEQGLDEDVDGVCESHAAPGLECSSGSANCQGAGPSADGISSRLTPAESCMGLVRMNLYTHCVKGLVLSLLAEEPLLGDSAAIEEVYHSSLASLNGLEVHLKETLPRDEAASTSSTYNFTHYDRIQSLLMANLPQVATPQDRRFLQAVSLMHSEFAQLPALYEMTVRNASTAVYACCNPIQETYFQQLAPAARSSGFPNPQDGAFSLSGKAKQKLLKHGVNLL",
+        "n_residues": 708,
+        "mutation_pos_1indexed": 515,
+        "wt_aa": "C",
+        "mut_aa": "R",
+        "pocket_lining_residues": "A513-N514-C515",
+        "pocket_lining_positions_precursor": [
+          513,
+          514,
+          515
+        ],
+        "pocket_lining_1letter": "ANC",
+        "sequence_slice_around_pocket": "GLECSSGSANCQGAGPSADG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_C515R/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "A513",
+          "N514",
+          "C515"
+        ],
+        "values": [
+          [
+            0.0,
+            3.83,
+            7.195
+          ],
+          [
+            3.83,
+            0.0,
+            3.615
+          ],
+          [
+            7.195,
+            3.615,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "composite_score": 0.5646979968075424,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.89,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HPS4-C515R Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5647,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_C515R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_C515R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_C515R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_C515R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HPS4_C515R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS4-C515R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HPS4-C515R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:52:16.449506+00:00"
     }
   ]
 }
