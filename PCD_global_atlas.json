@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1759,
+  "total_entries": 1760,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46431,
-    "queue_remaining": 132166
+    "total_processed": 46432,
+    "queue_remaining": 132165
   },
   "entries": [
     {
@@ -391711,6 +391711,207 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:36:40.595111+00:00"
+    },
+    {
+      "entry_id": "PCD-F11-C416Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-F11-C416Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "F11",
+        "uniprot": "",
+        "clinvar_id": "371565",
+        "disease": "Hereditary factor XI deficiency disease",
+        "mutation_precursor": "C416Y",
+        "mutation_mature": "C416Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8083332174569354,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 571.6301946511672,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -21.29159927368164,
+          -29.254154205322266,
+          2.9501025676727295
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.199949043012006,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7888516077107353,
+        "cryptic": true,
+        "pocket_residues": {
+          "H406": "H",
+          "R413": "R",
+          "H414": "H",
+          "L415": "L",
+          "C416": "C",
+          "C432": "C",
+          "K572": "K",
+          "G573": "G"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P03951|F11 variant C416Y",
+        "fasta_sequence": "MIFLYQVVHFILFTSVSGECVTQLLKDTCFEGGDITTVFTPSAKYCQVVCTYHPRCLLFTFTAESPSEDPTRWFTCVLKDSVTETLPRVNRTAAISGYSFKQCSHQISACNKDIYVDLDMKGINYNSSVAKSAQECQERCTDDVHCHFFTYATRQFPSLEHRNICLLKHTQTGTPTRITKLDKVVSGFSLKSCALSNLACIRDIFPNTVFADSNIDSVMAPDAFVCGRICTHHPGCLFFTFFSQEWPKESQRNLCLLKTSESGLPSTRIKKSKALSGFSLQSCRHSIPVFCHSSFYHDTDFLGEELDIVAAKSHEACQKLCTNAVRCQFFTYTPAQASCNEGKGKCYLKLSSNGSPTKILHGRGGISGYTLRLCKMDNECTTKIKPRIVGGTASVRGEWPWQVTLHTTSPTQRHLCGGSIIGNQWILTAAHCFYGVESPKILRVYSGILNQSEIKEDTSFFGVQEIIIHDQYKMAESGYDIALLKLETTVNYTDSQRPICLPSKGDRNVIYTDCWVTGWGYRKLRDKIQNTLQKAKIPLVTNEECQKRYRGHKITHKMICAGYREGGKDACKGDSGGPLSCKHNEVWHLVGITSWGEGCAQRERPGVYTNVVEYVDWILEKTQAV",
+        "full_sequence": "MIFLYQVVHFILFTSVSGECVTQLLKDTCFEGGDITTVFTPSAKYCQVVCTYHPRCLLFTFTAESPSEDPTRWFTCVLKDSVTETLPRVNRTAAISGYSFKQCSHQISACNKDIYVDLDMKGINYNSSVAKSAQECQERCTDDVHCHFFTYATRQFPSLEHRNICLLKHTQTGTPTRITKLDKVVSGFSLKSCALSNLACIRDIFPNTVFADSNIDSVMAPDAFVCGRICTHHPGCLFFTFFSQEWPKESQRNLCLLKTSESGLPSTRIKKSKALSGFSLQSCRHSIPVFCHSSFYHDTDFLGEELDIVAAKSHEACQKLCTNAVRCQFFTYTPAQASCNEGKGKCYLKLSSNGSPTKILHGRGGISGYTLRLCKMDNECTTKIKPRIVGGTASVRGEWPWQVTLHTTSPTQRHLCGGSIIGNQWILTAAHCFYGVESPKILRVYSGILNQSEIKEDTSFFGVQEIIIHDQYKMAESGYDIALLKLETTVNYTDSQRPICLPSKGDRNVIYTDCWVTGWGYRKLRDKIQNTLQKAKIPLVTNEECQKRYRGHKITHKMICAGYREGGKDACKGDSGGPLSCKHNEVWHLVGITSWGEGCAQRERPGVYTNVVEYVDWILEKTQAV",
+        "n_residues": 625,
+        "mutation_pos_1indexed": 416,
+        "wt_aa": "C",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "H406-R413-H414-L415-C416-C432-K572-G573",
+        "pocket_lining_positions_precursor": [
+          406,
+          413,
+          414,
+          415,
+          416,
+          432,
+          572,
+          573
+        ],
+        "pocket_lining_1letter": "HRHLCCKG",
+        "sequence_slice_around_pocket": "HTTSPTQRHLCGGSIIGNQW"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/F11_C416Y/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "H406",
+          "R413",
+          "H414",
+          "L415",
+          "C416",
+          "C432",
+          "K572",
+          "G573"
+        ],
+        "values": [
+          [
+            0.0,
+            5.349,
+            4.461,
+            5.195,
+            7.158,
+            10.27,
+            14.113,
+            10.627
+          ],
+          [
+            5.349,
+            0.0,
+            3.781,
+            6.212,
+            9.508,
+            12.758,
+            13.273,
+            10.451
+          ],
+          [
+            4.461,
+            3.781,
+            0.0,
+            3.833,
+            6.152,
+            10.697,
+            10.687,
+            7.32
+          ],
+          [
+            5.195,
+            6.212,
+            3.833,
+            0.0,
+            3.838,
+            6.933,
+            9.278,
+            6.26
+          ],
+          [
+            7.158,
+            9.508,
+            6.152,
+            3.838,
+            0.0,
+            6.234,
+            8.477,
+            5.175
+          ],
+          [
+            10.27,
+            12.758,
+            10.697,
+            6.933,
+            6.234,
+            0.0,
+            10.937,
+            9.44
+          ],
+          [
+            14.113,
+            13.273,
+            10.687,
+            9.278,
+            8.477,
+            10.937,
+            0.0,
+            3.853
+          ],
+          [
+            10.627,
+            10.451,
+            7.32,
+            6.26,
+            5.175,
+            9.44,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "composite_score": 0.5241193567278501,
+        "mw": 360.25,
+        "logp": 2.071,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.8126,
+        "sa_score": 3.31,
+        "n_heavy_atoms": 26,
+        "tpsa": 70.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "F11-C416Y Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "pocket_affinity_score": 0.5241,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/F11_C416Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/F11_C416Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/F11_C416Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/F11_C416Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/F11_C416Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-F11-C416Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-F11-C416Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:37:08.423836+00:00"
     }
   ]
 }
