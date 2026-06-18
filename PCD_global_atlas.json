@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1896,
+  "total_entries": 1897,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46580,
-    "queue_remaining": 132017
+    "total_processed": 46581,
+    "queue_remaining": 132016
   },
   "entries": [
     {
@@ -430748,6 +430748,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:51:46.202198+00:00"
+    },
+    {
+      "entry_id": "PCD-NDUFAF6-S76P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFAF6-S76P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NDUFAF6",
+        "uniprot": "",
+        "clinvar_id": "372256",
+        "disease": "Mitochondrial complex I deficiency, nuclear type 17",
+        "mutation_precursor": "S76P",
+        "mutation_mature": "S76P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8318657111868807,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 549.7594809393264,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.07543516159057617,
+          3.074733257293701,
+          19.37548065185547
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.238573750166352,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8910139483058865,
+        "cryptic": true,
+        "pocket_residues": {
+          "L62": "L",
+          "Y73": "Y",
+          "L74": "L",
+          "C75": "C",
+          "S76": "S",
+          "L77": "L",
+          "L78": "L",
+          "R84": "R"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q330K2|NDUFAF6 variant S76P",
+        "fasta_sequence": "MAASAHGSVWGPLRLGIPGLCCRRPPLGLYARMRRLPGPEVSGRSVAAASGPGAWGTDHYCLELLRKRDYEGYLCSLLLPAESRSSVFALRAFNVELAQVKDSVSEKTIGLMRMQFWKKTVEDIYCDNPPHQPVAIELWKAVKRHNLTKRWLMKIVDEREKNLDDKAYRNIKELENYAENTQSSLLYLTLEILGIKDLHADHAASHIGKAQGIVTCLRATPYHGSRRKVFLPMDICMLHGVSQEDFLRRNQDKNVRDVIYDIASQAHLHLKHARSFHKTVPVKAFPAFLQTVSLEDFLKKIQRVDFDIFHPSLQQKNTLLPLYLYIQSWRKTY",
+        "full_sequence": "MAASAHGSVWGPLRLGIPGLCCRRPPLGLYARMRRLPGPEVSGRSVAAASGPGAWGTDHYCLELLRKRDYEGYLCSLLLPAESRSSVFALRAFNVELAQVKDSVSEKTIGLMRMQFWKKTVEDIYCDNPPHQPVAIELWKAVKRHNLTKRWLMKIVDEREKNLDDKAYRNIKELENYAENTQSSLLYLTLEILGIKDLHADHAASHIGKAQGIVTCLRATPYHGSRRKVFLPMDICMLHGVSQEDFLRRNQDKNVRDVIYDIASQAHLHLKHARSFHKTVPVKAFPAFLQTVSLEDFLKKIQRVDFDIFHPSLQQKNTLLPLYLYIQSWRKTY",
+        "n_residues": 333,
+        "mutation_pos_1indexed": 76,
+        "wt_aa": "S",
+        "mut_aa": "P",
+        "pocket_lining_residues": "L62-Y73-L74-C75-S76-L77-L78-R84",
+        "pocket_lining_positions_precursor": [
+          62,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          84
+        ],
+        "pocket_lining_1letter": "LYLCSLLR",
+        "sequence_slice_around_pocket": "RKRDYEGYLCSLLLPAESRS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF6_S76P/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "L62",
+          "Y73",
+          "L74",
+          "C75",
+          "S76",
+          "L77",
+          "L78",
+          "R84"
+        ],
+        "values": [
+          [
+            0.0,
+            7.304,
+            10.407,
+            12.02,
+            9.302,
+            9.882,
+            13.588,
+            9.665
+          ],
+          [
+            7.304,
+            0.0,
+            3.849,
+            5.546,
+            5.041,
+            6.56,
+            9.236,
+            9.937
+          ],
+          [
+            10.407,
+            3.849,
+            0.0,
+            3.839,
+            5.422,
+            5.411,
+            7.056,
+            11.012
+          ],
+          [
+            12.02,
+            5.546,
+            3.839,
+            0.0,
+            3.87,
+            5.519,
+            5.479,
+            9.797
+          ],
+          [
+            9.302,
+            5.041,
+            5.422,
+            3.87,
+            0.0,
+            3.857,
+            5.515,
+            6.108
+          ],
+          [
+            9.882,
+            6.56,
+            5.411,
+            5.519,
+            3.857,
+            0.0,
+            3.862,
+            6.742
+          ],
+          [
+            13.588,
+            9.236,
+            7.056,
+            5.479,
+            5.515,
+            3.862,
+            0.0,
+            8.352
+          ],
+          [
+            9.665,
+            9.937,
+            11.012,
+            9.797,
+            6.108,
+            6.742,
+            8.352,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1C(CNCc2c[nH]c3ccccc23)CCC(=O)C1O",
+        "composite_score": 0.6344148336910083,
+        "mw": 394.2,
+        "logp": 1.978,
+        "hbd": 5,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.4368,
+        "sa_score": 3.63,
+        "n_heavy_atoms": 29,
+        "tpsa": 114.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NDUFAF6-S76P Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1C(CNCc2c[nH]c3ccccc23)CCC(=O)C1O",
+        "pocket_affinity_score": 0.6344,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF6_S76P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF6_S76P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF6_S76P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF6_S76P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF6_S76P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFAF6-S76P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFAF6-S76P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:52:10.690568+00:00"
     }
   ]
 }
