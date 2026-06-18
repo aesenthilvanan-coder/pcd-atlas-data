@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1735,
+  "total_entries": 1736,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46407,
-    "queue_remaining": 132190
+    "total_processed": 46408,
+    "queue_remaining": 132189
   },
   "entries": [
     {
@@ -386781,6 +386781,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:24:06.578371+00:00"
+    },
+    {
+      "entry_id": "PCD-TPM1-I130V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TPM1-I130V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TPM1",
+        "uniprot": "",
+        "clinvar_id": "370041",
+        "disease": "Pulmonary atresia with intact ventricular septum",
+        "mutation_precursor": "I130V",
+        "mutation_mature": "I130V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7257450207432519,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 565.618400217993,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.091341018676758,
+          -4.030238151550293,
+          10.00250244140625
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.148328727238871,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7677362671104565,
+        "cryptic": true,
+        "pocket_residues": {
+          "I130": "I",
+          "R133": "R",
+          "A134": "A"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P09493|TPM1 variant I130V",
+        "fasta_sequence": "MDAIKKKMQMLKLDKENALDRAEQAEADKKAAEDRSKQLEDELVSLQKKLKGTEDELDKYSEALKDAQEKLELAEKKATDAEADVASLNRRIQLVEEELDRAQERLATALQKLEEAEKAADESERGMKVIESRAQKDEEKMEIQEIQLKEAKHIAEDADRKYEEVARKLVIIESDLERAEERAELSEGKCAELEEELKTVTNNLKSLEAQAEKYSQKEDRYEEEIKVLSDKLKEAETRAEFAERSVTKLEKSIDDLEDELYAQKLKYKAISEELDHALNDMTSI",
+        "full_sequence": "MDAIKKKMQMLKLDKENALDRAEQAEADKKAAEDRSKQLEDELVSLQKKLKGTEDELDKYSEALKDAQEKLELAEKKATDAEADVASLNRRIQLVEEELDRAQERLATALQKLEEAEKAADESERGMKVIESRAQKDEEKMEIQEIQLKEAKHIAEDADRKYEEVARKLVIIESDLERAEERAELSEGKCAELEEELKTVTNNLKSLEAQAEKYSQKEDRYEEEIKVLSDKLKEAETRAEFAERSVTKLEKSIDDLEDELYAQKLKYKAISEELDHALNDMTSI",
+        "n_residues": 284,
+        "mutation_pos_1indexed": 130,
+        "wt_aa": "I",
+        "mut_aa": "V",
+        "pocket_lining_residues": "I130-R133-A134",
+        "pocket_lining_positions_precursor": [
+          130,
+          133,
+          134
+        ],
+        "pocket_lining_1letter": "IRA",
+        "sequence_slice_around_pocket": "ADESERGMKVIESRAQKDEE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TPM1_I130V/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "I130",
+          "R133",
+          "A134"
+        ],
+        "values": [
+          [
+            0.0,
+            5.048,
+            6.097
+          ],
+          [
+            5.048,
+            0.0,
+            3.831
+          ],
+          [
+            6.097,
+            3.831,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.490367668346499,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TPM1-I130V Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.4904,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TPM1_I130V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TPM1_I130V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TPM1_I130V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TPM1_I130V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TPM1_I130V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TPM1-I130V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TPM1-I130V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:24:31.132895+00:00"
     }
   ]
 }
