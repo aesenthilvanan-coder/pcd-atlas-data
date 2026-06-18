@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1889,
+  "total_entries": 1890,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46573,
-    "queue_remaining": 132024
+    "total_processed": 46574,
+    "queue_remaining": 132023
   },
   "entries": [
     {
@@ -428474,6 +428474,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:48:40.098582+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC25A46-R340C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC25A46-R340C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC25A46",
+        "uniprot": "",
+        "clinvar_id": "372242",
+        "disease": "Neuropathy, hereditary motor and sensory, type 6B",
+        "mutation_precursor": "R340C",
+        "mutation_mature": "R340C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7417316422076158,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 350.333268420115,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          11.654620170593262,
+          6.143016815185547,
+          -4.186468124389648
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.559723766609959,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7402325303791639,
+        "cryptic": true,
+        "pocket_residues": {
+          "V129": "V",
+          "S218": "S",
+          "L221": "L",
+          "I222": "I",
+          "L338": "L",
+          "H339": "H",
+          "R340": "R",
+          "L341": "L",
+          "H342": "H",
+          "I343": "I",
+          "Q344": "Q"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96AG3|SLC25A46 variant R340C",
+        "fasta_sequence": "MHPRRPDGFDGLGYRGGARDEQGFGGAFPARSFSTGSDLGHWVTTPPDIPGSRNLHWGEKSPPYGVPTTSTPYEGPTEEPFSSGGGGSVQGQSSEQLNRFAGFGIGLASLFTENVLAHPCIVLRRQCQVNYHAQHYHLTPFTVINIMYSFNKTQGPRALWKGMGSTFIVQGVTLGAEGIISEFTPLPREVLHKWSPKQIGEHLLLKSLTYVVAMPFYSASLIETVQSEIIRDNTGILECVKEGIGRVIGMGVPHSKRLLPLLSLIFPTVLHGVLHYIISSVIQKFVLLILKRKTYNSHLAESTSPVQSMLDAYFPELIANFAASLCSDVILYPLETVLHRLHIQGTRTIIDNTDLGYEVLPINTQYEGMRDCINTIRQEEGVFGFYKGFGAVIIQYTLHAAVLQITKIIYSTLLQNNI",
+        "full_sequence": "MHPRRPDGFDGLGYRGGARDEQGFGGAFPARSFSTGSDLGHWVTTPPDIPGSRNLHWGEKSPPYGVPTTSTPYEGPTEEPFSSGGGGSVQGQSSEQLNRFAGFGIGLASLFTENVLAHPCIVLRRQCQVNYHAQHYHLTPFTVINIMYSFNKTQGPRALWKGMGSTFIVQGVTLGAEGIISEFTPLPREVLHKWSPKQIGEHLLLKSLTYVVAMPFYSASLIETVQSEIIRDNTGILECVKEGIGRVIGMGVPHSKRLLPLLSLIFPTVLHGVLHYIISSVIQKFVLLILKRKTYNSHLAESTSPVQSMLDAYFPELIANFAASLCSDVILYPLETVLHRLHIQGTRTIIDNTDLGYEVLPINTQYEGMRDCINTIRQEEGVFGFYKGFGAVIIQYTLHAAVLQITKIIYSTLLQNNI",
+        "n_residues": 418,
+        "mutation_pos_1indexed": 340,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "V129-S218-L221-I222-L338-H339-R340-L341-H342-I343-Q344",
+        "pocket_lining_positions_precursor": [
+          129,
+          218,
+          221,
+          222,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344
+        ],
+        "pocket_lining_1letter": "VSLILHRLHIQ",
+        "sequence_slice_around_pocket": "ILYPLETVLHRLHIQGTRTI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC25A46_R340C/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "V129",
+          "S218",
+          "L221",
+          "I222",
+          "L338",
+          "H339",
+          "R340",
+          "L341",
+          "H342",
+          "I343",
+          "Q344"
+        ],
+        "values": [
+          [
+            0.0,
+            13.114,
+            10.431,
+            10.416,
+            9.606,
+            6.534,
+            5.366,
+            9.112,
+            9.689,
+            7.639,
+            8.985
+          ],
+          [
+            13.114,
+            0.0,
+            5.086,
+            6.467,
+            9.821,
+            8.443,
+            10.545,
+            9.549,
+            5.773,
+            7.372,
+            10.436
+          ],
+          [
+            10.431,
+            5.086,
+            0.0,
+            3.857,
+            10.411,
+            7.504,
+            10.062,
+            10.953,
+            7.743,
+            7.423,
+            11.241
+          ],
+          [
+            10.416,
+            6.467,
+            3.857,
+            0.0,
+            12.514,
+            9.289,
+            10.527,
+            11.417,
+            8.242,
+            6.362,
+            9.806
+          ],
+          [
+            9.606,
+            9.821,
+            10.411,
+            12.514,
+            0.0,
+            3.844,
+            5.519,
+            5.273,
+            6.263,
+            8.729,
+            10.202
+          ],
+          [
+            6.534,
+            8.443,
+            7.504,
+            9.289,
+            3.844,
+            0.0,
+            3.851,
+            5.573,
+            5.267,
+            6.195,
+            8.619
+          ],
+          [
+            5.366,
+            10.545,
+            10.062,
+            10.527,
+            5.519,
+            3.851,
+            0.0,
+            3.828,
+            5.563,
+            5.337,
+            6.048
+          ],
+          [
+            9.112,
+            9.549,
+            10.953,
+            11.417,
+            5.273,
+            5.573,
+            3.828,
+            0.0,
+            3.856,
+            5.641,
+            5.444
+          ],
+          [
+            9.689,
+            5.773,
+            7.743,
+            8.242,
+            6.263,
+            5.267,
+            5.563,
+            3.856,
+            0.0,
+            3.828,
+            5.76
+          ],
+          [
+            7.639,
+            7.372,
+            7.423,
+            6.362,
+            8.729,
+            6.195,
+            5.337,
+            5.641,
+            3.828,
+            0.0,
+            3.828
+          ],
+          [
+            8.985,
+            10.436,
+            11.241,
+            9.806,
+            10.202,
+            8.619,
+            6.048,
+            5.444,
+            5.76,
+            3.828,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.6454599045937438,
+        "mw": 244.12,
+        "logp": 2.049,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 6,
+        "qed": 0.7634,
+        "sa_score": 2.21,
+        "n_heavy_atoms": 18,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC25A46-R340C Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6455,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC25A46_R340C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC25A46_R340C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC25A46_R340C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC25A46_R340C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC25A46_R340C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC25A46-R340C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC25A46-R340C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:49:04.332900+00:00"
     }
   ]
 }
