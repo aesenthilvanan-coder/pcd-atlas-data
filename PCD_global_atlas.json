@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1966,
+  "total_entries": 1967,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46657,
-    "queue_remaining": 131940
+    "total_processed": 46658,
+    "queue_remaining": 131939
   },
   "entries": [
     {
@@ -446440,6 +446440,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:48:08.722837+00:00"
+    },
+    {
+      "entry_id": "PCD-SATB2-R399H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SATB2-R399H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SATB2",
+        "uniprot": "",
+        "clinvar_id": "373069",
+        "disease": "not provided",
+        "mutation_precursor": "R399H",
+        "mutation_mature": "R399H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8784842304738286,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 559.7390598435928,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -6.899894714355469,
+          4.0359416007995605,
+          -36.1413459777832
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.454374776024068,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6893106397982243,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y365": "Y",
+          "E396": "E",
+          "I397": "I",
+          "L398": "L",
+          "R399": "R",
+          "K400": "K",
+          "E401": "E",
+          "E402": "E",
+          "D403": "D"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UPW6|SATB2 variant R399H",
+        "fasta_sequence": "MERRSESPCLRDSPDRRSGSPDVKGPPPVKVARLEQNGSPMGARGRPNGAVAKAVGGLMIPVFCVVEQLDGSLEYDNREEHAEFVLVRKDVLFSQLVETALLALGYSHSSAAQAQGIIKLGRWNPLPLSYVTDAPDATVADMLQDVYHVVTLKIQLQSCSKLEDLPAEQWNHATVRNALKELLKEMNQSTLAKECPLSQSMISSIVNSTYYANVSATKCQEFGRWYKKYKKIKVERVERENLSDYCVLGQRPMHLPNMNQLASLGKTNEQSPHSQIHHSTPIRNQVPALQPIMSPGLLSPQLSPQLVRQQIAMAHLINQQIAVSRLLAHQHPQAINQQFLNHPPIPRAVKPEPTNSSVEVSPDIYQQVRDELKRASVSQAVFARVAFNRTQGLLSEILRKEEDPRTASQSLLVNLRAMQNFLNLPEVERDRIYQDERERSMNPNVSMVSSASSSPSSSRTPQAKTSTPTTDLPIKVDGANINITAAIYDEIQQEMKRAKVSQALFAKVAANKSQGWLCELLRWKENPSPENRTLWENLCTIRRFLNLPQHERDVIYEEESRHHHSERMQHVVQLPPEPVQVLHRQQSQPAKESSPPREEAPPPPPPTEDSCAKKPRSRTKISLEALGILQSFIHDVGLYPDQEAIHTLSAQLDLPKHTIIKFFQNQRYHVKHHGKLKEHLGSAVDVAEYKDEELLTESEENDSEEGSEEMYKVEAEEENADKSKAAPAEIDQR",
+        "full_sequence": "MERRSESPCLRDSPDRRSGSPDVKGPPPVKVARLEQNGSPMGARGRPNGAVAKAVGGLMIPVFCVVEQLDGSLEYDNREEHAEFVLVRKDVLFSQLVETALLALGYSHSSAAQAQGIIKLGRWNPLPLSYVTDAPDATVADMLQDVYHVVTLKIQLQSCSKLEDLPAEQWNHATVRNALKELLKEMNQSTLAKECPLSQSMISSIVNSTYYANVSATKCQEFGRWYKKYKKIKVERVERENLSDYCVLGQRPMHLPNMNQLASLGKTNEQSPHSQIHHSTPIRNQVPALQPIMSPGLLSPQLSPQLVRQQIAMAHLINQQIAVSRLLAHQHPQAINQQFLNHPPIPRAVKPEPTNSSVEVSPDIYQQVRDELKRASVSQAVFARVAFNRTQGLLSEILRKEEDPRTASQSLLVNLRAMQNFLNLPEVERDRIYQDERERSMNPNVSMVSSASSSPSSSRTPQAKTSTPTTDLPIKVDGANINITAAIYDEIQQEMKRAKVSQALFAKVAANKSQGWLCELLRWKENPSPENRTLWENLCTIRRFLNLPQHERDVIYEEESRHHHSERMQHVVQLPPEPVQVLHRQQSQPAKESSPPREEAPPPPPPTEDSCAKKPRSRTKISLEALGILQSFIHDVGLYPDQEAIHTLSAQLDLPKHTIIKFFQNQRYHVKHHGKLKEHLGSAVDVAEYKDEELLTESEENDSEEGSEEMYKVEAEEENADKSKAAPAEIDQR",
+        "n_residues": 733,
+        "mutation_pos_1indexed": 399,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "Y365-E396-I397-L398-R399-K400-E401-E402-D403",
+        "pocket_lining_positions_precursor": [
+          365,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403
+        ],
+        "pocket_lining_1letter": "YEILRKEED",
+        "sequence_slice_around_pocket": "RTQGLLSEILRKEEDPRTAS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SATB2_R399H/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "Y365",
+          "E396",
+          "I397",
+          "L398",
+          "R399",
+          "K400",
+          "E401",
+          "E402",
+          "D403"
+        ],
+        "values": [
+          [
+            0.0,
+            11.457,
+            8.266,
+            6.272,
+            9.302,
+            9.933,
+            6.964,
+            9.452,
+            9.73
+          ],
+          [
+            11.457,
+            0.0,
+            3.872,
+            5.571,
+            5.071,
+            6.175,
+            8.661,
+            10.445,
+            13.918
+          ],
+          [
+            8.266,
+            3.872,
+            0.0,
+            3.879,
+            5.432,
+            5.503,
+            6.231,
+            7.865,
+            10.816
+          ],
+          [
+            6.272,
+            5.571,
+            3.879,
+            0.0,
+            3.89,
+            6.011,
+            5.856,
+            9.039,
+            11.567
+          ],
+          [
+            9.302,
+            5.071,
+            5.432,
+            3.89,
+            0.0,
+            3.855,
+            5.758,
+            8.863,
+            12.092
+          ],
+          [
+            9.933,
+            6.175,
+            5.503,
+            6.011,
+            3.855,
+            0.0,
+            3.864,
+            5.621,
+            9.279
+          ],
+          [
+            6.964,
+            8.661,
+            6.231,
+            5.856,
+            5.758,
+            3.864,
+            0.0,
+            3.841,
+            6.409
+          ],
+          [
+            9.452,
+            10.445,
+            7.865,
+            9.039,
+            8.863,
+            5.621,
+            3.841,
+            0.0,
+            3.874
+          ],
+          [
+            9.73,
+            13.918,
+            10.816,
+            11.567,
+            12.092,
+            9.279,
+            6.409,
+            3.874,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1nccc(CNCCCC2CCCCN2c2cnccc2N)n1",
+        "composite_score": 0.8577412356359018,
+        "mw": 341.23,
+        "logp": 1.965,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.661,
+        "sa_score": 3.18,
+        "n_heavy_atoms": 25,
+        "tpsa": 106.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SATB2-R399H Candidate #1",
+        "iupac_name": "Nc1nccc(CNCCCC2CCCCN2c2cnccc2N)n1",
+        "pocket_affinity_score": 0.8577,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SATB2_R399H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SATB2_R399H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SATB2_R399H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SATB2_R399H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SATB2_R399H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SATB2-R399H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SATB2-R399H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:48:39.568642+00:00"
     }
   ]
 }
