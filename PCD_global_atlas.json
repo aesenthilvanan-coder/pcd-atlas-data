@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2402,
+  "total_entries": 2403,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47158,
-    "queue_remaining": 131439
+    "total_processed": 47159,
+    "queue_remaining": 131438
   },
   "entries": [
     {
@@ -561255,6 +561255,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T12:52:46.910682+00:00"
+    },
+    {
+      "entry_id": "PCD-PFN1-M114R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PFN1-M114R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PFN1",
+        "uniprot": "",
+        "clinvar_id": "373953",
+        "disease": "Lower limb muscle weakness",
+        "mutation_precursor": "M114R",
+        "mutation_mature": "M114R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8836692209228234,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 434.7918730532037,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          11.367776870727539,
+          0.2835584580898285,
+          3.7965731620788574
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.798086409188627,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.89044407221568,
+        "cryptic": true,
+        "pocket_residues": {
+          "M12": "M",
+          "G15": "G",
+          "T16": "T",
+          "C17": "C",
+          "Q18": "Q",
+          "D19": "D",
+          "M114": "M",
+          "G115": "G",
+          "K116": "K",
+          "E117": "E"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P07737|PFN1 variant M114R",
+        "fasta_sequence": "MAGWNAYIDNLMADGTCQDAAIVGYKDSPSVWAAVPGKTFVNITPAEVGVLVGKDRSSFYVNGLTLGGQKCSVIRDSLLQDGEFSMDLRTKSTGGAPTFNVTVTKTDKTLVLLMGKEGVHGGLINKKCYEMASHLRRSQY",
+        "full_sequence": "MAGWNAYIDNLMADGTCQDAAIVGYKDSPSVWAAVPGKTFVNITPAEVGVLVGKDRSSFYVNGLTLGGQKCSVIRDSLLQDGEFSMDLRTKSTGGAPTFNVTVTKTDKTLVLLMGKEGVHGGLINKKCYEMASHLRRSQY",
+        "n_residues": 140,
+        "mutation_pos_1indexed": 114,
+        "wt_aa": "M",
+        "mut_aa": "R",
+        "pocket_lining_residues": "M12-G15-T16-C17-Q18-D19-M114-G115-K116-E117",
+        "pocket_lining_positions_precursor": [
+          12,
+          15,
+          16,
+          17,
+          18,
+          19,
+          114,
+          115,
+          116,
+          117
+        ],
+        "pocket_lining_1letter": "MGTCQDMGKE",
+        "sequence_slice_around_pocket": "TKTDKTLVLLMGKEGVHGGL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PFN1_M114R/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "M12",
+          "G15",
+          "T16",
+          "C17",
+          "Q18",
+          "D19",
+          "M114",
+          "G115",
+          "K116",
+          "E117"
+        ],
+        "values": [
+          [
+            0.0,
+            5.69,
+            7.008,
+            5.612,
+            7.137,
+            7.679,
+            9.707,
+            9.597,
+            10.445,
+            14.215
+          ],
+          [
+            5.69,
+            0.0,
+            3.888,
+            5.595,
+            7.485,
+            10.314,
+            11.173,
+            9.08,
+            8.18,
+            11.274
+          ],
+          [
+            7.008,
+            3.888,
+            0.0,
+            3.838,
+            7.004,
+            9.741,
+            8.795,
+            5.96,
+            5.841,
+            8.86
+          ],
+          [
+            5.612,
+            5.595,
+            3.838,
+            0.0,
+            3.849,
+            5.946,
+            5.583,
+            4.161,
+            5.099,
+            8.87
+          ],
+          [
+            7.137,
+            7.485,
+            7.004,
+            3.849,
+            0.0,
+            3.832,
+            5.826,
+            5.758,
+            5.272,
+            8.736
+          ],
+          [
+            7.679,
+            10.314,
+            9.741,
+            5.946,
+            3.832,
+            0.0,
+            5.039,
+            7.27,
+            8.343,
+            11.618
+          ],
+          [
+            9.707,
+            11.173,
+            8.795,
+            5.583,
+            5.826,
+            5.039,
+            0.0,
+            3.818,
+            6.744,
+            9.46
+          ],
+          [
+            9.597,
+            9.08,
+            5.96,
+            4.161,
+            5.758,
+            7.27,
+            3.818,
+            0.0,
+            3.823,
+            6.596
+          ],
+          [
+            10.445,
+            8.18,
+            5.841,
+            5.099,
+            5.272,
+            8.343,
+            6.744,
+            3.823,
+            0.0,
+            3.815
+          ],
+          [
+            14.215,
+            11.274,
+            8.86,
+            8.87,
+            8.736,
+            11.618,
+            9.46,
+            6.596,
+            3.815,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC1CC(=O)CCC1ON1CCCCC1N1CCCCC1",
+        "composite_score": 0.7519788347591223,
+        "mw": 309.24,
+        "logp": 1.912,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.8595,
+        "sa_score": 4.07,
+        "n_heavy_atoms": 22,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PFN1-M114R Candidate #1",
+        "iupac_name": "NCC1CC(=O)CCC1ON1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.752,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PFN1_M114R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PFN1_M114R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PFN1_M114R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PFN1_M114R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PFN1_M114R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PFN1-M114R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PFN1-M114R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T12:53:13.604593+00:00"
     }
   ]
 }
