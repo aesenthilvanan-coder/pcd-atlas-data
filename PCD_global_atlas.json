@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1662,
+  "total_entries": 1663,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46323,
-    "queue_remaining": 132274
+    "total_processed": 46324,
+    "queue_remaining": 132273
   },
   "entries": [
     {
@@ -368157,6 +368157,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:26:52.561910+00:00"
+    },
+    {
+      "entry_id": "PCD-XIAP-D367G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-XIAP-D367G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "XIAP",
+        "uniprot": "",
+        "clinvar_id": "367795",
+        "disease": "X-linked lymphoproliferative disease due to XIAP deficiency",
+        "mutation_precursor": "D367G",
+        "mutation_mature": "D367G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8717126977064562,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 557.515279831052,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          7.263187885284424,
+          -27.73329734802246,
+          -3.229414939880371
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.2922140445056782,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.669503776110243,
+        "cryptic": true,
+        "pocket_residues": {
+          "R364": "R",
+          "R365": "R",
+          "I366": "I",
+          "D367": "D",
+          "D368": "D",
+          "T369": "T",
+          "I370": "I"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P98170|XIAP variant D367G",
+        "fasta_sequence": "MTFNSFEGSKTCVPADINKEEEFVEEFNRLKTFANFPSGSPVSASTLARAGFLYTGEGDTVRCFSCHAAVDRWQYGDSAVGRHRKVSPNCRFINGFYLENSATQSTNSGIQNGQYKVENYLGSRDHFALDRPSETHADYLLRTGQVVDISDTIYPRNPAMYSEEARLKSFQNWPDYAHLTPRELASAGLYYTGIGDQVQCFCCGGKLKNWEPCDRAWSEHRRHFPNCFFVLGRNLNIRSESDAVSSDRNFPNSTNLPRNPSMADYEARIFTFGTWIYSVNKEQLARAGFYALGEGDKVKCFHCGGGLTDWKPSEDPWEQHAKWYPGCKYLLEQKGQEYINNIHLTHSLEECLVRTTEKTPSLTRRIDDTIFQNPMVQEAIRMGFSFKDIKKIMEEKIQISGSNYKSLEVLVADLVNAQKDSMQDESSQTSLQKEISTEEQLRRLQEEKLCKICMDRNIAIVFVPCGHLVTCKQCAEAVDKCPMCYTVITFKQKIFMS",
+        "full_sequence": "MTFNSFEGSKTCVPADINKEEEFVEEFNRLKTFANFPSGSPVSASTLARAGFLYTGEGDTVRCFSCHAAVDRWQYGDSAVGRHRKVSPNCRFINGFYLENSATQSTNSGIQNGQYKVENYLGSRDHFALDRPSETHADYLLRTGQVVDISDTIYPRNPAMYSEEARLKSFQNWPDYAHLTPRELASAGLYYTGIGDQVQCFCCGGKLKNWEPCDRAWSEHRRHFPNCFFVLGRNLNIRSESDAVSSDRNFPNSTNLPRNPSMADYEARIFTFGTWIYSVNKEQLARAGFYALGEGDKVKCFHCGGGLTDWKPSEDPWEQHAKWYPGCKYLLEQKGQEYINNIHLTHSLEECLVRTTEKTPSLTRRIDDTIFQNPMVQEAIRMGFSFKDIKKIMEEKIQISGSNYKSLEVLVADLVNAQKDSMQDESSQTSLQKEISTEEQLRRLQEEKLCKICMDRNIAIVFVPCGHLVTCKQCAEAVDKCPMCYTVITFKQKIFMS",
+        "n_residues": 497,
+        "mutation_pos_1indexed": 367,
+        "wt_aa": "D",
+        "mut_aa": "G",
+        "pocket_lining_residues": "R364-R365-I366-D367-D368-T369-I370",
+        "pocket_lining_positions_precursor": [
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370
+        ],
+        "pocket_lining_1letter": "RRIDDTI",
+        "sequence_slice_around_pocket": "EKTPSLTRRIDDTIFQNPMV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/XIAP_D367G/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "R364",
+          "R365",
+          "I366",
+          "D367",
+          "D368",
+          "T369",
+          "I370"
+        ],
+        "values": [
+          [
+            0.0,
+            3.825,
+            5.812,
+            8.145,
+            11.823,
+            12.36,
+            11.937
+          ],
+          [
+            3.825,
+            0.0,
+            3.746,
+            5.794,
+            9.034,
+            10.606,
+            10.189
+          ],
+          [
+            5.812,
+            3.746,
+            0.0,
+            3.798,
+            6.598,
+            7.507,
+            6.517
+          ],
+          [
+            8.145,
+            5.794,
+            3.798,
+            0.0,
+            3.863,
+            5.106,
+            6.174
+          ],
+          [
+            11.823,
+            9.034,
+            6.598,
+            3.863,
+            0.0,
+            3.863,
+            5.199
+          ],
+          [
+            12.36,
+            10.606,
+            7.507,
+            5.106,
+            3.863,
+            0.0,
+            3.902
+          ],
+          [
+            11.937,
+            10.189,
+            6.517,
+            6.174,
+            5.199,
+            3.902,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.738466505701816,
+        "mw": 319.17,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.924,
+        "sa_score": 3.13,
+        "n_heavy_atoms": 23,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "XIAP-D367G Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7385,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/XIAP_D367G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/XIAP_D367G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/XIAP_D367G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/XIAP_D367G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/XIAP_D367G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-XIAP-D367G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-XIAP-D367G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:27:20.490057+00:00"
     }
   ]
 }
