@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1736,
+  "total_entries": 1737,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46408,
-    "queue_remaining": 132189
+    "total_processed": 46409,
+    "queue_remaining": 132188
   },
   "entries": [
     {
@@ -386902,6 +386902,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:24:31.132895+00:00"
+    },
+    {
+      "entry_id": "PCD-KLHL24-M1T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KLHL24-M1T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KLHL24",
+        "uniprot": "",
+        "clinvar_id": "370042",
+        "disease": "Epidermolysis bullosa simplex, Koebner type",
+        "mutation_precursor": "M1T",
+        "mutation_mature": "M1T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7645676955194419,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 331.4096535621219,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -40.943946838378906,
+          -1.2451952695846558,
+          17.223554611206055
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.4338470560376362,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8207819573556593,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "V2": "V",
+          "L3": "L"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q6TFL4|KLHL24 variant M1T",
+        "fasta_sequence": "MVLILGRRLNREDLGVRDSPATKRKVFEMDPKSLTGHEFFDFSSGSSHAENILQIFNEFRDSRLFTDVIICVEGKEFPCHRAVLSACSSYFRAMFCNDHRESREMLVEINGILAEAMECFLQYVYTGKVKITTENVQYLFETSSLFQISVLRDACAKFLEEQLDPCNCLGIQRFADTHSLKTLFTKCKNFALQTFEDVSQHEEFLELDKDELIDYICSDELVIGKEEMVFEAVMRWVYRAVDLRRPLLHELLTHVRLPLLHPNYFVQTVEVDQLIQNSPECYQLLHEARRYHILGNEMMSPRTRPRRSTGYSEVIVVVGGCERVGGFNLPYTECYDPVTGEWKSLAKLPEFTKSEYAVCALRNDILVSGGRINSRDVWIYNSQLNIWIRVASLNKGRWRHKMAVLLGKVYVVGGYDGQNRLSSVECYDSFSNRWTEVAPLKEAVSSPAVTSCVGKLFVIGGGPDDNTCSDKVQSYDPETNSWLLRAAIPIAKRCITAVSLNNLIYVAGGLTKAIYCYDPVEDYWMHVQNTFSRQENCGMSVCNGKIYILGGRRENGEATDTILCYDPATSIITGVAAMPRPVSYHGCVTIHRYNEKCFKL",
+        "full_sequence": "MVLILGRRLNREDLGVRDSPATKRKVFEMDPKSLTGHEFFDFSSGSSHAENILQIFNEFRDSRLFTDVIICVEGKEFPCHRAVLSACSSYFRAMFCNDHRESREMLVEINGILAEAMECFLQYVYTGKVKITTENVQYLFETSSLFQISVLRDACAKFLEEQLDPCNCLGIQRFADTHSLKTLFTKCKNFALQTFEDVSQHEEFLELDKDELIDYICSDELVIGKEEMVFEAVMRWVYRAVDLRRPLLHELLTHVRLPLLHPNYFVQTVEVDQLIQNSPECYQLLHEARRYHILGNEMMSPRTRPRRSTGYSEVIVVVGGCERVGGFNLPYTECYDPVTGEWKSLAKLPEFTKSEYAVCALRNDILVSGGRINSRDVWIYNSQLNIWIRVASLNKGRWRHKMAVLLGKVYVVGGYDGQNRLSSVECYDSFSNRWTEVAPLKEAVSSPAVTSCVGKLFVIGGGPDDNTCSDKVQSYDPETNSWLLRAAIPIAKRCITAVSLNNLIYVAGGLTKAIYCYDPVEDYWMHVQNTFSRQENCGMSVCNGKIYILGGRRENGEATDTILCYDPATSIITGVAAMPRPVSYHGCVTIHRYNEKCFKL",
+        "n_residues": 600,
+        "mutation_pos_1indexed": 1,
+        "wt_aa": "M",
+        "mut_aa": "T",
+        "pocket_lining_residues": "M1-V2-L3",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3
+        ],
+        "pocket_lining_1letter": "MVL",
+        "sequence_slice_around_pocket": "MVLILGRRLN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KLHL24_M1T/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "M1",
+          "V2",
+          "L3"
+        ],
+        "values": [
+          [
+            0.0,
+            3.809,
+            6.151
+          ],
+          [
+            3.809,
+            0.0,
+            3.844
+          ],
+          [
+            6.151,
+            3.844,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6511842775976855,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KLHL24-M1T Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6512,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KLHL24_M1T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KLHL24_M1T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KLHL24_M1T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KLHL24_M1T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KLHL24_M1T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KLHL24-M1T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KLHL24-M1T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:24:59.970829+00:00"
     }
   ]
 }
