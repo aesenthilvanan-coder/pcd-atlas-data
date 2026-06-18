@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1652,
+  "total_entries": 1653,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46313,
-    "queue_remaining": 132284
+    "total_processed": 46314,
+    "queue_remaining": 132283
   },
   "entries": [
     {
@@ -365904,6 +365904,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:18:41.185215+00:00"
+    },
+    {
+      "entry_id": "PCD-TMPRSS6-P498L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMPRSS6-P498L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TMPRSS6",
+        "uniprot": "",
+        "clinvar_id": "341584",
+        "disease": "Microcytic anemia",
+        "mutation_precursor": "P498L",
+        "mutation_mature": "P498L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.942834120372094,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 590.6017525362947,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -12.471664428710938,
+          9.074982643127441,
+          -46.99999237060547
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.707438690059382,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6771667627353914,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q496": "Q",
+          "C497": "C",
+          "K498": "K",
+          "E499": "E",
+          "D500": "D",
+          "S501": "S",
+          "N518": "N",
+          "S520": "S"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8IU80|TMPRSS6 variant P498L",
+        "fasta_sequence": "MLLLFHSKRMPVAEAPQVAGGQGDGGDGEEAEPEGMFKACEDSKRKARGYLRLVPLFVLLALLVLASAGVLLWYFLGYKAEVMVSQVYSGSLRVLNRHFSQDLTRRESSAFRSETAKAQKMLKELITSTRLGTYYNSSSVYSFGEGPLTCFFWFILQIPEHRRLMLSPEVVQALLVEELLSTVNSSAAVPYRAEYEVDPEGLVILEASVKDIAALNSTLGCYRYSYVGQGQVLRLKGPDHLASSCLWHLQGPKDLMLKLRLEWTLAECRDRLAMYDVAGPLEKRLITSVYGCSRQEPVVEVLASGAIMAVVWKKGLHSYYDPFVLSVQPVVFQACEVNLTLDNRLDSQGVLSTPYFPSYYSPQTHCSWHLTVPSLDYGLALWFDAYALRRQKYDLPCTQGQWTIQNRRLCGLRILQPYAERIPVVATAGITINFTSQISLTGPGVRVHYGLYNQSDPCPGEFLCSVNGLCVPACDGVKDCPNGLDERNCVCRATFQCKEDSTCISLPKVCDGQPDCLNGSDEEQCQEGVPCGTFTFQCEDRSCVKKPNPQCDGRPDCRDGSDEEHCDCGLQGPSSRIVGGAVSSEGEWPWQASLQVRGRHICGGALIADRWVITAAHCFQEDSMASTVLWTVFLGKVWQNSRWPGEVSFKVSRLLLHPYHEEDSHDYDVALLQLDHPVVRSAAVRPVCLPARSHFFEPGLHCWITGWGALREGGPISNALQKVDVQLIPQDLCSEVYRYQVTPRMLCAGYRKGKKDACQGDSGGPLVCKALSGRWFLAGLVSWGLGCGRPNYFGVYTRITGVISWIQQVVT",
+        "full_sequence": "MLLLFHSKRMPVAEAPQVAGGQGDGGDGEEAEPEGMFKACEDSKRKARGYLRLVPLFVLLALLVLASAGVLLWYFLGYKAEVMVSQVYSGSLRVLNRHFSQDLTRRESSAFRSETAKAQKMLKELITSTRLGTYYNSSSVYSFGEGPLTCFFWFILQIPEHRRLMLSPEVVQALLVEELLSTVNSSAAVPYRAEYEVDPEGLVILEASVKDIAALNSTLGCYRYSYVGQGQVLRLKGPDHLASSCLWHLQGPKDLMLKLRLEWTLAECRDRLAMYDVAGPLEKRLITSVYGCSRQEPVVEVLASGAIMAVVWKKGLHSYYDPFVLSVQPVVFQACEVNLTLDNRLDSQGVLSTPYFPSYYSPQTHCSWHLTVPSLDYGLALWFDAYALRRQKYDLPCTQGQWTIQNRRLCGLRILQPYAERIPVVATAGITINFTSQISLTGPGVRVHYGLYNQSDPCPGEFLCSVNGLCVPACDGVKDCPNGLDERNCVCRATFQCKEDSTCISLPKVCDGQPDCLNGSDEEQCQEGVPCGTFTFQCEDRSCVKKPNPQCDGRPDCRDGSDEEHCDCGLQGPSSRIVGGAVSSEGEWPWQASLQVRGRHICGGALIADRWVITAAHCFQEDSMASTVLWTVFLGKVWQNSRWPGEVSFKVSRLLLHPYHEEDSHDYDVALLQLDHPVVRSAAVRPVCLPARSHFFEPGLHCWITGWGALREGGPISNALQKVDVQLIPQDLCSEVYRYQVTPRMLCAGYRKGKKDACQGDSGGPLVCKALSGRWFLAGLVSWGLGCGRPNYFGVYTRITGVISWIQQVVT",
+        "n_residues": 811,
+        "mutation_pos_1indexed": 498,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "Q496-C497-K498-E499-D500-S501-N518-S520",
+        "pocket_lining_positions_precursor": [
+          496,
+          497,
+          498,
+          499,
+          500,
+          501,
+          518,
+          520
+        ],
+        "pocket_lining_1letter": "QCKEDSNS",
+        "sequence_slice_around_pocket": "NCVCRATFQCKEDSTCISLP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TMPRSS6_P498L/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "Q496",
+          "C497",
+          "K498",
+          "E499",
+          "D500",
+          "S501",
+          "N518",
+          "S520"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            6.392,
+            8.958,
+            8.519,
+            5.427,
+            11.886,
+            9.116
+          ],
+          [
+            3.841,
+            0.0,
+            3.868,
+            5.902,
+            6.222,
+            4.921,
+            8.093,
+            6.221
+          ],
+          [
+            6.392,
+            3.868,
+            0.0,
+            3.86,
+            6.273,
+            5.846,
+            7.896,
+            6.309
+          ],
+          [
+            8.958,
+            5.902,
+            3.86,
+            0.0,
+            3.85,
+            5.877,
+            7.03,
+            8.269
+          ],
+          [
+            8.519,
+            6.222,
+            6.273,
+            3.85,
+            0.0,
+            3.865,
+            9.04,
+            10.588
+          ],
+          [
+            5.427,
+            4.921,
+            5.846,
+            5.877,
+            3.865,
+            0.0,
+            11.13,
+            10.79
+          ],
+          [
+            11.886,
+            8.093,
+            7.896,
+            7.03,
+            9.04,
+            11.13,
+            0.0,
+            5.461
+          ],
+          [
+            9.116,
+            6.221,
+            6.309,
+            8.269,
+            10.588,
+            10.79,
+            5.461,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1CCNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.7671979149634304,
+        "mw": 403.2,
+        "logp": 1.879,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 9,
+        "qed": 0.6629,
+        "sa_score": 2.68,
+        "n_heavy_atoms": 28,
+        "tpsa": 101.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TMPRSS6-P498L Candidate #1",
+        "iupac_name": "NCCCc1ccncc1CCNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.7672,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TMPRSS6_P498L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TMPRSS6_P498L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TMPRSS6_P498L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMPRSS6_P498L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TMPRSS6_P498L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMPRSS6-P498L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TMPRSS6-P498L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:19:10.668808+00:00"
     }
   ]
 }
