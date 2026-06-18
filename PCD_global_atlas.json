@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1972,
+  "total_entries": 1973,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46664,
-    "queue_remaining": 131933
+    "total_processed": 46665,
+    "queue_remaining": 131932
   },
   "entries": [
     {
@@ -448216,6 +448216,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:53:20.326476+00:00"
+    },
+    {
+      "entry_id": "PCD-GLB1-H281Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GLB1-H281Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GLB1",
+        "uniprot": "",
+        "clinvar_id": "372371",
+        "disease": "not provided",
+        "mutation_precursor": "H281Y",
+        "mutation_mature": "H281Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8646251247810922,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 303.953664691476,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          9.29649543762207,
+          -21.209672927856445,
+          4.408496379852295
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.599207248987081,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.822611952667125,
+        "cryptic": true,
+        "pocket_residues": {
+          "P280": "P",
+          "H281": "H",
+          "S282": "S",
+          "T283": "T"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P16278|GLB1 variant H281Y",
+        "fasta_sequence": "MPGFLVRILPLLLVLLLLGPTRGLRNATQRMFEIDYSRDSFLKDGQPFRYISGSIHYSRVPRFYWKDRLLKMKMAGLNAIQTYVPWNFHEPWPGQYQFSEDHDVEYFLRLAHELGLLVILRPGPYICAEWEMGGLPAWLLEKESILLRSSDPDYLAAVDKWLGVLLPKMKPLLYQNGGPVITVQVENEYGSYFACDFDYLRFLQKRFRHHLGDDVVLFTTDGAHKTFLKCGALQGLYTTVDFGTGSNITDAFLSQRKCEPKGPLINSEFYTGWLDHWGQPHSTIKTEAVASSLYDILARGASVNLYMFIGGTNFAYWNGANSPYAAQPTSYDYDAPLSEAGDLTEKYFALRNIIQKFEKVPEGPIPPSTPKFAYGKVTLEKLKTVGAALDILCPSGPIKSLYPLTFIQVKQHYGFVLYRTTLPQDCSNPAPLSSPLNGVHDRAYVAVDGIPQGVLERNNVITLNITGKAGATLDLLVENMGRVNYGAYINDFKGLVSNLTLSSNILTDWTIFPLDTEDAVRSHLGGWGHRDSGHHDEAWAHNSSNYTLPAFYMGNFSIPSGIPDLPQDTFIQFPGWTKGQVWINGFNLGRYWPARGPQLTLFVPQHILMTSAPNTITVLELEWAPCSSDDPELCAVTFVDRPVIGSSVTYDHPSKPVEKRLMPPPPQKNKDSWLDHV",
+        "full_sequence": "MPGFLVRILPLLLVLLLLGPTRGLRNATQRMFEIDYSRDSFLKDGQPFRYISGSIHYSRVPRFYWKDRLLKMKMAGLNAIQTYVPWNFHEPWPGQYQFSEDHDVEYFLRLAHELGLLVILRPGPYICAEWEMGGLPAWLLEKESILLRSSDPDYLAAVDKWLGVLLPKMKPLLYQNGGPVITVQVENEYGSYFACDFDYLRFLQKRFRHHLGDDVVLFTTDGAHKTFLKCGALQGLYTTVDFGTGSNITDAFLSQRKCEPKGPLINSEFYTGWLDHWGQPHSTIKTEAVASSLYDILARGASVNLYMFIGGTNFAYWNGANSPYAAQPTSYDYDAPLSEAGDLTEKYFALRNIIQKFEKVPEGPIPPSTPKFAYGKVTLEKLKTVGAALDILCPSGPIKSLYPLTFIQVKQHYGFVLYRTTLPQDCSNPAPLSSPLNGVHDRAYVAVDGIPQGVLERNNVITLNITGKAGATLDLLVENMGRVNYGAYINDFKGLVSNLTLSSNILTDWTIFPLDTEDAVRSHLGGWGHRDSGHHDEAWAHNSSNYTLPAFYMGNFSIPSGIPDLPQDTFIQFPGWTKGQVWINGFNLGRYWPARGPQLTLFVPQHILMTSAPNTITVLELEWAPCSSDDPELCAVTFVDRPVIGSSVTYDHPSKPVEKRLMPPPPQKNKDSWLDHV",
+        "n_residues": 677,
+        "mutation_pos_1indexed": 281,
+        "wt_aa": "H",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "P280-H281-S282-T283",
+        "pocket_lining_positions_precursor": [
+          280,
+          281,
+          282,
+          283
+        ],
+        "pocket_lining_1letter": "PHST",
+        "sequence_slice_around_pocket": "TGWLDHWGQPHSTIKTEAVA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GLB1_H281Y/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "P280",
+          "H281",
+          "S282",
+          "T283"
+        ],
+        "values": [
+          [
+            0.0,
+            3.821,
+            6.179,
+            8.981
+          ],
+          [
+            3.821,
+            0.0,
+            3.819,
+            6.444
+          ],
+          [
+            6.179,
+            3.819,
+            0.0,
+            3.826
+          ],
+          [
+            8.981,
+            6.444,
+            3.826,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1N1CCCCC1",
+        "composite_score": 0.5632961113445799,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.82,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GLB1-H281Y Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5633,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GLB1_H281Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GLB1_H281Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GLB1_H281Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GLB1_H281Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GLB1_H281Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GLB1-H281Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GLB1-H281Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:53:48.339840+00:00"
     }
   ]
 }
