@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2433,
+  "total_entries": 2434,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47194,
-    "queue_remaining": 131403
+    "total_processed": 47195,
+    "queue_remaining": 131402
   },
   "entries": [
     {
@@ -568907,6 +568907,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:19:52.922258+00:00"
+    },
+    {
+      "entry_id": "PCD-STXBP1-T361I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STXBP1-T361I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "STXBP1",
+        "uniprot": "",
+        "clinvar_id": "374223",
+        "disease": "Epileptic encephalopathy",
+        "mutation_precursor": "T361I",
+        "mutation_mature": "T361I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7849546114598943,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 566.7142702408388,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          17.206661224365234,
+          17.56915283203125,
+          -12.335471153259277
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.633489121439742,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8999071781703626,
+        "cryptic": true,
+        "pocket_residues": {
+          "T361": "T",
+          "V362": "V",
+          "D363": "D",
+          "K364": "K",
+          "L365": "L",
+          "I393": "I",
+          "D396": "D",
+          "N398": "N",
+          "V399": "V",
+          "D403": "D"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P61764|STXBP1 variant T361I",
+        "fasta_sequence": "MAPIGLKAVVGEKIMHDVIKKVKKKGEWKVLVVDQLSMRMLSSCCKMTDIMTEGITIVEDINKRREPLPSLEAVYLITPSEKSVHSLISDFKDPPTAKYRAAHVFFTDSCPDALFNELVKSRAAKVIKTLTEINIAFLPYESQVYSLDSADSFQSFYSPHKAQMKNPILERLAEQIATLCATLKEYPAVRYRGEYKDNALLAQLIQDKLDAYKADDPTMGEGPDKARSQLLILDRGFDPSSPVLHELTFQAMSYDLLPIENDVYKYETSGIGEARVKEVLLDEDDDLWIALRHKHIAEVSQEVTRSLKDFSSSKRMNTGEKTTMRDLSQMLKKMPQYQKELSKYSTHLHLAEDCMKHYQGTVDKLCRVEQDLAMGTDAEGEKIKDPMRAIVPILLDANVSTYDKIRIILLYIFLKNGITEENLNKLIQHAQIPPEDSEIITNMAHLGVPIVTDSTLRRRSKPERKERISEQTYQLSRWTPIIKDIMEDTIEDKLDTKHYPYISTRSSASFSTTAVSARYGHWHKNKAPGEYRSGPRLIIFILGGVSLNEMRCAYEVTQANGKWEVLIGSTHILTPQKLLDTLKKLNKTDEEISS",
+        "full_sequence": "MAPIGLKAVVGEKIMHDVIKKVKKKGEWKVLVVDQLSMRMLSSCCKMTDIMTEGITIVEDINKRREPLPSLEAVYLITPSEKSVHSLISDFKDPPTAKYRAAHVFFTDSCPDALFNELVKSRAAKVIKTLTEINIAFLPYESQVYSLDSADSFQSFYSPHKAQMKNPILERLAEQIATLCATLKEYPAVRYRGEYKDNALLAQLIQDKLDAYKADDPTMGEGPDKARSQLLILDRGFDPSSPVLHELTFQAMSYDLLPIENDVYKYETSGIGEARVKEVLLDEDDDLWIALRHKHIAEVSQEVTRSLKDFSSSKRMNTGEKTTMRDLSQMLKKMPQYQKELSKYSTHLHLAEDCMKHYQGTVDKLCRVEQDLAMGTDAEGEKIKDPMRAIVPILLDANVSTYDKIRIILLYIFLKNGITEENLNKLIQHAQIPPEDSEIITNMAHLGVPIVTDSTLRRRSKPERKERISEQTYQLSRWTPIIKDIMEDTIEDKLDTKHYPYISTRSSASFSTTAVSARYGHWHKNKAPGEYRSGPRLIIFILGGVSLNEMRCAYEVTQANGKWEVLIGSTHILTPQKLLDTLKKLNKTDEEISS",
+        "n_residues": 594,
+        "mutation_pos_1indexed": 361,
+        "wt_aa": "T",
+        "mut_aa": "I",
+        "pocket_lining_residues": "T361-V362-D363-K364-L365-I393-D396-N398-V399-D403",
+        "pocket_lining_positions_precursor": [
+          361,
+          362,
+          363,
+          364,
+          365,
+          393,
+          396,
+          398,
+          399,
+          403
+        ],
+        "pocket_lining_1letter": "TVDKLIDNVD",
+        "sequence_slice_around_pocket": "AEDCMKHYQGTVDKLCRVEQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP1_T361I/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "T361",
+          "V362",
+          "D363",
+          "K364",
+          "L365",
+          "I393",
+          "D396",
+          "N398",
+          "V399",
+          "D403"
+        ],
+        "values": [
+          [
+            0.0,
+            3.838,
+            5.78,
+            6.108,
+            6.71,
+            9.771,
+            10.111,
+            7.59,
+            6.904,
+            9.665
+          ],
+          [
+            3.838,
+            0.0,
+            3.875,
+            5.571,
+            4.88,
+            10.796,
+            12.647,
+            10.787,
+            8.929,
+            8.963
+          ],
+          [
+            5.78,
+            3.875,
+            0.0,
+            3.854,
+            5.453,
+            11.598,
+            13.972,
+            13.001,
+            11.584,
+            12.079
+          ],
+          [
+            6.108,
+            5.571,
+            3.854,
+            0.0,
+            3.859,
+            8.22,
+            11.156,
+            11.584,
+            10.005,
+            11.09
+          ],
+          [
+            6.71,
+            4.88,
+            5.453,
+            3.859,
+            0.0,
+            7.524,
+            11.188,
+            11.544,
+            8.824,
+            7.829
+          ],
+          [
+            9.771,
+            10.796,
+            11.598,
+            8.22,
+            7.524,
+            0.0,
+            5.256,
+            8.974,
+            6.843,
+            8.849
+          ],
+          [
+            10.111,
+            12.647,
+            13.972,
+            11.156,
+            11.188,
+            5.256,
+            0.0,
+            5.461,
+            5.617,
+            10.755
+          ],
+          [
+            7.59,
+            10.787,
+            13.001,
+            11.584,
+            11.544,
+            8.974,
+            5.461,
+            0.0,
+            3.859,
+            10.175
+          ],
+          [
+            6.904,
+            8.929,
+            11.584,
+            10.005,
+            8.824,
+            6.843,
+            5.617,
+            3.859,
+            0.0,
+            6.397
+          ],
+          [
+            9.665,
+            8.963,
+            12.079,
+            11.09,
+            7.829,
+            8.849,
+            10.755,
+            10.175,
+            6.397,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CC(=O)CCC1OCNc1nc2ccccc2[nH]1",
+        "composite_score": 0.8114345691649337,
+        "mw": 366.18,
+        "logp": 1.998,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.5725,
+        "sa_score": 3.64,
+        "n_heavy_atoms": 27,
+        "tpsa": 109.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "STXBP1-T361I Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CC(=O)CCC1OCNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8114,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP1_T361I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP1_T361I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP1_T361I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP1_T361I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/STXBP1_T361I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STXBP1-T361I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STXBP1-T361I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:20:25.811445+00:00"
     }
   ]
 }
