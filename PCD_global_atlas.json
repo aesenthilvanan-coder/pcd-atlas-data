@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2026,
+  "total_entries": 2027,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46731,
-    "queue_remaining": 131866
+    "total_processed": 46733,
+    "queue_remaining": 131864
   },
   "entries": [
     {
@@ -462097,6 +462097,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:44:40.433535+00:00"
+    },
+    {
+      "entry_id": "PCD-BRAF-L525R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BRAF-L525R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BRAF",
+        "uniprot": "",
+        "clinvar_id": "372626",
+        "disease": "not provided",
+        "mutation_precursor": "L525R",
+        "mutation_mature": "L525R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7893109062454302,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 540.8318122389512,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -14.58739185333252,
+          -0.06815624237060547,
+          20.80296516418457
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.902785970672356,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8589762353854375,
+        "cryptic": true,
+        "pocket_residues": {
+          "E451": "E",
+          "I452": "I",
+          "Y519": "Y",
+          "S520": "S",
+          "T521": "T",
+          "K522": "K",
+          "P523": "P",
+          "Q524": "Q",
+          "L525": "L",
+          "A526": "A"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P15056|BRAF variant L525R",
+        "fasta_sequence": "MAALSGGGGGGAEPGQALFNGDMEPEAGAGAGAAASSAADPAIPEEVWNIKQMIKLTQEHIEALLDKFGGEHNPPSIYLEAYEEYTSKLDALQQREQQLLESLGNGTDFSVSSSASMDTVTSSSSSSLSVLPSSLSVFQNPTDVARSNPKSPQKPIVRVFLPNKQRTVVPARCGVTVRDSLKKALMMRGLIPECCAVYRIQDGEKKPIGWDTDISWLTGEELHVEVLENVPLTTHNFVRKTFFTLAFCDFCRKLLFQGFRCQTCGYKFHQRCSTEVPLMCVNYDQLDLLFVSKFFEHHPIPQEEASLAETALTSGSSPSAPASDSIGPQILTSPSPSKSIPIPQPFRPADEDHRNQFGQRDRSSSAPNVHINTIEPVNIDDLIRDQGFRGDGGSTTGLSATPPASLPGSLTNVKALQKSPGPQRERKSSSSSEDRNRMKTLGRRDSSDDWEIPDGQITVGQRIGSGSFGTVYKGKWHGDVAVKMLNVTAPTPQQLQAFKNEVGVLRKTRHVNILLFMGYSTKPQLAIVTQWCEGSSLYHHLHIIETKFEMIKLIDIARQTAQGMDYLHAKSIIHRDLKSNNIFLHEDLTVKIGDFGLATVKSRWSGSHQFEQLSGSILWMAPEVIRMQDKNPYSFQSDVYAFGIVLYELMTGQLPYSNINNRDQIIFMVGRGYLSPDLSKVRSNCPKAMKRLMAECLKKKRDERPLFPQILASIELLARSLPKIHRSASEPSLNRAGFQTEDFSLYACASPKTPIQAGGYGAFPVH",
+        "full_sequence": "MAALSGGGGGGAEPGQALFNGDMEPEAGAGAGAAASSAADPAIPEEVWNIKQMIKLTQEHIEALLDKFGGEHNPPSIYLEAYEEYTSKLDALQQREQQLLESLGNGTDFSVSSSASMDTVTSSSSSSLSVLPSSLSVFQNPTDVARSNPKSPQKPIVRVFLPNKQRTVVPARCGVTVRDSLKKALMMRGLIPECCAVYRIQDGEKKPIGWDTDISWLTGEELHVEVLENVPLTTHNFVRKTFFTLAFCDFCRKLLFQGFRCQTCGYKFHQRCSTEVPLMCVNYDQLDLLFVSKFFEHHPIPQEEASLAETALTSGSSPSAPASDSIGPQILTSPSPSKSIPIPQPFRPADEDHRNQFGQRDRSSSAPNVHINTIEPVNIDDLIRDQGFRGDGGSTTGLSATPPASLPGSLTNVKALQKSPGPQRERKSSSSSEDRNRMKTLGRRDSSDDWEIPDGQITVGQRIGSGSFGTVYKGKWHGDVAVKMLNVTAPTPQQLQAFKNEVGVLRKTRHVNILLFMGYSTKPQLAIVTQWCEGSSLYHHLHIIETKFEMIKLIDIARQTAQGMDYLHAKSIIHRDLKSNNIFLHEDLTVKIGDFGLATVKSRWSGSHQFEQLSGSILWMAPEVIRMQDKNPYSFQSDVYAFGIVLYELMTGQLPYSNINNRDQIIFMVGRGYLSPDLSKVRSNCPKAMKRLMAECLKKKRDERPLFPQILASIELLARSLPKIHRSASEPSLNRAGFQTEDFSLYACASPKTPIQAGGYGAFPVH",
+        "n_residues": 766,
+        "mutation_pos_1indexed": 525,
+        "wt_aa": "L",
+        "mut_aa": "R",
+        "pocket_lining_residues": "E451-I452-Y519-S520-T521-K522-P523-Q524-L525-A526",
+        "pocket_lining_positions_precursor": [
+          451,
+          452,
+          519,
+          520,
+          521,
+          522,
+          523,
+          524,
+          525,
+          526
+        ],
+        "pocket_lining_1letter": "EIYSTKPQLA",
+        "sequence_slice_around_pocket": "LFMGYSTKPQLAIVTQWCEG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BRAF_L525R/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "E451",
+          "I452",
+          "Y519",
+          "S520",
+          "T521",
+          "K522",
+          "P523",
+          "Q524",
+          "L525",
+          "A526"
+        ],
+        "values": [
+          [
+            0.0,
+            3.838,
+            5.169,
+            5.362,
+            7.5,
+            9.714,
+            12.497,
+            12.221,
+            10.472,
+            9.861
+          ],
+          [
+            3.838,
+            0.0,
+            5.799,
+            5.119,
+            8.117,
+            8.881,
+            11.211,
+            11.709,
+            10.827,
+            9.508
+          ],
+          [
+            5.169,
+            5.799,
+            0.0,
+            3.813,
+            7.012,
+            9.488,
+            11.595,
+            10.114,
+            7.526,
+            5.544
+          ],
+          [
+            5.362,
+            5.119,
+            3.813,
+            0.0,
+            3.825,
+            5.709,
+            8.004,
+            7.17,
+            5.717,
+            5.107
+          ],
+          [
+            7.5,
+            8.117,
+            7.012,
+            3.825,
+            0.0,
+            3.866,
+            6.397,
+            5.3,
+            4.496,
+            6.518
+          ],
+          [
+            9.714,
+            8.881,
+            9.488,
+            5.709,
+            3.866,
+            0.0,
+            2.988,
+            4.458,
+            6.372,
+            8.007
+          ],
+          [
+            12.497,
+            11.211,
+            11.595,
+            8.004,
+            6.397,
+            2.988,
+            0.0,
+            3.879,
+            7.25,
+            8.831
+          ],
+          [
+            12.221,
+            11.709,
+            10.114,
+            7.17,
+            5.3,
+            4.458,
+            3.879,
+            0.0,
+            3.847,
+            6.228
+          ],
+          [
+            10.472,
+            10.827,
+            7.526,
+            5.717,
+            4.496,
+            6.372,
+            7.25,
+            3.847,
+            0.0,
+            3.836
+          ],
+          [
+            9.861,
+            9.508,
+            5.544,
+            5.107,
+            6.518,
+            8.007,
+            8.831,
+            6.228,
+            3.836,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "composite_score": 0.8301983468321599,
+        "mw": 377.19,
+        "logp": 1.989,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.6094,
+        "sa_score": 3.19,
+        "n_heavy_atoms": 28,
+        "tpsa": 104.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BRAF-L525R Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8302,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BRAF_L525R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BRAF_L525R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BRAF_L525R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BRAF_L525R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BRAF_L525R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BRAF-L525R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BRAF-L525R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:45:25.183745+00:00"
     }
   ]
 }
