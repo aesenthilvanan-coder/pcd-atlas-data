@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1466,
+  "total_entries": 1467,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46112,
-    "queue_remaining": 132485
+    "total_processed": 46113,
+    "queue_remaining": 132484
   },
   "entries": [
     {
@@ -324728,6 +324728,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:06:08.315633+00:00"
+    },
+    {
+      "entry_id": "PCD-CHRNB1-G189R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNB1-G189R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CHRNB1",
+        "uniprot": "",
+        "clinvar_id": "325079",
+        "disease": "Congenital myasthenic syndrome 4C",
+        "mutation_precursor": "G189R",
+        "mutation_mature": "G189R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.837345935386584,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 308.2099099982273,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.351797103881836,
+          16.509395599365234,
+          -33.86067199707031
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.820459603042221,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7752195556596148,
+        "cryptic": true,
+        "pocket_residues": {
+          "L185": "L",
+          "G186": "G",
+          "P187": "P",
+          "D188": "D",
+          "G189": "G"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P11230|CHRNB1 variant G189R",
+        "fasta_sequence": "MTPGALLMLLGALGAPLAPGVRGSEAEGRLREKLFSGYDSSVRPAREVGDRVRVSVGLILAQLISLNEKDEEMSTKVYLDLEWTDYRLSWDPAEHDGIDSLRITAESVWLPDVVLLNNNDGNFDVALDISVVVSSDGSVRWQPPGIYRSSCSIQVTYFPFDWQNCTMVFSSYSYDSSEVSLQTGLGPDGQGHQEIHIHEGTFIENGQWEIIHKPSRLIQPPGDPRGGREGQRQEVIFYLIIRRKPLFYLVNVIAPCILITLLAIFVFYLPPDAGEKMGLSIFALLTLTVFLLLLADKVPETSLSVPIIIKYLMFTMVLVTFSVILSVVVLNLHHRSPHTHQMPLWVRQIFIHKLPLYLRLKRPKPERDLMPEPPHCSSPGSGWGRGTDEYFIRKPPSDFLFPKPNRFQPELSAPDLRRFIDGPNRAVALLPELREVVSSISYIARQLQEQEDHDALKEDWQFVAMVVDRLFLWTFIIFTSVGTLVIFLDATYHLPPPDPFP",
+        "full_sequence": "MTPGALLMLLGALGAPLAPGVRGSEAEGRLREKLFSGYDSSVRPAREVGDRVRVSVGLILAQLISLNEKDEEMSTKVYLDLEWTDYRLSWDPAEHDGIDSLRITAESVWLPDVVLLNNNDGNFDVALDISVVVSSDGSVRWQPPGIYRSSCSIQVTYFPFDWQNCTMVFSSYSYDSSEVSLQTGLGPDGQGHQEIHIHEGTFIENGQWEIIHKPSRLIQPPGDPRGGREGQRQEVIFYLIIRRKPLFYLVNVIAPCILITLLAIFVFYLPPDAGEKMGLSIFALLTLTVFLLLLADKVPETSLSVPIIIKYLMFTMVLVTFSVILSVVVLNLHHRSPHTHQMPLWVRQIFIHKLPLYLRLKRPKPERDLMPEPPHCSSPGSGWGRGTDEYFIRKPPSDFLFPKPNRFQPELSAPDLRRFIDGPNRAVALLPELREVVSSISYIARQLQEQEDHDALKEDWQFVAMVVDRLFLWTFIIFTSVGTLVIFLDATYHLPPPDPFP",
+        "n_residues": 501,
+        "mutation_pos_1indexed": 189,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "L185-G186-P187-D188-G189",
+        "pocket_lining_positions_precursor": [
+          185,
+          186,
+          187,
+          188,
+          189
+        ],
+        "pocket_lining_1letter": "LGPDG",
+        "sequence_slice_around_pocket": "VSLQTGLGPDGQGHQEIHIH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNB1_G189R/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "L185",
+          "G186",
+          "P187",
+          "D188",
+          "G189"
+        ],
+        "values": [
+          [
+            0.0,
+            3.805,
+            6.793,
+            7.726,
+            5.466
+          ],
+          [
+            3.805,
+            0.0,
+            3.826,
+            5.221,
+            5.177
+          ],
+          [
+            6.793,
+            3.826,
+            0.0,
+            3.867,
+            5.701
+          ],
+          [
+            7.726,
+            5.221,
+            3.867,
+            0.0,
+            3.884
+          ],
+          [
+            5.466,
+            5.177,
+            5.701,
+            3.884,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "composite_score": 0.7493013731507162,
+        "mw": 220.16,
+        "logp": 2.144,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8479,
+        "sa_score": 1.89,
+        "n_heavy_atoms": 16,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CHRNB1-G189R Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.7493,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNB1_G189R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNB1_G189R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNB1_G189R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNB1_G189R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRNB1_G189R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNB1-G189R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRNB1-G189R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:06:31.733203+00:00"
     }
   ]
 }
