@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1753,
+  "total_entries": 1754,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46425,
-    "queue_remaining": 132172
+    "total_processed": 46426,
+    "queue_remaining": 132171
   },
   "entries": [
     {
@@ -390386,6 +390386,279 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:34:02.590227+00:00"
+    },
+    {
+      "entry_id": "PCD-HGD-R53Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HGD-R53Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "HGD",
+        "uniprot": "",
+        "clinvar_id": "370939",
+        "disease": "Alkaptonuria",
+        "mutation_precursor": "R53Q",
+        "mutation_mature": "R53Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8730550117412437,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 396.6174622086581,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          4.223823070526123,
+          20.688997268676758,
+          16.007713317871094
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.2729863467916465,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.831662742040074,
+        "cryptic": true,
+        "pocket_residues": {
+          "S47": "S",
+          "A48": "A",
+          "F49": "F",
+          "T50": "T",
+          "C51": "C",
+          "P52": "P",
+          "R53": "R",
+          "S54": "S",
+          "T55": "T",
+          "N56": "N",
+          "K57": "K"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q93099|HGD variant R53Q",
+        "fasta_sequence": "MAELKYISGFGNECSSEDPRCPGSLPEGQNNPQVCPYNLYAEQLSGSAFTCPRSTNKRSWLYRILPSVSHKPFESIDEGQVTHNWDEVDPDPNQLRWKPFEIPKASQKKVDFVSGLHTLCGAGDIKSNNGLAIHIFLCNTSMENRCFYNSDGDFLIVPQKGNLLIYTEFGKMLVQPNEICVIQRGMRFSIDVFEETRGYILEVYGVHFELPDLGPIGANGLANPRDFLIPIAWYEDRQVPGGYTVINKYQGKLFAAKQDVSPFNVVAWHGNYTPYKYNLKNFMVINSVAFDHADPSIFTVLTAKSVRPGVAIADFVIFPPRWGVADKTFRPPYYHRNCMSEFMGLIRGHYEAKQGGFLPGGGSLHSTMTPHGPDADCFEKASKVKLAPERIADGTMAFMFESSLSLAVTKWGLKASRCLDENYHKCWEPLKSHFTPNSRNPAEPN",
+        "full_sequence": "MAELKYISGFGNECSSEDPRCPGSLPEGQNNPQVCPYNLYAEQLSGSAFTCPRSTNKRSWLYRILPSVSHKPFESIDEGQVTHNWDEVDPDPNQLRWKPFEIPKASQKKVDFVSGLHTLCGAGDIKSNNGLAIHIFLCNTSMENRCFYNSDGDFLIVPQKGNLLIYTEFGKMLVQPNEICVIQRGMRFSIDVFEETRGYILEVYGVHFELPDLGPIGANGLANPRDFLIPIAWYEDRQVPGGYTVINKYQGKLFAAKQDVSPFNVVAWHGNYTPYKYNLKNFMVINSVAFDHADPSIFTVLTAKSVRPGVAIADFVIFPPRWGVADKTFRPPYYHRNCMSEFMGLIRGHYEAKQGGFLPGGGSLHSTMTPHGPDADCFEKASKVKLAPERIADGTMAFMFESSLSLAVTKWGLKASRCLDENYHKCWEPLKSHFTPNSRNPAEPN",
+        "n_residues": 445,
+        "mutation_pos_1indexed": 53,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "S47-A48-F49-T50-C51-P52-R53-S54-T55-N56-K57",
+        "pocket_lining_positions_precursor": [
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57
+        ],
+        "pocket_lining_1letter": "SAFTCPRSTNK",
+        "sequence_slice_around_pocket": "QLSGSAFTCPRSTNKRSWLY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/HGD_R53Q/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "S47",
+          "A48",
+          "F49",
+          "T50",
+          "C51",
+          "P52",
+          "R53",
+          "S54",
+          "T55",
+          "N56",
+          "K57"
+        ],
+        "values": [
+          [
+            0.0,
+            3.804,
+            6.303,
+            8.315,
+            6.768,
+            9.858,
+            10.453,
+            10.918,
+            7.478,
+            5.633,
+            5.106
+          ],
+          [
+            3.804,
+            0.0,
+            3.849,
+            5.575,
+            5.604,
+            9.383,
+            10.898,
+            12.279,
+            9.187,
+            7.055,
+            8.059
+          ],
+          [
+            6.303,
+            3.849,
+            0.0,
+            3.859,
+            5.721,
+            8.789,
+            9.683,
+            12.17,
+            10.058,
+            6.946,
+            8.489
+          ],
+          [
+            8.315,
+            5.575,
+            3.859,
+            0.0,
+            3.834,
+            6.415,
+            8.533,
+            11.148,
+            9.533,
+            7.442,
+            10.348
+          ],
+          [
+            6.768,
+            5.604,
+            5.721,
+            3.834,
+            0.0,
+            3.858,
+            6.38,
+            7.945,
+            5.893,
+            4.883,
+            8.26
+          ],
+          [
+            9.858,
+            9.383,
+            8.789,
+            6.415,
+            3.858,
+            0.0,
+            3.851,
+            5.527,
+            5.533,
+            5.752,
+            9.591
+          ],
+          [
+            10.453,
+            10.898,
+            9.683,
+            8.533,
+            6.38,
+            3.851,
+            0.0,
+            3.874,
+            5.542,
+            4.975,
+            8.247
+          ],
+          [
+            10.918,
+            12.279,
+            12.17,
+            11.148,
+            7.945,
+            5.527,
+            3.874,
+            0.0,
+            3.866,
+            5.88,
+            8.372
+          ],
+          [
+            7.478,
+            9.187,
+            10.058,
+            9.533,
+            5.893,
+            5.533,
+            5.542,
+            3.866,
+            0.0,
+            3.84,
+            6.131
+          ],
+          [
+            5.633,
+            7.055,
+            6.946,
+            7.442,
+            4.883,
+            5.752,
+            4.975,
+            5.88,
+            3.84,
+            0.0,
+            3.859
+          ],
+          [
+            5.106,
+            8.059,
+            8.489,
+            10.348,
+            8.26,
+            9.591,
+            8.247,
+            8.372,
+            6.131,
+            3.859,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.5733317687609305,
+        "mw": 276.18,
+        "logp": 2.016,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 6,
+        "qed": 0.8628,
+        "sa_score": 2.25,
+        "n_heavy_atoms": 20,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "HGD-R53Q Candidate #1",
+        "iupac_name": "CNCC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5733,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/HGD_R53Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/HGD_R53Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/HGD_R53Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/HGD_R53Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/HGD_R53Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HGD-R53Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-HGD-R53Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:34:28.022670+00:00"
     }
   ]
 }
