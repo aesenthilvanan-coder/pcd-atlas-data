@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2336,
+  "total_entries": 2337,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47073,
-    "queue_remaining": 131524
+    "total_processed": 47074,
+    "queue_remaining": 131523
   },
   "entries": [
     {
@@ -541736,6 +541736,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:56:20.569150+00:00"
+    },
+    {
+      "entry_id": "PCD-IL2RG-W240R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL2RG-W240R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "IL2RG",
+        "uniprot": "",
+        "clinvar_id": "372730",
+        "disease": "not provided",
+        "mutation_precursor": "W240R",
+        "mutation_mature": "W240R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7563083775836945,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 389.9616522043954,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -6.4420294761657715,
+          -1.385217308998108,
+          7.112000465393066
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.5253312851652003,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7860258258364913,
+        "cryptic": true,
+        "pocket_residues": {
+          "A156": "A",
+          "R222": "R",
+          "V223": "V",
+          "R224": "R",
+          "E239": "E",
+          "W240": "W",
+          "S241": "S",
+          "H242": "H",
+          "P243": "P"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P31785|IL2RG variant W240R",
+        "fasta_sequence": "MLKPSLPFTSLLFLQLPLLGVGLNTTILTPNGNEDTTADFFLTTMPTDSLSVSTLPLPEVQCFVFNVEYMNCTWNSSSEPQPTNLTLHYWYKNSDNDKVQKCSHYLFSEEITSGCQLQKKEIHLYQTFVVQLQDPREPRRQATQMLKLQNLVIPWAPENLTLHKLSESQLELNWNNRFLNHCLEHLVQYRTDWDHSWTEQSVDYRHKFSLPSVDGQKRYTFRVRSRFNPLCGSAQHWSEWSHPIHWGSNTSKENPFLFALEAVVISVGSMGLIISLLCVYFWLERTMPRIPTLKNLEDLVTEYHGNFSAWSGVSKGLAESLQPDYSERLCLVSEIPPKGGALGEGPGASPCNQHSPYWAPPCYTLKPET",
+        "full_sequence": "MLKPSLPFTSLLFLQLPLLGVGLNTTILTPNGNEDTTADFFLTTMPTDSLSVSTLPLPEVQCFVFNVEYMNCTWNSSSEPQPTNLTLHYWYKNSDNDKVQKCSHYLFSEEITSGCQLQKKEIHLYQTFVVQLQDPREPRRQATQMLKLQNLVIPWAPENLTLHKLSESQLELNWNNRFLNHCLEHLVQYRTDWDHSWTEQSVDYRHKFSLPSVDGQKRYTFRVRSRFNPLCGSAQHWSEWSHPIHWGSNTSKENPFLFALEAVVISVGSMGLIISLLCVYFWLERTMPRIPTLKNLEDLVTEYHGNFSAWSGVSKGLAESLQPDYSERLCLVSEIPPKGGALGEGPGASPCNQHSPYWAPPCYTLKPET",
+        "n_residues": 369,
+        "mutation_pos_1indexed": 240,
+        "wt_aa": "W",
+        "mut_aa": "R",
+        "pocket_lining_residues": "A156-R222-V223-R224-E239-W240-S241-H242-P243",
+        "pocket_lining_positions_precursor": [
+          156,
+          222,
+          223,
+          224,
+          239,
+          240,
+          241,
+          242,
+          243
+        ],
+        "pocket_lining_1letter": "ARVREWSHP",
+        "sequence_slice_around_pocket": "LCGSAQHWSEWSHPIHWGSN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/IL2RG_W240R/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "A156",
+          "R222",
+          "V223",
+          "R224",
+          "E239",
+          "W240",
+          "S241",
+          "H242",
+          "P243"
+        ],
+        "values": [
+          [
+            0.0,
+            9.94,
+            7.747,
+            5.836,
+            5.118,
+            5.69,
+            5.186,
+            8.379,
+            11.12
+          ],
+          [
+            9.94,
+            0.0,
+            3.83,
+            7.102,
+            10.135,
+            6.391,
+            5.566,
+            6.572,
+            4.69
+          ],
+          [
+            7.747,
+            3.83,
+            0.0,
+            3.834,
+            8.677,
+            5.723,
+            5.358,
+            8.196,
+            7.859
+          ],
+          [
+            5.836,
+            7.102,
+            3.834,
+            0.0,
+            6.103,
+            4.823,
+            6.123,
+            9.773,
+            10.567
+          ],
+          [
+            5.118,
+            10.135,
+            8.677,
+            6.103,
+            0.0,
+            3.813,
+            6.565,
+            9.342,
+            11.523
+          ],
+          [
+            5.69,
+            6.391,
+            5.723,
+            4.823,
+            3.813,
+            0.0,
+            3.798,
+            6.565,
+            7.972
+          ],
+          [
+            5.186,
+            5.566,
+            5.358,
+            6.123,
+            6.565,
+            3.798,
+            0.0,
+            3.787,
+            5.944
+          ],
+          [
+            8.379,
+            6.572,
+            8.196,
+            9.773,
+            9.342,
+            6.565,
+            3.787,
+            0.0,
+            3.842
+          ],
+          [
+            11.12,
+            4.69,
+            7.859,
+            10.567,
+            11.523,
+            7.972,
+            5.944,
+            3.842,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8319844972757493,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "IL2RG-W240R Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.832,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/IL2RG_W240R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/IL2RG_W240R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/IL2RG_W240R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/IL2RG_W240R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/IL2RG_W240R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL2RG-W240R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-IL2RG-W240R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:56:48.167716+00:00"
     }
   ]
 }
