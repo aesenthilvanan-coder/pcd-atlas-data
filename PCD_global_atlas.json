@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2137,
+  "total_entries": 2138,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46853,
-    "queue_remaining": 131744
+    "total_processed": 46854,
+    "queue_remaining": 131743
   },
   "entries": [
     {
@@ -489780,6 +489780,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T08:10:06.778503+00:00"
+    },
+    {
+      "entry_id": "PCD-CLN5-G142R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLN5-G142R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CLN5",
+        "uniprot": "",
+        "clinvar_id": "373760",
+        "disease": "not specified",
+        "mutation_precursor": "G142R",
+        "mutation_mature": "G142R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9140540524979335,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 338.2997029001894,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.367143154144287,
+          13.294010162353516,
+          -2.912825107574463
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.343168405157061,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6949034578418877,
+        "cryptic": true,
+        "pocket_residues": {
+          "A72": "A",
+          "K73": "K",
+          "W102": "W",
+          "Q140": "Q",
+          "L141": "L",
+          "G142": "G"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O75503|CLN5 variant G142R",
+        "fasta_sequence": "MAQEVDTAQGAEMRRGAGAARGRASWCWALALLWLAVVPGWSRVSGIPSRRHWPVPYKRFDFRPKPDPYCQAKYTFCPTGSPIPVMEGDDDIEVFRLQAPVWEFKYGDLLGHLKIMHDAIGFRSTLTGKNYTMEWYELFQLGNCTFPHLRPEMDAPFWCNQGAACFFEGIDDVHWKENGTLVQVATISGNMFNQMAKWVKQDNETGIYYETWNVKASPEKGAETWFDSYDCSKFVLRTFNKLAEFGAEFKNIETNYTRIFLYSGEPTYLGNETSVFGPTGNKTLGLAIKRFYYPFKPHLPTKEFLLSLLQIFDAVIVHKQFYLFYNFEYWFLPMKFPFIKITYEEIPLPIRNKTLSGL",
+        "full_sequence": "MAQEVDTAQGAEMRRGAGAARGRASWCWALALLWLAVVPGWSRVSGIPSRRHWPVPYKRFDFRPKPDPYCQAKYTFCPTGSPIPVMEGDDDIEVFRLQAPVWEFKYGDLLGHLKIMHDAIGFRSTLTGKNYTMEWYELFQLGNCTFPHLRPEMDAPFWCNQGAACFFEGIDDVHWKENGTLVQVATISGNMFNQMAKWVKQDNETGIYYETWNVKASPEKGAETWFDSYDCSKFVLRTFNKLAEFGAEFKNIETNYTRIFLYSGEPTYLGNETSVFGPTGNKTLGLAIKRFYYPFKPHLPTKEFLLSLLQIFDAVIVHKQFYLFYNFEYWFLPMKFPFIKITYEEIPLPIRNKTLSGL",
+        "n_residues": 358,
+        "mutation_pos_1indexed": 142,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "A72-K73-W102-Q140-L141-G142",
+        "pocket_lining_positions_precursor": [
+          72,
+          73,
+          102,
+          140,
+          141,
+          142
+        ],
+        "pocket_lining_1letter": "AKWQLG",
+        "sequence_slice_around_pocket": "TMEWYELFQLGNCTFPHLRP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CLN5_G142R/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "A72",
+          "K73",
+          "W102",
+          "Q140",
+          "L141",
+          "G142"
+        ],
+        "values": [
+          [
+            0.0,
+            3.838,
+            13.633,
+            5.945,
+            9.692,
+            10.254
+          ],
+          [
+            3.838,
+            0.0,
+            12.535,
+            7.939,
+            11.398,
+            11.57
+          ],
+          [
+            13.633,
+            12.535,
+            0.0,
+            10.284,
+            10.102,
+            11.809
+          ],
+          [
+            5.945,
+            7.939,
+            10.284,
+            0.0,
+            3.85,
+            5.778
+          ],
+          [
+            9.692,
+            11.398,
+            10.102,
+            3.85,
+            0.0,
+            3.846
+          ],
+          [
+            10.254,
+            11.57,
+            11.809,
+            5.778,
+            3.846,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.7040401333816887,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CLN5-G142R Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.704,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CLN5_G142R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CLN5_G142R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CLN5_G142R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CLN5_G142R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CLN5_G142R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLN5-G142R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLN5-G142R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T08:10:32.820343+00:00"
     }
   ]
 }
