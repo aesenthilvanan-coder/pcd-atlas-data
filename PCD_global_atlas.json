@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1671,
+  "total_entries": 1672,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46334,
-    "queue_remaining": 132263
+    "total_processed": 46335,
+    "queue_remaining": 132262
   },
   "entries": [
     {
@@ -370518,6 +370518,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:34:44.834740+00:00"
+    },
+    {
+      "entry_id": "PCD-ACTG2-A205T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACTG2-A205T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ACTG2",
+        "uniprot": "",
+        "clinvar_id": "369682",
+        "disease": "Visceral myopathy 1",
+        "mutation_precursor": "A205T",
+        "mutation_mature": "A205T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9199724245923372,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 493.7757352937556,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.434957504272461,
+          5.753870487213135,
+          25.21056365966797
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.124442519508511,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8967749585338006,
+        "cryptic": true,
+        "pocket_residues": {
+          "R63": "R",
+          "G64": "G",
+          "A205": "A",
+          "E206": "E"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P63267|ACTG2 variant A205T",
+        "fasta_sequence": "MCEEETTALVCDNGSGLCKAGFAGDDAPRAVFPSIVGRPRHQGVMVGMGQKDSYVGDEAQSKRGILTLKYPIEHGIITNWDDMEKIWHHSFYNELRVAPEEHPTLLTEAPLNPKANREKMTQIMFETFNVPAMYVAIQAVLSLYASGRTTGIVLDSGDGVTHNVPIYEGYALPHAIMRLDLAGRDLTDYLMKILTERGYSFVTTAEREIVRDIKEKLCYVALDFENEMATAASSSSLEKSYELPDGQVITIGNERFRCPETLFQPSFIGMESAGIHETTYNSIMKCDIDIRKDLYANNVLSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWISKPEYDEAGPSIVHRKCF",
+        "full_sequence": "MCEEETTALVCDNGSGLCKAGFAGDDAPRAVFPSIVGRPRHQGVMVGMGQKDSYVGDEAQSKRGILTLKYPIEHGIITNWDDMEKIWHHSFYNELRVAPEEHPTLLTEAPLNPKANREKMTQIMFETFNVPAMYVAIQAVLSLYASGRTTGIVLDSGDGVTHNVPIYEGYALPHAIMRLDLAGRDLTDYLMKILTERGYSFVTTAEREIVRDIKEKLCYVALDFENEMATAASSSSLEKSYELPDGQVITIGNERFRCPETLFQPSFIGMESAGIHETTYNSIMKCDIDIRKDLYANNVLSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWISKPEYDEAGPSIVHRKCF",
+        "n_residues": 376,
+        "mutation_pos_1indexed": 205,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "R63-G64-A205-E206",
+        "pocket_lining_positions_precursor": [
+          63,
+          64,
+          205,
+          206
+        ],
+        "pocket_lining_1letter": "RGAE",
+        "sequence_slice_around_pocket": "TERGYSFVTTAEREIVRDIK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ACTG2_A205T/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "R63",
+          "G64",
+          "A205",
+          "E206"
+        ],
+        "values": [
+          [
+            0.0,
+            3.863,
+            7.331,
+            11.172
+          ],
+          [
+            3.863,
+            0.0,
+            7.623,
+            11.11
+          ],
+          [
+            7.331,
+            7.623,
+            0.0,
+            3.842
+          ],
+          [
+            11.172,
+            11.11,
+            3.842,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC1CCCCC1ON1CCCCC1N1CCCCC1C(N)=O",
+        "composite_score": 0.7588688278693804,
+        "mw": 352.28,
+        "logp": 1.977,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.7634,
+        "sa_score": 4.18,
+        "n_heavy_atoms": 25,
+        "tpsa": 84.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ACTG2-A205T Candidate #1",
+        "iupac_name": "NCCC1CCCCC1ON1CCCCC1N1CCCCC1C(N)=O",
+        "pocket_affinity_score": 0.7589,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ACTG2_A205T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ACTG2_A205T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ACTG2_A205T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACTG2_A205T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACTG2_A205T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACTG2-A205T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACTG2-A205T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:35:12.723656+00:00"
     }
   ]
 }
