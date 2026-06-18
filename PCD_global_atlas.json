@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2235,
+  "total_entries": 2236,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46969,
-    "queue_remaining": 131628
+    "total_processed": 46970,
+    "queue_remaining": 131627
   },
   "entries": [
     {
@@ -514452,6 +514452,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T09:58:31.542321+00:00"
+    },
+    {
+      "entry_id": "PCD-DNM2-R522L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNM2-R522L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DNM2",
+        "uniprot": "",
+        "clinvar_id": "373110",
+        "disease": "not provided",
+        "mutation_precursor": "R522L",
+        "mutation_mature": "R522L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9131741618736415,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 575.4759301858169,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          14.503220558166504,
+          8.215554237365723,
+          -35.99150085449219
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.936150339553521,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8719526954195392,
+        "cryptic": true,
+        "pocket_residues": {
+          "V520": "V",
+          "I521": "I",
+          "R522": "R",
+          "R523": "R",
+          "V544": "V"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P50570|DNM2 variant R522L",
+        "fasta_sequence": "MGNRGMEELIPLVNKLQDAFSSIGQSCHLDLPQIAVVGGQSAGKSSVLENFVGRDFLPRGSGIVTRRPLILQLIFSKTEHAEFLHCKSKKFTDFDEVRQEIEAETDRVTGTNKGISPVPINLRVYSPHVLNLTLIDLPGITKVPVGDQPPDIEYQIKDMILQFISRESSLILAVTPANMDLANSDALKLAKEVDPQGLRTIGVITKLDLMDEGTDARDVLENKLLPLRRGYIGVVNRSQKDIEGKKDIRAALAAERKFFLSHPAYRHMADRMGTPHLQKTLNQQLTNHIRESLPALRSKLQSQLLSLEKEVEEYKNFRPDDPTRKTKALLQMVQQFGVDFEKRIEGSGDQVDTLELSGGARINRIFHERFPFELVKMEFDEKDLRREISYAIKNIHGVRTGLFTPDLAFEAIVKKQVVKLKEPCLKCVDLVIQELINTVRQCTSKLSSYPRLREETERIVTTYIREREGRTKDQILLLIDIEQSYINTNHEDFIGFANAQQRSTQLNKKRAIPNQGEILVIRRGWLTINNISLMKGGSKEYWFVLTAESLSWYKDEEEKEKKYMLPLDNLKIRDVEKGFMSNKHVFAIFNTEQRNVYKDLRQIELACDSQEDVDSWKASFLRAGVYPEKDQAENEDGAQENTFSMDPQLERQVETIRNLVDSYVAIINKSIRDLMPKTIMHLMINNTKAFIHHELLAYLYSSADQSSLMEESADQAQRRDDMLRMYHALKEALNIIGDISTSTVSTPVPPPVDDTWLQSASSHSPTPQRRPVSSIHPPGRPPAVRGPTPGPPLIPVPVGAAASFSAPPIPSRPGPQSVFANSDLFPAPPQIPSRPVRIPPGIPPGVPSRRPPAAPSRPTIIRPAEPSLLD",
+        "full_sequence": "MGNRGMEELIPLVNKLQDAFSSIGQSCHLDLPQIAVVGGQSAGKSSVLENFVGRDFLPRGSGIVTRRPLILQLIFSKTEHAEFLHCKSKKFTDFDEVRQEIEAETDRVTGTNKGISPVPINLRVYSPHVLNLTLIDLPGITKVPVGDQPPDIEYQIKDMILQFISRESSLILAVTPANMDLANSDALKLAKEVDPQGLRTIGVITKLDLMDEGTDARDVLENKLLPLRRGYIGVVNRSQKDIEGKKDIRAALAAERKFFLSHPAYRHMADRMGTPHLQKTLNQQLTNHIRESLPALRSKLQSQLLSLEKEVEEYKNFRPDDPTRKTKALLQMVQQFGVDFEKRIEGSGDQVDTLELSGGARINRIFHERFPFELVKMEFDEKDLRREISYAIKNIHGVRTGLFTPDLAFEAIVKKQVVKLKEPCLKCVDLVIQELINTVRQCTSKLSSYPRLREETERIVTTYIREREGRTKDQILLLIDIEQSYINTNHEDFIGFANAQQRSTQLNKKRAIPNQGEILVIRRGWLTINNISLMKGGSKEYWFVLTAESLSWYKDEEEKEKKYMLPLDNLKIRDVEKGFMSNKHVFAIFNTEQRNVYKDLRQIELACDSQEDVDSWKASFLRAGVYPEKDQAENEDGAQENTFSMDPQLERQVETIRNLVDSYVAIINKSIRDLMPKTIMHLMINNTKAFIHHELLAYLYSSADQSSLMEESADQAQRRDDMLRMYHALKEALNIIGDISTSTVSTPVPPPVDDTWLQSASSHSPTPQRRPVSSIHPPGRPPAVRGPTPGPPLIPVPVGAAASFSAPPIPSRPGPQSVFANSDLFPAPPQIPSRPVRIPPGIPPGVPSRRPPAAPSRPTIIRPAEPSLLD",
+        "n_residues": 870,
+        "mutation_pos_1indexed": 522,
+        "wt_aa": "R",
+        "mut_aa": "L",
+        "pocket_lining_residues": "V520-I521-R522-R523-V544",
+        "pocket_lining_positions_precursor": [
+          520,
+          521,
+          522,
+          523,
+          544
+        ],
+        "pocket_lining_1letter": "VIRRV",
+        "sequence_slice_around_pocket": "IPNQGEILVIRRGWLTINNI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DNM2_R522L/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "V520",
+          "I521",
+          "R522",
+          "R523",
+          "V544"
+        ],
+        "values": [
+          [
+            0.0,
+            3.833,
+            5.672,
+            7.504,
+            6.877
+          ],
+          [
+            3.833,
+            0.0,
+            3.851,
+            7.298,
+            7.806
+          ],
+          [
+            5.672,
+            3.851,
+            0.0,
+            3.801,
+            5.988
+          ],
+          [
+            7.504,
+            7.298,
+            3.801,
+            0.0,
+            4.601
+          ],
+          [
+            6.877,
+            7.806,
+            5.988,
+            4.601,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1CC(=O)CCC1NCNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.6794396525822379,
+        "mw": 402.15,
+        "logp": 1.977,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.5502,
+        "sa_score": 3.33,
+        "n_heavy_atoms": 28,
+        "tpsa": 107.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DNM2-R522L Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1CC(=O)CCC1NCNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.6794,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DNM2_R522L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DNM2_R522L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DNM2_R522L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNM2_R522L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNM2_R522L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNM2-R522L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNM2-R522L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T09:59:31.661159+00:00"
     }
   ]
 }
