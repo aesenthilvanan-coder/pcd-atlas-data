@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2086,
+  "total_entries": 2087,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46795,
-    "queue_remaining": 131802
+    "total_processed": 46796,
+    "queue_remaining": 131801
   },
   "entries": [
     {
@@ -476819,6 +476819,189 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:29:39.510760+00:00"
+    },
+    {
+      "entry_id": "PCD-GARS1-Y518C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GARS1-Y518C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GARS1",
+        "uniprot": "",
+        "clinvar_id": "373280",
+        "disease": "not specified",
+        "mutation_precursor": "Y518C",
+        "mutation_mature": "Y518C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.857590993885133,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 516.2106893958326,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -31.20363998413086,
+          2.1432783603668213,
+          32.885440826416016
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.379805353075143,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7830170970387443,
+        "cryptic": true,
+        "pocket_residues": {
+          "L514": "L",
+          "E517": "E",
+          "Y518": "Y",
+          "L519": "L",
+          "A520": "A",
+          "I521": "I",
+          "T544": "T"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P41250|GARS1 variant Y518C",
+        "fasta_sequence": "MPSPRPVLLRGARAALLLLLPPRLLARPSLLLRRSLSAASCPPISLPAAASRSSMDGAGAEEVLAPLRLAVRQQGDLVRKLKEDKAPQVDVDKAVAELKARKRVLEAKELALQPKDDIVDRAKMEDTLKRRFFYDQAFAIYGGVSGLYDFGPVGCALKNNIIQTWRQHFIQEEQILEIDCTMLTPEPVLKTSGHVDKFADFMVKDVKNGECFRADHLLKAHLQKLMSDKKCSVEKKSEMESVLAQLDNYGQQELADLFVNYNVKSPITGNDLSPPVSFNLMFKTFIGPGGNMPGYLRPETAQGIFLNFKRLLEFNQGKLPFAAAQIGNSFRNEISPRSGLIRVREFTMAEIEHFVDPSEKDHPKFQNVADLHLYLYSAKAQVSGQSARKMRLGDAVEQGVINNTVLGYFIGRIYLYLTKVGISPDKLRFRQHMENEMAHYACDCWDAESKTSYGWIEIVGCADRSCYDLSCHARATKVPLVAEKPLKEPKTVNVVQFEPSKGAIGKAYKKDAKLVMEYLAICDECYITEMEMLLNEKGEFTIETEGKTFQLTKDMINVKRFQKTLYVEEVVPNVIEPSFGLGRIMYTVFEHTFHVREGDEQRTFFSFPAVVAPFKCSVLPLSQNQEFMPFVKELSEALTRHGVSHKVDDSSGSIGRRYARTDEIGVAFGVTIDFDTVNKTPHTATLRDRDSMRQIRAEISELPSIVQDLANGNITWADVEARYPLFEGQETGKKETIEE",
+        "full_sequence": "MPSPRPVLLRGARAALLLLLPPRLLARPSLLLRRSLSAASCPPISLPAAASRSSMDGAGAEEVLAPLRLAVRQQGDLVRKLKEDKAPQVDVDKAVAELKARKRVLEAKELALQPKDDIVDRAKMEDTLKRRFFYDQAFAIYGGVSGLYDFGPVGCALKNNIIQTWRQHFIQEEQILEIDCTMLTPEPVLKTSGHVDKFADFMVKDVKNGECFRADHLLKAHLQKLMSDKKCSVEKKSEMESVLAQLDNYGQQELADLFVNYNVKSPITGNDLSPPVSFNLMFKTFIGPGGNMPGYLRPETAQGIFLNFKRLLEFNQGKLPFAAAQIGNSFRNEISPRSGLIRVREFTMAEIEHFVDPSEKDHPKFQNVADLHLYLYSAKAQVSGQSARKMRLGDAVEQGVINNTVLGYFIGRIYLYLTKVGISPDKLRFRQHMENEMAHYACDCWDAESKTSYGWIEIVGCADRSCYDLSCHARATKVPLVAEKPLKEPKTVNVVQFEPSKGAIGKAYKKDAKLVMEYLAICDECYITEMEMLLNEKGEFTIETEGKTFQLTKDMINVKRFQKTLYVEEVVPNVIEPSFGLGRIMYTVFEHTFHVREGDEQRTFFSFPAVVAPFKCSVLPLSQNQEFMPFVKELSEALTRHGVSHKVDDSSGSIGRRYARTDEIGVAFGVTIDFDTVNKTPHTATLRDRDSMRQIRAEISELPSIVQDLANGNITWADVEARYPLFEGQETGKKETIEE",
+        "n_residues": 739,
+        "mutation_pos_1indexed": 518,
+        "wt_aa": "Y",
+        "mut_aa": "C",
+        "pocket_lining_residues": "L514-E517-Y518-L519-A520-I521-T544",
+        "pocket_lining_positions_precursor": [
+          514,
+          517,
+          518,
+          519,
+          520,
+          521,
+          544
+        ],
+        "pocket_lining_1letter": "LEYLAIT",
+        "sequence_slice_around_pocket": "YKKDAKLVMEYLAICDECYI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GARS1_Y518C/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "L514",
+          "E517",
+          "Y518",
+          "L519",
+          "A520",
+          "I521",
+          "T544"
+        ],
+        "values": [
+          [
+            0.0,
+            5.2,
+            6.187,
+            8.701,
+            10.11,
+            11.302,
+            7.265
+          ],
+          [
+            5.2,
+            0.0,
+            3.855,
+            5.602,
+            5.307,
+            6.896,
+            9.383
+          ],
+          [
+            6.187,
+            3.855,
+            0.0,
+            3.852,
+            5.494,
+            5.611,
+            6.828
+          ],
+          [
+            8.701,
+            5.602,
+            3.852,
+            0.0,
+            3.851,
+            5.591,
+            9.892
+          ],
+          [
+            10.11,
+            5.307,
+            5.494,
+            3.851,
+            0.0,
+            3.877,
+            12.297
+          ],
+          [
+            11.302,
+            6.896,
+            5.611,
+            5.591,
+            3.877,
+            0.0,
+            11.413
+          ],
+          [
+            7.265,
+            9.383,
+            6.828,
+            9.892,
+            12.297,
+            11.413,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.8555808136807243,
+        "mw": 350.19,
+        "logp": 1.868,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.6495,
+        "sa_score": 3.25,
+        "n_heavy_atoms": 26,
+        "tpsa": 99.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GARS1-Y518C Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8556,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GARS1_Y518C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GARS1_Y518C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GARS1_Y518C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GARS1_Y518C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GARS1_Y518C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GARS1-Y518C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GARS1-Y518C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:30:08.851010+00:00"
     }
   ]
 }
