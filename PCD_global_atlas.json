@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2078,
+  "total_entries": 2079,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46787,
-    "queue_remaining": 131810
+    "total_processed": 46788,
+    "queue_remaining": 131809
   },
   "entries": [
     {
@@ -475020,6 +475020,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:24:19.557970+00:00"
+    },
+    {
+      "entry_id": "PCD-INPP5E-D454G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-INPP5E-D454G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "INPP5E",
+        "uniprot": "",
+        "clinvar_id": "372388",
+        "disease": "not provided",
+        "mutation_precursor": "D454G",
+        "mutation_mature": "D454G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8759364181167194,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 527.1760890787398,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          8.916365623474121,
+          -10.520057678222656,
+          -19.104902267456055
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.81159754580038,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8747807141071827,
+        "cryptic": true,
+        "pocket_residues": {
+          "D454": "D",
+          "T455": "T",
+          "N456": "N",
+          "P457": "P",
+          "Y458": "Y",
+          "R459": "R",
+          "S460": "S",
+          "R468": "R"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NRR6|INPP5E variant D454G",
+        "fasta_sequence": "MPSKAENLRPSEPAPQPPEGRTLQGQLPGAPPAQRAGSPPDAPGSESPALACSTPATPSGEDPPARAAPIAPRPPARPRLERALSLDDKGWRRRRFRGSQEDLEARNGTSPSRGSVQSEGPGAPAHSCSPPCLSTSLQEIPKSRGVLSSERGSPSSGGNPLSGVASSSPNLPHRDAAVAGSSPRLPSLLPPRPPPALSLDIASDSLRTANKVDSDLADYKLRAQPLLVRAHSSLGPGRPRSPLACDDCSLRSAKSSFSLLAPIRSKDVRSRSYLEGSLLASGALLGADELARYFPDRNVALFVATWNMQGQKELPPSLDEFLLPAEADYAQDLYVIGVQEGCSDRREWETRLQETLGPHYVLLSSAAHGVLYMSLFIRRDLIWFCSEVECSTVTTRIVSQIKTKGALGISFTFFGTSFLFITSHFTSGDGKVAERLLDYTRTVQALVLPRNVPDTNPYRSSAADVTTRFDEVFWFGDFNFRLSGGRTVVDALLCQGLVVDVPALLQHDQLIREMRKGSIFKGFQEPDIHFLPSYKFDIGKDTYDSTSKQRTPSYTDRVLYRSRHKGDICPVSYSSCPGIKTSDHRPVYGLFRVKVRPGRDNIPLAAGKFDRELYLLGIKRRISKEIQRQQALQSQNSSTICSVS",
+        "full_sequence": "MPSKAENLRPSEPAPQPPEGRTLQGQLPGAPPAQRAGSPPDAPGSESPALACSTPATPSGEDPPARAAPIAPRPPARPRLERALSLDDKGWRRRRFRGSQEDLEARNGTSPSRGSVQSEGPGAPAHSCSPPCLSTSLQEIPKSRGVLSSERGSPSSGGNPLSGVASSSPNLPHRDAAVAGSSPRLPSLLPPRPPPALSLDIASDSLRTANKVDSDLADYKLRAQPLLVRAHSSLGPGRPRSPLACDDCSLRSAKSSFSLLAPIRSKDVRSRSYLEGSLLASGALLGADELARYFPDRNVALFVATWNMQGQKELPPSLDEFLLPAEADYAQDLYVIGVQEGCSDRREWETRLQETLGPHYVLLSSAAHGVLYMSLFIRRDLIWFCSEVECSTVTTRIVSQIKTKGALGISFTFFGTSFLFITSHFTSGDGKVAERLLDYTRTVQALVLPRNVPDTNPYRSSAADVTTRFDEVFWFGDFNFRLSGGRTVVDALLCQGLVVDVPALLQHDQLIREMRKGSIFKGFQEPDIHFLPSYKFDIGKDTYDSTSKQRTPSYTDRVLYRSRHKGDICPVSYSSCPGIKTSDHRPVYGLFRVKVRPGRDNIPLAAGKFDRELYLLGIKRRISKEIQRQQALQSQNSSTICSVS",
+        "n_residues": 644,
+        "mutation_pos_1indexed": 454,
+        "wt_aa": "D",
+        "mut_aa": "G",
+        "pocket_lining_residues": "D454-T455-N456-P457-Y458-R459-S460-R468",
+        "pocket_lining_positions_precursor": [
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          468
+        ],
+        "pocket_lining_1letter": "DTNPYRSR",
+        "sequence_slice_around_pocket": "QALVLPRNVPDTNPYRSSAA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/INPP5E_D454G/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "D454",
+          "T455",
+          "N456",
+          "P457",
+          "Y458",
+          "R459",
+          "S460",
+          "R468"
+        ],
+        "values": [
+          [
+            0.0,
+            3.868,
+            5.577,
+            5.517,
+            9.277,
+            9.636,
+            8.361,
+            6.316
+          ],
+          [
+            3.868,
+            0.0,
+            3.864,
+            6.371,
+            9.175,
+            9.363,
+            9.609,
+            8.031
+          ],
+          [
+            5.577,
+            3.864,
+            0.0,
+            3.88,
+            5.574,
+            5.792,
+            6.993,
+            7.408
+          ],
+          [
+            5.517,
+            6.371,
+            3.88,
+            0.0,
+            3.867,
+            5.333,
+            4.982,
+            6.849
+          ],
+          [
+            9.277,
+            9.175,
+            5.574,
+            3.867,
+            0.0,
+            3.883,
+            5.653,
+            9.364
+          ],
+          [
+            9.636,
+            9.363,
+            5.792,
+            5.333,
+            3.883,
+            0.0,
+            3.843,
+            7.398
+          ],
+          [
+            8.361,
+            9.609,
+            6.993,
+            4.982,
+            5.653,
+            3.843,
+            0.0,
+            4.899
+          ],
+          [
+            6.316,
+            8.031,
+            7.408,
+            6.849,
+            9.364,
+            7.398,
+            4.899,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7467550138769359,
+        "mw": 319.17,
+        "logp": 1.906,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 3,
+        "qed": 0.924,
+        "sa_score": 3.13,
+        "n_heavy_atoms": 23,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "INPP5E-D454G Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7468,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/INPP5E_D454G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/INPP5E_D454G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/INPP5E_D454G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/INPP5E_D454G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/INPP5E_D454G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-INPP5E-D454G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-INPP5E-D454G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:24:54.596950+00:00"
     }
   ]
 }
