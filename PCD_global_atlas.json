@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1538,
+  "total_entries": 1539,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46189,
-    "queue_remaining": 132408
+    "total_processed": 46190,
+    "queue_remaining": 132407
   },
   "entries": [
     {
@@ -340603,6 +340603,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:02:29.200185+00:00"
+    },
+    {
+      "entry_id": "PCD-NLRP12-P450L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NLRP12-P450L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NLRP12",
+        "uniprot": "",
+        "clinvar_id": "330031",
+        "disease": "Familial cold autoinflammatory syndrome 2",
+        "mutation_precursor": "P450L",
+        "mutation_mature": "P450L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8042091080928969,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 356.1055603083708,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -21.485485076904297,
+          -27.117738723754883,
+          49.123138427734375
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.7027826527809315,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8890504831768078,
+        "cryptic": true,
+        "pocket_residues": {
+          "G448": "G",
+          "A449": "A",
+          "P450": "P",
+          "R451": "R",
+          "L452": "L"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P59046|NLRP12 variant P450L",
+        "fasta_sequence": "MLRTAGRDGLCRLSTYLEELEAVELKKFKLYLGTATELGEGKIPWGSMEKAGPLEMAQLLITHFGPEEAWRLALSTFERINRKDLWERGQREDLVRDTPPGGPSSLGNQSTCLLEVSLVTPRKDPQETYRDYVRRKFRLMEDRNARLGECVNLSHRYTRLLLVKEHSNPMQVQQQLLDTGRGHARTVGHQASPIKIETLFEPDEERPEPPRTVVMQGAAGIGKSMLAHKVMLDWADGKLFQGRFDYLFYINCREMNQSATECSMQDLIFSCWPEPSAPLQELIRVPERLLFIIDGFDELKPSFHDPQGPWCLCWEEKRPTELLLNSLIRKKLLPELSLLITTRPTALEKLHRLLEHPRHVEILGFSEAERKEYFYKYFHNAEQAGQVFNYVRDNEPLFTMCFVPLVCWVVCTCLQQQLEGGGLLRQTSRTTTAVYMLYLLSLMQPKPGAPRLQPPPNQRGLCSLAADGLWNQKILFEEQDLRKHGLDGEDVSAFLNMNIFQKDINCERYYSFIHLSFQEFFAAMYYILDEGEGGAGPDQDVTRLLTEYAFSERSFLALTSRFLFGLLNEETRSHLEKSLCWKVSPHIKMDLLQWIQSKAQSDGSTLQQGSLEFFSCLYEIQEEEFIQQALSHFQVIVVSNIASKMEHMVSSFCLKRCRSAQVLHLYGATYSADGEDRARCSAGAHTLLVQLPERTVLLDAYSEHLAAALCTNPNLIELSLYRNALGSRGVKLLCQGLRHPNCKLQNLRLKRCRISSSACEDLSAALIANKNLTRMDLSGNGVGFPGMMLLCEGLRHPQCRLQMIQLRKCQLESGACQEMASVLGTNPHLVELDLTGNALEDLGLRLLCQGLRHPVCRLRTLWLKICRLTAAACDELASTLSVNQSLRELDLSLNELGDLGVLLLCEGLRHPTCKLQTLRLGICRLGSAACEGLSVVLQANHNLRELDLSFNDLGDWGLWLLAEGLQHPACRLQKLWLDSCGLTAKACENLYFTLGINQTLTDLYLTNNALGDTGVRLLCKRLSHPGCKLRVLWLFGMDLNKMTHSRLAALRVTKPYLDIGC",
+        "full_sequence": "MLRTAGRDGLCRLSTYLEELEAVELKKFKLYLGTATELGEGKIPWGSMEKAGPLEMAQLLITHFGPEEAWRLALSTFERINRKDLWERGQREDLVRDTPPGGPSSLGNQSTCLLEVSLVTPRKDPQETYRDYVRRKFRLMEDRNARLGECVNLSHRYTRLLLVKEHSNPMQVQQQLLDTGRGHARTVGHQASPIKIETLFEPDEERPEPPRTVVMQGAAGIGKSMLAHKVMLDWADGKLFQGRFDYLFYINCREMNQSATECSMQDLIFSCWPEPSAPLQELIRVPERLLFIIDGFDELKPSFHDPQGPWCLCWEEKRPTELLLNSLIRKKLLPELSLLITTRPTALEKLHRLLEHPRHVEILGFSEAERKEYFYKYFHNAEQAGQVFNYVRDNEPLFTMCFVPLVCWVVCTCLQQQLEGGGLLRQTSRTTTAVYMLYLLSLMQPKPGAPRLQPPPNQRGLCSLAADGLWNQKILFEEQDLRKHGLDGEDVSAFLNMNIFQKDINCERYYSFIHLSFQEFFAAMYYILDEGEGGAGPDQDVTRLLTEYAFSERSFLALTSRFLFGLLNEETRSHLEKSLCWKVSPHIKMDLLQWIQSKAQSDGSTLQQGSLEFFSCLYEIQEEEFIQQALSHFQVIVVSNIASKMEHMVSSFCLKRCRSAQVLHLYGATYSADGEDRARCSAGAHTLLVQLPERTVLLDAYSEHLAAALCTNPNLIELSLYRNALGSRGVKLLCQGLRHPNCKLQNLRLKRCRISSSACEDLSAALIANKNLTRMDLSGNGVGFPGMMLLCEGLRHPQCRLQMIQLRKCQLESGACQEMASVLGTNPHLVELDLTGNALEDLGLRLLCQGLRHPVCRLRTLWLKICRLTAAACDELASTLSVNQSLRELDLSLNELGDLGVLLLCEGLRHPTCKLQTLRLGICRLGSAACEGLSVVLQANHNLRELDLSFNDLGDWGLWLLAEGLQHPACRLQKLWLDSCGLTAKACENLYFTLGINQTLTDLYLTNNALGDTGVRLLCKRLSHPGCKLRVLWLFGMDLNKMTHSRLAALRVTKPYLDIGC",
+        "n_residues": 1061,
+        "mutation_pos_1indexed": 450,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "G448-A449-P450-R451-L452",
+        "pocket_lining_positions_precursor": [
+          448,
+          449,
+          450,
+          451,
+          452
+        ],
+        "pocket_lining_1letter": "GAPRL",
+        "sequence_slice_around_pocket": "LSLMQPKPGAPRLQPPPNQR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP12_P450L/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "G448",
+          "A449",
+          "P450",
+          "R451",
+          "L452"
+        ],
+        "values": [
+          [
+            0.0,
+            3.879,
+            6.731,
+            9.532,
+            11.628
+          ],
+          [
+            3.879,
+            0.0,
+            3.893,
+            6.672,
+            8.304
+          ],
+          [
+            6.731,
+            3.893,
+            0.0,
+            3.879,
+            6.783
+          ],
+          [
+            9.532,
+            6.672,
+            3.879,
+            0.0,
+            3.874
+          ],
+          [
+            11.628,
+            8.304,
+            6.783,
+            3.874,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)c1ccc(O)cc1N1CCCCC1",
+        "composite_score": 0.5435722105971148,
+        "mw": 248.15,
+        "logp": 1.914,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 4,
+        "qed": 0.7988,
+        "sa_score": 2.23,
+        "n_heavy_atoms": 18,
+        "tpsa": 66.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NLRP12-P450L Candidate #1",
+        "iupac_name": "NCCC(=O)c1ccc(O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5436,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP12_P450L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP12_P450L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP12_P450L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP12_P450L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NLRP12_P450L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NLRP12-P450L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NLRP12-P450L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:03:03.392161+00:00"
     }
   ]
 }
