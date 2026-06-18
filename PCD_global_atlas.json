@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1620,
+  "total_entries": 1621,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46279,
-    "queue_remaining": 132318
+    "total_processed": 46280,
+    "queue_remaining": 132317
   },
   "entries": [
     {
@@ -357981,6 +357981,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:54:04.977786+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC5A1-I588T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A1-I588T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC5A1",
+        "uniprot": "",
+        "clinvar_id": "341259",
+        "disease": "Congenital glucose-galactose malabsorption",
+        "mutation_precursor": "I588T",
+        "mutation_mature": "I588T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9303530845674126,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 430.20246947096797,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -17.918006896972656,
+          -11.14639663696289,
+          42.24142074584961
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.364296260925326,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6900684900445514,
+        "cryptic": true,
+        "pocket_residues": {
+          "T587": "T",
+          "I588": "I",
+          "E589": "E",
+          "I590": "I"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P13866|SLC5A1 variant I588T",
+        "fasta_sequence": "MDSSTWSPKTTAVTRPVETHELIRNAADISIIVIYFVVVMAVGLWAMFSTNRGTVGGFFLAGRSMVWWPIGASLFASNIGSGHFVGLAGTGAASGIAIGGFEWNALVLVVVLGWLFVPIYIKAGVVTMPEYLRKRFGGQRIQVYLSLLSLLLYIFTKISADIFSGAIFINLALGLNLYLAIFLLLAITALYTITGGLAAVIYTDTLQTVIMLVGSLILTGFAFHEVGGYDAFMEKYMKAIPTIVSDGNTTFQEKCYTPRADSFHIFRDPLTGDLPWPGFIFGMSILTLWYWCTDQVIVQRCLSAKNMSHVKGGCILCGYLKLMPMFIMVMPGMISRILYTEKIACVVPSECEKYCGTKVGCTNIAYPTLVVELMPNGLRGLMLSVMLASLMSSLTSIFNSASTLFTMDIYAKVRKRASEKELMIAGRLFILVLIGISIAWVPIVQSAQSGQLFDYIQSITSYLGPPIAAVFLLAIFWKRVNEPGAFWGLILGLLIGISRMITEFAYGTGSCMEPSNCPTIICGVHYLYFAIILFAISFITIVVISLLTKPIPDVHLYRLCWSLRNSKEERIDLDAEEENIQEGPKETIEIETQVPEKKKGIFRRAYDLFCGLEQHGAPKMTEEEEKAMKMKMTDTSEKPLWRTVLNVNGIILVTVAVFCHAYFA",
+        "full_sequence": "MDSSTWSPKTTAVTRPVETHELIRNAADISIIVIYFVVVMAVGLWAMFSTNRGTVGGFFLAGRSMVWWPIGASLFASNIGSGHFVGLAGTGAASGIAIGGFEWNALVLVVVLGWLFVPIYIKAGVVTMPEYLRKRFGGQRIQVYLSLLSLLLYIFTKISADIFSGAIFINLALGLNLYLAIFLLLAITALYTITGGLAAVIYTDTLQTVIMLVGSLILTGFAFHEVGGYDAFMEKYMKAIPTIVSDGNTTFQEKCYTPRADSFHIFRDPLTGDLPWPGFIFGMSILTLWYWCTDQVIVQRCLSAKNMSHVKGGCILCGYLKLMPMFIMVMPGMISRILYTEKIACVVPSECEKYCGTKVGCTNIAYPTLVVELMPNGLRGLMLSVMLASLMSSLTSIFNSASTLFTMDIYAKVRKRASEKELMIAGRLFILVLIGISIAWVPIVQSAQSGQLFDYIQSITSYLGPPIAAVFLLAIFWKRVNEPGAFWGLILGLLIGISRMITEFAYGTGSCMEPSNCPTIICGVHYLYFAIILFAISFITIVVISLLTKPIPDVHLYRLCWSLRNSKEERIDLDAEEENIQEGPKETIEIETQVPEKKKGIFRRAYDLFCGLEQHGAPKMTEEEEKAMKMKMTDTSEKPLWRTVLNVNGIILVTVAVFCHAYFA",
+        "n_residues": 664,
+        "mutation_pos_1indexed": 588,
+        "wt_aa": "I",
+        "mut_aa": "T",
+        "pocket_lining_residues": "T587-I588-E589-I590",
+        "pocket_lining_positions_precursor": [
+          587,
+          588,
+          589,
+          590
+        ],
+        "pocket_lining_1letter": "TIEI",
+        "sequence_slice_around_pocket": "ENIQEGPKETIEIETQVPEK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_I588T/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "T587",
+          "I588",
+          "E589",
+          "I590"
+        ],
+        "values": [
+          [
+            0.0,
+            3.77,
+            5.411,
+            8.102
+          ],
+          [
+            3.77,
+            0.0,
+            3.772,
+            6.298
+          ],
+          [
+            5.411,
+            3.772,
+            0.0,
+            3.771
+          ],
+          [
+            8.102,
+            6.298,
+            3.771,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7789214817664821,
+        "mw": 303.19,
+        "logp": 1.832,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 3,
+        "qed": 0.8913,
+        "sa_score": 3.27,
+        "n_heavy_atoms": 22,
+        "tpsa": 69.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC5A1-I588T Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7789,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_I588T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_I588T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_I588T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_I588T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_I588T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A1-I588T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A1-I588T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:54:31.012373+00:00"
     }
   ]
 }
