@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1838,
+  "total_entries": 1839,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46514,
-    "queue_remaining": 132083
+    "total_processed": 46515,
+    "queue_remaining": 132082
   },
   "entries": [
     {
@@ -414182,6 +414182,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:22:32.253287+00:00"
+    },
+    {
+      "entry_id": "PCD-VHL-A56G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VHL-A56G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "VHL",
+        "uniprot": "",
+        "clinvar_id": "371800",
+        "disease": "Von Hippel-Lindau syndrome",
+        "mutation_precursor": "A56G",
+        "mutation_mature": "A56G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8522009182853537,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 535.6329730284754,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.1904163360595703,
+          -20.48002052307129,
+          -20.074859619140625
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.656853375653877,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.819562884180506,
+        "cryptic": true,
+        "pocket_residues": {
+          "M54": "M",
+          "E55": "E",
+          "A56": "A"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P40337|VHL variant A56G",
+        "fasta_sequence": "MPRRAENWDEAEVGAEEAGVEEYGPEEDGGEESGAEESGPEESGPEELGAEEEMEAGRPRPVLRSVNSREPSQVIFCNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLTQERIAHQRMGD",
+        "full_sequence": "MPRRAENWDEAEVGAEEAGVEEYGPEEDGGEESGAEESGPEESGPEELGAEEEMEAGRPRPVLRSVNSREPSQVIFCNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLTQERIAHQRMGD",
+        "n_residues": 213,
+        "mutation_pos_1indexed": 56,
+        "wt_aa": "A",
+        "mut_aa": "G",
+        "pocket_lining_residues": "M54-E55-A56",
+        "pocket_lining_positions_precursor": [
+          54,
+          55,
+          56
+        ],
+        "pocket_lining_1letter": "MEA",
+        "sequence_slice_around_pocket": "EELGAEEEMEAGRPRPVLRS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/VHL_A56G/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "M54",
+          "E55",
+          "A56"
+        ],
+        "values": [
+          [
+            0.0,
+            3.787,
+            5.938
+          ],
+          [
+            3.787,
+            0.0,
+            3.782
+          ],
+          [
+            5.938,
+            3.782,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7476548387106348,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "VHL-A56G Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7477,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/VHL_A56G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/VHL_A56G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/VHL_A56G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/VHL_A56G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/VHL_A56G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VHL-A56G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VHL-A56G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:22:56.421417+00:00"
     }
   ]
 }
