@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2050,
+  "total_entries": 2051,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46756,
-    "queue_remaining": 131841
+    "total_processed": 46757,
+    "queue_remaining": 131840
   },
   "entries": [
     {
@@ -468202,6 +468202,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:02:20.733565+00:00"
+    },
+    {
+      "entry_id": "PCD-RAD21-L451R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAD21-L451R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RAD21",
+        "uniprot": "",
+        "clinvar_id": "372619",
+        "disease": "not provided",
+        "mutation_precursor": "L451R",
+        "mutation_mature": "L451R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8066813984313719,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 554.6319786396334,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -23.649011611938477,
+          -54.66085433959961,
+          20.9818058013916
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.18365158580561,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8059005819440587,
+        "cryptic": true,
+        "pocket_residues": {
+          "R450": "R",
+          "L451": "L",
+          "Q452": "Q",
+          "E453": "E",
+          "S454": "S"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O60216|RAD21 variant L451R",
+        "fasta_sequence": "MFYAHFVLSKRGPLAKIWLAAHWDKKLTKAHVFECNLESSVESIISPKVKMALRTSGHLLLGVVRIYHRKAKYLLADCNEAFIKIKMAFRPGVVDLPEENREAAYNAITLPEEFHDFDQPLPDLDDIDVAQQFSLNQSRVEEITMREEVGNISILQENDFGDFGMDDREIMREGSAFEDDDMLVSTTTSNLLLESEQSTSNLNEKINHLEYEDQYKDDNFGEGNDGGILDDKLISNNDGGIFDDPPALSEAGVMLPEQPAHDDMDEDDNVSMGGPDSPDSVDPVEPMPTMTDQTTLVPNEEEAFALEPIDITVKETKAKRKRKLIVDSVKELDSKTIRAQLSDYSDIVTTLDLAPPTKKLMMWKETGGVEKLFSLPAQPLWNNRLLKLFTRCLTPLVPEDLRKRRKGGEADNLDEFLKEFENPEVPREDQQQQHQQRDVIDEPIIEEPSRLQESVMEASRTNIDESAMPPPPPQGVKRKAGQIDPEPVMPPQQVEQMEIPPVELPPEEPPNICQLIPELELLPEKEKEKEKEKEDDEEEEDEDASGGDQDQEERRWNKRTQQMLHGLQRALAKTGAESISLLELCRNTNRKQAAAKFYSFLVLKKQQAIELTQEEPYSDIIATPGPRFHII",
+        "full_sequence": "MFYAHFVLSKRGPLAKIWLAAHWDKKLTKAHVFECNLESSVESIISPKVKMALRTSGHLLLGVVRIYHRKAKYLLADCNEAFIKIKMAFRPGVVDLPEENREAAYNAITLPEEFHDFDQPLPDLDDIDVAQQFSLNQSRVEEITMREEVGNISILQENDFGDFGMDDREIMREGSAFEDDDMLVSTTTSNLLLESEQSTSNLNEKINHLEYEDQYKDDNFGEGNDGGILDDKLISNNDGGIFDDPPALSEAGVMLPEQPAHDDMDEDDNVSMGGPDSPDSVDPVEPMPTMTDQTTLVPNEEEAFALEPIDITVKETKAKRKRKLIVDSVKELDSKTIRAQLSDYSDIVTTLDLAPPTKKLMMWKETGGVEKLFSLPAQPLWNNRLLKLFTRCLTPLVPEDLRKRRKGGEADNLDEFLKEFENPEVPREDQQQQHQQRDVIDEPIIEEPSRLQESVMEASRTNIDESAMPPPPPQGVKRKAGQIDPEPVMPPQQVEQMEIPPVELPPEEPPNICQLIPELELLPEKEKEKEKEKEDDEEEEDEDASGGDQDQEERRWNKRTQQMLHGLQRALAKTGAESISLLELCRNTNRKQAAAKFYSFLVLKKQQAIELTQEEPYSDIIATPGPRFHII",
+        "n_residues": 631,
+        "mutation_pos_1indexed": 451,
+        "wt_aa": "L",
+        "mut_aa": "R",
+        "pocket_lining_residues": "R450-L451-Q452-E453-S454",
+        "pocket_lining_positions_precursor": [
+          450,
+          451,
+          452,
+          453,
+          454
+        ],
+        "pocket_lining_1letter": "RLQES",
+        "sequence_slice_around_pocket": "DEPIIEEPSRLQESVMEASR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RAD21_L451R/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "R450",
+          "L451",
+          "Q452",
+          "E453",
+          "S454"
+        ],
+        "values": [
+          [
+            0.0,
+            3.875,
+            7.409,
+            10.889,
+            14.055
+          ],
+          [
+            3.875,
+            0.0,
+            3.814,
+            7.122,
+            10.251
+          ],
+          [
+            7.409,
+            3.814,
+            0.0,
+            3.592,
+            6.81
+          ],
+          [
+            10.889,
+            7.122,
+            3.592,
+            0.0,
+            3.219
+          ],
+          [
+            14.055,
+            10.251,
+            6.81,
+            3.219,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNc1ccc(OC)c(C(O)C(=O)Nc2ccncc2N2CCCC(=O)C2)c1",
+        "composite_score": 0.7185640908130854,
+        "mw": 384.18,
+        "logp": 1.973,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.6995,
+        "sa_score": 3.16,
+        "n_heavy_atoms": 28,
+        "tpsa": 103.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RAD21-L451R Candidate #1",
+        "iupac_name": "CNc1ccc(OC)c(C(O)C(=O)Nc2ccncc2N2CCCC(=O)C2)c1",
+        "pocket_affinity_score": 0.7186,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RAD21_L451R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RAD21_L451R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RAD21_L451R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RAD21_L451R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RAD21_L451R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAD21-L451R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAD21-L451R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:02:49.199078+00:00"
     }
   ]
 }
