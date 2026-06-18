@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2052,
+  "total_entries": 2053,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46758,
-    "queue_remaining": 131839
+    "total_processed": 46759,
+    "queue_remaining": 131838
   },
   "entries": [
     {
@@ -468599,6 +468599,170 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:03:15.793112+00:00"
+    },
+    {
+      "entry_id": "PCD-TRDN-D379E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRDN-D379E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TRDN",
+        "uniprot": "",
+        "clinvar_id": "373636",
+        "disease": "not specified",
+        "mutation_precursor": "D379E",
+        "mutation_mature": "D379E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7322600962002178,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 577.6609706322121,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          43.323795318603516,
+          -31.58511734008789,
+          -1.29026198387146
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.99063360130043,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6912687293465519,
+        "cryptic": true,
+        "pocket_residues": {
+          "K377": "K",
+          "E378": "E",
+          "D379": "D",
+          "S380": "S",
+          "K381": "K",
+          "K382": "K"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13061|TRDN variant D379E",
+        "fasta_sequence": "MTEITAEGNASTTTTVIDSKNGSVPKSPGKVLKRTVTEDIVTTFSSPAAWLLVIALIITWSAVAIVMFDLVDYKNFSASSIAKIGSDPLKLVRDAMEETTDWIYGFFSLLSDIISSEDEEDDDGDEDTDKGEIDEPPLRKKEIHKDKTEKQEKPERKIQTKVTHKEKEKGKEKVREKEKPEKKATHKEKIEKKEKPETKTLAKEQKKAKTAEKSEEKTKKEVKGGKQEKVKQTAAKVKEVQKTPSKPKEKEDKEKAAVSKHEQKDQYAFCRYMIDIFVHGDLKPGQSPAIPPPLPTEQASRPTPASPALEEKEGEKKKAEKKVTSETKKKEKEDIKKKSEKETAIDVEKKEPGKASETKQGTVKIAAQAAAKKDEKKEDSKKTKKPAEVEQPKGKKQEKKEKHVEPAKSPKKEHSVPSDKQVKAKTERAKEEIGAVSIKKAVPGKKEEKTTKTVEQEIRKEKSGKTSSILKDKEPIKGKEEKVPASLKEKEPETKKDEKMSKAGKEVKPKPPQLQGKKEEKPEPQIKKEAKPAISEKVQIHKQDIVKPEKTVSHGKPEEKVLKQVKAVTIEKTAKPKPTKKAEHREREPPSIKTDKPKPTPKGTSEVTESGKKKTEISEKESKEKADMKHLREEKVSTRKESLQLHNVTKAEKPARVSKDVEDVPASKKAKEGTEDVSPTKQKSPISFFQCVYLDGYNGYGFQFPFTPADRPGESSGQANSPGQKQQGQ",
+        "full_sequence": "MTEITAEGNASTTTTVIDSKNGSVPKSPGKVLKRTVTEDIVTTFSSPAAWLLVIALIITWSAVAIVMFDLVDYKNFSASSIAKIGSDPLKLVRDAMEETTDWIYGFFSLLSDIISSEDEEDDDGDEDTDKGEIDEPPLRKKEIHKDKTEKQEKPERKIQTKVTHKEKEKGKEKVREKEKPEKKATHKEKIEKKEKPETKTLAKEQKKAKTAEKSEEKTKKEVKGGKQEKVKQTAAKVKEVQKTPSKPKEKEDKEKAAVSKHEQKDQYAFCRYMIDIFVHGDLKPGQSPAIPPPLPTEQASRPTPASPALEEKEGEKKKAEKKVTSETKKKEKEDIKKKSEKETAIDVEKKEPGKASETKQGTVKIAAQAAAKKDEKKEDSKKTKKPAEVEQPKGKKQEKKEKHVEPAKSPKKEHSVPSDKQVKAKTERAKEEIGAVSIKKAVPGKKEEKTTKTVEQEIRKEKSGKTSSILKDKEPIKGKEEKVPASLKEKEPETKKDEKMSKAGKEVKPKPPQLQGKKEEKPEPQIKKEAKPAISEKVQIHKQDIVKPEKTVSHGKPEEKVLKQVKAVTIEKTAKPKPTKKAEHREREPPSIKTDKPKPTPKGTSEVTESGKKKTEISEKESKEKADMKHLREEKVSTRKESLQLHNVTKAEKPARVSKDVEDVPASKKAKEGTEDVSPTKQKSPISFFQCVYLDGYNGYGFQFPFTPADRPGESSGQANSPGQKQQGQ",
+        "n_residues": 729,
+        "mutation_pos_1indexed": 379,
+        "wt_aa": "D",
+        "mut_aa": "E",
+        "pocket_lining_residues": "K377-E378-D379-S380-K381-K382",
+        "pocket_lining_positions_precursor": [
+          377,
+          378,
+          379,
+          380,
+          381,
+          382
+        ],
+        "pocket_lining_1letter": "KEDSKK",
+        "sequence_slice_around_pocket": "AAAKKDEKKEDSKKTKKPAE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TRDN_D379E/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "K377",
+          "E378",
+          "D379",
+          "S380",
+          "K381",
+          "K382"
+        ],
+        "values": [
+          [
+            0.0,
+            3.199,
+            6.722,
+            9.995,
+            13.336,
+            16.691
+          ],
+          [
+            3.199,
+            0.0,
+            3.885,
+            7.169,
+            10.508,
+            13.936
+          ],
+          [
+            6.722,
+            3.885,
+            0.0,
+            3.488,
+            6.818,
+            10.248
+          ],
+          [
+            9.995,
+            7.169,
+            3.488,
+            0.0,
+            3.357,
+            6.786
+          ],
+          [
+            13.336,
+            10.508,
+            6.818,
+            3.357,
+            0.0,
+            3.465
+          ],
+          [
+            16.691,
+            13.936,
+            10.248,
+            6.786,
+            3.465,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(Cc1ccncc1N1C(O)CCCC1N1CCCCC1)OC",
+        "composite_score": 0.6756615068636436,
+        "mw": 362.27,
+        "logp": 1.979,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.7734,
+        "sa_score": 4.06,
+        "n_heavy_atoms": 26,
+        "tpsa": 60.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TRDN-D379E Candidate #1",
+        "iupac_name": "CNCC(Cc1ccncc1N1C(O)CCCC1N1CCCCC1)OC",
+        "pocket_affinity_score": 0.6757,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TRDN_D379E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TRDN_D379E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TRDN_D379E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRDN_D379E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TRDN_D379E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRDN-D379E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TRDN-D379E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:03:45.862951+00:00"
     }
   ]
 }
