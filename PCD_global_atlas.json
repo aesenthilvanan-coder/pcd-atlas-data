@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1789,
+  "total_entries": 1790,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46464,
-    "queue_remaining": 132133
+    "total_processed": 46465,
+    "queue_remaining": 132132
   },
   "entries": [
     {
@@ -400488,6 +400488,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:54:21.426295+00:00"
+    },
+    {
+      "entry_id": "PCD-GJB2-M1T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GJB2-M1T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GJB2",
+        "uniprot": "",
+        "clinvar_id": "371781",
+        "disease": "Autosomal recessive nonsyndromic hearing loss 1A",
+        "mutation_precursor": "M1T",
+        "mutation_mature": "M1T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8324933651265654,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 522.231334975202,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.7670294046401978,
+          -10.384958267211914,
+          -2.333071231842041
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.212211684251855,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6472744641909878,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "D2": "D",
+          "W3": "W"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P29033|GJB2 variant M1T",
+        "fasta_sequence": "MDWGTLQTILGGVNKHSTSIGKIWLTVLFIFRIMILVVAAKEVWGDEQADFVCNTLQPGCKNVCYDHYFPISHIRLWALQLIFVSTPALLVAMHVAYRRHEKKRKFIKGEIKSEFKDIEEIKTQKVRIEGSLWWTYTSSIFFRVIFEAAFMYVFYVMYDGFSMQRLVKCNAWPCPNTVDCFVSRPTEKTVFTVFMIAVSGICILLNVTELCYLLIRYCSGKSKKPV",
+        "full_sequence": "MDWGTLQTILGGVNKHSTSIGKIWLTVLFIFRIMILVVAAKEVWGDEQADFVCNTLQPGCKNVCYDHYFPISHIRLWALQLIFVSTPALLVAMHVAYRRHEKKRKFIKGEIKSEFKDIEEIKTQKVRIEGSLWWTYTSSIFFRVIFEAAFMYVFYVMYDGFSMQRLVKCNAWPCPNTVDCFVSRPTEKTVFTVFMIAVSGICILLNVTELCYLLIRYCSGKSKKPV",
+        "n_residues": 226,
+        "mutation_pos_1indexed": 1,
+        "wt_aa": "M",
+        "mut_aa": "T",
+        "pocket_lining_residues": "M1-D2-W3",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3
+        ],
+        "pocket_lining_1letter": "MDW",
+        "sequence_slice_around_pocket": "MDWGTLQTIL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GJB2_M1T/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "M1",
+          "D2",
+          "W3"
+        ],
+        "values": [
+          [
+            0.0,
+            3.801,
+            6.462
+          ],
+          [
+            3.801,
+            0.0,
+            3.806
+          ],
+          [
+            6.462,
+            3.806,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)c(CC(=O)COc2ccc(CN)cc2)c1",
+        "composite_score": 0.7275828828888519,
+        "mw": 328.18,
+        "logp": 2.064,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 9,
+        "qed": 0.737,
+        "sa_score": 2.11,
+        "n_heavy_atoms": 24,
+        "tpsa": 73.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GJB2-M1T Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)c(CC(=O)COc2ccc(CN)cc2)c1",
+        "pocket_affinity_score": 0.7276,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GJB2_M1T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GJB2_M1T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GJB2_M1T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GJB2_M1T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GJB2_M1T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GJB2-M1T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GJB2-M1T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:54:45.181016+00:00"
     }
   ]
 }
