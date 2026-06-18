@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2321,
+  "total_entries": 2322,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47058,
-    "queue_remaining": 131539
+    "total_processed": 47059,
+    "queue_remaining": 131538
   },
   "entries": [
     {
@@ -537307,6 +537307,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:42:32.554575+00:00"
+    },
+    {
+      "entry_id": "PCD-ATRX-R1503S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATRX-R1503S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ATRX",
+        "uniprot": "",
+        "clinvar_id": "372813",
+        "disease": "not provided",
+        "mutation_precursor": "R1503S",
+        "mutation_mature": "R1503S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8953671740815228,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 422.9595597172625,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.88339614868164,
+          6.640801906585693,
+          17.533172607421875
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.835253699451242,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6334059553947157,
+        "cryptic": true,
+        "pocket_residues": {
+          "E1500": "E",
+          "R1503": "R",
+          "R1504": "R",
+          "I1507": "I",
+          "D1573": "D",
+          "C1574": "C",
+          "C1575": "C",
+          "E1577": "E",
+          "S1588": "S",
+          "G1813": "G",
+          "C1814": "C"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P46100|ATRX variant R1503S",
+        "fasta_sequence": "MTAEPMSESKLNTLVQKLHDFLAHSSEESEETSSPPRLAMNQNTDKISGSGSNSDMMENSKEEGTSSSEKSKSSGSSRSKRKPSIVTKYVESDDEKPLDDETVNEDASNENSENDITMQSLPKGTVIVQPEPVLNEDKDDFKGPEFRSRSKMKTENLKKRGEDGLHGIVSCTACGQQVNHFQKDSIYRHPSLQVLICKNCFKYYMSDDISRDSDGMDEQCRWCAEGGNLICCDFCHNAFCKKCILRNLGRKELSTIMDENNQWYCYICHPEPLLDLVTACNSVFENLEQLLQQNKKKIKVDSEKSNKVYEHTSRFSPKKTSSNCNGEEKKLDDSCSGSVTYSYSALIVPKEMIKKAKKLIETTANMNSSYVKFLKQATDNSEISSATKLRQLKAFKSVLADIKKAHLALEEDLNSEFRAMDAVNKEKNTKEHKVIDAKFETKARKGEKPCALEKKDISKSEAKLSRKQVDSEHMHQNVPTEEQRTNKSTGGEHKKSDRKEEPQYEPANTSEDLDMDIVSVPSSVPEDIFENLETAMEVQSSVDHQGDGSSGTEQEVESSSVKLNISSKDNRGGIKSKTTAKVTKELYVKLTPVSLSNSPIKGADCQEVPQDKDGYKSCGLNPKLEKCGLGQENSDNEHLVENEVSLLLEESDLRRSPRVKTTPLRRPTETNPVTSNSDEECNETVKEKQKLSVPVRKKDKRNSSDSAIDNPKPNKLPKSKQSETVDQNSDSDEMLAILKEVSRMSHSSSSDTDINEIHTNHKTLYDLKTQAGKDDKGKRKRKSSTSGSDFDTKKGKSAKSSIISKKKRQTQSESSNYDSELEKEIKSMSKIGAARTTKKRIPNTKDFDSSEDEKHSKKGMDNQGHKNLKTSQEGSSDDAERKQERETFSSAEGTVDKDTTIMELRDRLPKKQQASASTDGVDKLSGKEESFTSLEVRKVAETKEKSKHLKTKTCKKVQDGLSDIAEKFLKKDQSDETSEDDKKQSKKGTEEKKKPSDFKKKVIKMEQQYESSSDGTEKLPEREEICHFPKGIKQIKNGTTDGEKKSKKIRDKTSKKKDELSDYAEKSTGKGDSCDSSEDKKSKNGAYGREKKRCKLLGKSSRKRQDCSSSDTEKYSMKEDGCNSSDKRLKRIELRERRNLSSKRNTKEIQSGSSSSDAEESSEDNKKKKQRTSSKKKAVIVKEKKRNSLRTSTKRKQADITSSSSSDIEDDDQNSIGEGSSDEQKIKPVTENLVLSSHTGFCQSSGDEALSKSVPVTVDDDDDDNDPENRIAKKMLLEEIKANLSSDEDGSSDDEPEEGKKRTGKQNEENPGDEEAKNQVNSESDSDSEESKKPRYRHRLLRHKLTVSDGESGEEKKTKPKEHKEVKGRNRRKVSSEDSEDSDFQESGVSEEVSESEDEQRPRTRSAKKAELEENQRSYKQKKKRRRIKVQEDSSSENKSNSEEEEEEKEEEEEEEEEEEEEEEDENDDSKSPGKGRKKIRKILKDDKLRTETQNALKEEEERRKRIAEREREREKLREVIEIEDASPTKCPITTKLVLDEDEETKEPLVQVHRNMVIKLKPHQVDGVQFMWDCCCESVKKTKKSPGSGCILAHCMGLGKTLQVVSFLHTVLLCDKLDFSTALVVCPLNTALNWMNEFEKWQEGLKDDEKLEVSELATVKRPQERSYMLQRWQEDGGVMIIGYEMYRNLAQGRNVKSRKLKEIFNKALVDPGPDFVVCDEGHILKNEASAVSKAMNSIRSRRRIILTGTPLQNNLIEYHCMVNFIKENLLGSIKEFRNRFINPIQNGQCADSTMVDVRVMKKRAHILYEMLAGCVQRKDYTALTKFLPPKHEYVLAVRMTSIQCKLYQYYLDHLTGVGNNSEGGRGKAGAKLFQDFQMLSRIWTHPWCLQLDYISKENKGYFDEDSMDEFIASDSDETSMSLSSDDYTKKKKKGKKGKKDSSSSGSGSDNDVEVIKVWNSRSRGGGEGNVDETGNNPSVSLKLEESKATSSSNPSSPAPDWYKDFVTDADAEVLEHSGKMVLLFEILRMAEEIGDKVLVFSQSLISLDLIEDFLELASREKTEDKDKPLIYKGEGKWLRNIDYYRLDGSTTAQSRKKWAEEFNDETNVRGRLFIISTKAGSLGINLVAANRVIIFDASWNPSYDIQSIFRVYRFGQTKPVYVYRFLAQGTMEDKIYDRQVTKQSLSFRVVDQQQVERHFTMNELTELYTFEPDLLDDPNSEKKKKRDTPMLPKDTILAELLQIHKEHIVGYHEHDSLLDHKEEEELTEEERKAAWAEYEAEKKGLTMRFNIPTGTNLPPVSFNSQTPYIPFNLGALSAMSNQQLEDLINQGREKVVEATNSVTAVRIQPLEDIISAVWKENMNLSEAQVQALALSRQASQELDVKRREAIYNDVLTKQQMLISCVQRILMNRRLQQQYNQQQQQQMTYQQATLGHLMMPKPPNLIMNPSNYQQIDMRGMYQPVAGGMQPPPLQRAPPPMRSKNPGPSQGKSM",
+        "full_sequence": "MTAEPMSESKLNTLVQKLHDFLAHSSEESEETSSPPRLAMNQNTDKISGSGSNSDMMENSKEEGTSSSEKSKSSGSSRSKRKPSIVTKYVESDDEKPLDDETVNEDASNENSENDITMQSLPKGTVIVQPEPVLNEDKDDFKGPEFRSRSKMKTENLKKRGEDGLHGIVSCTACGQQVNHFQKDSIYRHPSLQVLICKNCFKYYMSDDISRDSDGMDEQCRWCAEGGNLICCDFCHNAFCKKCILRNLGRKELSTIMDENNQWYCYICHPEPLLDLVTACNSVFENLEQLLQQNKKKIKVDSEKSNKVYEHTSRFSPKKTSSNCNGEEKKLDDSCSGSVTYSYSALIVPKEMIKKAKKLIETTANMNSSYVKFLKQATDNSEISSATKLRQLKAFKSVLADIKKAHLALEEDLNSEFRAMDAVNKEKNTKEHKVIDAKFETKARKGEKPCALEKKDISKSEAKLSRKQVDSEHMHQNVPTEEQRTNKSTGGEHKKSDRKEEPQYEPANTSEDLDMDIVSVPSSVPEDIFENLETAMEVQSSVDHQGDGSSGTEQEVESSSVKLNISSKDNRGGIKSKTTAKVTKELYVKLTPVSLSNSPIKGADCQEVPQDKDGYKSCGLNPKLEKCGLGQENSDNEHLVENEVSLLLEESDLRRSPRVKTTPLRRPTETNPVTSNSDEECNETVKEKQKLSVPVRKKDKRNSSDSAIDNPKPNKLPKSKQSETVDQNSDSDEMLAILKEVSRMSHSSSSDTDINEIHTNHKTLYDLKTQAGKDDKGKRKRKSSTSGSDFDTKKGKSAKSSIISKKKRQTQSESSNYDSELEKEIKSMSKIGAARTTKKRIPNTKDFDSSEDEKHSKKGMDNQGHKNLKTSQEGSSDDAERKQERETFSSAEGTVDKDTTIMELRDRLPKKQQASASTDGVDKLSGKEESFTSLEVRKVAETKEKSKHLKTKTCKKVQDGLSDIAEKFLKKDQSDETSEDDKKQSKKGTEEKKKPSDFKKKVIKMEQQYESSSDGTEKLPEREEICHFPKGIKQIKNGTTDGEKKSKKIRDKTSKKKDELSDYAEKSTGKGDSCDSSEDKKSKNGAYGREKKRCKLLGKSSRKRQDCSSSDTEKYSMKEDGCNSSDKRLKRIELRERRNLSSKRNTKEIQSGSSSSDAEESSEDNKKKKQRTSSKKKAVIVKEKKRNSLRTSTKRKQADITSSSSSDIEDDDQNSIGEGSSDEQKIKPVTENLVLSSHTGFCQSSGDEALSKSVPVTVDDDDDDNDPENRIAKKMLLEEIKANLSSDEDGSSDDEPEEGKKRTGKQNEENPGDEEAKNQVNSESDSDSEESKKPRYRHRLLRHKLTVSDGESGEEKKTKPKEHKEVKGRNRRKVSSEDSEDSDFQESGVSEEVSESEDEQRPRTRSAKKAELEENQRSYKQKKKRRRIKVQEDSSSENKSNSEEEEEEKEEEEEEEEEEEEEEEDENDDSKSPGKGRKKIRKILKDDKLRTETQNALKEEEERRKRIAEREREREKLREVIEIEDASPTKCPITTKLVLDEDEETKEPLVQVHRNMVIKLKPHQVDGVQFMWDCCCESVKKTKKSPGSGCILAHCMGLGKTLQVVSFLHTVLLCDKLDFSTALVVCPLNTALNWMNEFEKWQEGLKDDEKLEVSELATVKRPQERSYMLQRWQEDGGVMIIGYEMYRNLAQGRNVKSRKLKEIFNKALVDPGPDFVVCDEGHILKNEASAVSKAMNSIRSRRRIILTGTPLQNNLIEYHCMVNFIKENLLGSIKEFRNRFINPIQNGQCADSTMVDVRVMKKRAHILYEMLAGCVQRKDYTALTKFLPPKHEYVLAVRMTSIQCKLYQYYLDHLTGVGNNSEGGRGKAGAKLFQDFQMLSRIWTHPWCLQLDYISKENKGYFDEDSMDEFIASDSDETSMSLSSDDYTKKKKKGKKGKKDSSSSGSGSDNDVEVIKVWNSRSRGGGEGNVDETGNNPSVSLKLEESKATSSSNPSSPAPDWYKDFVTDADAEVLEHSGKMVLLFEILRMAEEIGDKVLVFSQSLISLDLIEDFLELASREKTEDKDKPLIYKGEGKWLRNIDYYRLDGSTTAQSRKKWAEEFNDETNVRGRLFIISTKAGSLGINLVAANRVIIFDASWNPSYDIQSIFRVYRFGQTKPVYVYRFLAQGTMEDKIYDRQVTKQSLSFRVVDQQQVERHFTMNELTELYTFEPDLLDDPNSEKKKKRDTPMLPKDTILAELLQIHKEHIVGYHEHDSLLDHKEEEELTEEERKAAWAEYEAEKKGLTMRFNIPTGTNLPPVSFNSQTPYIPFNLGALSAMSNQQLEDLINQGREKVVEATNSVTAVRIQPLEDIISAVWKENMNLSEAQVQALALSRQASQELDVKRREAIYNDVLTKQQMLISCVQRILMNRRLQQQYNQQQQQQMTYQQATLGHLMMPKPPNLIMNPSNYQQIDMRGMYQPVAGGMQPPPLQRAPPPMRSKNPGPSQGKSM",
+        "n_residues": 2492,
+        "mutation_pos_1indexed": 1503,
+        "wt_aa": "R",
+        "mut_aa": "S",
+        "pocket_lining_residues": "E1500-R1503-R1504-I1507-D1573-C1574-C1575-E1577-S1588-G1813-C1814",
+        "pocket_lining_positions_precursor": [
+          1500,
+          1503,
+          1504,
+          1507,
+          1573,
+          1574,
+          1575,
+          1577,
+          1588,
+          1813,
+          1814
+        ],
+        "pocket_lining_1letter": "ERRIDCCESGC",
+        "sequence_slice_around_pocket": "TQNALKEEEERRKRIAERER"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ATRX_R1503S/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "E1500",
+          "R1503",
+          "R1504",
+          "I1507",
+          "D1573",
+          "C1574",
+          "C1575",
+          "E1577",
+          "S1588",
+          "G1813",
+          "C1814"
+        ],
+        "values": [
+          [
+            0.0,
+            4.807,
+            6.071,
+            10.401,
+            12.005,
+            10.246,
+            12.657,
+            12.378,
+            9.768,
+            7.99,
+            9.077
+          ],
+          [
+            4.807,
+            0.0,
+            3.867,
+            6.342,
+            9.272,
+            8.985,
+            11.293,
+            8.768,
+            10.133,
+            8.762,
+            10.568
+          ],
+          [
+            6.071,
+            3.867,
+            0.0,
+            5.15,
+            9.407,
+            9.675,
+            12.877,
+            10.336,
+            12.34,
+            6.667,
+            9.687
+          ],
+          [
+            10.401,
+            6.342,
+            5.15,
+            0.0,
+            6.88,
+            9.156,
+            11.856,
+            7.363,
+            13.259,
+            9.284,
+            11.87
+          ],
+          [
+            12.005,
+            9.272,
+            9.407,
+            6.88,
+            0.0,
+            3.866,
+            5.955,
+            4.348,
+            9.281,
+            9.107,
+            9.397
+          ],
+          [
+            10.246,
+            8.985,
+            9.675,
+            9.156,
+            3.866,
+            0.0,
+            3.853,
+            6.268,
+            5.881,
+            7.886,
+            6.801
+          ],
+          [
+            12.657,
+            11.293,
+            12.877,
+            11.856,
+            5.955,
+            3.853,
+            0.0,
+            6.361,
+            5.047,
+            11.629,
+            9.943
+          ],
+          [
+            12.378,
+            8.768,
+            10.336,
+            7.363,
+            4.348,
+            6.268,
+            6.361,
+            0.0,
+            9.34,
+            12.177,
+            12.531
+          ],
+          [
+            9.768,
+            10.133,
+            12.34,
+            13.259,
+            9.281,
+            5.881,
+            5.047,
+            9.34,
+            0.0,
+            11.092,
+            8.955
+          ],
+          [
+            7.99,
+            8.762,
+            6.667,
+            9.284,
+            9.107,
+            7.886,
+            11.629,
+            12.177,
+            11.092,
+            0.0,
+            3.886
+          ],
+          [
+            9.077,
+            10.568,
+            9.687,
+            11.87,
+            9.397,
+            6.801,
+            9.943,
+            12.531,
+            8.955,
+            3.886,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCCCS(=O)(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.7626960360144668,
+        "mw": 311.17,
+        "logp": 1.975,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 7,
+        "qed": 0.7792,
+        "sa_score": 2.42,
+        "n_heavy_atoms": 21,
+        "tpsa": 76.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ATRX-R1503S Candidate #1",
+        "iupac_name": "NCCCCCS(=O)(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.7627,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ATRX_R1503S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ATRX_R1503S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ATRX_R1503S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ATRX_R1503S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ATRX_R1503S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATRX-R1503S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATRX-R1503S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:44:58.056808+00:00"
     }
   ]
 }
