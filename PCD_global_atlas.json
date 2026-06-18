@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1962,
+  "total_entries": 1963,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46653,
-    "queue_remaining": 131944
+    "total_processed": 46654,
+    "queue_remaining": 131943
   },
   "entries": [
     {
@@ -445462,6 +445462,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:44:14.254622+00:00"
+    },
+    {
+      "entry_id": "PCD-MYCN-R398W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYCN-R398W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MYCN",
+        "uniprot": "",
+        "clinvar_id": "372422",
+        "disease": "not provided",
+        "mutation_precursor": "R398W",
+        "mutation_mature": "R398W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7579032662629499,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 297.73434537766076,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          1.4193215370178223,
+          1.2044001817703247,
+          -9.071290016174316
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.257632732375325,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6777098351282315,
+        "cryptic": true,
+        "pocket_residues": {
+          "D396": "D",
+          "L397": "L",
+          "R398": "R",
+          "S399": "S",
+          "S400": "S",
+          "F401": "F",
+          "L402": "L",
+          "T403": "T",
+          "L404": "L",
+          "R405": "R"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P04198|MYCN variant R398W",
+        "fasta_sequence": "MPSCSTSTMPGMICKNPDLEFDSLQPCFYPDEDDFYFGGPDSTPPGEDIWKKFELLPTPPLSPSRGFAEHSSEPPSWVTEMLLENELWGSPAEEDAFGLGGLGGLTPNPVILQDCMWSGFSAREKLERAVSEKLQHGRGPPTAGSTAQSPGAGAASPAGRGHGGAAGAGRAGAALPAELAHPAAECVDPAVVFPFPVNKREPAPVPAAPASAPAAGPAVASGAGIAAPAGAPGVAPPRPGGRQTSGGDHKALSTSGEDTLSDSDDEDDEEEDEEEEIDVVTVEKRRSSSNTKAVTTFTITVRPKNAALGPGRAQSSELILKRCLPIHQQHNYAAPSPYVESEDAPPQKKIKSEASPRPLKSVIPPKAKSLSPRNSDSEDSERRRNHNILERQRRNDLRSSFLTLRDHVPELVKNEKAAKVVILKKATEYVHSLQAEEHQLLLEKEKLQARQQQLLKKIEHARTC",
+        "full_sequence": "MPSCSTSTMPGMICKNPDLEFDSLQPCFYPDEDDFYFGGPDSTPPGEDIWKKFELLPTPPLSPSRGFAEHSSEPPSWVTEMLLENELWGSPAEEDAFGLGGLGGLTPNPVILQDCMWSGFSAREKLERAVSEKLQHGRGPPTAGSTAQSPGAGAASPAGRGHGGAAGAGRAGAALPAELAHPAAECVDPAVVFPFPVNKREPAPVPAAPASAPAAGPAVASGAGIAAPAGAPGVAPPRPGGRQTSGGDHKALSTSGEDTLSDSDDEDDEEEDEEEEIDVVTVEKRRSSSNTKAVTTFTITVRPKNAALGPGRAQSSELILKRCLPIHQQHNYAAPSPYVESEDAPPQKKIKSEASPRPLKSVIPPKAKSLSPRNSDSEDSERRRNHNILERQRRNDLRSSFLTLRDHVPELVKNEKAAKVVILKKATEYVHSLQAEEHQLLLEKEKLQARQQQLLKKIEHARTC",
+        "n_residues": 464,
+        "mutation_pos_1indexed": 398,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "D396-L397-R398-S399-S400-F401-L402-T403-L404-R405",
+        "pocket_lining_positions_precursor": [
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405
+        ],
+        "pocket_lining_1letter": "DLRSSFLTLR",
+        "sequence_slice_around_pocket": "ILERQRRNDLRSSFLTLRDH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MYCN_R398W/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "D396",
+          "L397",
+          "R398",
+          "S399",
+          "S400",
+          "F401",
+          "L402",
+          "T403",
+          "L404",
+          "R405"
+        ],
+        "values": [
+          [
+            0.0,
+            3.84,
+            5.48,
+            5.101,
+            6.194,
+            8.794,
+            9.909,
+            10.504,
+            12.326,
+            14.293
+          ],
+          [
+            3.84,
+            0.0,
+            3.874,
+            5.464,
+            4.975,
+            6.342,
+            8.747,
+            9.866,
+            10.541,
+            12.399
+          ],
+          [
+            5.48,
+            3.874,
+            0.0,
+            3.856,
+            5.401,
+            5.159,
+            6.288,
+            8.703,
+            9.895,
+            10.597
+          ],
+          [
+            5.101,
+            5.464,
+            3.856,
+            0.0,
+            3.85,
+            5.493,
+            5.054,
+            6.148,
+            8.599,
+            9.834
+          ],
+          [
+            6.194,
+            4.975,
+            5.401,
+            3.85,
+            0.0,
+            3.859,
+            5.489,
+            5.13,
+            6.166,
+            8.646
+          ],
+          [
+            8.794,
+            6.342,
+            5.159,
+            5.493,
+            3.859,
+            0.0,
+            3.854,
+            5.491,
+            5.049,
+            6.115
+          ],
+          [
+            9.909,
+            8.747,
+            6.288,
+            5.054,
+            5.489,
+            3.854,
+            0.0,
+            3.85,
+            5.462,
+            5.078
+          ],
+          [
+            10.504,
+            9.866,
+            8.703,
+            6.148,
+            5.13,
+            5.491,
+            3.85,
+            0.0,
+            3.844,
+            5.505
+          ],
+          [
+            12.326,
+            10.541,
+            9.895,
+            8.599,
+            6.166,
+            5.049,
+            5.462,
+            3.844,
+            0.0,
+            3.864
+          ],
+          [
+            14.293,
+            12.399,
+            10.597,
+            9.834,
+            8.646,
+            6.115,
+            5.078,
+            5.505,
+            3.864,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8378202582001799,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MYCN-R398W Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8378,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MYCN_R398W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MYCN_R398W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MYCN_R398W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MYCN_R398W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MYCN_R398W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYCN-R398W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MYCN-R398W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:44:40.580903+00:00"
     }
   ]
 }
