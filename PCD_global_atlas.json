@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2034,
+  "total_entries": 2035,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46740,
-    "queue_remaining": 131857
+    "total_processed": 46741,
+    "queue_remaining": 131856
   },
   "entries": [
     {
@@ -464397,6 +464397,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:49:04.998568+00:00"
+    },
+    {
+      "entry_id": "PCD-ACTB-T160I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACTB-T160I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ACTB",
+        "uniprot": "",
+        "clinvar_id": "372917",
+        "disease": "not provided",
+        "mutation_precursor": "T160I",
+        "mutation_mature": "T160I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9097668937391263,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 448.04202908173096,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -9.73762321472168,
+          5.006101608276367,
+          -4.137434005737305
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.552418500424223,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8955949359305514,
+        "cryptic": true,
+        "pocket_residues": {
+          "V159": "V",
+          "T160": "T",
+          "H161": "H",
+          "L176": "L",
+          "R177": "R",
+          "L178": "L",
+          "D179": "D",
+          "L180": "L",
+          "A181": "A"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P60709|ACTB variant T160I",
+        "fasta_sequence": "MDDDIAALVVDNGSGMCKAGFAGDDAPRAVFPSIVGRPRHQGVMVGMGQKDSYVGDEAQSKRGILTLKYPIEHGIVTNWDDMEKIWHHTFYNELRVAPEEHPVLLTEAPLNPKANREKMTQIMFETFNTPAMYVAIQAVLSLYASGRTTGIVMDSGDGVTHTVPIYEGYALPHAILRLDLAGRDLTDYLMKILTERGYSFTTTAEREIVRDIKEKLCYVALDFEQEMATAASSSSLEKSYELPDGQVITIGNERFRCPEALFQPSFLGMESCGIHETTFNSIMKCDVDIRKDLYANTVLSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWISKQEYDESGPSIVHRKCF",
+        "full_sequence": "MDDDIAALVVDNGSGMCKAGFAGDDAPRAVFPSIVGRPRHQGVMVGMGQKDSYVGDEAQSKRGILTLKYPIEHGIVTNWDDMEKIWHHTFYNELRVAPEEHPVLLTEAPLNPKANREKMTQIMFETFNTPAMYVAIQAVLSLYASGRTTGIVMDSGDGVTHTVPIYEGYALPHAILRLDLAGRDLTDYLMKILTERGYSFTTTAEREIVRDIKEKLCYVALDFEQEMATAASSSSLEKSYELPDGQVITIGNERFRCPEALFQPSFLGMESCGIHETTFNSIMKCDVDIRKDLYANTVLSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWISKQEYDESGPSIVHRKCF",
+        "n_residues": 375,
+        "mutation_pos_1indexed": 160,
+        "wt_aa": "T",
+        "mut_aa": "I",
+        "pocket_lining_residues": "V159-T160-H161-L176-R177-L178-D179-L180-A181",
+        "pocket_lining_positions_precursor": [
+          159,
+          160,
+          161,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181
+        ],
+        "pocket_lining_1letter": "VTHLRLDLA",
+        "sequence_slice_around_pocket": "GIVMDSGDGVTHTVPIYEGY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ACTB_T160I/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "V159",
+          "T160",
+          "H161",
+          "L176",
+          "R177",
+          "L178",
+          "D179",
+          "L180",
+          "A181"
+        ],
+        "values": [
+          [
+            0.0,
+            3.826,
+            6.734,
+            10.904,
+            7.481,
+            6.182,
+            4.861,
+            5.444,
+            4.955
+          ],
+          [
+            3.826,
+            0.0,
+            3.834,
+            8.578,
+            6.04,
+            5.081,
+            6.29,
+            6.064,
+            5.836
+          ],
+          [
+            6.734,
+            3.834,
+            0.0,
+            5.778,
+            4.62,
+            6.138,
+            8.579,
+            9.402,
+            9.669
+          ],
+          [
+            10.904,
+            8.578,
+            5.778,
+            0.0,
+            3.808,
+            6.834,
+            10.212,
+            12.028,
+            13.824
+          ],
+          [
+            7.481,
+            6.04,
+            4.62,
+            3.808,
+            0.0,
+            3.795,
+            6.578,
+            8.858,
+            10.77
+          ],
+          [
+            6.182,
+            5.081,
+            6.138,
+            6.834,
+            3.795,
+            0.0,
+            3.851,
+            5.371,
+            8.009
+          ],
+          [
+            4.861,
+            6.29,
+            8.579,
+            10.212,
+            6.578,
+            3.851,
+            0.0,
+            3.852,
+            6.657
+          ],
+          [
+            5.444,
+            6.064,
+            9.402,
+            12.028,
+            8.858,
+            5.371,
+            3.852,
+            0.0,
+            3.817
+          ],
+          [
+            4.955,
+            5.836,
+            9.669,
+            13.824,
+            10.77,
+            8.009,
+            6.657,
+            3.817,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8819480407811464,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ACTB-T160I Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8819,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ACTB_T160I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ACTB_T160I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ACTB_T160I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACTB_T160I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACTB_T160I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACTB-T160I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACTB-T160I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:49:31.431622+00:00"
     }
   ]
 }
