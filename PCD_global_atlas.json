@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2303,
+  "total_entries": 2304,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47038,
-    "queue_remaining": 131559
+    "total_processed": 47039,
+    "queue_remaining": 131558
   },
   "entries": [
     {
@@ -532081,6 +532081,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:24:35.218725+00:00"
+    },
+    {
+      "entry_id": "PCD-DYRK1A-R319W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DYRK1A-R319W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DYRK1A",
+        "uniprot": "",
+        "clinvar_id": "373750",
+        "disease": "not specified",
+        "mutation_precursor": "R319W",
+        "mutation_mature": "R319W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8640316544601322,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 576.163928486991,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          7.123682975769043,
+          2.3536553382873535,
+          10.786639213562012
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.408087092688685,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7701916278721531,
+        "cryptic": true,
+        "pocket_residues": {
+          "S310": "S",
+          "R317": "R",
+          "I318": "I",
+          "Y319": "Y",
+          "Q320": "Q",
+          "Y321": "Y",
+          "I322": "I"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13627|DYRK1A variant R319W",
+        "fasta_sequence": "MHTGGETSACKPSSVRLAPSFSFHAAGLQMAGQMPHSHQYSDRRQPNISDQQVSALSYSDQIQQPLTNQVMPDIVMLQRRMPQTFRDPATAPLRKLSVDLIKTYKHINEVYYAKKKRRHQQGQGDDSSHKKERKVYNDGYDDDNYDYIVKNGEKWMDRYEIDSLIGKGSFGQVVKAYDRVEQEWVAIKIIKNKKAFLNQAQIEVRLLELMNKHDTEMKYYIVHLKRHFMFRNHLCLVFEMLSYNLYDLLRNTNFRGVSLNLTRKFAQQMCTALLFLATPELSIIHCDLKPENILLCNPKRSAIKIVDFGSSCQLGQRIYQYIQSRFYRSPEVLLGMPYDLAIDMWSLGCILVEMHTGEPLFSGANEVDQMNKIVEVLGIPPAHILDQAPKARKFFEKLPDGTWNLKKTKDGKREYKPPGTRKLHNILGVETGGPGGRRAGESGHTVADYLKFKDLILRMLDYDPKTRIQPYYALQHSFFKKTADEGTNTSNSVSTSPAMEQSQSSGTTSSTSSSSGGSSGTSNSGRARSDPTHQHRHSGGHFTAAVQAMDCETHSPQVRQQFPAPLGWSGTEAPTQVTVETHPVQETTFHVAPQQNALHHHHGNSSHHHHHHHHHHHHHGQQALGNRTRPRVYNSPTNSSSTQDSMEVGHSHHSMTSLSSSTTSSSTSSSSTGNQGNQAYQNRPVAANTLDFGQNGAMDVNLTVYSNPRQETGIAGHPTYQFSANTGPAHYMTEGHLTMRQGADREESPMTGVCVQQSPVASS",
+        "full_sequence": "MHTGGETSACKPSSVRLAPSFSFHAAGLQMAGQMPHSHQYSDRRQPNISDQQVSALSYSDQIQQPLTNQVMPDIVMLQRRMPQTFRDPATAPLRKLSVDLIKTYKHINEVYYAKKKRRHQQGQGDDSSHKKERKVYNDGYDDDNYDYIVKNGEKWMDRYEIDSLIGKGSFGQVVKAYDRVEQEWVAIKIIKNKKAFLNQAQIEVRLLELMNKHDTEMKYYIVHLKRHFMFRNHLCLVFEMLSYNLYDLLRNTNFRGVSLNLTRKFAQQMCTALLFLATPELSIIHCDLKPENILLCNPKRSAIKIVDFGSSCQLGQRIYQYIQSRFYRSPEVLLGMPYDLAIDMWSLGCILVEMHTGEPLFSGANEVDQMNKIVEVLGIPPAHILDQAPKARKFFEKLPDGTWNLKKTKDGKREYKPPGTRKLHNILGVETGGPGGRRAGESGHTVADYLKFKDLILRMLDYDPKTRIQPYYALQHSFFKKTADEGTNTSNSVSTSPAMEQSQSSGTTSSTSSSSGGSSGTSNSGRARSDPTHQHRHSGGHFTAAVQAMDCETHSPQVRQQFPAPLGWSGTEAPTQVTVETHPVQETTFHVAPQQNALHHHHGNSSHHHHHHHHHHHHHGQQALGNRTRPRVYNSPTNSSSTQDSMEVGHSHHSMTSLSSSTTSSSTSSSSTGNQGNQAYQNRPVAANTLDFGQNGAMDVNLTVYSNPRQETGIAGHPTYQFSANTGPAHYMTEGHLTMRQGADREESPMTGVCVQQSPVASS",
+        "n_residues": 763,
+        "mutation_pos_1indexed": 319,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "S310-R317-I318-Y319-Q320-Y321-I322",
+        "pocket_lining_positions_precursor": [
+          310,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322
+        ],
+        "pocket_lining_1letter": "SRIYQYI",
+        "sequence_slice_around_pocket": "GSSCQLGQRIYQYIQSRFYR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DYRK1A_R319W/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "S310",
+          "R317",
+          "I318",
+          "Y319",
+          "Q320",
+          "Y321",
+          "I322"
+        ],
+        "values": [
+          [
+            0.0,
+            10.649,
+            9.977,
+            9.029,
+            11.606,
+            10.407,
+            7.619
+          ],
+          [
+            10.649,
+            0.0,
+            3.867,
+            6.036,
+            8.321,
+            10.976,
+            10.5
+          ],
+          [
+            9.977,
+            3.867,
+            0.0,
+            3.849,
+            7.163,
+            9.583,
+            9.934
+          ],
+          [
+            9.029,
+            6.036,
+            3.849,
+            0.0,
+            3.864,
+            5.738,
+            6.614
+          ],
+          [
+            11.606,
+            8.321,
+            7.163,
+            3.864,
+            0.0,
+            3.882,
+            6.26
+          ],
+          [
+            10.407,
+            10.976,
+            9.583,
+            5.738,
+            3.882,
+            0.0,
+            3.86
+          ],
+          [
+            7.619,
+            10.5,
+            9.934,
+            6.614,
+            6.26,
+            3.86,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1NCCNCCc1c[nH]c2ccccc12",
+        "composite_score": 0.6454453379189227,
+        "mw": 392.23,
+        "logp": 2.062,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.4382,
+        "sa_score": 3.4,
+        "n_heavy_atoms": 29,
+        "tpsa": 99.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DYRK1A-R319W Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1NCCNCCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6454,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DYRK1A_R319W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DYRK1A_R319W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DYRK1A_R319W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DYRK1A_R319W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DYRK1A_R319W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DYRK1A-R319W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DYRK1A-R319W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:25:08.172644+00:00"
     }
   ]
 }
