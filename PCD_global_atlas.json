@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1977,
+  "total_entries": 1978,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46669,
-    "queue_remaining": 131928
+    "total_processed": 46670,
+    "queue_remaining": 131927
   },
   "entries": [
     {
@@ -449464,6 +449464,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:58:43.816612+00:00"
+    },
+    {
+      "entry_id": "PCD-SRD5A2-Q126R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SRD5A2-Q126R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SRD5A2",
+        "uniprot": "",
+        "clinvar_id": "372519",
+        "disease": "not provided",
+        "mutation_precursor": "Q126R",
+        "mutation_mature": "Q126R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7968783194687117,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 453.75815386631865,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -0.2934987545013428,
+          6.067107677459717,
+          -11.188032150268555
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.001787800819671,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6483155005551455,
+        "cryptic": true,
+        "pocket_residues": {
+          "S60": "S",
+          "P64": "P",
+          "L84": "L",
+          "F87": "F",
+          "N122": "N",
+          "G123": "G",
+          "V124": "V",
+          "L125": "L",
+          "Q126": "Q",
+          "G127": "G",
+          "A213": "A"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P31213|SRD5A2 variant Q126R",
+        "fasta_sequence": "MQVQCQQSPVLAGSATLVALGALALYVAKPSGYGKHTESLKPAATRLPARAAWFLQELPSFAVPAGILARQPLSLFGPPGTVLLGLFCLHYFHRTFVYSLLNRGRPYPAILILRGTAFCTGNGVLQGYYLIYCAEYPDGWYTDIRFSLGVFLFILGMGINIHSDYILRQLRKPGEISYRIPQGGLFTYVSGANFLGEIIEWIGYALATWSLPALAFAFFSLCFLGLRAFHHHRFYLKMFEDYPKSRKALIPFIF",
+        "full_sequence": "MQVQCQQSPVLAGSATLVALGALALYVAKPSGYGKHTESLKPAATRLPARAAWFLQELPSFAVPAGILARQPLSLFGPPGTVLLGLFCLHYFHRTFVYSLLNRGRPYPAILILRGTAFCTGNGVLQGYYLIYCAEYPDGWYTDIRFSLGVFLFILGMGINIHSDYILRQLRKPGEISYRIPQGGLFTYVSGANFLGEIIEWIGYALATWSLPALAFAFFSLCFLGLRAFHHHRFYLKMFEDYPKSRKALIPFIF",
+        "n_residues": 254,
+        "mutation_pos_1indexed": 126,
+        "wt_aa": "Q",
+        "mut_aa": "R",
+        "pocket_lining_residues": "S60-P64-L84-F87-N122-G123-V124-L125-Q126-G127-A213",
+        "pocket_lining_positions_precursor": [
+          60,
+          64,
+          84,
+          87,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          213
+        ],
+        "pocket_lining_1letter": "SPLFNGVLQGA",
+        "sequence_slice_around_pocket": "TAFCTGNGVLQGYYLIYCAE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SRD5A2_Q126R/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "S60",
+          "P64",
+          "L84",
+          "F87",
+          "N122",
+          "G123",
+          "V124",
+          "L125",
+          "Q126",
+          "G127",
+          "A213"
+        ],
+        "values": [
+          [
+            0.0,
+            6.59,
+            10.852,
+            8.35,
+            6.685,
+            4.305,
+            7.781,
+            9.866,
+            9.068,
+            9.121,
+            13.275
+          ],
+          [
+            6.59,
+            0.0,
+            6.858,
+            7.756,
+            9.68,
+            5.903,
+            7.017,
+            9.37,
+            7.765,
+            5.115,
+            13.703
+          ],
+          [
+            10.852,
+            6.858,
+            0.0,
+            4.97,
+            12.201,
+            9.729,
+            11.133,
+            11.127,
+            7.595,
+            6.395,
+            10.792
+          ],
+          [
+            8.35,
+            7.756,
+            4.97,
+            0.0,
+            10.807,
+            8.82,
+            11.733,
+            11.871,
+            8.463,
+            8.736,
+            10.265
+          ],
+          [
+            6.685,
+            9.68,
+            12.201,
+            10.807,
+            0.0,
+            3.857,
+            5.442,
+            5.041,
+            6.032,
+            8.297,
+            9.334
+          ],
+          [
+            4.305,
+            5.903,
+            9.729,
+            8.82,
+            3.857,
+            0.0,
+            3.855,
+            5.597,
+            5.431,
+            5.865,
+            10.761
+          ],
+          [
+            7.781,
+            7.017,
+            11.133,
+            11.733,
+            5.442,
+            3.855,
+            0.0,
+            3.854,
+            5.718,
+            5.278,
+            11.937
+          ],
+          [
+            9.866,
+            9.37,
+            11.127,
+            11.871,
+            5.041,
+            5.597,
+            3.854,
+            0.0,
+            3.841,
+            5.653,
+            8.912
+          ],
+          [
+            9.068,
+            7.765,
+            7.595,
+            8.463,
+            6.032,
+            5.431,
+            5.718,
+            3.841,
+            0.0,
+            3.843,
+            6.781
+          ],
+          [
+            9.121,
+            5.115,
+            6.395,
+            8.736,
+            8.297,
+            5.865,
+            5.278,
+            5.653,
+            3.843,
+            0.0,
+            10.313
+          ],
+          [
+            13.275,
+            13.703,
+            10.792,
+            10.265,
+            9.334,
+            10.761,
+            11.937,
+            8.912,
+            6.781,
+            10.313,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6397455257374409,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SRD5A2-Q126R Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6397,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SRD5A2_Q126R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SRD5A2_Q126R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SRD5A2_Q126R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SRD5A2_Q126R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SRD5A2_Q126R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SRD5A2-Q126R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SRD5A2-Q126R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:59:08.965686+00:00"
     }
   ]
 }
