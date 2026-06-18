@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1726,
+  "total_entries": 1727,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46397,
-    "queue_remaining": 132200
+    "total_processed": 46398,
+    "queue_remaining": 132199
   },
   "entries": [
     {
@@ -384144,6 +384144,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:18:20.559309+00:00"
+    },
+    {
+      "entry_id": "PCD-COL4A3-G695R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL4A3-G695R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COL4A3",
+        "uniprot": "",
+        "clinvar_id": "369964",
+        "disease": "Autosomal dominant Alport syndrome",
+        "mutation_precursor": "G695R",
+        "mutation_mature": "G695R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.780538640573985,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 547.9070322498566,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          3.590312957763672,
+          22.128435134887695,
+          -78.69387817382812
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.755301464090317,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8693031826615255,
+        "cryptic": true,
+        "pocket_residues": {
+          "G692": "G",
+          "E693": "E",
+          "P694": "P",
+          "G695": "G",
+          "I696": "I"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q01955|COL4A3 variant G695R",
+        "fasta_sequence": "MSARTAPRPQVLLLPLLLVLLAAAPAASKGCVCKDKGQCFCDGAKGEKGEKGFPGPPGSPGQKGFTGPEGLPGPQGPKGFPGLPGLTGSKGVRGISGLPGFSGSPGLPGTPGNTGPYGLVGVPGCSGSKGEQGFPGLPGTLGYPGIPGAAGLKGQKGAPAKEEDIELDAKGDPGLPGAPGPQGLPGPPGFPGPVGPPGPPGFFGFPGAMGPRGPKGHMGERVIGHKGERGVKGLTGPPGPPGTVIVTLTGPDNRTDLKGEKGDKGAMGEPGPPGPSGLPGESYGSEKGAPGDPGLQGKPGKDGVPGFPGSEGVKGNRGFPGLMGEDGIKGQKGDIGPPGFRGPTEYYDTYQEKGDEGTPGPPGPRGARGPQGPSGPPGVPGSPGSSRPGLRGAPGWPGLKGSKGERGRPGKDAMGTPGSPGCAGSPGLPGSPGPPGPPGDIVFRKGPPGDHGLPGYLGSPGIPGVDGPKGEPGLLCTQCPYIPGPPGLPGLPGLHGVKGIPGRQGAAGLKGSPGSPGNTGLPGFPGFPGAQGDPGLKGEKGETLQPEGQVGVPGDPGLRGQPGRKGLDGIPGTPGVKGLPGPKGELALSGEKGDQGPPGDPGSPGSPGPAGPAGPPGYGPQGEPGLQGTQGVPGAPGPPGEAGPRGELSVSTPVPGPPGPPGPPGHPGPQGPPGIPGSLGKCGDPGLPGPDGEPGIPGIGFPGPPGPKGDQGFPGTKGSLGCPGKMGEPGLPGKPGLPGAKGEPAVAMPGGPGTPGFPGERGNSGEHGEIGLPGLPGLPGTPGNEGLDGPRGDPGQPGPPGEQGPPGRCIEGPRGAQGLPGLNGLKGQQGRRGKTGPKGDPGIPGLDRSGFPGETGSPGIPGHQGEMGPLGQRGYPGNPGILGPPGEDGVIGMMGFPGAIGPPGPPGNPGTPGQRGSPGIPGVKGQRGTPGAKGEQGDKGNPGPSEISHVIGDKGEPGLKGFAGNPGEKGNRGVPGMPGLKGLKGLPGPAGPPGPRGDLGSTGNPGEPGLRGIPGSMGNMGMPGSKGKRGTLGFPGRAGRPGLPGIHGLQGDKGEPGYSEGTRPGPPGPTGDPGLPGDMGKKGEMGQPGPPGHLGPAGPEGAPGSPGSPGLPGKPGPHGDLGFKGIKGLLGPPGIRGPPGLPGFPGSPGPMGIRGDQGRDGIPGPAGEKGETGLLRAPPGPRGNPGAQGAKGDRGAPGFPGLPGRKGAMGDAGPRGPTGIEGFPGPPGLPGAIIPGQTGNRGPPGSRGSPGAPGPPGPPGSHVIGIKGDKGSMGHPGPKGPPGTAGDMGPPGRLGAPGTPGLPGPRGDPGFQGFPGVKGEKGNPGFLGSIGPPGPIGPKGPPGVRGDPGTLKIISLPGSPGPPGTPGEPGMQGEPGPPGPPGNLGPCGPRGKPGKDGKPGTPGPAGEKGNKGSKGEPGPAGSDGLPGLKGKRGDSGSPATWTTRGFVFTRHSQTTAIPSCPEGTVPLYSGFSFLFVQGNQRAHGQDLGTLGSCLQRFTTMPFLFCNVNDVCNFASRNDYSYWLSTPALMPMNMAPITGRALEPYISRCTVCEGPAIAIAVHSQTTDIPPCPHGWISLWKGFSFIMFTSAGSEGTGQALASPGSCLEEFRASPFLECHGRGTCNYYSNSYSFWLASLNPERMFRKPIPSTVKAGELEKIISRCQVCMKKRH",
+        "full_sequence": "MSARTAPRPQVLLLPLLLVLLAAAPAASKGCVCKDKGQCFCDGAKGEKGEKGFPGPPGSPGQKGFTGPEGLPGPQGPKGFPGLPGLTGSKGVRGISGLPGFSGSPGLPGTPGNTGPYGLVGVPGCSGSKGEQGFPGLPGTLGYPGIPGAAGLKGQKGAPAKEEDIELDAKGDPGLPGAPGPQGLPGPPGFPGPVGPPGPPGFFGFPGAMGPRGPKGHMGERVIGHKGERGVKGLTGPPGPPGTVIVTLTGPDNRTDLKGEKGDKGAMGEPGPPGPSGLPGESYGSEKGAPGDPGLQGKPGKDGVPGFPGSEGVKGNRGFPGLMGEDGIKGQKGDIGPPGFRGPTEYYDTYQEKGDEGTPGPPGPRGARGPQGPSGPPGVPGSPGSSRPGLRGAPGWPGLKGSKGERGRPGKDAMGTPGSPGCAGSPGLPGSPGPPGPPGDIVFRKGPPGDHGLPGYLGSPGIPGVDGPKGEPGLLCTQCPYIPGPPGLPGLPGLHGVKGIPGRQGAAGLKGSPGSPGNTGLPGFPGFPGAQGDPGLKGEKGETLQPEGQVGVPGDPGLRGQPGRKGLDGIPGTPGVKGLPGPKGELALSGEKGDQGPPGDPGSPGSPGPAGPAGPPGYGPQGEPGLQGTQGVPGAPGPPGEAGPRGELSVSTPVPGPPGPPGPPGHPGPQGPPGIPGSLGKCGDPGLPGPDGEPGIPGIGFPGPPGPKGDQGFPGTKGSLGCPGKMGEPGLPGKPGLPGAKGEPAVAMPGGPGTPGFPGERGNSGEHGEIGLPGLPGLPGTPGNEGLDGPRGDPGQPGPPGEQGPPGRCIEGPRGAQGLPGLNGLKGQQGRRGKTGPKGDPGIPGLDRSGFPGETGSPGIPGHQGEMGPLGQRGYPGNPGILGPPGEDGVIGMMGFPGAIGPPGPPGNPGTPGQRGSPGIPGVKGQRGTPGAKGEQGDKGNPGPSEISHVIGDKGEPGLKGFAGNPGEKGNRGVPGMPGLKGLKGLPGPAGPPGPRGDLGSTGNPGEPGLRGIPGSMGNMGMPGSKGKRGTLGFPGRAGRPGLPGIHGLQGDKGEPGYSEGTRPGPPGPTGDPGLPGDMGKKGEMGQPGPPGHLGPAGPEGAPGSPGSPGLPGKPGPHGDLGFKGIKGLLGPPGIRGPPGLPGFPGSPGPMGIRGDQGRDGIPGPAGEKGETGLLRAPPGPRGNPGAQGAKGDRGAPGFPGLPGRKGAMGDAGPRGPTGIEGFPGPPGLPGAIIPGQTGNRGPPGSRGSPGAPGPPGPPGSHVIGIKGDKGSMGHPGPKGPPGTAGDMGPPGRLGAPGTPGLPGPRGDPGFQGFPGVKGEKGNPGFLGSIGPPGPIGPKGPPGVRGDPGTLKIISLPGSPGPPGTPGEPGMQGEPGPPGPPGNLGPCGPRGKPGKDGKPGTPGPAGEKGNKGSKGEPGPAGSDGLPGLKGKRGDSGSPATWTTRGFVFTRHSQTTAIPSCPEGTVPLYSGFSFLFVQGNQRAHGQDLGTLGSCLQRFTTMPFLFCNVNDVCNFASRNDYSYWLSTPALMPMNMAPITGRALEPYISRCTVCEGPAIAIAVHSQTTDIPPCPHGWISLWKGFSFIMFTSAGSEGTGQALASPGSCLEEFRASPFLECHGRGTCNYYSNSYSFWLASLNPERMFRKPIPSTVKAGELEKIISRCQVCMKKRH",
+        "n_residues": 1670,
+        "mutation_pos_1indexed": 695,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "G692-E693-P694-G695-I696",
+        "pocket_lining_positions_precursor": [
+          692,
+          693,
+          694,
+          695,
+          696
+        ],
+        "pocket_lining_1letter": "GEPGI",
+        "sequence_slice_around_pocket": "PGLPGPDGEPGIPGIGFPGP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A3_G695R/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "G692",
+          "E693",
+          "P694",
+          "G695",
+          "I696"
+        ],
+        "values": [
+          [
+            0.0,
+            3.834,
+            7.055,
+            9.64,
+            13.364
+          ],
+          [
+            3.834,
+            0.0,
+            3.323,
+            5.94,
+            9.602
+          ],
+          [
+            7.055,
+            3.323,
+            0.0,
+            3.816,
+            6.947
+          ],
+          [
+            9.64,
+            5.94,
+            3.816,
+            0.0,
+            3.755
+          ],
+          [
+            13.364,
+            9.602,
+            6.947,
+            3.755,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.704346581568027,
+        "mw": 358.24,
+        "logp": 1.913,
+        "hbd": 1,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.802,
+        "sa_score": 3.48,
+        "n_heavy_atoms": 26,
+        "tpsa": 79.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COL4A3-G695R Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7043,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A3_G695R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A3_G695R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A3_G695R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A3_G695R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL4A3_G695R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL4A3-G695R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL4A3-G695R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:19:27.871913+00:00"
     }
   ]
 }
