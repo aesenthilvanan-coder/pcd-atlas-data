@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1534,
+  "total_entries": 1535,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46185,
-    "queue_remaining": 132412
+    "total_processed": 46186,
+    "queue_remaining": 132411
   },
   "entries": [
     {
@@ -339421,6 +339421,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:00:18.135642+00:00"
+    },
+    {
+      "entry_id": "PCD-LIM2-V113M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LIM2-V113M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LIM2",
+        "uniprot": "",
+        "clinvar_id": "329971",
+        "disease": "Cataract 19 multiple types",
+        "mutation_precursor": "V113M",
+        "mutation_mature": "V113M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7534462236900019,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 569.2666729522673,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          5.219378471374512,
+          7.645109176635742,
+          6.960248947143555
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.86805181792317,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8690573445555319,
+        "cryptic": true,
+        "pocket_residues": {
+          "T64": "T",
+          "F67": "F",
+          "L110": "L",
+          "F111": "F",
+          "V112": "V",
+          "V113": "V",
+          "L114": "L",
+          "A115": "A",
+          "L116": "L",
+          "A117": "A",
+          "I118": "I"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P55344|LIM2 variant V113M",
+        "fasta_sequence": "MYSFMGGGLFCAWVGTILLVVAMATDHWMQYRLSGSFAHQGLWRYCLGNKCYLQTDSIAYWNATRAFMILSALCAISGIIMGIMAFAHQPTFSRISRPFSAGIMFFSSTLFVVLALAIYTGVTVSFLGRRFGDWRFSWSYILGWVAVLMTFFAGIFYMCAYRVHECRRLSTPR",
+        "full_sequence": "MYSFMGGGLFCAWVGTILLVVAMATDHWMQYRLSGSFAHQGLWRYCLGNKCYLQTDSIAYWNATRAFMILSALCAISGIIMGIMAFAHQPTFSRISRPFSAGIMFFSSTLFVVLALAIYTGVTVSFLGRRFGDWRFSWSYILGWVAVLMTFFAGIFYMCAYRVHECRRLSTPR",
+        "n_residues": 173,
+        "mutation_pos_1indexed": 113,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "T64-F67-L110-F111-V112-V113-L114-A115-L116-A117-I118",
+        "pocket_lining_positions_precursor": [
+          64,
+          67,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118
+        ],
+        "pocket_lining_1letter": "TFLFVVLALAI",
+        "sequence_slice_around_pocket": "IMFFSSTLFVVLALAIYTGV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LIM2_V113M/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "T64",
+          "F67",
+          "L110",
+          "F111",
+          "V112",
+          "V113",
+          "L114",
+          "A115",
+          "L116",
+          "A117",
+          "I118"
+        ],
+        "values": [
+          [
+            0.0,
+            5.316,
+            12.42,
+            9.152,
+            8.609,
+            9.927,
+            7.671,
+            4.471,
+            7.263,
+            8.79,
+            6.502
+          ],
+          [
+            5.316,
+            0.0,
+            9.013,
+            5.211,
+            6.352,
+            8.782,
+            6.885,
+            5.342,
+            9.023,
+            10.653,
+            9.677
+          ],
+          [
+            12.42,
+            9.013,
+            0.0,
+            3.835,
+            5.622,
+            5.15,
+            6.152,
+            8.664,
+            9.968,
+            10.328,
+            12.188
+          ],
+          [
+            9.152,
+            5.211,
+            3.835,
+            0.0,
+            3.859,
+            5.464,
+            5.042,
+            6.16,
+            8.656,
+            9.763,
+            10.58
+          ],
+          [
+            8.609,
+            6.352,
+            5.622,
+            3.859,
+            0.0,
+            3.862,
+            5.409,
+            4.966,
+            6.093,
+            8.426,
+            9.902
+          ],
+          [
+            9.927,
+            8.782,
+            5.15,
+            5.464,
+            3.862,
+            0.0,
+            3.846,
+            5.472,
+            5.137,
+            5.889,
+            8.511
+          ],
+          [
+            7.671,
+            6.885,
+            6.152,
+            5.042,
+            5.409,
+            3.846,
+            0.0,
+            3.847,
+            5.544,
+            5.058,
+            6.058
+          ],
+          [
+            4.471,
+            5.342,
+            8.664,
+            6.16,
+            4.966,
+            5.472,
+            3.847,
+            0.0,
+            3.845,
+            5.576,
+            5.378
+          ],
+          [
+            7.263,
+            9.023,
+            9.968,
+            8.656,
+            6.093,
+            5.137,
+            5.544,
+            3.845,
+            0.0,
+            3.85,
+            5.591
+          ],
+          [
+            8.79,
+            10.653,
+            10.328,
+            9.763,
+            8.426,
+            5.889,
+            5.058,
+            5.576,
+            3.85,
+            0.0,
+            3.863
+          ],
+          [
+            6.502,
+            9.677,
+            12.188,
+            10.58,
+            9.902,
+            8.511,
+            6.058,
+            5.378,
+            5.591,
+            3.863,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccc(S(N)(=O)=O)cc1N1CC(=O)CCC1CNc1ccncc1N1CCCCC1",
+        "composite_score": 0.6029048996286798,
+        "mw": 458.21,
+        "logp": 1.951,
+        "hbd": 3,
+        "hba": 8,
+        "rotatable_bonds": 6,
+        "qed": 0.5592,
+        "sa_score": 3.33,
+        "n_heavy_atoms": 32,
+        "tpsa": 134.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LIM2-V113M Candidate #1",
+        "iupac_name": "Nc1ccc(S(N)(=O)=O)cc1N1CC(=O)CCC1CNc1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.6029,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LIM2_V113M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LIM2_V113M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LIM2_V113M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LIM2_V113M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LIM2_V113M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LIM2-V113M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LIM2-V113M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:00:43.759917+00:00"
     }
   ]
 }
