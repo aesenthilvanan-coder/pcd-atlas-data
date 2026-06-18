@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1509,
+  "total_entries": 1510,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46158,
-    "queue_remaining": 132439
+    "total_processed": 46159,
+    "queue_remaining": 132438
   },
   "entries": [
     {
@@ -334092,6 +334092,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:41:07.466820+00:00"
+    },
+    {
+      "entry_id": "PCD-CYP4F22-R246C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP4F22-R246C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CYP4F22",
+        "uniprot": "",
+        "clinvar_id": "328436",
+        "disease": "Autosomal recessive congenital ichthyosis 5",
+        "mutation_precursor": "R246C",
+        "mutation_mature": "R246C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8176370086171685,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 380.22999227063514,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          14.20656967163086,
+          -12.170044898986816,
+          -12.053155899047852
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.7422366288100974,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7024609487776028,
+        "cryptic": true,
+        "pocket_residues": {
+          "L72": "L",
+          "G73": "G",
+          "R242": "R",
+          "R243": "R",
+          "Q244": "Q",
+          "Y245": "Y",
+          "R246": "R",
+          "L247": "L"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q6NT55|CYP4F22 variant R246C",
+        "fasta_sequence": "MLPITDRLLHLLGLEKTAFRIYAVSTLLLFLLFFLFRLLLRFLRLCRSFYITCRRLRCFPQPPRRNWLLGHLGMYLPNEAGLQDEKKVLDNMHHVLLVWMGPVLPLLVLVHPDYIKPLLGASAAIAPKDDLFYGFLKPWLGDGLLLSKGDKWSRHRRLLTPAFHFDILKPYMKIFNQSADIMHAKWRHLAEGSAVSLDMFEHISLMTLDSLQKCVFSYNSNCQEKMSDYISAIIELSALSVRRQYRLHHYLDFIYYRSADGRRFRQACDMVHHFTTEVIQERRRALRQQGAEAWLKAKQGKTLDFIDVLLLARDEDGKELSDEDIRAEADTFMFEGHDTTSSGISWMLFNLAKYPEYQEKCREEIQEVMKGRELEELEWDDLTQLPFTTMCIKESLRQYPPVTLVSRQCTEDIKLPDGRIIPKGIICLVSIYGTHHNPTVWPDSKVYNPYRFDPDNPQQRSPLAYVPFSAGPRNCIGQSFAMAELRVVVALTLLRFRLSVDRTRKVRRKPELILRTENGLWLKVEPLPPRA",
+        "full_sequence": "MLPITDRLLHLLGLEKTAFRIYAVSTLLLFLLFFLFRLLLRFLRLCRSFYITCRRLRCFPQPPRRNWLLGHLGMYLPNEAGLQDEKKVLDNMHHVLLVWMGPVLPLLVLVHPDYIKPLLGASAAIAPKDDLFYGFLKPWLGDGLLLSKGDKWSRHRRLLTPAFHFDILKPYMKIFNQSADIMHAKWRHLAEGSAVSLDMFEHISLMTLDSLQKCVFSYNSNCQEKMSDYISAIIELSALSVRRQYRLHHYLDFIYYRSADGRRFRQACDMVHHFTTEVIQERRRALRQQGAEAWLKAKQGKTLDFIDVLLLARDEDGKELSDEDIRAEADTFMFEGHDTTSSGISWMLFNLAKYPEYQEKCREEIQEVMKGRELEELEWDDLTQLPFTTMCIKESLRQYPPVTLVSRQCTEDIKLPDGRIIPKGIICLVSIYGTHHNPTVWPDSKVYNPYRFDPDNPQQRSPLAYVPFSAGPRNCIGQSFAMAELRVVVALTLLRFRLSVDRTRKVRRKPELILRTENGLWLKVEPLPPRA",
+        "n_residues": 531,
+        "mutation_pos_1indexed": 246,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "L72-G73-R242-R243-Q244-Y245-R246-L247",
+        "pocket_lining_positions_precursor": [
+          72,
+          73,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247
+        ],
+        "pocket_lining_1letter": "LGRRQYRL",
+        "sequence_slice_around_pocket": "LSALSVRRQYRLHHYLDFIY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CYP4F22_R246C/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "L72",
+          "G73",
+          "R242",
+          "R243",
+          "Q244",
+          "Y245",
+          "R246",
+          "L247"
+        ],
+        "values": [
+          [
+            0.0,
+            3.837,
+            14.2,
+            13.927,
+            11.222,
+            8.721,
+            10.297,
+            9.663
+          ],
+          [
+            3.837,
+            0.0,
+            13.189,
+            13.962,
+            11.607,
+            8.455,
+            10.601,
+            11.315
+          ],
+          [
+            14.2,
+            13.189,
+            0.0,
+            3.848,
+            5.522,
+            5.615,
+            6.72,
+            10.089
+          ],
+          [
+            13.927,
+            13.962,
+            3.848,
+            0.0,
+            3.869,
+            5.51,
+            5.256,
+            7.618
+          ],
+          [
+            11.222,
+            11.607,
+            5.522,
+            3.869,
+            0.0,
+            3.857,
+            5.746,
+            7.131
+          ],
+          [
+            8.721,
+            8.455,
+            5.615,
+            5.51,
+            3.857,
+            0.0,
+            3.879,
+            6.249
+          ],
+          [
+            10.297,
+            10.601,
+            6.72,
+            5.256,
+            5.746,
+            3.879,
+            0.0,
+            3.852
+          ],
+          [
+            9.663,
+            11.315,
+            10.089,
+            7.618,
+            7.131,
+            6.249,
+            3.852,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6685604081692182,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CYP4F22-R246C Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6686,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CYP4F22_R246C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CYP4F22_R246C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CYP4F22_R246C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CYP4F22_R246C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CYP4F22_R246C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP4F22-R246C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP4F22-R246C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:41:31.467920+00:00"
     }
   ]
 }
