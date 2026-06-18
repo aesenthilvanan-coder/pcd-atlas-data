@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2432,
+  "total_entries": 2433,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47193,
-    "queue_remaining": 131404
+    "total_processed": 47194,
+    "queue_remaining": 131403
   },
   "entries": [
     {
@@ -568774,6 +568774,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:19:01.030014+00:00"
+    },
+    {
+      "entry_id": "PCD-AUTS2-H535Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AUTS2-H535Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AUTS2",
+        "uniprot": "",
+        "clinvar_id": "374224",
+        "disease": "Pierre Robin-like syndrome",
+        "mutation_precursor": "H535Q",
+        "mutation_mature": "H535Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8333961218254959,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 559.0421287370806,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -25.413074493408203,
+          -35.626991271972656,
+          23.016855239868164
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.051862778365497,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7846285408630109,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q532": "Q",
+          "H533": "H",
+          "T534": "T",
+          "H535": "H"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8WXX7|AUTS2 variant H535Q",
+        "fasta_sequence": "MDGPTRGHGLRKKRRSRSQRDRERRSRGGLGAGAAGGGGAGRTRALSLASSSGSDKEDNGKPPSSAPSRPRPPRRKRRESTSAEEDIIDGFAMTSFVTFEALEKDVALKPQERVEKRQTPLTKKKREALTNGLSFHSKKSRLSHPHHYSSDRENDRNLCQHLGKRKKMPKALRQLKPGQNSCRDSDSESASGESKGFHRSSSRERLSDSSAPSSLGTGYFCDSDSDQEEKASDASSEKLFNTVIVNKDPELGVGTLPEHDSQDAGPIVPKISGLERSQEKSQDCCKEPIFEPVVLKDPCPQVAQPIPQPQTEPQLRAPSPDPDLVQRTEAPPQPPPLSTQPPQGPPEAQLQPAPQPQVQRPPRPQSPTQLLHQNLPPVQAHPSAQSLSQPLSAYNSSSLSLNSLSSSRSSTPAKTQPAPPHISHHPSASPFPLSLPNHSPLHSFTPTLQPPAHSHHPNMFAPPTALPPPPPLTSGSLQVAGHPAGSTYSEQDILRQELNTRFLASQSADRGASLGPPPYLRTEFHQHQHQHQHTHQHTHQHTFTPFPHAIPPTAIMPTPAPPMFDKYPTKVDPFYRHSLFHSYPPAVSGIPPMIPPTGPFGSLQGAFQPKTSNPIDVAARPGTVPHTLLQKDPRLTDPFRPMLRKPGKWCAMHVHIAWQIYHHQQKVKKQMQSDPHKLDFGLKPEFLSRPPGPSLFGAIHHPHDLARPSTLFSAAGAAHPTGTPFGPPPHHSNFLNPAAHLEPFNRPSTFTGLAAVGGNAFGGLGNPSVTPNSMFGHKDGPSVQNFSNPHEPWNRLHRTPPSFPTPPPWLKPGELERSASAAAHDRDRDVDKRDSSVSKDDKERESVEKRHSSHPSPAPVLPVNALGHTRSSTEQIRAHLNTEAREKDKPKERERDHSESRKDLAADEHKAKEGHLPEKDGHGHEGRAAGEEAKQLARVPSPYVRTPVVESARPNSTSSREAEPRKGEPAYENPKKSSEVKVKEERKEDHDLPPEAPQTHRASEPPPPNSSSSVHPGPLASMPMTVGVTGIHPMNSISSLDRTRMMTPFMGISPLPGGERFPYPSFHWDPIRDPLRDPYRELDIHRRDPLGRDFLLRNDPLHRLSTPRLYEADRSFRDREPHDYSHHHHHHHHPLSVDPRREHERGGHLDERERLHMLREDYEHTRLHSVHPASLDGHLPHPSLITPGLPSMHYPRISPTAGNQNGLLNKTPPTAALSAPPPLISTLGGRPVSPRRTTPLSAEIRERPPSHTLKDIEAR",
+        "full_sequence": "MDGPTRGHGLRKKRRSRSQRDRERRSRGGLGAGAAGGGGAGRTRALSLASSSGSDKEDNGKPPSSAPSRPRPPRRKRRESTSAEEDIIDGFAMTSFVTFEALEKDVALKPQERVEKRQTPLTKKKREALTNGLSFHSKKSRLSHPHHYSSDRENDRNLCQHLGKRKKMPKALRQLKPGQNSCRDSDSESASGESKGFHRSSSRERLSDSSAPSSLGTGYFCDSDSDQEEKASDASSEKLFNTVIVNKDPELGVGTLPEHDSQDAGPIVPKISGLERSQEKSQDCCKEPIFEPVVLKDPCPQVAQPIPQPQTEPQLRAPSPDPDLVQRTEAPPQPPPLSTQPPQGPPEAQLQPAPQPQVQRPPRPQSPTQLLHQNLPPVQAHPSAQSLSQPLSAYNSSSLSLNSLSSSRSSTPAKTQPAPPHISHHPSASPFPLSLPNHSPLHSFTPTLQPPAHSHHPNMFAPPTALPPPPPLTSGSLQVAGHPAGSTYSEQDILRQELNTRFLASQSADRGASLGPPPYLRTEFHQHQHQHQHTHQHTHQHTFTPFPHAIPPTAIMPTPAPPMFDKYPTKVDPFYRHSLFHSYPPAVSGIPPMIPPTGPFGSLQGAFQPKTSNPIDVAARPGTVPHTLLQKDPRLTDPFRPMLRKPGKWCAMHVHIAWQIYHHQQKVKKQMQSDPHKLDFGLKPEFLSRPPGPSLFGAIHHPHDLARPSTLFSAAGAAHPTGTPFGPPPHHSNFLNPAAHLEPFNRPSTFTGLAAVGGNAFGGLGNPSVTPNSMFGHKDGPSVQNFSNPHEPWNRLHRTPPSFPTPPPWLKPGELERSASAAAHDRDRDVDKRDSSVSKDDKERESVEKRHSSHPSPAPVLPVNALGHTRSSTEQIRAHLNTEAREKDKPKERERDHSESRKDLAADEHKAKEGHLPEKDGHGHEGRAAGEEAKQLARVPSPYVRTPVVESARPNSTSSREAEPRKGEPAYENPKKSSEVKVKEERKEDHDLPPEAPQTHRASEPPPPNSSSSVHPGPLASMPMTVGVTGIHPMNSISSLDRTRMMTPFMGISPLPGGERFPYPSFHWDPIRDPLRDPYRELDIHRRDPLGRDFLLRNDPLHRLSTPRLYEADRSFRDREPHDYSHHHHHHHHPLSVDPRREHERGGHLDERERLHMLREDYEHTRLHSVHPASLDGHLPHPSLITPGLPSMHYPRISPTAGNQNGLLNKTPPTAALSAPPPLISTLGGRPVSPRRTTPLSAEIRERPPSHTLKDIEAR",
+        "n_residues": 1259,
+        "mutation_pos_1indexed": 535,
+        "wt_aa": "H",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "Q532-H533-T534-H535",
+        "pocket_lining_positions_precursor": [
+          532,
+          533,
+          534,
+          535
+        ],
+        "pocket_lining_1letter": "QHTH",
+        "sequence_slice_around_pocket": "HQHQHQHQHTHQHTHQHTFT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AUTS2_H535Q/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "Q532",
+          "H533",
+          "T534",
+          "H535"
+        ],
+        "values": [
+          [
+            0.0,
+            3.9,
+            6.873,
+            10.304
+          ],
+          [
+            3.9,
+            0.0,
+            3.451,
+            6.786
+          ],
+          [
+            6.873,
+            3.451,
+            0.0,
+            3.813
+          ],
+          [
+            10.304,
+            6.786,
+            3.813,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5420411574889168,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AUTS2-H535Q Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.542,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AUTS2_H535Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AUTS2_H535Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AUTS2_H535Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AUTS2_H535Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AUTS2_H535Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AUTS2-H535Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AUTS2-H535Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:19:52.922258+00:00"
     }
   ]
 }
