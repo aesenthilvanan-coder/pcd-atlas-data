@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1681,
+  "total_entries": 1682,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46347,
-    "queue_remaining": 132250
+    "total_processed": 46348,
+    "queue_remaining": 132249
   },
   "entries": [
     {
@@ -373142,6 +373142,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:47:08.905833+00:00"
+    },
+    {
+      "entry_id": "PCD-KCNQ2-M578V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNQ2-M578V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KCNQ2",
+        "uniprot": "",
+        "clinvar_id": "369807",
+        "disease": "not provided",
+        "mutation_precursor": "M578V",
+        "mutation_mature": "M578V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9410033598797101,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 451.1654844163224,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          37.88337326049805,
+          21.608135223388672,
+          -23.585628509521484
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.204982279311419,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7439777283527148,
+        "cryptic": true,
+        "pocket_residues": {
+          "G574": "G",
+          "H575": "H",
+          "L576": "L",
+          "D577": "D",
+          "M578": "M",
+          "L579": "L",
+          "S580": "S",
+          "R581": "R",
+          "I582": "I",
+          "K583": "K",
+          "S584": "S"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43526|KCNQ2 variant M578V",
+        "fasta_sequence": "MVQKSRNGGVYPGPSGEKKLKVGFVGLDPGAPDSTRDGALLIAGSEAPKRGSILSKPRAGGAGAGKPPKRNAFYRKLQNFLYNVLERPRGWAFIYHAYVFLLVFSCLVLSVFSTIKEYEKSSEGALYILEIVTIVVFGVEYFVRIWAAGCCCRYRGWRGRLKFARKPFCVIDIMVLIASIAVLAAGSQGNVFATSALRSLRFLQILRMIRMDRRGGTWKLLGSVVYAHSKELVTAWYIGFLCLILASFLVYLAEKGENDHFDTYADALWWGLITLTTIGYGDKYPQTWNGRLLAATFTLIGVSFFALPAGILGSGFALKVQEQHRQKHFEKRRNPAAGLIQSAWRFYATNLSRTDLHSTWQYYERTVTVPMYSSQTQTYGASRLIPPLNQLELLRNLKSKSGLAFRKDPPPEPSPSKGSPCRGPLCGCCPGRSSQKVSLKDRVFSSPRGVAAKGKGSPQAQTVRRSPSADQSLEDSPSKVPKSWSFGDRSRARQAFRIKGAASRQNSEEASLPGEDIVDDKSCPCEFVTEDLTPGLKVSIRAVCVMRFLVSKRKFKESLRPYDVMDVIEQYSAGHLDMLSRIKSLQSRVDQIVGRGPAITDKDRTKGPAEAELPEDPSMMGRLGKVEKQVLSMEKKLDFLVNIYMQRMGIPPTETEAYFGAKEPEPAPPYHSPEDSREHVDRHGCIVKIVRSSSSTGQKNFSAPPAAPPVQCPPSTSWQPQSHPRQGHGTSPVGDHGSLVRIPPPPAHERSLSAYGGGNRASMEFLRQEDTPGCRPPEGNLRDSDTSISIPSVDHEELERSFSGFSISQSKENLDALNSCYAAVAPCAKVRPYIAEGESDTDSDLCTPCGPPPRSATGEGPFGDVGWAGPRK",
+        "full_sequence": "MVQKSRNGGVYPGPSGEKKLKVGFVGLDPGAPDSTRDGALLIAGSEAPKRGSILSKPRAGGAGAGKPPKRNAFYRKLQNFLYNVLERPRGWAFIYHAYVFLLVFSCLVLSVFSTIKEYEKSSEGALYILEIVTIVVFGVEYFVRIWAAGCCCRYRGWRGRLKFARKPFCVIDIMVLIASIAVLAAGSQGNVFATSALRSLRFLQILRMIRMDRRGGTWKLLGSVVYAHSKELVTAWYIGFLCLILASFLVYLAEKGENDHFDTYADALWWGLITLTTIGYGDKYPQTWNGRLLAATFTLIGVSFFALPAGILGSGFALKVQEQHRQKHFEKRRNPAAGLIQSAWRFYATNLSRTDLHSTWQYYERTVTVPMYSSQTQTYGASRLIPPLNQLELLRNLKSKSGLAFRKDPPPEPSPSKGSPCRGPLCGCCPGRSSQKVSLKDRVFSSPRGVAAKGKGSPQAQTVRRSPSADQSLEDSPSKVPKSWSFGDRSRARQAFRIKGAASRQNSEEASLPGEDIVDDKSCPCEFVTEDLTPGLKVSIRAVCVMRFLVSKRKFKESLRPYDVMDVIEQYSAGHLDMLSRIKSLQSRVDQIVGRGPAITDKDRTKGPAEAELPEDPSMMGRLGKVEKQVLSMEKKLDFLVNIYMQRMGIPPTETEAYFGAKEPEPAPPYHSPEDSREHVDRHGCIVKIVRSSSSTGQKNFSAPPAAPPVQCPPSTSWQPQSHPRQGHGTSPVGDHGSLVRIPPPPAHERSLSAYGGGNRASMEFLRQEDTPGCRPPEGNLRDSDTSISIPSVDHEELERSFSGFSISQSKENLDALNSCYAAVAPCAKVRPYIAEGESDTDSDLCTPCGPPPRSATGEGPFGDVGWAGPRK",
+        "n_residues": 872,
+        "mutation_pos_1indexed": 578,
+        "wt_aa": "M",
+        "mut_aa": "V",
+        "pocket_lining_residues": "G574-H575-L576-D577-M578-L579-S580-R581-I582-K583-S584",
+        "pocket_lining_positions_precursor": [
+          574,
+          575,
+          576,
+          577,
+          578,
+          579,
+          580,
+          581,
+          582,
+          583,
+          584
+        ],
+        "pocket_lining_1letter": "GHLDMLSRIKS",
+        "sequence_slice_around_pocket": "IEQYSAGHLDMLSRIKSLQS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_M578V/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "G574",
+          "H575",
+          "L576",
+          "D577",
+          "M578",
+          "L579",
+          "S580",
+          "R581",
+          "I582",
+          "K583",
+          "S584"
+        ],
+        "values": [
+          [
+            0.0,
+            3.843,
+            5.493,
+            5.132,
+            6.128,
+            8.617,
+            9.84,
+            10.576,
+            12.291,
+            14.268,
+            15.178
+          ],
+          [
+            3.843,
+            0.0,
+            3.867,
+            5.485,
+            4.952,
+            6.046,
+            8.516,
+            9.763,
+            10.335,
+            12.178,
+            13.984
+          ],
+          [
+            5.493,
+            3.867,
+            0.0,
+            3.86,
+            5.427,
+            5.035,
+            6.057,
+            8.591,
+            9.74,
+            10.424,
+            12.075
+          ],
+          [
+            5.132,
+            5.485,
+            3.86,
+            0.0,
+            3.867,
+            5.535,
+            5.059,
+            6.221,
+            8.675,
+            9.927,
+            10.384
+          ],
+          [
+            6.128,
+            4.952,
+            5.427,
+            3.867,
+            0.0,
+            3.867,
+            5.475,
+            5.109,
+            6.212,
+            8.728,
+            9.762
+          ],
+          [
+            8.617,
+            6.046,
+            5.035,
+            5.535,
+            3.867,
+            0.0,
+            3.859,
+            5.439,
+            4.977,
+            6.161,
+            8.495
+          ],
+          [
+            9.84,
+            8.516,
+            6.057,
+            5.059,
+            5.475,
+            3.859,
+            0.0,
+            3.863,
+            5.475,
+            5.147,
+            6.058
+          ],
+          [
+            10.576,
+            9.763,
+            8.591,
+            6.221,
+            5.109,
+            5.439,
+            3.863,
+            0.0,
+            3.854,
+            5.527,
+            4.938
+          ],
+          [
+            12.291,
+            10.335,
+            9.74,
+            8.675,
+            6.212,
+            4.977,
+            5.475,
+            3.854,
+            0.0,
+            3.871,
+            5.426
+          ],
+          [
+            14.268,
+            12.178,
+            10.424,
+            9.927,
+            8.728,
+            6.161,
+            5.147,
+            5.527,
+            3.871,
+            0.0,
+            3.863
+          ],
+          [
+            15.178,
+            13.984,
+            12.075,
+            10.384,
+            9.762,
+            8.495,
+            6.058,
+            4.938,
+            5.426,
+            3.863,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8955438229798603,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KCNQ2-M578V Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8955,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_M578V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_M578V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_M578V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_M578V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_M578V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNQ2-M578V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNQ2-M578V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:47:39.506182+00:00"
     }
   ]
 }
