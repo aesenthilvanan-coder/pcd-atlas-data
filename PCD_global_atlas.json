@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2340,
+  "total_entries": 2341,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47079,
-    "queue_remaining": 131518
+    "total_processed": 47080,
+    "queue_remaining": 131517
   },
   "entries": [
     {
@@ -542725,6 +542725,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:59:42.431682+00:00"
+    },
+    {
+      "entry_id": "PCD-DPM3-L46Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DPM3-L46Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DPM3",
+        "uniprot": "",
+        "clinvar_id": "374109",
+        "disease": "Myopathy;EMG: myopathic abnormalities;Cardiomyopathy",
+        "mutation_precursor": "L46Q",
+        "mutation_mature": "L46Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7572110278671107,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 647.4683130698309,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -6.666233062744141,
+          -4.382918834686279,
+          0.46492481231689453
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.8412322569636,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6973066340150108,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y44": "Y",
+          "L45": "L",
+          "L46": "L",
+          "V47": "V",
+          "S48": "S",
+          "A49": "A",
+          "G50": "G",
+          "C51": "C",
+          "Y52": "Y"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9P2X0|DPM3 variant L46Q",
+        "fasta_sequence": "MTKLAQWLWGLAILGSTWVALTTGALGLELPLSCQEVLWPLPAYLLVSAGCYALGTVGYRVATFHDCEDAARELQSQIQEARADLARRGLRF",
+        "full_sequence": "MTKLAQWLWGLAILGSTWVALTTGALGLELPLSCQEVLWPLPAYLLVSAGCYALGTVGYRVATFHDCEDAARELQSQIQEARADLARRGLRF",
+        "n_residues": 92,
+        "mutation_pos_1indexed": 46,
+        "wt_aa": "L",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "Y44-L45-L46-V47-S48-A49-G50-C51-Y52",
+        "pocket_lining_positions_precursor": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52
+        ],
+        "pocket_lining_1letter": "YLLVSAGCY",
+        "sequence_slice_around_pocket": "EVLWPLPAYLLVSAGCYALG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DPM3_L46Q/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "Y44",
+          "L45",
+          "L46",
+          "V47",
+          "S48",
+          "A49",
+          "G50",
+          "C51",
+          "Y52"
+        ],
+        "values": [
+          [
+            0.0,
+            3.847,
+            5.441,
+            5.16,
+            6.065,
+            8.405,
+            9.712,
+            10.549,
+            12.102
+          ],
+          [
+            3.847,
+            0.0,
+            3.843,
+            5.577,
+            5.223,
+            5.88,
+            8.338,
+            9.875,
+            10.338
+          ],
+          [
+            5.441,
+            3.843,
+            0.0,
+            3.854,
+            5.621,
+            5.183,
+            5.951,
+            8.605,
+            9.832
+          ],
+          [
+            5.16,
+            5.577,
+            3.854,
+            0.0,
+            3.845,
+            5.557,
+            5.022,
+            6.162,
+            8.589
+          ],
+          [
+            6.065,
+            5.223,
+            5.621,
+            3.845,
+            0.0,
+            3.854,
+            5.382,
+            5.085,
+            6.092
+          ],
+          [
+            8.405,
+            5.88,
+            5.183,
+            5.557,
+            3.854,
+            0.0,
+            3.853,
+            5.53,
+            5.013
+          ],
+          [
+            9.712,
+            8.338,
+            5.951,
+            5.022,
+            5.382,
+            3.853,
+            0.0,
+            3.846,
+            5.445
+          ],
+          [
+            10.549,
+            9.875,
+            8.605,
+            6.162,
+            5.085,
+            5.53,
+            3.846,
+            0.0,
+            3.846
+          ],
+          [
+            12.102,
+            10.338,
+            9.832,
+            8.589,
+            6.092,
+            5.013,
+            5.445,
+            3.846,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(Cl)cc1CC(=O)Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "composite_score": 0.6282009684457469,
+        "mw": 450.11,
+        "logp": 2.258,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.6197,
+        "sa_score": 2.31,
+        "n_heavy_atoms": 30,
+        "tpsa": 135.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DPM3-L46Q Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(Cl)cc1CC(=O)Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.6282,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DPM3_L46Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DPM3_L46Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DPM3_L46Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DPM3_L46Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DPM3_L46Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DPM3-L46Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DPM3-L46Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T12:00:07.629062+00:00"
     }
   ]
 }
