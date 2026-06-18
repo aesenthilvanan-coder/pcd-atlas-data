@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1785,
+  "total_entries": 1786,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46460,
-    "queue_remaining": 132137
+    "total_processed": 46461,
+    "queue_remaining": 132136
   },
   "entries": [
     {
@@ -399370,6 +399370,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:52:32.276813+00:00"
+    },
+    {
+      "entry_id": "PCD-BBS1-R160Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BBS1-R160Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BBS1",
+        "uniprot": "",
+        "clinvar_id": "370228",
+        "disease": "Bardet-Biedl syndrome 1",
+        "mutation_precursor": "R160Q",
+        "mutation_mature": "R160Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8160099136214226,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 636.5790462060382,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          12.23391056060791,
+          -14.978713035583496,
+          8.405899047851562
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.174963989292896,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8538526814651345,
+        "cryptic": true,
+        "pocket_residues": {
+          "L156": "L",
+          "E157": "E",
+          "S158": "S",
+          "I159": "I",
+          "R160": "R",
+          "E161": "E",
+          "A163": "A",
+          "P166": "P",
+          "L167": "L",
+          "S171": "S",
+          "L172": "L"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NFJ9|BBS1 variant R160Q",
+        "fasta_sequence": "MAAASSSDSDACGAESNEANSKWLDAHYDPMANIHTFSACLALADLHGDGEYKLVVGDLGPGGQQPRLKVLKGPLVMTESPLPALPAAAATFLMEQHEPRTPALALASGPCVYVYKNLRPYFKFSLPQLPPNPLEQDLWNQAKEDRIDPLTLKEMLESIRETAEEPLSIQSLRFLQLELSEMEAFVNQHKSNSIKRQTVITTMTTLKKNLADEDAVSCLVLGTENKELLVLDPEAFTILAKMSLPSVPVFLEVSGQFDVEFRLAAACRNGNIYILRRDSKHPKYCIELSAQPVGLIRVHKVLVVGSTQDSLHGFTHKGKKLWTVQMPAAILTMNLLEQHSRGLQAVMAGLANGEVRIYRDKALLNVIHTPDAVTSLCFGRYGREDNTLIMTTRGGGLIIKILKRTAVFVEGGSEVGPPPAQAMKLNVPRKTRLYVDQTLREREAGTAMHRAFQTDLYLLRLRAARAYLQALESSLSPLSTTAREPLKLHAVVQGLGPTFKLTLHLQNTSTTRPVLGLLVCFLYNEALYSLPRAFFKVPLLVPGLNYPLETFVESLSNKGISDIIKVLVLREGQSAPLLSAHVNMPGSEGLAAA",
+        "full_sequence": "MAAASSSDSDACGAESNEANSKWLDAHYDPMANIHTFSACLALADLHGDGEYKLVVGDLGPGGQQPRLKVLKGPLVMTESPLPALPAAAATFLMEQHEPRTPALALASGPCVYVYKNLRPYFKFSLPQLPPNPLEQDLWNQAKEDRIDPLTLKEMLESIRETAEEPLSIQSLRFLQLELSEMEAFVNQHKSNSIKRQTVITTMTTLKKNLADEDAVSCLVLGTENKELLVLDPEAFTILAKMSLPSVPVFLEVSGQFDVEFRLAAACRNGNIYILRRDSKHPKYCIELSAQPVGLIRVHKVLVVGSTQDSLHGFTHKGKKLWTVQMPAAILTMNLLEQHSRGLQAVMAGLANGEVRIYRDKALLNVIHTPDAVTSLCFGRYGREDNTLIMTTRGGGLIIKILKRTAVFVEGGSEVGPPPAQAMKLNVPRKTRLYVDQTLREREAGTAMHRAFQTDLYLLRLRAARAYLQALESSLSPLSTTAREPLKLHAVVQGLGPTFKLTLHLQNTSTTRPVLGLLVCFLYNEALYSLPRAFFKVPLLVPGLNYPLETFVESLSNKGISDIIKVLVLREGQSAPLLSAHVNMPGSEGLAAA",
+        "n_residues": 593,
+        "mutation_pos_1indexed": 160,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "L156-E157-S158-I159-R160-E161-A163-P166-L167-S171-L172",
+        "pocket_lining_positions_precursor": [
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          163,
+          166,
+          167,
+          171,
+          172
+        ],
+        "pocket_lining_1letter": "LESIREAPLSL",
+        "sequence_slice_around_pocket": "LTLKEMLESIRETAEEPLSI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BBS1_R160Q/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "L156",
+          "E157",
+          "S158",
+          "I159",
+          "R160",
+          "E161",
+          "A163",
+          "P166",
+          "L167",
+          "S171",
+          "L172"
+        ],
+        "values": [
+          [
+            0.0,
+            3.866,
+            5.384,
+            5.029,
+            6.172,
+            8.839,
+            10.017,
+            10.577,
+            8.061,
+            7.201,
+            8.631
+          ],
+          [
+            3.866,
+            0.0,
+            3.845,
+            5.479,
+            5.032,
+            6.513,
+            10.086,
+            11.201,
+            9.574,
+            9.353,
+            9.208
+          ],
+          [
+            5.384,
+            3.845,
+            0.0,
+            3.863,
+            5.477,
+            5.376,
+            8.192,
+            11.711,
+            10.858,
+            12.069,
+            12.398
+          ],
+          [
+            5.029,
+            5.479,
+            3.863,
+            0.0,
+            3.865,
+            5.475,
+            5.225,
+            8.437,
+            7.772,
+            10.432,
+            11.126
+          ],
+          [
+            6.172,
+            5.032,
+            5.477,
+            3.865,
+            0.0,
+            3.85,
+            6.013,
+            6.734,
+            6.56,
+            9.599,
+            8.943
+          ],
+          [
+            8.839,
+            6.513,
+            5.376,
+            5.475,
+            3.85,
+            0.0,
+            6.202,
+            9.388,
+            10.193,
+            13.344,
+            12.395
+          ],
+          [
+            10.017,
+            10.086,
+            8.192,
+            5.225,
+            6.013,
+            6.202,
+            0.0,
+            6.964,
+            8.643,
+            13.628,
+            13.809
+          ],
+          [
+            10.577,
+            11.201,
+            11.711,
+            8.437,
+            6.734,
+            9.388,
+            6.964,
+            0.0,
+            3.817,
+            9.91,
+            9.398
+          ],
+          [
+            8.061,
+            9.574,
+            10.858,
+            7.772,
+            6.56,
+            10.193,
+            8.643,
+            3.817,
+            0.0,
+            6.205,
+            6.575
+          ],
+          [
+            7.201,
+            9.353,
+            12.069,
+            10.432,
+            9.599,
+            13.344,
+            13.628,
+            9.91,
+            6.205,
+            0.0,
+            3.844
+          ],
+          [
+            8.631,
+            9.208,
+            12.398,
+            11.126,
+            8.943,
+            12.395,
+            13.809,
+            9.398,
+            6.575,
+            3.844,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)cc1N1C(CC(=O)NCc2nc3ccccc3[nH]2)CCC(=O)C1O",
+        "composite_score": 0.813867840275516,
+        "mw": 451.22,
+        "logp": 1.854,
+        "hbd": 4,
+        "hba": 7,
+        "rotatable_bonds": 8,
+        "qed": 0.4126,
+        "sa_score": 3.57,
+        "n_heavy_atoms": 33,
+        "tpsa": 119.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BBS1-R160Q Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)cc1N1C(CC(=O)NCc2nc3ccccc3[nH]2)CCC(=O)C1O",
+        "pocket_affinity_score": 0.8139,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BBS1_R160Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BBS1_R160Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BBS1_R160Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BBS1_R160Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BBS1_R160Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BBS1-R160Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BBS1-R160Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:53:01.750754+00:00"
     }
   ]
 }
