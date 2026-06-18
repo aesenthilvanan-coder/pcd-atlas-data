@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1866,
+  "total_entries": 1867,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46550,
-    "queue_remaining": 132047
+    "total_processed": 46551,
+    "queue_remaining": 132046
   },
   "entries": [
     {
@@ -421113,6 +421113,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:38:55.433700+00:00"
+    },
+    {
+      "entry_id": "PCD-CRADD-R170C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CRADD-R170C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CRADD",
+        "uniprot": "",
+        "clinvar_id": "372190",
+        "disease": "Intellectual disability, autosomal recessive 34",
+        "mutation_precursor": "R170C",
+        "mutation_mature": "R170C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.78536710863367,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 349.20650682303307,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          13.133520126342773,
+          -9.892072677612305,
+          -16.320430755615234
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.4555861711155527,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6471689919970307,
+        "cryptic": true,
+        "pocket_residues": {
+          "I165": "I",
+          "R166": "R",
+          "W167": "W",
+          "R168": "R",
+          "Q169": "Q",
+          "R170": "R",
+          "F171": "F",
+          "G172": "G",
+          "A175": "A"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P78560|CRADD variant R170C",
+        "fasta_sequence": "MEARDKQVLRSLRLELGAEVLVEGLVLQYLYQEGILTENHIQEINAQTTGLRKTMLLLDILPSRGPKAFDTFLDSLQEFPWVREKLKKAREEAMTDLPAGDRLTGIPSHILNSSPSDRQINQLAQRLGPEWEPMVLSLGLSQTDIYRCKANHPHNVQSQVVEAFIRWRQRFGKQATFQSLHNGLRAVEVDPSLLLHMLE",
+        "full_sequence": "MEARDKQVLRSLRLELGAEVLVEGLVLQYLYQEGILTENHIQEINAQTTGLRKTMLLLDILPSRGPKAFDTFLDSLQEFPWVREKLKKAREEAMTDLPAGDRLTGIPSHILNSSPSDRQINQLAQRLGPEWEPMVLSLGLSQTDIYRCKANHPHNVQSQVVEAFIRWRQRFGKQATFQSLHNGLRAVEVDPSLLLHMLE",
+        "n_residues": 199,
+        "mutation_pos_1indexed": 170,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "I165-R166-W167-R168-Q169-R170-F171-G172-A175",
+        "pocket_lining_positions_precursor": [
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          175
+        ],
+        "pocket_lining_1letter": "IRWRQRFGA",
+        "sequence_slice_around_pocket": "VVEAFIRWRQRFGKQATFQS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CRADD_R170C/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "I165",
+          "R166",
+          "W167",
+          "R168",
+          "Q169",
+          "R170",
+          "F171",
+          "G172",
+          "A175"
+        ],
+        "values": [
+          [
+            0.0,
+            3.852,
+            5.455,
+            5.055,
+            6.131,
+            8.621,
+            10.104,
+            10.063,
+            9.664
+          ],
+          [
+            3.852,
+            0.0,
+            3.832,
+            5.412,
+            4.981,
+            6.067,
+            8.651,
+            9.692,
+            10.081
+          ],
+          [
+            5.455,
+            3.832,
+            0.0,
+            3.844,
+            5.488,
+            5.122,
+            6.153,
+            8.102,
+            7.018
+          ],
+          [
+            5.055,
+            5.412,
+            3.844,
+            0.0,
+            3.848,
+            5.519,
+            5.436,
+            5.384,
+            5.076
+          ],
+          [
+            6.131,
+            4.981,
+            5.488,
+            3.848,
+            0.0,
+            3.862,
+            5.828,
+            5.374,
+            8.072
+          ],
+          [
+            8.621,
+            6.067,
+            5.122,
+            5.519,
+            3.862,
+            0.0,
+            3.843,
+            5.854,
+            8.099
+          ],
+          [
+            10.104,
+            8.651,
+            6.153,
+            5.436,
+            5.828,
+            3.843,
+            0.0,
+            3.865,
+            5.188
+          ],
+          [
+            10.063,
+            9.692,
+            8.102,
+            5.384,
+            5.374,
+            5.854,
+            3.865,
+            0.0,
+            5.396
+          ],
+          [
+            9.664,
+            10.081,
+            7.018,
+            5.076,
+            8.072,
+            8.099,
+            5.188,
+            5.396,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.6620606561762558,
+        "mw": 244.12,
+        "logp": 2.049,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 6,
+        "qed": 0.7634,
+        "sa_score": 2.21,
+        "n_heavy_atoms": 18,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CRADD-R170C Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6621,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CRADD_R170C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CRADD_R170C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CRADD_R170C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CRADD_R170C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CRADD_R170C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CRADD-R170C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CRADD-R170C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:39:18.710647+00:00"
     }
   ]
 }
