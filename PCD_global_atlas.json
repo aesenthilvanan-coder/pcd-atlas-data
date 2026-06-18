@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1860,
+  "total_entries": 1861,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46544,
-    "queue_remaining": 132053
+    "total_processed": 46545,
+    "queue_remaining": 132052
   },
   "entries": [
     {
@@ -419803,6 +419803,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:36:24.485024+00:00"
+    },
+    {
+      "entry_id": "PCD-ZIC1-G400R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ZIC1-G400R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ZIC1",
+        "uniprot": "",
+        "clinvar_id": "372164",
+        "disease": "Craniosynostosis 6",
+        "mutation_precursor": "G400R",
+        "mutation_mature": "G400R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8001372167016728,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 289.92754281382275,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -27.066030502319336,
+          -19.071550369262695,
+          -16.280908584594727
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.632897217612503,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8972519294477113,
+        "cryptic": true,
+        "pocket_residues": {
+          "A397": "A",
+          "S398": "S",
+          "S399": "S",
+          "G400": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q15915|ZIC1 variant G400R",
+        "fasta_sequence": "MLLDAGPQYPAIGVTTFGASRHHSAGDVAERDVGLGINPFADGMGAFKLNPSSHELASAGQTAFTSQAPGYAAAAALGHHHHPGHVGSYSSAAFNSTRDFLFRNRGFGDAAAAASAQHSLFAASAGGFGGPHGHTDAAGHLLFPGLHEQAAGHASPNVVNGQMRLGFSGDMYPRPEQYGQVTSPRSEHYAAPQLHGYGPMNVNMAAHHGAGAFFRYMRQPIKQELICKWIEPEQLANPKKSCNKTFSTMHELVTHVTVEHVGGPEQSNHICFWEECPREGKPFKAKYKLVNHIRVHTGEKPFPCPFPGCGKVFARSENLKIHKRTHTGEKPFKCEFEGCDRRFANSSDRKKHMHVHTSDKPYLCKMCDKSYTHPSSLRKHMKVHESSSQGSQPSPAASSGYESSTPPTIVSPSTDNPTTSSLSPSSSAVHHTAGHSALSSNFNEWYV",
+        "full_sequence": "MLLDAGPQYPAIGVTTFGASRHHSAGDVAERDVGLGINPFADGMGAFKLNPSSHELASAGQTAFTSQAPGYAAAAALGHHHHPGHVGSYSSAAFNSTRDFLFRNRGFGDAAAAASAQHSLFAASAGGFGGPHGHTDAAGHLLFPGLHEQAAGHASPNVVNGQMRLGFSGDMYPRPEQYGQVTSPRSEHYAAPQLHGYGPMNVNMAAHHGAGAFFRYMRQPIKQELICKWIEPEQLANPKKSCNKTFSTMHELVTHVTVEHVGGPEQSNHICFWEECPREGKPFKAKYKLVNHIRVHTGEKPFPCPFPGCGKVFARSENLKIHKRTHTGEKPFKCEFEGCDRRFANSSDRKKHMHVHTSDKPYLCKMCDKSYTHPSSLRKHMKVHESSSQGSQPSPAASSGYESSTPPTIVSPSTDNPTTSSLSPSSSAVHHTAGHSALSSNFNEWYV",
+        "n_residues": 447,
+        "mutation_pos_1indexed": 400,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "A397-S398-S399-G400",
+        "pocket_lining_positions_precursor": [
+          397,
+          398,
+          399,
+          400
+        ],
+        "pocket_lining_1letter": "ASSG",
+        "sequence_slice_around_pocket": "GSQPSPAASSGYESSTPPTI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ZIC1_G400R/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A397",
+          "S398",
+          "S399",
+          "G400"
+        ],
+        "values": [
+          [
+            0.0,
+            3.781,
+            5.85,
+            8.04
+          ],
+          [
+            3.781,
+            0.0,
+            3.804,
+            5.617
+          ],
+          [
+            5.85,
+            3.804,
+            0.0,
+            3.79
+          ],
+          [
+            8.04,
+            5.617,
+            3.79,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.5398104246755963,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ZIC1-G400R Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.5398,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ZIC1_G400R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ZIC1_G400R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ZIC1_G400R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ZIC1_G400R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ZIC1_G400R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ZIC1-G400R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ZIC1-G400R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:36:48.901550+00:00"
     }
   ]
 }
