@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1897,
+  "total_entries": 1898,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46581,
-    "queue_remaining": 132016
+    "total_processed": 46582,
+    "queue_remaining": 132015
   },
   "entries": [
     {
@@ -430950,6 +430950,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:52:10.690568+00:00"
+    },
+    {
+      "entry_id": "PCD-NDUFAF6-D69V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFAF6-D69V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NDUFAF6",
+        "uniprot": "",
+        "clinvar_id": "372258",
+        "disease": "Mitochondrial complex I deficiency, nuclear type 17",
+        "mutation_precursor": "D69V",
+        "mutation_mature": "D69V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8618098735146895,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 399.9476707431034,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          8.1680269241333,
+          4.778483867645264,
+          8.266396522521973
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.389662008667099,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6441196708878528,
+        "cryptic": true,
+        "pocket_residues": {
+          "K67": "K",
+          "R68": "R",
+          "D69": "D",
+          "Y70": "Y",
+          "E71": "E",
+          "G72": "G"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q330K2|NDUFAF6 variant D69V",
+        "fasta_sequence": "MAASAHGSVWGPLRLGIPGLCCRRPPLGLYARMRRLPGPEVSGRSVAAASGPGAWGTDHYCLELLRKRDYEGYLCSLLLPAESRSSVFALRAFNVELAQVKDSVSEKTIGLMRMQFWKKTVEDIYCDNPPHQPVAIELWKAVKRHNLTKRWLMKIVDEREKNLDDKAYRNIKELENYAENTQSSLLYLTLEILGIKDLHADHAASHIGKAQGIVTCLRATPYHGSRRKVFLPMDICMLHGVSQEDFLRRNQDKNVRDVIYDIASQAHLHLKHARSFHKTVPVKAFPAFLQTVSLEDFLKKIQRVDFDIFHPSLQQKNTLLPLYLYIQSWRKTY",
+        "full_sequence": "MAASAHGSVWGPLRLGIPGLCCRRPPLGLYARMRRLPGPEVSGRSVAAASGPGAWGTDHYCLELLRKRDYEGYLCSLLLPAESRSSVFALRAFNVELAQVKDSVSEKTIGLMRMQFWKKTVEDIYCDNPPHQPVAIELWKAVKRHNLTKRWLMKIVDEREKNLDDKAYRNIKELENYAENTQSSLLYLTLEILGIKDLHADHAASHIGKAQGIVTCLRATPYHGSRRKVFLPMDICMLHGVSQEDFLRRNQDKNVRDVIYDIASQAHLHLKHARSFHKTVPVKAFPAFLQTVSLEDFLKKIQRVDFDIFHPSLQQKNTLLPLYLYIQSWRKTY",
+        "n_residues": 333,
+        "mutation_pos_1indexed": 69,
+        "wt_aa": "D",
+        "mut_aa": "V",
+        "pocket_lining_residues": "K67-R68-D69-Y70-E71-G72",
+        "pocket_lining_positions_precursor": [
+          67,
+          68,
+          69,
+          70,
+          71,
+          72
+        ],
+        "pocket_lining_1letter": "KRDYEG",
+        "sequence_slice_around_pocket": "HYCLELLRKRDYEGYLCSLL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF6_D69V/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "K67",
+          "R68",
+          "D69",
+          "Y70",
+          "E71",
+          "G72"
+        ],
+        "values": [
+          [
+            0.0,
+            3.855,
+            6.271,
+            6.261,
+            10.041,
+            10.476
+          ],
+          [
+            3.855,
+            0.0,
+            3.859,
+            6.031,
+            8.986,
+            9.016
+          ],
+          [
+            6.271,
+            3.859,
+            0.0,
+            3.834,
+            5.599,
+            5.257
+          ],
+          [
+            6.261,
+            6.031,
+            3.834,
+            0.0,
+            3.854,
+            5.462
+          ],
+          [
+            10.041,
+            8.986,
+            5.599,
+            3.854,
+            0.0,
+            3.834
+          ],
+          [
+            10.476,
+            9.016,
+            5.257,
+            5.462,
+            3.834,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7458381711498907,
+        "mw": 302.21,
+        "logp": 2.025,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.8623,
+        "sa_score": 3.18,
+        "n_heavy_atoms": 22,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NDUFAF6-D69V Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7458,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF6_D69V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF6_D69V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF6_D69V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF6_D69V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDUFAF6_D69V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFAF6-D69V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDUFAF6-D69V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:52:34.966994+00:00"
     }
   ]
 }
