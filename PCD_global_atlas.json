@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1644,
+  "total_entries": 1645,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46305,
-    "queue_remaining": 132292
+    "total_processed": 46306,
+    "queue_remaining": 132291
   },
   "entries": [
     {
@@ -364025,6 +364025,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:15:02.203150+00:00"
+    },
+    {
+      "entry_id": "PCD-CRYBB3-A13G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CRYBB3-A13G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CRYBB3",
+        "uniprot": "",
+        "clinvar_id": "340949",
+        "disease": "not provided",
+        "mutation_precursor": "A13G",
+        "mutation_mature": "A13G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9458684231831037,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 586.0680367637264,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.23476219177246,
+          11.790244102478027,
+          17.701126098632812
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.706760913530918,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7983287203021142,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q10": "Q",
+          "A11": "A",
+          "A12": "A",
+          "A13": "A",
+          "G14": "G"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P26998|CRYBB3 variant A13G",
+        "fasta_sequence": "MAEQHGAPEQAAAGKSHGDLGGSYKVILYELENFQGKRCELSAECPSLTDSLLEKVGSIQVESGPWLAFESRAFRGEQFVLEKGDYPRWDAWSNSRDSDSLLSLRPLNIDSPHHKLHLFENPAFSGRKMEIVDDDVPSLWAHGFQDRVASVRAINGTWVGYEFPGYRGRQYVFERGEYRHWNEWDASQPQLQSVRRIRDQKWHKRGRFPSS",
+        "full_sequence": "MAEQHGAPEQAAAGKSHGDLGGSYKVILYELENFQGKRCELSAECPSLTDSLLEKVGSIQVESGPWLAFESRAFRGEQFVLEKGDYPRWDAWSNSRDSDSLLSLRPLNIDSPHHKLHLFENPAFSGRKMEIVDDDVPSLWAHGFQDRVASVRAINGTWVGYEFPGYRGRQYVFERGEYRHWNEWDASQPQLQSVRRIRDQKWHKRGRFPSS",
+        "n_residues": 211,
+        "mutation_pos_1indexed": 13,
+        "wt_aa": "A",
+        "mut_aa": "G",
+        "pocket_lining_residues": "Q10-A11-A12-A13-G14",
+        "pocket_lining_positions_precursor": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "pocket_lining_1letter": "QAAAG",
+        "sequence_slice_around_pocket": "EQHGAPEQAAAGKSHGDLGG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CRYBB3_A13G/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "Q10",
+          "A11",
+          "A12",
+          "A13",
+          "G14"
+        ],
+        "values": [
+          [
+            0.0,
+            3.832,
+            6.325,
+            9.616,
+            13.14
+          ],
+          [
+            3.832,
+            0.0,
+            3.836,
+            6.254,
+            9.938
+          ],
+          [
+            6.325,
+            3.836,
+            0.0,
+            3.85,
+            6.923
+          ],
+          [
+            9.616,
+            6.254,
+            3.85,
+            0.0,
+            3.792
+          ],
+          [
+            13.14,
+            9.938,
+            6.923,
+            3.792,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CC(=O)CCC1OCNCc1c[nH]c2ccccc12",
+        "composite_score": 0.667721224655148,
+        "mw": 393.18,
+        "logp": 1.921,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.4175,
+        "sa_score": 3.53,
+        "n_heavy_atoms": 29,
+        "tpsa": 113.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CRYBB3-A13G Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CC(=O)CCC1OCNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6677,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CRYBB3_A13G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CRYBB3_A13G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CRYBB3_A13G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CRYBB3_A13G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CRYBB3_A13G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CRYBB3-A13G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CRYBB3-A13G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:15:23.850646+00:00"
     }
   ]
 }
