@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2025,
+  "total_entries": 2026,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46730,
-    "queue_remaining": 131867
+    "total_processed": 46731,
+    "queue_remaining": 131866
   },
   "entries": [
     {
@@ -461964,6 +461964,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:44:12.550600+00:00"
+    },
+    {
+      "entry_id": "PCD-SH3BP2-G420R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SH3BP2-G420R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SH3BP2",
+        "uniprot": "",
+        "clinvar_id": "372503",
+        "disease": "not provided",
+        "mutation_precursor": "G420R",
+        "mutation_mature": "G420R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8134313688278337,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 604.6777147077478,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -3.896527051925659,
+          -49.409828186035156,
+          16.095701217651367
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.2984266761574625,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.760857205763738,
+        "cryptic": true,
+        "pocket_residues": {
+          "G420": "G",
+          "Q421": "Q",
+          "S422": "S",
+          "F423": "F"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P78314|SH3BP2 variant G420R",
+        "fasta_sequence": "MAAEEMHWPVPMKAIGAQNLLTMPGGVAKAGYLHKKGGTQLQLLKWPLRFVIIHKRCVYYFKSSTSASPQGAFSLSGYNRVMRAAEETTSNNVFPFKIIHISKKHRTWFFSASSEEERKSWMALLRREIGHFHEKKDLPLDTSDSSSDTDSFYGAVERPVDISLSPYPTDNEDYEHDDEDDSYLEPDSPEPGRLEDALMHPPAYPPPPVPTPRKPAFSDMPRAHSFTSKGPGPLLPPPPPKHGLPDVGLAAEDSKRDPLCPRRAEPCPRVPATPRRMSDPPLSTMPTAPGLRKPPCFRESASPSPEPWTPGHGACSTSSAAIMATATSRNCDKLKSFHLSPRGPPTSEPPPVPANKPKFLKIAEEDPPREAAMPGLFVPPVAPRPPALKLPVPEAMARPAVLPRPEKPQLPHLQRSPPDGQSFRSFSFEKPRQPSQADTGGDDSDEDYEKVPLPNSVFVNTTESCEVERLFKATSPRGEPQDGLYCIRNSSTKSGKVLVVWDETSNKVRNYRIFEKDSKFYLEGEVLFVSVGSMVEHYHTHVLPSHQSLLLRHPYGYTGPR",
+        "full_sequence": "MAAEEMHWPVPMKAIGAQNLLTMPGGVAKAGYLHKKGGTQLQLLKWPLRFVIIHKRCVYYFKSSTSASPQGAFSLSGYNRVMRAAEETTSNNVFPFKIIHISKKHRTWFFSASSEEERKSWMALLRREIGHFHEKKDLPLDTSDSSSDTDSFYGAVERPVDISLSPYPTDNEDYEHDDEDDSYLEPDSPEPGRLEDALMHPPAYPPPPVPTPRKPAFSDMPRAHSFTSKGPGPLLPPPPPKHGLPDVGLAAEDSKRDPLCPRRAEPCPRVPATPRRMSDPPLSTMPTAPGLRKPPCFRESASPSPEPWTPGHGACSTSSAAIMATATSRNCDKLKSFHLSPRGPPTSEPPPVPANKPKFLKIAEEDPPREAAMPGLFVPPVAPRPPALKLPVPEAMARPAVLPRPEKPQLPHLQRSPPDGQSFRSFSFEKPRQPSQADTGGDDSDEDYEKVPLPNSVFVNTTESCEVERLFKATSPRGEPQDGLYCIRNSSTKSGKVLVVWDETSNKVRNYRIFEKDSKFYLEGEVLFVSVGSMVEHYHTHVLPSHQSLLLRHPYGYTGPR",
+        "n_residues": 561,
+        "mutation_pos_1indexed": 420,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "G420-Q421-S422-F423",
+        "pocket_lining_positions_precursor": [
+          420,
+          421,
+          422,
+          423
+        ],
+        "pocket_lining_1letter": "GQSF",
+        "sequence_slice_around_pocket": "LPHLQRSPPDGQSFRSFSFE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SH3BP2_G420R/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "G420",
+          "Q421",
+          "S422",
+          "F423"
+        ],
+        "values": [
+          [
+            0.0,
+            3.459,
+            6.981,
+            10.184
+          ],
+          [
+            3.459,
+            0.0,
+            3.823,
+            6.969
+          ],
+          [
+            6.981,
+            3.823,
+            0.0,
+            3.315
+          ],
+          [
+            10.184,
+            6.969,
+            3.315,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5133282987192241,
+        "mw": 316.23,
+        "logp": 1.954,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8995,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 23,
+        "tpsa": 62.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SH3BP2-G420R Candidate #1",
+        "iupac_name": "NCCCc1ccncc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5133,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SH3BP2_G420R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SH3BP2_G420R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SH3BP2_G420R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SH3BP2_G420R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SH3BP2_G420R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SH3BP2-G420R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SH3BP2-G420R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:44:40.433535+00:00"
     }
   ]
 }
