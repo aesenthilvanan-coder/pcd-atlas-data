@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1916,
+  "total_entries": 1917,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46600,
-    "queue_remaining": 131997
+    "total_processed": 46601,
+    "queue_remaining": 131996
   },
   "entries": [
     {
@@ -435176,6 +435176,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:02:44.951424+00:00"
+    },
+    {
+      "entry_id": "PCD-ATP1A2-R51H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATP1A2-R51H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ATP1A2",
+        "uniprot": "",
+        "clinvar_id": "372793",
+        "disease": "not specified",
+        "mutation_precursor": "R51H",
+        "mutation_mature": "R51H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8755785073100463,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 626.2404861547021,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.828943252563477,
+          35.74893569946289,
+          29.857135772705078
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.8941342214437595,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8278590299657369,
+        "cryptic": true,
+        "pocket_residues": {
+          "R51": "R",
+          "K52": "K",
+          "Y53": "Y",
+          "Q54": "Q"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P50993|ATP1A2 variant R51H",
+        "fasta_sequence": "MGRGAGREYSPAATTAENGGGKKKQKEKELDELKKEVAMDDHKLSLDELGRKYQVDLSKGLTNQRAQDVLARDGPNALTPPPTTPEWVKFCRQLFGGFSILLWIGAILCFLAYGIQAAMEDEPSNDNLYLGVVLAAVVIVTGCFSYYQEAKSSKIMDSFKNMVPQQALVIREGEKMQINAEEVVVGDLVEVKGGDRVPADLRIISSHGCKVDNSSLTGESEPQTRSPEFTHENPLETRNICFFSTNCVEGTARGIVIATGDRTVMGRIATLASGLEVGRTPIAMEIEHFIQLITGVAVFLGVSFFVLSLILGYSWLEAVIFLIGIIVANVPEGLLATVTVCLTLTAKRMARKNCLVKNLEAVETLGSTSTICSDKTGTLTQNRMTVAHMWFDNQIHEADTTEDQSGATFDKRSPTWTALSRIAGLCNRAVFKAGQENISVSKRDTAGDASESALLKCIELSCGSVRKMRDRNPKVAEIPFNSTNKYQLSIHEREDSPQSHVLVMKGAPERILDRCSTILVQGKEIPLDKEMQDAFQNAYMELGGLGERVLGFCQLNLPSGKFPRGFKFDTDELNFPTEKLCFVGLMSMIDPPRAAVPDAVGKCRSAGIKVIMVTGDHPITAKAIAKGVGIISEGNETVEDIAARLNIPMSQVNPREAKACVVHGSDLKDMTSEQLDEILKNHTEIVFARTSPQQKLIIVEGCQRQGAIVAVTGDGVNDSPALKKADIGIAMGISGSDVSKQAADMILLDDNFASIVTGVEEGRLIFDNLKKSIAYTLTSNIPEITPFLLFIIANIPLPLGTVTILCIDLGTDMVPAISLAYEAAESDIMKRQPRNSQTDKLVNERLISMAYGQIGMIQALGGFFTYFVILAENGFLPSRLLGIRLDWDDRTMNDLEDSYGQEWTYEQRKVVEFTCHTAFFASIVVVQWADLIICKTRRNSVFQQGMKNKILIFGLLEETALAAFLSYCPGMGVALRMYPLKVTWWFCAFPYSLLIFIYDEVRKLILRRYPGGWVEKETYY",
+        "full_sequence": "MGRGAGREYSPAATTAENGGGKKKQKEKELDELKKEVAMDDHKLSLDELGRKYQVDLSKGLTNQRAQDVLARDGPNALTPPPTTPEWVKFCRQLFGGFSILLWIGAILCFLAYGIQAAMEDEPSNDNLYLGVVLAAVVIVTGCFSYYQEAKSSKIMDSFKNMVPQQALVIREGEKMQINAEEVVVGDLVEVKGGDRVPADLRIISSHGCKVDNSSLTGESEPQTRSPEFTHENPLETRNICFFSTNCVEGTARGIVIATGDRTVMGRIATLASGLEVGRTPIAMEIEHFIQLITGVAVFLGVSFFVLSLILGYSWLEAVIFLIGIIVANVPEGLLATVTVCLTLTAKRMARKNCLVKNLEAVETLGSTSTICSDKTGTLTQNRMTVAHMWFDNQIHEADTTEDQSGATFDKRSPTWTALSRIAGLCNRAVFKAGQENISVSKRDTAGDASESALLKCIELSCGSVRKMRDRNPKVAEIPFNSTNKYQLSIHEREDSPQSHVLVMKGAPERILDRCSTILVQGKEIPLDKEMQDAFQNAYMELGGLGERVLGFCQLNLPSGKFPRGFKFDTDELNFPTEKLCFVGLMSMIDPPRAAVPDAVGKCRSAGIKVIMVTGDHPITAKAIAKGVGIISEGNETVEDIAARLNIPMSQVNPREAKACVVHGSDLKDMTSEQLDEILKNHTEIVFARTSPQQKLIIVEGCQRQGAIVAVTGDGVNDSPALKKADIGIAMGISGSDVSKQAADMILLDDNFASIVTGVEEGRLIFDNLKKSIAYTLTSNIPEITPFLLFIIANIPLPLGTVTILCIDLGTDMVPAISLAYEAAESDIMKRQPRNSQTDKLVNERLISMAYGQIGMIQALGGFFTYFVILAENGFLPSRLLGIRLDWDDRTMNDLEDSYGQEWTYEQRKVVEFTCHTAFFASIVVVQWADLIICKTRRNSVFQQGMKNKILIFGLLEETALAAFLSYCPGMGVALRMYPLKVTWWFCAFPYSLLIFIYDEVRKLILRRYPGGWVEKETYY",
+        "n_residues": 1020,
+        "mutation_pos_1indexed": 51,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "R51-K52-Y53-Q54",
+        "pocket_lining_positions_precursor": [
+          51,
+          52,
+          53,
+          54
+        ],
+        "pocket_lining_1letter": "RKYQ",
+        "sequence_slice_around_pocket": "DHKLSLDELGRKYQVDLSKG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ATP1A2_R51H/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "R51",
+          "K52",
+          "Y53",
+          "Q54"
+        ],
+        "values": [
+          [
+            0.0,
+            3.864,
+            5.597,
+            4.964
+          ],
+          [
+            3.864,
+            0.0,
+            3.836,
+            5.758
+          ],
+          [
+            5.597,
+            3.836,
+            0.0,
+            3.879
+          ],
+          [
+            4.964,
+            5.758,
+            3.879,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccccc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.5243604898204369,
+        "mw": 377.19,
+        "logp": 1.989,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.6094,
+        "sa_score": 3.03,
+        "n_heavy_atoms": 28,
+        "tpsa": 104.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ATP1A2-R51H Candidate #1",
+        "iupac_name": "NC(=O)c1ccccc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.5244,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ATP1A2_R51H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ATP1A2_R51H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ATP1A2_R51H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ATP1A2_R51H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ATP1A2_R51H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATP1A2-R51H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ATP1A2-R51H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:03:20.671050+00:00"
     }
   ]
 }
