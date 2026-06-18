@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1728,
+  "total_entries": 1729,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46400,
-    "queue_remaining": 132197
+    "total_processed": 46401,
+    "queue_remaining": 132196
   },
   "entries": [
     {
@@ -384656,6 +384656,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:20:06.904571+00:00"
+    },
+    {
+      "entry_id": "PCD-MEFV-T577N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MEFV-T577N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MEFV",
+        "uniprot": "",
+        "clinvar_id": "369971",
+        "disease": "Familial Mediterranean fever",
+        "mutation_precursor": "T577N",
+        "mutation_mature": "T577N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8003083380607046,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 638.7409661997223,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.796835899353027,
+          0.060706257820129395,
+          -3.9780831336975098
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.4398848057467735,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.774322251169291,
+        "cryptic": true,
+        "pocket_residues": {
+          "S575": "S",
+          "E576": "E",
+          "T577": "T",
+          "L578": "L",
+          "R579": "R",
+          "S580": "S",
+          "E581": "E",
+          "M582": "M",
+          "E583": "E"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15553|MEFV variant T577N",
+        "fasta_sequence": "MAKTPSDHLLSTLEELVPYDFEKFKFKLQNTSVQKEHSRIPRSQIQRARPVKMATLLVTYYGEEYAVQLTLQVLRAINQRLLAEELHRAAIQEYSTQENGTDDSAASSSLGENKPRSLKTPDHPEGNEGNGPRPYGGGAASLRCSQPEAGRGLSRKPLSKRREKASEGLDAQGKPRTRSPALPGGRSPGPCRALEGGQAEVRLRRNASSAGRLQGLAGGAPGQKECRPFEVYLPSGKMRPRSLEVTISTGEKAPANPEILLTLEEKTAANLDSATEPRARPTPDGGASADLKEGPGNPEHSVTGRPPDTAASPRCHAQEGDPVDGTCVRDSCSFPEAVSGHPQASGSRSPGCPRCQDSHERKSPGSLSPQPLPQCKRHLKQVQLLFCEDHDEPICLICSLSQEHQGHRVRPIEEVALEHKKKIQKQLEHLKKLRKSGEEQRSYGEEKAVSFLKQTEALKQRVQRKLEQVYYFLEQQEHFFVASLEDVGQMVGQIRKAYDTRVSQDIALLDALIGELEAKECQSEWELLQDIGDILHRAKTVPVPEKWTTPQEIKQKIQLLHQKSEFVEKSTKYFSETLRSEMEMFNVPELIGAQAHAVNVILDAETAYPNLIFSDDLKSVRLGNKWERLPDGPQRFDSCIIVLGSPSFLSGRRYWEVEVGDKTAWILGACKTSISRKGNMTLSPENGYWVVIMMKENEYQASSVPPTRLLIKEPPKRVGIFVDYRVGSISFYNVTARSHIYTFASCSFSGPLQPIFSPGTRDGGKNTAPLTICPVGGQGPD",
+        "full_sequence": "MAKTPSDHLLSTLEELVPYDFEKFKFKLQNTSVQKEHSRIPRSQIQRARPVKMATLLVTYYGEEYAVQLTLQVLRAINQRLLAEELHRAAIQEYSTQENGTDDSAASSSLGENKPRSLKTPDHPEGNEGNGPRPYGGGAASLRCSQPEAGRGLSRKPLSKRREKASEGLDAQGKPRTRSPALPGGRSPGPCRALEGGQAEVRLRRNASSAGRLQGLAGGAPGQKECRPFEVYLPSGKMRPRSLEVTISTGEKAPANPEILLTLEEKTAANLDSATEPRARPTPDGGASADLKEGPGNPEHSVTGRPPDTAASPRCHAQEGDPVDGTCVRDSCSFPEAVSGHPQASGSRSPGCPRCQDSHERKSPGSLSPQPLPQCKRHLKQVQLLFCEDHDEPICLICSLSQEHQGHRVRPIEEVALEHKKKIQKQLEHLKKLRKSGEEQRSYGEEKAVSFLKQTEALKQRVQRKLEQVYYFLEQQEHFFVASLEDVGQMVGQIRKAYDTRVSQDIALLDALIGELEAKECQSEWELLQDIGDILHRAKTVPVPEKWTTPQEIKQKIQLLHQKSEFVEKSTKYFSETLRSEMEMFNVPELIGAQAHAVNVILDAETAYPNLIFSDDLKSVRLGNKWERLPDGPQRFDSCIIVLGSPSFLSGRRYWEVEVGDKTAWILGACKTSISRKGNMTLSPENGYWVVIMMKENEYQASSVPPTRLLIKEPPKRVGIFVDYRVGSISFYNVTARSHIYTFASCSFSGPLQPIFSPGTRDGGKNTAPLTICPVGGQGPD",
+        "n_residues": 781,
+        "mutation_pos_1indexed": 577,
+        "wt_aa": "T",
+        "mut_aa": "N",
+        "pocket_lining_residues": "S575-E576-T577-L578-R579-S580-E581-M582-E583",
+        "pocket_lining_positions_precursor": [
+          575,
+          576,
+          577,
+          578,
+          579,
+          580,
+          581,
+          582,
+          583
+        ],
+        "pocket_lining_1letter": "SETLRSEME",
+        "sequence_slice_around_pocket": "VEKSTKYFSETLRSEMEMFN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MEFV_T577N/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "S575",
+          "E576",
+          "T577",
+          "L578",
+          "R579",
+          "S580",
+          "E581",
+          "M582",
+          "E583"
+        ],
+        "values": [
+          [
+            0.0,
+            3.852,
+            5.714,
+            5.405,
+            6.044,
+            8.81,
+            10.052,
+            10.35,
+            12.133
+          ],
+          [
+            3.852,
+            0.0,
+            3.868,
+            5.71,
+            5.24,
+            6.45,
+            8.763,
+            9.916,
+            10.653
+          ],
+          [
+            5.714,
+            3.868,
+            0.0,
+            3.852,
+            5.409,
+            5.335,
+            6.15,
+            8.486,
+            9.851
+          ],
+          [
+            5.405,
+            5.71,
+            3.852,
+            0.0,
+            3.856,
+            5.642,
+            5.066,
+            5.915,
+            8.513
+          ],
+          [
+            6.044,
+            5.24,
+            5.409,
+            3.856,
+            0.0,
+            3.849,
+            5.487,
+            4.982,
+            6.093
+          ],
+          [
+            8.81,
+            6.45,
+            5.335,
+            5.642,
+            3.849,
+            0.0,
+            3.856,
+            5.382,
+            4.906
+          ],
+          [
+            10.052,
+            8.763,
+            6.15,
+            5.066,
+            5.487,
+            3.856,
+            0.0,
+            3.873,
+            5.447
+          ],
+          [
+            10.35,
+            9.916,
+            8.486,
+            5.915,
+            4.982,
+            5.382,
+            3.873,
+            0.0,
+            3.859
+          ],
+          [
+            12.133,
+            10.653,
+            9.851,
+            8.513,
+            6.093,
+            4.906,
+            5.447,
+            3.859,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCS(=O)(=O)c1ccncc1N1CCCCC1CNC(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.7003096999565251,
+        "mw": 472.23,
+        "logp": 1.946,
+        "hbd": 2,
+        "hba": 8,
+        "rotatable_bonds": 7,
+        "qed": 0.6271,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 33,
+        "tpsa": 121.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MEFV-T577N Candidate #1",
+        "iupac_name": "NCS(=O)(=O)c1ccncc1N1CCCCC1CNC(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.7003,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MEFV_T577N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MEFV_T577N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MEFV_T577N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MEFV_T577N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MEFV_T577N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MEFV-T577N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MEFV-T577N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:20:39.178185+00:00"
     }
   ]
 }
