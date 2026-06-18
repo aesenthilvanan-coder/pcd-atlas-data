@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1715,
+  "total_entries": 1716,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46386,
-    "queue_remaining": 132211
+    "total_processed": 46387,
+    "queue_remaining": 132210
   },
   "entries": [
     {
@@ -381379,6 +381379,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:11:55.753432+00:00"
+    },
+    {
+      "entry_id": "PCD-FOXL2-Y215C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXL2-Y215C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FOXL2",
+        "uniprot": "",
+        "clinvar_id": "369919",
+        "disease": "Blepharophimosis, ptosis, and epicanthus inversus syndrome",
+        "mutation_precursor": "Y215C",
+        "mutation_mature": "Y215C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8774264668247436,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 405.5376813177118,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -27.217241287231445,
+          -14.075179100036621,
+          -46.624969482421875
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.127257960902878,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8461413909870571,
+        "cryptic": true,
+        "pocket_residues": {
+          "P214": "P",
+          "Y215": "Y",
+          "A216": "A",
+          "S217": "S",
+          "C218": "C",
+          "Q219": "Q",
+          "M220": "M"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P58012|FOXL2 variant Y215C",
+        "fasta_sequence": "MMASYPEPEDAAGALLAPETGRTVKEPEGPPPSPGKGGGGGGGTAPEKPDPAQKPPYSYVALIAMAIRESAEKRLTLSGIYQYIIAKFPFYEKNKKGWQNSIRHNLSLNECFIKVPREGGGERKGNYWTLDPACEDMFEKGNYRRRRRMKRPFRPPPAHFQPGKGLFGAGGAAGGCGVAGAGADGYGYLAPPKYLQSGFLNNSWPLPQPPSPMPYASCQMAAAAAAAAAAAAAAGPGSPGAAAVVKGLAGPAASYGPYTRVQSMALPPGVVNSYNGLGGPPAAPPPPPHPHPHPHAHHLHAAAAPPPAPPHHGAAAPPPGQLSPASPATAAPPAPAPTSAPGLQFACARQPELAMMHCSYWDHDSKTGALHSRLDL",
+        "full_sequence": "MMASYPEPEDAAGALLAPETGRTVKEPEGPPPSPGKGGGGGGGTAPEKPDPAQKPPYSYVALIAMAIRESAEKRLTLSGIYQYIIAKFPFYEKNKKGWQNSIRHNLSLNECFIKVPREGGGERKGNYWTLDPACEDMFEKGNYRRRRRMKRPFRPPPAHFQPGKGLFGAGGAAGGCGVAGAGADGYGYLAPPKYLQSGFLNNSWPLPQPPSPMPYASCQMAAAAAAAAAAAAAAGPGSPGAAAVVKGLAGPAASYGPYTRVQSMALPPGVVNSYNGLGGPPAAPPPPPHPHPHPHAHHLHAAAAPPPAPPHHGAAAPPPGQLSPASPATAAPPAPAPTSAPGLQFACARQPELAMMHCSYWDHDSKTGALHSRLDL",
+        "n_residues": 376,
+        "mutation_pos_1indexed": 215,
+        "wt_aa": "Y",
+        "mut_aa": "C",
+        "pocket_lining_residues": "P214-Y215-A216-S217-C218-Q219-M220",
+        "pocket_lining_positions_precursor": [
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220
+        ],
+        "pocket_lining_1letter": "PYASCQM",
+        "sequence_slice_around_pocket": "PLPQPPSPMPYASCQMAAAA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_Y215C/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "P214",
+          "Y215",
+          "A216",
+          "S217",
+          "C218",
+          "Q219",
+          "M220"
+        ],
+        "values": [
+          [
+            0.0,
+            3.849,
+            5.797,
+            7.128,
+            8.444,
+            11.27,
+            13.386
+          ],
+          [
+            3.849,
+            0.0,
+            3.873,
+            5.993,
+            6.324,
+            8.296,
+            11.146
+          ],
+          [
+            5.797,
+            3.873,
+            0.0,
+            3.898,
+            6.135,
+            7.16,
+            9.205
+          ],
+          [
+            7.128,
+            5.993,
+            3.898,
+            0.0,
+            3.87,
+            5.861,
+            6.619
+          ],
+          [
+            8.444,
+            6.324,
+            6.135,
+            3.87,
+            0.0,
+            3.867,
+            5.711
+          ],
+          [
+            11.27,
+            8.296,
+            7.16,
+            5.861,
+            3.867,
+            0.0,
+            3.858
+          ],
+          [
+            13.386,
+            11.146,
+            9.205,
+            6.619,
+            5.711,
+            3.858,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(Cc1c[nH]c2ccccc12)OCN1CCCC(=O)C1",
+        "composite_score": 0.6782552584208644,
+        "mw": 301.18,
+        "logp": 1.895,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 6,
+        "qed": 0.8002,
+        "sa_score": 3.31,
+        "n_heavy_atoms": 22,
+        "tpsa": 57.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FOXL2-Y215C Candidate #1",
+        "iupac_name": "CNC(Cc1c[nH]c2ccccc12)OCN1CCCC(=O)C1",
+        "pocket_affinity_score": 0.6783,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_Y215C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_Y215C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_Y215C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_Y215C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_Y215C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXL2-Y215C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXL2-Y215C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:12:59.696008+00:00"
     }
   ]
 }
