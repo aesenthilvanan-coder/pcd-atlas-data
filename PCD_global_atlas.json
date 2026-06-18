@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1610,
+  "total_entries": 1611,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46269,
-    "queue_remaining": 132328
+    "total_processed": 46270,
+    "queue_remaining": 132327
   },
   "entries": [
     {
@@ -355894,6 +355894,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:49:49.114058+00:00"
+    },
+    {
+      "entry_id": "PCD-PROKR2-R85L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PROKR2-R85L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PROKR2",
+        "uniprot": "",
+        "clinvar_id": "338863",
+        "disease": "Hypogonadotropic hypogonadism 3 with or without anosmia",
+        "mutation_precursor": "R85L",
+        "mutation_mature": "R85L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9039503343095245,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 347.89501857068956,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -18.185453414916992,
+          -4.006710529327393,
+          7.456351280212402
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.9236202964461455,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8470052337833962,
+        "cryptic": true,
+        "pocket_residues": {
+          "L84": "L",
+          "R85": "R",
+          "N86": "N",
+          "L87": "L",
+          "T88": "T",
+          "N89": "N",
+          "L90": "L",
+          "L91": "L",
+          "I92": "I",
+          "A93": "A"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NFJ6|PROKR2 variant R85L",
+        "fasta_sequence": "MAAQNGNTSFTPNFNPPQDHASSLSFNFSYGDYDLPMDEDEDMTKTRTFFAAKIVIGIALAGIMLVCGIGNFVFIAALTRYKKLRNLTNLLIANLAISDFLVAIICCPFEMDYYVVRQLSWEHGHVLCASVNYLRTVSLYVSTNALLAIAIDRYLAIVHPLKPRMNYQTASFLIALVWMVSILIAIPSAYFATETVLFIVKSQEKIFCGQIWPVDQQLYYKSYFLFIFGVEFVGPVVTMTLCYARISRELWFKAVPGFQTEQIRKRLRCRRKTVLVLMCILTAYVLCWAPFYGFTIVRDFFPTVFVKEKHYLTAFYVVECIAMSNSMINTVCFVTVKNNTMKYFKKMMLLHWRPSQRGSKSSADLDLRTNGVPTTEEVDCIRLK",
+        "full_sequence": "MAAQNGNTSFTPNFNPPQDHASSLSFNFSYGDYDLPMDEDEDMTKTRTFFAAKIVIGIALAGIMLVCGIGNFVFIAALTRYKKLRNLTNLLIANLAISDFLVAIICCPFEMDYYVVRQLSWEHGHVLCASVNYLRTVSLYVSTNALLAIAIDRYLAIVHPLKPRMNYQTASFLIALVWMVSILIAIPSAYFATETVLFIVKSQEKIFCGQIWPVDQQLYYKSYFLFIFGVEFVGPVVTMTLCYARISRELWFKAVPGFQTEQIRKRLRCRRKTVLVLMCILTAYVLCWAPFYGFTIVRDFFPTVFVKEKHYLTAFYVVECIAMSNSMINTVCFVTVKNNTMKYFKKMMLLHWRPSQRGSKSSADLDLRTNGVPTTEEVDCIRLK",
+        "n_residues": 384,
+        "mutation_pos_1indexed": 85,
+        "wt_aa": "R",
+        "mut_aa": "L",
+        "pocket_lining_residues": "L84-R85-N86-L87-T88-N89-L90-L91-I92-A93",
+        "pocket_lining_positions_precursor": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93
+        ],
+        "pocket_lining_1letter": "LRNLTNLLIA",
+        "sequence_slice_around_pocket": "IAALTRYKKLRNLTNLLIAN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_R85L/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "L84",
+          "R85",
+          "N86",
+          "L87",
+          "T88",
+          "N89",
+          "L90",
+          "L91",
+          "I92",
+          "A93"
+        ],
+        "values": [
+          [
+            0.0,
+            3.88,
+            5.748,
+            9.101,
+            9.55,
+            6.831,
+            8.883,
+            11.927,
+            11.046,
+            10.581
+          ],
+          [
+            3.88,
+            0.0,
+            3.792,
+            6.586,
+            8.317,
+            6.079,
+            6.476,
+            10.045,
+            10.372,
+            9.484
+          ],
+          [
+            5.748,
+            3.792,
+            0.0,
+            3.792,
+            5.769,
+            5.362,
+            6.502,
+            9.112,
+            10.027,
+            10.475
+          ],
+          [
+            9.101,
+            6.586,
+            3.792,
+            0.0,
+            3.839,
+            5.404,
+            5.206,
+            6.66,
+            8.829,
+            9.809
+          ],
+          [
+            9.55,
+            8.317,
+            5.769,
+            3.839,
+            0.0,
+            3.831,
+            5.44,
+            5.15,
+            6.264,
+            8.599
+          ],
+          [
+            6.831,
+            6.079,
+            5.362,
+            5.404,
+            3.831,
+            0.0,
+            3.873,
+            5.392,
+            4.823,
+            5.966
+          ],
+          [
+            8.883,
+            6.476,
+            6.502,
+            5.206,
+            5.44,
+            3.873,
+            0.0,
+            3.854,
+            5.394,
+            4.846
+          ],
+          [
+            11.927,
+            10.045,
+            9.112,
+            6.66,
+            5.15,
+            5.392,
+            3.854,
+            0.0,
+            3.856,
+            5.373
+          ],
+          [
+            11.046,
+            10.372,
+            10.027,
+            8.829,
+            6.264,
+            4.823,
+            5.394,
+            3.856,
+            0.0,
+            3.855
+          ],
+          [
+            10.581,
+            9.484,
+            10.475,
+            9.809,
+            8.599,
+            5.966,
+            4.846,
+            5.373,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.701203564367184,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PROKR2-R85L Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7012,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_R85L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_R85L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_R85L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_R85L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PROKR2_R85L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PROKR2-R85L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PROKR2-R85L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:50:11.628307+00:00"
     }
   ]
 }
