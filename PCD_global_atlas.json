@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1813,
+  "total_entries": 1814,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46489,
-    "queue_remaining": 132108
+    "total_processed": 46490,
+    "queue_remaining": 132107
   },
   "entries": [
     {
@@ -406643,6 +406643,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:08:35.001105+00:00"
+    },
+    {
+      "entry_id": "PCD-ACADVL-G289R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACADVL-G289R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ACADVL",
+        "uniprot": "",
+        "clinvar_id": "370981",
+        "disease": "Very long chain acyl-CoA dehydrogenase deficiency",
+        "mutation_precursor": "G289R",
+        "mutation_mature": "G289R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7284662799071568,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 554.4318839949229,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          17.849428176879883,
+          11.079249382019043,
+          -33.05162811279297
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.698205306586679,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6009712929784607,
+        "cryptic": true,
+        "pocket_residues": {
+          "G289": "G",
+          "G290": "G",
+          "G314": "G",
+          "V315": "V"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P49748|ACADVL variant G289R",
+        "fasta_sequence": "MQAARMAASLGRQLLRLGGGSSRLTALLGQPRPGPARRPYAGGAAQLALDKSDSHPSDALTRKKPAKAESKSFAVGMFKGQLTTDQVFPYPSVLNEEQTQFLKELVEPVSRFFEEVNDPAKNDALEMVEETTWQGLKELGAFGLQVPSELGGVGLCNTQYARLVEIVGMHDLGVGITLGAHQSIGFKGILLFGTKAQKEKYLPKLASGETVAAFCLTEPSSGSDAASIRTSAVPSPCGKYYTLNGSKLWISNGGLADIFTVFAKTPVTDPATGAVKEKITAFVVERGFGGITHGPPEKKMGIKASNTAEVFFDGVRVPSENVLGEVGSGFKVAMHILNNGRFGMAAALAGTMRGIIAKAVDHATNRTQFGEKIHNFGLIQEKLARMVMLQYVTESMAYMVSANMDQGATDFQIEAAISKIFGSEAAWKVTDECIQIMGGMGFMKEPGVERVLRDLRIFRIFEGTNDILRLFVALQGCMDKGKELSGLGSALKNPFGNAGLLLGEAGKQLRRRAGLGSGLSLSGLVHPELSRSGELAVRALEQFATVVEAKLIKHKKGIVNEQFLLQRLADGAIDLYAMVVVLSRASRSLSEGHPTAQHEKMLCDTWCIEAAARIREGMAALQSDPWQQELYRNFKSISKALVERGGVVTSNPLGF",
+        "full_sequence": "MQAARMAASLGRQLLRLGGGSSRLTALLGQPRPGPARRPYAGGAAQLALDKSDSHPSDALTRKKPAKAESKSFAVGMFKGQLTTDQVFPYPSVLNEEQTQFLKELVEPVSRFFEEVNDPAKNDALEMVEETTWQGLKELGAFGLQVPSELGGVGLCNTQYARLVEIVGMHDLGVGITLGAHQSIGFKGILLFGTKAQKEKYLPKLASGETVAAFCLTEPSSGSDAASIRTSAVPSPCGKYYTLNGSKLWISNGGLADIFTVFAKTPVTDPATGAVKEKITAFVVERGFGGITHGPPEKKMGIKASNTAEVFFDGVRVPSENVLGEVGSGFKVAMHILNNGRFGMAAALAGTMRGIIAKAVDHATNRTQFGEKIHNFGLIQEKLARMVMLQYVTESMAYMVSANMDQGATDFQIEAAISKIFGSEAAWKVTDECIQIMGGMGFMKEPGVERVLRDLRIFRIFEGTNDILRLFVALQGCMDKGKELSGLGSALKNPFGNAGLLLGEAGKQLRRRAGLGSGLSLSGLVHPELSRSGELAVRALEQFATVVEAKLIKHKKGIVNEQFLLQRLADGAIDLYAMVVVLSRASRSLSEGHPTAQHEKMLCDTWCIEAAARIREGMAALQSDPWQQELYRNFKSISKALVERGGVVTSNPLGF",
+        "n_residues": 655,
+        "mutation_pos_1indexed": 289,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "G289-G290-G314-V315",
+        "pocket_lining_positions_precursor": [
+          289,
+          290,
+          314,
+          315
+        ],
+        "pocket_lining_1letter": "GGGV",
+        "sequence_slice_around_pocket": "ITAFVVERGFGGITHGPPEK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ACADVL_G289R/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "G289",
+          "G290",
+          "G314",
+          "V315"
+        ],
+        "values": [
+          [
+            0.0,
+            3.836,
+            8.212,
+            6.005
+          ],
+          [
+            3.836,
+            0.0,
+            5.808,
+            4.99
+          ],
+          [
+            8.212,
+            5.808,
+            0.0,
+            3.866
+          ],
+          [
+            6.005,
+            4.99,
+            3.866,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.5120082900880246,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ACADVL-G289R Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.512,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ACADVL_G289R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ACADVL_G289R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ACADVL_G289R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACADVL_G289R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACADVL_G289R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACADVL-G289R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACADVL-G289R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:09:02.598271+00:00"
     }
   ]
 }
