@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1885,
+  "total_entries": 1886,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46569,
-    "queue_remaining": 132028
+    "total_processed": 46570,
+    "queue_remaining": 132027
   },
   "entries": [
     {
@@ -427277,6 +427277,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:46:56.030702+00:00"
+    },
+    {
+      "entry_id": "PCD-PADI6-G540R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PADI6-G540R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PADI6",
+        "uniprot": "",
+        "clinvar_id": "372232",
+        "disease": "Oocyte/zygote/embryo maturation arrest 16",
+        "mutation_precursor": "G540R",
+        "mutation_mature": "G540R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8137122933215138,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 478.94609412901235,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -23.712953567504883,
+          13.460311889648438,
+          26.77670669555664
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.157769164325728,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7842623366257918,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q535": "Q",
+          "L536": "L",
+          "L537": "L",
+          "S538": "S",
+          "N539": "N",
+          "G540": "G",
+          "R541": "R",
+          "E542": "E",
+          "A543": "A",
+          "Y613": "Y",
+          "F614": "F"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q6TGC4|PADI6 variant G540R",
+        "fasta_sequence": "MVSVEGRAMSFQSIIHLSLDSPVHAVCVLGTEICLDLSGCAPQKCQCFTIHGSGRVLIDVANTVISEKEDATIWWPLSDPTYATVKMTSPSPSVDADKVSVTYYGPNEDAPVGTAVLYLTGIEVSLEVDIYRNGQVEMSSDKQAKKKWIWGPSGWGAILLVNCNPADVGQQLEDKKTKKVIFSEEITNLSQMTLNVQGPSCILKKYRLVLHTSKEESKKARVYWPQKDNSSTFELVLGPDQHAYTLALLGNHLKETFYVEAIAFPSAEFSGLISYSVSLVEESQDPSIPETVLYKDTVVFRVAPCVFIPCTQVPLEVYLCRELQLQGFVDTVTKLSEKSNSQVASVYEDPNRLGRWLQDEMAFCYTQAPHKTTSLILDTPQAADLDEFPMKYSLSPGIGYMIQDTEDHKVASMDSIGNLMVSPPVKVQGKEYPLGRVLIGSSFYPSAEGRAMSKTLRDFLYAQQVQAPVELYSDWLMTGHVDEFMCFIPTDDKNEGKKGFLLLLASPSACYKLFREKQKEGYGDALLFDELRADQLLSNGREAKTIDQLLADESLKKQNEYVEKCIHLNRDILKTELGLVEQDIIEIPQLFCLEKLTNIPSDQQPKRSFARPYFPDLLRMIVMGKNLGIPKPFGPQIKGTCCLEEKICCLLEPLGFKCTFINDFDCYLTEVGDICACANIRRVPFAFKWWKMVP",
+        "full_sequence": "MVSVEGRAMSFQSIIHLSLDSPVHAVCVLGTEICLDLSGCAPQKCQCFTIHGSGRVLIDVANTVISEKEDATIWWPLSDPTYATVKMTSPSPSVDADKVSVTYYGPNEDAPVGTAVLYLTGIEVSLEVDIYRNGQVEMSSDKQAKKKWIWGPSGWGAILLVNCNPADVGQQLEDKKTKKVIFSEEITNLSQMTLNVQGPSCILKKYRLVLHTSKEESKKARVYWPQKDNSSTFELVLGPDQHAYTLALLGNHLKETFYVEAIAFPSAEFSGLISYSVSLVEESQDPSIPETVLYKDTVVFRVAPCVFIPCTQVPLEVYLCRELQLQGFVDTVTKLSEKSNSQVASVYEDPNRLGRWLQDEMAFCYTQAPHKTTSLILDTPQAADLDEFPMKYSLSPGIGYMIQDTEDHKVASMDSIGNLMVSPPVKVQGKEYPLGRVLIGSSFYPSAEGRAMSKTLRDFLYAQQVQAPVELYSDWLMTGHVDEFMCFIPTDDKNEGKKGFLLLLASPSACYKLFREKQKEGYGDALLFDELRADQLLSNGREAKTIDQLLADESLKKQNEYVEKCIHLNRDILKTELGLVEQDIIEIPQLFCLEKLTNIPSDQQPKRSFARPYFPDLLRMIVMGKNLGIPKPFGPQIKGTCCLEEKICCLLEPLGFKCTFINDFDCYLTEVGDICACANIRRVPFAFKWWKMVP",
+        "n_residues": 694,
+        "mutation_pos_1indexed": 540,
+        "wt_aa": "G",
+        "mut_aa": "R",
+        "pocket_lining_residues": "Q535-L536-L537-S538-N539-G540-R541-E542-A543-Y613-F614",
+        "pocket_lining_positions_precursor": [
+          535,
+          536,
+          537,
+          538,
+          539,
+          540,
+          541,
+          542,
+          543,
+          613,
+          614
+        ],
+        "pocket_lining_1letter": "QLLSNGREAYF",
+        "sequence_slice_around_pocket": "ELRADQLLSNGREAKTIDQL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PADI6_G540R/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "Q535",
+          "L536",
+          "L537",
+          "S538",
+          "N539",
+          "G540",
+          "R541",
+          "E542",
+          "A543",
+          "Y613",
+          "F614"
+        ],
+        "values": [
+          [
+            0.0,
+            3.846,
+            5.634,
+            5.43,
+            6.798,
+            8.968,
+            8.427,
+            9.65,
+            10.69,
+            14.198,
+            12.778
+          ],
+          [
+            3.846,
+            0.0,
+            3.851,
+            5.554,
+            5.511,
+            6.178,
+            4.799,
+            5.887,
+            7.571,
+            11.356,
+            10.625
+          ],
+          [
+            5.634,
+            3.851,
+            0.0,
+            3.849,
+            5.534,
+            5.196,
+            6.064,
+            7.124,
+            9.794,
+            13.502,
+            13.624
+          ],
+          [
+            5.43,
+            5.554,
+            3.849,
+            0.0,
+            3.86,
+            5.843,
+            7.801,
+            10.14,
+            12.794,
+            14.106,
+            14.004
+          ],
+          [
+            6.798,
+            5.511,
+            5.534,
+            3.86,
+            0.0,
+            3.851,
+            5.589,
+            8.977,
+            11.814,
+            10.564,
+            10.746
+          ],
+          [
+            8.968,
+            6.178,
+            5.196,
+            5.843,
+            3.851,
+            0.0,
+            3.861,
+            6.875,
+            10.434,
+            9.861,
+            11.148
+          ],
+          [
+            8.427,
+            4.799,
+            6.064,
+            7.801,
+            5.589,
+            3.861,
+            0.0,
+            3.807,
+            6.932,
+            7.631,
+            8.403
+          ],
+          [
+            9.65,
+            5.887,
+            7.124,
+            10.14,
+            8.977,
+            6.875,
+            3.807,
+            0.0,
+            3.808,
+            9.507,
+            10.082
+          ],
+          [
+            10.69,
+            7.571,
+            9.794,
+            12.794,
+            11.814,
+            10.434,
+            6.932,
+            3.808,
+            0.0,
+            10.722,
+            10.33
+          ],
+          [
+            14.198,
+            11.356,
+            13.502,
+            14.106,
+            10.564,
+            9.861,
+            7.631,
+            9.507,
+            10.722,
+            0.0,
+            3.841
+          ],
+          [
+            12.778,
+            10.625,
+            13.624,
+            14.004,
+            10.746,
+            11.148,
+            8.403,
+            10.082,
+            10.33,
+            3.841,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.8335178706269569,
+        "mw": 350.19,
+        "logp": 1.868,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.6495,
+        "sa_score": 3.25,
+        "n_heavy_atoms": 26,
+        "tpsa": 99.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PADI6-G540R Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1CNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8335,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PADI6_G540R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PADI6_G540R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PADI6_G540R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PADI6_G540R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PADI6_G540R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PADI6-G540R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PADI6-G540R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:47:24.169475+00:00"
     }
   ]
 }
