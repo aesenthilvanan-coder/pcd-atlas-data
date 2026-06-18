@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1758,
+  "total_entries": 1759,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46430,
-    "queue_remaining": 132167
+    "total_processed": 46431,
+    "queue_remaining": 132166
   },
   "entries": [
     {
@@ -391578,6 +391578,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:36:15.087033+00:00"
+    },
+    {
+      "entry_id": "PCD-AGA-M1V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AGA-M1V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AGA",
+        "uniprot": "",
+        "clinvar_id": "371140",
+        "disease": "Aspartylglucosaminuria",
+        "mutation_precursor": "M1V",
+        "mutation_mature": "M1V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7948620824797248,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 591.0577277928737,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -88.54972076416016,
+          -8.613107681274414,
+          39.606170654296875
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.0642715353336483,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6957096966929655,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "A2": "A",
+          "R3": "R",
+          "K4": "K"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P20933|AGA variant M1V",
+        "fasta_sequence": "MARKSNLPVLLVPFLLCQALVRCSSPLPLVVNTWPFKNATEAAWRALASGGSALDAVESGCAMCEREQCDGSVGFGGSPDELGETTLDAMIMDGTTMDVGAVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFINEDLSTTASQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPPGILKQDIPIHKETEDDRGHDTIGMVVIHKTGHIAAGTSTNGIKFKIHGRVGDSPIPGAGAYADDTAGAAAATGNGDILMRFLPSYQAVEYMRRGEDPTIACQKVISRIQKHFPEFFGAVICANVTGSYGAACNKLSTFTQFSFMVYNSEKNQPTEEKVDCI",
+        "full_sequence": "MARKSNLPVLLVPFLLCQALVRCSSPLPLVVNTWPFKNATEAAWRALASGGSALDAVESGCAMCEREQCDGSVGFGGSPDELGETTLDAMIMDGTTMDVGAVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFINEDLSTTASQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPPGILKQDIPIHKETEDDRGHDTIGMVVIHKTGHIAAGTSTNGIKFKIHGRVGDSPIPGAGAYADDTAGAAAATGNGDILMRFLPSYQAVEYMRRGEDPTIACQKVISRIQKHFPEFFGAVICANVTGSYGAACNKLSTFTQFSFMVYNSEKNQPTEEKVDCI",
+        "n_residues": 346,
+        "mutation_pos_1indexed": 1,
+        "wt_aa": "M",
+        "mut_aa": "V",
+        "pocket_lining_residues": "M1-A2-R3-K4",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "pocket_lining_1letter": "MARK",
+        "sequence_slice_around_pocket": "MARKSNLPVL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AGA_M1V/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "M1",
+          "A2",
+          "R3",
+          "K4"
+        ],
+        "values": [
+          [
+            0.0,
+            3.823,
+            6.868,
+            9.936
+          ],
+          [
+            3.823,
+            0.0,
+            3.847,
+            6.262
+          ],
+          [
+            6.868,
+            3.847,
+            0.0,
+            3.843
+          ],
+          [
+            9.936,
+            6.262,
+            3.843,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "composite_score": 0.5162442233067768,
+        "mw": 361.24,
+        "logp": 2.104,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8409,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AGA-M1V Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5162,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AGA_M1V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AGA_M1V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AGA_M1V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AGA_M1V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AGA_M1V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AGA-M1V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AGA-M1V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:36:40.595111+00:00"
     }
   ]
 }
