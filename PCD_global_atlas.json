@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2354,
+  "total_entries": 2355,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47094,
-    "queue_remaining": 131503
+    "total_processed": 47096,
+    "queue_remaining": 131501
   },
   "entries": [
     {
@@ -547161,6 +547161,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T12:11:30.072822+00:00"
+    },
+    {
+      "entry_id": "PCD-MITF-Y265C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MITF-Y265C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "MITF",
+        "uniprot": "",
+        "clinvar_id": "373914",
+        "disease": "Waardenburg syndrome",
+        "mutation_precursor": "Y265C",
+        "mutation_mature": "Y265C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7480890294126387,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 348.10688073488313,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -8.46099853515625,
+          -4.234378814697266,
+          -66.92533874511719
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.380721009628553,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6889816682503279,
+        "cryptic": true,
+        "pocket_residues": {
+          "D263": "D",
+          "L264": "L",
+          "Y265": "Y",
+          "G266": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O75030|MITF variant Y265C",
+        "fasta_sequence": "MQSESGIVPDFEVGEEFHEEPKTYYELKSQPLKSSSSAEHPGASKPPISSSSMTSRILLRQQLMREQMQEQERREQQQKLQAAQFMQQRVPVSQTPAINVSVPTTLPSATQVPMEVLKVQTHLENPTKYHIQQAQRQQVKQYLSTTLANKHANQVLSLPCPNQPGDHVMPPVPGSSAPNSPMAMLTLNSNCEKEGFYKFEEQNRAESECPGMNTHSRASCMQMDDVIDDIISLESSYNEEILGLMDPALQMANTLPVSGNLIDLYGNQGLPPPGLTISNSCPANLPNIKRELTACIFPTESEARALAKERQKKDNHNLIERRRRFNINDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQREQQRAKELENRQKKLEHANRHLLLRIQELEMQARAHGLSLIPSTGLCSPDLVNRIIKQEPVLENCSQDLLQHHADLTCTTTLDLTDGTITFNNNLGTGTEANQAYSVPTKMGSKLEDILMDDTLSPVGVTDPLLSSVSPGASKTSSRRSSMSMEETEHTC",
+        "full_sequence": "MQSESGIVPDFEVGEEFHEEPKTYYELKSQPLKSSSSAEHPGASKPPISSSSMTSRILLRQQLMREQMQEQERREQQQKLQAAQFMQQRVPVSQTPAINVSVPTTLPSATQVPMEVLKVQTHLENPTKYHIQQAQRQQVKQYLSTTLANKHANQVLSLPCPNQPGDHVMPPVPGSSAPNSPMAMLTLNSNCEKEGFYKFEEQNRAESECPGMNTHSRASCMQMDDVIDDIISLESSYNEEILGLMDPALQMANTLPVSGNLIDLYGNQGLPPPGLTISNSCPANLPNIKRELTACIFPTESEARALAKERQKKDNHNLIERRRRFNINDRIKELGTLIPKSNDPDMRWNKGTILKASVDYIRKLQREQQRAKELENRQKKLEHANRHLLLRIQELEMQARAHGLSLIPSTGLCSPDLVNRIIKQEPVLENCSQDLLQHHADLTCTTTLDLTDGTITFNNNLGTGTEANQAYSVPTKMGSKLEDILMDDTLSPVGVTDPLLSSVSPGASKTSSRRSSMSMEETEHTC",
+        "n_residues": 526,
+        "mutation_pos_1indexed": 265,
+        "wt_aa": "Y",
+        "mut_aa": "C",
+        "pocket_lining_residues": "D263-L264-Y265-G266",
+        "pocket_lining_positions_precursor": [
+          263,
+          264,
+          265,
+          266
+        ],
+        "pocket_lining_1letter": "DLYG",
+        "sequence_slice_around_pocket": "LPVSGNLIDLYGNQGLPPPG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/MITF_Y265C/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "D263",
+          "L264",
+          "Y265",
+          "G266"
+        ],
+        "values": [
+          [
+            0.0,
+            3.746,
+            6.204,
+            9.812
+          ],
+          [
+            3.746,
+            0.0,
+            3.827,
+            6.846
+          ],
+          [
+            6.204,
+            3.827,
+            0.0,
+            3.688
+          ],
+          [
+            9.812,
+            6.846,
+            3.688,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)c1ccc(OC)c(N2CCCCC2)c1",
+        "composite_score": 0.7049535849638046,
+        "mw": 262.17,
+        "logp": 2.088,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 5,
+        "qed": 0.825,
+        "sa_score": 2.02,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "MITF-Y265C Candidate #1",
+        "iupac_name": "CNCC(=O)c1ccc(OC)c(N2CCCCC2)c1",
+        "pocket_affinity_score": 0.705,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/MITF_Y265C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/MITF_Y265C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/MITF_Y265C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/MITF_Y265C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/MITF_Y265C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MITF-Y265C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-MITF-Y265C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T12:12:11.769542+00:00"
     }
   ]
 }
