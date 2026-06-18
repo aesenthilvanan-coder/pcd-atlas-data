@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1721,
+  "total_entries": 1722,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46392,
-    "queue_remaining": 132205
+    "total_processed": 46393,
+    "queue_remaining": 132204
   },
   "entries": [
     {
@@ -382579,6 +382579,253 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:15:34.524530+00:00"
+    },
+    {
+      "entry_id": "PCD-FOXL2-W98R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXL2-W98R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FOXL2",
+        "uniprot": "",
+        "clinvar_id": "369897",
+        "disease": "Blepharophimosis, ptosis, and epicanthus inversus syndrome",
+        "mutation_precursor": "W98R",
+        "mutation_mature": "W98R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9050620645726841,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 428.11493261807806,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -11.99389362335205,
+          -7.616854667663574,
+          5.953797340393066
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.8061554675891056,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7675575867078989,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y91": "Y",
+          "K93": "K",
+          "N94": "N",
+          "K95": "K",
+          "K96": "K",
+          "G97": "G",
+          "W98": "W",
+          "Q99": "Q",
+          "N100": "N",
+          "S101": "S"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P58012|FOXL2 variant W98R",
+        "fasta_sequence": "MMASYPEPEDAAGALLAPETGRTVKEPEGPPPSPGKGGGGGGGTAPEKPDPAQKPPYSYVALIAMAIRESAEKRLTLSGIYQYIIAKFPFYEKNKKGWQNSIRHNLSLNECFIKVPREGGGERKGNYWTLDPACEDMFEKGNYRRRRRMKRPFRPPPAHFQPGKGLFGAGGAAGGCGVAGAGADGYGYLAPPKYLQSGFLNNSWPLPQPPSPMPYASCQMAAAAAAAAAAAAAAGPGSPGAAAVVKGLAGPAASYGPYTRVQSMALPPGVVNSYNGLGGPPAAPPPPPHPHPHPHAHHLHAAAAPPPAPPHHGAAAPPPGQLSPASPATAAPPAPAPTSAPGLQFACARQPELAMMHCSYWDHDSKTGALHSRLDL",
+        "full_sequence": "MMASYPEPEDAAGALLAPETGRTVKEPEGPPPSPGKGGGGGGGTAPEKPDPAQKPPYSYVALIAMAIRESAEKRLTLSGIYQYIIAKFPFYEKNKKGWQNSIRHNLSLNECFIKVPREGGGERKGNYWTLDPACEDMFEKGNYRRRRRMKRPFRPPPAHFQPGKGLFGAGGAAGGCGVAGAGADGYGYLAPPKYLQSGFLNNSWPLPQPPSPMPYASCQMAAAAAAAAAAAAAAGPGSPGAAAVVKGLAGPAASYGPYTRVQSMALPPGVVNSYNGLGGPPAAPPPPPHPHPHPHAHHLHAAAAPPPAPPHHGAAAPPPGQLSPASPATAAPPAPAPTSAPGLQFACARQPELAMMHCSYWDHDSKTGALHSRLDL",
+        "n_residues": 376,
+        "mutation_pos_1indexed": 98,
+        "wt_aa": "W",
+        "mut_aa": "R",
+        "pocket_lining_residues": "Y91-K93-N94-K95-K96-G97-W98-Q99-N100-S101",
+        "pocket_lining_positions_precursor": [
+          91,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ],
+        "pocket_lining_1letter": "YKNKKGWQNS",
+        "sequence_slice_around_pocket": "FPFYEKNKKGWQNSIRHNLS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_W98R/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "Y91",
+          "K93",
+          "N94",
+          "K95",
+          "K96",
+          "G97",
+          "W98",
+          "Q99",
+          "N100",
+          "S101"
+        ],
+        "values": [
+          [
+            0.0,
+            5.316,
+            7.021,
+            6.927,
+            10.183,
+            9.589,
+            7.469,
+            9.227,
+            12.367,
+            11.82
+          ],
+          [
+            5.316,
+            0.0,
+            3.861,
+            5.853,
+            9.014,
+            9.303,
+            9.324,
+            10.904,
+            13.526,
+            14.138
+          ],
+          [
+            7.021,
+            3.861,
+            0.0,
+            3.894,
+            5.689,
+            5.904,
+            7.163,
+            8.751,
+            10.593,
+            11.71
+          ],
+          [
+            6.927,
+            5.853,
+            3.894,
+            0.0,
+            3.868,
+            5.723,
+            5.981,
+            5.838,
+            8.463,
+            10.134
+          ],
+          [
+            10.183,
+            9.014,
+            5.689,
+            3.868,
+            0.0,
+            3.853,
+            5.964,
+            5.335,
+            6.117,
+            8.78
+          ],
+          [
+            9.589,
+            9.303,
+            5.904,
+            5.723,
+            3.853,
+            0.0,
+            3.81,
+            5.6,
+            5.47,
+            6.647
+          ],
+          [
+            7.469,
+            9.324,
+            7.163,
+            5.981,
+            5.964,
+            3.81,
+            0.0,
+            3.862,
+            5.328,
+            4.819
+          ],
+          [
+            9.227,
+            10.904,
+            8.751,
+            5.838,
+            5.335,
+            5.6,
+            3.862,
+            0.0,
+            3.824,
+            5.265
+          ],
+          [
+            12.367,
+            13.526,
+            10.593,
+            8.463,
+            6.117,
+            5.47,
+            5.328,
+            3.824,
+            0.0,
+            3.814
+          ],
+          [
+            11.82,
+            14.138,
+            11.71,
+            10.134,
+            8.78,
+            6.647,
+            4.819,
+            5.265,
+            3.814,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.567304337067391,
+        "mw": 317.21,
+        "logp": 2.135,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9218,
+        "sa_score": 3.11,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FOXL2-W98R Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5673,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_W98R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_W98R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_W98R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_W98R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXL2_W98R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXL2-W98R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXL2-W98R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:15:59.137393+00:00"
     }
   ]
 }
