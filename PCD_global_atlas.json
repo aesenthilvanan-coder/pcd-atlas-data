@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2315,
+  "total_entries": 2316,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47052,
-    "queue_remaining": 131545
+    "total_processed": 47053,
+    "queue_remaining": 131544
   },
   "entries": [
     {
@@ -535481,6 +535481,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:32:16.819570+00:00"
+    },
+    {
+      "entry_id": "PCD-FOXP3-M370V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXP3-M370V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FOXP3",
+        "uniprot": "",
+        "clinvar_id": "373204",
+        "disease": "not provided",
+        "mutation_precursor": "M370V",
+        "mutation_mature": "M370V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8131074386471144,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 432.91155668808625,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.8548179864883423,
+          0.2005811333656311,
+          -7.982243537902832
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.9868771140328683,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8525961144732517,
+        "cryptic": true,
+        "pocket_residues": {
+          "D329": "D",
+          "F331": "F",
+          "K332": "K",
+          "F333": "F",
+          "W366": "W",
+          "F367": "F",
+          "T368": "T",
+          "R369": "R",
+          "M370": "M",
+          "F371": "F",
+          "A372": "A"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9BZS1|FOXP3 variant M370V",
+        "fasta_sequence": "MPNPRPGKPSAPSLALGPSPGASPSWRAAPKASDLLGARGPGGTFQGRDLRGGAHASSSSLNPMPPSQLQLPTLPLVMVAPSGARLGPLPHLQALLQDRPHFMHQLSTVDAHARTPVLQVHPLESPAMISLTPPTTATGVFSLKARPGLPPGINVASLEWVSREPALLCTFPNPSAPRKDSTLSAVPQSSYPLLANGVCKWPGCEKVFEEPEDFLKHCQADHLLDEKGRAQCLLQREMVQSLEQQLVLEKEKLSAMQAHLAGKMALTKASSVASSDKGSCCIVAAGSQGPVVPAWSGPREAPDSLFAVRRHLWGSHGNSTFPEFLHNMDYFKFHNMRPPFTYATLIRWAILEAPEKQRTLNEIYHWFTRMFAFFRNHPATWKNAIRHNLSLHKCFVRVESEKGAVWTVDELEFRKKRSQRPSRCSNPTPGP",
+        "full_sequence": "MPNPRPGKPSAPSLALGPSPGASPSWRAAPKASDLLGARGPGGTFQGRDLRGGAHASSSSLNPMPPSQLQLPTLPLVMVAPSGARLGPLPHLQALLQDRPHFMHQLSTVDAHARTPVLQVHPLESPAMISLTPPTTATGVFSLKARPGLPPGINVASLEWVSREPALLCTFPNPSAPRKDSTLSAVPQSSYPLLANGVCKWPGCEKVFEEPEDFLKHCQADHLLDEKGRAQCLLQREMVQSLEQQLVLEKEKLSAMQAHLAGKMALTKASSVASSDKGSCCIVAAGSQGPVVPAWSGPREAPDSLFAVRRHLWGSHGNSTFPEFLHNMDYFKFHNMRPPFTYATLIRWAILEAPEKQRTLNEIYHWFTRMFAFFRNHPATWKNAIRHNLSLHKCFVRVESEKGAVWTVDELEFRKKRSQRPSRCSNPTPGP",
+        "n_residues": 431,
+        "mutation_pos_1indexed": 370,
+        "wt_aa": "M",
+        "mut_aa": "V",
+        "pocket_lining_residues": "D329-F331-K332-F333-W366-F367-T368-R369-M370-F371-A372",
+        "pocket_lining_positions_precursor": [
+          329,
+          331,
+          332,
+          333,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372
+        ],
+        "pocket_lining_1letter": "DFKFWFTRMFA",
+        "sequence_slice_around_pocket": "LNEIYHWFTRMFAFFRNHPA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FOXP3_M370V/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "D329",
+          "F331",
+          "K332",
+          "F333",
+          "W366",
+          "F367",
+          "T368",
+          "R369",
+          "M370",
+          "F371",
+          "A372"
+        ],
+        "values": [
+          [
+            0.0,
+            5.554,
+            4.964,
+            6.749,
+            13.505,
+            12.947,
+            12.752,
+            10.395,
+            7.887,
+            8.598,
+            10.05
+          ],
+          [
+            5.554,
+            0.0,
+            3.866,
+            5.559,
+            12.731,
+            10.626,
+            10.568,
+            9.954,
+            6.974,
+            5.159,
+            6.523
+          ],
+          [
+            4.964,
+            3.866,
+            0.0,
+            3.841,
+            10.891,
+            9.534,
+            8.482,
+            7.003,
+            5.063,
+            4.368,
+            5.154
+          ],
+          [
+            6.749,
+            5.559,
+            3.841,
+            0.0,
+            14.221,
+            12.627,
+            10.773,
+            9.753,
+            8.698,
+            7.077,
+            5.542
+          ],
+          [
+            13.505,
+            12.731,
+            10.891,
+            14.221,
+            0.0,
+            3.851,
+            5.603,
+            5.143,
+            5.974,
+            8.491,
+            11.087
+          ],
+          [
+            12.947,
+            10.626,
+            9.534,
+            12.627,
+            3.851,
+            0.0,
+            3.872,
+            5.55,
+            5.209,
+            5.927,
+            8.573
+          ],
+          [
+            12.752,
+            10.568,
+            8.482,
+            10.773,
+            5.603,
+            3.872,
+            0.0,
+            3.836,
+            5.532,
+            5.499,
+            6.416
+          ],
+          [
+            10.395,
+            9.954,
+            7.003,
+            9.753,
+            5.143,
+            5.55,
+            3.836,
+            0.0,
+            3.807,
+            5.939,
+            7.372
+          ],
+          [
+            7.887,
+            6.974,
+            5.063,
+            8.698,
+            5.974,
+            5.209,
+            5.532,
+            3.807,
+            0.0,
+            3.806,
+            6.886
+          ],
+          [
+            8.598,
+            5.159,
+            4.368,
+            7.077,
+            8.491,
+            5.927,
+            5.499,
+            5.939,
+            3.806,
+            0.0,
+            3.832
+          ],
+          [
+            10.05,
+            6.523,
+            5.154,
+            5.542,
+            11.087,
+            8.573,
+            6.416,
+            7.372,
+            6.886,
+            3.832,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "composite_score": 0.838462770827322,
+        "mw": 260.15,
+        "logp": 1.904,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7992,
+        "sa_score": 2.9,
+        "n_heavy_atoms": 19,
+        "tpsa": 54.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FOXP3-M370V Candidate #1",
+        "iupac_name": "CNCC(CC(=O)Cc1c[nH]c2ccccc12)OC",
+        "pocket_affinity_score": 0.8385,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FOXP3_M370V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FOXP3_M370V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FOXP3_M370V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXP3_M370V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXP3_M370V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXP3-M370V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXP3-M370V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:32:43.245932+00:00"
     }
   ]
 }
