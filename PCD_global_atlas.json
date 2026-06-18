@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1667,
+  "total_entries": 1668,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46330,
-    "queue_remaining": 132267
+    "total_processed": 46331,
+    "queue_remaining": 132266
   },
   "entries": [
     {
@@ -369382,6 +369382,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:30:43.495892+00:00"
+    },
+    {
+      "entry_id": "PCD-ALAS2-R218C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALAS2-R218C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ALAS2",
+        "uniprot": "",
+        "clinvar_id": "368599",
+        "disease": "X-linked sideroblastic anemia 1",
+        "mutation_precursor": "R218C",
+        "mutation_mature": "R218C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8020375257387087,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 335.7820762183995,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          2.907413959503174,
+          -26.65946388244629,
+          4.793376922607422
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.173651444670929,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.690838082084614,
+        "cryptic": true,
+        "pocket_residues": {
+          "A211": "A",
+          "E214": "E",
+          "T215": "T",
+          "R218": "R"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P22557|ALAS2 variant R218C",
+        "fasta_sequence": "MVTAAMLLQCCPVLARGPTSLLGKVVKTHQFLFGIGRCPILATQGPNCSQIHLKATKAGGDSPSWAKGHCPFMLSELQDGKSKIVQKAAPEVQEDVKAFKTDLPSSLVSVSLRKPFSGPQEQEQISGKVTHLIQNNMPGNYVFSYDQFFRDKIMEKKQDHTYRVFKTVNRWADAYPFAQHFSEASVASKDVSVWCSNDYLGMSRHPQVLQATQETLQRHGAGAGGTRNISGTSKFHVELEQELAELHQKDSALLFSSCFVANDSTLFTLAKILPGCEIYSDAGNHASMIQGIRNSGAAKFVFRHNDPDHLKKLLEKSNPKIPKIVAFETVHSMDGAICPLEELCDVSHQYGALTFVDEVHAVGLYGSRGAGIGERDGIMHKIDIISGTLGKAFGCVGGYIASTRDLVDMVRSYAAGFIFTTSLPPMVLSGALESVRLLKGEEGQALRRAHQRNVKHMRQLLMDRGLPVIPCPSHIIPIRVGNAALNSKLCDLLLSKHGIYVQAINYPTVPRGEELLRLAPSPHHSPQMMEDFVEKLLLAWTAVGLPLQDVSVAACNFCRRPVHFELMSEWERSYFGNMGPQYVTTYA",
+        "full_sequence": "MVTAAMLLQCCPVLARGPTSLLGKVVKTHQFLFGIGRCPILATQGPNCSQIHLKATKAGGDSPSWAKGHCPFMLSELQDGKSKIVQKAAPEVQEDVKAFKTDLPSSLVSVSLRKPFSGPQEQEQISGKVTHLIQNNMPGNYVFSYDQFFRDKIMEKKQDHTYRVFKTVNRWADAYPFAQHFSEASVASKDVSVWCSNDYLGMSRHPQVLQATQETLQRHGAGAGGTRNISGTSKFHVELEQELAELHQKDSALLFSSCFVANDSTLFTLAKILPGCEIYSDAGNHASMIQGIRNSGAAKFVFRHNDPDHLKKLLEKSNPKIPKIVAFETVHSMDGAICPLEELCDVSHQYGALTFVDEVHAVGLYGSRGAGIGERDGIMHKIDIISGTLGKAFGCVGGYIASTRDLVDMVRSYAAGFIFTTSLPPMVLSGALESVRLLKGEEGQALRRAHQRNVKHMRQLLMDRGLPVIPCPSHIIPIRVGNAALNSKLCDLLLSKHGIYVQAINYPTVPRGEELLRLAPSPHHSPQMMEDFVEKLLLAWTAVGLPLQDVSVAACNFCRRPVHFELMSEWERSYFGNMGPQYVTTYA",
+        "n_residues": 587,
+        "mutation_pos_1indexed": 218,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "A211-E214-T215-R218",
+        "pocket_lining_positions_precursor": [
+          211,
+          214,
+          215,
+          218
+        ],
+        "pocket_lining_1letter": "AETR",
+        "sequence_slice_around_pocket": "VLQATQETLQRHGAGAGGTR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ALAS2_R218C/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A211",
+          "E214",
+          "T215",
+          "R218"
+        ],
+        "values": [
+          [
+            0.0,
+            5.326,
+            6.257,
+            10.775
+          ],
+          [
+            5.326,
+            0.0,
+            3.828,
+            6.23
+          ],
+          [
+            6.257,
+            3.828,
+            0.0,
+            5.082
+          ],
+          [
+            10.775,
+            6.23,
+            5.082,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CCN)cc1N1CCCCC1",
+        "composite_score": 0.7372400915805741,
+        "mw": 234.17,
+        "logp": 2.187,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.8676,
+        "sa_score": 1.86,
+        "n_heavy_atoms": 17,
+        "tpsa": 38.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ALAS2-R218C Candidate #1",
+        "iupac_name": "COc1ccc(CCN)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7372,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ALAS2_R218C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ALAS2_R218C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ALAS2_R218C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALAS2_R218C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALAS2_R218C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALAS2-R218C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALAS2-R218C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:31:26.300909+00:00"
     }
   ]
 }
