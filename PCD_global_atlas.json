@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2472,
+  "total_entries": 2473,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47236,
-    "queue_remaining": 131361
+    "total_processed": 47237,
+    "queue_remaining": 131360
   },
   "entries": [
     {
@@ -578507,6 +578507,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:59:22.225020+00:00"
+    },
+    {
+      "entry_id": "PCD-NIPA2-N244S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NIPA2-N244S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NIPA2",
+        "uniprot": "",
+        "clinvar_id": "374448",
+        "disease": "not provided",
+        "mutation_precursor": "N244S",
+        "mutation_mature": "N244S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7294058840809063,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 387.3864819656192,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -18.54094696044922,
+          -1.3827121257781982,
+          12.182732582092285
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.695627203060627,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6759916552203122,
+        "cryptic": true,
+        "pocket_residues": {
+          "F243": "F",
+          "N244": "N",
+          "T245": "T",
+          "S246": "S",
+          "I247": "I"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8N8Q9|NIPA2 variant N244S",
+        "fasta_sequence": "MSQGRGKYDFYIGLGLAMSSSIFIGGSFILKKKGLLRLARKGSMRAGQGGHAYLKEWLWWAGLLSMGAGEVANFAAYAFAPATLVTPLGALSVLVSAILSSYFLNERLNLHGKIGCLLSILGSTVMVIHAPKEEEIETLNEMSHKLGDPGFVVFATLVVIVALILIFVVGPRHGQTNILVYITICSVIGAFSVSCVKGLGIAIKELFAGKPVLRHPLAWILLLSLIVCVSTQINYLNRALDIFNTSIVTPIYYVFFTTSVLTCSAILFKEWQDMPVDDVIGTLSGFFTIIVGIFLLHAFKDVSFSLASLPVSFRKDEKAMNGNLSNMYEVLNNNEESLTCGIEQHTGENVSRRNGNLTAF",
+        "full_sequence": "MSQGRGKYDFYIGLGLAMSSSIFIGGSFILKKKGLLRLARKGSMRAGQGGHAYLKEWLWWAGLLSMGAGEVANFAAYAFAPATLVTPLGALSVLVSAILSSYFLNERLNLHGKIGCLLSILGSTVMVIHAPKEEEIETLNEMSHKLGDPGFVVFATLVVIVALILIFVVGPRHGQTNILVYITICSVIGAFSVSCVKGLGIAIKELFAGKPVLRHPLAWILLLSLIVCVSTQINYLNRALDIFNTSIVTPIYYVFFTTSVLTCSAILFKEWQDMPVDDVIGTLSGFFTIIVGIFLLHAFKDVSFSLASLPVSFRKDEKAMNGNLSNMYEVLNNNEESLTCGIEQHTGENVSRRNGNLTAF",
+        "n_residues": 360,
+        "mutation_pos_1indexed": 244,
+        "wt_aa": "N",
+        "mut_aa": "S",
+        "pocket_lining_residues": "F243-N244-T245-S246-I247",
+        "pocket_lining_positions_precursor": [
+          243,
+          244,
+          245,
+          246,
+          247
+        ],
+        "pocket_lining_1letter": "FNTSI",
+        "sequence_slice_around_pocket": "NYLNRALDIFNTSIVTPIYY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NIPA2_N244S/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "F243",
+          "N244",
+          "T245",
+          "S246",
+          "I247"
+        ],
+        "values": [
+          [
+            0.0,
+            3.818,
+            6.389,
+            8.694,
+            7.347
+          ],
+          [
+            3.818,
+            0.0,
+            3.865,
+            5.458,
+            5.551
+          ],
+          [
+            6.389,
+            3.865,
+            0.0,
+            3.872,
+            5.329
+          ],
+          [
+            8.694,
+            5.458,
+            3.872,
+            0.0,
+            3.866
+          ],
+          [
+            7.347,
+            5.551,
+            5.329,
+            3.866,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.5309224921286736,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NIPA2-N244S Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5309,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NIPA2_N244S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NIPA2_N244S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NIPA2_N244S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NIPA2_N244S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NIPA2_N244S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NIPA2-N244S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NIPA2-N244S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:59:50.239577+00:00"
     }
   ]
 }
