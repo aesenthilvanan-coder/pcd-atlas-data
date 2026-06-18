@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2031,
+  "total_entries": 2032,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46737,
-    "queue_remaining": 131860
+    "total_processed": 46738,
+    "queue_remaining": 131859
   },
   "entries": [
     {
@@ -463669,6 +463669,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:47:42.198894+00:00"
+    },
+    {
+      "entry_id": "PCD-PRKAG2-S130Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRKAG2-S130Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PRKAG2",
+        "uniprot": "",
+        "clinvar_id": "373795",
+        "disease": "not specified",
+        "mutation_precursor": "S130Y",
+        "mutation_mature": "S130Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9183715764770803,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 295.08821572134,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.981814384460449,
+          47.99925231933594,
+          -39.73260498046875
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.990016769482819,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8264197579489128,
+        "cryptic": true,
+        "pocket_residues": {
+          "R128": "R",
+          "S129": "S",
+          "S130": "S"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UGJ0|PRKAG2 variant S130Y",
+        "fasta_sequence": "MGSAVMDTKKKKDVSSPGGSGGKKNASQKRRSLRVHIPDLSSFAMPLLDGDLEGSGKHSSRKVDSPFGPGSPSKGFFSRGPQPRPSSPMSAPVRPKTSPGSPKTVFPFSYQESPPRSPRRMSFSGIFRSSSKESSPNSNPATSPGGIRFFSRSRKTSGLSSSPSTPTQVTKQHTFPLESYKHEPERLENRIYASSSPPDTGQRFCPSSFQSPTRPPLASPTHYAPSKAAALAAALGPAEAGMLEKLEFEDEAVEDSESGVYMRFMRSHKCYDIVPTSSKLVVFDTTLQVKKAFFALVANGVRAAPLWESKKQSFVGMLTITDFINILHRYYKSPMVQIYELEEHKIETWRELYLQETFKPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPKPAFMKQNLDELGIGTYHNIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNLDITVTQALQHRSQYFEGVVKCNKLEILETIVDRIVRAEVHRLVVVNEADSIVGIISLSDILQALILTPAGAKQKETETE",
+        "full_sequence": "MGSAVMDTKKKKDVSSPGGSGGKKNASQKRRSLRVHIPDLSSFAMPLLDGDLEGSGKHSSRKVDSPFGPGSPSKGFFSRGPQPRPSSPMSAPVRPKTSPGSPKTVFPFSYQESPPRSPRRMSFSGIFRSSSKESSPNSNPATSPGGIRFFSRSRKTSGLSSSPSTPTQVTKQHTFPLESYKHEPERLENRIYASSSPPDTGQRFCPSSFQSPTRPPLASPTHYAPSKAAALAAALGPAEAGMLEKLEFEDEAVEDSESGVYMRFMRSHKCYDIVPTSSKLVVFDTTLQVKKAFFALVANGVRAAPLWESKKQSFVGMLTITDFINILHRYYKSPMVQIYELEEHKIETWRELYLQETFKPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPKPAFMKQNLDELGIGTYHNIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNLDITVTQALQHRSQYFEGVVKCNKLEILETIVDRIVRAEVHRLVVVNEADSIVGIISLSDILQALILTPAGAKQKETETE",
+        "n_residues": 569,
+        "mutation_pos_1indexed": 130,
+        "wt_aa": "S",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "R128-S129-S130",
+        "pocket_lining_positions_precursor": [
+          128,
+          129,
+          130
+        ],
+        "pocket_lining_1letter": "RSS",
+        "sequence_slice_around_pocket": "RMSFSGIFRSSSKESSPNSN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PRKAG2_S130Y/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "R128",
+          "S129",
+          "S130"
+        ],
+        "values": [
+          [
+            0.0,
+            3.821,
+            6.728
+          ],
+          [
+            3.821,
+            0.0,
+            3.83
+          ],
+          [
+            6.728,
+            3.83,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1CCCCC1",
+        "composite_score": 0.5743940018835326,
+        "mw": 206.14,
+        "logp": 1.841,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 2,
+        "qed": 0.7759,
+        "sa_score": 2.05,
+        "n_heavy_atoms": 15,
+        "tpsa": 49.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PRKAG2-S130Y Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5744,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PRKAG2_S130Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PRKAG2_S130Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PRKAG2_S130Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PRKAG2_S130Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PRKAG2_S130Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRKAG2-S130Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PRKAG2-S130Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:48:08.756119+00:00"
     }
   ]
 }
