@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1473,
+  "total_entries": 1474,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46119,
-    "queue_remaining": 132478
+    "total_processed": 46120,
+    "queue_remaining": 132477
   },
   "entries": [
     {
@@ -326235,6 +326235,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:10:46.415871+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC5A1-T519M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A1-T519M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC5A1",
+        "uniprot": "",
+        "clinvar_id": "341256",
+        "disease": "Congenital glucose-galactose malabsorption",
+        "mutation_precursor": "T519M",
+        "mutation_mature": "T519M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8179362886825378,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 429.8111177035743,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -17.598047256469727,
+          -5.387286186218262,
+          -30.443164825439453
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.101787701652408,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6045985013028465,
+        "cryptic": true,
+        "pocket_residues": {
+          "P518": "P",
+          "T519": "T",
+          "I520": "I",
+          "G523": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P13866|SLC5A1 variant T519M",
+        "fasta_sequence": "MDSSTWSPKTTAVTRPVETHELIRNAADISIIVIYFVVVMAVGLWAMFSTNRGTVGGFFLAGRSMVWWPIGASLFASNIGSGHFVGLAGTGAASGIAIGGFEWNALVLVVVLGWLFVPIYIKAGVVTMPEYLRKRFGGQRIQVYLSLLSLLLYIFTKISADIFSGAIFINLALGLNLYLAIFLLLAITALYTITGGLAAVIYTDTLQTVIMLVGSLILTGFAFHEVGGYDAFMEKYMKAIPTIVSDGNTTFQEKCYTPRADSFHIFRDPLTGDLPWPGFIFGMSILTLWYWCTDQVIVQRCLSAKNMSHVKGGCILCGYLKLMPMFIMVMPGMISRILYTEKIACVVPSECEKYCGTKVGCTNIAYPTLVVELMPNGLRGLMLSVMLASLMSSLTSIFNSASTLFTMDIYAKVRKRASEKELMIAGRLFILVLIGISIAWVPIVQSAQSGQLFDYIQSITSYLGPPIAAVFLLAIFWKRVNEPGAFWGLILGLLIGISRMITEFAYGTGSCMEPSNCPTIICGVHYLYFAIILFAISFITIVVISLLTKPIPDVHLYRLCWSLRNSKEERIDLDAEEENIQEGPKETIEIETQVPEKKKGIFRRAYDLFCGLEQHGAPKMTEEEEKAMKMKMTDTSEKPLWRTVLNVNGIILVTVAVFCHAYFA",
+        "full_sequence": "MDSSTWSPKTTAVTRPVETHELIRNAADISIIVIYFVVVMAVGLWAMFSTNRGTVGGFFLAGRSMVWWPIGASLFASNIGSGHFVGLAGTGAASGIAIGGFEWNALVLVVVLGWLFVPIYIKAGVVTMPEYLRKRFGGQRIQVYLSLLSLLLYIFTKISADIFSGAIFINLALGLNLYLAIFLLLAITALYTITGGLAAVIYTDTLQTVIMLVGSLILTGFAFHEVGGYDAFMEKYMKAIPTIVSDGNTTFQEKCYTPRADSFHIFRDPLTGDLPWPGFIFGMSILTLWYWCTDQVIVQRCLSAKNMSHVKGGCILCGYLKLMPMFIMVMPGMISRILYTEKIACVVPSECEKYCGTKVGCTNIAYPTLVVELMPNGLRGLMLSVMLASLMSSLTSIFNSASTLFTMDIYAKVRKRASEKELMIAGRLFILVLIGISIAWVPIVQSAQSGQLFDYIQSITSYLGPPIAAVFLLAIFWKRVNEPGAFWGLILGLLIGISRMITEFAYGTGSCMEPSNCPTIICGVHYLYFAIILFAISFITIVVISLLTKPIPDVHLYRLCWSLRNSKEERIDLDAEEENIQEGPKETIEIETQVPEKKKGIFRRAYDLFCGLEQHGAPKMTEEEEKAMKMKMTDTSEKPLWRTVLNVNGIILVTVAVFCHAYFA",
+        "n_residues": 664,
+        "mutation_pos_1indexed": 519,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "P518-T519-I520-G523",
+        "pocket_lining_positions_precursor": [
+          518,
+          519,
+          520,
+          523
+        ],
+        "pocket_lining_1letter": "PTIG",
+        "sequence_slice_around_pocket": "GSCMEPSNCPTIICGVHYLY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_T519M/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "P518",
+          "T519",
+          "I520",
+          "G523"
+        ],
+        "values": [
+          [
+            0.0,
+            3.854,
+            5.427,
+            7.265
+          ],
+          [
+            3.854,
+            0.0,
+            3.853,
+            4.198
+          ],
+          [
+            5.427,
+            3.853,
+            0.0,
+            5.769
+          ],
+          [
+            7.265,
+            4.198,
+            5.769,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccc(F)cc1CNC(=O)c1ccc(F)cc1",
+        "composite_score": 0.5606117121865001,
+        "mw": 290.09,
+        "logp": 1.994,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.9036,
+        "sa_score": 1.79,
+        "n_heavy_atoms": 21,
+        "tpsa": 72.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC5A1-T519M Candidate #1",
+        "iupac_name": "NC(=O)c1ccc(F)cc1CNC(=O)c1ccc(F)cc1",
+        "pocket_affinity_score": 0.5606,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_T519M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_T519M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_T519M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_T519M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_T519M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A1-T519M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A1-T519M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:11:14.558157+00:00"
     }
   ]
 }
