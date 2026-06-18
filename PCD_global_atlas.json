@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1802,
+  "total_entries": 1803,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46478,
-    "queue_remaining": 132119
+    "total_processed": 46479,
+    "queue_remaining": 132118
   },
   "entries": [
     {
@@ -404039,6 +404039,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:03:31.401019+00:00"
+    },
+    {
+      "entry_id": "PCD-FAH-M1K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FAH-M1K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FAH",
+        "uniprot": "",
+        "clinvar_id": "371005",
+        "disease": "Tyrosinemia type I",
+        "mutation_precursor": "M1K",
+        "mutation_mature": "M1K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9042071710672042,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 365.1284743102303,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -7.600203990936279,
+          21.038410186767578,
+          17.2655029296875
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.769807847156904,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6036126541810799,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "E8": "E",
+          "P13": "P",
+          "D399": "D",
+          "G400": "G",
+          "Y401": "Y"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P16930|FAH variant M1K",
+        "fasta_sequence": "MSFIPVAEDSDFPIHNLPYGVFSTRGDPRPRIGVAIGDQILDLSIIKHLFTGPVLSKHQDVFNQPTLNSFMGLGQAAWKEARVFLQNLLSVSQARLRDDTELRKCAFISQASATMHLPATIGDYTDFYSSRQHATNVGIMFRDKENALMPNWLHLPVGYHGRASSVVVSGTPIRRPMGQMKPDDSKPPVYGACKLLDMELEMAFFVGPGNRLGEPIPISKAHEHIFGMVLMNDWSARDIQKWEYVPLGPFLGKSFGTTVSPWVVPMDALMPFAVPNPKQDPRPLPYLCHDEPYTFDINLSVNLKGEGMSQAATICKSNFKYMYWTMLQQLTHHSVNGCNLRPGDLLASGTISGPEPENFGSMLELSWKGTKPIDLGNGQTRKFLLDGDEVIITGYCQGDGYRIGFGQCAGKVLPALLPS",
+        "full_sequence": "MSFIPVAEDSDFPIHNLPYGVFSTRGDPRPRIGVAIGDQILDLSIIKHLFTGPVLSKHQDVFNQPTLNSFMGLGQAAWKEARVFLQNLLSVSQARLRDDTELRKCAFISQASATMHLPATIGDYTDFYSSRQHATNVGIMFRDKENALMPNWLHLPVGYHGRASSVVVSGTPIRRPMGQMKPDDSKPPVYGACKLLDMELEMAFFVGPGNRLGEPIPISKAHEHIFGMVLMNDWSARDIQKWEYVPLGPFLGKSFGTTVSPWVVPMDALMPFAVPNPKQDPRPLPYLCHDEPYTFDINLSVNLKGEGMSQAATICKSNFKYMYWTMLQQLTHHSVNGCNLRPGDLLASGTISGPEPENFGSMLELSWKGTKPIDLGNGQTRKFLLDGDEVIITGYCQGDGYRIGFGQCAGKVLPALLPS",
+        "n_residues": 419,
+        "mutation_pos_1indexed": 1,
+        "wt_aa": "M",
+        "mut_aa": "K",
+        "pocket_lining_residues": "M1-E8-P13-D399-G400-Y401",
+        "pocket_lining_positions_precursor": [
+          1,
+          8,
+          13,
+          399,
+          400,
+          401
+        ],
+        "pocket_lining_1letter": "MEPDGY",
+        "sequence_slice_around_pocket": "MSFIPVAEDS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FAH_M1K/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "M1",
+          "E8",
+          "P13",
+          "D399",
+          "G400",
+          "Y401"
+        ],
+        "values": [
+          [
+            0.0,
+            10.852,
+            8.054,
+            13.072,
+            11.093,
+            10.416
+          ],
+          [
+            10.852,
+            0.0,
+            8.014,
+            9.708,
+            6.119,
+            5.405
+          ],
+          [
+            8.054,
+            8.014,
+            0.0,
+            11.939,
+            10.067,
+            6.831
+          ],
+          [
+            13.072,
+            9.708,
+            11.939,
+            0.0,
+            3.865,
+            5.666
+          ],
+          [
+            11.093,
+            6.119,
+            10.067,
+            3.865,
+            0.0,
+            3.872
+          ],
+          [
+            10.416,
+            5.405,
+            6.831,
+            5.666,
+            3.872,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.7855932738580882,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FAH-M1K Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7856,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FAH_M1K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FAH_M1K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FAH_M1K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FAH_M1K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FAH_M1K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FAH-M1K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FAH-M1K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:03:57.027707+00:00"
     }
   ]
 }
