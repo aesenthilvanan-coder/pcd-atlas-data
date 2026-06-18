@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1661,
+  "total_entries": 1662,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46322,
-    "queue_remaining": 132275
+    "total_processed": 46323,
+    "queue_remaining": 132274
   },
   "entries": [
     {
@@ -367909,6 +367909,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:26:26.309959+00:00"
+    },
+    {
+      "entry_id": "PCD-ALG12-R120Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG12-R120Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ALG12",
+        "uniprot": "",
+        "clinvar_id": "342057",
+        "disease": "ALG12-congenital disorder of glycosylation",
+        "mutation_precursor": "R120Q",
+        "mutation_mature": "R120Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7205385646916301,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 483.3814052832947,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -14.978310585021973,
+          -13.681400299072266,
+          23.122936248779297
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.700218376743697,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6134070305417917,
+        "cryptic": true,
+        "pocket_residues": {
+          "K116": "K",
+          "E117": "E",
+          "V118": "V",
+          "R119": "R",
+          "R120": "R",
+          "H121": "H",
+          "F122": "F",
+          "G123": "G",
+          "A124": "A",
+          "R166": "R"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9BV10|ALG12 variant R120Q",
+        "fasta_sequence": "MAGKGSSGRRPLLLGLLVAVATVHLVICPYTKVEESFNLQATHDLLYHWQDLEQYDHLEFPGVVPRTFLGPVVIAVFSSPAVYVLSLLEMSKFYSQLIVRGVLGLGVIFGLWTLQKEVRRHFGAMVATMFCWVTAMQFHLMFYCTRTLPNVLALPVVLLALAAWLRHEWARFIWLSAFAIIVFRVELCLFLGLLLLLALGNRKVSVVRALRHAVPAGILCLGLTVAVDSYFWRQLTWPEGKVLWYNTVLNKSSNWGTSPLLWYFYSALPRGLGCSLLFIPLGLVDRRTHAPTVLALGFMALYSLLPHKELRFIIYAFPMLNITAARGCSYLLNNYKKSWLYKAGSLLVIGHLVVNAAYSATALYVSHFNYPGGVAMQRLHQLVPPQTDVLLHIDVAAAQTGVSRFLQVNSAWRYDKREDVQPGTGMLAYTHILMEAAPGLLALYRDTHRVLASVVGTTGVSLNLTQLPPFNVHLQTKLVLLERLPRPS",
+        "full_sequence": "MAGKGSSGRRPLLLGLLVAVATVHLVICPYTKVEESFNLQATHDLLYHWQDLEQYDHLEFPGVVPRTFLGPVVIAVFSSPAVYVLSLLEMSKFYSQLIVRGVLGLGVIFGLWTLQKEVRRHFGAMVATMFCWVTAMQFHLMFYCTRTLPNVLALPVVLLALAAWLRHEWARFIWLSAFAIIVFRVELCLFLGLLLLLALGNRKVSVVRALRHAVPAGILCLGLTVAVDSYFWRQLTWPEGKVLWYNTVLNKSSNWGTSPLLWYFYSALPRGLGCSLLFIPLGLVDRRTHAPTVLALGFMALYSLLPHKELRFIIYAFPMLNITAARGCSYLLNNYKKSWLYKAGSLLVIGHLVVNAAYSATALYVSHFNYPGGVAMQRLHQLVPPQTDVLLHIDVAAAQTGVSRFLQVNSAWRYDKREDVQPGTGMLAYTHILMEAAPGLLALYRDTHRVLASVVGTTGVSLNLTQLPPFNVHLQTKLVLLERLPRPS",
+        "n_residues": 488,
+        "mutation_pos_1indexed": 120,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "K116-E117-V118-R119-R120-H121-F122-G123-A124-R166",
+        "pocket_lining_positions_precursor": [
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          166
+        ],
+        "pocket_lining_1letter": "KEVRRHFGAR",
+        "sequence_slice_around_pocket": "GLWTLQKEVRRHFGAMVATM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ALG12_R120Q/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "K116",
+          "E117",
+          "V118",
+          "R119",
+          "R120",
+          "H121",
+          "F122",
+          "G123",
+          "A124",
+          "R166"
+        ],
+        "values": [
+          [
+            0.0,
+            3.841,
+            5.499,
+            5.099,
+            6.292,
+            8.815,
+            9.979,
+            9.537,
+            9.146,
+            10.303
+          ],
+          [
+            3.841,
+            0.0,
+            3.838,
+            5.254,
+            4.889,
+            6.073,
+            8.182,
+            9.135,
+            10.233,
+            7.2
+          ],
+          [
+            5.499,
+            3.838,
+            0.0,
+            3.835,
+            5.548,
+            5.351,
+            5.515,
+            6.911,
+            8.078,
+            10.202
+          ],
+          [
+            5.099,
+            5.254,
+            3.835,
+            0.0,
+            3.844,
+            5.661,
+            5.462,
+            4.457,
+            5.004,
+            11.851
+          ],
+          [
+            6.292,
+            4.889,
+            5.548,
+            3.844,
+            0.0,
+            3.836,
+            6.045,
+            5.861,
+            7.843,
+            9.402
+          ],
+          [
+            8.815,
+            6.073,
+            5.351,
+            5.661,
+            3.836,
+            0.0,
+            3.864,
+            6.08,
+            9.241,
+            9.279
+          ],
+          [
+            9.979,
+            8.182,
+            5.515,
+            5.462,
+            6.045,
+            3.864,
+            0.0,
+            3.856,
+            7.15,
+            12.825
+          ],
+          [
+            9.537,
+            9.135,
+            6.911,
+            4.457,
+            5.861,
+            6.08,
+            3.856,
+            0.0,
+            3.821,
+            14.695
+          ],
+          [
+            9.146,
+            10.233,
+            8.078,
+            5.004,
+            7.843,
+            9.241,
+            7.15,
+            3.821,
+            0.0,
+            16.761
+          ],
+          [
+            10.303,
+            7.2,
+            10.202,
+            11.851,
+            9.402,
+            9.279,
+            12.825,
+            14.695,
+            16.761,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1CC(=O)CCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.7673059791669969,
+        "mw": 365.19,
+        "logp": 2.377,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.553,
+        "sa_score": 3.26,
+        "n_heavy_atoms": 27,
+        "tpsa": 107.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ALG12-R120Q Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1CC(=O)CCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.7673,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ALG12_R120Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ALG12_R120Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ALG12_R120Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALG12_R120Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ALG12_R120Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG12-R120Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ALG12-R120Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:26:52.561910+00:00"
     }
   ]
 }
