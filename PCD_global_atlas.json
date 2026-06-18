@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2282,
+  "total_entries": 2283,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47017,
-    "queue_remaining": 131580
+    "total_processed": 47018,
+    "queue_remaining": 131579
   },
   "entries": [
     {
@@ -527345,6 +527345,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:06:12.445138+00:00"
+    },
+    {
+      "entry_id": "PCD-ABCD1-R163H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABCD1-R163H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ABCD1",
+        "uniprot": "",
+        "clinvar_id": "372736",
+        "disease": "not provided",
+        "mutation_precursor": "R163H",
+        "mutation_mature": "R163H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8800603743588538,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 443.7647289425548,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          9.330507278442383,
+          4.103877067565918,
+          -0.744321346282959
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.351632119428634,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7308610080035733,
+        "cryptic": true,
+        "pocket_residues": {
+          "L160": "L",
+          "S161": "S",
+          "R163": "R",
+          "S164": "S"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P33897|ABCD1 variant R163H",
+        "fasta_sequence": "MPVLSRPRPWRGNTLKRTAVLLALAAYGAHKVYPLVRQCLAPARGLQAPAGEPTQEASGVAAAKAGMNRVFLQRLLWLLRLLFPRVLCRETGLLALHSAALVSRTFLSVYVARLDGRLARCIVRKDPRAFGWQLLQWLLIALPATFVNSAIRYLEGQLALSFRSRLVAHAYRLYFSQQTYYRVSNMDGRLRNPDQSLTEDVVAFAASVAHLYSNLTKPLLDVAVTSYTLLRAARSRGAGTAWPSAIAGLVVFLTANVLRAFSPKFGELVAEEARRKGELRYMHSRVVANSEEIAFYGGHEVELALLQRSYQDLASQINLILLERLWYVMLEQFLMKYVWSASGLLMVAVPIITATGYSESDAEAVKKAALEKKEEELVSERTEAFTIARNLLTAAADAIERIMSSYKEVTELAGYTARVHEMFQVFEDVQRCHFKRPRELEDAQAGSGTIGRSGVRVEGPLKIRGQVVDVEQGIICENIPIVTPSGEVVVASLNIRVEEGMHLLITGPNGCGKSSLFRILGGLWPTYGGVLYKPPPQRMFYIPQRPYMSVGSLRDQVIYPDSVEDMQRKGYSEQDLEAILDVVHLHHILQREGGWEAMCDWKDVLSGGEKQRIGMARMFYHRPKYALLDECTSAVSIDVEGKIFQAAKDAGIALLSITHRPSLWKYHTHLLQFDGEGGWKFEKLDSAARLSLTEEKQRLEQQLAGIPKMQRRLQELCQILGEAVAPAHVPAPSPQGPGGLQGAST",
+        "full_sequence": "MPVLSRPRPWRGNTLKRTAVLLALAAYGAHKVYPLVRQCLAPARGLQAPAGEPTQEASGVAAAKAGMNRVFLQRLLWLLRLLFPRVLCRETGLLALHSAALVSRTFLSVYVARLDGRLARCIVRKDPRAFGWQLLQWLLIALPATFVNSAIRYLEGQLALSFRSRLVAHAYRLYFSQQTYYRVSNMDGRLRNPDQSLTEDVVAFAASVAHLYSNLTKPLLDVAVTSYTLLRAARSRGAGTAWPSAIAGLVVFLTANVLRAFSPKFGELVAEEARRKGELRYMHSRVVANSEEIAFYGGHEVELALLQRSYQDLASQINLILLERLWYVMLEQFLMKYVWSASGLLMVAVPIITATGYSESDAEAVKKAALEKKEEELVSERTEAFTIARNLLTAAADAIERIMSSYKEVTELAGYTARVHEMFQVFEDVQRCHFKRPRELEDAQAGSGTIGRSGVRVEGPLKIRGQVVDVEQGIICENIPIVTPSGEVVVASLNIRVEEGMHLLITGPNGCGKSSLFRILGGLWPTYGGVLYKPPPQRMFYIPQRPYMSVGSLRDQVIYPDSVEDMQRKGYSEQDLEAILDVVHLHHILQREGGWEAMCDWKDVLSGGEKQRIGMARMFYHRPKYALLDECTSAVSIDVEGKIFQAAKDAGIALLSITHRPSLWKYHTHLLQFDGEGGWKFEKLDSAARLSLTEEKQRLEQQLAGIPKMQRRLQELCQILGEAVAPAHVPAPSPQGPGGLQGAST",
+        "n_residues": 745,
+        "mutation_pos_1indexed": 163,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "L160-S161-R163-S164",
+        "pocket_lining_positions_precursor": [
+          160,
+          161,
+          163,
+          164
+        ],
+        "pocket_lining_1letter": "LSRS",
+        "sequence_slice_around_pocket": "YLEGQLALSFRSRLVAHAYR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ABCD1_R163H/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "L160",
+          "S161",
+          "R163",
+          "S164"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            5.051,
+            6.118
+          ],
+          [
+            3.859,
+            0.0,
+            5.509,
+            5.297
+          ],
+          [
+            5.051,
+            5.509,
+            0.0,
+            3.844
+          ],
+          [
+            6.118,
+            5.297,
+            3.844,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "composite_score": 0.564824575458773,
+        "mw": 317.21,
+        "logp": 2.135,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 4,
+        "qed": 0.9218,
+        "sa_score": 3.14,
+        "n_heavy_atoms": 23,
+        "tpsa": 58.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ABCD1-R163H Candidate #1",
+        "iupac_name": "COc1ccc(CN)c(N2CC(=O)CCC2N2CCCCC2)c1",
+        "pocket_affinity_score": 0.5648,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ABCD1_R163H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ABCD1_R163H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ABCD1_R163H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ABCD1_R163H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ABCD1_R163H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABCD1-R163H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ABCD1-R163H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:06:42.381165+00:00"
     }
   ]
 }
