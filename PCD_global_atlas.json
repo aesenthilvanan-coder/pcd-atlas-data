@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1842,
+  "total_entries": 1843,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46521,
-    "queue_remaining": 132076
+    "total_processed": 46522,
+    "queue_remaining": 132075
   },
   "entries": [
     {
@@ -414901,6 +414901,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:25:03.905128+00:00"
+    },
+    {
+      "entry_id": "PCD-CDKN2A-R99G",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDKN2A-R99G.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CDKN2A",
+        "uniprot": "",
+        "clinvar_id": "372062",
+        "disease": "Melanoma-pancreatic cancer syndrome",
+        "mutation_precursor": "R99G",
+        "mutation_mature": "R99G",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7521875362174195,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 440.50704664237776,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -8.496567726135254,
+          15.64618968963623,
+          -3.08847975730896
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.373652235967113,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6993975749407738,
+        "cryptic": true,
+        "pocket_residues": {
+          "L97": "L",
+          "H98": "H",
+          "R99": "R",
+          "A100": "A",
+          "G101": "G",
+          "A102": "A"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P42771|CDKN2A variant R99G",
+        "fasta_sequence": "MEPAAGSSMEPSADWLATAAARGRVEEVRALLEAGALPNAPNSYGRRPIQVMMMGSARVAELLLLHGAEPNCADPATLTRPVHDAAREGFLDTLVVLHRAGARLDVRDAWGRLPVDLAEELGHRDVARYLRAAAGGTRGSNHARIDAAEGPSDIPD",
+        "full_sequence": "MEPAAGSSMEPSADWLATAAARGRVEEVRALLEAGALPNAPNSYGRRPIQVMMMGSARVAELLLLHGAEPNCADPATLTRPVHDAAREGFLDTLVVLHRAGARLDVRDAWGRLPVDLAEELGHRDVARYLRAAAGGTRGSNHARIDAAEGPSDIPD",
+        "n_residues": 156,
+        "mutation_pos_1indexed": 99,
+        "wt_aa": "R",
+        "mut_aa": "G",
+        "pocket_lining_residues": "L97-H98-R99-A100-G101-A102",
+        "pocket_lining_positions_precursor": [
+          97,
+          98,
+          99,
+          100,
+          101,
+          102
+        ],
+        "pocket_lining_1letter": "LHRAGA",
+        "sequence_slice_around_pocket": "GFLDTLVVLHRAGARLDVRD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CDKN2A_R99G/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "L97",
+          "H98",
+          "R99",
+          "A100",
+          "G101",
+          "A102"
+        ],
+        "values": [
+          [
+            0.0,
+            3.843,
+            5.442,
+            5.062,
+            6.516,
+            5.218
+          ],
+          [
+            3.843,
+            0.0,
+            3.859,
+            5.377,
+            5.118,
+            4.676
+          ],
+          [
+            5.442,
+            3.859,
+            0.0,
+            3.839,
+            5.433,
+            7.203
+          ],
+          [
+            5.062,
+            5.377,
+            3.839,
+            0.0,
+            3.875,
+            5.923
+          ],
+          [
+            6.516,
+            5.118,
+            5.433,
+            3.875,
+            0.0,
+            3.831
+          ],
+          [
+            5.218,
+            4.676,
+            7.203,
+            5.923,
+            3.831,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6270468818061637,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CDKN2A-R99G Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.627,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CDKN2A_R99G/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CDKN2A_R99G/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CDKN2A_R99G/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDKN2A_R99G/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CDKN2A_R99G/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDKN2A-R99G.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CDKN2A-R99G-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:25:27.257866+00:00"
     }
   ]
 }
