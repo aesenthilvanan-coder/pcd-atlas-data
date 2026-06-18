@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1690,
+  "total_entries": 1691,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46356,
-    "queue_remaining": 132241
+    "total_processed": 46357,
+    "queue_remaining": 132240
   },
   "entries": [
     {
@@ -375140,6 +375140,253 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:52:12.146516+00:00"
+    },
+    {
+      "entry_id": "PCD-KCNQ2-F304S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNQ2-F304S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KCNQ2",
+        "uniprot": "",
+        "clinvar_id": "369771",
+        "disease": "Developmental and epileptic encephalopathy, 7",
+        "mutation_precursor": "F304S",
+        "mutation_mature": "F304S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.848152233419043,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 585.7695279492557,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.956170916557312,
+          4.015973091125488,
+          16.332523345947266
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.299710500222,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8551393090570798,
+        "cryptic": true,
+        "pocket_residues": {
+          "L232": "L",
+          "A235": "A",
+          "W236": "W",
+          "G239": "G",
+          "F240": "F",
+          "F304": "F",
+          "F305": "F",
+          "A306": "A",
+          "L307": "L",
+          "P308": "P"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43526|KCNQ2 variant F304S",
+        "fasta_sequence": "MVQKSRNGGVYPGPSGEKKLKVGFVGLDPGAPDSTRDGALLIAGSEAPKRGSILSKPRAGGAGAGKPPKRNAFYRKLQNFLYNVLERPRGWAFIYHAYVFLLVFSCLVLSVFSTIKEYEKSSEGALYILEIVTIVVFGVEYFVRIWAAGCCCRYRGWRGRLKFARKPFCVIDIMVLIASIAVLAAGSQGNVFATSALRSLRFLQILRMIRMDRRGGTWKLLGSVVYAHSKELVTAWYIGFLCLILASFLVYLAEKGENDHFDTYADALWWGLITLTTIGYGDKYPQTWNGRLLAATFTLIGVSFFALPAGILGSGFALKVQEQHRQKHFEKRRNPAAGLIQSAWRFYATNLSRTDLHSTWQYYERTVTVPMYSSQTQTYGASRLIPPLNQLELLRNLKSKSGLAFRKDPPPEPSPSKGSPCRGPLCGCCPGRSSQKVSLKDRVFSSPRGVAAKGKGSPQAQTVRRSPSADQSLEDSPSKVPKSWSFGDRSRARQAFRIKGAASRQNSEEASLPGEDIVDDKSCPCEFVTEDLTPGLKVSIRAVCVMRFLVSKRKFKESLRPYDVMDVIEQYSAGHLDMLSRIKSLQSRVDQIVGRGPAITDKDRTKGPAEAELPEDPSMMGRLGKVEKQVLSMEKKLDFLVNIYMQRMGIPPTETEAYFGAKEPEPAPPYHSPEDSREHVDRHGCIVKIVRSSSSTGQKNFSAPPAAPPVQCPPSTSWQPQSHPRQGHGTSPVGDHGSLVRIPPPPAHERSLSAYGGGNRASMEFLRQEDTPGCRPPEGNLRDSDTSISIPSVDHEELERSFSGFSISQSKENLDALNSCYAAVAPCAKVRPYIAEGESDTDSDLCTPCGPPPRSATGEGPFGDVGWAGPRK",
+        "full_sequence": "MVQKSRNGGVYPGPSGEKKLKVGFVGLDPGAPDSTRDGALLIAGSEAPKRGSILSKPRAGGAGAGKPPKRNAFYRKLQNFLYNVLERPRGWAFIYHAYVFLLVFSCLVLSVFSTIKEYEKSSEGALYILEIVTIVVFGVEYFVRIWAAGCCCRYRGWRGRLKFARKPFCVIDIMVLIASIAVLAAGSQGNVFATSALRSLRFLQILRMIRMDRRGGTWKLLGSVVYAHSKELVTAWYIGFLCLILASFLVYLAEKGENDHFDTYADALWWGLITLTTIGYGDKYPQTWNGRLLAATFTLIGVSFFALPAGILGSGFALKVQEQHRQKHFEKRRNPAAGLIQSAWRFYATNLSRTDLHSTWQYYERTVTVPMYSSQTQTYGASRLIPPLNQLELLRNLKSKSGLAFRKDPPPEPSPSKGSPCRGPLCGCCPGRSSQKVSLKDRVFSSPRGVAAKGKGSPQAQTVRRSPSADQSLEDSPSKVPKSWSFGDRSRARQAFRIKGAASRQNSEEASLPGEDIVDDKSCPCEFVTEDLTPGLKVSIRAVCVMRFLVSKRKFKESLRPYDVMDVIEQYSAGHLDMLSRIKSLQSRVDQIVGRGPAITDKDRTKGPAEAELPEDPSMMGRLGKVEKQVLSMEKKLDFLVNIYMQRMGIPPTETEAYFGAKEPEPAPPYHSPEDSREHVDRHGCIVKIVRSSSSTGQKNFSAPPAAPPVQCPPSTSWQPQSHPRQGHGTSPVGDHGSLVRIPPPPAHERSLSAYGGGNRASMEFLRQEDTPGCRPPEGNLRDSDTSISIPSVDHEELERSFSGFSISQSKENLDALNSCYAAVAPCAKVRPYIAEGESDTDSDLCTPCGPPPRSATGEGPFGDVGWAGPRK",
+        "n_residues": 872,
+        "mutation_pos_1indexed": 304,
+        "wt_aa": "F",
+        "mut_aa": "S",
+        "pocket_lining_residues": "L232-A235-W236-G239-F240-F304-F305-A306-L307-P308",
+        "pocket_lining_positions_precursor": [
+          232,
+          235,
+          236,
+          239,
+          240,
+          304,
+          305,
+          306,
+          307,
+          308
+        ],
+        "pocket_lining_1letter": "LAWGFFFALP",
+        "sequence_slice_around_pocket": "AATFTLIGVSFFALPAGILG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_F304S/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "L232",
+          "A235",
+          "W236",
+          "G239",
+          "F240",
+          "F304",
+          "F305",
+          "A306",
+          "L307",
+          "P308"
+        ],
+        "values": [
+          [
+            0.0,
+            5.142,
+            6.13,
+            10.393,
+            12.0,
+            9.958,
+            10.228,
+            10.791,
+            7.866,
+            5.838
+          ],
+          [
+            5.142,
+            0.0,
+            3.861,
+            5.912,
+            8.463,
+            5.68,
+            7.258,
+            8.832,
+            6.42,
+            6.831
+          ],
+          [
+            6.13,
+            3.861,
+            0.0,
+            5.04,
+            5.882,
+            7.341,
+            7.272,
+            9.961,
+            8.718,
+            7.889
+          ],
+          [
+            10.393,
+            5.912,
+            5.04,
+            0.0,
+            3.849,
+            5.076,
+            5.89,
+            9.348,
+            9.324,
+            10.306
+          ],
+          [
+            12.0,
+            8.463,
+            5.882,
+            3.849,
+            0.0,
+            8.845,
+            8.661,
+            12.427,
+            12.616,
+            12.725
+          ],
+          [
+            9.958,
+            5.68,
+            7.341,
+            5.076,
+            8.845,
+            0.0,
+            3.863,
+            5.422,
+            5.282,
+            7.89
+          ],
+          [
+            10.228,
+            7.258,
+            7.272,
+            5.89,
+            8.661,
+            3.863,
+            0.0,
+            3.87,
+            5.711,
+            6.838
+          ],
+          [
+            10.791,
+            8.832,
+            9.961,
+            9.348,
+            12.427,
+            5.422,
+            3.87,
+            0.0,
+            3.889,
+            5.836
+          ],
+          [
+            7.866,
+            6.42,
+            8.718,
+            9.324,
+            12.616,
+            5.282,
+            5.711,
+            3.889,
+            0.0,
+            3.906
+          ],
+          [
+            5.838,
+            6.831,
+            7.889,
+            10.306,
+            12.725,
+            7.89,
+            6.838,
+            5.836,
+            3.906,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1CNC(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.6776426353944858,
+        "mw": 408.23,
+        "logp": 2.017,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 5,
+        "qed": 0.7798,
+        "sa_score": 3.31,
+        "n_heavy_atoms": 30,
+        "tpsa": 104.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KCNQ2-F304S Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1CNC(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.6776,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_F304S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_F304S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_F304S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_F304S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_F304S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNQ2-F304S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNQ2-F304S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:52:46.740389+00:00"
     }
   ]
 }
