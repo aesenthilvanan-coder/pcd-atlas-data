@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1804,
+  "total_entries": 1805,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46480,
-    "queue_remaining": 132117
+    "total_processed": 46481,
+    "queue_remaining": 132116
   },
   "entries": [
     {
@@ -404335,6 +404335,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:04:50.127002+00:00"
+    },
+    {
+      "entry_id": "PCD-CLN3-M1T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLN3-M1T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CLN3",
+        "uniprot": "",
+        "clinvar_id": "371317",
+        "disease": "Neuronal ceroid lipofuscinosis 3",
+        "mutation_precursor": "M1T",
+        "mutation_mature": "M1T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9432722956198099,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 390.73337525026915,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -69.57797241210938,
+          -25.896108627319336,
+          62.8524055480957
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.8018565101271506,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7226576943233435,
+        "cryptic": true,
+        "pocket_residues": {
+          "M1": "M",
+          "G2": "G",
+          "G3": "G"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13286|CLN3 variant M1T",
+        "fasta_sequence": "MGGCAGSRRRFSDSEGEETVPEPRLPLLDHQGAHWKNAVGFWLLGLCNNFSYVVMLSAAHDILSHKRTSGNQSHVDPGPTPIPHNSSSRFDCNSVSTAAVLLADILPTLVIKLLAPLGLHLLPYSPRVLVSGICAAGSFVLVAFSHSVGTSLCGVVFASISSGLGEVTFLSLTAFYPRAVISWWSSGTGGAGLLGALSYLGLTQAGLSPQQTLLSMLGIPALLLASYFLLLTSPEAQDPGGEEEAESAARQPLIRTEAPESKPGSSSSLSLRERWTVFKGLLWYIVPLVVVYFAEYFINQGLFELLFFWNTSLSHAQQYRWYQMLYQAGVFASRSSLRCCRIRFTWALALLQCLNLVFLLADVWFGFLPSIYLVFLIILYEGLLGGAAYVNTFHNIALETSDEHREFAMAATCISDTLGISLSGLLALPLHDFLCQLS",
+        "full_sequence": "MGGCAGSRRRFSDSEGEETVPEPRLPLLDHQGAHWKNAVGFWLLGLCNNFSYVVMLSAAHDILSHKRTSGNQSHVDPGPTPIPHNSSSRFDCNSVSTAAVLLADILPTLVIKLLAPLGLHLLPYSPRVLVSGICAAGSFVLVAFSHSVGTSLCGVVFASISSGLGEVTFLSLTAFYPRAVISWWSSGTGGAGLLGALSYLGLTQAGLSPQQTLLSMLGIPALLLASYFLLLTSPEAQDPGGEEEAESAARQPLIRTEAPESKPGSSSSLSLRERWTVFKGLLWYIVPLVVVYFAEYFINQGLFELLFFWNTSLSHAQQYRWYQMLYQAGVFASRSSLRCCRIRFTWALALLQCLNLVFLLADVWFGFLPSIYLVFLIILYEGLLGGAAYVNTFHNIALETSDEHREFAMAATCISDTLGISLSGLLALPLHDFLCQLS",
+        "n_residues": 438,
+        "mutation_pos_1indexed": 1,
+        "wt_aa": "M",
+        "mut_aa": "T",
+        "pocket_lining_residues": "M1-G2-G3",
+        "pocket_lining_positions_precursor": [
+          1,
+          2,
+          3
+        ],
+        "pocket_lining_1letter": "MGG",
+        "sequence_slice_around_pocket": "MGGCAGSRRR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CLN3_M1T/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "M1",
+          "G2",
+          "G3"
+        ],
+        "values": [
+          [
+            0.0,
+            3.844,
+            6.964
+          ],
+          [
+            3.844,
+            0.0,
+            3.862
+          ],
+          [
+            6.964,
+            3.862,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)c1ccc(Cl)cc1N1CCCC(=O)C1",
+        "composite_score": 0.5881735419017012,
+        "mw": 280.1,
+        "logp": 2.041,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 4,
+        "qed": 0.8575,
+        "sa_score": 2.48,
+        "n_heavy_atoms": 19,
+        "tpsa": 63.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CLN3-M1T Candidate #1",
+        "iupac_name": "NCCC(=O)c1ccc(Cl)cc1N1CCCC(=O)C1",
+        "pocket_affinity_score": 0.5882,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CLN3_M1T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CLN3_M1T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CLN3_M1T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CLN3_M1T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CLN3_M1T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLN3-M1T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CLN3-M1T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:05:16.673206+00:00"
     }
   ]
 }
