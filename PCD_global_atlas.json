@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1630,
+  "total_entries": 1631,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46289,
-    "queue_remaining": 132308
+    "total_processed": 46290,
+    "queue_remaining": 132307
   },
   "entries": [
     {
@@ -360035,6 +360035,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:06:55.417397+00:00"
+    },
+    {
+      "entry_id": "PCD-TNFRSF13C-R106Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFRSF13C-R106Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TNFRSF13C",
+        "uniprot": "",
+        "clinvar_id": "341877",
+        "disease": "Immunodeficiency, common variable, 4",
+        "mutation_precursor": "R106Q",
+        "mutation_mature": "R106Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8628466478635509,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 599.5672900644397,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -18.286602020263672,
+          -1.2126593589782715,
+          19.501415252685547
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.385971646766691,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6129077674981459,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q105": "Q",
+          "R106": "R",
+          "L108": "L",
+          "R109": "R"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q96RJ3|TNFRSF13C variant R106Q",
+        "fasta_sequence": "MRRGPRSLRGRDAPAPTPCVPAECFDLLVRHCVACGLLRTPRPKPAGASSPAPRTALQPQESVGAGAGEAALPLPGLLFGAPALLGLALVLALVLVGLVSWRRRQRRLRGASSAEAPDGDKDAPEPLDKVIILSPGISDATAPAWPPPGEDPGTTPPGHSVPVPATELGSTELVTTKTAGPEQQ",
+        "full_sequence": "MRRGPRSLRGRDAPAPTPCVPAECFDLLVRHCVACGLLRTPRPKPAGASSPAPRTALQPQESVGAGAGEAALPLPGLLFGAPALLGLALVLALVLVGLVSWRRRQRRLRGASSAEAPDGDKDAPEPLDKVIILSPGISDATAPAWPPPGEDPGTTPPGHSVPVPATELGSTELVTTKTAGPEQQ",
+        "n_residues": 184,
+        "mutation_pos_1indexed": 106,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "Q105-R106-L108-R109",
+        "pocket_lining_positions_precursor": [
+          105,
+          106,
+          108,
+          109
+        ],
+        "pocket_lining_1letter": "QRLR",
+        "sequence_slice_around_pocket": "VGLVSWRRRQRRLRGASSAE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13C_R106Q/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "Q105",
+          "R106",
+          "L108",
+          "R109"
+        ],
+        "values": [
+          [
+            0.0,
+            3.855,
+            5.023,
+            6.093
+          ],
+          [
+            3.855,
+            0.0,
+            5.496,
+            5.028
+          ],
+          [
+            5.023,
+            5.496,
+            0.0,
+            3.874
+          ],
+          [
+            6.093,
+            5.028,
+            3.874,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1CC(=O)Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "composite_score": 0.5428193029657169,
+        "mw": 432.18,
+        "logp": 1.973,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.6137,
+        "sa_score": 2.28,
+        "n_heavy_atoms": 30,
+        "tpsa": 127.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TNFRSF13C-R106Q Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1CC(=O)Nc1ccc(S(N)(=O)=O)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5428,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13C_R106Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13C_R106Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13C_R106Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13C_R106Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TNFRSF13C_R106Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFRSF13C-R106Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TNFRSF13C-R106Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:07:25.396789+00:00"
     }
   ]
 }
