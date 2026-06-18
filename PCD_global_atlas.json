@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1563,
+  "total_entries": 1564,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46217,
-    "queue_remaining": 132380
+    "total_processed": 46218,
+    "queue_remaining": 132379
   },
   "entries": [
     {
@@ -345764,6 +345764,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:18:49.997048+00:00"
+    },
+    {
+      "entry_id": "PCD-STX16-H215L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STX16-H215L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "STX16",
+        "uniprot": "",
+        "clinvar_id": "339054",
+        "disease": "Pseudohypoparathyroidism type 1B",
+        "mutation_precursor": "H215L",
+        "mutation_mature": "H215L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9237247425470899,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 521.1149509891615,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          22.377452850341797,
+          24.347116470336914,
+          -62.426910400390625
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.0775808187955445,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6970322879730355,
+        "cryptic": true,
+        "pocket_residues": {
+          "N211": "N",
+          "T212": "T",
+          "L213": "L",
+          "H215": "H"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O14662|STX16 variant H215L",
+        "fasta_sequence": "MATRRLTDAFLLLRNNSIQNRQLLAEQVSSHITSSPLHSRSIAAELDELADDRMALVSGISLDPEAAIGVTKRPPPKWVDGVDEIQYDVGRIKQKMKELASLHDKHLNRPTLDDSSEEEHAIEITTQEITQLFHRCQRAVQALPSRARACSEQEGRLLGNVVASLAQALQELSTSFRHAQSGYLKRMKNREERSQHFFDTSVPLMDDGDDNTLYHRGFTEDQLVLVEQNTLMVEEREREIRQIVQSISDLNEIFRDLGAMIVEQGTVLDRIDYNVEQSCIKTEDGLKQLHKAEQYQKKNRKMLVILILFVIIIVLIVVLVGVKSR",
+        "full_sequence": "MATRRLTDAFLLLRNNSIQNRQLLAEQVSSHITSSPLHSRSIAAELDELADDRMALVSGISLDPEAAIGVTKRPPPKWVDGVDEIQYDVGRIKQKMKELASLHDKHLNRPTLDDSSEEEHAIEITTQEITQLFHRCQRAVQALPSRARACSEQEGRLLGNVVASLAQALQELSTSFRHAQSGYLKRMKNREERSQHFFDTSVPLMDDGDDNTLYHRGFTEDQLVLVEQNTLMVEEREREIRQIVQSISDLNEIFRDLGAMIVEQGTVLDRIDYNVEQSCIKTEDGLKQLHKAEQYQKKNRKMLVILILFVIIIVLIVVLVGVKSR",
+        "n_residues": 325,
+        "mutation_pos_1indexed": 215,
+        "wt_aa": "H",
+        "mut_aa": "L",
+        "pocket_lining_residues": "N211-T212-L213-H215",
+        "pocket_lining_positions_precursor": [
+          211,
+          212,
+          213,
+          215
+        ],
+        "pocket_lining_1letter": "NTLH",
+        "sequence_slice_around_pocket": "MDDGDDNTLYHRGFTEDQLV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_H215L/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "N211",
+          "T212",
+          "L213",
+          "H215"
+        ],
+        "values": [
+          [
+            0.0,
+            3.922,
+            5.918,
+            9.508
+          ],
+          [
+            3.922,
+            0.0,
+            3.853,
+            6.114
+          ],
+          [
+            5.918,
+            3.853,
+            0.0,
+            5.773
+          ],
+          [
+            9.508,
+            6.114,
+            5.773,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(OCC(=O)NC2CCCCN2c2cc(O)ccc2N)cc1",
+        "composite_score": 0.5397566020695336,
+        "mw": 370.2,
+        "logp": 1.945,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.4565,
+        "sa_score": 2.95,
+        "n_heavy_atoms": 27,
+        "tpsa": 113.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "STX16-H215L Candidate #1",
+        "iupac_name": "NCc1ccc(OCC(=O)NC2CCCCN2c2cc(O)ccc2N)cc1",
+        "pocket_affinity_score": 0.5398,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_H215L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_H215L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_H215L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_H215L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/STX16_H215L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STX16-H215L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-STX16-H215L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:19:12.947051+00:00"
     }
   ]
 }
