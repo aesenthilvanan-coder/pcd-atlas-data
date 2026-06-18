@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1786,
+  "total_entries": 1787,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46461,
-    "queue_remaining": 132136
+    "total_processed": 46462,
+    "queue_remaining": 132135
   },
   "entries": [
     {
@@ -399645,6 +399645,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:53:01.750754+00:00"
+    },
+    {
+      "entry_id": "PCD-PAH-F331S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PAH-F331S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PAH",
+        "uniprot": "",
+        "clinvar_id": "371278",
+        "disease": "Phenylketonuria",
+        "mutation_precursor": "F331S",
+        "mutation_mature": "F331S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8338828124042754,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 457.87215006788415,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -0.4607691764831543,
+          -3.0125551223754883,
+          -7.009033203125
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.264804927867855,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8679542646680405,
+        "cryptic": true,
+        "pocket_residues": {
+          "Y325": "Y",
+          "W326": "W",
+          "F327": "F",
+          "T328": "T",
+          "V329": "V",
+          "E330": "E",
+          "F331": "F",
+          "G332": "G",
+          "G344": "G",
+          "A345": "A",
+          "G346": "G"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P00439|PAH variant F331S",
+        "fasta_sequence": "MSTAVLENPGLGRKLSDFGQETSYIEDNCNQNGAISLIFSLKEEVGALAKVLRLFEENDVNLTHIESRPSRLKKDEYEFFTHLDKRSLPALTNIIKILRHDIGATVHELSRDKKKDTVPWFPRTIQELDRFANQILSYGAELDADHPGFKDPVYRARRKQFADIAYNYRHGQPIPRVEYMEEEKKTWGTVFKTLKSLYKTHACYEYNHIFPLLEKYCGFHEDNIPQLEDVSQFLQTCTGFRLRPVAGLLSSRDFLGGLAFRVFHCTQYIRHGSKPMYTPEPDICHELLGHVPLFSDRSFAQFSQEIGLASLGAPDEYIEKLATIYWFTVEFGLCKQGDSIKAYGAGLLSSFGELQYCLSEKPKLLPLELEKTAIQNYTVTEFQPLYYVAESFNDAKEKVRNFAATIPRPFSVRYDPYTQRIEVLDNTQQLKILADSINSEIGILCSALQKIK",
+        "full_sequence": "MSTAVLENPGLGRKLSDFGQETSYIEDNCNQNGAISLIFSLKEEVGALAKVLRLFEENDVNLTHIESRPSRLKKDEYEFFTHLDKRSLPALTNIIKILRHDIGATVHELSRDKKKDTVPWFPRTIQELDRFANQILSYGAELDADHPGFKDPVYRARRKQFADIAYNYRHGQPIPRVEYMEEEKKTWGTVFKTLKSLYKTHACYEYNHIFPLLEKYCGFHEDNIPQLEDVSQFLQTCTGFRLRPVAGLLSSRDFLGGLAFRVFHCTQYIRHGSKPMYTPEPDICHELLGHVPLFSDRSFAQFSQEIGLASLGAPDEYIEKLATIYWFTVEFGLCKQGDSIKAYGAGLLSSFGELQYCLSEKPKLLPLELEKTAIQNYTVTEFQPLYYVAESFNDAKEKVRNFAATIPRPFSVRYDPYTQRIEVLDNTQQLKILADSINSEIGILCSALQKIK",
+        "n_residues": 452,
+        "mutation_pos_1indexed": 331,
+        "wt_aa": "F",
+        "mut_aa": "S",
+        "pocket_lining_residues": "Y325-W326-F327-T328-V329-E330-F331-G332-G344-A345-G346",
+        "pocket_lining_positions_precursor": [
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          344,
+          345,
+          346
+        ],
+        "pocket_lining_1letter": "YWFTVEFGGAG",
+        "sequence_slice_around_pocket": "LATIYWFTVEFGLCKQGDSI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PAH_F331S/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "Y325",
+          "W326",
+          "F327",
+          "T328",
+          "V329",
+          "E330",
+          "F331",
+          "G332",
+          "G344",
+          "A345",
+          "G346"
+        ],
+        "values": [
+          [
+            0.0,
+            3.864,
+            5.622,
+            5.087,
+            5.225,
+            6.497,
+            8.389,
+            8.693,
+            9.513,
+            10.687,
+            11.393
+          ],
+          [
+            3.864,
+            0.0,
+            3.841,
+            5.522,
+            6.056,
+            4.836,
+            5.914,
+            7.677,
+            8.405,
+            9.565,
+            8.991
+          ],
+          [
+            5.622,
+            3.841,
+            0.0,
+            3.838,
+            6.614,
+            6.208,
+            4.974,
+            5.234,
+            7.906,
+            10.471,
+            10.082
+          ],
+          [
+            5.087,
+            5.522,
+            3.838,
+            0.0,
+            3.844,
+            5.641,
+            5.54,
+            3.949,
+            6.218,
+            9.018,
+            10.083
+          ],
+          [
+            5.225,
+            6.056,
+            6.614,
+            3.844,
+            0.0,
+            3.876,
+            6.137,
+            5.882,
+            5.023,
+            6.334,
+            8.346
+          ],
+          [
+            6.497,
+            4.836,
+            6.208,
+            5.641,
+            3.876,
+            0.0,
+            3.864,
+            6.115,
+            4.292,
+            4.736,
+            4.993
+          ],
+          [
+            8.389,
+            5.914,
+            4.974,
+            5.54,
+            6.137,
+            3.864,
+            0.0,
+            3.84,
+            4.088,
+            6.537,
+            5.697
+          ],
+          [
+            8.693,
+            7.677,
+            5.234,
+            3.949,
+            5.882,
+            6.115,
+            3.84,
+            0.0,
+            4.384,
+            8.112,
+            8.773
+          ],
+          [
+            9.513,
+            8.405,
+            7.906,
+            6.218,
+            5.023,
+            4.292,
+            4.088,
+            4.384,
+            0.0,
+            3.846,
+            5.51
+          ],
+          [
+            10.687,
+            9.565,
+            10.471,
+            9.018,
+            6.334,
+            4.736,
+            6.537,
+            8.112,
+            3.846,
+            0.0,
+            3.856
+          ],
+          [
+            11.393,
+            8.991,
+            10.082,
+            10.083,
+            8.346,
+            4.993,
+            5.697,
+            8.773,
+            5.51,
+            3.856,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "composite_score": 0.8224118157732135,
+        "mw": 349.19,
+        "logp": 2.473,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.6586,
+        "sa_score": 3.19,
+        "n_heavy_atoms": 26,
+        "tpsa": 87.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PAH-F331S Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8224,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PAH_F331S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PAH_F331S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PAH_F331S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PAH_F331S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PAH_F331S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PAH-F331S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PAH-F331S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:53:33.372479+00:00"
     }
   ]
 }
