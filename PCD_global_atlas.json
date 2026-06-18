@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1646,
+  "total_entries": 1647,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46307,
-    "queue_remaining": 132290
+    "total_processed": 46308,
+    "queue_remaining": 132289
   },
   "entries": [
     {
@@ -364397,6 +364397,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:15:55.024932+00:00"
+    },
+    {
+      "entry_id": "PCD-TCN2-P185L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TCN2-P185L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TCN2",
+        "uniprot": "",
+        "clinvar_id": "341198",
+        "disease": "Transcobalamin II deficiency",
+        "mutation_precursor": "P185L",
+        "mutation_mature": "P185L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7844150358587744,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 480.6536318009103,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.158920288085938,
+          -16.630722045898438,
+          4.2228546142578125
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.28864901308932,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7071637910450769,
+        "cryptic": true,
+        "pocket_residues": {
+          "L180": "L",
+          "Y181": "Y",
+          "A182": "A",
+          "V183": "V",
+          "E184": "E",
+          "P185": "P",
+          "R218": "R",
+          "I219": "I",
+          "M221": "M",
+          "A222": "A"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P20062|TCN2 variant P185L",
+        "fasta_sequence": "MRHLGAFLFLLGVLGALTEMCEIPEMDSHLVEKLGQHLLPWMDRLSLEHLNPSIYVGLRLSSLQAGTKEDLYLHSLKLGYQQCLLGSAFSEDDGDCQGKPSMGQLALYLLALRANCEFVRGHKGDRLVSQLKWFLEDEKRAIGHDHKGHPHTSYYQYGLGILALCLHQKRVHDSVVDKLLYAVEPFHQGHHSVDTAAMAGLAFTCLKRSNFNPGRRQRITMAIRTVREEILKAQTPEGHFGNVYSTPLALQFLMTSPMRGAELGTACLKARVALLASLQDGAFQNALMISQLLPVLNHKTYIDLIFPDCLAPRVMLEPAAETIPQTQEIISVTLQVLSLLPPYRQSISVLAGSTVEDVLKKAHELGGFTYETQASLSGPYLTSVMGKAAGEREFWQLLRDPNTPLLQGIADYRPKDGETIELRLVSW",
+        "full_sequence": "MRHLGAFLFLLGVLGALTEMCEIPEMDSHLVEKLGQHLLPWMDRLSLEHLNPSIYVGLRLSSLQAGTKEDLYLHSLKLGYQQCLLGSAFSEDDGDCQGKPSMGQLALYLLALRANCEFVRGHKGDRLVSQLKWFLEDEKRAIGHDHKGHPHTSYYQYGLGILALCLHQKRVHDSVVDKLLYAVEPFHQGHHSVDTAAMAGLAFTCLKRSNFNPGRRQRITMAIRTVREEILKAQTPEGHFGNVYSTPLALQFLMTSPMRGAELGTACLKARVALLASLQDGAFQNALMISQLLPVLNHKTYIDLIFPDCLAPRVMLEPAAETIPQTQEIISVTLQVLSLLPPYRQSISVLAGSTVEDVLKKAHELGGFTYETQASLSGPYLTSVMGKAAGEREFWQLLRDPNTPLLQGIADYRPKDGETIELRLVSW",
+        "n_residues": 427,
+        "mutation_pos_1indexed": 185,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "L180-Y181-A182-V183-E184-P185-R218-I219-M221-A222",
+        "pocket_lining_positions_precursor": [
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          218,
+          219,
+          221,
+          222
+        ],
+        "pocket_lining_1letter": "LYAVEPRIMA",
+        "sequence_slice_around_pocket": "VVDKLLYAVEPFHQGHHSVD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TCN2_P185L/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "L180",
+          "Y181",
+          "A182",
+          "V183",
+          "E184",
+          "P185",
+          "R218",
+          "I219",
+          "M221",
+          "A222"
+        ],
+        "values": [
+          [
+            0.0,
+            3.832,
+            5.385,
+            5.548,
+            6.23,
+            10.107,
+            7.399,
+            7.07,
+            9.346,
+            6.527
+          ],
+          [
+            3.832,
+            0.0,
+            3.836,
+            5.511,
+            5.004,
+            8.32,
+            9.791,
+            10.498,
+            11.538,
+            9.003
+          ],
+          [
+            5.385,
+            3.836,
+            0.0,
+            3.88,
+            5.777,
+            8.47,
+            12.227,
+            11.936,
+            12.815,
+            9.506
+          ],
+          [
+            5.548,
+            5.511,
+            3.88,
+            0.0,
+            3.829,
+            6.503,
+            10.574,
+            10.129,
+            9.791,
+            6.454
+          ],
+          [
+            6.23,
+            5.004,
+            5.777,
+            3.829,
+            0.0,
+            3.889,
+            9.391,
+            10.375,
+            8.942,
+            6.862
+          ],
+          [
+            10.107,
+            8.32,
+            8.47,
+            6.503,
+            3.889,
+            0.0,
+            12.407,
+            13.692,
+            10.978,
+            9.6
+          ],
+          [
+            7.399,
+            9.791,
+            12.227,
+            10.574,
+            9.391,
+            12.407,
+            0.0,
+            3.856,
+            5.077,
+            6.036
+          ],
+          [
+            7.07,
+            10.498,
+            11.936,
+            10.129,
+            10.375,
+            13.692,
+            3.856,
+            0.0,
+            5.483,
+            4.977
+          ],
+          [
+            9.346,
+            11.538,
+            12.815,
+            9.791,
+            8.942,
+            10.978,
+            5.077,
+            5.483,
+            0.0,
+            3.853
+          ],
+          [
+            6.527,
+            9.003,
+            9.506,
+            6.454,
+            6.862,
+            9.6,
+            6.036,
+            4.977,
+            3.853,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CC(N)=O)c(OCNc2nc3ccccc3[nH]2)c1",
+        "composite_score": 0.8267064186403764,
+        "mw": 326.14,
+        "logp": 2.048,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 7,
+        "qed": 0.5767,
+        "sa_score": 2.41,
+        "n_heavy_atoms": 24,
+        "tpsa": 102.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TCN2-P185L Candidate #1",
+        "iupac_name": "COc1ccc(CC(N)=O)c(OCNc2nc3ccccc3[nH]2)c1",
+        "pocket_affinity_score": 0.8267,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TCN2_P185L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TCN2_P185L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TCN2_P185L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TCN2_P185L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TCN2_P185L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TCN2-P185L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TCN2-P185L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:16:19.353029+00:00"
     }
   ]
 }
