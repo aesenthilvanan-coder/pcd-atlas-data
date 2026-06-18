@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2486,
+  "total_entries": 2487,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47254,
-    "queue_remaining": 131343
+    "total_processed": 47257,
+    "queue_remaining": 131340
   },
   "entries": [
     {
@@ -582337,6 +582337,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T14:12:32.763999+00:00"
+    },
+    {
+      "entry_id": "PCD-CSF1R-V474I",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CSF1R-V474I.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CSF1R",
+        "uniprot": "",
+        "clinvar_id": "374570",
+        "disease": "not provided",
+        "mutation_precursor": "V474I",
+        "mutation_mature": "V474I",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8198970689519143,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 536.3581919416646,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -36.36173629760742,
+          -12.333335876464844,
+          45.573158264160156
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.411427465091162,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8314521869609837,
+        "cryptic": true,
+        "pocket_residues": {
+          "L417": "L",
+          "W431": "W",
+          "L432": "L",
+          "Q433": "Q",
+          "Q448": "Q",
+          "V449": "V",
+          "W450": "W",
+          "L472": "L",
+          "T473": "T",
+          "V474": "V",
+          "Y483": "Y"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P07333|CSF1R variant V474I",
+        "fasta_sequence": "MGPGVLLLLLVATAWHGQGIPVIEPSVPELVVKPGATVTLRCVGNGSVEWDGPPSPHWTLYSDGSSSILSTNNATFQNTGTYRCTEPGDPLGGSAAIHLYVKDPARPWNVLAQEVVVFEDQDALLPCLLTDPVLEAGVSLVRVRGRPLMRHTNYSFSPWHGFTIHRAKFIQSQDYQCSALMGGRKVMSISIRLKVQKVIPGPPALTLVPAELVRIRGEAAQIVCSASSVDVNFDVFLQHNNTKLAIPQQSDFHNNRYQKVLTLNLDQVDFQHAGNYSCVASNVQGKHSTSMFFRVVESAYLNLSSEQNLIQEVTVGEGLNLKVMVEAYPGLQGFNWTYLGPFSDHQPEPKLANATTKDTYRHTFTLSLPRLKPSEAGRYSFLARNPGGWRALTFELTLRYPPEVSVIWTFINGSGTLLCAASGYPQPNVTWLQCSGHTDRCDEAQVLQVWDDPYPEVLSQEPFHKVTVQSLLTVETLEHNQTYECRAHNSVGSGSWAFIPISAGAHTHPPDEFLFTPVVVACMSIMALLLLLLLLLLYKYKQKPKYQVRWKIIESYEGNSYTFIDPTQLPYNEKWEFPRNNLQFGKTLGAGAFGKVVEATAFGLGKEDAVLKVAVKMLKSTAHADEKEALMSELKIMSHLGQHENIVNLLGACTHGGPVLVITEYCCYGDLLNFLRRKAEAMLGPSLSPGQDPEGGVDYKNIHLEKKYVRRDSGFSSQGVDTYVEMRPVSTSSNDSFSEQDLDKEDGRPLELRDLLHFSSQVAQGMAFLASKNCIHRDVAARNVLLTNGHVAKIGDFGLARDIMNDSNYIVKGNARLPVKWMAPESIFDCVYTVQSDVWSYGILLWEIFSLGLNPYPGILVNSKFYKLVKDGYQMAQPAFAPKNIYSIMQACWALEPTHRPTFQQICSFLQEQAQEDRRERDYTNLPSSSRSGGSGSSSSELEEESSSEHLTCCEQGDIAQPLLQPNNYQFC",
+        "full_sequence": "MGPGVLLLLLVATAWHGQGIPVIEPSVPELVVKPGATVTLRCVGNGSVEWDGPPSPHWTLYSDGSSSILSTNNATFQNTGTYRCTEPGDPLGGSAAIHLYVKDPARPWNVLAQEVVVFEDQDALLPCLLTDPVLEAGVSLVRVRGRPLMRHTNYSFSPWHGFTIHRAKFIQSQDYQCSALMGGRKVMSISIRLKVQKVIPGPPALTLVPAELVRIRGEAAQIVCSASSVDVNFDVFLQHNNTKLAIPQQSDFHNNRYQKVLTLNLDQVDFQHAGNYSCVASNVQGKHSTSMFFRVVESAYLNLSSEQNLIQEVTVGEGLNLKVMVEAYPGLQGFNWTYLGPFSDHQPEPKLANATTKDTYRHTFTLSLPRLKPSEAGRYSFLARNPGGWRALTFELTLRYPPEVSVIWTFINGSGTLLCAASGYPQPNVTWLQCSGHTDRCDEAQVLQVWDDPYPEVLSQEPFHKVTVQSLLTVETLEHNQTYECRAHNSVGSGSWAFIPISAGAHTHPPDEFLFTPVVVACMSIMALLLLLLLLLLYKYKQKPKYQVRWKIIESYEGNSYTFIDPTQLPYNEKWEFPRNNLQFGKTLGAGAFGKVVEATAFGLGKEDAVLKVAVKMLKSTAHADEKEALMSELKIMSHLGQHENIVNLLGACTHGGPVLVITEYCCYGDLLNFLRRKAEAMLGPSLSPGQDPEGGVDYKNIHLEKKYVRRDSGFSSQGVDTYVEMRPVSTSSNDSFSEQDLDKEDGRPLELRDLLHFSSQVAQGMAFLASKNCIHRDVAARNVLLTNGHVAKIGDFGLARDIMNDSNYIVKGNARLPVKWMAPESIFDCVYTVQSDVWSYGILLWEIFSLGLNPYPGILVNSKFYKLVKDGYQMAQPAFAPKNIYSIMQACWALEPTHRPTFQQICSFLQEQAQEDRRERDYTNLPSSSRSGGSGSSSSELEEESSSEHLTCCEQGDIAQPLLQPNNYQFC",
+        "n_residues": 972,
+        "mutation_pos_1indexed": 474,
+        "wt_aa": "V",
+        "mut_aa": "I",
+        "pocket_lining_residues": "L417-W431-L432-Q433-Q448-V449-W450-L472-T473-V474-Y483",
+        "pocket_lining_positions_precursor": [
+          417,
+          431,
+          432,
+          433,
+          448,
+          449,
+          450,
+          472,
+          473,
+          474,
+          483
+        ],
+        "pocket_lining_1letter": "LWLQQVWLTVY",
+        "sequence_slice_around_pocket": "HKVTVQSLLTVETLEHNQTY"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CSF1R_V474I/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "L417",
+          "W431",
+          "L432",
+          "Q433",
+          "Q448",
+          "V449",
+          "W450",
+          "L472",
+          "T473",
+          "V474",
+          "Y483"
+        ],
+        "values": [
+          [
+            0.0,
+            9.964,
+            11.796,
+            11.644,
+            14.661,
+            13.979,
+            12.518,
+            5.045,
+            6.142,
+            7.254,
+            8.557
+          ],
+          [
+            9.964,
+            0.0,
+            3.836,
+            6.876,
+            8.228,
+            5.574,
+            4.938,
+            8.009,
+            11.363,
+            11.956,
+            7.083
+          ],
+          [
+            11.796,
+            3.836,
+            0.0,
+            3.814,
+            5.864,
+            4.57,
+            6.577,
+            10.37,
+            12.998,
+            12.437,
+            5.794
+          ],
+          [
+            11.644,
+            6.876,
+            3.814,
+            0.0,
+            5.138,
+            6.429,
+            8.826,
+            10.746,
+            12.349,
+            10.686,
+            4.655
+          ],
+          [
+            14.661,
+            8.228,
+            5.864,
+            5.138,
+            0.0,
+            3.871,
+            7.03,
+            11.978,
+            13.384,
+            12.132,
+            9.536
+          ],
+          [
+            13.979,
+            5.574,
+            4.57,
+            6.429,
+            3.871,
+            0.0,
+            3.857,
+            10.892,
+            13.253,
+            13.067,
+            9.742
+          ],
+          [
+            12.518,
+            4.938,
+            6.577,
+            8.826,
+            7.03,
+            3.857,
+            0.0,
+            8.626,
+            11.389,
+            12.309,
+            10.83
+          ],
+          [
+            5.045,
+            8.009,
+            10.37,
+            10.746,
+            11.978,
+            10.892,
+            8.626,
+            0.0,
+            3.849,
+            6.381,
+            9.637
+          ],
+          [
+            6.142,
+            11.363,
+            12.998,
+            12.349,
+            13.384,
+            13.253,
+            11.389,
+            3.849,
+            0.0,
+            3.858,
+            11.434
+          ],
+          [
+            7.254,
+            11.956,
+            12.437,
+            10.686,
+            12.132,
+            13.067,
+            12.309,
+            6.381,
+            3.858,
+            0.0,
+            10.082
+          ],
+          [
+            8.557,
+            7.083,
+            5.794,
+            4.655,
+            9.536,
+            9.742,
+            10.83,
+            9.637,
+            11.434,
+            10.082,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "composite_score": 0.6387239154408847,
+        "mw": 391.2,
+        "logp": 2.032,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.5326,
+        "sa_score": 3.34,
+        "n_heavy_atoms": 29,
+        "tpsa": 104.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CSF1R-V474I Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6387,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CSF1R_V474I/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CSF1R_V474I/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CSF1R_V474I/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CSF1R_V474I/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CSF1R_V474I/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CSF1R-V474I.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CSF1R-V474I-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T14:13:39.521316+00:00"
     }
   ]
 }
