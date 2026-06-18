@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1561,
+  "total_entries": 1562,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46215,
-    "queue_remaining": 132382
+    "total_processed": 46216,
+    "queue_remaining": 132381
   },
   "entries": [
     {
@@ -345510,6 +345510,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:17:45.721994+00:00"
+    },
+    {
+      "entry_id": "PCD-VAPB-P111L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VAPB-P111L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "VAPB",
+        "uniprot": "",
+        "clinvar_id": "338930",
+        "disease": "Adult-onset proximal spinal muscular atrophy, autosomal dominant",
+        "mutation_precursor": "P111L",
+        "mutation_mature": "P111L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9165040475982948,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 506.5123200594596,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.991085052490234,
+          -14.037290573120117,
+          6.85726261138916
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.808507325657743,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8225672745914606,
+        "cryptic": true,
+        "pocket_residues": {
+          "K3": "K",
+          "P111": "P",
+          "E112": "E",
+          "L114": "L"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O95292|VAPB variant P111L",
+        "fasta_sequence": "MAKVEQVLSLEPQHELKFRGPFTDVVTTNLKLGNPTDRNVCFKVKTTAPRRYCVRPNSGIIDAGASINVSVMLQPFDYDPNEKSKHKFMVQSMFAPTDTSDMEAVWKEAKPEDLMDSKLRCVFELPAENDKPHDVEINKIISTTASKTETPIVSKSLSSSLDDTEVKKVMEECKRLQGEVQRLREENKQFKEEDGLRMRKTVQSNSPISALAPTGKEEGLSTRLLALVVLFFIVGVIIGKIAL",
+        "full_sequence": "MAKVEQVLSLEPQHELKFRGPFTDVVTTNLKLGNPTDRNVCFKVKTTAPRRYCVRPNSGIIDAGASINVSVMLQPFDYDPNEKSKHKFMVQSMFAPTDTSDMEAVWKEAKPEDLMDSKLRCVFELPAENDKPHDVEINKIISTTASKTETPIVSKSLSSSLDDTEVKKVMEECKRLQGEVQRLREENKQFKEEDGLRMRKTVQSNSPISALAPTGKEEGLSTRLLALVVLFFIVGVIIGKIAL",
+        "n_residues": 243,
+        "mutation_pos_1indexed": 111,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "K3-P111-E112-L114",
+        "pocket_lining_positions_precursor": [
+          3,
+          111,
+          112,
+          114
+        ],
+        "pocket_lining_1letter": "KPEL",
+        "sequence_slice_around_pocket": "DMEAVWKEAKPEDLMDSKLR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/VAPB_P111L/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "K3",
+          "P111",
+          "E112",
+          "L114"
+        ],
+        "values": [
+          [
+            0.0,
+            8.441,
+            6.408,
+            7.737
+          ],
+          [
+            8.441,
+            0.0,
+            3.86,
+            5.338
+          ],
+          [
+            6.408,
+            3.86,
+            0.0,
+            5.558
+          ],
+          [
+            7.737,
+            5.338,
+            5.558,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(O)Cc1ccc(O)cc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.757985018845458,
+        "mw": 333.24,
+        "logp": 2.057,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.7691,
+        "sa_score": 3.41,
+        "n_heavy_atoms": 24,
+        "tpsa": 73.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "VAPB-P111L Candidate #1",
+        "iupac_name": "NCC(O)Cc1ccc(O)cc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.758,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/VAPB_P111L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/VAPB_P111L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/VAPB_P111L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/VAPB_P111L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/VAPB_P111L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VAPB-P111L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VAPB-P111L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:18:08.580924+00:00"
     }
   ]
 }
