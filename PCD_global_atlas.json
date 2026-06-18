@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1907,
+  "total_entries": 1908,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46591,
-    "queue_remaining": 132006
+    "total_processed": 46592,
+    "queue_remaining": 132005
   },
   "entries": [
     {
@@ -433694,6 +433694,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:56:43.517661+00:00"
+    },
+    {
+      "entry_id": "PCD-TECRL-R196Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TECRL-R196Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TECRL",
+        "uniprot": "",
+        "clinvar_id": "372284",
+        "disease": "Catecholaminergic polymorphic ventricular tachycardia 3",
+        "mutation_precursor": "R196Q",
+        "mutation_mature": "R196Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8003251959970225,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 621.9468631944522,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.544239044189453,
+          9.180402755737305,
+          -0.6198205947875977
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.666927511804231,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6766562091247608,
+        "cryptic": true,
+        "pocket_residues": {
+          "I195": "I",
+          "R196": "R",
+          "Y197": "Y",
+          "L198": "L",
+          "L199": "L",
+          "E200": "E",
+          "T201": "T",
+          "L202": "L",
+          "F203": "F",
+          "V204": "V"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q5HYJ1|TECRL variant R196Q",
+        "fasta_sequence": "MFKRHKSLASERKRALLSQRATRFILKDDMRNFHFLSKLVLSAGPLRPTPAVKHSKTTHFEIEIFDAQTRKQICILDKVTQSSTIHDVKQKFHKACPKWYPSRVGLQLECGGPFLKDYITIQSIAASSIVTLYATDLGQQVSWTTVFLAEYTGPLLIYLLFYLRIPCIYDGKESARRLRHPVVHLACFCHCIHYIRYLLETLFVHKVSAGHTPLKNLIMSCAFYWGFTSWIAYYINHPLYTPPSFGNRQITVSAINFLICEAGNHFINVMLSHPNHTGNNACFPSPNYNPFTWMFFLVSCPNYTYEIGSWISFTVMTQTLPVGIFTLLMSIQMSLWAQKKHKIYLRKFNSYIHRKSAMIPFIL",
+        "full_sequence": "MFKRHKSLASERKRALLSQRATRFILKDDMRNFHFLSKLVLSAGPLRPTPAVKHSKTTHFEIEIFDAQTRKQICILDKVTQSSTIHDVKQKFHKACPKWYPSRVGLQLECGGPFLKDYITIQSIAASSIVTLYATDLGQQVSWTTVFLAEYTGPLLIYLLFYLRIPCIYDGKESARRLRHPVVHLACFCHCIHYIRYLLETLFVHKVSAGHTPLKNLIMSCAFYWGFTSWIAYYINHPLYTPPSFGNRQITVSAINFLICEAGNHFINVMLSHPNHTGNNACFPSPNYNPFTWMFFLVSCPNYTYEIGSWISFTVMTQTLPVGIFTLLMSIQMSLWAQKKHKIYLRKFNSYIHRKSAMIPFIL",
+        "n_residues": 363,
+        "mutation_pos_1indexed": 196,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "I195-R196-Y197-L198-L199-E200-T201-L202-F203-V204",
+        "pocket_lining_positions_precursor": [
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "pocket_lining_1letter": "IRYLLETLFV",
+        "sequence_slice_around_pocket": "ACFCHCIHYIRYLLETLFVH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TECRL_R196Q/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "I195",
+          "R196",
+          "Y197",
+          "L198",
+          "L199",
+          "E200",
+          "T201",
+          "L202",
+          "F203",
+          "V204"
+        ],
+        "values": [
+          [
+            0.0,
+            3.862,
+            5.413,
+            5.07,
+            6.123,
+            8.474,
+            9.783,
+            10.624,
+            11.966,
+            12.854
+          ],
+          [
+            3.862,
+            0.0,
+            3.841,
+            5.481,
+            5.134,
+            5.918,
+            8.416,
+            9.853,
+            10.241,
+            10.145
+          ],
+          [
+            5.413,
+            3.841,
+            0.0,
+            3.848,
+            5.609,
+            5.165,
+            6.058,
+            8.672,
+            10.061,
+            9.621
+          ],
+          [
+            5.07,
+            5.481,
+            3.848,
+            0.0,
+            3.851,
+            5.531,
+            5.117,
+            6.286,
+            8.652,
+            9.692
+          ],
+          [
+            6.123,
+            5.134,
+            5.609,
+            3.851,
+            0.0,
+            3.845,
+            5.442,
+            5.117,
+            5.849,
+            7.349
+          ],
+          [
+            8.474,
+            5.918,
+            5.165,
+            5.531,
+            3.845,
+            0.0,
+            3.844,
+            5.46,
+            5.301,
+            4.569
+          ],
+          [
+            9.783,
+            8.416,
+            6.058,
+            5.117,
+            5.442,
+            3.844,
+            0.0,
+            3.844,
+            5.976,
+            6.061
+          ],
+          [
+            10.624,
+            9.853,
+            8.672,
+            6.286,
+            5.117,
+            5.46,
+            3.844,
+            0.0,
+            3.831,
+            6.315
+          ],
+          [
+            11.966,
+            10.241,
+            10.061,
+            8.652,
+            5.849,
+            5.301,
+            5.976,
+            3.831,
+            0.0,
+            3.868
+          ],
+          [
+            12.854,
+            10.145,
+            9.621,
+            9.692,
+            7.349,
+            4.569,
+            6.061,
+            6.315,
+            3.868,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CCNCc1ccc(O)cc1",
+        "composite_score": 0.8207641439206941,
+        "mw": 418.2,
+        "logp": 2.037,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.4868,
+        "sa_score": 2.91,
+        "n_heavy_atoms": 29,
+        "tpsa": 121.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TECRL-R196Q Candidate #1",
+        "iupac_name": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1CCNCc1ccc(O)cc1",
+        "pocket_affinity_score": 0.8208,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TECRL_R196Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TECRL_R196Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TECRL_R196Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TECRL_R196Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TECRL_R196Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TECRL-R196Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TECRL-R196Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:57:08.393591+00:00"
     }
   ]
 }
