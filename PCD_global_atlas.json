@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2372,
+  "total_entries": 2373,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47114,
-    "queue_remaining": 131483
+    "total_processed": 47115,
+    "queue_remaining": 131482
   },
   "entries": [
     {
@@ -552902,6 +552902,155 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T12:23:03.431680+00:00"
+    },
+    {
+      "entry_id": "PCD-KCNJ11-T62R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNJ11-T62R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KCNJ11",
+        "uniprot": "",
+        "clinvar_id": "373928",
+        "disease": "Hyperinsulinemia;Atopic eczema;Hypoglycemia;Hypertrichosis",
+        "mutation_precursor": "T62R",
+        "mutation_mature": "T62R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7489596397258345,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 392.21802004446585,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          6.118940353393555,
+          -6.387144088745117,
+          -7.799706935882568
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.144671135076289,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7984377974950558,
+        "cryptic": true,
+        "pocket_residues": {
+          "F55": "F",
+          "T62": "T",
+          "L63": "L",
+          "D65": "D",
+          "L66": "L"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q14654|KCNJ11 variant T62R",
+        "fasta_sequence": "MLSRKGIIPEEYVLTRLAEDPAKPRYRARQRRARFVSKKGNCNVAHKNIREQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDEDHSLLEALTLASARGPLRKRSVPMAKAKPKFSISPDSLS",
+        "full_sequence": "MLSRKGIIPEEYVLTRLAEDPAKPRYRARQRRARFVSKKGNCNVAHKNIREQGRFLQDVFTTLVDLKWPHTLLIFTMSFLCSWLLFAMAWWLIAFAHGDLAPSEGTAEPCVTSIHSFSSAFLFSIEVQVTIGFGGRMVTEECPLAILILIVQNIVGLMINAIMLGCIFMKTAQAHRRAETLIFSKHAVIALRHGRLCFMLRVGDLRKSMIISATIHMQVVRKTTSPEGEVVPLHQVDIPMENGVGGNSIFLVAPLIIYHVIDANSPLYDLAPSDLHHHQDLEIIVILEGVVETTGITTQARTSYLADEILWGQRFVPIVAEEDGRYSVDYSKFGNTVKVPTPLCTARQLDEDHSLLEALTLASARGPLRKRSVPMAKAKPKFSISPDSLS",
+        "n_residues": 390,
+        "mutation_pos_1indexed": 62,
+        "wt_aa": "T",
+        "mut_aa": "R",
+        "pocket_lining_residues": "F55-T62-L63-D65-L66",
+        "pocket_lining_positions_precursor": [
+          55,
+          62,
+          63,
+          65,
+          66
+        ],
+        "pocket_lining_1letter": "FTLDL",
+        "sequence_slice_around_pocket": "QGRFLQDVFTTLVDLKWPHT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ11_T62R/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "F55",
+          "T62",
+          "L63",
+          "D65",
+          "L66"
+        ],
+        "values": [
+          [
+            0.0,
+            6.75,
+            10.075,
+            11.201,
+            11.841
+          ],
+          [
+            6.75,
+            0.0,
+            3.856,
+            5.191,
+            6.237
+          ],
+          [
+            10.075,
+            3.856,
+            0.0,
+            5.574,
+            5.369
+          ],
+          [
+            11.201,
+            5.191,
+            5.574,
+            0.0,
+            3.851
+          ],
+          [
+            11.841,
+            6.237,
+            5.369,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8277897136779296,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KCNJ11-T62R Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8278,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ11_T62R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ11_T62R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ11_T62R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ11_T62R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNJ11_T62R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNJ11-T62R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNJ11-T62R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T12:23:30.164447+00:00"
     }
   ]
 }
