@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2020,
+  "total_entries": 2021,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46724,
-    "queue_remaining": 131873
+    "total_processed": 46726,
+    "queue_remaining": 131871
   },
   "entries": [
     {
@@ -460601,6 +460601,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:40:30.564564+00:00"
+    },
+    {
+      "entry_id": "PCD-EPM2A-N163D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EPM2A-N163D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "EPM2A",
+        "uniprot": "",
+        "clinvar_id": "373201",
+        "disease": "not provided",
+        "mutation_precursor": "N163D",
+        "mutation_mature": "N163D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7256057477936354,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 388.2042079742718,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -48.892333984375,
+          -2.260793685913086,
+          30.541852951049805
+        ],
+        "dist_mutation_to_pocket_angstrom": 0.9014859750171523,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7014512238135591,
+        "cryptic": true,
+        "pocket_residues": {
+          "G161": "G",
+          "A162": "A",
+          "E163": "E",
+          "R164": "R",
+          "E165": "E"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|B3EWF7|EPM2A variant N163D",
+        "fasta_sequence": "MHPKEGAEQHVFSPVPGAPTPPPNRCGRLVLGPRLPAAGTPGPGIRAAAARHALPLWGGGATRRGRRPAGAAGGGVAARAGALGAARCRPPEAGRHRGGRRGPGPAGAGPVARGGGAGGRGGGAGRGGAGPRGHVLVQVPEAGAGRRALLGRYCQQTPAPGAERELRPAPPTGASASGRPRRPRRRASRAFCPRPCALPGRPGLTLLCRPRCRRQPRLRLPTDSLDPYSAPGRLPAHSVACPSDLVSAHPVLSFFPTAPASRASALRLPPGAPFALRVPLDLRVPPFAGPLAARPRAADGFNSPTPPWLGFVSSFSCSNSLKKTQNDPTNETSVFANPRQQCAT",
+        "full_sequence": "MHPKEGAEQHVFSPVPGAPTPPPNRCGRLVLGPRLPAAGTPGPGIRAAAARHALPLWGGGATRRGRRPAGAAGGGVAARAGALGAARCRPPEAGRHRGGRRGPGPAGAGPVARGGGAGGRGGGAGRGGAGPRGHVLVQVPEAGAGRRALLGRYCQQTPAPGAERELRPAPPTGASASGRPRRPRRRASRAFCPRPCALPGRPGLTLLCRPRCRRQPRLRLPTDSLDPYSAPGRLPAHSVACPSDLVSAHPVLSFFPTAPASRASALRLPPGAPFALRVPLDLRVPPFAGPLAARPRAADGFNSPTPPWLGFVSSFSCSNSLKKTQNDPTNETSVFANPRQQCAT",
+        "n_residues": 344,
+        "mutation_pos_1indexed": 163,
+        "wt_aa": "N",
+        "mut_aa": "D",
+        "pocket_lining_residues": "G161-A162-E163-R164-E165",
+        "pocket_lining_positions_precursor": [
+          161,
+          162,
+          163,
+          164,
+          165
+        ],
+        "pocket_lining_1letter": "GAERE",
+        "sequence_slice_around_pocket": "YCQQTPAPGAERELRPAPPT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/EPM2A_N163D/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "G161",
+          "A162",
+          "E163",
+          "R164",
+          "E165"
+        ],
+        "values": [
+          [
+            0.0,
+            3.753,
+            5.991,
+            9.424,
+            12.065
+          ],
+          [
+            3.753,
+            0.0,
+            3.806,
+            6.315,
+            8.787
+          ],
+          [
+            5.991,
+            3.806,
+            0.0,
+            3.733,
+            6.96
+          ],
+          [
+            9.424,
+            6.315,
+            3.733,
+            0.0,
+            3.716
+          ],
+          [
+            12.065,
+            8.787,
+            6.96,
+            3.716,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCc1ccc(OC)cc1N1CCCCC1O",
+        "composite_score": 0.6909328397441886,
+        "mw": 264.18,
+        "logp": 1.766,
+        "hbd": 2,
+        "hba": 4,
+        "rotatable_bonds": 5,
+        "qed": 0.8505,
+        "sa_score": 2.84,
+        "n_heavy_atoms": 19,
+        "tpsa": 44.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "EPM2A-N163D Candidate #1",
+        "iupac_name": "CNCCc1ccc(OC)cc1N1CCCCC1O",
+        "pocket_affinity_score": 0.6909,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/EPM2A_N163D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/EPM2A_N163D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/EPM2A_N163D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/EPM2A_N163D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/EPM2A_N163D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EPM2A-N163D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EPM2A-N163D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:41:09.512514+00:00"
     }
   ]
 }
