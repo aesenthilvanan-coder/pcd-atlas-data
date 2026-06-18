@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2242,
+  "total_entries": 2243,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46977,
-    "queue_remaining": 131620
+    "total_processed": 46978,
+    "queue_remaining": 131619
   },
   "entries": [
     {
@@ -516219,6 +516219,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T10:28:15.198303+00:00"
+    },
+    {
+      "entry_id": "PCD-GALNS-G304V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALNS-G304V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GALNS",
+        "uniprot": "",
+        "clinvar_id": "373413",
+        "disease": "not specified",
+        "mutation_precursor": "G304V",
+        "mutation_mature": "G304V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7288017394195989,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 638.9226695253324,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -18.233518600463867,
+          0.8341073989868164,
+          -15.002095222473145
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.1594304750003932,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6912867260780081,
+        "cryptic": true,
+        "pocket_residues": {
+          "W43": "W",
+          "G44": "G",
+          "S302": "S",
+          "N303": "N",
+          "G304": "G",
+          "P305": "P",
+          "F306": "F",
+          "L307": "L",
+          "G316": "G"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P34059|GALNS variant G304V",
+        "fasta_sequence": "MAAVVAATRWWQLLLVLSAAGMGASGAPQPPNILLLLMDDMGWGDLGVYGEPSRETPNLDRMAAEGLLFPNFYSANPLCSPSRAALLTGRLPIRNGFYTTNAHARNAYTPQEIVGGIPDSEQLLPELLKKAGYVSKIVGKWHLGHRPQFHPLKHGFDEWFGSPNCHFGPYDNKARPNIPVYRDWEMVGRYYEEFPINLKTGEANLTQIYLQEALDFIKRQARHHPFFLYWAVDATHAPVYASKPFLGTSQRGRYGDAVREIDDSIGKILELLQDLHVADNTFVFFTSDNGAALISAPEQGGSNGPFLCGKQTTFEGGMREPALAWWPGHVTAGQVSHQLGSIMDLFTTSLALAGLTPPSDRAIDGLNLLPTLLQGRLMDRPIFYYRGDTLMAATLGQHKAHFWTWTNSWENFRQGIDFCPGQNVSGVTTHNLEDHTKLPLIFHLGRDPGERFPLSFASAEYQEALSRITSVVQQHQEALVPAQPQLNVCNWAVMNWAPPGCEKLGKCLTPPESIPKKCLWSH",
+        "full_sequence": "MAAVVAATRWWQLLLVLSAAGMGASGAPQPPNILLLLMDDMGWGDLGVYGEPSRETPNLDRMAAEGLLFPNFYSANPLCSPSRAALLTGRLPIRNGFYTTNAHARNAYTPQEIVGGIPDSEQLLPELLKKAGYVSKIVGKWHLGHRPQFHPLKHGFDEWFGSPNCHFGPYDNKARPNIPVYRDWEMVGRYYEEFPINLKTGEANLTQIYLQEALDFIKRQARHHPFFLYWAVDATHAPVYASKPFLGTSQRGRYGDAVREIDDSIGKILELLQDLHVADNTFVFFTSDNGAALISAPEQGGSNGPFLCGKQTTFEGGMREPALAWWPGHVTAGQVSHQLGSIMDLFTTSLALAGLTPPSDRAIDGLNLLPTLLQGRLMDRPIFYYRGDTLMAATLGQHKAHFWTWTNSWENFRQGIDFCPGQNVSGVTTHNLEDHTKLPLIFHLGRDPGERFPLSFASAEYQEALSRITSVVQQHQEALVPAQPQLNVCNWAVMNWAPPGCEKLGKCLTPPESIPKKCLWSH",
+        "n_residues": 522,
+        "mutation_pos_1indexed": 304,
+        "wt_aa": "G",
+        "mut_aa": "V",
+        "pocket_lining_residues": "W43-G44-S302-N303-G304-P305-F306-L307-G316",
+        "pocket_lining_positions_precursor": [
+          43,
+          44,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          316
+        ],
+        "pocket_lining_1letter": "WGSNGPFLG",
+        "sequence_slice_around_pocket": "ISAPEQGGSNGPFLCGKQTT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GALNS_G304V/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "W43",
+          "G44",
+          "S302",
+          "N303",
+          "G304",
+          "P305",
+          "F306",
+          "L307",
+          "G316"
+        ],
+        "values": [
+          [
+            0.0,
+            3.855,
+            6.757,
+            4.846,
+            6.005,
+            8.605,
+            8.198,
+            11.045,
+            7.305
+          ],
+          [
+            3.855,
+            0.0,
+            4.825,
+            4.631,
+            3.909,
+            7.538,
+            8.62,
+            11.524,
+            9.109
+          ],
+          [
+            6.757,
+            4.825,
+            0.0,
+            3.821,
+            5.415,
+            8.826,
+            8.993,
+            10.39,
+            8.484
+          ],
+          [
+            4.846,
+            4.631,
+            3.821,
+            0.0,
+            3.85,
+            6.367,
+            5.55,
+            7.451,
+            5.056
+          ],
+          [
+            6.005,
+            3.909,
+            5.415,
+            3.85,
+            0.0,
+            3.869,
+            5.639,
+            8.565,
+            7.789
+          ],
+          [
+            8.605,
+            7.538,
+            8.826,
+            6.367,
+            3.869,
+            0.0,
+            3.848,
+            6.939,
+            8.01
+          ],
+          [
+            8.198,
+            8.62,
+            8.993,
+            5.55,
+            5.639,
+            3.848,
+            0.0,
+            3.812,
+            4.639
+          ],
+          [
+            11.045,
+            11.524,
+            10.39,
+            7.451,
+            8.565,
+            6.939,
+            3.812,
+            0.0,
+            4.994
+          ],
+          [
+            7.305,
+            9.109,
+            8.484,
+            5.056,
+            7.789,
+            8.01,
+            4.639,
+            4.994,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1NCNc1nc2ccccc2[nH]1",
+        "composite_score": 0.5966760334194983,
+        "mw": 436.22,
+        "logp": 2.015,
+        "hbd": 4,
+        "hba": 7,
+        "rotatable_bonds": 8,
+        "qed": 0.3999,
+        "sa_score": 3.53,
+        "n_heavy_atoms": 32,
+        "tpsa": 111.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GALNS-G304V Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1NCNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.5967,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GALNS_G304V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GALNS_G304V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GALNS_G304V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GALNS_G304V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GALNS_G304V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALNS-G304V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GALNS-G304V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T10:30:04.663070+00:00"
     }
   ]
 }
