@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2053,
+  "total_entries": 2054,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46759,
-    "queue_remaining": 131838
+    "total_processed": 46761,
+    "queue_remaining": 131836
   },
   "entries": [
     {
@@ -468763,6 +468763,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:03:45.862951+00:00"
+    },
+    {
+      "entry_id": "PCD-KCNK9-R131H",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNK9-R131H.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KCNK9",
+        "uniprot": "",
+        "clinvar_id": "372887",
+        "disease": "not provided",
+        "mutation_precursor": "R131H",
+        "mutation_mature": "R131H",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8635135469878593,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 356.8970752867531,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          16.9552001953125,
+          -11.011688232421875,
+          -9.438789367675781
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.873285146072672,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8364477535133937,
+        "cryptic": true,
+        "pocket_residues": {
+          "S127": "S",
+          "L128": "L",
+          "R131": "R"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NPC2|KCNK9 variant R131H",
+        "fasta_sequence": "MKRQNVRTLSLIVCTFTYLLVGAAVFDALESDHEMREEEKLKAEEIRIKGKYNISSEDYRQLELVILQSEPHRAGVQWKFAGSFYFAITVITTIGYGHAAPGTDAGKAFCMFYAVLGIPLTLVMFQSLGERMNTFVRYLLKRIKKCCGMRNTDVSMENMVTVGFFSCMGTLCIGAAAFSQCEEWSFFHAYYYCFITLTTIGFGDYVALQTKGALQKKPLYVAFSFMYILVGLTVIGAFLNLVVLRFLTMNSEDERRDAEERASLAGNRNSMVIHIPEEPRPSRPRYKADVPDLQSVCSCTCYRSQDYGGRSVAPQNSFSAKLAPHYFHSISYKIEEISPSTLKNSLFPSPISSISPGLHSFTDHQRLMKRRKSV",
+        "full_sequence": "MKRQNVRTLSLIVCTFTYLLVGAAVFDALESDHEMREEEKLKAEEIRIKGKYNISSEDYRQLELVILQSEPHRAGVQWKFAGSFYFAITVITTIGYGHAAPGTDAGKAFCMFYAVLGIPLTLVMFQSLGERMNTFVRYLLKRIKKCCGMRNTDVSMENMVTVGFFSCMGTLCIGAAAFSQCEEWSFFHAYYYCFITLTTIGFGDYVALQTKGALQKKPLYVAFSFMYILVGLTVIGAFLNLVVLRFLTMNSEDERRDAEERASLAGNRNSMVIHIPEEPRPSRPRYKADVPDLQSVCSCTCYRSQDYGGRSVAPQNSFSAKLAPHYFHSISYKIEEISPSTLKNSLFPSPISSISPGLHSFTDHQRLMKRRKSV",
+        "n_residues": 374,
+        "mutation_pos_1indexed": 131,
+        "wt_aa": "R",
+        "mut_aa": "H",
+        "pocket_lining_residues": "S127-L128-R131",
+        "pocket_lining_positions_precursor": [
+          127,
+          128,
+          131
+        ],
+        "pocket_lining_1letter": "SLR",
+        "sequence_slice_around_pocket": "TLVMFQSLGERMNTFVRYLL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KCNK9_R131H/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "S127",
+          "L128",
+          "R131"
+        ],
+        "values": [
+          [
+            0.0,
+            3.843,
+            6.418
+          ],
+          [
+            3.843,
+            0.0,
+            5.097
+          ],
+          [
+            6.418,
+            5.097,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccc(F)cc1N1CCCCC1",
+        "composite_score": 0.5589498005186377,
+        "mw": 236.13,
+        "logp": 1.957,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 3,
+        "qed": 0.8159,
+        "sa_score": 2.14,
+        "n_heavy_atoms": 17,
+        "tpsa": 46.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KCNK9-R131H Candidate #1",
+        "iupac_name": "NCC(=O)c1ccc(F)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.5589,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KCNK9_R131H/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KCNK9_R131H/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KCNK9_R131H/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNK9_R131H/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNK9_R131H/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNK9-R131H.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNK9-R131H-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:04:26.290972+00:00"
     }
   ]
 }
