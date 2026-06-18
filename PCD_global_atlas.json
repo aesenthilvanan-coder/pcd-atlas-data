@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2450,
+  "total_entries": 2451,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47212,
-    "queue_remaining": 131385
+    "total_processed": 47213,
+    "queue_remaining": 131384
   },
   "entries": [
     {
@@ -572774,6 +572774,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:39:34.603010+00:00"
+    },
+    {
+      "entry_id": "PCD-DNM1L-E379K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNM1L-E379K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "DNM1L",
+        "uniprot": "",
+        "clinvar_id": "374321",
+        "disease": "Encephalopathy, lethal, due to defective mitochondrial peroxisomal fission 1",
+        "mutation_precursor": "E379K",
+        "mutation_mature": "E379K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8091432213248163,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 595.3257596409017,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -41.39176940917969,
+          -21.918087005615234,
+          26.17782211303711
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.2826501525815415,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.834985544649342,
+        "cryptic": true,
+        "pocket_residues": {
+          "R376": "R",
+          "T377": "T",
+          "L378": "L",
+          "E379": "E",
+          "S380": "S",
+          "V381": "V",
+          "D382": "D"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O00429|DNM1L variant E379K",
+        "fasta_sequence": "MEALIPVINKLQDVFNTVGADIIQLPQIVVVGTQSSGKSSVLESLVGRDLLPRGTGIVTRRPLILQLVHVSQEDKRKTTGEENGVEAEEWGKFLHTKNKLYTDFDEIRQEIENETERISGNNKGVSPEPIHLKIFSPNVVNLTLVDLPGMTKVPVGDQPKDIELQIRELILRFISNPNSIILAVTAANTDMATSEALKISREVDPDGRRTLAVITKLDLMDAGTDAMDVLMGRVIPVKLGIIGVVNRSQLDINNKKSVTDSIRDEYAFLQKKYPSLANRNGTKYLARTLNRLLMHHIRDCLPELKTRINVLAAQYQSLLNSYGEPVDDKSATLLQLITKFATEYCNTIEGTAKYIETSELCGGARICYIFHETFGRTLESVDPLGGLNTIDILTAIRNATGPRPALFVPEVSFELLVKRQIKRLEEPSLRCVELVHEEMQRIIQHCSNYSTQELLRFPKLHDAIVEVVTCLLRKRLPVTNEMVHNLVAIELAYINTKHPDFADACGLMNNNIEEQRRNRLARELPSAVSRDKSSKVPSALAPASQEPSPAASAEADGKLIQDSRRETKNVASGGGGVGDGVQEPTTGNWRGMLKTSKAEELLAEEKSKPIPIMPASPQKGHAVNLLDVPVPVARKLSAREQRDCEVIERLIKSYFLIVRKNIQDSVPKAVMHFLVNHVKDTLQSELVGQLYKSSLLDDLLTESEDMAQRRKEAADMLKALQGASQIIAEIRETHLW",
+        "full_sequence": "MEALIPVINKLQDVFNTVGADIIQLPQIVVVGTQSSGKSSVLESLVGRDLLPRGTGIVTRRPLILQLVHVSQEDKRKTTGEENGVEAEEWGKFLHTKNKLYTDFDEIRQEIENETERISGNNKGVSPEPIHLKIFSPNVVNLTLVDLPGMTKVPVGDQPKDIELQIRELILRFISNPNSIILAVTAANTDMATSEALKISREVDPDGRRTLAVITKLDLMDAGTDAMDVLMGRVIPVKLGIIGVVNRSQLDINNKKSVTDSIRDEYAFLQKKYPSLANRNGTKYLARTLNRLLMHHIRDCLPELKTRINVLAAQYQSLLNSYGEPVDDKSATLLQLITKFATEYCNTIEGTAKYIETSELCGGARICYIFHETFGRTLESVDPLGGLNTIDILTAIRNATGPRPALFVPEVSFELLVKRQIKRLEEPSLRCVELVHEEMQRIIQHCSNYSTQELLRFPKLHDAIVEVVTCLLRKRLPVTNEMVHNLVAIELAYINTKHPDFADACGLMNNNIEEQRRNRLARELPSAVSRDKSSKVPSALAPASQEPSPAASAEADGKLIQDSRRETKNVASGGGGVGDGVQEPTTGNWRGMLKTSKAEELLAEEKSKPIPIMPASPQKGHAVNLLDVPVPVARKLSAREQRDCEVIERLIKSYFLIVRKNIQDSVPKAVMHFLVNHVKDTLQSELVGQLYKSSLLDDLLTESEDMAQRRKEAADMLKALQGASQIIAEIRETHLW",
+        "n_residues": 736,
+        "mutation_pos_1indexed": 379,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "R376-T377-L378-E379-S380-V381-D382",
+        "pocket_lining_positions_precursor": [
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382
+        ],
+        "pocket_lining_1letter": "RTLESVD",
+        "sequence_slice_around_pocket": "IFHETFGRTLESVDPLGGLN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/DNM1L_E379K/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "R376",
+          "T377",
+          "L378",
+          "E379",
+          "S380",
+          "V381",
+          "D382"
+        ],
+        "values": [
+          [
+            0.0,
+            3.846,
+            5.474,
+            4.902,
+            6.188,
+            8.896,
+            11.729
+          ],
+          [
+            3.846,
+            0.0,
+            3.836,
+            5.495,
+            5.244,
+            6.808,
+            10.323
+          ],
+          [
+            5.474,
+            3.836,
+            0.0,
+            3.85,
+            5.373,
+            5.253,
+            8.628
+          ],
+          [
+            4.902,
+            5.495,
+            3.85,
+            0.0,
+            3.859,
+            5.475,
+            7.561
+          ],
+          [
+            6.188,
+            5.244,
+            5.373,
+            3.859,
+            0.0,
+            3.857,
+            5.966
+          ],
+          [
+            8.896,
+            6.808,
+            5.253,
+            5.475,
+            3.857,
+            0.0,
+            3.804
+          ],
+          [
+            11.729,
+            10.323,
+            8.628,
+            7.561,
+            5.966,
+            3.804,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.6995418285229086,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "DNM1L-E379K Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.6995,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/DNM1L_E379K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/DNM1L_E379K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/DNM1L_E379K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNM1L_E379K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/DNM1L_E379K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNM1L-E379K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-DNM1L-E379K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:40:08.919560+00:00"
     }
   ]
 }
