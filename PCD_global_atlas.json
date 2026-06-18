@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1501,
+  "total_entries": 1502,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46150,
-    "queue_remaining": 132447
+    "total_processed": 46151,
+    "queue_remaining": 132446
   },
   "entries": [
     {
@@ -331878,6 +331878,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:32:39.893319+00:00"
+    },
+    {
+      "entry_id": "PCD-KLF1-P87A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KLF1-P87A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KLF1",
+        "uniprot": "",
+        "clinvar_id": "328323",
+        "disease": "Congenital dyserythropoietic anemia type 4",
+        "mutation_precursor": "P87A",
+        "mutation_mature": "P87A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7365726010640367,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 498.3105052550696,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.793785095214844,
+          16.924821853637695,
+          -6.359620094299316
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.727585426387113,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7026960600163733,
+        "cryptic": true,
+        "pocket_residues": {
+          "P85": "P",
+          "E86": "E",
+          "P87": "P",
+          "G88": "G",
+          "G89": "G"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13351|KLF1 variant P87A",
+        "fasta_sequence": "MATAETALPSISTLTALGPFPDTQDDFLKWWRSEEAQDMGPGPPDPTEPPLHVKSEDQPGEEEDDERGADATWDLDLLLTNFSGPEPGGAPQTCALAPSEASGAQYPPPPETLGAYAGGPGLVAGLLGSEDHSGWVRPALRARAPDAFVGPALAPAPAPEPKALALQPVYPGPGAGSSGGYFPRTGLSVPAASGAPYGLLSGYPAMYPAPQYQGHFQLFRGLQGPAPGPATSPSFLSCLGPGTVGTGLGGTAEDPGVIAETAPSKRGRRSWARKRQAAHTCAHPGCGKSYTKSSHLKAHLRTHTGEKPYACTWEGCGWRFARSDELTRHYRKHTGQRPFRCQLCPRAFSRSDHLALHMKRHL",
+        "full_sequence": "MATAETALPSISTLTALGPFPDTQDDFLKWWRSEEAQDMGPGPPDPTEPPLHVKSEDQPGEEEDDERGADATWDLDLLLTNFSGPEPGGAPQTCALAPSEASGAQYPPPPETLGAYAGGPGLVAGLLGSEDHSGWVRPALRARAPDAFVGPALAPAPAPEPKALALQPVYPGPGAGSSGGYFPRTGLSVPAASGAPYGLLSGYPAMYPAPQYQGHFQLFRGLQGPAPGPATSPSFLSCLGPGTVGTGLGGTAEDPGVIAETAPSKRGRRSWARKRQAAHTCAHPGCGKSYTKSSHLKAHLRTHTGEKPYACTWEGCGWRFARSDELTRHYRKHTGQRPFRCQLCPRAFSRSDHLALHMKRHL",
+        "n_residues": 362,
+        "mutation_pos_1indexed": 87,
+        "wt_aa": "P",
+        "mut_aa": "A",
+        "pocket_lining_residues": "P85-E86-P87-G88-G89",
+        "pocket_lining_positions_precursor": [
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "pocket_lining_1letter": "PEPGG",
+        "sequence_slice_around_pocket": "LLLTNFSGPEPGGAPQTCAL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KLF1_P87A/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "P85",
+          "E86",
+          "P87",
+          "G88",
+          "G89"
+        ],
+        "values": [
+          [
+            0.0,
+            3.835,
+            6.025,
+            9.119,
+            11.382
+          ],
+          [
+            3.835,
+            0.0,
+            3.879,
+            6.38,
+            8.019
+          ],
+          [
+            6.025,
+            3.879,
+            0.0,
+            3.828,
+            6.988
+          ],
+          [
+            9.119,
+            6.38,
+            3.828,
+            0.0,
+            3.839
+          ],
+          [
+            11.382,
+            8.019,
+            6.988,
+            3.839,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(O)Cc1ccc(O)cc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.6888362274837921,
+        "mw": 333.24,
+        "logp": 2.057,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.7691,
+        "sa_score": 3.41,
+        "n_heavy_atoms": 24,
+        "tpsa": 73.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KLF1-P87A Candidate #1",
+        "iupac_name": "NCC(O)Cc1ccc(O)cc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.6888,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KLF1_P87A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KLF1_P87A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KLF1_P87A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KLF1_P87A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KLF1_P87A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KLF1-P87A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KLF1-P87A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:33:03.385826+00:00"
     }
   ]
 }
