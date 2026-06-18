@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2464,
+  "total_entries": 2465,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47227,
-    "queue_remaining": 131370
+    "total_processed": 47229,
+    "queue_remaining": 131368
   },
   "entries": [
     {
@@ -576314,6 +576314,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:49:30.697876+00:00"
+    },
+    {
+      "entry_id": "PCD-LAS1L-R415W",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LAS1L-R415W.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LAS1L",
+        "uniprot": "",
+        "clinvar_id": "374326",
+        "disease": "Wilson-Turner syndrome",
+        "mutation_precursor": "R415W",
+        "mutation_mature": "R415W",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8269939953961649,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 510.77013465872545,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.2252354621887207,
+          2.3713274002075195,
+          4.125208854675293
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.542718914029609,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8085780829966929,
+        "cryptic": true,
+        "pocket_residues": {
+          "L327": "L",
+          "D328": "D",
+          "D329": "D",
+          "V333": "V",
+          "E405": "E",
+          "L406": "L",
+          "A408": "A",
+          "L409": "L",
+          "R415": "R",
+          "P416": "P",
+          "I419": "I"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y4W2|LAS1L variant R415W",
+        "fasta_sequence": "MSWESGAGPGLGSQGMDLVWSAWYGKCVKGKGSLPLSAHGIVVAWLSRAEWDQVTVYLFCDDHKLQRYALNRITVWRSRSGNELPLAVASTADLIRCKLLDVTGGLGTDELRLLYGMALVRFVNLISERKTKFAKVPLKCLAQEVNIPDWIVDLRHELTHKKMPHINDCRRGCYFVLDWLQKTYWCRQLENSLRETWELEEFREGIEEEDQEEDKNIVVDDITEQKPEPQDDGKSTESDVKADGDSKGSEEVDSHCKKALSHKELYERARELLVSYEEEQFTVLEKFRYLPKAIKAWNNPSPRVECVLAELKGVTCENREAVLDAFLDDGFLVPTFEQLAALQIEYEDGQTEVQRGEGTDPKSHKNVDLNDVLVPKPFSQFWQPLLRGLHSQNFTQALLERMLSELPALGISGIRPTYILRWTVELIVANTKTGRNARRFSAGQWEARRGWRLFNCSASLDWPRMVESCLGSPCWASPQLLRIIFKAMGQGLPDEEQEKLLRICSIYTQSGENSLVQEGSEASPIGKSPYTLDSLYWSVKPASSSFGSEAKAQQQEEQGSVNDVKEEEKEEKEVLPDQVEEEEENDDQEEEEEDEDDEDDEEEDRMEVGPFSTGQESPTAENARLLAQKRGALQGSAWQVSSEDVRWDTFPLGRMPGQTEDPAELMLENYDTMYLLDQPVLEQRLEPSTCKTDTLGLSCGVGSGNCSNSSSSNFEGLLWSQGQLHGLKTGLQLF",
+        "full_sequence": "MSWESGAGPGLGSQGMDLVWSAWYGKCVKGKGSLPLSAHGIVVAWLSRAEWDQVTVYLFCDDHKLQRYALNRITVWRSRSGNELPLAVASTADLIRCKLLDVTGGLGTDELRLLYGMALVRFVNLISERKTKFAKVPLKCLAQEVNIPDWIVDLRHELTHKKMPHINDCRRGCYFVLDWLQKTYWCRQLENSLRETWELEEFREGIEEEDQEEDKNIVVDDITEQKPEPQDDGKSTESDVKADGDSKGSEEVDSHCKKALSHKELYERARELLVSYEEEQFTVLEKFRYLPKAIKAWNNPSPRVECVLAELKGVTCENREAVLDAFLDDGFLVPTFEQLAALQIEYEDGQTEVQRGEGTDPKSHKNVDLNDVLVPKPFSQFWQPLLRGLHSQNFTQALLERMLSELPALGISGIRPTYILRWTVELIVANTKTGRNARRFSAGQWEARRGWRLFNCSASLDWPRMVESCLGSPCWASPQLLRIIFKAMGQGLPDEEQEKLLRICSIYTQSGENSLVQEGSEASPIGKSPYTLDSLYWSVKPASSSFGSEAKAQQQEEQGSVNDVKEEEKEEKEVLPDQVEEEEENDDQEEEEEDEDDEDDEEEDRMEVGPFSTGQESPTAENARLLAQKRGALQGSAWQVSSEDVRWDTFPLGRMPGQTEDPAELMLENYDTMYLLDQPVLEQRLEPSTCKTDTLGLSCGVGSGNCSNSSSSNFEGLLWSQGQLHGLKTGLQLF",
+        "n_residues": 734,
+        "mutation_pos_1indexed": 415,
+        "wt_aa": "R",
+        "mut_aa": "W",
+        "pocket_lining_residues": "L327-D328-D329-V333-E405-L406-A408-L409-R415-P416-I419",
+        "pocket_lining_positions_precursor": [
+          327,
+          328,
+          329,
+          333,
+          405,
+          406,
+          408,
+          409,
+          415,
+          416,
+          419
+        ],
+        "pocket_lining_1letter": "LDDVELALRPI",
+        "sequence_slice_around_pocket": "ELPALGISGIRPTYILRWTV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LAS1L_R415W/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "L327",
+          "D328",
+          "D329",
+          "V333",
+          "E405",
+          "L406",
+          "A408",
+          "L409",
+          "R415",
+          "P416",
+          "I419"
+        ],
+        "values": [
+          [
+            0.0,
+            3.794,
+            6.599,
+            6.318,
+            9.068,
+            11.303,
+            13.218,
+            12.517,
+            8.88,
+            10.726,
+            7.911
+          ],
+          [
+            3.794,
+            0.0,
+            3.788,
+            6.443,
+            11.142,
+            13.306,
+            13.943,
+            13.064,
+            8.907,
+            11.742,
+            10.332
+          ],
+          [
+            6.599,
+            3.788,
+            0.0,
+            4.962,
+            13.13,
+            14.408,
+            14.973,
+            13.208,
+            7.453,
+            11.066,
+            10.61
+          ],
+          [
+            6.318,
+            6.443,
+            4.962,
+            0.0,
+            12.253,
+            12.649,
+            14.947,
+            12.597,
+            5.557,
+            8.551,
+            6.788
+          ],
+          [
+            9.068,
+            11.142,
+            13.13,
+            12.253,
+            0.0,
+            3.864,
+            5.828,
+            6.941,
+            10.055,
+            8.696,
+            8.29
+          ],
+          [
+            11.303,
+            13.306,
+            14.408,
+            12.649,
+            3.864,
+            0.0,
+            5.516,
+            5.197,
+            9.268,
+            6.552,
+            7.435
+          ],
+          [
+            13.218,
+            13.943,
+            14.973,
+            14.947,
+            5.828,
+            5.516,
+            0.0,
+            3.853,
+            10.845,
+            9.162,
+            11.73
+          ],
+          [
+            12.517,
+            13.064,
+            13.208,
+            12.597,
+            6.941,
+            5.197,
+            3.853,
+            0.0,
+            7.737,
+            5.799,
+            9.593
+          ],
+          [
+            8.88,
+            8.907,
+            7.453,
+            5.557,
+            10.055,
+            9.268,
+            10.845,
+            7.737,
+            0.0,
+            3.879,
+            6.09
+          ],
+          [
+            10.726,
+            11.742,
+            11.066,
+            8.551,
+            8.696,
+            6.552,
+            9.162,
+            5.799,
+            3.879,
+            0.0,
+            5.242
+          ],
+          [
+            7.911,
+            10.332,
+            10.61,
+            6.788,
+            8.29,
+            7.435,
+            11.73,
+            9.593,
+            6.09,
+            5.242,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CCCCC1NCCNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.8225284802785655,
+        "mw": 365.23,
+        "logp": 2.236,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 7,
+        "qed": 0.4798,
+        "sa_score": 3.25,
+        "n_heavy_atoms": 27,
+        "tpsa": 94.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LAS1L-R415W Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CCCCC1NCCNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8225,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LAS1L_R415W/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LAS1L_R415W/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LAS1L_R415W/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LAS1L_R415W/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LAS1L_R415W/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LAS1L-R415W.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LAS1L-R415W-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:50:19.444281+00:00"
     }
   ]
 }
