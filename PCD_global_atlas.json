@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1862,
+  "total_entries": 1863,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46546,
-    "queue_remaining": 132051
+    "total_processed": 46547,
+    "queue_remaining": 132050
   },
   "entries": [
     {
@@ -420300,6 +420300,189 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:37:15.890112+00:00"
+    },
+    {
+      "entry_id": "PCD-FOXE3-E103K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXE3-E103K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FOXE3",
+        "uniprot": "",
+        "clinvar_id": "372170",
+        "disease": "Cataract 34 multiple types",
+        "mutation_precursor": "E103K",
+        "mutation_mature": "E103K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9319441700762712,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 435.44463140803447,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          0.7400044202804565,
+          0.6036638021469116,
+          14.967093467712402
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.2289729540267436,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7508917831463425,
+        "cryptic": true,
+        "pocket_residues": {
+          "F100": "F",
+          "I101": "I",
+          "T102": "T",
+          "E103": "E",
+          "R104": "R",
+          "F105": "F",
+          "A106": "A"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q13461|FOXE3 variant E103K",
+        "fasta_sequence": "MAGRSDMDPPAAFSGFPALPAVAPSGPPPSPLAGAEPGREPEEAAAGRGEAAPTPAPGPGRRRRRPLQRGKPPYSYIALIAMALAHAPGRRLTLAAIYRFITERFAFYRDSPRKWQNSIRHNLTLNDCFVKVPREPGNPGKGNYWTLDPAAADMFDNGSFLRRRKRFKRAELPAHAAAAPGPPLPFPYAPYAPAPGPALLVPPPSAGPGPSPPARLFSVDSLVNLQPELAGLGAPEPPCCAAPDAAAAAFPPCAAAASPPLYSQVPDRLVLPATRPGPGPLPAEPLLALAGPAAALGPLSPGEAYLRQPGFASGLERYL",
+        "full_sequence": "MAGRSDMDPPAAFSGFPALPAVAPSGPPPSPLAGAEPGREPEEAAAGRGEAAPTPAPGPGRRRRRPLQRGKPPYSYIALIAMALAHAPGRRLTLAAIYRFITERFAFYRDSPRKWQNSIRHNLTLNDCFVKVPREPGNPGKGNYWTLDPAAADMFDNGSFLRRRKRFKRAELPAHAAAAPGPPLPFPYAPYAPAPGPALLVPPPSAGPGPSPPARLFSVDSLVNLQPELAGLGAPEPPCCAAPDAAAAAFPPCAAAASPPLYSQVPDRLVLPATRPGPGPLPAEPLLALAGPAAALGPLSPGEAYLRQPGFASGLERYL",
+        "n_residues": 319,
+        "mutation_pos_1indexed": 103,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "F100-I101-T102-E103-R104-F105-A106",
+        "pocket_lining_positions_precursor": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106
+        ],
+        "pocket_lining_1letter": "FITERFA",
+        "sequence_slice_around_pocket": "TLAAIYRFITERFAFYRDSP"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FOXE3_E103K/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "F100",
+          "I101",
+          "T102",
+          "E103",
+          "R104",
+          "F105",
+          "A106"
+        ],
+        "values": [
+          [
+            0.0,
+            3.85,
+            5.654,
+            5.258,
+            6.204,
+            8.413,
+            10.584
+          ],
+          [
+            3.85,
+            0.0,
+            3.869,
+            5.573,
+            5.409,
+            5.757,
+            8.177
+          ],
+          [
+            5.654,
+            3.869,
+            0.0,
+            3.844,
+            5.652,
+            5.292,
+            5.727
+          ],
+          [
+            5.258,
+            5.573,
+            3.844,
+            0.0,
+            3.851,
+            5.849,
+            6.655
+          ],
+          [
+            6.204,
+            5.409,
+            5.652,
+            3.851,
+            0.0,
+            3.843,
+            6.554
+          ],
+          [
+            8.413,
+            5.757,
+            5.292,
+            5.849,
+            3.843,
+            0.0,
+            3.837
+          ],
+          [
+            10.584,
+            8.177,
+            5.727,
+            6.655,
+            6.554,
+            3.837,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8956398539146311,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FOXE3-E103K Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8956,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FOXE3_E103K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FOXE3_E103K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FOXE3_E103K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXE3_E103K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXE3_E103K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXE3-E103K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXE3-E103K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:37:40.847254+00:00"
     }
   ]
 }
