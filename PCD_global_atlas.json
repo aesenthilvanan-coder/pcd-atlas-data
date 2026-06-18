@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2140,
+  "total_entries": 2141,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46857,
-    "queue_remaining": 131740
+    "total_processed": 46859,
+    "queue_remaining": 131738
   },
   "entries": [
     {
@@ -490494,6 +490494,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T08:11:40.094250+00:00"
+    },
+    {
+      "entry_id": "PCD-AKT1-Q79R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AKT1-Q79R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AKT1",
+        "uniprot": "",
+        "clinvar_id": "373773",
+        "disease": "not provided",
+        "mutation_precursor": "Q79R",
+        "mutation_mature": "Q79R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7567547482368997,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 420.22573365250804,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          7.593513488769531,
+          18.176645278930664,
+          19.50494956970215
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.350137035234244,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8862509679625624,
+        "cryptic": true,
+        "pocket_residues": {
+          "C77": "C",
+          "L78": "L",
+          "Q79": "Q",
+          "W80": "W",
+          "T81": "T",
+          "T82": "T",
+          "V83": "V",
+          "I84": "I"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P31749|AKT1 variant Q79R",
+        "fasta_sequence": "MSDVAIVKEGWLHKRGEYIKTWRPRYFLLKNDGTFIGYKERPQDVDQREAPLNNFSVAQCQLMKTERPRPNTFIIRCLQWTTVIERTFHVETPEEREEWTTAIQTVADGLKKQEEEEMDFRSGSPSDNSGAEEMEVSLAKPKHRVTMNEFEYLKLLGKGTFGKVILVKEKATGRYYAMKILKKEVIVAKDEVAHTLTENRVLQNSRHPFLTALKYSFQTHDRLCFVMEYANGGELFFHLSRERVFSEDRARFYGAEIVSALDYLHSEKNVVYRDLKLENLMLDKDGHIKITDFGLCKEGIKDGATMKTFCGTPEYLAPEVLEDNDYGRAVDWWGLGVVMYEMMCGRLPFYNQDHEKLFELILMEEIRFPRTLGPEAKSLLSGLLKKDPKQRLGGGSEDAKEIMQHRFFAGIVWQHVYEKKLSPPFKPQVTSETDTRYFDEEFTAQMITITPPDQDDSMECVDSERRPHFPQFSYSASGTA",
+        "full_sequence": "MSDVAIVKEGWLHKRGEYIKTWRPRYFLLKNDGTFIGYKERPQDVDQREAPLNNFSVAQCQLMKTERPRPNTFIIRCLQWTTVIERTFHVETPEEREEWTTAIQTVADGLKKQEEEEMDFRSGSPSDNSGAEEMEVSLAKPKHRVTMNEFEYLKLLGKGTFGKVILVKEKATGRYYAMKILKKEVIVAKDEVAHTLTENRVLQNSRHPFLTALKYSFQTHDRLCFVMEYANGGELFFHLSRERVFSEDRARFYGAEIVSALDYLHSEKNVVYRDLKLENLMLDKDGHIKITDFGLCKEGIKDGATMKTFCGTPEYLAPEVLEDNDYGRAVDWWGLGVVMYEMMCGRLPFYNQDHEKLFELILMEEIRFPRTLGPEAKSLLSGLLKKDPKQRLGGGSEDAKEIMQHRFFAGIVWQHVYEKKLSPPFKPQVTSETDTRYFDEEFTAQMITITPPDQDDSMECVDSERRPHFPQFSYSASGTA",
+        "n_residues": 480,
+        "mutation_pos_1indexed": 79,
+        "wt_aa": "Q",
+        "mut_aa": "R",
+        "pocket_lining_residues": "C77-L78-Q79-W80-T81-T82-V83-I84",
+        "pocket_lining_positions_precursor": [
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84
+        ],
+        "pocket_lining_1letter": "CLQWTTVI",
+        "sequence_slice_around_pocket": "RPNTFIIRCLQWTTVIERTF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AKT1_Q79R/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "C77",
+          "L78",
+          "Q79",
+          "W80",
+          "T81",
+          "T82",
+          "V83",
+          "I84"
+        ],
+        "values": [
+          [
+            0.0,
+            3.806,
+            6.225,
+            9.467,
+            10.122,
+            8.394,
+            5.856,
+            5.326
+          ],
+          [
+            3.806,
+            0.0,
+            3.82,
+            6.051,
+            6.527,
+            5.807,
+            4.737,
+            6.198
+          ],
+          [
+            6.225,
+            3.82,
+            0.0,
+            3.827,
+            5.949,
+            5.366,
+            6.32,
+            6.708
+          ],
+          [
+            9.467,
+            6.051,
+            3.827,
+            0.0,
+            3.865,
+            5.809,
+            8.272,
+            9.847
+          ],
+          [
+            10.122,
+            6.527,
+            5.949,
+            3.865,
+            0.0,
+            3.847,
+            6.793,
+            9.56
+          ],
+          [
+            8.394,
+            5.807,
+            5.366,
+            5.809,
+            3.847,
+            0.0,
+            3.811,
+            6.173
+          ],
+          [
+            5.856,
+            4.737,
+            6.32,
+            8.272,
+            6.793,
+            3.811,
+            0.0,
+            3.833
+          ],
+          [
+            5.326,
+            6.198,
+            6.708,
+            9.847,
+            9.56,
+            6.173,
+            3.833,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccc(O)cc1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6301051033673815,
+        "mw": 296.13,
+        "logp": 2.022,
+        "hbd": 4,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.5392,
+        "sa_score": 2.45,
+        "n_heavy_atoms": 22,
+        "tpsa": 104.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AKT1-Q79R Candidate #1",
+        "iupac_name": "NCC(=O)c1ccc(O)cc1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6301,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AKT1_Q79R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AKT1_Q79R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AKT1_Q79R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AKT1_Q79R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AKT1_Q79R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AKT1-Q79R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AKT1-Q79R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T08:12:20.514919+00:00"
     }
   ]
 }
