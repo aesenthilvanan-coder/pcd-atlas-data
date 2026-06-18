@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2000,
+  "total_entries": 2001,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46695,
-    "queue_remaining": 131902
+    "total_processed": 46696,
+    "queue_remaining": 131901
   },
   "entries": [
     {
@@ -455929,6 +455929,253 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:15:37.939836+00:00"
+    },
+    {
+      "entry_id": "PCD-AFG2A-P102S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AFG2A-P102S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AFG2A",
+        "uniprot": "",
+        "clinvar_id": "372957",
+        "disease": "not provided",
+        "mutation_precursor": "P102S",
+        "mutation_mature": "P102S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9058565543492493,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 355.37083028608464,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -7.790329933166504,
+          -10.627342224121094,
+          68.28921508789062
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.6394941332631598,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.728694787831005,
+        "cryptic": true,
+        "pocket_residues": {
+          "H69": "H",
+          "L70": "L",
+          "G71": "G",
+          "L72": "L",
+          "I82": "I",
+          "A100": "A",
+          "W101": "W",
+          "P102": "P",
+          "M103": "M",
+          "A104": "A"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q8NB90|AFG2A variant P102S",
+        "fasta_sequence": "MSSKKNRKRLNQSAENGSSLPSAASSCAEARAPSAGSDFAATSGTLTVTNLLEKVDDKIPKTFQNSLIHLGLNTMKSANICIGRPVLLTSLNGKQEVYTAWPMAGFPGGKVGLSEMAQKNVGVRPGDAIQVQPLVGAVLQAEEMDVALSDKDMEINEEELTGCILRKLDGKIVLPGNFLYCTFYGRPYKLQVLRVKGADGMILGGPQSDSDTDAQRMAFEQSSMETSSLELSLQLSQLDLEDTQIPTSRSTPYKPIDDRITNKASDVLLDVTQSPGDGSGLMLEEVTGLKCNFESAREGNEQLTEEERLLKFSIGAKCNTDTFYFISSTTRVNFTEIDKNSKEQDNQFKVTYDMIGGLSSQLKAIREIIELPLKQPELFKSYGIPAPRGVLLYGPPGTGKTMIARAVANEVGAYVSVINGPEIISKFYGETEAKLRQIFAEATLRHPSIIFIDELDALCPKREGAQNEVEKRVVASLLTLMDGIGSEVSEGQVLVLGATNRPHALDAALRRPGRFDKEIEIGVPNAQDRLDILQKLLRRVPHLLTEAELLQLANSAHGYVGADLKVLCNEAGLCALRRILKKQPNLPDVKVAGLVKITLKDFLQAMNDIRPSAMREIAIDVPNVSWSDIGGLESIKLKLEQAVEWPLKHPESFIRMGIQPPKGVLLYGPPGCSKTMIAKALANESGLNFLAIKGPELMNKYVGESERAVRETFRKARAVAPSIIFFDELDALAVERGSSLGAGNVADRVLAQLLTEMDGIEQLKDVTILAATNRPDRIDKALMRPGRIDRIIYVPLPDAATRREIFKLQFHSMPVSNEVDLDELILQTDAYSGAEIVAVCREAALLALEEDIQANLIMKRHFTQALSTVTPRIPESLRRFYEDYQEKSGLHTL",
+        "full_sequence": "MSSKKNRKRLNQSAENGSSLPSAASSCAEARAPSAGSDFAATSGTLTVTNLLEKVDDKIPKTFQNSLIHLGLNTMKSANICIGRPVLLTSLNGKQEVYTAWPMAGFPGGKVGLSEMAQKNVGVRPGDAIQVQPLVGAVLQAEEMDVALSDKDMEINEEELTGCILRKLDGKIVLPGNFLYCTFYGRPYKLQVLRVKGADGMILGGPQSDSDTDAQRMAFEQSSMETSSLELSLQLSQLDLEDTQIPTSRSTPYKPIDDRITNKASDVLLDVTQSPGDGSGLMLEEVTGLKCNFESAREGNEQLTEEERLLKFSIGAKCNTDTFYFISSTTRVNFTEIDKNSKEQDNQFKVTYDMIGGLSSQLKAIREIIELPLKQPELFKSYGIPAPRGVLLYGPPGTGKTMIARAVANEVGAYVSVINGPEIISKFYGETEAKLRQIFAEATLRHPSIIFIDELDALCPKREGAQNEVEKRVVASLLTLMDGIGSEVSEGQVLVLGATNRPHALDAALRRPGRFDKEIEIGVPNAQDRLDILQKLLRRVPHLLTEAELLQLANSAHGYVGADLKVLCNEAGLCALRRILKKQPNLPDVKVAGLVKITLKDFLQAMNDIRPSAMREIAIDVPNVSWSDIGGLESIKLKLEQAVEWPLKHPESFIRMGIQPPKGVLLYGPPGCSKTMIAKALANESGLNFLAIKGPELMNKYVGESERAVRETFRKARAVAPSIIFFDELDALAVERGSSLGAGNVADRVLAQLLTEMDGIEQLKDVTILAATNRPDRIDKALMRPGRIDRIIYVPLPDAATRREIFKLQFHSMPVSNEVDLDELILQTDAYSGAEIVAVCREAALLALEEDIQANLIMKRHFTQALSTVTPRIPESLRRFYEDYQEKSGLHTL",
+        "n_residues": 893,
+        "mutation_pos_1indexed": 102,
+        "wt_aa": "P",
+        "mut_aa": "S",
+        "pocket_lining_residues": "H69-L70-G71-L72-I82-A100-W101-P102-M103-A104",
+        "pocket_lining_positions_precursor": [
+          69,
+          70,
+          71,
+          72,
+          82,
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "pocket_lining_1letter": "HLGLIAWPMA",
+        "sequence_slice_around_pocket": "NGKQEVYTAWPMAGFPGGKV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AFG2A_P102S/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "H69",
+          "L70",
+          "G71",
+          "L72",
+          "I82",
+          "A100",
+          "W101",
+          "P102",
+          "M103",
+          "A104"
+        ],
+        "values": [
+          [
+            0.0,
+            3.83,
+            7.086,
+            9.682,
+            10.241,
+            6.52,
+            5.069,
+            5.869,
+            5.973,
+            9.623
+          ],
+          [
+            3.83,
+            0.0,
+            3.819,
+            6.475,
+            9.539,
+            7.033,
+            6.152,
+            5.194,
+            5.95,
+            8.816
+          ],
+          [
+            7.086,
+            3.819,
+            0.0,
+            3.866,
+            10.852,
+            10.104,
+            8.606,
+            5.832,
+            5.691,
+            6.823
+          ],
+          [
+            9.682,
+            6.475,
+            3.866,
+            0.0,
+            9.283,
+            10.55,
+            9.155,
+            5.948,
+            7.237,
+            7.575
+          ],
+          [
+            10.241,
+            9.539,
+            10.852,
+            9.283,
+            0.0,
+            5.597,
+            5.704,
+            6.648,
+            10.458,
+            12.897
+          ],
+          [
+            6.52,
+            7.033,
+            10.104,
+            10.55,
+            5.597,
+            0.0,
+            3.838,
+            6.89,
+            9.901,
+            13.385
+          ],
+          [
+            5.069,
+            6.152,
+            8.606,
+            9.155,
+            5.704,
+            3.838,
+            0.0,
+            3.865,
+            6.602,
+            10.112
+          ],
+          [
+            5.869,
+            5.194,
+            5.832,
+            5.948,
+            6.648,
+            6.89,
+            3.865,
+            0.0,
+            3.842,
+            6.688
+          ],
+          [
+            5.973,
+            5.95,
+            5.691,
+            7.237,
+            10.458,
+            9.901,
+            6.602,
+            3.842,
+            0.0,
+            3.831
+          ],
+          [
+            9.623,
+            8.816,
+            6.823,
+            7.575,
+            12.897,
+            13.385,
+            10.112,
+            6.688,
+            3.831,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6999302458159513,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AFG2A-P102S Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6999,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AFG2A_P102S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AFG2A_P102S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AFG2A_P102S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AFG2A_P102S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AFG2A_P102S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AFG2A-P102S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AFG2A-P102S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:16:11.215842+00:00"
     }
   ]
 }
