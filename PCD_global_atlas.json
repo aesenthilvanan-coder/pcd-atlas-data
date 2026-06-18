@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1587,
+  "total_entries": 1588,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46241,
-    "queue_remaining": 132356
+    "total_processed": 46242,
+    "queue_remaining": 132355
   },
   "entries": [
     {
@@ -350685,6 +350685,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:34:10.610977+00:00"
+    },
+    {
+      "entry_id": "PCD-VSX1-H244R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VSX1-H244R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "VSX1",
+        "uniprot": "",
+        "clinvar_id": "337959",
+        "disease": "Posterior polymorphous corneal dystrophy",
+        "mutation_precursor": "H244R",
+        "mutation_mature": "H244R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7952664492653427,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 290.4818659869552,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -6.896111488342285,
+          35.893226623535156,
+          -20.36492347717285
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.913484611920105,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8132940944197748,
+        "cryptic": true,
+        "pocket_residues": {
+          "M241": "M",
+          "V242": "V",
+          "R243": "R",
+          "H244": "H",
+          "C245": "C",
+          "I246": "I",
+          "P247": "P",
+          "L248": "L",
+          "H272": "H",
+          "S275": "S",
+          "M276": "M"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9NZR4|VSX1 variant H244R",
+        "fasta_sequence": "MTGRDSLSDGRTSSRALVPGGSPRGSRPRGFAITDLLGLEAELPAPAGPGQGSGCEGPAVAPCPGPGLDGSSLARGALPLGLGLLCGFGTQPPAAARAPCLLLADVPFLPPRGPEPAAPLAPSRPPPALGRQKRSDSVSTSDEDSQSEDRNDLKASPTLGKRKKRRHRTVFTAHQLEELEKAFSEAHYPDVYAREMLAVKTELPEDRIQVWFQNRRAKWRKREKRWGGSSVMAEYGLYGAMVRHCIPLPDSVLNSAEGGLLGSCAPWLLGMHKKSMGMIRKPGSEDKLAGLWGSDHFKEGSSQSESGSQRGSDKVSPENGLEDVAIDLSSSARQETKKVHPGAGAQGGSNSTALEGPQPGKVGAT",
+        "full_sequence": "MTGRDSLSDGRTSSRALVPGGSPRGSRPRGFAITDLLGLEAELPAPAGPGQGSGCEGPAVAPCPGPGLDGSSLARGALPLGLGLLCGFGTQPPAAARAPCLLLADVPFLPPRGPEPAAPLAPSRPPPALGRQKRSDSVSTSDEDSQSEDRNDLKASPTLGKRKKRRHRTVFTAHQLEELEKAFSEAHYPDVYAREMLAVKTELPEDRIQVWFQNRRAKWRKREKRWGGSSVMAEYGLYGAMVRHCIPLPDSVLNSAEGGLLGSCAPWLLGMHKKSMGMIRKPGSEDKLAGLWGSDHFKEGSSQSESGSQRGSDKVSPENGLEDVAIDLSSSARQETKKVHPGAGAQGGSNSTALEGPQPGKVGAT",
+        "n_residues": 365,
+        "mutation_pos_1indexed": 244,
+        "wt_aa": "H",
+        "mut_aa": "R",
+        "pocket_lining_residues": "M241-V242-R243-H244-C245-I246-P247-L248-H272-S275-M276",
+        "pocket_lining_positions_precursor": [
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          272,
+          275,
+          276
+        ],
+        "pocket_lining_1letter": "MVRHCIPLHSM",
+        "sequence_slice_around_pocket": "EYGLYGAMVRHCIPLPDSVL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_H244R/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "M241",
+          "V242",
+          "R243",
+          "H244",
+          "C245",
+          "I246",
+          "P247",
+          "L248",
+          "H272",
+          "S275",
+          "M276"
+        ],
+        "values": [
+          [
+            0.0,
+            3.844,
+            5.619,
+            5.19,
+            5.867,
+            4.711,
+            6.886,
+            6.732,
+            9.132,
+            10.712,
+            12.447
+          ],
+          [
+            3.844,
+            0.0,
+            3.874,
+            5.39,
+            4.945,
+            6.124,
+            7.355,
+            7.217,
+            5.688,
+            7.325,
+            9.637
+          ],
+          [
+            5.619,
+            3.874,
+            0.0,
+            3.859,
+            5.769,
+            7.932,
+            10.372,
+            10.894,
+            8.299,
+            7.986,
+            11.04
+          ],
+          [
+            5.19,
+            5.39,
+            3.859,
+            0.0,
+            3.906,
+            5.53,
+            8.918,
+            10.548,
+            10.051,
+            9.063,
+            11.113
+          ],
+          [
+            5.867,
+            4.945,
+            5.769,
+            3.906,
+            0.0,
+            3.829,
+            6.043,
+            8.392,
+            7.725,
+            6.706,
+            7.753
+          ],
+          [
+            4.711,
+            6.124,
+            7.932,
+            5.53,
+            3.829,
+            0.0,
+            3.87,
+            6.361,
+            9.604,
+            10.04,
+            10.428
+          ],
+          [
+            6.886,
+            7.355,
+            10.372,
+            8.918,
+            6.043,
+            3.87,
+            0.0,
+            3.821,
+            8.672,
+            10.193,
+            9.593
+          ],
+          [
+            6.732,
+            7.217,
+            10.894,
+            10.548,
+            8.392,
+            6.361,
+            3.821,
+            0.0,
+            8.286,
+            11.463,
+            11.458
+          ],
+          [
+            9.132,
+            5.688,
+            8.299,
+            10.051,
+            7.725,
+            9.604,
+            8.672,
+            8.286,
+            0.0,
+            4.882,
+            6.471
+          ],
+          [
+            10.712,
+            7.325,
+            7.986,
+            9.063,
+            6.706,
+            10.04,
+            10.193,
+            11.463,
+            4.882,
+            0.0,
+            3.823
+          ],
+          [
+            12.447,
+            9.637,
+            11.04,
+            11.113,
+            7.753,
+            10.428,
+            9.593,
+            11.458,
+            6.471,
+            3.823,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6636385627202199,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "VSX1-H244R Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6636,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_H244R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_H244R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_H244R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_H244R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/VSX1_H244R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VSX1-H244R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-VSX1-H244R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:34:32.941942+00:00"
     }
   ]
 }
