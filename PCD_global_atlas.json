@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1943,
+  "total_entries": 1944,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46631,
-    "queue_remaining": 131966
+    "total_processed": 46632,
+    "queue_remaining": 131965
   },
   "entries": [
     {
@@ -441087,6 +441087,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:29:56.518412+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC2A1-G419V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC2A1-G419V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC2A1",
+        "uniprot": "",
+        "clinvar_id": "372669",
+        "disease": "not provided",
+        "mutation_precursor": "G419V",
+        "mutation_mature": "G419V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7282678281050321,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 281.18413177953687,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          19.86140251159668,
+          -3.5948145389556885,
+          -4.553172588348389
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.817157616590024,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8001323869267618,
+        "cryptic": true,
+        "pocket_residues": {
+          "A289": "A",
+          "V418": "V",
+          "G419": "G",
+          "M420": "M",
+          "C421": "C",
+          "F422": "F",
+          "Q423": "Q",
+          "Y424": "Y",
+          "V425": "V",
+          "E426": "E",
+          "Q427": "Q"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P11166|SLC2A1 variant G419V",
+        "fasta_sequence": "MEPSSKKLTGRLMLAVGGAVLGSLQFGYNTGVINAPQKVIEEFYNQTWVHRYGESILPTTLTTLWSLSVAIFSVGGMIGSFSVGLFVNRFGRRNSMLMMNLLAFVSAVLMGFSKLGKSFEMLILGRFIIGVYCGLTTGFVPMYVGEVSPTALRGALGTLHQLGIVVGILIAQVFGLDSIMGNKDLWPLLLSIIFIPALLQCIVLPFCPESPRFLLINRNEENRAKSVLKKLRGTADVTHDLQEMKEESRQMMREKKVTILELFRSPAYRQPILIAVVLQLSQQLSGINAVFYYSTSIFEKAGVQQPVYATIGSGIVNTAFTVVSLFVVERAGRRTLHLIGLAGMAGCAILMTIALALLEQLPWMSYLSIVAIFGFVAFFEVGPGPIPWFIVAELFSQGPRPAAIAVAGFSNWTSNFIVGMCFQYVEQLCGPYVFIIFTVLLVLFFIFTYFKVPETKGRTFDEIASGFRQGGASQSDKTPEELFHPLGADSQV",
+        "full_sequence": "MEPSSKKLTGRLMLAVGGAVLGSLQFGYNTGVINAPQKVIEEFYNQTWVHRYGESILPTTLTTLWSLSVAIFSVGGMIGSFSVGLFVNRFGRRNSMLMMNLLAFVSAVLMGFSKLGKSFEMLILGRFIIGVYCGLTTGFVPMYVGEVSPTALRGALGTLHQLGIVVGILIAQVFGLDSIMGNKDLWPLLLSIIFIPALLQCIVLPFCPESPRFLLINRNEENRAKSVLKKLRGTADVTHDLQEMKEESRQMMREKKVTILELFRSPAYRQPILIAVVLQLSQQLSGINAVFYYSTSIFEKAGVQQPVYATIGSGIVNTAFTVVSLFVVERAGRRTLHLIGLAGMAGCAILMTIALALLEQLPWMSYLSIVAIFGFVAFFEVGPGPIPWFIVAELFSQGPRPAAIAVAGFSNWTSNFIVGMCFQYVEQLCGPYVFIIFTVLLVLFFIFTYFKVPETKGRTFDEIASGFRQGGASQSDKTPEELFHPLGADSQV",
+        "n_residues": 492,
+        "mutation_pos_1indexed": 419,
+        "wt_aa": "G",
+        "mut_aa": "V",
+        "pocket_lining_residues": "A289-V418-G419-M420-C421-F422-Q423-Y424-V425-E426-Q427",
+        "pocket_lining_positions_precursor": [
+          289,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427
+        ],
+        "pocket_lining_1letter": "AVGMCFQYVEQ",
+        "sequence_slice_around_pocket": "FSNWTSNFIVGMCFQYVEQL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC2A1_G419V/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "A289",
+          "V418",
+          "G419",
+          "M420",
+          "C421",
+          "F422",
+          "Q423",
+          "Y424",
+          "V425",
+          "E426",
+          "Q427"
+        ],
+        "values": [
+          [
+            0.0,
+            8.728,
+            9.431,
+            12.011,
+            11.002,
+            7.392,
+            8.946,
+            11.918,
+            10.473,
+            8.834,
+            12.416
+          ],
+          [
+            8.728,
+            0.0,
+            3.843,
+            5.545,
+            5.338,
+            5.241,
+            8.679,
+            10.092,
+            9.651,
+            11.081,
+            13.942
+          ],
+          [
+            9.431,
+            3.843,
+            0.0,
+            3.85,
+            5.96,
+            5.999,
+            7.957,
+            10.128,
+            10.971,
+            11.724,
+            14.047
+          ],
+          [
+            12.011,
+            5.545,
+            3.85,
+            0.0,
+            3.839,
+            6.092,
+            7.312,
+            8.157,
+            9.865,
+            11.441,
+            12.922
+          ],
+          [
+            11.002,
+            5.338,
+            5.96,
+            3.839,
+            0.0,
+            3.839,
+            5.807,
+            5.514,
+            6.35,
+            8.695,
+            10.355
+          ],
+          [
+            7.392,
+            5.241,
+            5.999,
+            6.092,
+            3.839,
+            0.0,
+            3.859,
+            5.505,
+            5.156,
+            6.013,
+            8.729
+          ],
+          [
+            8.946,
+            8.679,
+            7.957,
+            7.312,
+            5.807,
+            3.859,
+            0.0,
+            3.846,
+            5.503,
+            4.88,
+            6.227
+          ],
+          [
+            11.918,
+            10.092,
+            10.128,
+            8.157,
+            5.514,
+            5.505,
+            3.846,
+            0.0,
+            3.841,
+            5.355,
+            5.236
+          ],
+          [
+            10.473,
+            9.651,
+            10.971,
+            9.865,
+            6.35,
+            5.156,
+            5.503,
+            3.841,
+            0.0,
+            3.838,
+            5.562
+          ],
+          [
+            8.834,
+            11.081,
+            11.724,
+            11.441,
+            8.695,
+            6.013,
+            4.88,
+            5.355,
+            3.838,
+            0.0,
+            3.852
+          ],
+          [
+            12.416,
+            13.942,
+            14.047,
+            12.922,
+            10.355,
+            8.729,
+            6.227,
+            5.236,
+            5.562,
+            3.852,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "composite_score": 0.8177630969293092,
+        "mw": 202.11,
+        "logp": 2.09,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 4,
+        "qed": 0.7457,
+        "sa_score": 1.97,
+        "n_heavy_atoms": 15,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC2A1-G419V Candidate #1",
+        "iupac_name": "NCCCC(=O)c1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8178,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC2A1_G419V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC2A1_G419V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC2A1_G419V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC2A1_G419V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC2A1_G419V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC2A1-G419V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC2A1-G419V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:30:21.721501+00:00"
     }
   ]
 }
