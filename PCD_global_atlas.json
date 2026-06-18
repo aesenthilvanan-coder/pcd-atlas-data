@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1920,
+  "total_entries": 1921,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46604,
-    "queue_remaining": 131993
+    "total_processed": 46605,
+    "queue_remaining": 131992
   },
   "entries": [
     {
@@ -435817,6 +435817,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:04:46.912127+00:00"
+    },
+    {
+      "entry_id": "PCD-ACTA1-P335Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACTA1-P335Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "ACTA1",
+        "uniprot": "",
+        "clinvar_id": "373580",
+        "disease": "not provided",
+        "mutation_precursor": "P335Q",
+        "mutation_mature": "P335Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.735741209628576,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 391.84387125512717,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          4.984941482543945,
+          -15.795679092407227,
+          6.33815336227417
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.2257593081542,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7082203103470541,
+        "cryptic": true,
+        "pocket_residues": {
+          "M307": "M",
+          "P309": "P",
+          "A333": "A",
+          "P334": "P",
+          "P335": "P",
+          "E336": "E",
+          "R337": "R",
+          "K338": "K",
+          "Y339": "Y"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P68133|ACTA1 variant P335Q",
+        "fasta_sequence": "MCDEDETTALVCDNGSGLVKAGFAGDDAPRAVFPSIVGRPRHQGVMVGMGQKDSYVGDEAQSKRGILTLKYPIEHGIITNWDDMEKIWHHTFYNELRVAPEEHPTLLTEAPLNPKANREKMTQIMFETFNVPAMYVAIQAVLSLYASGRTTGIVLDSGDGVTHNVPIYEGYALPHAIMRLDLAGRDLTDYLMKILTERGYSFVTTAEREIVRDIKEKLCYVALDFENEMATAASSSSLEKSYELPDGQVITIGNERFRCPETLFQPSFIGMESAGIHETTYNSIMKCDIDIRKDLYANNVMSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWITKQEYDEAGPSIVHRKCF",
+        "full_sequence": "MCDEDETTALVCDNGSGLVKAGFAGDDAPRAVFPSIVGRPRHQGVMVGMGQKDSYVGDEAQSKRGILTLKYPIEHGIITNWDDMEKIWHHTFYNELRVAPEEHPTLLTEAPLNPKANREKMTQIMFETFNVPAMYVAIQAVLSLYASGRTTGIVLDSGDGVTHNVPIYEGYALPHAIMRLDLAGRDLTDYLMKILTERGYSFVTTAEREIVRDIKEKLCYVALDFENEMATAASSSSLEKSYELPDGQVITIGNERFRCPETLFQPSFIGMESAGIHETTYNSIMKCDIDIRKDLYANNVMSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWITKQEYDEAGPSIVHRKCF",
+        "n_residues": 377,
+        "mutation_pos_1indexed": 335,
+        "wt_aa": "P",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "M307-P309-A333-P334-P335-E336-R337-K338-Y339",
+        "pocket_lining_positions_precursor": [
+          307,
+          309,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339
+        ],
+        "pocket_lining_1letter": "MPAPPERKY",
+        "sequence_slice_around_pocket": "STMKIKIIAPPERKYSVWIG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/ACTA1_P335Q/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "M307",
+          "P309",
+          "A333",
+          "P334",
+          "P335",
+          "E336",
+          "R337",
+          "K338",
+          "Y339"
+        ],
+        "values": [
+          [
+            0.0,
+            6.485,
+            8.653,
+            9.561,
+            8.257,
+            8.993,
+            7.509,
+            6.923,
+            10.701
+          ],
+          [
+            6.485,
+            0.0,
+            10.655,
+            12.338,
+            10.79,
+            13.327,
+            12.709,
+            13.114,
+            16.654
+          ],
+          [
+            8.653,
+            10.655,
+            0.0,
+            3.858,
+            6.484,
+            8.453,
+            6.601,
+            9.867,
+            11.695
+          ],
+          [
+            9.561,
+            12.338,
+            3.858,
+            0.0,
+            3.888,
+            5.428,
+            5.07,
+            8.721,
+            9.605
+          ],
+          [
+            8.257,
+            10.79,
+            6.484,
+            3.888,
+            0.0,
+            3.851,
+            5.618,
+            8.01,
+            9.351
+          ],
+          [
+            8.993,
+            13.327,
+            8.453,
+            5.428,
+            3.851,
+            0.0,
+            3.883,
+            5.546,
+            5.76
+          ],
+          [
+            7.509,
+            12.709,
+            6.601,
+            5.07,
+            5.618,
+            3.883,
+            0.0,
+            3.843,
+            5.139
+          ],
+          [
+            6.923,
+            13.114,
+            9.867,
+            8.721,
+            8.01,
+            5.546,
+            3.843,
+            0.0,
+            3.871
+          ],
+          [
+            10.701,
+            16.654,
+            11.695,
+            9.605,
+            9.351,
+            5.76,
+            5.139,
+            3.871,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8169483446333182,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "ACTA1-P335Q Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8169,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/ACTA1_P335Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/ACTA1_P335Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/ACTA1_P335Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACTA1_P335Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/ACTA1_P335Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACTA1-P335Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-ACTA1-P335Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:05:11.758141+00:00"
     }
   ]
 }
