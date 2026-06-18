@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1908,
+  "total_entries": 1909,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46592,
-    "queue_remaining": 132005
+    "total_processed": 46593,
+    "queue_remaining": 132004
   },
   "entries": [
     {
@@ -433943,6 +433943,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:57:08.393591+00:00"
+    },
+    {
+      "entry_id": "PCD-KCND3-V399L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCND3-V399L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KCND3",
+        "uniprot": "",
+        "clinvar_id": "372829",
+        "disease": "not provided",
+        "mutation_precursor": "V399L",
+        "mutation_mature": "V399L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7270833323227404,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 490.3966078119316,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -6.720075607299805,
+          -14.548785209655762,
+          -13.578374862670898
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.76125749037044,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8763088872568938,
+        "cryptic": true,
+        "pocket_residues": {
+          "I395": "I",
+          "A396": "A",
+          "L397": "L",
+          "P398": "P",
+          "V399": "V",
+          "P400": "P",
+          "V401": "V"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UK17|KCND3 variant V399L",
+        "fasta_sequence": "MAAGVAAWLPFARAAAIGWMPVANCPMPLAPADKNKRQDELIVLNVSGRRFQTWRTTLERYPDTLLGSTEKEFFFNEDTKEYFFDRDPEVFRCVLNFYRTGKLHYPRYECISAYDDELAFYGILPEIIGDCCYEEYKDRKRENAERLMDDNDSENNQESMPSLSFRQTMWRAFENPHTSTLALVFYYVTGFFIAVSVITNVVETVPCGTVPGSKELPCGERYSVAFFCLDTACVMIFTVEYLLRLFAAPSRYRFIRSVMSIIDVVAIMPYYIGLVMTNNEDVSGAFVTLRVFRVFRIFKFSRHSQGLRILGYTLKSCASELGFLLFSLTMAIIIFATVMFYAEKGSSASKFTSIPASFWYTIVTMTTLGYGDMVPKTIAGKIFGSICSLSGVLVIALPVPVIVSNFSRIYHQNQRADKRRAQKKARLARIRVAKTGSSNAYLHSKRNGLLNEALELTGTPEEEHMGKTTSLIESQHHHLLHCLEKTTGLSYLVDDPLLSVRTSTIKNHEFIDEQMFEQNCMESSMQNYPSTRSPSLSSHPGLTTTCCSRRSKKTTHLPNSNLPATRLRSMQELSTIHIQGSEQPSLTTSRSSLNLKADDGLRPNCKTSQITTAIISIPTPPALTPEGESRPPPASPGPNTNIPSIASNVVKVSAL",
+        "full_sequence": "MAAGVAAWLPFARAAAIGWMPVANCPMPLAPADKNKRQDELIVLNVSGRRFQTWRTTLERYPDTLLGSTEKEFFFNEDTKEYFFDRDPEVFRCVLNFYRTGKLHYPRYECISAYDDELAFYGILPEIIGDCCYEEYKDRKRENAERLMDDNDSENNQESMPSLSFRQTMWRAFENPHTSTLALVFYYVTGFFIAVSVITNVVETVPCGTVPGSKELPCGERYSVAFFCLDTACVMIFTVEYLLRLFAAPSRYRFIRSVMSIIDVVAIMPYYIGLVMTNNEDVSGAFVTLRVFRVFRIFKFSRHSQGLRILGYTLKSCASELGFLLFSLTMAIIIFATVMFYAEKGSSASKFTSIPASFWYTIVTMTTLGYGDMVPKTIAGKIFGSICSLSGVLVIALPVPVIVSNFSRIYHQNQRADKRRAQKKARLARIRVAKTGSSNAYLHSKRNGLLNEALELTGTPEEEHMGKTTSLIESQHHHLLHCLEKTTGLSYLVDDPLLSVRTSTIKNHEFIDEQMFEQNCMESSMQNYPSTRSPSLSSHPGLTTTCCSRRSKKTTHLPNSNLPATRLRSMQELSTIHIQGSEQPSLTTSRSSLNLKADDGLRPNCKTSQITTAIISIPTPPALTPEGESRPPPASPGPNTNIPSIASNVVKVSAL",
+        "n_residues": 655,
+        "mutation_pos_1indexed": 399,
+        "wt_aa": "V",
+        "mut_aa": "L",
+        "pocket_lining_residues": "I395-A396-L397-P398-V399-P400-V401",
+        "pocket_lining_positions_precursor": [
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401
+        ],
+        "pocket_lining_1letter": "IALPVPV",
+        "sequence_slice_around_pocket": "LSGVLVIALPVPVIVSNFSR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KCND3_V399L/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "I395",
+          "A396",
+          "L397",
+          "P398",
+          "V399",
+          "P400",
+          "V401"
+        ],
+        "values": [
+          [
+            0.0,
+            3.864,
+            5.703,
+            6.315,
+            6.294,
+            9.225,
+            10.873
+          ],
+          [
+            3.864,
+            0.0,
+            3.874,
+            6.11,
+            5.741,
+            7.013,
+            9.443
+          ],
+          [
+            5.703,
+            3.874,
+            0.0,
+            3.898,
+            5.915,
+            6.598,
+            7.491
+          ],
+          [
+            6.315,
+            6.11,
+            3.898,
+            0.0,
+            3.873,
+            5.719,
+            5.239
+          ],
+          [
+            6.294,
+            5.741,
+            5.915,
+            3.873,
+            0.0,
+            3.897,
+            5.435
+          ],
+          [
+            9.225,
+            7.013,
+            6.598,
+            5.719,
+            3.897,
+            0.0,
+            3.869
+          ],
+          [
+            10.873,
+            9.443,
+            7.491,
+            5.239,
+            5.435,
+            3.869,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1N1CCCCC1OCCNc1ncnc2[nH]cnc12",
+        "composite_score": 0.5879269700625536,
+        "mw": 383.21,
+        "logp": 1.962,
+        "hbd": 4,
+        "hba": 8,
+        "rotatable_bonds": 7,
+        "qed": 0.4564,
+        "sa_score": 3.55,
+        "n_heavy_atoms": 28,
+        "tpsa": 125.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KCND3-V399L Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1N1CCCCC1OCCNc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.5879,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KCND3_V399L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KCND3_V399L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KCND3_V399L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCND3_V399L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCND3_V399L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCND3-V399L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCND3-V399L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:57:36.907484+00:00"
     }
   ]
 }
