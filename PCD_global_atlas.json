@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2066,
+  "total_entries": 2067,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46774,
-    "queue_remaining": 131823
+    "total_processed": 46775,
+    "queue_remaining": 131822
   },
   "entries": [
     {
@@ -472175,6 +472175,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:13:57.189389+00:00"
+    },
+    {
+      "entry_id": "PCD-SPTLC1-S331Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPTLC1-S331Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SPTLC1",
+        "uniprot": "",
+        "clinvar_id": "372788",
+        "disease": "not provided",
+        "mutation_precursor": "S331Y",
+        "mutation_mature": "S331Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9336031158088512,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 375.1888422376416,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -13.227145195007324,
+          -6.183296203613281,
+          12.339254379272461
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.9437698482835835,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6321050058244952,
+        "cryptic": true,
+        "pocket_residues": {
+          "A174": "A",
+          "I175": "I",
+          "P176": "P",
+          "A177": "A",
+          "Y178": "Y",
+          "S179": "S",
+          "K180": "K",
+          "H327": "H",
+          "Q328": "Q",
+          "S331": "S",
+          "G332": "G"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15269|SPTLC1 variant S331Y",
+        "fasta_sequence": "MATATEQWVLVEMVQALYEAPAYHLILEGILILWIIRLLFSKTYKLQERSDLTVKEKEELIEEWQPEPLVPPVPKDHPALNYNIVSGPPSHKTVVNGKECINFASFNFLGLLDNPRVKAAALASLKKYGVGTCGPRGFYGTFDVHLDLEDRLAKFMKTEEAIIYSYGFATIASAIPAYSKRGDIVFVDRAACFAIQKGLQASRSDIKLFKHNDMADLERLLKEQEIEDQKNPRKARVTRRFIVVEGLYMNTGTICPLPELVKLKYKYKARIFLEESLSFGVLGEHGRGVTEHYGINIDDIDLISANMENALASIGGFCCGRSFVIDHQRLSGQGYCFSASLPPLLAAAAIEALNIMEENPGIFAVLKEKCGQIHKALQGISGLKVVGESLSPAFHLQLEESTGSREQDVRLLQEIVDQCMNRSIALTQARYLEKEEKCLPPPSIRVVVTVEQTEEELERAASTIKEVAQAVLL",
+        "full_sequence": "MATATEQWVLVEMVQALYEAPAYHLILEGILILWIIRLLFSKTYKLQERSDLTVKEKEELIEEWQPEPLVPPVPKDHPALNYNIVSGPPSHKTVVNGKECINFASFNFLGLLDNPRVKAAALASLKKYGVGTCGPRGFYGTFDVHLDLEDRLAKFMKTEEAIIYSYGFATIASAIPAYSKRGDIVFVDRAACFAIQKGLQASRSDIKLFKHNDMADLERLLKEQEIEDQKNPRKARVTRRFIVVEGLYMNTGTICPLPELVKLKYKYKARIFLEESLSFGVLGEHGRGVTEHYGINIDDIDLISANMENALASIGGFCCGRSFVIDHQRLSGQGYCFSASLPPLLAAAAIEALNIMEENPGIFAVLKEKCGQIHKALQGISGLKVVGESLSPAFHLQLEESTGSREQDVRLLQEIVDQCMNRSIALTQARYLEKEEKCLPPPSIRVVVTVEQTEEELERAASTIKEVAQAVLL",
+        "n_residues": 473,
+        "mutation_pos_1indexed": 331,
+        "wt_aa": "S",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "A174-I175-P176-A177-Y178-S179-K180-H327-Q328-S331-G332",
+        "pocket_lining_positions_precursor": [
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          327,
+          328,
+          331,
+          332
+        ],
+        "pocket_lining_1letter": "AIPAYSKHQSG",
+        "sequence_slice_around_pocket": "RSFVIDHQRLSGQGYCFSAS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC1_S331Y/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "A174",
+          "I175",
+          "P176",
+          "A177",
+          "Y178",
+          "S179",
+          "K180",
+          "H327",
+          "Q328",
+          "S331",
+          "G332"
+        ],
+        "values": [
+          [
+            0.0,
+            3.873,
+            5.766,
+            5.123,
+            6.921,
+            8.68,
+            11.334,
+            9.401,
+            6.634,
+            8.274,
+            5.695
+          ],
+          [
+            3.873,
+            0.0,
+            3.9,
+            5.516,
+            5.817,
+            5.814,
+            8.67,
+            11.581,
+            9.685,
+            10.244,
+            8.526
+          ],
+          [
+            5.766,
+            3.9,
+            0.0,
+            3.858,
+            5.339,
+            4.917,
+            6.098,
+            11.248,
+            9.655,
+            8.288,
+            7.568
+          ],
+          [
+            5.123,
+            5.516,
+            3.858,
+            0.0,
+            3.845,
+            6.169,
+            7.752,
+            7.42,
+            6.194,
+            5.192,
+            5.347
+          ],
+          [
+            6.921,
+            5.817,
+            5.339,
+            3.845,
+            0.0,
+            3.834,
+            6.567,
+            8.183,
+            8.34,
+            8.372,
+            8.958
+          ],
+          [
+            8.68,
+            5.814,
+            4.917,
+            6.169,
+            3.834,
+            0.0,
+            3.849,
+            11.966,
+            11.795,
+            11.056,
+            11.355
+          ],
+          [
+            11.334,
+            8.67,
+            6.098,
+            7.752,
+            6.567,
+            3.849,
+            0.0,
+            13.789,
+            13.776,
+            11.64,
+            12.62
+          ],
+          [
+            9.401,
+            11.581,
+            11.248,
+            7.42,
+            8.183,
+            11.966,
+            13.789,
+            0.0,
+            3.855,
+            6.204,
+            7.777
+          ],
+          [
+            6.634,
+            9.685,
+            9.655,
+            6.194,
+            8.34,
+            11.795,
+            13.776,
+            3.855,
+            0.0,
+            4.894,
+            4.519
+          ],
+          [
+            8.274,
+            10.244,
+            8.288,
+            5.192,
+            8.372,
+            11.056,
+            11.64,
+            6.204,
+            4.894,
+            0.0,
+            3.844
+          ],
+          [
+            5.695,
+            8.526,
+            7.568,
+            5.347,
+            8.958,
+            11.355,
+            12.62,
+            7.777,
+            4.519,
+            3.844,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.7183425568606239,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SPTLC1-S331Y Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7183,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC1_S331Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC1_S331Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC1_S331Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC1_S331Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC1_S331Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPTLC1-S331Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPTLC1-S331Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:14:22.964436+00:00"
     }
   ]
 }
