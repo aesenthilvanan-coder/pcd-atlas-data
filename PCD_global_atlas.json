@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2325,
+  "total_entries": 2326,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47062,
-    "queue_remaining": 131535
+    "total_processed": 47063,
+    "queue_remaining": 131534
   },
   "entries": [
     {
@@ -538686,6 +538686,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:47:35.355528+00:00"
+    },
+    {
+      "entry_id": "PCD-PHEX-P168L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PHEX-P168L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PHEX",
+        "uniprot": "",
+        "clinvar_id": "372453",
+        "disease": "not provided",
+        "mutation_precursor": "P168L",
+        "mutation_mature": "P168L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.851039706681269,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 421.6988931838632,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -28.097978591918945,
+          10.899757385253906,
+          26.25583267211914
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.000794388631967,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6440188043596892,
+        "cryptic": true,
+        "pocket_residues": {
+          "W167": "W",
+          "P168": "P",
+          "V169": "V",
+          "L170": "L",
+          "E171": "E",
+          "S172": "S",
+          "V179": "V",
+          "W180": "W",
+          "A262": "A",
+          "R266": "R"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P78562|PHEX variant P168L",
+        "fasta_sequence": "MEAETGSSVETGKKANRGTRIALVVFVGGTLVLGTILFLVSQGLLSLQAKQEYCLKPECIEAAAAILSKVNLSVDPCDNFFRFACDGWISNNPIPEDMPSYGVYPWLRHNVDLKLKELLEKSISRRRDTEAIQKAKILYSSCMNEKAIEKADAKPLLHILRHSPFRWPVLESNIGPEGVWSERKFSLLQTLATFRGQYSNSVFIRLYVSPDDKASNEHILKLDQATLSLAVREDYLDNSTEAKSYRDALYKFMVDTAVLLGANSSRAEHDMKSVLRLEIKIAEIMIPHENRTSEAMYNKMNISELSAMIPQFDWLGYIKKVIDTRLYPHLKDISPSENVVVRVPQYFKDLFRILGSERKKTIANYLVWRMVYSRIPNLSRRFQYRWLEFSRVIQGTTTLLPQWDKCVNFIESALPYVVGKMFVDVYFQEDKKEMMEELVEGVRWAFIDMLEKENEWMDAGTKRKAKEKARAVLAKVGYPEFIMNDTHVNEDLKAIKFSEADYFGNVLQTRKYLAQSDFFWLRKAVPKTEWFTNPTTVNAFYSASTNQIRFPAGELQKPFFWGTEYPRSLSYGAIGVIVGHEFTHGFDNNGRKYDKNGNLDPWWSTESEEKFKEKTKCMINQYSNYYWKKAGLNVKGKRTLGENIADNGGLREAFRAYRKWINDRRQGLEEPLLPGITFTNNQLFFLSYAHVRCNSYRPEAAREQVQIGAHSPPQFRVNGAISNFEEFQKAFNCPPNSTMNRGMDSCRLW",
+        "full_sequence": "MEAETGSSVETGKKANRGTRIALVVFVGGTLVLGTILFLVSQGLLSLQAKQEYCLKPECIEAAAAILSKVNLSVDPCDNFFRFACDGWISNNPIPEDMPSYGVYPWLRHNVDLKLKELLEKSISRRRDTEAIQKAKILYSSCMNEKAIEKADAKPLLHILRHSPFRWPVLESNIGPEGVWSERKFSLLQTLATFRGQYSNSVFIRLYVSPDDKASNEHILKLDQATLSLAVREDYLDNSTEAKSYRDALYKFMVDTAVLLGANSSRAEHDMKSVLRLEIKIAEIMIPHENRTSEAMYNKMNISELSAMIPQFDWLGYIKKVIDTRLYPHLKDISPSENVVVRVPQYFKDLFRILGSERKKTIANYLVWRMVYSRIPNLSRRFQYRWLEFSRVIQGTTTLLPQWDKCVNFIESALPYVVGKMFVDVYFQEDKKEMMEELVEGVRWAFIDMLEKENEWMDAGTKRKAKEKARAVLAKVGYPEFIMNDTHVNEDLKAIKFSEADYFGNVLQTRKYLAQSDFFWLRKAVPKTEWFTNPTTVNAFYSASTNQIRFPAGELQKPFFWGTEYPRSLSYGAIGVIVGHEFTHGFDNNGRKYDKNGNLDPWWSTESEEKFKEKTKCMINQYSNYYWKKAGLNVKGKRTLGENIADNGGLREAFRAYRKWINDRRQGLEEPLLPGITFTNNQLFFLSYAHVRCNSYRPEAAREQVQIGAHSPPQFRVNGAISNFEEFQKAFNCPPNSTMNRGMDSCRLW",
+        "n_residues": 749,
+        "mutation_pos_1indexed": 168,
+        "wt_aa": "P",
+        "mut_aa": "L",
+        "pocket_lining_residues": "W167-P168-V169-L170-E171-S172-V179-W180-A262-R266",
+        "pocket_lining_positions_precursor": [
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          179,
+          180,
+          262,
+          266
+        ],
+        "pocket_lining_1letter": "WPVLESVWAR",
+        "sequence_slice_around_pocket": "HILRHSPFRWPVLESNIGPE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_P168L/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "W167",
+          "P168",
+          "V169",
+          "L170",
+          "E171",
+          "S172",
+          "V179",
+          "W180",
+          "A262",
+          "R266"
+        ],
+        "values": [
+          [
+            0.0,
+            3.877,
+            5.514,
+            5.716,
+            7.096,
+            10.567,
+            8.07,
+            6.629,
+            9.702,
+            12.076
+          ],
+          [
+            3.877,
+            0.0,
+            3.875,
+            5.555,
+            5.443,
+            8.915,
+            7.32,
+            5.538,
+            9.314,
+            9.671
+          ],
+          [
+            5.514,
+            3.875,
+            0.0,
+            3.894,
+            5.742,
+            7.877,
+            9.768,
+            9.081,
+            5.914,
+            6.566
+          ],
+          [
+            5.716,
+            5.555,
+            3.894,
+            0.0,
+            3.876,
+            5.667,
+            8.104,
+            8.874,
+            4.704,
+            8.722
+          ],
+          [
+            7.096,
+            5.443,
+            5.742,
+            3.876,
+            0.0,
+            3.868,
+            5.245,
+            6.734,
+            7.558,
+            9.701
+          ],
+          [
+            10.567,
+            8.915,
+            7.877,
+            5.667,
+            3.868,
+            0.0,
+            8.146,
+            10.37,
+            6.922,
+            9.302
+          ],
+          [
+            8.07,
+            7.32,
+            9.768,
+            8.104,
+            5.245,
+            8.146,
+            0.0,
+            3.821,
+            12.482,
+            14.604
+          ],
+          [
+            6.629,
+            5.538,
+            9.081,
+            8.874,
+            6.734,
+            10.37,
+            3.821,
+            0.0,
+            13.406,
+            14.412
+          ],
+          [
+            9.702,
+            9.314,
+            5.914,
+            4.704,
+            7.558,
+            6.922,
+            12.482,
+            13.406,
+            0.0,
+            6.859
+          ],
+          [
+            12.076,
+            9.671,
+            6.566,
+            8.722,
+            9.701,
+            9.302,
+            14.604,
+            14.412,
+            6.859,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.86697949041388,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PHEX-P168L Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.867,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_P168L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_P168L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_P168L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_P168L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_P168L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PHEX-P168L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PHEX-P168L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:48:09.968267+00:00"
     }
   ]
 }
