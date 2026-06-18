@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1951,
+  "total_entries": 1952,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46640,
-    "queue_remaining": 131957
+    "total_processed": 46641,
+    "queue_remaining": 131956
   },
   "entries": [
     {
@@ -443084,6 +443084,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:36:08.759278+00:00"
+    },
+    {
+      "entry_id": "PCD-CHRND-G316S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRND-G316S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CHRND",
+        "uniprot": "",
+        "clinvar_id": "373561",
+        "disease": "not specified",
+        "mutation_precursor": "G316S",
+        "mutation_mature": "G316S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9166783487088372,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 286.8873450419235,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -22.642499923706055,
+          -2.3538084030151367,
+          15.146827697753906
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.365935861297015,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6037548105947672,
+        "cryptic": true,
+        "pocket_residues": {
+          "S261": "S",
+          "F315": "F",
+          "G316": "G",
+          "M317": "M",
+          "V318": "V",
+          "L319": "L",
+          "V320": "V",
+          "V477": "V",
+          "V480": "V",
+          "M481": "M",
+          "G484": "G"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q07001|CHRND variant G316S",
+        "fasta_sequence": "MEGPVLTLGLLAALAVCGSWGLNEEERLIRHLFQEKGYNKELRPVAHKEESVDVALALTLSNLISLKEVEETLTTNVWIEHGWTDNRLKWNAEEFGNISVLRLPPDMVWLPEIVLENNNDGSFQISYSCNVLVYHYGFVYWLPPAIFRSSCPISVTYFPFDWQNCSLKFSSLKYTAKEITLSLKQDAKENRTYPVEWIIIDPEGFTENGEWEIVHRPARVNVDPRAPLDSPSRQDITFYLIIRRKPLFYIINILVPCVLISFMVNLVFYLPADSGEKTSVAISVLLAQSVFLLLISKRLPATSMAIPLIGKFLLFGMVLVTMVVVICVIVLNIHFRTPSTHVLSEGVKKLFLETLPELLHMSRPAEDGPSPGALVRRSSSLGYISKAEEYFLLKSRSDLMFEKQSERHGLARRLTTARRPPASSEQAQQELFNELKPAVDGANFIVNHMRDQNNYNEEKDSWNRVARTVDRLCLFVVTPVMVVGTAWIFLQGVYNQPPPQPFPGDPYSYNVQDKRFI",
+        "full_sequence": "MEGPVLTLGLLAALAVCGSWGLNEEERLIRHLFQEKGYNKELRPVAHKEESVDVALALTLSNLISLKEVEETLTTNVWIEHGWTDNRLKWNAEEFGNISVLRLPPDMVWLPEIVLENNNDGSFQISYSCNVLVYHYGFVYWLPPAIFRSSCPISVTYFPFDWQNCSLKFSSLKYTAKEITLSLKQDAKENRTYPVEWIIIDPEGFTENGEWEIVHRPARVNVDPRAPLDSPSRQDITFYLIIRRKPLFYIINILVPCVLISFMVNLVFYLPADSGEKTSVAISVLLAQSVFLLLISKRLPATSMAIPLIGKFLLFGMVLVTMVVVICVIVLNIHFRTPSTHVLSEGVKKLFLETLPELLHMSRPAEDGPSPGALVRRSSSLGYISKAEEYFLLKSRSDLMFEKQSERHGLARRLTTARRPPASSEQAQQELFNELKPAVDGANFIVNHMRDQNNYNEEKDSWNRVARTVDRLCLFVVTPVMVVGTAWIFLQGVYNQPPPQPFPGDPYSYNVQDKRFI",
+        "n_residues": 517,
+        "mutation_pos_1indexed": 316,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "S261-F315-G316-M317-V318-L319-V320-V477-V480-M481-G484",
+        "pocket_lining_positions_precursor": [
+          261,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          477,
+          480,
+          481,
+          484
+        ],
+        "pocket_lining_1letter": "SFGMVLVVVMG",
+        "sequence_slice_around_pocket": "IPLIGKFLLFGMVLVTMVVV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CHRND_G316S/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "S261",
+          "F315",
+          "G316",
+          "M317",
+          "V318",
+          "L319",
+          "V320",
+          "V477",
+          "V480",
+          "M481",
+          "G484"
+        ],
+        "values": [
+          [
+            0.0,
+            10.299,
+            6.81,
+            9.218,
+            11.434,
+            9.09,
+            8.104,
+            10.792,
+            11.497,
+            7.907,
+            11.21
+          ],
+          [
+            10.299,
+            0.0,
+            3.852,
+            5.629,
+            5.315,
+            6.097,
+            8.632,
+            12.08,
+            10.248,
+            8.827,
+            8.023
+          ],
+          [
+            6.81,
+            3.852,
+            0.0,
+            3.855,
+            5.591,
+            5.087,
+            6.062,
+            11.077,
+            10.498,
+            8.024,
+            9.145
+          ],
+          [
+            9.218,
+            5.629,
+            3.855,
+            0.0,
+            3.834,
+            5.391,
+            5.049,
+            12.946,
+            13.287,
+            11.332,
+            12.62
+          ],
+          [
+            11.434,
+            5.315,
+            5.591,
+            3.834,
+            0.0,
+            3.838,
+            5.571,
+            11.615,
+            11.866,
+            11.029,
+            12.035
+          ],
+          [
+            9.09,
+            6.097,
+            5.087,
+            5.391,
+            3.838,
+            0.0,
+            3.861,
+            7.92,
+            8.864,
+            7.936,
+            10.244
+          ],
+          [
+            8.104,
+            8.632,
+            6.062,
+            5.049,
+            5.571,
+            3.861,
+            0.0,
+            9.589,
+            11.766,
+            10.102,
+            13.205
+          ],
+          [
+            10.792,
+            12.08,
+            11.077,
+            12.946,
+            11.615,
+            7.92,
+            9.589,
+            0.0,
+            5.117,
+            6.061,
+            10.208
+          ],
+          [
+            11.497,
+            10.248,
+            10.498,
+            13.287,
+            11.866,
+            8.864,
+            11.766,
+            5.117,
+            0.0,
+            3.822,
+            5.722
+          ],
+          [
+            7.907,
+            8.827,
+            8.024,
+            11.332,
+            11.029,
+            7.936,
+            10.102,
+            6.061,
+            3.822,
+            0.0,
+            5.022
+          ],
+          [
+            11.21,
+            8.023,
+            9.145,
+            12.62,
+            12.035,
+            10.244,
+            13.205,
+            10.208,
+            5.722,
+            5.022,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.7061905092392582,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CHRND-G316S Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7062,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CHRND_G316S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CHRND_G316S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CHRND_G316S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRND_G316S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CHRND_G316S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRND-G316S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CHRND-G316S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:36:36.006975+00:00"
     }
   ]
 }
