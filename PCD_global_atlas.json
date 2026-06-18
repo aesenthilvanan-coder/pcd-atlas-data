@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1824,
+  "total_entries": 1825,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46500,
-    "queue_remaining": 132097
+    "total_processed": 46501,
+    "queue_remaining": 132096
   },
   "entries": [
     {
@@ -410401,6 +410401,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:14:52.761228+00:00"
+    },
+    {
+      "entry_id": "PCD-NPC1-Y1019C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NPC1-Y1019C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NPC1",
+        "uniprot": "",
+        "clinvar_id": "371419",
+        "disease": "Niemann-Pick disease, type C1",
+        "mutation_precursor": "Y1019C",
+        "mutation_mature": "Y1019C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9471246787428171,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 447.8890646759088,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          15.534747123718262,
+          10.366527557373047,
+          -2.7299675941467285
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.0958495074750205,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8667721437545461,
+        "cryptic": true,
+        "pocket_residues": {
+          "F399": "F",
+          "Y890": "Y",
+          "A1018": "A",
+          "Y1019": "Y",
+          "S1021": "S",
+          "A1022": "A",
+          "V1023": "V",
+          "T1036": "T",
+          "Y1037": "Y",
+          "F1038": "F",
+          "M1039": "M"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15118|NPC1 variant Y1019C",
+        "fasta_sequence": "MTARGLALGLLLLLLCPAQVFSQSCVWYGECGIAYGDKRYNCEYSGPPKPLPKDGYDLVQELCPGFFFGNVSLCCDVRQLQTLKDNLQLPLQFLSRCPSCFYNLLNLFCELTCSPRQSQFLNVTATEDYVDPVTNQTKTNVKELQYYVGQSFANAMYNACRDVEAPSSNDKALGLLCGKDADACNATNWIEYMFNKDNGQAPFTITPVFSDFPVHGMEPMNNATKGCDESVDEVTAPCSCQDCSIVCGPKPQPPPPPAPWTILGLDAMYVIMWITYMAFLLVFFGAFFAVWCYRKRYFVSEYTPIDSNIAFSVNASDKGEASCCDPVSAAFEGCLRRLFTRWGSFCVRNPGCVIFFSLVFITACSSGLVFVRVTTNPVDLWSAPSSQARLEKEYFDQHFGPFFRTEQLIIRAPLTDKHIYQPYPSGADVPFGPPLDIQILHQVLDLQIAIENITASYDNETVTLQDICLAPLSPYNTNCTILSVLNYFQNSHSVLDHKKGDDFFVYADYHTHFLYCVRAPASLNDTSLLHDPCLGTFGGPVFPWLVLGGYDDQNYNNATALVITFPVNNYYNDTEKLQRAQAWEKEFINFVKNYKNPNLTISFTAERSIEDELNRESDSDVFTVVISYAIMFLYISLALGHMKSCRRLLVDSKVSLGIAGILIVLSSVACSLGVFSYIGLPLTLIVIEVIPFLVLAVGVDNIFILVQAYQRDERLQGETLDQQLGRVLGEVAPSMFLSSFSETVAFFLGALSVMPAVHTFSLFAGLAVFIDFLLQITCFVSLLGLDIKRQEKNRLDIFCCVRGAEDGTSVQASESCLFRFFKNSYSPLLLKDWMRPIVIAIFVGVLSFSIAVLNKVDIGLDQSLSMPDDSYMVDYFKSISQYLHAGPPVYFVLEEGHDYTSSKGQNMVCGGMGCNNDSLVQQIFNAAQLDNYTRIGFAPSSWIDDYFDWVKPQSSCCRVDNITDQFCNASVVDPACVRCRPLTPEGKQRPQGGDFMRFLPMFLSDNPNPKCGKGGHAAYSSAVNILLGHGTRVGATYFMTYHTVLQTSADFIDALKKARLIASNVTETMGINGSAYRVFPYSVFYVFYEQYLTIIDDTIFNLGVSLGAIFLVTMVLLGCELWSAVIMCATIAMVLVNMFGVMWLWGISLNAVSLVNLVMSCGISVEFCSHITRAFTVSMKGSRVERAEEALAHMGSSVFSGITLTKFGGIVVLAFAKSQIFQIFYFRMYLAMVLLGATHGLIFLPVLLSYIGPSVNKAKSCATEERYKGTERERLLNF",
+        "full_sequence": "MTARGLALGLLLLLLCPAQVFSQSCVWYGECGIAYGDKRYNCEYSGPPKPLPKDGYDLVQELCPGFFFGNVSLCCDVRQLQTLKDNLQLPLQFLSRCPSCFYNLLNLFCELTCSPRQSQFLNVTATEDYVDPVTNQTKTNVKELQYYVGQSFANAMYNACRDVEAPSSNDKALGLLCGKDADACNATNWIEYMFNKDNGQAPFTITPVFSDFPVHGMEPMNNATKGCDESVDEVTAPCSCQDCSIVCGPKPQPPPPPAPWTILGLDAMYVIMWITYMAFLLVFFGAFFAVWCYRKRYFVSEYTPIDSNIAFSVNASDKGEASCCDPVSAAFEGCLRRLFTRWGSFCVRNPGCVIFFSLVFITACSSGLVFVRVTTNPVDLWSAPSSQARLEKEYFDQHFGPFFRTEQLIIRAPLTDKHIYQPYPSGADVPFGPPLDIQILHQVLDLQIAIENITASYDNETVTLQDICLAPLSPYNTNCTILSVLNYFQNSHSVLDHKKGDDFFVYADYHTHFLYCVRAPASLNDTSLLHDPCLGTFGGPVFPWLVLGGYDDQNYNNATALVITFPVNNYYNDTEKLQRAQAWEKEFINFVKNYKNPNLTISFTAERSIEDELNRESDSDVFTVVISYAIMFLYISLALGHMKSCRRLLVDSKVSLGIAGILIVLSSVACSLGVFSYIGLPLTLIVIEVIPFLVLAVGVDNIFILVQAYQRDERLQGETLDQQLGRVLGEVAPSMFLSSFSETVAFFLGALSVMPAVHTFSLFAGLAVFIDFLLQITCFVSLLGLDIKRQEKNRLDIFCCVRGAEDGTSVQASESCLFRFFKNSYSPLLLKDWMRPIVIAIFVGVLSFSIAVLNKVDIGLDQSLSMPDDSYMVDYFKSISQYLHAGPPVYFVLEEGHDYTSSKGQNMVCGGMGCNNDSLVQQIFNAAQLDNYTRIGFAPSSWIDDYFDWVKPQSSCCRVDNITDQFCNASVVDPACVRCRPLTPEGKQRPQGGDFMRFLPMFLSDNPNPKCGKGGHAAYSSAVNILLGHGTRVGATYFMTYHTVLQTSADFIDALKKARLIASNVTETMGINGSAYRVFPYSVFYVFYEQYLTIIDDTIFNLGVSLGAIFLVTMVLLGCELWSAVIMCATIAMVLVNMFGVMWLWGISLNAVSLVNLVMSCGISVEFCSHITRAFTVSMKGSRVERAEEALAHMGSSVFSGITLTKFGGIVVLAFAKSQIFQIFYFRMYLAMVLLGATHGLIFLPVLLSYIGPSVNKAKSCATEERYKGTERERLLNF",
+        "n_residues": 1278,
+        "mutation_pos_1indexed": 1019,
+        "wt_aa": "Y",
+        "mut_aa": "C",
+        "pocket_lining_residues": "F399-Y890-A1018-Y1019-S1021-A1022-V1023-T1036-Y1037-F1038-M1039",
+        "pocket_lining_positions_precursor": [
+          399,
+          890,
+          1018,
+          1019,
+          1021,
+          1022,
+          1023,
+          1036,
+          1037,
+          1038,
+          1039
+        ],
+        "pocket_lining_1letter": "FYAYSAVTYFM",
+        "sequence_slice_around_pocket": "PKCGKGGHAAYSSAVNILLG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NPC1_Y1019C/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "F399",
+          "Y890",
+          "A1018",
+          "Y1019",
+          "S1021",
+          "A1022",
+          "V1023",
+          "T1036",
+          "Y1037",
+          "F1038",
+          "M1039"
+        ],
+        "values": [
+          [
+            0.0,
+            11.058,
+            13.147,
+            10.758,
+            5.978,
+            6.859,
+            7.992,
+            8.471,
+            8.816,
+            12.022,
+            12.502
+          ],
+          [
+            11.058,
+            0.0,
+            13.579,
+            12.545,
+            12.115,
+            9.595,
+            12.376,
+            9.545,
+            5.915,
+            5.51,
+            4.557
+          ],
+          [
+            13.147,
+            13.579,
+            0.0,
+            3.842,
+            7.703,
+            7.738,
+            10.155,
+            12.764,
+            11.507,
+            10.834,
+            10.139
+          ],
+          [
+            10.758,
+            12.545,
+            3.842,
+            0.0,
+            5.383,
+            4.626,
+            6.365,
+            9.396,
+            8.995,
+            9.302,
+            9.871
+          ],
+          [
+            5.978,
+            12.115,
+            7.703,
+            5.383,
+            0.0,
+            3.867,
+            5.765,
+            8.82,
+            8.93,
+            10.935,
+            11.242
+          ],
+          [
+            6.859,
+            9.595,
+            7.738,
+            4.626,
+            3.867,
+            0.0,
+            3.829,
+            5.594,
+            5.394,
+            7.393,
+            8.591
+          ],
+          [
+            7.992,
+            12.376,
+            10.155,
+            6.365,
+            5.765,
+            3.829,
+            0.0,
+            4.736,
+            6.963,
+            9.518,
+            11.737
+          ],
+          [
+            8.471,
+            9.545,
+            12.764,
+            9.396,
+            8.82,
+            5.594,
+            4.736,
+            0.0,
+            3.833,
+            7.139,
+            10.121
+          ],
+          [
+            8.816,
+            5.915,
+            11.507,
+            8.995,
+            8.93,
+            5.394,
+            6.963,
+            3.833,
+            0.0,
+            3.837,
+            6.433
+          ],
+          [
+            12.022,
+            5.51,
+            10.834,
+            9.302,
+            10.935,
+            7.393,
+            9.518,
+            7.139,
+            3.837,
+            0.0,
+            3.843
+          ],
+          [
+            12.502,
+            4.557,
+            10.139,
+            9.871,
+            11.242,
+            8.591,
+            11.737,
+            10.121,
+            6.433,
+            3.843,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(O)cc1OCNc1ccncc1N1CCCC(=O)C1",
+        "composite_score": 0.6911735906149613,
+        "mw": 342.17,
+        "logp": 1.864,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.6889,
+        "sa_score": 2.84,
+        "n_heavy_atoms": 25,
+        "tpsa": 100.7,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NPC1-Y1019C Candidate #1",
+        "iupac_name": "NCc1ccc(O)cc1OCNc1ccncc1N1CCCC(=O)C1",
+        "pocket_affinity_score": 0.6912,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NPC1_Y1019C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NPC1_Y1019C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NPC1_Y1019C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NPC1_Y1019C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NPC1_Y1019C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NPC1-Y1019C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NPC1-Y1019C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:15:36.987598+00:00"
     }
   ]
 }
