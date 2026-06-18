@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2481,
+  "total_entries": 2482,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47247,
-    "queue_remaining": 131350
+    "total_processed": 47248,
+    "queue_remaining": 131349
   },
   "entries": [
     {
@@ -581131,6 +581131,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T14:06:07.064365+00:00"
+    },
+    {
+      "entry_id": "PCD-SPTLC2-A383V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPTLC2-A383V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SPTLC2",
+        "uniprot": "",
+        "clinvar_id": "374512",
+        "disease": "not provided",
+        "mutation_precursor": "A383V",
+        "mutation_mature": "A383V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7874573560713962,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 476.0271261376188,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -2.139345645904541,
+          16.454132080078125,
+          2.2964131832122803
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.477704334267894,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6427087722379075,
+        "cryptic": true,
+        "pocket_residues": {
+          "A383": "A",
+          "S384": "S",
+          "S412": "S",
+          "V415": "V"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15270|SPTLC2 variant A383V",
+        "fasta_sequence": "MRPEPGGCCCRRTVRANGCVANGEVRNGYVRSSAAAAAAAAAGQIHHVTQNGGLYKRPFNEAFEETPMLVAVLTYVGYGVLTLFGYLRDFLRYWRIEKCHHATEREEQKDFVSLYQDFENFYTRNLYMRIRDNWNRPICSVPGARVDIMERQSHDYNWSFKYTGNIIKGVINMGSYNYLGFARNTGSCQEAAAKVLEEYGAGVCSTRQEIGNLDKHEELEELVARFLGVEAAMAYGMGFATNSMNIPALVGKGCLILSDELNHASLVLGARLSGATIRIFKHNNMQSLEKLLKDAIVYGQPRTRRPWKKILILVEGIYSMEGSIVRLPEVIALKKKYKAYLYLDEAHSIGALGPTGRGVVEYFGLDPEDVDVMMGTFTKSFGASGGYIGGKKELIDYLRTHSHSAVYATSLSPPVVEQIITSMKCIMGQDGTSLGKECVQQLAENTRYFRRRLKEMGFIIYGNEDSPVVPLMLYMPAKIGAFGREMLKRNIGVVVVGFPATPIIESRARFCLSAAHTKEILDTALKEIDEVGDLLQLKYSRHRLVPLLDRPFDETTYEETED",
+        "full_sequence": "MRPEPGGCCCRRTVRANGCVANGEVRNGYVRSSAAAAAAAAAGQIHHVTQNGGLYKRPFNEAFEETPMLVAVLTYVGYGVLTLFGYLRDFLRYWRIEKCHHATEREEQKDFVSLYQDFENFYTRNLYMRIRDNWNRPICSVPGARVDIMERQSHDYNWSFKYTGNIIKGVINMGSYNYLGFARNTGSCQEAAAKVLEEYGAGVCSTRQEIGNLDKHEELEELVARFLGVEAAMAYGMGFATNSMNIPALVGKGCLILSDELNHASLVLGARLSGATIRIFKHNNMQSLEKLLKDAIVYGQPRTRRPWKKILILVEGIYSMEGSIVRLPEVIALKKKYKAYLYLDEAHSIGALGPTGRGVVEYFGLDPEDVDVMMGTFTKSFGASGGYIGGKKELIDYLRTHSHSAVYATSLSPPVVEQIITSMKCIMGQDGTSLGKECVQQLAENTRYFRRRLKEMGFIIYGNEDSPVVPLMLYMPAKIGAFGREMLKRNIGVVVVGFPATPIIESRARFCLSAAHTKEILDTALKEIDEVGDLLQLKYSRHRLVPLLDRPFDETTYEETED",
+        "n_residues": 562,
+        "mutation_pos_1indexed": 383,
+        "wt_aa": "A",
+        "mut_aa": "V",
+        "pocket_lining_residues": "A383-S384-S412-V415",
+        "pocket_lining_positions_precursor": [
+          383,
+          384,
+          412,
+          415
+        ],
+        "pocket_lining_1letter": "ASSV",
+        "sequence_slice_around_pocket": "MMGTFTKSFGASGGYIGGKK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC2_A383V/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "A383",
+          "S384",
+          "S412",
+          "V415"
+        ],
+        "values": [
+          [
+            0.0,
+            3.862,
+            10.293,
+            5.997
+          ],
+          [
+            3.862,
+            0.0,
+            9.041,
+            6.647
+          ],
+          [
+            10.293,
+            9.041,
+            0.0,
+            5.209
+          ],
+          [
+            5.997,
+            6.647,
+            5.209,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(O)Cc1ccc(O)cc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.5273144033684228,
+        "mw": 333.24,
+        "logp": 2.057,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.7691,
+        "sa_score": 3.41,
+        "n_heavy_atoms": 24,
+        "tpsa": 73.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SPTLC2-A383V Candidate #1",
+        "iupac_name": "NCC(O)Cc1ccc(O)cc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5273,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC2_A383V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC2_A383V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC2_A383V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC2_A383V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SPTLC2_A383V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPTLC2-A383V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SPTLC2-A383V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T14:06:37.227275+00:00"
     }
   ]
 }
