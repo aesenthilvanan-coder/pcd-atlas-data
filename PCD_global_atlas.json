@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1784,
+  "total_entries": 1785,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46459,
-    "queue_remaining": 132138
+    "total_processed": 46460,
+    "queue_remaining": 132137
   },
   "entries": [
     {
@@ -399122,6 +399122,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:52:02.795696+00:00"
+    },
+    {
+      "entry_id": "PCD-SMPD1-S250R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMPD1-S250R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SMPD1",
+        "uniprot": "",
+        "clinvar_id": "371576",
+        "disease": "Niemann-Pick disease, type A",
+        "mutation_precursor": "S250R",
+        "mutation_mature": "S250R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7441246333801337,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 595.0763951619821,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          7.901176452636719,
+          -18.484210968017578,
+          -6.326686859130859
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.01413641212484,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8132780192249239,
+        "cryptic": true,
+        "pocket_residues": {
+          "P221": "P",
+          "D222": "D",
+          "G242": "G",
+          "A243": "A",
+          "E248": "E",
+          "Y249": "Y",
+          "S250": "S",
+          "K251": "K",
+          "C252": "C",
+          "G492": "G"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P17405|SMPD1 variant S250R",
+        "fasta_sequence": "MPRYGASLRQSCPRSGREQGQDGTAGAPGLLWMGLVLALALALALALALSDSRVLWAPAEAHPLSPQGHPARLHRIVPRLRDVFGWGNLTCPICKGLFTAINLGLKKEPNVARVGSVAIKLCNLLKIAPPAVCQSIVHLFEDDMVEVWRRSVLSPSEACGLLLGSTCGHWDIFSSWNISLPTVPKPPPKPPSPPAPGAPVSRILFLTDLHWDHDYLEGTDPDCADPLCCRRGSGLPPASRPGAGYWGEYSKCDLPLRTLESLLSGLGPAGPFDMVYWTGDIPAHDVWHQTRQDQLRALTTVTALVRKFLGPVPVYPAVGNHESTPVNSFPPPFIEGNHSSRWLYEAMAKAWEPWLPAEALRTLRIGGFYALSPYPGLRLISLNMNFCSRENFWLLINSTDPAGQLQWLVGELQAAEDRGDKVHIIGHIPPGHCLKSWSWNYYRIVARYENTLAAQFFGHTHVDEFEVFYDEETLSRPLAVAFLAPSATTYIGLNPGYRVYQIDGNYSGSSHVVLDHETYILNLTQANIPGAIPHWQLLYRARETYGLPNTLPTAWHNLVYRMRGDMQLFQTFWFLYHKGHPPSEPCGTPCRLATLCAQLSARADSPALCRHLMPDGSLPEAQSLWPRPLFC",
+        "full_sequence": "MPRYGASLRQSCPRSGREQGQDGTAGAPGLLWMGLVLALALALALALALSDSRVLWAPAEAHPLSPQGHPARLHRIVPRLRDVFGWGNLTCPICKGLFTAINLGLKKEPNVARVGSVAIKLCNLLKIAPPAVCQSIVHLFEDDMVEVWRRSVLSPSEACGLLLGSTCGHWDIFSSWNISLPTVPKPPPKPPSPPAPGAPVSRILFLTDLHWDHDYLEGTDPDCADPLCCRRGSGLPPASRPGAGYWGEYSKCDLPLRTLESLLSGLGPAGPFDMVYWTGDIPAHDVWHQTRQDQLRALTTVTALVRKFLGPVPVYPAVGNHESTPVNSFPPPFIEGNHSSRWLYEAMAKAWEPWLPAEALRTLRIGGFYALSPYPGLRLISLNMNFCSRENFWLLINSTDPAGQLQWLVGELQAAEDRGDKVHIIGHIPPGHCLKSWSWNYYRIVARYENTLAAQFFGHTHVDEFEVFYDEETLSRPLAVAFLAPSATTYIGLNPGYRVYQIDGNYSGSSHVVLDHETYILNLTQANIPGAIPHWQLLYRARETYGLPNTLPTAWHNLVYRMRGDMQLFQTFWFLYHKGHPPSEPCGTPCRLATLCAQLSARADSPALCRHLMPDGSLPEAQSLWPRPLFC",
+        "n_residues": 631,
+        "mutation_pos_1indexed": 250,
+        "wt_aa": "S",
+        "mut_aa": "R",
+        "pocket_lining_residues": "P221-D222-G242-A243-E248-Y249-S250-K251-C252-G492",
+        "pocket_lining_positions_precursor": [
+          221,
+          222,
+          242,
+          243,
+          248,
+          249,
+          250,
+          251,
+          252,
+          492
+        ],
+        "pocket_lining_1letter": "PDGAEYSKCG",
+        "sequence_slice_around_pocket": "RPGAGYWGEYSKCDLPLRTL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_S250R/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "P221",
+          "D222",
+          "G242",
+          "A243",
+          "E248",
+          "Y249",
+          "S250",
+          "K251",
+          "C252",
+          "G492"
+        ],
+        "values": [
+          [
+            0.0,
+            3.868,
+            6.31,
+            5.377,
+            7.058,
+            8.061,
+            5.993,
+            7.056,
+            6.792,
+            10.265
+          ],
+          [
+            3.868,
+            0.0,
+            9.045,
+            9.096,
+            10.121,
+            9.813,
+            6.876,
+            7.37,
+            8.854,
+            10.997
+          ],
+          [
+            6.31,
+            9.045,
+            0.0,
+            3.818,
+            8.774,
+            10.935,
+            10.918,
+            12.982,
+            11.715,
+            14.383
+          ],
+          [
+            5.377,
+            9.096,
+            3.818,
+            0.0,
+            5.605,
+            8.599,
+            8.816,
+            10.663,
+            8.643,
+            12.027
+          ],
+          [
+            7.058,
+            10.121,
+            8.774,
+            5.605,
+            0.0,
+            3.843,
+            5.627,
+            8.157,
+            6.405,
+            7.191
+          ],
+          [
+            8.061,
+            9.813,
+            10.935,
+            8.599,
+            3.843,
+            0.0,
+            3.846,
+            7.307,
+            7.39,
+            3.885
+          ],
+          [
+            5.993,
+            6.876,
+            10.918,
+            8.816,
+            5.627,
+            3.846,
+            0.0,
+            3.862,
+            5.316,
+            4.37
+          ],
+          [
+            7.056,
+            7.37,
+            12.982,
+            10.663,
+            8.157,
+            7.307,
+            3.862,
+            0.0,
+            3.817,
+            6.518
+          ],
+          [
+            6.792,
+            8.854,
+            11.715,
+            8.643,
+            6.405,
+            7.39,
+            5.316,
+            3.817,
+            0.0,
+            7.919
+          ],
+          [
+            10.265,
+            10.997,
+            14.383,
+            12.027,
+            7.191,
+            3.885,
+            4.37,
+            6.518,
+            7.919,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "composite_score": 0.6840127557290026,
+        "mw": 361.24,
+        "logp": 2.104,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8409,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 26,
+        "tpsa": 65.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SMPD1-S250R Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1C(O)CCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.684,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_S250R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_S250R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_S250R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_S250R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SMPD1_S250R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMPD1-S250R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SMPD1-S250R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:52:32.276813+00:00"
     }
   ]
 }
