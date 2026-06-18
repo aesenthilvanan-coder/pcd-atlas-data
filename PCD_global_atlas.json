@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1529,
+  "total_entries": 1530,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46180,
-    "queue_remaining": 132417
+    "total_processed": 46181,
+    "queue_remaining": 132416
   },
   "entries": [
     {
@@ -338356,6 +338356,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:56:17.963367+00:00"
+    },
+    {
+      "entry_id": "PCD-CCBE1-T144M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CCBE1-T144M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CCBE1",
+        "uniprot": "",
+        "clinvar_id": "327707",
+        "disease": "Hennekam lymphangiectasia-lymphedema syndrome 1",
+        "mutation_precursor": "T144M",
+        "mutation_mature": "T144M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9305881408504234,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 632.6933683517567,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          12.667101860046387,
+          -0.49725720286369324,
+          -18.93130111694336
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.4832944592465904,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.74285244407487,
+        "cryptic": true,
+        "pocket_residues": {
+          "S141": "S",
+          "N142": "N",
+          "G143": "G",
+          "T144": "T",
+          "L145": "L",
+          "C146": "C"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q6UXH8|CCBE1 variant T144M",
+        "fasta_sequence": "MVPPPPSRGGAARGQLGRSLGPLLLLLALGHTWTYREEPEDGDREICSESKIATTKYPCLKSSGELTTCYRKKCCKGYKFVLGQCIPEDYDVCAEAPCEQQCTDNFGRVLCTCYPGYRYDRERHRKREKPYCLDIDECASSNGTLCAHICINTLGSYRCECREGYIREDDGKTCTRGDKYPNDTGHEKSENMVKAGTCCATCKEFYQMKQTVLQLKQKIALLPNNAADLGKYITGDKVLASNTYLPGPPGLPGGQGPPGSPGPKGSPGFPGMPGPPGQPGPRGSMGPMGPSPDLSHIKQGRRGPVGPPGAPGRDGSKGERGAPGPRGSPGPPGSFDFLLLMLADIRNDITELQEKVFGHRTHSSAEEFPLPQEFPSYPEAMDLGSGDDHPRRTETRDLRAPRDFYP",
+        "full_sequence": "MVPPPPSRGGAARGQLGRSLGPLLLLLALGHTWTYREEPEDGDREICSESKIATTKYPCLKSSGELTTCYRKKCCKGYKFVLGQCIPEDYDVCAEAPCEQQCTDNFGRVLCTCYPGYRYDRERHRKREKPYCLDIDECASSNGTLCAHICINTLGSYRCECREGYIREDDGKTCTRGDKYPNDTGHEKSENMVKAGTCCATCKEFYQMKQTVLQLKQKIALLPNNAADLGKYITGDKVLASNTYLPGPPGLPGGQGPPGSPGPKGSPGFPGMPGPPGQPGPRGSMGPMGPSPDLSHIKQGRRGPVGPPGAPGRDGSKGERGAPGPRGSPGPPGSFDFLLLMLADIRNDITELQEKVFGHRTHSSAEEFPLPQEFPSYPEAMDLGSGDDHPRRTETRDLRAPRDFYP",
+        "n_residues": 406,
+        "mutation_pos_1indexed": 144,
+        "wt_aa": "T",
+        "mut_aa": "M",
+        "pocket_lining_residues": "S141-N142-G143-T144-L145-C146",
+        "pocket_lining_positions_precursor": [
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ],
+        "pocket_lining_1letter": "SNGTLC",
+        "sequence_slice_around_pocket": "DIDECASSNGTLCAHICINT"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CCBE1_T144M/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "S141",
+          "N142",
+          "G143",
+          "T144",
+          "L145",
+          "C146"
+        ],
+        "values": [
+          [
+            0.0,
+            3.866,
+            5.358,
+            5.569,
+            6.375,
+            9.432
+          ],
+          [
+            3.866,
+            0.0,
+            3.876,
+            5.755,
+            8.176,
+            10.134
+          ],
+          [
+            5.358,
+            3.876,
+            0.0,
+            3.883,
+            5.841,
+            6.631
+          ],
+          [
+            5.569,
+            5.755,
+            3.883,
+            0.0,
+            3.881,
+            5.828
+          ],
+          [
+            6.375,
+            8.176,
+            5.841,
+            3.881,
+            0.0,
+            3.848
+          ],
+          [
+            9.432,
+            10.134,
+            6.631,
+            5.828,
+            3.848,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCCc1ccc(OC)c(CNC(=O)c2ccncc2N2CCCC(=O)C2)c1",
+        "composite_score": 0.5571713921927859,
+        "mw": 396.22,
+        "logp": 1.951,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.7097,
+        "sa_score": 2.55,
+        "n_heavy_atoms": 29,
+        "tpsa": 83.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CCBE1-T144M Candidate #1",
+        "iupac_name": "CNCCc1ccc(OC)c(CNC(=O)c2ccncc2N2CCCC(=O)C2)c1",
+        "pocket_affinity_score": 0.5572,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CCBE1_T144M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CCBE1_T144M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CCBE1_T144M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CCBE1_T144M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CCBE1_T144M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CCBE1-T144M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CCBE1-T144M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:56:42.196364+00:00"
     }
   ]
 }
