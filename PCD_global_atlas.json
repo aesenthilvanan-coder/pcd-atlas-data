@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1989,
+  "total_entries": 1990,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46683,
-    "queue_remaining": 131914
+    "total_processed": 46684,
+    "queue_remaining": 131913
   },
   "entries": [
     {
@@ -452734,6 +452734,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:06:54.143929+00:00"
+    },
+    {
+      "entry_id": "PCD-TP63-C561Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TP63-C561Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TP63",
+        "uniprot": "",
+        "clinvar_id": "373405",
+        "disease": "not provided",
+        "mutation_precursor": "C561Y",
+        "mutation_mature": "C561Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7285627172493878,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 615.9117207423639,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          11.699339866638184,
+          -49.26538848876953,
+          -2.7466259002685547
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.2025199255135366,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.677224090165033,
+        "cryptic": true,
+        "pocket_residues": {
+          "C558": "C",
+          "S560": "S",
+          "C561": "C",
+          "L562": "L",
+          "D563": "D",
+          "Y564": "Y",
+          "K588": "K",
+          "I589": "I",
+          "P590": "P",
+          "F593": "F"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9H3D4|TP63 variant C561Y",
+        "fasta_sequence": "MNFETSRCATLQYCPDPYIQRFVETPAHFSWKESYYRSTMSQSTQTNEFLSPEVFQHIWDFLEQPICSVQPIDLNFVDEPSEDGATNKIEISMDCIRMQDSDLSDPMWPQYTNLGLLNSMDQQIQNGSSSTSPYNTDHAQNSVTAPSPYAQPSSTFDALSPSPAIPSNTDYPGPHSFDVSFQQSSTAKSATWTYSTELKKLYCQIAKTCPIQIKVMTPPPQGAVIRAMPVYKKAEHVTEVVKRCPNHELSREFNEGQIAPPSHLIRVEGNSHAQYVEDPITGRQSVLVPYEPPQVGTEFTTVLYNFMCNSSCVGGMNRRPILIIVTLETRDGQVLGRRCFEARICACPGRDRKADEDSIRKQQVSDSTKNGDGTKRPFRQNTHGIQMTSIKKRRSPDDELLYLPVRGRETYEMLLKIKESLELMQYLPQHTIETYRQQQQQQHQHLLQKQTSIQSPSSYGNSSPPLNKMNSMNKLPSVSQLINPQQRNALTPTTIPDGMGANIPMMGTHMPMAGDMNGLSPTQALPPPLSMPSTSHCTPPPPYPTDCSIVSFLARLGCSSCLDYFTTQGLTTIYQIEHYSMDDLASLKIPEQFRHAIWKGILDHRQLHEFSSPSHLLRTPSSASTVSVGSSETRGERVIDAVRFTLRQTISFPPRDEWNDFNFDMDARRNKQQRIKEEGE",
+        "full_sequence": "MNFETSRCATLQYCPDPYIQRFVETPAHFSWKESYYRSTMSQSTQTNEFLSPEVFQHIWDFLEQPICSVQPIDLNFVDEPSEDGATNKIEISMDCIRMQDSDLSDPMWPQYTNLGLLNSMDQQIQNGSSSTSPYNTDHAQNSVTAPSPYAQPSSTFDALSPSPAIPSNTDYPGPHSFDVSFQQSSTAKSATWTYSTELKKLYCQIAKTCPIQIKVMTPPPQGAVIRAMPVYKKAEHVTEVVKRCPNHELSREFNEGQIAPPSHLIRVEGNSHAQYVEDPITGRQSVLVPYEPPQVGTEFTTVLYNFMCNSSCVGGMNRRPILIIVTLETRDGQVLGRRCFEARICACPGRDRKADEDSIRKQQVSDSTKNGDGTKRPFRQNTHGIQMTSIKKRRSPDDELLYLPVRGRETYEMLLKIKESLELMQYLPQHTIETYRQQQQQQHQHLLQKQTSIQSPSSYGNSSPPLNKMNSMNKLPSVSQLINPQQRNALTPTTIPDGMGANIPMMGTHMPMAGDMNGLSPTQALPPPLSMPSTSHCTPPPPYPTDCSIVSFLARLGCSSCLDYFTTQGLTTIYQIEHYSMDDLASLKIPEQFRHAIWKGILDHRQLHEFSSPSHLLRTPSSASTVSVGSSETRGERVIDAVRFTLRQTISFPPRDEWNDFNFDMDARRNKQQRIKEEGE",
+        "n_residues": 680,
+        "mutation_pos_1indexed": 561,
+        "wt_aa": "C",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "C558-S560-C561-L562-D563-Y564-K588-I589-P590-F593",
+        "pocket_lining_positions_precursor": [
+          558,
+          560,
+          561,
+          562,
+          563,
+          564,
+          588,
+          589,
+          590,
+          593
+        ],
+        "pocket_lining_1letter": "CSCLDYKIPF",
+        "sequence_slice_around_pocket": "SFLARLGCSSCLDYFTTQGL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TP63_C561Y/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "C558",
+          "S560",
+          "C561",
+          "L562",
+          "D563",
+          "Y564",
+          "K588",
+          "I589",
+          "P590",
+          "F593"
+        ],
+        "values": [
+          [
+            0.0,
+            5.457,
+            5.659,
+            7.62,
+            10.804,
+            11.078,
+            14.028,
+            10.32,
+            10.538,
+            6.61
+          ],
+          [
+            5.457,
+            0.0,
+            3.845,
+            5.645,
+            7.346,
+            8.898,
+            12.802,
+            9.828,
+            10.232,
+            9.329
+          ],
+          [
+            5.659,
+            3.845,
+            0.0,
+            3.865,
+            5.643,
+            5.712,
+            9.724,
+            6.735,
+            8.322,
+            7.775
+          ],
+          [
+            7.62,
+            5.645,
+            3.865,
+            0.0,
+            3.849,
+            5.532,
+            11.816,
+            9.562,
+            11.913,
+            11.194
+          ],
+          [
+            10.804,
+            7.346,
+            5.643,
+            3.849,
+            0.0,
+            3.864,
+            10.553,
+            9.455,
+            12.061,
+            13.118
+          ],
+          [
+            11.078,
+            8.898,
+            5.712,
+            5.532,
+            3.864,
+            0.0,
+            7.145,
+            6.5,
+            9.844,
+            11.488
+          ],
+          [
+            14.028,
+            12.802,
+            9.724,
+            11.816,
+            10.553,
+            7.145,
+            0.0,
+            3.852,
+            6.362,
+            10.631
+          ],
+          [
+            10.32,
+            9.828,
+            6.735,
+            9.562,
+            9.455,
+            6.5,
+            3.852,
+            0.0,
+            3.891,
+            6.943
+          ],
+          [
+            10.538,
+            10.232,
+            8.322,
+            11.913,
+            12.061,
+            9.844,
+            6.362,
+            3.891,
+            0.0,
+            5.794
+          ],
+          [
+            6.61,
+            9.329,
+            7.775,
+            11.194,
+            13.118,
+            11.488,
+            10.631,
+            6.943,
+            5.794,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1OCNc1nc2ccccc2[nH]1",
+        "composite_score": 0.7813779509199861,
+        "mw": 430.18,
+        "logp": 2.072,
+        "hbd": 4,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.4208,
+        "sa_score": 3.41,
+        "n_heavy_atoms": 30,
+        "tpsa": 139.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TP63-C561Y Candidate #1",
+        "iupac_name": "NCc1ccc(S(N)(=O)=O)cc1N1CCCCC1OCNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.7814,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TP63_C561Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TP63_C561Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TP63_C561Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TP63_C561Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TP63_C561Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TP63-C561Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TP63-C561Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:07:22.821210+00:00"
     }
   ]
 }
