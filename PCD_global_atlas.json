@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2219,
+  "total_entries": 2220,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46949,
-    "queue_remaining": 131648
+    "total_processed": 46950,
+    "queue_remaining": 131647
   },
   "entries": [
     {
@@ -511074,6 +511074,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T09:37:55.896759+00:00"
+    },
+    {
+      "entry_id": "PCD-AFG3L2-E322K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AFG3L2-E322K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AFG3L2",
+        "uniprot": "",
+        "clinvar_id": "372850",
+        "disease": "not provided",
+        "mutation_precursor": "E322K",
+        "mutation_mature": "E322K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9123158187377965,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 597.6792053617418,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -2.878603458404541,
+          8.213191986083984,
+          -35.70148468017578
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.91315510190565,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7609175332271617,
+        "cryptic": true,
+        "pocket_residues": {
+          "E322": "E",
+          "F323": "F",
+          "F326": "F",
+          "Y333": "Y",
+          "Q334": "Q",
+          "G337": "G",
+          "A338": "A",
+          "K339": "K",
+          "I340": "I",
+          "P341": "P"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9Y4W6|AFG3L2 variant E322K",
+        "fasta_sequence": "MAHRCLRLWGRGGCWPRGLQQLLVPGGVGPGEQPCLRTLYRFVTTQARASRNSLLTDIIAAYQRFCSRPPKGFEKYFPNGKNGKKASEPKEVMGEKKESKPAATTRSSGGGGGGGGKRGGKKDDSHWWSRFQKGDIPWDDKDFRMFFLWTALFWGGVMFYLLLKRSGREITWKDFVNNYLSKGVVDRLEVVNKRFVRVTFTPGKTPVDGQYVWFNIGSVDTFERNLETLQQELGIEGENRVPVVYIAESDGSFLLSMLPTVLIIAFLLYTIRRGPAGIGRTGRGMGGLFSVGETTAKVLKDEIDVKFKDVAGCEEAKLEIMEFVNFLKNPKQYQDLGAKIPKGAILTGPPGTGKTLLAKATAGEANVPFITVSGSEFLEMFVGVGPARVRDLFALARKNAPCILFIDEIDAVGRKRGRGNFGGQSEQENTLNQLLVEMDGFNTTTNVVILAGTNRPDILDPALLRPGRFDRQIFIGPPDIKGRASIFKVHLRPLKLDSTLEKDKLARKLASLTPGFSGADVANVCNEAALIAARHLSDSINQKHFEQAIERVIGGLEKKTQVLQPEEKKTVAYHEAGHAVAGWYLEHADPLLKVSIIPRGKGLGYAQYLPKEQYLYTKEQLLDRMCMTLGGRVSEEIFFGRITTGAQDDLRKVTQSAYAQIVQFGMNEKVGQISFDLPRQGDMVLEKPYSEATARLIDDEVRILINDAYKRTVALLTEKKADVEKVALLLLEKEVLDKNDMVELLGPRPFAEKSTYEEFVEGTGSLDEDTSLPEGLKDWNKEREKEKEEPPGEKVAN",
+        "full_sequence": "MAHRCLRLWGRGGCWPRGLQQLLVPGGVGPGEQPCLRTLYRFVTTQARASRNSLLTDIIAAYQRFCSRPPKGFEKYFPNGKNGKKASEPKEVMGEKKESKPAATTRSSGGGGGGGGKRGGKKDDSHWWSRFQKGDIPWDDKDFRMFFLWTALFWGGVMFYLLLKRSGREITWKDFVNNYLSKGVVDRLEVVNKRFVRVTFTPGKTPVDGQYVWFNIGSVDTFERNLETLQQELGIEGENRVPVVYIAESDGSFLLSMLPTVLIIAFLLYTIRRGPAGIGRTGRGMGGLFSVGETTAKVLKDEIDVKFKDVAGCEEAKLEIMEFVNFLKNPKQYQDLGAKIPKGAILTGPPGTGKTLLAKATAGEANVPFITVSGSEFLEMFVGVGPARVRDLFALARKNAPCILFIDEIDAVGRKRGRGNFGGQSEQENTLNQLLVEMDGFNTTTNVVILAGTNRPDILDPALLRPGRFDRQIFIGPPDIKGRASIFKVHLRPLKLDSTLEKDKLARKLASLTPGFSGADVANVCNEAALIAARHLSDSINQKHFEQAIERVIGGLEKKTQVLQPEEKKTVAYHEAGHAVAGWYLEHADPLLKVSIIPRGKGLGYAQYLPKEQYLYTKEQLLDRMCMTLGGRVSEEIFFGRITTGAQDDLRKVTQSAYAQIVQFGMNEKVGQISFDLPRQGDMVLEKPYSEATARLIDDEVRILINDAYKRTVALLTEKKADVEKVALLLLEKEVLDKNDMVELLGPRPFAEKSTYEEFVEGTGSLDEDTSLPEGLKDWNKEREKEKEEPPGEKVAN",
+        "n_residues": 797,
+        "mutation_pos_1indexed": 322,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "E322-F323-F326-Y333-Q334-G337-A338-K339-I340-P341",
+        "pocket_lining_positions_precursor": [
+          322,
+          323,
+          326,
+          333,
+          334,
+          337,
+          338,
+          339,
+          340,
+          341
+        ],
+        "pocket_lining_1letter": "EFFYQGAKIP",
+        "sequence_slice_around_pocket": "GCEEAKLEIMEFVNFLKNPK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_E322K/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "E322",
+          "F323",
+          "F326",
+          "Y333",
+          "Q334",
+          "G337",
+          "A338",
+          "K339",
+          "I340",
+          "P341"
+        ],
+        "values": [
+          [
+            0.0,
+            3.861,
+            6.03,
+            9.957,
+            13.365,
+            14.965,
+            11.529,
+            11.588,
+            9.398,
+            9.391
+          ],
+          [
+            3.861,
+            0.0,
+            4.97,
+            10.656,
+            13.296,
+            15.397,
+            12.014,
+            10.913,
+            7.748,
+            7.813
+          ],
+          [
+            6.03,
+            4.97,
+            0.0,
+            6.888,
+            9.252,
+            12.44,
+            9.872,
+            9.576,
+            7.415,
+            9.648
+          ],
+          [
+            9.957,
+            10.656,
+            6.888,
+            0.0,
+            3.867,
+            6.317,
+            5.022,
+            7.241,
+            8.265,
+            11.299
+          ],
+          [
+            13.365,
+            13.296,
+            9.252,
+            3.867,
+            0.0,
+            4.846,
+            5.692,
+            7.273,
+            9.094,
+            12.663
+          ],
+          [
+            14.965,
+            15.397,
+            12.44,
+            6.317,
+            4.846,
+            0.0,
+            3.856,
+            6.482,
+            9.858,
+            12.636
+          ],
+          [
+            11.529,
+            12.014,
+            9.872,
+            5.022,
+            5.692,
+            3.856,
+            0.0,
+            3.846,
+            6.8,
+            9.182
+          ],
+          [
+            11.588,
+            10.913,
+            9.576,
+            7.241,
+            7.273,
+            6.482,
+            3.846,
+            0.0,
+            3.825,
+            6.372
+          ],
+          [
+            9.398,
+            7.748,
+            7.415,
+            8.265,
+            9.094,
+            9.858,
+            6.8,
+            3.825,
+            0.0,
+            3.836
+          ],
+          [
+            9.391,
+            7.813,
+            9.648,
+            11.299,
+            12.663,
+            12.636,
+            9.182,
+            6.372,
+            3.836,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CCCCC1CNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.8766364168269728,
+        "mw": 430.22,
+        "logp": 2.386,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.7249,
+        "sa_score": 3.21,
+        "n_heavy_atoms": 30,
+        "tpsa": 104.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AFG3L2-E322K Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CCCCC1CNS(=O)(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.8766,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_E322K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_E322K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_E322K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_E322K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AFG3L2_E322K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AFG3L2-E322K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AFG3L2-E322K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T09:38:32.259442+00:00"
     }
   ]
 }
