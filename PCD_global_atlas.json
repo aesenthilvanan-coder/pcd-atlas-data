@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2276,
+  "total_entries": 2277,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47011,
-    "queue_remaining": 131586
+    "total_processed": 47012,
+    "queue_remaining": 131585
   },
   "entries": [
     {
@@ -525847,6 +525847,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:01:02.757361+00:00"
+    },
+    {
+      "entry_id": "PCD-AIRE-R9P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIRE-R9P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "AIRE",
+        "uniprot": "",
+        "clinvar_id": "372599",
+        "disease": "not provided",
+        "mutation_precursor": "R9P",
+        "mutation_mature": "R9P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8474174104285459,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 418.3411080906765,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -8.110223770141602,
+          -2.4458346366882324,
+          9.464312553405762
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.604849300474833,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6831823018022657,
+        "cryptic": true,
+        "pocket_residues": {
+          "A5": "A",
+          "A6": "A",
+          "R8": "R",
+          "R9": "R",
+          "L10": "L",
+          "R303": "R"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43918|AIRE variant R9P",
+        "fasta_sequence": "MATDAALRRLLRLHRTEIAVAVDSAFPLLHALADHDVVPEDKFQETLHLKEKEGCPQAFHALLSWLLTQDSTAILDFWRVLFKDYNLERYGRLQPILDSFPKDVDLSQPRKGRKPPAVPKALVPPPRLPTKRKASEEARAAAPAALTPRGTASPGSQLKAKPPKKPESSAEQQRLPLGNGIQTMSASVQRAVAMSSGDVPGARGAVEGILIQQVFESGGSKKCIQVGGEFYTPSKFEDSGSGKNKARSSSGPKPLVRAKGAQGAAPGGGEARLGQQGSVPAPLALPSDPQLHQKNEDECAVCRDGGELICCDGCPRAFHLACLSPPLREIPSGTWRCSSCLQATVQEVQPRAEEPRPQEPPVETPLPPGLRSAGEEVRGPPGEPLAGMDTTLVYKHLPAPPSAAPLPGLDSSALHPLLCVGPEGQQNLAPGARCGVCGDGTDVLRCTHCAAAFHWRCHFPAGTSRPGTGLRCRSCSGDVTPAPVEGVLAPSPARLAPGPAKDDTASHEPALHRDDLESLLSEHTFDGILQWAIQSMARPAAPFPS",
+        "full_sequence": "MATDAALRRLLRLHRTEIAVAVDSAFPLLHALADHDVVPEDKFQETLHLKEKEGCPQAFHALLSWLLTQDSTAILDFWRVLFKDYNLERYGRLQPILDSFPKDVDLSQPRKGRKPPAVPKALVPPPRLPTKRKASEEARAAAPAALTPRGTASPGSQLKAKPPKKPESSAEQQRLPLGNGIQTMSASVQRAVAMSSGDVPGARGAVEGILIQQVFESGGSKKCIQVGGEFYTPSKFEDSGSGKNKARSSSGPKPLVRAKGAQGAAPGGGEARLGQQGSVPAPLALPSDPQLHQKNEDECAVCRDGGELICCDGCPRAFHLACLSPPLREIPSGTWRCSSCLQATVQEVQPRAEEPRPQEPPVETPLPPGLRSAGEEVRGPPGEPLAGMDTTLVYKHLPAPPSAAPLPGLDSSALHPLLCVGPEGQQNLAPGARCGVCGDGTDVLRCTHCAAAFHWRCHFPAGTSRPGTGLRCRSCSGDVTPAPVEGVLAPSPARLAPGPAKDDTASHEPALHRDDLESLLSEHTFDGILQWAIQSMARPAAPFPS",
+        "n_residues": 545,
+        "mutation_pos_1indexed": 9,
+        "wt_aa": "R",
+        "mut_aa": "P",
+        "pocket_lining_residues": "A5-A6-R8-R9-L10-R303",
+        "pocket_lining_positions_precursor": [
+          5,
+          6,
+          8,
+          9,
+          10,
+          303
+        ],
+        "pocket_lining_1letter": "AARRLR",
+        "sequence_slice_around_pocket": "MATDAALRRLLRLHRTEI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/AIRE_R9P/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "A5",
+          "A6",
+          "R8",
+          "R9",
+          "L10",
+          "R303"
+        ],
+        "values": [
+          [
+            0.0,
+            3.868,
+            5.079,
+            6.021,
+            8.668,
+            12.631
+          ],
+          [
+            3.868,
+            0.0,
+            5.406,
+            4.918,
+            6.177,
+            12.491
+          ],
+          [
+            5.079,
+            5.406,
+            0.0,
+            3.891,
+            5.485,
+            13.058
+          ],
+          [
+            6.021,
+            4.918,
+            3.891,
+            0.0,
+            3.855,
+            9.756
+          ],
+          [
+            8.668,
+            6.177,
+            5.485,
+            3.855,
+            0.0,
+            12.409
+          ],
+          [
+            12.631,
+            12.491,
+            13.058,
+            9.756,
+            12.409,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6722765907736389,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "AIRE-R9P Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6723,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/AIRE_R9P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/AIRE_R9P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/AIRE_R9P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/AIRE_R9P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/AIRE_R9P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIRE-R9P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-AIRE-R9P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:01:31.996396+00:00"
     }
   ]
 }
