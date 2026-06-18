@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1650,
+  "total_entries": 1651,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46311,
-    "queue_remaining": 132286
+    "total_processed": 46312,
+    "queue_remaining": 132285
   },
   "entries": [
     {
@@ -365406,6 +365406,280 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:17:53.408016+00:00"
+    },
+    {
+      "entry_id": "PCD-TIMP3-R196Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TIMP3-R196Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TIMP3",
+        "uniprot": "",
+        "clinvar_id": "341348",
+        "disease": "Sorsby fundus dystrophy",
+        "mutation_precursor": "R196Q",
+        "mutation_mature": "R196Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7511367168892054,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 597.1574446465354,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          15.987818717956543,
+          -0.5035411715507507,
+          -5.112273216247559
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.6610659376954575,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8706342730918436,
+        "cryptic": true,
+        "pocket_residues": {
+          "S130": "S",
+          "Q178": "Q",
+          "H181": "H",
+          "Y182": "Y",
+          "A183": "A",
+          "C184": "C",
+          "W194": "W",
+          "Y195": "Y",
+          "R196": "R",
+          "G197": "G",
+          "W198": "W"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P35625|TIMP3 variant R196Q",
+        "fasta_sequence": "MTPWLGLIVLLGSWSLGDWGAEACTCSPSHPQDAFCNSDIVIRAKVVGKKLVKEGPFGTLVYTIKQMKMYRGFTKMPHVQYIHTEASESLCGLKLEVNKYQYLLTGRVYDGKMYTGLCNFVERWDQLTLSQRKGLNYRYHLGCNCKIKSCYYLPCFVTSKNECLWTDMLSNFGYPGYQSKHYACIRQKGGYCSWYRGWAPPDKSIINATDP",
+        "full_sequence": "MTPWLGLIVLLGSWSLGDWGAEACTCSPSHPQDAFCNSDIVIRAKVVGKKLVKEGPFGTLVYTIKQMKMYRGFTKMPHVQYIHTEASESLCGLKLEVNKYQYLLTGRVYDGKMYTGLCNFVERWDQLTLSQRKGLNYRYHLGCNCKIKSCYYLPCFVTSKNECLWTDMLSNFGYPGYQSKHYACIRQKGGYCSWYRGWAPPDKSIINATDP",
+        "n_residues": 211,
+        "mutation_pos_1indexed": 196,
+        "wt_aa": "R",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "S130-Q178-H181-Y182-A183-C184-W194-Y195-R196-G197-W198",
+        "pocket_lining_positions_precursor": [
+          130,
+          178,
+          181,
+          182,
+          183,
+          184,
+          194,
+          195,
+          196,
+          197,
+          198
+        ],
+        "pocket_lining_1letter": "SQHYACWYRGW",
+        "sequence_slice_around_pocket": "RQKGGYCSWYRGWAPPDKSI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TIMP3_R196Q/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "S130",
+          "Q178",
+          "H181",
+          "Y182",
+          "A183",
+          "C184",
+          "W194",
+          "Y195",
+          "R196",
+          "G197",
+          "W198"
+        ],
+        "values": [
+          [
+            0.0,
+            10.091,
+            5.095,
+            6.991,
+            8.461,
+            12.283,
+            12.29,
+            9.867,
+            8.458,
+            5.592,
+            8.566
+          ],
+          [
+            10.091,
+            0.0,
+            5.247,
+            4.913,
+            7.812,
+            9.546,
+            8.548,
+            9.66,
+            8.23,
+            10.046,
+            12.955
+          ],
+          [
+            5.095,
+            5.247,
+            0.0,
+            3.844,
+            7.208,
+            10.523,
+            9.606,
+            8.533,
+            6.315,
+            6.008,
+            9.106
+          ],
+          [
+            6.991,
+            4.913,
+            3.844,
+            0.0,
+            3.817,
+            6.749,
+            6.024,
+            5.505,
+            4.86,
+            6.049,
+            9.558
+          ],
+          [
+            8.461,
+            7.812,
+            7.208,
+            3.817,
+            0.0,
+            3.842,
+            5.568,
+            5.112,
+            6.943,
+            7.74,
+            11.367
+          ],
+          [
+            12.283,
+            9.546,
+            10.523,
+            6.749,
+            3.842,
+            0.0,
+            4.506,
+            6.026,
+            8.923,
+            10.735,
+            13.911
+          ],
+          [
+            12.29,
+            8.548,
+            9.606,
+            6.024,
+            5.568,
+            4.506,
+            0.0,
+            3.787,
+            5.942,
+            9.039,
+            11.414
+          ],
+          [
+            9.867,
+            9.66,
+            8.533,
+            5.505,
+            5.112,
+            6.026,
+            3.787,
+            0.0,
+            3.855,
+            5.911,
+            8.248
+          ],
+          [
+            8.458,
+            8.23,
+            6.315,
+            4.86,
+            6.943,
+            8.923,
+            5.942,
+            3.855,
+            0.0,
+            3.882,
+            5.821
+          ],
+          [
+            5.592,
+            10.046,
+            6.008,
+            6.049,
+            7.74,
+            10.735,
+            9.039,
+            5.911,
+            3.882,
+            0.0,
+            3.883
+          ],
+          [
+            8.566,
+            12.955,
+            9.106,
+            9.558,
+            11.367,
+            13.911,
+            11.414,
+            8.248,
+            5.821,
+            3.883,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NC(=O)c1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "composite_score": 0.6162748531287473,
+        "mw": 377.19,
+        "logp": 1.989,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.6094,
+        "sa_score": 3.19,
+        "n_heavy_atoms": 28,
+        "tpsa": 104.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TIMP3-R196Q Candidate #1",
+        "iupac_name": "NC(=O)c1ccncc1N1CC(=O)CCC1CNCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6163,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TIMP3_R196Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TIMP3_R196Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TIMP3_R196Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TIMP3_R196Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TIMP3_R196Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TIMP3-R196Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TIMP3-R196Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:18:16.833177+00:00"
     }
   ]
 }
