@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1640,
+  "total_entries": 1641,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46299,
-    "queue_remaining": 132298
+    "total_processed": 46300,
+    "queue_remaining": 132297
   },
   "entries": [
     {
@@ -362940,6 +362940,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:12:30.844764+00:00"
+    },
+    {
+      "entry_id": "PCD-COL6A2-D712Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL6A2-D712Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COL6A2",
+        "uniprot": "",
+        "clinvar_id": "340372",
+        "disease": "Collagen 6-related myopathy",
+        "mutation_precursor": "D712Y",
+        "mutation_mature": "D712Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7759244067639585,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 631.5530809069921,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          38.545684814453125,
+          -12.315917015075684,
+          -11.952349662780762
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.680840514208913,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8929295363040363,
+        "cryptic": true,
+        "pocket_residues": {
+          "L707": "L",
+          "K708": "K",
+          "F709": "F",
+          "A710": "A",
+          "Y711": "Y",
+          "D712": "D",
+          "I715": "I",
+          "K716": "K",
+          "N743": "N",
+          "A746": "A",
+          "L747": "L"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P12110|COL6A2 variant D712Y",
+        "fasta_sequence": "MLQGTCSVLLLWGILGAIQAQQQEVISPDTTERNNNCPEKTDCPIHVYFVLDTSESVTMQSPTDILLFHMKQFVPQFISQLQNEFYLDQVALSWRYGGLHFSDQVEVFSPPGSDRASFIKNLQGISSFRRGTFTDCALANMTEQIRQDRSKGTVHFAVVITDGHVTGSPCGGIKLQAERAREEGIRLFAVAPNQNLKEQGLRDIASTPHELYRNDYATMLPDSTEIDQDTINRIIKVMKHEAYGECYKVSCLEIPGPSGPKGYRGQKGAKGNMGEPGEPGQKGRQGDPGIEGPIGFPGPKGVPGFKGEKGEFGADGRKGAPGLAGKNGTDGQKGKLGRIGPPGCKGDPGNRGPDGYPGEAGSPGERGDQGGKGDPGRPGRRGPPGEIGAKGSKGYQGNSGAPGSPGVKGAKGGPGPRGPKGEPGRRGDPGTKGSPGSDGPKGEKGDPGPEGPRGLAGEVGNKGAKGDRGLPGPRGPQGALGEPGKQGSRGDPGDAGPRGDSGQPGPKGDPGRPGFSYPGPRGAPGEKGEPGPRGPEGGRGDFGLKGEPGRKGEKGEPADPGPPGEPGPRGPRGVPGPEGEPGPPGDPGLTECDVMTYVRETCGCCDCEKRCGALDVVFVIDSSESIGYTNFTLEKNFVINVVNRLGAIAKDPKSETGTRVGVVQYSHEGTFEAIQLDDERIDSLSSFKEAVKNLEWIAGGTWTPSALKFAYDRLIKESRRQKTRVFAVVITDGRHDPRDDDLNLRALCDRDVTVTAIGIGDMFHEKHESENLYSIACDKPQQVRNMTLFSDLVAEKFIDDMEDVLCPDPQIVCPDLPCQTELSVAQCTQRPVDIVFLLDGSERLGEQNFHKARRFVEQVARRLTLARRDDDPLNARVALLQFGGPGEQQVAFPLSHNLTAIHEALETTQYLNSFSHVGAGVVHAINAIVRSPRGGARRHAELSFVFLTDGVTGNDSLHESAHSMRKQNVVPTVLALGSDVDMDVLTTLSLGDRAAVFHEKDYDSLAQPGFFDRFIRWIC",
+        "full_sequence": "MLQGTCSVLLLWGILGAIQAQQQEVISPDTTERNNNCPEKTDCPIHVYFVLDTSESVTMQSPTDILLFHMKQFVPQFISQLQNEFYLDQVALSWRYGGLHFSDQVEVFSPPGSDRASFIKNLQGISSFRRGTFTDCALANMTEQIRQDRSKGTVHFAVVITDGHVTGSPCGGIKLQAERAREEGIRLFAVAPNQNLKEQGLRDIASTPHELYRNDYATMLPDSTEIDQDTINRIIKVMKHEAYGECYKVSCLEIPGPSGPKGYRGQKGAKGNMGEPGEPGQKGRQGDPGIEGPIGFPGPKGVPGFKGEKGEFGADGRKGAPGLAGKNGTDGQKGKLGRIGPPGCKGDPGNRGPDGYPGEAGSPGERGDQGGKGDPGRPGRRGPPGEIGAKGSKGYQGNSGAPGSPGVKGAKGGPGPRGPKGEPGRRGDPGTKGSPGSDGPKGEKGDPGPEGPRGLAGEVGNKGAKGDRGLPGPRGPQGALGEPGKQGSRGDPGDAGPRGDSGQPGPKGDPGRPGFSYPGPRGAPGEKGEPGPRGPEGGRGDFGLKGEPGRKGEKGEPADPGPPGEPGPRGPRGVPGPEGEPGPPGDPGLTECDVMTYVRETCGCCDCEKRCGALDVVFVIDSSESIGYTNFTLEKNFVINVVNRLGAIAKDPKSETGTRVGVVQYSHEGTFEAIQLDDERIDSLSSFKEAVKNLEWIAGGTWTPSALKFAYDRLIKESRRQKTRVFAVVITDGRHDPRDDDLNLRALCDRDVTVTAIGIGDMFHEKHESENLYSIACDKPQQVRNMTLFSDLVAEKFIDDMEDVLCPDPQIVCPDLPCQTELSVAQCTQRPVDIVFLLDGSERLGEQNFHKARRFVEQVARRLTLARRDDDPLNARVALLQFGGPGEQQVAFPLSHNLTAIHEALETTQYLNSFSHVGAGVVHAINAIVRSPRGGARRHAELSFVFLTDGVTGNDSLHESAHSMRKQNVVPTVLALGSDVDMDVLTTLSLGDRAAVFHEKDYDSLAQPGFFDRFIRWIC",
+        "n_residues": 1019,
+        "mutation_pos_1indexed": 712,
+        "wt_aa": "D",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "L707-K708-F709-A710-Y711-D712-I715-K716-N743-A746-L747",
+        "pocket_lining_positions_precursor": [
+          707,
+          708,
+          709,
+          710,
+          711,
+          712,
+          715,
+          716,
+          743,
+          746,
+          747
+        ],
+        "pocket_lining_1letter": "LKFAYDIKNAL",
+        "sequence_slice_around_pocket": "WTPSALKFAYDRLIKESRRQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A2_D712Y/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "L707",
+          "K708",
+          "F709",
+          "A710",
+          "Y711",
+          "D712",
+          "I715",
+          "K716",
+          "N743",
+          "A746",
+          "L747"
+        ],
+        "values": [
+          [
+            0.0,
+            3.857,
+            5.458,
+            5.06,
+            6.197,
+            8.681,
+            10.454,
+            12.063,
+            6.694,
+            5.991,
+            6.61
+          ],
+          [
+            3.857,
+            0.0,
+            3.845,
+            5.572,
+            5.232,
+            6.137,
+            10.072,
+            10.415,
+            5.872,
+            5.248,
+            7.193
+          ],
+          [
+            5.458,
+            3.845,
+            0.0,
+            3.852,
+            5.405,
+            5.25,
+            9.221,
+            9.852,
+            9.511,
+            8.867,
+            9.827
+          ],
+          [
+            5.06,
+            5.572,
+            3.852,
+            0.0,
+            3.833,
+            5.852,
+            6.612,
+            8.644,
+            10.896,
+            8.963,
+            8.322
+          ],
+          [
+            6.197,
+            5.232,
+            5.405,
+            3.833,
+            0.0,
+            3.835,
+            4.882,
+            5.87,
+            10.116,
+            6.991,
+            6.112
+          ],
+          [
+            8.681,
+            6.137,
+            5.25,
+            5.852,
+            3.835,
+            0.0,
+            6.274,
+            5.116,
+            11.413,
+            9.066,
+            9.313
+          ],
+          [
+            10.454,
+            10.072,
+            9.221,
+            6.612,
+            4.882,
+            6.274,
+            0.0,
+            3.853,
+            14.874,
+            11.249,
+            9.101
+          ],
+          [
+            12.063,
+            10.415,
+            9.852,
+            8.644,
+            5.87,
+            5.116,
+            3.853,
+            0.0,
+            15.056,
+            11.514,
+            10.224
+          ],
+          [
+            6.694,
+            5.872,
+            9.511,
+            10.896,
+            10.116,
+            11.413,
+            14.874,
+            15.056,
+            0.0,
+            4.529,
+            8.1
+          ],
+          [
+            5.991,
+            5.248,
+            8.867,
+            8.963,
+            6.991,
+            9.066,
+            11.249,
+            11.514,
+            4.529,
+            0.0,
+            3.869
+          ],
+          [
+            6.61,
+            7.193,
+            9.827,
+            8.322,
+            6.112,
+            9.313,
+            9.101,
+            10.224,
+            8.1,
+            3.869,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(=O)c1ccncc1N1C(O)CCCC1CNC(=O)c1ccc(Cl)cc1",
+        "composite_score": 0.8125523593334885,
+        "mw": 402.15,
+        "logp": 1.984,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 6,
+        "qed": 0.6374,
+        "sa_score": 3.43,
+        "n_heavy_atoms": 28,
+        "tpsa": 108.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COL6A2-D712Y Candidate #1",
+        "iupac_name": "NCC(=O)c1ccncc1N1C(O)CCCC1CNC(=O)c1ccc(Cl)cc1",
+        "pocket_affinity_score": 0.8126,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A2_D712Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A2_D712Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A2_D712Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A2_D712Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL6A2_D712Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL6A2-D712Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL6A2-D712Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:13:05.176012+00:00"
     }
   ]
 }
