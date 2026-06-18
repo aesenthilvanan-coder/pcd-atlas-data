@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1734,
+  "total_entries": 1735,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46406,
-    "queue_remaining": 132191
+    "total_processed": 46407,
+    "queue_remaining": 132190
   },
   "entries": [
     {
@@ -386532,6 +386532,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:23:41.716709+00:00"
+    },
+    {
+      "entry_id": "PCD-TPM1-S229F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TPM1-S229F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TPM1",
+        "uniprot": "",
+        "clinvar_id": "370040",
+        "disease": "Atrial septal defect 1",
+        "mutation_precursor": "S229F",
+        "mutation_mature": "S229F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9361368247783186,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 511.4705454594092,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          104.403076171875,
+          9.237569808959961,
+          -72.95061492919922
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.024489890853505,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7805317964893435,
+        "cryptic": true,
+        "pocket_residues": {
+          "V227": "V",
+          "L228": "L",
+          "S229": "S",
+          "D230": "D",
+          "K231": "K",
+          "L232": "L",
+          "K233": "K",
+          "E234": "E",
+          "A235": "A",
+          "E236": "E"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P09493|TPM1 variant S229F",
+        "fasta_sequence": "MDAIKKKMQMLKLDKENALDRAEQAEADKKAAEDRSKQLEDELVSLQKKLKGTEDELDKYSEALKDAQEKLELAEKKATDAEADVASLNRRIQLVEEELDRAQERLATALQKLEEAEKAADESERGMKVIESRAQKDEEKMEIQEIQLKEAKHIAEDADRKYEEVARKLVIIESDLERAEERAELSEGKCAELEEELKTVTNNLKSLEAQAEKYSQKEDRYEEEIKVLSDKLKEAETRAEFAERSVTKLEKSIDDLEDELYAQKLKYKAISEELDHALNDMTSI",
+        "full_sequence": "MDAIKKKMQMLKLDKENALDRAEQAEADKKAAEDRSKQLEDELVSLQKKLKGTEDELDKYSEALKDAQEKLELAEKKATDAEADVASLNRRIQLVEEELDRAQERLATALQKLEEAEKAADESERGMKVIESRAQKDEEKMEIQEIQLKEAKHIAEDADRKYEEVARKLVIIESDLERAEERAELSEGKCAELEEELKTVTNNLKSLEAQAEKYSQKEDRYEEEIKVLSDKLKEAETRAEFAERSVTKLEKSIDDLEDELYAQKLKYKAISEELDHALNDMTSI",
+        "n_residues": 284,
+        "mutation_pos_1indexed": 229,
+        "wt_aa": "S",
+        "mut_aa": "F",
+        "pocket_lining_residues": "V227-L228-S229-D230-K231-L232-K233-E234-A235-E236",
+        "pocket_lining_positions_precursor": [
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236
+        ],
+        "pocket_lining_1letter": "VLSDKLKEAE",
+        "sequence_slice_around_pocket": "DRYEEEIKVLSDKLKEAETR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TPM1_S229F/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "V227",
+          "L228",
+          "S229",
+          "D230",
+          "K231",
+          "L232",
+          "K233",
+          "E234",
+          "A235",
+          "E236"
+        ],
+        "values": [
+          [
+            0.0,
+            3.84,
+            5.453,
+            5.129,
+            6.136,
+            8.514,
+            9.855,
+            10.512,
+            12.161,
+            14.083
+          ],
+          [
+            3.84,
+            0.0,
+            3.851,
+            5.51,
+            5.048,
+            5.984,
+            8.561,
+            9.792,
+            10.294,
+            12.029
+          ],
+          [
+            5.453,
+            3.851,
+            0.0,
+            3.852,
+            5.486,
+            5.011,
+            6.183,
+            8.671,
+            9.787,
+            10.362
+          ],
+          [
+            5.129,
+            5.51,
+            3.852,
+            0.0,
+            3.869,
+            5.463,
+            5.086,
+            6.215,
+            8.616,
+            9.787
+          ],
+          [
+            6.136,
+            5.048,
+            5.486,
+            3.869,
+            0.0,
+            3.829,
+            5.399,
+            5.017,
+            6.059,
+            8.504
+          ],
+          [
+            8.514,
+            5.984,
+            5.011,
+            5.463,
+            3.829,
+            0.0,
+            3.844,
+            5.533,
+            5.064,
+            6.069
+          ],
+          [
+            9.855,
+            8.561,
+            6.183,
+            5.086,
+            5.399,
+            3.844,
+            0.0,
+            3.857,
+            5.41,
+            4.974
+          ],
+          [
+            10.512,
+            9.792,
+            8.671,
+            6.215,
+            5.017,
+            5.533,
+            3.857,
+            0.0,
+            3.843,
+            5.509
+          ],
+          [
+            12.161,
+            10.294,
+            9.787,
+            8.616,
+            6.059,
+            5.064,
+            5.41,
+            3.843,
+            0.0,
+            3.87
+          ],
+          [
+            14.083,
+            12.029,
+            10.362,
+            9.787,
+            8.504,
+            6.069,
+            4.974,
+            5.509,
+            3.87,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NS(=O)(=O)c1ccncc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "composite_score": 0.8859040146555522,
+        "mw": 386.15,
+        "logp": 2.076,
+        "hbd": 3,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.618,
+        "sa_score": 3.11,
+        "n_heavy_atoms": 27,
+        "tpsa": 117.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TPM1-S229F Candidate #1",
+        "iupac_name": "NS(=O)(=O)c1ccncc1N1CCCCC1CNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.8859,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TPM1_S229F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TPM1_S229F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TPM1_S229F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TPM1_S229F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TPM1_S229F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TPM1-S229F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TPM1-S229F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:24:06.578371+00:00"
     }
   ]
 }
