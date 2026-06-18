@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1984,
+  "total_entries": 1985,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46677,
-    "queue_remaining": 131920
+    "total_processed": 46678,
+    "queue_remaining": 131919
   },
   "entries": [
     {
@@ -451151,6 +451151,189 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:03:00.320502+00:00"
+    },
+    {
+      "entry_id": "PCD-TBL1XR1-L83Q",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBL1XR1-L83Q.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TBL1XR1",
+        "uniprot": "",
+        "clinvar_id": "372904",
+        "disease": "not provided",
+        "mutation_precursor": "L83Q",
+        "mutation_mature": "L83Q",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7524455997308341,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 626.4564203838576,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -20.12961196899414,
+          -4.33030366897583,
+          -21.03407859802246
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.346538309125049,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8894025645845397,
+        "cryptic": true,
+        "pocket_residues": {
+          "S82": "S",
+          "L83": "L",
+          "I84": "I",
+          "D85": "D",
+          "A86": "A",
+          "V87": "V",
+          "M88": "M"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9BZK7|TBL1XR1 variant L83Q",
+        "fasta_sequence": "MSISSDEVNFLVYRYLQESGFSHSAFTFGIESHISQSNINGALVPPAALISIIQKGLQYVEAEVSINEDGTLFDGRPIESLSLIDAVMPDVVQTRQQAYRDKLAQQQAAAAAAAAAAASQQGSAKNGENTANGEENGAHTIANNHTDMMEVDGDVEIPPNKAVVLRGHESEVFICAWNPVSDLLASGSGDSTARIWNLSENSTSGSTQLVLRHCIREGGQDVPSNKDVTSLDWNSEGTLLATGSYDGFARIWTKDGNLASTLGQHKGPIFALKWNKKGNFILSAGVDKTTIIWDAHTGEAKQQFPFHSAPALDVDWQSNNTFASCSTDMCIHVCKLGQDRPIKTFQGHTNEVNAIKWDPTGNLLASCSDDMTLKIWSMKQDNCVHDLQAHNKEIYTIKWSPTGPGTNNPNANLMLASASFDSTVRLWDVDRGICIHTLTKHQEPVYSVAFSPDGRYLASGSFDKCVHIWNTQTGALVHSYRGTGGIFEVCWNAAGDKVGASASDGSVCVLDLRK",
+        "full_sequence": "MSISSDEVNFLVYRYLQESGFSHSAFTFGIESHISQSNINGALVPPAALISIIQKGLQYVEAEVSINEDGTLFDGRPIESLSLIDAVMPDVVQTRQQAYRDKLAQQQAAAAAAAAAAASQQGSAKNGENTANGEENGAHTIANNHTDMMEVDGDVEIPPNKAVVLRGHESEVFICAWNPVSDLLASGSGDSTARIWNLSENSTSGSTQLVLRHCIREGGQDVPSNKDVTSLDWNSEGTLLATGSYDGFARIWTKDGNLASTLGQHKGPIFALKWNKKGNFILSAGVDKTTIIWDAHTGEAKQQFPFHSAPALDVDWQSNNTFASCSTDMCIHVCKLGQDRPIKTFQGHTNEVNAIKWDPTGNLLASCSDDMTLKIWSMKQDNCVHDLQAHNKEIYTIKWSPTGPGTNNPNANLMLASASFDSTVRLWDVDRGICIHTLTKHQEPVYSVAFSPDGRYLASGSFDKCVHIWNTQTGALVHSYRGTGGIFEVCWNAAGDKVGASASDGSVCVLDLRK",
+        "n_residues": 514,
+        "mutation_pos_1indexed": 83,
+        "wt_aa": "L",
+        "mut_aa": "Q",
+        "pocket_lining_residues": "S82-L83-I84-D85-A86-V87-M88",
+        "pocket_lining_positions_precursor": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88
+        ],
+        "pocket_lining_1letter": "SLIDAVM",
+        "sequence_slice_around_pocket": "FDGRPIESLSLIDAVMPDVV"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TBL1XR1_L83Q/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "S82",
+          "L83",
+          "I84",
+          "D85",
+          "A86",
+          "V87",
+          "M88"
+        ],
+        "values": [
+          [
+            0.0,
+            3.832,
+            5.335,
+            5.096,
+            6.239,
+            8.935,
+            10.107
+          ],
+          [
+            3.832,
+            0.0,
+            3.857,
+            5.561,
+            5.179,
+            6.686,
+            9.114
+          ],
+          [
+            5.335,
+            3.857,
+            0.0,
+            3.844,
+            5.486,
+            5.493,
+            6.671
+          ],
+          [
+            5.096,
+            5.561,
+            3.844,
+            0.0,
+            3.841,
+            5.511,
+            5.222
+          ],
+          [
+            6.239,
+            5.179,
+            5.486,
+            3.841,
+            0.0,
+            3.865,
+            5.614
+          ],
+          [
+            8.935,
+            6.686,
+            5.493,
+            5.511,
+            3.865,
+            0.0,
+            3.865
+          ],
+          [
+            10.107,
+            9.114,
+            6.671,
+            5.222,
+            5.614,
+            3.865,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCc1ccncc1N1CC(=O)CCC1NCCNCCc1c[nH]c2ccccc12",
+        "composite_score": 0.7847843866256732,
+        "mw": 420.26,
+        "logp": 1.981,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 10,
+        "qed": 0.3745,
+        "sa_score": 3.46,
+        "n_heavy_atoms": 31,
+        "tpsa": 99.1,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TBL1XR1-L83Q Candidate #1",
+        "iupac_name": "NCCc1ccncc1N1CC(=O)CCC1NCCNCCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.7848,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TBL1XR1_L83Q/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TBL1XR1_L83Q/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TBL1XR1_L83Q/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TBL1XR1_L83Q/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TBL1XR1_L83Q/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBL1XR1-L83Q.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TBL1XR1-L83Q-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:03:27.672095+00:00"
     }
   ]
 }
