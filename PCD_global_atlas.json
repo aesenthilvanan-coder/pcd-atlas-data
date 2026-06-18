@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2254,
+  "total_entries": 2255,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46989,
-    "queue_remaining": 131608
+    "total_processed": 46990,
+    "queue_remaining": 131607
   },
   "entries": [
     {
@@ -519763,6 +519763,140 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T10:45:37.121850+00:00"
+    },
+    {
+      "entry_id": "PCD-TUBB4A-V179L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TUBB4A-V179L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TUBB4A",
+        "uniprot": "",
+        "clinvar_id": "372789",
+        "disease": "not provided",
+        "mutation_precursor": "V179L",
+        "mutation_mature": "V179L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7569745990550303,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 528.9680002422123,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          5.11637544631958,
+          3.0287206172943115,
+          -25.15911865234375
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.854174347245318,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6008285825757539,
+        "cryptic": true,
+        "pocket_residues": {
+          "D177": "D",
+          "T178": "T",
+          "V179": "V",
+          "V180": "V"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P04350|TUBB4A variant V179L",
+        "fasta_sequence": "MREIVHLQAGQCGNQIGAKFWEVISDEHGIDPTGTYHGDSDLQLERINVYYNEATGGNYVPRAVLVDLEPGTMDSVRSGPFGQIFRPDNFVFGQSGAGNNWAKGHYTEGAELVDAVLDVVRKEAESCDCLQGFQLTHSLGGGTGSGMGTLLISKIREEFPDRIMNTFSVVPSPKVSDTVVEPYNATLSVHQLVENTDETYCIDNEALYDICFRTLKLTTPTYGDLNHLVSATMSGVTTCLRFPGQLNADLRKLAVNMVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQMFDAKNMMAACDPRHGRYLTVAAVFRGRMSMKEVDEQMLSVQSKNSSYFVEWIPNNVKTAVCDIPPRGLKMAATFIGNSTAIQELFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQDATAEEGEFEEEAEEEVA",
+        "full_sequence": "MREIVHLQAGQCGNQIGAKFWEVISDEHGIDPTGTYHGDSDLQLERINVYYNEATGGNYVPRAVLVDLEPGTMDSVRSGPFGQIFRPDNFVFGQSGAGNNWAKGHYTEGAELVDAVLDVVRKEAESCDCLQGFQLTHSLGGGTGSGMGTLLISKIREEFPDRIMNTFSVVPSPKVSDTVVEPYNATLSVHQLVENTDETYCIDNEALYDICFRTLKLTTPTYGDLNHLVSATMSGVTTCLRFPGQLNADLRKLAVNMVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQMFDAKNMMAACDPRHGRYLTVAAVFRGRMSMKEVDEQMLSVQSKNSSYFVEWIPNNVKTAVCDIPPRGLKMAATFIGNSTAIQELFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQDATAEEGEFEEEAEEEVA",
+        "n_residues": 444,
+        "mutation_pos_1indexed": 179,
+        "wt_aa": "V",
+        "mut_aa": "L",
+        "pocket_lining_residues": "D177-T178-V179-V180",
+        "pocket_lining_positions_precursor": [
+          177,
+          178,
+          179,
+          180
+        ],
+        "pocket_lining_1letter": "DTVV",
+        "sequence_slice_around_pocket": "VVPSPKVSDTVVEPYNATLS"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB4A_V179L/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "D177",
+          "T178",
+          "V179",
+          "V180"
+        ],
+        "values": [
+          [
+            0.0,
+            3.859,
+            6.194,
+            9.239
+          ],
+          [
+            3.859,
+            0.0,
+            3.835,
+            5.782
+          ],
+          [
+            6.194,
+            3.835,
+            0.0,
+            3.872
+          ],
+          [
+            9.239,
+            5.782,
+            3.872,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.7108067318719309,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TUBB4A-V179L Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7108,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB4A_V179L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB4A_V179L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB4A_V179L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB4A_V179L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TUBB4A_V179L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TUBB4A-V179L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TUBB4A-V179L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T10:46:34.810188+00:00"
     }
   ]
 }
