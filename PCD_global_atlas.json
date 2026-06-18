@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2022,
+  "total_entries": 2023,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46727,
-    "queue_remaining": 131870
+    "total_processed": 46728,
+    "queue_remaining": 131869
   },
   "entries": [
     {
@@ -461113,6 +461113,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:41:56.031448+00:00"
+    },
+    {
+      "entry_id": "PCD-FGFR3-S351C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGFR3-S351C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FGFR3",
+        "uniprot": "",
+        "clinvar_id": "372751",
+        "disease": "not provided",
+        "mutation_precursor": "S351C",
+        "mutation_mature": "S351C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9428358891506573,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 563.1774585361497,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -32.6927604675293,
+          -21.282400131225586,
+          0.3408517837524414
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.092108309109625,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6823800441843991,
+        "cryptic": true,
+        "pocket_residues": {
+          "E336": "E",
+          "Y337": "Y",
+          "T338": "T",
+          "H349": "H",
+          "H350": "H",
+          "S351": "S",
+          "A352": "A",
+          "W353": "W"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P22607|FGFR3 variant S351C",
+        "fasta_sequence": "MGAPACALALCVAVAIVAGASSESLGTEQRVVGRAAEVPGPEPGQQEQLVFGSGDAVELSCPPPGGGPMGPTVWVKDGTGLVPSERVLVGPQRLQVLNASHEDSGAYSCRQRLTQRVLCHFSVRVTDAPSSGDDEDGEDEAEDTGVDTGAPYWTRPERMDKKLLAVPAANTVRFRCPAAGNPTPSISWLKNGREFRGEHRIGGIKLRHQQWSLVMESVVPSDRGNYTCVVENKFGSIRQTYTLDVLERSPHRPILQAGLPANQTAVLGSDVEFHCKVYSDAQPHIQWLKHVEVNGSKVGPDGTPYVTVLKTAGANTTDKELEVLSLHNVTFEDAGEYTCLAGNSIGFSHHSAWLVVLPAEEELVEADEAGSVYAGILSYGVGFFLFILVVAAVTLCRLRSPPKKGLGSPTVHKISRFPLKRQVSLESNASMSSNTPLVRIARLSSGEGPTLANVSELELPADPKWELSRARLTLGKPLGEGCFGQVVMAEAIGIDKDRAAKPVTVAVKMLKDDATDKDLSDLVSEMEMMKMIGKHKNIINLLGACTQGGPLYVLVEYAAKGNLREFLRARRPPGLDYSFDTCKPPEEQLTFKDLVSCAYQVARGMEYLASQKCIHRDLAARNVLVTEDNVMKIADFGLARDVHNLDYYKKTTNGRLPVKWMAPEALFDRVYTHQSDVWSFGVLLWEIFTLGGSPYPGIPVEELFKLLKEGHRMDKPANCTHDLYMIMRECWHAAPSQRPTFKQLVEDLDRVLTVTSTDEYLDLSAPFEQYSPGGQDTPSSSSSGDDSVFAHDLLPPAPPSSGGSRT",
+        "full_sequence": "MGAPACALALCVAVAIVAGASSESLGTEQRVVGRAAEVPGPEPGQQEQLVFGSGDAVELSCPPPGGGPMGPTVWVKDGTGLVPSERVLVGPQRLQVLNASHEDSGAYSCRQRLTQRVLCHFSVRVTDAPSSGDDEDGEDEAEDTGVDTGAPYWTRPERMDKKLLAVPAANTVRFRCPAAGNPTPSISWLKNGREFRGEHRIGGIKLRHQQWSLVMESVVPSDRGNYTCVVENKFGSIRQTYTLDVLERSPHRPILQAGLPANQTAVLGSDVEFHCKVYSDAQPHIQWLKHVEVNGSKVGPDGTPYVTVLKTAGANTTDKELEVLSLHNVTFEDAGEYTCLAGNSIGFSHHSAWLVVLPAEEELVEADEAGSVYAGILSYGVGFFLFILVVAAVTLCRLRSPPKKGLGSPTVHKISRFPLKRQVSLESNASMSSNTPLVRIARLSSGEGPTLANVSELELPADPKWELSRARLTLGKPLGEGCFGQVVMAEAIGIDKDRAAKPVTVAVKMLKDDATDKDLSDLVSEMEMMKMIGKHKNIINLLGACTQGGPLYVLVEYAAKGNLREFLRARRPPGLDYSFDTCKPPEEQLTFKDLVSCAYQVARGMEYLASQKCIHRDLAARNVLVTEDNVMKIADFGLARDVHNLDYYKKTTNGRLPVKWMAPEALFDRVYTHQSDVWSFGVLLWEIFTLGGSPYPGIPVEELFKLLKEGHRMDKPANCTHDLYMIMRECWHAAPSQRPTFKQLVEDLDRVLTVTSTDEYLDLSAPFEQYSPGGQDTPSSSSSGDDSVFAHDLLPPAPPSSGGSRT",
+        "n_residues": 806,
+        "mutation_pos_1indexed": 351,
+        "wt_aa": "S",
+        "mut_aa": "C",
+        "pocket_lining_residues": "E336-Y337-T338-H349-H350-S351-A352-W353",
+        "pocket_lining_positions_precursor": [
+          336,
+          337,
+          338,
+          349,
+          350,
+          351,
+          352,
+          353
+        ],
+        "pocket_lining_1letter": "EYTHHSAW",
+        "sequence_slice_around_pocket": "AGNSIGFSHHSAWLVVLPAE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FGFR3_S351C/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "E336",
+          "Y337",
+          "T338",
+          "H349",
+          "H350",
+          "S351",
+          "A352",
+          "W353"
+        ],
+        "values": [
+          [
+            0.0,
+            3.846,
+            6.69,
+            12.363,
+            10.212,
+            6.509,
+            5.706,
+            4.531
+          ],
+          [
+            3.846,
+            0.0,
+            3.854,
+            10.244,
+            8.433,
+            5.422,
+            5.338,
+            6.221
+          ],
+          [
+            6.69,
+            3.854,
+            0.0,
+            6.511,
+            5.559,
+            4.122,
+            6.477,
+            8.908
+          ],
+          [
+            12.363,
+            10.244,
+            6.511,
+            0.0,
+            3.834,
+            6.843,
+            10.418,
+            13.779
+          ],
+          [
+            10.212,
+            8.433,
+            5.559,
+            3.834,
+            0.0,
+            3.824,
+            7.014,
+            10.604
+          ],
+          [
+            6.509,
+            5.422,
+            4.122,
+            6.843,
+            3.824,
+            0.0,
+            3.814,
+            6.979
+          ],
+          [
+            5.706,
+            5.338,
+            6.477,
+            10.418,
+            7.014,
+            3.814,
+            0.0,
+            3.823
+          ],
+          [
+            4.531,
+            6.221,
+            8.908,
+            13.779,
+            10.604,
+            6.979,
+            3.823,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COC1CC(=O)CC(CNC(=O)c2ccc(Cl)cc2)N1c1cnccc1N",
+        "composite_score": 0.9044856730232949,
+        "mw": 388.13,
+        "logp": 2.258,
+        "hbd": 2,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.8149,
+        "sa_score": 3.52,
+        "n_heavy_atoms": 27,
+        "tpsa": 97.5,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FGFR3-S351C Candidate #1",
+        "iupac_name": "COC1CC(=O)CC(CNC(=O)c2ccc(Cl)cc2)N1c1cnccc1N",
+        "pocket_affinity_score": 0.9045,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FGFR3_S351C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FGFR3_S351C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FGFR3_S351C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FGFR3_S351C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FGFR3_S351C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGFR3-S351C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FGFR3-S351C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:42:27.546403+00:00"
     }
   ]
 }
