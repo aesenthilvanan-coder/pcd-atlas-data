@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1959,
+  "total_entries": 1960,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46648,
-    "queue_remaining": 131949
+    "total_processed": 46650,
+    "queue_remaining": 131947
   },
   "entries": [
     {
@@ -445026,6 +445026,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T05:41:51.154760+00:00"
+    },
+    {
+      "entry_id": "PCD-CXCR4-G335S",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CXCR4-G335S.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CXCR4",
+        "uniprot": "",
+        "clinvar_id": "372600",
+        "disease": "not provided",
+        "mutation_precursor": "G335S",
+        "mutation_mature": "G335S",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.752043904522318,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 480.66871502390103,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -8.520244598388672,
+          45.59632110595703,
+          29.13226318359375
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.768784906556945,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8836279733971879,
+        "cryptic": true,
+        "pocket_residues": {
+          "K333": "K",
+          "R334": "R",
+          "G335": "G",
+          "G336": "G"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P61073|CXCR4 variant G335S",
+        "fasta_sequence": "MEGISIYTSDNYTEEMGSGDYDSMKEPCFREENANFNKIFLPTIYSIIFLTGIVGNGLVILVMGYQKKLRSMTDKYRLHLSVADLLFVITLPFWAVDAVANWYFGNFLCKAVHVIYTVNLYSSVLILAFISLDRYLAIVHATNSQRPRKLLAEKVVYVGVWIPALLLTIPDFIFANVSEADDRYICDRFYPNDLWVVVFQFQHIMVGLILPGIVILSCYCIIISKLSHSKGHQKRKALKTTVILILAFFACWLPYYIGISIDSFILLEIIKQGCEFENTVHKWISITEALAFFHCCLNPILYAFLGAKFKTSAQHALTSVSRGSSLKILSKGKRGGHSSVSTESESSSFHSS",
+        "full_sequence": "MEGISIYTSDNYTEEMGSGDYDSMKEPCFREENANFNKIFLPTIYSIIFLTGIVGNGLVILVMGYQKKLRSMTDKYRLHLSVADLLFVITLPFWAVDAVANWYFGNFLCKAVHVIYTVNLYSSVLILAFISLDRYLAIVHATNSQRPRKLLAEKVVYVGVWIPALLLTIPDFIFANVSEADDRYICDRFYPNDLWVVVFQFQHIMVGLILPGIVILSCYCIIISKLSHSKGHQKRKALKTTVILILAFFACWLPYYIGISIDSFILLEIIKQGCEFENTVHKWISITEALAFFHCCLNPILYAFLGAKFKTSAQHALTSVSRGSSLKILSKGKRGGHSSVSTESESSSFHSS",
+        "n_residues": 352,
+        "mutation_pos_1indexed": 335,
+        "wt_aa": "G",
+        "mut_aa": "S",
+        "pocket_lining_residues": "K333-R334-G335-G336",
+        "pocket_lining_positions_precursor": [
+          333,
+          334,
+          335,
+          336
+        ],
+        "pocket_lining_1letter": "KRGG",
+        "sequence_slice_around_pocket": "SLKILSKGKRGGHSSVSTES"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CXCR4_G335S/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "K333",
+          "R334",
+          "G335",
+          "G336"
+        ],
+        "values": [
+          [
+            0.0,
+            3.874,
+            6.198,
+            8.206
+          ],
+          [
+            3.874,
+            0.0,
+            3.844,
+            6.947
+          ],
+          [
+            6.198,
+            3.844,
+            0.0,
+            3.855
+          ],
+          [
+            8.206,
+            6.947,
+            3.855,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1OCCOc1ccc(CN)cc1",
+        "composite_score": 0.5161996654388443,
+        "mw": 344.17,
+        "logp": 1.9,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 9,
+        "qed": 0.6791,
+        "sa_score": 2.02,
+        "n_heavy_atoms": 25,
+        "tpsa": 82.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CXCR4-G335S Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1OCCOc1ccc(CN)cc1",
+        "pocket_affinity_score": 0.5162,
+        "binding_mode": {
+          "van_der_waals": "Shape complementarity with pocket via van der Waals contacts"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CXCR4_G335S/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CXCR4_G335S/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CXCR4_G335S/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CXCR4_G335S/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CXCR4_G335S/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CXCR4-G335S.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CXCR4-G335S-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T05:42:31.671223+00:00"
     }
   ]
 }
