@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2145,
+  "total_entries": 2146,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46863,
-    "queue_remaining": 131734
+    "total_processed": 46864,
+    "queue_remaining": 131733
   },
   "entries": [
     {
@@ -491449,6 +491449,153 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T08:17:04.534553+00:00"
+    },
+    {
+      "entry_id": "PCD-TUBA1A-D218N",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TUBA1A-D218N.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TUBA1A",
+        "uniprot": "",
+        "clinvar_id": "372561",
+        "disease": "not provided",
+        "mutation_precursor": "D218N",
+        "mutation_mature": "D218N",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8695530212559798,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 634.8399008653186,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -4.487024784088135,
+          27.785423278808594,
+          10.040982246398926
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.629604354607347,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6166923652251715,
+        "cryptic": true,
+        "pocket_residues": {
+          "R214": "R",
+          "D218": "D",
+          "I219": "I",
+          "E220": "E",
+          "R221": "R"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q71U36|TUBA1A variant D218N",
+        "fasta_sequence": "MRECISIHVGQAGVQIGNACWELYCLEHGIQPDGQMPSDKTIGGGDDSFNTFFSETGAGKHVPRAVFVDLEPTVIDEVRTGTYRQLFHPEQLITGKEDAANNYARGHYTIGKEIIDLVLDRIRKLADQCTGLQGFLVFHSFGGGTGSGFTSLLMERLSVDYGKKSKLEFSIYPAPQVSTAVVEPYNSILTTHTTLEHSDCAFMVDNEAIYDICRRNLDIERPTYTNLNRLIGQIVSSITASLRFDGALNVDLTEFQTNLVPYPRIHFPLATYAPVISAEKAYHEQLSVAEITNACFEPANQMVKCDPRHGKYMACCLLYRGDVVPKDVNAAIATIKTKRTIQFVDWCPTGFKVGINYQPPTVVPGGDLAKVQRAVCMLSNTTAIAEAWARLDHKFDLMYAKRAFVHWYVGEGMEEGEFSEAREDMAALEKDYEEVGVDSVEGEGEEEGEEY",
+        "full_sequence": "MRECISIHVGQAGVQIGNACWELYCLEHGIQPDGQMPSDKTIGGGDDSFNTFFSETGAGKHVPRAVFVDLEPTVIDEVRTGTYRQLFHPEQLITGKEDAANNYARGHYTIGKEIIDLVLDRIRKLADQCTGLQGFLVFHSFGGGTGSGFTSLLMERLSVDYGKKSKLEFSIYPAPQVSTAVVEPYNSILTTHTTLEHSDCAFMVDNEAIYDICRRNLDIERPTYTNLNRLIGQIVSSITASLRFDGALNVDLTEFQTNLVPYPRIHFPLATYAPVISAEKAYHEQLSVAEITNACFEPANQMVKCDPRHGKYMACCLLYRGDVVPKDVNAAIATIKTKRTIQFVDWCPTGFKVGINYQPPTVVPGGDLAKVQRAVCMLSNTTAIAEAWARLDHKFDLMYAKRAFVHWYVGEGMEEGEFSEAREDMAALEKDYEEVGVDSVEGEGEEEGEEY",
+        "n_residues": 451,
+        "mutation_pos_1indexed": 218,
+        "wt_aa": "D",
+        "mut_aa": "N",
+        "pocket_lining_residues": "R214-D218-I219-E220-R221",
+        "pocket_lining_positions_precursor": [
+          214,
+          218,
+          219,
+          220,
+          221
+        ],
+        "pocket_lining_1letter": "RDIER",
+        "sequence_slice_around_pocket": "AIYDICRRNLDIERPTYTNL"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TUBA1A_D218N/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "R214",
+          "D218",
+          "I219",
+          "E220",
+          "R221"
+        ],
+        "values": [
+          [
+            0.0,
+            5.123,
+            4.743,
+            5.549,
+            7.062
+          ],
+          [
+            5.123,
+            0.0,
+            3.87,
+            6.212,
+            9.127
+          ],
+          [
+            4.743,
+            3.87,
+            0.0,
+            3.857,
+            5.645
+          ],
+          [
+            5.549,
+            6.212,
+            3.857,
+            0.0,
+            3.874
+          ],
+          [
+            7.062,
+            9.127,
+            5.645,
+            3.874,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "composite_score": 0.733666214648266,
+        "mw": 359.22,
+        "logp": 1.965,
+        "hbd": 1,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8709,
+        "sa_score": 3.17,
+        "n_heavy_atoms": 26,
+        "tpsa": 61.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TUBA1A-D218N Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CC(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7337,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TUBA1A_D218N/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TUBA1A_D218N/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TUBA1A_D218N/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TUBA1A_D218N/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TUBA1A_D218N/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TUBA1A-D218N.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TUBA1A-D218N-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T08:17:30.864752+00:00"
     }
   ]
 }
