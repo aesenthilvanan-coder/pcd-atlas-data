@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1806,
+  "total_entries": 1807,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46482,
-    "queue_remaining": 132115
+    "total_processed": 46483,
+    "queue_remaining": 132114
   },
   "entries": [
     {
@@ -404731,6 +404731,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:05:41.585848+00:00"
+    },
+    {
+      "entry_id": "PCD-PMM2-F119L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PMM2-F119L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PMM2",
+        "uniprot": "",
+        "clinvar_id": "371231",
+        "disease": "PMM2-congenital disorder of glycosylation",
+        "mutation_precursor": "F119L",
+        "mutation_mature": "F119L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.790537242872931,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 303.6700912733281,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          20.644643783569336,
+          -3.606062650680542,
+          -13.933145523071289
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.720559091236139,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8495830077638994,
+        "cryptic": true,
+        "pocket_residues": {
+          "K115": "K",
+          "R116": "R",
+          "G117": "G",
+          "T118": "T",
+          "F119": "F",
+          "I120": "I",
+          "I132": "I",
+          "G133": "G"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O15305|PMM2 variant F119L",
+        "fasta_sequence": "MAAPGPALCLFDVDGTLTAPRQKITKEMDDFLQKLRQKIKIGVVGGSDFEKVQEQLGNDVVEKYDYVFPENGLVAYKDGKLLCRQNIQSHLGEALIQDLINYCLSYIAKIKLPKKRGTFIEFRNGMLNVSPIGRSCSQEERIEFYELDKKENIRQKFVADLRKEFAGKGLTFSIGGQISFDVFPDGWDKRYCLRHVENDGYKTIYFFGDKTMPGGNDHEIFTDPRTMGYSVTAPEDTRRICELLFS",
+        "full_sequence": "MAAPGPALCLFDVDGTLTAPRQKITKEMDDFLQKLRQKIKIGVVGGSDFEKVQEQLGNDVVEKYDYVFPENGLVAYKDGKLLCRQNIQSHLGEALIQDLINYCLSYIAKIKLPKKRGTFIEFRNGMLNVSPIGRSCSQEERIEFYELDKKENIRQKFVADLRKEFAGKGLTFSIGGQISFDVFPDGWDKRYCLRHVENDGYKTIYFFGDKTMPGGNDHEIFTDPRTMGYSVTAPEDTRRICELLFS",
+        "n_residues": 246,
+        "mutation_pos_1indexed": 119,
+        "wt_aa": "F",
+        "mut_aa": "L",
+        "pocket_lining_residues": "K115-R116-G117-T118-F119-I120-I132-G133",
+        "pocket_lining_positions_precursor": [
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          132,
+          133
+        ],
+        "pocket_lining_1letter": "KRGTFIIG",
+        "sequence_slice_around_pocket": "KIKLPKKRGTFIEFRNGMLN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PMM2_F119L/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "K115",
+          "R116",
+          "G117",
+          "T118",
+          "F119",
+          "I120",
+          "I132",
+          "G133"
+        ],
+        "values": [
+          [
+            0.0,
+            3.833,
+            6.907,
+            9.751,
+            8.809,
+            12.634,
+            4.711,
+            6.207
+          ],
+          [
+            3.833,
+            0.0,
+            3.837,
+            7.239,
+            7.852,
+            11.418,
+            6.147,
+            5.117
+          ],
+          [
+            6.907,
+            3.837,
+            0.0,
+            3.82,
+            5.591,
+            8.512,
+            7.616,
+            4.671
+          ],
+          [
+            9.751,
+            7.239,
+            3.82,
+            0.0,
+            3.836,
+            5.308,
+            8.636,
+            4.898
+          ],
+          [
+            8.809,
+            7.852,
+            5.591,
+            3.836,
+            0.0,
+            3.825,
+            6.753,
+            4.133
+          ],
+          [
+            12.634,
+            11.418,
+            8.512,
+            5.308,
+            3.825,
+            0.0,
+            10.204,
+            7.492
+          ],
+          [
+            4.711,
+            6.147,
+            7.616,
+            8.636,
+            6.753,
+            10.204,
+            0.0,
+            3.851
+          ],
+          [
+            6.207,
+            5.117,
+            4.671,
+            4.898,
+            4.133,
+            7.492,
+            3.851,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.6680893319420529,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PMM2-F119L Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6681,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PMM2_F119L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PMM2_F119L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PMM2_F119L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PMM2_F119L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PMM2_F119L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PMM2-F119L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PMM2-F119L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:06:04.589893+00:00"
     }
   ]
 }
