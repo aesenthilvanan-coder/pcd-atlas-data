@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1998,
+  "total_entries": 1999,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46692,
-    "queue_remaining": 131905
+    "total_processed": 46693,
+    "queue_remaining": 131904
   },
   "entries": [
     {
@@ -455327,6 +455327,209 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:14:29.040692+00:00"
+    },
+    {
+      "entry_id": "PCD-TP63-I576T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TP63-I576T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "TP63",
+        "uniprot": "",
+        "clinvar_id": "372540",
+        "disease": "not provided",
+        "mutation_precursor": "I576T",
+        "mutation_mature": "I576T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7707327407139709,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 300.6569473014983,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          14.990562438964844,
+          -32.965980529785156,
+          -13.282655715942383
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.630814758870819,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6671703767491659,
+        "cryptic": true,
+        "pocket_residues": {
+          "T572": "T",
+          "I573": "I",
+          "Y574": "Y",
+          "Q575": "Q",
+          "I576": "I",
+          "E577": "E",
+          "H578": "H",
+          "R605": "R"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9H3D4|TP63 variant I576T",
+        "fasta_sequence": "MNFETSRCATLQYCPDPYIQRFVETPAHFSWKESYYRSTMSQSTQTNEFLSPEVFQHIWDFLEQPICSVQPIDLNFVDEPSEDGATNKIEISMDCIRMQDSDLSDPMWPQYTNLGLLNSMDQQIQNGSSSTSPYNTDHAQNSVTAPSPYAQPSSTFDALSPSPAIPSNTDYPGPHSFDVSFQQSSTAKSATWTYSTELKKLYCQIAKTCPIQIKVMTPPPQGAVIRAMPVYKKAEHVTEVVKRCPNHELSREFNEGQIAPPSHLIRVEGNSHAQYVEDPITGRQSVLVPYEPPQVGTEFTTVLYNFMCNSSCVGGMNRRPILIIVTLETRDGQVLGRRCFEARICACPGRDRKADEDSIRKQQVSDSTKNGDGTKRPFRQNTHGIQMTSIKKRRSPDDELLYLPVRGRETYEMLLKIKESLELMQYLPQHTIETYRQQQQQQHQHLLQKQTSIQSPSSYGNSSPPLNKMNSMNKLPSVSQLINPQQRNALTPTTIPDGMGANIPMMGTHMPMAGDMNGLSPTQALPPPLSMPSTSHCTPPPPYPTDCSIVSFLARLGCSSCLDYFTTQGLTTIYQIEHYSMDDLASLKIPEQFRHAIWKGILDHRQLHEFSSPSHLLRTPSSASTVSVGSSETRGERVIDAVRFTLRQTISFPPRDEWNDFNFDMDARRNKQQRIKEEGE",
+        "full_sequence": "MNFETSRCATLQYCPDPYIQRFVETPAHFSWKESYYRSTMSQSTQTNEFLSPEVFQHIWDFLEQPICSVQPIDLNFVDEPSEDGATNKIEISMDCIRMQDSDLSDPMWPQYTNLGLLNSMDQQIQNGSSSTSPYNTDHAQNSVTAPSPYAQPSSTFDALSPSPAIPSNTDYPGPHSFDVSFQQSSTAKSATWTYSTELKKLYCQIAKTCPIQIKVMTPPPQGAVIRAMPVYKKAEHVTEVVKRCPNHELSREFNEGQIAPPSHLIRVEGNSHAQYVEDPITGRQSVLVPYEPPQVGTEFTTVLYNFMCNSSCVGGMNRRPILIIVTLETRDGQVLGRRCFEARICACPGRDRKADEDSIRKQQVSDSTKNGDGTKRPFRQNTHGIQMTSIKKRRSPDDELLYLPVRGRETYEMLLKIKESLELMQYLPQHTIETYRQQQQQQHQHLLQKQTSIQSPSSYGNSSPPLNKMNSMNKLPSVSQLINPQQRNALTPTTIPDGMGANIPMMGTHMPMAGDMNGLSPTQALPPPLSMPSTSHCTPPPPYPTDCSIVSFLARLGCSSCLDYFTTQGLTTIYQIEHYSMDDLASLKIPEQFRHAIWKGILDHRQLHEFSSPSHLLRTPSSASTVSVGSSETRGERVIDAVRFTLRQTISFPPRDEWNDFNFDMDARRNKQQRIKEEGE",
+        "n_residues": 680,
+        "mutation_pos_1indexed": 576,
+        "wt_aa": "I",
+        "mut_aa": "T",
+        "pocket_lining_residues": "T572-I573-Y574-Q575-I576-E577-H578-R605",
+        "pocket_lining_positions_precursor": [
+          572,
+          573,
+          574,
+          575,
+          576,
+          577,
+          578,
+          605
+        ],
+        "pocket_lining_1letter": "TIYQIEHR",
+        "sequence_slice_around_pocket": "TTQGLTTIYQIEHYSMDDLA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/TP63_I576T/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "T572",
+          "I573",
+          "Y574",
+          "Q575",
+          "I576",
+          "E577",
+          "H578",
+          "R605"
+        ],
+        "values": [
+          [
+            0.0,
+            3.838,
+            5.468,
+            5.753,
+            7.555,
+            9.226,
+            12.352,
+            13.697
+          ],
+          [
+            3.838,
+            0.0,
+            3.858,
+            5.402,
+            5.419,
+            6.064,
+            9.622,
+            10.101
+          ],
+          [
+            5.468,
+            3.858,
+            0.0,
+            3.852,
+            5.46,
+            5.021,
+            8.126,
+            9.667
+          ],
+          [
+            5.753,
+            5.402,
+            3.852,
+            0.0,
+            3.862,
+            5.907,
+            7.69,
+            12.455
+          ],
+          [
+            7.555,
+            5.419,
+            5.46,
+            3.862,
+            0.0,
+            3.874,
+            5.482,
+            10.8
+          ],
+          [
+            9.226,
+            6.064,
+            5.021,
+            5.907,
+            3.874,
+            0.0,
+            3.849,
+            7.214
+          ],
+          [
+            12.352,
+            9.622,
+            8.126,
+            7.69,
+            5.482,
+            3.849,
+            0.0,
+            9.243
+          ],
+          [
+            13.697,
+            10.101,
+            9.667,
+            12.455,
+            10.8,
+            7.214,
+            9.243,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.8448903180994178,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.1,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "TP63-I576T Candidate #1",
+        "iupac_name": "NCCC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8449,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/TP63_I576T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/TP63_I576T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/TP63_I576T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/TP63_I576T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/TP63_I576T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TP63-I576T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-TP63-I576T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:14:56.641478+00:00"
     }
   ]
 }
