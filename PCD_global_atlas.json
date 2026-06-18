@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2192,
+  "total_entries": 2193,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46916,
-    "queue_remaining": 131681
+    "total_processed": 46917,
+    "queue_remaining": 131680
   },
   "entries": [
     {
@@ -504679,6 +504679,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T09:02:00.854035+00:00"
+    },
+    {
+      "entry_id": "PCD-CYP11A1-E314K",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP11A1-E314K.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CYP11A1",
+        "uniprot": "",
+        "clinvar_id": "372354",
+        "disease": "not provided",
+        "mutation_precursor": "E314K",
+        "mutation_mature": "E314K",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7612400260886267,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 519.8605055578321,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          20.936288833618164,
+          0.012453794479370117,
+          16.715463638305664
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.571956891461762,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6284652227500779,
+        "cryptic": true,
+        "pocket_residues": {
+          "P136": "P",
+          "D278": "D",
+          "F313": "F",
+          "E314": "E",
+          "K317": "K",
+          "A318": "A"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P05108|CYP11A1 variant E314K",
+        "fasta_sequence": "MLAKGLPPRSVLVKGCQTFLSAPREGLGRLRVPTGEGAGISTRSPRPFNEIPSPGDNGWLNLYHFWRETGTHKVHLHHVQNFQKYGPIYREKLGNVESVYVIDPEDVALLFKSEGPNPERFLIPPWVAYHQYYQRPIGVLLKKSAAWKKDRVALNQEVMAPEATKNFLPLLDAVSRDFVSVLHRRIKKAGSGNYSGDISDDLFRFAFESITNVIFGERQGMLEEVVNPEAQRFIDAIYQMFHTSVPMLNLPPDLFRLFRTKTWKDHVAAWDVIFSKADIYTQNFYWELRQKGSVHHDYRGILYRLLGDSKMSFEDIKANVTEMLAGGVDTTSMTLQWHLYEMARNLKVQDMLRAEVLAARHQAQGDMATMLQLVPLLKASIKETLRLHPISVTLQRYLVNDLVLRDYMIPAKTLVQVAIYALGREPTFFFDPENFDPTRWLSKDKNITYFRNLGFGWGVRQCLGRRIAELEMTIFLINMLENFRVEIQHLSDVGTTFNLILMPEKPISFTFWPFNQEATQQ",
+        "full_sequence": "MLAKGLPPRSVLVKGCQTFLSAPREGLGRLRVPTGEGAGISTRSPRPFNEIPSPGDNGWLNLYHFWRETGTHKVHLHHVQNFQKYGPIYREKLGNVESVYVIDPEDVALLFKSEGPNPERFLIPPWVAYHQYYQRPIGVLLKKSAAWKKDRVALNQEVMAPEATKNFLPLLDAVSRDFVSVLHRRIKKAGSGNYSGDISDDLFRFAFESITNVIFGERQGMLEEVVNPEAQRFIDAIYQMFHTSVPMLNLPPDLFRLFRTKTWKDHVAAWDVIFSKADIYTQNFYWELRQKGSVHHDYRGILYRLLGDSKMSFEDIKANVTEMLAGGVDTTSMTLQWHLYEMARNLKVQDMLRAEVLAARHQAQGDMATMLQLVPLLKASIKETLRLHPISVTLQRYLVNDLVLRDYMIPAKTLVQVAIYALGREPTFFFDPENFDPTRWLSKDKNITYFRNLGFGWGVRQCLGRRIAELEMTIFLINMLENFRVEIQHLSDVGTTFNLILMPEKPISFTFWPFNQEATQQ",
+        "n_residues": 521,
+        "mutation_pos_1indexed": 314,
+        "wt_aa": "E",
+        "mut_aa": "K",
+        "pocket_lining_residues": "P136-D278-F313-E314-K317-A318",
+        "pocket_lining_positions_precursor": [
+          136,
+          278,
+          313,
+          314,
+          317,
+          318
+        ],
+        "pocket_lining_1letter": "PDFEKA",
+        "sequence_slice_around_pocket": "RLLGDSKMSFEDIKANVTEM"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CYP11A1_E314K/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "P136",
+          "D278",
+          "F313",
+          "E314",
+          "K317",
+          "A318"
+        ],
+        "values": [
+          [
+            0.0,
+            10.985,
+            10.897,
+            7.087,
+            8.374,
+            5.71
+          ],
+          [
+            10.985,
+            0.0,
+            11.149,
+            10.028,
+            6.852,
+            8.575
+          ],
+          [
+            10.897,
+            11.149,
+            0.0,
+            3.864,
+            6.102,
+            8.597
+          ],
+          [
+            7.087,
+            10.028,
+            3.864,
+            0.0,
+            5.135,
+            6.104
+          ],
+          [
+            8.374,
+            6.852,
+            6.102,
+            5.135,
+            0.0,
+            3.837
+          ],
+          [
+            5.71,
+            8.575,
+            8.597,
+            6.104,
+            3.837,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "composite_score": 0.7072432933725112,
+        "mw": 360.25,
+        "logp": 2.071,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 6,
+        "qed": 0.8126,
+        "sa_score": 3.31,
+        "n_heavy_atoms": 26,
+        "tpsa": 70.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CYP11A1-E314K Candidate #1",
+        "iupac_name": "CNCc1ccc(OC)cc1N1CCCCC1N1CCCCC1C(N)=O",
+        "pocket_affinity_score": 0.7072,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CYP11A1_E314K/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CYP11A1_E314K/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CYP11A1_E314K/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CYP11A1_E314K/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CYP11A1_E314K/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP11A1-E314K.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CYP11A1-E314K-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T09:02:32.502325+00:00"
     }
   ]
 }
