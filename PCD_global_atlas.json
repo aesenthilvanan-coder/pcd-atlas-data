@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1586,
+  "total_entries": 1587,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46240,
-    "queue_remaining": 132357
+    "total_processed": 46241,
+    "queue_remaining": 132356
   },
   "entries": [
     {
@@ -350462,6 +350462,229 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:33:45.730942+00:00"
+    },
+    {
+      "entry_id": "PCD-CBS-L101V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBS-L101V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "CBS",
+        "uniprot": "",
+        "clinvar_id": "340091",
+        "disease": "Classic homocystinuria",
+        "mutation_precursor": "L101V",
+        "mutation_mature": "L101V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8360924868040305,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 497.9892353559749,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -1.8107348680496216,
+          14.645315170288086,
+          16.836166381835938
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.459475577959399,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7214810285651927,
+        "cryptic": true,
+        "pocket_residues": {
+          "K94": "K",
+          "I95": "I",
+          "G96": "G",
+          "K97": "K",
+          "K98": "K",
+          "F99": "F",
+          "G100": "G",
+          "L101": "L",
+          "V358": "V"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P35520|CBS variant L101V",
+        "fasta_sequence": "MPSETPQAEVGPTGCPHRSGPHSAKGSLEKGSPEDKEAKEPLWIRPDAPSRCTWQLGRPASESPHHHTAPAKSPKILPDILKKIGDTPMVRINKIGKKFGLKCELLAKCEFFNAGGSVKDRISLRMIEDAERDGTLKPGDTIIEPTSGNTGIGLALAAAVRGYRCIIVMPEKMSSEKVDVLRALGAEIVRTPTNARFDSPESHVGVAWRLKNEIPNSHILDQYRNASNPLAHYDTTADEILQQCDGKLDMLVASVGTGGTITGIARKLKEKCPGCRIIGVDPEGSILAEPEELNQTEQTTYEVEGIGYDFIPTVLDRTVVDKWFKSNDEEAFTFARMLIAQEGLLCGGSAGSTVAVAVKAAQELQEGQRCVVILPDSVRNYMTKFLSDRWMLQKGFLKEEDLTEKKPWWWHLRVQELGLSAPLTVLPTITCGHTIEILREKGFDQAPVVDEAGVILGMVTLGNMLSSLLAGKVQPSDQVGKVIYKQFKQIRLTDTLGRLSHILEMDHFALVVHEQIQYHSTGKSSQRQMVFGVVTAIDLLNFVAAQERDQK",
+        "full_sequence": "MPSETPQAEVGPTGCPHRSGPHSAKGSLEKGSPEDKEAKEPLWIRPDAPSRCTWQLGRPASESPHHHTAPAKSPKILPDILKKIGDTPMVRINKIGKKFGLKCELLAKCEFFNAGGSVKDRISLRMIEDAERDGTLKPGDTIIEPTSGNTGIGLALAAAVRGYRCIIVMPEKMSSEKVDVLRALGAEIVRTPTNARFDSPESHVGVAWRLKNEIPNSHILDQYRNASNPLAHYDTTADEILQQCDGKLDMLVASVGTGGTITGIARKLKEKCPGCRIIGVDPEGSILAEPEELNQTEQTTYEVEGIGYDFIPTVLDRTVVDKWFKSNDEEAFTFARMLIAQEGLLCGGSAGSTVAVAVKAAQELQEGQRCVVILPDSVRNYMTKFLSDRWMLQKGFLKEEDLTEKKPWWWHLRVQELGLSAPLTVLPTITCGHTIEILREKGFDQAPVVDEAGVILGMVTLGNMLSSLLAGKVQPSDQVGKVIYKQFKQIRLTDTLGRLSHILEMDHFALVVHEQIQYHSTGKSSQRQMVFGVVTAIDLLNFVAAQERDQK",
+        "n_residues": 551,
+        "mutation_pos_1indexed": 101,
+        "wt_aa": "L",
+        "mut_aa": "V",
+        "pocket_lining_residues": "K94-I95-G96-K97-K98-F99-G100-L101-V358",
+        "pocket_lining_positions_precursor": [
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          358
+        ],
+        "pocket_lining_1letter": "KIGKKFGLV",
+        "sequence_slice_around_pocket": "RINKIGKKFGLKCELLAKCE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/CBS_L101V/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "K94",
+          "I95",
+          "G96",
+          "K97",
+          "K98",
+          "F99",
+          "G100",
+          "L101",
+          "V358"
+        ],
+        "values": [
+          [
+            0.0,
+            3.848,
+            5.729,
+            5.388,
+            6.07,
+            8.859,
+            10.079,
+            10.225,
+            11.738
+          ],
+          [
+            3.848,
+            0.0,
+            3.854,
+            5.476,
+            5.005,
+            6.424,
+            8.785,
+            8.788,
+            8.332
+          ],
+          [
+            5.729,
+            3.854,
+            0.0,
+            3.863,
+            5.577,
+            5.425,
+            6.415,
+            5.208,
+            6.589
+          ],
+          [
+            5.388,
+            5.476,
+            3.863,
+            0.0,
+            3.859,
+            5.364,
+            4.941,
+            5.594,
+            9.521
+          ],
+          [
+            6.07,
+            5.005,
+            5.577,
+            3.859,
+            0.0,
+            3.852,
+            5.638,
+            7.792,
+            9.483
+          ],
+          [
+            8.859,
+            6.424,
+            5.425,
+            5.364,
+            3.852,
+            0.0,
+            3.859,
+            5.805,
+            6.481
+          ],
+          [
+            10.079,
+            8.785,
+            6.415,
+            4.941,
+            5.638,
+            3.859,
+            0.0,
+            3.857,
+            8.406
+          ],
+          [
+            10.225,
+            8.788,
+            5.208,
+            5.594,
+            7.792,
+            5.805,
+            3.857,
+            0.0,
+            6.953
+          ],
+          [
+            11.738,
+            8.332,
+            6.589,
+            9.521,
+            9.483,
+            6.481,
+            8.406,
+            6.953,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CCCCC1CCNCc1ncnc2[nH]cnc12",
+        "composite_score": 0.6472114332042601,
+        "mw": 352.21,
+        "logp": 1.869,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.5811,
+        "sa_score": 3.5,
+        "n_heavy_atoms": 26,
+        "tpsa": 108.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "CBS-L101V Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CCCCC1CCNCc1ncnc2[nH]cnc12",
+        "pocket_affinity_score": 0.6472,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/CBS_L101V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/CBS_L101V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/CBS_L101V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/CBS_L101V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/CBS_L101V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBS-L101V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-CBS-L101V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:34:10.610977+00:00"
     }
   ]
 }
