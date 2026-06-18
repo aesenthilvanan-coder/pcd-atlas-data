@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1697,
+  "total_entries": 1698,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46363,
-    "queue_remaining": 132234
+    "total_processed": 46364,
+    "queue_remaining": 132233
   },
   "entries": [
     {
@@ -377136,6 +377136,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T02:57:07.327837+00:00"
+    },
+    {
+      "entry_id": "PCD-KCNQ2-A253T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNQ2-A253T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "KCNQ2",
+        "uniprot": "",
+        "clinvar_id": "369761",
+        "disease": "Developmental and epileptic encephalopathy, 7",
+        "mutation_precursor": "A253T",
+        "mutation_mature": "A253T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8383407078894362,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 297.14172772800504,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -5.3087263107299805,
+          4.733177661895752,
+          42.62099838256836
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.3264256104872962,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8499194816633246,
+        "cryptic": true,
+        "pocket_residues": {
+          "L249": "L",
+          "V250": "V",
+          "Y251": "Y",
+          "L252": "L",
+          "A253": "A",
+          "E254": "E",
+          "K255": "K",
+          "T287": "T",
+          "N289": "N",
+          "G290": "G"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43526|KCNQ2 variant A253T",
+        "fasta_sequence": "MVQKSRNGGVYPGPSGEKKLKVGFVGLDPGAPDSTRDGALLIAGSEAPKRGSILSKPRAGGAGAGKPPKRNAFYRKLQNFLYNVLERPRGWAFIYHAYVFLLVFSCLVLSVFSTIKEYEKSSEGALYILEIVTIVVFGVEYFVRIWAAGCCCRYRGWRGRLKFARKPFCVIDIMVLIASIAVLAAGSQGNVFATSALRSLRFLQILRMIRMDRRGGTWKLLGSVVYAHSKELVTAWYIGFLCLILASFLVYLAEKGENDHFDTYADALWWGLITLTTIGYGDKYPQTWNGRLLAATFTLIGVSFFALPAGILGSGFALKVQEQHRQKHFEKRRNPAAGLIQSAWRFYATNLSRTDLHSTWQYYERTVTVPMYSSQTQTYGASRLIPPLNQLELLRNLKSKSGLAFRKDPPPEPSPSKGSPCRGPLCGCCPGRSSQKVSLKDRVFSSPRGVAAKGKGSPQAQTVRRSPSADQSLEDSPSKVPKSWSFGDRSRARQAFRIKGAASRQNSEEASLPGEDIVDDKSCPCEFVTEDLTPGLKVSIRAVCVMRFLVSKRKFKESLRPYDVMDVIEQYSAGHLDMLSRIKSLQSRVDQIVGRGPAITDKDRTKGPAEAELPEDPSMMGRLGKVEKQVLSMEKKLDFLVNIYMQRMGIPPTETEAYFGAKEPEPAPPYHSPEDSREHVDRHGCIVKIVRSSSSTGQKNFSAPPAAPPVQCPPSTSWQPQSHPRQGHGTSPVGDHGSLVRIPPPPAHERSLSAYGGGNRASMEFLRQEDTPGCRPPEGNLRDSDTSISIPSVDHEELERSFSGFSISQSKENLDALNSCYAAVAPCAKVRPYIAEGESDTDSDLCTPCGPPPRSATGEGPFGDVGWAGPRK",
+        "full_sequence": "MVQKSRNGGVYPGPSGEKKLKVGFVGLDPGAPDSTRDGALLIAGSEAPKRGSILSKPRAGGAGAGKPPKRNAFYRKLQNFLYNVLERPRGWAFIYHAYVFLLVFSCLVLSVFSTIKEYEKSSEGALYILEIVTIVVFGVEYFVRIWAAGCCCRYRGWRGRLKFARKPFCVIDIMVLIASIAVLAAGSQGNVFATSALRSLRFLQILRMIRMDRRGGTWKLLGSVVYAHSKELVTAWYIGFLCLILASFLVYLAEKGENDHFDTYADALWWGLITLTTIGYGDKYPQTWNGRLLAATFTLIGVSFFALPAGILGSGFALKVQEQHRQKHFEKRRNPAAGLIQSAWRFYATNLSRTDLHSTWQYYERTVTVPMYSSQTQTYGASRLIPPLNQLELLRNLKSKSGLAFRKDPPPEPSPSKGSPCRGPLCGCCPGRSSQKVSLKDRVFSSPRGVAAKGKGSPQAQTVRRSPSADQSLEDSPSKVPKSWSFGDRSRARQAFRIKGAASRQNSEEASLPGEDIVDDKSCPCEFVTEDLTPGLKVSIRAVCVMRFLVSKRKFKESLRPYDVMDVIEQYSAGHLDMLSRIKSLQSRVDQIVGRGPAITDKDRTKGPAEAELPEDPSMMGRLGKVEKQVLSMEKKLDFLVNIYMQRMGIPPTETEAYFGAKEPEPAPPYHSPEDSREHVDRHGCIVKIVRSSSSTGQKNFSAPPAAPPVQCPPSTSWQPQSHPRQGHGTSPVGDHGSLVRIPPPPAHERSLSAYGGGNRASMEFLRQEDTPGCRPPEGNLRDSDTSISIPSVDHEELERSFSGFSISQSKENLDALNSCYAAVAPCAKVRPYIAEGESDTDSDLCTPCGPPPRSATGEGPFGDVGWAGPRK",
+        "n_residues": 872,
+        "mutation_pos_1indexed": 253,
+        "wt_aa": "A",
+        "mut_aa": "T",
+        "pocket_lining_residues": "L249-V250-Y251-L252-A253-E254-K255-T287-N289-G290",
+        "pocket_lining_positions_precursor": [
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          287,
+          289,
+          290
+        ],
+        "pocket_lining_1letter": "LVYLAEKTNG",
+        "sequence_slice_around_pocket": "LILASFLVYLAEKGENDHFD"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_A253T/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "L249",
+          "V250",
+          "Y251",
+          "L252",
+          "A253",
+          "E254",
+          "K255",
+          "T287",
+          "N289",
+          "G290"
+        ],
+        "values": [
+          [
+            0.0,
+            3.862,
+            5.431,
+            5.157,
+            6.25,
+            8.787,
+            10.075,
+            12.392,
+            9.696,
+            7.751
+          ],
+          [
+            3.862,
+            0.0,
+            3.861,
+            5.428,
+            4.935,
+            6.055,
+            8.337,
+            9.478,
+            8.149,
+            5.025
+          ],
+          [
+            5.431,
+            3.861,
+            0.0,
+            3.856,
+            5.506,
+            5.368,
+            5.748,
+            10.948,
+            10.803,
+            7.91
+          ],
+          [
+            5.157,
+            5.428,
+            3.856,
+            0.0,
+            3.865,
+            5.762,
+            5.525,
+            10.964,
+            9.858,
+            8.265
+          ],
+          [
+            6.25,
+            4.935,
+            5.506,
+            3.865,
+            0.0,
+            3.877,
+            5.967,
+            7.321,
+            6.213,
+            5.055
+          ],
+          [
+            8.787,
+            6.055,
+            5.368,
+            5.762,
+            3.877,
+            0.0,
+            3.875,
+            6.333,
+            8.113,
+            5.97
+          ],
+          [
+            10.075,
+            8.337,
+            5.748,
+            5.525,
+            5.967,
+            3.875,
+            0.0,
+            9.782,
+            11.447,
+            9.642
+          ],
+          [
+            12.392,
+            9.478,
+            10.948,
+            10.964,
+            7.321,
+            6.333,
+            9.782,
+            0.0,
+            5.396,
+            5.279
+          ],
+          [
+            9.696,
+            8.149,
+            10.803,
+            9.858,
+            6.213,
+            8.113,
+            11.447,
+            5.396,
+            0.0,
+            3.852
+          ],
+          [
+            7.751,
+            5.025,
+            7.91,
+            8.265,
+            5.055,
+            5.97,
+            9.642,
+            5.279,
+            3.852,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8758717523009336,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "KCNQ2-A253T Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8759,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_A253T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_A253T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_A253T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_A253T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/KCNQ2_A253T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNQ2-A253T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-KCNQ2-A253T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T02:57:48.693153+00:00"
     }
   ]
 }
