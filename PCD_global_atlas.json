@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2397,
+  "total_entries": 2398,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47153,
-    "queue_remaining": 131444
+    "total_processed": 47154,
+    "queue_remaining": 131443
   },
   "entries": [
     {
@@ -559578,6 +559578,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T12:50:08.053911+00:00"
+    },
+    {
+      "entry_id": "PCD-FOXF1-N94Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXF1-N94Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "FOXF1",
+        "uniprot": "",
+        "clinvar_id": "374061",
+        "disease": "Fetal megacystis;Atresia of urethra;Ventricular septal defect",
+        "mutation_precursor": "N94Y",
+        "mutation_mature": "N94Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8533300783239647,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 321.9111533783594,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          4.544882774353027,
+          9.870458602905273,
+          7.580067157745361
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.08630739540947,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.887195315456708,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q90": "Q",
+          "G91": "G",
+          "K93": "K",
+          "N94": "N"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q12946|FOXF1 variant N94Y",
+        "fasta_sequence": "MSSAPEKQQPPHGGGGGGGGGGGAAMDPASSGPSKAKKTNAGIRRPEKPPYSYIALIVMAIQSSPTKRLTLSEIYQFLQSRFPFFRGSYQGWKNSVRHNLSLNECFIKLPKGLGRPGKGHYWTIDPASEFMFEEGSFRRRPRGFRRKCQALKPMYSMMNGLGFNHLPDTYGFQGSAGGLSCPPNSLALEGGLGMMNGHLPGNVDGMALPSHSVPHLPSNGGHSYMGGCGGAAAGEYPHHDSSVPASPLLPTGAGGVMEPHAVYSGSAAAWPPSASAALNSGASYIKQQPLSPCNPAANPLSGSLSTHSLEQPYLHQNSHNAPAELQGIPRYHSQSPSMCDRKEFVFSFNAMASSSMHSAGGGSYYHQQVTYQDIKPCVM",
+        "full_sequence": "MSSAPEKQQPPHGGGGGGGGGGGAAMDPASSGPSKAKKTNAGIRRPEKPPYSYIALIVMAIQSSPTKRLTLSEIYQFLQSRFPFFRGSYQGWKNSVRHNLSLNECFIKLPKGLGRPGKGHYWTIDPASEFMFEEGSFRRRPRGFRRKCQALKPMYSMMNGLGFNHLPDTYGFQGSAGGLSCPPNSLALEGGLGMMNGHLPGNVDGMALPSHSVPHLPSNGGHSYMGGCGGAAAGEYPHHDSSVPASPLLPTGAGGVMEPHAVYSGSAAAWPPSASAALNSGASYIKQQPLSPCNPAANPLSGSLSTHSLEQPYLHQNSHNAPAELQGIPRYHSQSPSMCDRKEFVFSFNAMASSSMHSAGGGSYYHQQVTYQDIKPCVM",
+        "n_residues": 379,
+        "mutation_pos_1indexed": 94,
+        "wt_aa": "N",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "Q90-G91-K93-N94",
+        "pocket_lining_positions_precursor": [
+          90,
+          91,
+          93,
+          94
+        ],
+        "pocket_lining_1letter": "QGKN",
+        "sequence_slice_around_pocket": "FFRGSYQGWKNSVRHNLSLN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/FOXF1_N94Y/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "Q90",
+          "G91",
+          "K93",
+          "N94"
+        ],
+        "values": [
+          [
+            0.0,
+            3.879,
+            5.79,
+            7.787
+          ],
+          [
+            3.879,
+            0.0,
+            5.304,
+            5.396
+          ],
+          [
+            5.79,
+            5.304,
+            0.0,
+            3.838
+          ],
+          [
+            7.787,
+            5.396,
+            3.838,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.5584295525351491,
+        "mw": 216.13,
+        "logp": 2.018,
+        "hbd": 2,
+        "hba": 2,
+        "rotatable_bonds": 5,
+        "qed": 0.8029,
+        "sa_score": 2.06,
+        "n_heavy_atoms": 16,
+        "tpsa": 58.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "FOXF1-N94Y Candidate #1",
+        "iupac_name": "NCCCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.5584,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/FOXF1_N94Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/FOXF1_N94Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/FOXF1_N94Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXF1_N94Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/FOXF1_N94Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXF1-N94Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-FOXF1-N94Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T12:50:33.755127+00:00"
     }
   ]
 }
