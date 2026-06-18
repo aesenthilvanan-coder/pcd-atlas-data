@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2057,
+  "total_entries": 2058,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46764,
-    "queue_remaining": 131833
+    "total_processed": 46765,
+    "queue_remaining": 131832
   },
   "entries": [
     {
@@ -469620,6 +469620,154 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T07:05:40.753607+00:00"
+    },
+    {
+      "entry_id": "PCD-GCM2-N502D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GCM2-N502D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GCM2",
+        "uniprot": "",
+        "clinvar_id": "372876",
+        "disease": "not provided",
+        "mutation_precursor": "N502D",
+        "mutation_mature": "N502D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7558414112741884,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 360.4888081968341,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          4.5315680503845215,
+          -28.054044723510742,
+          4.801225662231445
+        ],
+        "dist_mutation_to_pocket_angstrom": 7.257462987697612,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7674378802829814,
+        "cryptic": true,
+        "pocket_residues": {
+          "T500": "T",
+          "Y501": "Y",
+          "N502": "N",
+          "N503": "N",
+          "E504": "E"
+        },
+        "n_lining_residues": 5,
+        "shell_radius_angstrom": 12.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O75603|GCM2 variant N502D",
+        "fasta_sequence": "MPAAAVQEAVGVCSYGMQLSWDINDPQMPQELALFDQFREWPDGYVRFIYSSDEKKAQRHLSGWAMRNTNNHNGHILKKSCLGVVVCTQACTLPDGSRLQLRPAICDKARLKQQKKACPNCHSALELIPCRGHSGYPVTNFWRLDGNAIFFQAKGVHDHPRPESKSETEARRSAIKRQMASFYQPQKKRIRESEAEENQDSSGHFSNIPPLENPEDFDIVTETSFPIPGQPCPSFPKSDVYKATCDLATFQGDKMPPFQKYSSPRIYLPRPPCSYELANPGYTNSSPYPTLYKDSTSIPNDTDWVHLNTLQCNVNSYSSYERSFDFTNKQHGWKPALGKPSLVERTNHGQFQAMATRPYYNPELPCRYLTTPPPGAPALQTVITTTTKVSYQAYQPPAMKYSDSVREVKSLSSCNYAPEDTGMSVYPEPWGPPVTVTRAASPSGPPPMKIAGDCRAIRPTVAIPHEPVSSRTDEAETWDVCLSGLGSAVSYSDRVGPFFTYNNEDF",
+        "full_sequence": "MPAAAVQEAVGVCSYGMQLSWDINDPQMPQELALFDQFREWPDGYVRFIYSSDEKKAQRHLSGWAMRNTNNHNGHILKKSCLGVVVCTQACTLPDGSRLQLRPAICDKARLKQQKKACPNCHSALELIPCRGHSGYPVTNFWRLDGNAIFFQAKGVHDHPRPESKSETEARRSAIKRQMASFYQPQKKRIRESEAEENQDSSGHFSNIPPLENPEDFDIVTETSFPIPGQPCPSFPKSDVYKATCDLATFQGDKMPPFQKYSSPRIYLPRPPCSYELANPGYTNSSPYPTLYKDSTSIPNDTDWVHLNTLQCNVNSYSSYERSFDFTNKQHGWKPALGKPSLVERTNHGQFQAMATRPYYNPELPCRYLTTPPPGAPALQTVITTTTKVSYQAYQPPAMKYSDSVREVKSLSSCNYAPEDTGMSVYPEPWGPPVTVTRAASPSGPPPMKIAGDCRAIRPTVAIPHEPVSSRTDEAETWDVCLSGLGSAVSYSDRVGPFFTYNNEDF",
+        "n_residues": 506,
+        "mutation_pos_1indexed": 502,
+        "wt_aa": "N",
+        "mut_aa": "D",
+        "pocket_lining_residues": "T500-Y501-N502-N503-E504",
+        "pocket_lining_positions_precursor": [
+          500,
+          501,
+          502,
+          503,
+          504
+        ],
+        "pocket_lining_1letter": "TYNNE",
+        "sequence_slice_around_pocket": "SDRVGPFFTYNNEDF"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GCM2_N502D/E_ij_matrix.npy",
+        "shape": [
+          5,
+          5
+        ],
+        "residue_labels": [
+          "T500",
+          "Y501",
+          "N502",
+          "N503",
+          "E504"
+        ],
+        "values": [
+          [
+            0.0,
+            3.826,
+            6.593,
+            10.091,
+            12.826
+          ],
+          [
+            3.826,
+            0.0,
+            3.828,
+            7.002,
+            9.373
+          ],
+          [
+            6.593,
+            3.828,
+            0.0,
+            3.787,
+            6.407
+          ],
+          [
+            10.091,
+            7.002,
+            3.787,
+            0.0,
+            3.77
+          ],
+          [
+            12.826,
+            9.373,
+            6.407,
+            3.77,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNCC(=O)c1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.7118250157842916,
+        "mw": 262.17,
+        "logp": 2.088,
+        "hbd": 1,
+        "hba": 4,
+        "rotatable_bonds": 5,
+        "qed": 0.825,
+        "sa_score": 2.15,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GCM2-N502D Candidate #1",
+        "iupac_name": "CNCC(=O)c1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7118,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GCM2_N502D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GCM2_N502D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GCM2_N502D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GCM2_N502D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GCM2_N502D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GCM2-N502D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GCM2-N502D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T07:06:08.088972+00:00"
     }
   ]
 }
