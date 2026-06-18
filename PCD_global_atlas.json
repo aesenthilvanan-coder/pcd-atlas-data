@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2457,
+  "total_entries": 2458,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47220,
-    "queue_remaining": 131377
+    "total_processed": 47221,
+    "queue_remaining": 131376
   },
   "entries": [
     {
@@ -574399,6 +574399,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:45:28.300645+00:00"
+    },
+    {
+      "entry_id": "PCD-SOX9-M476T",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SOX9-M476T.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SOX9",
+        "uniprot": "",
+        "clinvar_id": "374384",
+        "disease": "Camptomelic dysplasia",
+        "mutation_precursor": "M476T",
+        "mutation_mature": "M476T",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8735984684542836,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 524.1016214300976,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -37.7134895324707,
+          33.459083557128906,
+          5.640764236450195
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.640129784219537,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8064251242590371,
+        "cryptic": true,
+        "pocket_residues": {
+          "Q473": "Q",
+          "R474": "R",
+          "P475": "P",
+          "M476": "M"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P48436|SOX9 variant M476T",
+        "fasta_sequence": "MNLLDPFMKMTDEQEKGLSGAPSPTMSEDSAGSPCPSGSGSDTENTRPQENTFPKGEPDLKKESEEDKFPVCIREAVSQVLKGYDWTLVPMPVRVNGSSKNKPHVKRPMNAFMVWAQAARRKLADQYPHLHNAELSKTLGKLWRLLNESEKRPFVEEAERLRVQHKKDHPDYKYQPRRRKSVKNGQAEAEEATEQTHISPNAIFKALQADSPHSSSGMSEVHSPGEHSGQSQGPPTPPTTPKTDVQPGKADLKREGRPLPEGGRQPPIDFRDVDIGELSSDVISNIETFDVNEFDQYLPPNGHPGVPATHGQVTYTGSYGISSTAATPASAGHVWMSKQQAPPPPPQQPPQAPPAPQAPPQPQAAPPQQPAAPPQQPQAHTLTTLSSEPGQSQRTHIKTEQLSPSHYSEQQQHSPQQIAYSPFNLPHYSPSYPPITRSQYDYTDHQNSSSYYSHAAGQGTGLYSTFTYMNPAQRPMYTPIADTSGVPSIPQTHSPQHWEQPVYTQLTRP",
+        "full_sequence": "MNLLDPFMKMTDEQEKGLSGAPSPTMSEDSAGSPCPSGSGSDTENTRPQENTFPKGEPDLKKESEEDKFPVCIREAVSQVLKGYDWTLVPMPVRVNGSSKNKPHVKRPMNAFMVWAQAARRKLADQYPHLHNAELSKTLGKLWRLLNESEKRPFVEEAERLRVQHKKDHPDYKYQPRRRKSVKNGQAEAEEATEQTHISPNAIFKALQADSPHSSSGMSEVHSPGEHSGQSQGPPTPPTTPKTDVQPGKADLKREGRPLPEGGRQPPIDFRDVDIGELSSDVISNIETFDVNEFDQYLPPNGHPGVPATHGQVTYTGSYGISSTAATPASAGHVWMSKQQAPPPPPQQPPQAPPAPQAPPQPQAAPPQQPAAPPQQPQAHTLTTLSSEPGQSQRTHIKTEQLSPSHYSEQQQHSPQQIAYSPFNLPHYSPSYPPITRSQYDYTDHQNSSSYYSHAAGQGTGLYSTFTYMNPAQRPMYTPIADTSGVPSIPQTHSPQHWEQPVYTQLTRP",
+        "n_residues": 509,
+        "mutation_pos_1indexed": 476,
+        "wt_aa": "M",
+        "mut_aa": "T",
+        "pocket_lining_residues": "Q473-R474-P475-M476",
+        "pocket_lining_positions_precursor": [
+          473,
+          474,
+          475,
+          476
+        ],
+        "pocket_lining_1letter": "QRPM",
+        "sequence_slice_around_pocket": "FTYMNPAQRPMYTPIADTSG"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SOX9_M476T/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "Q473",
+          "R474",
+          "P475",
+          "M476"
+        ],
+        "values": [
+          [
+            0.0,
+            3.792,
+            6.266,
+            9.465
+          ],
+          [
+            3.792,
+            0.0,
+            3.852,
+            6.722
+          ],
+          [
+            6.266,
+            3.852,
+            0.0,
+            3.814
+          ],
+          [
+            9.465,
+            6.722,
+            3.814,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccc(OCC(=O)OC2CCCCN2OC2CCCCC2N)cc1",
+        "composite_score": 0.5383323670975746,
+        "mw": 377.23,
+        "logp": 2.081,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 7,
+        "qed": 0.7018,
+        "sa_score": 3.73,
+        "n_heavy_atoms": 27,
+        "tpsa": 100.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SOX9-M476T Candidate #1",
+        "iupac_name": "NCc1ccc(OCC(=O)OC2CCCCN2OC2CCCCC2N)cc1",
+        "pocket_affinity_score": 0.5383,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SOX9_M476T/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SOX9_M476T/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SOX9_M476T/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SOX9_M476T/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SOX9_M476T/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SOX9-M476T.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SOX9-M476T-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:45:58.504264+00:00"
     }
   ]
 }
