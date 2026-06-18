@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2488,
+  "total_entries": 2489,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47258,
-    "queue_remaining": 131339
+    "total_processed": 47259,
+    "queue_remaining": 131338
   },
   "entries": [
     {
@@ -582884,6 +582884,187 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T14:14:09.173273+00:00"
+    },
+    {
+      "entry_id": "PCD-B4GALT7-H93Y",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-B4GALT7-H93Y.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "B4GALT7",
+        "uniprot": "",
+        "clinvar_id": "374581",
+        "disease": "not provided",
+        "mutation_precursor": "H93Y",
+        "mutation_mature": "H93Y",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9484675477523872,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 591.6583387815984,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -9.788568496704102,
+          7.054317474365234,
+          15.936132431030273
+        ],
+        "dist_mutation_to_pocket_angstrom": 1.8528702259086882,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6131811320495003,
+        "cryptic": true,
+        "pocket_residues": {
+          "G91": "G",
+          "P92": "P",
+          "H93": "H",
+          "R94": "R",
+          "R125": "R",
+          "D157": "D",
+          "F177": "F"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9UBV7|B4GALT7 variant H93Y",
+        "fasta_sequence": "MFPSRRKAAQLPWEDGRSGLLSGGLPRKCSVFHLFVACLSLGFFSLLWLQLSCSGDVARAVRGQGQETSGPPRACPPEPPPEHWEEDASWGPHRLAVLVPFRERFEELLVFVPHMRRFLSRKKIRHHIYVLNQVDHFRFNRAALINVGFLESSNSTDYIAMHDVDLLPLNEELDYGFPEAGPFHVASPELHPLYHYKTYVGGILLLSKQHYRLCNGMSNRFWGWGREDDEFYRRIKGAGLQLFRPSGITTGYKTFRHLHDPAWRKRDQKRIAAQKQEQFKVDREGGLNTVKYHVASRTALSVGGAPCTVLNIMLDCDKTATPWCTFS",
+        "full_sequence": "MFPSRRKAAQLPWEDGRSGLLSGGLPRKCSVFHLFVACLSLGFFSLLWLQLSCSGDVARAVRGQGQETSGPPRACPPEPPPEHWEEDASWGPHRLAVLVPFRERFEELLVFVPHMRRFLSRKKIRHHIYVLNQVDHFRFNRAALINVGFLESSNSTDYIAMHDVDLLPLNEELDYGFPEAGPFHVASPELHPLYHYKTYVGGILLLSKQHYRLCNGMSNRFWGWGREDDEFYRRIKGAGLQLFRPSGITTGYKTFRHLHDPAWRKRDQKRIAAQKQEQFKVDREGGLNTVKYHVASRTALSVGGAPCTVLNIMLDCDKTATPWCTFS",
+        "n_residues": 327,
+        "mutation_pos_1indexed": 93,
+        "wt_aa": "H",
+        "mut_aa": "Y",
+        "pocket_lining_residues": "G91-P92-H93-R94-R125-D157-F177",
+        "pocket_lining_positions_precursor": [
+          91,
+          92,
+          93,
+          94,
+          125,
+          157,
+          177
+        ],
+        "pocket_lining_1letter": "GPHRRDF",
+        "sequence_slice_around_pocket": "HWEEDASWGPHRLAVLVPFR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/B4GALT7_H93Y/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "G91",
+          "P92",
+          "H93",
+          "R94",
+          "R125",
+          "D157",
+          "F177"
+        ],
+        "values": [
+          [
+            0.0,
+            3.861,
+            5.787,
+            8.472,
+            7.514,
+            12.072,
+            9.418
+          ],
+          [
+            3.861,
+            0.0,
+            3.849,
+            6.674,
+            7.707,
+            9.367,
+            9.418
+          ],
+          [
+            5.787,
+            3.849,
+            0.0,
+            3.869,
+            6.544,
+            6.31,
+            6.402
+          ],
+          [
+            8.472,
+            6.674,
+            3.869,
+            0.0,
+            4.867,
+            5.832,
+            8.3
+          ],
+          [
+            7.514,
+            7.707,
+            6.544,
+            4.867,
+            0.0,
+            10.655,
+            10.419
+          ],
+          [
+            12.072,
+            9.367,
+            6.31,
+            5.832,
+            10.655,
+            0.0,
+            8.196
+          ],
+          [
+            9.418,
+            9.418,
+            6.402,
+            8.3,
+            10.419,
+            8.196,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(O)C(=O)c1ccccc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7567252984946035,
+        "mw": 331.23,
+        "logp": 1.991,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8077,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 24,
+        "tpsa": 69.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "B4GALT7-H93Y Candidate #1",
+        "iupac_name": "NCC(O)C(=O)c1ccccc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7567,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/B4GALT7_H93Y/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/B4GALT7_H93Y/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/B4GALT7_H93Y/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/B4GALT7_H93Y/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/B4GALT7_H93Y/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-B4GALT7-H93Y.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-B4GALT7-H93Y-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T14:14:35.276034+00:00"
     }
   ]
 }
