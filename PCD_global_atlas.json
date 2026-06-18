@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1713,
+  "total_entries": 1714,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46384,
-    "queue_remaining": 132213
+    "total_processed": 46385,
+    "queue_remaining": 132212
   },
   "entries": [
     {
@@ -380995,6 +380995,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T03:07:43.246183+00:00"
+    },
+    {
+      "entry_id": "PCD-LDLR-Y419D",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LDLR-Y419D.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "LDLR",
+        "uniprot": "",
+        "clinvar_id": "369853",
+        "disease": "Hypercholesterolemia, familial, 1",
+        "mutation_precursor": "Y419D",
+        "mutation_mature": "Y419D",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8486630918760021,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 479.9614132831257,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          12.287836074829102,
+          -6.684682846069336,
+          12.78504467010498
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.520954796397966,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.771541178631288,
+        "cryptic": true,
+        "pocket_residues": {
+          "M412": "M",
+          "T413": "T",
+          "D415": "D",
+          "R416": "R",
+          "S417": "S",
+          "E418": "E",
+          "Y419": "Y"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P01130|LDLR variant Y419D",
+        "fasta_sequence": "MGPWGWKLRWTVALLLAAAGTAVGDRCERNEFQCQDGKCISYKWVCDGSAECQDGSDESQETCLSVTCKSGDFSCGGRVNRCIPQFWRCDGQVDCDNGSDEQGCPPKTCSQDEFRCHDGKCISRQFVCDSDRDCLDGSDEASCPVLTCGPASFQCNSSTCIPQLWACDNDPDCEDGSDEWPQRCRGLYVFQGDSSPCSAFEFHCLSGECIHSSWRCDGGPDCKDKSDEENCAVATCRPDEFQCSDGNCIHGSRQCDREYDCKDMSDEVGCVNVTLCEGPNKFKCHSGECITLDKVCNMARDCRDWSDEPIKECGTNECLDNNGGCSHVCNDLKIGYECLCPDGFQLVAQRRCEDIDECQDPDTCSQLCVNLEGGYKCQCEEGFQLDPHTKACKAVGSIAYLFFTNRHEVRKMTLDRSEYTSLIPNLRNVVALDTEVASNRIYWSDLSQRMICSTQLDRAHGVSSYDTVISRDIQAPDGLAVDWIHSNIYWTDSVLGTVSVADTKGVKRKTLFRENGSKPRAIVVDPVHGFMYWTDWGTPAKIKKGGLNGVDIYSLVTENIQWPNGITLDLLSGRLYWVDSKLHSISSIDVNGGNRKTILEDEKRLAHPFSLAVFEDKVFWTDIINEAIFSANRLTGSDVNLLAENLLSPEDMVLFHNLTQPRGVNWCERTTLSNGGCQYLCLPAPQINPHSPKFTCACPDGMLLARDMRSCLTEAEAAVATQETSTVRLKVSSTAVRTQHTTTRPVPDTSRLPGATPGLTTVEIVTMSHQALGDVAGRGNEKKPSSVRALSIVLPIVLLVFLCLGVFLLWKNWRLKNINSINFDNPVYQKTTEDEVHICHNQDGYSYPSRQMVSLEDDVA",
+        "full_sequence": "MGPWGWKLRWTVALLLAAAGTAVGDRCERNEFQCQDGKCISYKWVCDGSAECQDGSDESQETCLSVTCKSGDFSCGGRVNRCIPQFWRCDGQVDCDNGSDEQGCPPKTCSQDEFRCHDGKCISRQFVCDSDRDCLDGSDEASCPVLTCGPASFQCNSSTCIPQLWACDNDPDCEDGSDEWPQRCRGLYVFQGDSSPCSAFEFHCLSGECIHSSWRCDGGPDCKDKSDEENCAVATCRPDEFQCSDGNCIHGSRQCDREYDCKDMSDEVGCVNVTLCEGPNKFKCHSGECITLDKVCNMARDCRDWSDEPIKECGTNECLDNNGGCSHVCNDLKIGYECLCPDGFQLVAQRRCEDIDECQDPDTCSQLCVNLEGGYKCQCEEGFQLDPHTKACKAVGSIAYLFFTNRHEVRKMTLDRSEYTSLIPNLRNVVALDTEVASNRIYWSDLSQRMICSTQLDRAHGVSSYDTVISRDIQAPDGLAVDWIHSNIYWTDSVLGTVSVADTKGVKRKTLFRENGSKPRAIVVDPVHGFMYWTDWGTPAKIKKGGLNGVDIYSLVTENIQWPNGITLDLLSGRLYWVDSKLHSISSIDVNGGNRKTILEDEKRLAHPFSLAVFEDKVFWTDIINEAIFSANRLTGSDVNLLAENLLSPEDMVLFHNLTQPRGVNWCERTTLSNGGCQYLCLPAPQINPHSPKFTCACPDGMLLARDMRSCLTEAEAAVATQETSTVRLKVSSTAVRTQHTTTRPVPDTSRLPGATPGLTTVEIVTMSHQALGDVAGRGNEKKPSSVRALSIVLPIVLLVFLCLGVFLLWKNWRLKNINSINFDNPVYQKTTEDEVHICHNQDGYSYPSRQMVSLEDDVA",
+        "n_residues": 860,
+        "mutation_pos_1indexed": 419,
+        "wt_aa": "Y",
+        "mut_aa": "D",
+        "pocket_lining_residues": "M412-T413-D415-R416-S417-E418-Y419",
+        "pocket_lining_positions_precursor": [
+          412,
+          413,
+          415,
+          416,
+          417,
+          418,
+          419
+        ],
+        "pocket_lining_1letter": "MTDRSEY",
+        "sequence_slice_around_pocket": "VRKMTLDRSEYTSLIPNLRN"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_Y419D/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "M412",
+          "T413",
+          "D415",
+          "R416",
+          "S417",
+          "E418",
+          "Y419"
+        ],
+        "values": [
+          [
+            0.0,
+            3.834,
+            8.159,
+            6.153,
+            6.108,
+            5.292,
+            4.513
+          ],
+          [
+            3.834,
+            0.0,
+            5.435,
+            5.437,
+            5.338,
+            6.043,
+            7.275
+          ],
+          [
+            8.159,
+            5.435,
+            0.0,
+            3.894,
+            5.617,
+            8.913,
+            10.099
+          ],
+          [
+            6.153,
+            5.437,
+            3.894,
+            0.0,
+            3.827,
+            6.935,
+            6.925
+          ],
+          [
+            6.108,
+            5.338,
+            5.617,
+            3.827,
+            0.0,
+            3.858,
+            5.66
+          ],
+          [
+            5.292,
+            6.043,
+            8.913,
+            6.935,
+            3.858,
+            0.0,
+            3.839
+          ],
+          [
+            4.513,
+            7.275,
+            10.099,
+            6.925,
+            5.66,
+            3.839,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCC(O)C(=O)c1ccccc1N1CCCCC1N1CCCCC1",
+        "composite_score": 0.7437696178309262,
+        "mw": 331.23,
+        "logp": 1.991,
+        "hbd": 2,
+        "hba": 5,
+        "rotatable_bonds": 5,
+        "qed": 0.8077,
+        "sa_score": 3.36,
+        "n_heavy_atoms": 24,
+        "tpsa": 69.8,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "LDLR-Y419D Candidate #1",
+        "iupac_name": "NCC(O)C(=O)c1ccccc1N1CCCCC1N1CCCCC1",
+        "pocket_affinity_score": 0.7438,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_Y419D/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_Y419D/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_Y419D/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_Y419D/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/LDLR_Y419D/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LDLR-Y419D.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-LDLR-Y419D-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T03:08:39.902143+00:00"
     }
   ]
 }
