@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1849,
+  "total_entries": 1850,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46529,
-    "queue_remaining": 132068
+    "total_processed": 46530,
+    "queue_remaining": 132067
   },
   "entries": [
     {
@@ -416157,6 +416157,169 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:30:53.578503+00:00"
+    },
+    {
+      "entry_id": "PCD-RAD51C-K26M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAD51C-K26M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "RAD51C",
+        "uniprot": "",
+        "clinvar_id": "372089",
+        "disease": "Fanconi anemia complementation group O",
+        "mutation_precursor": "K26M",
+        "mutation_mature": "K26M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7244605007252377,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 569.3292037427562,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          27.55364990234375,
+          20.263626098632812,
+          1.5934491157531738
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.873266491824474,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6031324259253098,
+        "cryptic": true,
+        "pocket_residues": {
+          "P21": "P",
+          "A22": "A",
+          "V23": "V",
+          "R24": "R",
+          "V25": "V",
+          "K26": "K"
+        },
+        "n_lining_residues": 6,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|O43502|RAD51C variant K26M",
+        "fasta_sequence": "MRGKTFRFEMQRDLVSFPLSPAVRVKLVSAGFQTAEELLEVKPSELSKEVGISKAEALETLQIIRRECLTNKPRYAGTSESHKKCTALELLEQEHTQGFIITFCSALDDILGGGVPLMKTTEICGAPGVGKTQLCMQLAVDVQIPECFGGVAGEAVFIDTEGSFMVDRVVDLATACIQHLQLIAEKHKGEEHRKALEDFTLDNILSHIYYFRCRDYTELLAQVYLLPDFLSEHSKVRLVIVDGIAFPFRHDLDDLSLRTRLLNGLAQQMISLANNHRLAVILTNQMTTKIDRNQALLVPALGESWGHAATIRLIFHWDRKQRLATLYKSPSQKECTVLFQIKPQGFRDTVVTSACSLQTEGSLSTRKRSRDPEEEL",
+        "full_sequence": "MRGKTFRFEMQRDLVSFPLSPAVRVKLVSAGFQTAEELLEVKPSELSKEVGISKAEALETLQIIRRECLTNKPRYAGTSESHKKCTALELLEQEHTQGFIITFCSALDDILGGGVPLMKTTEICGAPGVGKTQLCMQLAVDVQIPECFGGVAGEAVFIDTEGSFMVDRVVDLATACIQHLQLIAEKHKGEEHRKALEDFTLDNILSHIYYFRCRDYTELLAQVYLLPDFLSEHSKVRLVIVDGIAFPFRHDLDDLSLRTRLLNGLAQQMISLANNHRLAVILTNQMTTKIDRNQALLVPALGESWGHAATIRLIFHWDRKQRLATLYKSPSQKECTVLFQIKPQGFRDTVVTSACSLQTEGSLSTRKRSRDPEEEL",
+        "n_residues": 376,
+        "mutation_pos_1indexed": 26,
+        "wt_aa": "K",
+        "mut_aa": "M",
+        "pocket_lining_residues": "P21-A22-V23-R24-V25-K26",
+        "pocket_lining_positions_precursor": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "pocket_lining_1letter": "PAVRVK",
+        "sequence_slice_around_pocket": "SFPLSPAVRVKLVSAGFQTA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/RAD51C_K26M/E_ij_matrix.npy",
+        "shape": [
+          6,
+          6
+        ],
+        "residue_labels": [
+          "P21",
+          "A22",
+          "V23",
+          "R24",
+          "V25",
+          "K26"
+        ],
+        "values": [
+          [
+            0.0,
+            3.846,
+            5.614,
+            5.064,
+            6.17,
+            8.645
+          ],
+          [
+            3.846,
+            0.0,
+            3.856,
+            5.506,
+            5.349,
+            6.352
+          ],
+          [
+            5.614,
+            3.856,
+            0.0,
+            3.85,
+            5.541,
+            5.055
+          ],
+          [
+            5.064,
+            5.506,
+            3.85,
+            0.0,
+            3.837,
+            5.416
+          ],
+          [
+            6.17,
+            5.349,
+            5.541,
+            3.837,
+            0.0,
+            3.84
+          ],
+          [
+            8.645,
+            6.352,
+            5.055,
+            5.416,
+            3.84,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CCCCC1NCCNCc1nc2ccccc2[nH]1",
+        "composite_score": 0.5940830902209953,
+        "mw": 379.25,
+        "logp": 2.112,
+        "hbd": 4,
+        "hba": 6,
+        "rotatable_bonds": 8,
+        "qed": 0.448,
+        "sa_score": 3.29,
+        "n_heavy_atoms": 28,
+        "tpsa": 94.9,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "RAD51C-K26M Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CCCCC1NCCNCc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.5941,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/RAD51C_K26M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/RAD51C_K26M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/RAD51C_K26M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/RAD51C_K26M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/RAD51C_K26M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAD51C-K26M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-RAD51C-K26M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:31:18.431286+00:00"
     }
   ]
 }
