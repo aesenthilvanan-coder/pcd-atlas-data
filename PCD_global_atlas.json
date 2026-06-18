@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2299,
+  "total_entries": 2300,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47034,
-    "queue_remaining": 131563
+    "total_processed": 47035,
+    "queue_remaining": 131562
   },
   "entries": [
     {
@@ -531133,6 +531133,281 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T11:20:19.443585+00:00"
+    },
+    {
+      "entry_id": "PCD-PHEX-C746F",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PHEX-C746F.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PHEX",
+        "uniprot": "",
+        "clinvar_id": "372465",
+        "disease": "not provided",
+        "mutation_precursor": "C746F",
+        "mutation_mature": "C746F",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8503824896360448,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 382.96030215745344,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          19.98361587524414,
+          9.92728328704834,
+          -3.2017476558685303
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.680179700162789,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6914244412845499,
+        "cryptic": true,
+        "pocket_residues": {
+          "C617": "C",
+          "M618": "M",
+          "I619": "I",
+          "N620": "N",
+          "Q621": "Q",
+          "Y622": "Y",
+          "N723": "N",
+          "R741": "R",
+          "D744": "D",
+          "S745": "S",
+          "C746": "C"
+        },
+        "n_lining_residues": 11,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P78562|PHEX variant C746F",
+        "fasta_sequence": "MEAETGSSVETGKKANRGTRIALVVFVGGTLVLGTILFLVSQGLLSLQAKQEYCLKPECIEAAAAILSKVNLSVDPCDNFFRFACDGWISNNPIPEDMPSYGVYPWLRHNVDLKLKELLEKSISRRRDTEAIQKAKILYSSCMNEKAIEKADAKPLLHILRHSPFRWPVLESNIGPEGVWSERKFSLLQTLATFRGQYSNSVFIRLYVSPDDKASNEHILKLDQATLSLAVREDYLDNSTEAKSYRDALYKFMVDTAVLLGANSSRAEHDMKSVLRLEIKIAEIMIPHENRTSEAMYNKMNISELSAMIPQFDWLGYIKKVIDTRLYPHLKDISPSENVVVRVPQYFKDLFRILGSERKKTIANYLVWRMVYSRIPNLSRRFQYRWLEFSRVIQGTTTLLPQWDKCVNFIESALPYVVGKMFVDVYFQEDKKEMMEELVEGVRWAFIDMLEKENEWMDAGTKRKAKEKARAVLAKVGYPEFIMNDTHVNEDLKAIKFSEADYFGNVLQTRKYLAQSDFFWLRKAVPKTEWFTNPTTVNAFYSASTNQIRFPAGELQKPFFWGTEYPRSLSYGAIGVIVGHEFTHGFDNNGRKYDKNGNLDPWWSTESEEKFKEKTKCMINQYSNYYWKKAGLNVKGKRTLGENIADNGGLREAFRAYRKWINDRRQGLEEPLLPGITFTNNQLFFLSYAHVRCNSYRPEAAREQVQIGAHSPPQFRVNGAISNFEEFQKAFNCPPNSTMNRGMDSCRLW",
+        "full_sequence": "MEAETGSSVETGKKANRGTRIALVVFVGGTLVLGTILFLVSQGLLSLQAKQEYCLKPECIEAAAAILSKVNLSVDPCDNFFRFACDGWISNNPIPEDMPSYGVYPWLRHNVDLKLKELLEKSISRRRDTEAIQKAKILYSSCMNEKAIEKADAKPLLHILRHSPFRWPVLESNIGPEGVWSERKFSLLQTLATFRGQYSNSVFIRLYVSPDDKASNEHILKLDQATLSLAVREDYLDNSTEAKSYRDALYKFMVDTAVLLGANSSRAEHDMKSVLRLEIKIAEIMIPHENRTSEAMYNKMNISELSAMIPQFDWLGYIKKVIDTRLYPHLKDISPSENVVVRVPQYFKDLFRILGSERKKTIANYLVWRMVYSRIPNLSRRFQYRWLEFSRVIQGTTTLLPQWDKCVNFIESALPYVVGKMFVDVYFQEDKKEMMEELVEGVRWAFIDMLEKENEWMDAGTKRKAKEKARAVLAKVGYPEFIMNDTHVNEDLKAIKFSEADYFGNVLQTRKYLAQSDFFWLRKAVPKTEWFTNPTTVNAFYSASTNQIRFPAGELQKPFFWGTEYPRSLSYGAIGVIVGHEFTHGFDNNGRKYDKNGNLDPWWSTESEEKFKEKTKCMINQYSNYYWKKAGLNVKGKRTLGENIADNGGLREAFRAYRKWINDRRQGLEEPLLPGITFTNNQLFFLSYAHVRCNSYRPEAAREQVQIGAHSPPQFRVNGAISNFEEFQKAFNCPPNSTMNRGMDSCRLW",
+        "n_residues": 749,
+        "mutation_pos_1indexed": 746,
+        "wt_aa": "C",
+        "mut_aa": "F",
+        "pocket_lining_residues": "C617-M618-I619-N620-Q621-Y622-N723-R741-D744-S745-C746",
+        "pocket_lining_positions_precursor": [
+          617,
+          618,
+          619,
+          620,
+          621,
+          622,
+          723,
+          741,
+          744,
+          745,
+          746
+        ],
+        "pocket_lining_1letter": "CMINQYNRDSC",
+        "sequence_slice_around_pocket": "NSTMNRGMDSCRLW"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_C746F/E_ij_matrix.npy",
+        "shape": [
+          11,
+          11
+        ],
+        "residue_labels": [
+          "C617",
+          "M618",
+          "I619",
+          "N620",
+          "Q621",
+          "Y622",
+          "N723",
+          "R741",
+          "D744",
+          "S745",
+          "C746"
+        ],
+        "values": [
+          [
+            0.0,
+            3.856,
+            5.539,
+            5.244,
+            6.053,
+            8.622,
+            10.663,
+            11.991,
+            8.23,
+            8.25,
+            5.605
+          ],
+          [
+            3.856,
+            0.0,
+            3.868,
+            5.438,
+            5.013,
+            6.001,
+            9.735,
+            12.437,
+            10.167,
+            8.996,
+            5.98
+          ],
+          [
+            5.539,
+            3.868,
+            0.0,
+            3.854,
+            5.714,
+            5.559,
+            13.351,
+            15.246,
+            12.735,
+            12.383,
+            9.643
+          ],
+          [
+            5.244,
+            5.438,
+            3.854,
+            0.0,
+            3.864,
+            5.606,
+            13.091,
+            13.314,
+            10.626,
+            11.333,
+            9.609
+          ],
+          [
+            6.053,
+            5.013,
+            5.714,
+            3.864,
+            0.0,
+            3.82,
+            9.939,
+            10.268,
+            8.914,
+            8.95,
+            7.916
+          ],
+          [
+            8.622,
+            6.001,
+            5.559,
+            5.606,
+            3.82,
+            0.0,
+            11.672,
+            13.071,
+            12.525,
+            11.888,
+            10.39
+          ],
+          [
+            10.663,
+            9.735,
+            13.351,
+            13.091,
+            9.939,
+            11.672,
+            0.0,
+            6.319,
+            7.995,
+            4.408,
+            5.663
+          ],
+          [
+            11.991,
+            12.437,
+            15.246,
+            13.314,
+            10.268,
+            13.071,
+            6.319,
+            0.0,
+            5.307,
+            5.159,
+            8.674
+          ],
+          [
+            8.23,
+            10.167,
+            12.735,
+            10.626,
+            8.914,
+            12.525,
+            7.995,
+            5.307,
+            0.0,
+            3.883,
+            6.319
+          ],
+          [
+            8.25,
+            8.996,
+            12.383,
+            11.333,
+            8.95,
+            11.888,
+            4.408,
+            5.159,
+            3.883,
+            0.0,
+            3.829
+          ],
+          [
+            5.605,
+            5.98,
+            9.643,
+            9.609,
+            7.916,
+            10.39,
+            5.663,
+            8.674,
+            6.319,
+            3.829,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8789478201637299,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PHEX-C746F Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8789,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_C746F/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_C746F/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_C746F/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_C746F/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PHEX_C746F/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PHEX-C746F.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PHEX-C746F-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T11:20:53.897353+00:00"
     }
   ]
 }
