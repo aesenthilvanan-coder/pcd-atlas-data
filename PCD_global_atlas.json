@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1619,
+  "total_entries": 1620,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46278,
-    "queue_remaining": 132319
+    "total_processed": 46279,
+    "queue_remaining": 132318
   },
   "entries": [
     {
@@ -357848,6 +357848,139 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T01:53:36.933593+00:00"
+    },
+    {
+      "entry_id": "PCD-COL9A3-V311M",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-V311M.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "COL9A3",
+        "uniprot": "",
+        "clinvar_id": "339282",
+        "disease": "not provided",
+        "mutation_precursor": "V311M",
+        "mutation_mature": "V311M",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.826288501103925,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 579.3567633624195,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          63.36405944824219,
+          6.760528087615967,
+          -54.912601470947266
+        ],
+        "dist_mutation_to_pocket_angstrom": 6.896763795913495,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.78404551407619,
+        "cryptic": true,
+        "pocket_residues": {
+          "N309": "N",
+          "G310": "G",
+          "V311": "V",
+          "P312": "P"
+        },
+        "n_lining_residues": 4,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q14050|COL9A3 variant V311M",
+        "fasta_sequence": "MAGPRACAPLLLLLLLGELLAAAGAQRVGLPGPPGPPGPPGKPGQDGIDGEAGPPGLPGPPGPKGAPGKPGKPGEAGLPGLPGVDGLTGRDGPPGPKGAPGERGSLGPPGPPGLGGKGLPGPPGEAGVSGPPGGIGLRGPPGPSGLPGLPGPPGPPGPPGHPGVLPEGATDLQCPSICPPGPPGPPGMPGFKGPTGYKGEQGEVGKDGEKGDPGPPGPAGLPGSVGLQGPRGLRGLPGPLGPPGDRGPIGFRGPPGIPGAPGKAGDRGERGPEGFRGPKGDLGRPGPKGTPGVAGPSGEPGMPGKDGQNGVPGLDGQKGEAGRNGAPGEKGPNGLPGLPGRAGSKGEKGERGRAGELGEAGPSGEPGVPGDAGMPGERGEAGHRGSAGALGPQGPPGAPGVRGFQGQKGSMGDPGLPGPQGLRGDVGDRGPGGAAGPKGDQGIAGSDGLPGDKGELGPSGLVGPKGESGSRGELGPKGTQGPNGTSGVQGVPGPPGPLGLQGVPGVPGITGKPGVPGKEASEQRIRELCGGMISEQIAQLAAHLRKPLAPGSIGRPGPAGPPGPPGPPGSIGHPGARGPPGYRGPTGELGDPGPRGNQGDRGDKGAAGAGLDGPEGDQGPQGPQGVPGTSKDGQDGAPGEPGPPGDPGLPGAIGAQGTPGICDTSACQGAVLGGVGEKSGSRSS",
+        "full_sequence": "MAGPRACAPLLLLLLLGELLAAAGAQRVGLPGPPGPPGPPGKPGQDGIDGEAGPPGLPGPPGPKGAPGKPGKPGEAGLPGLPGVDGLTGRDGPPGPKGAPGERGSLGPPGPPGLGGKGLPGPPGEAGVSGPPGGIGLRGPPGPSGLPGLPGPPGPPGPPGHPGVLPEGATDLQCPSICPPGPPGPPGMPGFKGPTGYKGEQGEVGKDGEKGDPGPPGPAGLPGSVGLQGPRGLRGLPGPLGPPGDRGPIGFRGPPGIPGAPGKAGDRGERGPEGFRGPKGDLGRPGPKGTPGVAGPSGEPGMPGKDGQNGVPGLDGQKGEAGRNGAPGEKGPNGLPGLPGRAGSKGEKGERGRAGELGEAGPSGEPGVPGDAGMPGERGEAGHRGSAGALGPQGPPGAPGVRGFQGQKGSMGDPGLPGPQGLRGDVGDRGPGGAAGPKGDQGIAGSDGLPGDKGELGPSGLVGPKGESGSRGELGPKGTQGPNGTSGVQGVPGPPGPLGLQGVPGVPGITGKPGVPGKEASEQRIRELCGGMISEQIAQLAAHLRKPLAPGSIGRPGPAGPPGPPGPPGSIGHPGARGPPGYRGPTGELGDPGPRGNQGDRGDKGAAGAGLDGPEGDQGPQGPQGVPGTSKDGQDGAPGEPGPPGDPGLPGAIGAQGTPGICDTSACQGAVLGGVGEKSGSRSS",
+        "n_residues": 684,
+        "mutation_pos_1indexed": 311,
+        "wt_aa": "V",
+        "mut_aa": "M",
+        "pocket_lining_residues": "N309-G310-V311-P312",
+        "pocket_lining_positions_precursor": [
+          309,
+          310,
+          311,
+          312
+        ],
+        "pocket_lining_1letter": "NGVP",
+        "sequence_slice_around_pocket": "GMPGKDGQNGVPGLDGQKGE"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_V311M/E_ij_matrix.npy",
+        "shape": [
+          4,
+          4
+        ],
+        "residue_labels": [
+          "N309",
+          "G310",
+          "V311",
+          "P312"
+        ],
+        "values": [
+          [
+            0.0,
+            3.84,
+            6.615,
+            9.405
+          ],
+          [
+            3.84,
+            0.0,
+            3.842,
+            6.431
+          ],
+          [
+            6.615,
+            3.842,
+            0.0,
+            3.886
+          ],
+          [
+            9.405,
+            6.431,
+            3.886,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "COc1ccc(CN)cc1N1C(OC)C(=O)CCC1N1CCCCC1",
+        "composite_score": 0.525430302226419,
+        "mw": 347.22,
+        "logp": 2.108,
+        "hbd": 1,
+        "hba": 6,
+        "rotatable_bonds": 5,
+        "qed": 0.8798,
+        "sa_score": 3.56,
+        "n_heavy_atoms": 25,
+        "tpsa": 68.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "COL9A3-V311M Candidate #1",
+        "iupac_name": "COc1ccc(CN)cc1N1C(OC)C(=O)CCC1N1CCCCC1",
+        "pocket_affinity_score": 0.5254,
+        "binding_mode": {
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_V311M/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_V311M/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_V311M/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_V311M/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/COL9A3_V311M/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-V311M.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-COL9A3-V311M-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T01:54:04.977786+00:00"
     }
   ]
 }
