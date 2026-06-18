@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2023,
+  "total_entries": 2024,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46728,
-    "queue_remaining": 131869
+    "total_processed": 46729,
+    "queue_remaining": 131868
   },
   "entries": [
     {
@@ -461316,6 +461316,255 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T06:42:27.546403+00:00"
+    },
+    {
+      "entry_id": "PCD-BRAF-T589P",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BRAF-T589P.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "BRAF",
+        "uniprot": "",
+        "clinvar_id": "372757",
+        "disease": "not provided",
+        "mutation_precursor": "T589P",
+        "mutation_mature": "T589P",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.776852995845622,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 351.8328357920866,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -16.934614181518555,
+          5.041011810302734,
+          -7.470962047576904
+        ],
+        "dist_mutation_to_pocket_angstrom": 2.26449250134267,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8528882843783293,
+        "cryptic": true,
+        "pocket_residues": {
+          "V511": "V",
+          "N512": "N",
+          "L584": "L",
+          "H585": "H",
+          "E586": "E",
+          "D587": "D",
+          "L588": "L",
+          "T589": "T",
+          "V590": "V",
+          "K591": "K"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P15056|BRAF variant T589P",
+        "fasta_sequence": "MAALSGGGGGGAEPGQALFNGDMEPEAGAGAGAAASSAADPAIPEEVWNIKQMIKLTQEHIEALLDKFGGEHNPPSIYLEAYEEYTSKLDALQQREQQLLESLGNGTDFSVSSSASMDTVTSSSSSSLSVLPSSLSVFQNPTDVARSNPKSPQKPIVRVFLPNKQRTVVPARCGVTVRDSLKKALMMRGLIPECCAVYRIQDGEKKPIGWDTDISWLTGEELHVEVLENVPLTTHNFVRKTFFTLAFCDFCRKLLFQGFRCQTCGYKFHQRCSTEVPLMCVNYDQLDLLFVSKFFEHHPIPQEEASLAETALTSGSSPSAPASDSIGPQILTSPSPSKSIPIPQPFRPADEDHRNQFGQRDRSSSAPNVHINTIEPVNIDDLIRDQGFRGDGGSTTGLSATPPASLPGSLTNVKALQKSPGPQRERKSSSSSEDRNRMKTLGRRDSSDDWEIPDGQITVGQRIGSGSFGTVYKGKWHGDVAVKMLNVTAPTPQQLQAFKNEVGVLRKTRHVNILLFMGYSTKPQLAIVTQWCEGSSLYHHLHIIETKFEMIKLIDIARQTAQGMDYLHAKSIIHRDLKSNNIFLHEDLTVKIGDFGLATVKSRWSGSHQFEQLSGSILWMAPEVIRMQDKNPYSFQSDVYAFGIVLYELMTGQLPYSNINNRDQIIFMVGRGYLSPDLSKVRSNCPKAMKRLMAECLKKKRDERPLFPQILASIELLARSLPKIHRSASEPSLNRAGFQTEDFSLYACASPKTPIQAGGYGAFPVH",
+        "full_sequence": "MAALSGGGGGGAEPGQALFNGDMEPEAGAGAGAAASSAADPAIPEEVWNIKQMIKLTQEHIEALLDKFGGEHNPPSIYLEAYEEYTSKLDALQQREQQLLESLGNGTDFSVSSSASMDTVTSSSSSSLSVLPSSLSVFQNPTDVARSNPKSPQKPIVRVFLPNKQRTVVPARCGVTVRDSLKKALMMRGLIPECCAVYRIQDGEKKPIGWDTDISWLTGEELHVEVLENVPLTTHNFVRKTFFTLAFCDFCRKLLFQGFRCQTCGYKFHQRCSTEVPLMCVNYDQLDLLFVSKFFEHHPIPQEEASLAETALTSGSSPSAPASDSIGPQILTSPSPSKSIPIPQPFRPADEDHRNQFGQRDRSSSAPNVHINTIEPVNIDDLIRDQGFRGDGGSTTGLSATPPASLPGSLTNVKALQKSPGPQRERKSSSSSEDRNRMKTLGRRDSSDDWEIPDGQITVGQRIGSGSFGTVYKGKWHGDVAVKMLNVTAPTPQQLQAFKNEVGVLRKTRHVNILLFMGYSTKPQLAIVTQWCEGSSLYHHLHIIETKFEMIKLIDIARQTAQGMDYLHAKSIIHRDLKSNNIFLHEDLTVKIGDFGLATVKSRWSGSHQFEQLSGSILWMAPEVIRMQDKNPYSFQSDVYAFGIVLYELMTGQLPYSNINNRDQIIFMVGRGYLSPDLSKVRSNCPKAMKRLMAECLKKKRDERPLFPQILASIELLARSLPKIHRSASEPSLNRAGFQTEDFSLYACASPKTPIQAGGYGAFPVH",
+        "n_residues": 766,
+        "mutation_pos_1indexed": 589,
+        "wt_aa": "T",
+        "mut_aa": "P",
+        "pocket_lining_residues": "V511-N512-L584-H585-E586-D587-L588-T589-V590-K591",
+        "pocket_lining_positions_precursor": [
+          511,
+          512,
+          584,
+          585,
+          586,
+          587,
+          588,
+          589,
+          590,
+          591
+        ],
+        "pocket_lining_1letter": "VNLHEDLTVK",
+        "sequence_slice_around_pocket": "SNNIFLHEDLTVKIGDFGLA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/BRAF_T589P/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "V511",
+          "N512",
+          "L584",
+          "H585",
+          "E586",
+          "D587",
+          "L588",
+          "T589",
+          "V590",
+          "K591"
+        ],
+        "values": [
+          [
+            0.0,
+            3.851,
+            12.016,
+            10.911,
+            12.401,
+            12.673,
+            11.976,
+            8.132,
+            8.059,
+            7.435
+          ],
+          [
+            3.851,
+            0.0,
+            9.723,
+            9.805,
+            12.231,
+            12.477,
+            10.625,
+            7.065,
+            5.271,
+            4.588
+          ],
+          [
+            12.016,
+            9.723,
+            0.0,
+            3.833,
+            6.936,
+            7.93,
+            4.916,
+            5.511,
+            4.849,
+            6.401
+          ],
+          [
+            10.911,
+            9.805,
+            3.833,
+            0.0,
+            3.867,
+            6.352,
+            5.33,
+            4.998,
+            6.252,
+            6.948
+          ],
+          [
+            12.401,
+            12.231,
+            6.936,
+            3.867,
+            0.0,
+            3.903,
+            5.523,
+            6.164,
+            9.033,
+            10.367
+          ],
+          [
+            12.673,
+            12.477,
+            7.93,
+            6.352,
+            3.903,
+            0.0,
+            3.892,
+            5.548,
+            9.056,
+            11.61
+          ],
+          [
+            11.976,
+            10.625,
+            4.916,
+            5.33,
+            5.523,
+            3.892,
+            0.0,
+            3.847,
+            6.137,
+            9.25
+          ],
+          [
+            8.132,
+            7.065,
+            5.511,
+            4.998,
+            6.164,
+            5.548,
+            3.847,
+            0.0,
+            3.843,
+            6.585
+          ],
+          [
+            8.059,
+            5.271,
+            4.849,
+            6.252,
+            9.033,
+            9.056,
+            6.137,
+            3.843,
+            0.0,
+            3.861
+          ],
+          [
+            7.435,
+            4.588,
+            6.401,
+            6.948,
+            10.367,
+            11.61,
+            9.25,
+            6.585,
+            3.861,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "composite_score": 0.8425456177868819,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7969,
+        "sa_score": 2.3,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "BRAF-T589P Candidate #1",
+        "iupac_name": "NCCC(=O)CCC(=O)Cc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.8425,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Leu/Ile/Val)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/BRAF_T589P/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/BRAF_T589P/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/BRAF_T589P/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/BRAF_T589P/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/BRAF_T589P/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BRAF-T589P.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-BRAF-T589P-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T06:42:57.709431+00:00"
     }
   ]
 }
