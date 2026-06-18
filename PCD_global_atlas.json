@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1472,
+  "total_entries": 1473,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46118,
-    "queue_remaining": 132479
+    "total_processed": 46119,
+    "queue_remaining": 132478
   },
   "entries": [
     {
@@ -326011,6 +326011,230 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T00:10:17.272884+00:00"
+    },
+    {
+      "entry_id": "PCD-SLC5A1-L288V",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A1-L288V.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "SLC5A1",
+        "uniprot": "",
+        "clinvar_id": "341244",
+        "disease": "Congenital glucose-galactose malabsorption",
+        "mutation_precursor": "L288V",
+        "mutation_mature": "L288V",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.8884789641710213,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 510.8371641923846,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -19.4945068359375,
+          7.7626166343688965,
+          -2.823660373687744
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.870664034844149,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8507172002538493,
+        "cryptic": true,
+        "pocket_residues": {
+          "L108": "L",
+          "V111": "V",
+          "S284": "S",
+          "I285": "I",
+          "L288": "L",
+          "W289": "W",
+          "C292": "C",
+          "A468": "A",
+          "L472": "L"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|P13866|SLC5A1 variant L288V",
+        "fasta_sequence": "MDSSTWSPKTTAVTRPVETHELIRNAADISIIVIYFVVVMAVGLWAMFSTNRGTVGGFFLAGRSMVWWPIGASLFASNIGSGHFVGLAGTGAASGIAIGGFEWNALVLVVVLGWLFVPIYIKAGVVTMPEYLRKRFGGQRIQVYLSLLSLLLYIFTKISADIFSGAIFINLALGLNLYLAIFLLLAITALYTITGGLAAVIYTDTLQTVIMLVGSLILTGFAFHEVGGYDAFMEKYMKAIPTIVSDGNTTFQEKCYTPRADSFHIFRDPLTGDLPWPGFIFGMSILTLWYWCTDQVIVQRCLSAKNMSHVKGGCILCGYLKLMPMFIMVMPGMISRILYTEKIACVVPSECEKYCGTKVGCTNIAYPTLVVELMPNGLRGLMLSVMLASLMSSLTSIFNSASTLFTMDIYAKVRKRASEKELMIAGRLFILVLIGISIAWVPIVQSAQSGQLFDYIQSITSYLGPPIAAVFLLAIFWKRVNEPGAFWGLILGLLIGISRMITEFAYGTGSCMEPSNCPTIICGVHYLYFAIILFAISFITIVVISLLTKPIPDVHLYRLCWSLRNSKEERIDLDAEEENIQEGPKETIEIETQVPEKKKGIFRRAYDLFCGLEQHGAPKMTEEEEKAMKMKMTDTSEKPLWRTVLNVNGIILVTVAVFCHAYFA",
+        "full_sequence": "MDSSTWSPKTTAVTRPVETHELIRNAADISIIVIYFVVVMAVGLWAMFSTNRGTVGGFFLAGRSMVWWPIGASLFASNIGSGHFVGLAGTGAASGIAIGGFEWNALVLVVVLGWLFVPIYIKAGVVTMPEYLRKRFGGQRIQVYLSLLSLLLYIFTKISADIFSGAIFINLALGLNLYLAIFLLLAITALYTITGGLAAVIYTDTLQTVIMLVGSLILTGFAFHEVGGYDAFMEKYMKAIPTIVSDGNTTFQEKCYTPRADSFHIFRDPLTGDLPWPGFIFGMSILTLWYWCTDQVIVQRCLSAKNMSHVKGGCILCGYLKLMPMFIMVMPGMISRILYTEKIACVVPSECEKYCGTKVGCTNIAYPTLVVELMPNGLRGLMLSVMLASLMSSLTSIFNSASTLFTMDIYAKVRKRASEKELMIAGRLFILVLIGISIAWVPIVQSAQSGQLFDYIQSITSYLGPPIAAVFLLAIFWKRVNEPGAFWGLILGLLIGISRMITEFAYGTGSCMEPSNCPTIICGVHYLYFAIILFAISFITIVVISLLTKPIPDVHLYRLCWSLRNSKEERIDLDAEEENIQEGPKETIEIETQVPEKKKGIFRRAYDLFCGLEQHGAPKMTEEEEKAMKMKMTDTSEKPLWRTVLNVNGIILVTVAVFCHAYFA",
+        "n_residues": 664,
+        "mutation_pos_1indexed": 288,
+        "wt_aa": "L",
+        "mut_aa": "V",
+        "pocket_lining_residues": "L108-V111-S284-I285-L288-W289-C292-A468-L472",
+        "pocket_lining_positions_precursor": [
+          108,
+          111,
+          284,
+          285,
+          288,
+          289,
+          292,
+          468,
+          472
+        ],
+        "pocket_lining_1letter": "LVSILWCAL",
+        "sequence_slice_around_pocket": "GFIFGMSILTLWYWCTDQVI"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_L288V/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "L108",
+          "V111",
+          "S284",
+          "I285",
+          "L288",
+          "W289",
+          "C292",
+          "A468",
+          "L472"
+        ],
+        "values": [
+          [
+            0.0,
+            4.65,
+            7.627,
+            9.61,
+            6.131,
+            9.472,
+            7.492,
+            12.108,
+            12.39
+          ],
+          [
+            4.65,
+            0.0,
+            11.143,
+            12.424,
+            8.54,
+            11.672,
+            7.855,
+            13.276,
+            11.421
+          ],
+          [
+            7.627,
+            11.143,
+            0.0,
+            3.864,
+            5.877,
+            8.551,
+            11.044,
+            9.84,
+            12.18
+          ],
+          [
+            9.61,
+            12.424,
+            3.864,
+            0.0,
+            5.014,
+            6.323,
+            10.194,
+            6.438,
+            9.874
+          ],
+          [
+            6.131,
+            8.54,
+            5.877,
+            5.014,
+            0.0,
+            3.845,
+            5.341,
+            6.166,
+            8.5
+          ],
+          [
+            9.472,
+            11.672,
+            8.551,
+            6.323,
+            3.845,
+            0.0,
+            5.624,
+            4.652,
+            9.116
+          ],
+          [
+            7.492,
+            7.855,
+            11.044,
+            10.194,
+            5.341,
+            5.624,
+            0.0,
+            8.194,
+            8.996
+          ],
+          [
+            12.108,
+            13.276,
+            9.84,
+            6.438,
+            6.166,
+            4.652,
+            8.194,
+            0.0,
+            6.035
+          ],
+          [
+            12.39,
+            11.421,
+            12.18,
+            9.874,
+            8.5,
+            9.116,
+            8.996,
+            6.035,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CC(=O)CCC1OCNc1nc2ccccc2[nH]1",
+        "composite_score": 0.6676985245941341,
+        "mw": 366.18,
+        "logp": 1.998,
+        "hbd": 3,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.5725,
+        "sa_score": 3.64,
+        "n_heavy_atoms": 27,
+        "tpsa": 109.2,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "SLC5A1-L288V Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CC(=O)CCC1OCNc1nc2ccccc2[nH]1",
+        "pocket_affinity_score": 0.6677,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_L288V/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_L288V/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_L288V/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_L288V/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/SLC5A1_L288V/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A1-L288V.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-SLC5A1-L288V-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T00:10:46.415871+00:00"
     }
   ]
 }
