@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2424,
+  "total_entries": 2425,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47185,
-    "queue_remaining": 131412
+    "total_processed": 47186,
+    "queue_remaining": 131411
   },
   "entries": [
     {
@@ -566588,6 +566588,231 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:14:03.847854+00:00"
+    },
+    {
+      "entry_id": "PCD-NDP-R90C",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDP-R90C.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "NDP",
+        "uniprot": "",
+        "clinvar_id": "373948",
+        "disease": "Atrophia bulborum hereditaria",
+        "mutation_precursor": "R90C",
+        "mutation_mature": "R90C",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7245000937220953,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 605.7116111848621,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          21.531341552734375,
+          -2.4344685077667236,
+          -16.51301383972168
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.1568998073282115,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6786809028827548,
+        "cryptic": true,
+        "pocket_residues": {
+          "E76": "E",
+          "P77": "P",
+          "L78": "L",
+          "V79": "V",
+          "S80": "S",
+          "Q87": "Q",
+          "P88": "P",
+          "F89": "F",
+          "R90": "R"
+        },
+        "n_lining_residues": 9,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q00604|NDP variant R90C",
+        "fasta_sequence": "MRKHVLAASFSMLSLLVIMGDTDSKTDSSFIMDSDPRRCMRHHYVDSISHPLYKCSSKMVLLARCEGHCSQASRSEPLVSFSTVLKQPFRSSCHCCRPQTSKLKALRLRCSGGMRLTATYRYILSCHCEECNS",
+        "full_sequence": "MRKHVLAASFSMLSLLVIMGDTDSKTDSSFIMDSDPRRCMRHHYVDSISHPLYKCSSKMVLLARCEGHCSQASRSEPLVSFSTVLKQPFRSSCHCCRPQTSKLKALRLRCSGGMRLTATYRYILSCHCEECNS",
+        "n_residues": 133,
+        "mutation_pos_1indexed": 90,
+        "wt_aa": "R",
+        "mut_aa": "C",
+        "pocket_lining_residues": "E76-P77-L78-V79-S80-Q87-P88-F89-R90",
+        "pocket_lining_positions_precursor": [
+          76,
+          77,
+          78,
+          79,
+          80,
+          87,
+          88,
+          89,
+          90
+        ],
+        "pocket_lining_1letter": "EPLVSQPFR",
+        "sequence_slice_around_pocket": "SFSTVLKQPFRSSCHCCRPQ"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/NDP_R90C/E_ij_matrix.npy",
+        "shape": [
+          9,
+          9
+        ],
+        "residue_labels": [
+          "E76",
+          "P77",
+          "L78",
+          "V79",
+          "S80",
+          "Q87",
+          "P88",
+          "F89",
+          "R90"
+        ],
+        "values": [
+          [
+            0.0,
+            3.861,
+            6.535,
+            9.631,
+            12.769,
+            10.978,
+            8.567,
+            5.431,
+            5.173
+          ],
+          [
+            3.861,
+            0.0,
+            3.826,
+            6.464,
+            9.57,
+            9.13,
+            5.916,
+            4.5,
+            6.308
+          ],
+          [
+            6.535,
+            3.826,
+            0.0,
+            3.818,
+            6.286,
+            7.694,
+            5.388,
+            5.277,
+            6.409
+          ],
+          [
+            9.631,
+            6.464,
+            3.818,
+            0.0,
+            3.818,
+            10.109,
+            7.754,
+            8.853,
+            10.193
+          ],
+          [
+            12.769,
+            9.57,
+            6.286,
+            3.818,
+            0.0,
+            9.734,
+            8.515,
+            10.637,
+            12.044
+          ],
+          [
+            10.978,
+            9.13,
+            7.694,
+            10.109,
+            9.734,
+            0.0,
+            3.857,
+            5.683,
+            7.652
+          ],
+          [
+            8.567,
+            5.916,
+            5.388,
+            7.754,
+            8.515,
+            3.857,
+            0.0,
+            3.828,
+            7.153
+          ],
+          [
+            5.431,
+            4.5,
+            5.277,
+            8.853,
+            10.637,
+            5.683,
+            3.828,
+            0.0,
+            3.789
+          ],
+          [
+            5.173,
+            6.308,
+            6.409,
+            10.193,
+            12.044,
+            7.652,
+            7.153,
+            3.789,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "Nc1ccncc1N1CC(=O)CCC1CCNC(=O)c1ccncc1N1CCCCC1",
+        "composite_score": 0.7927048362387592,
+        "mw": 422.24,
+        "logp": 2.407,
+        "hbd": 2,
+        "hba": 7,
+        "rotatable_bonds": 6,
+        "qed": 0.7365,
+        "sa_score": 3.33,
+        "n_heavy_atoms": 31,
+        "tpsa": 104.4,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "NDP-R90C Candidate #1",
+        "iupac_name": "Nc1ccncc1N1CC(=O)CCC1CCNC(=O)c1ccncc1N1CCCCC1",
+        "pocket_affinity_score": 0.7927,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket",
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/NDP_R90C/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/NDP_R90C/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/NDP_R90C/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDP_R90C/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/NDP_R90C/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDP-R90C.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-NDP-R90C-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:14:28.500065+00:00"
     }
   ]
 }
