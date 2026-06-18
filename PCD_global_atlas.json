@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2272,
+  "total_entries": 2273,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47007,
-    "queue_remaining": 131590
+    "total_processed": 47008,
+    "queue_remaining": 131589
   },
   "entries": [
     {
@@ -524898,6 +524898,127 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T10:56:37.984291+00:00"
+    },
+    {
+      "entry_id": "PCD-EEF1A2-A125E",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EEF1A2-A125E.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "EEF1A2",
+        "uniprot": "",
+        "clinvar_id": "373747",
+        "disease": "not specified",
+        "mutation_precursor": "A125E",
+        "mutation_mature": "A125E",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.835930177941135,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 359.35207276445254,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          3.2952535152435303,
+          21.817684173583984,
+          -18.491317749023438
+        ],
+        "dist_mutation_to_pocket_angstrom": 5.450063365024109,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.677441185931484,
+        "cryptic": true,
+        "pocket_residues": {
+          "G121": "G",
+          "E122": "E",
+          "A125": "A"
+        },
+        "n_lining_residues": 3,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q05639|EEF1A2 variant A125E",
+        "fasta_sequence": "MGKEKTHINIVVIGHVDSGKSTTTGHLIYKCGGIDKRTIEKFEKEAAEMGKGSFKYAWVLDKLKAERERGITIDISLWKFETTKYYITIIDAPGHRDFIKNMITGTSQADCAVLIVAAGVGEFEAGISKNGQTREHALLAYTLGVKQLIVGVNKMDSTEPAYSEKRYDEIVKEVSAYIKKIGYNPATVPFVPISGWHGDNMLEPSPNMPWFKGWKVERKEGNASGVSLLEALDTILPPTRPTDKPLRLPLQDVYKIGGIGTVPVGRVETGILRPGMVVTFAPVNITTEVKSVEMHHEALSEALPGDNVGFNVKNVSVKDIRRGNVCGDSKSDPPQEAAQFTSQVIILNHPGQISAGYSPVIDCHTAHIACKFAELKEKIDRRSGKKLEDNPKSLKSGDAAIVEMVPGKPMCVESFSQYPPLGRFAVRDMRQTVAVGVIKNVEKKSGGAGKVTKSAQKAQKAGK",
+        "full_sequence": "MGKEKTHINIVVIGHVDSGKSTTTGHLIYKCGGIDKRTIEKFEKEAAEMGKGSFKYAWVLDKLKAERERGITIDISLWKFETTKYYITIIDAPGHRDFIKNMITGTSQADCAVLIVAAGVGEFEAGISKNGQTREHALLAYTLGVKQLIVGVNKMDSTEPAYSEKRYDEIVKEVSAYIKKIGYNPATVPFVPISGWHGDNMLEPSPNMPWFKGWKVERKEGNASGVSLLEALDTILPPTRPTDKPLRLPLQDVYKIGGIGTVPVGRVETGILRPGMVVTFAPVNITTEVKSVEMHHEALSEALPGDNVGFNVKNVSVKDIRRGNVCGDSKSDPPQEAAQFTSQVIILNHPGQISAGYSPVIDCHTAHIACKFAELKEKIDRRSGKKLEDNPKSLKSGDAAIVEMVPGKPMCVESFSQYPPLGRFAVRDMRQTVAVGVIKNVEKKSGGAGKVTKSAQKAQKAGK",
+        "n_residues": 463,
+        "mutation_pos_1indexed": 125,
+        "wt_aa": "A",
+        "mut_aa": "E",
+        "pocket_lining_residues": "G121-E122-A125",
+        "pocket_lining_positions_precursor": [
+          121,
+          122,
+          125
+        ],
+        "pocket_lining_1letter": "GEA",
+        "sequence_slice_around_pocket": "IVAAGVGEFEAGISKNGQTR"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/EEF1A2_A125E/E_ij_matrix.npy",
+        "shape": [
+          3,
+          3
+        ],
+        "residue_labels": [
+          "G121",
+          "E122",
+          "A125"
+        ],
+        "values": [
+          [
+            0.0,
+            3.861,
+            6.014
+          ],
+          [
+            3.861,
+            0.0,
+            5.14
+          ],
+          [
+            6.014,
+            5.14,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "composite_score": 0.7551548089146691,
+        "mw": 262.17,
+        "logp": 1.974,
+        "hbd": 1,
+        "hba": 3,
+        "rotatable_bonds": 4,
+        "qed": 0.9018,
+        "sa_score": 1.99,
+        "n_heavy_atoms": 19,
+        "tpsa": 41.6,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "EEF1A2-A125E Candidate #1",
+        "iupac_name": "CNC(=O)Cc1ccc(OC)cc1N1CCCCC1",
+        "pocket_affinity_score": 0.7552,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Glu in the cryptic pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/EEF1A2_A125E/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/EEF1A2_A125E/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/EEF1A2_A125E/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/EEF1A2_A125E/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/EEF1A2_A125E/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EEF1A2-A125E.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-EEF1A2-A125E-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T10:57:05.141715+00:00"
     }
   ]
 }
