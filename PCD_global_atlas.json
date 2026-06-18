@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 2437,
+  "total_entries": 2438,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 47198,
-    "queue_remaining": 131399
+    "total_processed": 47199,
+    "queue_remaining": 131398
   },
   "entries": [
     {
@@ -569783,6 +569783,254 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T13:24:29.739780+00:00"
+    },
+    {
+      "entry_id": "PCD-PORCN-W189R",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PORCN-W189R.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PORCN",
+        "uniprot": "",
+        "clinvar_id": "374245",
+        "disease": "Focal dermal hypoplasia",
+        "mutation_precursor": "W189R",
+        "mutation_mature": "W189R",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7801899453420913,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 405.3467738820945,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -20.732181549072266,
+          17.64525604248047,
+          9.541913986206055
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.648497771837108,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.6048258583509649,
+        "cryptic": true,
+        "pocket_residues": {
+          "R183": "R",
+          "P184": "P",
+          "L185": "L",
+          "S186": "S",
+          "C187": "C",
+          "R188": "R",
+          "W189": "W",
+          "L190": "L",
+          "L268": "L",
+          "G270": "G"
+        },
+        "n_lining_residues": 10,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9H237|PORCN variant W189R",
+        "fasta_sequence": "MATFSRQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLACRLLWRLGLPSYLKHASTVAGGFFSLYHFFQLHMVWVVLLSLLCYLVLFLCRHSSHRGVFLSVTILIYLLMGEMHMVDTVTWHKMRGAQMIVAMKAVSLGFDLDRGEVGTVPSPVEFMGYLYFVGTIVFGPWISFHSYLQAVQGRPLSCRWLQKVARSLALALLCLVLSTCVGPYLFPYFIPLNGDRLLRNKKRKARGTMVRWLRAYESAVSFHFSNYFVGFLSEATATLAGAGFTEEKDHLEWDLTVSKPLNVELPRSMVEVVTSWNLPMSYWLNNYVFKNALRLGTFSAVLVTYAASALLHGFSFHLAAVLLSLAFITYVEHVLRKRLARILSACVLSKRCPPDCSHQHRLGLGVRALNLLFGALAIFHLAYLGSLFDVDVDDTTEEQGYGMAYTVHKWSELSWASHWVTFGCWIFYRLIG",
+        "full_sequence": "MATFSRQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLACRLLWRLGLPSYLKHASTVAGGFFSLYHFFQLHMVWVVLLSLLCYLVLFLCRHSSHRGVFLSVTILIYLLMGEMHMVDTVTWHKMRGAQMIVAMKAVSLGFDLDRGEVGTVPSPVEFMGYLYFVGTIVFGPWISFHSYLQAVQGRPLSCRWLQKVARSLALALLCLVLSTCVGPYLFPYFIPLNGDRLLRNKKRKARGTMVRWLRAYESAVSFHFSNYFVGFLSEATATLAGAGFTEEKDHLEWDLTVSKPLNVELPRSMVEVVTSWNLPMSYWLNNYVFKNALRLGTFSAVLVTYAASALLHGFSFHLAAVLLSLAFITYVEHVLRKRLARILSACVLSKRCPPDCSHQHRLGLGVRALNLLFGALAIFHLAYLGSLFDVDVDDTTEEQGYGMAYTVHKWSELSWASHWVTFGCWIFYRLIG",
+        "n_residues": 461,
+        "mutation_pos_1indexed": 189,
+        "wt_aa": "W",
+        "mut_aa": "R",
+        "pocket_lining_residues": "R183-P184-L185-S186-C187-R188-W189-L190-L268-G270",
+        "pocket_lining_positions_precursor": [
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          268,
+          270
+        ],
+        "pocket_lining_1letter": "RPLSCRWLLG",
+        "sequence_slice_around_pocket": "AVQGRPLSCRWLQKVARSLA"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PORCN_W189R/E_ij_matrix.npy",
+        "shape": [
+          10,
+          10
+        ],
+        "residue_labels": [
+          "R183",
+          "P184",
+          "L185",
+          "S186",
+          "C187",
+          "R188",
+          "W189",
+          "L190",
+          "L268",
+          "G270"
+        ],
+        "values": [
+          [
+            0.0,
+            3.875,
+            6.576,
+            8.901,
+            12.593,
+            12.421,
+            10.27,
+            12.962,
+            11.686,
+            7.502
+          ],
+          [
+            3.875,
+            0.0,
+            3.807,
+            6.259,
+            10.032,
+            10.903,
+            9.353,
+            11.413,
+            12.19,
+            9.379
+          ],
+          [
+            6.576,
+            3.807,
+            0.0,
+            3.829,
+            7.075,
+            8.537,
+            6.692,
+            7.897,
+            9.872,
+            8.7
+          ],
+          [
+            8.901,
+            6.259,
+            3.829,
+            0.0,
+            3.817,
+            5.278,
+            5.14,
+            6.637,
+            11.245,
+            10.625
+          ],
+          [
+            12.593,
+            10.032,
+            7.075,
+            3.817,
+            0.0,
+            3.878,
+            5.416,
+            5.209,
+            12.134,
+            12.904
+          ],
+          [
+            12.421,
+            10.903,
+            8.537,
+            5.278,
+            3.878,
+            0.0,
+            3.847,
+            5.567,
+            11.535,
+            11.884
+          ],
+          [
+            10.27,
+            9.353,
+            6.692,
+            5.14,
+            5.416,
+            3.847,
+            0.0,
+            3.838,
+            7.776,
+            8.261
+          ],
+          [
+            12.962,
+            11.413,
+            7.897,
+            6.637,
+            5.209,
+            5.567,
+            3.838,
+            0.0,
+            7.786,
+            10.252
+          ],
+          [
+            11.686,
+            12.19,
+            9.872,
+            11.245,
+            12.134,
+            11.535,
+            7.776,
+            7.786,
+            0.0,
+            5.167
+          ],
+          [
+            7.502,
+            9.379,
+            8.7,
+            10.625,
+            12.904,
+            11.884,
+            8.261,
+            10.252,
+            5.167,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.646763066282407,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PORCN-W189R Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6468,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Ser/Thr) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PORCN_W189R/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PORCN_W189R/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PORCN_W189R/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PORCN_W189R/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PORCN_W189R/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PORCN-W189R.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PORCN-W189R-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T13:24:57.365049+00:00"
     }
   ]
 }
