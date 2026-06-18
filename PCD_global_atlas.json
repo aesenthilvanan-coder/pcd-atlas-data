@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1881,
+  "total_entries": 1882,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46565,
-    "queue_remaining": 132032
+    "total_processed": 46566,
+    "queue_remaining": 132031
   },
   "entries": [
     {
@@ -426100,6 +426100,208 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:45:14.516802+00:00"
+    },
+    {
+      "entry_id": "PCD-PPA2-R127L",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PPA2-R127L.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "PPA2",
+        "uniprot": "",
+        "clinvar_id": "372225",
+        "disease": "Sudden cardiac failure, infantile",
+        "mutation_precursor": "R127L",
+        "mutation_mature": "R127L",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.9058915914105583,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 566.9619162014608,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -11.705802917480469,
+          -7.315947532653809,
+          -10.521427154541016
+        ],
+        "dist_mutation_to_pocket_angstrom": 3.63458931682214,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.8963465663744392,
+        "cryptic": true,
+        "pocket_residues": {
+          "N103": "N",
+          "A104": "A",
+          "K105": "K",
+          "L126": "L",
+          "R127": "R",
+          "Y128": "Y",
+          "V129": "V",
+          "A130": "A"
+        },
+        "n_lining_residues": 8,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q9H2U2|PPA2 variant R127L",
+        "fasta_sequence": "MSALLRLLRTGAPAAACLRLGTSAGTGSRRAMALYHTEERGQPCSQNYRLFFKNVTGHYISPFHDIPLKVNSKEENGIPMKKARNDEYENLFNMIVEIPRWTNAKMEIATKEPMNPIKQYVKDGKLRYVANIFPYKGYIWNYGTLPQTWEDPHEKDKSTNCFGDNDPIDVCEIGSKILSCGEVIHVKILGILALIDEGETDWKLIAINANDPEASKFHDIDDVKKFKPGYLEATLNWFRLYKVPDGKPENQFAFNGEFKNKAFALEVIKSTHQCWKALLMKKCNGGAINCTNVQISDSPFRCTQEEARSLVESVSSSPNKESNEEEQVWHFLGK",
+        "full_sequence": "MSALLRLLRTGAPAAACLRLGTSAGTGSRRAMALYHTEERGQPCSQNYRLFFKNVTGHYISPFHDIPLKVNSKEENGIPMKKARNDEYENLFNMIVEIPRWTNAKMEIATKEPMNPIKQYVKDGKLRYVANIFPYKGYIWNYGTLPQTWEDPHEKDKSTNCFGDNDPIDVCEIGSKILSCGEVIHVKILGILALIDEGETDWKLIAINANDPEASKFHDIDDVKKFKPGYLEATLNWFRLYKVPDGKPENQFAFNGEFKNKAFALEVIKSTHQCWKALLMKKCNGGAINCTNVQISDSPFRCTQEEARSLVESVSSSPNKESNEEEQVWHFLGK",
+        "n_residues": 334,
+        "mutation_pos_1indexed": 127,
+        "wt_aa": "R",
+        "mut_aa": "L",
+        "pocket_lining_residues": "N103-A104-K105-L126-R127-Y128-V129-A130",
+        "pocket_lining_positions_precursor": [
+          103,
+          104,
+          105,
+          126,
+          127,
+          128,
+          129,
+          130
+        ],
+        "pocket_lining_1letter": "NAKLRYVA",
+        "sequence_slice_around_pocket": "IKQYVKDGKLRYVANIFPYK"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/PPA2_R127L/E_ij_matrix.npy",
+        "shape": [
+          8,
+          8
+        ],
+        "residue_labels": [
+          "N103",
+          "A104",
+          "K105",
+          "L126",
+          "R127",
+          "Y128",
+          "V129",
+          "A130"
+        ],
+        "values": [
+          [
+            0.0,
+            3.828,
+            5.955,
+            10.945,
+            8.553,
+            5.297,
+            5.07,
+            7.197
+          ],
+          [
+            3.828,
+            0.0,
+            3.848,
+            7.831,
+            6.29,
+            4.451,
+            6.492,
+            9.414
+          ],
+          [
+            5.955,
+            3.848,
+            0.0,
+            8.015,
+            5.694,
+            5.425,
+            6.441,
+            10.164
+          ],
+          [
+            10.945,
+            7.831,
+            8.015,
+            0.0,
+            3.823,
+            6.659,
+            10.17,
+            12.538
+          ],
+          [
+            8.553,
+            6.29,
+            5.694,
+            3.823,
+            0.0,
+            3.777,
+            6.647,
+            9.323
+          ],
+          [
+            5.297,
+            4.451,
+            5.425,
+            6.659,
+            3.777,
+            0.0,
+            3.817,
+            6.292
+          ],
+          [
+            5.07,
+            6.492,
+            6.441,
+            10.17,
+            6.647,
+            3.817,
+            0.0,
+            3.807
+          ],
+          [
+            7.197,
+            9.414,
+            10.164,
+            12.538,
+            9.323,
+            6.292,
+            3.807,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "composite_score": 0.6553627237139611,
+        "mw": 258.14,
+        "logp": 1.978,
+        "hbd": 2,
+        "hba": 3,
+        "rotatable_bonds": 7,
+        "qed": 0.7455,
+        "sa_score": 2.33,
+        "n_heavy_atoms": 19,
+        "tpsa": 76.0,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "PPA2-R127L Candidate #1",
+        "iupac_name": "NCCC(=O)CC(=O)CCc1c[nH]c2ccccc12",
+        "pocket_affinity_score": 0.6554,
+        "binding_mode": {
+          "hydrophobic_pi": "Aromatic ring(s) engage hydrophobic residues (Phe/Tyr/Trp)",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/PPA2_R127L/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/PPA2_R127L/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/PPA2_R127L/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/PPA2_R127L/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/PPA2_R127L/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PPA2-R127L.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-PPA2-R127L-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:45:39.456488+00:00"
     }
   ]
 }
