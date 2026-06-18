@@ -5,12 +5,12 @@
   "investigator": "Aaryan Senthilvanan",
   "institution": "S.Y.A.L.I.S Labs",
   "powered_by": "REFOLD",
-  "total_entries": 1830,
+  "total_entries": 1831,
   "proteome_targets": {
     "total_clinvar_pathogenic_missense": 178597,
     "total_genes_affected": 5992,
-    "total_processed": 46506,
-    "queue_remaining": 132091
+    "total_processed": 46507,
+    "queue_remaining": 132090
   },
   "entries": [
     {
@@ -412080,6 +412080,188 @@
       },
       "status": "COMPLETE",
       "created_at": "2026-06-18T04:18:39.823875+00:00"
+    },
+    {
+      "entry_id": "PCD-GCDH-G390A",
+      "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GCDH-G390A.pdb",
+      "investigator": "Aaryan Senthilvanan",
+      "institution": "S.Y.A.L.I.S Labs",
+      "metadata": {
+        "gene": "GCDH",
+        "uniprot": "",
+        "clinvar_id": "371251",
+        "disease": "Glutaric aciduria, type 1",
+        "mutation_precursor": "G390A",
+        "mutation_mature": "G390A",
+        "variant_class": "pathogenic",
+        "mechanism": "Pathogenic missense \u2014 mechanism TBD"
+      },
+      "pocket": {
+        "target_conformation": "ANM mutant conformation 10 (of 20)",
+        "n_conformations_sampled": 20,
+        "fpocket_druggability": 0.7430375599617463,
+        "wt_baseline_druggability": 0.0,
+        "volume_angstrom3": 545.4684399442052,
+        "alpha_sphere_count": 1,
+        "center_angstrom": [
+          -6.532086372375488,
+          7.504337787628174,
+          26.68950843811035
+        ],
+        "dist_mutation_to_pocket_angstrom": 4.051134604410032,
+        "exceeds_threshold": true,
+        "pocket_type": "Cryptic",
+        "detection_frequency": 0.7117269870910631,
+        "cryptic": true,
+        "pocket_residues": {
+          "D387": "D",
+          "L389": "L",
+          "G390": "G",
+          "G391": "G",
+          "N392": "N",
+          "G393": "G",
+          "I394": "I"
+        },
+        "n_lining_residues": 7,
+        "shell_radius_angstrom": 8.0
+      },
+      "sequence": {
+        "fasta_header": ">sp|Q92947|GCDH variant G390A",
+        "fasta_sequence": "MALRGVSVRLLSRGPGLHVLRTWVSSAAQTEKGGRTQSQLAKSSRPEFDWQDPLVLEEQLTTDEILIRDTFRTYCQERLMPRILLANRNEVFHREIISEMGELGVLGPTIKGYGCAGVSSVAYGLLARELERVDSGYRSAMSVQSSLVMHPIYAYGSEEQRQKYLPQLAKGELLGCFGLTEPNSGSDPSSMETRAHYNSSNKSYTLNGTKTWITNSPMADLFVVWARCEDGCIRGFLLEKGMRGLSAPRIQGKFSLRASATGMIIMDGVEVPEENVLPGASSLGGPFGCLNNARYGIAWGVLGASEFCLHTARQYALDRMQFGVPLARNQLIQKKLADMLTEITLGLHACLQLGRLKDQDKAAPEMVSLLKRNNCGKALDIARQARDMLGGNGISDEYHVIRHAMNLEAVNTYEGTHDIHALILGRAITGIQAFTASK",
+        "full_sequence": "MALRGVSVRLLSRGPGLHVLRTWVSSAAQTEKGGRTQSQLAKSSRPEFDWQDPLVLEEQLTTDEILIRDTFRTYCQERLMPRILLANRNEVFHREIISEMGELGVLGPTIKGYGCAGVSSVAYGLLARELERVDSGYRSAMSVQSSLVMHPIYAYGSEEQRQKYLPQLAKGELLGCFGLTEPNSGSDPSSMETRAHYNSSNKSYTLNGTKTWITNSPMADLFVVWARCEDGCIRGFLLEKGMRGLSAPRIQGKFSLRASATGMIIMDGVEVPEENVLPGASSLGGPFGCLNNARYGIAWGVLGASEFCLHTARQYALDRMQFGVPLARNQLIQKKLADMLTEITLGLHACLQLGRLKDQDKAAPEMVSLLKRNNCGKALDIARQARDMLGGNGISDEYHVIRHAMNLEAVNTYEGTHDIHALILGRAITGIQAFTASK",
+        "n_residues": 438,
+        "mutation_pos_1indexed": 390,
+        "wt_aa": "G",
+        "mut_aa": "A",
+        "pocket_lining_residues": "D387-L389-G390-G391-N392-G393-I394",
+        "pocket_lining_positions_precursor": [
+          387,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394
+        ],
+        "pocket_lining_1letter": "DLGGNGI",
+        "sequence_slice_around_pocket": "DIARQARDMLGGNGISDEYH"
+      },
+      "eij_matrix": {
+        "file": "/Users/TheAES/Desktop/REFOLD/data/results/GCDH_G390A/E_ij_matrix.npy",
+        "shape": [
+          7,
+          7
+        ],
+        "residue_labels": [
+          "D387",
+          "L389",
+          "G390",
+          "G391",
+          "N392",
+          "G393",
+          "I394"
+        ],
+        "values": [
+          [
+            0.0,
+            5.496,
+            5.385,
+            8.323,
+            9.216,
+            6.49,
+            8.828
+          ],
+          [
+            5.496,
+            0.0,
+            3.867,
+            6.474,
+            5.49,
+            4.464,
+            8.208
+          ],
+          [
+            5.385,
+            3.867,
+            0.0,
+            3.848,
+            5.469,
+            5.314,
+            7.756
+          ],
+          [
+            8.323,
+            6.474,
+            3.848,
+            0.0,
+            3.851,
+            5.363,
+            6.033
+          ],
+          [
+            9.216,
+            5.49,
+            5.469,
+            3.851,
+            0.0,
+            3.841,
+            5.488
+          ],
+          [
+            6.49,
+            4.464,
+            5.314,
+            5.363,
+            3.841,
+            0.0,
+            3.871
+          ],
+          [
+            8.828,
+            8.208,
+            7.756,
+            6.033,
+            5.488,
+            3.871,
+            0.0
+          ]
+        ]
+      },
+      "chaperone": {
+        "rank": 1,
+        "smiles": "NCc1ccncc1N1CCCCC1NCCNC(=O)c1ccc(F)cc1",
+        "composite_score": 0.6881772951029291,
+        "mw": 371.21,
+        "logp": 2.015,
+        "hbd": 3,
+        "hba": 5,
+        "rotatable_bonds": 7,
+        "qed": 0.6488,
+        "sa_score": 3.03,
+        "n_heavy_atoms": 27,
+        "tpsa": 83.3,
+        "lipinski": true,
+        "veber": true,
+        "pains": false,
+        "common_name": "GCDH-G390A Candidate #1",
+        "iupac_name": "NCc1ccncc1N1CCCCC1NCCNC(=O)c1ccc(F)cc1",
+        "pocket_affinity_score": 0.6882,
+        "binding_mode": {
+          "salt_bridge": "Basic nitrogen(s) form ionic interaction with Asp in the cryptic pocket",
+          "hydrogen_bonds": "H-bond donors complement polar residues (Asn/Gln) lining the pocket"
+        }
+      },
+      "assets": {
+        "eij_matrix_npy": "/Users/TheAES/Desktop/REFOLD/data/results/GCDH_G390A/E_ij_matrix.npy",
+        "eij_matrix_csv": "/Users/TheAES/Desktop/REFOLD/data/results/GCDH_G390A/E_ij_matrix.csv",
+        "transient_conformation_pdb": "/Users/TheAES/Desktop/REFOLD/data/results/GCDH_G390A/conformations/mt_10.pdb",
+        "pocket_summary_json": "/Users/TheAES/Desktop/REFOLD/data/results/GCDH_G390A/pocket_summary.json",
+        "stage3_candidates_json": "/Users/TheAES/Desktop/REFOLD/data/results/GCDH_G390A/stage3_chaperone_candidates.json",
+        "pdb_structure": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GCDH-G390A.pdb",
+        "ligand_sdf_url": "https://raw.githubusercontent.com/aesenthilvanan-coder/pcd-atlas-data/main/structures/PCD-GCDH-G390A-ligand.sdf"
+      },
+      "status": "COMPLETE",
+      "created_at": "2026-06-18T04:19:04.587446+00:00"
     }
   ]
 }
